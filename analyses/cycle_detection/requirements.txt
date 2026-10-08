@@ -1,0 +1,3 @@
+# Versions already installed and used for the verified run.
+numpy==2.3.5
+matplotlib==3.10.8
