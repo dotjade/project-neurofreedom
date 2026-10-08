@@ -52,8 +52,8 @@ For computational work, split data by participant, family and site as appropriat
 
 The four research schedules were enabled on 8 October 2026 after user approval. See STATUS.md for start dates and flexible timing. Setup success is not evidence that a future run has already executed.
 
-- Daily: search new publications, trial updates and consequential safety findings; log queries, relevant inclusions and no-change results.
-- Weekly: synthesize new evidence, contradictions, priority changes and one bounded next analysis. Notify the user with useful findings rather than an unchanged success message.
+- Daily: search new publications, trial updates and consequential safety findings; then advance one bounded question through counterevidence review, structured extraction, reanalysis or a small reproducible synthetic/permitted-public-data computation. Log the prediction, method, actual finding, uncertainty and next decision. If blocked, identify the missing prerequisite. Do not invent a result or repeatedly redo completed work.
+- Weekly: synthesize new evidence and complete or verify one feasible bounded analysis, preserving code, inputs, random seeds, outputs, negative results and independent checks. Propose the next informative experiment with its clinical/ethics/data-access dependencies. Report what was tested, learned, rejected and what help is needed, rather than merely listing new papers.
 - Monthly: reassess the hypothesis portfolio, failed predictions, computational progress, feasible collaboration routes and resources needed.
 - Quarterly: revisit strategy, target pathways and adjacent-field developments; produce a versioned progress report including negative findings and unmet dependencies.
 
@@ -62,3 +62,7 @@ A run must report inability to access a required source or update the repository
 ## First analysis to prioritize
 
 Operationalize remission before searching for a switch. Extract how longitudinal studies defined tic absence, how long it lasted, who rated it, whether observers were blinded, medication status and quality-of-life change. Determine whether plausible mechanistic signals predict trajectory after adjusting for age, baseline severity, ascertainment and attrition. This is tractable evidence work that can proceed without collecting any new patient data.
+
+## Active discovery execution update on 8 October 2026
+
+The daily and weekly schedules were successfully updated to require hypothesis testing or feasible analyses, not collection alone. Existing schedules remain unchanged. Research runs use available compute; no paid resources, external-agent connections, public release or clinical intervention are authorized by this execution plan. Synthetic methods tests must be labelled explicitly and cannot establish an individual biological mechanism. An open collaboration project remains a proposal pending a reviewed publication scope and appropriate governance.
