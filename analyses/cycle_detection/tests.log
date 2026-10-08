@@ -1,0 +1,16 @@
+test_constant_history_has_no_incremental_cycle_fit (test_simulate.Tests.test_constant_history_has_no_incremental_cycle_fit) ... ok
+test_exact_clean_period_recovery_and_forecast (test_simulate.Tests.test_exact_clean_period_recovery_and_forecast) ... ok
+test_future_independence (test_simulate.Tests.test_future_independence) ... ok
+test_linear_history_has_no_incremental_cycle_fit (test_simulate.Tests.test_linear_history_has_no_incremental_cycle_fit) ... ok
+test_no_mutation_and_finite_predictions (test_simulate.Tests.test_no_mutation_and_finite_predictions) ... ok
+test_reject_missing_values (test_simulate.Tests.test_reject_missing_values) ... ok
+test_reporting_nonidentifiability (test_simulate.Tests.test_reporting_nonidentifiability) ... ok
+test_reproducibility (test_simulate.Tests.test_reproducibility) ... ok
+test_stationary_ar_scale (test_simulate.Tests.test_stationary_ar_scale) ... ok
+test_temporal_boundaries (test_simulate.Tests.test_temporal_boundaries) ... ok
+test_zero_history_has_no_incremental_cycle_fit (test_simulate.Tests.test_zero_history_has_no_incremental_cycle_fit) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.086s
+
+OK
