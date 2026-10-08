@@ -39,6 +39,8 @@ Animal stereotypies, startle gating and cellular firing are mechanistic proxies,
 
 ### H01. A subset of CELSR3-associated circuit abnormalities remains reversible after development
 
+**Anchor classification:** P: human genetic and model-system mechanism; adult rescue is S.
+
 **Proposed claim (S):** In TS-relevant CELSR3 variant models, correcting the abnormal downstream synaptic program after circuits have matured will normalize corticostriatal dynamics, not merely prevent an embryonic defect.
 
 **Rationale and evidence:** CELSR3 was implicated by recurrent damaging de novo variants in a study of 802 trios. Human-variant mouse models subsequently demonstrated altered sensorimotor behavior and dopamine-related phenotypes. These are strong genetic discovery leads but preliminary therapeutic evidence. [Wang et al., Cell Reports, 2018](https://www.sciencedirect.com/science/article/pii/S221112471831386X); [Nasello et al., PNAS, 2024](https://pubmed.ncbi.nlm.nih.gov/38683996/)
@@ -52,6 +54,8 @@ Animal stereotypies, startle gating and cellular firing are mechanistic proxies,
 **Feasibility:** **P2.** Variant-to-pathway analysis is tractable; valid mature circuit models and safe translation are major dependencies. This is not a proposal for patient gene editing.
 
 ### H02. Synaptic dosage defects define a treatable NRXN1/CNTN6 endotype
+
+**Anchor classification:** P: rare-variant association as a therapeutic anchor; shared rescue endotype is S.
 
 **Proposed claim (S):** A prespecified synaptic-adhesion phenotype in carriers of TS-associated NRXN1 deletions or CNTN6 duplications predicts a common, reversible network defect that is separable from general neurodevelopmental impairment.
 
@@ -67,6 +71,8 @@ Animal stereotypies, startle gating and cellular firing are mechanistic proxies,
 
 ### H03. The 5q15 association acts through a specific developmental regulatory program
 
+**Anchor classification:** P: associated locus and effector-gene nomination; therapeutic mechanism is S.
+
 **Proposed claim (S):** The TS-associated 5q15 locus changes a particular regulatory program involving NR2F1 or nearby noncoding transcripts in a relevant neural cell state, and that program exposes a tractable downstream target.
 
 **Rationale and evidence:** A GWAS meta-analysis of 6,133 cases and 13,565 controls identified a 5q15 locus; integrated annotations implicated NR2F1 and associated noncoding RNAs. The locus is evidence of association; the effector gene and therapeutic direction remain uncertain. [Tsetsos et al., Biological Psychiatry, online 2023/issue 2024](https://pmc.ncbi.nlm.nih.gov/articles/PMC10783199/)
@@ -80,6 +86,8 @@ Animal stereotypies, startle gating and cellular firing are mechanistic proxies,
 **Feasibility:** **P1 for target nomination; P2 for validation.** The paper states that summary statistics are available on request, so full reanalysis is access-dependent. Do not report them as an already downloaded open dataset.
 
 ### H04. A downstream ASH1L program can be corrected without broad chromatin manipulation
+
+**Anchor classification:** P: genetics and experimental models; selective downstream rescue is S.
 
 **Proposed claim (S):** In ASH1L-related TS models, a limited downstream transcriptional module drives abnormal striatal activity and can be corrected without globally altering histone regulation.
 
@@ -95,6 +103,8 @@ Animal stereotypies, startle gating and cellular firing are mechanistic proxies,
 
 ### H05. Histaminergic restoration benefits a defined low-histamine TS subgroup
 
+**Anchor classification:** P: rare-family and animal mechanism; a broader biomarker-defined subgroup is S.
+
 **Proposed claim (S):** A reproducibly identified histamine-signaling deficit, rather than TS diagnosis alone, predicts rescue of dopamine-related circuit abnormalities by selective restoration of that signaling.
 
 **Rationale and evidence:** A rare HDC mutation segregated in a highly unusual family. Hdc-deficient mice and mutation carriers showed related sensorimotor findings, and histamine manipulation modified mouse abnormalities. This is a mechanistically valuable rare-family anchor, not proof that most TS reflects histamine deficiency. [Ercan-Sencicek et al., NEJM, 2010](https://pubmed.ncbi.nlm.nih.gov/20445167/); [Baldan et al., Neuron, 2014](https://pubmed.ncbi.nlm.nih.gov/24411733/)
@@ -108,6 +118,8 @@ Animal stereotypies, startle gating and cellular firing are mechanistic proxies,
 **Feasibility:** **P2.** Strong rare-mechanism logic, substantial biomarker gap. This does not support histamine supplements or unsupervised antihistamine experiments.
 
 ### H06. Cell-specific D3 receptor redistribution is a rescue target in CELSR3 dysfunction
+
+**Anchor classification:** P: animal molecular and behavioral experiments; human translation is S.
 
 **Proposed claim (S):** Excess postsynaptic D3 signaling in striosomal D1 neurons, rather than total striatal D3 abundance, mediates a reversible tic-like phenotype in a CELSR3-defined endotype.
 
@@ -123,6 +135,8 @@ Animal stereotypies, startle gating and cellular firing are mechanistic proxies,
 
 ### H07. D1 modulation can create a window for durable relearning
 
+**Anchor classification:** E: randomized on-treatment symptom benefit in the studied populations; durable combination benefit is S.
+
 **Proposed claim (S):** Combining a time-limited D1-targeted intervention with structured tic-focused behavioral learning yields benefit that persists after the drug effect ends, exceeding either intervention alone.
 
 **Rationale and evidence:** D1 antagonism has randomized symptom-treatment evidence. The 2026 ecopipam phase 3 randomized-withdrawal trial found lower relapse risk among pediatric responders who continued treatment; adult evidence was exploratory and small. This establishes maintenance of suppression in selected responders, not disease modification. [Gilbert et al., JAMA Neurology, 2026](https://pubmed.ncbi.nlm.nih.gov/42189524/)
@@ -136,6 +150,8 @@ Animal stereotypies, startle gating and cellular firing are mechanistic proxies,
 **Feasibility:** **P2.** Clinically grounded hypothesis, but requires a regulated collaborative trial. Current phase 3 evidence is not a cure and does not establish this combination's efficacy.
 
 ### H08. Restoring striatal parvalbumin-interneuron timing reduces pathological action release
+
+**Anchor classification:** P: small postmortem human studies; selective functional restoration is S.
 
 **Proposed claim (S):** In an objectively defined inhibitory-control endotype, restoring the timing and recruitment of surviving striatal parvalbumin interneurons reduces inappropriate motor-program release without impairing intended movement.
 
@@ -151,6 +167,8 @@ Animal stereotypies, startle gating and cellular firing are mechanistic proxies,
 
 ### H09. Cholinergic signaling dynamics matter more than total cholinergic terminal abundance
 
+**Anchor classification:** P: animal intervention and conflicting small human studies; timing-based rescue is S.
+
 **Proposed claim (S):** A subgroup has abnormal striatal cholinergic response timing despite preserved terminal density, and correcting that timing normalizes action gating.
 
 **Rationale and evidence:** Targeted striatal cholinergic-cell ablation produced TS-relevant mouse behavior, supporting causal plausibility of this cell class. [Xu et al., PNAS, 2015](https://pmc.ncbi.nlm.nih.gov/articles/PMC4311862/)
@@ -164,6 +182,8 @@ Animal stereotypies, startle gating and cellular firing are mechanistic proxies,
 **Feasibility:** **P2.** Resolves a concrete conflict in the literature. No implication that increasing acetylcholine globally will be helpful or safe.
 
 ### H10. A microglial state drives circuit dysfunction in a restricted TS subgroup
+
+**Anchor classification:** P: small postmortem molecular study; upstream immune causality and rescue are S.
 
 **Proposed claim (S):** A reproducible microglial state is upstream of synaptic or interneuron dysfunction in a subset of TS, and selectively modifying that state rescues circuit function.
 
@@ -179,6 +199,8 @@ Animal stereotypies, startle gating and cellular firing are mechanistic proxies,
 
 ### H11. Medium spiny neuron metabolic dysfunction amplifies a reversible circuit defect
 
+**Anchor classification:** P: postmortem transcriptional signature; metabolic causality and rescue are S.
+
 **Proposed claim (S):** Reduced oxidative metabolism in a molecularly defined medium spiny neuron subgroup is a causal amplifier of abnormal firing, and selective metabolic correction improves circuit function.
 
 **Rationale and evidence:** The 2025 striatal single-nucleus study found reduced mitochondrial-function transcriptional signatures in medium spiny neurons. This is a candidate state, not evidence of a generalized systemic mitochondrial disease. [Wang et al., Biological Psychiatry, 2025](https://pmc.ncbi.nlm.nih.gov/articles/PMC12255533/)
@@ -192,6 +214,8 @@ Animal stereotypies, startle gating and cellular firing are mechanistic proxies,
 **Feasibility:** **P2/P3.** Assays are feasible; disease specificity and causal direction are weakly established. This hypothesis does not support supplements, dietary restriction or other personal metabolic interventions.
 
 ### H12. Adaptive cortical GABA predicts who benefits from inhibition-focused intervention
+
+**Anchor classification:** P: human MRS association; compensation-guided treatment selection is S.
 
 **Proposed claim (S):** Higher supplementary motor area GABA reflects a useful compensatory state in some people, and baseline compensation predicts the direction and magnitude of response to a circuit intervention.
 
@@ -207,6 +231,8 @@ Animal stereotypies, startle gating and cellular firing are mechanistic proxies,
 
 ### H13. NMDA-dependent learning enhancement can increase durable behavioral benefit
 
+**Anchor classification:** P: small augmentation trial; durable generalized learning enhancement is S.
+
 **Proposed claim (S):** Enhancing a verified successful learning process during behavioral treatment produces durable reduction across clinically important tics, rather than a short-lived improvement only in practiced tics.
 
 **Rationale and evidence:** A small randomized study of 20 young people found preliminary benefit from D-cycloserine augmentation of one habit-reversal session on targeted tics. [McGuire et al., Neuropsychopharmacology, 2020](https://www.nature.com/articles/s41386-020-0762-4)
@@ -220,6 +246,8 @@ Animal stereotypies, startle gating and cellular firing are mechanistic proxies,
 **Feasibility:** **P2.** A testable augmentation question, not an off-label medication suggestion. Careful safety review and independent replication are required.
 
 ### H14. A prespecified endocannabinoid endotype explains heterogeneous trial response
+
+**Anchor classification:** P: mixed clinical findings; a replicable biological treatment selector is S.
 
 **Proposed claim (S):** A biological endocannabinoid-signaling profile, defined independently of treatment outcome, identifies a subgroup with reproducible tic benefit without unacceptable cognitive or psychiatric effects.
 
@@ -235,6 +263,8 @@ Animal stereotypies, startle gating and cellular firing are mechanistic proxies,
 
 ### H15. Network-informed cortical targeting outperforms generic supplementary motor targeting
 
+**Anchor classification:** P: lesion/connectivity and stimulation findings; superior individualized targeting is S.
+
 **Proposed claim (S):** Selecting a cortical stimulation target by its connection to a tic-relevant action-control network improves outcomes compared with a fixed anatomical supplementary motor target.
 
 **Rationale and evidence:** Lesion and DBS connectivity work implicated a distributed tic network; later work identified action-related functional networks relevant to tic modulation. This supports target discovery, not a demonstrated cortical stimulation treatment. [Ganos et al., Brain, 2022](https://academic.oup.com/brain/article/145/12/4385/6506575); [Action-related networks study, Nature Communications, 2024](https://www.nature.com/articles/s41467-024-55242-6)
@@ -248,6 +278,8 @@ Animal stereotypies, startle gating and cellular firing are mechanistic proxies,
 **Feasibility:** **P1 for map replication; P2 for a clinical test.** Public group maps and code are reported available; individual scans remain access-controlled.
 
 ### H16. Tic-state responsive DBS provides more selective benefit than continuous DBS
+
+**Anchor classification:** P: small feasibility cohorts; comparative advantage of responsive stimulation is S.
 
 **Proposed claim (S):** A reproducible neural tic-state detector can trigger stimulation selectively enough to maintain or improve benefit while reducing stimulation exposure and adverse effects compared with optimized continuous DBS.
 
@@ -263,6 +295,8 @@ Animal stereotypies, startle gating and cellular firing are mechanistic proxies,
 
 ### H17. Median nerve stimulation has a specific sensory-gating mechanism
 
+**Anchor classification:** P: a positive short-duration controlled trial; the specific mechanism and durability are S.
+
 **Proposed claim (S):** The tic benefit from patterned median nerve stimulation depends on a reproducible sensory-to-motor physiological mechanism rather than distraction or expectancy, and mechanism-matched stimulation yields greater durable benefit.
 
 **Rationale and evidence:** A randomized active/sham/waitlist study reported short-term improvement with home-administered stimulation. It establishes a reason for independent mechanistic replication, not persistent remission. [Morera Maiquez et al., Journal of Neuropsychology, 2023](https://pubmed.ncbi.nlm.nih.gov/37133932/)
@@ -276,6 +310,8 @@ Animal stereotypies, startle gating and cellular firing are mechanistic proxies,
 **Feasibility:** **P1 for independent trial-analysis planning; P2 for execution.** A comparatively accessible clinical research path, but this is not a device-building or self-stimulation guide.
 
 ### H18. Personalized learning models improve the durability and reach of CBIT
+
+**Anchor classification:** E: randomized CBIT symptom-treatment benefit; model-guided incremental benefit is S.
 
 **Proposed claim (S):** A model distinguishing urge relief, contextual triggers and motor learning can select behavioral components that improve long-term patient-centered outcomes beyond standard CBIT.
 
@@ -291,6 +327,8 @@ Animal stereotypies, startle gating and cellular firing are mechanistic proxies,
 
 ### H19. Natural improvement reveals protective mechanisms that can be reproduced
 
+**Anchor classification:** P: longitudinal imaging and observational cohorts; an actionable protective mechanism is S.
+
 **Proposed claim (S):** A prospectively measured developmental circuit trajectory predicts later improvement independently of initial severity and treatment, and its specific functional feature can be reproduced by a safe intervention.
 
 **Rationale and evidence:** Longitudinal imaging linked childhood caudate volume to later symptom severity. Prospective early-tic work also shows why remission requires careful observation rather than simply relying on subjective disappearance. [Bloch et al., Neurology, 2005](https://pubmed.ncbi.nlm.nih.gov/16247053/); [The New Tics study, 2020](https://pubmed.ncbi.nlm.nih.gov/32587895/)
@@ -304,6 +342,8 @@ Animal stereotypies, startle gating and cellular firing are mechanistic proxies,
 **Feasibility:** **P1 for cohort-analysis design; P2 for access and follow-up.** Potentially high discovery value, but requires years of follow-up and consented data, not public video scraping.
 
 ### H20. SHH–GLI developmental mispatterning exposes a common downstream rescue point
+
+**Anchor classification:** P: patient-derived organoid findings; broadly reproducible and therapeutically useful rescue is S.
 
 **Proposed claim (S):** A defined SHH–GLI/ciliary response abnormality causes a reproducible interneuron-development deficit across a subset of TS backgrounds, and a downstream correction restores functional circuit balance.
 
@@ -450,7 +490,7 @@ This is a focused primary-source discovery review rather than a registered syste
 - Cellular mechanisms: “Tourette syndrome interneurons cholinergic parvalbumin striatum postmortem primary study”; “Tourette syndrome HDC histidine decarboxylase mutation mouse primary study NEJM”; “Interneuron loss and microglia” “GSE”; “Tourette organoids SHH interneuron development 2024 2025 Fasching”.
 - Current pharmacology and negative trials: “Tourette randomized placebo controlled ecopipam 2023 2025 Pediatrics trial”; “Efficacy and Safety of Ecopipam” “Phase 3” 2026; “Tourette deutetrabenazine randomized clinical trial negative 2021 JAMA Network Open”; “Tourette monoacylglycerol lipase inhibition Lu AG06466 12 week randomized trial 2021 negative”.
 - Neuromodulation: “Tourette median nerve stimulation randomized double blind sham 2023 trial”; “Tourette deep brain stimulation connectomic target network 2019 2021 primary study”; “Tourette chronic adaptive deep brain stimulation trial tic biomarkers thalamic 2021 2024”; “Tourette randomized sham controlled supplementary motor area transcranial magnetic stimulation negative 2015 trial”.
-- Learning and development: “Tourette D cycloserine behavior therapy randomized pilot trial 2015 2020”; “Tourette glutamate riluzole D serine randomized trial 2015 placebo primary”; “Tourette remission longitudinal prospective study new tics persistent one year 2019 2021”; “Tourette caudate” was not used as a standalone query; the actual imaging query was “Tourette remission caudate volume childhood predicts adulthood tic severity 2005 2006 study”.
+- Learning and development: “Tourette D cycloserine behavior therapy randomized pilot trial 2015 2020”; “Tourette glutamate riluzole D serine randomized trial 2015 placebo primary”; “Tourette remission longitudinal prospective study new tics persistent one year 2019 2021”; “Tourette remission caudate volume childhood predicts adulthood tic severity 2005 2006 study”.
 - Availability/status checks: “A critical role of action-related functional networks” “Data availability”; “Genome-wide Association Study points to novel locus” “data” “Gilles”; “Tourette disorder features pervasive neuronal” publication preprint 2026.
 
 **Inclusion judgment:** Prefer original human genetics, prospective human studies, controlled trials, causal model experiments and directly relevant molecular studies. Retain important negative evidence even when it weakens a candidate. Preprints are explicitly labeled. Reviews were useful for discovering vocabulary but were not the evidentiary foundation for a therapeutic claim.
