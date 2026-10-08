@@ -1,0 +1,40 @@
+{
+  "warning": "SYNTHETIC methods validation only; no patient data; not a biological result or medical device.",
+  "seed": 20261008,
+  "replicates_per_scenario": 240,
+  "history_lengths": [
+    96,
+    192,
+    384
+  ],
+  "forecast_horizon": 48,
+  "period_grid": {
+    "min": 24,
+    "max": 96,
+    "step": 0.5
+  },
+  "apparent_cycle_threshold": 0.25,
+  "bootstrap_resamples": 2000,
+  "fixed_true_period": 48,
+  "time_units": "arbitrary synthetic steps",
+  "example_selection": [
+    {
+      "scenario": "fixed_period",
+      "replicate": 0,
+      "selection": "First replicate; no performance selection"
+    },
+    {
+      "scenario": "autocorrelated",
+      "replicate": 0,
+      "selection": "First apparent-cycle flag with worse future harmonic error (illustration selected to show failure)"
+    }
+  ],
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "matplotlib": "3.10.8"
+  },
+  "same_replicate_across_histories_and_scenarios_is_paired": true,
+  "independent_unit_for_bootstrap": "replicate trajectory",
+  "source_sha256": "0640cc3beb999fc59c51f6c5ce0c90dbfd3ddeaf48fe4e830f6c07ced8b3bdc4"
+}
