@@ -1,0 +1,30 @@
+Completed fixed_period: 240 synthetic trajectories
+Completed autocorrelated: 240 synthetic trajectories
+Completed slow_trend: 240 synthetic trajectories
+Completed reporting_noise: 240 synthetic trajectories
+Completed noisy_fixed_period: 240 synthetic trajectories
+Completed drifting_period: 240 synthetic trajectories
+Completed periodic_reporting_bias: 240 synthetic trajectories
+
+Scenario | history | apparent flag | forecast skill [95% Monte Carlo CI]
+fixed_period               96 100.0%   45.7% [42.0%, 49.3%]
+fixed_period              192 100.0%   59.1% [56.7%, 61.3%]
+fixed_period              384 100.0%   62.8% [60.9%, 64.5%]
+autocorrelated             96  76.7%  -92.3% [-117.3%, -71.2%]
+autocorrelated            192  51.2%  -44.9% [-62.7%, -31.2%]
+autocorrelated            384   5.0%  -14.4% [-27.0%, -3.2%]
+slow_trend                 96  22.9%   -2.2% [-12.8%, 7.6%]
+slow_trend                192   2.1%   12.0% [3.6%, 20.1%]
+slow_trend                384   0.0%   10.7% [3.7%, 17.1%]
+reporting_noise            96   0.0%   -2.7% [-8.6%, 4.2%]
+reporting_noise           192   0.0%   -1.8% [-3.1%, -0.6%]
+reporting_noise           384   0.0%    4.2% [1.1%, 7.9%]
+noisy_fixed_period         96  57.9%   13.6% [9.4%, 17.9%]
+noisy_fixed_period        192  60.0%   21.3% [19.0%, 23.5%]
+noisy_fixed_period        384  55.4%   25.5% [22.7%, 29.0%]
+drifting_period            96 100.0%   18.1% [11.5%, 24.5%]
+drifting_period           192 100.0%  -48.8% [-58.2%, -38.7%]
+drifting_period           384  41.2%   -1.2% [-8.3%, 5.8%]
+periodic_reporting_bias    96 100.0%   45.7% [42.0%, 49.3%]
+periodic_reporting_bias   192 100.0%   59.1% [56.7%, 61.3%]
+periodic_reporting_bias   384 100.0%   62.8% [60.9%, 64.5%]
