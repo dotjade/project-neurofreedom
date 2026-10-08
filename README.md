@@ -23,6 +23,13 @@ A research program toward a safe, lasting and scientifically validated cure for 
 9. Worldwide Research Collaboration Map — [roadmap.md](roadmap.md); verified routes, not arranged collaborations
 10. Cure Discovery Master Roadmap — [roadmap.md](roadmap.md); 30-day, 90-day, six-month, twelve-month and longer-term gates, not a guaranteed cure timeline
 
+## Active investigations added on 8 October 2026
+
+- [Tic cycles and candidate antecedents](TIC_CYCLES_RESEARCH_PLAN.md): evidence, competing biological explanations and safe research design.
+- [Executed synthetic cycle-detection benchmark](analyses/cycle_detection/README.md): code, results and 11 passing implementation checks; no patient data and no biological inference.
+- [Exercise evidence](EXERCISE_EVIDENCE.md): acute versus delayed measurement windows and causal limits.
+- [Proposed open collaboration](OPEN_COLLABORATION_PROPOSAL.md): contribution model and governance gates; no public launch or participant collection has occurred.
+
 ## Working research record
 
 - [Research protocol and planned update cycle](RESEARCH_PROTOCOL.md)
