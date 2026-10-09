@@ -170,3 +170,7 @@ Access was mixed. PubMed abstracts and publisher/PMC indexed excerpts supplied m
 Keep this repository limited to public evidence, generic plans and original scientific summaries. Do not add family history, clinician correspondence, diary entries, raw physiological or genetic data, recordings or child identifiers. A private repository is not a clinical-data system.
 
 The next authorized literature task is to identify longitudinal datasets with enough within-person resolution to evaluate transition models, then document measurement cadence, outcome validity, governance, access requirements and whether independent biological measures exist. This does not authorize contacting investigators, accessing controlled data or enrolling participants.
+
+## Evidence qualification — 9 October 2026
+
+The [stress-timescale reconciliation](analyses/stress_context/README.md) qualifies the short summary above. Buse 2016 had 28 valid tic records from 31 enrolled youths: the overall situation test was p=.053, the stress–relaxation post-hoc comparison p=.017, and stress versus concentration was nonsignificant. A printed interaction F/p pair is internally inconsistent. Higher heart rate/conductance and lower descriptive counts therefore do not establish a general effect of stress or lower internal burden. Lin's delayed association and acute laboratory counts address different estimands. Counterevidence and an executed reporting audit are retained in the linked analysis. No home stress challenge is proposed.
