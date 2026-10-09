@@ -30,6 +30,12 @@ A research program toward a safe, lasting and scientifically validated cure for 
 - [Exercise evidence](EXERCISE_EVIDENCE.md): acute versus delayed measurement windows and causal limits.
 - [Proposed open collaboration](OPEN_COLLABORATION_PROPOSAL.md): contribution model and governance gates; no public launch or participant collection has occurred.
 
+## Research update — 9 October 2026
+
+- [Evidence and registry scan](updates/2026-10-09-evidence-scan.md): verified publication/indexing dates, recent counterevidence and coverage limits.
+- [Stress-timescale reconciliation](analyses/stress_context/README.md): acute expression versus later severity, with an executed numerical reporting audit.
+- [Remission endpoint harmonization](analyses/remission/2026-10-09-harmonization.md): four primary studies, ascertainment discordance, denominator corrections and unresolved questions.
+
 ## Working research record
 
 - [Research protocol and planned update cycle](RESEARCH_PROTOCOL.md)
