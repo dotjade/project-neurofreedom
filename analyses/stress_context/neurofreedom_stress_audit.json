@@ -1,0 +1,27 @@
+{
+  "run_date_utc": "2026-10-09",
+  "source": "https://www.frontiersin.org/articles/10.3389/fpsyt.2016.00084/pdf",
+  "source_locator": "PDF page 4, Number of Tics",
+  "input": {
+    "F": 3.1,
+    "numerator_df": 2,
+    "denominator_df": 54,
+    "F_is_published_and_potentially_rounded": true,
+    "underlying_unrounded_F_available": false,
+    "reported_interaction_p": "<0.044"
+  },
+  "calculated_upper_tail_p_scipy": 0.05315281271558656,
+  "calculated_upper_tail_p_closed_form": 0.053152812715586535,
+  "p_range_for_F_rounding_to_3_1_nearest_tenth": [
+    0.050823443554374986,
+    0.05559308453234469
+  ],
+  "result": "Printed F/df and interaction p do not agree under the ordinary F distribution, including nearest-tenth rounding.",
+  "limit": "Cannot identify the correct interaction statistic without original output or corrected reporting. This does not reproduce the ANOVA or show that the underlying interaction is absent.",
+  "assumptions": "Ordinary upper-tail F test with the printed degrees of freedom; rounding check assumes nearest-tenth rounding of the printed F value.",
+  "versions": {
+    "python": "3.12.14",
+    "scipy": "1.17.0"
+  },
+  "randomness": "none"
+}
