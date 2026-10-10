@@ -10,6 +10,10 @@ The repository contains public scientific evidence, original summaries, explicit
 
 Use primary research to test claims. Treat guidance as guidance, observational associations as associations, and animal/cell findings as preclinical. Social posts can identify unanswered questions, burden and usability problems; they cannot establish efficacy or causation. No outreach, enrolment, data-access application, account creation beyond the requested repository, purchases or medical intervention is included in a literature-research authorization.
 
+## Scope clarification — 10 October 2026
+
+Cover Tourette syndrome and chronic tic disorders globally across ages and severities. Persistent severe adult symptoms, pain, social and functional burden, co-occurring conditions, unmet treatment needs and durable treatment response are central research priorities. Do not frame the mission around one trajectory or assume quiet periods, developmental improvement or remission for everyone. Preserve waxing/waning and remission research as subquestions while deliberately seeking adult persistence and negative-treatment evidence. Label pediatric-to-adult extrapolation and cohort exclusions explicitly. A transition-only design must not erase people with sustained severe burden.
+
 ## Core definitions
 
 - Symptom response: a prespecified clinically meaningful improvement on validated measures during a stated period.
@@ -59,7 +63,7 @@ The four research schedules were enabled on 8 October 2026 after user approval. 
 
 A run must report inability to access a required source or update the repository rather than pretending work was saved. Never claim uninterrupted research between runs. Separate literature updates from clinician decisions and patient observations.
 
-## First analysis to prioritize
+## Initial analysis priority (historical; broadened scope above applies)
 
 Operationalize remission before searching for a switch. Extract how longitudinal studies defined tic absence, how long it lasted, who rated it, whether observers were blinded, medication status and quality-of-life change. Determine whether plausible mechanistic signals predict trajectory after adjusting for age, baseline severity, ascertainment and attrition. This is tractable evidence work that can proceed without collecting any new patient data.
 
