@@ -1,0 +1,116 @@
+{
+  "title": "Longitudinal Tourette dataset compatibility audit",
+  "audit_date": "2026-10-10",
+  "schema_version": "1.0",
+  "unit": "cohort_family",
+  "data_kind": "original study-level metadata and feasibility judgments only",
+  "individual_records_retrieved": false,
+  "participant_analysis_executed": false,
+  "external_contact_or_access_application": false,
+  "hypothesis": "At least one audited cohort documents all prerequisites for an independent-rater within-person days-to-weeks antecedent analysis with persistent-severe-adult coverage.",
+  "status_semantics": {
+    "documented": "Supported by inspected primary or official source",
+    "design_mismatch": "Reported design does not provide the specified requirement",
+    "not_established": "Inspected evidence does not establish requirement; not proof of absence",
+    "conditional_route": "A public statement describes a request route but no authorization has been obtained",
+    "public_metadata_verified": "Public inventory or repository metadata checked; participant file contents not inspected"
+  },
+  "requirements": [
+    "repeated_day_or_week_exposure_and_outcome_windows",
+    "independent_target_cadence_tic_ascertainment",
+    "treatment_missingness_timing_and_linkage",
+    "persistent_severe_adult_stratum",
+    "verified_access_terms_and_required_authorization"
+  ],
+  "cohorts": [
+    {
+      "id": "yale_lin_2007_2010",
+      "overlap_rule": "Treat 2007 and 2010 reports as one overlapping Yale cohort",
+      "primary_outcome_cadence": "approximately_monthly",
+      "independent_target_cadence_tic_ascertainment": "not_established",
+      "persistent_severe_adult_stratum": "not_established",
+      "access": "not_established",
+      "full_question_feasible": false,
+      "failure_kind": ["cadence_mismatch", "rater_independence_uncertain", "adult_stratum_unverified", "access_route_unverified"],
+      "narrower_candidate_question": "Monthly pediatric stress associations, conditional on lawful access and timing/measurement audit",
+      "sources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC3073143/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC2843763/"
+      ]
+    },
+    {
+      "id": "emtics_course",
+      "overlap_rule": "Linked EMTICS assay reports are not independent cohort replications",
+      "primary_outcome_cadence": "weekly_parent_diary_and_two_month_clinical_contacts",
+      "independent_target_cadence_tic_ascertainment": "design_mismatch",
+      "persistent_severe_adult_stratum": "design_mismatch",
+      "access": "conditional_route",
+      "full_question_feasible": false,
+      "failure_kind": ["diary_clinical_cadence_mismatch", "event_triggered_sampling", "biomarker_window_uncertainty", "pediatric_scope"],
+      "narrower_candidate_question": "Coarser pediatric biological associations conditional on approved access and assay-specific timestamps",
+      "sources": [
+        "https://link.springer.com/article/10.1007/s00787-018-1190-4",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC8032367/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC10295562/"
+      ]
+    },
+    {
+      "id": "hoekstra_2004",
+      "overlap_rule": "Pediatric and adult strata belong to the same reported study; no pooling with infection follow-up assumed",
+      "primary_outcome_cadence": "weekly_self_report",
+      "independent_target_cadence_tic_ascertainment": "design_mismatch",
+      "persistent_severe_adult_stratum": "not_established",
+      "access": "not_established",
+      "full_question_feasible": false,
+      "failure_kind": ["shared_report", "short_series", "adult_severe_persistence_unverified", "access_route_unverified"],
+      "narrower_candidate_question": "Weekly adult life-event/self-rated-tic association if lawful access is documented",
+      "sources": [
+        "https://www.psychiatrist.com/wp-content/uploads/2021/02/11020_association-small-life-events-self-reports-tic-severity.pdf",
+        "https://pubmed.ncbi.nlm.nih.gov/15096084/"
+      ]
+    },
+    {
+      "id": "iverson_mns_2023",
+      "overlap_rule": "Open extension and preceding laboratory RCT are linked; laboratory rating independence cannot be transferred to EMA",
+      "primary_outcome_cadence": "multiple_self_reports_per_day",
+      "independent_target_cadence_tic_ascertainment": "design_mismatch",
+      "persistent_severe_adult_stratum": "not_established",
+      "access": "public_metadata_verified",
+      "license_status": "OSF_CC_BY_4_0_vs_registry_CC0_statement_requires_file_specific_check",
+      "full_question_feasible": false,
+      "failure_kind": ["self_report", "antecedent_measures_not_documented", "symptom_driven_treatment_timing", "adult_severe_persistence_unverified"],
+      "narrower_candidate_question": "Self-report EMA response-delay and missingness methods after separately authorized schema/data inspection",
+      "sources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC10095435/",
+        "https://osf.io/2y7fs/",
+        "https://api.osf.io/v2/nodes/2y7fs/",
+        "https://clinicaltrials.gov/study/NCT05016765"
+      ]
+    },
+    {
+      "id": "new_tics",
+      "overlap_rule": "Expanded 2024 clinical report overlaps 2019 sample; NDA collection denominator differs from paper cohort denominator",
+      "primary_outcome_cadence": "baseline_and_annual_followups",
+      "independent_target_cadence_tic_ascertainment": "design_mismatch",
+      "persistent_severe_adult_stratum": "design_mismatch",
+      "access": "public_metadata_verified",
+      "record_access_type": "controlled_access_NDA_request",
+      "full_question_feasible": false,
+      "failure_kind": ["developmental_cadence_mismatch", "pediatric_scope"],
+      "narrower_candidate_question": "Developmental prognosis or ascertainment with approved controlled access",
+      "sources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC11373539/",
+        "https://jpbs.hapres.com/htmls/JPBS_1245_Detail.html",
+        "https://nda.nih.gov/edit_collection.html?id=2692",
+        "https://nda.nih.gov/landing_page.html"
+      ]
+    }
+  ],
+  "audit_result": {
+    "cohort_families_audited": 5,
+    "complete_design_matches_demonstrated": 0,
+    "interpretation": "Full feasibility not demonstrated in this bounded audit; not evidence that suitable data exist nowhere or that antecedents are absent.",
+    "next_decision": "Prioritize a bounded adult intensive/severe-persistence protocol and schema audit; require a qualifying design/access route before participant analysis.",
+    "no_new_collection_authorized": true
+  }
+}
