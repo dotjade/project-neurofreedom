@@ -4,9 +4,9 @@
 
 8 October 2026 | Version 0.1
 
-A research program toward a safe, lasting and scientifically validated cure for Tourette syndrome. Its immediate output is a testable, source-linked research agenda. It does not claim a cure has been found, that every relevant paper has been reviewed, or that proposed mechanisms are established treatment targets.
+A research program toward better understanding, effective treatments and ultimately a safe, lasting and scientifically validated cure for Tourette syndrome and chronic tic disorders across all ages and severities. Its immediate output is a testable, source-linked research agenda. It does not claim a cure has been found, that every relevant paper has been reviewed, or that proposed mechanisms are established treatment targets.
 
-**Research priority:** understand sustained developmental improvement and remission using consistent definitions, then test whether proposed biological mechanisms predict or cause durable benefit. Sleep-related changes are a mechanistic clue, but tics can persist during sleep, so sleep does not establish a universal off-switch.
+**Research scope, clarified 10 October 2026:** persistent severe adult tics, pain, functional and social burden, co-occurring conditions, unmet needs, treatment response and durable benefit are central alongside childhood presentations. Waxing/waning, periodicity, developmental improvement and remission are important subquestions, not assumptions about everyone's course. Do not substitute an available childhood sample for an adult question. Sleep-related changes are a mechanistic clue, but tics can persist during sleep, so sleep does not establish a universal off-switch.
 
 **Clinical boundary:** this portfolio is for research planning and clinician discussion. It contains no individual treatment prescription and no protocol for experimenting on a child. Wellbeing, voluntary participation and appropriate clinical care take priority over data collection.
 
@@ -35,6 +35,11 @@ A research program toward a safe, lasting and scientifically validated cure for 
 - [Evidence and registry scan](updates/2026-10-09-evidence-scan.md): verified publication/indexing dates, recent counterevidence and coverage limits.
 - [Stress-timescale reconciliation](analyses/stress_context/README.md): acute expression versus later severity, with an executed numerical reporting audit.
 - [Remission endpoint harmonization](analyses/remission/2026-10-09-harmonization.md): four primary studies, ascertainment discordance, denominator corrections and unresolved questions.
+
+## Research update — 10 October 2026
+
+- [Dated literature, registry and safety scan](updates/2026-10-10-evidence-scan.md), with [separate registry evidence](updates/2026-10-10-registry-evidence.jsonl).
+- [Five-cohort data-feasibility audit](analyses/data_feasibility/2026-10-10-audit.md): actual access leads, sampling and ascertainment mismatches, and adult-persistence coverage gaps. No participant-level analysis was performed.
 
 ## Working research record
 
