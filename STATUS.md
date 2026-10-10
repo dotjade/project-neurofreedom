@@ -1,6 +1,6 @@
 # Project NeuroFreedom status
 
-Updated 9 October 2026. Initial portfolio plus first completed daily research update.
+Updated 10 October 2026. Initial portfolio plus two completed daily research updates.
 
 ## Completed in this first pass
 
@@ -14,7 +14,7 @@ Updated 9 October 2026. Initial portfolio plus first completed daily research up
 
 ## Enabled research schedules
 
-The user approved the following automatic public-science research and repository updates on 8 October 2026. Each schedule was created successfully and returned enabled status. The first daily run was completed on 9 October 2026; later scheduled runs remain unverified.
+The user approved the following automatic public-science research and repository updates on 8 October 2026. Each schedule was created successfully and returned enabled status. Daily runs were completed on 9 and 10 October 2026; first weekly, monthly and quarterly runs remain unverified.
 
 - Daily new-evidence checks: from 9 October 2026, approximately 08:00 India time.
 - Weekly synthesis: Sundays, from 11 October 2026, approximately 09:00 India time.
@@ -62,3 +62,15 @@ Completed a [four-study remission harmonization](analyses/remission/2026-10-09-h
 3. Obtain full methods and precision for the recent somatosensory-gating null study before interpreting nonsignificance as equivalence. Continue dated registry checks without treating an update as a result.
 
 These tasks supersede the earlier next-step descriptions where they overlap. No collaborator contact, controlled-data request, participant recruitment or public launch was made.
+
+## Completed research update — 10 October 2026
+
+The research mission now explicitly covers all ages and severities, with persistent severe adult symptoms, functional/social burden and unmet treatment needs central alongside developmental, remission and fluctuation questions. README and protocol were reconciled with this scope. The daily research prompt was updated successfully to preserve this broader scope; its enabled state and flexible 08:00 Asia/Kolkata schedule are unchanged. Other cadences continue to use these repository priorities.
+
+The [dated scan](updates/2026-10-10-evidence-scan.md) screened 33 unique PubMed metadata records, with four newly indexed candidates receiving focused abstract/date review. No new qualifying primary tic study, posted trial result or material target-therapy safety notice was verified in this bounded check. A new review is secondary evidence. The adult rTMS registry's recent posting contains historical termination for lack of efficacy from a five-person study completed in 2012, not a newly failed 2026 trial. The [registry record](updates/2026-10-10-registry-evidence.jsonl) is separate from primary-study evidence.
+
+The [five-cohort feasibility audit](analyses/data_feasibility/2026-10-10-audit.md) tested whether documented data meet the independent-outcome days/weeks antecedent design with persistent-severe-adult coverage. None demonstrated all requirements. This is a specific design/access audit, not evidence that antecedents do not exist. Actual leads include an adult-heavy public EMA file inventory, controlled-access New Tics archive and EMTICS investigator-request route; each has sampling, ascertainment, population or access limitations. No participant files were obtained or analyzed and no access request or outreach was made.
+
+### Next bounded decision
+
+Audit primary protocols and metadata for adult intensive/severe-adult longitudinal resources, using the explicit requirements in the feasibility report. Seek independently observed outcomes, sufficiently timed exposures and a lawful access route; document a bounded negative result if no eligible design is found. Keep sustained burden/function outcomes even without quiet-to-peak transitions. Do not replace the adult target with an available pediatric dataset. The unresolved Groth denominator, expanded New Tics extraction and gating precision work remain separate pending questions, not mandatory substitutes for this adult-focused priority.
