@@ -1,6 +1,6 @@
 # Project NeuroFreedom status
 
-Updated 11 October 2026. Initial portfolio plus three completed daily research updates.
+Updated 11 October 2026. Initial portfolio, three completed daily updates and first completed weekly synthesis.
 
 ## Completed in this first pass
 
@@ -14,7 +14,7 @@ Updated 11 October 2026. Initial portfolio plus three completed daily research u
 
 ## Enabled research schedules
 
-The user approved the following automatic public-science research and repository updates on 8 October 2026. Each schedule was created successfully and returned enabled status. Daily runs were completed on 9, 10 and 11 October 2026; first weekly, monthly and quarterly runs remain unverified.
+The user approved the following automatic public-science research and repository updates on 8 October 2026. Each schedule was created successfully and returned enabled status. Daily runs were completed on 9, 10 and 11 October 2026; The first weekly synthesis was completed on 11 October; first monthly and quarterly runs remain unverified.
 
 - Daily new-evidence checks: from 9 October 2026, approximately 08:00 India time.
 - Weekly synthesis: Sundays, from 11 October 2026, approximately 09:00 India time.
@@ -88,3 +88,15 @@ A linked MNS follow-up published 7 September 2026 (PMID 42704310; DOI 10.1111/jn
 ### Next feasible bounded analysis
 
 Use the published aggregate MNS follow-up denominators and verified outcome summaries for an explicit attrition/sensitivity or tipping-point analysis, if sufficient quantities can be extracted. Record scale bounds, assumptions, exact inputs and actual outputs. Separate participant-weighted mean change from a responder count; do not manufacture unavailable covariance or missing outcomes. It will address robustness of a durability inference, not the adult antecedent question. Retain pain, function and persistent burden as outcomes in parallel adult evidence work. If necessary inputs are unavailable, document the missing quantity and produce only justified bounds, rather than inventing a result.
+
+## Completed first weekly synthesis — 11 October 2026
+
+The [synthesis](updates/2026-10-11-weekly-synthesis.md) covers actual 8–11 October work, including negative findings and surviving narrower hypotheses. It is not an exhaustive field review or a seven-day execution claim.
+
+Executed and independently verified [published-aggregate MNS attrition analysis](analyses/mns_attrition/report.md). At three months, 15 assessed participants' paired mean motor improvement of 3.40 points would be offset in the original 41-person mean by hypothetical 1.9615-point average worsening among 26 missing participants. Conditional on the printed overall baseline, scale-bounded full-cohort change ranges from -13.0115 to +2.8422 points. Four-week bounds remain negative. These are deterministic identification/sensitivity results, not confidence intervals, observed missing outcomes, responder rates or causal treatment effects.
+
+An incompatible printed baseline partition is prominent in the report; alternate-baseline and rounding analyses preserve qualitative conclusions. Code, inputs, outputs and logs are archived. Nineteen tests, 56 separate Decimal checks and 275 independent arithmetic/provenance checks passed; independent rerun reproduced results and scenarios byte-for-byte. This is computational verification, not independent clinical peer review. No participant files were used.
+
+### Next decisions after the weekly analysis
+
+Do not recompute unchanged MNS inputs or repeat the closed generic cohort search. Prioritize the already identified adult sensory-gating paper's full methods and uncertainty extraction, if lawful access permits; preserve its null finding without calling it equivalence. For sustained adult burden, first verify published registry instruments and outcome definitions at native six/twelve-month intervals before proposing a specific analysis. Any custodian contact, participant-level access or institutional work has separate authorization and governance gates. No immediate family data, device purchase or home experiment is needed for public-evidence work.
