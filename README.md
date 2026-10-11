@@ -41,6 +41,11 @@ A research program toward better understanding, effective treatments and ultimat
 - [Dated literature, registry and safety scan](updates/2026-10-10-evidence-scan.md), with [separate registry evidence](updates/2026-10-10-registry-evidence.jsonl).
 - [Five-cohort data-feasibility audit](analyses/data_feasibility/2026-10-10-audit.md): actual access leads, sampling and ascertainment mismatches, and adult-persistence coverage gaps. No participant-level analysis was performed.
 
+## Research update — 11 October 2026
+
+- [Daily evidence scan](updates/2026-10-11-evidence-scan.md): no verified new qualifying in-window result; publication, product publicity and approval remain distinct.
+- [Six-family adult resource audit](analyses/data_feasibility/2026-10-11-adult-audit.md), [compatibility matrix](analyses/data_feasibility/2026-10-11-adult-matrix.json) and [search log](analyses/data_feasibility/2026-10-11-search-log.json): the bounded search is closed without a complete design match. A linked MNS follow-up highlights attrition and lack of a contemporaneous sham comparison.
+
 ## Working research record
 
 - [Research protocol and planned update cycle](RESEARCH_PROTOCOL.md)
