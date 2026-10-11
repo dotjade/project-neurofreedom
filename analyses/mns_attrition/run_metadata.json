@@ -1,0 +1,14 @@
+{
+  "executed_utc": "2026-10-11T04:08:32.079497+00:00",
+  "python": "3.12.14",
+  "random_seed": null,
+  "reason_no_seed": "Deterministic exact rational arithmetic; no randomness.",
+  "command": "python analyze.py",
+  "sha256": {
+    "ANALYSIS_SPEC.md": "7c837ed767ed65bc75cdc328208a67df1a41268375d825fc153dab59f1fe5b40",
+    "inputs.json": "b70540f8c44a414740447c3bcc7a6247518383d692a1629a18643fb232867282",
+    "analyze.py": "ee9a369806422eaab85032cb8a79a2bef985d314f57ae13375bd3926eba91ee4",
+    "results.json": "15738170fca213b428eb9425dc99a8c528a2cd905621fa9177d3c338d7b12879",
+    "scenarios.csv": "e52472c702e849ceb0ea75e69d00e005e3bc0fcb8119e975af20a5c3e3307578"
+  }
+}
