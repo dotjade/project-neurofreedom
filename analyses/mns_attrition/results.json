@@ -1,0 +1,1155 @@
+{
+  "analysis_id": "neurofreedom-mns-attrition-2026-10-11",
+  "interpretation": "Conditional deterministic bounds/scenarios, not treatment effects, empirical corrections, or confidence intervals.",
+  "baseline_consistency": {
+    "printed_full_mean": {
+      "exact_fraction": "931/50",
+      "decimal": 18.62
+    },
+    "pooled_subgroup_mean": {
+      "exact_fraction": "19322/1025",
+      "decimal": 18.850731707317074
+    },
+    "discrepancy": {
+      "exact_fraction": "473/2050",
+      "decimal": 0.23073170731707318
+    },
+    "printed_full_rounding_interval": [
+      {
+        "exact_fraction": "3723/200",
+        "decimal": 18.615
+      },
+      {
+        "exact_fraction": "149/8",
+        "decimal": 18.625
+      }
+    ],
+    "pooled_subgroup_rounding_interval": [
+      {
+        "exact_fraction": "15449/820",
+        "decimal": 18.840243902439024
+      },
+      {
+        "exact_fraction": "77331/4100",
+        "decimal": 18.86121951219512
+      }
+    ],
+    "rounding_intervals_overlap": false,
+    "missing_baseline_implied_by_full_and_four_week_returnees": {
+      "exact_fraction": "4277/250",
+      "decimal": 17.108
+    },
+    "printed_early_dropout_baseline": {
+      "exact_fraction": "19",
+      "decimal": 19.0
+    }
+  },
+  "branches": [
+    {
+      "name": "conditional_printed_full_baseline",
+      "baseline": {
+        "exact_fraction": "931/50",
+        "decimal": 18.62
+      },
+      "timepoints": [
+        {
+          "N": 41,
+          "n_observed": 36,
+          "n_missing": 5,
+          "observed_fraction": {
+            "exact_fraction": "36/41",
+            "decimal": 0.8780487804878049
+          },
+          "missing_fraction": {
+            "exact_fraction": "5/41",
+            "decimal": 0.12195121951219512
+          },
+          "assumed_full_baseline": {
+            "exact_fraction": "931/50",
+            "decimal": 18.62
+          },
+          "returnee_baseline": {
+            "exact_fraction": "1883/100",
+            "decimal": 18.83
+          },
+          "observed_followup": {
+            "exact_fraction": "65/4",
+            "decimal": 16.25
+          },
+          "returnee_paired_change": {
+            "exact_fraction": "-129/50",
+            "decimal": -2.58
+          },
+          "unpaired_observed_minus_full_baseline": {
+            "exact_fraction": "-237/100",
+            "decimal": -2.37
+          },
+          "full_followup_lower": {
+            "exact_fraction": "585/41",
+            "decimal": 14.268292682926829
+          },
+          "full_followup_upper": {
+            "exact_fraction": "710/41",
+            "decimal": 17.317073170731707
+          },
+          "full_change_lower": {
+            "exact_fraction": "-8921/2050",
+            "decimal": -4.351707317073171
+          },
+          "full_change_upper": {
+            "exact_fraction": "-2671/2050",
+            "decimal": -1.3029268292682927
+          },
+          "direction_robust_to_scale_bounded_missingness": true,
+          "implied_missing_baseline": {
+            "exact_fraction": "4277/250",
+            "decimal": 17.108
+          },
+          "tipping_missing_followup": {
+            "exact_fraction": "8921/250",
+            "decimal": 35.684
+          },
+          "tipping_missing_change": {
+            "exact_fraction": "2322/125",
+            "decimal": 18.576
+          },
+          "tipping_feasible": false,
+          "scenarios": [
+            {
+              "name": "scale_minimum",
+              "missing_mean": {
+                "exact_fraction": "0",
+                "decimal": 0.0
+              },
+              "missing_mean_change": {
+                "exact_fraction": "-4277/250",
+                "decimal": -17.108
+              },
+              "feasible": true,
+              "full_followup": {
+                "exact_fraction": "585/41",
+                "decimal": 14.268292682926829
+              },
+              "full_change": {
+                "exact_fraction": "-8921/2050",
+                "decimal": -4.351707317073171
+              }
+            },
+            {
+              "name": "same_followup_as_observed",
+              "missing_mean": {
+                "exact_fraction": "65/4",
+                "decimal": 16.25
+              },
+              "missing_mean_change": {
+                "exact_fraction": "-429/500",
+                "decimal": -0.858
+              },
+              "feasible": true,
+              "full_followup": {
+                "exact_fraction": "65/4",
+                "decimal": 16.25
+              },
+              "full_change": {
+                "exact_fraction": "-237/100",
+                "decimal": -2.37
+              }
+            },
+            {
+              "name": "same_change_as_observed",
+              "missing_mean": {
+                "exact_fraction": "1816/125",
+                "decimal": 14.528
+              },
+              "missing_mean_change": {
+                "exact_fraction": "-129/50",
+                "decimal": -2.58
+              },
+              "feasible": true,
+              "full_followup": {
+                "exact_fraction": "401/25",
+                "decimal": 16.04
+              },
+              "full_change": {
+                "exact_fraction": "-129/50",
+                "decimal": -2.58
+              }
+            },
+            {
+              "name": "missing_no_mean_change",
+              "missing_mean": {
+                "exact_fraction": "4277/250",
+                "decimal": 17.108
+              },
+              "missing_mean_change": {
+                "exact_fraction": "0",
+                "decimal": 0.0
+              },
+              "feasible": true,
+              "full_followup": {
+                "exact_fraction": "33527/2050",
+                "decimal": 16.354634146341464
+              },
+              "full_change": {
+                "exact_fraction": "-2322/1025",
+                "decimal": -2.2653658536585364
+              }
+            },
+            {
+              "name": "missing_mean_worsening_1",
+              "missing_mean": {
+                "exact_fraction": "4527/250",
+                "decimal": 18.108
+              },
+              "missing_mean_change": {
+                "exact_fraction": "1",
+                "decimal": 1.0
+              },
+              "feasible": true,
+              "full_followup": {
+                "exact_fraction": "33777/2050",
+                "decimal": 16.47658536585366
+              },
+              "full_change": {
+                "exact_fraction": "-2197/1025",
+                "decimal": -2.1434146341463416
+              }
+            },
+            {
+              "name": "missing_mean_worsening_2",
+              "missing_mean": {
+                "exact_fraction": "4777/250",
+                "decimal": 19.108
+              },
+              "missing_mean_change": {
+                "exact_fraction": "2",
+                "decimal": 2.0
+              },
+              "feasible": true,
+              "full_followup": {
+                "exact_fraction": "34027/2050",
+                "decimal": 16.598536585365853
+              },
+              "full_change": {
+                "exact_fraction": "-2072/1025",
+                "decimal": -2.0214634146341464
+              }
+            },
+            {
+              "name": "missing_mean_worsening_3",
+              "missing_mean": {
+                "exact_fraction": "5027/250",
+                "decimal": 20.108
+              },
+              "missing_mean_change": {
+                "exact_fraction": "3",
+                "decimal": 3.0
+              },
+              "feasible": true,
+              "full_followup": {
+                "exact_fraction": "34277/2050",
+                "decimal": 16.720487804878047
+              },
+              "full_change": {
+                "exact_fraction": "-1947/1025",
+                "decimal": -1.8995121951219511
+              }
+            },
+            {
+              "name": "null_tipping_point",
+              "missing_mean": {
+                "exact_fraction": "8921/250",
+                "decimal": 35.684
+              },
+              "missing_mean_change": {
+                "exact_fraction": "2322/125",
+                "decimal": 18.576
+              },
+              "feasible": false,
+              "full_followup": {
+                "exact_fraction": "931/50",
+                "decimal": 18.62
+              },
+              "full_change": {
+                "exact_fraction": "0",
+                "decimal": 0.0
+              }
+            },
+            {
+              "name": "scale_maximum",
+              "missing_mean": {
+                "exact_fraction": "25",
+                "decimal": 25.0
+              },
+              "missing_mean_change": {
+                "exact_fraction": "1973/250",
+                "decimal": 7.892
+              },
+              "feasible": true,
+              "full_followup": {
+                "exact_fraction": "710/41",
+                "decimal": 17.317073170731707
+              },
+              "full_change": {
+                "exact_fraction": "-2671/2050",
+                "decimal": -1.3029268292682927
+              }
+            }
+          ],
+          "id": "four_weeks",
+          "rounding_envelope_not_ci": {
+            "full_change_lower": {
+              "exact_fraction": "-35761/8200",
+              "decimal": -4.36109756097561
+            },
+            "full_change_upper": {
+              "exact_fraction": "-10607/8200",
+              "decimal": -1.2935365853658536
+            },
+            "tipping_missing_followup_lower": {
+              "exact_fraction": "35607/1000",
+              "decimal": 35.607
+            },
+            "tipping_missing_followup_upper": {
+              "exact_fraction": "35761/1000",
+              "decimal": 35.761
+            },
+            "tipping_missing_change_lower": {
+              "exact_fraction": "2313/125",
+              "decimal": 18.504
+            },
+            "tipping_missing_change_upper": {
+              "exact_fraction": "2331/125",
+              "decimal": 18.648
+            }
+          }
+        },
+        {
+          "N": 41,
+          "n_observed": 15,
+          "n_missing": 26,
+          "observed_fraction": {
+            "exact_fraction": "15/41",
+            "decimal": 0.36585365853658536
+          },
+          "missing_fraction": {
+            "exact_fraction": "26/41",
+            "decimal": 0.6341463414634146
+          },
+          "assumed_full_baseline": {
+            "exact_fraction": "931/50",
+            "decimal": 18.62
+          },
+          "returnee_baseline": {
+            "exact_fraction": "1873/100",
+            "decimal": 18.73
+          },
+          "observed_followup": {
+            "exact_fraction": "1533/100",
+            "decimal": 15.33
+          },
+          "returnee_paired_change": {
+            "exact_fraction": "-17/5",
+            "decimal": -3.4
+          },
+          "unpaired_observed_minus_full_baseline": {
+            "exact_fraction": "-329/100",
+            "decimal": -3.29
+          },
+          "full_followup_lower": {
+            "exact_fraction": "4599/820",
+            "decimal": 5.6085365853658535
+          },
+          "full_followup_upper": {
+            "exact_fraction": "17599/820",
+            "decimal": 21.46219512195122
+          },
+          "full_change_lower": {
+            "exact_fraction": "-53347/4100",
+            "decimal": -13.011463414634147
+          },
+          "full_change_upper": {
+            "exact_fraction": "11653/4100",
+            "decimal": 2.8421951219512196
+          },
+          "direction_robust_to_scale_bounded_missingness": false,
+          "implied_missing_baseline": {
+            "exact_fraction": "48247/2600",
+            "decimal": 18.556538461538462
+          },
+          "tipping_missing_followup": {
+            "exact_fraction": "53347/2600",
+            "decimal": 20.518076923076922
+          },
+          "tipping_missing_change": {
+            "exact_fraction": "51/26",
+            "decimal": 1.9615384615384615
+          },
+          "tipping_feasible": true,
+          "scenarios": [
+            {
+              "name": "scale_minimum",
+              "missing_mean": {
+                "exact_fraction": "0",
+                "decimal": 0.0
+              },
+              "missing_mean_change": {
+                "exact_fraction": "-48247/2600",
+                "decimal": -18.556538461538462
+              },
+              "feasible": true,
+              "full_followup": {
+                "exact_fraction": "4599/820",
+                "decimal": 5.6085365853658535
+              },
+              "full_change": {
+                "exact_fraction": "-53347/4100",
+                "decimal": -13.011463414634147
+              }
+            },
+            {
+              "name": "same_followup_as_observed",
+              "missing_mean": {
+                "exact_fraction": "1533/100",
+                "decimal": 15.33
+              },
+              "missing_mean_change": {
+                "exact_fraction": "-8389/2600",
+                "decimal": -3.2265384615384614
+              },
+              "feasible": true,
+              "full_followup": {
+                "exact_fraction": "1533/100",
+                "decimal": 15.33
+              },
+              "full_change": {
+                "exact_fraction": "-329/100",
+                "decimal": -3.29
+              }
+            },
+            {
+              "name": "same_change_as_observed",
+              "missing_mean": {
+                "exact_fraction": "39407/2600",
+                "decimal": 15.156538461538462
+              },
+              "missing_mean_change": {
+                "exact_fraction": "-17/5",
+                "decimal": -3.4
+              },
+              "feasible": true,
+              "full_followup": {
+                "exact_fraction": "761/50",
+                "decimal": 15.22
+              },
+              "full_change": {
+                "exact_fraction": "-17/5",
+                "decimal": -3.4
+              }
+            },
+            {
+              "name": "missing_no_mean_change",
+              "missing_mean": {
+                "exact_fraction": "48247/2600",
+                "decimal": 18.556538461538462
+              },
+              "missing_mean_change": {
+                "exact_fraction": "0",
+                "decimal": 0.0
+              },
+              "feasible": true,
+              "full_followup": {
+                "exact_fraction": "35621/2050",
+                "decimal": 17.37609756097561
+              },
+              "full_change": {
+                "exact_fraction": "-51/41",
+                "decimal": -1.2439024390243902
+              }
+            },
+            {
+              "name": "missing_mean_worsening_1",
+              "missing_mean": {
+                "exact_fraction": "50847/2600",
+                "decimal": 19.556538461538462
+              },
+              "missing_mean_change": {
+                "exact_fraction": "1",
+                "decimal": 1.0
+              },
+              "feasible": true,
+              "full_followup": {
+                "exact_fraction": "36921/2050",
+                "decimal": 18.010243902439026
+              },
+              "full_change": {
+                "exact_fraction": "-25/41",
+                "decimal": -0.6097560975609756
+              }
+            },
+            {
+              "name": "missing_mean_worsening_2",
+              "missing_mean": {
+                "exact_fraction": "53447/2600",
+                "decimal": 20.556538461538462
+              },
+              "missing_mean_change": {
+                "exact_fraction": "2",
+                "decimal": 2.0
+              },
+              "feasible": true,
+              "full_followup": {
+                "exact_fraction": "38221/2050",
+                "decimal": 18.64439024390244
+              },
+              "full_change": {
+                "exact_fraction": "1/41",
+                "decimal": 0.024390243902439025
+              }
+            },
+            {
+              "name": "missing_mean_worsening_3",
+              "missing_mean": {
+                "exact_fraction": "56047/2600",
+                "decimal": 21.556538461538462
+              },
+              "missing_mean_change": {
+                "exact_fraction": "3",
+                "decimal": 3.0
+              },
+              "feasible": true,
+              "full_followup": {
+                "exact_fraction": "39521/2050",
+                "decimal": 19.278536585365853
+              },
+              "full_change": {
+                "exact_fraction": "27/41",
+                "decimal": 0.6585365853658537
+              }
+            },
+            {
+              "name": "null_tipping_point",
+              "missing_mean": {
+                "exact_fraction": "53347/2600",
+                "decimal": 20.518076923076922
+              },
+              "missing_mean_change": {
+                "exact_fraction": "51/26",
+                "decimal": 1.9615384615384615
+              },
+              "feasible": true,
+              "full_followup": {
+                "exact_fraction": "931/50",
+                "decimal": 18.62
+              },
+              "full_change": {
+                "exact_fraction": "0",
+                "decimal": 0.0
+              }
+            },
+            {
+              "name": "scale_maximum",
+              "missing_mean": {
+                "exact_fraction": "25",
+                "decimal": 25.0
+              },
+              "missing_mean_change": {
+                "exact_fraction": "16753/2600",
+                "decimal": 6.443461538461539
+              },
+              "feasible": true,
+              "full_followup": {
+                "exact_fraction": "17599/820",
+                "decimal": 21.46219512195122
+              },
+              "full_change": {
+                "exact_fraction": "11653/4100",
+                "decimal": 2.8421951219512196
+              }
+            }
+          ],
+          "id": "three_months",
+          "rounding_envelope_not_ci": {
+            "full_change_lower": {
+              "exact_fraction": "-2135/164",
+              "decimal": -13.018292682926829
+            },
+            "full_change_upper": {
+              "exact_fraction": "11681/4100",
+              "decimal": 2.8490243902439025
+            },
+            "tipping_missing_followup_lower": {
+              "exact_fraction": "53319/2600",
+              "decimal": 20.50730769230769
+            },
+            "tipping_missing_followup_upper": {
+              "exact_fraction": "2135/104",
+              "decimal": 20.528846153846153
+            },
+            "tipping_missing_change_lower": {
+              "exact_fraction": "1017/520",
+              "decimal": 1.9557692307692307
+            },
+            "tipping_missing_change_upper": {
+              "exact_fraction": "1023/520",
+              "decimal": 1.9673076923076922
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "hypothetical_pooled_subgroup_baseline",
+      "baseline": {
+        "exact_fraction": "19322/1025",
+        "decimal": 18.850731707317074
+      },
+      "timepoints": [
+        {
+          "N": 41,
+          "n_observed": 36,
+          "n_missing": 5,
+          "observed_fraction": {
+            "exact_fraction": "36/41",
+            "decimal": 0.8780487804878049
+          },
+          "missing_fraction": {
+            "exact_fraction": "5/41",
+            "decimal": 0.12195121951219512
+          },
+          "assumed_full_baseline": {
+            "exact_fraction": "19322/1025",
+            "decimal": 18.850731707317074
+          },
+          "returnee_baseline": {
+            "exact_fraction": "1883/100",
+            "decimal": 18.83
+          },
+          "observed_followup": {
+            "exact_fraction": "65/4",
+            "decimal": 16.25
+          },
+          "returnee_paired_change": {
+            "exact_fraction": "-129/50",
+            "decimal": -2.58
+          },
+          "unpaired_observed_minus_full_baseline": {
+            "exact_fraction": "-10663/4100",
+            "decimal": -2.600731707317073
+          },
+          "full_followup_lower": {
+            "exact_fraction": "585/41",
+            "decimal": 14.268292682926829
+          },
+          "full_followup_upper": {
+            "exact_fraction": "710/41",
+            "decimal": 17.317073170731707
+          },
+          "full_change_lower": {
+            "exact_fraction": "-4697/1025",
+            "decimal": -4.5824390243902435
+          },
+          "full_change_upper": {
+            "exact_fraction": "-1572/1025",
+            "decimal": -1.5336585365853659
+          },
+          "direction_robust_to_scale_bounded_missingness": true,
+          "implied_missing_baseline": {
+            "exact_fraction": "19",
+            "decimal": 19.0
+          },
+          "tipping_missing_followup": {
+            "exact_fraction": "4697/125",
+            "decimal": 37.576
+          },
+          "tipping_missing_change": {
+            "exact_fraction": "2322/125",
+            "decimal": 18.576
+          },
+          "tipping_feasible": false,
+          "scenarios": [
+            {
+              "name": "scale_minimum",
+              "missing_mean": {
+                "exact_fraction": "0",
+                "decimal": 0.0
+              },
+              "missing_mean_change": {
+                "exact_fraction": "-19",
+                "decimal": -19.0
+              },
+              "feasible": true,
+              "full_followup": {
+                "exact_fraction": "585/41",
+                "decimal": 14.268292682926829
+              },
+              "full_change": {
+                "exact_fraction": "-4697/1025",
+                "decimal": -4.5824390243902435
+              }
+            },
+            {
+              "name": "same_followup_as_observed",
+              "missing_mean": {
+                "exact_fraction": "65/4",
+                "decimal": 16.25
+              },
+              "missing_mean_change": {
+                "exact_fraction": "-11/4",
+                "decimal": -2.75
+              },
+              "feasible": true,
+              "full_followup": {
+                "exact_fraction": "65/4",
+                "decimal": 16.25
+              },
+              "full_change": {
+                "exact_fraction": "-10663/4100",
+                "decimal": -2.600731707317073
+              }
+            },
+            {
+              "name": "same_change_as_observed",
+              "missing_mean": {
+                "exact_fraction": "821/50",
+                "decimal": 16.42
+              },
+              "missing_mean_change": {
+                "exact_fraction": "-129/50",
+                "decimal": -2.58
+              },
+              "feasible": true,
+              "full_followup": {
+                "exact_fraction": "6671/410",
+                "decimal": 16.270731707317072
+              },
+              "full_change": {
+                "exact_fraction": "-129/50",
+                "decimal": -2.58
+              }
+            },
+            {
+              "name": "missing_no_mean_change",
+              "missing_mean": {
+                "exact_fraction": "19",
+                "decimal": 19.0
+              },
+              "missing_mean_change": {
+                "exact_fraction": "0",
+                "decimal": 0.0
+              },
+              "feasible": true,
+              "full_followup": {
+                "exact_fraction": "680/41",
+                "decimal": 16.585365853658537
+              },
+              "full_change": {
+                "exact_fraction": "-2322/1025",
+                "decimal": -2.2653658536585364
+              }
+            },
+            {
+              "name": "missing_mean_worsening_1",
+              "missing_mean": {
+                "exact_fraction": "20",
+                "decimal": 20.0
+              },
+              "missing_mean_change": {
+                "exact_fraction": "1",
+                "decimal": 1.0
+              },
+              "feasible": true,
+              "full_followup": {
+                "exact_fraction": "685/41",
+                "decimal": 16.70731707317073
+              },
+              "full_change": {
+                "exact_fraction": "-2197/1025",
+                "decimal": -2.1434146341463416
+              }
+            },
+            {
+              "name": "missing_mean_worsening_2",
+              "missing_mean": {
+                "exact_fraction": "21",
+                "decimal": 21.0
+              },
+              "missing_mean_change": {
+                "exact_fraction": "2",
+                "decimal": 2.0
+              },
+              "feasible": true,
+              "full_followup": {
+                "exact_fraction": "690/41",
+                "decimal": 16.829268292682926
+              },
+              "full_change": {
+                "exact_fraction": "-2072/1025",
+                "decimal": -2.0214634146341464
+              }
+            },
+            {
+              "name": "missing_mean_worsening_3",
+              "missing_mean": {
+                "exact_fraction": "22",
+                "decimal": 22.0
+              },
+              "missing_mean_change": {
+                "exact_fraction": "3",
+                "decimal": 3.0
+              },
+              "feasible": true,
+              "full_followup": {
+                "exact_fraction": "695/41",
+                "decimal": 16.951219512195124
+              },
+              "full_change": {
+                "exact_fraction": "-1947/1025",
+                "decimal": -1.8995121951219511
+              }
+            },
+            {
+              "name": "null_tipping_point",
+              "missing_mean": {
+                "exact_fraction": "4697/125",
+                "decimal": 37.576
+              },
+              "missing_mean_change": {
+                "exact_fraction": "2322/125",
+                "decimal": 18.576
+              },
+              "feasible": false,
+              "full_followup": {
+                "exact_fraction": "19322/1025",
+                "decimal": 18.850731707317074
+              },
+              "full_change": {
+                "exact_fraction": "0",
+                "decimal": 0.0
+              }
+            },
+            {
+              "name": "scale_maximum",
+              "missing_mean": {
+                "exact_fraction": "25",
+                "decimal": 25.0
+              },
+              "missing_mean_change": {
+                "exact_fraction": "6",
+                "decimal": 6.0
+              },
+              "feasible": true,
+              "full_followup": {
+                "exact_fraction": "710/41",
+                "decimal": 17.317073170731707
+              },
+              "full_change": {
+                "exact_fraction": "-1572/1025",
+                "decimal": -1.5336585365853659
+              }
+            }
+          ],
+          "id": "four_weeks",
+          "rounding_envelope_not_ci": {
+            "full_change_lower": {
+              "exact_fraction": "-18849/4100",
+              "decimal": -4.597317073170732
+            },
+            "full_change_upper": {
+              "exact_fraction": "-6227/4100",
+              "decimal": -1.518780487804878
+            },
+            "tipping_missing_followup_lower": {
+              "exact_fraction": "18727/500",
+              "decimal": 37.454
+            },
+            "tipping_missing_followup_upper": {
+              "exact_fraction": "18849/500",
+              "decimal": 37.698
+            },
+            "tipping_missing_change_lower": {
+              "exact_fraction": "2313/125",
+              "decimal": 18.504
+            },
+            "tipping_missing_change_upper": {
+              "exact_fraction": "2331/125",
+              "decimal": 18.648
+            }
+          }
+        },
+        {
+          "N": 41,
+          "n_observed": 15,
+          "n_missing": 26,
+          "observed_fraction": {
+            "exact_fraction": "15/41",
+            "decimal": 0.36585365853658536
+          },
+          "missing_fraction": {
+            "exact_fraction": "26/41",
+            "decimal": 0.6341463414634146
+          },
+          "assumed_full_baseline": {
+            "exact_fraction": "19322/1025",
+            "decimal": 18.850731707317074
+          },
+          "returnee_baseline": {
+            "exact_fraction": "1873/100",
+            "decimal": 18.73
+          },
+          "observed_followup": {
+            "exact_fraction": "1533/100",
+            "decimal": 15.33
+          },
+          "returnee_paired_change": {
+            "exact_fraction": "-17/5",
+            "decimal": -3.4
+          },
+          "unpaired_observed_minus_full_baseline": {
+            "exact_fraction": "-2887/820",
+            "decimal": -3.520731707317073
+          },
+          "full_followup_lower": {
+            "exact_fraction": "4599/820",
+            "decimal": 5.6085365853658535
+          },
+          "full_followup_upper": {
+            "exact_fraction": "17599/820",
+            "decimal": 21.46219512195122
+          },
+          "full_change_lower": {
+            "exact_fraction": "-54293/4100",
+            "decimal": -13.24219512195122
+          },
+          "full_change_upper": {
+            "exact_fraction": "10707/4100",
+            "decimal": 2.611463414634146
+          },
+          "direction_robust_to_scale_bounded_missingness": false,
+          "implied_missing_baseline": {
+            "exact_fraction": "49193/2600",
+            "decimal": 18.920384615384616
+          },
+          "tipping_missing_followup": {
+            "exact_fraction": "54293/2600",
+            "decimal": 20.881923076923076
+          },
+          "tipping_missing_change": {
+            "exact_fraction": "51/26",
+            "decimal": 1.9615384615384615
+          },
+          "tipping_feasible": true,
+          "scenarios": [
+            {
+              "name": "scale_minimum",
+              "missing_mean": {
+                "exact_fraction": "0",
+                "decimal": 0.0
+              },
+              "missing_mean_change": {
+                "exact_fraction": "-49193/2600",
+                "decimal": -18.920384615384616
+              },
+              "feasible": true,
+              "full_followup": {
+                "exact_fraction": "4599/820",
+                "decimal": 5.6085365853658535
+              },
+              "full_change": {
+                "exact_fraction": "-54293/4100",
+                "decimal": -13.24219512195122
+              }
+            },
+            {
+              "name": "same_followup_as_observed",
+              "missing_mean": {
+                "exact_fraction": "1533/100",
+                "decimal": 15.33
+              },
+              "missing_mean_change": {
+                "exact_fraction": "-1867/520",
+                "decimal": -3.5903846153846155
+              },
+              "feasible": true,
+              "full_followup": {
+                "exact_fraction": "1533/100",
+                "decimal": 15.33
+              },
+              "full_change": {
+                "exact_fraction": "-2887/820",
+                "decimal": -3.520731707317073
+              }
+            },
+            {
+              "name": "same_change_as_observed",
+              "missing_mean": {
+                "exact_fraction": "40353/2600",
+                "decimal": 15.520384615384616
+              },
+              "missing_mean_change": {
+                "exact_fraction": "-17/5",
+                "decimal": -3.4
+              },
+              "feasible": true,
+              "full_followup": {
+                "exact_fraction": "15837/1025",
+                "decimal": 15.450731707317074
+              },
+              "full_change": {
+                "exact_fraction": "-17/5",
+                "decimal": -3.4
+              }
+            },
+            {
+              "name": "missing_no_mean_change",
+              "missing_mean": {
+                "exact_fraction": "49193/2600",
+                "decimal": 18.920384615384616
+              },
+              "missing_mean_change": {
+                "exact_fraction": "0",
+                "decimal": 0.0
+              },
+              "feasible": true,
+              "full_followup": {
+                "exact_fraction": "18047/1025",
+                "decimal": 17.60682926829268
+              },
+              "full_change": {
+                "exact_fraction": "-51/41",
+                "decimal": -1.2439024390243902
+              }
+            },
+            {
+              "name": "missing_mean_worsening_1",
+              "missing_mean": {
+                "exact_fraction": "51793/2600",
+                "decimal": 19.920384615384616
+              },
+              "missing_mean_change": {
+                "exact_fraction": "1",
+                "decimal": 1.0
+              },
+              "feasible": true,
+              "full_followup": {
+                "exact_fraction": "18697/1025",
+                "decimal": 18.2409756097561
+              },
+              "full_change": {
+                "exact_fraction": "-25/41",
+                "decimal": -0.6097560975609756
+              }
+            },
+            {
+              "name": "missing_mean_worsening_2",
+              "missing_mean": {
+                "exact_fraction": "54393/2600",
+                "decimal": 20.920384615384616
+              },
+              "missing_mean_change": {
+                "exact_fraction": "2",
+                "decimal": 2.0
+              },
+              "feasible": true,
+              "full_followup": {
+                "exact_fraction": "19347/1025",
+                "decimal": 18.875121951219512
+              },
+              "full_change": {
+                "exact_fraction": "1/41",
+                "decimal": 0.024390243902439025
+              }
+            },
+            {
+              "name": "missing_mean_worsening_3",
+              "missing_mean": {
+                "exact_fraction": "56993/2600",
+                "decimal": 21.920384615384616
+              },
+              "missing_mean_change": {
+                "exact_fraction": "3",
+                "decimal": 3.0
+              },
+              "feasible": true,
+              "full_followup": {
+                "exact_fraction": "19997/1025",
+                "decimal": 19.509268292682926
+              },
+              "full_change": {
+                "exact_fraction": "27/41",
+                "decimal": 0.6585365853658537
+              }
+            },
+            {
+              "name": "null_tipping_point",
+              "missing_mean": {
+                "exact_fraction": "54293/2600",
+                "decimal": 20.881923076923076
+              },
+              "missing_mean_change": {
+                "exact_fraction": "51/26",
+                "decimal": 1.9615384615384615
+              },
+              "feasible": true,
+              "full_followup": {
+                "exact_fraction": "19322/1025",
+                "decimal": 18.850731707317074
+              },
+              "full_change": {
+                "exact_fraction": "0",
+                "decimal": 0.0
+              }
+            },
+            {
+              "name": "scale_maximum",
+              "missing_mean": {
+                "exact_fraction": "25",
+                "decimal": 25.0
+              },
+              "missing_mean_change": {
+                "exact_fraction": "15807/2600",
+                "decimal": 6.079615384615384
+              },
+              "feasible": true,
+              "full_followup": {
+                "exact_fraction": "17599/820",
+                "decimal": 21.46219512195122
+              },
+              "full_change": {
+                "exact_fraction": "10707/4100",
+                "decimal": 2.611463414634146
+              }
+            }
+          ],
+          "id": "three_months",
+          "rounding_envelope_not_ci": {
+            "full_change_lower": {
+              "exact_fraction": "-108687/8200",
+              "decimal": -13.25451219512195
+            },
+            "full_change_upper": {
+              "exact_fraction": "4303/1640",
+              "decimal": 2.6237804878048783
+            },
+            "tipping_missing_followup_lower": {
+              "exact_fraction": "1669/80",
+              "decimal": 20.8625
+            },
+            "tipping_missing_followup_upper": {
+              "exact_fraction": "108687/5200",
+              "decimal": 20.901346153846156
+            },
+            "tipping_missing_change_lower": {
+              "exact_fraction": "1017/520",
+              "decimal": 1.9557692307692307
+            },
+            "tipping_missing_change_upper": {
+              "exact_fraction": "1023/520",
+              "decimal": 1.9673076923076922
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
