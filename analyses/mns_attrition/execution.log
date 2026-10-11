@@ -1,0 +1,10 @@
+Conditional aggregate motor-score analysis; lower severity = negative change
+Printed full baseline 18.620000; subgroup pooled 18.850732; rounding intervals overlap: False
+
+conditional_printed_full_baseline
+four_weeks: observed 36/41; paired change -2.580000; full change bounds [-4.351707, -1.302927]; tipping missing outcome 35.684000; tipping missing change 18.576000; feasible=False
+three_months: observed 15/41; paired change -3.400000; full change bounds [-13.011463, 2.842195]; tipping missing outcome 20.518077; tipping missing change 1.961538; feasible=True
+
+hypothetical_pooled_subgroup_baseline
+four_weeks: observed 36/41; paired change -2.580000; full change bounds [-4.582439, -1.533659]; tipping missing outcome 37.576000; tipping missing change 18.576000; feasible=False
+three_months: observed 15/41; paired change -3.400000; full change bounds [-13.242195, 2.611463]; tipping missing outcome 20.881923; tipping missing change 1.961538; feasible=True
