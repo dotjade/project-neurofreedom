@@ -1,0 +1,4 @@
+PASS: 56 aggregate checks using independent Decimal formulas; no analysis-module import
+Month-3 paired printed means: 15.33 - 18.73 = -3.40; 15 * 3.40 = 51.00 score-points
+26 * 2 - 51 = 1; one score-point / 41 = +0.024390243902439 full-cohort mean change
+These are aggregate identities, not recovered individual outcomes or response counts.
