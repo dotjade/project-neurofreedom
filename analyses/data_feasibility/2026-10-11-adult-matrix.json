@@ -1,0 +1,175 @@
+{
+  "title": "Adult longitudinal tic resource compatibility audit",
+  "audit_date": "2026-10-11",
+  "schema_version": "1.0",
+  "unit": "resource_family",
+  "data_kind": "original study-level metadata judgments, no participant records",
+  "participant_files_retrieved": false,
+  "participant_analysis_executed": false,
+  "outreach_or_access_request": false,
+  "gates": {
+    "G1": "target-cadence exposure/outcome windows",
+    "G2": "independently observed tic ascertainment",
+    "G3": "usable lag pairs, treatment, linkage and missingness",
+    "G4": "adult severe-persistence coverage",
+    "G5": "documented relevant access route and secondary-use prerequisites"
+  },
+  "semantics": {
+    "documented": "Supported by a primary or official source",
+    "design_mismatch": "Published cadence/design differs from target",
+    "not_established": "Not demonstrated, not proof of absence",
+    "conditional_route": "Published author request route; project access not granted"
+  },
+  "resource_families": [
+    {
+      "id": "nottingham_home_mns",
+      "source_ids": [
+        "PMID37133932",
+        "PMID42704310"
+      ],
+      "overlap": "2026 report follows 2023 cohort; not replication",
+      "independent_repeated_tic_observation": "documented",
+      "target_non_treatment_antecedent_linkage": "not_established",
+      "adult_severe_persistence": "not_established",
+      "access": "conditional_route",
+      "full_match": false,
+      "failure_gates": [
+        "G1",
+        "G3",
+        "G4",
+        "G5"
+      ],
+      "sources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC10947020/",
+        "https://bpspsychub.onlinelibrary.wiley.com/doi/10.1111/jnp.70080"
+      ]
+    },
+    {
+      "id": "calgary_paris_adult_registry",
+      "source_ids": [
+        "PMID39644242",
+        "PMID40698747"
+      ],
+      "overlap": "Calgary and expanded Calgary/Paris reports not independent replication",
+      "independent_target_cadence_tic_observation": "design_mismatch",
+      "adult_severe_persistence": "not_established",
+      "access": "conditional_route",
+      "full_match": false,
+      "failure_gates": [
+        "G1",
+        "G2",
+        "G3",
+        "G4",
+        "G5"
+      ],
+      "sources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC11952939/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12284832/"
+      ]
+    },
+    {
+      "id": "lisa_ts",
+      "source_ids": [
+        "NCT04851678"
+      ],
+      "independent_target_cadence_tic_observation": "design_mismatch",
+      "adult_severe_persistence": "not_established",
+      "access": "ipd_undecided",
+      "full_match": false,
+      "failure_gates": [
+        "G1",
+        "G2",
+        "G3",
+        "G4",
+        "G5"
+      ],
+      "sources": [
+        "https://clinicaltrials.gov/study/NCT04851678"
+      ]
+    },
+    {
+      "id": "ucla_insomnia_pilot",
+      "source_ids": [
+        "NCT05499741"
+      ],
+      "independent_target_cadence_tic_observation": "design_mismatch",
+      "adult_severe_persistence": "not_established",
+      "access": "not_established",
+      "full_match": false,
+      "failure_gates": [
+        "G1",
+        "G2",
+        "G3",
+        "G4",
+        "G5"
+      ],
+      "sources": [
+        "https://ucla.clinicaltrials.researcherprofiles.org/trial/NCT05499741",
+        "https://clinicaltrials.gov/study/NCT05499741"
+      ]
+    },
+    {
+      "id": "international_tourette_dbs_registry",
+      "source_ids": [
+        "10.3389/fnins.2016.00170",
+        "10.1001/jamaneurol.2017.4317"
+      ],
+      "independent_target_cadence_tic_observation": "design_mismatch",
+      "adult_severe_persistence": "severe_treated_adults_and_younger_people_documented",
+      "access": "governance_described_relevant_record_access_unverified",
+      "full_match": false,
+      "failure_gates": [
+        "G1",
+        "G2",
+        "G3",
+        "G5"
+      ],
+      "sources": [
+        "https://www.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2016.00170/full",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC5885852/"
+      ]
+    },
+    {
+      "id": "uf_responsive_dbs",
+      "source_ids": [
+        "NCT02056873",
+        "PMID36094652",
+        "PMID38499664"
+      ],
+      "overlap": "2022 and 2024 reports overlap within same experimental program",
+      "independent_repeated_tic_observation": "documented_at_non_target_cadence",
+      "adult_severe_persistence": "documented",
+      "access": "conditional_route",
+      "full_match": false,
+      "failure_gates": [
+        "G1",
+        "G3",
+        "G5"
+      ],
+      "sources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC9468946/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC10948908/",
+        "https://clinicaltrials.gov/study/NCT02056873"
+      ]
+    }
+  ],
+  "not_counted_as_independent_families": [
+    {
+      "id": "molina_responsive_case",
+      "reason": "earlier case; participant overlap unverified; not a full core family",
+      "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7007215/"
+    },
+    {
+      "id": "goetz_home_alone",
+      "reason": "short observation-method comparison, not extended cohort",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/11481693/"
+    }
+  ],
+  "result": {
+    "core_families": 6,
+    "complete_matches_documented": 0,
+    "not_exhaustive": true,
+    "interpretation": "Full adult day/week antecedent analysis remains not demonstrated as executable. Biological antecedent hypothesis untested.",
+    "next_decision": "Close generic search; reopen for new protocol/data-release or specifically authorized custodian clarification; preserve adult sustained-burden target."
+  }
+}
