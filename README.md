@@ -46,6 +46,11 @@ A research program toward better understanding, effective treatments and ultimat
 - [Daily evidence scan](updates/2026-10-11-evidence-scan.md): no verified new qualifying in-window result; publication, product publicity and approval remain distinct.
 - [Six-family adult resource audit](analyses/data_feasibility/2026-10-11-adult-audit.md), [compatibility matrix](analyses/data_feasibility/2026-10-11-adult-matrix.json) and [search log](analyses/data_feasibility/2026-10-11-search-log.json): the bounded search is closed without a complete design match. A linked MNS follow-up highlights attrition and lack of a contemporaneous sham comparison.
 
+## First weekly synthesis — 11 October 2026
+
+- [What was tested, learned and rejected](updates/2026-10-11-weekly-synthesis.md), covering actual work from 8–11 October.
+- [Executed MNS attrition sensitivity analysis](analyses/mns_attrition/report.md): exact published-aggregate bounds, source inconsistency, hypothetical tipping points and independently reproduced calculations. No participant records or clinical efficacy inference.
+
 ## Working research record
 
 - [Research protocol and planned update cycle](RESEARCH_PROTOCOL.md)
