@@ -1,0 +1,123 @@
+{
+  "analysis_id": "neurofreedom-mns-attrition-2026-10-11",
+  "scale": {
+    "name": "YGTSS-R motor tic severity",
+    "minimum": "0",
+    "maximum": "25",
+    "direction": "higher is worse",
+    "not_analyzed": "YGTSS total tic severity 0–50; impairment; phonic; urge; OCD; anxiety; responder proportions"
+  },
+  "study": {
+    "doi": "10.1111/jnp.70080",
+    "pmid": "42704310",
+    "first_published": "2026-09-07",
+    "relationship": "Same trial as 2023 report, not independent replication",
+    "url": "https://bpspsychub.onlinelibrary.wiley.com/doi/10.1111/jnp.70080",
+    "publication_metadata_url": "https://pubmed.ncbi.nlm.nih.gov/42704310/",
+    "source_locator": "METHODS > Outcome measures; RESULTS > Analyses: Motor tic severity (YGTSS-R), first three paragraphs",
+    "retrieval": "2026-10-11; substantive indexed primary-publisher full text via web search. Direct DOI/publisher open failed. Numeric paragraph re-obtained in targeted primary-source search.",
+    "followup_sham_comparison": "No contemporaneous sham outcome reported in the analyzed active-arm extension",
+    "data_access": "Corresponding-author request subject to privacy/ethical restrictions; no participant records acquired",
+    "correction_check": "Targeted exact-DOI correction and retraction searches found no relevant notice; not comprehensive clearance"
+  },
+  "cohort": {
+    "n": 41,
+    "baseline_mean": "18.62",
+    "baseline_mean_decimal_places": 2,
+    "scope": "Baseline active-arm motor-analysis cohort in 2026 follow-up, not entire randomized trial"
+  },
+  "timepoints": [
+    {
+      "id": "four_weeks",
+      "n_observed": 36,
+      "observed_mean": "16.25",
+      "returnee_baseline_mean": "18.83",
+      "printed_returnee_change": "-2.58"
+    },
+    {
+      "id": "three_months",
+      "n_observed": 15,
+      "observed_mean": "15.33",
+      "returnee_baseline_mean": "18.73",
+      "printed_returnee_change": "-3.4"
+    }
+  ],
+  "baseline_partition_check": {
+    "retained_n": 36,
+    "retained_baseline_mean": "18.83",
+    "retained_decimal_places": 2,
+    "dropped_n": 5,
+    "dropped_baseline_mean": "19.0",
+    "dropped_decimal_places": 1,
+    "warning": "Do not silently reconcile with full-cohort baseline 18.62."
+  },
+  "original_trial": {
+    "doi": "10.1111/jnp.12313",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10947020/",
+    "locator": "Abstract > Methods; Methods > Inclusion criteria; Methods > Primary outcome measure",
+    "randomized_total": 135,
+    "allocated_per_arm": 45,
+    "age_entry_minimum": 12,
+    "scope": "Original trial counts are contextual only; do not substitute for the 2026 motor-analysis denominators."
+  },
+  "repository_context": [
+    {
+      "path": "README.md",
+      "sha": "bde9d9597743edae49a3640e0aa25272c26608a8",
+      "url": "https://github.com/dotjade/project-neurofreedom/blob/main/README.md"
+    },
+    {
+      "path": "RESEARCH_PROTOCOL.md",
+      "sha": "3cb049d097d68d032650700cf68d1612cbef1ec7",
+      "url": "https://github.com/dotjade/project-neurofreedom/blob/main/RESEARCH_PROTOCOL.md"
+    },
+    {
+      "path": "STATUS.md",
+      "sha": "30c87a832643aa83873e61693fb4675e47e8b470",
+      "url": "https://github.com/dotjade/project-neurofreedom/blob/main/STATUS.md"
+    },
+    {
+      "path": "analyses/data_feasibility/2026-10-11-adult-audit.md",
+      "sha": "e6c3602e5434ac79900ad4bda27401a6497744e7",
+      "url": "https://github.com/dotjade/project-neurofreedom/blob/main/analyses/data_feasibility/2026-10-11-adult-audit.md"
+    }
+  ],
+  "assumptions": [
+    "Printed means used as deterministic plug-in aggregates; outputs are conditional, not exact empirical effects.",
+    "The follow-up respondents are subsets of the N=41 baseline cohort and their baseline means refer to those same respondents, as stated in the motor-results paragraphs.",
+    "Missing motor scores lie within 0–25; baseline and missing-outcome mean partitions are handled separately.",
+    "No missing-at-random assumption is imposed for scale bounds.",
+    "Every missing-outcome scenario is hypothetical; no individual records are constructed.",
+    "A single-arm mean change cannot identify a causal effect, disease modification, cure or a severe-persistent-adult effect."
+  ],
+  "search_log": [
+    {
+      "query": "\"10.1111/jnp.70080\"",
+      "date": "2026-10-11"
+    },
+    {
+      "query": "\"42704310\" Jackson motor tics follow up",
+      "date": "2026-10-11"
+    },
+    {
+      "query": "site:bpspsychub.onlinelibrary.wiley.com/doi/10.1111/jnp.70080 \"18.62\" \"19.0\"",
+      "date": "2026-10-11"
+    },
+    {
+      "query": "\"jnp.70080\" pdf",
+      "date": "2026-10-11"
+    },
+    {
+      "query": "\"jnp.70080\" \"motor\" \"18.73\"",
+      "date": "2026-10-11"
+    },
+    {
+      "query": "\"jnp.70080\" \"correction\"",
+      "date": "2026-10-11"
+    },
+    {
+      "query": "\"jnp.70080\" \"retraction\"",
+      "date": "2026-10-11"
+    }
+  ]
+}
