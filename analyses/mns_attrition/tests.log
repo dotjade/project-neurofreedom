@@ -1,0 +1,24 @@
+test_both_branches_same_sign_identification (test_analysis.AggregateTests.test_both_branches_same_sign_identification) ... ok
+test_bounds_monotonic_in_missing_mean (test_analysis.AggregateTests.test_bounds_monotonic_in_missing_mean) ... ok
+test_complete_followup_has_point_bound (test_analysis.AggregateTests.test_complete_followup_has_point_bound) ... ok
+test_counts (test_analysis.AggregateTests.test_counts) ... ok
+test_four_week_tipping_is_outside_scale (test_analysis.AggregateTests.test_four_week_tipping_is_outside_scale) ... ok
+test_impossible_baseline_partition_rejected (test_analysis.AggregateTests.test_impossible_baseline_partition_rejected) ... ok
+test_invalid_count_rejected (test_analysis.AggregateTests.test_invalid_count_rejected) ... ok
+test_missing_change_tipping_does_not_need_full_baseline (test_analysis.AggregateTests.test_missing_change_tipping_does_not_need_full_baseline) ... ok
+test_no_change_missing_weighted_paired_effect (test_analysis.AggregateTests.test_no_change_missing_weighted_paired_effect) ... ok
+test_out_of_scale_input_rejected (test_analysis.AggregateTests.test_out_of_scale_input_rejected) ... ok
+test_paired_and_unpaired_baselines_remain_distinct (test_analysis.AggregateTests.test_paired_and_unpaired_baselines_remain_distinct) ... ok
+test_retention (test_analysis.AggregateTests.test_retention) ... ok
+test_rounding_cannot_reconcile_baseline (test_analysis.AggregateTests.test_rounding_cannot_reconcile_baseline) ... ok
+test_rounding_does_not_change_qualitative_result (test_analysis.AggregateTests.test_rounding_does_not_change_qualitative_result) ... ok
+test_same_change_and_same_outcome_are_different (test_analysis.AggregateTests.test_same_change_and_same_outcome_are_different) ... ok
+test_saved_output_matches_recomputed (test_analysis.AggregateTests.test_saved_output_matches_recomputed) ... ok
+test_three_month_bounds_exact (test_analysis.AggregateTests.test_three_month_bounds_exact) ... ok
+test_tipping_point_gives_exact_zero (test_analysis.AggregateTests.test_tipping_point_gives_exact_zero) ... ok
+test_two_point_worsening_erases_improvement (test_analysis.AggregateTests.test_two_point_worsening_erases_improvement) ... ok
+
+----------------------------------------------------------------------
+Ran 19 tests in 0.004s
+
+OK
