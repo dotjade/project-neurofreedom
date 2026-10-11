@@ -1,6 +1,6 @@
 # Project NeuroFreedom status
 
-Updated 10 October 2026. Initial portfolio plus two completed daily research updates.
+Updated 11 October 2026. Initial portfolio plus three completed daily research updates.
 
 ## Completed in this first pass
 
@@ -14,7 +14,7 @@ Updated 10 October 2026. Initial portfolio plus two completed daily research upd
 
 ## Enabled research schedules
 
-The user approved the following automatic public-science research and repository updates on 8 October 2026. Each schedule was created successfully and returned enabled status. Daily runs were completed on 9 and 10 October 2026; first weekly, monthly and quarterly runs remain unverified.
+The user approved the following automatic public-science research and repository updates on 8 October 2026. Each schedule was created successfully and returned enabled status. Daily runs were completed on 9, 10 and 11 October 2026; first weekly, monthly and quarterly runs remain unverified.
 
 - Daily new-evidence checks: from 9 October 2026, approximately 08:00 India time.
 - Weekly synthesis: Sundays, from 11 October 2026, approximately 09:00 India time.
@@ -27,7 +27,7 @@ All use flexible timing, generally within an hour of the stated time. Research u
 
 No cure has been found or validated. No patient-specific diagnosis, treatment plan, clinical experiment, genomic testing, clinician outreach, trial enrolment or collaboration has been arranged. No controlled-access research dataset has been obtained. Proposed computational analyses have not been executed merely because they are described. A source-linked institutional page is not proof of access or willingness to collaborate.
 
-## Next bounded scientific task
+## Initial bounded scientific task (historical; see latest decision below)
 
 Build a harmonized extraction of developmental remission studies: definitions of absence/improvement, observation method, follow-up duration, treatment status, attrition, recurrence and functional outcomes. Resolve why self-report and observed-tic outcomes differ before combining estimates. Use published aggregate data first; do not gather new personal medical information for this task.
 
@@ -74,3 +74,17 @@ The [five-cohort feasibility audit](analyses/data_feasibility/2026-10-10-audit.m
 ### Next bounded decision
 
 Audit primary protocols and metadata for adult intensive/severe-adult longitudinal resources, using the explicit requirements in the feasibility report. Seek independently observed outcomes, sufficiently timed exposures and a lawful access route; document a bounded negative result if no eligible design is found. Keep sustained burden/function outcomes even without quiet-to-peak transitions. Do not replace the adult target with an available pediatric dataset. The unresolved Groth denominator, expanded New Tics extraction and gating precision work remain separate pending questions, not mandatory substitutes for this adult-focused priority.
+
+## Completed daily research update — 11 October 2026
+
+The [dated evidence scan](updates/2026-10-11-evidence-scan.md) found no new qualifying primary tic study, posted trial result, material registry change or target-therapy safety notice in the bounded interval. Eighteen PubMed metadata records were prior-screened overlaps; two registry snapshots were unchanged. A fully paginated lexical screen of 480 bioRxiv/medRxiv posting/version metadata records found no tic-related matches. This is not exhaustive worldwide surveillance. Manufacturer publicity about a wellness product was not treated as medical-device approval or a new treatment trial.
+
+The [adult resource audit](analyses/data_feasibility/2026-10-11-adult-audit.md) adds six resource families to yesterday's five, without repeating that audit. No complete independent-observation day/week antecedent design with verified severe-persistent-adult coverage and access was demonstrated. Nottingham home MNS observations and UF severe-adult responsive DBS were closest for different reasons. Adult burden registries answer longer-timescale questions. A request route is not granted access, and treatment-responsive physiology is not untreated natural history.
+
+The bounded generic adult-cohort search is now closed. Do not keep repeating it without a new release/protocol or separately authorized custodian clarification. No participant data were obtained and no institutional access/outreach was initiated.
+
+A linked MNS follow-up published 7 September 2026 (PMID 42704310; DOI 10.1111/jnp.70080), found during this audit, reports 41 active-arm participants at baseline, 36 after four weeks and 15 at three months for its motor-tic analysis. The observed returnee improvement lacks a contemporaneous sham comparison and cannot establish disease modification or cure. It is a same-trial extension, not independent replication or a new October publication.
+
+### Next feasible bounded analysis
+
+Use the published aggregate MNS follow-up denominators and verified outcome summaries for an explicit attrition/sensitivity or tipping-point analysis, if sufficient quantities can be extracted. Record scale bounds, assumptions, exact inputs and actual outputs. Separate participant-weighted mean change from a responder count; do not manufacture unavailable covariance or missing outcomes. It will address robustness of a durability inference, not the adult antecedent question. Retain pain, function and persistent burden as outcomes in parallel adult evidence work. If necessary inputs are unavailable, document the missing quantity and produce only justified bounds, rather than inventing a result.
