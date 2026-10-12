@@ -51,6 +51,13 @@ A research program toward better understanding, effective treatments and ultimat
 - [What was tested, learned and rejected](updates/2026-10-11-weekly-synthesis.md), covering actual work from 8–11 October.
 - [Executed MNS attrition sensitivity analysis](analyses/mns_attrition/report.md): exact published-aggregate bounds, source inconsistency, hypothetical tipping points and independently reproduced calculations. No participant records or clinical efficacy inference.
 
+## Research update — 12 October 2026
+
+- [Dated evidence scan](updates/2026-10-12-evidence-scan.md): a newly indexed October 1 preprint, separately classified; no verified new-window trial posting or material regulator notice.
+- [CBIT plus TMS source/denominator audit](updates/2026-10-12-cbit-tms-extraction.md): neural engagement, clinical added benefit and session/event/participant safety measures remain distinct.
+- [Adult sensory-gating precision audit](analyses/sensory_gating/2026-10-12/report.md): explicit missing numerical prerequisites; no invented effect bounds or equivalence claim.
+- [Adult burden endpoint audit](analyses/adult_burden/2026-10-12/report.md): separate severity, impairment and quality of life; reproducible completion-set bounds and a carefully limited observed-visit estimand.
+
 ## Working research record
 
 - [Research protocol and planned update cycle](RESEARCH_PROTOCOL.md)
