@@ -1,0 +1,5 @@
+{"source": "pubmed", "status": "metadata_retrieved", "retrieved_at_utc": "2026-10-12T02:51:14.833333+00:00"}
+{"source": "crossref", "status": "metadata_retrieved", "retrieved_at_utc": "2026-10-12T02:51:21.709020+00:00"}
+{"source": "pubmed_to_pmc", "status": "metadata_retrieved", "retrieved_at_utc": "2026-10-12T02:51:27.441477+00:00"}
+{"source": "openalex", "status": "metadata_retrieved", "retrieved_at_utc": "2026-10-12T02:51:33.076525+00:00"}
+Wrote source_metadata.json
