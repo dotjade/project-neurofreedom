@@ -1,6 +1,6 @@
 # Project NeuroFreedom status
 
-Updated 11 October 2026. Initial portfolio, three completed daily updates and first completed weekly synthesis.
+Updated 12 October 2026. Initial portfolio, four completed daily updates and first completed weekly synthesis.
 
 ## Completed in this first pass
 
@@ -14,7 +14,7 @@ Updated 11 October 2026. Initial portfolio, three completed daily updates and fi
 
 ## Enabled research schedules
 
-The user approved the following automatic public-science research and repository updates on 8 October 2026. Each schedule was created successfully and returned enabled status. Daily runs were completed on 9, 10 and 11 October 2026; The first weekly synthesis was completed on 11 October; first monthly and quarterly runs remain unverified.
+The user approved the following automatic public-science research and repository updates on 8 October 2026. Each schedule was created successfully and returned enabled status. Daily runs were completed on 9, 10, 11 and 12 October 2026; the first weekly synthesis was completed on 11 October; first monthly and quarterly runs remain unverified.
 
 - Daily new-evidence checks: from 9 October 2026, approximately 08:00 India time.
 - Weekly synthesis: Sundays, from 11 October 2026, approximately 09:00 India time.
@@ -100,3 +100,21 @@ An incompatible printed baseline partition is prominent in the report; alternate
 ### Next decisions after the weekly analysis
 
 Do not recompute unchanged MNS inputs or repeat the closed generic cohort search. Prioritize the already identified adult sensory-gating paper's full methods and uncertainty extraction, if lawful access permits; preserve its null finding without calling it equivalence. For sustained adult burden, first verify published registry instruments and outcome definitions at native six/twelve-month intervals before proposing a specific analysis. Any custodian contact, participant-level access or institutional work has separate authorization and governance gates. No immediate family data, device purchase or home experiment is needed for public-evidence work.
+
+## Completed daily research update — 12 October 2026
+
+The [dated scan](updates/2026-10-12-evidence-scan.md) screened 201 unique PubMed metadata records and identified one relevant preprint newly returned by the entry-date query. DOI 10.64898/2026.09.29.26364036 / PMID 42856611 was posted on 1 October, not first published today. It remains preliminary. No in-window ClinicalTrials.gov posting or material FDA/EMA/MHRA target-therapy notice was verified. The separately paginated preprint feed returned 393 posting/version records without tic-keyword matches; dynamic pagination and other coverage limits are explicit.
+
+The [linked CBIT–TMS audit](updates/2026-10-12-cbit-tms-extraction.md) reconciles the abstract, current NCT04578912 aggregate results and 2023 protocol. All arms received CBIT; neural target engagement and within-arm improvement do not establish added clinical benefit. Session percentages, event counts and affected-participant counts must not be interchanged. Clinical time contrasts, neural units, endpoint hierarchy and full-preprint methods remain unresolved, so no clinical-effect reconstruction was made. The 2025 registry results are neither new this week nor independent replication. An older uncontrolled adult Brazilian registry record preserves nonsignificant global results and headache/withdrawal evidence, with source inconsistencies disclosed.
+
+The [adult sensory-gating methods/precision pass](analyses/sensory_gating/2026-10-12/report.md) verified difference-score and regression-marginal-effect terminology, but could not retrieve numerical tables through the tested lawful routes. The 28/34 group sizes alone cannot identify an observed effect or interval. A smaller first-stimulus P50 is distinct from impaired gating. Retain the null finding without equivalence or treatment-target claims. This bounded access pass is closed pending a working lawful source; no statistical effect calculation was invented.
+
+The [adult registry endpoint audit](analyses/adult_burden/2026-10-12/report.md) completed the specifically planned Calgary/Paris extraction. Neither report supplies severity–quality-of-life concordance or a severe-persistence definition. Six-monthly past-week assessments cannot establish continuously severe symptoms between visits. A candidate descriptive estimand is severity at registration, six and twelve months, paired with separately measured burden during clinical care, conditional on verified definitions and data access. A total tic-score cutoff above 25 would structurally exclude motor-only/vocal-only disorders, regardless of disability; no universal threshold was adopted.
+
+Executed deterministic aggregate checks: 63/95 and 55/95 are completion fractions, not established retention among those due. Given subsets of the same 95 enrollees, 23–55 could have completed both follow-ups; neither endpoint completeness nor severe persistence is identified. The psychiatric-table denominator is 218/227; antipsychotic counts conflict at 95 overall versus 99 summed subgroups. The correct replacement count is unknown. Forty-seven arithmetic check groups passed and output reproduced; independent review confirmed the bounds and primary-source distinctions. Code, inputs/provenance and output are archived. No participant files, outreach or clinical action were involved.
+
+### Next bounded decision after this update
+
+Prioritize adult GTS-QOL/YGTSS validation and longitudinal concordance evidence to specify patient-relevant burden outcomes and assess defensible diagnosis-specific severity definitions. Keep impairment, quality of life, pain and participation distinct from tic count/severity; do not claim their interchangeability without validation. Stop with a clear missing prerequisite if published evidence cannot support the intended threshold or estimand.
+
+Do not repeat the completed registry endpoint audit, MNS attrition computation or generic adult-cohort search. Reopen gating numerical extraction or CBIT–TMS clinical synthesis only when a usable lawful methods/table source or clarified public record permits an informative next step. Custodian contact, participant-level data access and institutional clinical work require separate authorization and governance. No immediate family data or home experiment is needed.
