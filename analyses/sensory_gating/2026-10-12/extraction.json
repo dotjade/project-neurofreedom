@@ -1,0 +1,193 @@
+{
+  "id": "pmid:42810670",
+  "original_evidence_record_date": "2026-10-09",
+  "extraction_date": "2026-10-12",
+  "type": "bounded_methods_precision_access_audit",
+  "title": "Somatosensory gating of pneumatic stimuli in adults with chronic tic disorder",
+  "doi": "10.1016/j.biopsycho.2026.109408",
+  "pmid": "42810670",
+  "pii": "S0301051126002218",
+  "study_sources": [
+    "https://pubmed.ncbi.nlm.nih.gov/42810670/",
+    "https://doi.org/10.1016/j.biopsycho.2026.109408"
+  ],
+  "original_publication_date": "2026-09-29",
+  "pubmed_record_revised": "2026-10-08",
+  "crossref_print_issue": "2026-11",
+  "volume": "211",
+  "repository_baseline": [
+    {
+      "path": "README.md",
+      "sha": "d7a81323044179b8149179e0d023294110a500a1",
+      "url": "https://github.com/dotjade/project-neurofreedom/blob/main/README.md"
+    },
+    {
+      "path": "RESEARCH_PROTOCOL.md",
+      "sha": "3cb049d097d68d032650700cf68d1612cbef1ec7",
+      "url": "https://github.com/dotjade/project-neurofreedom/blob/main/RESEARCH_PROTOCOL.md"
+    },
+    {
+      "path": "STATUS.md",
+      "sha": "0a0289dbe4741a5a473560b5f2c95e709ead5255",
+      "url": "https://github.com/dotjade/project-neurofreedom/blob/main/STATUS.md"
+    },
+    {
+      "path": "evidence.jsonl",
+      "sha": "47ccdf03793760bfd6abd3bb71113ad17d917797",
+      "url": "https://github.com/dotjade/project-neurofreedom/blob/main/evidence.jsonl"
+    },
+    {
+      "path": "updates/2026-10-09-evidence-scan.md",
+      "sha": "7b0f4d643200086d9ec6ea21ba64faabbec10887",
+      "url": "https://github.com/dotjade/project-neurofreedom/blob/main/updates/2026-10-09-evidence-scan.md"
+    },
+    {
+      "path": "updates/2026-10-11-weekly-synthesis.md",
+      "sha": "f035a8bf6e938deb3aaecd5d1b88d37c2d8d3ef9",
+      "url": "https://github.com/dotjade/project-neurofreedom/blob/main/updates/2026-10-11-weekly-synthesis.md"
+    }
+  ],
+  "prediction_record": "preanalysis.md",
+  "source_status": {
+    "official_abstract": "retrieved",
+    "full_methods": "not_retrieved",
+    "numerical_tables": "not_retrieved",
+    "supplement": "not_retrieved",
+    "preregistration": "not_verified",
+    "participant_data": "not_sought_or_obtained"
+  },
+  "reported_n": {
+    "ctd": 28,
+    "neurotypical": 34,
+    "endpoint_specific_analysis_n": "not_verified"
+  },
+  "verified_method_terms": {
+    "modality": "paired pneumatic somatosensory stimulation with dense-array EEG",
+    "assessment": "self-report and rater-administered neuropsychiatric evaluation",
+    "components": [
+      "P50",
+      "N140",
+      "P300"
+    ],
+    "gating_approaches": [
+      "gating differences",
+      "regression analysis marginal effects"
+    ],
+    "exact_formulae_and_models": null
+  },
+  "outcomes": [
+    {
+      "estimand": "group contrast in gating indices",
+      "components": [
+        "P50",
+        "N140",
+        "P300"
+      ],
+      "abstract_result": "no detected group difference",
+      "estimate": null,
+      "sd": null,
+      "se": null,
+      "ci": null,
+      "p_exact": null,
+      "df": null,
+      "n_by_endpoint": null
+    },
+    {
+      "estimand": "gating relationship to tactile responsivity",
+      "abstract_result": "no detected association",
+      "scale": null,
+      "model": null,
+      "estimate": null,
+      "se": null,
+      "ci": null,
+      "p_exact": null,
+      "n_by_endpoint": null
+    },
+    {
+      "estimand": "first-stimulus P50 group contrast",
+      "abstract_result": "smaller in CTD; reported significant",
+      "estimate": null,
+      "se": null,
+      "ci": null,
+      "p_exact": null,
+      "n_by_endpoint": null
+    },
+    {
+      "estimand": "within-CTD first-stimulus P50 relationship to tactile responsivity",
+      "abstract_result": "smaller amplitude associated with greater responsivity",
+      "estimate": null,
+      "se": null,
+      "ci": null,
+      "p_exact": null,
+      "n_by_endpoint": null
+    }
+  ],
+  "unverified_methods": {
+    "population": [
+      "recruitment",
+      "diagnostic criteria and TS/other CTD composition",
+      "age distribution",
+      "duration",
+      "severe-persistent or treatment-refractory stratum",
+      "pain and functional burden",
+      "screening and EEG exclusions"
+    ],
+    "phenotype": [
+      "named tactile-responsivity instrument and scoring",
+      "tic severity and impairment distribution",
+      "comorbidity diagnoses and symptom scores",
+      "treatment/medication use, stability, timing and covariate handling"
+    ],
+    "eeg": [
+      "stimulation site/intensity/timing",
+      "instructions and attention condition",
+      "reference/filters",
+      "artifact handling and retained trials",
+      "windows and electrodes",
+      "baseline and polarity conventions",
+      "reliability"
+    ],
+    "inference": [
+      "index formula",
+      "regression specification and marginal-effect definition",
+      "uncertainty and degrees of freedom",
+      "multiple-testing correction",
+      "missing-data handling",
+      "prespecified endpoints and equivalence margins"
+    ]
+  },
+  "computation": {
+    "executed": false,
+    "reason": "No observed estimates, endpoint-specific variances/uncertainty, or sufficient model specification available.",
+    "sample_size_only_power_substituted": false,
+    "missing_quantities_invented": false,
+    "code_delivered": "check_source_metadata.py performs metadata checks only"
+  },
+  "decision": {
+    "strong_generalized_gating_account": "weakened in this paradigm; expected positive evidence not found",
+    "equivalence": "not established",
+    "any_gating_abnormality_ruled_out": false,
+    "severe_persistent_adult_generalizability": "unverified",
+    "first_stimulus_p50": "distinct cross-sectional candidate; not demonstrated repeated-stimulus gating impairment",
+    "therapeutic_or_cure_inference": "unsupported"
+  },
+  "access": {
+    "publisher_page": "web 403; direct retrieval and dot cloud browser show Site Unavailable",
+    "publisher_pdf": "web cache miss; direct retrieval and dot cloud browser show Site Unavailable",
+    "elsevier_api": "error HTML received, not an article, including exact Crossref-linked endpoint",
+    "pmc_link": "no linked record returned by NCBI ELink",
+    "europe_pmc": "two 503 errors; not a negative availability finding",
+    "institutional_preprint_search": "no usable target manuscript identified in bounded searches",
+    "crossref_license": "publisher-deposited CC BY 4.0 version-of-record start 2026-09-29; conflicts with all-rights-reserved PubMed string",
+    "openalex": "hybrid OA; publisher PDF only; any_repository_has_fulltext=false in retrieved metadata",
+    "characterization": "verified retrieval blocker, not a verified paywall or exhaustive absence of lawful full text"
+  },
+  "correction_retraction_check": {
+    "date": "2026-10-12",
+    "pubmed": "no linked CommentsCorrections entry",
+    "crossref": "relation empty; update-to missing",
+    "limit": "publisher/Crossmark and retraction-database review not completed"
+  },
+  "next_prerequisite": "Working lawful methods/results source or published contrast estimates with uncertainty and full definitions; do not infer missing quantities from n=28/34.",
+  "limits": "Original paraphrased extraction, not full-text peer review. No participant files, full-text copy, outreach, purchase, login, or access application."
+}
