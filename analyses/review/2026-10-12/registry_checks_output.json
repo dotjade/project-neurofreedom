@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "checks_passed": 25,
+  "check_breakdown": {
+    "outcome_denominators_values_SDs_and_absent_analysis_rows": 18,
+    "serious_AE_affected_and_at_risk_counts": 2,
+    "nonserious_event_count_sums": 3,
+    "participant_flow_started_and_completed": 2
+  },
+  "input_sha256": "6e5fba5584b35d5be39a1b269df0a431ede2acfa4df61aa8514115489bf61b5c",
+  "source_json_sha256": "24b49a5a5bec8d4d1a6899b387aa2235941448d7a96a7aac9276c9eb5723eae7",
+  "limits": [
+    "Expected values are fixed to the 12 October 2026 reviewed capture.",
+    "Event sums are not affected-session counts or participant treatment-related risks.",
+    "Completion is not complete follow-up or complete endpoint availability.",
+    "These checks do not validate efficacy, safety equivalence, or causal effects."
+  ]
+}
