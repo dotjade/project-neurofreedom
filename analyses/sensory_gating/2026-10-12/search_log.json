@@ -1,0 +1,128 @@
+{
+  "run_date": "2026-10-12",
+  "time_range_utc": "02:46–02:52 (metadata audit exact timestamps in source_metadata.json)",
+  "scope": "single identified adult gating paper; not a new publication scan or generic adult cohort search",
+  "search_engine": "web tool",
+  "filters": "Exact title/DOI and focused site queries; no date or language limit; results screened for the target study and lawful full methods/statistical output.",
+  "query_batches": [
+    {
+      "queries": [
+        "\"10.1016/j.biopsycho.2026.109408\"",
+        "\"Somatosensory gating of pneumatic stimuli\""
+      ],
+      "result": "Target abstract/index records and unrelated gating sources; no usable target methods or quantities."
+    },
+    {
+      "queries": [
+        "\"Somatosensory Gating of Pneumatic Stimuli in Adults with Chronic Tic Disorder\" site:sciencedirect.com",
+        "\"Somatosensory Gating\" \"Isaacs\" Vanderbilt",
+        "\"42810670\""
+      ],
+      "result": "Target PubMed record identified; bare numeric PMID also produced unrelated records, excluded. Earlier auditory paper is not the target study."
+    },
+    {
+      "queries": [
+        "\"Somatosensory\" \"pneumatic\" \"Isaacs\"",
+        "\"109408\" \"gating\"",
+        "\"Somatosensory gating\" site:medrxiv.org",
+        "\"Somatosensory gating\" site:bioRxiv.org"
+      ],
+      "result": "Target PubMed abstract plus unrelated results; no target lawful manuscript located."
+    },
+    {
+      "queries": [
+        "\"Somatosensory\" \"pneumatic\" site:lab.vanderbilt.edu",
+        "\"Somatosensory\" \"tic\" site:research.vanderbilt.edu",
+        "\"Somatosensory\" \"gating\" site:emory.edu",
+        "\"109408\" \"biopsycho\" manuscript"
+      ],
+      "result": "No usable target manuscript identified; off-target Emory thesis material excluded."
+    },
+    {
+      "queries": [
+        "\"Somatosensory Gating of Pneumatic\" \"pdf\"",
+        "\"Somatosensory\" \"pneumatic\" site:vu.edu",
+        "\"Somatosensory\" \"tic\" \"Isaacs\" site:pmc.ncbi.nlm.nih.gov",
+        "\"Somatosensory Gating of Pneumatic\" \"Table\""
+      ],
+      "result": "No target full methods/table source located; non-target sensory and auditory studies excluded from quantitative substitution."
+    },
+    {
+      "queries": [
+        "\"David Isaacs\" \"somatosensory\" site:vumc.org",
+        "\"Somatosensory gating of pneumatic stimuli\" site:osf.io",
+        "\"10.1016/j.biopsycho.2026.109408\" site:vanderbilt.edu",
+        "\"Somatosensory gating of pneumatic stimuli\" site:open.library.emory.edu"
+      ],
+      "result": "Tool returned Empty search results for the combined four-query request."
+    }
+  ],
+  "source_attempts": [
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42810670/",
+      "method": "web open/search and official EFetch",
+      "result": "Web open returned unhelpful HHS footer; search and official EFetch exposed the target abstract/metadata. Official XML read successfully."
+    },
+    {
+      "url": "https://doi.org/10.1016/j.biopsycho.2026.109408",
+      "method": "web open",
+      "result": "Inaccessible via renderer."
+    },
+    {
+      "url": "https://www.sciencedirect.com/science/article/pii/S0301051126002218",
+      "method": "web open, direct HTTPS, dot cloud browser",
+      "result": "Web 403; direct HTTP200 error HTML; cloud browser Site Unavailable."
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42810670/?format=pubmed",
+      "method": "web open",
+      "result": "Inaccessible via renderer; official EFetch succeeds."
+    },
+    {
+      "url": "https://api.crossref.org/works/10.1016%2Fj.biopsycho.2026.109408",
+      "method": "direct HTTPS",
+      "result": "Metadata success; verified DOI, publisher/API links and license. No numerical study outcomes."
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:42810670%20AND%20SRC:MED&format=json&resultType=core",
+      "method": "direct HTTPS",
+      "result": "503 Service Temporarily Unavailable."
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1016/j.biopsycho.2026.109408&format=json&resultType=core",
+      "method": "direct HTTPS",
+      "result": "503 Service Temporarily Unavailable."
+    },
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?dbfrom=pubmed&db=pmc&id=42810670&retmode=json",
+      "method": "direct HTTPS",
+      "result": "HTTP200; linksets include PMID but no linked PMC ID."
+    },
+    {
+      "url": "https://api.elsevier.com/content/article/pii/S0301051126002218?httpAccept=text/xml",
+      "method": "direct HTTPS",
+      "result": "HTTP200 with 195-character Site Unavailable HTML, not paper."
+    },
+    {
+      "url": "https://api.elsevier.com/content/article/PII:S0301051126002218?httpAccept=text/xml",
+      "method": "exact Crossref-listed endpoint, direct HTTPS",
+      "result": "HTTP200 with 195-character Site Unavailable HTML, not paper."
+    },
+    {
+      "url": "https://linkinghub.elsevier.com/retrieve/pii/S0301051126002218",
+      "method": "Crossref primary resource, direct HTTPS",
+      "result": "HTTP200 with Site Unavailable HTML."
+    },
+    {
+      "url": "https://api.openalex.org/works/https://doi.org/10.1016/j.biopsycho.2026.109408",
+      "method": "direct HTTPS",
+      "result": "Metadata success; supplied publisher PDF, hybrid OA classification, no repository location."
+    },
+    {
+      "url": "https://www.sciencedirect.com/science/article/pii/S0301051126002218/pdf",
+      "method": "web open, dot cloud browser, direct HTTPS",
+      "result": "Web cache miss; cloud browser Site Unavailable; direct HTTP200 text/html 195 bytes, not PDF."
+    }
+  ],
+  "coverage_limits": "Search result counts were not exhaustively paginated; no systematic completeness claim. Negative site search and missing repository metadata do not prove no manuscript exists. Publisher site error is not proof of paywall. No access restrictions bypassed."
+}
