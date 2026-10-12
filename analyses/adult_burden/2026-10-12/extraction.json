@@ -1,0 +1,189 @@
+{
+  "schema_version": "1.0",
+  "project": "NeuroFreedom",
+  "extracted_utc": "2026-10-12",
+  "scope": "Two previously identified adult registry reports and narrowly scoped scale-definition checks; original extraction only.",
+  "cohort_family": "Calgary/Paris Adult Tic Disorders Registry",
+  "cohort_overlap": {
+    "classification": "potentially overlapping reports; not independent cohorts",
+    "basis": "Both reports use the Calgary adult registry begun in 2021; the later analysis also includes Paris.",
+    "exact_shared_participant_count": null,
+    "full_containment_verified": false,
+    "pooling_permitted_from_published_evidence": false,
+    "nationality_is_not_verified_site_followup_count": true
+  },
+  "reports": [
+    {
+      "id": "pringsheim_martino_2024_online_calgary",
+      "title": "Toxin for Tics: Practical Guidance for Clinicians from a Registry-Based Naturalistic Study",
+      "authors": "Tamara Pringsheim; Davide Martino",
+      "first_published": "2024-12-07",
+      "issue_date": "2025-03",
+      "doi": "10.1002/mdc3.14296",
+      "pmid": "39644242",
+      "pmcid": "PMC11952939",
+      "url": "https://movementdisorders.onlinelibrary.wiley.com/doi/10.1002/mdc3.14296",
+      "alternate_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11952939/",
+      "source_sections": ["Patients and Methods", "Results", "Table 1", "Discussion", "Data Availability Statement"],
+      "design": "Treatment-description analysis within prospective single-site clinical registry; nonrandomized ever-versus-never botulinum-toxin comparison at registration.",
+      "site": "Movement Disorders Clinic, Calgary, Alberta, Canada",
+      "recruitment_period": {"from": "2021-01", "to": "2024-04"},
+      "population": {
+        "n": 95,
+        "diagnoses": {"Tourette_syndrome": 81, "persistent_motor_tic_disorder": 13, "persistent_vocal_tic_disorder": 1},
+        "diagnosis_definition": "DSM-5 primary tic disorders",
+        "exclusions": ["functional tic-like behaviors", "secondary tic disorders"],
+        "age": {"mean": 33, "sd": 14.8, "min": 18, "max": 73},
+        "sex_counts_as_reported": {"men": 62, "women": 33},
+        "childhood_onset_distribution": "Not separately reported; diagnoses use DSM-5 criteria.",
+        "severe_entry_threshold": null,
+        "persistent_severe_stratum": null,
+        "selection_limits": "Clinical specialty care; no population sampling or severe-only entry criterion."
+      },
+      "planned_registry_visits_months": [0, 6, 12],
+      "completed_at_analysis": {"registration": 95, "six_months": 63, "twelve_months": 55},
+      "missingness": {
+        "followup_due_denominators": null,
+        "joint_six_twelve_completion": null,
+        "endpoint_specific_counts": null,
+        "reasons_for_registry_noncompletion": null,
+        "imputation_or_model": "No longitudinal outcome model or missingness analysis reported.",
+        "caution": "Completion at interim analysis is not automatically permanent loss to follow-up."
+      },
+      "registry_collection": [
+        {"measure": "YGTSS tic inventory, tic severity and tic-related impairment", "version": "Not specified", "visits": "Registration, six and twelve months named in registry methods", "actual_longitudinal_results": false},
+        {"measure": "Gilles de la Tourette Quality of Life scale", "version_language_scoring_recall": "Not specified in this paper", "actual_scores_or_associations": false},
+        {"measure": "Presence and severity of psychiatric comorbidities", "named_symptom_scales": null},
+        {"measure": "Treatments for tics", "full_timevarying_history_completeness": "Not established"}
+      ],
+      "registration_summaries": {
+        "YGTSS_total_tic_severity": {"mean": 21.3, "ci95": [19.7, 22.8]},
+        "YGTSS_impairment": {"mean": 21.2, "ci95": [19.0, 23.3]}
+      },
+      "published_comparisons": {
+        "exposure_definition": "Ever botulinum toxin during enrollment versus never",
+        "ever_n": 32,
+        "never_n": 63,
+        "contrast_direction": "Never minus ever, as printed",
+        "YGTSS_total_tic_severity": {"ever_mean": 18.7, "never_mean": 22.6, "mean_difference": 3.9, "ci95": [0.7, 7.1], "p_as_printed": 0.009},
+        "YGTSS_impairment": {"ever_mean": 20.3, "never_mean": 21.6, "mean_difference": 1.3, "ci95": [-3.3, 5.9], "p_as_printed": 0.29},
+        "age": {"ever_mean": 40.1, "never_mean": 29.4},
+        "interpretation": "Unadjusted selection-related group contrasts; not a severity-burden correlation or a causal treatment effect. Test tails are not specified in the methods; p values are retained verbatim, not re-derived."
+      },
+      "treatment_context": {
+        "ever_botulinum_toxin": 32,
+        "injection_detail_available": 31,
+        "injection_detail_missing_reason": "One participant treated by another team",
+        "concurrent_oral_medication_among_toxin_recipients": 11,
+        "systematic_adverse_effect_collection": false,
+        "cycle_specific_response_tolerability": "Not reported; acknowledged limitation",
+        "registration_not_verified_untreated": true
+      },
+      "relationships_of_interest": {
+        "severity_impairment_correlation": null,
+        "severity_QoL_correlation": null,
+        "adjusted_burden_model": null,
+        "within_person_change_concordance": null,
+        "persistent_severe_count": null,
+        "independent_video_series": "Not established",
+        "meaning_of_null": "Not reported, not evidence of zero association"
+      },
+      "access": "Corresponding-author request subject to privacy/ethical restrictions; no project access granted.",
+      "funding_conflicts": "No specific funding and no relevant conflicts declared; additional author financial disclosures listed in source.",
+      "correction_check": "No notice identified in limited inspected source/title checks; not comprehensive clearance."
+    },
+    {
+      "id": "nilles_2025_calgary_paris",
+      "title": "The Phenomenology of Tics in Adults: Data From the Calgary and Paris Adult Tic Disorders Registry",
+      "authors": "Christelle Nilles and colleagues",
+      "first_published": "2025-07-23",
+      "doi": "10.1111/ene.70252",
+      "pmid": "40698747",
+      "pmcid": "PMC12284832",
+      "url": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/ene.70252",
+      "alternate_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12284832/",
+      "source_locations": {"methods": "PDF page 2", "sample_and_table_1": "PDF page 3", "table_2": "PDF page 5", "future_work_and_access": "PDF page 6"},
+      "design": "Cross-sectional first clinical assessment from prospective registry",
+      "sites": ["Foothills Hospital Movement Disorder Clinic, Calgary", "La Pitie-Salpetriere, Paris"],
+      "recruitment_start": "2021",
+      "recruitment_cutoff": null,
+      "population": {
+        "n": 227,
+        "diagnoses": {"Tourette_syndrome": 210, "persistent_motor_tic_disorder": 16, "persistent_vocal_tic_disorder": 1},
+        "definition": "Adults with childhood-onset DSM-5 primary chronic tic disorders during routine clinical care",
+        "exclusions": ["functional tic-like behaviors", "coexisting primary tics and functional tic-like behaviors", "provisional tic disorder", "secondary tics", "adult-onset tics"],
+        "age_mean": 31.2,
+        "age_mean_ci95": [29.5, 32.9],
+        "age_range": null,
+        "onset_age_mean": 7.7,
+        "onset_age_mean_ci95": [7.2, 8.2],
+        "sex_counts_as_reported": {"males": 145, "females": 82},
+        "nationality": {"Canadian": 108, "French": 119},
+        "severe_entry_threshold": null,
+        "persistent_severe_definition": null,
+        "selection_limits": "Expert-center referral population; severe status not an inclusion criterion."
+      },
+      "assessment": {
+        "time": "First clinical assessment only in this analysis",
+        "instrument": "Yale Global Tic Severity Scale, revised version",
+        "reporter": "Clinician-rated",
+        "inventory_recall": "Past week",
+        "dimensions_per_modality": ["number", "frequency", "intensity", "complexity", "interference"],
+        "dimension_range": [0, 5],
+        "motor_range": [0, 25],
+        "phonic_range": [0, 25],
+        "total_tic_range": [0, 50],
+        "impairment_range": [0, 50],
+        "impairment_step": 10,
+        "impairment_domains_as_described": ["social life", "schoolwork", "family life", "self-esteem"],
+        "independent_masked_video": "Not documented",
+        "QoL_collection_for_this_analysis": "No QoL outcome reported; future research discussed",
+        "specific_pain_participation_scale": null,
+        "Paris_six_twelve_visit_availability": "Not established by this cross-sectional report"
+      },
+      "first_assessment_summaries": {
+        "table_denominators": {"all": 227, "females": 82, "males": 145},
+        "YGTSS_total_tic": {"all_mean": 20.4, "all_interval_as_printed": [19.2, 21.5], "female_mean": 20.5, "male_mean": 20.3, "sex_ttest_p": 0.8},
+        "YGTSS_impairment": {"all_mean": 21.3, "all_interval_as_printed": [19.8, 22.7], "female_mean": 22.6, "male_mean": 20.6, "sex_ttest_p": 0.2},
+        "interval_note": "Intervals are reproduced as printed; Table 2 itself lacks a precision label. No new precision estimate is calculated."
+      },
+      "psychiatric_data": {
+        "ascertainment": "DSM-5 clinical examination or psychiatric diagnostic consultation",
+        "denominators": {"all": 218, "females": 78, "males": 140},
+        "counts": {"ADHD": 78, "OCD": 43, "anxiety": 108, "depression": 75, "none": 46},
+        "nine_not_in_denominator": true,
+        "reasons": "Not reported",
+        "symptom_severity_instruments": "Not named in this analysis",
+        "severity_burden_adjustment": "Not performed in published analysis"
+      },
+      "treatment_data": {
+        "denominator": 227,
+        "context": "Medication classes at first assessment; not an untreated sample",
+        "counts_as_printed": {"alpha_agonists": 16, "antipsychotics": 95, "SSRIs": 64, "botulinum_toxin": 31, "psychostimulants": 21},
+        "antipsychotic_subgroups_as_printed": {"female": 33, "male": 66},
+        "inconsistency": "Antipsychotic subgroups sum to 99, not 95; unresolved. Present in indexed PMC and publisher PDF text. Do not silently repair or pool.",
+        "timevarying_dose_start_stop_adherence": "Not established"
+      },
+      "published_association_scope": "Sex contrasts in phenomenology, severity, impairment, comorbidities and treatments; no severity-to-burden or QoL model.",
+      "relationships_of_interest": {"severity_impairment_correlation": null, "severity_QoL_correlation": null, "longitudinal_changes": null, "joint_severe_persistence_count": null},
+      "supplements": {"listed": ["S1 motor tic phenomenology by sex", "S2 phonic tic phenomenology by sex"], "separate_file_inspected": false, "reason": "Not required to establish main-report endpoint scope; captions checked only."},
+      "funding_conflicts": "University of Calgary Owerko Centre and Association Francaise du Syndrome Gilles de La Tourette support; no conflicts declared.",
+      "access": "Restricted corresponding-author request; no project permission granted.",
+      "correction_check": "No notice identified in limited inspected source/title checks; not comprehensive clearance."
+    }
+  ],
+  "supporting_scale_sources": [
+    {"id": "cavanna_2008_gts_qol", "url": "https://pubmed.ncbi.nlm.nih.gov/18955683/", "doi": "10.1212/01.wnl.0000327890.02893.61", "use": "Primary development abstract: 27 patient-reported items; psychological, physical, obsessional and cognitive dimensions. Not registry data."},
+    {"id": "french_gts_qol_validation", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7755204/", "use": "Primary indexed scale-method text: standard original GTS-QOL past-four-week recall, 0–4 items and normalized 0–100 subscales, higher worse. Actual registry version/language/scoring not established."},
+    {"id": "mcguire_severity_benchmarks", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7867408/", "use": "Primary mixed-age benchmark methods and classification caveats; not an adult registry endpoint validation.", "global_score_definition": "Total tic 0–50 plus impairment 0–50 gives global 0–100.", "threshold_caution": "Table 3 prints marked 28–43 and severe 43–46; fair agreement with CGI-S. No threshold adopted."}
+  ],
+  "actual_conclusions": {
+    "severity_as_burden_surrogate": "Not validated or directly tested in the two reports; preserve separate outcomes.",
+    "substantive_predicted_association": "Untested by this extraction's core reports, not confirmed by absent analysis.",
+    "fully_operational_severe_estimand": "No: threshold, adult/diagnosis applicability and visit windows require definition.",
+    "candidate_estimand": "Observed-visit persistence at 0/6/12 months during clinical care, conditional on an agreed diagnosis-appropriate threshold; parallel independent burden distributions.",
+    "estimate_identified_from_aggregates": false,
+    "comparable_association_effect_available_for_pooling": false,
+    "participant_analysis_go": false
+  }
+}
