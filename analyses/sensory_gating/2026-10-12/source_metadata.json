@@ -1,0 +1,277 @@
+{
+  "created_at_utc": "2026-10-12T02:51:14.833200+00:00",
+  "kind": "metadata_access_audit_not_statistical_reanalysis",
+  "script_sha256": "1109933d36baa43aa7274df30e32b80427b5d4494aa3a274f9eb04f62f326f24",
+  "sources": [
+    {
+      "source": "pubmed",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=42810670&retmode=xml",
+      "retrieved_at_utc": "2026-10-12T02:51:14.833333+00:00",
+      "http_status": 200,
+      "retrieved_body_sha256": "6b2803792b0f85c2f3e194e553380da6a5b224427f4ac4dd04508915b25538cd",
+      "retrieved_body_bytes": 7518,
+      "extraction": {
+        "pmid": "42810670",
+        "title": "Somatosensory gating of pneumatic stimuli in adults with chronic tic disorder.",
+        "electronic_publication_date": {
+          "Year": "2026",
+          "Month": "09",
+          "Day": "29"
+        },
+        "record_revised_date": {
+          "Year": "2026",
+          "Month": "10",
+          "Day": "08"
+        },
+        "identifiers": {
+          "pubmed": "42810670",
+          "doi": "10.1016/j.biopsycho.2026.109408",
+          "pii": "S0301-0511(26)00221-8"
+        },
+        "volume": "211",
+        "linked_comments_corrections": [],
+        "gating_difference_term_present": true,
+        "regression_marginal_effect_term_present": true,
+        "copyright_statement": "Copyright \u00a9 2026 The Authors. Published by Elsevier B.V. All rights reserved."
+      },
+      "status": "metadata_retrieved"
+    },
+    {
+      "source": "crossref",
+      "url": "https://api.crossref.org/works/10.1016%2Fj.biopsycho.2026.109408",
+      "retrieved_at_utc": "2026-10-12T02:51:21.709020+00:00",
+      "http_status": 200,
+      "retrieved_body_sha256": "9ada0e38abacbdff0f7376c72a1db828b4687232966f3260321b907dea16ebd4",
+      "retrieved_body_bytes": 53275,
+      "extraction": {
+        "DOI": "10.1016/j.biopsycho.2026.109408",
+        "title": [
+          "Somatosensory gating of pneumatic stimuli in adults with chronic tic disorder"
+        ],
+        "volume": "211",
+        "published-print": {
+          "date-parts": [
+            [
+              2026,
+              11
+            ]
+          ]
+        },
+        "created": {
+          "date-parts": [
+            [
+              2026,
+              9,
+              29
+            ]
+          ],
+          "date-time": "2026-09-29T23:14:00Z",
+          "timestamp": 1790723640000
+        },
+        "deposited": {
+          "date-parts": [
+            [
+              2026,
+              10,
+              8
+            ]
+          ],
+          "date-time": "2026-10-08T10:32:40Z",
+          "timestamp": 1791455560000
+        },
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2026,
+                  11,
+                  1
+                ]
+              ],
+              "date-time": "2026-11-01T00:00:00Z",
+              "timestamp": 1793491200000
+            },
+            "content-version": "tdm",
+            "delay-in-days": 0,
+            "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2026,
+                  11,
+                  1
+                ]
+              ],
+              "date-time": "2026-11-01T00:00:00Z",
+              "timestamp": 1793491200000
+            },
+            "content-version": "tdm",
+            "delay-in-days": 0,
+            "URL": "https://www.elsevier.com/legal/tdmrep-license"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2026,
+                  9,
+                  29
+                ]
+              ],
+              "date-time": "2026-09-29T00:00:00Z",
+              "timestamp": 1790640000000
+            },
+            "content-version": "vor",
+            "delay-in-days": 0,
+            "URL": "http://creativecommons.org/licenses/by/4.0/"
+          }
+        ],
+        "link": [
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S0301051126002218?httpAccept=text/xml",
+            "content-type": "text/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S0301051126002218?httpAccept=text/plain",
+            "content-type": "text/plain",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          }
+        ],
+        "resource": {
+          "primary": {
+            "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0301051126002218"
+          }
+        },
+        "relation": {},
+        "update-to": null,
+        "funder": [
+          {
+            "DOI": "10.13039/100006108",
+            "name": "National Center for Advancing Translational Sciences",
+            "doi-asserted-by": "publisher",
+            "award": [
+              "UL1TR002243"
+            ],
+            "award-info": [
+              {
+                "award-number": [
+                  "UL1TR002243"
+                ]
+              }
+            ],
+            "id": [
+              {
+                "id": "10.13039/100006108",
+                "id-type": "DOI",
+                "asserted-by": "publisher"
+              }
+            ]
+          },
+          {
+            "DOI": "10.13039/100008771",
+            "name": "Tourette Association of America",
+            "doi-asserted-by": "publisher",
+            "id": [
+              {
+                "id": "10.13039/100008771",
+                "id-type": "DOI",
+                "asserted-by": "publisher"
+              }
+            ]
+          },
+          {
+            "DOI": "10.13039/100000065",
+            "name": "National Institute of Neurological Disorders and Stroke",
+            "doi-asserted-by": "publisher",
+            "award": [
+              "K23NS131592"
+            ],
+            "award-info": [
+              {
+                "award-number": [
+                  "K23NS131592"
+                ]
+              }
+            ],
+            "id": [
+              {
+                "id": "10.13039/100000065",
+                "id-type": "DOI",
+                "asserted-by": "publisher"
+              }
+            ]
+          }
+        ]
+      },
+      "status": "metadata_retrieved"
+    },
+    {
+      "source": "pubmed_to_pmc",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?dbfrom=pubmed&db=pmc&id=42810670&retmode=json",
+      "retrieved_at_utc": "2026-10-12T02:51:27.441477+00:00",
+      "http_status": 200,
+      "retrieved_body_sha256": "945a81db9e74720a018bc62896e5faed25a8b9459a93c80c8d54a20fc3427280",
+      "retrieved_body_bytes": 96,
+      "extraction": {
+        "header": {
+          "type": "elink",
+          "version": "0.3"
+        },
+        "linksets": [
+          {
+            "dbfrom": "pubmed",
+            "ids": [
+              "42810670"
+            ]
+          }
+        ]
+      },
+      "status": "metadata_retrieved"
+    },
+    {
+      "source": "openalex",
+      "url": "https://api.openalex.org/works/https://doi.org/10.1016/j.biopsycho.2026.109408",
+      "retrieved_at_utc": "2026-10-12T02:51:33.076525+00:00",
+      "http_status": 200,
+      "retrieved_body_sha256": "7e9c09a419e258a526ca67a66fd14b4f533d0e0a40346fefb95d0067d084dece",
+      "retrieved_body_bytes": 22353,
+      "extraction": {
+        "id": "https://openalex.org/W7214808021",
+        "doi": "https://doi.org/10.1016/j.biopsycho.2026.109408",
+        "publication_date": "2026-09-29",
+        "open_access": {
+          "is_oa": true,
+          "oa_status": "hybrid",
+          "oa_url": "https://www.sciencedirect.com/science/article/pii/S0301051126002218/pdf",
+          "any_repository_has_fulltext": false
+        },
+        "locations": [
+          {
+            "landing_page_url": "https://doi.org/10.1016/j.biopsycho.2026.109408",
+            "pdf_url": "https://www.sciencedirect.com/science/article/pii/S0301051126002218/pdf",
+            "license": "cc-by",
+            "version": "publishedVersion",
+            "is_oa": true
+          },
+          {
+            "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/42810670",
+            "pdf_url": null,
+            "license": null,
+            "version": "publishedVersion",
+            "is_oa": false
+          }
+        ]
+      },
+      "status": "metadata_retrieved"
+    }
+  ],
+  "effect_or_precision_calculation_executed": false,
+  "reason": "Available abstract lacks estimates, sampling uncertainty, outcome-specific denominators, and sufficient model specification. Sample counts alone cannot recover precision.",
+  "stored_source_material": "Selected bibliographic and access metadata only; no abstract or paper full text saved."
+}
