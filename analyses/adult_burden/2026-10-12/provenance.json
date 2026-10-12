@@ -1,0 +1,79 @@
+{
+  "date_utc": "2026-10-12",
+  "work_started_utc": "2026-10-12T02:46:36Z",
+  "prospective_plan_recorded_before_primary_source_open": true,
+  "scope": "Two preselected registry reports; supporting primary scale sources only. No generic adult cohort search reopened.",
+  "required_repository_reads": [
+    {"path": "README.md", "blob_sha": "d7a81323044179b8149179e0d023294110a500a1"},
+    {"path": "RESEARCH_PROTOCOL.md", "blob_sha": "3cb049d097d68d032650700cf68d1612cbef1ec7"},
+    {"path": "STATUS.md", "blob_sha": "0a0289dbe4741a5a473560b5f2c95e709ead5255"},
+    {"path": "analyses/data_feasibility/2026-10-11-adult-audit.md", "blob_sha": "e6c3602e5434ac79900ad4bda27401a6497744e7"}
+  ],
+  "search_provider": "Available web search and official-source open tools",
+  "publication_date_limit": null,
+  "searches_in_order": [
+    "\"PMC11952939\"",
+    "\"PMC12284832\"",
+    "site:pmc.ncbi.nlm.nih.gov/articles/PMC11952939 \"TABLE 1\"",
+    "site:pmc.ncbi.nlm.nih.gov/articles/PMC12284832 \"YGTSS\"",
+    "site:pmc.ncbi.nlm.nih.gov/articles/PMC11952939 \"effects\" \"limitation\"",
+    "site:pmc.ncbi.nlm.nih.gov/articles/PMC12284832 \"Total\" \"impairment\"",
+    "\"Toxin for Tics\" \"Table 1\" 2024",
+    "\"The Phenomenology of Tics in Adults\" \"21.6\"",
+    "\"The Phenomenology of Tics in Adults\" \"impairment\" \"95%\"",
+    "\"Toxin for Tics\" \"quality of life\" \"limitations\"",
+    "\"The Phenomenology of Tics in Adults\" \"Total tic severity\" \"TABLE\"",
+    "\"The Phenomenology of Tics in Adults\" \"Cavanna\" \"21.\"",
+    "\"Gilles de la Tourette syndrome-quality of life\" 2008 \"27\"",
+    "\"Defining Tic Severity and Tic Impairment\" \"35\" \"30\"",
+    "\"The Phenomenology of Tics in Adults\" \"Canadian\" \"French\" \"treatments\"",
+    "\"Toxin for Tics\" (correction OR corrigendum OR retraction)",
+    "\"The Phenomenology of Tics in Adults\" (correction OR corrigendum OR retraction)",
+    "\"PMC12284832\" \"Antipsychotics\" \"Botulinum\"",
+    "\"PMC12284832\" \"French\" \"119\"",
+    "\"PMC12284832\" \"18\" \"range\"",
+    "\"PMC12284832\" \"References\" \"18.\""
+  ],
+  "screening": {
+    "core_reports": 2,
+    "supporting_primary_scale_sources_used": 3,
+    "irrelevant_results": "Search provider sometimes returned broad irrelevant results even for exact/source-restricted queries; these were not adopted as evidence or searched as new cohorts.",
+    "not_claimed": "Exhaustive result counts, systematic-review sensitivity, comprehensive correction/retraction clearance."
+  },
+  "successful_retrievals": [
+    {"url": "https://movementdisorders.onlinelibrary.wiley.com/doi/10.1002/mdc3.14296", "format": "Publisher full HTML", "used_for": "Full relevant methods, Results, Tables 1–2, treatment caveats and access statement"},
+    {"url": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/ene.70252", "format": "Publisher PDF text, seven pages", "used_for": "Methods, Tables 1–2, Discussion, references and access; discrepancy independently reproduced in PDF text"},
+    {"url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11952939/", "format": "Substantive primary-source text supplied through indexed search results", "used_for": "Cross-check core report; direct open returned browser check"},
+    {"url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12284832/", "format": "Substantive primary-source text supplied through indexed search results", "used_for": "Methods/tables cross-check; direct open returned browser check"},
+    {"url": "https://pubmed.ncbi.nlm.nih.gov/39644242/", "format": "Indexed primary bibliographic record", "used_for": "Online date versus issue date"},
+    {"url": "https://pubmed.ncbi.nlm.nih.gov/40698747/", "format": "Indexed primary bibliographic record", "used_for": "Identifiers and publication date"},
+    {"url": "https://pubmed.ncbi.nlm.nih.gov/18955683/", "format": "Primary abstract", "used_for": "GTS-QOL original development and construct"},
+    {"url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7755204/", "format": "Indexed primary methods excerpt", "used_for": "Standard GTS-QOL recall and score definition, explicitly not proof of registry implementation"},
+    {"url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7867408/", "format": "Full primary HTML", "used_for": "YGTSS score structure and severity-classification caveats"}
+  ],
+  "failed_or_limited_access": [
+    {"url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11952939/", "result": "Direct open/reopen returned browser reCAPTCHA check. No CAPTCHA completion attempted."},
+    {"url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12284832/", "result": "Direct open/reopen returned browser reCAPTCHA check. No CAPTCHA completion attempted."},
+    {"url": "https://onlinelibrary.wiley.com/doi/10.1111/ene.70252", "result": "Internal open error"},
+    {"url": "https://onlinelibrary.wiley.com/doi/full/10.1111/ene.70252", "result": "Internal open error"},
+    {"url": "https://europepmc.org/articles/PMC11952939", "result": "Internal open error"},
+    {"url": "https://europepmc.org/articles/PMC12284832", "result": "Internal open error"},
+    {"url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12284832/fullTextXML", "result": "Not accessible via web tool"},
+    {"url": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/ene.70252", "result": "Screenshot attempts for zero-based pages 2 and 4 failed with cache miss. Text accessible; visual PDF validation not completed."},
+    {"url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7755204/", "result": "Direct open/find returned browser check. Used indexed primary methods text only."},
+    {"item": "Nilles supporting DOCX", "result": "Listed captions checked; separate file not retrieved. No claim that uninspected content was comprehensively excluded."}
+  ],
+  "within_source_finds": [
+    {"url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7867408/", "patterns": ["children", "43", "122", "mean age"], "note": "Last phrase did not match; age located in Table 1."},
+    {"url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7755204/", "patterns": ["past 4", "six"], "note": "Direct source unavailable; no matches in browser-check page."}
+  ],
+  "restricted_actions_performed": {
+    "participant_download": false,
+    "source_fulltext_upload": false,
+    "custodian_contact": false,
+    "data_access_application": false,
+    "medical_intervention": false,
+    "repository_mutation_by_this_worker": false
+  },
+  "completion_basis": "Both core reports' main methods/results reviewed; exact unreported fields, available scale definitions and inferential limits recorded. Parent responsible for repository commit and final independent review."
+}
