@@ -1,0 +1,129 @@
+{
+  "source": "Jeon et al. 2013; doi:10.1016/j.cct.2013.08.012",
+  "confusion": {
+    "true_positive": 63,
+    "false_positive": 25,
+    "false_negative": 9,
+    "true_negative": 135
+  },
+  "sensitivity": {
+    "numerator": 63,
+    "denominator": 72,
+    "fraction": "7/8",
+    "estimate": 0.875,
+    "wilson_ci95": [
+      0.7791894627583916,
+      0.9328221577942649
+    ]
+  },
+  "specificity": {
+    "numerator": 135,
+    "denominator": 160,
+    "fraction": "27/32",
+    "estimate": 0.84375,
+    "wilson_ci95": [
+      0.7795120049086997,
+      0.8918687359108906
+    ]
+  },
+  "positive_predictive_value": {
+    "numerator": 63,
+    "denominator": 88,
+    "fraction": "63/88",
+    "estimate": 0.7159090909090909,
+    "wilson_ci95": [
+      0.6142041863950729,
+      0.7995523075450874
+    ]
+  },
+  "negative_predictive_value": {
+    "numerator": 135,
+    "denominator": 144,
+    "fraction": "15/16",
+    "estimate": 0.9375,
+    "wilson_ci95": [
+      0.8854909659335584,
+      0.9667733515662844
+    ]
+  },
+  "agreement": {
+    "numerator": 198,
+    "denominator": 232,
+    "fraction": "99/116",
+    "estimate": 0.853448275862069,
+    "wilson_ci95": [
+      0.8021896275078828,
+      0.8931927739582062
+    ]
+  },
+  "discordance": {
+    "numerator": 34,
+    "denominator": 232,
+    "fraction": "17/116",
+    "estimate": 0.14655172413793102,
+    "wilson_ci95": [
+      0.10680722604179388,
+      0.1978103724921172
+    ]
+  },
+  "kappa": {
+    "exact": "1035/1528",
+    "estimate": 0.6773560209424084,
+    "ci95": null
+  },
+  "conditional_arm_positive_predictive_values": {
+    "CBIT": {
+      "numerator": 48,
+      "denominator": 60,
+      "fraction": "4/5",
+      "estimate": 0.8,
+      "wilson_ci95": [
+        0.6821819419437211,
+        0.8817149467710251
+      ]
+    },
+    "PST": {
+      "numerator": 15,
+      "denominator": 28,
+      "fraction": "15/28",
+      "estimate": 0.5357142857142857,
+      "wilson_ci95": [
+        0.358126892344679,
+        0.7046843001720462
+      ]
+    }
+  },
+  "interpretation": "Within-sample descriptive classification concordance. No QoL outcome, adult-only accuracy, external validation, causal treatment contrast or surrogate validation.",
+  "uncertainty": "Pointwise Wilson 95 percent intervals, z=1.959963984540054. Conditional on a threshold selected in the same pooled sample; ignores selection optimism and trial/site clustering.",
+  "verification": {
+    "passed_checks": 26,
+    "checks": [
+      "reference margins",
+      "confusion exact",
+      "index positive margin",
+      "reference positive margin",
+      "sensitivity exact",
+      "specificity exact",
+      "ppv exact",
+      "npv exact",
+      "agreement+discordance",
+      "kappa hand arithmetic",
+      "kappa source rounds",
+      "source sensitivity within integer percentage rounding precision",
+      "source specificity within integer percentage rounding precision",
+      "interval contains estimate sensitivity",
+      "interval contains estimate specificity",
+      "interval contains estimate positive_predictive_value",
+      "interval contains estimate negative_predictive_value",
+      "interval contains estimate agreement",
+      "interval contains estimate discordance",
+      "Wilson zero endpoint",
+      "Wilson complete endpoint",
+      "Wilson complement symmetry",
+      "invalid input rejected (-1, 2)",
+      "invalid input rejected (3, 2)",
+      "invalid input rejected (0, 0)",
+      "invalid input rejected (1.0, 2)"
+    ]
+  }
+}
