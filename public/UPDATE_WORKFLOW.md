@@ -5,8 +5,8 @@ Verified publication: 13 October 2026. https://tourette.fyi/ replaces the survey
 ## Verified route
 The existing Cloudflare Worker serves the journal. Its GET-only /api/public-feed route reads public/research-feed.json from this repository without credentials. The initial source write and anonymous readback were verified, followed by production readback showing the repository edition. Routine feed changes do not require a desktop or a Worker redeployment.
 
-Published Worker version: 946a1e9c-42bb-4490-bede-feb44766082a.
-Published source snapshot: f0a478f2d0120486d07ea12f67bcd85cd5db63da.
+Published Worker version: abcfb8a1-f2c8-418c-ac75-7874476dc8b8.
+Published source snapshot: 88f4a180ee00b15e5c829589341bc4231e8680be.
 The source snapshot is under public/journal-source/.
 
 ## Each daily publication
@@ -26,3 +26,7 @@ Shared voting is OFF. Page-local reflection is not submitted or stored. The prep
 
 ## Verification limits
 The desktop source reported 22 passing journal checks plus backend preparation tests. Production assets matched the committed source. Parent cloud-browser review verified the rendered desktop page, live repository edition and keyboard expansion of an activity alternative. Browser narration had no available voices in that cloud browser and correctly showed an unavailable state. Real-device narration, mobile viewport and 200-400 percent zoom have not been independently verified; no WCAG certification is claimed.
+
+## Visual notebook update, 13 October 2026
+
+The visual-first edition shows a large original reading/exploring scene, one illustrated activity, three illustrated research moments and three conceptual evidence diagrams. Full notes and transcripts remain in native disclosures with a complete static fallback. DOM accounting found 216 default-visible words versus 634 at launch, a 66 percent reduction. Twenty-nine source/interaction checks passed. Live assets matched source, repository-feed readback succeeded and collection remains off. Fresh mobile/zoom rendering review of this new edition is pending with the parent; earlier launch rendering checks do not certify the redesign.
