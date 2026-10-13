@@ -1,0 +1,21 @@
+{
+  "analysis": "Agreement of two response classifications, not quality-of-life surrogacy",
+  "source": "Jeon et al. 2013; doi:10.1016/j.cct.2013.08.012",
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3999642/",
+  "locations": ["Results and Table 4: classification margins", "Discussion: overlap counts by randomized arm"],
+  "population": "Pooled mixed-age behavioral-trial completers, not an adult-only validation",
+  "reference_positive": "CGI-I Much Improved or Very Much Improved at week 10",
+  "index_positive": "At least 25 percent YGTSS Total Tic Score reduction from baseline",
+  "total": 232,
+  "reference_positive_n": 72,
+  "reference_negative_n": 160,
+  "arms_index_positive": {
+    "CBIT": {"n": 60, "reference_positive_n": 48},
+    "PST": {"n": 28, "reference_positive_n": 15}
+  },
+  "printed_rounded_sensitivity": 0.87,
+  "printed_rounded_specificity": 0.84,
+  "printed_kappa": 0.68,
+  "ci_method": "Pointwise Wilson 95 percent intervals, z=1.959963984540054. Conditional on a threshold selected in the same pooled sample; ignores selection optimism and trial/site clustering.",
+  "restrictions": "No age-specific table; no GTS-QOL joint outcome; no inference about treatment-effect surrogacy or a severe-state threshold. Armwise positive predictive values condition on a postrandomization response and are not randomized treatment effects."
+}
