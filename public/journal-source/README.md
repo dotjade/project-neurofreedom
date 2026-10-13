@@ -1,3 +1,7 @@
+## Publication status
+
+Published on 13 October 2026 at https://tourette.fyi/. The deployment hold described in the original preparation notes below has been cleared. Shared voting remains off. See [the verified update workflow](../UPDATE_WORKFLOW.md) for the current publication route, limits and next checks.
+
 # Tourette.fyi research journal
 
 The existing public domain remains on Cloudflare Worker tourette-fyi. The replacement journal is prepared in this real source checkout. Publication uses the existing approved Wrangler route. Shared voting is disabled by feedback-config.json and the proposed service's feature gates. No public privacy contact or provider logging/backup/retention review is complete yet.
