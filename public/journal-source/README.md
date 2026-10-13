@@ -29,3 +29,11 @@ Readback contract: fetch public/research-feed.json from dotjade/project-neurofre
 feedback-service/ is a separate identity-free Sites Worker ESM preparation with a D1 DB binding, schema-only migrations, HTTP/SQL tests and packaging instructions. It is not registered, provisioned or deployed. The retained old survey Sites identity is unchanged. A public API origin, privacy contact, hosting logs/backup review, and verified hosted expiry schedule remain dependencies. Application-level 30-day deletion must not be described as instant deletion from provider backups. Until these gates are complete, there are no active vote controls and no fabricated counts.
 
 Publication still uses the existing authenticated Wrangler workflow. No credentials, public writer secret, paid resource or persistent permission expansion are part of this source.
+
+## Visual notebook redesign, 13 October 2026
+
+The page now leads with an original inline SVG scene of dot reading and examining a clue, followed by one illustrated activity, three illustrated dated research moments, and three distinct conceptual evidence diagrams. No numerical efficacy chart is drawn. Primary citations and one concise study limitation remain visible; full summaries, transcripts, methods, access metadata, reflection, and earlier entries are in keyboard-accessible native disclosures. A complete static fallback contains the same source-backed entries and alternatives.
+
+DOM text accounting found 216 default-visible words versus 634 at launch, a 66 percent reduction, excluding collapsed disclosures and screen-reader-only status. This is not a pixel/rendered measurement. Source tests cover content, fallback, feed refresh, safe rendering, narration, motion preferences, reflection and responsive CSS/touch-target rules. Actual narrow-device, zoom and physical keyboard rendering remain for parent live review.
+
+The daily feed and public/UPDATE_WORKFLOW.md remain intact. Existing research/activity dates and source links are preserved. Shared voting remains disabled and no screenshot or review-device metadata is published.

@@ -1,5 +1,5 @@
 {
-  "passed": 22,
+  "passed": 29,
   "checks": [
     "semantic sections, single h1, skip link and native details",
     "six genuine dated entries covering October 8 through 13",
@@ -22,7 +22,19 @@
     "unattended feed reads fixed public GitHub JSON without a credential",
     "Worker falls back honestly if repository feed cannot be fetched",
     "existing redirects retained and feed endpoint rejects writes",
+    "all evidence retains visible essential limit and primary source",
+    "large original reading scene, illustrated moments and distinct concept diagrams",
+    "activity safety and optionality visible, alternatives and reflection collapsed",
+    "default prose and metadata are behind native disclosures",
+    "substantial default-visible text reduction",
+    "static fallback preserves complete dated notes and source citations",
+    "responsive source supports narrow reflow, readable targets and motion preference",
     "CSP permits only same-origin feed reads, retaining protections"
   ],
+  "visibleWords": {
+    "before": 634,
+    "after": 216,
+    "reductionPercent": 66
+  },
   "renderedQA": "Unavailable: no supported browser surface connected."
 }
