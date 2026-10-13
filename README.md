@@ -58,6 +58,12 @@ A research program toward better understanding, effective treatments and ultimat
 - [Adult sensory-gating precision audit](analyses/sensory_gating/2026-10-12/report.md): explicit missing numerical prerequisites; no invented effect bounds or equivalence claim.
 - [Adult burden endpoint audit](analyses/adult_burden/2026-10-12/report.md): separate severity, impairment and quality of life; reproducible completion-set bounds and a carefully limited observed-visit estimand.
 
+## Research update — 13 October 2026
+
+- [Dated evidence and safety scan](updates/2026-10-13-evidence-scan.md): no verified qualifying new result in the bounded interval.
+- [Six-report adult burden validation synthesis](analyses/burden_validation/2026-10-13/report.md): version-specific patient-reported outcomes, distinct severity/impairment, and limits of universal thresholds.
+- [Executed response-classification analysis](analyses/burden_validation/2026-10-13/aggregate_checks.json) and [independent audit](analyses/burden_validation/2026-10-13/review/audit_summary.md): 34/232 pooled mixed-age participants had discordant tic-threshold and clinician-response labels; this is not adult quality-of-life surrogate validation.
+
 ## Working research record
 
 - [Research protocol and planned update cycle](RESEARCH_PROTOCOL.md)
