@@ -1,0 +1,254 @@
+{
+  "status": "complete_with_source_limit",
+  "result": "No new material official FDA/EMA/MHRA safety notice relevant to the watched Tourette/tic therapies was identified.",
+  "scan_started_at_utc": "2026-10-13T03:17:47Z",
+  "scan_evidence_cutoff_utc": "2026-10-13T03:19:18Z",
+  "primary_window_start_utc": "2026-10-12T02:51:00Z",
+  "overlap_window_start_utc": "2026-10-11T02:51:00Z",
+  "watched_therapies": [
+    "ecopipam",
+    "aripiprazole",
+    "risperidone",
+    "pimozide",
+    "haloperidol",
+    "clonidine",
+    "guanfacine",
+    "valbenazine",
+    "deutetrabenazine",
+    "tetrabenazine",
+    "median-nerve stimulation/Neupulse",
+    "rTMS",
+    "DBS"
+  ],
+  "counts": {
+    "web_search_queries": 14,
+    "directly_opened_successful_unique_official_sources": 10,
+    "current_index_or_collection_pages": 9,
+    "additional_agenda_pdf_checked": 1,
+    "ema_oct12_index_rows_screened": 15,
+    "mhra_oct12_new_alert_rows_screened": 1,
+    "qualifying_new_material_notices": 0,
+    "unresolved_source_documents": 1
+  },
+  "sources": [
+    {
+      "agency": "FDA",
+      "title": "Drug Safety Communications",
+      "url": "https://www.fda.gov/drugs/drug-safety-and-availability/drug-safety-communications",
+      "checked_at_utc": "2026-10-13T03:18:01Z",
+      "latest_visible_notice_date": "2026-09-15",
+      "finding": "Latest dated row is Kybella labeling warning, unrelated; no row in overlap window."
+    },
+    {
+      "agency": "FDA",
+      "title": "Medical Device Safety Communications",
+      "url": "https://www.fda.gov/medical-devices/medical-device-safety/safety-communications",
+      "checked_at_utc": "2026-10-13T03:18:17Z",
+      "latest_visible_notice_date": "2026-06-03",
+      "finding": "Latest dated row is Hintermann H3 ankle replacement, unrelated; no row in overlap window."
+    },
+    {
+      "agency": "EMA",
+      "title": "What's new",
+      "url": "https://www.ema.europa.eu/en/news-events/whats-new",
+      "checked_at_utc": "2026-10-13T03:18:01Z",
+      "latest_visible_notice_date": "2026-10-12",
+      "finding": "15 entries dated Oct 12, none identifying a watched therapy or a material tic-therapy safety notice. These are publication/update dates, not automatically new safety findings. This advances the previous Oct 9 index baseline.",
+      "rows_oct12": 15,
+      "oct12_titles": [
+        "Casgevy",
+        "Rhokiinsa",
+        "Roclanda",
+        "Duvyzat",
+        "Lazcluze",
+        "Altuvoct",
+        "Ofev",
+        "New Approach Methodologies Operational Expert Group",
+        "CHMP 12–15 October meeting event",
+        "Annex to CHMP agenda",
+        "CHMP agenda",
+        "Women’s health",
+        "Sunitinib Accord",
+        "Daybu",
+        "Concept paper on inherited retinal dystrophies guideline"
+      ]
+    },
+    {
+      "agency": "MHRA",
+      "title": "Drug Safety Update",
+      "url": "https://www.gov.uk/drug-safety-update",
+      "checked_at_utc": "2026-10-13T03:18:17Z",
+      "latest_visible_notice_date": "2026-09-02",
+      "finding": "Top item is parenteral nutrition filters, unrelated. No new watched-therapy communication found. Index reports 867 updates."
+    },
+    {
+      "agency": "MHRA",
+      "title": "Alerts, recalls and safety information",
+      "url": "https://www.gov.uk/drug-device-alerts",
+      "checked_at_utc": "2026-10-13T03:18:17Z",
+      "latest_visible_notice_date": "2026-10-12",
+      "finding": "One new dated Oct 12 item: Class 2 Pedmarqsi 80 mg/mL recall, EL(26)A/42, particulate-matter risk; unrelated to watched therapies. Next visible dated new notices Oct 9 concern Nova StatStrip ketone strips. Index reports 1,454 messages."
+    },
+    {
+      "agency": "MHRA",
+      "title": "Field Safety Notices for October 2026",
+      "url": "https://www.gov.uk/drug-device-alerts/field-safety-notices-for-october-2026",
+      "checked_at_utc": "2026-10-13T03:18:45Z",
+      "latest_visible_notice_date": "2026-10-09",
+      "finding": "Published/issued Oct 9. Sole visible listed notice is Nova Biomedical StatStrip Ketone Test Strips; no Neupulse, median-nerve stimulation, rTMS or DBS notice."
+    },
+    {
+      "agency": "EMA",
+      "title": "PRAC recommendations on safety signals",
+      "url": "https://www.ema.europa.eu/en/human-regulatory-overview/post-authorisation/pharmacovigilance-post-authorisation/signal-management/prac-recommendations-safety-signals",
+      "checked_at_utc": "2026-10-13T03:19:18Z",
+      "latest_visible_notice_date": "2026-09-28",
+      "finding": "Newest visible English recommendations and wording extracts are from Aug 31–Sep 3 PRAC meeting, first published Sep 28. No newer dated recommendation found."
+    },
+    {
+      "agency": "FDA",
+      "title": "Drug Recalls",
+      "url": "https://www.fda.gov/drugs/drug-safety-and-availability/drug-recalls",
+      "checked_at_utc": "2026-10-13T03:19:09Z",
+      "latest_visible_notice_date": "2026-10-09",
+      "finding": "Newest row: Brevital Sodium 500 mg/vial injection, Par Health, cellulose particulate matter, unrelated. No overlap-window watched-therapy announcement found."
+    },
+    {
+      "agency": "FDA",
+      "title": "Medical Device Recalls and Early Alerts",
+      "requested_url": "https://www.fda.gov/medical-devices/medical-device-safety/medical-device-recalls",
+      "url": "https://www.fda.gov/medical-devices/medical-device-safety/medical-device-recalls-and-early-alerts",
+      "checked_at_utc": "2026-10-13T03:19:18Z",
+      "latest_visible_notice_date": "2026-10-09",
+      "finding": "Newest visible dated notice: Philips diagnostic ultrasound early alert, unrelated. No newly dated watched device notice found. An older Sep 3 spinal-cord-stimulator lead notice is not DBS and is outside window."
+    },
+    {
+      "agency": "EMA",
+      "title": "Draft CHMP Agenda 12–15 October 2026",
+      "url": "https://www.ema.europa.eu/en/documents/agenda/agenda-chmp-meeting-12-15-october-2026_en.pdf",
+      "checked_at_utc": "2026-10-13T03:19:09Z",
+      "index_publication_date": "2026-10-12",
+      "finding": "33-page agenda, searchable text: no matches for ecopipam, aripiprazole, risperidone, pimozide, haloperidol, clonidine, guanfacine, valbenazine, tetrabenazine, or Austedo. Agenda itself does not establish a safety decision.",
+      "search_terms": [
+        "ecopipam",
+        "aripiprazole",
+        "risperidone",
+        "pimozide",
+        "haloperidol",
+        "clonidine",
+        "guanfacine",
+        "valbenazine",
+        "tetrabenazine",
+        "Austedo"
+      ]
+    }
+  ],
+  "queries": [
+    {
+      "approx_started_at_utc": "2026-10-13T03:17:47Z",
+      "query": "site.fda.gov \"drug safety\" \"October\" \"2026\" aripiprazole OR risperidone OR pimozide OR haloperidol OR clonidine OR guanfacine",
+      "qualifying_hits": 0
+    },
+    {
+      "approx_started_at_utc": "2026-10-13T03:17:47Z",
+      "query": "site.ema.europa.eu safety October 2026 Tourette ecopipam valbenazine deutetrabenazine tetrabenazine",
+      "qualifying_hits": 0
+    },
+    {
+      "approx_started_at_utc": "2026-10-13T03:17:47Z",
+      "query": "site.gov.uk \"Drug Safety Update\" \"October\" \"2026\"",
+      "qualifying_hits": 0
+    },
+    {
+      "approx_started_at_utc": "2026-10-13T03:18:01Z",
+      "query": "site.gov.uk \"Field Safety Notices for October 2026\"",
+      "qualifying_hits": 0
+    },
+    {
+      "approx_started_at_utc": "2026-10-13T03:18:01Z",
+      "query": "site.fda.gov safety recall \"October\" \"2026\" \"deep brain\"",
+      "qualifying_hits": 0
+    },
+    {
+      "approx_started_at_utc": "2026-10-13T03:18:01Z",
+      "query": "site.gov.uk \"October\" \"2026\" safety aripiprazole OR risperidone OR pimozide OR haloperidol OR clonidine OR guanfacine",
+      "qualifying_hits": 0
+    },
+    {
+      "approx_started_at_utc": "2026-10-13T03:18:17Z",
+      "query": "site:fda.gov (ecopipam OR valbenazine OR deutetrabenazine OR tetrabenazine) safety after:2026-10-10 before:2026-10-14",
+      "qualifying_hits": 0
+    },
+    {
+      "approx_started_at_utc": "2026-10-13T03:18:17Z",
+      "query": "site:ema.europa.eu (aripiprazole OR risperidone OR pimozide OR haloperidol OR clonidine OR guanfacine) safety after:2026-10-10 before:2026-10-14",
+      "qualifying_hits": 0
+    },
+    {
+      "approx_started_at_utc": "2026-10-13T03:18:17Z",
+      "query": "site:gov.uk (Neupulse OR \"median nerve\" OR \"transcranial magnetic\" OR \"deep brain stimulation\") (safety OR recall) after:2026-10-10 before:2026-10-14",
+      "qualifying_hits": 0
+    },
+    {
+      "approx_started_at_utc": "2026-10-13T03:18:36Z",
+      "query": "site:fda.gov (Neupulse OR \"median nerve stimulation\" OR \"transcranial magnetic stimulation\" OR \"deep brain stimulation\") (safety OR recall) after:2026-10-10 before:2026-10-14",
+      "qualifying_hits": 0
+    },
+    {
+      "approx_started_at_utc": "2026-10-13T03:18:36Z",
+      "query": "site:gov.uk (ecopipam OR valbenazine OR deutetrabenazine OR tetrabenazine) safety after:2026-10-10 before:2026-10-14",
+      "qualifying_hits": 0
+    },
+    {
+      "approx_started_at_utc": "2026-10-13T03:18:36Z",
+      "query": "site:ema.europa.eu (ecopipam OR valbenazine OR deutetrabenazine OR tetrabenazine) safety after:2026-10-10 before:2026-10-14",
+      "qualifying_hits": 0
+    },
+    {
+      "approx_started_at_utc": "2026-10-13T03:18:36Z",
+      "query": "site:fda.gov (aripiprazole OR risperidone OR pimozide OR haloperidol OR clonidine OR guanfacine) (safety OR recall) after:2026-10-10 before:2026-10-14",
+      "qualifying_hits": 0
+    },
+    {
+      "approx_started_at_utc": "2026-10-13T03:18:45Z",
+      "query": "site:gov.uk (aripiprazole OR risperidone OR pimozide OR haloperidol OR clonidine OR guanfacine) (safety OR recall) after:2026-10-10 before:2026-10-14",
+      "qualifying_hits": 0
+    }
+  ],
+  "exclusions": [
+    {
+      "title": "Class 2 Device Recall Abbott Liberta",
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfRES/res.cfm?id=216515",
+      "firm_initiated_date": "2025-10-06",
+      "date_posted": "2025-11-07",
+      "reason": "Historical recall search hit, despite fresh crawler date and 2026 recall-number suffix. Not new and not re-audited."
+    },
+    {
+      "title": "Aripiprazole fecal-incontinence label information in 2022 Q4 FDA signal table",
+      "reason": "Label change explicitly January 2025; fresh crawl is not a new communication."
+    },
+    {
+      "title": "Austedo EMA EPAR",
+      "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/austedo",
+      "reason": "January 2026 authorization/EPAR dates, not new window safety notice."
+    }
+  ],
+  "failed_access": [
+    {
+      "url": "https://www.fda.gov/medical-devices/safety-communications",
+      "result": "404; recovered using correct medical-device-safety path."
+    },
+    {
+      "url": "https://www.ema.europa.eu/en/documents/agenda/annex-agenda-chmp-meeting-12-15-october-2026_en.pdf",
+      "result": "Internal fetch error from index click and direct open; annex contents not verified. Main agenda and current safety indexes were checked."
+    }
+  ],
+  "scope_limits": [
+    "Public official communications/index scan and targeted search, not exhaustive label-diff, spontaneous-report, manufacturer-letter or worldwide-regulator surveillance.",
+    "Search date filters returned old pages and crawler freshness; decisions use actual notice/publication/update dates and content.",
+    "Minute-level notice timing is not provided by most indexes; one-day overlap and broad search from Oct 10 were used.",
+    "No historical recall audit was repeated; no external action was taken.",
+    "CHMP annex remained unavailable; negative result is bounded to accessible sources.",
+    "FDA What’s New and AEMS latest-quarter index appeared in search results; they were corroborating search-only sources and are not counted among directly opened sources."
+  ]
+}
