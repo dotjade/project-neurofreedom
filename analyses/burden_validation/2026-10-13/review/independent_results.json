@@ -1,0 +1,125 @@
+{
+  "audit_date": "2026-10-13",
+  "worker_rerun_exact_output_match": true,
+  "worker_tests_passed": 26,
+  "independent_jeon": {
+    "table": {
+      "tp": 63,
+      "fp": 25,
+      "fn": 9,
+      "tn": 135
+    },
+    "metrics": {
+      "sensitivity": {
+        "numerator": 63,
+        "denominator": 72,
+        "estimate": 0.875,
+        "score_ci95": [
+          0.7791894627583914,
+          0.932822157794265
+        ]
+      },
+      "specificity": {
+        "numerator": 135,
+        "denominator": 160,
+        "estimate": 0.84375,
+        "score_ci95": [
+          0.7795120049086999,
+          0.8918687359108903
+        ]
+      },
+      "positive_predictive_value": {
+        "numerator": 63,
+        "denominator": 88,
+        "estimate": 0.7159090909090909,
+        "score_ci95": [
+          0.6142041863950728,
+          0.7995523075450874
+        ]
+      },
+      "negative_predictive_value": {
+        "numerator": 135,
+        "denominator": 144,
+        "estimate": 0.9375,
+        "score_ci95": [
+          0.8854909659335571,
+          0.9667733515662856
+        ]
+      },
+      "agreement": {
+        "numerator": 198,
+        "denominator": 232,
+        "estimate": 0.853448275862069,
+        "score_ci95": [
+          0.8021896275078826,
+          0.8931927739582063
+        ]
+      },
+      "discordance": {
+        "numerator": 34,
+        "denominator": 232,
+        "estimate": 0.14655172413793102,
+        "score_ci95": [
+          0.10680722604179385,
+          0.19781037249211725
+        ]
+      }
+    },
+    "kappa_exact": "1035/1528",
+    "kappa": 0.6773560209424084
+  },
+  "mcguire_partial_identification": {
+    "tts": {
+      "agreement": 0.5703275529865125,
+      "kappa": 0.24414184952978057,
+      "severe_TP_sharp_integer_bounds": [
+        0,
+        3
+      ],
+      "severe_sensitivity_bounds": [
+        0.0,
+        0.12
+      ],
+      "minimum_missed_reference_severe": 22
+    },
+    "impairment": {
+      "agreement": 0.5375722543352601,
+      "kappa": 0.2097750371131666,
+      "severe_TP_sharp_integer_bounds": [
+        0,
+        4
+      ],
+      "severe_sensitivity_bounds": [
+        0.0,
+        0.16
+      ],
+      "minimum_missed_reference_severe": 21
+    },
+    "global": {
+      "agreement": 0.6011560693641619,
+      "kappa": 0.3159834969629828,
+      "severe_TP_sharp_integer_bounds": [
+        0,
+        6
+      ],
+      "severe_sensitivity_bounds": [
+        0.0,
+        0.24
+      ],
+      "minimum_missed_reference_severe": 19
+    }
+  },
+  "bound_interpretation": "Conditional on the published pooled model labels and margins. Identification bounds, not confidence intervals. No unknown table or person-level record inferred. Does not resolve the printed score-43 overlap, validate a new cutoff, or identify adult/diagnosis-specific performance.",
+  "versions": {
+    "python": "3.12.14",
+    "scipy": "1.17.0"
+  },
+  "worker_sha256": {
+    "aggregate_checks.py": "8cff4d229943f595ad1d8f97b3d04ce3079803d497aa9a4612f353cd45ff5c72",
+    "aggregate_inputs.json": "57c31848091e0a268b5e42a960143a7f84f9f7b9e06268f1bb29f28a317ab4bf",
+    "aggregate_checks.json": "7289c324db2d7d8265714c3c04d91ee8d990aa1c36839b43b7fe4452d056ea15",
+    "extraction.json": "ae4a18fdc31465c763455a9bcc0893d026cb92d690f66309682e14a0dbb6ed11",
+    "report.md": "c25d47f1b51e00dd51dc638df3338286374da95f5a5db784cde0ad6754ed5011",
+    "prespecified_question.md": "b1c03fecf2761e6e9d0054cf03334c05f82ade4b0c5c4405ee494eeb1ff7efbf"
+  }
+}
