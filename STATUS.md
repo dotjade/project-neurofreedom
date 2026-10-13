@@ -1,6 +1,6 @@
 # Project NeuroFreedom status
 
-Updated 12 October 2026. Initial portfolio, four completed daily updates and first completed weekly synthesis.
+Updated 13 October 2026. Initial portfolio, five completed daily updates and first completed weekly synthesis.
 
 ## Completed in this first pass
 
@@ -14,7 +14,7 @@ Updated 12 October 2026. Initial portfolio, four completed daily updates and fir
 
 ## Enabled research schedules
 
-The user approved the following automatic public-science research and repository updates on 8 October 2026. Each schedule was created successfully and returned enabled status. Daily runs were completed on 9, 10, 11 and 12 October 2026; the first weekly synthesis was completed on 11 October; first monthly and quarterly runs remain unverified.
+The user approved the following automatic public-science research and repository updates on 8 October 2026. Each schedule was created successfully and returned enabled status. Daily runs were completed on 9, 10, 11, 12 and 13 October 2026; the first weekly synthesis was completed on 11 October; first monthly and quarterly runs remain unverified.
 
 - Daily new-evidence checks: from 9 October 2026, approximately 08:00 India time.
 - Weekly synthesis: Sundays, from 11 October 2026, approximately 09:00 India time.
@@ -118,3 +118,17 @@ Executed deterministic aggregate checks: 63/95 and 55/95 are completion fraction
 Prioritize adult GTS-QOL/YGTSS validation and longitudinal concordance evidence to specify patient-relevant burden outcomes and assess defensible diagnosis-specific severity definitions. Keep impairment, quality of life, pain and participation distinct from tic count/severity; do not claim their interchangeability without validation. Stop with a clear missing prerequisite if published evidence cannot support the intended threshold or estimand.
 
 Do not repeat the completed registry endpoint audit, MNS attrition computation or generic adult-cohort search. Reopen gating numerical extraction or CBIT–TMS clinical synthesis only when a usable lawful methods/table source or clarified public record permits an informative next step. Custodian contact, participant-level data access and institutional clinical work require separate authorization and governance. No immediate family data or home experiment is needed.
+
+## Completed daily research update — 13 October 2026
+
+The [dated scan](updates/2026-10-13-evidence-scan.md) returned 100 PubMed ID occurrences and 98 unique metadata records. A newly indexed breast-imaging acronym match was excluded; the October 1 CBIT–TMS preprint was prior-screened overlap. Twenty preprint API pages returned 563 unique DOI/version records without a tic-keyword match. Four ClinicalTrials.gov date-filtered queries returned zero postings. New EMA/MHRA notices were screened but no material watched-therapy safety notice was verified. No new primary/preprint/registry evidence record was warranted by this incremental scan; access and coverage limitations remain explicit.
+
+The [six-report validation and longitudinal synthesis](analyses/burden_validation/2026-10-13/report.md) completed the next measurement question. The original four-domain GTS-QOL and French six-domain adaptation are not automatically interchangeable. Stable-status retest reliability does not establish responsiveness, and cross-sectional correlation does not establish within-person change concordance or treatment-effect surrogacy. Positive and null longitudinal examples were retained; significance in one outcome and nonsignificance in another is not proof their effects differ. The bounded source set did not justify a universal adult severe-state cutoff, an adult anchor-based GTS-QOL meaningful-change threshold, or substitution of tic scores for direct burden outcomes.
+
+Executed a published-aggregate response-classification reconstruction from Jeon 2013: ≥25% YGTSS total-tic reduction versus clinician CGI-I improvement produced TP=63, FP=25, FN=9 and TN=135 among 232 pooled mixed-age trial completers. Discordance was 14.66% (pointwise Wilson 95% interval 10.68–19.78%), agreement 85.34%, and kappa 0.67736. These in-sample quantities are conditional on the selected threshold, omit selection optimism and trial/site clustering, and are not adult-only, quality-of-life or severe-state validation. Twenty-six checks passed; independently reconstructed counts, exact kappa and score-inversion intervals matched. Code, inputs, outputs and [audit](analyses/burden_validation/2026-10-13/review/audit_summary.md) are archived. An optional reviewer-only aggregate severe-category bound is explicitly limited to the published pooled labels and is not a new clinical cutoff.
+
+### Next bounded decision after this update
+
+Close the current measurement-substitution/universal-threshold pass at this evidence. Retain a language/version-specific GTS-QOL candidate with native domains, separate clinician tic severity/components and impairment, and separately verified pain/participation endpoints when those are targeted. Do not launch participant collection or install an invented meaningful-change threshold.
+
+Move next to the adult randomized ONLINE-TICS study, [Haas et al. 2022, DOI 10.3390/jcm11010250](https://www.mdpi.com/2077-0383/11/1/250). Test its time-specific treatment-benefit claim using the primary endpoint and available tic, impairment and GTS-QOL contrasts. Extract uncertainty, multiplicity, attrition and negative findings before any aggregate computation; do not infer joint response or an endpoint-effect difference without the required covariance. This is a verified next source, not a seventh report analyzed in today's synthesis or a clinical recommendation. Continue dated new-evidence surveillance without repeating closed dataset, gating-access, MNS or registry-endpoint work absent a materially new source.
