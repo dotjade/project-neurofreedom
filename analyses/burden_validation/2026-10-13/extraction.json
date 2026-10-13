@@ -1,0 +1,479 @@
+{
+  "schema_version": "1.0",
+  "date_utc": "2026-10-13",
+  "project": "NeuroFreedom",
+  "core_primary_reports": [
+    {
+      "id": "cavanna_2008",
+      "title": "The Gilles de la Tourette syndrome-quality of life scale (GTS-QOL): development and validation",
+      "authors": "Cavanna AE et al.",
+      "doi": "10.1212/01.wnl.0000327890.02893.61",
+      "pmid": "18955683",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18955683/",
+      "published": "2008-10-28",
+      "design": "Instrument development and validation",
+      "access": "Primary abstract and publisher metadata; full methods unavailable through inspected lawful routes",
+      "population": "GTS; adult instrument, but exact original age limits not verified from abstract",
+      "sample_sizes": {
+        "item_generation": 133,
+        "development": 192,
+        "independent_evaluation": 136
+      },
+      "instrument": {
+        "items": 27,
+        "factors": 4,
+        "domains": [
+          "psychological",
+          "physical",
+          "obsessional",
+          "cognitive"
+        ]
+      },
+      "findings": {
+        "alpha_min": 0.8,
+        "ICC_min": 0.8,
+        "interscale_correlation_range": [
+          0.5,
+          0.7
+        ]
+      },
+      "caveat": "These are interscale correlations, not a reported YGTSS–GTS-QOL correlation. Exact reliability intervals, retest denominator and timing remain unverified. No MCID or surrogacy finding in accessible abstract.",
+      "funding_conflicts": "Not established from accessible abstract",
+      "location": "Abstract stages 1–3 and Results"
+    },
+    {
+      "id": "jalenques_2020",
+      "title": "Cross-cultural adaptation and psychometric evaluation of the French version of the Gilles de la Tourette Syndrome Quality of Life Scale (GTS-QOL)",
+      "authors": "Jalenques I et al.",
+      "doi": "10.1371/journal.pone.0243912",
+      "pmid": "33351837",
+      "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0243912",
+      "published": "2020-12-22",
+      "design": "Cross-sectional adaptation plus stable-status retest",
+      "access": "Publisher full text; indexed primary Table 6",
+      "population": {
+        "diagnosis": "DSM-IV-TR GTS",
+        "n": 109,
+        "age_range": [
+          16,
+          64
+        ],
+        "mean_age": 27.5,
+        "age_sd": 11.5,
+        "adult_only": false
+      },
+      "language": "French",
+      "instrument": {
+        "recall_weeks": 4,
+        "item_scale": [
+          0,
+          4
+        ],
+        "normalized_subscales": [
+          0,
+          100
+        ],
+        "higher": "worse",
+        "factor_count": 6,
+        "domains": [
+          "psychological",
+          "echo-coprophenomena",
+          "social",
+          "cognitive",
+          "physical/ADL",
+          "obsessive-compulsive"
+        ],
+        "alpha_range": [
+          0.68,
+          0.94
+        ]
+      },
+      "retest": {
+        "mailed_after_days": 15,
+        "invited": 58,
+        "returned": 48,
+        "unstable_excluded": 19,
+        "analyzed": 29,
+        "ICC_ci95": {
+          "psychological": [
+            0.78,
+            0.58,
+            0.89
+          ],
+          "echo-coprophenomena": [
+            0.81,
+            0.64,
+            0.91
+          ],
+          "social": [
+            0.71,
+            0.47,
+            0.86
+          ],
+          "cognitive": [
+            0.81,
+            0.64,
+            0.91
+          ],
+          "physical/ADL": [
+            0.76,
+            0.56,
+            0.88
+          ],
+          "obsessive-compulsive": [
+            0.7,
+            0.45,
+            0.84
+          ]
+        }
+      },
+      "convergent_measures": [
+        "MOVES",
+        "WHOQOL-BREF",
+        "life-satisfaction VAS"
+      ],
+      "YGTSS_concordance": null,
+      "caveat": "Original four-factor structure not replicated; domain item membership changes. Floor effects in echo/social domains. Responsiveness needs longitudinal study.",
+      "funding_conflicts": "Clermont-Ferrand hospital and AFSGT grants; no competing interests declared",
+      "locations": [
+        "Methods",
+        "Results",
+        "Tables 4–7",
+        "Conclusion"
+      ]
+    },
+    {
+      "id": "mcguire_2021",
+      "title": "Defining Tic Severity and Tic Impairment in Tourette Disorder",
+      "authors": "McGuire JF et al.",
+      "doi": "10.1016/j.jpsychires.2020.12.040",
+      "pmid": "33338735",
+      "url": "https://escholarship.org/content/qt8f61z3r0/qt8f61z3r0.pdf",
+      "published_online": "2020-12-13",
+      "issue": "2021-01",
+      "design": "Pooled cross-sectional clinician-severity benchmarking",
+      "access": "Primary manuscript and indexed PMC",
+      "population": {
+        "n": 519,
+        "youth": 418,
+        "adults": 101,
+        "age_range": [
+          5,
+          69
+        ],
+        "diagnoses": {
+          "Tourette": 465,
+          "chronic_motor": 41,
+          "chronic_vocal": 5,
+          "transient": 8
+        }
+      },
+      "severity_score": "YGTSS-TTS 0–50; impairment separate; global sum 0–100",
+      "CGI_S_Spearman": {
+        "TTS": 0.54,
+        "impairment": 0.54,
+        "global": 0.63
+      },
+      "classification_kappa_ci95": {
+        "tts": [
+          0.24,
+          0.18,
+          0.31
+        ],
+        "impairment": [
+          0.21,
+          0.15,
+          0.27
+        ],
+        "global": [
+          0.32,
+          0.25,
+          0.38
+        ]
+      },
+      "TTS_marked_range": [
+        28,
+        43
+      ],
+      "TTS_severe_range": [
+        43,
+        46
+      ],
+      "reference_severe_n": 25,
+      "model_TTS_severe_n": 3,
+      "diagnosis_caveat": "No single-modality exclusion reported; current repertoire counts and diagnosis-specific calibration unavailable.",
+      "age_caveat": "Youth/adult scores pooled after nonsignificant comparisons; this is not adult calibration or equivalence. Analytic Plan says youth 7–17 while Table 1 minimum age is 5.",
+      "limits": [
+        "Same clinician assessed index/reference",
+        "In-sample classification",
+        "Overlap at 43 unresolved",
+        "No full confusion matrix or exact severe sensitivity"
+      ],
+      "funding_conflicts": "Not independently extracted in this focused endpoint pass",
+      "locations": {
+        "diagnoses": "Methods Participants, manuscriptp4",
+        "age": "Resultsp6; Table1p16",
+        "models": "Resultsp8; Table3p18",
+        "limitations": "p9"
+      }
+    },
+    {
+      "id": "jeon_2013",
+      "title": "Detecting a Clinically Meaningful Change in Tic Severity in Tourette Syndrome",
+      "authors": "Jeon S et al.",
+      "doi": "10.1016/j.cct.2013.08.012",
+      "pmid": "24001701",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3999642/",
+      "published_online": "2013-08-31",
+      "design": "Response-classification secondary analysis of two 10-week randomized behavioral trials",
+      "access": "Primary manuscript and indexed text",
+      "population": {
+        "randomized": 248,
+        "complete_cases": 232,
+        "missing_CGI_I": 16,
+        "age_range": [
+          9,
+          69
+        ],
+        "parent_adult_trial_age_range": [
+          16,
+          69
+        ],
+        "adult_only": false
+      },
+      "index": "YGTSS-TTS decrease >=25%",
+      "reference": "Masked clinician CGI-I 1 or 2",
+      "reported_sensitivity": 0.87,
+      "reported_specificity": 0.84,
+      "arm_counts": {
+        "CBIT": {
+          "n": 117,
+          "cgi_positive": 56,
+          "threshold_positive": 60,
+          "both_positive": 48
+        },
+        "PST": {
+          "n": 115,
+          "cgi_positive": 16,
+          "threshold_positive": 28,
+          "both_positive": 15
+        }
+      },
+      "computation": "aggregate_inputs.json and aggregate_checks.json",
+      "limits": [
+        "No GTS-QOL joint response",
+        "No separate adult or diagnosis-specific validation",
+        "Threshold selected in same pooled sample",
+        "Not a severe-state cutoff"
+      ],
+      "cohort_overlap": "Shares Piacentini 2010/Wilhelm 2012 study families with McGuire; exact shared-person count unknown",
+      "funding_conflicts": "Not independently extracted in this focused endpoint pass",
+      "locations": {
+        "design": "Methods Design/Setting",
+        "counts": "Table4 and immediately following text; Discussion",
+        "accuracy": "Table3",
+        "accuracy_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3999642/table/T3/",
+        "counts_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3999642/table/T4/",
+        "url_note": "Table URLs resolved from primary article links; separate table fetch had cache errors. Values verified from article text."
+      }
+    },
+    {
+      "id": "gerasch_2016",
+      "title": "Aripiprazole Improves Associated Comorbid Conditions in Addition to Tics in Adult Patients with Gilles de la Tourette Syndrome",
+      "authors": "Gerasch S, Kanaan AS, Jakubovski E, Müller-Vahl KR",
+      "doi": "10.3389/fnins.2016.00416",
+      "pmid": "27672358",
+      "url": "https://www.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2016.00416/full",
+      "published": "2016-09",
+      "design": "Uncontrolled, open-label, self-selected prospective treatment cohort",
+      "access": "Publisher full text",
+      "population": {
+        "baseline_n": 44,
+        "treated_followup_n": 18,
+        "age_range": [
+          18,
+          58
+        ],
+        "diagnosis": "DSM-5 GTS",
+        "severe_only": false
+      },
+      "followup_weeks": [
+        4,
+        6
+      ],
+      "GTS_QOL_range": [
+        0,
+        100
+      ],
+      "language_scoring_version": "Exact implementation not verified",
+      "baseline_Spearman_GTS_QOL": {
+        "YGTSS_TTS": 0.461,
+        "YGTSS_global": 0.6,
+        "MADRS": 0.79
+      },
+      "paired_treated_summaries": {
+        "YGTSS_TTS": {
+          "baseline_mean_sd": [
+            22.7,
+            7.9
+          ],
+          "followup_mean_sd": [
+            19.2,
+            7.5
+          ],
+          "change": -3.5,
+          "p": 0.027
+        },
+        "GTS_QOL": {
+          "baseline_mean_sd": [
+            26.7,
+            16.1
+          ],
+          "followup_mean_sd": [
+            24.5,
+            17.1
+          ],
+          "change": -2.2,
+          "p": 0.76
+        }
+      },
+      "change_correlation": null,
+      "paired_SD_or_CI": null,
+      "safety": {
+        "any_adverse_effect": 12,
+        "stopped_due_adverse_effect": 3
+      },
+      "limits": "Exploratory unadjusted multiplicity; source names a paired Wilcoxon-Mann-Whitney test. No causal effect, QoL equivalence, or contrast-of-effects follows.",
+      "funding_conflicts": "EU TS-EUROTRAIN support; no commercial/financial conflict declared",
+      "locations": [
+        "Methods Statistical analyses",
+        "Tables 2–3",
+        "Results QoL and adverse effects"
+      ]
+    },
+    {
+      "id": "ivanova_2026",
+      "title": "Online behaviour therapy based on exposure with response prevention for adults with tourette syndrome or chronic tic disorder: a feasibility trial",
+      "authors": "Ivanova E et al.",
+      "doi": "10.1186/s44247-026-00284-7",
+      "url": "https://link.springer.com/article/10.1186/s44247-026-00284-7",
+      "published": "2026-07-10",
+      "design": "Unmasked, single-group 10-week TICNET trial",
+      "access": "Publisher HTML and PDF text; screenshot failed",
+      "population": {
+        "n": 31,
+        "adult_only": true,
+        "mean_age_sd": [
+          41.6,
+          15.4
+        ],
+        "TS": 17,
+        "motor_CTD": 14,
+        "vocal_CTD": 0
+      },
+      "selection": "TTS >15 or >10 for single modality; urgent dangerous tics and major psychiatric morbidity excluded. Mostly mild/limited-comorbidity sample; ADHD not assessed.",
+      "visits": [
+        "baseline",
+        "post10weeks",
+        "FU3months",
+        "FU6months",
+        "FU12months"
+      ],
+      "means_SD": {
+        "YGTSS_TTS": [
+          [
+            19.42,
+            5.99
+          ],
+          [
+            16.47,
+            6.13
+          ],
+          [
+            15.07,
+            6.51
+          ],
+          [
+            14.57,
+            6.75
+          ],
+          [
+            12.92,
+            5.9
+          ]
+        ],
+        "GTS_QOL": [
+          [
+            15.13,
+            11.14
+          ],
+          [
+            11.0,
+            10.27
+          ],
+          [
+            9.43,
+            7.53
+          ],
+          [
+            9.21,
+            7.65
+          ],
+          [
+            10.04,
+            9.07
+          ]
+        ]
+      },
+      "reported_d_ci95": {
+        "TTS_post": [
+          0.49,
+          -0.46,
+          1.44
+        ],
+        "TTS_FU12": [
+          1.09,
+          0.14,
+          2.04
+        ],
+        "QOL_post": [
+          0.37,
+          -1.4,
+          2.14
+        ],
+        "QOL_FU12": [
+          0.46,
+          -1.31,
+          2.22
+        ]
+      },
+      "analysis": "Separate mixed models with time fixed/random individual intercept; d uses baseline SD. Later F tests have multiple numerator df, not endpoint-specific contrasts.",
+      "change_correlation": null,
+      "outcome_specific_counts": null,
+      "GTS_QOL_scoring_version": "Not established",
+      "funding_conflicts": "Region Stockholm; no competing interests declared",
+      "locations": [
+        "Methods",
+        "Table 2",
+        "PDF Table 3 page 7"
+      ]
+    }
+  ],
+  "not_a_systematic_review": true,
+  "missing_values_mean": "Not verified/reported in inspected sources, not a zero finding",
+  "global_limits": {
+    "participant_records_used": false,
+    "source_fulltexts_saved": false,
+    "outreach": false,
+    "universal_severe_threshold_validated": false,
+    "adult_GTS_QOL_anchor_MCID_verified": false,
+    "within_person_TTS_QOL_change_correlation_verified": false,
+    "treatment_effect_surrogacy_verified": false
+  },
+  "next_primary_lead_only": {
+    "title": "ONLINE-TICS: Internet-Delivered Behavioral Treatment for Patients with Chronic Tic Disorders",
+    "doi": "10.3390/jcm11010250",
+    "url": "https://www.mdpi.com/2077-0383/11/1/250",
+    "reason": "Accessible adult randomized primary report with both tic and GTS-QOL contrasts; candidate next concrete treatment-effect analysis, not added to current six-study extraction"
+  }
+}
