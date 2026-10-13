@@ -1,8 +1,10 @@
 {
-  "passed": 20,
+  "passed": 22,
   "checks": [
     "semantic sections, single h1, skip link and native details",
     "six genuine dated entries covering October 8 through 13",
+    "compact timeline shows three latest and preserves older entries in native details",
+    "one explicitly dated featured activity and five alternatives in native details",
     "evidence labels, primary links, dated access limitations",
     "no visible em dash, personal origin story or survey fields",
     "scope includes every age, severity and severe persistent adults",
