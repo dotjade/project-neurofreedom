@@ -1,0 +1,21 @@
+{
+  "jeon": {
+    "source": "https://escholarship.org/content/qt4rg7h4df/qt4rg7h4df.pdf",
+    "locations": "Manuscript pp. 6-7; Tables 3-4 pp. 17-18",
+    "n": 232, "reference_positive": 72, "reference_negative": 160,
+    "index_positive_cbit": 60, "index_positive_pst": 28,
+    "overlap_cbit": 48, "overlap_pst": 15
+  },
+  "mcguire": {
+    "source": "https://escholarship.org/content/qt8f61z3r0/qt8f61z3r0.pdf",
+    "locations": "Manuscript p. 8, Tables 2-3 pp. 17-18",
+    "n": 519,
+    "categories": ["normal", "borderline", "mild", "moderate", "marked", "severe", "extreme"],
+    "cgi_counts": [0, 12, 58, 259, 165, 25, 0],
+    "models": {
+      "tts": {"counts": [0, 0, 14, 346, 156, 3, 0], "matches": 296},
+      "impairment": {"counts": [0, 0, 10, 295, 210, 4, 0], "matches": 279},
+      "global": {"counts": [0, 2, 30, 330, 151, 6, 0], "matches": 312}
+    }
+  }
+}
