@@ -1,0 +1,26 @@
+{
+  "passed": 20,
+  "checks": [
+    "semantic sections, single h1, skip link and native details",
+    "six genuine dated entries covering October 8 through 13",
+    "evidence labels, primary links, dated access limitations",
+    "no visible em dash, personal origin story or survey fields",
+    "scope includes every age, severity and severe persistent adults",
+    "no narration autoplay and complete readable fallback",
+    "listen, pause, resume and stop work only on request",
+    "motion defaults off and can be toggled",
+    "no public submissions or invented popularity counts",
+    "health reflection remains unsent and clears",
+    "no cookies, persistence, tracking or HTML injection APIs",
+    "six optional leisure cards, no food for launch or forced tic suppression",
+    "feed validator rejects oversized, unsafe, future and em dash records",
+    "feed strings render as literal text",
+    "reduced motion cannot be overridden and unavailable narration is honest",
+    "network failure retains dated last-known content",
+    "unattended feed reads fixed public GitHub JSON without a credential",
+    "Worker falls back honestly if repository feed cannot be fetched",
+    "existing redirects retained and feed endpoint rejects writes",
+    "CSP permits only same-origin feed reads, retaining protections"
+  ],
+  "renderedQA": "Unavailable: no supported browser surface connected."
+}
