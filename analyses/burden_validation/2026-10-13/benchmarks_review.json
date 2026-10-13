@@ -1,0 +1,286 @@
+{
+  "reviewed_at_utc": "2026-10-13T03:21:49Z",
+  "scope": "Public aggregate evidence only; no participant records or fulltext saved.",
+  "mcguire": {
+    "title": "Defining Tic Severity and Tic Impairment in Tourette Disorder",
+    "pmid": "33338735",
+    "pmcid": "PMC7867408",
+    "sources": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC7867408/",
+      "https://escholarship.org/content/qt8f61z3r0/qt8f61z3r0.pdf"
+    ],
+    "n": 519,
+    "diagnoses": {
+      "Tourette": 465,
+      "chronic_motor": 41,
+      "chronic_vocal": 5,
+      "transient": 8
+    },
+    "age": {
+      "mean": 15.92,
+      "sd": 11.13,
+      "range": [
+        5,
+        69
+      ],
+      "youth_n": 418,
+      "adult_n": 101,
+      "adult_definition": "18+",
+      "note": "Analytic Plan labels youth7\u201317 despite Table1 range5\u201369. Age-specific validation not reported."
+    },
+    "modality_restriction": "No single-modality/current motor-plus-phonic repertoire exclusion stated in reviewed Methods, Analytic Plan, Results, or limitations; current repertoire counts unavailable.",
+    "category_order": [
+      "normal",
+      "borderline",
+      "mild",
+      "moderate",
+      "marked",
+      "severe",
+      "extreme"
+    ],
+    "cgi_s_counts": [
+      0,
+      12,
+      58,
+      259,
+      165,
+      25,
+      0
+    ],
+    "table3_models": {
+      "tts": {
+        "pred": [
+          0,
+          0,
+          14,
+          346,
+          156,
+          3,
+          0
+        ],
+        "match": 296,
+        "derived": {
+          "accuracy": 0.5703275529865125,
+          "kappa": 0.24414184952978052
+        }
+      },
+      "impairment": {
+        "pred": [
+          0,
+          0,
+          10,
+          295,
+          210,
+          4,
+          0
+        ],
+        "match": 279,
+        "derived": {
+          "accuracy": 0.5375722543352601,
+          "kappa": 0.20977503711316667
+        }
+      },
+      "global": {
+        "pred": [
+          0,
+          2,
+          30,
+          330,
+          151,
+          6,
+          0
+        ],
+        "match": 312,
+        "derived": {
+          "accuracy": 0.6011560693641619,
+          "kappa": 0.3159834969629829
+        }
+      }
+    },
+    "reported_kappa_ci95": {
+      "tts": [
+        0.24,
+        0.18,
+        0.31
+      ],
+      "impairment": [
+        0.21,
+        0.15,
+        0.27
+      ],
+      "global": [
+        0.32,
+        0.25,
+        0.38
+      ]
+    },
+    "tts_boundaries": {
+      "normal": [
+        0,
+        0
+      ],
+      "borderline": [
+        1,
+        6
+      ],
+      "mild": [
+        7,
+        10
+      ],
+      "moderate": [
+        11,
+        27
+      ],
+      "marked": [
+        28,
+        43
+      ],
+      "severe": [
+        43,
+        46
+      ],
+      "extreme": [
+        47,
+        50
+      ]
+    },
+    "inferred_boundaries": [
+      "normal",
+      "borderline",
+      "extreme"
+    ],
+    "severe_other_boundaries": {
+      "impairment": [
+        43,
+        50
+      ],
+      "global": [
+        82,
+        96
+      ]
+    },
+    "caveats": [
+      "TTS score43 overlaps marked/severe as printed; unresolved.",
+      "Only marginals and total diagonal matches supplied; full confusion matrix unidentified.",
+      "Same clinician rated YGTSS and CGI-S."
+    ],
+    "locators": {
+      "diagnoses": "Methods Participants, manuscriptp4",
+      "age": "Resultsp6; Table1p16",
+      "models": "Resultsp8; Table3p18",
+      "limitations": "p9"
+    },
+    "cgi_severe_n": 25,
+    "predicted_severe_n": {
+      "tts": 3,
+      "impairment": 4,
+      "global": 6
+    },
+    "severe_sensitivity": "Not identifiable from reported marginals; no confusion matrix reconstructed."
+  },
+  "jeon": {
+    "title": "Detecting a Clinically Meaningful Change in Tic Severity in Tourette Syndrome",
+    "pmid": "24001701",
+    "pmcid": "PMC3999642",
+    "sources": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC3999642/",
+      "https://escholarship.org/content/qt4rg7h4df/qt4rg7h4df.pdf"
+    ],
+    "randomized_n": 248,
+    "complete_case_n": 232,
+    "missing_cgi_i_n": 16,
+    "parent_trials": [
+      {
+        "citation": "Piacentini2010",
+        "randomized_n": 126,
+        "age_range": [
+          9,
+          17
+        ],
+        "registration": "NCT00218777"
+      },
+      {
+        "citation": "Wilhelm2012",
+        "randomized_n": 122,
+        "age_range": [
+          16,
+          69
+        ],
+        "registration": "NCT00231985"
+      }
+    ],
+    "criterion": "YGTSS-TTS reduction >=25% from baseline to week10; reference CGI-I1 or2.",
+    "reported": {
+      "sensitivity": 0.87,
+      "specificity": 0.84,
+      "weighted_kappa_half": 0.68
+    },
+    "counts_derivation": {
+      "CBIT": {
+        "n": 117,
+        "cgi_positive": 56,
+        "threshold_positive": 60,
+        "both_positive": 48
+      },
+      "PST": {
+        "n": 115,
+        "cgi_positive": 16,
+        "threshold_positive": 28,
+        "both_positive": 15
+      }
+    },
+    "derived_pooled": {
+      "TP": 63,
+      "FP": 25,
+      "FN": 9,
+      "TN": 135,
+      "sensitivity": 0.875,
+      "specificity": 0.84375,
+      "ppv": 0.7159090909090909,
+      "npv": 0.9375,
+      "accuracy": 0.853448275862069,
+      "kappa": 0.6773560209424083
+    },
+    "caveats": [
+      "Threshold estimated in pooled psychotherapy-trial complete cases.",
+      "No adult-only sensitivity/specificity, confusion table, ROC, or separate validation reported.",
+      "Age adjustment in regression does not validate age-specific cutoff.",
+      "Table4/text overlap counts imply87.5% sensitivity; article prints87%."
+    ],
+    "locators": {
+      "design": "Methods Design/Setting",
+      "counts": "Table4 and immediately following text; Discussion",
+      "accuracy": "Table3",
+      "accuracy_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3999642/table/T3/",
+      "counts_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3999642/table/T4/",
+      "url_note": "Table URLs resolved from primary article links; separate table fetch had cache errors. Values verified from article text."
+    },
+    "cgi_reference_counts": {
+      "positive": 72,
+      "negative": 160
+    },
+    "threshold_counts": {
+      "positive": 88,
+      "negative": 144
+    }
+  },
+  "cross_paper": {
+    "shared_parent_trials": [
+      "Piacentini2010",
+      "Wilhelm2012"
+    ],
+    "conclusion": "Cohort dependence must be acknowledged; exact shared-person count unavailable. Do not pool as independent replications."
+  },
+  "reproducibility": {
+    "valid": [
+      "Recompute McGuire Cohen kappa from category marginals plus diagonal match total.",
+      "Recompute Jeon binary classification metrics from published exact aggregate overlaps."
+    ],
+    "invalid": [
+      "Reconstruct individual records.",
+      "Assume McGuire off-diagonal cells or severe sensitivity.",
+      "Infer adult-only Jeon denominators or performance.",
+      "Infer covariance or exact cross-paper overlap."
+    ]
+  }
+}
