@@ -79,7 +79,21 @@
     "url": "https://tourette.fyi/api/public-feed",
     "checkedAt": "2026-10-14T02:45:39Z",
     "status": "Cloudflare HTTP 403, error code 1010 from cloud HTTP client",
-    "publicationVerification": "Not yet verified for today's edition; do not infer that the site is down for visitors",
-    "actions": "No security settings changed or access checks bypassed"
+    "publicationVerification": "Production feed verified by follow-up at 09:07:36 UTC; initial cloud-client block retained as access history",
+    "actions": "No security settings changed or access checks bypassed",
+    "followupVerification": {
+      "checkedAt": "2026-10-14T09:07:36Z",
+      "method": "Established ordinary HTTP workflow on an authorized connected environment",
+      "status": 200,
+      "journalSource": "repository",
+      "updatedAt": "2026-10-14T02:59:44Z",
+      "lastResearchDate": "2026-10-14",
+      "activityEditionDate": "2026-10-14",
+      "featuredActivityId": "small-silly-mark",
+      "firstTimelineTitle": "Timing changes the conclusion.",
+      "result": "All expected fields matched; production feed propagation verified",
+      "limitations": "Rendered homepage not checked in this environment",
+      "changesMade": "None"
+    }
   }
 }

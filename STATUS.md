@@ -148,3 +148,7 @@ Close the ONLINE-TICS aggregate extraction unless corrected results or the missi
 ### Public journal publication and access
 
 The October 13 visual journal remains the tested deployment. The October 14 feed selects the existing optional small-mark/silly-sentence activity and adds today's dated research note. No new activity, collection or voting is enabled. Displayed repository links were accessible; primary-source access limits are recorded in [the link ledger](public/link-checks/2026-10-14.json). The cloud HTTP client's production feed check returned Cloudflare 403/error 1010. Today's repository feed is saved and must be read back, but live homepage propagation cannot be claimed from that blocked check. No security settings were changed or protections bypassed.
+
+### Publication verification follow-up - 14 October 2026
+
+At 09:07:36 UTC, an established ordinary HTTP workflow returned HTTP 200 and X-Journal-Source: repository. The production feed matched updatedAt 2026-10-14T02:59:44Z, research/activity date October 14, featured activity small-silly-mark and the new timeline title. Production feed propagation is verified. The earlier cloud-client 403 remains an access limitation of that route, not evidence that publication failed. Rendered-page verification was unavailable in the follow-up environment. No security, source, deployment or feedback settings were changed for this check.

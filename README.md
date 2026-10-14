@@ -69,7 +69,7 @@ A research program toward better understanding, effective treatments and ultimat
 - [Dated scan](updates/2026-10-14/report.md): one registry posting without results, a newly posted guanfacine regulatory-document update and an older newly discovered device recall, each dated separately.
 - [ONLINE-TICS trial audit](analyses/online_tics/2026-10-14/report.md): a historical adult trial's failed primary test, later exploratory findings, outcome-specific timing and continued-access limits.
 - [Reproducible checks](analyses/online_tics/2026-10-14/aggregate_checks.json) and [independent audit](analyses/online_tics/2026-10-14/review/audit.md): 33 checks; post hoc restricted multiplicity sensitivity does not restore confirmation.
-- [Public journal workflow](public/UPDATE_WORKFLOW.md) and [link check](public/link-checks/2026-10-14.json). The October 14 feed is versioned here; production readback from the cloud HTTP client was blocked.
+- [Public journal workflow](public/UPDATE_WORKFLOW.md) and [link check](public/link-checks/2026-10-14.json). The October 14 feed is versioned here; an initial cloud-client block was followed by successful production feed verification at 09:07:36 UTC.
 
 ## Working research record
 
