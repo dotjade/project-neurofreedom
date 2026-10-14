@@ -1,0 +1,16 @@
+{
+  "tests_passed": 33,
+  "retained": [
+    "impairment_v5",
+    "qol_v4",
+    "tts_v4",
+    "tts_v5"
+  ],
+  "primary_passes": false,
+  "confirmatory_NI_allowed": false,
+  "compliance_counts": [
+    27,
+    16,
+    10
+  ]
+}

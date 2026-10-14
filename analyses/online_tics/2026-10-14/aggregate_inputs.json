@@ -1,0 +1,53 @@
+{
+  "analysis_id": "online_tics_time_specific_2026_10_14",
+  "source": {
+    "doi": "10.3390/jcm11010250",
+    "pmid": "35011989",
+    "pmcid": "PMC8745756",
+    "registry": "NCT02605902",
+    "paper_url": "https://publications.rwth-aachen.de/record/889351/files/889351.pdf",
+    "protocol_url": "https://www.frontiersin.org/journals/psychiatry/articles/10.3389/fpsyt.2016.00119/full",
+    "extracted_date_utc": "2026-10-14",
+    "focal_contrasts_source": "Main paper Tables 3 and 4; protocol Primary Analysis and Secondary Analyses",
+    "ci_level": 0.95,
+    "contrast": "Adjusted mean change, iCBIT minus online psychoeducation",
+    "focal_direction": "Negative values favor iCBIT for all three focal endpoints"
+  },
+  "alpha": 0.05,
+  "focal_family": [
+    {"id":"tts_v3","outcome":"YGTSS-TTS","visit":"V3","timing":"1 week after end of treatment","hierarchy":"primary","estimate":-1.28,"lower":-2.58,"upper":0.01,"p_printed":"0.053","source":"Table 3"},
+    {"id":"tts_v4","outcome":"YGTSS-TTS","visit":"V4","timing":"3 months after end of treatment","hierarchy":"secondary","estimate":-2.25,"lower":-3.75,"upper":-0.75,"p_printed":"0.003","source":"Table 3"},
+    {"id":"tts_v5","outcome":"YGTSS-TTS","visit":"V5","timing":"6 months after end of treatment","hierarchy":"secondary","estimate":-2.71,"lower":-4.27,"upper":-1.16,"p_printed":"<0.001","source":"Table 3"},
+    {"id":"impairment_v3","outcome":"YGTSS-impairment","visit":"V3","timing":"1 week after end of treatment","hierarchy":"secondary","estimate":-3.43,"lower":-6.29,"upper":-0.56,"p_printed":"0.019","source":"Table 3"},
+    {"id":"impairment_v4","outcome":"YGTSS-impairment","visit":"V4","timing":"3 months after end of treatment","hierarchy":"secondary","estimate":-2.80,"lower":-6.10,"upper":0.51,"p_printed":"0.097","source":"Table 3"},
+    {"id":"impairment_v5","outcome":"YGTSS-impairment","visit":"V5","timing":"6 months after end of treatment","hierarchy":"secondary","estimate":-5.13,"lower":-8.72,"upper":-1.54,"p_printed":"0.005","source":"Table 3; prose upper-bound sign differs"},
+    {"id":"qol_v3","outcome":"GTS-QOL","visit":"V3","timing":"1 week after end of treatment","hierarchy":"secondary","estimate":-1.67,"lower":-4.67,"upper":1.32,"p_printed":"0.272","source":"Table 4"},
+    {"id":"qol_v4","outcome":"GTS-QOL","visit":"V4","timing":"3 months after end of treatment","hierarchy":"secondary","estimate":-5.28,"lower":-8.69,"upper":-1.88,"p_printed":"0.002","source":"Table 4"},
+    {"id":"qol_v5","outcome":"GTS-QOL","visit":"V5","timing":"6 months after end of treatment","hierarchy":"secondary","estimate":-4.60,"lower":-8.21,"upper":-0.99,"p_printed":"0.013","source":"Table 4"}
+  ],
+  "noninferiority": {
+    "comparison":"iCBIT minus face-to-face CBIT",
+    "outcome":"YGTSS-TTS",
+    "visit":"V3",
+    "estimate":0.98,
+    "lower":-1.01,
+    "upper":2.96,
+    "margin":3.0,
+    "required_gate":"Primary iCBIT versus placebo superiority at V3",
+    "source":"Main Table 3 and section 3.2; 2016 protocol Secondary Analyses"
+  },
+  "noncompliance": {
+    "source":"Main paper section 3 Results",
+    "randomized_total":161,
+    "compliant_until_v3_total":108,
+    "arms":[
+      {"arm":"iCBIT","randomized":67,"noncompliant_percent_printed":"40.3"},
+      {"arm":"online_psychoeducation","randomized":70,"noncompliant_percent_printed":"22.9"},
+      {"arm":"face_to_face_CBIT","randomized":24,"noncompliant_percent_printed":"41.7"}
+    ],
+    "missing_clinic_visits_until_v3_reported_n":42,
+    "insufficient_sessions_reported_n":11,
+    "further_followup_dropouts_reported_n":9,
+    "warning":"Missing any clinic visit or inadequate sessions is not the same as missing a specific endpoint. Do not infer V3/V4/V5 outcome denominators or treat all 53 noncompliant participants as dropouts."
+  }
+}

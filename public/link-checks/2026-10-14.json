@@ -1,0 +1,85 @@
+{
+  "checkedAt": "2026-10-14T02:47:05Z",
+  "scope": "Displayed primary citations and six dated repository records; bounded liveness pass, not revalidation of all scientific claims",
+  "checks": [
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10863457/",
+      "checkedAt": "2026-10-14",
+      "status": "Browser verification page; article liveness inconclusive",
+      "method": "web.open"
+    },
+    {
+      "url": "https://www.neurology.org/doi/10.1212/01.WNL.0000086370.10186.7C",
+      "checkedAt": "2026-10-14",
+      "status": "403 Forbidden in retrieval; not established dead",
+      "method": "web.open"
+    },
+    {
+      "url": "https://link.springer.com/content/pdf/10.1186/s44247-026-00284-7.pdf",
+      "checkedAt": "2026-10-14",
+      "status": "PDF retrievable; 12-page primary article",
+      "method": "web.open"
+    },
+    {
+      "url": "https://www.mdpi.com/2077-0383/11/1/250",
+      "checkedAt": "2026-10-14",
+      "status": "Retrieval internal error; liveness inconclusive",
+      "method": "web.open"
+    },
+    {
+      "url": "https://github.com/dotjade/project-neurofreedom/blob/main/analyses/burden_validation/2026-10-13/report.md",
+      "checkedAt": "2026-10-14",
+      "method": "GitHub connector contents read",
+      "status": "Repository file accessible",
+      "sha": "4891ac5c8071208edb08a6dddef5acdfbf5c340e"
+    },
+    {
+      "url": "https://github.com/dotjade/project-neurofreedom/blob/main/analyses/adult_burden/2026-10-12/report.md",
+      "checkedAt": "2026-10-14",
+      "method": "GitHub connector contents read",
+      "status": "Repository file accessible",
+      "sha": "daf4bbbde5cdc82ef7e1d74391d33c265d58cdc0"
+    },
+    {
+      "url": "https://github.com/dotjade/project-neurofreedom/blob/main/analyses/mns_attrition/report.md",
+      "checkedAt": "2026-10-14",
+      "method": "GitHub connector contents read",
+      "status": "Repository file accessible",
+      "sha": "a60134b29e3f7b8abd357092a64bad928138e0b0"
+    },
+    {
+      "url": "https://github.com/dotjade/project-neurofreedom/blob/main/analyses/data_feasibility/2026-10-10-audit.md",
+      "checkedAt": "2026-10-14",
+      "method": "GitHub connector contents read",
+      "status": "Repository file accessible",
+      "sha": "0a2e3b9b0808eb8fbc84b2e8738dc4c976cac895"
+    },
+    {
+      "url": "https://github.com/dotjade/project-neurofreedom/blob/main/analyses/remission/2026-10-09-harmonization.md",
+      "checkedAt": "2026-10-14",
+      "method": "GitHub connector contents read",
+      "status": "Repository file accessible",
+      "sha": "ca8fcaf4746c4216a9350ce98afb67db7f14c98c"
+    },
+    {
+      "url": "https://github.com/dotjade/project-neurofreedom/blob/main/analyses/cycle_detection/README.md",
+      "checkedAt": "2026-10-14",
+      "method": "GitHub connector contents read",
+      "status": "Repository file accessible",
+      "sha": "fdcdec350529179c99600986e311a4e1f6d68133"
+    },
+    {
+      "url": "https://publications.rwth-aachen.de/record/889351/files/889351.pdf",
+      "checkedAt": "2026-10-14",
+      "method": "web.open",
+      "status": "Lawful institutional primary PDF retrievable"
+    }
+  ],
+  "productionFeed": {
+    "url": "https://tourette.fyi/api/public-feed",
+    "checkedAt": "2026-10-14T02:45:39Z",
+    "status": "Cloudflare HTTP 403, error code 1010 from cloud HTTP client",
+    "publicationVerification": "Not yet verified for today's edition; do not infer that the site is down for visitors",
+    "actions": "No security settings changed or access checks bypassed"
+  }
+}

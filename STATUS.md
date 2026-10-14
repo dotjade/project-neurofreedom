@@ -1,6 +1,6 @@
 # Project NeuroFreedom status
 
-Updated 13 October 2026. Initial portfolio, five completed daily updates and first completed weekly synthesis.
+Updated 14 October 2026. Initial portfolio, six completed daily updates and first completed weekly synthesis. Public evidence repository and journal launched 13 October.
 
 ## Completed in this first pass
 
@@ -21,7 +21,7 @@ The user approved the following automatic public-science research and repository
 - Monthly hypothesis and feasibility review: first day of each month, from 1 November 2026, approximately 09:00 India time.
 - Quarterly strategy review: 1 January, April, July and October, from 1 January 2027, approximately 10:00 India time.
 
-All use flexible timing, generally within an hour of the stated time. Research updates should be saved to this private repository. Daily no-change runs should not generate repetitive chat messages. Meaningful findings, requested syntheses and actionable blockers should be communicated with source links.
+All use flexible timing, generally within an hour of the stated time. Research updates should be saved to this public evidence repository, without personal or participant data. Daily no-change runs should not generate repetitive chat messages. Meaningful findings, requested syntheses and actionable blockers should be communicated with source links.
 
 ## What has not been done
 
@@ -132,3 +132,19 @@ Executed a published-aggregate response-classification reconstruction from Jeon 
 Close the current measurement-substitution/universal-threshold pass at this evidence. Retain a language/version-specific GTS-QOL candidate with native domains, separate clinician tic severity/components and impairment, and separately verified pain/participation endpoints when those are targeted. Do not launch participant collection or install an invented meaningful-change threshold.
 
 Move next to the adult randomized ONLINE-TICS study, [Haas et al. 2022, DOI 10.3390/jcm11010250](https://www.mdpi.com/2077-0383/11/1/250). Test its time-specific treatment-benefit claim using the primary endpoint and available tic, impairment and GTS-QOL contrasts. Extract uncertainty, multiplicity, attrition and negative findings before any aggregate computation; do not infer joint response or an endpoint-effect difference without the required covariance. This is a verified next source, not a seventh report analyzed in today's synthesis or a clinical recommendation. Continue dated new-evidence surveillance without repeating closed dataset, gating-access, MNS or registry-endpoint work absent a materially new source.
+
+## Completed daily research update - 14 October 2026
+
+The [dated scan](updates/2026-10-14/report.md) screened 27 PubMed metadata records and 632 preprint DOI/version records without a qualifying new tic paper/preprint. One unique ClinicalTrials.gov posting, NCT07137442, describes an existing adult observational physiology study without results. Recruitment/start-date and healthy-control inconsistencies are retained. The [safety review](updates/2026-10-14/safety/report.md) distinguishes the October 13 Intuniv regulatory-document update from its earlier underlying ADHD study and an October 9 NeuroStar recall newly discovered today. No urgent new guanfacine warning or tic efficacy claim follows.
+
+The [ONLINE-TICS audit](analyses/online_tics/2026-10-14/report.md) completes yesterday's planned adult randomized-trial question. The 2022 primary contrast did not establish superiority: -1.28 points, 95% CI -2.58 to 0.01, p=.053. The protocol's confirmatory non-inferiority gate therefore remains closed. Later tic, impairment and disease-specific QoL findings are exploratory and time-specific. Negative findings, early unfavorable contrasts with coding caveats, table/prose inconsistencies, and continued intervention access remain explicit.
+
+A deterministic published-aggregate computation and independent audit reproduced 33 checks. Four of six nominally favorable contrasts survive an explicitly post hoc nine-comparison Holm/Bonferroni sensitivity. This restricted family does not restore confirmation or adjust for all trial tests. Compliance counts are not outcome-specific attrition; missing covariance prevents a joint-response or time-effect-difference calculation. No patient data or medical intervention was used.
+
+### Next bounded decision
+
+Close the ONLINE-TICS aggregate extraction unless corrected results or the missing quantities become available. Next audit the original adult-dominant Wilhelm et al. 2012 CBIT trial's maintenance estimand: primary and follow-up denominators, response-conditioned follow-up, booster exposure and separately measured impairment. Its ages 16-69 include minors; do not report an adult-only estimate without a verified subgroup. Do not assume QoL collection or off-treatment durability. Continue dated surveillance without repeating completed generic cohort searches or prior computations.
+
+### Public journal publication and access
+
+The October 13 visual journal remains the tested deployment. The October 14 feed selects the existing optional small-mark/silly-sentence activity and adds today's dated research note. No new activity, collection or voting is enabled. Displayed repository links were accessible; primary-source access limits are recorded in [the link ledger](public/link-checks/2026-10-14.json). The cloud HTTP client's production feed check returned Cloudflare 403/error 1010. Today's repository feed is saved and must be read back, but live homepage propagation cannot be claimed from that blocked check. No security settings were changed or protections bypassed.

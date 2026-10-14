@@ -1,0 +1,268 @@
+{
+  "analysis_id": "online_tics_time_specific_2026_10_14",
+  "method": "Post hoc nine-contrast multiplicity/reporting-precision sensitivity, original gatekeeping logic, and compliance arithmetic",
+  "not_a_claim": "Not a participant-data reanalysis, replacement multiplicity plan, endpoint-effect comparison, attrition-adjusted efficacy estimate or clinical recommendation",
+  "focal_family_size": 9,
+  "nominal_alpha": "0.05",
+  "bonferroni_threshold": "0.005555555555555555555555555556",
+  "primary_superiority_demonstrated": false,
+  "noninferiority_numeric_interval_condition": true,
+  "confirmatory_noninferiority_permitted_by_original_gate": false,
+  "ni_upper_margin_gap": "0.04",
+  "nominal_favorable_contrast_count": 6,
+  "retained_under_both_restricted_sensitivities": [
+    "impairment_v5",
+    "qol_v4",
+    "tts_v4",
+    "tts_v5"
+  ],
+  "results": [
+    {
+      "id": "tts_v3",
+      "p_printed": "0.053",
+      "p_precision_envelope": [
+        "0.0525",
+        "0.0535"
+      ],
+      "nominal_ci_excludes_zero_in_favorable_direction": false,
+      "bonferroni_adjusted_using_printed_p_or_censor_upper": "0.477",
+      "holm_adjusted_using_printed_p_or_censor_upper": "0.159",
+      "bonferroni_adjusted_precision_envelope": [
+        "0.4725",
+        "0.4815"
+      ],
+      "holm_adjusted_precision_envelope": [
+        "0.1575",
+        "0.1605"
+      ],
+      "passes_both_sensitivities_throughout_precision_envelope": false
+    },
+    {
+      "id": "tts_v4",
+      "p_printed": "0.003",
+      "p_precision_envelope": [
+        "0.0025",
+        "0.0035"
+      ],
+      "nominal_ci_excludes_zero_in_favorable_direction": true,
+      "bonferroni_adjusted_using_printed_p_or_censor_upper": "0.027",
+      "holm_adjusted_using_printed_p_or_censor_upper": "0.021",
+      "bonferroni_adjusted_precision_envelope": [
+        "0.0225",
+        "0.0315"
+      ],
+      "holm_adjusted_precision_envelope": [
+        "0.0175",
+        "0.0245"
+      ],
+      "passes_both_sensitivities_throughout_precision_envelope": true
+    },
+    {
+      "id": "tts_v5",
+      "p_printed": "<0.001",
+      "p_precision_envelope": [
+        "0",
+        "0.001"
+      ],
+      "nominal_ci_excludes_zero_in_favorable_direction": true,
+      "bonferroni_adjusted_using_printed_p_or_censor_upper": "0.009",
+      "holm_adjusted_using_printed_p_or_censor_upper": "0.009",
+      "bonferroni_adjusted_precision_envelope": [
+        "0",
+        "0.009"
+      ],
+      "holm_adjusted_precision_envelope": [
+        "0",
+        "0.009"
+      ],
+      "passes_both_sensitivities_throughout_precision_envelope": true
+    },
+    {
+      "id": "impairment_v3",
+      "p_printed": "0.019",
+      "p_precision_envelope": [
+        "0.0185",
+        "0.0195"
+      ],
+      "nominal_ci_excludes_zero_in_favorable_direction": true,
+      "bonferroni_adjusted_using_printed_p_or_censor_upper": "0.171",
+      "holm_adjusted_using_printed_p_or_censor_upper": "0.076",
+      "bonferroni_adjusted_precision_envelope": [
+        "0.1665",
+        "0.1755"
+      ],
+      "holm_adjusted_precision_envelope": [
+        "0.0740",
+        "0.0780"
+      ],
+      "passes_both_sensitivities_throughout_precision_envelope": false
+    },
+    {
+      "id": "impairment_v4",
+      "p_printed": "0.097",
+      "p_precision_envelope": [
+        "0.0965",
+        "0.0975"
+      ],
+      "nominal_ci_excludes_zero_in_favorable_direction": false,
+      "bonferroni_adjusted_using_printed_p_or_censor_upper": "0.873",
+      "holm_adjusted_using_printed_p_or_censor_upper": "0.194",
+      "bonferroni_adjusted_precision_envelope": [
+        "0.8685",
+        "0.8775"
+      ],
+      "holm_adjusted_precision_envelope": [
+        "0.1930",
+        "0.1950"
+      ],
+      "passes_both_sensitivities_throughout_precision_envelope": false
+    },
+    {
+      "id": "impairment_v5",
+      "p_printed": "0.005",
+      "p_precision_envelope": [
+        "0.0045",
+        "0.0055"
+      ],
+      "nominal_ci_excludes_zero_in_favorable_direction": true,
+      "bonferroni_adjusted_using_printed_p_or_censor_upper": "0.045",
+      "holm_adjusted_using_printed_p_or_censor_upper": "0.030",
+      "bonferroni_adjusted_precision_envelope": [
+        "0.0405",
+        "0.0495"
+      ],
+      "holm_adjusted_precision_envelope": [
+        "0.0270",
+        "0.0330"
+      ],
+      "passes_both_sensitivities_throughout_precision_envelope": true
+    },
+    {
+      "id": "qol_v3",
+      "p_printed": "0.272",
+      "p_precision_envelope": [
+        "0.2715",
+        "0.2725"
+      ],
+      "nominal_ci_excludes_zero_in_favorable_direction": false,
+      "bonferroni_adjusted_using_printed_p_or_censor_upper": "1",
+      "holm_adjusted_using_printed_p_or_censor_upper": "0.272",
+      "bonferroni_adjusted_precision_envelope": [
+        "1",
+        "1"
+      ],
+      "holm_adjusted_precision_envelope": [
+        "0.2715",
+        "0.2725"
+      ],
+      "passes_both_sensitivities_throughout_precision_envelope": false
+    },
+    {
+      "id": "qol_v4",
+      "p_printed": "0.002",
+      "p_precision_envelope": [
+        "0.0015",
+        "0.0025"
+      ],
+      "nominal_ci_excludes_zero_in_favorable_direction": true,
+      "bonferroni_adjusted_using_printed_p_or_censor_upper": "0.018",
+      "holm_adjusted_using_printed_p_or_censor_upper": "0.016",
+      "bonferroni_adjusted_precision_envelope": [
+        "0.0135",
+        "0.0225"
+      ],
+      "holm_adjusted_precision_envelope": [
+        "0.0120",
+        "0.0200"
+      ],
+      "passes_both_sensitivities_throughout_precision_envelope": true
+    },
+    {
+      "id": "qol_v5",
+      "p_printed": "0.013",
+      "p_precision_envelope": [
+        "0.0125",
+        "0.0135"
+      ],
+      "nominal_ci_excludes_zero_in_favorable_direction": true,
+      "bonferroni_adjusted_using_printed_p_or_censor_upper": "0.117",
+      "holm_adjusted_using_printed_p_or_censor_upper": "0.065",
+      "bonferroni_adjusted_precision_envelope": [
+        "0.1125",
+        "0.1215"
+      ],
+      "holm_adjusted_precision_envelope": [
+        "0.0625",
+        "0.0675"
+      ],
+      "passes_both_sensitivities_throughout_precision_envelope": false
+    }
+  ],
+  "compliance_arithmetic": [
+    {
+      "arm": "iCBIT",
+      "randomized": 67,
+      "noncompliant_percent_printed": "40.3",
+      "derived_noncompliant_n": 27,
+      "derived_compliant_n": 40,
+      "noncompliant_fraction": 0.40298507462686567
+    },
+    {
+      "arm": "online_psychoeducation",
+      "randomized": 70,
+      "noncompliant_percent_printed": "22.9",
+      "derived_noncompliant_n": 16,
+      "derived_compliant_n": 54,
+      "noncompliant_fraction": 0.22857142857142856
+    },
+    {
+      "arm": "face_to_face_CBIT",
+      "randomized": 24,
+      "noncompliant_percent_printed": "41.7",
+      "derived_noncompliant_n": 10,
+      "derived_compliant_n": 14,
+      "noncompliant_fraction": 0.4166666666666667
+    }
+  ],
+  "noncompliance_total": 53,
+  "noncompliance_total_percent": 32.91925465838509,
+  "endpoint_specific_missing_counts_identified": false,
+  "tests_passed": 33,
+  "test_names": [
+    "nine_unique_focal_contrasts",
+    "three_outcomes_three_visits",
+    "exactly_one_primary",
+    "p_envelopes_ordered",
+    "reported_p_within_envelope",
+    "all_estimates_within_ci",
+    "nominal_ci_p_agreement",
+    "six_nominal_positive_contrasts",
+    "bonferroni_monotone_envelope",
+    "holm_monotone_envelope",
+    "holm_no_larger_than_bonferroni",
+    "holm_decision_matches_stepdown",
+    "holm_decision_matches_stepdown_lower",
+    "holm_decision_matches_stepdown_upper",
+    "holm_zero_one_edge_case",
+    "holm_equal_p_edge_case",
+    "holm_singleton",
+    "bonferroni_caps_at_one",
+    "holm_permutation_equivariance",
+    "adjusted_decisions_robust_to_printed_precision",
+    "four_retained_by_holm",
+    "same_four_by_bonferroni",
+    "primary_gate_fails",
+    "ni_numeric_condition_passes",
+    "ni_margin_gap_exact",
+    "confirmatory_ni_gate_closed",
+    "unique_compliance_count_iCBIT",
+    "unique_compliance_count_online_psychoeducation",
+    "unique_compliance_count_face_to_face_CBIT",
+    "randomized_totals_match",
+    "compliant_total_matches",
+    "noncompliance_reasons_arithmetic",
+    "noncompliance_counts_expected"
+  ],
+  "input_sha256": "14d86cb054a2c59c0e97cb953b697e1ea7ce063e87e995b9b218e8d5d797b76f",
+  "code_sha256": "23bcc19575772c61326aad59f2803b104638e54b94fb99f766c44ca2bdb60781"
+}

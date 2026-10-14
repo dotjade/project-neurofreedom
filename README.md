@@ -64,6 +64,13 @@ A research program toward better understanding, effective treatments and ultimat
 - [Six-report adult burden validation synthesis](analyses/burden_validation/2026-10-13/report.md): version-specific patient-reported outcomes, distinct severity/impairment, and limits of universal thresholds.
 - [Executed response-classification analysis](analyses/burden_validation/2026-10-13/aggregate_checks.json) and [independent audit](analyses/burden_validation/2026-10-13/review/audit_summary.md): 34/232 pooled mixed-age participants had discordant tic-threshold and clinician-response labels; this is not adult quality-of-life surrogate validation.
 
+## Research update - 14 October 2026
+
+- [Dated scan](updates/2026-10-14/report.md): one registry posting without results, a newly posted guanfacine regulatory-document update and an older newly discovered device recall, each dated separately.
+- [ONLINE-TICS trial audit](analyses/online_tics/2026-10-14/report.md): a historical adult trial's failed primary test, later exploratory findings, outcome-specific timing and continued-access limits.
+- [Reproducible checks](analyses/online_tics/2026-10-14/aggregate_checks.json) and [independent audit](analyses/online_tics/2026-10-14/review/audit.md): 33 checks; post hoc restricted multiplicity sensitivity does not restore confirmation.
+- [Public journal workflow](public/UPDATE_WORKFLOW.md) and [link check](public/link-checks/2026-10-14.json). The October 14 feed is versioned here; production readback from the cloud HTTP client was blocked.
+
 ## Working research record
 
 - [Research protocol and planned update cycle](RESEARCH_PROTOCOL.md)
@@ -75,7 +82,7 @@ The initial portfolio is a targeted evidence map. Search coverage, access limita
 
 ## Privacy and reuse
 
-The intended GitHub repository is private. No patient-specific medical information, family identifiers, images, diary entries or genetic data belong here. Store original evidence summaries and source identifiers. Do not upload unlicensed full-text papers or private community content. A private repository is not a clinical-data system.
+The repository and https://tourette.fyi/ became public on 13 October 2026 after a repository-history privacy audit. No patient-specific medical information, family identifiers, images, diary entries or genetic data belong here. Store original evidence summaries and source identifiers. Do not upload unlicensed full-text papers or private community content. A private repository is not a clinical-data system.
 
 ## How to continue
 

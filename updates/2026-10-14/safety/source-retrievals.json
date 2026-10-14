@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://www.ema.europa.eu/en/documents/product-information/intuniv-epar-product-information_en.pdf",
+    "retrieved_utc": "2026-10-14T02:46:42.930527+00:00",
+    "status": 200,
+    "bytes": 314522,
+    "sha256": "b225f42374a72478897a7ffe5fe45a28ed820ad0d048d0ca17875afae195379b",
+    "source_copy_redistributed": false,
+    "original_filename": "intuniv_product_information.pdf"
+  },
+  {
+    "url": "https://www.ema.europa.eu/en/documents/procedural-steps-after/intuniv-epar-procedural-steps-taken-scientific-information-after-authorisation_en.pdf",
+    "retrieved_utc": "2026-10-14T02:46:42.930990+00:00",
+    "status": 200,
+    "bytes": 199518,
+    "sha256": "0c91f13691291c2164fb8db0bbfa6234f4157d3c9602847bca1257e8db45a660",
+    "source_copy_redistributed": false,
+    "original_filename": "intuniv_procedural_steps.pdf"
+  },
+  {
+    "url": "https://www.ema.europa.eu/en/documents/rmp/intuniv-epar-risk-management-plan_en.pdf",
+    "retrieved_utc": "2026-10-14T02:46:42.931417+00:00",
+    "status": 200,
+    "bytes": 600362,
+    "sha256": "60a07c45d5349c1fa9bbd6bdee218e9a589eaa87a018248135df2ef5fe2232e7",
+    "source_copy_redistributed": false,
+    "original_filename": "intuniv_rmp.pdf"
+  },
+  {
+    "url": "https://www.ema.europa.eu/en/documents/product-information-tracked-changes/intuniv-epar-product-information-tracked-changes_en.docx",
+    "retrieved_utc": "2026-10-14T02:46:42.931812+00:00",
+    "status": 200,
+    "bytes": 96921,
+    "sha256": "9e9d452eecc1c2e5c270ea392cd8cb02d9319a0bd4f257ce2138afec2a88031c",
+    "source_copy_redistributed": false,
+    "original_filename": "intuniv_tracked_changes.docx"
+  },
+  {
+    "url": "https://www.ema.europa.eu/en/news-events/whats-new",
+    "retrieved_utc": "2026-10-14T02:46:42.932341+00:00",
+    "status": 200,
+    "bytes": 333350,
+    "sha256": "b40550d7b39699cf15a773a55ab75d0f4e582d9dc8cb3624791c1b89fdaf232e",
+    "source_copy_redistributed": false,
+    "original_filename": "ema_whats_new.html"
+  },
+  {
+    "url": "https://www.fda.gov/drugs/drug-safety-and-availability/drug-safety-communications",
+    "retrieved_utc": "2026-10-14T02:46:42.933097+00:00",
+    "status": 200,
+    "bytes": 58802,
+    "sha256": "36c583f5d36e29179412ea21e0ec0fce27c166c7587e82d26a840417f5f4cfc6",
+    "source_copy_redistributed": false,
+    "original_filename": "fda_drug_communications.html"
+  },
+  {
+    "url": "https://www.fda.gov/medical-devices/medical-device-safety/safety-communications",
+    "retrieved_utc": "2026-10-14T02:46:48.165655+00:00",
+    "status": 200,
+    "bytes": 46668,
+    "sha256": "407b815b5e1d57647a93a77f10c8da3859b5d9d6bea5ae70df1f1a682649dd04",
+    "source_copy_redistributed": false,
+    "original_filename": "fda_device_communications.html"
+  },
+  {
+    "url": "https://www.gov.uk/drug-safety-update",
+    "retrieved_utc": "2026-10-14T02:46:49.412198+00:00",
+    "status": 200,
+    "bytes": 158721,
+    "sha256": "9ac781acdf875c9f5e601ae16df691305103975e8e5e0db2ed77697d219e28d3",
+    "source_copy_redistributed": false,
+    "original_filename": "mhra_dsu.html"
+  },
+  {
+    "url": "https://www.gov.uk/drug-device-alerts",
+    "retrieved_utc": "2026-10-14T02:46:49.428347+00:00",
+    "status": 200,
+    "bytes": 162920,
+    "sha256": "e4ab319d8f4b3c0bbce4bb7e41aec26fc5a3884c50ec26125ff37e2af33c21cd",
+    "source_copy_redistributed": false,
+    "original_filename": "mhra_alerts.html"
+  },
+  {
+    "url": "https://www.gov.uk/drug-device-alerts/field-safety-notices-for-october-2026",
+    "retrieved_utc": "2026-10-14T02:46:49.606273+00:00",
+    "status": 200,
+    "bytes": 61575,
+    "sha256": "8f1720adcedcfd0785dba4a952f055b81e3647c033713199bc44a57cb04a92a8",
+    "source_copy_redistributed": false,
+    "original_filename": "mhra_oct_fsn.html"
+  }
+]
