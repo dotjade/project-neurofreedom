@@ -1,0 +1,50 @@
+{
+  "id": "wilhelm_2012_cbit_original_maintenance_audit_2026-10-15",
+  "title_final": "Randomized Trial of Behavior Therapy for Adults With Tourette Syndrome",
+  "title_author_manuscript": "Randomized Trial of Behavior Therapy for Adults with Tourette’s Disorder",
+  "authors": "Wilhelm S; Peterson AL; Piacentini J; Woods DW; Deckersbach T; Sukhodolsky DG; Chang S; Liu H; Dziura J; Walkup JT; Scahill L",
+  "identifiers": {"doi": "10.1001/archgenpsychiatry.2011.1528", "pmid": "22868933", "pmcid": "PMC3772729", "nct": "NCT00231985"},
+  "sources": {
+    "final_paper": "https://jamanetwork.com/journals/jamapsychiatry/fullarticle/1307556",
+    "pubmed": "https://pubmed.ncbi.nlm.nih.gov/22868933/",
+    "author_manuscript": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3772729/",
+    "flow_figure": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/f10e/3772729/868c530eb647/nihms-500770-f0001.jpg",
+    "registration": "https://clinicaltrials.gov/study/NCT00231985",
+    "registry_api": "https://clinicaltrials.gov/api/v2/studies/NCT00231985",
+    "bibliographic_metadata": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:22868933%20AND%20SRC:MED&format=json&resultType=core"
+  },
+  "dates": {"journal_issue": "2012-08", "issue_date": "2012-08-01", "pmc_manuscript_available": "2013-09-13", "accepted": "2011-10-01", "recruitment_start": "2005-12-27", "recruitment_end": "2009-05-21", "extracted_utc_date": "2026-10-15", "registry_first_posted": "2005-10-04", "registry_last_update_posted": "2012-02-09", "registry_start_month": "2005-10", "registry_completion_month": "2010-03"},
+  "date_interpretation": "Historical 2012 trial; neither later PMC availability nor 2026 extraction is a new publication. Registry study-start month and paper recruitment-start date are different fields. No earlier online publication date inferred.",
+  "design": {"acute": "Ten-week, three-site, 1:1 randomized CBIT versus psychoeducation/supportive therapy (PST), allocation stratified within site by tic medication", "masking": "Outcome assessors masked; participants and therapists aware", "followup": "Within-arm, conditioned on acute CGI-I response and returning assessment; not a preserved randomized contrast"},
+  "population": {"n_randomized": 122, "ages_min": 16, "ages_max": 69, "age_mean": 31.6, "age_sd": 13.7, "adult_only": false, "adult_only_subgroup_verified": false, "male_n": 78, "white_n": 98, "tourette_n": 103, "motor_only_n": 18, "vocal_only_n": 1,
+    "eligibility": "At least age 16, TS or CTD; CGI severity at least 4, YGTSS total tic greater than 14 (greater than 10 for motor/vocal only); English fluency, IQ greater than 80. Co-occurring conditions stable and not requiring other treatment; tic medication stable at least 6 weeks with no planned change.",
+    "severe_selection": {"total_tic_threshold_for_panel_review": 30, "screened_above_threshold": 6, "above_threshold_enrolled": 3, "above_threshold_excluded": 3},
+    "excluded": "History of schizophrenia/pervasive developmental disorder; current substance abuse/dependence; four or more prior similar behavioral-treatment sessions",
+    "applicability": "Adult-dominant rather than adult-only; severe/unstable and treatment-experienced patients restricted; not a dedicated persistent-very-severe-adult estimate"},
+  "interventions": {"acute": "Eight sessions over 10 weeks in each arm; initial two 90 min, subsequent 60 min", "boosters": "Three monthly booster sessions specified for acute responders in both arms; treatment section says invited. Actual per-person attendance/completion not supplied in the inspected original report.", "crossover": "Acute PST nonresponders offered CBIT", "continued_practice": "Not quantified; no cessation/withdrawal design", "acute_session_attendance_percent": {"CBIT": 87.9, "PST": 86.7}},
+  "counts": {"screened": 172, "ineligible": 27, "presumed_eligible_declined": 23, "CBIT": {"randomized": 63, "acute_analyzed": 60, "acute_completed": 56, "exited": 7, "acute_positive": 24, "three_month_assessed": 15, "three_month_positive": 13, "six_month_assessed": 15, "six_month_positive": 12}, "PST": {"randomized": 59, "acute_analyzed": 53, "acute_completed": 49, "exited": 10, "acute_positive": 4, "three_month_assessed": 2, "three_month_positive": 1, "six_month_assessed": 2, "six_month_positive": 1}, "flow_source": "PMC Figure 1 visually inspected; analyze counts are not inferred by subtracting dropouts"},
+  "endpoints": {
+    "primary": "Paper design and current registry identify week 10 tic severity; paper Outcomes section also calls YGTSS and CGI-I primary measures. Keep continuous severity and categorical response distinct.",
+    "response": "CGI-I 1 or 2, improvement relative to baseline; no requirement for tic absence",
+    "continuous_model": "At least one postrandomization visit; mixed repeated measures, baseline/site adjusted, missing-at-random assumption; LOCF sensitivity described as same conclusions without numerical estimates",
+    "week 10_total_tic": {"range": [0,50], "CBIT_baseline_mean": 24.0, "CBIT_week 10_mean": 17.8, "PST_baseline_mean": 21.8, "PST_week 10_mean": 19.3, "reported_adjusted_advantage": 3.3, "ci95": [1.4,5.2], "p": "<.001", "effect_size_text": 0.57, "effect_size_table_rounded": 0.6},
+    "week 10_impairment": {"range": [0,50], "CBIT_baseline_mean": 23.8, "CBIT_week 10_mean": 14.7, "PST_baseline_mean": 24.5, "PST_week 10_mean": 18.8, "reported_adjusted_advantage": 3.9, "ci95": [0.5,7.2], "p": ".03", "effect_size": 0.50, "status": "Secondary in registry, unadjusted multiplicity in paper"},
+    "followup": "Original Table 4 gives CGI-I positives with available-case and acute-responder denominators. Direct follow-up impairment and GTS-QOL effects not reported here.",
+    "quality_of_life": "GTS-QOL not identified among original report outcome methods; does not prove no broader functional measures were collected in same trial",
+    "multiplicity": "No adjustment for secondary outcomes"
+  },
+  "adverse_events": {"event_count": 224, "mild_events": 71, "moderate_events": 134, "severe_events": 19, "serious_events_reported": 3, "serious_event_attribution": "Judged unlikely related by authors", "tic_worsening_affected_participants": {"CBIT": 4, "PST": 4}, "ascertainment": "Therapist inquiries each session; spontaneous unexpected exacerbation for tic worsening; masked clinician classification at study end", "limits": "Event counts not unique affected-person counts; no rare-harm or long-term safety exclusion"},
+  "negative_or_inconclusive_findings": ["Medication status and initial severity moderator tests were not significant; no equivalence established", "Nine of 24 CBIT responders and two of 4 PST responders absent from follow-up", "No randomized comparison retained after week 10", "No adult-only, withdrawal/off-treatment, direct long-term impairment or GTS-QOL effect identified here"],
+  "reporting_discrepancies": [
+    {"item": "PST acute CGI-I denominator", "abstract": "4/63(6.4%)", "body": "4/59(6.8%)", "analysis_choice": "4/59 supported by allocation and body/table; 4/63 conventionally rounds 6.3%"},
+    {"item": "Six-month narrative denominator mix", "text": "CBIT 12/15 versus PST 1/4", "table": "CBIT 12/15 available or 12/24 all acute responders; PST 1/2 available or 1/4 all acute responders", "analysis_choice": "Keep denominator categories aligned; no causal selected-arm comparison"},
+    {"item": "Reported NNT", "source_value": 5, "computed_reciprocal_of_raw_response_RD": 3.193298969072165, "computed_ceiling": 4, "analysis_choice": "Flag arithmetic mismatch; no author calculation or corrected estimate inferred"},
+    {"item": "Version differences", "manuscript": "Impairment 36%/22%; medication baseline 25% CBIT/27%PST", "final": "Impairment 38.2%/23.3%; medication 17/63 CBIT and 14/59 PST", "analysis_choice": "Final publication where values differ; not an exhaustive diff"}
+  ],
+  "funding_conflicts": "NIMH grants plus Tourette Syndrome Association support; sponsor role declared absent in design/conduct/analysis/manuscript. Several authors disclosed treatment-manual royalties and professional honoraria; additional disclosures on publisher page.",
+  "claim_supported": "Acute benefit relative to PST in the analyzed selected trial population; observed CGI-I maintenance among returning acute responders within a booster-inclusive strategy",
+  "claim_not_supported": ["80% of all randomized participants respond at six months", "Adult-only efficacy", "Continuous remission or cure", "Efficacy after all treatment/practice stops", "Causal long-term CBIT-versus-PST comparison", "Tic improvement substitutes for direct quality-of-life or impairment outcomes"],
+  "correction_retraction_check": "Bounded DOI/title searches and PubMed record inspection identified no correction/retraction. Not comprehensive clearance; no historical registry audit.",
+  "reviewer": "Project NeuroFreedom analysis worker; separate independent computational review",
+  "next_verification_task": {"source": "McGuire et al.; PMID 31451122; DOI 10.1017/S0033291719002150", "first_online_date": "2019-08-27", "journal_issue": "2020-09", "cohort_overlap": "Same NCT00231985 trial, not independent replication", "question": "Separate randomized acute effects on disability/social/family functioning from responder-status associations and selected follow-up; verify denominators, instrument-specific direction, uncertainty, multiplicity and null findings before computation", "status": "Source identity/relevance verified; full outcome extraction not completed in this task"}
+}

@@ -71,6 +71,14 @@ A research program toward better understanding, effective treatments and ultimat
 - [Reproducible checks](analyses/online_tics/2026-10-14/aggregate_checks.json) and [independent audit](analyses/online_tics/2026-10-14/review/audit.md): 33 checks; post hoc restricted multiplicity sensitivity does not restore confirmation.
 - [Public journal workflow](public/UPDATE_WORKFLOW.md) and [link check](public/link-checks/2026-10-14.json). The October 14 feed is versioned here; an initial cloud-client block was followed by successful production feed verification at 09:07:36 UTC.
 
+
+## Research update - 15 October 2026
+
+- [Dated evidence and safety scan](updates/2026-10-15/report.md): a newly encountered pediatric association study and two registry postings without results, with publication and discovery dates separated.
+- [CBIT maintenance analysis](analyses/cbit_maintenance/2026-10-15/report.md): returning acute responders, missing-outcome bounds, planned boosters and limits of longer-term inference.
+- [Reproducible computation](analyses/cbit_maintenance/2026-10-15/aggregate_checks.json) and [independent review](analyses/cbit_maintenance/2026-10-15/review/independent_review.md).
+- [Public source-link ledger](public/link-checks/2026-10-15.json).
+
 ## Working research record
 
 - [Research protocol and planned update cycle](RESEARCH_PROTOCOL.md)

@@ -1,0 +1,12 @@
+{
+  "study": "Wilhelm et al. 2012; DOI 10.1001/archgenpsychiatry.2011.1528; PMID 22868933; PMC3772729; NCT00231985",
+  "source_url": "https://jamanetwork.com/journals/jamapsychiatry/fullarticle/1307556",
+  "source_locations": {"response": "Results, Outcomes; Table 4", "analysis_counts": "PMC author-manuscript Figure 1 (visually inspected)", "flow_image_url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/f10e/3772729/868c530eb647/nihms-500770-f0001.jpg"},
+  "arms": {
+    "CBIT": {"randomized": 63, "acute_analyzed": 60, "acute_completed": 56, "acute_exited": 7, "acute_responders": 24, "followup": [{"months_after_acute": 3, "assessed": 15, "positive": 13}, {"months_after_acute": 6, "assessed": 15, "positive": 12}]},
+    "PST": {"randomized": 59, "acute_analyzed": 53, "acute_completed": 49, "acute_exited": 10, "acute_responders": 4, "followup": [{"months_after_acute": 3, "assessed": 2, "positive": 1}, {"months_after_acute": 6, "assessed": 2, "positive": 1}]}
+  },
+  "response_definition": "CGI-I = 1 or 2; improvement relative to baseline, not tic absence or remission",
+  "source_nnt_printed": 5,
+  "scope": "Published aggregate deterministic denominator audit; no participant data; no inferred joint visit statuses or causal follow-up contrast"
+}

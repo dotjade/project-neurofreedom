@@ -1,10 +1,17 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-14T02:59:44Z",
-  "lastResearchDate": "2026-10-14",
+  "updatedAt": "2026-10-15T03:07:31Z",
+  "lastResearchDate": "2026-10-15",
   "cadence": "Daily scheduled review; publication follows verified work.",
-  "latestSummary": "An adult online-therapy trial showed encouraging later results but missed its primary test. Today's scan also found a registry posting without results and a regulatory-document update.",
+  "latestSummary": "A behavioral-therapy follow-up shows why the denominator matters. Today's scan found a pediatric association study and trial-record updates, without new treatment results.",
   "timeline": [
+    {
+      "date": "2026-10-15",
+      "title": "Who came back matters.",
+      "type": "Historical trial and aggregate analysis",
+      "summary": "A behavioral-therapy trial's six-month improvement figure describes returning early responders. Missing follow-ups and planned booster sessions limit claims about lasting benefit for everyone.",
+      "record": "https://github.com/dotjade/project-neurofreedom/blob/main/analyses/cbit_maintenance/2026-10-15/report.md"
+    },
     {
       "date": "2026-10-14",
       "title": "Timing changes the conclusion.",
@@ -62,8 +69,8 @@
       "type": "Primary qualitative study",
       "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10863457/",
       "label": "Isaacs and colleagues, 2024",
-      "checkedAt": "2026-10-14",
-      "linkState": "Browser verification prevented article access today; not established broken"
+      "checkedAt": "2026-10-15",
+      "linkState": "Browser verification prevented article access in this check; not established broken"
     },
     {
       "title": "Persistence deserves its own attention.",
@@ -71,8 +78,8 @@
       "type": "Primary longitudinal study",
       "url": "https://www.neurology.org/doi/10.1212/01.WNL.0000086370.10186.7C",
       "label": "Pappert and colleagues, 2003",
-      "checkedAt": "2026-10-14",
-      "linkState": "HTTP 403 in today's retrieval; not established broken"
+      "checkedAt": "2026-10-15",
+      "linkState": "HTTP 403 in this retrieval; not established broken"
     },
     {
       "title": "Shared improvement is not interchangeability.",
@@ -80,8 +87,8 @@
       "type": "Primary adult cohort study",
       "url": "https://link.springer.com/content/pdf/10.1186/s44247-026-00284-7.pdf",
       "label": "Ivanova and colleagues, 2026",
-      "checkedAt": "2026-10-14",
-      "linkState": "Primary PDF retrievable today"
+      "checkedAt": "2026-10-15",
+      "linkState": "Primary PDF retrievable through this check"
     }
   ],
   "activities": [
@@ -147,6 +154,6 @@
     "trend": [],
     "message": "No public ratings are collected yet. There are no votes or trends to show."
   },
-  "activityEditionDate": "2026-10-14",
-  "featuredActivityId": "small-silly-mark"
+  "activityEditionDate": "2026-10-15",
+  "featuredActivityId": "music-or-silence"
 }

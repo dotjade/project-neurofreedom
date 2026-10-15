@@ -1,6 +1,6 @@
 # Project NeuroFreedom status
 
-Updated 14 October 2026. Initial portfolio, six completed daily updates and first completed weekly synthesis. Public evidence repository and journal launched 13 October.
+Updated 15 October 2026. Initial portfolio, seven completed daily updates and first completed weekly synthesis. Public evidence repository and journal launched 13 October.
 
 ## Completed in this first pass
 
@@ -152,3 +152,19 @@ The October 13 visual journal remains the tested deployment. The October 14 feed
 ### Publication verification follow-up - 14 October 2026
 
 At 09:07:36 UTC, an established ordinary HTTP workflow returned HTTP 200 and X-Journal-Source: repository. The production feed matched updatedAt 2026-10-14T02:59:44Z, research/activity date October 14, featured activity small-silly-mark and the new timeline title. Production feed propagation is verified. The earlier cloud-client 403 remains an access limitation of that route, not evidence that publication failed. Rendered-page verification was unavailable in the follow-up environment. No security, source, deployment or feedback settings were changed for this check.
+
+## Completed daily research update - 15 October 2026
+
+The [dated scan](updates/2026-10-15/report.md) identified a newly encountered October 13 pediatric cross-sectional allergy/tic-severity study. It is association evidence, not a treatment result or an adult finding. Two October 14 registry postings have no results: the ecopipam expanded-access record is currently temporarily unavailable, without a verified date or reason for that status change, and the existing adult physiology study's estimated start moved by one day. No additional qualifying watched regulator safety notice was verified. Search coverage and source-date limits remain explicit.
+
+The [CBIT maintenance audit](analyses/cbit_maintenance/2026-10-15/report.md) completed the planned Wilhelm 2012 question. Acute randomized benefit and selected follow-up are different estimands. At six months, 12/15 returning early CBIT responders were positive, while nine of the 24 early responders had unknown outcomes. Deterministic missing-outcome enumeration gives 50%-87.5% bounds within those 24, not confidence intervals or an all-randomized response rate. Planned boosters and control nonresponder crossover prevent an off-treatment randomized maintenance claim. Ages 16-69 and severe-presentation selection limit applicability.
+
+Thirty-seven implementation checks and an independent arithmetic/source audit passed. The continuous acute model's 113 analyzed participants, 105 completers and 122 randomized participants are distinct. Impairment is separate from tic severity; no six-month impairment or QoL effect was inferred from the original maintenance table. No participant data, clinical action or simulation was involved.
+
+### Next bounded decision
+
+Close the original-trial maintenance bounds unless corrected reporting or missing outcomes become available. Next inspect the same-trial secondary functioning report by McGuire et al., PMID 31451122, DOI 10.1017/S0033291719002150. Distinguish randomized acute disability/social/family-function contrasts from responder associations and selected follow-up; extract instrument direction, denominators, uncertainty, multiplicity and negative findings before any computation. This is not independent replication. Do not repeat completed generic cohort or attrition work.
+
+### Public journal
+
+Today's feed retains the approved optional activity catalog, selects familiar music or silence, and adds a dated historical-trial note. Voting and collection remain disabled. Source-link access limitations are recorded in [the daily ledger](public/link-checks/2026-10-15.json). Repository and production publication verification are recorded after actual readback.

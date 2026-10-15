@@ -1,0 +1,103 @@
+{
+  "identificationModule": {
+    "nctId": "NCT00231985",
+    "orgStudyIdInfo": {
+      "id": "R01MH069877",
+      "type": "NIH",
+      "link": "https://reporter.nih.gov/quickSearch/R01MH069877"
+    },
+    "secondaryIdInfos": [
+      {
+        "id": "R01MH069877",
+        "type": "NIH",
+        "link": "https://reporter.nih.gov/quickSearch/R01MH069877"
+      },
+      {
+        "id": "DSIR 83-ATAS"
+      }
+    ],
+    "organization": {
+      "fullName": "Massachusetts General Hospital",
+      "class": "OTHER"
+    },
+    "briefTitle": "Effectiveness of Behavior Therapy and Psychosocial Therapy for the Treatment of Tourette Syndrome and Chronic Tic Disorder",
+    "officialTitle": "Behavior Therapy and Psychosocial Treatment for Tourette Syndrome and Chronic Tic Disorder"
+  },
+  "statusModule": {
+    "statusVerifiedDate": "2012-02",
+    "overallStatus": "COMPLETED",
+    "expandedAccessInfo": {
+      "hasExpandedAccess": false
+    },
+    "startDateStruct": {
+      "date": "2005-10"
+    },
+    "primaryCompletionDateStruct": {
+      "date": "2010-03",
+      "type": "ACTUAL"
+    },
+    "completionDateStruct": {
+      "date": "2010-03",
+      "type": "ACTUAL"
+    },
+    "studyFirstSubmitDate": "2005-09-30",
+    "studyFirstSubmitQcDate": "2005-09-30",
+    "studyFirstPostDateStruct": {
+      "date": "2005-10-04",
+      "type": "ESTIMATED"
+    },
+    "lastUpdateSubmitDate": "2012-02-08",
+    "lastUpdatePostDateStruct": {
+      "date": "2012-02-09",
+      "type": "ESTIMATED"
+    }
+  },
+  "designModule": {
+    "studyType": "INTERVENTIONAL",
+    "phases": [
+      "PHASE2"
+    ],
+    "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "primaryPurpose": "TREATMENT",
+      "maskingInfo": {
+        "masking": "SINGLE",
+        "whoMasked": [
+          "OUTCOMES_ASSESSOR"
+        ]
+      }
+    },
+    "enrollmentInfo": {
+      "count": 122,
+      "type": "ACTUAL"
+    }
+  },
+  "outcomesModule": {
+    "primaryOutcomes": [
+      {
+        "measure": "Tic severity",
+        "timeFrame": "Measured at Week 10"
+      }
+    ],
+    "secondaryOutcomes": [
+      {
+        "measure": "Tic-related impairment",
+        "timeFrame": "Measured at Week 10"
+      },
+      {
+        "measure": "Depressive symptoms",
+        "timeFrame": "Measured at Week 10"
+      },
+      {
+        "measure": "Anxiety symptoms",
+        "timeFrame": "Measured at Week 10"
+      },
+      {
+        "measure": "Obsessive-compulsive symptoms",
+        "timeFrame": "Measured at Week 10"
+      }
+    ]
+  },
+  "hasResults": false
+}

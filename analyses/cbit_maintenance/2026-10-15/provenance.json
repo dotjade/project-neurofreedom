@@ -1,0 +1,33 @@
+{
+  "task_date_utc": "2026-10-15",
+  "bounded_scope": "Original Wilhelm2012 adult-dominant CBIT trial maintenance estimand; targeted primary-source extraction and aggregate arithmetic; no systematic review, patient data, outreach or publication",
+  "prediction_recorded_utc": "2026-10-15T02:56:00Z",
+  "prediction_timestamp_precision": "Minute-level record before first new primary-source retrieval; prior-day repository already described design concerns",
+  "repository_read_first": [
+    {"path": "README.md", "sha": "676a34fa7ceda2c2ae88610b59cb815337208a34"},
+    {"path": "RESEARCH_PROTOCOL.md", "sha": "d69c21b73447f7ad9df0a3949b7fcaf57dd5ddde"},
+    {"path": "STATUS.md", "sha": "4bc4b8340a3418300b1d15f0bc3c3115309a9263"},
+    {"path": "analyses/online_tics/2026-10-14/report.md", "sha": "0bdf4c16b9ce0970b23d52fa50c01aae10dd9c60"}
+  ],
+  "repository": "https://github.com/dotjade/project-neurofreedom",
+  "repository_transport": "Read-only GitHub fetch_file connector, default main branch; STATUS re-read separately to avoid output truncation",
+  "searches": [
+    {"time_utc_approx": "2026-10-15T02:56:00Z", "source": "web search", "exact_queries": ["Wilhelm 2012 randomized trial behavior therapy adults Tourette disorder PMC3772729", "\"PMC3772729\" \"follow-up\"", "\"Randomized Trial of Behavior Therapy for Adults with Tourette Syndrome\" correction retraction"], "filters": "No date filters; historical target source", "included": ["PMC3772729", "JAMA final paper1307556"], "other_hits": "Secondary reports/reviews, older trials and aggregator pages excluded from original-trial evidence; same-trial functioning report retained only as next-source lead", "total_search_index_count": null},
+    {"time_utc_approx": "2026-10-15T02:57:00Z", "source": "web search", "exact_queries": ["\"10.1001/archgenpsychiatry.2011.1528\" PubMed", "\"10.1001/archgenpsychiatry.2011.1528\" correction retraction erratum"], "filters": "None", "outcome": "PMID22868933 verified directly; August1 issue confirmed; no correction/retraction identified in bounded returned results", "total_search_index_count": null},
+    {"time_utc_approx": "2026-10-15T02:58:00Z", "source": "web search", "exact_queries": ["\"PMC3772729\" \"Analyzed\"", "\"Randomized Trial of Behavior Therapy\" \"122\" \"105\" Wilhelm", "\"PMC7190082\" title year McGuire"], "filters": "None", "outcome": "Flow counts ultimately verified visually from primary PMC figure rather than secondary search snippets. Next source PMID31451122 metadata verified; no full secondary-report outcome analysis performed", "total_search_index_count": null}
+  ],
+  "retrievals": [
+    {"url": "https://jamanetwork.com/journals/jamapsychiatry/fullarticle/1307556", "route": "web open/find", "result": "Full final-published HTML readable, Tables2/4 and methods inspected", "separate_http_attempt": "urllib HTTP403; not retried or bypassed"},
+    {"url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3772729/", "route": "web open and ordinary urllib", "result": "Web open returned browser-check page; ordinary urllib later returned readable full manuscript once, later request returned a browser-check page. No CAPTCHA solved or protection bypassed.", "saved_full_text": false},
+    {"url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/f10e/3772729/868c530eb647/nihms-500770-f0001.jpg", "route": "Verified src from readable PMC HTML; urllib temporary download and view_image", "result": "Visually inspected flow: randomized63/59, completed56/49, analyzed60/53; image not included in deliverables"},
+    {"url": "https://pubmed.ncbi.nlm.nih.gov/22868933/", "route": "web open/find", "result": "Identifiers, issue and abstract verified; no Erratum entry found"},
+    {"url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:22868933%20AND%20SRC:MED&format=json&resultType=core", "route": "urllib", "result": "HTTP200, one MED record; firstPublicationDate2012-08-01, PMID/PMCID/DOI consistent; abstract not saved in deliverables"},
+    {"url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC3772729/fullTextXML", "route": "urllib", "result": "HTTP500; no full text obtained from this route"},
+    {"url": "https://clinicaltrials.gov/api/v2/studies/NCT00231985", "route": "urllib", "result": "HTTP200; selected public metadata saved in registry_selected_fields.json; completed, actual122, no results; latest posted update2012-02-09"},
+    {"url": "https://clinicaltrials.gov/study/NCT00231985", "route": "web open", "result": "Dynamic page returned only shell text; API supplied fields"},
+    {"url": "https://pubmed.ncbi.nlm.nih.gov/31451122/", "route": "web search primary record", "result": "Same-trial next-source title, DOI, PMID, PMCID and online/issue dates verified"}
+  ],
+  "coverage_limits": ["One targeted historical trial, not exhaustive adult behavioral evidence", "Current registry snapshot only; no historical version comparison", "Correction/retraction searches are bounded and cannot guarantee absence", "Publisher figure link failed in web; author-manuscript figure visually verified instead", "Exact booster attendance, practice exposure, adult-only subgroup, joint response transitions and missing outcomes unavailable"],
+  "execution": {"language": "Python3 standard library", "command": "python aggregate_checks.py", "randomness": "None", "outputs": ["aggregate_checks.json", "execution_log.txt"], "test_count": 37, "input_and_code_hashes": "Stored in output and execution log", "independent_review": "Separate worker reran code and checked rational arithmetic; see review artifact supplied by parent"},
+  "privacy": "Only public bibliographic metadata, original summaries and aggregate published numbers saved. No full paper, participant record, private clinical information or credential included. No GitHub write or external communication."
+}

@@ -1,0 +1,8 @@
+{
+  "tests_passed": 37,
+  "output": "/workspace/shared/day15_cbit_review/worker_rerun.json",
+  "sha256": {
+    "input": "f3a56eecc744c52998c76cc5b5ea6411b1bdb84b1b43f062aa399078b360a8dc",
+    "code": "4c3fedec473c257ac5400d76b35e99dc1f62f5ac6e00072700086f8ff4b5991b"
+  }
+}
