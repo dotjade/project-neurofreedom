@@ -168,3 +168,7 @@ Close the original-trial maintenance bounds unless corrected reporting or missin
 ### Public journal
 
 Today's feed retains the approved optional activity catalog, selects familiar music or silence, and adds a dated historical-trial note. Voting and collection remain disabled. Source-link access limitations are recorded in [the daily ledger](public/link-checks/2026-10-15.json). Repository and production publication verification are recorded after actual readback.
+
+### Publication verification - 15 October 2026
+
+All 40 research/publication files were read back exactly from commit 32dce905416932cdc372867d8aba31a676f65a41. At 03:09:42 UTC, production /api/public-feed and anonymous raw GitHub both returned HTTP 200 with exactly matching contents; production identified the repository source. The October 15 research/activity dates, updatedAt 2026-10-15T03:07:31Z, music-or-silence selection and new timeline title were verified. The earlier cloud-client block remains a route-specific limitation, not a publication failure. Rendered-page checking was not part of this follow-up. No settings or collection changed.

@@ -212,5 +212,27 @@
     "updatedAtVerified": false,
     "repositorySourceVerified": false,
     "note": "Stop at explicit client block. Do not classify site as down or claim publication verified. Parent needs an authorized independently functioning route for production readback."
+  },
+  "postPublicationVerification": {
+    "checkedAt": "2026-10-15T03:09:42Z",
+    "productionUrl": "https://tourette.fyi/api/public-feed",
+    "rawUrl": "https://raw.githubusercontent.com/dotjade/project-neurofreedom/main/public/research-feed.json",
+    "httpStatus": 200,
+    "rawHttpStatus": 200,
+    "journalSource": "repository",
+    "exactContentsMatch": true,
+    "updatedAt": "2026-10-15T03:07:31Z",
+    "lastResearchDate": "2026-10-15",
+    "activityEditionDate": "2026-10-15",
+    "featuredActivityId": "music-or-silence",
+    "firstTitle": "Who came back matters.",
+    "method": "Established ordinary HTTP retrieval from authorized connected environment",
+    "renderedPageChecked": false
+  },
+  "newTimelineLinkVerification": {
+    "url": "https://github.com/dotjade/project-neurofreedom/blob/main/analyses/cbit_maintenance/2026-10-15/report.md",
+    "date": "2026-10-15",
+    "status": "Exact connector readback matched committed original",
+    "commit": "32dce905416932cdc372867d8aba31a676f65a41"
   }
 }
