@@ -1,0 +1,89 @@
+{
+  "source": "https://github.com/dotjade/project-neurofreedom/blob/main/updates/2026-10-15/search-log.json",
+  "sha": "93f2c21d1ad92c09ed034fd450d321971de8102b",
+  "retrieval_date": "2026-10-15",
+  "note": "Selected comparison metadata only, not a copied prior report.",
+  "records": [
+    {
+      "nctId": "NCT07093541",
+      "status": {
+        "statusVerifiedDate": "2026-03",
+        "overallStatus": "TEMPORARILY_NOT_AVAILABLE",
+        "expandedAccessInfo": {
+          "hasExpandedAccess": false
+        },
+        "studyFirstSubmitDate": "2025-07-10",
+        "studyFirstSubmitQcDate": "2025-07-21",
+        "studyFirstPostDateStruct": {
+          "date": "2025-07-30",
+          "type": "ACTUAL"
+        },
+        "lastUpdateSubmitDate": "2026-10-08",
+        "lastUpdatePostDateStruct": {
+          "date": "2026-10-14",
+          "type": "ACTUAL"
+        }
+      },
+      "hasResults": false,
+      "design": {
+        "studyType": "EXPANDED_ACCESS",
+        "expandedAccessTypes": {
+          "treatment": true
+        }
+      },
+      "eligibility": {
+        "minimumAge": "6 Years",
+        "maximumAge": "50 Years"
+      }
+    },
+    {
+      "nctId": "NCT07137442",
+      "status": {
+        "statusVerifiedDate": "2026-09-16",
+        "overallStatus": "RECRUITING",
+        "expandedAccessInfo": {
+          "hasExpandedAccess": false
+        },
+        "startDateStruct": {
+          "date": "2026-10-19",
+          "type": "ESTIMATED"
+        },
+        "primaryCompletionDateStruct": {
+          "date": "2034-08-01",
+          "type": "ESTIMATED"
+        },
+        "completionDateStruct": {
+          "date": "2034-08-01",
+          "type": "ESTIMATED"
+        },
+        "studyFirstSubmitDate": "2025-08-19",
+        "studyFirstSubmitQcDate": "2025-08-21",
+        "studyFirstPostDateStruct": {
+          "date": "2025-08-22",
+          "type": "ACTUAL"
+        },
+        "lastUpdateSubmitDate": "2026-10-13",
+        "lastUpdatePostDateStruct": {
+          "date": "2026-10-14",
+          "type": "ACTUAL"
+        }
+      },
+      "hasResults": false,
+      "design": {
+        "studyType": "OBSERVATIONAL",
+        "designInfo": {
+          "observationalModel": "COHORT",
+          "timePerspective": "PROSPECTIVE"
+        },
+        "enrollmentInfo": {
+          "count": 75,
+          "type": "ESTIMATED"
+        }
+      },
+      "eligibility": {
+        "minimumAge": "18 Years",
+        "maximumAge": "80 Years"
+      }
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+Wrote 36 functional rows; 35 have reported inferential p-values.
+Deterministic aggregate audit completed.
+acute_randomized tests= 12 nominal= 0 Holm= 0 Bonferroni= 0
+acute_responder_association tests= 12 nominal= 2 Holm= 0 Bonferroni= 0
+selected_cbit_followup tests= 11 nominal= 2 Holm= 0 Bonferroni= 0
+No clinical uncertainty interval or participant data analysis performed.
+test_complete_functional_rows (test_aggregate_checks.AggregateAuditTests.test_complete_functional_rows) ... ok
+test_denominator_distinctions (test_aggregate_checks.AggregateAuditTests.test_denominator_distinctions) ... ok
+test_descriptive_acute_changes (test_aggregate_checks.AggregateAuditTests.test_descriptive_acute_changes) ... ok
+test_deterministic (test_aggregate_checks.AggregateAuditTests.test_deterministic) ... ok
+test_followup_corrections (test_aggregate_checks.AggregateAuditTests.test_followup_corrections) ... ok
+test_holm_known_example (test_aggregate_checks.AggregateAuditTests.test_holm_known_example) ... ok
+test_holm_monotonicity_and_bounds (test_aggregate_checks.AggregateAuditTests.test_holm_monotonicity_and_bounds) ... ok
+test_missing_parental_test_not_fabricated (test_aggregate_checks.AggregateAuditTests.test_missing_parental_test_not_fabricated) ... ok
+test_no_corrected_support (test_aggregate_checks.AggregateAuditTests.test_no_corrected_support) ... ok
+test_nominal_counts (test_aggregate_checks.AggregateAuditTests.test_nominal_counts) ... ok
+test_pairwise_marker_distinction (test_aggregate_checks.AggregateAuditTests.test_pairwise_marker_distinction) ... ok
+test_tested_counts (test_aggregate_checks.AggregateAuditTests.test_tested_counts) ... ok
+test_tied_response_p (test_aggregate_checks.AggregateAuditTests.test_tied_response_p) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 0.005s
+
+OK

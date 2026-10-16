@@ -1,0 +1,323 @@
+{
+  "checkedAt": "2026-10-16T02:40:48Z",
+  "checkDate": "2026-10-16",
+  "scope": "Bounded, read-only verification of all 8 timeline links and 3 source links displayed by the current repository feed, plus production baseline.",
+  "provenance": {
+    "repository": "dotjade/project-neurofreedom",
+    "ref": "default branch (main in returned canonical links)",
+    "feedBlobSha": "f2716b01406cdd9fd314e6c3c3ee4ea84cbcebd0",
+    "feedUpdatedAt": "2026-10-15T03:07:31Z",
+    "feedLastResearchDate": "2026-10-15",
+    "readDocuments": [
+      {
+        "path": "public/UPDATE_WORKFLOW.md",
+        "sha": "80ba2e9ae8fb029e51248fbac681f350b928dd78",
+        "url": "https://github.com/dotjade/project-neurofreedom/blob/main/public/UPDATE_WORKFLOW.md"
+      },
+      {
+        "path": "public/journal-source/README.md",
+        "sha": "ea2033cbc99c9084dcbeb356f683ad2d150238e6",
+        "url": "https://github.com/dotjade/project-neurofreedom/blob/main/public/journal-source/README.md"
+      }
+    ],
+    "notes": "No repository or public-source mutation. A source access block does not establish a broken link. web tool retrieval may serve indexed/cached content; those crawl ages are retained below."
+  },
+  "timeline": [
+    {
+      "date": "2026-10-15",
+      "title": "Who came back matters.",
+      "url": "https://github.com/dotjade/project-neurofreedom/blob/main/analyses/cbit_maintenance/2026-10-15/report.md",
+      "checkDate": "2026-10-16",
+      "sourceKind": "Historical trial and aggregate analysis",
+      "status": "retrievable",
+      "method": "GitHub fetch_file, lines 1\u201330",
+      "blobSha": "2f525b8cc877315352bbf9a3a881c6216abb2506",
+      "httpStatus": 200,
+      "anonymousHttp": {
+        "method": "normal anonymous curl GET with redirects",
+        "checkedAt": "2026-10-16T02:41:53.757222+00:00",
+        "curlExitCode": 0,
+        "result": "200\thttps://github.com/dotjade/project-neurofreedom/blob/main/analyses/cbit_maintenance/2026-10-15/report.md\ttext/html; charset=utf-8",
+        "error": null,
+        "bytes": 283655,
+        "documentTitle": "project-neurofreedom/analyses/cbit_maintenance/2026-10-15/report.md at main \u00b7 dotjade/project-neurofreedom \u00b7 GitHub",
+        "renderedArticlePresent": true,
+        "httpStatus": 200,
+        "interpretation": "GitHub HTML rendered the expected repository path and an article element; also verified independently by the repository connector."
+      },
+      "targetConfirmedRead": true
+    },
+    {
+      "date": "2026-10-14",
+      "title": "Timing changes the conclusion.",
+      "url": "https://github.com/dotjade/project-neurofreedom/blob/main/analyses/online_tics/2026-10-14/report.md",
+      "checkDate": "2026-10-16",
+      "sourceKind": "Historical trial and aggregate analysis",
+      "status": "retrievable",
+      "method": "GitHub fetch_file, lines 1\u201330",
+      "blobSha": "0bdf4c16b9ce0970b23d52fa50c01aae10dd9c60",
+      "httpStatus": 200,
+      "anonymousHttp": {
+        "method": "normal anonymous curl GET with redirects",
+        "checkedAt": "2026-10-16T02:41:53.731049+00:00",
+        "curlExitCode": 0,
+        "result": "200\thttps://github.com/dotjade/project-neurofreedom/blob/main/analyses/online_tics/2026-10-14/report.md\ttext/html; charset=utf-8",
+        "error": null,
+        "bytes": 280768,
+        "documentTitle": "project-neurofreedom/analyses/online_tics/2026-10-14/report.md at main \u00b7 dotjade/project-neurofreedom \u00b7 GitHub",
+        "renderedArticlePresent": true,
+        "httpStatus": 200,
+        "interpretation": "GitHub HTML rendered the expected repository path and an article element; also verified independently by the repository connector."
+      },
+      "targetConfirmedRead": true
+    },
+    {
+      "date": "2026-10-13",
+      "title": "A tic score is not the whole story.",
+      "url": "https://github.com/dotjade/project-neurofreedom/blob/main/analyses/burden_validation/2026-10-13/report.md",
+      "checkDate": "2026-10-16",
+      "sourceKind": "Published aggregate analysis",
+      "status": "retrievable",
+      "method": "GitHub fetch_file, lines 1\u201330",
+      "blobSha": "4891ac5c8071208edb08a6dddef5acdfbf5c340e",
+      "httpStatus": 200,
+      "anonymousHttp": {
+        "method": "normal anonymous curl GET with redirects",
+        "checkedAt": "2026-10-16T02:41:53.683053+00:00",
+        "curlExitCode": 0,
+        "result": "200\thttps://github.com/dotjade/project-neurofreedom/blob/main/analyses/burden_validation/2026-10-13/report.md\ttext/html; charset=utf-8",
+        "error": null,
+        "bytes": 279051,
+        "documentTitle": "project-neurofreedom/analyses/burden_validation/2026-10-13/report.md at main \u00b7 dotjade/project-neurofreedom \u00b7 GitHub",
+        "renderedArticlePresent": true,
+        "httpStatus": 200,
+        "interpretation": "GitHub HTML rendered the expected repository path and an article element; also verified independently by the repository connector."
+      },
+      "targetConfirmedRead": true
+    },
+    {
+      "date": "2026-10-12",
+      "title": "Keep severe adult experiences in view.",
+      "url": "https://github.com/dotjade/project-neurofreedom/blob/main/analyses/adult_burden/2026-10-12/report.md",
+      "checkDate": "2026-10-16",
+      "sourceKind": "Primary-study review",
+      "status": "retrievable",
+      "method": "GitHub fetch_file, lines 1\u201330",
+      "blobSha": "daf4bbbde5cdc82ef7e1d74391d33c265d58cdc0",
+      "httpStatus": 200,
+      "anonymousHttp": {
+        "method": "normal anonymous curl GET with redirects",
+        "checkedAt": "2026-10-16T02:41:53.663455+00:00",
+        "curlExitCode": 0,
+        "result": "200\thttps://github.com/dotjade/project-neurofreedom/blob/main/analyses/adult_burden/2026-10-12/report.md\ttext/html; charset=utf-8",
+        "error": null,
+        "bytes": 301208,
+        "documentTitle": "project-neurofreedom/analyses/adult_burden/2026-10-12/report.md at main \u00b7 dotjade/project-neurofreedom \u00b7 GitHub",
+        "renderedArticlePresent": true,
+        "httpStatus": 200,
+        "interpretation": "GitHub HTML rendered the expected repository path and an article element; also verified independently by the repository connector."
+      },
+      "targetConfirmedRead": true
+    },
+    {
+      "date": "2026-10-11",
+      "title": "Ask what missing outcomes could change.",
+      "url": "https://github.com/dotjade/project-neurofreedom/blob/main/analyses/mns_attrition/report.md",
+      "checkDate": "2026-10-16",
+      "sourceKind": "Published aggregate sensitivity analysis",
+      "status": "retrievable",
+      "method": "GitHub fetch_file, lines 1\u201330",
+      "blobSha": "a60134b29e3f7b8abd357092a64bad928138e0b0",
+      "httpStatus": 200,
+      "anonymousHttp": {
+        "method": "normal anonymous curl GET with redirects",
+        "checkedAt": "2026-10-16T02:41:53.682577+00:00",
+        "curlExitCode": 0,
+        "result": "200\thttps://github.com/dotjade/project-neurofreedom/blob/main/analyses/mns_attrition/report.md\ttext/html; charset=utf-8",
+        "error": null,
+        "bytes": 292504,
+        "documentTitle": "project-neurofreedom/analyses/mns_attrition/report.md at main \u00b7 dotjade/project-neurofreedom \u00b7 GitHub",
+        "renderedArticlePresent": true,
+        "httpStatus": 200,
+        "interpretation": "GitHub HTML rendered the expected repository path and an article element; also verified independently by the repository connector."
+      },
+      "targetConfirmedRead": true
+    },
+    {
+      "date": "2026-10-10",
+      "title": "An available dataset is not always the right dataset.",
+      "url": "https://github.com/dotjade/project-neurofreedom/blob/main/analyses/data_feasibility/2026-10-10-audit.md",
+      "checkDate": "2026-10-16",
+      "sourceKind": "Data-feasibility audit",
+      "status": "retrievable",
+      "method": "GitHub fetch_file, lines 1\u201330",
+      "blobSha": "0a2e3b9b0808eb8fbc84b2e8738dc4c976cac895",
+      "httpStatus": 200,
+      "anonymousHttp": {
+        "method": "normal anonymous curl GET with redirects",
+        "checkedAt": "2026-10-16T02:41:58.603006+00:00",
+        "curlExitCode": 0,
+        "result": "200\thttps://github.com/dotjade/project-neurofreedom/blob/main/analyses/data_feasibility/2026-10-10-audit.md\ttext/html; charset=utf-8",
+        "error": null,
+        "bytes": 336764,
+        "documentTitle": "project-neurofreedom/analyses/data_feasibility/2026-10-10-audit.md at main \u00b7 dotjade/project-neurofreedom \u00b7 GitHub",
+        "renderedArticlePresent": true,
+        "httpStatus": 200,
+        "interpretation": "GitHub HTML rendered the expected repository path and an article element; also verified independently by the repository connector."
+      },
+      "targetConfirmedRead": true
+    },
+    {
+      "date": "2026-10-09",
+      "title": "Define improvement before combining results.",
+      "url": "https://github.com/dotjade/project-neurofreedom/blob/main/analyses/remission/2026-10-09-harmonization.md",
+      "checkDate": "2026-10-16",
+      "sourceKind": "Primary-study harmonization",
+      "status": "retrievable",
+      "method": "GitHub fetch_file, lines 1\u201330",
+      "blobSha": "ca8fcaf4746c4216a9350ce98afb67db7f14c98c",
+      "httpStatus": 200,
+      "anonymousHttp": {
+        "method": "normal anonymous curl GET with redirects",
+        "checkedAt": "2026-10-16T02:41:58.619097+00:00",
+        "curlExitCode": 0,
+        "result": "200\thttps://github.com/dotjade/project-neurofreedom/blob/main/analyses/remission/2026-10-09-harmonization.md\ttext/html; charset=utf-8",
+        "error": null,
+        "bytes": 300064,
+        "documentTitle": "project-neurofreedom/analyses/remission/2026-10-09-harmonization.md at main \u00b7 dotjade/project-neurofreedom \u00b7 GitHub",
+        "renderedArticlePresent": true,
+        "httpStatus": 200,
+        "interpretation": "GitHub HTML rendered the expected repository path and an article element; also verified independently by the repository connector."
+      },
+      "targetConfirmedRead": true
+    },
+    {
+      "date": "2026-10-08",
+      "title": "A convincing pattern still needs a test.",
+      "url": "https://github.com/dotjade/project-neurofreedom/blob/main/analyses/cycle_detection/README.md",
+      "checkDate": "2026-10-16",
+      "sourceKind": "Synthetic methods test",
+      "status": "retrievable",
+      "method": "GitHub fetch_file, lines 1\u201330",
+      "blobSha": "fdcdec350529179c99600986e311a4e1f6d68133",
+      "httpStatus": 200,
+      "anonymousHttp": {
+        "method": "normal anonymous curl GET with redirects",
+        "checkedAt": "2026-10-16T02:41:58.630344+00:00",
+        "curlExitCode": 0,
+        "result": "200\thttps://github.com/dotjade/project-neurofreedom/blob/main/analyses/cycle_detection/README.md\ttext/html; charset=utf-8",
+        "error": null,
+        "bytes": 304250,
+        "documentTitle": "project-neurofreedom/analyses/cycle_detection/README.md at main \u00b7 dotjade/project-neurofreedom \u00b7 GitHub",
+        "renderedArticlePresent": true,
+        "httpStatus": 200,
+        "interpretation": "GitHub HTML rendered the expected repository path and an article element; also verified independently by the repository connector."
+      },
+      "targetConfirmedRead": true
+    }
+  ],
+  "sourceLinks": [
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10863457/",
+      "label": "Isaacs and colleagues, 2024",
+      "checkDate": "2026-10-16",
+      "status": "primary_article_retrievable",
+      "method": "normal anonymous curl GET, with web.open limitation recorded separately",
+      "evidence": "HTTP 200 HTML with the full matching article: Perspectives from Adults with Tourette Syndrome on Research Priorities and Registry Development: A Focus Group Study; Isaacs et al., 2024; DOI 10.2147/NDT.S442131; PMCID PMC10863457; PMID 38351925. Abstract and article body are present.",
+      "crawlAgeShown": "2 days",
+      "establishedBroken": false,
+      "replacement": null,
+      "recommendedLinkState": "Primary article retrievable through this check",
+      "anonymousHttp": {
+        "method": "normal anonymous curl GET with redirects",
+        "checkedAt": "2026-10-16T02:41:59.684082+00:00",
+        "curlExitCode": 0,
+        "result": "200\thttps://pmc.ncbi.nlm.nih.gov/articles/PMC10863457/\ttext/html; charset=utf-8",
+        "error": null,
+        "bytes": 214304,
+        "httpStatus": 200,
+        "finalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10863457/",
+        "contentType": "text/html; charset=utf-8"
+      },
+      "httpStatus": 200,
+      "webToolLimitation": "web.open served a cached browser-verification page (shown as crawled 2 days ago). A normal curl GET returned the complete matching article."
+    },
+    {
+      "url": "https://www.neurology.org/doi/10.1212/01.WNL.0000086370.10186.7C",
+      "label": "Pappert and colleagues, 2003",
+      "checkDate": "2026-10-16",
+      "status": "limited_access_http_403",
+      "method": "web.open and normal anonymous curl GET",
+      "evidence": "Both routes returned HTTP 403; no claim that the source is dead.",
+      "httpStatus": 403,
+      "establishedBroken": false,
+      "replacement": null,
+      "recommendedLinkState": "HTTP 403 in this retrieval; not established broken",
+      "anonymousHttp": {
+        "method": "normal anonymous curl GET with redirects",
+        "checkedAt": "2026-10-16T02:41:59.916608+00:00",
+        "curlExitCode": 0,
+        "result": "403\thttps://www.neurology.org/doi/10.1212/01.WNL.0000086370.10186.7C\ttext/html; charset=UTF-8",
+        "error": null,
+        "bytes": 6065,
+        "httpStatus": 403,
+        "finalUrl": "https://www.neurology.org/doi/10.1212/01.WNL.0000086370.10186.7C",
+        "contentType": "text/html; charset=UTF-8"
+      }
+    },
+    {
+      "url": "https://link.springer.com/content/pdf/10.1186/s44247-026-00284-7.pdf",
+      "label": "Ivanova and colleagues, 2026",
+      "checkDate": "2026-10-16",
+      "status": "primary_pdf_retrievable",
+      "method": "web.open and normal anonymous curl GET",
+      "evidence": "Anonymous HTTP 200 application/pdf (1,454,384 bytes), PDF magic bytes verified. web.open returns the 12-page matching Ivanova et al. 2026 paper.",
+      "crawlAgeShown": "3 weeks",
+      "establishedBroken": false,
+      "replacement": null,
+      "recommendedLinkState": "Primary PDF retrievable through this check",
+      "anonymousHttp": {
+        "method": "normal anonymous curl GET with redirects",
+        "checkedAt": "2026-10-16T02:42:08.384269+00:00",
+        "curlExitCode": 0,
+        "result": "200\thttps://link.springer.com/content/pdf/10.1186/s44247-026-00284-7.pdf [cookie-support redirect query omitted]",
+        "error": null,
+        "bytes": 1454384,
+        "httpStatus": 200,
+        "finalUrl": "https://link.springer.com/content/pdf/10.1186/s44247-026-00284-7.pdf",
+        "contentType": "application/pdf",
+        "redirectNote": "Cookie-support redirect query omitted; primary PDF body verified."
+      },
+      "httpStatus": 200
+    }
+  ],
+  "production": {
+    "url": "https://tourette.fyi/api/public-feed",
+    "method": "normal curl GET with redirects, no credentials or bypass",
+    "serverDate": "2026-10-16T02:40:38Z",
+    "httpStatus": 200,
+    "journalSource": "repository",
+    "updatedAt": "2026-10-15T03:07:31Z",
+    "lastResearchDate": "2026-10-15",
+    "cacheControl": "public, max-age=120, no-transform",
+    "earlierWebAttempt": "web.open reported URL not accessible via this tool; normal curl succeeded",
+    "matchesRepository": true,
+    "bodySha256": "d1932ad6cdc4a260a3090cc7ec9ea1cb0e9628ea4ee231da32a9061d1f327249",
+    "repositoryContentNormalizedSha256": "2cd3e97e2dc9dded3118eb3b696f0a9dcd3ed66faaf911a55edda44439a25052"
+  },
+  "replacementRecommendation": "Retain current source URLs; no confirmed broken link or need for replacement was found.",
+  "anonymousSourceReadback": {
+    "url": "https://raw.githubusercontent.com/dotjade/project-neurofreedom/main/public/research-feed.json",
+    "httpStatus": 200,
+    "matchesRepository": true
+  },
+  "completedAt": "2026-10-16T02:43:01.083326+00:00",
+  "summary": {
+    "timelineLinksRetrievable": 8,
+    "primaryLinksRetrievable": 2,
+    "primaryLinksLimitedAccess": 1,
+    "confirmedBrokenLinks": 0,
+    "recommendedReplacements": 0,
+    "liveBaselineMatchesRepository": true
+  }
+}

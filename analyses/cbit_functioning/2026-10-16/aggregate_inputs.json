@@ -1,0 +1,887 @@
+{
+  "source": {
+    "pmid": "31451122",
+    "pmcid": "PMC7190082",
+    "doi": "10.1017/S0033291719002150",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7190082/",
+    "source_version": "NIH author manuscript",
+    "extraction_date": "2026-10-16"
+  },
+  "numeric_representation": "Numbers are strings to preserve printed precision. Means and SEs are labelled adjusted in the source. Null means not reported; no covariance or outcome-specific n is invented.",
+  "acute_randomized": [
+    {
+      "id": "sds_total",
+      "measure": "SDS total",
+      "direction": "lower is less disability or maladjustment",
+      "cbit_baseline": {
+        "mean": "8.36",
+        "se": "0.90"
+      },
+      "cbit_post": {
+        "mean": "5.00",
+        "se": "0.79"
+      },
+      "pst_baseline": {
+        "mean": "8.32",
+        "se": "0.97"
+      },
+      "pst_post": {
+        "mean": "5.79",
+        "se": "0.85"
+      },
+      "f": "0.56",
+      "p": ".46",
+      "partial_eta_squared": ".01"
+    },
+    {
+      "id": "sds_work",
+      "measure": "SDS work",
+      "direction": "lower is less disability or maladjustment",
+      "cbit_baseline": {
+        "mean": "2.78",
+        "se": "0.35"
+      },
+      "cbit_post": {
+        "mean": "1.56",
+        "se": "0.30"
+      },
+      "pst_baseline": {
+        "mean": "2.32",
+        "se": "0.37"
+      },
+      "pst_post": {
+        "mean": "1.76",
+        "se": "0.32"
+      },
+      "f": "2.04",
+      "p": ".16",
+      "partial_eta_squared": ".02"
+    },
+    {
+      "id": "sds_social",
+      "measure": "SDS social",
+      "direction": "lower is less disability or maladjustment",
+      "cbit_baseline": {
+        "mean": "3.07",
+        "se": "0.38"
+      },
+      "cbit_post": {
+        "mean": "2.11",
+        "se": "0.31"
+      },
+      "pst_baseline": {
+        "mean": "3.58",
+        "se": "0.40"
+      },
+      "pst_post": {
+        "mean": "2.05",
+        "se": "0.33"
+      },
+      "f": "1.69",
+      "p": ".20",
+      "partial_eta_squared": ".02"
+    },
+    {
+      "id": "sds_family",
+      "measure": "SDS family",
+      "direction": "lower is less disability or maladjustment",
+      "cbit_baseline": {
+        "mean": "2.51",
+        "se": "0.36"
+      },
+      "cbit_post": {
+        "mean": "1.33",
+        "se": "0.28"
+      },
+      "pst_baseline": {
+        "mean": "2.42",
+        "se": "0.38"
+      },
+      "pst_post": {
+        "mean": "1.98",
+        "se": "0.30"
+      },
+      "f": "2.29",
+      "p": ".13",
+      "partial_eta_squared": ".02"
+    },
+    {
+      "id": "fam_iii",
+      "measure": "FAM-III short form",
+      "direction": "lower is less disability or maladjustment",
+      "cbit_baseline": {
+        "mean": "25.51",
+        "se": "0.97"
+      },
+      "cbit_post": {
+        "mean": "24.73",
+        "se": "0.97"
+      },
+      "pst_baseline": {
+        "mean": "26.83",
+        "se": "1.02"
+      },
+      "pst_post": {
+        "mean": "25.54",
+        "se": "1.02"
+      },
+      "f": "0.20",
+      "p": ".66",
+      "partial_eta_squared": ".002"
+    },
+    {
+      "id": "sas_overall",
+      "measure": "SAS-SR overall",
+      "direction": "lower is less disability or maladjustment",
+      "cbit_baseline": {
+        "mean": "1.83",
+        "se": "0.06"
+      },
+      "cbit_post": {
+        "mean": "1.71",
+        "se": "0.06"
+      },
+      "pst_baseline": {
+        "mean": "1.87",
+        "se": "0.06"
+      },
+      "pst_post": {
+        "mean": "1.83",
+        "se": "0.06"
+      },
+      "f": "1.71",
+      "p": ".20",
+      "partial_eta_squared": ".02"
+    },
+    {
+      "id": "sas_occupation",
+      "measure": "SAS-SR primary occupation/role",
+      "direction": "lower is less disability or maladjustment",
+      "cbit_baseline": {
+        "mean": "1.83",
+        "se": "0.13"
+      },
+      "cbit_post": {
+        "mean": "1.68",
+        "se": "0.12"
+      },
+      "pst_baseline": {
+        "mean": "1.75",
+        "se": "0.14"
+      },
+      "pst_post": {
+        "mean": "1.65",
+        "se": "0.12"
+      },
+      "f": "0.15",
+      "p": ".70",
+      "partial_eta_squared": ".002"
+    },
+    {
+      "id": "sas_social_leisure",
+      "measure": "SAS-SR social leisure",
+      "direction": "lower is less disability or maladjustment",
+      "cbit_baseline": {
+        "mean": "2.01",
+        "se": "0.08"
+      },
+      "cbit_post": {
+        "mean": "1.95",
+        "se": "0.08"
+      },
+      "pst_baseline": {
+        "mean": "2.14",
+        "se": "0.09"
+      },
+      "pst_post": {
+        "mean": "1.96",
+        "se": "0.08"
+      },
+      "f": "1.22",
+      "p": ".27",
+      "partial_eta_squared": ".01"
+    },
+    {
+      "id": "sas_extended_family",
+      "measure": "SAS-SR extended family",
+      "direction": "lower is less disability or maladjustment",
+      "cbit_baseline": {
+        "mean": "1.63",
+        "se": "0.06"
+      },
+      "cbit_post": {
+        "mean": "1.49",
+        "se": "0.06"
+      },
+      "pst_baseline": {
+        "mean": "1.68",
+        "se": "0.06"
+      },
+      "pst_post": {
+        "mean": "1.67",
+        "se": "0.06"
+      },
+      "f": "2.10",
+      "p": ".15",
+      "partial_eta_squared": ".02"
+    },
+    {
+      "id": "sas_primary_relationship",
+      "measure": "SAS-SR primary relationship",
+      "direction": "lower is less disability or maladjustment",
+      "cbit_baseline": {
+        "mean": "1.76",
+        "se": "0.11"
+      },
+      "cbit_post": {
+        "mean": "1.65",
+        "se": "0.11"
+      },
+      "pst_baseline": {
+        "mean": "1.92",
+        "se": "0.10"
+      },
+      "pst_post": {
+        "mean": "1.97",
+        "se": "0.10"
+      },
+      "f": "1.47",
+      "p": ".23",
+      "partial_eta_squared": ".04"
+    },
+    {
+      "id": "sas_parental_role",
+      "measure": "SAS-SR parental role",
+      "direction": "lower is less disability or maladjustment",
+      "cbit_baseline": {
+        "mean": "1.15",
+        "se": "0.22"
+      },
+      "cbit_post": {
+        "mean": "1.35",
+        "se": "0.26"
+      },
+      "pst_baseline": {
+        "mean": "1.78",
+        "se": "0.17"
+      },
+      "pst_post": {
+        "mean": "1.67",
+        "se": "0.19"
+      },
+      "f": "0.82",
+      "p": ".38",
+      "partial_eta_squared": ".06"
+    },
+    {
+      "id": "sas_family_unit",
+      "measure": "SAS-SR family unit",
+      "direction": "lower is less disability or maladjustment",
+      "cbit_baseline": {
+        "mean": "1.84",
+        "se": "0.14"
+      },
+      "cbit_post": {
+        "mean": "1.58",
+        "se": "0.13"
+      },
+      "pst_baseline": {
+        "mean": "1.78",
+        "se": "0.16"
+      },
+      "pst_post": {
+        "mean": "1.69",
+        "se": "0.14"
+      },
+      "f": "1.07",
+      "p": ".30",
+      "partial_eta_squared": ".01"
+    }
+  ],
+  "acute_responder_association": [
+    {
+      "id": "sds_total",
+      "measure": "SDS total",
+      "direction": "lower is less disability or maladjustment",
+      "nonresponder_baseline": {
+        "mean": "8.51",
+        "se": "0.78"
+      },
+      "nonresponder_post": {
+        "mean": "6.21",
+        "se": "0.67"
+      },
+      "responder_baseline": {
+        "mean": "7.96",
+        "se": "1.27"
+      },
+      "responder_post": {
+        "mean": "3.46",
+        "se": "1.09"
+      },
+      "f": "2.88",
+      "p": ".09",
+      "partial_eta_squared": ".03"
+    },
+    {
+      "id": "sds_work",
+      "measure": "SDS work",
+      "direction": "lower is less disability or maladjustment",
+      "nonresponder_baseline": {
+        "mean": "2.51",
+        "se": "0.30"
+      },
+      "nonresponder_post": {
+        "mean": "1.86",
+        "se": "0.26"
+      },
+      "responder_baseline": {
+        "mean": "2.71",
+        "se": "0.49"
+      },
+      "responder_post": {
+        "mean": "1.14",
+        "se": "0.42"
+      },
+      "f": "3.22",
+      "p": ".08",
+      "partial_eta_squared": ".03"
+    },
+    {
+      "id": "sds_social",
+      "measure": "SDS social",
+      "direction": "lower is less disability or maladjustment",
+      "nonresponder_baseline": {
+        "mean": "3.57",
+        "se": "0.32"
+      },
+      "nonresponder_post": {
+        "mean": "2.32",
+        "se": "0.26"
+      },
+      "responder_baseline": {
+        "mean": "2.64",
+        "se": "0.53"
+      },
+      "responder_post": {
+        "mean": "1.50",
+        "se": "0.43"
+      },
+      "f": "0.05",
+      "p": ".83",
+      "partial_eta_squared": "<.001"
+    },
+    {
+      "id": "sds_family",
+      "measure": "SDS family",
+      "direction": "lower is less disability or maladjustment",
+      "nonresponder_baseline": {
+        "mean": "2.43",
+        "se": "0.31"
+      },
+      "nonresponder_post": {
+        "mean": "1.95",
+        "se": "0.24"
+      },
+      "responder_baseline": {
+        "mean": "2.61",
+        "se": "0.50"
+      },
+      "responder_post": {
+        "mean": "0.82",
+        "se": "0.39"
+      },
+      "f": "5.67",
+      "p": ".02",
+      "partial_eta_squared": ".05"
+    },
+    {
+      "id": "fam_iii",
+      "measure": "FAM-III short form",
+      "direction": "lower is less disability or maladjustment",
+      "nonresponder_baseline": {
+        "mean": "26.49",
+        "se": "0.82"
+      },
+      "nonresponder_post": {
+        "mean": "25.92",
+        "se": "0.81"
+      },
+      "responder_baseline": {
+        "mean": "24.92",
+        "se": "1.38"
+      },
+      "responder_post": {
+        "mean": "22.76",
+        "se": "1.36"
+      },
+      "f": "1.54",
+      "p": ".22",
+      "partial_eta_squared": ".02"
+    },
+    {
+      "id": "sas_overall",
+      "measure": "SAS-SR overall",
+      "direction": "lower is less disability or maladjustment",
+      "nonresponder_baseline": {
+        "mean": "1.89",
+        "se": "0.05"
+      },
+      "nonresponder_post": {
+        "mean": "1.81",
+        "se": "0.05"
+      },
+      "responder_baseline": {
+        "mean": "1.76",
+        "se": "0.08"
+      },
+      "responder_post": {
+        "mean": "1.67",
+        "se": "0.08"
+      },
+      "f": "0.06",
+      "p": ".80",
+      "partial_eta_squared": ".001"
+    },
+    {
+      "id": "sas_occupation",
+      "measure": "SAS-SR primary occupation/role",
+      "direction": "lower is less disability or maladjustment",
+      "nonresponder_baseline": {
+        "mean": "1.88",
+        "se": "0.11"
+      },
+      "nonresponder_post": {
+        "mean": "1.71",
+        "se": "0.10"
+      },
+      "responder_baseline": {
+        "mean": "1.57",
+        "se": "0.18"
+      },
+      "responder_post": {
+        "mean": "1.55",
+        "se": "0.16"
+      },
+      "f": "0.93",
+      "p": ".34",
+      "partial_eta_squared": ".01"
+    },
+    {
+      "id": "sas_social_leisure",
+      "measure": "SAS-SR social leisure",
+      "direction": "lower is less disability or maladjustment",
+      "nonresponder_baseline": {
+        "mean": "2.12",
+        "se": "0.07"
+      },
+      "nonresponder_post": {
+        "mean": "1.97",
+        "se": "0.06"
+      },
+      "responder_baseline": {
+        "mean": "1.94",
+        "se": "0.11"
+      },
+      "responder_post": {
+        "mean": "1.90",
+        "se": "0.10"
+      },
+      "f": "0.65",
+      "p": ".42",
+      "partial_eta_squared": ".01"
+    },
+    {
+      "id": "sas_extended_family",
+      "measure": "SAS-SR extended family",
+      "direction": "lower is less disability or maladjustment",
+      "nonresponder_baseline": {
+        "mean": "1.69",
+        "se": "0.05"
+      },
+      "nonresponder_post": {
+        "mean": "1.62",
+        "se": "0.05"
+      },
+      "responder_baseline": {
+        "mean": "1.55",
+        "se": "0.08"
+      },
+      "responder_post": {
+        "mean": "1.48",
+        "se": "0.08"
+      },
+      "f": "0.01",
+      "p": ".93",
+      "partial_eta_squared": "<.001"
+    },
+    {
+      "id": "sas_primary_relationship",
+      "measure": "SAS-SR primary relationship",
+      "direction": "lower is less disability or maladjustment",
+      "nonresponder_baseline": {
+        "mean": "1.83",
+        "se": "0.09"
+      },
+      "nonresponder_post": {
+        "mean": "1.84",
+        "se": "0.09"
+      },
+      "responder_baseline": {
+        "mean": "1.88",
+        "se": "0.15"
+      },
+      "responder_post": {
+        "mean": "1.78",
+        "se": "0.16"
+      },
+      "f": "0.52",
+      "p": ".48",
+      "partial_eta_squared": ".02"
+    },
+    {
+      "id": "sas_parental_role",
+      "measure": "SAS-SR parental role",
+      "direction": "lower is less disability or maladjustment",
+      "nonresponder_baseline": {
+        "mean": "1.44",
+        "se": "0.15"
+      },
+      "nonresponder_post": {
+        "mean": "1.58",
+        "se": "0.17"
+      },
+      "responder_baseline": {
+        "mean": "2.25",
+        "se": "0.36"
+      },
+      "responder_post": {
+        "mean": "1.38",
+        "se": "0.42"
+      },
+      "f": "6.94",
+      "p": ".02",
+      "partial_eta_squared": ".37"
+    },
+    {
+      "id": "sas_family_unit",
+      "measure": "SAS-SR family unit",
+      "direction": "lower is less disability or maladjustment",
+      "nonresponder_baseline": {
+        "mean": "1.81",
+        "se": "0.12"
+      },
+      "nonresponder_post": {
+        "mean": "1.67",
+        "se": "0.11"
+      },
+      "responder_baseline": {
+        "mean": "1.82",
+        "se": "0.20"
+      },
+      "responder_post": {
+        "mean": "1.53",
+        "se": "0.18"
+      },
+      "f": "0.63",
+      "p": ".43",
+      "partial_eta_squared": ".01"
+    }
+  ],
+  "selected_cbit_followup": [
+    {
+      "id": "sds_total",
+      "measure": "SDS total",
+      "direction": "lower is less disability or maladjustment",
+      "baseline": {
+        "mean": "7.60",
+        "se": "1.68"
+      },
+      "post": {
+        "mean": "4.00",
+        "se": "1.53"
+      },
+      "month6": {
+        "mean": "4.20",
+        "se": "1.55"
+      },
+      "f": "4.79",
+      "p": ".03",
+      "partial_eta_squared": ".42",
+      "analysis_n": null,
+      "baseline_post_significant_marker": true,
+      "baseline_month6_significant_marker": false
+    },
+    {
+      "id": "sds_work",
+      "measure": "SDS work",
+      "direction": "lower is less disability or maladjustment",
+      "baseline": {
+        "mean": "2.60",
+        "se": "0.70"
+      },
+      "post": {
+        "mean": "1.27",
+        "se": "0.61"
+      },
+      "month6": {
+        "mean": "1.20",
+        "se": "0.52"
+      },
+      "f": "4.09",
+      "p": ".04",
+      "partial_eta_squared": ".39",
+      "analysis_n": null,
+      "baseline_post_significant_marker": true,
+      "baseline_month6_significant_marker": true
+    },
+    {
+      "id": "sds_social",
+      "measure": "SDS social",
+      "direction": "lower is less disability or maladjustment",
+      "baseline": {
+        "mean": "2.67",
+        "se": "0.54"
+      },
+      "post": {
+        "mean": "1.77",
+        "se": "0.53"
+      },
+      "month6": {
+        "mean": "1.73",
+        "se": "0.59"
+      },
+      "f": "3.49",
+      "p": ".06",
+      "partial_eta_squared": ".35",
+      "analysis_n": null,
+      "baseline_post_significant_marker": false,
+      "baseline_month6_significant_marker": false
+    },
+    {
+      "id": "sds_family",
+      "measure": "SDS family",
+      "direction": "lower is less disability or maladjustment",
+      "baseline": {
+        "mean": "2.33",
+        "se": "0.74"
+      },
+      "post": {
+        "mean": "1.00",
+        "se": "0.46"
+      },
+      "month6": {
+        "mean": "1.27",
+        "se": "0.54"
+      },
+      "f": "2.67",
+      "p": ".11",
+      "partial_eta_squared": ".29",
+      "analysis_n": null,
+      "baseline_post_significant_marker": false,
+      "baseline_month6_significant_marker": false
+    },
+    {
+      "id": "fam_iii",
+      "measure": "FAM-III short form",
+      "direction": "lower is less disability or maladjustment",
+      "baseline": {
+        "mean": "24.08",
+        "se": "1.92"
+      },
+      "post": {
+        "mean": "22.67",
+        "se": "1.86"
+      },
+      "month6": {
+        "mean": "23.58",
+        "se": "2.09"
+      },
+      "f": "0.51",
+      "p": ".61",
+      "partial_eta_squared": ".09",
+      "analysis_n": null,
+      "baseline_post_significant_marker": false,
+      "baseline_month6_significant_marker": false
+    },
+    {
+      "id": "sas_overall",
+      "measure": "SAS-SR overall",
+      "direction": "lower is less disability or maladjustment",
+      "baseline": {
+        "mean": "1.85",
+        "se": "0.15"
+      },
+      "post": {
+        "mean": "1.80",
+        "se": "0.17"
+      },
+      "month6": {
+        "mean": "1.69",
+        "se": "0.14"
+      },
+      "f": "1.01",
+      "p": ".40",
+      "partial_eta_squared": ".17",
+      "analysis_n": null,
+      "baseline_post_significant_marker": false,
+      "baseline_month6_significant_marker": false
+    },
+    {
+      "id": "sas_occupation",
+      "measure": "SAS-SR primary occupation/role",
+      "direction": "lower is less disability or maladjustment",
+      "baseline": {
+        "mean": "1.78",
+        "se": "0.32"
+      },
+      "post": {
+        "mean": "1.82",
+        "se": "0.34"
+      },
+      "month6": {
+        "mean": "1.78",
+        "se": "0.34"
+      },
+      "f": "0.05",
+      "p": ".95",
+      "partial_eta_squared": ".01",
+      "analysis_n": null,
+      "baseline_post_significant_marker": false,
+      "baseline_month6_significant_marker": false
+    },
+    {
+      "id": "sas_social_leisure",
+      "measure": "SAS-SR social leisure",
+      "direction": "lower is less disability or maladjustment",
+      "baseline": {
+        "mean": "1.99",
+        "se": "0.18"
+      },
+      "post": {
+        "mean": "2.02",
+        "se": "0.18"
+      },
+      "month6": {
+        "mean": "1.82",
+        "se": "0.13"
+      },
+      "f": "1.79",
+      "p": ".21",
+      "partial_eta_squared": ".23",
+      "analysis_n": null,
+      "baseline_post_significant_marker": false,
+      "baseline_month6_significant_marker": false
+    },
+    {
+      "id": "sas_extended_family",
+      "measure": "SAS-SR extended family",
+      "direction": "lower is less disability or maladjustment",
+      "baseline": {
+        "mean": "1.57",
+        "se": "0.13"
+      },
+      "post": {
+        "mean": "1.46",
+        "se": "0.14"
+      },
+      "month6": {
+        "mean": "1.41",
+        "se": "0.10"
+      },
+      "f": "1.94",
+      "p": ".19",
+      "partial_eta_squared": ".25",
+      "analysis_n": null,
+      "baseline_post_significant_marker": false,
+      "baseline_month6_significant_marker": false
+    },
+    {
+      "id": "sas_primary_relationship",
+      "measure": "SAS-SR primary relationship",
+      "direction": "lower is less disability or maladjustment",
+      "baseline": {
+        "mean": "1.92",
+        "se": "0.15"
+      },
+      "post": {
+        "mean": "1.83",
+        "se": "0.16"
+      },
+      "month6": {
+        "mean": "2.00",
+        "se": "0.30"
+      },
+      "f": "0.20",
+      "p": ".83",
+      "partial_eta_squared": ".17",
+      "analysis_n": null,
+      "baseline_post_significant_marker": false,
+      "baseline_month6_significant_marker": false
+    },
+    {
+      "id": "sas_parental_role",
+      "measure": "SAS-SR parental role",
+      "direction": "lower is less disability or maladjustment",
+      "f": null,
+      "p": null,
+      "partial_eta_squared": null,
+      "analysis_n": 1,
+      "analysis_note": "One participant with complete data; scores withheld from public aggregate artifact; no inferential test reported.",
+      "baseline_post_significant_marker": false,
+      "baseline_month6_significant_marker": false
+    },
+    {
+      "id": "sas_family_unit",
+      "measure": "SAS-SR family unit",
+      "direction": "lower is less disability or maladjustment",
+      "baseline": {
+        "mean": "1.52",
+        "se": "0.24"
+      },
+      "post": {
+        "mean": "1.39",
+        "se": "0.17"
+      },
+      "month6": {
+        "mean": "1.48",
+        "se": "0.25"
+      },
+      "f": "0.21",
+      "p": ".82",
+      "partial_eta_squared": ".04",
+      "analysis_n": null,
+      "baseline_post_significant_marker": false,
+      "baseline_month6_significant_marker": false
+    }
+  ],
+  "denominators": {
+    "randomized_cbit": 63,
+    "randomized_pst": 59,
+    "figure_acute_analyzed_cbit": 60,
+    "figure_acute_analyzed_pst": 53,
+    "acute_completed_cbit": 56,
+    "acute_completed_pst": 49,
+    "response_groups_table_header": {
+      "responders": 28,
+      "nonresponders": 94
+    },
+    "cbit_followup_prose_and_figure": 15,
+    "pst_followup_prose": 2,
+    "pst_followup_figure": 1,
+    "figure_screened": 172,
+    "figure_excluded": 60,
+    "figure_randomized": 122,
+    "outcome_specific_n": "Not reported except Table 3 parental-role complete n=1."
+  },
+  "pairwise_followup": {
+    "sds_total_baseline_post_p": ".02",
+    "sds_total_baseline_month6_p": null,
+    "sds_work_baseline_post_p": ".04",
+    "sds_work_baseline_month6_p": ".03",
+    "inattention_baseline_post_p": ">.99",
+    "inattention_baseline_month6_p": ".16",
+    "inattention_post_month6_p": ".03"
+  },
+  "multiplicity": "Exploratory outcome tests were uncorrected across outcomes. Paper reports Bonferroni correction for follow-up pairwise comparisons."
+}

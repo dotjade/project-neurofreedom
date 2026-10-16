@@ -1,0 +1,331 @@
+{
+  "acute_randomized": {
+    "tested_rows": 12,
+    "nominal_significant": 0,
+    "holm_significant": 0,
+    "bonferroni_significant": 0,
+    "p_min": "0.13",
+    "p_max": "0.70",
+    "adjusted": {
+      "sds_family": {
+        "printed_p": "0.13",
+        "holm": "1",
+        "bonferroni": "1"
+      },
+      "sas_extended_family": {
+        "printed_p": "0.15",
+        "holm": "1",
+        "bonferroni": "1"
+      },
+      "sds_work": {
+        "printed_p": "0.16",
+        "holm": "1",
+        "bonferroni": "1"
+      },
+      "sds_social": {
+        "printed_p": "0.20",
+        "holm": "1",
+        "bonferroni": "1"
+      },
+      "sas_overall": {
+        "printed_p": "0.20",
+        "holm": "1",
+        "bonferroni": "1"
+      },
+      "sas_relationship": {
+        "printed_p": "0.23",
+        "holm": "1",
+        "bonferroni": "1"
+      },
+      "sas_social_leisure": {
+        "printed_p": "0.27",
+        "holm": "1",
+        "bonferroni": "1"
+      },
+      "sas_family_unit": {
+        "printed_p": "0.30",
+        "holm": "1",
+        "bonferroni": "1"
+      },
+      "sas_parental": {
+        "printed_p": "0.38",
+        "holm": "1",
+        "bonferroni": "1"
+      },
+      "sds_total": {
+        "printed_p": "0.46",
+        "holm": "1",
+        "bonferroni": "1"
+      },
+      "fam_iii": {
+        "printed_p": "0.66",
+        "holm": "1",
+        "bonferroni": "1"
+      },
+      "sas_occupation": {
+        "printed_p": "0.70",
+        "holm": "1",
+        "bonferroni": "1"
+      }
+    }
+  },
+  "acute_responder_association": {
+    "tested_rows": 12,
+    "nominal_significant": 2,
+    "holm_significant": 0,
+    "bonferroni_significant": 0,
+    "p_min": "0.02",
+    "p_max": "0.93",
+    "adjusted": {
+      "sds_family": {
+        "printed_p": "0.02",
+        "holm": "0.24",
+        "bonferroni": "0.24"
+      },
+      "sas_parental": {
+        "printed_p": "0.02",
+        "holm": "0.24",
+        "bonferroni": "0.24"
+      },
+      "sds_work": {
+        "printed_p": "0.08",
+        "holm": "0.80",
+        "bonferroni": "0.96"
+      },
+      "sds_total": {
+        "printed_p": "0.09",
+        "holm": "0.81",
+        "bonferroni": "1"
+      },
+      "fam_iii": {
+        "printed_p": "0.22",
+        "holm": "1",
+        "bonferroni": "1"
+      },
+      "sas_occupation": {
+        "printed_p": "0.34",
+        "holm": "1",
+        "bonferroni": "1"
+      },
+      "sas_social_leisure": {
+        "printed_p": "0.42",
+        "holm": "1",
+        "bonferroni": "1"
+      },
+      "sas_family_unit": {
+        "printed_p": "0.43",
+        "holm": "1",
+        "bonferroni": "1"
+      },
+      "sas_relationship": {
+        "printed_p": "0.48",
+        "holm": "1",
+        "bonferroni": "1"
+      },
+      "sas_overall": {
+        "printed_p": "0.80",
+        "holm": "1",
+        "bonferroni": "1"
+      },
+      "sds_social": {
+        "printed_p": "0.83",
+        "holm": "1",
+        "bonferroni": "1"
+      },
+      "sas_extended_family": {
+        "printed_p": "0.93",
+        "holm": "1",
+        "bonferroni": "1"
+      }
+    }
+  },
+  "selected_cbit_followup": {
+    "tested_rows": 11,
+    "nominal_significant": 2,
+    "holm_significant": 0,
+    "bonferroni_significant": 0,
+    "p_min": "0.03",
+    "p_max": "0.95",
+    "adjusted": {
+      "sds_total": {
+        "printed_p": "0.03",
+        "holm": "0.33",
+        "bonferroni": "0.33"
+      },
+      "sds_work": {
+        "printed_p": "0.04",
+        "holm": "0.40",
+        "bonferroni": "0.44"
+      },
+      "sds_social": {
+        "printed_p": "0.06",
+        "holm": "0.54",
+        "bonferroni": "0.66"
+      },
+      "sds_family": {
+        "printed_p": "0.11",
+        "holm": "0.88",
+        "bonferroni": "1"
+      },
+      "sas_extended_family": {
+        "printed_p": "0.19",
+        "holm": "1",
+        "bonferroni": "1"
+      },
+      "sas_social_leisure": {
+        "printed_p": "0.21",
+        "holm": "1",
+        "bonferroni": "1"
+      },
+      "sas_overall": {
+        "printed_p": "0.40",
+        "holm": "1",
+        "bonferroni": "1"
+      },
+      "fam_iii": {
+        "printed_p": "0.61",
+        "holm": "1",
+        "bonferroni": "1"
+      },
+      "sas_family_unit": {
+        "printed_p": "0.82",
+        "holm": "1",
+        "bonferroni": "1"
+      },
+      "sas_relationship": {
+        "printed_p": "0.83",
+        "holm": "1",
+        "bonferroni": "1"
+      },
+      "sas_occupation": {
+        "printed_p": "0.95",
+        "holm": "1",
+        "bonferroni": "1"
+      }
+    }
+  },
+  "acute_displayed_mean_contrasts": {
+    "sds_total": "-0.83",
+    "sds_work": "-0.66",
+    "sds_social": "0.57",
+    "sds_family": "-0.74",
+    "fam_iii": "0.51",
+    "sas_overall": "-0.08",
+    "sas_occupation": "-0.05",
+    "sas_social_leisure": "0.12",
+    "sas_extended_family": "-0.13",
+    "sas_relationship": "-0.16",
+    "sas_parental": "0.31",
+    "sas_family_unit": "-0.17"
+  },
+  "responder_displayed_mean_contrasts": {
+    "sds_total": "-2.20",
+    "sds_work": "-0.92",
+    "sds_social": "0.11",
+    "sds_family": "-1.31",
+    "fam_iii": "-1.59",
+    "sas_overall": "-0.01",
+    "sas_occupation": "0.15",
+    "sas_social_leisure": "0.11",
+    "sas_extended_family": "0.00",
+    "sas_relationship": "-0.11",
+    "sas_parental": "-1.01",
+    "sas_family_unit": "-0.15"
+  },
+  "followup_displayed_changes": {
+    "sds_total": {
+      "baseline_to_post": "-3.60",
+      "baseline_to_month6": "-3.40",
+      "post_to_month6": "0.20"
+    },
+    "sds_work": {
+      "baseline_to_post": "-1.33",
+      "baseline_to_month6": "-1.40",
+      "post_to_month6": "-0.07"
+    },
+    "sds_social": {
+      "baseline_to_post": "-0.90",
+      "baseline_to_month6": "-0.94",
+      "post_to_month6": "-0.04"
+    },
+    "sds_family": {
+      "baseline_to_post": "-1.33",
+      "baseline_to_month6": "-1.06",
+      "post_to_month6": "0.27"
+    },
+    "fam_iii": {
+      "baseline_to_post": "-1.41",
+      "baseline_to_month6": "-0.50",
+      "post_to_month6": "0.91"
+    },
+    "sas_overall": {
+      "baseline_to_post": "-0.05",
+      "baseline_to_month6": "-0.16",
+      "post_to_month6": "-0.11"
+    },
+    "sas_occupation": {
+      "baseline_to_post": "0.04",
+      "baseline_to_month6": "0.00",
+      "post_to_month6": "-0.04"
+    },
+    "sas_social_leisure": {
+      "baseline_to_post": "0.03",
+      "baseline_to_month6": "-0.17",
+      "post_to_month6": "-0.20"
+    },
+    "sas_extended_family": {
+      "baseline_to_post": "-0.11",
+      "baseline_to_month6": "-0.16",
+      "post_to_month6": "-0.05"
+    },
+    "sas_relationship": {
+      "baseline_to_post": "-0.09",
+      "baseline_to_month6": "0.08",
+      "post_to_month6": "0.17"
+    },
+    "sas_family_unit": {
+      "baseline_to_post": "-0.13",
+      "baseline_to_month6": "-0.04",
+      "post_to_month6": "0.09"
+    }
+  },
+  "rounding_sensitivity": {
+    "acute_randomized": {
+      "assumption": "nearest-hundredth rounded p; sensitivity only",
+      "minimum_p_lower_bound": "0.125",
+      "first_holm_bonferroni_lower_bound": "1.500"
+    },
+    "acute_responder_association": {
+      "assumption": "nearest-hundredth rounded p; sensitivity only",
+      "minimum_p_lower_bound": "0.015",
+      "first_holm_bonferroni_lower_bound": "0.180"
+    },
+    "selected_cbit_followup": {
+      "assumption": "nearest-hundredth rounded p; sensitivity only",
+      "minimum_p_lower_bound": "0.025",
+      "first_holm_bonferroni_lower_bound": "0.275"
+    }
+  },
+  "flow_arithmetic": {
+    "screened": 172,
+    "excluded": 60,
+    "screened_minus_excluded": 112,
+    "randomized": 122,
+    "discrepancy": 10,
+    "acute_allocated": 122,
+    "acute_analyzed": 113,
+    "acute_completed": 105,
+    "cbit_selected_followup": 15,
+    "cbit_followup_fraction_of_randomized": "0.2380952380952380952380952381"
+  },
+  "main_extraction_crosscheck": {
+    "main_path": "/workspace/scratch/153000ecb31b/day16_functioning/aggregate_inputs.json",
+    "mismatches": [],
+    "matched_cells": 363
+  },
+  "main_output_crosscheck": {
+    "main_path": "/workspace/scratch/153000ecb31b/day16_functioning/aggregate_checks.json",
+    "mismatches": [],
+    "matched_checks": 144
+  }
+}

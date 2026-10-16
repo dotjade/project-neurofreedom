@@ -1,6 +1,6 @@
 # Project NeuroFreedom status
 
-Updated 15 October 2026. Initial portfolio, seven completed daily updates and first completed weekly synthesis. Public evidence repository and journal launched 13 October.
+Updated 16 October 2026. Initial portfolio, eight completed daily updates and first completed weekly synthesis. Public evidence repository and journal launched 13 October.
 
 ## Completed in this first pass
 
@@ -172,3 +172,17 @@ Today's feed retains the approved optional activity catalog, selects familiar mu
 ### Publication verification - 15 October 2026
 
 All 40 research/publication files were read back exactly from commit 32dce905416932cdc372867d8aba31a676f65a41. At 03:09:42 UTC, production /api/public-feed and anonymous raw GitHub both returned HTTP 200 with exactly matching contents; production identified the repository source. The October 15 research/activity dates, updatedAt 2026-10-15T03:07:31Z, music-or-silence selection and new timeline title were verified. The earlier cloud-client block remains a route-specific limitation, not a publication failure. Rendered-page checking was not part of this follow-up. No settings or collection changed.
+
+## Completed daily research update - 16 October 2026
+
+The [dated scan](updates/2026-10-16/report.md) verified an October 15 qualitative study of 34 adults about stigma, relationships and employment. It contributes adult-burden evidence, not treatment efficacy or representative prevalence; full methods and severe-symptom representation remain unverified. One new posting for the existing adult physiology registry has no results; its estimated start shifted October 19 to 20. No additional original-watchlist safety notice was verified, with FDA coverage gaps. A new MHRA antidepressant risk-communication update is retained separately as comorbidity-care context, not a newly discovered risk or medication-change instruction.
+
+The [same-trial CBIT functioning analysis](analyses/cbit_functioning/2026-10-16/report.md) found no nominally significant randomized advantage on 12 acute functional contrasts. This does not establish equivalence or rule out important benefit. Two responder-status associations and selected follow-up findings answer different questions. Post hoc restricted-family multiplicity sensitivities retain none of the functional positives; these cannot repair selection or provide missing confidence intervals. Thirteen tests, independent extraction and arithmetic review passed. Single-participant follow-up scores were excluded from public artifacts.
+
+### Next bounded decision
+
+Close the same-trial CBIT reporting chain unless materially corrected evidence appears. Next audit adult tic-related pain measurement in Malek 2025, DOI 10.3389/fpsyg.2025.1537088, PMID 40808742. Separate current versus worst pain, pain-specific endpoints versus tic severity, denominator-specific proportions and selection, and reported usefulness of care versus causal effectiveness. Do not infer representative prevalence, severe-adult subgroup effects or treatment benefit without supporting design and data. No participant collection, intervention or custodian contact is needed for this evidence step.
+
+### Public journal
+
+Today's public feed adds a dated functional-outcome note and retains the approved optional activity catalog, selecting notice-one-thing. Collection and shared voting remain disabled. The [bounded source-link ledger](public/link-checks/2026-10-16.json) records two retrievable primary sources and one access-limited link, not a confirmed broken source. Publication readback will be recorded after verification.

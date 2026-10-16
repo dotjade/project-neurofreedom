@@ -79,6 +79,14 @@ A research program toward better understanding, effective treatments and ultimat
 - [Reproducible computation](analyses/cbit_maintenance/2026-10-15/aggregate_checks.json) and [independent review](analyses/cbit_maintenance/2026-10-15/review/independent_review.md).
 - [Public source-link ledger](public/link-checks/2026-10-15.json).
 
+
+## Research update - 16 October 2026
+
+- [Dated evidence scan](updates/2026-10-16/report.md): new adult qualitative burden evidence, registry changes without results and separately classified safety context.
+- [CBIT functional-outcome analysis](analyses/cbit_functioning/2026-10-16/report.md): randomized contrasts, responder associations and selected follow-up kept distinct.
+- [Reproducible calculations](analyses/cbit_functioning/2026-10-16/aggregate_checks.json) and [independent review](analyses/cbit_functioning/2026-10-16/review/REVIEW.md).
+- [Public link checks](public/link-checks/2026-10-16.json).
+
 ## Working research record
 
 - [Research protocol and planned update cycle](RESEARCH_PROTOCOL.md)

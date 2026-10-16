@@ -1,10 +1,17 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-15T03:07:31Z",
-  "lastResearchDate": "2026-10-15",
+  "updatedAt": "2026-10-16T02:53:02Z",
+  "lastResearchDate": "2026-10-16",
   "cadence": "Daily scheduled review; publication follows verified work.",
-  "latestSummary": "A behavioral-therapy follow-up shows why the denominator matters. Today's scan found a pediatric association study and trial-record updates, without new treatment results.",
+  "latestSummary": "Daily functioning needs its own evidence. Today's scan also identified a new adult interview study about stigma, distinct from treatment-effect research.",
   "timeline": [
+    {
+      "date": "2026-10-16",
+      "title": "Measure life beyond tics.",
+      "type": "Same-trial secondary analysis",
+      "summary": "A behavioral-therapy study did not establish added benefit over supportive therapy on its daily-function measures. Positive responder associations answer a different question.",
+      "record": "https://github.com/dotjade/project-neurofreedom/blob/main/analyses/cbit_functioning/2026-10-16/report.md"
+    },
     {
       "date": "2026-10-15",
       "title": "Who came back matters.",
@@ -69,8 +76,8 @@
       "type": "Primary qualitative study",
       "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10863457/",
       "label": "Isaacs and colleagues, 2024",
-      "checkedAt": "2026-10-15",
-      "linkState": "Browser verification prevented article access in this check; not established broken"
+      "checkedAt": "2026-10-16",
+      "linkState": "Primary article retrievable through this check"
     },
     {
       "title": "Persistence deserves its own attention.",
@@ -78,7 +85,7 @@
       "type": "Primary longitudinal study",
       "url": "https://www.neurology.org/doi/10.1212/01.WNL.0000086370.10186.7C",
       "label": "Pappert and colleagues, 2003",
-      "checkedAt": "2026-10-15",
+      "checkedAt": "2026-10-16",
       "linkState": "HTTP 403 in this retrieval; not established broken"
     },
     {
@@ -87,7 +94,7 @@
       "type": "Primary adult cohort study",
       "url": "https://link.springer.com/content/pdf/10.1186/s44247-026-00284-7.pdf",
       "label": "Ivanova and colleagues, 2026",
-      "checkedAt": "2026-10-15",
+      "checkedAt": "2026-10-16",
       "linkState": "Primary PDF retrievable through this check"
     }
   ],
@@ -154,6 +161,6 @@
     "trend": [],
     "message": "No public ratings are collected yet. There are no votes or trends to show."
   },
-  "activityEditionDate": "2026-10-15",
-  "featuredActivityId": "music-or-silence"
+  "activityEditionDate": "2026-10-16",
+  "featuredActivityId": "notice-one-thing"
 }

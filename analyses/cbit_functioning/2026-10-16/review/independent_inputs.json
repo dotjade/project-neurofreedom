@@ -1,0 +1,916 @@
+{
+  "source": {
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7190082/",
+    "access_route": "http://pmc.ncbi.nlm.nih.gov/articles/PMC7190082/",
+    "doi": "10.1017/S0033291719002150",
+    "pmid": "31451122",
+    "independent_retrieval_date": "2026-10-16",
+    "retrieved_html_sha256": "7a5b25c734114193dca750d3d152d024c9064bd08c73156b24c0bd9f10bf2a91"
+  },
+  "acute_randomized": [
+    {
+      "id": "sds_total",
+      "source_label": "Total",
+      "cbit_baseline": {
+        "mean": "8.36",
+        "se": "0.90",
+        "marker": null
+      },
+      "cbit_post": {
+        "mean": "5.00",
+        "se": "0.79",
+        "marker": null
+      },
+      "pst_baseline": {
+        "mean": "8.32",
+        "se": "0.97",
+        "marker": null
+      },
+      "pst_post": {
+        "mean": "5.79",
+        "se": "0.85",
+        "marker": null
+      },
+      "f": "0.56",
+      "p": ".46",
+      "partial_eta_squared": ".01"
+    },
+    {
+      "id": "sds_work",
+      "source_label": "Work",
+      "cbit_baseline": {
+        "mean": "2.78",
+        "se": "0.35",
+        "marker": null
+      },
+      "cbit_post": {
+        "mean": "1.56",
+        "se": "0.30",
+        "marker": null
+      },
+      "pst_baseline": {
+        "mean": "2.32",
+        "se": "0.37",
+        "marker": null
+      },
+      "pst_post": {
+        "mean": "1.76",
+        "se": "0.32",
+        "marker": null
+      },
+      "f": "2.04",
+      "p": ".16",
+      "partial_eta_squared": ".02"
+    },
+    {
+      "id": "sds_social",
+      "source_label": "Social",
+      "cbit_baseline": {
+        "mean": "3.07",
+        "se": "0.38",
+        "marker": null
+      },
+      "cbit_post": {
+        "mean": "2.11",
+        "se": "0.31",
+        "marker": null
+      },
+      "pst_baseline": {
+        "mean": "3.58",
+        "se": "0.40",
+        "marker": null
+      },
+      "pst_post": {
+        "mean": "2.05",
+        "se": "0.33",
+        "marker": null
+      },
+      "f": "1.69",
+      "p": ".20",
+      "partial_eta_squared": ".02"
+    },
+    {
+      "id": "sds_family",
+      "source_label": "Family",
+      "cbit_baseline": {
+        "mean": "2.51",
+        "se": "0.36",
+        "marker": null
+      },
+      "cbit_post": {
+        "mean": "1.33",
+        "se": "0.28",
+        "marker": null
+      },
+      "pst_baseline": {
+        "mean": "2.42",
+        "se": "0.38",
+        "marker": null
+      },
+      "pst_post": {
+        "mean": "1.98",
+        "se": "0.30",
+        "marker": null
+      },
+      "f": "2.29",
+      "p": ".13",
+      "partial_eta_squared": ".02"
+    },
+    {
+      "id": "fam_iii",
+      "source_label": "Total",
+      "cbit_baseline": {
+        "mean": "25.51",
+        "se": "0.97",
+        "marker": null
+      },
+      "cbit_post": {
+        "mean": "24.73",
+        "se": "0.97",
+        "marker": null
+      },
+      "pst_baseline": {
+        "mean": "26.83",
+        "se": "1.02",
+        "marker": null
+      },
+      "pst_post": {
+        "mean": "25.54",
+        "se": "1.02",
+        "marker": null
+      },
+      "f": "0.20",
+      "p": ".66",
+      "partial_eta_squared": ".002"
+    },
+    {
+      "id": "sas_overall",
+      "source_label": "Overall",
+      "cbit_baseline": {
+        "mean": "1.83",
+        "se": "0.06",
+        "marker": null
+      },
+      "cbit_post": {
+        "mean": "1.71",
+        "se": "0.06",
+        "marker": null
+      },
+      "pst_baseline": {
+        "mean": "1.87",
+        "se": "0.06",
+        "marker": null
+      },
+      "pst_post": {
+        "mean": "1.83",
+        "se": "0.06",
+        "marker": null
+      },
+      "f": "1.71",
+      "p": ".20",
+      "partial_eta_squared": ".02"
+    },
+    {
+      "id": "sas_occupation",
+      "source_label": "Primary Occupation/Role",
+      "cbit_baseline": {
+        "mean": "1.83",
+        "se": "0.13",
+        "marker": null
+      },
+      "cbit_post": {
+        "mean": "1.68",
+        "se": "0.12",
+        "marker": null
+      },
+      "pst_baseline": {
+        "mean": "1.75",
+        "se": "0.14",
+        "marker": null
+      },
+      "pst_post": {
+        "mean": "1.65",
+        "se": "0.12",
+        "marker": null
+      },
+      "f": "0.15",
+      "p": ".70",
+      "partial_eta_squared": ".002"
+    },
+    {
+      "id": "sas_social_leisure",
+      "source_label": "Social Leisure",
+      "cbit_baseline": {
+        "mean": "2.01",
+        "se": "0.08",
+        "marker": null
+      },
+      "cbit_post": {
+        "mean": "1.95",
+        "se": "0.08",
+        "marker": null
+      },
+      "pst_baseline": {
+        "mean": "2.14",
+        "se": "0.09",
+        "marker": null
+      },
+      "pst_post": {
+        "mean": "1.96",
+        "se": "0.08",
+        "marker": null
+      },
+      "f": "1.22",
+      "p": ".27",
+      "partial_eta_squared": ".01"
+    },
+    {
+      "id": "sas_extended_family",
+      "source_label": "Extended Family",
+      "cbit_baseline": {
+        "mean": "1.63",
+        "se": "0.06",
+        "marker": null
+      },
+      "cbit_post": {
+        "mean": "1.49",
+        "se": "0.06",
+        "marker": null
+      },
+      "pst_baseline": {
+        "mean": "1.68",
+        "se": "0.06",
+        "marker": null
+      },
+      "pst_post": {
+        "mean": "1.67",
+        "se": "0.06",
+        "marker": null
+      },
+      "f": "2.10",
+      "p": ".15",
+      "partial_eta_squared": ".02"
+    },
+    {
+      "id": "sas_relationship",
+      "source_label": "Primary Relationship",
+      "cbit_baseline": {
+        "mean": "1.76",
+        "se": "0.11",
+        "marker": null
+      },
+      "cbit_post": {
+        "mean": "1.65",
+        "se": "0.11",
+        "marker": null
+      },
+      "pst_baseline": {
+        "mean": "1.92",
+        "se": "0.10",
+        "marker": null
+      },
+      "pst_post": {
+        "mean": "1.97",
+        "se": "0.10",
+        "marker": null
+      },
+      "f": "1.47",
+      "p": ".23",
+      "partial_eta_squared": ".04"
+    },
+    {
+      "id": "sas_parental",
+      "source_label": "Parental Role",
+      "cbit_baseline": {
+        "mean": "1.15",
+        "se": "0.22",
+        "marker": null
+      },
+      "cbit_post": {
+        "mean": "1.35",
+        "se": "0.26",
+        "marker": null
+      },
+      "pst_baseline": {
+        "mean": "1.78",
+        "se": "0.17",
+        "marker": null
+      },
+      "pst_post": {
+        "mean": "1.67",
+        "se": "0.19",
+        "marker": null
+      },
+      "f": "0.82",
+      "p": ".38",
+      "partial_eta_squared": ".06"
+    },
+    {
+      "id": "sas_family_unit",
+      "source_label": "Family Unit",
+      "cbit_baseline": {
+        "mean": "1.84",
+        "se": "0.14",
+        "marker": null
+      },
+      "cbit_post": {
+        "mean": "1.58",
+        "se": "0.13",
+        "marker": null
+      },
+      "pst_baseline": {
+        "mean": "1.78",
+        "se": "0.16",
+        "marker": null
+      },
+      "pst_post": {
+        "mean": "1.69",
+        "se": "0.14",
+        "marker": null
+      },
+      "f": "1.07",
+      "p": ".30",
+      "partial_eta_squared": ".01"
+    }
+  ],
+  "acute_responder_association": [
+    {
+      "id": "sds_total",
+      "source_label": "Total",
+      "nonresponder_baseline": {
+        "mean": "8.51",
+        "se": "0.78",
+        "marker": null
+      },
+      "nonresponder_post": {
+        "mean": "6.21",
+        "se": "0.67",
+        "marker": null
+      },
+      "responder_baseline": {
+        "mean": "7.96",
+        "se": "1.27",
+        "marker": null
+      },
+      "responder_post": {
+        "mean": "3.46",
+        "se": "1.09",
+        "marker": null
+      },
+      "f": "2.88",
+      "p": ".09",
+      "partial_eta_squared": ".03"
+    },
+    {
+      "id": "sds_work",
+      "source_label": "Work",
+      "nonresponder_baseline": {
+        "mean": "2.51",
+        "se": "0.30",
+        "marker": null
+      },
+      "nonresponder_post": {
+        "mean": "1.86",
+        "se": "0.26",
+        "marker": null
+      },
+      "responder_baseline": {
+        "mean": "2.71",
+        "se": "0.49",
+        "marker": null
+      },
+      "responder_post": {
+        "mean": "1.14",
+        "se": "0.42",
+        "marker": null
+      },
+      "f": "3.22",
+      "p": ".08",
+      "partial_eta_squared": ".03"
+    },
+    {
+      "id": "sds_social",
+      "source_label": "Social",
+      "nonresponder_baseline": {
+        "mean": "3.57",
+        "se": "0.32",
+        "marker": null
+      },
+      "nonresponder_post": {
+        "mean": "2.32",
+        "se": "0.26",
+        "marker": null
+      },
+      "responder_baseline": {
+        "mean": "2.64",
+        "se": "0.53",
+        "marker": null
+      },
+      "responder_post": {
+        "mean": "1.50",
+        "se": "0.43",
+        "marker": null
+      },
+      "f": "0.05",
+      "p": ".83",
+      "partial_eta_squared": "<.001"
+    },
+    {
+      "id": "sds_family",
+      "source_label": "Family",
+      "nonresponder_baseline": {
+        "mean": "2.43",
+        "se": "0.31",
+        "marker": null
+      },
+      "nonresponder_post": {
+        "mean": "1.95",
+        "se": "0.24",
+        "marker": null
+      },
+      "responder_baseline": {
+        "mean": "2.61",
+        "se": "0.50",
+        "marker": null
+      },
+      "responder_post": {
+        "mean": "0.82",
+        "se": "0.39",
+        "marker": null
+      },
+      "f": "5.67",
+      "p": ".02",
+      "partial_eta_squared": ".05"
+    },
+    {
+      "id": "fam_iii",
+      "source_label": "Total",
+      "nonresponder_baseline": {
+        "mean": "26.49",
+        "se": "0.82",
+        "marker": null
+      },
+      "nonresponder_post": {
+        "mean": "25.92",
+        "se": "0.81",
+        "marker": null
+      },
+      "responder_baseline": {
+        "mean": "24.92",
+        "se": "1.38",
+        "marker": null
+      },
+      "responder_post": {
+        "mean": "22.76",
+        "se": "1.36",
+        "marker": null
+      },
+      "f": "1.54",
+      "p": ".22",
+      "partial_eta_squared": ".02"
+    },
+    {
+      "id": "sas_overall",
+      "source_label": "Overall",
+      "nonresponder_baseline": {
+        "mean": "1.89",
+        "se": "0.05",
+        "marker": null
+      },
+      "nonresponder_post": {
+        "mean": "1.81",
+        "se": "0.05",
+        "marker": null
+      },
+      "responder_baseline": {
+        "mean": "1.76",
+        "se": "0.08",
+        "marker": null
+      },
+      "responder_post": {
+        "mean": "1.67",
+        "se": "0.08",
+        "marker": null
+      },
+      "f": "0.06",
+      "p": ".80",
+      "partial_eta_squared": ".001"
+    },
+    {
+      "id": "sas_occupation",
+      "source_label": "Primary Occupation/Role",
+      "nonresponder_baseline": {
+        "mean": "1.88",
+        "se": "0.11",
+        "marker": null
+      },
+      "nonresponder_post": {
+        "mean": "1.71",
+        "se": "0.10",
+        "marker": null
+      },
+      "responder_baseline": {
+        "mean": "1.57",
+        "se": "0.18",
+        "marker": null
+      },
+      "responder_post": {
+        "mean": "1.55",
+        "se": "0.16",
+        "marker": null
+      },
+      "f": "0.93",
+      "p": ".34",
+      "partial_eta_squared": ".01"
+    },
+    {
+      "id": "sas_social_leisure",
+      "source_label": "Social Leisure",
+      "nonresponder_baseline": {
+        "mean": "2.12",
+        "se": "0.07",
+        "marker": null
+      },
+      "nonresponder_post": {
+        "mean": "1.97",
+        "se": "0.06",
+        "marker": null
+      },
+      "responder_baseline": {
+        "mean": "1.94",
+        "se": "0.11",
+        "marker": null
+      },
+      "responder_post": {
+        "mean": "1.90",
+        "se": "0.10",
+        "marker": null
+      },
+      "f": "0.65",
+      "p": ".42",
+      "partial_eta_squared": ".01"
+    },
+    {
+      "id": "sas_extended_family",
+      "source_label": "Extended Family",
+      "nonresponder_baseline": {
+        "mean": "1.69",
+        "se": "0.05",
+        "marker": null
+      },
+      "nonresponder_post": {
+        "mean": "1.62",
+        "se": "0.05",
+        "marker": null
+      },
+      "responder_baseline": {
+        "mean": "1.55",
+        "se": "0.08",
+        "marker": null
+      },
+      "responder_post": {
+        "mean": "1.48",
+        "se": "0.08",
+        "marker": null
+      },
+      "f": "0.01",
+      "p": ".93",
+      "partial_eta_squared": "<.001"
+    },
+    {
+      "id": "sas_relationship",
+      "source_label": "Primary Relationship",
+      "nonresponder_baseline": {
+        "mean": "1.83",
+        "se": "0.09",
+        "marker": null
+      },
+      "nonresponder_post": {
+        "mean": "1.84",
+        "se": "0.09",
+        "marker": null
+      },
+      "responder_baseline": {
+        "mean": "1.88",
+        "se": "0.15",
+        "marker": null
+      },
+      "responder_post": {
+        "mean": "1.78",
+        "se": "0.16",
+        "marker": null
+      },
+      "f": "0.52",
+      "p": ".48",
+      "partial_eta_squared": ".02"
+    },
+    {
+      "id": "sas_parental",
+      "source_label": "Parental Role",
+      "nonresponder_baseline": {
+        "mean": "1.44",
+        "se": "0.15",
+        "marker": null
+      },
+      "nonresponder_post": {
+        "mean": "1.58",
+        "se": "0.17",
+        "marker": null
+      },
+      "responder_baseline": {
+        "mean": "2.25",
+        "se": "0.36",
+        "marker": null
+      },
+      "responder_post": {
+        "mean": "1.38",
+        "se": "0.42",
+        "marker": null
+      },
+      "f": "6.94",
+      "p": ".02",
+      "partial_eta_squared": ".37"
+    },
+    {
+      "id": "sas_family_unit",
+      "source_label": "Family Unit",
+      "nonresponder_baseline": {
+        "mean": "1.81",
+        "se": "0.12",
+        "marker": null
+      },
+      "nonresponder_post": {
+        "mean": "1.67",
+        "se": "0.11",
+        "marker": null
+      },
+      "responder_baseline": {
+        "mean": "1.82",
+        "se": "0.20",
+        "marker": null
+      },
+      "responder_post": {
+        "mean": "1.53",
+        "se": "0.18",
+        "marker": null
+      },
+      "f": "0.63",
+      "p": ".43",
+      "partial_eta_squared": ".01"
+    }
+  ],
+  "selected_cbit_followup": [
+    {
+      "id": "sds_total",
+      "source_label": "Total",
+      "baseline": {
+        "mean": "7.60",
+        "se": "1.68",
+        "marker": null
+      },
+      "post": {
+        "mean": "4.00",
+        "se": "1.53",
+        "marker": "a"
+      },
+      "month6": {
+        "mean": "4.20",
+        "se": "1.55",
+        "marker": null
+      },
+      "f": "4.79",
+      "p": ".03",
+      "partial_eta_squared": ".42"
+    },
+    {
+      "id": "sds_work",
+      "source_label": "Work",
+      "baseline": {
+        "mean": "2.60",
+        "se": "0.70",
+        "marker": null
+      },
+      "post": {
+        "mean": "1.27",
+        "se": "0.61",
+        "marker": "a"
+      },
+      "month6": {
+        "mean": "1.20",
+        "se": "0.52",
+        "marker": "a"
+      },
+      "f": "4.09",
+      "p": ".04",
+      "partial_eta_squared": ".39"
+    },
+    {
+      "id": "sds_social",
+      "source_label": "Social",
+      "baseline": {
+        "mean": "2.67",
+        "se": "0.54",
+        "marker": null
+      },
+      "post": {
+        "mean": "1.77",
+        "se": "0.53",
+        "marker": null
+      },
+      "month6": {
+        "mean": "1.73",
+        "se": "0.59",
+        "marker": null
+      },
+      "f": "3.49",
+      "p": ".06",
+      "partial_eta_squared": ".35"
+    },
+    {
+      "id": "sds_family",
+      "source_label": "Family",
+      "baseline": {
+        "mean": "2.33",
+        "se": "0.74",
+        "marker": null
+      },
+      "post": {
+        "mean": "1.00",
+        "se": "0.46",
+        "marker": null
+      },
+      "month6": {
+        "mean": "1.27",
+        "se": "0.54",
+        "marker": null
+      },
+      "f": "2.67",
+      "p": ".11",
+      "partial_eta_squared": ".29"
+    },
+    {
+      "id": "fam_iii",
+      "source_label": "Total",
+      "baseline": {
+        "mean": "24.08",
+        "se": "1.92",
+        "marker": null
+      },
+      "post": {
+        "mean": "22.67",
+        "se": "1.86",
+        "marker": null
+      },
+      "month6": {
+        "mean": "23.58",
+        "se": "2.09",
+        "marker": null
+      },
+      "f": "0.51",
+      "p": ".61",
+      "partial_eta_squared": ".09"
+    },
+    {
+      "id": "sas_overall",
+      "source_label": "Overall",
+      "baseline": {
+        "mean": "1.85",
+        "se": "0.15",
+        "marker": null
+      },
+      "post": {
+        "mean": "1.80",
+        "se": "0.17",
+        "marker": null
+      },
+      "month6": {
+        "mean": "1.69",
+        "se": "0.14",
+        "marker": null
+      },
+      "f": "1.01",
+      "p": ".40",
+      "partial_eta_squared": ".17"
+    },
+    {
+      "id": "sas_occupation",
+      "source_label": "Primary Occupation/Role",
+      "baseline": {
+        "mean": "1.78",
+        "se": "0.32",
+        "marker": null
+      },
+      "post": {
+        "mean": "1.82",
+        "se": "0.34",
+        "marker": null
+      },
+      "month6": {
+        "mean": "1.78",
+        "se": "0.34",
+        "marker": null
+      },
+      "f": "0.05",
+      "p": ".95",
+      "partial_eta_squared": ".01"
+    },
+    {
+      "id": "sas_social_leisure",
+      "source_label": "Social Leisure",
+      "baseline": {
+        "mean": "1.99",
+        "se": "0.18",
+        "marker": null
+      },
+      "post": {
+        "mean": "2.02",
+        "se": "0.18",
+        "marker": null
+      },
+      "month6": {
+        "mean": "1.82",
+        "se": "0.13",
+        "marker": null
+      },
+      "f": "1.79",
+      "p": ".21",
+      "partial_eta_squared": ".23"
+    },
+    {
+      "id": "sas_extended_family",
+      "source_label": "Extended Family",
+      "baseline": {
+        "mean": "1.57",
+        "se": "0.13",
+        "marker": null
+      },
+      "post": {
+        "mean": "1.46",
+        "se": "0.14",
+        "marker": null
+      },
+      "month6": {
+        "mean": "1.41",
+        "se": "0.10",
+        "marker": null
+      },
+      "f": "1.94",
+      "p": ".19",
+      "partial_eta_squared": ".25"
+    },
+    {
+      "id": "sas_relationship",
+      "source_label": "Primary Relationship",
+      "baseline": {
+        "mean": "1.92",
+        "se": "0.15",
+        "marker": null
+      },
+      "post": {
+        "mean": "1.83",
+        "se": "0.16",
+        "marker": null
+      },
+      "month6": {
+        "mean": "2.00",
+        "se": "0.30",
+        "marker": null
+      },
+      "f": "0.20",
+      "p": ".83",
+      "partial_eta_squared": ".17"
+    },
+    {
+      "id": "sas_parental",
+      "source_label": "Parental Role",
+      "analysis_n": 1,
+      "f": null,
+      "p": null,
+      "partial_eta_squared": null,
+      "scores_suppressed": true,
+      "reason": "Single-participant row retained only as n=1, untested."
+    },
+    {
+      "id": "sas_family_unit",
+      "source_label": "Family Unit",
+      "baseline": {
+        "mean": "1.52",
+        "se": "0.24",
+        "marker": null
+      },
+      "post": {
+        "mean": "1.39",
+        "se": "0.17",
+        "marker": null
+      },
+      "month6": {
+        "mean": "1.48",
+        "se": "0.25",
+        "marker": null
+      },
+      "f": "0.21",
+      "p": ".82",
+      "partial_eta_squared": ".04"
+    }
+  ]
+}
