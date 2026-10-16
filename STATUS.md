@@ -186,3 +186,7 @@ Close the same-trial CBIT reporting chain unless materially corrected evidence a
 ### Public journal
 
 Today's public feed adds a dated functional-outcome note and retains the approved optional activity catalog, selecting notice-one-thing. Collection and shared voting remain disabled. The [bounded source-link ledger](public/link-checks/2026-10-16.json) records two retrievable primary sources and one access-limited link, not a confirmed broken source. Publication readback will be recorded after verification.
+
+### Publication verification - 16 October 2026
+
+All 37 research/publication files matched their committed contents on connector readback from 5c1591020fdada505548c040ba1b54a6da74c05f. At 02:54:36 UTC, ordinary anonymous HTTP checks confirmed production /api/public-feed and raw GitHub both returned HTTP 200 and JSON matching the authored October 16 feed. Production reported X-Journal-Source: repository, updatedAt 2026-10-16T02:53:02Z, notice-one-thing and the new timeline title. The earlier urllib403 was route-specific; no security settings or collection changed. This verifies feed propagation, not fresh rendered-page accessibility testing.
