@@ -190,3 +190,17 @@ Today's public feed adds a dated functional-outcome note and retains the approve
 ### Publication verification - 16 October 2026
 
 All 37 research/publication files matched their committed contents on connector readback from 5c1591020fdada505548c040ba1b54a6da74c05f. At 02:54:36 UTC, ordinary anonymous HTTP checks confirmed production /api/public-feed and raw GitHub both returned HTTP 200 and JSON matching the authored October 16 feed. Production reported X-Journal-Source: repository, updatedAt 2026-10-16T02:53:02Z, notice-one-thing and the new timeline title. The earlier urllib403 was route-specific; no security settings or collection changed. This verifies feed propagation, not fresh rendered-page accessibility testing.
+
+## Completed daily research update - 17 October 2026
+
+The [dated scan](updates/2026-10-17/report.md) screened 16 unique PubMed records and 642 preprint DOI/version records. A newly encountered case report is retained only as a general pharmacovigilance signal without individual case details; first-publication timing remains unresolved across sources. An October 16 registry posting reports a mesenchymal-cell protocol withdrawn for inability to recruit, actual enrollment zero and no results. The date of the withdrawal itself is unverified. An older July retraction is explicitly excluded from positive mechanism evidence. No new controlled tic-treatment result or additional qualifying regulator notice was verified in the bounded searches. Access and coverage limits remain visible.
+
+The [historical adult pain audit](analyses/adult_pain/2026-10-17/report.md) advances the planned measurement question using a 76-person support-group sample. Its 56 pain reports concern past or present pain, not current or duration-defined chronic-pain prevalence. Help-seeking counts, percentages and subgroup membership conflict, so no corrected denominator or reliable treatment-success fraction is adopted. Perceived usefulness is not causal effectiveness. Conditional current/worst arithmetic and rounding checks expose another internal inconsistency without claiming clinical change. Eighteen implementation tests and an independent source/arithmetic review accompany the result. No participant data or simulation was used.
+
+### Next bounded decision
+
+Close this source audit unless a public correction or methodological documentation resolves the missing quantities. Next audit pain interference and ascertainment in Taylor, Anderson and Davies 2022, DOI 10.3389/fpsyt.2022.914044, PMID 35990066. Verify recruitment and pain-related entry criteria, interference questions and recall windows, adult-specific estimates and qualitative versus numeric claims. Its ages 16-71 include minors; do not assume adult-only or persistently severe-adult findings. Stop with the exact missing prerequisite if adult-specific estimates cannot be recovered from public aggregate reporting. Do not pool unlike samples or collect participant data.
+
+### Public journal
+
+Today's feed adds a dated pain-measurement note and separately identifies the scan's registry status finding without treatment results. The six approved optional activities are unchanged; rest-or-leave is selected. Shared voting and collection remain disabled. Nine prior timeline links and two primary sources passed ordinary HTTP/content checks; Pappert remains HTTP 403 access-limited, not confirmed broken. Publication verification is recorded only after actual readback.

@@ -1,0 +1,154 @@
+[
+  {
+    "id": "NCT05158439",
+    "url": "https://clinicaltrials.gov/api/v2/studies/NCT05158439",
+    "retrieved_utc": "2026-10-17T03:14:08.313063+00:00",
+    "sha256": "654548293bc6342ecf67be907c30870a6d4eeefb577508f43a9fa3b867a9ca4d",
+    "status": {
+      "statusVerifiedDate": "2026-10",
+      "overallStatus": "WITHDRAWN",
+      "whyStopped": "Inability to recruit participants",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2022-01",
+        "type": "ESTIMATED"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2026-01",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2026-01",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2021-12-02",
+      "studyFirstSubmitQcDate": "2021-12-02",
+      "studyFirstPostDateStruct": {
+        "date": "2021-12-15",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-10-13",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-10-16",
+        "type": "ACTUAL"
+      }
+    },
+    "design": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE1"
+      ],
+      "designInfo": {
+        "allocation": "NA",
+        "interventionModel": "SINGLE_GROUP",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 0,
+        "type": "ACTUAL"
+      }
+    },
+    "hasResults": false,
+    "references": {}
+  },
+  {
+    "id": "NCT02119611",
+    "url": "https://clinicaltrials.gov/api/v2/studies/NCT02119611",
+    "retrieved_utc": "2026-10-17T03:14:15.636917+00:00",
+    "sha256": "21f5ca36a56bd8ea712a43db724379033ceaeeee8e290323912fe14fbc988eb8",
+    "status": {
+      "statusVerifiedDate": "2026-09-25",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2014-04-02",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2030-12-01",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2030-12-01",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2014-04-16",
+      "studyFirstSubmitQcDate": "2014-04-17",
+      "studyFirstPostDateStruct": {
+        "date": "2014-04-21",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2026-10-15",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-10-16",
+        "type": "ACTUAL"
+      }
+    },
+    "design": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "NON_RANDOMIZED",
+        "interventionModel": "SINGLE_GROUP",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 300,
+        "type": "ESTIMATED"
+      }
+    },
+    "hasResults": false,
+    "references": {
+      "seeAlsoLinks": [
+        {
+          "label": "NIH Clinical Center Detailed Web Page",
+          "url": "https://clinicalstudies.info.nih.gov/cgi/detail.cgi?A_2014-N-0086.html"
+        }
+      ]
+    }
+  },
+  {
+    "id": "NCT07093541",
+    "url": "https://clinicaltrials.gov/api/v2/studies/NCT07093541",
+    "retrieved_utc": "2026-10-17T03:14:19.896525+00:00",
+    "sha256": "d23630cc7fb7ff5f8ccf86d4765f221ba8d23bc094f8a9764ac3957ae4dbd873",
+    "status": {
+      "statusVerifiedDate": "2026-03",
+      "overallStatus": "TEMPORARILY_NOT_AVAILABLE",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "studyFirstSubmitDate": "2025-07-10",
+      "studyFirstSubmitQcDate": "2025-07-21",
+      "studyFirstPostDateStruct": {
+        "date": "2025-07-30",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-10-08",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-10-14",
+        "type": "ACTUAL"
+      }
+    },
+    "design": {
+      "studyType": "EXPANDED_ACCESS",
+      "expandedAccessTypes": {
+        "treatment": true
+      }
+    },
+    "hasResults": false,
+    "references": {}
+  }
+]

@@ -1,0 +1,197 @@
+{
+  "date": "2026-10-17",
+  "core_retrieval_log": "search-log.json",
+  "supplementary_source_request_logs": [
+    "registry-supplement-selected.json",
+    "pubmed-supplement-metadata.json",
+    "crossref-selected-metadata.json",
+    "publisher-access-metadata.json"
+  ],
+  "timestamp_note": "Core and direct-HTTP request logs carry clock timestamps. Web-tool invocation times below are approximate from session clock reminders; the tool did not expose per-query request timestamps or total engine counts.",
+  "web_discovery_batches": [
+    {
+      "invoked_utc_approx": "2026-10-17T03:13:37Z",
+      "queries": [
+        {
+          "q": "Tourette \"October 16, 2026\""
+        },
+        {
+          "q": "\"tic disorder\" \"October 2026\" adult severe ADHD trial"
+        },
+        {
+          "q": "Tourette \"2026-10-16\""
+        },
+        {
+          "q": "Tourette site:trialsearch.who.int OR site:isrctn.com OR site:clinicaltrialsregister.eu \"2026\""
+        }
+      ],
+      "total_engine_count": null,
+      "displayed_result_count": 28,
+      "screening": "Discovery only. Relevant official leads were older or had no verified in-window first publication. Unrelated event calendars, obituaries, commercial pages and discussion threads excluded without extraction.",
+      "primary_leads": [
+        "https://www.nature.com/articles/s41572-026-00742-6",
+        "https://www.sciencedirect.com/science/article/pii/S0924977X26004657",
+        "https://www.sciencedirect.com/science/article/pii/S0169260726003020",
+        "https://movementdisorders.onlinelibrary.wiley.com/doi/10.1002/mds.70477",
+        "https://www.isrctn.com/pdf/ISRCTN82718960",
+        "https://www.isrctn.com/pdf/ISRCTN70758207"
+      ],
+      "limits": "October issue/supplement and a search-engine publication label do not verify exact first-publication date; no unverified new-window claim promoted."
+    },
+    {
+      "invoked_utc_approx": "2026-10-17T03:14:29Z",
+      "queries": [
+        {
+          "q": "\"Tourette\" \"October 16\" \"2026\" study",
+          "domains": [
+            "pubmed.ncbi.nlm.nih.gov",
+            "nature.com",
+            "sciencedirect.com",
+            "onlinelibrary.wiley.com",
+            "frontiersin.org"
+          ]
+        },
+        {
+          "q": "\"Tourette\" \"October 17\" \"2026\" study",
+          "domains": [
+            "pubmed.ncbi.nlm.nih.gov",
+            "nature.com",
+            "sciencedirect.com",
+            "onlinelibrary.wiley.com",
+            "frontiersin.org"
+          ]
+        },
+        {
+          "q": "\"NCT05158439\""
+        },
+        {
+          "q": "\"Tourette\" \"2026\" \"October\" trial",
+          "domains": [
+            "trialsearch.who.int",
+            "isrctn.com",
+            "clinicaltrialsregister.eu"
+          ]
+        }
+      ],
+      "total_engine_count": null,
+      "displayed_result_count": null,
+      "screening": "No additional verified in-window controlled tic-treatment result. Registry mirrors already show withdrawn cell protocol, but mirror metadata were not accepted to date the official status transition.",
+      "limits": "Result output partly truncated; no claim to have enumerated the search engine or screened full texts."
+    },
+    {
+      "invoked_utc_approx": "2026-10-17T03:14:48Z",
+      "queries": [
+        {
+          "q": "\"42881067\""
+        },
+        {
+          "q": "\"Tourette\" \"immunotherapy\" \"2026\" tics"
+        }
+      ],
+      "total_engine_count": null,
+      "screening": "PMID search produced identifier-collision noise plus a bibliographic mirror. Primary PubMed EFetch used for findings; mirror not used as clinical evidence."
+    },
+    {
+      "invoked_utc_approx": "2026-10-17T03:15:14Z",
+      "queries": [
+        {
+          "q": "\"Behavioral tics following sublingual allergen immunotherapy\""
+        }
+      ],
+      "total_engine_count": null,
+      "screening": "Official EM-consulte listing located; direct ordinary HTTP verified October16 corrected-proof availability. Irrelevant books, archives and commercial mirrors excluded."
+    },
+    {
+      "invoked_utc_approx": "2026-10-17T03:16:20Z",
+      "queries": [
+        {
+          "q": "\"10.1016/j.ijbiomac.2026.153656\"",
+          "domains": [
+            "sciencedirect.com",
+            "pubmed.ncbi.nlm.nih.gov",
+            "elsevier.com"
+          ]
+        },
+        {
+          "q": "\"10.1016/j.therap.2026.08.002\"",
+          "domains": [
+            "sciencedirect.com",
+            "em-consulte.com",
+            "pubmed.ncbi.nlm.nih.gov"
+          ]
+        }
+      ],
+      "total_engine_count": null,
+      "displayed_result_count": 2,
+      "screening": "Official PubMed original and retraction metadata corroborated historical retraction status; no supplementary case-report result."
+    }
+  ],
+  "web_access_attempts": [
+    {
+      "invoked_utc_approx": "2026-10-17T03:13:49Z",
+      "url": "https://trialsearch.who.int/",
+      "result": "Readable landing page. Major registry imports listed October12; no usable query export obtained.",
+      "eligible_new_records_verified": 0,
+      "limits": "No claim of a completed ICTRP search or zero worldwide trials."
+    },
+    {
+      "invoked_utc_approx": "2026-10-17T03:13:49Z",
+      "url": "https://www.isrctn.com/search?q=Tourette",
+      "result": "Web tool inaccessible.",
+      "count": null
+    },
+    {
+      "invoked_utc_approx": "2026-10-17T03:13:49Z",
+      "url": "https://euclinicaltrials.eu/search-for-clinical-trials/?lang=en",
+      "result": "Page shell; no result set.",
+      "count": null
+    },
+    {
+      "invoked_utc_approx": "2026-10-17T03:14:09Z",
+      "url": "https://clinicaltrials.gov/study/NCT05158439?tab=history",
+      "result": "Web extraction inaccessible; current official v2 record succeeded. No historical status transition verified."
+    },
+    {
+      "invoked_utc_approx": "2026-10-17T03:14:09Z",
+      "url": "https://clinicaltrials.gov/study/NCT02119611",
+      "result": "Web extraction shell only; official v2 API enabled eligibility/indication review."
+    },
+    {
+      "invoked_utc_approx": "2026-10-17T03:14:48Z",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42881067/",
+      "result": "Web extraction failed; EFetch official metadata and abstract succeeded."
+    },
+    {
+      "invoked_utc_approx": "2026-10-17T03:15:24Z",
+      "url": "https://www.em-consulte.com/revue/THERAP/souspresse/therapies",
+      "result": "Cached web extract lacked latest title despite newer search listing. Direct ordinary HTTP to official medecine/revue variant showed it; no first-publication inference made from cache discrepancy."
+    },
+    {
+      "invoked_utc_approx": "2026-10-17T03:15:40Z",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0040595726000934",
+      "result": "Web cache miss; direct HTTP200 returned Site Unavailable."
+    },
+    {
+      "invoked_utc_approx": "2026-10-17T03:15:40Z",
+      "url": "https://doi.org/10.1016/j.therap.2026.08.002",
+      "result": "Web tool inaccessible; official PubMed, Crossref and publisher listing available."
+    },
+    {
+      "invoked_utc_approx": "2026-10-17T03:15:40Z",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42527169/",
+      "result": "Web open gave minimal shell. EFetch and official-domain search verified notice metadata."
+    },
+    {
+      "invoked_utc_approx": "2026-10-17T03:17:04Z",
+      "url": "https://www.em-consulte.com/article/1846440/behavioral-tics-following-sublingual-allergen-immu",
+      "result": "Web tool inaccessible and direct HTTP403. Public listing succeeded. No full text reviewed."
+    }
+  ],
+  "publication_date_adjudication": {
+    "pmid_42881067": "PubMed electronic September23; PubMed/Entrez entry October15 (timezone unspecified); Crossref creation September23; deposit revision October15; EM-consulte corrected-proof platform availability October16. Newly encountered in overlap, not established first published October16.",
+    "pmid_42527169": "PubMed electronic July29; current issue October. Recent revision does not date retraction; publisher text/reason not verified."
+  },
+  "deduplication": "repository-dedup-searches.json plus baseline primary-ledger identifiers/titles and prior PubMed/preprint/registry keys. No positive retracted-study addition.",
+  "software_notes": "Initial ad hoc publisher helper could not import optional bs4 before making requests; replacement used only Python standard library. scan_sources.py was executed. scan_supplement.py consolidates the supplemental ad hoc retrievals and was syntax checked; it was not rerun as a separate full batch.",
+  "retention": "Original summaries, bibliographic/protocol metadata, identifiers, response hashes and search code only. No abstract, raw HTML/XML, full paper or individual case data saved."
+}

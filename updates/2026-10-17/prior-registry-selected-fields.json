@@ -1,0 +1,111 @@
+[
+  {
+    "nctId": "NCT07093541",
+    "title": "Expanded Access Program for Treatment With Ecopipam for Tourette's Disorder",
+    "status": {
+      "statusVerifiedDate": "2026-03",
+      "overallStatus": "TEMPORARILY_NOT_AVAILABLE",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "studyFirstSubmitDate": "2025-07-10",
+      "studyFirstSubmitQcDate": "2025-07-21",
+      "studyFirstPostDateStruct": {
+        "date": "2025-07-30",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-10-08",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-10-14",
+        "type": "ACTUAL"
+      }
+    },
+    "hasResults": false,
+    "conditions": [
+      "Tourettes Disorder",
+      "Tourette Disorder"
+    ],
+    "design": {
+      "studyType": "EXPANDED_ACCESS",
+      "expandedAccessTypes": {
+        "treatment": true
+      }
+    },
+    "eligibility": {
+      "healthyVolunteers": null,
+      "sex": "ALL",
+      "minimumAge": "6 Years",
+      "maximumAge": "50 Years",
+      "stdAges": [
+        "CHILD",
+        "ADULT"
+      ]
+    },
+    "source_url": "https://clinicaltrials.gov/study/NCT07093541",
+    "prior_scan_overlap": true,
+    "outcome_summary": "No structured outcome module in retrieved expanded-access record."
+  },
+  {
+    "nctId": "NCT07137442",
+    "title": "Distinguishing Tics and Functional Tics Using Clinical Neurophysiological Techniques",
+    "status": {
+      "statusVerifiedDate": "2026-09-16",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2026-10-20",
+        "type": "ESTIMATED"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2034-08-01",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2034-08-01",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2025-08-19",
+      "studyFirstSubmitQcDate": "2025-08-21",
+      "studyFirstPostDateStruct": {
+        "date": "2025-08-22",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-10-14",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-10-15",
+        "type": "ACTUAL"
+      }
+    },
+    "hasResults": false,
+    "conditions": [
+      "Tics",
+      "Functional Tics"
+    ],
+    "design": {
+      "studyType": "OBSERVATIONAL",
+      "designInfo": {
+        "observationalModel": "COHORT",
+        "timePerspective": "PROSPECTIVE"
+      },
+      "enrollmentInfo": {
+        "count": 75,
+        "type": "ESTIMATED"
+      }
+    },
+    "eligibility": {
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "80 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "source_url": "https://clinicaltrials.gov/study/NCT07137442",
+    "prior_scan_overlap": true,
+    "outcome_summary": "Registered two-day EEG beta-power comparison before tic events; no treatment outcome."
+  }
+]

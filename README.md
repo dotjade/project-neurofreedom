@@ -103,3 +103,10 @@ The repository and https://tourette.fyi/ became public on 13 October 2026 after 
 ## How to continue
 
 Read the protocol and latest status first. Verify the latest source and repository version before changing claims. Add evidence with provenance and retain contradictory and negative findings. Record what was actually done, what is only proposed, and what is blocked. Do not claim data access, an analysis, collaboration or scheduled research is active until verified.
+
+## Research update - 17 October 2026
+
+- [Dated evidence and registry scan](updates/2026-10-17/report.md): a signal-only case report, a withdrawn zero-enrollment protocol and a historical retraction, with source dates and inference limits kept separate.
+- [Adult pain measurement audit](analyses/adult_pain/2026-10-17/report.md): pain windows, inconsistent care denominators and limits of perceived usefulness.
+- [Reproducible arithmetic](analyses/adult_pain/2026-10-17/aggregate_checks.json) and [independent review](analyses/adult_pain/2026-10-17/review/REVIEW.md).
+- [Displayed-link checks](public/link-checks/2026-10-17.json).

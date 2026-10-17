@@ -1,0 +1,476 @@
+{
+  "source": {
+    "id": "Malek2025",
+    "title": "Coping with pain among adults with chronic tic disorders",
+    "authors": [
+      "Agnieszka Małek"
+    ],
+    "doi": "10.3389/fpsyg.2025.1537088",
+    "pmid": "40808742",
+    "pmcid": "PMC12344498",
+    "journal": "Frontiers in Psychology",
+    "volume": 16,
+    "article": "1537088",
+    "publication_date": "2025-07-30",
+    "data_collection": "2023-07",
+    "received": "2024-11-29",
+    "accepted": "2025-07-15",
+    "pubmed_history": "2025-08-14 12:24 (timezone unspecified)",
+    "extraction_date": "2026-10-17",
+    "primary_url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2025.1537088/full",
+    "pdf_url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2025.1537088/pdf",
+    "supplement_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12344498/supplementaryFiles",
+    "license": "CC BY 4.0, verified publisher copyright and Crossref license metadata",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "historical_not_new_publication": true
+  },
+  "design": {
+    "type": "Cross-sectional convenience-sample questionnaire and interview study; no assigned intervention or comparator",
+    "population": "Current attendees of adult tic-disorder support groups in several Polish locations; available willing members in July 2023",
+    "eligibility": "Age at least 18 and neurologist diagnosis of GTS or CMTD under DSM-5",
+    "diagnostic_verification_limit": "Prior neurologist diagnosis specified; independent re-diagnosis or chart verification not described",
+    "n": 76,
+    "men": 38,
+    "women": 38,
+    "age_range": [
+      18,
+      51
+    ],
+    "age_mean": 31.34,
+    "age_sd": 10.17,
+    "diagnoses": {
+      "GTS": 57,
+      "CMTD": 19,
+      "chronic_vocal_tic_disorder": 0
+    },
+    "diagnosis_by_gender": {
+      "men": {
+        "GTS": 31,
+        "CMTD": 7
+      },
+      "women": {
+        "GTS": 26,
+        "CMTD": 12
+      }
+    },
+    "timing": "Paper questionnaires without time limit; online one-to-one YGTSS interview within one week",
+    "followup": "No longitudinal outcome follow-up; retrospective worst pain and recalled care",
+    "sample_size_basis": "Available willing members, no a priori power calculation",
+    "participant_flow": "Number invited, refusals, partial responders and outcome-specific missingness not reported",
+    "severe_persistence": "No verified severe-adult subgroup, severity-duration criterion or continuous severe-persistence classification",
+    "source_location": "Methods and Results sections 2–3; Table 1"
+  },
+  "instruments": [
+    {
+      "name": "Polish YGTSS",
+      "construct": "Reported 0–100 combined tic severity and daily impairment score, not an isolated 0–50 total tic score",
+      "timing": "Interview within one week of questionnaires; interview rating recall window not explicitly stated in this report",
+      "limits": "Component tic and impairment scores not reported separately; pain association does not isolate pure tic severity"
+    },
+    {
+      "name": "VAS",
+      "construct": "Self-rated present and recalled worst tic-related pain, 0–10",
+      "timing": "Present versus worst; worst-pain look-back period not specified, no average/typical-pain window",
+      "limits": "Neither elapsed time nor repeat prospective follow-up; cannot interpret contrast as temporal worsening/improvement or treatment response"
+    },
+    {
+      "name": "Polish SF-MPQ-2",
+      "construct": "Continuous, intermittent, neuropathic-descriptor and affective pain dimensions",
+      "timing": "Recall window not explicitly stated",
+      "limits": "Version citation, item denominator and domain-score computation inadequately specified. Table 5 percentages cannot be assumed within-gender prevalence. No clinically confirmed neuropathic mechanism or validated pain-interference endpoint follows from descriptors"
+    },
+    {
+      "name": "Polish CSQ",
+      "construct": "Seven coping strategies plus distinct 0–6 subjective pain-control and ability-to-reduce-pain items",
+      "limits": "Strategy use does not show effectiveness; no causal recommendation or moral judgment about coping"
+    },
+    {
+      "name": "Polish BPCQ",
+      "construct": "Belief in own control, physicians and chance",
+      "limits": "Belief is not actual treatment efficacy. Item counts, subscale maximums and normalization not specified; comparing raw subscale totals requires verified scoring"
+    },
+    {
+      "name": "Study care-seeking survey, Appendix Part II",
+      "construct": "Recalled professional/therapeutic help, provider/treatment choices, perceived usefulness, reasons for lack of success",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12344498/supplementaryFiles",
+      "supplement_checked": "Both rendered pages of blank questionnaire inspected",
+      "response_options": "Help-seeking and relief items each permit yes, no, and uncertain/cannot remember; provider, treatment and reasons permit multiple answers",
+      "timing": "No bounded recall window or minimum duration of relief specified",
+      "limits": "No per-treatment denominator, dose, timing, adherence, counterfactual or published counts for uncertain responses. Non-positive responses must not all be recoded as treatment failures"
+    }
+  ],
+  "pain_counts": {
+    "past_or_present_pain": 56,
+    "all_respondents": 76,
+    "reported_percent": 73.7,
+    "pain_by_gender": {
+      "men": 26,
+      "women": 30
+    },
+    "pain_by_gender_diagnosis": {
+      "men": {
+        "GTS": 19,
+        "CMTD": 7
+      },
+      "women": {
+        "GTS": 20,
+        "CMTD": 10
+      }
+    },
+    "source_location": "Section 4; Tables 1–3",
+    "interpretation": "Sample proportion endorsing past-or-present pain, not current prevalence, chronic-pain prevalence, representative adult population prevalence or severity distribution"
+  },
+  "vas_table3": [
+    {
+      "window": "present",
+      "diagnosis": "all",
+      "men": {
+        "n": 26,
+        "median": 3,
+        "mean": 3.3,
+        "sd": 1.3
+      },
+      "women": {
+        "n": 30,
+        "median": 2.5,
+        "mean": 2.6,
+        "sd": 1.8
+      },
+      "gender_comparison_p": 0.092,
+      "source_location": "Table 3; subgroup denominators from section 4/Table 2"
+    },
+    {
+      "window": "present",
+      "diagnosis": "GTS",
+      "men": {
+        "n": 19,
+        "median": 3,
+        "mean": 3.2,
+        "sd": 1.4
+      },
+      "women": {
+        "n": 20,
+        "median": 2.5,
+        "mean": 2.8,
+        "sd": 1.8
+      },
+      "gender_comparison_p": 0.411,
+      "source_location": "Table 3; subgroup denominators from section 4/Table 2"
+    },
+    {
+      "window": "present",
+      "diagnosis": "CMTD",
+      "men": {
+        "n": 7,
+        "median": 3,
+        "mean": 3.4,
+        "sd": 1.0
+      },
+      "women": {
+        "n": 10,
+        "median": 2.5,
+        "mean": 2.4,
+        "sd": 1.7
+      },
+      "gender_comparison_p": 0.315,
+      "source_location": "Table 3; subgroup denominators from section 4/Table 2"
+    },
+    {
+      "window": "worst",
+      "diagnosis": "all",
+      "men": {
+        "n": 26,
+        "median": 4,
+        "mean": 4.3,
+        "sd": 1.5
+      },
+      "women": {
+        "n": 30,
+        "median": 4,
+        "mean": 4.3,
+        "sd": 2.1
+      },
+      "gender_comparison_p": 0.743,
+      "source_location": "Table 3; subgroup denominators from section 4/Table 2"
+    },
+    {
+      "window": "worst",
+      "diagnosis": "GTS",
+      "men": {
+        "n": 19,
+        "median": 4,
+        "mean": 4.6,
+        "sd": 1.5
+      },
+      "women": {
+        "n": 20,
+        "median": 5,
+        "mean": 4.6,
+        "sd": 1.9
+      },
+      "gender_comparison_p": 1.0,
+      "source_location": "Table 3; subgroup denominators from section 4/Table 2"
+    },
+    {
+      "window": "worst",
+      "diagnosis": "CMTD",
+      "men": {
+        "n": 7,
+        "median": 4,
+        "mean": 3.6,
+        "sd": 1.0
+      },
+      "women": {
+        "n": 10,
+        "median": 3.5,
+        "mean": 4.2,
+        "sd": 2.5
+      },
+      "gender_comparison_p": 0.669,
+      "source_location": "Table 3; subgroup denominators from section 4/Table 2"
+    }
+  ],
+  "ygtss": {
+    "all": {
+      "n": 76,
+      "range": [
+        5,
+        78
+      ],
+      "mean": 38.67,
+      "sd_reported": 16.0
+    },
+    "men": {
+      "n": 38,
+      "mean": 40.95,
+      "sd": 19.31
+    },
+    "women": {
+      "n": 38,
+      "mean": 36.39,
+      "sd": 18.67
+    },
+    "pain_group": {
+      "n": 56,
+      "range": [
+        7,
+        78
+      ],
+      "mean": 42.63,
+      "sd": 16.77
+    },
+    "pain_men": {
+      "n": 26,
+      "mean": 45.81,
+      "sd": 17.2
+    },
+    "pain_women": {
+      "n": 30,
+      "mean": 39.87,
+      "sd": 16.17
+    },
+    "source_location": "Section 3 and Table 2",
+    "warning": "Overall SD 16.00 is incompatible with the displayed complete sex partition; no corrected SD adopted"
+  },
+  "correlations_table4": [
+    {
+      "gender": "men",
+      "diagnosis": "all",
+      "n": 26,
+      "rho_present_vs_ygtss": 0.189,
+      "rho_worst_vs_ygtss": 0.179,
+      "present_p_less_than_mark": null,
+      "worst_p_less_than_mark": null,
+      "exact_p_and_ci": "Not supplied"
+    },
+    {
+      "gender": "men",
+      "diagnosis": "GTS",
+      "n": 19,
+      "rho_present_vs_ygtss": 0.206,
+      "rho_worst_vs_ygtss": 0.159,
+      "present_p_less_than_mark": null,
+      "worst_p_less_than_mark": null,
+      "exact_p_and_ci": "Not supplied"
+    },
+    {
+      "gender": "men",
+      "diagnosis": "CMTD",
+      "n": 7,
+      "rho_present_vs_ygtss": -0.095,
+      "rho_worst_vs_ygtss": 0.286,
+      "present_p_less_than_mark": null,
+      "worst_p_less_than_mark": null,
+      "exact_p_and_ci": "Not supplied"
+    },
+    {
+      "gender": "women",
+      "diagnosis": "all",
+      "n": 30,
+      "rho_present_vs_ygtss": 0.54,
+      "rho_worst_vs_ygtss": 0.363,
+      "present_p_less_than_mark": 0.01,
+      "worst_p_less_than_mark": 0.05,
+      "exact_p_and_ci": "Not supplied"
+    },
+    {
+      "gender": "women",
+      "diagnosis": "GTS",
+      "n": 20,
+      "rho_present_vs_ygtss": 0.577,
+      "rho_worst_vs_ygtss": 0.153,
+      "present_p_less_than_mark": 0.01,
+      "worst_p_less_than_mark": null,
+      "exact_p_and_ci": "Not supplied"
+    },
+    {
+      "gender": "women",
+      "diagnosis": "CMTD",
+      "n": 10,
+      "rho_present_vs_ygtss": 0.057,
+      "rho_worst_vs_ygtss": 0.472,
+      "present_p_less_than_mark": null,
+      "worst_p_less_than_mark": null,
+      "exact_p_and_ci": "Not supplied"
+    }
+  ],
+  "help_seeking": {
+    "reported_percent": 86,
+    "men_count": 19,
+    "women_count": 31,
+    "relief_men_count": 4,
+    "relief_women_count": 6,
+    "relief_reported_percent": 18,
+    "relief_claimed_denominator": "People seeking professional help",
+    "relief_duration": "Narrative says reported effects temporary or insufficient; no numeric duration or separate durable-benefit count",
+    "pain_clinic_users": 0,
+    "provider_percentages_reported": {
+      "primary_care": 37.5,
+      "neurologist": 57.1,
+      "psychiatrist": 30.3,
+      "physiotherapist": 21.4,
+      "psychotherapist": 12.5,
+      "acupuncture": 3.6
+    },
+    "provider_denominators": "Not reliably defined. Multiple choices allowed, percentages are not disjoint categories. Do not infer counts or divide by asserted seekers without explicit assumptions",
+    "source_location": "Section 9 and supplementary questionnaire",
+    "conflicts": [
+      "19+31=50, not the rounded86% of 56 under conventional rounding",
+      "31 women seeking help exceeds30 women in the pain subgroup",
+      "10 relief reports yield17.86% of 56 but20% of50; neither establishes18% of seekers"
+    ]
+  },
+  "negative_and_counterevidence": [
+    "No nominal gender difference for present or worst VAS overall or by diagnosis (Table 3); nonsignificance is not equivalence.",
+    "No reported significant pain-intensity differences by self-reported depression. Depression was not clinically screened in this study, and subgroup sample sizes are not supplied.",
+    "Only three of twelve Table 4 coefficients are marked nominally significant; female-GTS worst pain coefficient0.153 is unmarked, despite broad prose emphasizing women with GTS.",
+    "No reported association between coping strategies and YGTSS; no reported association between BPCQ beliefs and current or worst pain.",
+    "No nominal gender difference across the four reported SF-MPQ-2 domain comparisons or three BPCQ comparisons.",
+    "No participant reported complete subjective ability to reduce pain in section 8; this differs from the separately measured complete control item.",
+    "Care reports cannot show that professional care fails causally, nor that self-management is superior; no treatment allocation or longitudinal comparator exists."
+  ],
+  "other_aggregate_summaries": {
+    "sf_mpq2_domains_reported": [
+      {
+        "domain": "continuous",
+        "men_mean": 2.79,
+        "men_sd": 1.37,
+        "women_mean": 2.94,
+        "women_sd": 1.56,
+        "p": 0.799
+      },
+      {
+        "domain": "intermittent",
+        "men_mean": 2.86,
+        "men_sd": 1.21,
+        "women_mean": 2.78,
+        "women_sd": 1.56,
+        "p": 1.0
+      },
+      {
+        "domain": "neuropathic_descriptors",
+        "men_mean": 2.17,
+        "men_sd": 0.75,
+        "women_mean": 3.45,
+        "women_sd": 2.25,
+        "p": 0.35
+      },
+      {
+        "domain": "affective",
+        "men_mean": 5.0,
+        "men_sd": 2.14,
+        "women_mean": 5.23,
+        "women_sd": 2.42,
+        "p": 0.916
+      }
+    ],
+    "sf_mpq2_warning": "Values preserved as reported, not revalidated person-level means. Item cells omitted because exact denominator/number of endorsers is uncertain and to avoid possible singleton reconstruction.",
+    "csq_gender_pvalues": {
+      "diverting_attention": 0.001,
+      "reinterpreting": 0.08,
+      "catastrophizing": 0.001,
+      "ignoring": 0.843,
+      "coping_self_statements": 0.391,
+      "praying_hoping": 0.021,
+      "increasing_activity": 0.006
+    },
+    "csq_warning": "Reported nominal associations; no multiplicity adjustment described, U/p consistency not resolved, no causal or general gender claims",
+    "subjective_pain_control_percentages_reported": {
+      "partial": 92.86,
+      "complete": 3.57,
+      "none": 3.57
+    },
+    "subjective_ability_to_reduce_pain_percentages_reported": {
+      "partial": 89.29,
+      "none": 10.71,
+      "complete": 0
+    },
+    "bpcq_gender_pvalues": {
+      "internal": 0.156,
+      "physicians": 0.254,
+      "chance": 0.496
+    }
+  },
+  "reporting_concerns": [
+    {
+      "location": "Section9",
+      "issue": "Help-seeking counts and percentages inconsistent, plus impossible female subset count; corrected denominator unknown"
+    },
+    {
+      "location": "Table 3 female worst pain",
+      "issue": "Displayed overall mean 4.3 incompatible with weighted diagnosis-specific means 4.6 and 4.2 using 20/10; rounding does not reconcile them"
+    },
+    {
+      "location": "Table 1",
+      "issue": "ADHD count 10 labelled 7.6% and sleep count 20 labelled 15.2%, inconsistent with n=76; female-pain percentage absent"
+    },
+    {
+      "location": "Section3/Table 2",
+      "issue": "Overall YGTSS SD 16.00 incompatible with sex-partition summaries; no corrected quantity selected"
+    },
+    {
+      "location": "Table 5",
+      "issue": "Ambiguous percentage denominator and domain-score formula; do not reconstruct respondent-level domains. Additional score-sum discrepancy noted by independent review"
+    },
+    {
+      "location": "Sections7–8",
+      "issue": "HTML/XML renders several coefficient symbols as p while PDF resembles rho; coefficient/encoding ambiguity rather than verified exact p-values. Positive 0.441 conflicts with inverse-direction prose. Do not repair sign or significance."
+    },
+    {
+      "location": "Table 7",
+      "issue": "No subscale-scoring definition sufficient to verify relative importance from raw totals; external range concern remains version-dependent"
+    }
+  ],
+  "uncertainty": {
+    "reported": "Means/SDs, medians, selected ranges, rounded p-values and Spearman coefficients/significance symbols",
+    "unavailable": "Confidence intervals for prevalence, pain differences/correlations, care usefulness or effects; paired covariance; counts by severe-pain category; present-pain-positive count; corrected help-seeking denominator; duration-defined pain and benefit",
+    "not_computed": "No confidence interval, paired test, treatment effect, equivalence bound, clinically important threshold, respondent-level reconstruction or causal mediation"
+  },
+  "ethics_funding_data": {
+    "ethics": "Bioethics Committee of the Regional Medical Chamber of Gdańsk, Poland; written informed consent reported",
+    "funding": "Author reports no financial support",
+    "conflicts": "Author reports no commercial/financial relationship construed as conflict",
+    "data_access": "Author availability-on-request statement, not granted access; only blank questionnaire supplement retrieved, no participant data requested or used"
+  },
+  "privacy": "Original aggregate extraction only; no participant quotations, singleton values, raw paper, individual/family data or participant records in deliverables"
+}

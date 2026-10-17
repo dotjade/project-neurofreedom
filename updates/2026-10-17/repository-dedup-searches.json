@@ -1,0 +1,59 @@
+[
+  {
+    "query": "NCT05158439",
+    "repository": "dotjade/project-neurofreedom",
+    "scope": "GitHub connector default-branch code search; topn=20",
+    "results": 0,
+    "retrieved_utc_approx": "2026-10-17T03:14:10Z\u201303:15:42Z"
+  },
+  {
+    "query": "NCT02119611",
+    "repository": "dotjade/project-neurofreedom",
+    "scope": "GitHub connector default-branch code search; topn=20",
+    "results": 0,
+    "retrieved_utc_approx": "2026-10-17T03:14:10Z\u201303:15:42Z"
+  },
+  {
+    "query": "39947542",
+    "repository": "dotjade/project-neurofreedom",
+    "scope": "GitHub connector default-branch code search; topn=20",
+    "results": 0,
+    "retrieved_utc_approx": "2026-10-17T03:14:10Z\u201303:15:42Z"
+  },
+  {
+    "query": "42527169",
+    "repository": "dotjade/project-neurofreedom",
+    "scope": "GitHub connector default-branch code search; topn=20",
+    "results": 0,
+    "retrieved_utc_approx": "2026-10-17T03:14:10Z\u201303:15:42Z"
+  },
+  {
+    "query": "GFAP",
+    "repository": "dotjade/project-neurofreedom",
+    "scope": "GitHub connector default-branch code search; topn=20",
+    "results": 0,
+    "retrieved_utc_approx": "2026-10-17T03:14:10Z\u201303:15:42Z"
+  },
+  {
+    "query": "42881067",
+    "repository": "dotjade/project-neurofreedom",
+    "scope": "GitHub connector default-branch code search; topn=20",
+    "results": 0,
+    "retrieved_utc_approx": "2026-10-17T03:14:10Z\u201303:15:42Z"
+  },
+  {
+    "query": "10.1016/j.therap.2026.08.002",
+    "repository": "dotjade/project-neurofreedom",
+    "scope": "GitHub connector default-branch code search; topn=20",
+    "results": 0,
+    "retrieved_utc_approx": "2026-10-17T03:14:10Z\u201303:15:42Z"
+  },
+  {
+    "query": "42850293",
+    "repository": "dotjade/project-neurofreedom",
+    "scope": "GitHub connector default-branch code search; topn=10",
+    "results": 0,
+    "retrieved_utc_approx": "2026-10-17T03:21:14Z",
+    "interpretation": "No match verified; do not call this primer previously included based on a general status description alone."
+  }
+]

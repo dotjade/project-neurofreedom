@@ -1,0 +1,85 @@
+{
+  "files": [
+    {
+      "path": "baseline-metadata.json",
+      "bytes": 107494,
+      "sha256": "8bda75cb9fe55feef088e8fab83d841187572009229f798291f1435d2fc95ba2"
+    },
+    {
+      "path": "crossref-selected-metadata.json",
+      "bytes": 5116,
+      "sha256": "b322750255c63f6803aba1607f77604a4c2aac4b2731b687c2ed855c9a2306ae"
+    },
+    {
+      "path": "integrity-evidence.jsonl",
+      "bytes": 1755,
+      "sha256": "ca5403b1cf534ed77a4fd3e818daf3a972d6a96581332431c747dc7f7a9173f7"
+    },
+    {
+      "path": "primary-evidence.jsonl",
+      "bytes": 3464,
+      "sha256": "e6f460da69a38b7cca0e8ec7746bd7123c0abecf9b135b33913921cf57938fcc"
+    },
+    {
+      "path": "prior-registry-selected-fields.json",
+      "bytes": 2989,
+      "sha256": "bf2ea4fab858dc40cd8a349529029ae059b1f48aa52bf6643c83df3e165d7b69"
+    },
+    {
+      "path": "publisher-access-metadata.json",
+      "bytes": 1403,
+      "sha256": "e8916718b6dc6e747978799ff0e22b3cf13c63687d8994b5f18895deeb0c7755"
+    },
+    {
+      "path": "pubmed-supplement-metadata.json",
+      "bytes": 4491,
+      "sha256": "fc216342bf61f3db00acf453e791b7a8ca02aaa6e29723163706e93ac8da6763"
+    },
+    {
+      "path": "registry-evidence.jsonl",
+      "bytes": 6274,
+      "sha256": "0b8bbe41eed34664bcdb912ce7edbed3f3f9164f443186a95509b29d290803c3"
+    },
+    {
+      "path": "registry-supplement-selected.json",
+      "bytes": 4169,
+      "sha256": "21d09e823cf0f5dfd4239117dfc16b177f5146c29efcaf5d2f823391b4f40a6d"
+    },
+    {
+      "path": "report.md",
+      "bytes": 11848,
+      "sha256": "2c41a368a4b807fd648d698a5bf047ccfbea3a7135416ab3765ad3d801e7216c"
+    },
+    {
+      "path": "repository-dedup-searches.json",
+      "bytes": 2039,
+      "sha256": "2d363d9d9a32cedfbe1a22869a02e0b9067f28fd5aeda4b22a2854a46222dfe9"
+    },
+    {
+      "path": "scan_sources.py",
+      "bytes": 9558,
+      "sha256": "c63a671baa95cc681659953d651e52073159868e713ab79e366d6d27d5a8d1cc"
+    },
+    {
+      "path": "scan_supplement.py",
+      "bytes": 4255,
+      "sha256": "24d86228fac6503f8e94143b3ee693dc08557e99f681bfce80bc50d8668a083a"
+    },
+    {
+      "path": "search-log.json",
+      "bytes": 157272,
+      "sha256": "f3d952a708a7c08276d3261ecd952d4eec1252fde997957c5c4679bdaa594d07"
+    },
+    {
+      "path": "source-checks.json",
+      "bytes": 8811,
+      "sha256": "2d14fb3db3137d2069acab6d13da1dd7cc3570bb1b6abb7555e83d3608e2eee8"
+    },
+    {
+      "path": "validation.json",
+      "bytes": 1420,
+      "sha256": "6ecef08089b0a610553db4de427ad9da473310b7ca39e1aae648b05d46f03b85"
+    }
+  ],
+  "publication_scope": "Only files listed here. Do not include __pycache__."
+}

@@ -1,0 +1,25 @@
+Saved aggregate_checks.json; no clinical inference or corrected denominator.
+
+test_conditional_vas (test_aggregate_checks.AggregateTests.test_conditional_vas) ... ok
+test_determinism (test_aggregate_checks.AggregateTests.test_determinism) ... ok
+test_female_conflict (test_aggregate_checks.AggregateTests.test_female_conflict) ... ok
+test_help_count_sum (test_aggregate_checks.AggregateTests.test_help_count_sum) ... ok
+test_impossible_subset (test_aggregate_checks.AggregateTests.test_impossible_subset) ... ok
+test_interval_boundaries (test_aggregate_checks.AggregateTests.test_interval_boundaries) ... ok
+test_no_causal_or_corrected_rates (test_aggregate_checks.AggregateTests.test_no_causal_or_corrected_rates) ... ok
+test_pain_partition (test_aggregate_checks.AggregateTests.test_pain_partition) ... ok
+test_pain_percentage (test_aggregate_checks.AggregateTests.test_pain_percentage) ... ok
+test_partition_consistency (test_aggregate_checks.AggregateTests.test_partition_consistency) ... ok
+test_percentage_invalid (test_aggregate_checks.AggregateTests.test_percentage_invalid) ... ok
+test_relief_count (test_aggregate_checks.AggregateTests.test_relief_count) ... ok
+test_relief_scenarios (test_aggregate_checks.AggregateTests.test_relief_scenarios) ... ok
+test_rounding_candidate_is_conditional (test_aggregate_checks.AggregateTests.test_rounding_candidate_is_conditional) ... ok
+test_rounding_edge (test_aggregate_checks.AggregateTests.test_rounding_edge) ... ok
+test_rounding_ranges_not_ci (test_aggregate_checks.AggregateTests.test_rounding_ranges_not_ci) ... ok
+test_weighted_exact (test_aggregate_checks.AggregateTests.test_weighted_exact) ... ok
+test_weighted_invalid (test_aggregate_checks.AggregateTests.test_weighted_invalid) ... ok
+
+----------------------------------------------------------------------
+Ran 18 tests in 0.001s
+
+OK

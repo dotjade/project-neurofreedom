@@ -1,0 +1,157 @@
+{
+  "pain_fraction": {
+    "numerator": 56,
+    "denominator": 76,
+    "percent": 73.68421052631578,
+    "within_men_percent": 68.42105263157895,
+    "within_women_percent": 78.94736842105263,
+    "time_frame": "Past OR present; not current prevalence and not a defined chronic-pain case count."
+  },
+  "sex_weighted_displayed_means": {
+    "present": 2.9250000000000003,
+    "worst": 4.3,
+    "worst_minus_present": 1.3749999999999996,
+    "warning": "Arithmetic summaries of rounded displayed aggregates, not observed raw-data means; female worst-pain stratum inconsistency remains. Gap is neither longitudinal change nor a treatment effect, and has no paired inference."
+  },
+  "table3_rounding_checks": [
+    {
+      "outcome": "present",
+      "sex": "men",
+      "diagnosis_weighted_mean": 3.2538461538461543,
+      "diagnosis_weighted_rounding_interval": [
+        3.2038461538461545,
+        3.303846153846154
+      ],
+      "printed_total_rounding_interval": [
+        3.25,
+        3.3499999999999996
+      ],
+      "rounding_can_reconcile": true
+    },
+    {
+      "outcome": "present",
+      "sex": "women",
+      "diagnosis_weighted_mean": 2.6666666666666665,
+      "diagnosis_weighted_rounding_interval": [
+        2.6166666666666667,
+        2.7166666666666663
+      ],
+      "printed_total_rounding_interval": [
+        2.5500000000000003,
+        2.65
+      ],
+      "rounding_can_reconcile": true
+    },
+    {
+      "outcome": "worst",
+      "sex": "men",
+      "diagnosis_weighted_mean": 4.3307692307692305,
+      "diagnosis_weighted_rounding_interval": [
+        4.280769230769231,
+        4.38076923076923
+      ],
+      "printed_total_rounding_interval": [
+        4.25,
+        4.35
+      ],
+      "rounding_can_reconcile": true
+    },
+    {
+      "outcome": "worst",
+      "sex": "women",
+      "diagnosis_weighted_mean": 4.466666666666667,
+      "diagnosis_weighted_rounding_interval": [
+        4.416666666666667,
+        4.516666666666667
+      ],
+      "printed_total_rounding_interval": [
+        4.25,
+        4.35
+      ],
+      "rounding_can_reconcile": false
+    }
+  ],
+  "help_seeking": {
+    "printed_count_sum": 50,
+    "printed_counts_as_percent_pain_group": 89.28571428571429,
+    "printed_percent": 86,
+    "female_seek_count_exceeds_female_pain_count": true,
+    "hypothetical_counts_that_round_to_86_percent_of_56": [
+      48
+    ],
+    "warning": "Do not choose a corrected help-seeking numerator. The 48 alternative is a diagnostic scenario, not a recovered count."
+  },
+  "relief": {
+    "printed_count_sum": 10,
+    "percent_of_pain_group_56": 17.857142857142858,
+    "percent_of_printed_seeker_sum_50": 20.0,
+    "percent_of_hypothetical_48_seekers": 20.833333333333336,
+    "printed_percent_of_seekers": 18,
+    "warning": "Unresolved denominator; subjective recalled usefulness, neither a trial response rate nor a causal effectiveness estimate."
+  },
+  "provider_denominator_checks": {
+    "primary_care": {
+      "reported_percent": 37.5,
+      "integer_counts_if_denominator_56_and_standard_one_decimal_rounding": [
+        21
+      ],
+      "nearest_integer_count_if_denominator_56": 21,
+      "warning": "Hypothetical arithmetic check only. Do not promote inferred counts or denominator into observed data. Provider categories are not established as exclusive."
+    },
+    "neurology": {
+      "reported_percent": 57.1,
+      "integer_counts_if_denominator_56_and_standard_one_decimal_rounding": [
+        32
+      ],
+      "nearest_integer_count_if_denominator_56": 32,
+      "warning": "Hypothetical arithmetic check only. Do not promote inferred counts or denominator into observed data. Provider categories are not established as exclusive."
+    },
+    "psychiatry": {
+      "reported_percent": 30.3,
+      "integer_counts_if_denominator_56_and_standard_one_decimal_rounding": [],
+      "nearest_integer_count_if_denominator_56": 17,
+      "warning": "Hypothetical arithmetic check only. Do not promote inferred counts or denominator into observed data. Provider categories are not established as exclusive."
+    },
+    "physiotherapy": {
+      "reported_percent": 21.4,
+      "integer_counts_if_denominator_56_and_standard_one_decimal_rounding": [
+        12
+      ],
+      "nearest_integer_count_if_denominator_56": 12,
+      "warning": "Hypothetical arithmetic check only. Do not promote inferred counts or denominator into observed data. Provider categories are not established as exclusive."
+    },
+    "psychotherapy": {
+      "reported_percent": 12.5,
+      "integer_counts_if_denominator_56_and_standard_one_decimal_rounding": [
+        7
+      ],
+      "nearest_integer_count_if_denominator_56": 7,
+      "warning": "Hypothetical arithmetic check only. Do not promote inferred counts or denominator into observed data. Provider categories are not established as exclusive."
+    },
+    "acupuncture": {
+      "reported_percent": 3.6,
+      "integer_counts_if_denominator_56_and_standard_one_decimal_rounding": [
+        2
+      ],
+      "nearest_integer_count_if_denominator_56": 2,
+      "warning": "Hypothetical arithmetic check only. Do not promote inferred counts or denominator into observed data. Provider categories are not established as exclusive."
+    }
+  },
+  "secondary_checks": {
+    "adhd_percent_if_denominator_76": 13.157894736842104,
+    "sleep_disorders_percent_if_denominator_76": 26.31578947368421,
+    "ygtss_pooled_from_displayed_sex_summaries": {
+      "mean": 38.67,
+      "sample_sd": 19.004751476056366
+    },
+    "ygtss_printed_total_sd": 16.0,
+    "table5_women_continuous_component_sum": 100,
+    "table5_women_continuous_printed_total": 98
+  },
+  "not_reproduced": [
+    "Paired participant-level current/worst analysis",
+    "Mann–Whitney or Spearman tests from raw data",
+    "Clinical diagnosis of neuropathic pain",
+    "Scoring validation of the exact Polish instrument versions"
+  ]
+}

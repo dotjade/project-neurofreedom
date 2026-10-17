@@ -1,0 +1,27 @@
+{
+  "checked_utc": "2026-10-17T03:21:33.091162+00:00",
+  "result": "passed",
+  "checks": [
+    "JSON valid: baseline-metadata.json",
+    "JSON valid: crossref-selected-metadata.json",
+    "JSONL valid: integrity-evidence.jsonl (1 records)",
+    "JSONL valid: primary-evidence.jsonl (1 records)",
+    "JSON valid: prior-registry-selected-fields.json",
+    "JSON valid: publisher-access-metadata.json",
+    "JSON valid: pubmed-supplement-metadata.json",
+    "JSONL valid: registry-evidence.jsonl (3 records)",
+    "JSON valid: registry-supplement-selected.json",
+    "JSON valid: repository-dedup-searches.json",
+    "JSON valid: search-log.json",
+    "JSON valid: source-checks.json",
+    "PubMed counts, dedup, completed decisions and prior overlap agree.",
+    "35 core retrievals succeeded; no worker errors.",
+    "642 preprint DOI/version pairs over22 complete observed pages; zero lexical matches.",
+    "Eight ClinicalTrials.gov occurrences reduce to3 retrieved records; one excluded as wrong population.",
+    "Three relevant/direct-recheck registry records agree with source fields.",
+    "Primary signal-only and retraction integrity records are separate.",
+    "No selected case narrative or raw PubMed XML present in publishable artifacts.",
+    "Both Python scripts syntax checked."
+  ],
+  "limits": "Arithmetic/format/selected-content checks; not independent clinical review or exhaustive privacy audit."
+}

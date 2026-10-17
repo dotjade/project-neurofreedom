@@ -1,0 +1,116 @@
+{
+  "repository_base": "8a10b5be05cfe8773929e77c403288dc9fd6babc",
+  "prerequisites_read": [
+    "README.md",
+    "RESEARCH_PROTOCOL.md",
+    "STATUS.md",
+    "evidence.jsonl (pain-relevant records)",
+    "analyses/cbit_functioning/2026-10-16/report.md"
+  ],
+  "prospective_question_file": "prespecified_question.md",
+  "source_checks": [
+    {
+      "label": "publisher_html",
+      "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2025.1537088/full",
+      "retrieved": "2026-10-17",
+      "status": "retrieved200",
+      "bytes": 870294,
+      "sha256": "f3df1af591a3f934fd6af1ce01c11854e358dcd4e453cb8df8b73a6f81707581",
+      "inspection": "text or metadata inspected"
+    },
+    {
+      "label": "publisher_pdf",
+      "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2025.1537088/pdf",
+      "retrieved": "2026-10-17",
+      "status": "retrieved200",
+      "bytes": 222459,
+      "sha256": "a630d9d2cb868e6af7ec23eadbb373bf02d2ccde9a8d7da0cf720b7c05cf8d4f",
+      "inspection": "PDF main pages3,4,6 visually checked; supplement pages1\u20132 visually checked; text/metadata read"
+    },
+    {
+      "label": "pubmed_efetch",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=40808742&retmode=xml",
+      "retrieved": "2026-10-17",
+      "status": "retrieved200",
+      "bytes": 25735,
+      "sha256": "95257867056beb6faaae351cd6949e72da1e49d168e597dcd039cadf2c4d6abe",
+      "inspection": "text or metadata inspected"
+    },
+    {
+      "label": "crossref",
+      "url": "https://api.crossref.org/works/10.3389/fpsyg.2025.1537088",
+      "retrieved": "2026-10-17",
+      "status": "retrieved200",
+      "bytes": 18771,
+      "sha256": "798a0ae74d66fb6a2e1fdf203b147dc710009085afeb3211ab438e6fc80bca26",
+      "inspection": "text or metadata inspected"
+    },
+    {
+      "label": "europepmc_xml",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12344498/fullTextXML",
+      "retrieved": "2026-10-17",
+      "status": "retrieved200",
+      "bytes": 116142,
+      "sha256": "60363d47324089670f3fa349e02cbff38f475acf523fdbd847af98d2934b2005",
+      "inspection": "text or metadata inspected"
+    },
+    {
+      "label": "supplement_zip",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12344498/supplementaryFiles",
+      "retrieved": "2026-10-17",
+      "status": "retrieved200",
+      "bytes": 119251,
+      "sha256": "8d7faf5bbe504d60754b769e51190a9037bcf051c736ce91f96142f9b8005203",
+      "inspection": "text or metadata inspected"
+    },
+    {
+      "label": "supplement_pdf",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12344498/supplementaryFiles",
+      "retrieved": "2026-10-17",
+      "status": "extracted from official supplement ZIP",
+      "bytes": 133715,
+      "sha256": "85b11a2d7abcb123a0211c69d66ac321f977937e1b96028b714d7cd4bb9018d3",
+      "inspection": "PDF main pages3,4,6 visually checked; supplement pages1\u20132 visually checked; text/metadata read"
+    }
+  ],
+  "searches": [
+    {
+      "date": "2026-10-17",
+      "source": "Web search",
+      "query": "\"10.3389/fpsyg.2025.1537088\" correction corrigendum retraction",
+      "result": "No correction/retraction notice located; publisher, PMC and PubMed records returned. Limited search, not comprehensive clearance."
+    },
+    {
+      "date": "2026-10-17",
+      "source": "Web search",
+      "query": "\"Coping with pain among adults with chronic tic disorders\" PMID PMC",
+      "result": "PMID40808742 and PMC12344498 corroborated."
+    },
+    {
+      "date": "2026-10-17",
+      "source": "Web search",
+      "query": "\"1537088\" \"Data Sheet\"; \"fpsyg.2025.1537088\" supplementary material figshare",
+      "result": "Advertised supplement; actual supplementaryFiles API retrieved blank2-page questionnaire."
+    },
+    {
+      "date": "2026-10-17",
+      "source": "Web search",
+      "query": "\"10.3389/fpsyt.2022.914044\"",
+      "result": "Next-source identity verified only; Taylor2022 PMID35990066; ages16\u201371 requires adult-specific caution, not full extraction today."
+    }
+  ],
+  "correction_retraction_check": {
+    "pubmed_comments_corrections": [],
+    "crossref_relation": {},
+    "crossref_update_to": null,
+    "conclusion": "No linked notice in inspected metadata and focused search; no exhaustive Crossmark/retraction clearance"
+  },
+  "access_limits": [
+    "Web PubMed open initially yielded no readable page; official EFetch supplied metadata.",
+    "PMC web opened a browser-check page; no CAPTCHA solved. Official EuropePMC XML and supplement APIs retrieved the open-access article and blank questionnaire.",
+    "Publisher XML web route failed; HTML and original PDF succeeded.",
+    "Web PDF screenshots failed with cache miss; downloaded publisher PDF rendered locally.",
+    "One speculative supplementary PDF route was inaccessible; not used as evidence."
+  ],
+  "exclusion": "No source paper/supplement binaries, participant files or screenshots included in deliverables."
+}
