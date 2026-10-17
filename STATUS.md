@@ -204,3 +204,7 @@ Close this source audit unless a public correction or methodological documentati
 ### Public journal
 
 Today's feed adds a dated pain-measurement note and separately identifies the scan's registry status finding without treatment results. The six approved optional activities are unchanged; rest-or-leave is selected. Shared voting and collection remain disabled. Nine prior timeline links and two primary sources passed ordinary HTTP/content checks; Pappert remains HTTP 403 access-limited, not confirmed broken. Publication verification is recorded only after actual readback.
+
+### Publication verification - 17 October 2026
+
+All 49 research/publication files matched their committed contents on connector readback from f7395781eeeda36262bff8206a8cdaba95c97783. At 03:23:53 UTC, production /api/public-feed and anonymous raw GitHub both returned HTTP 200 and JSON matching the authored feed, updatedAt 2026-10-17T03:22:49Z. Production identified the repository source; research/activity date October 17, rest-or-leave and the new pain-measurement entry were verified. This verifies feed propagation, not fresh rendered-page accessibility. No deployment, security setting or collection changed. [Verification details](updates/2026-10-17/publication-verification.json).

@@ -1,0 +1,270 @@
+{
+  "verifiedAt": "2026-10-17T03:23:53.681940+00:00",
+  "researchCommit": "f7395781eeeda36262bff8206a8cdaba95c97783",
+  "repositoryReadback": {
+    "files": [
+      {
+        "path": "analyses/adult_pain/2026-10-17/aggregate_inputs.json",
+        "match": true,
+        "sha": "1d4d6bf1779dc374b3b31fdd75c433da12a92872"
+      },
+      {
+        "path": "analyses/adult_pain/2026-10-17/execution_log.txt",
+        "match": true,
+        "sha": "5c5be23408991583373025481d77f9d3773384e2"
+      },
+      {
+        "path": "analyses/adult_pain/2026-10-17/extraction.json",
+        "match": true,
+        "sha": "94acdc0231b596b47e115c4b39c2418cf98c3272"
+      },
+      {
+        "path": "analyses/adult_pain/2026-10-17/evidence.jsonl",
+        "match": true,
+        "sha": "e03b18334203228abb1d20590778d70e24081ab5"
+      },
+      {
+        "path": "analyses/adult_pain/2026-10-17/report.md",
+        "match": true,
+        "sha": "7701dc5e7f9b62d027468c958712439238f581bc"
+      },
+      {
+        "path": "analyses/adult_pain/2026-10-17/prespecified_question.md",
+        "match": true,
+        "sha": "6c02c61ca228d544ed633dadabacc220ecfad8e8"
+      },
+      {
+        "path": "analyses/adult_pain/2026-10-17/aggregate_checks.py",
+        "match": true,
+        "sha": "84418e2952ffc2e1095ef2e400b7e3065458f183"
+      },
+      {
+        "path": "analyses/adult_pain/2026-10-17/provenance.json",
+        "match": true,
+        "sha": "0f13e8af824088053a3b5751e0e1b74b7363a7a8"
+      },
+      {
+        "path": "analyses/adult_pain/2026-10-17/aggregate_checks.json",
+        "match": true,
+        "sha": "182321fe62d9caaac9baa0a82bd72c950cafe6d2"
+      },
+      {
+        "path": "analyses/adult_pain/2026-10-17/README.md",
+        "match": true,
+        "sha": "6bf5d9a7d0495561d88e4a1b82b5e0f9052611b6"
+      },
+      {
+        "path": "analyses/adult_pain/2026-10-17/review/independent_inputs.json",
+        "match": true,
+        "sha": "85315c13bbbf31f90ded0f597cb5f317c465c234"
+      },
+      {
+        "path": "analyses/adult_pain/2026-10-17/test_aggregate_checks.py",
+        "match": true,
+        "sha": "a56f3ee81dd19cf2d11a7fc8ebbede34f60748da"
+      },
+      {
+        "path": "analyses/adult_pain/2026-10-17/review/audit_independent.py",
+        "match": true,
+        "sha": "6dea55c16688704e9f33fff6c8c611630ea303c2"
+      },
+      {
+        "path": "analyses/adult_pain/2026-10-17/review/main_comparison.json",
+        "match": true,
+        "sha": "d4cfb74cf8d4e8ec2fd5991bded55a8ce9164802"
+      },
+      {
+        "path": "analyses/adult_pain/2026-10-17/review/independent_audit_output.json",
+        "match": true,
+        "sha": "25784e97998b68d504e6c69cd31c9aac9a2ef282"
+      },
+      {
+        "path": "analyses/adult_pain/2026-10-17/review/audit_main.py",
+        "match": true,
+        "sha": "6e5e781a96a7116e8e6d7508d0c22d51af826bc4"
+      },
+      {
+        "path": "updates/2026-10-17/report.md",
+        "match": true,
+        "sha": "8e6a6314ec29cc3bab22185334944cf829b0e6b5"
+      },
+      {
+        "path": "analyses/adult_pain/2026-10-17/review/main_test_rerun.txt",
+        "match": true,
+        "sha": "106f9c8114908bcccf27607461ec2f0be2320904"
+      },
+      {
+        "path": "analyses/adult_pain/2026-10-17/review/REVIEW.md",
+        "match": true,
+        "sha": "56a6ea520043ace373f341e125032b7bb89baeab"
+      },
+      {
+        "path": "updates/2026-10-17/validation.json",
+        "match": true,
+        "sha": "737987a045acce4c462b3099721cfeaf0f2934d8"
+      },
+      {
+        "path": "updates/2026-10-17/repository-dedup-searches.json",
+        "match": true,
+        "sha": "0e4e210d409517fbbdb0a1e6ed04698dc2b043c3"
+      },
+      {
+        "path": "updates/2026-10-17/scan_sources.py",
+        "match": true,
+        "sha": "d05c0514acdbe28e705119dce5b8f6650256d00c"
+      },
+      {
+        "path": "updates/2026-10-17/registry-evidence.jsonl",
+        "match": true,
+        "sha": "8f9756f1b4b0d27d32ea33e311561fa6b23e7180"
+      },
+      {
+        "path": "updates/2026-10-17/primary-evidence.jsonl",
+        "match": true,
+        "sha": "26e7ca3272dff54defc714aab33154a52a4b28b1"
+      },
+      {
+        "path": "updates/2026-10-17/search-log.json",
+        "match": true,
+        "sha": "8b716742d34c2a2eeedb8a28a1a3a7da56785d76"
+      },
+      {
+        "path": "updates/2026-10-17/pubmed-supplement-metadata.json",
+        "match": true,
+        "sha": "4503c3704438b3a9e6a6251017b202ee10a87936"
+      },
+      {
+        "path": "updates/2026-10-17/source-checks.json",
+        "match": true,
+        "sha": "aeb64f44ab219b6d50a16270407e4e7b7e38e5e5"
+      },
+      {
+        "path": "updates/2026-10-17/integrity-evidence.jsonl",
+        "match": true,
+        "sha": "8c22098103e0a20bb9dcfff0c77626beea4e46af"
+      },
+      {
+        "path": "updates/2026-10-17/crossref-selected-metadata.json",
+        "match": true,
+        "sha": "fe0069feed86e1c05f0d97796e1525721357accb"
+      },
+      {
+        "path": "updates/2026-10-17/scan_supplement.py",
+        "match": true,
+        "sha": "949aa0dd321eeb2f364e75e67a5a3b351aa39ec0"
+      },
+      {
+        "path": "updates/2026-10-17/manifest.json",
+        "match": true,
+        "sha": "6cabc91c62fd2c29ada2dd5fc04222ae9f4f3b59"
+      },
+      {
+        "path": "updates/2026-10-17/registry-supplement-selected.json",
+        "match": true,
+        "sha": "dfd92275e5b69c55dcf66ac08e11a98a466bdecf"
+      },
+      {
+        "path": "updates/2026-10-17/publisher-access-metadata.json",
+        "match": true,
+        "sha": "0f08bb84c5b54a671424af21f2700de9a44959f1"
+      },
+      {
+        "path": "updates/2026-10-17/prior-registry-selected-fields.json",
+        "match": true,
+        "sha": "3d33b376b5d90a758cac204b181d0245ded2f842"
+      },
+      {
+        "path": "updates/2026-10-17/baseline-metadata.json",
+        "match": true,
+        "sha": "38bf04b686570872da078662345919272a2abe11"
+      },
+      {
+        "path": "updates/2026-10-17/safety/regulatory-evidence.jsonl",
+        "match": true,
+        "sha": "e7577b882e0a93eebeb7eb0161debc8a0fc250c8"
+      },
+      {
+        "path": "updates/2026-10-17/safety/repository-provenance.json",
+        "match": true,
+        "sha": "7531bfa9ee8b779db8290a0fb7495828a2d52f57"
+      },
+      {
+        "path": "updates/2026-10-17/safety/report.md",
+        "match": true,
+        "sha": "a113bd32e414cb9b0dfb3ae81affd6bdaf252342"
+      },
+      {
+        "path": "updates/2026-10-17/safety/search-log.json",
+        "match": true,
+        "sha": "e568d7ca37393eea698da74e849a3ca7801277be"
+      },
+      {
+        "path": "updates/2026-10-17/safety/source-checks.json",
+        "match": true,
+        "sha": "3dd455ed3f355b18e0a1a506f987ffdf47e30e12"
+      },
+      {
+        "path": "updates/2026-10-17/safety/link-check-run.log",
+        "match": true,
+        "sha": "10a93a054d5e049d9dcd4e2550fe16043e3d3516"
+      },
+      {
+        "path": "updates/2026-10-17/safety/check_links.py",
+        "match": true,
+        "sha": "986baa4da2ab7b8cc99542dfe54c22f0b94c89bf"
+      },
+      {
+        "path": "updates/2026-10-17/safety/link-ledger.json",
+        "match": true,
+        "sha": "2a3a88491736307d85328a2074f41701a96521f4"
+      },
+      {
+        "path": "README.md",
+        "match": true,
+        "sha": "605afa1f954492cf08872865146a4f832e47b369"
+      },
+      {
+        "path": "public/link-checks/2026-10-17.json",
+        "match": true,
+        "sha": "2a3a88491736307d85328a2074f41701a96521f4"
+      },
+      {
+        "path": "public/validation/2026-10-17-feed.cjs",
+        "match": true,
+        "sha": "625e129f348c4dfc28f9ad7f874a1ffd5cf3ddc9"
+      },
+      {
+        "path": "public/research-feed.json",
+        "match": true,
+        "sha": "3c104b8d200143b7f4ae3e7eeba4a5dac774fd66"
+      },
+      {
+        "path": "STATUS.md",
+        "match": true,
+        "sha": "48791f322e591e7bdbee0eb1324d9dacc6a5a45d"
+      },
+      {
+        "path": "evidence.jsonl",
+        "match": true,
+        "sha": "32e7e928e0eecef2c4031fff1e1465cdd6340ab4"
+      }
+    ],
+    "allExact": true
+  },
+  "publicFeed": {
+    "url": "https://tourette.fyi/api/public-feed",
+    "httpStatus": 200,
+    "source": "repository",
+    "updatedAt": "2026-10-17T03:22:49Z",
+    "lastResearchDate": "2026-10-17",
+    "featuredActivityId": "rest-or-leave",
+    "matchesCommittedJSON": true,
+    "verifiedAt": "2026-10-17T03:23:53.681940+00:00"
+  },
+  "anonymousRaw": {
+    "url": "https://raw.githubusercontent.com/dotjade/project-neurofreedom/main/public/research-feed.json",
+    "httpStatus": 200,
+    "matchesCommittedJSON": true
+  },
+  "limitations": "Feed propagation verified; no fresh rendered-page, mobile, zoom or narration check. No deployment or feedback change."
+}
