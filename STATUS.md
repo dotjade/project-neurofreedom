@@ -223,3 +223,7 @@ Close this source audit pending public corrections or age-eligible item-level ag
 ### Public journal
 
 Today's feed adds a dated historical pain-interference note and explicitly reports a scan without a qualifying new primary result. The six approved optional activities are unchanged; hand-at-ease is selected. Voting, comments and health-outcome collection remain disabled. Ten existing research links and two primary sources passed; Pappert remains challenge-limited rather than confirmed broken. Publication verification follows actual readback.
+
+### Publication verification - 18 October 2026
+
+All 51 research/publication files matched their committed contents on connector readback from 84bd12e03499cc8c04581b799170613432368348. At 02:48:37 UTC, production /api/public-feed and anonymous raw GitHub returned HTTP 200 with JSON exactly matching the authored feed, updatedAt 2026-10-18T02:47:52Z. Production identified the repository source; research/activity date October 18 and hand-at-ease were verified. The new report also passed connector content readback. This verifies feed propagation, not fresh rendered-page accessibility. [Verification details](updates/2026-10-18/publication-verification.json).
