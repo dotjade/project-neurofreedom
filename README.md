@@ -1,68 +1,47 @@
 # Project NeuroFreedom
 
-## Initial evidence portfolio
+## Why this project exists
 
-8 October 2026 | Version 0.1
+I am a parent supporting a child who lives with Tourette syndrome. This site grew from a simple, personal wish: to understand my child's experience better and find thoughtful ways to support their comfort, confidence and wellbeing. My child is so much more than their tics. I hope this project can offer understanding and reliable information for other individuals and families navigating similar questions, with compassion and respect for each person's experience.
 
-A research program toward better understanding, effective treatments and ultimately a safe, lasting and scientifically validated cure for Tourette syndrome and chronic tic disorders across all ages and severities. Its immediate output is a testable, source-linked research agenda. It does not claim a cure has been found, that every relevant paper has been reviewed, or that proposed mechanisms are established treatment targets.
+It is also intended as a growing research resource for human researchers and AI agents, including more capable agents in the future. By bringing together source-linked evidence, research notes, open questions and the limits of what is known, this site can give them a useful starting point: a way to quickly understand what has been collected and examined so far, check the original sources, and build on the work. The hope is that each new researcher or agent can spend less time retracing the same ground and more time asking better questions and advancing our understanding.
 
-**Research scope, clarified 10 October 2026:** persistent severe adult tics, pain, functional and social burden, co-occurring conditions, unmet needs, treatment response and durable benefit are central alongside childhood presentations. Waxing/waning, periodicity, developmental improvement and remission are important subquestions, not assumptions about everyone's course. Do not substitute an available childhood sample for an adult question. Sleep-related changes are a mechanistic clue, but tics can persist during sleep, so sleep does not establish a universal off-switch.
+## How this project works
 
-**Clinical boundary:** this portfolio is for research planning and clinician discussion. It contains no individual treatment prescription and no protocol for experimenting on a child. Wellbeing, voluntary participation and appropriate clinical care take priority over data collection.
+This is a parent-initiated, AI-assisted research notebook. Behind the site, AI agents help search published research, examine the evidence, explore specific questions and record what they actually learn. The repository holds the detailed work; [tourette.fyi](https://tourette.fyi/) presents a more approachable public journal of it.
 
-## The ten requested deliverables
+No research laboratory is affiliated with this project. If you are a researcher or part of a lab and this collection helps you find useful past research, evidence or connections, please consider quoting or citing the relevant project notes and sharing a link to help spread the word. Please also cite the original studies and their authors, whose work this collection brings together. The hope is to help valuable research reach more people and support further investigation.
 
-1. State of Science — [foundation.md](foundation.md)
-2. Cure Discovery Gap Analysis — [foundation.md](foundation.md)
-3. Twenty testable hypotheses — [hypotheses.md](hypotheses.md)
-4. Computational Research Opportunities — [hypotheses.md](hypotheses.md)
-5. Remission Mechanism Investigation — [foundation.md](foundation.md)
-6. Therapeutic Target Discovery Map — [hypotheses.md](hypotheses.md)
-7. Scientific Experiment Roadmap — [roadmap.md](roadmap.md)
-8. Safe Personalized Study Framework — [roadmap.md](roadmap.md); a generic framework pending clinician and family input, not a personalized medical plan
-9. Worldwide Research Collaboration Map — [roadmap.md](roadmap.md); verified routes, not arranged collaborations
-10. Cure Discovery Master Roadmap — [roadmap.md](roadmap.md); 30-day, 90-day, six-month, twelve-month and longer-term gates, not a guaranteed cure timeline
+The work follows a repeatable cycle:
 
-## Active investigations added on 8 October 2026
+1. **Find relevant evidence.** Search scientific publications, clinical-trial registries and official sources, including negative results and findings that challenge an idea.
+2. **Check what each source really shows.** Record the study population, methods, results and limitations. Keep observations, hypotheses and demonstrated effects distinct, and make the original sources easy to find.
+3. **Investigate one focused question.** Compare studies, test an interpretation or run a reproducible analysis when suitable data are available. Work using simulated data is labelled clearly; a successful simulation is not a finding about people.
+4. **Leave a traceable record.** Save dated notes, evidence records, code and results, including uncertainties, failed ideas and missing information. This gives the next researcher or agent a place to continue without starting over.
+5. **Share a readable summary.** The site's journal reads a public summary feed from this repository. The detailed notes and source links provide the context behind those summaries.
 
-- [Tic cycles and candidate antecedents](TIC_CYCLES_RESEARCH_PLAN.md): evidence, competing biological explanations and safe research design.
-- [Executed synthetic cycle-detection benchmark](analyses/cycle_detection/README.md): code, results and 11 passing implementation checks; no patient data and no biological inference.
-- [Exercise evidence](EXERCISE_EVIDENCE.md): acute versus delayed measurement windows and causal limits.
-- [Proposed open collaboration](OPEN_COLLABORATION_PROPOSAL.md): contribution model and governance gates; no public launch or participant collection has occurred.
+The [research protocol](RESEARCH_PROTOCOL.md) sets out daily evidence checks, weekly syntheses, monthly reviews and quarterly strategy reviews. These are separate research runs, not continuous activity: the dated records show what was actually completed. The [status record](STATUS.md) and [research updates](updates/) explain progress and unresolved questions; the [publication workflow](public/UPDATE_WORKFLOW.md) explains how summaries reach the site.
 
-## Research update — 9 October 2026
+The aim is cumulative understanding that people and future agents can verify and build on. This work does not replace clinical care, and research notes or AI-generated hypotheses do not establish a treatment or a cure. No personal health records are needed for this evidence-review workflow.
 
-- [Evidence and registry scan](updates/2026-10-09-evidence-scan.md): verified publication/indexing dates, recent counterevidence and coverage limits.
-- [Stress-timescale reconciliation](analyses/stress_context/README.md): acute expression versus later severity, with an executed numerical reporting audit.
-- [Remission endpoint harmonization](analyses/remission/2026-10-09-harmonization.md): four primary studies, ascertainment discordance, denominator corrections and unresolved questions.
+## Where to start
 
-## Research update — 10 October 2026
+- **For people:** start at [tourette.fyi](https://tourette.fyi/) for an approachable introduction and public research journal. For more detail, explore the [research portfolio and investigation reports](RESEARCH_OVERVIEW.md).
+- **For AI agents and researchers:** use this repository directly. Read the [research protocol](RESEARCH_PROTOCOL.md), [status record](STATUS.md) and [latest dated updates](updates/) first, then follow the [evidence records](evidence.jsonl) and original sources. Clone the repository to examine the notes, run documented analyses and build on the work:
 
-- [Dated literature, registry and safety scan](updates/2026-10-10-evidence-scan.md), with [separate registry evidence](updates/2026-10-10-registry-evidence.jsonl).
-- [Five-cohort data-feasibility audit](analyses/data_feasibility/2026-10-10-audit.md): actual access leads, sampling and ascertainment mismatches, and adult-persistence coverage gaps. No participant-level analysis was performed.
+  ```sh
+  git clone https://github.com/dotjade/project-neurofreedom.git
+  ```
 
-## Research update — 11 October 2026
+## Contribute evidence or a correction
 
-- [Daily evidence scan](updates/2026-10-11-evidence-scan.md): no verified new qualifying in-window result; publication, product publicity and approval remain distinct.
-- [Six-family adult resource audit](analyses/data_feasibility/2026-10-11-adult-audit.md), [compatibility matrix](analyses/data_feasibility/2026-10-11-adult-matrix.json) and [search log](analyses/data_feasibility/2026-10-11-search-log.json): the bounded search is closed without a complete design match. A linked MNS follow-up highlights attrition and lack of a contemporaneous sham comparison.
+People, researchers, laboratories and AI agents are welcome to suggest a missing study, correct an interpretation, share a reproducible analysis or improve an explanation.
 
-## First weekly synthesis — 11 October 2026
+[Submit a contribution using the GitHub issue template](https://github.com/dotjade/project-neurofreedom/issues/new?template=contribution.md). Include a source link or relevant file, explain what you found and why it matters, and note any uncertainty. For an analysis, include instructions that let someone reproduce it. Check [existing issues](https://github.com/dotjade/project-neurofreedom/issues) first to avoid duplicating a suggestion.
 
-- [What was tested, learned and rejected](updates/2026-10-11-weekly-synthesis.md), covering actual work from 8–11 October.
-- [Executed MNS attrition sensitivity analysis](analyses/mns_attrition/report.md): exact published-aggregate bounds, source inconsistency, hypothetical tipping points and independently reproduced calculations. No participant records or clinical efficacy inference.
+A maintainer checks the source, incorporates supported additions and acknowledges useful contributions. Discussion is only needed when clarification would help. **Pull requests are optional:** you can submit a suggestion without editing files or using Git. If you prefer to supply an exact edit or code change, a pull request is welcome. AI agents can use the same contribution format.
 
-## Research update — 12 October 2026
-
-- [Dated evidence scan](updates/2026-10-12-evidence-scan.md): a newly indexed October 1 preprint, separately classified; no verified new-window trial posting or material regulator notice.
-- [CBIT plus TMS source/denominator audit](updates/2026-10-12-cbit-tms-extraction.md): neural engagement, clinical added benefit and session/event/participant safety measures remain distinct.
-- [Adult sensory-gating precision audit](analyses/sensory_gating/2026-10-12/report.md): explicit missing numerical prerequisites; no invented effect bounds or equivalence claim.
-- [Adult burden endpoint audit](analyses/adult_burden/2026-10-12/report.md): separate severity, impairment and quality of life; reproducible completion-set bounds and a carefully limited observed-visit estimand.
-
-## Research update — 13 October 2026
-
-- [Dated evidence and safety scan](updates/2026-10-13-evidence-scan.md): no verified qualifying new result in the bounded interval.
-- [Six-report adult burden validation synthesis](analyses/burden_validation/2026-10-13/report.md): version-specific patient-reported outcomes, distinct severity/impairment, and limits of universal thresholds.
-- [Executed response-classification analysis](analyses/burden_validation/2026-10-13/aggregate_checks.json) and [independent audit](analyses/burden_validation/2026-10-13/review/audit_summary.md): 34/232 pooled mixed-age participants had discordant tic-threshold and clinician-response labels; this is not adult quality-of-life surrogate validation.
+Please share public research sources and original summaries. Keep personal medical records, identifying health stories and unlicensed full-text papers out of issues and attachments.
 
 ## Working research record
 
@@ -71,11 +50,9 @@ A research program toward better understanding, effective treatments and ultimat
 - [Community perspectives and safeguards](COMMUNITY_EVIDENCE.md)
 - [Version and execution status](STATUS.md)
 
-The initial portfolio is a targeted evidence map. Search coverage, access limitations, study-level uncertainty and contradictions must remain visible. Primary papers, guidance, registries, preprints and hypotheses are distinguished. A promising laboratory finding, retrospective association or symptomatic benefit is not evidence of cure.
-
 ## Privacy and reuse
 
-The intended GitHub repository is private. No patient-specific medical information, family identifiers, images, diary entries or genetic data belong here. Store original evidence summaries and source identifiers. Do not upload unlicensed full-text papers or private community content. A private repository is not a clinical-data system.
+This is a public research resource. No patient-specific medical records, family identifiers, personal images, diary entries or genetic data belong here. Store original evidence summaries and source identifiers. Do not upload unlicensed full-text papers or private community content. This repository is not a clinical-data system.
 
 ## How to continue
 
