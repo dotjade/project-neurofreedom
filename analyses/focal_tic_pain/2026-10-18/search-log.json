@@ -1,0 +1,106 @@
+{
+  "date_utc": "2026-10-18",
+  "scope": "One historical trial, lawful full-methods discovery and correction check; no date filters",
+  "queries": [
+    {
+      "source": "web search",
+      "query": "Marras Andrews Sime Lang 2001 botulinum toxin simple motor tics 605 610 full text"
+    },
+    {
+      "source": "web search",
+      "query": "\"10.1212/WNL.56.5.605\" pdf"
+    },
+    {
+      "source": "web search",
+      "query": "\"Botulinum toxin for simple motor tics\" pain discomfort"
+    },
+    {
+      "source": "web search",
+      "query": "\"Marras\" \"605\" \"pain\" \"2001\" botulinum filetype:pdf"
+    },
+    {
+      "source": "web search",
+      "query": "\"Botulinum toxin for simple motor tics\" \"full\""
+    },
+    {
+      "source": "web search",
+      "query": "\"Botulinum toxin for simple motor tics\" \"Pain\""
+    },
+    {
+      "source": "web search",
+      "query": "\"Marras\" \"Pain (treated tic)\""
+    },
+    {
+      "source": "web search",
+      "query": "\"Marras\" \"2001\" \"botulinum\" site:utoronto.ca"
+    },
+    {
+      "source": "web search",
+      "query": "\"Botulinum toxin for simple motor tics\" site:neurology.org"
+    },
+    {
+      "source": "web search",
+      "query": "\"Botulinum toxin for simple motor tics\" site:ovid.com"
+    },
+    {
+      "source": "web search",
+      "query": "\"Botulinum toxin for simple motor tics\" site:journals.lww.com"
+    },
+    {
+      "source": "web search",
+      "query": "\"Botulinum toxin for simple motor tics\" \"pdf\" -site:scribd.com -site:researchgate.net"
+    },
+    {
+      "source": "web search",
+      "query": "\"10.1212/WNL.56.5.605\" correction erratum retraction"
+    },
+    {
+      "source": "web search",
+      "query": "\"Botulinum toxin for simple motor tics\" repository manuscript"
+    },
+    {
+      "source": "web search",
+      "query": "site:neurology.org \"marr3131.doc\""
+    },
+    {
+      "source": "web search",
+      "query": "site:neurology.org \"marr3132.doc\""
+    },
+    {
+      "source": "web search",
+      "query": "\"Standardised pain score for treated tics\""
+    },
+    {
+      "source": "web search",
+      "query": "\"Clinical effectiveness and patient perspectives\" \"Hollis\" \"2016\" NIHR tics"
+    },
+    {
+      "source": "web search",
+      "query": "site:ncbi.nlm.nih.gov/books/NBK338531/ \"pain\" \"botulinum\""
+    },
+    {
+      "source": "web search",
+      "query": "site:ncbi.nlm.nih.gov/books/NBK338531/ \"Marras\""
+    },
+    {
+      "source": "web search",
+      "query": "site:njl-admin.nihr.ac.uk/document/download/2003385 \"pain\" \"Marras\""
+    }
+  ],
+  "screening": "Title/DOI matches for primary full text and lawful manuscript locations; other treatment papers/reviews were discovery context, not new trial analyses. No exhaustive review denominator is claimed.",
+  "outcome": "No verified lawful complete primary methods/tables located. Lawful NIHR secondary review independently retrieved and inspected on reviewer follow-up; corroborates pain measurement but primary construct and benefit/procedure interpretation remain unresolved. No clinical effect numbers accepted.",
+  "other_attempts": [
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6491277/",
+      "kind": "Secondary review discovery lead",
+      "result": "browser challenge, not completed"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6491277/fullTextXML",
+      "kind": "Secondary review discovery lead",
+      "result": "HTTP500, not completed"
+    }
+  ],
+  "stop_reason": "Protocol-defined full-methods access gate triggered; no additional trial audited.",
+  "followup": "Reviewer supplied NCBI/NIHR secondary lead; parent explicitly requested bounded verification. NCBI challenged; official NIHR full PDF HTTP200 and relevant text inspected in memory. No new trial audited."
+}

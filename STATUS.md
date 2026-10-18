@@ -1,6 +1,6 @@
 # Project NeuroFreedom status
 
-Updated 18 October 2026. Initial portfolio, ten completed daily updates and first completed weekly synthesis. Public evidence repository and journal launched 13 October.
+Updated 18 October 2026. Initial portfolio, ten completed daily updates and two completed weekly syntheses. Public evidence repository and journal launched 13 October.
 
 ## Completed in this first pass
 
@@ -14,7 +14,7 @@ Updated 18 October 2026. Initial portfolio, ten completed daily updates and firs
 
 ## Enabled research schedules
 
-The user approved the following automatic public-science research and repository updates on 8 October 2026. Each schedule was created successfully and returned enabled status. Daily runs were completed on 9-18 October 2026; the first weekly synthesis was completed on 11 October; first monthly and quarterly runs remain unverified.
+The user approved the following automatic public-science research and repository updates on 8 October 2026. Each schedule was created successfully and returned enabled status. Daily runs were completed on 9-18 October 2026; weekly syntheses were completed on 11 and 18 October; first monthly and quarterly runs remain unverified.
 
 - Daily new-evidence checks: from 9 October 2026, approximately 08:00 India time.
 - Weekly synthesis: Sundays, from 11 October 2026, approximately 09:00 India time.
@@ -227,3 +227,18 @@ Today's feed adds a dated historical pain-interference note and explicitly repor
 ### Publication verification - 18 October 2026
 
 All 51 research/publication files matched their committed contents on connector readback from 84bd12e03499cc8c04581b799170613432368348. At 02:48:37 UTC, production /api/public-feed and anonymous raw GitHub returned HTTP 200 with JSON exactly matching the authored feed, updatedAt 2026-10-18T02:47:52Z. Production identified the repository source; research/activity date October 18 and hand-at-ease were verified. The new report also passed connector content readback. This verifies feed propagation, not fresh rendered-page accessibility. [Verification details](updates/2026-10-18/publication-verification.json).
+
+
+## Completed second weekly synthesis - 18 October 2026
+
+The [weekly synthesis](updates/2026-10-18-weekly-synthesis.md) integrates October 12-18 work without adding overlapping search hits or same-trial reports as independent evidence. Acute behavioral-treatment tic benefit remains supported in the Wilhelm trial, while broader function, patient-important pain, selected maintenance and continuing treatment exposure require separate inference. ONLINE-TICS exploratory later findings do not repair its primary testing gate. Pain-selected and support-group surveys cannot supply a pooled population prevalence or causal care-success rate. Biological hypotheses H07/H13/H17/H18/H19 remain speculative rather than directly refuted or validated.
+
+A new deterministic [evidence-structure reanalysis](analyses/evidence_structure/2026-10-18/report.md) maps three fixed publications to two randomizations and preserves 11 analyst-defined inference blocks. These are bookkeeping units, not independent endpoints, evidence votes or a field denominator. Twenty-four implementation tests and parent byte-identical reproduction with five count/status checks passed. The stronger randomized functional-follow-up claim after verified cessation of trial-provided access/boosters is not documented in this set; this does not establish no benefit or recommend stopping learned skills. No clinical effects were pooled.
+
+The [Marras focal-tic audit](analyses/focal_tic_pain/2026-10-18/report.md) could not retrieve lawful complete primary methods/tables. A verified NIHR secondary review nevertheless corroborates a treated-tic-area pain measure under Safety, with the scale unreported. Therefore pain must not be labelled unmeasured. Endpoint definition, benefit versus procedure discomfort, denominator and crossover estimator remain unresolved at primary-source level. No pain-effect calculation was fabricated. A lawful manuscript could reopen this narrowly defined audit; no payment or outreach is requested.
+
+### Next bounded decision after weekly synthesis
+
+Close the unchanged three-publication structure audit and keep Marras's primary-source gate pending a lawful complete version. Next specify and execute a small, clearly labelled synthetic two-outcome design-discrimination test: construct scenarios sharing the same tic response but differing in pain-interference benefit; test what direct paired pain measurement adds under declared observation and missingness assumptions. Write the prediction, disconfirming outcome, joint mechanisms, estimands, seeds and limits before execution. This is distinct from prior one-outcome attrition bounds and response-label agreement. Do not claim clinical rates, meaningful-change thresholds, sample-size/power sufficiency or patient biology from the simulation.
+
+A subsequent human study would require a clinical investigator/institution, patient-priority and measurement validation, comparator and safety plan, ethics/consent and secure governed data, plus separate authorization. No family records, home experiment, participant collection or treatment change is requested. The already verified October 18 homepage feed remains unchanged by this weekly repository update. Publication readback is recorded after verification.

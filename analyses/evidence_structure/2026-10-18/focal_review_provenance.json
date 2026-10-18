@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-18",
+  "review": "focal_boundary_review.md",
+  "source_url": "https://njl-admin.nihr.ac.uk/document/download/2003385",
+  "http_status": 200,
+  "primary_full_text_verified": false,
+  "secondary_pages_verified": [
+    "210 Safety subsection",
+    "211 Figure216"
+  ],
+  "original_pdf_saved": false,
+  "numerical_pain_effect_computed": false,
+  "reviewed_files": {
+    "report.md": "44c4a25aa68ac982a9e2a26c3fdabadc37ac741a7ac7c3d907a1981119c885e6",
+    "extraction.json": "c111f23122d9bc2d5132a3bfbd25ee7bbdf815a7ec96fcd6dd23d29a58f34238",
+    "prediction.md": "3f4229774d505911c3ee89775fc07d5dc39b6db4a97f555687f38f1466b27106",
+    "provenance.json": "ff240356a8e84b4457b7a2a90f2d22335900fd6c6f1de4aa04aed987bbd8e03f"
+  },
+  "limits": "Independent secondary-source check and boundary review only; no original trial table or clinical effect verification"
+}

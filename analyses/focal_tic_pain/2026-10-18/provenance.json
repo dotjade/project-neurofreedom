@@ -1,0 +1,112 @@
+{
+  "date_checked": "2026-10-18",
+  "research_started_utc": "2026-10-18T03:57:23Z",
+  "prediction_recorded_utc": "2026-10-18T03:57:00Z",
+  "prediction_time_precision": "minute-level manual record",
+  "repository": "dotjade/project-neurofreedom",
+  "repository_reads": [
+    {
+      "path": "README.md",
+      "sha": "f37db17fbbc502b0a0ef481c2f87ac14a87b04b7",
+      "url": "https://github.com/dotjade/project-neurofreedom/blob/main/README.md"
+    },
+    {
+      "path": "RESEARCH_PROTOCOL.md",
+      "sha": "d69c21b73447f7ad9df0a3949b7fcaf57dd5ddde",
+      "url": "https://github.com/dotjade/project-neurofreedom/blob/main/RESEARCH_PROTOCOL.md"
+    },
+    {
+      "path": "STATUS.md",
+      "sha": "c5b16580c9c1e65b4a0b3ebee58ff94d485b6fed",
+      "url": "https://github.com/dotjade/project-neurofreedom/blob/main/STATUS.md"
+    },
+    {
+      "path": "analyses/pain_interference/2026-10-18/report.md",
+      "sha": "983099a654724e5aade4a88407f37a1e0140bbfe",
+      "url": "https://github.com/dotjade/project-neurofreedom/blob/main/analyses/pain_interference/2026-10-18/report.md"
+    },
+    {
+      "path": "evidence.jsonl",
+      "sha": "8405b9026b03f63169a3c1d17cc0ca26186c06c7"
+    }
+  ],
+  "source_policy": "Original analysis and metadata only; no raw full article or unverified numerical row stored.",
+  "sources": [
+    {
+      "url": "https://www.neurology.org/doi/abs/10.1212/wnl.56.5.605",
+      "status": "Publisher indexed abstract inspected; direct web open 403"
+    },
+    {
+      "url": "https://www.neurology.org/doi/full/10.1212/WNL.56.5.605",
+      "status": "HTTP403 direct request; no full inspection"
+    },
+    {
+      "url": "https://www.neurology.org/doi/pdf/10.1212/WNL.56.5.605",
+      "status": "HTTP403 direct request; no PDF downloaded"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:11245710%20AND%20SRC:MED&format=json&resultType=core",
+      "status": "HTTP200 official metadata and abstract inspected",
+      "fields": {
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "hasPDF": "N",
+        "hasSuppl": "N",
+        "authMan": "N",
+        "fullTextUrlAvailability": "Subscription required",
+        "correction_type": "Comment in",
+        "comment_pmid": "11245706"
+      }
+    },
+    {
+      "url": "https://api.openalex.org/works/https://doi.org/10.1212/WNL.56.5.605",
+      "status": "HTTP200 metadata inspected",
+      "fields": {
+        "id": "https://openalex.org/W2105290131",
+        "is_oa": false,
+        "oa_status": "closed",
+        "oa_url": null,
+        "any_repository_has_fulltext": false,
+        "best_oa_location": null
+      }
+    },
+    {
+      "url": "https://www.researchgate.net/publication/12086058_Botulinum_toxin_for_simple_motor_tics_A_randomized_double-blind_controlled_clinical_trial",
+      "status": "Search result only, request full text route; no request made"
+    },
+    {
+      "url": "https://www.scribd.com/document/849435866/Marras-2001",
+      "status": "Unverified search-index lead only; not opened/downloaded or used for numerical input; lawful hosting not established"
+    },
+    {
+      "url": "https://njl-admin.nihr.ac.uk/document/download/2003385",
+      "title": "Hollis et al. Clinical effectiveness and patient perspectives of different treatment strategies for tics in children and adolescents with Tourette syndrome",
+      "doi": "10.3310/hta20040",
+      "role": "Secondary review corroboration only",
+      "status": "HTTP200 application/pdf;11751190bytes; full-report bytes processed through pdftotext pipe in memory, no paper copy retained",
+      "inspected_scope": "Page210 pain discussion under Safety; Figure216 caption and Marras2001 row; not a full independent review reanalysis",
+      "numerical_effect_extraction_accepted": false
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK338526/pdf/Bookshelf_NBK338526.pdf",
+      "role": "Secondary-review access route",
+      "status": "Returned browser-check HTML, not a verified PDF; official NIHR publisher route used instead"
+    },
+    {
+      "url": "https://www.rcpsych.ac.uk/docs/default-source/improving-care/nccmh/nccmh-tourettes-hta-review-full-report.pdf?sfvrsn=671b15c4_2",
+      "role": "Second lawful institutional host of same secondary review, not independent evidence",
+      "status": "HTTP200 application/pdf;11750735bytes; processed through pdftotext pipe in memory; relevant pain passage corroborated; no source copy retained",
+      "sha256": "0e51c9592555ddb74023ab2ff79abb4b93578925c39b8c318127fa310f442fbb"
+    }
+  ],
+  "limitations": [
+    "No complete primary methods/tables inspected",
+    "No supplement content inspected",
+    "No full-paper text or figures archived",
+    "Publisher has two supplement names despite EuropePMC hasSuppl N",
+    "No claim no lawful copy exists anywhere",
+    "No browser bypass, sign-in, payment or author request"
+  ],
+  "last_revision_utc": "2026-10-18T04:03:00Z"
+}

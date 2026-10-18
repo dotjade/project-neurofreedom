@@ -118,3 +118,11 @@ Read the protocol and latest status first. Verify the latest source and reposito
 - [Pain-interference audit](analyses/pain_interference/2026-10-18/report.md): pain-selected recruitment, past-week domain measurements and missing adult-only estimates.
 - [Reproducible aggregate checks](analyses/pain_interference/2026-10-18/aggregate_checks.json) and [independent review](analyses/pain_interference/2026-10-18/review/aggregate_review.md).
 - [Safety review](updates/2026-10-18/safety/report.md) and [displayed-link checks](public/link-checks/2026-10-18.json).
+
+
+## Second weekly synthesis - 18 October 2026
+
+- [What was tested, learned and rejected](updates/2026-10-18-weekly-synthesis.md), covering actual work from October 12-18.
+- [Executed evidence-structure analysis](analyses/evidence_structure/2026-10-18/report.md): three result publications, two randomized trial clusters; outcome, selection and continued exposure remain distinct.
+- [Focal-tic pain endpoint audit](analyses/focal_tic_pain/2026-10-18/report.md): secondary evidence corroborates pain measurement, while inaccessible primary methods prevent a pain-benefit estimate.
+- [Claim and decision matrix](updates/2026-10-18-weekly/claim-matrix.json), with a proposed two-outcome design-discrimination experiment and explicit clinical governance dependencies.

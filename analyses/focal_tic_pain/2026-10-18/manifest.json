@@ -1,0 +1,11 @@
+{
+  "files": {
+    "extraction.json": "c111f23122d9bc2d5132a3bfbd25ee7bbdf815a7ec96fcd6dd23d29a58f34238",
+    "prediction.md": "3f4229774d505911c3ee89775fc07d5dc39b6db4a97f555687f38f1466b27106",
+    "provenance.json": "ff240356a8e84b4457b7a2a90f2d22335900fd6c6f1de4aa04aed987bbd8e03f",
+    "report.md": "44c4a25aa68ac982a9e2a26c3fdabadc37ac741a7ac7c3d907a1981119c885e6",
+    "search-log.json": "96b2ed6986c7dad3035b6cfd5dec7dc73b9ff3c95ab55c3d4b4fa70b3354f534"
+  },
+  "validation": "JSON parse and file SHA-256 check only; no clinical numerical analysis performed",
+  "revision": "Lawful NIHR secondary measurement corroboration added; primary full-text gate remains unmet"
+}

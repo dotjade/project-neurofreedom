@@ -1,0 +1,109 @@
+{
+  "id": "Marras2001FocalPainAccess",
+  "date_checked": "2026-10-18",
+  "title": "Botulinum toxin for simple motor tics: a randomized, double-blind, controlled clinical trial",
+  "doi": "10.1212/WNL.56.5.605",
+  "pmid": "11245710",
+  "url": "https://www.neurology.org/doi/abs/10.1212/wnl.56.5.605",
+  "evidence_type": "primary_study_abstract_with_access_limited_endpoint_audit",
+  "publication_date": "2001-03-13",
+  "novelty": "Historical one-trial audit, not a new publication or trial result.",
+  "primary_abstract_verified": {
+    "design": "Randomized double-blind botulinum-toxin/placebo crossover",
+    "completers": 18,
+    "comparison_window": "Week 2 versus baseline",
+    "primary_endpoint": "Video-counted treated-tic frequency",
+    "listed_secondary_endpoints": [
+      "Untreated-tic frequency",
+      "Shapiro Tourette Syndrome Severity Scale",
+      "Urge to perform treated tic",
+      "Premonitory sensation",
+      "Global impression of change"
+    ],
+    "abstract_negative_findings": "Other listed secondary outcomes not significantly different; no reported overall benefit."
+  },
+  "pain_endpoint": {
+    "status": "measurement_corroborated_by_secondary_review_primary_definition_and_pain_benefit_interpretation_unverified",
+    "absence_established": false,
+    "search_lead": "Third-party search snippet mentions a separate treated-tic pain rating and table row; no numerical extraction accepted.",
+    "scale": null,
+    "recall_window": null,
+    "validated_instrument": null,
+    "interference_endpoint": null,
+    "n": null,
+    "estimate": null,
+    "ci": null,
+    "p": null,
+    "secondary_evidence": {
+      "source": "Hollis et al. 2016 NIHR HTA 20(4), DOI10.3310/hta20040",
+      "url": "https://njl-admin.nihr.ac.uk/document/download/2003385",
+      "locations": [
+        "page210 Safety subsection",
+        "page211 Figure216"
+      ],
+      "finding": "Pain score for treated-tic area and separate comparison reported; placed under Safety; scale not reported by review; result described as inconclusive. Primary construct and procedure-versus-benefit interpretation unresolved.",
+      "numeric_values_accepted_as_inputs": false,
+      "independent_trial": false
+    }
+  },
+  "applicability": {
+    "adult_only_estimate": null,
+    "severe_persistent_adult_estimate": null,
+    "primary_abstract_context": "Adolescent/adult/middle-aged official indexing, not adult-only efficacy verification."
+  },
+  "crossover": {
+    "sequence_counts": null,
+    "period_length": null,
+    "washout": null,
+    "carryover_handling": null,
+    "missing_data": null,
+    "within_person_estimator": null
+  },
+  "funding_conflicts": null,
+  "source_verification": {
+    "lawful_complete_primary_methods_tables": false,
+    "publisher_full_html": "HTTP 403",
+    "publisher_pdf": "HTTP 403",
+    "europe_pmc": "isOpenAccess N; inPMC N; inEPMC N; hasPDF N; DOI subscription-required route",
+    "openalex": "closed; best_oa_location null; any_repository_has_fulltext false",
+    "publisher_supplement_names": [
+      "marr3131.doc",
+      "marr3132.doc"
+    ],
+    "supplement_contents_verified": false,
+    "unlicensed_source_copies_saved": false
+  },
+  "computation": {
+    "status": "not_executed",
+    "clinical_input_file": null,
+    "code": null,
+    "tests": null,
+    "output": null,
+    "reason": "Required primary methods/tables and compatible pain outcome-specific denominator, paired contrast and uncertainty are unverified. No forced calculation on tic outcomes."
+  },
+  "prediction": {
+    "file": "prediction.md",
+    "recorded_before_source_retrieval": true,
+    "status": "weakened by lawful secondary measurement evidence; primary full-text gate remains unmet"
+  },
+  "claim_supported": "A lawful NIHR secondary review corroborates a pain-related outcome; the complete primary definition, pain-benefit interpretation and crossover analysis remain unverified. Abstract-only endpoint absence is unsafe.",
+  "claim_not_supported": [
+    "Pain unmeasured",
+    "Pain benefit or pain inefficacy",
+    "Pain equivalence",
+    "Tic reduction validates pain benefit",
+    "Adult-only or severe-adult effect",
+    "Durability, disease modification or cure"
+  ],
+  "correction_retraction": "Official metadata lists Comment in PMID11245706; no correction/retraction found in focused notice query; not comprehensive clearance.",
+  "next_prerequisite": "Lawfully accessible complete primary methods/results/tables and outcome-relevant supplements; no author contact, purchase, patient access or bypass.",
+  "next_distinct_question": "If not previously audited, check whether Toxin for Tics DOI10.1002/mdc3.14296 has separate pain-intensity/interference measurement, preserving observational selection/causal limits. Suggested, not executed.",
+  "governance": {
+    "participant_records": false,
+    "participant_quotes": false,
+    "clinical_action": false,
+    "outreach": false,
+    "payments": false,
+    "github_writes": false
+  }
+}

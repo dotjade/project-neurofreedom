@@ -1,0 +1,309 @@
+{
+  "title": "Project NeuroFreedom weekly claim/evidence matrix",
+  "date": "2026-10-18",
+  "coverage": "12–18 October 2026; latest reused daily source cutoff approximately 02:41 UTC on 18 October.",
+  "purpose": "Original synthesis-level claims, not a systematic review, pooled efficacy estimate or independent study count.",
+  "baseline_commit": "f150f4c019aca9ecda98b05d6c313b6fd1ae962c",
+  "claims": [
+    {
+      "id": "W18-C01",
+      "topic": "Adult burden",
+      "source_type": "Two published observational registry reports",
+      "sources": [
+        "10.1002/mdc3.14296",
+        "10.1111/ene.70252"
+      ],
+      "audit": "https://github.com/dotjade/project-neurofreedom/blob/main/analyses/adult_burden/2026-10-12/report.md",
+      "cohort_linkage": "Calgary/Paris registry family; earlier/expanded person overlap not enumerated.",
+      "actual_learning": "Published marginals do not identify joint severity–QoL or a severe-at-all-visits group. Conditional overlap of 63 and 55 completion sets in 95 is 23–55.",
+      "claim_retained": "Separate measured tic severity, impairment and patient-reported burden are necessary for the proposed target.",
+      "unsupported_inference_retired": "Sum 95+227 as independent adults; call completion fractions retention among everyone due; infer uninterrupted severity from six-month visits.",
+      "remaining_unknown": "Site-specific instruments, validated severity threshold, joint outcomes, eligibility at follow-up and missingness.",
+      "decision": "Close current aggregate identification pass; reopen for new public methods/data dictionary or separately authorized custodian clarification."
+    },
+    {
+      "id": "W18-C02",
+      "topic": "Burden validation",
+      "source_type": "Six primary validation/longitudinal reports",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/18955683/",
+        "10.1371/journal.pone.0243912",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC7867408/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC3999642/",
+        "10.3389/fnins.2016.00416",
+        "10.1186/s44247-026-00284-7"
+      ],
+      "audit": "https://github.com/dotjade/project-neurofreedom/blob/main/analyses/burden_validation/2026-10-13/report.md",
+      "cohort_linkage": "McGuire severity-benchmark and Jeon response reports use overlapping CBIT trial families; exact person overlap unavailable.",
+      "actual_learning": "34/232 mixed-age completers have discordant ≥25% tic-reduction and CGI-I response labels; original and French GTS-QOL domains differ.",
+      "claim_retained": "Use version/language-specific native GTS-QOL domains, with separate tic severity and impairment.",
+      "unsupported_inference_retired": "Treat reliability, correlation, response threshold, severe-state classification and treatment-effect surrogacy as equivalent validation claims.",
+      "remaining_unknown": "Adult anchor-based QoL meaningful change; diagnosis-specific severe threshold; paired change covariance and treatment-effect surrogacy.",
+      "decision": "No universal threshold or tic-only burden substitution supported in this bounded source set; not proof zero association."
+    },
+    {
+      "id": "W18-C03",
+      "topic": "ONLINE-TICS primary",
+      "source_type": "Adult randomized controlled trial",
+      "sources": [
+        "10.3390/jcm11010250",
+        "NCT02605902"
+      ],
+      "audit": "https://github.com/dotjade/project-neurofreedom/blob/main/analyses/online_tics/2026-10-14/report.md",
+      "cohort_linkage": "One trial; publication, protocol and registry are linked reports, not replication.",
+      "actual_learning": "Primary adjusted TTS contrast −1.28, 95% CI −2.58 to 0.01, p=.053; primary superiority gate not met.",
+      "claim_retained": "Later time-specific exploratory tic/impairment/GTS-QOL signals warrant careful interpretation.",
+      "unsupported_inference_retired": "Confirmatory primary success, gated confirmatory non-inferiority, uniform QoL improvement, or growing efficacy from ordered estimates.",
+      "remaining_unknown": "Joint covariance, outcome-specific attrition, complete multiplicity correction and trial-specific life-satisfaction recoding.",
+      "decision": "Close aggregate audit; preserve missed criterion without equating it to no benefit."
+    },
+    {
+      "id": "W18-C04",
+      "topic": "ONLINE-TICS durability",
+      "source_type": "Continued-access randomized-trial follow-up",
+      "sources": [
+        "10.3390/jcm11010250",
+        "NCT02605902"
+      ],
+      "audit": "https://github.com/dotjade/project-neurofreedom/blob/main/analyses/online_tics/2026-10-14/report.md",
+      "cohort_linkage": "Same study as W18-C03.",
+      "actual_learning": "Internet intervention remained accessible; face-to-face participants could receive boosters.",
+      "claim_retained": "Time-specific longer-term observations under continued access.",
+      "unsupported_inference_retired": "Benefit after access/practice stops, treatment-free durability or disease modification.",
+      "remaining_unknown": "Individual ongoing practice/exposure and outcomes after a clinically appropriate cessation point.",
+      "decision": "Separate benefit under continued care from cessation-based claims; do not recommend stopping learned skills."
+    },
+    {
+      "id": "W18-C05",
+      "topic": "CBIT acute benefit",
+      "source_type": "Masked-assessor randomized controlled trial",
+      "sources": [
+        "10.1001/archgenpsychiatry.2011.1528",
+        "NCT00231985"
+      ],
+      "audit": "https://github.com/dotjade/project-neurofreedom/blob/main/analyses/cbit_maintenance/2026-10-15/report.md",
+      "cohort_linkage": "Same trial as McGuire2019/2020 and parent to overlapping validation reports.",
+      "actual_learning": "Acute adjusted TTS advantage 3.3, 95% CI 1.4–5.2; separate secondary impairment advantage 3.9, 95% CI 0.5–7.2.",
+      "claim_retained": "Acute symptomatic tic benefit in the trial population.",
+      "unsupported_inference_retired": "Adult-only or persistently severe-adult generalization; direct QoL/pain benefit inferred from tic response.",
+      "remaining_unknown": "≥18 subgroup; severe persistent subgroup effect; direct acute pain effect.",
+      "decision": "Retain established symptomatic anchor with selection and age limitations."
+    },
+    {
+      "id": "W18-C06",
+      "topic": "CBIT maintenance",
+      "source_type": "Response-selected incomplete follow-up",
+      "sources": [
+        "10.1001/archgenpsychiatry.2011.1528",
+        "NCT00231985"
+      ],
+      "audit": "https://github.com/dotjade/project-neurofreedom/blob/main/analyses/cbit_maintenance/2026-10-15/report.md",
+      "cohort_linkage": "Selected early responders from W18-C05, not a new trial.",
+      "actual_learning": "12/15 returning CBIT responders positive at six months; 9/24 early responders missing; finite-cohort bounds 50–87.5%.",
+      "claim_retained": "A maintenance signal in returning early responders within a booster-inclusive program.",
+      "unsupported_inference_retired": "80% all-randomized six-month response; missing outcomes are failures; uninterrupted remission; randomized off-treatment maintenance.",
+      "remaining_unknown": "Missing status, actual booster attendance, later responses among initial nonresponders and joint response between visits.",
+      "decision": "Keep denominator/selection explicit; bounds are not confidence intervals."
+    },
+    {
+      "id": "W18-C07",
+      "topic": "CBIT functioning",
+      "source_type": "Exploratory secondary report of W18-C05",
+      "sources": [
+        "10.1017/S0033291719002150",
+        "NCT00231985"
+      ],
+      "audit": "https://github.com/dotjade/project-neurofreedom/blob/main/analyses/cbit_functioning/2026-10-16/report.md",
+      "cohort_linkage": "Same 122-randomized trial as Wilhelm2012; ages 16–69.",
+      "actual_learning": "0/12 acute randomized functional contrasts nominally significant; two response-status associations and selected follow-up positives are different estimands.",
+      "claim_retained": "Broader benefit is not established by this report's randomized contrasts; meaningful benefit not ruled out.",
+      "unsupported_inference_retired": "Independent replication; responder association proves mediation; nonsignificance proves no benefit or equivalence.",
+      "remaining_unknown": "Outcome-specific analyzed n, contrast intervals, relevant covariance and meaningful-change anchor.",
+      "decision": "Close reporting chain; do not pool selected analyses as randomized functional evidence."
+    },
+    {
+      "id": "W18-C08",
+      "topic": "Adult pain intensity and care",
+      "source_type": "Cross-sectional adult support-group survey",
+      "sources": [
+        "10.3389/fpsyg.2025.1537088"
+      ],
+      "audit": "https://github.com/dotjade/project-neurofreedom/blob/main/analyses/adult_pain/2026-10-17/report.md",
+      "cohort_linkage": "One convenience sample, 76 adults; not pooled with Taylor.",
+      "actual_learning": "56 report past-or-present pain; current/worst windows differ and care denominator/subgroup counts conflict.",
+      "claim_retained": "Pain is a distinct directly measured burden and unmet-care topic.",
+      "unsupported_inference_retired": "Representative current/chronic adult pain prevalence; care success/failure rate; causal superiority of self-management.",
+      "remaining_unknown": "Correct help-seeking denominator, bounded worst-pain window, item missingness, causal treatment contrast.",
+      "decision": "Preserve discrepancies without selecting a corrected count."
+    },
+    {
+      "id": "W18-C09",
+      "topic": "Pain interference",
+      "source_type": "Pain-selected mixed-age online survey",
+      "sources": [
+        "10.3389/fpsyt.2022.914044"
+      ],
+      "audit": "https://github.com/dotjade/project-neurofreedom/blob/main/analyses/pain_interference/2026-10-18/report.md",
+      "cohort_linkage": "181 respondents aged16–71, with current tic-related pain required; distinct from Małek sample.",
+      "actual_learning": "Explicit past-week domain interference; all 13 printed tic-minus-pain mean differences positive (0.05–1.12), robust only to rounding uncertainty.",
+      "claim_retained": "Direct interference domains and individual qualitative priorities are informative.",
+      "unsupported_inference_retired": "Pain prevalence; adult-only estimate; paired significant/meaningful effect from marginal means; pain less important to everyone.",
+      "remaining_unknown": "Age≥18 domain summaries, valid/N/A counts and rules, matched n, covariance, instrument validation and care counts.",
+      "decision": "No pooled adult prevalence or pain-treatment effect; close pending public clarification."
+    },
+    {
+      "id": "W18-C10",
+      "topic": "Pneumatic gating",
+      "source_type": "Adult cross-sectional EEG study, abstract-limited",
+      "sources": [
+        "10.1016/j.biopsycho.2026.109408"
+      ],
+      "audit": "https://github.com/dotjade/project-neurofreedom/blob/main/analyses/sensory_gating/2026-10-12/report.md",
+      "cohort_linkage": "28 CTD and 34 control adults; overlap with other physiology cohorts not established.",
+      "actual_learning": "Reported gating nulls and smaller first-stimulus P50; required effect/variance/model quantities not retrieved.",
+      "claim_retained": "Counterevidence to a generalized deficit in this paradigm with unresolved precision.",
+      "unsupported_inference_retired": "Equivalence; every gating mechanism absent; S1 amplitude difference proves impaired gating.",
+      "remaining_unknown": "Full lawful methods/tables, index definitions, outcome-specific n, effect estimates/precision and relevant margin.",
+      "decision": "Close access pass until usable primary methods become available."
+    },
+    {
+      "id": "W18-C11",
+      "topic": "CBIT–TMS",
+      "source_type": "Preprint plus linked historical registry results",
+      "sources": [
+        "10.64898/2026.09.29.26364036",
+        "NCT04578912"
+      ],
+      "audit": "https://github.com/dotjade/project-neurofreedom/blob/main/updates/2026-10-12-cbit-tms-extraction.md",
+      "cohort_linkage": "One 50-person ages 12–21 trial; publication and registry not independent.",
+      "actual_learning": "First posted 1 October, newly indexed during week; neural engagement and across-arm improvements reported; clinical contrasts and safety units ambiguous.",
+      "claim_retained": "Preliminary target-engagement/feasibility lead.",
+      "unsupported_inference_retired": "Added clinical benefit over sham, severe-adult efficacy, session-event rates are person risk, newly posted October trial results.",
+      "remaining_unknown": "Complete verified preprint methods, between-arm effects, endpoint hierarchy history, session/event/person denominators.",
+      "decision": "No clinical-effect reconstruction from ambiguous registry cells."
+    },
+    {
+      "id": "W18-C12",
+      "topic": "New pediatric association",
+      "source_type": "Peer-reviewed cross-sectional study",
+      "sources": [
+        "10.1007/s00431-026-07510-4"
+      ],
+      "audit": "https://github.com/dotjade/project-neurofreedom/blob/main/updates/2026-10-15/report.md",
+      "cohort_linkage": "136 children; overlap with other reports unverified.",
+      "actual_learning": "First online 1 October3; association between allergy-load index and tic severity.",
+      "claim_retained": "Pediatric association and methods-verification lead.",
+      "unsupported_inference_retired": "Allergy causes tics; treating allergy improves tics; adult extrapolation.",
+      "remaining_unknown": "Full adjustment/index construction, precision, selection, temporal order and overlap.",
+      "decision": "Retain as association, no clinical action."
+    },
+    {
+      "id": "W18-C13",
+      "topic": "New adult social burden",
+      "source_type": "Peer-reviewed qualitative interview study",
+      "sources": [
+        "10.1097/ANS.0000000000000710"
+      ],
+      "audit": "https://github.com/dotjade/project-neurofreedom/blob/main/updates/2026-10-16/report.md",
+      "cohort_linkage": "34 adult interviewees; overlap and severe-state representation unverified.",
+      "actual_learning": "First online 1 October5; stigma, work and relationship themes.",
+      "claim_retained": "Adult participation/social burden is relevant independently of tic-score change.",
+      "unsupported_inference_retired": "Representative theme prevalence, treatment efficacy or validated prospective life-course model.",
+      "remaining_unknown": "Full recruitment/analysis methods, negative cases, geography and severe/comorbid applicability.",
+      "decision": "Keep abstract-limited source classification."
+    },
+    {
+      "id": "W18-C14",
+      "topic": "Registries and negative feasibility",
+      "source_type": "Official protocol/status records",
+      "sources": [
+        "NCT07137442",
+        "NCT07093541",
+        "NCT05158439",
+        "ISRCTN public XML API"
+      ],
+      "audit": "https://github.com/dotjade/project-neurofreedom/blob/main/updates/2026-10-18/report.md",
+      "cohort_linkage": "Repeated postings recheck the same records; no distinct trial count per day.",
+      "actual_learning": "Adult physiology has no results; ecopipam expanded access temporarily unavailable; cell protocol withdrawn with zero enrollment; API coverage improved.",
+      "claim_retained": "Status, planned design and documented feasibility limits.",
+      "unsupported_inference_retired": "Updates are efficacy; zero-enrollment withdrawal is failed clinical efficacy; posting date is date status changed; query zero means worldwide absence.",
+      "remaining_unknown": "Full history, status-change dates/reasons, WHO/CTIS completeness.",
+      "decision": "Continue bounded surveillance; no recruitment/contact."
+    },
+    {
+      "id": "W18-C15",
+      "topic": "Retraction and safety",
+      "source_type": "Integrity metadata, case report and regulator communications",
+      "sources": [
+        "PMID39947542",
+        "PMID42527169",
+        "10.1016/j.therap.2026.08.002",
+        "EMA Intuniv",
+        "FDA recall222521",
+        "MHRA antidepressant communication2026-10-15"
+      ],
+      "audit": "https://github.com/dotjade/project-neurofreedom/blob/main/updates/2026-10-18/safety/report.md",
+      "cohort_linkage": "Do not count retraction notice or repeated safety metadata as independent clinical evidence.",
+      "actual_learning": "Historical July preclinical retraction excluded; general signal-only case; document update/recall/risk-communication dates distinct.",
+      "claim_retained": "Preserve integrity exclusions and official, context-specific safety information.",
+      "unsupported_inference_retired": "Retracted mechanism necessarily false; case establishes risk incidence; no new verified notice means safe; routine document/footer date means new warning.",
+      "remaining_unknown": "Retraction reason, complete safety labeling and filtered recall coverage.",
+      "decision": "No personal treatment-change instruction; preserve exact source and access limits."
+    },
+    {
+      "id": "W18-C16",
+      "topic": "Focal-tic pain endpoint",
+      "source_type": "Historical crossover trial, incomplete primary access",
+      "sources": [
+        "10.1212/WNL.56.5.605",
+        "PMID11245710",
+        "10.3310/hta20040",
+        "https://njl-admin.nihr.ac.uk/document/download/2003385"
+      ],
+      "audit": "https://github.com/dotjade/project-neurofreedom/blob/main/analyses/focal_tic_pain/2026-10-18/report.md",
+      "cohort_linkage": "One historical trial; abstract identifies 18 completers, not verified pain n.",
+      "actual_learning": "Lawful NIHR secondary review corroborates a treated-tic-area pain measure under Safety, with scale unreported. Required primary methods/tables remain inaccessible.",
+      "claim_retained": "Pain measurement has secondary corroboration; precise construct, benefit versus procedural pain and primary estimator remain unverified.",
+      "unsupported_inference_retired": "Pain not measured; tic reduction proves pain relief; abstract secondary null proves pain equivalence.",
+      "remaining_unknown": "Endpoint wording/validation, denominators, crossover carryover/period treatment, paired pain estimate and precision.",
+      "decision": "Retire absence inference; stop primary-source gate and do not compute pain efficacy from secondary standardized figures."
+    },
+    {
+      "id": "W18-C17",
+      "topic": "New weekly evidence-structure analysis",
+      "source_type": "Deterministic audit of fixed published report set",
+      "sources": [
+        "10.3390/jcm11010250",
+        "10.1001/archgenpsychiatry.2011.1528",
+        "10.1017/S0033291719002150"
+      ],
+      "audit": "https://github.com/dotjade/project-neurofreedom/blob/main/analyses/evidence_structure/2026-10-18/report.md",
+      "cohort_linkage": "Three publications resolve to two independent trial clusters: NCT02605902 and NCT00231985.",
+      "actual_learning": "Endpoint/time/selection/exposure classifications prevent report-count inflation and unsupported cessation-based functional follow-up claims.",
+      "claim_retained": "This bounded report set does not document the stronger randomized post-cessation functional-benefit predicate.",
+      "unsupported_inference_retired": "Analyst blocks or checks are independent clinical evidence; lack of documented conjunction proves no benefit; pooled efficacy from unlike endpoints.",
+      "remaining_unknown": "No new outcomes, joint covariance or clinical data generated. Structural predicates inherit source-coding uncertainty; this is not clinical validation.",
+      "decision": "Use as evidence-structure validation, not meta-analysis or treatment ranking.",
+      "verification": "24 mechanical tests passed; a separate rerun was byte-identical and passed five additional count/status assertions, with source/interpretation review against prior audits."
+    },
+    {
+      "id": "W18-C18",
+      "topic": "Biological portfolio",
+      "source_type": "Explicit hypotheses and research planning",
+      "sources": [
+        "H07",
+        "H13",
+        "H17",
+        "H18",
+        "H19"
+      ],
+      "audit": "https://github.com/dotjade/project-neurofreedom/blob/main/hypotheses.md",
+      "cohort_linkage": "Hypotheses are not experiments or discoveries.",
+      "actual_learning": "No direct test of durable synergy, mechanism-specific MNS, personalized matching or resilience occurred this week.",
+      "claim_retained": "Established symptomatic anchors remain while speculative extensions require discriminating tests.",
+      "unsupported_inference_retired": "A new report, arithmetic check, in-sample prediction or symptom benefit establishes a cure mechanism.",
+      "remaining_unknown": "Causal pathways, clinically meaningful patient-relevant outcomes, independent replication and governed clinical access.",
+      "decision": "Keep speculative, not rejected wholesale or promoted."
+    }
+  ]
+}
