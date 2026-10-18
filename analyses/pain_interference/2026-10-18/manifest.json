@@ -1,0 +1,39 @@
+{
+  "release_files": [
+    "aggregate_checks.json",
+    "aggregate_checks.py",
+    "aggregate_inputs.json",
+    "execution_log.txt",
+    "extraction.json",
+    "prediction.md",
+    "provenance.json",
+    "report.md",
+    "review/aggregate_review.md",
+    "review/analysis_tests_rerun.txt",
+    "review/compare_outputs.py",
+    "review/comparison_result.json",
+    "review/independent_checks.json",
+    "review/independent_checks.py",
+    "review/independent_review.md",
+    "test_aggregate_checks.py"
+  ],
+  "excluded": "Python bytecode/cache and all temporary source papers, XML, screenshots or quotations",
+  "sha256": {
+    "aggregate_checks.json": "f9242b51a6991137912387eca6a7dc2fb530f031b12f79d7ac6c10eb45753690",
+    "aggregate_checks.py": "3874a635b21597f50125282e33fe4b95f36361eef13ec62a1befd9361c61f1f7",
+    "aggregate_inputs.json": "82a4729e53108c114961c46c0c12b472f2fb1389e42f7816d12835b58034185f",
+    "execution_log.txt": "d62fb4a837d572361edabf7500bd189d3fe59e8bb6fc04d172df4464adf124f7",
+    "extraction.json": "1815dd2385446556df68783161b9041e6e207f775426507e42201b8181d84801",
+    "prediction.md": "37a967098d8aacd1a86af289a673ad5dc57afb6cca30690d26fc96d93a50f2c6",
+    "provenance.json": "a21fb520d832167079f45ecc4581920cf284bfae08d750c99af782373bd01a77",
+    "report.md": "cc40063d9d786d30807356d1c3d15ea326d1ddafc94f36c554953bce07701da9",
+    "review/aggregate_review.md": "141fa1eeda2f01ac24d9887d39394b2565c1bfc62dd38341e8bb7830d8bd4631",
+    "review/analysis_tests_rerun.txt": "abcaf92a8aa4f5a202bc55020ae500b788bf79e1ad1bca14b0e4ca3fe7c25950",
+    "review/compare_outputs.py": "bf8df042123ffa3d68b090acb88851194f866b288a58e114b586217abd954144",
+    "review/comparison_result.json": "68c3036086cc3cf48c3f8cf26a785ba17b953dc48acdef03d7c11e0cba3812b0",
+    "review/independent_checks.json": "76e44f930a176b422289938763079a2fa068ff1675dd5a548bdfb329958c7253",
+    "review/independent_checks.py": "1e1f2b2b554c4831c25083a898f2e26fc1e44a3d0b3a3b29bccaa531eeed9826",
+    "review/independent_review.md": "c365840f0718d8f4e367b0159bdb87d84df142bdb1c9eabe80a4708cc4fdbf5b",
+    "test_aggregate_checks.py": "969aff4688654e6a8c75103e2a8f62708de2972a736206b499c3e37fe0ccecf9"
+  }
+}

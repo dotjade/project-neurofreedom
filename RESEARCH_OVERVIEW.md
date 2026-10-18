@@ -69,3 +69,45 @@ A research program toward better understanding, effective treatments and ultimat
 - [Dated evidence and safety scan](updates/2026-10-13-evidence-scan.md): no verified qualifying new result in the bounded interval.
 - [Six-report adult burden validation synthesis](analyses/burden_validation/2026-10-13/report.md): version-specific patient-reported outcomes, distinct severity/impairment, and limits of universal thresholds.
 - [Executed response-classification analysis](analyses/burden_validation/2026-10-13/aggregate_checks.json) and [independent audit](analyses/burden_validation/2026-10-13/review/audit_summary.md): 34/232 pooled mixed-age participants had discordant tic-threshold and clinician-response labels; this is not adult quality-of-life surrogate validation.
+
+## Research update - 14 October 2026
+
+- [Dated scan](updates/2026-10-14/report.md): one registry posting without results, a newly posted guanfacine regulatory-document update and an older newly discovered device recall, each dated separately.
+- [ONLINE-TICS trial audit](analyses/online_tics/2026-10-14/report.md): a historical adult trial's failed primary test, later exploratory findings, outcome-specific timing and continued-access limits.
+- [Reproducible checks](analyses/online_tics/2026-10-14/aggregate_checks.json) and [independent audit](analyses/online_tics/2026-10-14/review/audit.md): 33 checks; post hoc restricted multiplicity sensitivity does not restore confirmation.
+- [Public journal workflow](public/UPDATE_WORKFLOW.md) and [link check](public/link-checks/2026-10-14.json). The October 14 feed is versioned here; an initial cloud-client block was followed by successful production feed verification at 09:07:36 UTC.
+
+## Research update - 15 October 2026
+
+- [Dated evidence and safety scan](updates/2026-10-15/report.md): a newly encountered pediatric association study and two registry postings without results, with publication and discovery dates separated.
+- [CBIT maintenance analysis](analyses/cbit_maintenance/2026-10-15/report.md): returning acute responders, missing-outcome bounds, planned boosters and limits of longer-term inference.
+- [Reproducible computation](analyses/cbit_maintenance/2026-10-15/aggregate_checks.json) and [independent review](analyses/cbit_maintenance/2026-10-15/review/independent_review.md).
+- [Public source-link ledger](public/link-checks/2026-10-15.json).
+
+## Research update - 16 October 2026
+
+- [Dated evidence scan](updates/2026-10-16/report.md): new adult qualitative burden evidence, registry changes without results and separately classified safety context.
+- [CBIT functional-outcome analysis](analyses/cbit_functioning/2026-10-16/report.md): randomized contrasts, responder associations and selected follow-up kept distinct.
+- [Reproducible calculations](analyses/cbit_functioning/2026-10-16/aggregate_checks.json) and [independent review](analyses/cbit_functioning/2026-10-16/review/REVIEW.md).
+- [Public link checks](public/link-checks/2026-10-16.json).
+
+## Research update - 17 October 2026
+
+- [Dated evidence and registry scan](updates/2026-10-17/report.md): a signal-only case report, a withdrawn zero-enrollment protocol and a historical retraction, with source dates and inference limits kept separate.
+- [Adult pain measurement audit](analyses/adult_pain/2026-10-17/report.md): pain windows, inconsistent care denominators and limits of perceived usefulness.
+- [Reproducible arithmetic](analyses/adult_pain/2026-10-17/aggregate_checks.json) and [independent review](analyses/adult_pain/2026-10-17/review/REVIEW.md).
+- [Displayed-link checks](public/link-checks/2026-10-17.json).
+
+## Research update - 18 October 2026
+
+- [Dated evidence scan](updates/2026-10-18/report.md): no new qualifying primary result; a newly indexed review remains secondary evidence. Official ISRCTN API coverage improved.
+- [Pain-interference audit](analyses/pain_interference/2026-10-18/report.md): pain-selected recruitment, past-week domain measurements and missing adult-only estimates.
+- [Reproducible aggregate checks](analyses/pain_interference/2026-10-18/aggregate_checks.json) and [independent review](analyses/pain_interference/2026-10-18/review/aggregate_review.md).
+- [Safety review](updates/2026-10-18/safety/report.md) and [displayed-link checks](public/link-checks/2026-10-18.json).
+
+## Second weekly synthesis - 18 October 2026
+
+- [What was tested, learned and rejected](updates/2026-10-18-weekly-synthesis.md), covering actual work from October 12-18.
+- [Executed evidence-structure analysis](analyses/evidence_structure/2026-10-18/report.md): three result publications, two randomized trial clusters; outcome, selection and continued exposure remain distinct.
+- [Focal-tic pain endpoint audit](analyses/focal_tic_pain/2026-10-18/report.md): secondary evidence corroborates pain measurement, while inaccessible primary methods prevent a pain-benefit estimate.
+- [Claim and decision matrix](updates/2026-10-18-weekly/claim-matrix.json), with a proposed two-outcome design-discrimination experiment and explicit clinical governance dependencies.

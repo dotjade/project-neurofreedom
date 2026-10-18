@@ -1,0 +1,72 @@
+{
+  "repository": "dotjade/project-neurofreedom",
+  "retrieved_utc_approx": "2026-10-18T02:38:08Z to 2026-10-18T02:39:04Z",
+  "files": [
+    {
+      "path": "README.md",
+      "sha": "605afa1f954492cf08872865146a4f832e47b369",
+      "url": "https://github.com/dotjade/project-neurofreedom/blob/main/README.md",
+      "read_scope": "Complete file fetched; baseline for protocol, deduplication and source-date/status comparison."
+    },
+    {
+      "path": "RESEARCH_PROTOCOL.md",
+      "sha": "d69c21b73447f7ad9df0a3949b7fcaf57dd5ddde",
+      "url": "https://github.com/dotjade/project-neurofreedom/blob/main/RESEARCH_PROTOCOL.md",
+      "read_scope": "Complete file fetched; baseline for protocol, deduplication and source-date/status comparison."
+    },
+    {
+      "path": "STATUS.md",
+      "sha": "49919ed2ce305598b5aeaa4c45367eaf026936e6",
+      "url": "https://github.com/dotjade/project-neurofreedom/blob/main/STATUS.md",
+      "read_scope": "Complete file fetched; baseline for protocol, deduplication and source-date/status comparison."
+    },
+    {
+      "path": "evidence.jsonl",
+      "sha": "32e7e928e0eecef2c4031fff1e1465cdd6340ab4",
+      "url": "https://github.com/dotjade/project-neurofreedom/blob/main/evidence.jsonl",
+      "read_scope": "Complete file fetched; baseline for protocol, deduplication and source-date/status comparison."
+    },
+    {
+      "path": "updates/2026-10-17/report.md",
+      "sha": "8e6a6314ec29cc3bab22185334944cf829b0e6b5",
+      "url": "https://github.com/dotjade/project-neurofreedom/blob/main/updates/2026-10-17/report.md",
+      "read_scope": "Complete file fetched; baseline for protocol, deduplication and source-date/status comparison."
+    },
+    {
+      "path": "updates/2026-10-17/search-log.json",
+      "sha": "8b716742d34c2a2eeedb8a28a1a3a7da56785d76",
+      "url": "https://github.com/dotjade/project-neurofreedom/blob/main/updates/2026-10-17/search-log.json",
+      "read_scope": "Complete file fetched; baseline for protocol, deduplication and source-date/status comparison."
+    },
+    {
+      "path": "updates/2026-10-17/registry-evidence.jsonl",
+      "sha": "8f9756f1b4b0d27d32ea33e311561fa6b23e7180",
+      "url": "https://github.com/dotjade/project-neurofreedom/blob/main/updates/2026-10-17/registry-evidence.jsonl",
+      "read_scope": "Complete file fetched; baseline for protocol, deduplication and source-date/status comparison."
+    },
+    {
+      "path": "updates/2026-10-17/primary-evidence.jsonl",
+      "sha": "26e7ca3272dff54defc714aab33154a52a4b28b1",
+      "url": "https://github.com/dotjade/project-neurofreedom/blob/main/updates/2026-10-17/primary-evidence.jsonl",
+      "read_scope": "Complete file fetched; baseline for protocol, deduplication and source-date/status comparison."
+    },
+    {
+      "path": "updates/2026-10-17/integrity-evidence.jsonl",
+      "sha": "8c22098103e0a20bb9dcfff0c77626beea4e46af",
+      "url": "https://github.com/dotjade/project-neurofreedom/blob/main/updates/2026-10-17/integrity-evidence.jsonl",
+      "read_scope": "Complete file fetched; baseline for protocol, deduplication and source-date/status comparison."
+    },
+    {
+      "path": "updates/2026-10-17/source-checks.json",
+      "sha": "aeb64f44ab219b6d50a16270407e4e7b7e38e5e5",
+      "url": "https://github.com/dotjade/project-neurofreedom/blob/main/updates/2026-10-17/source-checks.json",
+      "read_scope": "Complete file fetched; baseline for protocol, deduplication and source-date/status comparison."
+    },
+    {
+      "path": "updates/2026-10-17/registry-supplement-selected.json",
+      "sha": "dfd92275e5b69c55dcf66ac08e11a98a466bdecf",
+      "url": "https://github.com/dotjade/project-neurofreedom/blob/main/updates/2026-10-17/registry-supplement-selected.json",
+      "read_scope": "Complete file fetched; baseline for protocol, deduplication and source-date/status comparison."
+    }
+  ]
+}

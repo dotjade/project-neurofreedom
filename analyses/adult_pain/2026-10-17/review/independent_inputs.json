@@ -1,0 +1,112 @@
+{
+  "audit_date_utc": "2026-10-17",
+  "source": {
+    "title": "Coping with pain among adults with chronic tic disorders",
+    "author": "Agnieszka Małek",
+    "year": 2025,
+    "doi": "10.3389/fpsyg.2025.1537088",
+    "pmid": "40808742",
+    "publisher_url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2025.1537088/full",
+    "pdf_url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2025.1537088/pdf",
+    "verification": "Publisher HTML and PDF text independently inspected before worker artifacts. Initial web screenshots failed; later independently inspected main-paper renderings of pages 3, 4, 6 and both blank supplemental questionnaire pages. No raw paper retained in deliverable."
+  },
+  "sample": {
+    "n": 76,
+    "men_n": 38,
+    "women_n": 38,
+    "gts_n": 57,
+    "cmtd_n": 19,
+    "pain_past_or_present_n": 56,
+    "pain_men_n": 26,
+    "pain_women_n": 30,
+    "pain_gts_men_n": 19,
+    "pain_gts_women_n": 20,
+    "pain_cmtd_men_n": 7,
+    "pain_cmtd_women_n": 10
+  },
+  "table3": {
+    "present": {
+      "men_mean": 3.3,
+      "women_mean": 2.6,
+      "men_sd": 1.3,
+      "women_sd": 1.8,
+      "men_median": 3.0,
+      "women_median": 2.5
+    },
+    "worst": {
+      "men_mean": 4.3,
+      "women_mean": 4.3,
+      "men_sd": 1.5,
+      "women_sd": 2.1,
+      "men_median": 4.0,
+      "women_median": 4.0
+    },
+    "diagnosis_means": {
+      "present_men_gts": 3.2,
+      "present_men_cmtd": 3.4,
+      "present_women_gts": 2.8,
+      "present_women_cmtd": 2.4,
+      "worst_men_gts": 4.6,
+      "worst_men_cmtd": 3.6,
+      "worst_women_gts": 4.6,
+      "worst_women_cmtd": 4.2
+    }
+  },
+  "section9": {
+    "reported_seek_percent": 86,
+    "reported_seek_men_n": 19,
+    "reported_seek_women_n": 31,
+    "reported_relief_men_n": 4,
+    "reported_relief_women_n": 6,
+    "reported_relief_percent_of_seekers": 18,
+    "provider_percentages": {
+      "primary_care": 37.5,
+      "neurology": 57.1,
+      "psychiatry": 30.3,
+      "physiotherapy": 21.4,
+      "psychotherapy": 12.5,
+      "acupuncture": 3.6
+    },
+    "acupuncture_explicit_n": 2,
+    "specialized_pain_clinic_reported_n": 0
+  },
+  "secondary_arithmetic_checks": {
+    "adhd": {
+      "n": 10,
+      "printed_percent": 7.6
+    },
+    "sleep_disorders": {
+      "n": 20,
+      "printed_percent": 15.2
+    },
+    "ygtss_full_sample": {
+      "men_n": 38,
+      "women_n": 38,
+      "men_mean": 40.95,
+      "women_mean": 36.39,
+      "men_sd": 19.31,
+      "women_sd": 18.67,
+      "printed_total_mean": 38.67,
+      "printed_total_sd": 16.0
+    },
+    "table5_women_continuous": {
+      "component_score_totals": [
+        14,
+        26,
+        2,
+        46,
+        12,
+        0
+      ],
+      "printed_total": 98
+    }
+  },
+  "boundaries": [
+    "Published aggregates only",
+    "No participant-level reconstruction",
+    "No individual or n=1 scores",
+    "No causal treatment-effect estimation",
+    "No clinical actions",
+    "No source-paper copy or repository commit"
+  ]
+}

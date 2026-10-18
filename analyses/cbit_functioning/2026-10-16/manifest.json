@@ -1,0 +1,88 @@
+{
+  "local_directory": "/workspace/scratch/153000ecb31b/day16_functioning",
+  "repository_target": "analyses/cbit_functioning/2026-10-16",
+  "generated_utc": "2026-10-16T02:52:20.897125+00:00",
+  "file_count": 12,
+  "files": [
+    {
+      "path": "aggregate_checks.json",
+      "repository_path": "analyses/cbit_functioning/2026-10-16/aggregate_checks.json",
+      "bytes": 14887,
+      "sha256": "c84ea81362b0aca6445bc1a5127aef1ca2647e156a3273d2350dd11e08d9b947"
+    },
+    {
+      "path": "aggregate_checks.py",
+      "repository_path": "analyses/cbit_functioning/2026-10-16/aggregate_checks.py",
+      "bytes": 4288,
+      "sha256": "89427f197d6f0cc01bd37b74c42f470dc3d537b9343ab80a9cbe92c8985019df"
+    },
+    {
+      "path": "aggregate_inputs.json",
+      "repository_path": "analyses/cbit_functioning/2026-10-16/aggregate_inputs.json",
+      "bytes": 21138,
+      "sha256": "a56560223706db116d0a96468565c65743375bcd34952c3fed30b4de6a0042e2"
+    },
+    {
+      "path": "build_inputs.py",
+      "repository_path": "analyses/cbit_functioning/2026-10-16/build_inputs.py",
+      "bytes": 5266,
+      "sha256": "aade1f2eebccfed6a40c922bb4c05d6f04602a6d8e60c13e60fe960bc9bec0d3"
+    },
+    {
+      "path": "computation_plan.md",
+      "repository_path": "analyses/cbit_functioning/2026-10-16/computation_plan.md",
+      "bytes": 2096,
+      "sha256": "c2cf3a91ead7de71336c5a6dafa00fe45a01960007abe4ef4cc28b46ce6b8023"
+    },
+    {
+      "path": "evidence_record.jsonl",
+      "repository_path": "analyses/cbit_functioning/2026-10-16/evidence_record.jsonl",
+      "bytes": 6457,
+      "sha256": "cfa25cdf2e429b4c83b63a76b9338ceef577bcbfa08c8557df72708aeebb2694"
+    },
+    {
+      "path": "execution_log.txt",
+      "repository_path": "analyses/cbit_functioning/2026-10-16/execution_log.txt",
+      "bytes": 1848,
+      "sha256": "ab61dde81496905e6ddd9a70b786e4ce8ce9ba8364f6fa8872f2a799f723cd53"
+    },
+    {
+      "path": "extraction.md",
+      "repository_path": "analyses/cbit_functioning/2026-10-16/extraction.md",
+      "bytes": 5426,
+      "sha256": "02b75d251784e09ea2f3073ec1a52dd42c5a72ca1788f3e65bfeec09f138b02e"
+    },
+    {
+      "path": "prespecified_question.md",
+      "repository_path": "analyses/cbit_functioning/2026-10-16/prespecified_question.md",
+      "bytes": 2299,
+      "sha256": "ace36b3c01dda590664b6c5c38a147e8627949f9e652dbf1991920e9065d524c"
+    },
+    {
+      "path": "provenance.json",
+      "repository_path": "analyses/cbit_functioning/2026-10-16/provenance.json",
+      "bytes": 5520,
+      "sha256": "503271c93721fc8703640d64470292a5e22254b135ccf39fdee365bc5e7cabcf"
+    },
+    {
+      "path": "report.md",
+      "repository_path": "analyses/cbit_functioning/2026-10-16/report.md",
+      "bytes": 14201,
+      "sha256": "851fad9594d0351c7db7f0d872cf2c4381768d68db5acd549f5b037500d88d01"
+    },
+    {
+      "path": "test_aggregate_checks.py",
+      "repository_path": "analyses/cbit_functioning/2026-10-16/test_aggregate_checks.py",
+      "bytes": 3546,
+      "sha256": "31113f265af44bec789485b0b36fd881a9a460aff57571a2cd4aad28351821bc"
+    }
+  ],
+  "review_integration": "Copy reviewer artifacts from day16_functioning_review into review/ after reviewer portable-path finalization. Review files are not hashed by this main-artifact manifest.",
+  "excluded": [
+    "__pycache__",
+    "full manuscripts",
+    "source figure image",
+    "single-participant follow-up scores"
+  ],
+  "repository_mutation": "None performed by this worker."
+}

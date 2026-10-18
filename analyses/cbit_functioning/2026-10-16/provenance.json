@@ -1,0 +1,127 @@
+{
+  "task": "Bounded audit of same-trial functional outcomes",
+  "date": "2026-10-16",
+  "timezone": "UTC",
+  "prediction_recorded_utc": "2026-10-16T02:40:00Z",
+  "source_extraction_began_after_prediction": true,
+  "repository_reads": [
+    {
+      "path": "README.md",
+      "sha": "311fd6b0f87d057759c9f8cc14796bb6525e95d6",
+      "url": "https://github.com/dotjade/project-neurofreedom/blob/main/README.md"
+    },
+    {
+      "path": "RESEARCH_PROTOCOL.md",
+      "sha": "d69c21b73447f7ad9df0a3949b7fcaf57dd5ddde",
+      "url": "https://github.com/dotjade/project-neurofreedom/blob/main/RESEARCH_PROTOCOL.md"
+    },
+    {
+      "path": "STATUS.md",
+      "sha": "3f9c381305790570c2949fa6b704a058cb4bdb11",
+      "url": "https://github.com/dotjade/project-neurofreedom/blob/main/STATUS.md"
+    },
+    {
+      "path": "analyses/cbit_maintenance/2026-10-15/report.md",
+      "sha": "2f525b8cc877315352bbf9a3a881c6216abb2506",
+      "url": "https://github.com/dotjade/project-neurofreedom/blob/main/analyses/cbit_maintenance/2026-10-15/report.md"
+    }
+  ],
+  "prior_evidence_ledger": {
+    "path": "evidence.jsonl",
+    "sha": "1a97a5a2b7c2c8586406b79410c6bcb948f31b32",
+    "check": "PMID 40808742 and Małek absent; no pain record found by a bounded literal search."
+  },
+  "source_version": "PMC NIH author manuscript; publisher abstract metadata checked; final published full tables not separately inspected.",
+  "primary_sources": [
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7190082/",
+      "access": "Successful ordinary urllib GET interspersed with browser-check HTML. Raw source not saved in deliverables.",
+      "successful_html_character_count": 235817,
+      "successful_utf8_sha256": "b92b4e6d2be286ce4da28e2a1132925a43bcbadf66b5791ee1276ebf8c361544",
+      "sections_read": [
+        "Methods",
+        "Analytic Plan",
+        "Results",
+        "Tables 1–3",
+        "Discussion",
+        "Disclosures"
+      ],
+      "access_time_utc_approx": "2026-10-16T02:42:00Z"
+    },
+    {
+      "url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/e4bc/7190082/c8ef81f9f5f0/nihms-1572685-f0001.jpg",
+      "access": "Ordinary GET succeeded; visually inspected. Image not included in public deliverables."
+    },
+    {
+      "url": "https://www.cambridge.org/core/journals/psychological-medicine/article/abs/effect-of-behavior-therapy-for-tourettes-disorder-on-psychiatric-symptoms-and-functioning-in-adults/0693F2F92D2536E4115F03102C503792",
+      "access": "Publisher abstract, publication metadata and copyright inspected."
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31451122/",
+      "access": "Search result metadata retrieved; direct web page intermittently sparse."
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Web search",
+      "queries": [
+        "\"31451122\"",
+        "\"10.1017/S0033291719002150\""
+      ],
+      "limits": "No date filter; identify historical source and public access routes",
+      "included": "Primary author manuscript and publisher record",
+      "excluded": "Institutional duplicate abstracts, third-party mirrors and unrelated numeric matches"
+    },
+    {
+      "provider": "Web search",
+      "queries": [
+        "\"31451122\" (correction OR retraction OR erratum)",
+        "\"S0033291719002150\" (correction OR erratum OR corrigendum)"
+      ],
+      "limits": "No date filter; bounded integrity check",
+      "result": "No correction/retraction notice identified; not comprehensive clearance."
+    },
+    {
+      "provider": "Web search",
+      "queries": [
+        "Tourette adults pain tics pain characteristics prospective study pain primary study",
+        "\"Coping with pain among adults with chronic tic disorders\" Małek 2025 doi"
+      ],
+      "limits": "No date filter; next-source identification only",
+      "included": "Małek 2025 PMID 40808742, DOI 10.3389/fpsyg.2025.1537088, publisher date 2025-07-30",
+      "not_done": "No full pain-study extraction or efficacy analysis in this task."
+    }
+  ],
+  "access_limits": [
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7190082/fullTextXML",
+      "result": "HTTP 500"
+    },
+    {
+      "url": "https://europepmc.org/articles/PMC7190082",
+      "result": "Web tool internal error"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7190082/table/T1/",
+      "result": "Web tool inaccessible; ordinary GET returned browser-check page; successful main article supplied tables."
+    }
+  ],
+  "privacy": "No full paper, private patient data, individually reported n=1 follow-up values, credentials or private community material included. The single-participant parental-role row retains only insufficient-aggregate/untested metadata.",
+  "actions_not_taken": [
+    "No outreach",
+    "No treatment change",
+    "No paid compute",
+    "No GitHub writes or commits",
+    "No participant data acquisition"
+  ],
+  "computational_scope": "Deterministic aggregate-only audit, post hoc restricted functional-family Holm/Bonferroni sensitivity, rounded-mean arithmetic for orientation, and flow-count checks; no covariance or clinical confidence interval reconstruction.",
+  "random_seed": null,
+  "verification": {
+    "main_unittest_methods": 13,
+    "main_status": "passed after single-participant exclusion",
+    "independent_numeric_cells_matched": 363,
+    "independent_output_marker_checks_passed": 144,
+    "review_artifacts": "review/ when integrated into the publication directory",
+    "clinical_peer_review": false
+  }
+}

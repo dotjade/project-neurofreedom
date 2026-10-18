@@ -1,0 +1,274 @@
+{
+  "started_utc": "2026-10-18T02:40:45.307205+00:00",
+  "requests": [
+    {
+      "url": "https://clinicaltrials.gov/api/v2/studies/NCT07093541",
+      "started_utc": "2026-10-18T02:40:45.307220+00:00",
+      "status": 200,
+      "final_url": "https://clinicaltrials.gov/api/v2/studies/NCT07093541",
+      "bytes": 18653,
+      "sha256": "d23630cc7fb7ff5f8ccf86d4765f221ba8d23bc094f8a9764ac3957ae4dbd873",
+      "completed_utc": "2026-10-18T02:40:48.509561+00:00"
+    },
+    {
+      "url": "https://clinicaltrials.gov/api/v2/studies/NCT06194305",
+      "started_utc": "2026-10-18T02:40:48.509586+00:00",
+      "status": 200,
+      "final_url": "https://clinicaltrials.gov/api/v2/studies/NCT06194305",
+      "bytes": 10891,
+      "sha256": "59472e071c81693a7de22361cf0dd44f9d626443b6c84b1a07f252af7a2cdeb1",
+      "completed_utc": "2026-10-18T02:40:51.208612+00:00"
+    },
+    {
+      "url": "https://api.crossref.org/works/10.1111/jpc.70627",
+      "started_utc": "2026-10-18T02:40:51.208667+00:00",
+      "status": 200,
+      "final_url": "https://api.crossref.org/works/10.1111/jpc.70627",
+      "bytes": 23232,
+      "sha256": "2d103b91de206bda13547bb7c4b86fdbc9d3370fedfca0355a265e7b1c90aa29",
+      "completed_utc": "2026-10-18T02:40:54.940233+00:00"
+    },
+    {
+      "url": "https://www.isrctn.com/api/query/format/default?q=%28Tourette+OR+tics+OR+%22tic+disorder%22%29+AND+lastEdited+GE+2026-10-16T00%3A00%3A00+AND+lastEdited+LT+2026-10-19T00%3A00%3A00&limit=50",
+      "started_utc": "2026-10-18T02:40:54.940324+00:00",
+      "status": 200,
+      "final_url": "https://www.isrctn.com/api/query/format/default?q=%28Tourette+OR+tics+OR+%22tic+disorder%22%29+AND+lastEdited+GE+2026-10-16T00%3A00%3A00+AND+lastEdited+LT+2026-10-19T00%3A00%3A00&limit=50",
+      "bytes": 77,
+      "sha256": "9102345f60a6769cd03fb92d5a00f71c6bbfb597ba699e5f98161f95f657dfc6",
+      "completed_utc": "2026-10-18T02:40:58.520062+00:00"
+    },
+    {
+      "url": "https://trialsearch.who.int/",
+      "started_utc": "2026-10-18T02:40:58.520143+00:00",
+      "status": 200,
+      "final_url": "https://trialsearch.who.int/",
+      "bytes": 36375,
+      "sha256": "30e2bec8e6dbe50dbf9af055ed305db6f7c0630c7425d9eb04532c4b4b532916",
+      "completed_utc": "2026-10-18T02:41:02.442662+00:00"
+    }
+  ],
+  "registry": [
+    {
+      "id": "NCT07093541",
+      "title": "Expanded Access Program for Treatment With Ecopipam for Tourette's Disorder",
+      "status": {
+        "statusVerifiedDate": "2026-03",
+        "overallStatus": "TEMPORARILY_NOT_AVAILABLE",
+        "expandedAccessInfo": {
+          "hasExpandedAccess": false
+        },
+        "studyFirstSubmitDate": "2025-07-10",
+        "studyFirstSubmitQcDate": "2025-07-21",
+        "studyFirstPostDateStruct": {
+          "date": "2025-07-30",
+          "type": "ACTUAL"
+        },
+        "lastUpdateSubmitDate": "2026-10-08",
+        "lastUpdatePostDateStruct": {
+          "date": "2026-10-14",
+          "type": "ACTUAL"
+        }
+      },
+      "design": {
+        "studyType": "EXPANDED_ACCESS",
+        "expandedAccessTypes": {
+          "treatment": true
+        }
+      },
+      "hasResults": false,
+      "request": {
+        "url": "https://clinicaltrials.gov/api/v2/studies/NCT07093541",
+        "started_utc": "2026-10-18T02:40:45.307220+00:00",
+        "status": 200,
+        "final_url": "https://clinicaltrials.gov/api/v2/studies/NCT07093541",
+        "bytes": 18653,
+        "sha256": "d23630cc7fb7ff5f8ccf86d4765f221ba8d23bc094f8a9764ac3957ae4dbd873",
+        "completed_utc": "2026-10-18T02:40:48.509561+00:00"
+      }
+    },
+    {
+      "id": "NCT06194305",
+      "title": "Multimodal Profiling of Response to Pediatric Comprehensive Behavioral Intervention for Tics",
+      "status": {
+        "statusVerifiedDate": "2026-07",
+        "overallStatus": "RECRUITING",
+        "expandedAccessInfo": {
+          "hasExpandedAccess": false
+        },
+        "startDateStruct": {
+          "date": "2024-04-25",
+          "type": "ACTUAL"
+        },
+        "primaryCompletionDateStruct": {
+          "date": "2029-02-19",
+          "type": "ESTIMATED"
+        },
+        "completionDateStruct": {
+          "date": "2029-02-19",
+          "type": "ESTIMATED"
+        },
+        "studyFirstSubmitDate": "2023-10-16",
+        "studyFirstSubmitQcDate": "2023-12-21",
+        "studyFirstPostDateStruct": {
+          "date": "2024-01-08",
+          "type": "ACTUAL"
+        },
+        "lastUpdateSubmitDate": "2026-07-21",
+        "lastUpdatePostDateStruct": {
+          "date": "2026-07-22",
+          "type": "ACTUAL"
+        }
+      },
+      "design": {
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2"
+        ],
+        "designInfo": {
+          "allocation": "NON_RANDOMIZED",
+          "interventionModel": "SINGLE_GROUP",
+          "primaryPurpose": "HEALTH_SERVICES_RESEARCH",
+          "maskingInfo": {
+            "masking": "NONE",
+            "maskingDescription": "This study does not involve treatment randomization so participants and all study personnel will be aware that participants are receiving CBIT. An Independent Evaluator will conduct pre-, post-treatment and 3-month follow-up assessments. This IE will be masked to information related to CBIT progress (e.g., visit attendance, specific content of sessions, therapist/supervisor perspectives on patient progress, CBIT session documentation). The IE will complete the primary outcome measure (YGTSS)."
+          }
+        },
+        "enrollmentInfo": {
+          "count": 100,
+          "type": "ESTIMATED"
+        }
+      },
+      "hasResults": false,
+      "request": {
+        "url": "https://clinicaltrials.gov/api/v2/studies/NCT06194305",
+        "started_utc": "2026-10-18T02:40:48.509586+00:00",
+        "status": 200,
+        "final_url": "https://clinicaltrials.gov/api/v2/studies/NCT06194305",
+        "bytes": 10891,
+        "sha256": "59472e071c81693a7de22361cf0dd44f9d626443b6c84b1a07f252af7a2cdeb1",
+        "completed_utc": "2026-10-18T02:40:51.208612+00:00"
+      }
+    }
+  ],
+  "isrctn": [
+    {
+      "query": "(Tourette OR tics OR \"tic disorder\") AND lastEdited GE 2026-10-16T00:00:00 AND lastEdited LT 2026-10-19T00:00:00",
+      "limit": 50,
+      "request": {
+        "url": "https://www.isrctn.com/api/query/format/default?q=%28Tourette+OR+tics+OR+%22tic+disorder%22%29+AND+lastEdited+GE+2026-10-16T00%3A00%3A00+AND+lastEdited+LT+2026-10-19T00%3A00%3A00&limit=50",
+        "started_utc": "2026-10-18T02:40:54.940324+00:00",
+        "status": 200,
+        "final_url": "https://www.isrctn.com/api/query/format/default?q=%28Tourette+OR+tics+OR+%22tic+disorder%22%29+AND+lastEdited+GE+2026-10-16T00%3A00%3A00+AND+lastEdited+LT+2026-10-19T00%3A00%3A00&limit=50",
+        "bytes": 77,
+        "sha256": "9102345f60a6769cd03fb92d5a00f71c6bbfb597ba699e5f98161f95f657dfc6",
+        "completed_utc": "2026-10-18T02:40:58.520062+00:00"
+      },
+      "root_tag": "{http://www.67bricks.com/isrctn}allTrials",
+      "root_attributes": {
+        "totalCount": "0"
+      },
+      "selected_nodes": [],
+      "tag_counts": {
+        "{http://www.67bricks.com/isrctn}allTrials": 1
+      }
+    }
+  ],
+  "crossref": [
+    {
+      "request": {
+        "url": "https://api.crossref.org/works/10.1111/jpc.70627",
+        "started_utc": "2026-10-18T02:40:51.208667+00:00",
+        "status": 200,
+        "final_url": "https://api.crossref.org/works/10.1111/jpc.70627",
+        "bytes": 23232,
+        "sha256": "2d103b91de206bda13547bb7c4b86fdbc9d3370fedfca0355a265e7b1c90aa29",
+        "completed_utc": "2026-10-18T02:40:54.940233+00:00"
+      },
+      "metadata": {
+        "DOI": "10.1111/jpc.70627",
+        "title": [
+          "Abdominal Tics in Children and Adolescents: A Phenomenology\u2010First Diagnostic Framework and Differential Diagnosis"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              10,
+              16
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2026,
+              10,
+              16
+            ]
+          ]
+        },
+        "published-print": null,
+        "created": {
+          "date-parts": [
+            [
+              2026,
+              10,
+              17
+            ]
+          ],
+          "date-time": "2026-10-17T03:55:38Z",
+          "timestamp": 1792209338000
+        },
+        "deposited": {
+          "date-parts": [
+            [
+              2026,
+              10,
+              17
+            ]
+          ],
+          "date-time": "2026-10-17T03:55:46Z",
+          "timestamp": 1792209346000
+        },
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              10,
+              17
+            ]
+          ],
+          "date-time": "2026-10-17T04:41:28Z",
+          "timestamp": 1792212088259,
+          "version": "4.4.0"
+        },
+        "type": "journal-article",
+        "relation": {},
+        "update-to": null,
+        "URL": "https://doi.org/10.1111/jpc.70627"
+      }
+    }
+  ],
+  "coverage": [
+    {
+      "source": "WHO ICTRP landing page",
+      "request": {
+        "url": "https://trialsearch.who.int/",
+        "started_utc": "2026-10-18T02:40:58.520143+00:00",
+        "status": 200,
+        "final_url": "https://trialsearch.who.int/",
+        "bytes": 36375,
+        "sha256": "30e2bec8e6dbe50dbf9af055ed305db6f7c0630c7425d9eb04532c4b4b532916",
+        "completed_utc": "2026-10-18T02:41:02.442662+00:00"
+      },
+      "title": "ICTRP Search Portal",
+      "listed_date_tokens": [
+        "12 October 2026",
+        "14 September 2026",
+        "5 October 2026"
+      ],
+      "html_received": true
+    }
+  ],
+  "completed_utc": "2026-10-18T02:41:02.443405+00:00"
+}

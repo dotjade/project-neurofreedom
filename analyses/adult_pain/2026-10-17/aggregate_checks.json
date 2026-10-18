@@ -1,0 +1,145 @@
+{
+  "analysis_type": "Deterministic published-aggregate arithmetic and consistency checks; no simulation or participant records",
+  "sample_pain": {
+    "n": 56,
+    "denominator": 76,
+    "percent": 73.6842105263158,
+    "timeframe": "Past or present, not current prevalence"
+  },
+  "help_seeking": {
+    "reported_percent": 86.0,
+    "printed_count_sum": 50,
+    "count_sum_percent_of_pain": 89.28571428571429,
+    "counts_compatible_with_rounded_reported_percent": [
+      48
+    ],
+    "reported_women_help_exceeds_women_pain": true,
+    "accepted_corrected_denominator": null
+  },
+  "relief": {
+    "printed_count_sum": 10,
+    "reported_percent": 18.0,
+    "conditional_denominator_scenarios": [
+      {
+        "denominator_description": "All survey respondents",
+        "denominator": 76,
+        "relief_percent": 13.157894736842104,
+        "is_established_treated_response_rate": false
+      },
+      {
+        "denominator_description": "Past-or-present pain subgroup",
+        "denominator": 56,
+        "relief_percent": 17.857142857142858,
+        "is_established_treated_response_rate": false
+      },
+      {
+        "denominator_description": "Sum of inconsistent printed help-seeking sex counts",
+        "denominator": 50,
+        "relief_percent": 20.0,
+        "is_established_treated_response_rate": false
+      },
+      {
+        "denominator_description": "Hypothetical count compatible with rounded 86% of 56; not a correction",
+        "denominator": 48,
+        "relief_percent": 20.833333333333332,
+        "is_established_treated_response_rate": false
+      }
+    ],
+    "all_nonpositive_as_failure_allowed": false,
+    "reason": "Questionnaire permits uncertain responses; treatment receipt and response-category counts unresolved"
+  },
+  "vas_conditional_displayed_aggregate": {
+    "present_weighted_mean": 2.925,
+    "worst_weighted_mean": 4.3,
+    "worst_minus_present": 1.375,
+    "exact_gap_from_displayed_means": "11/8",
+    "present_rounding_range": [
+      2.875,
+      2.975
+    ],
+    "worst_rounding_range": [
+      4.25,
+      4.35
+    ],
+    "gap_rounding_range": [
+      1.275,
+      1.475
+    ],
+    "status": "Conditional on sex-total rows; female worst mean conflicts with diagnosis strata. Not a corrected or inferential estimate.",
+    "interpretation": "Different recalled quantities, not longitudinal change, treatment benefit, or clinically important difference; no confidence interval computed"
+  },
+  "vas_partition_consistency": [
+    {
+      "gender": "men",
+      "window": "present",
+      "printed_total_mean": 3.3,
+      "diagnosis_weighted_displayed_mean": 3.253846153846154,
+      "total_rounding_range": [
+        3.25,
+        3.35
+      ],
+      "strata_rounding_range": [
+        3.203846153846154,
+        3.3038461538461537
+      ],
+      "compatible_under_one_decimal_rounding": true,
+      "corrected_estimate": null
+    },
+    {
+      "gender": "men",
+      "window": "worst",
+      "printed_total_mean": 4.3,
+      "diagnosis_weighted_displayed_mean": 4.3307692307692305,
+      "total_rounding_range": [
+        4.25,
+        4.35
+      ],
+      "strata_rounding_range": [
+        4.280769230769231,
+        4.380769230769231
+      ],
+      "compatible_under_one_decimal_rounding": true,
+      "corrected_estimate": null
+    },
+    {
+      "gender": "women",
+      "window": "present",
+      "printed_total_mean": 2.6,
+      "diagnosis_weighted_displayed_mean": 2.6666666666666665,
+      "total_rounding_range": [
+        2.55,
+        2.65
+      ],
+      "strata_rounding_range": [
+        2.6166666666666667,
+        2.716666666666667
+      ],
+      "compatible_under_one_decimal_rounding": true,
+      "corrected_estimate": null
+    },
+    {
+      "gender": "women",
+      "window": "worst",
+      "printed_total_mean": 4.3,
+      "diagnosis_weighted_displayed_mean": 4.466666666666667,
+      "total_rounding_range": [
+        4.25,
+        4.35
+      ],
+      "strata_rounding_range": [
+        4.416666666666667,
+        4.516666666666667
+      ],
+      "compatible_under_one_decimal_rounding": false,
+      "corrected_estimate": null
+    }
+  ],
+  "limits": [
+    "No sampling interval or general population estimate",
+    "No correction to contradictory source reporting",
+    "No paired covariance, significance test, meaningful-change threshold or causal effect",
+    "Rounding ranges are deterministic arithmetic compatibility ranges, not confidence intervals"
+  ],
+  "input_sha256": "c8b30f1be3efdd9707084c9516ef70c3578686ac79ba679677a77f1f2d54d0cf",
+  "code_sha256": "811eb1887c4b05223201be9db8d9dfc929ead377ba48a3a5fbdf432912384931"
+}

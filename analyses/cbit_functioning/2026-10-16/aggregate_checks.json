@@ -1,0 +1,482 @@
+{
+  "purpose": "Post hoc restricted-family sensitivity and reporting audit, not a clinical reanalysis or confirmatory test. Printed p-values are rounded.",
+  "random_seed": null,
+  "families": {
+    "acute_randomized": {
+      "m": 12,
+      "printed_p_range": [
+        "0.13",
+        "0.70"
+      ],
+      "nominal_ids": [],
+      "holm_below_05": [],
+      "bonferroni_below_05": [],
+      "untested_ids": [],
+      "details": [
+        {
+          "id": "sds_total",
+          "printed_p": ".46",
+          "holm": "1",
+          "bonferroni": "1",
+          "displayed_mean_arithmetic": {
+            "cbit_change": "-3.36",
+            "pst_change": "-2.53",
+            "cbit_minus_pst_change": "-0.83",
+            "negative_contrast_favors": "CBIT, descriptively only; not a reconstructed model estimate"
+          }
+        },
+        {
+          "id": "sds_work",
+          "printed_p": ".16",
+          "holm": "1",
+          "bonferroni": "1",
+          "displayed_mean_arithmetic": {
+            "cbit_change": "-1.22",
+            "pst_change": "-0.56",
+            "cbit_minus_pst_change": "-0.66",
+            "negative_contrast_favors": "CBIT, descriptively only; not a reconstructed model estimate"
+          }
+        },
+        {
+          "id": "sds_social",
+          "printed_p": ".20",
+          "holm": "1",
+          "bonferroni": "1",
+          "displayed_mean_arithmetic": {
+            "cbit_change": "-0.96",
+            "pst_change": "-1.53",
+            "cbit_minus_pst_change": "0.57",
+            "negative_contrast_favors": "CBIT, descriptively only; not a reconstructed model estimate"
+          }
+        },
+        {
+          "id": "sds_family",
+          "printed_p": ".13",
+          "holm": "1",
+          "bonferroni": "1",
+          "displayed_mean_arithmetic": {
+            "cbit_change": "-1.18",
+            "pst_change": "-0.44",
+            "cbit_minus_pst_change": "-0.74",
+            "negative_contrast_favors": "CBIT, descriptively only; not a reconstructed model estimate"
+          }
+        },
+        {
+          "id": "fam_iii",
+          "printed_p": ".66",
+          "holm": "1",
+          "bonferroni": "1",
+          "displayed_mean_arithmetic": {
+            "cbit_change": "-0.78",
+            "pst_change": "-1.29",
+            "cbit_minus_pst_change": "0.51",
+            "negative_contrast_favors": "CBIT, descriptively only; not a reconstructed model estimate"
+          }
+        },
+        {
+          "id": "sas_overall",
+          "printed_p": ".20",
+          "holm": "1",
+          "bonferroni": "1",
+          "displayed_mean_arithmetic": {
+            "cbit_change": "-0.12",
+            "pst_change": "-0.04",
+            "cbit_minus_pst_change": "-0.08",
+            "negative_contrast_favors": "CBIT, descriptively only; not a reconstructed model estimate"
+          }
+        },
+        {
+          "id": "sas_occupation",
+          "printed_p": ".70",
+          "holm": "1",
+          "bonferroni": "1",
+          "displayed_mean_arithmetic": {
+            "cbit_change": "-0.15",
+            "pst_change": "-0.10",
+            "cbit_minus_pst_change": "-0.05",
+            "negative_contrast_favors": "CBIT, descriptively only; not a reconstructed model estimate"
+          }
+        },
+        {
+          "id": "sas_social_leisure",
+          "printed_p": ".27",
+          "holm": "1",
+          "bonferroni": "1",
+          "displayed_mean_arithmetic": {
+            "cbit_change": "-0.06",
+            "pst_change": "-0.18",
+            "cbit_minus_pst_change": "0.12",
+            "negative_contrast_favors": "CBIT, descriptively only; not a reconstructed model estimate"
+          }
+        },
+        {
+          "id": "sas_extended_family",
+          "printed_p": ".15",
+          "holm": "1",
+          "bonferroni": "1",
+          "displayed_mean_arithmetic": {
+            "cbit_change": "-0.14",
+            "pst_change": "-0.01",
+            "cbit_minus_pst_change": "-0.13",
+            "negative_contrast_favors": "CBIT, descriptively only; not a reconstructed model estimate"
+          }
+        },
+        {
+          "id": "sas_primary_relationship",
+          "printed_p": ".23",
+          "holm": "1",
+          "bonferroni": "1",
+          "displayed_mean_arithmetic": {
+            "cbit_change": "-0.11",
+            "pst_change": "0.05",
+            "cbit_minus_pst_change": "-0.16",
+            "negative_contrast_favors": "CBIT, descriptively only; not a reconstructed model estimate"
+          }
+        },
+        {
+          "id": "sas_parental_role",
+          "printed_p": ".38",
+          "holm": "1",
+          "bonferroni": "1",
+          "displayed_mean_arithmetic": {
+            "cbit_change": "0.20",
+            "pst_change": "-0.11",
+            "cbit_minus_pst_change": "0.31",
+            "negative_contrast_favors": "CBIT, descriptively only; not a reconstructed model estimate"
+          }
+        },
+        {
+          "id": "sas_family_unit",
+          "printed_p": ".30",
+          "holm": "1",
+          "bonferroni": "1",
+          "displayed_mean_arithmetic": {
+            "cbit_change": "-0.26",
+            "pst_change": "-0.09",
+            "cbit_minus_pst_change": "-0.17",
+            "negative_contrast_favors": "CBIT, descriptively only; not a reconstructed model estimate"
+          }
+        }
+      ]
+    },
+    "acute_responder_association": {
+      "m": 12,
+      "printed_p_range": [
+        "0.02",
+        "0.93"
+      ],
+      "nominal_ids": [
+        "sds_family",
+        "sas_parental_role"
+      ],
+      "holm_below_05": [],
+      "bonferroni_below_05": [],
+      "untested_ids": [],
+      "details": [
+        {
+          "id": "sds_total",
+          "printed_p": ".09",
+          "holm": "0.81",
+          "bonferroni": "1",
+          "displayed_mean_arithmetic": {
+            "responder_change": "-4.50",
+            "nonresponder_change": "-2.30",
+            "responder_minus_nonresponder_change": "-2.20",
+            "causal_interpretation": false
+          }
+        },
+        {
+          "id": "sds_work",
+          "printed_p": ".08",
+          "holm": "0.80",
+          "bonferroni": "0.96",
+          "displayed_mean_arithmetic": {
+            "responder_change": "-1.57",
+            "nonresponder_change": "-0.65",
+            "responder_minus_nonresponder_change": "-0.92",
+            "causal_interpretation": false
+          }
+        },
+        {
+          "id": "sds_social",
+          "printed_p": ".83",
+          "holm": "1",
+          "bonferroni": "1",
+          "displayed_mean_arithmetic": {
+            "responder_change": "-1.14",
+            "nonresponder_change": "-1.25",
+            "responder_minus_nonresponder_change": "0.11",
+            "causal_interpretation": false
+          }
+        },
+        {
+          "id": "sds_family",
+          "printed_p": ".02",
+          "holm": "0.24",
+          "bonferroni": "0.24",
+          "displayed_mean_arithmetic": {
+            "responder_change": "-1.79",
+            "nonresponder_change": "-0.48",
+            "responder_minus_nonresponder_change": "-1.31",
+            "causal_interpretation": false
+          }
+        },
+        {
+          "id": "fam_iii",
+          "printed_p": ".22",
+          "holm": "1",
+          "bonferroni": "1",
+          "displayed_mean_arithmetic": {
+            "responder_change": "-2.16",
+            "nonresponder_change": "-0.57",
+            "responder_minus_nonresponder_change": "-1.59",
+            "causal_interpretation": false
+          }
+        },
+        {
+          "id": "sas_overall",
+          "printed_p": ".80",
+          "holm": "1",
+          "bonferroni": "1",
+          "displayed_mean_arithmetic": {
+            "responder_change": "-0.09",
+            "nonresponder_change": "-0.08",
+            "responder_minus_nonresponder_change": "-0.01",
+            "causal_interpretation": false
+          }
+        },
+        {
+          "id": "sas_occupation",
+          "printed_p": ".34",
+          "holm": "1",
+          "bonferroni": "1",
+          "displayed_mean_arithmetic": {
+            "responder_change": "-0.02",
+            "nonresponder_change": "-0.17",
+            "responder_minus_nonresponder_change": "0.15",
+            "causal_interpretation": false
+          }
+        },
+        {
+          "id": "sas_social_leisure",
+          "printed_p": ".42",
+          "holm": "1",
+          "bonferroni": "1",
+          "displayed_mean_arithmetic": {
+            "responder_change": "-0.04",
+            "nonresponder_change": "-0.15",
+            "responder_minus_nonresponder_change": "0.11",
+            "causal_interpretation": false
+          }
+        },
+        {
+          "id": "sas_extended_family",
+          "printed_p": ".93",
+          "holm": "1",
+          "bonferroni": "1",
+          "displayed_mean_arithmetic": {
+            "responder_change": "-0.07",
+            "nonresponder_change": "-0.07",
+            "responder_minus_nonresponder_change": "0.00",
+            "causal_interpretation": false
+          }
+        },
+        {
+          "id": "sas_primary_relationship",
+          "printed_p": ".48",
+          "holm": "1",
+          "bonferroni": "1",
+          "displayed_mean_arithmetic": {
+            "responder_change": "-0.10",
+            "nonresponder_change": "0.01",
+            "responder_minus_nonresponder_change": "-0.11",
+            "causal_interpretation": false
+          }
+        },
+        {
+          "id": "sas_parental_role",
+          "printed_p": ".02",
+          "holm": "0.24",
+          "bonferroni": "0.24",
+          "displayed_mean_arithmetic": {
+            "responder_change": "-0.87",
+            "nonresponder_change": "0.14",
+            "responder_minus_nonresponder_change": "-1.01",
+            "causal_interpretation": false
+          }
+        },
+        {
+          "id": "sas_family_unit",
+          "printed_p": ".43",
+          "holm": "1",
+          "bonferroni": "1",
+          "displayed_mean_arithmetic": {
+            "responder_change": "-0.29",
+            "nonresponder_change": "-0.14",
+            "responder_minus_nonresponder_change": "-0.15",
+            "causal_interpretation": false
+          }
+        }
+      ]
+    },
+    "selected_cbit_followup": {
+      "m": 11,
+      "printed_p_range": [
+        "0.03",
+        "0.95"
+      ],
+      "nominal_ids": [
+        "sds_total",
+        "sds_work"
+      ],
+      "holm_below_05": [],
+      "bonferroni_below_05": [],
+      "untested_ids": [
+        "sas_parental_role"
+      ],
+      "details": [
+        {
+          "id": "sds_total",
+          "printed_p": ".03",
+          "holm": "0.33",
+          "bonferroni": "0.33",
+          "displayed_mean_arithmetic": {
+            "post_minus_baseline": "-3.60",
+            "month6_minus_baseline": "-3.40",
+            "causal_interpretation": false
+          }
+        },
+        {
+          "id": "sds_work",
+          "printed_p": ".04",
+          "holm": "0.40",
+          "bonferroni": "0.44",
+          "displayed_mean_arithmetic": {
+            "post_minus_baseline": "-1.33",
+            "month6_minus_baseline": "-1.40",
+            "causal_interpretation": false
+          }
+        },
+        {
+          "id": "sds_social",
+          "printed_p": ".06",
+          "holm": "0.54",
+          "bonferroni": "0.66",
+          "displayed_mean_arithmetic": {
+            "post_minus_baseline": "-0.90",
+            "month6_minus_baseline": "-0.94",
+            "causal_interpretation": false
+          }
+        },
+        {
+          "id": "sds_family",
+          "printed_p": ".11",
+          "holm": "0.88",
+          "bonferroni": "1",
+          "displayed_mean_arithmetic": {
+            "post_minus_baseline": "-1.33",
+            "month6_minus_baseline": "-1.06",
+            "causal_interpretation": false
+          }
+        },
+        {
+          "id": "fam_iii",
+          "printed_p": ".61",
+          "holm": "1",
+          "bonferroni": "1",
+          "displayed_mean_arithmetic": {
+            "post_minus_baseline": "-1.41",
+            "month6_minus_baseline": "-0.50",
+            "causal_interpretation": false
+          }
+        },
+        {
+          "id": "sas_overall",
+          "printed_p": ".40",
+          "holm": "1",
+          "bonferroni": "1",
+          "displayed_mean_arithmetic": {
+            "post_minus_baseline": "-0.05",
+            "month6_minus_baseline": "-0.16",
+            "causal_interpretation": false
+          }
+        },
+        {
+          "id": "sas_occupation",
+          "printed_p": ".95",
+          "holm": "1",
+          "bonferroni": "1",
+          "displayed_mean_arithmetic": {
+            "post_minus_baseline": "0.04",
+            "month6_minus_baseline": "0.00",
+            "causal_interpretation": false
+          }
+        },
+        {
+          "id": "sas_social_leisure",
+          "printed_p": ".21",
+          "holm": "1",
+          "bonferroni": "1",
+          "displayed_mean_arithmetic": {
+            "post_minus_baseline": "0.03",
+            "month6_minus_baseline": "-0.17",
+            "causal_interpretation": false
+          }
+        },
+        {
+          "id": "sas_extended_family",
+          "printed_p": ".19",
+          "holm": "1",
+          "bonferroni": "1",
+          "displayed_mean_arithmetic": {
+            "post_minus_baseline": "-0.11",
+            "month6_minus_baseline": "-0.16",
+            "causal_interpretation": false
+          }
+        },
+        {
+          "id": "sas_primary_relationship",
+          "printed_p": ".83",
+          "holm": "1",
+          "bonferroni": "1",
+          "displayed_mean_arithmetic": {
+            "post_minus_baseline": "-0.09",
+            "month6_minus_baseline": "0.08",
+            "causal_interpretation": false
+          }
+        },
+        {
+          "id": "sas_parental_role",
+          "printed_p": null
+        },
+        {
+          "id": "sas_family_unit",
+          "printed_p": ".82",
+          "holm": "1",
+          "bonferroni": "1",
+          "displayed_mean_arithmetic": {
+            "post_minus_baseline": "-0.13",
+            "month6_minus_baseline": "-0.04",
+            "causal_interpretation": false
+          }
+        }
+      ]
+    }
+  },
+  "denominator_audit": {
+    "randomized_total": 122,
+    "acute_analyzed_figure_total": 113,
+    "acute_completed_total": 105,
+    "figure_screened_minus_excluded": 112,
+    "figure_randomized_reported": 122,
+    "figure_flow_difference": 10,
+    "pst_followup_prose": 2,
+    "pst_followup_figure": 1,
+    "correction_inferred": false
+  },
+  "limits": [
+    "No outcome-specific denominators or F degrees of freedom reconstructed.",
+    "No within-person covariance, precision interval, equivalence margin, clinical threshold or missing outcomes invented.",
+    "Separate families do not adjust all tests in this report, and cannot repair postrandomization selection."
+  ]
+}

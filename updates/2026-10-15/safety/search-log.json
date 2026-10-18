@@ -1,0 +1,718 @@
+{
+  "schema_version": 1,
+  "scan_date": "2026-10-15",
+  "incremental_cutoff_utc": "2026-10-14T02:49:22Z",
+  "cutoff_source": "Prior safety report retrieval end; within-day publication times not supplied by most sources.",
+  "publication_date_overlap": [
+    "2026-10-13",
+    "2026-10-14",
+    "2026-10-15"
+  ],
+  "retrieval_interval_utc_approximate": "2026-10-15T02:57:00Z/2026-10-15T03:00:00Z",
+  "search_tool": "web search",
+  "query_count": 17,
+  "returned_result_cards_screened": 65,
+  "qualifying_new_notice_count": 0,
+  "counting_note": "Counts are returned cards per combined query batch, not source-universe totals or unique notices. The tool did not map each card to one query. Search freshness/date filters returned older sources; source dates took priority.",
+  "limits": [
+    "Not a systematic review or exhaustive regulator database enumeration.",
+    "Search snippets were screened; only sources in source-checks.json were directly inspected.",
+    "No per-ingredient FDA SrLC enumeration or label-by-label text diff.",
+    "No national EU databases, raw adverse-event case records, or private manufacturer communications were systematically searched.",
+    "FDA date-filtered device recall URL was inaccessible in the web tool; another listing returned stale content. No completeness claim for the device database.",
+    "Known October 13 Intuniv document update and October 9 NeuroStar recall were deduplicated against the October 14 baseline."
+  ],
+  "batches": [
+    {
+      "batch_id": "S1",
+      "executed_at_utc_approximate": "2026-10-15T02:57:20Z",
+      "request": {
+        "search_query": [
+          {
+            "q": "(ecopipam OR aripiprazole OR risperidone OR pimozide OR haloperidol) (safety OR recall OR warning) after:2026-10-12 before:2026-10-16",
+            "domains": [
+              "fda.gov"
+            ],
+            "recency": 3
+          },
+          {
+            "q": "(clonidine OR guanfacine OR valbenazine OR deutetrabenazine OR tetrabenazine) (safety OR recall OR warning) after:2026-10-12 before:2026-10-16",
+            "domains": [
+              "fda.gov"
+            ],
+            "recency": 3
+          },
+          {
+            "q": "(Neupulse OR \"median nerve stimulation\" OR transcranial OR NeuroStar OR \"deep brain stimulation\") (recall OR safety) after:2026-10-12 before:2026-10-16",
+            "domains": [
+              "fda.gov"
+            ],
+            "recency": 3
+          }
+        ],
+        "response_length": "long"
+      },
+      "returned_result_cards": 14,
+      "results": [
+        {
+          "result_number": 1,
+          "title": "Drug Safety and Availability | FDA",
+          "url": "https://www.fda.gov/drugs/drug-safety-and-availability",
+          "screening_level": "title and search-returned summary; full source only if listed in source-checks.json",
+          "classification": "excluded from new qualifying notice count",
+          "reason": "General safety landing page; no dated watched-product notice in returned result."
+        },
+        {
+          "result_number": 2,
+          "title": "High Blood Pressure | FDA",
+          "url": "https://www.fda.gov/consumers/womens-health-topics/high-blood-pressure?trk=article-ssr-frontend-pulse_little-text-block",
+          "screening_level": "title and search-returned summary; full source only if listed in source-checks.json",
+          "classification": "excluded from new qualifying notice count",
+          "reason": "General blood-pressure reference material; not an October safety event."
+        },
+        {
+          "result_number": 3,
+          "title": "Class 2 Device Recall Medline",
+          "url": "https://www.accessdata.fda.gov/scripts/cdrh/Cfdocs/cfres/res.cfm?id=220467",
+          "screening_level": "title and search-returned summary; full source only if listed in source-checks.json",
+          "classification": "excluded from new qualifying notice count",
+          "reason": "Unrelated surgical-kit recall dated June 2026 in returned summary."
+        },
+        {
+          "result_number": 4,
+          "title": "Recalls, Market Withdrawals, & Safety Alerts | FDA",
+          "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts?search_api_fulltext=Par+Health+USA",
+          "screening_level": "title and search-returned summary; full source only if listed in source-checks.json",
+          "classification": "excluded from new qualifying notice count",
+          "reason": "Recall index; main current index separately checked."
+        },
+        {
+          "result_number": 5,
+          "title": "Class 2 Device Recall Medline",
+          "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfRes/res.cfm?id=220417",
+          "screening_level": "title and search-returned summary; full source only if listed in source-checks.json",
+          "classification": "excluded from new qualifying notice count",
+          "reason": "Unrelated surgical-kit recall dated June 2026 in returned summary."
+        },
+        {
+          "result_number": 6,
+          "title": "Drug Recalls | FDA",
+          "url": "https://www.fda.gov/drugs/drug-safety-and-availability/drug-recalls?filter=23615&rkey=20241128EN67913",
+          "screening_level": "title and search-returned summary; full source only if listed in source-checks.json",
+          "classification": "excluded from new qualifying notice count",
+          "reason": "Drug-recall index; no watched-product event evidenced."
+        },
+        {
+          "result_number": 7,
+          "title": "Postmarketing Requirements and Commitments: Searchable Database | FDA",
+          "url": "https://www.fda.gov/drugs/postmarketing-requirements-and-commitments-introduction/postmarketing-requirements-and-commitments-searchable-database",
+          "screening_level": "title and search-returned summary; full source only if listed in source-checks.json",
+          "classification": "excluded from new qualifying notice count",
+          "reason": "General postmarketing-study database; not a newly dated safety notice."
+        },
+        {
+          "result_number": 8,
+          "title": "Class 2 Device Recall Medline",
+          "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfRes/res.cfm?id=220466",
+          "screening_level": "title and search-returned summary; full source only if listed in source-checks.json",
+          "classification": "excluded from new qualifying notice count",
+          "reason": "Unrelated surgical-kit recall dated June 2026 in returned summary."
+        },
+        {
+          "result_number": 9,
+          "title": "Electrophysiological Biomarkers for Non-clinical Safety Evaluation of Neuro-interventional Devices | Center for Devices and Radiological Health",
+          "url": "https://cdrh-rst.fda.gov/electrophysiological-biomarkers-non-clinical-safety-evaluation-neuro-interventional-devices",
+          "screening_level": "title and search-returned summary; full source only if listed in source-checks.json",
+          "classification": "excluded from new qualifying notice count",
+          "reason": "General preclinical device-evaluation method; not an alert or recall."
+        },
+        {
+          "result_number": 10,
+          "title": "Search Orphan Drug Designations and Approvals",
+          "url": "https://www.accessdata.fda.gov/scripts/opdlisting/oopd/detailedIndex.cfm?cfgridkey=308210",
+          "screening_level": "title and search-returned summary; full source only if listed in source-checks.json",
+          "classification": "excluded from new qualifying notice count",
+          "reason": "Historical ecopipam orphan designation; regulatory designation is not approval or a new safety finding."
+        },
+        {
+          "result_number": 11,
+          "title": "Class 2 Device Recall Medline",
+          "url": "https://www.accessdata.fda.gov/scripts/cdrh/Cfdocs/cfres/res.cfm?id=220482",
+          "screening_level": "title and search-returned summary; full source only if listed in source-checks.json",
+          "classification": "excluded from new qualifying notice count",
+          "reason": "Unrelated surgical-kit recall dated June 2026 in returned summary."
+        },
+        {
+          "result_number": 12,
+          "title": "Class 2 Device Recall DxC 500i Clinical Analyzer with software version 1.3.5 or lower",
+          "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfRES/res.cfm?id=222507",
+          "screening_level": "title and search-returned summary; full source only if listed in source-checks.json",
+          "classification": "excluded from new qualifying notice count",
+          "reason": "Unrelated clinical-analyzer recall."
+        },
+        {
+          "result_number": 13,
+          "title": "NDA Multi-disciplinary Review and Evaluation (505(b)(2): NDA 214835",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2025/214835Orig1s000MultidisciplineR.pdf",
+          "screening_level": "title and search-returned summary; full source only if listed in source-checks.json",
+          "classification": "excluded from new qualifying notice count",
+          "reason": "Historical risperidone NDA review; URL identifies 2025 document."
+        },
+        {
+          "result_number": 14,
+          "title": "Clinical Review",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2017/209241orig1s000medr.pdf",
+          "screening_level": "title and search-returned summary; full source only if listed in source-checks.json",
+          "classification": "excluded from new qualifying notice count",
+          "reason": "Historical valbenazine clinical review; URL identifies 2017 document."
+        }
+      ]
+    },
+    {
+      "batch_id": "S2",
+      "executed_at_utc_approximate": "2026-10-15T02:57:40Z",
+      "request": {
+        "search_query": [
+          {
+            "q": "(ecopipam OR aripiprazole OR risperidone OR pimozide OR haloperidol) (safety OR recall OR warning) after:2026-10-12 before:2026-10-16",
+            "domains": [
+              "ema.europa.eu"
+            ],
+            "recency": 3
+          },
+          {
+            "q": "(clonidine OR guanfacine OR valbenazine OR deutetrabenazine OR tetrabenazine) (safety OR recall OR warning) after:2026-10-12 before:2026-10-16",
+            "domains": [
+              "ema.europa.eu"
+            ],
+            "recency": 3
+          },
+          {
+            "q": "(Neupulse OR \"median nerve stimulation\" OR transcranial OR NeuroStar OR \"deep brain stimulation\") (recall OR safety) after:2026-10-12 before:2026-10-16",
+            "domains": [
+              "ema.europa.eu"
+            ],
+            "recency": 3
+          }
+        ],
+        "response_length": "long"
+      },
+      "returned_result_cards": 16,
+      "results": [
+        {
+          "result_number": 1,
+          "title": "Tavneos - referral | European Medicines Agency (EMA)",
+          "url": "https://www.ema.europa.eu/en/medicines/human/referrals/tavneos",
+          "screening_level": "title and search-returned summary; full source only if listed in source-checks.json",
+          "classification": "excluded from new qualifying notice count",
+          "reason": "Unwatched avacopan referral; no watched October notice."
+        },
+        {
+          "result_number": 2,
+          "title": "Aripiprazole Sandoz | European Medicines Agency (EMA)",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/aripiprazole-sandoz",
+          "screening_level": "title and search-returned summary; full source only if listed in source-checks.json",
+          "classification": "excluded from new qualifying notice count",
+          "reason": "Product overview; no qualifying new event date established."
+        },
+        {
+          "result_number": 3,
+          "title": "Rxulti | European Medicines Agency (EMA)",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/rxulti",
+          "screening_level": "title and search-returned summary; full source only if listed in source-checks.json",
+          "classification": "excluded from new qualifying notice count",
+          "reason": "Unwatched brexpiprazole overview; aripiprazole mentioned as comparator."
+        },
+        {
+          "result_number": 4,
+          "title": "Aripiprazole Mylan | European Medicines Agency (EMA)",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/aripiprazole-mylan",
+          "screening_level": "title and search-returned summary; full source only if listed in source-checks.json",
+          "classification": "excluded from new qualifying notice count",
+          "reason": "Historical withdrawn marketing-authorisation application."
+        },
+        {
+          "result_number": 5,
+          "title": "Aripiprazole Zentiva | European Medicines Agency (EMA)",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/aripiprazole-zentiva",
+          "screening_level": "title and search-returned summary; full source only if listed in source-checks.json",
+          "classification": "excluded from new qualifying notice count",
+          "reason": "Product overview; no qualifying new event date established."
+        },
+        {
+          "result_number": 6,
+          "title": "Ergot derivatives - referral | European Medicines Agency (EMA)",
+          "url": "https://www.ema.europa.eu/en/medicines/human/referrals/ergot-derivatives",
+          "screening_level": "title and search-returned summary; full source only if listed in source-checks.json",
+          "classification": "excluded from new qualifying notice count",
+          "reason": "Historical 2013 referral for unwatched ergot derivatives."
+        },
+        {
+          "result_number": 7,
+          "title": "Meeting highlights from the Pharmacovigilance Risk Assessment Committee (PRAC) 9 - 12 February 2026 | European Medicines Agency (EMA)",
+          "url": "https://www.ema.europa.eu/en/news/meeting-highlights-pharmacovigilance-risk-assessment-committee-prac-9-12-february-2026",
+          "screening_level": "title and search-returned summary; full source only if listed in source-checks.json",
+          "classification": "excluded from new qualifying notice count",
+          "reason": "February 2026 PRAC meeting, outside window."
+        },
+        {
+          "result_number": 8,
+          "title": "PRAC recommendations on safety signals | European Medicines Agency (EMA)",
+          "url": "https://www.ema.europa.eu/es/human-regulatory-overview/post-authorisation/pharmacovigilance-post-authorisation/signal-management/prac-recommendations-safety-signals",
+          "screening_level": "title and search-returned summary; full source only if listed in source-checks.json",
+          "classification": "excluded from new qualifying notice count",
+          "reason": "Safety-signal index; English page checked separately and newest visible overview dated September 28."
+        },
+        {
+          "result_number": 9,
+          "title": "Abilify Maintena | European Medicines Agency (EMA)",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/abilify-maintena",
+          "screening_level": "title and search-returned summary; full source only if listed in source-checks.json",
+          "classification": "excluded from new qualifying notice count",
+          "reason": "Product overview; no qualifying new event date established."
+        },
+        {
+          "result_number": 10,
+          "title": "Risperidone - supply shortage | European Medicines Agency (EMA)",
+          "url": "https://www.ema.europa.eu/es/medicines/human/shortages/risperidone",
+          "screening_level": "title and search-returned summary; full source only if listed in source-checks.json",
+          "classification": "excluded from new qualifying notice count",
+          "reason": "Older supply-shortage page; returned summary explicitly distinguishes it from a quality/safety defect."
+        },
+        {
+          "result_number": 11,
+          "title": "Paxneury | European Medicines Agency (EMA)",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/paxneury",
+          "screening_level": "title and search-returned summary; full source only if listed in source-checks.json",
+          "classification": "excluded from new qualifying notice count",
+          "reason": "Guanfacine generic overview; no qualifying new event date established."
+        },
+        {
+          "result_number": 12,
+          "title": "EMA recommends approval of treatment for attention deficit hyperactivity disorder | European Medicines Agency (EMA)",
+          "url": "https://www.ema.europa.eu/en/news/ema-recommends-approval-treatment-attention-deficit-hyperactivity-disorder",
+          "screening_level": "title and search-returned summary; full source only if listed in source-checks.json",
+          "classification": "excluded from new qualifying notice count",
+          "reason": "Historical 2015 Intuniv recommendation."
+        },
+        {
+          "result_number": 13,
+          "title": "Invanz, INN-",
+          "url": "https://www.ema.europa.eu/en/documents/product-information/invanz-epar-product-information_en.pdf",
+          "screening_level": "title and search-returned summary; full source only if listed in source-checks.json",
+          "classification": "excluded from new qualifying notice count",
+          "reason": "Unwatched medicine product information."
+        },
+        {
+          "result_number": 14,
+          "title": "General recall handling guidance",
+          "url": "https://www.ema.europa.eu/bg/media/61494",
+          "screening_level": "title and search-returned summary; full source only if listed in source-checks.json",
+          "classification": "excluded from new qualifying notice count",
+          "reason": "General recall/GMP guidance, not a product-specific notice."
+        },
+        {
+          "result_number": 15,
+          "title": "IVEMEND, INN-Fosaprepitant dimeglumine",
+          "url": "https://www.ema.europa.eu/en/documents/product-information/ivemend-epar-product-information_en.pdf",
+          "screening_level": "title and search-returned summary; full source only if listed in source-checks.json",
+          "classification": "excluded from new qualifying notice count",
+          "reason": "Unwatched medicine product information; pimozide appears as an interaction mention."
+        },
+        {
+          "result_number": 16,
+          "title": "General corrective-action guidance",
+          "url": "https://www.ema.europa.eu/en/documents/other/advice-implementing-measures-under-article-932-reg-eu-2019-6-european-parliament-council-veterinary-medicinal-products-regards-gmp-veterinary-medicinal-products-active-substances-used-starting_en.pdf",
+          "screening_level": "title and search-returned summary; full source only if listed in source-checks.json",
+          "classification": "excluded from new qualifying notice count",
+          "reason": "General veterinary GMP/quality guidance, not watched-product notice."
+        }
+      ]
+    },
+    {
+      "batch_id": "S3",
+      "executed_at_utc_approximate": "2026-10-15T02:57:50Z",
+      "request": {
+        "search_query": [
+          {
+            "q": "(ecopipam OR aripiprazole OR risperidone OR pimozide OR haloperidol) (safety OR recall OR warning) after:2026-10-12 before:2026-10-16",
+            "domains": [
+              "gov.uk"
+            ],
+            "recency": 3
+          },
+          {
+            "q": "(clonidine OR guanfacine OR valbenazine OR deutetrabenazine OR tetrabenazine) (safety OR recall OR warning) after:2026-10-12 before:2026-10-16",
+            "domains": [
+              "gov.uk"
+            ],
+            "recency": 3
+          },
+          {
+            "q": "(Neupulse OR \"median nerve stimulation\" OR transcranial OR NeuroStar OR \"deep brain stimulation\") (recall OR safety) after:2026-10-12 before:2026-10-16",
+            "domains": [
+              "gov.uk"
+            ],
+            "recency": 3
+          }
+        ],
+        "response_length": "long"
+      },
+      "returned_result_cards": 12,
+      "results": [
+        {
+          "result_number": 1,
+          "title": "Alerts, recalls and safety information: medicines and medical devices - GOV.UK",
+          "url": "https://www.gov.uk/drug-device-alerts?alert_type%5B%5D=device-safety-information&alert_type%5B%5D=field-safety-notices&alert_type%5B%5D=medicines-recall-notification&alert_type%5B%5D=mhra-safety-round-up&alert_type%5B%5D=national-patient-safety",
+          "screening_level": "title and search-returned summary; full source only if listed in source-checks.json",
+          "classification": "excluded from new qualifying notice count",
+          "reason": "Filtered alerts index; current unfiltered index separately checked."
+        },
+        {
+          "result_number": 2,
+          "title": "Class 3 Medicines Recall: SyriMed, Clonidine hydrochloride 50micrograms/5ml Oral Solution, EL (21)A/05 - GOV.UK",
+          "url": "https://www.gov.uk/drug-device-alerts/class-3-medicines-recall-syrimed-clonidine-hydrochloride-50micrograms-slash-5ml-oral-solution-el-21-a-slash-05",
+          "screening_level": "title and search-returned summary; full source only if listed in source-checks.json",
+          "classification": "excluded from new qualifying notice count",
+          "reason": "Clonidine recall published February 17, 2021; outside window."
+        },
+        {
+          "result_number": 3,
+          "title": "Alerts, recalls and safety information: medicines and medical devices - GOV.UK",
+          "url": "https://www.gov.uk/drug-device-alerts?medical_specialism=neurology",
+          "screening_level": "title and search-returned summary; full source only if listed in source-checks.json",
+          "classification": "excluded from new qualifying notice count",
+          "reason": "Filtered alerts index; current unfiltered index separately checked."
+        },
+        {
+          "result_number": 4,
+          "title": "Safety Public Assessment Reports - GOV.UK",
+          "url": "https://www.gov.uk/guidance/safety-public-assessment-reports",
+          "screening_level": "title and search-returned summary; full source only if listed in source-checks.json",
+          "classification": "excluded from new qualifying notice count",
+          "reason": "Assessment-reports index; no dated watched-product event established."
+        },
+        {
+          "result_number": 5,
+          "title": "Alerts, recalls and safety information: medicines and medical devices - GOV.UK",
+          "url": "https://www.gov.uk/drug-device-alerts?alert_type=medicines-recall-notification",
+          "screening_level": "title and search-returned summary; full source only if listed in source-checks.json",
+          "classification": "excluded from new qualifying notice count",
+          "reason": "Filtered alerts index; current unfiltered index separately checked."
+        },
+        {
+          "result_number": 6,
+          "title": "Alerts, recalls and safety information: medicines and medical devices - GOV.UK",
+          "url": "https://www.gov.uk/drug-device-alerts?medical_specialism%5B%5D=pharmacy",
+          "screening_level": "title and search-returned summary; full source only if listed in source-checks.json",
+          "classification": "excluded from new qualifying notice count",
+          "reason": "Filtered alerts index; current unfiltered index separately checked."
+        },
+        {
+          "result_number": 7,
+          "title": "Haloperidol (Haldol): reminder of risks when used in elderly patients for the acute treatment of delirium - GOV.UK",
+          "url": "https://www.gov.uk/drug-safety-update/haloperidol-haldol-reminder-of-risks-when-used-in-elderly-patients-for-the-acute-treatment-of-delirium",
+          "screening_level": "title and search-returned summary; full source only if listed in source-checks.json",
+          "classification": "excluded from new qualifying notice count",
+          "reason": "Historical haloperidol delirium warning, outside window."
+        },
+        {
+          "result_number": 8,
+          "title": "Drug Safety Update - GOV.UK",
+          "url": "https://www.gov.uk/drug-safety-update?therapeutic_area%5B%5D=neurology&therapeutic_area%5B%5D=pain-management-palliation",
+          "screening_level": "title and search-returned summary; full source only if listed in source-checks.json",
+          "classification": "excluded from new qualifying notice count",
+          "reason": "Filtered safety-update index; current unfiltered index separately checked."
+        },
+        {
+          "result_number": 9,
+          "title": "Drug Safety Update - GOV.UK",
+          "url": "https://www.gov.uk/drug-safety-update?therapeutic_area=neurology",
+          "screening_level": "title and search-returned summary; full source only if listed in source-checks.json",
+          "classification": "excluded from new qualifying notice count",
+          "reason": "Filtered safety-update index; current unfiltered index separately checked."
+        },
+        {
+          "result_number": 10,
+          "title": "Class 4 Medicines Defect Notification: Macarthys Laboratories Ltd T/A Martindale Pharma, Xaggitin XL Prolonged-release Tablets, EL(26)A/35 - GOV.UK",
+          "url": "https://www.gov.uk/drug-device-alerts/class-4-medicines-defect-notification-macarthys-laboratories-ltd-t-slash-a-martindale-pharma-xaggitin-xl-prolonged-release-tablets-el-26-a-slash-35",
+          "screening_level": "title and search-returned summary; full source only if listed in source-checks.json",
+          "classification": "excluded from new qualifying notice count",
+          "reason": "Unwatched methylphenidate product defect, older than window."
+        },
+        {
+          "result_number": 11,
+          "title": "Review of the use of haloperidol in elderly patients with acute delirium - GOV.UK",
+          "url": "https://www.gov.uk/government/publications/review-of-the-use-of-haloperidol-in-elderly-patients-with-acute-delirium/review-of-the-use-of-haloperidol-in-elderly-patients-with-acute-delirium",
+          "screening_level": "title and search-returned summary; full source only if listed in source-checks.json",
+          "classification": "excluded from new qualifying notice count",
+          "reason": "Historical haloperidol delirium assessment, outside window."
+        },
+        {
+          "result_number": 12,
+          "title": "Review of the use of haloperidol in elderly patients with acute delirium - GOV.UK",
+          "url": "https://www.gov.uk/government/publications/review-of-the-use-of-haloperidol-in-elderly-patients-with-acute-delirium",
+          "screening_level": "title and search-returned summary; full source only if listed in source-checks.json",
+          "classification": "excluded from new qualifying notice count",
+          "reason": "Historical haloperidol delirium assessment landing page, outside window."
+        }
+      ]
+    },
+    {
+      "batch_id": "S4",
+      "executed_at_utc_approximate": "2026-10-15T02:58:05Z",
+      "request": {
+        "search_query": [
+          {
+            "q": "\"ecopipam\" (safety OR FDA OR EMA OR MHRA) \"October\" \"2026\"",
+            "domains": [
+              "fda.gov",
+              "ema.europa.eu",
+              "gov.uk"
+            ]
+          },
+          {
+            "q": "(\"Neupulse\" OR \"median nerve stimulation\") (recall OR safety OR warning) \"2026\"",
+            "domains": [
+              "fda.gov",
+              "gov.uk"
+            ]
+          },
+          {
+            "q": "(\"transcranial magnetic\" OR \"deep brain stimulation\" OR NeuroStar) recall \"October\" \"2026\"",
+            "domains": [
+              "fda.gov",
+              "gov.uk"
+            ]
+          }
+        ],
+        "response_length": "long"
+      },
+      "returned_result_cards": 8,
+      "results": [
+        {
+          "result_number": 1,
+          "title": "Unrelated fundraising story",
+          "url": "https://www.firescotland.gov.uk/news/firefighter-scales-three-mountains-in-one-day-in-memory-of-beloved-daughter/",
+          "screening_level": "title and search-returned summary; full source only if listed in source-checks.json",
+          "classification": "excluded from new qualifying notice count",
+          "reason": "Unrelated fundraising story, not an official regulator notice; not pursued."
+        },
+        {
+          "result_number": 2,
+          "title": "Class 2 Device Recall Abbott Liberta",
+          "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfres/res.cfm?id=216515",
+          "screening_level": "title and search-returned summary; full source only if listed in source-checks.json",
+          "classification": "excluded from new qualifying notice count",
+          "reason": "Abbott Liberta recall posted November 7, 2025, outside window."
+        },
+        {
+          "result_number": 3,
+          "title": "Class 2 Device Recall Recharger",
+          "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfRes/res.cfm?id=150430",
+          "screening_level": "title and search-returned summary; full source only if listed in source-checks.json",
+          "classification": "excluded from new qualifying notice count",
+          "reason": "Recharger correction initiated 2016 and terminated 2022, outside window."
+        },
+        {
+          "result_number": 4,
+          "title": "Medical Device Recalls",
+          "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfRes/resCollection_2.cfm?CREATE_DT=2008-02-05&ID=66255",
+          "screening_level": "title and search-returned summary; full source only if listed in source-checks.json",
+          "classification": "excluded from new qualifying notice count",
+          "reason": "Kinetra recall from 2007–2008, outside window."
+        },
+        {
+          "result_number": 5,
+          "title": "Class 2 Device Recall Activa PC and Activa RC",
+          "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfres/res.cfm?id=122449",
+          "screening_level": "title and search-returned summary; full source only if listed in source-checks.json",
+          "classification": "excluded from new qualifying notice count",
+          "reason": "Activa recall posted October 31, 2013, outside window."
+        },
+        {
+          "result_number": 6,
+          "title": "Class 2 Device Recall Kinetra Implantable Neurostimulator",
+          "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfRES/res.cfm?id=66255",
+          "screening_level": "title and search-returned summary; full source only if listed in source-checks.json",
+          "classification": "excluded from new qualifying notice count",
+          "reason": "Kinetra recall from 2007–2008, outside window."
+        },
+        {
+          "result_number": 7,
+          "title": "Post-Approval Studies (PAS) Database",
+          "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma_pas.cfm?t_id=415",
+          "screening_level": "title and search-returned summary; full source only if listed in source-checks.json",
+          "classification": "excluded from new qualifying notice count",
+          "reason": "Post-approval study database entry; not a newly dated safety alert."
+        },
+        {
+          "result_number": 8,
+          "title": "Post-Approval Studies (PAS) Database",
+          "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma_pas.cfm?t_id=64784",
+          "screening_level": "title and search-returned summary; full source only if listed in source-checks.json",
+          "classification": "excluded from new qualifying notice count",
+          "reason": "Post-approval study database entry; not a newly dated safety alert."
+        }
+      ]
+    },
+    {
+      "batch_id": "S5",
+      "executed_at_utc_approximate": "2026-10-15T02:58:35Z",
+      "request": {
+        "search_query": [
+          {
+            "q": "site:fda.gov \"ecopipam\" \"2026\""
+          },
+          {
+            "q": "site:ema.europa.eu \"ecopipam\" \"2026\""
+          },
+          {
+            "q": "site:gov.uk \"Neupulse\" safety"
+          },
+          {
+            "q": "site:accessdata.fda.gov \"NeuroStar\" \"2026\" recall"
+          }
+        ],
+        "response_length": "long"
+      },
+      "returned_result_cards": 15,
+      "results": [
+        {
+          "result_number": 1,
+          "title": "Class 2 Device Recall NeuroStar Advanced Therapy System",
+          "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfRes/res.cfm?id=222521",
+          "screening_level": "title and search-returned summary; full source only if listed in source-checks.json",
+          "classification": "excluded from new qualifying notice count",
+          "reason": "Known October 9 NeuroStar recall, already catalogued October 14; rechecked directly."
+        },
+        {
+          "result_number": 2,
+          "title": "Medical Device Recalls",
+          "url": "https://www.accessdata.fda.gov/SCRIPTs/cdrh/cfdocs/cfRes/res.cfm?IVDProducts=&PMA_510K_Num=&centerclassificationtypetext=&event_id=&firmlegalnam=&knumber=&pagenum=5&pnumber=&postdatefrom=&postdateto=&productcode=&productdescriptiontxt=&productshortreasontxt=&recallnumber=&recallstatus=&rootCauseText=&sortcolumn=cdd&start_search=6",
+          "screening_level": "title and search-returned summary; full source only if listed in source-checks.json",
+          "classification": "excluded from new qualifying notice count",
+          "reason": "Search/listing route reproduces known NeuroStar recall; no new specific event."
+        },
+        {
+          "result_number": 3,
+          "title": "Medical Device Recalls",
+          "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfRES/res.cfm?event_id=99812&start_search=1",
+          "screening_level": "title and search-returned summary; full source only if listed in source-checks.json",
+          "classification": "excluded from new qualifying notice count",
+          "reason": "Event-level listing for known NeuroStar recall."
+        },
+        {
+          "result_number": 4,
+          "title": "Medical Device Recalls",
+          "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfRES/res.cfm?knumber=K233621&start_search=1",
+          "screening_level": "title and search-returned summary; full source only if listed in source-checks.json",
+          "classification": "excluded from new qualifying notice count",
+          "reason": "510(k)-filtered listing for known NeuroStar recall."
+        },
+        {
+          "result_number": 5,
+          "title": "Medical Device Recalls",
+          "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfRES/res.cfm?IVDProducts=&PMA_510K_Num=&centerclassificationtypetext=&event_id=&firmlegalnam=&knumber=&pagenum=10&pnumber=&postdatefrom=&postdateto=&productcode=&productdescriptiontxt=&productshortreasontxt=&recallnumber=&recallstatus=&rootCauseText=&sortcolumn=cdd&start_search=6",
+          "screening_level": "title and search-returned summary; full source only if listed in source-checks.json",
+          "classification": "excluded from new qualifying notice count",
+          "reason": "Search/listing route reproduces known NeuroStar recall; no new specific event."
+        },
+        {
+          "result_number": 6,
+          "title": "Medical Device Recalls",
+          "url": "https://www.accessdata.fda.gov/SCRIPTs/cdrh/cfdocs/cfres/res.cfm?IVDProducts=&PMA_510K_Num=&centerclassificationtypetext=&event_id=&firmlegalnam=&knumber=&pagenum=25&pnumber=&postdatefrom=&postdateto=&productcode=&productdescriptiontxt=&productshortreasontxt=&recallnumber=&recallstatus=&rootCauseText=&sortcolumn=cdd&start_search=1",
+          "screening_level": "title and search-returned summary; full source only if listed in source-checks.json",
+          "classification": "excluded from new qualifying notice count",
+          "reason": "Search/listing route reproduces known NeuroStar recall; footer date is not an event date."
+        },
+        {
+          "result_number": 7,
+          "title": "Manufacturer and User Facility Device Experience(MAUDE)",
+          "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfmaude/results.cfm?brandname=&devicename=&eventtype=&knumber=k&manufacturer=&pagenum=10&patientproblem=4406&pmanumber=p&productcode=OBP&reportdatefrom=01%2F1%2F2020&reportdateto=&searchyear=&start_search=1",
+          "screening_level": "title and search-returned summary; full source only if listed in source-checks.json",
+          "classification": "excluded from new qualifying notice count",
+          "reason": "Raw adverse-event database search, not a causal safety communication; no case-level records collected."
+        },
+        {
+          "result_number": 8,
+          "title": "Medical Device Recalls",
+          "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfres/res.cfm?productresnumber=Z-1644-2015&start_search=1",
+          "screening_level": "title and search-returned summary; full source only if listed in source-checks.json",
+          "classification": "excluded from new qualifying notice count",
+          "reason": "Search/listing route reproduces known NeuroStar recall; no new specific event."
+        },
+        {
+          "result_number": 9,
+          "title": "Medical Device Recalls",
+          "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfres/res.cfm?productresnumber=Z-2652-2026&start_search=1",
+          "screening_level": "title and search-returned summary; full source only if listed in source-checks.json",
+          "classification": "excluded from new qualifying notice count",
+          "reason": "Search/listing route reproduces known NeuroStar recall; no new specific event."
+        },
+        {
+          "result_number": 10,
+          "title": "Medical Device Recalls",
+          "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfRES/res.cfm?IVDProducts=&PMA_510K_Num=&centerclassificationtypetext=2&event_id=&firmlegalnam=&knumber=&pagenum=10&pnumber=&postdatefrom=10%2F09%2F2019&postdateto=&productcode=&productdescriptiontxt=&productshortreasontxt=&recallnumber=&recallstatus=&rootCauseText=&sortcolumn=cdd&start_search=1",
+          "screening_level": "title and search-returned summary; full source only if listed in source-checks.json",
+          "classification": "excluded from new qualifying notice count",
+          "reason": "Generic recall listing; direct open returned stale September content inconsistent with search summary, so excluded from current-coverage evidence."
+        },
+        {
+          "result_number": 11,
+          "title": "ECOPIPAM",
+          "url": "https://precision.fda.gov/ginas/app/ui/substances/e78946b6-b4f0-4b07-8873-47375ee282b2",
+          "screening_level": "title and search-returned summary; full source only if listed in source-checks.json",
+          "classification": "excluded from new qualifying notice count",
+          "reason": "Substance registry identity record; not a safety notice or approval."
+        },
+        {
+          "result_number": 12,
+          "title": "Manufacturer and User Facility Device Experience(MAUDE)",
+          "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfmaude/results.cfm?brandname=&devicename=&eventtype=&knumber=k&manufacturer=&pagenum=10&patientproblem=4430&pmanumber=p&productcode=OBP&reportdatefrom=01%2F1%2F2020&reportdateto=&searchyear=&start_search=1",
+          "screening_level": "title and search-returned summary; full source only if listed in source-checks.json",
+          "classification": "excluded from new qualifying notice count",
+          "reason": "Raw adverse-event database search, not a causal safety communication; no case-level records collected."
+        },
+        {
+          "result_number": 13,
+          "title": "DEPARTMENT OF HEALTH AND HUMAN SERVICES",
+          "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf23/K233621.pdf",
+          "screening_level": "title and search-returned summary; full source only if listed in source-checks.json",
+          "classification": "excluded from new qualifying notice count",
+          "reason": "Historical 510(k) indication document; not October safety notice."
+        },
+        {
+          "result_number": 14,
+          "title": "510(k) Summary",
+          "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf26/K260560.pdf",
+          "screening_level": "title and search-returned summary; full source only if listed in source-checks.json",
+          "classification": "excluded from new qualifying notice count",
+          "reason": "Earlier 2026 510(k) document; not October safety notice."
+        },
+        {
+          "result_number": 15,
+          "title": "Unrelated charity accounts",
+          "url": "https://register-of-charities.charitycommission.gov.uk/en/charity-search?_uk_gov_ccew_onereg_charitydetails_web_portlet_CharityDetailsPortlet_objectiveId=A18224520&_uk_gov_ccew_onereg_charitydetails_web_portlet_CharityDetailsPortlet_priv_r_p_mvcRenderCommandName=%2Faccounts-and-annual-returns&_uk_gov_ccew_onereg_charitydetails_web_portlet_CharityDetailsPortlet_priv_r_p_organisationNumber=1003317&p_p_cacheability=cacheLevelPage&p_p_id=uk_gov_ccew_onereg_charitydetails_web_portlet_CharityDetailsPortlet&p_p_lifecycle=2&p_p_mode=view&p_p_resource_id=%2Faccounts-resource&p_p_state=maximized",
+          "screening_level": "title and search-returned summary; full source only if listed in source-checks.json",
+          "classification": "excluded from new qualifying notice count",
+          "reason": "Charity accounts, not a regulator safety notice; not pursued."
+        }
+      ]
+    },
+    {
+      "batch_id": "S6",
+      "executed_at_utc_approximate": "2026-10-15T02:59:10Z",
+      "request": {
+        "search_query": [
+          {
+            "q": "site:accessdata.fda.gov \"Safety-related Labeling Changes\" \"October\" \"2026\" (aripiprazole OR risperidone OR haloperidol OR pimozide OR guanfacine OR clonidine OR valbenazine OR deutetrabenazine OR tetrabenazine)"
+          }
+        ],
+        "response_length": "long"
+      },
+      "returned_result_cards": 0,
+      "results": []
+    }
+  ]
+}

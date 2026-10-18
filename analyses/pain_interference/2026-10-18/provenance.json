@@ -1,0 +1,197 @@
+{
+  "audit_date": "2026-10-18",
+  "timezone": "UTC",
+  "scope": "Bounded historical primary-study audit of Taylor2022Pain; not a systematic review or new daily surveillance scan.",
+  "baseline_repository": "dotjade/project-neurofreedom",
+  "baseline_reads": [
+    {
+      "path": "README.md",
+      "sha": "605afa1f954492cf08872865146a4f832e47b369",
+      "url": "https://github.com/dotjade/project-neurofreedom/blob/main/README.md"
+    },
+    {
+      "path": "RESEARCH_PROTOCOL.md",
+      "sha": "d69c21b73447f7ad9df0a3949b7fcaf57dd5ddde",
+      "url": "https://github.com/dotjade/project-neurofreedom/blob/main/RESEARCH_PROTOCOL.md"
+    },
+    {
+      "path": "STATUS.md",
+      "sha": "49919ed2ce305598b5aeaa4c45367eaf026936e6",
+      "url": "https://github.com/dotjade/project-neurofreedom/blob/main/STATUS.md"
+    },
+    {
+      "path": "public/journal-source/README.md",
+      "sha": "ea2033cbc99c9084dcbeb356f683ad2d150238e6",
+      "url": "https://github.com/dotjade/project-neurofreedom/blob/main/public/journal-source/README.md"
+    },
+    {
+      "path": "analyses/adult_pain/2026-10-17/report.md",
+      "sha": "7701dc5e7f9b62d027468c958712439238f581bc",
+      "url": "https://github.com/dotjade/project-neurofreedom/blob/main/analyses/adult_pain/2026-10-17/report.md"
+    }
+  ],
+  "additional_baseline": {
+    "path": "evidence.jsonl",
+    "sha": "32e7e928e0eecef2c4031fff1e1465cdd6340ab4",
+    "retrieved_through": "GitHub connector"
+  },
+  "pre_extraction_prediction": {
+    "file": "prediction.md",
+    "recorded_utc": "2026-10-18T02:38:22Z",
+    "timing": "Written before successful Taylor primary article inspection; prior identity/age information came from latest repository STATUS and October17 audit."
+  },
+  "sources": [
+    {
+      "id": "publisher_html",
+      "url": "https://www.frontiersin.org/journals/psychiatry/articles/10.3389/fpsyt.2022.914044/full",
+      "status": "Retrieved with web tool; methods,results,tables,limitations and declarations inspected",
+      "date": "2026-10-18",
+      "license": "CC BY, as stated by publisher"
+    },
+    {
+      "id": "official_xml",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9388784/fullTextXML",
+      "status": "HTTP200, downloaded temporarily and parsed; no raw XML in deliverables",
+      "date": "2026-10-18",
+      "sha256": "5386f8124c2e24bc229b043b5d3477609241e203e05a3df5ca1316fbf629a299",
+      "bytes": 160279,
+      "local_download_write_time_utc": "2026-10-18T02:38:47.847570+00:00"
+    },
+    {
+      "id": "publisher_pdf",
+      "url": "https://www.frontiersin.org/journals/psychiatry/articles/10.3389/fpsyt.2022.914044/pdf",
+      "status": "HTTP200, temporary lawful CC BY copy; relevant tables visually checked on pages5–7; no source PDF/screenshots in deliverables",
+      "date": "2026-10-18",
+      "sha256": "4c7b5f9c6d116b6616407a6494a62306b4b7b0ca1812ba4f23ec1ab55440a6b2",
+      "bytes": 405497,
+      "local_download_write_time_utc": "2026-10-18T02:39:36.742628+00:00"
+    },
+    {
+      "id": "pubmed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35990066/",
+      "status": "Direct web open returned browser-check page; bibliographic search result corroborated identifiers. No CAPTCHA attempted."
+    },
+    {
+      "id": "pmc",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9388784/",
+      "status": "Direct web open returned browser-check page; official EuropePMC XML used."
+    },
+    {
+      "id": "doi_resolver",
+      "url": "https://doi.org/10.3389/fpsyt.2022.914044",
+      "status": "Web extraction could not access; publisher canonical URL retrieved normally."
+    }
+  ],
+  "search_log": [
+    {
+      "time_scope_utc": "2026-10-18T02:38:22Z to 2026-10-18T02:38:25Z",
+      "tool": "web search",
+      "query": "\"914044\" \"Taylor\" pain",
+      "filters": "None",
+      "purpose": "Locate target primary full text and identifiers",
+      "included": "Target publisher/PMC/PubMed records only for present audit",
+      "excluded": "Other studies,secondary pages and unauthorized document hosts not used for target extraction",
+      "coverage_limit": "Targeted identity/source lookup, not exhaustive pain literature search"
+    },
+    {
+      "time_scope_utc": "2026-10-18T02:44:42Z to 2026-10-18T02:45:01Z",
+      "tool": "web search/open",
+      "queries": [
+        "Tourette pain interference randomized controlled trial pain botulinum toxin Marras 2001",
+        "Tourette tic related pain clinical trial pain outcome randomized"
+      ],
+      "filters": "None",
+      "purpose": "Identify a concrete next controlled-intervention endpoint question for the next research priority",
+      "included": "Marras2001 primary publisher abstract and identifiers",
+      "inference_limit": "No trial effect audit completed. Secondary leads motivated full-method checking but no secondary numeric claim promoted.",
+      "source": "https://www.neurology.org/doi/abs/10.1212/wnl.56.5.605",
+      "full_text_access": "Publisher full DOI page HTTP403 via web; full methods not verified today"
+    },
+    {
+      "tool": "Official EuropePMC metadata",
+      "query": "PMC12625153",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=PMC12625153&format=json&resultType=core",
+      "purpose": "Bibliographic identity check for an alternative future candidate",
+      "included": "Ogunsola2025 PMID40485368 DOI10.1002/mdc3.70151, first publication2025-06-09",
+      "status": "Candidate only; superseded by intervention-endpoint next-step preference; no claims-data analysis"
+    }
+  ],
+  "supplement_and_notice_checks": {
+    "review": "review/independent_review.md",
+    "endpoints": [
+      "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A35990066%20AND%20SRC%3AMED&format=json&resultType=core",
+      "https://api.crossref.org/works/10.3389/fpsyt.2022.914044"
+    ],
+    "finding": "No supplementary-material nodes/links or age-specific public outcomes found; EuropePMC hasSuppl=N and hasData=N. No linked correction/retraction in checked publisher/XML/Crossref and focused DOI searches.",
+    "limitations": "Bounded accessible-source review; not proof of absence of unlinked notices or author-held material.",
+    "exact_searches": [
+      "\"10.3389/fpsyt.2022.914044\" supplementary questionnaire correction",
+      "\"Taylor\" \"Anderson\" \"Davies\" \"tic-related pain\" questionnaire supplementary",
+      "\"10.3389/fpsyt.2022.914044\" corrigendum OR retraction OR erratum",
+      "\"914044\" \"questionnaire\" \"supplementary\"",
+      "\"914044\" \"adult\" \"subgroup\"",
+      "\"914044\" \"correction\"",
+      "\"914044\" \"retracted\""
+    ],
+    "search_date": "2026-10-18",
+    "search_time_window_utc": "02:39:28–02:40:43; bounded by session timestamps, not retained HTTP transaction times",
+    "exclusions": "Irrelevant records returned by broader numeric-identifier searches excluded; blocked PubMed/PMC/university pages not used as negative proof.",
+    "publisher_find_terms": [
+      "Supplementary",
+      "Corrigendum",
+      "retraction"
+    ],
+    "metadata_sha256": "ebe8bb586d745ed19e73ae8372a3654544d3cfec911dce6a31584b94830eb000",
+    "crossref_reserialized_message_sha256": "58224095314993b241a78800be12bf3482a163201238dcf31a51ca0ee6831f11"
+  },
+  "computation": {
+    "language": "Python3.12.14",
+    "dependencies": "Python standard library only",
+    "inputs": "aggregate_inputs.json",
+    "code": "aggregate_checks.py",
+    "output": "aggregate_checks.json",
+    "tests": "test_aggregate_checks.py",
+    "execution_log": "execution_log.txt",
+    "test_count": 25,
+    "method": "Deterministic differences of reported means, conservative ordinary-rounding envelopes, age-bin sums and care-denominator consistency checks",
+    "not_done": [
+      "No participant reconstruction",
+      "No adult-only estimate",
+      "No paired statistical test",
+      "No confidence interval",
+      "No composite score",
+      "No pooling",
+      "No causal effect",
+      "No simulation"
+    ],
+    "independent_review_files": [
+      "review/aggregate_review.md",
+      "review/independent_checks.py",
+      "review/independent_checks.json",
+      "review/compare_outputs.py",
+      "review/comparison_result.json",
+      "review/analysis_tests_rerun.txt"
+    ]
+  },
+  "governance": {
+    "github_writes": false,
+    "participant_access": false,
+    "outreach": false,
+    "intervention": false,
+    "personal_family_data": false,
+    "source_fulltexts_in_deliverables": false,
+    "singleton_treatment_or_demographic_cells_in_deliverables": false,
+    "license_policy": "Public original summaries and selected aggregates only; raw source documents retained only temporarily outside release directory."
+  },
+  "independent_review": {
+    "verdict": "PASS",
+    "source_method_review": "review/independent_review.md",
+    "source_arithmetic_review": "review/aggregate_review.md",
+    "implementation_tests_passed": 25,
+    "independent_checks_passed": 18,
+    "cross_implementation_comparisons_passed": 43,
+    "regenerated_output": "Byte-for-byte identical",
+    "reviewed_artifacts": "Report, extraction, inputs, calculations, output and provenance",
+    "limitations": "Not clinical peer review or clinical validation"
+  }
+}

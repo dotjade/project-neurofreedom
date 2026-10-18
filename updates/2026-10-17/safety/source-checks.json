@@ -1,0 +1,202 @@
+{
+  "schema_version": 1,
+  "scan_date": "2026-10-17",
+  "distinct_sources_attempted": 21,
+  "source_type": "official regulator pages and notices only",
+  "checks": [
+    {
+      "id": "FDA-DSC",
+      "url": "https://www.fda.gov/drugs/drug-safety-and-availability/drug-safety-communications",
+      "retrieved_at_utc_approximate": "2026-10-17T03:14:25Z",
+      "status": "readable",
+      "original_summary": "Newest visible dated item remains September 15. No overlap-dated watched notice.",
+      "latest_visible_relevant_date": "2026-09-15",
+      "date_note": "Dates refer to the described publication, issuance, procedure, document or footer, not a verified within-day event time."
+    },
+    {
+      "id": "FDA-DEVICE-SAFETY",
+      "url": "https://www.fda.gov/medical-devices/medical-device-safety/safety-communications",
+      "retrieved_at_utc_approximate": "2026-10-17T03:14:25Z",
+      "status": "readable",
+      "original_summary": "Newest listed communication remains June 3. No overlap-dated watched notice.",
+      "latest_visible_relevant_date": "2026-06-03",
+      "date_note": "Dates refer to the described publication, issuance, procedure, document or footer, not a verified within-day event time."
+    },
+    {
+      "id": "FDA-CDRH",
+      "url": "https://www.fda.gov/medical-devices/medical-devices-news-and-events/cdrh-new-news-and-updates",
+      "retrieved_at_utc_approximate": "2026-10-17T03:14:25Z",
+      "status": "readable",
+      "original_summary": "Latest visible date is October 15: a future transcranial-ultrasound workshop and unrelated mitral-valve delivery-system issue; neither is a new watched-therapy safety finding.",
+      "latest_visible_relevant_date": "2026-10-15",
+      "date_note": "Dates refer to the described publication, issuance, procedure, document or footer, not a verified within-day event time."
+    },
+    {
+      "id": "EMA-WHATS-NEW",
+      "url": "https://www.ema.europa.eu/en/news-events/whats-new",
+      "retrieved_at_utc_approximate": "2026-10-17T03:14:31Z",
+      "status": "readable",
+      "original_summary": "Screened 38 rows dated October 16 and 17 rows dated October 15. None names a watched medicine. Generic safety-signal timetables are procedural documents, not safety findings.",
+      "latest_visible_relevant_date": "2026-10-16",
+      "date_note": "Dates refer to the described publication, issuance, procedure, document or footer, not a verified within-day event time."
+    },
+    {
+      "id": "MHRA-DSU",
+      "url": "https://www.gov.uk/drug-safety-update",
+      "retrieved_at_utc_approximate": "2026-10-17T03:14:31Z",
+      "status": "readable",
+      "original_summary": "Latest visible entry remains the known October 15 antidepressant risk-communication update; next entry dated September 2.",
+      "latest_visible_relevant_date": "2026-10-15",
+      "date_note": "Dates refer to the described publication, issuance, procedure, document or footer, not a verified within-day event time."
+    },
+    {
+      "id": "MHRA-ALERTS",
+      "url": "https://www.gov.uk/drug-device-alerts",
+      "retrieved_at_utc_approximate": "2026-10-17T03:14:31Z",
+      "status": "readable_with_nonchronological_order",
+      "original_summary": "The displayed order is not strictly chronological. Latest visible issuance is October 13 for CRRT/echinocandin advice, outside the watched therapies. No October 16–17 item verified.",
+      "latest_visible_relevant_date": "2026-10-13",
+      "date_note": "Dates refer to the described publication, issuance, procedure, document or footer, not a verified within-day event time."
+    },
+    {
+      "id": "EMA-INTUNIV",
+      "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/intuniv",
+      "retrieved_at_utc_approximate": "2026-10-17T03:14:41Z",
+      "status": "readable",
+      "original_summary": "Risk-management and product-information metadata retain October 13 updates; latest listed procedure VR/0000334464 is dated September 3. This is a metadata recheck, not a fresh comparison of label text.",
+      "latest_visible_relevant_date": "2026-10-13",
+      "date_note": "Dates refer to the described publication, issuance, procedure, document or footer, not a verified within-day event time."
+    },
+    {
+      "id": "FDA-NEUROSTAR",
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfRES/res.cfm?id=222521",
+      "retrieved_at_utc_approximate": "2026-10-17T03:15:49Z",
+      "status": "readable",
+      "original_summary": "Known Z-0142-2027: firm initiation August 24, posting October 9, open classified recall, HP-coil cable specification issue, 179 units. Footer is now October 15; that alone does not establish a material event change.",
+      "latest_visible_relevant_date": "2026-10-09",
+      "date_note": "Dates refer to the described publication, issuance, procedure, document or footer, not a verified within-day event time."
+    },
+    {
+      "id": "EMA-PRAC",
+      "url": "https://www.ema.europa.eu/en/human-regulatory-overview/post-authorisation/pharmacovigilance-post-authorisation/signal-management/prac-recommendations-safety-signals",
+      "retrieved_at_utc_approximate": "2026-10-17T03:15:04Z",
+      "status": "readable",
+      "original_summary": "Leading recommendations cover the August 31–September 3 meeting and were published September 28. No new overlap-dated recommendation verified.",
+      "latest_visible_relevant_date": "2026-09-28",
+      "date_note": "Dates refer to the described publication, issuance, procedure, document or footer, not a verified within-day event time."
+    },
+    {
+      "id": "MHRA-ANTIDEPRESSANTS",
+      "url": "https://www.gov.uk/drug-safety-update/antidepressants-new-safety-measures-for-all-patients-to-improve-communication-of-the-risk-of-suicidal-thoughts-and-behaviours-and-persistent-sexual-dysfunction",
+      "retrieved_at_utc_approximate": "2026-10-17T03:15:04Z",
+      "status": "readable",
+      "original_summary": "Known communication published October 15. Patient-information warning and card changes address established risks; ancillary leaflet remains planned for 2027. Retained as prior-seen comorbidity-care context, with no individual applicability or medication-change inference.",
+      "latest_visible_relevant_date": "2026-10-15",
+      "date_note": "Dates refer to the described publication, issuance, procedure, document or footer, not a verified within-day event time."
+    },
+    {
+      "id": "MHRA-OCT-FSN",
+      "url": "https://www.gov.uk/drug-device-alerts/field-safety-notices-for-october-2026",
+      "retrieved_at_utc_approximate": "2026-10-17T03:14:48Z",
+      "status": "readable",
+      "original_summary": "Issued/published October 9, with Nova StatStrip ketone test strips as the displayed item. Outside named watchlist.",
+      "latest_visible_relevant_date": "2026-10-09",
+      "date_note": "Dates refer to the described publication, issuance, procedure, document or footer, not a verified within-day event time."
+    },
+    {
+      "id": "FDA-MEDLINE-222811",
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfRES/res.cfm?id=222811",
+      "retrieved_at_utc_approximate": "2026-10-17T03:15:04Z",
+      "status": "prior_access_gap_resolved",
+      "original_summary": "Z-0174-2027 identifies laparoscopy/transplant and catheter-laboratory surgical convenience kits, not the watched tic-stimulation devices. Initiated September 2; posted October 15. Excluded after product identification.",
+      "latest_visible_relevant_date": "2026-10-15",
+      "date_note": "Dates refer to the described publication, issuance, procedure, document or footer, not a verified within-day event time."
+    },
+    {
+      "id": "FDA-MEDLINE-223070",
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfRES/res.cfm?id=223070",
+      "retrieved_at_utc_approximate": "2026-10-17T03:15:04Z",
+      "status": "prior_access_gap_resolved",
+      "original_summary": "Z-0189-2027 identifies a foot/ankle convenience kit classified as a pneumatic tourniquet, recalled for component shelf-life discrepancy. Initiated September 11; posted October 15. Outside named watched devices.",
+      "latest_visible_relevant_date": "2026-10-15",
+      "date_note": "Dates refer to the described publication, issuance, procedure, document or footer, not a verified within-day event time."
+    },
+    {
+      "id": "FDA-RECALL-INDEX",
+      "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts",
+      "retrieved_at_utc_approximate": "2026-10-17T03:15:24Z",
+      "status": "readable_with_scope_limit",
+      "original_summary": "Now shows October 16 salmon and October 15 cheese recalls, with October 14 argatroban/food entries below. None is a watched therapy. FDA states this press-release index does not include all recalls.",
+      "latest_visible_relevant_date": "2026-10-16",
+      "date_note": "Dates refer to the described publication, issuance, procedure, document or footer, not a verified within-day event time."
+    },
+    {
+      "id": "FDA-SRLC-INITIAL-PATH",
+      "url": "https://www.fda.gov/drugs/drug-safety-and-availability/drug-safety-related-labeling-changes-srLC",
+      "retrieved_at_utc_approximate": "2026-10-17T03:15:24Z",
+      "status": "inaccessible_unverified_path",
+      "original_summary": "This attempted path was inaccessible. A search located the valid official overview and database below; this failed path is not treated as evidence the database itself is unavailable.",
+      "latest_visible_relevant_date": null,
+      "date_note": "Dates refer to the described publication, issuance, procedure, document or footer, not a verified within-day event time."
+    },
+    {
+      "id": "FDA-DRUG-ALERTS",
+      "url": "https://www.fda.gov/drugs/drug-safety-and-availability/drug-alerts-and-statements",
+      "retrieved_at_utc_approximate": "2026-10-17T03:15:24Z",
+      "status": "readable",
+      "original_summary": "Latest statement dated October 16 concerns a nonprescription eye drop; latest entry in the separate Alerts section is May 15. No qualifying watched notice.",
+      "latest_visible_relevant_date": "2026-10-16",
+      "date_note": "Dates refer to the described publication, issuance, procedure, document or footer, not a verified within-day event time."
+    },
+    {
+      "id": "FDA-DRUG-NEWS",
+      "url": "https://www.fda.gov/drugs/news-events-human-drugs/whats-new-related-drugs",
+      "retrieved_at_utc_approximate": "2026-10-17T03:15:40Z",
+      "status": "readable_fresher_than_prior_retrieval",
+      "original_summary": "Now includes October 16 eye-drop approval and October 15 hidden-ingredient notification. This resolves yesterday's stale drug-news retrieval for these visible entries, not all FDA coverage.",
+      "latest_visible_relevant_date": "2026-10-16",
+      "date_note": "Dates refer to the described publication, issuance, procedure, document or footer, not a verified within-day event time."
+    },
+    {
+      "id": "FDA-DATE-FILTER",
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfRES/res.cfm?start_search=1&postdatefrom=10%2F15%2F2026&postdateto=10%2F17%2F2026",
+      "retrieved_at_utc_approximate": "2026-10-17T03:15:40Z",
+      "status": "inaccessible",
+      "original_summary": "The date-filtered device-recall listing could not be retrieved by the web tool. No zero-result inference.",
+      "latest_visible_relevant_date": null,
+      "date_note": "Dates refer to the described publication, issuance, procedure, document or footer, not a verified within-day event time."
+    },
+    {
+      "id": "FDA-SRLC-OVERVIEW",
+      "url": "https://www.fda.gov/drugs/drug-safety-and-availability/drug-safety-labeling-changes-slc-database",
+      "retrieved_at_utc_approximate": "2026-10-17T03:15:49Z",
+      "status": "readable_redirect",
+      "original_summary": "Redirected to the current FDA SrLC overview. Retrieved page explains database scope and exclusions, but is not a search of in-window records.",
+      "latest_visible_relevant_date": null,
+      "date_note": "Dates refer to the described publication, issuance, procedure, document or footer, not a verified within-day event time."
+    },
+    {
+      "id": "FDA-SRLC-DATABASE",
+      "url": "https://www.accessdata.fda.gov/scripts/cder/safetylabelingchanges/",
+      "retrieved_at_utc_approximate": "2026-10-17T03:15:59Z",
+      "status": "search_form_readable_records_not_enumerated",
+      "original_summary": "Search form is readable and shows a default end date October 16. Neither ingredient-by-ingredient results nor an executed date-search result set was obtained in this bounded pass; label surveillance remains incomplete.",
+      "latest_visible_relevant_date": null,
+      "date_note": "Dates refer to the described publication, issuance, procedure, document or footer, not a verified within-day event time."
+    },
+    {
+      "id": "FDA-10-DAY-FORECAST",
+      "url": "https://www.fda.gov/drugs/medication-health-fraud-notifications/10-day-forecast-may-be-harmful-due-hidden-ingredients",
+      "retrieved_at_utc_approximate": "2026-10-17T03:17:12Z",
+      "status": "readable_excluded",
+      "original_summary": "October 15 notification concerns a sexual-enhancement product with undeclared sildenafil and acetaminophen. It is outside tic therapy and ADHD/OCD treatment scope.",
+      "latest_visible_relevant_date": "2026-10-15",
+      "date_note": "Dates refer to the described publication, issuance, procedure, document or footer, not a verified within-day event time."
+    }
+  ],
+  "limitations": [
+    "Web retrieval can use indexed/cached content despite a current crawl label.",
+    "Inaccessible filtered device listing and unenumerated SrLC results prevent exhaustive FDA coverage.",
+    "No label text was compared byte by byte, individual adverse-event records were not analyzed, and national EU/private manufacturer notices were not systematically enumerated."
+  ]
+}

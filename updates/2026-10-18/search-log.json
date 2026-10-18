@@ -1,0 +1,4165 @@
+{
+  "date": "2026-10-18",
+  "started_utc": "2026-10-18T02:39:04.831175+00:00",
+  "inclusive_overlap": [
+    "2026-10-16",
+    "2026-10-18"
+  ],
+  "prior_core_end_utc": "2026-10-17T03:17:08Z",
+  "retrieval_requests": [
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=Tourette+OR+%22tic+disorder%22+OR+%22tic+disorders%22&datetype=edat&mindate=2026%2F10%2F16&maxdate=2026%2F10%2F18&retmode=json&retmax=1000",
+      "started_utc": "2026-10-18T02:39:04.834138+00:00",
+      "status": 200,
+      "bytes": 794,
+      "sha256": "78810664d08c466fed6f2f5626bba635125ae3ae5c43f90ac2807cdae0b34f57",
+      "completed_utc": "2026-10-18T02:39:10.042274+00:00"
+    },
+    {
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-16/2026-10-18/0",
+      "started_utc": "2026-10-18T02:39:04.835315+00:00",
+      "status": 200,
+      "bytes": 69515,
+      "sha256": "ea135cf2aac80ffdb2c52ee6844fdb0e995e3984c52ef807096b6fc95a7cd426",
+      "completed_utc": "2026-10-18T02:39:14.447328+00:00"
+    },
+    {
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-10-16/2026-10-18/0",
+      "started_utc": "2026-10-18T02:39:04.835852+00:00",
+      "status": 200,
+      "bytes": 83207,
+      "sha256": "8fd616963f682c32836f6b5ee769d779ffd03b7495c0f629d0f26b6d75484948",
+      "completed_utc": "2026-10-18T02:39:13.223537+00:00"
+    },
+    {
+      "url": "https://clinicaltrials.gov/api/v2/studies?query.cond=Tourette&filter.advanced=AREA%5BLastUpdatePostDate%5DRANGE%5B2026-10-16%2C2026-10-18%5D&pageSize=100&format=json&countTotal=true",
+      "started_utc": "2026-10-18T02:39:04.836306+00:00",
+      "status": 200,
+      "bytes": 21527,
+      "sha256": "8e9b3f43d963efb0179f847a752979142d174cdf5b1847484206352c351595e6",
+      "completed_utc": "2026-10-18T02:39:11.349110+00:00"
+    },
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=Tourette+OR+%22tic+disorder%22+OR+%22tic+disorders%22&datetype=edat&mindate=2026%2F10%2F17&maxdate=2026%2F10%2F18&retmode=json&retmax=1000",
+      "started_utc": "2026-10-18T02:39:10.442522+00:00",
+      "status": 200,
+      "bytes": 794,
+      "sha256": "c5940efe9e089c2de7590ac92f4b42b1bb2f693000aea2860e1bb19f9b7ebf94",
+      "completed_utc": "2026-10-18T02:39:16.727434+00:00"
+    },
+    {
+      "url": "https://clinicaltrials.gov/api/v2/studies?query.cond=tic+disorder&filter.advanced=AREA%5BLastUpdatePostDate%5DRANGE%5B2026-10-16%2C2026-10-18%5D&pageSize=100&format=json&countTotal=true",
+      "started_utc": "2026-10-18T02:39:11.349173+00:00",
+      "status": 200,
+      "bytes": 31369,
+      "sha256": "fe71a9e1884b6e78418da448f42ccd87273a9a2ab058accb38a9d6afdc577b65",
+      "completed_utc": "2026-10-18T02:39:15.186393+00:00"
+    },
+    {
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-10-16/2026-10-18/30",
+      "started_utc": "2026-10-18T02:39:13.224308+00:00",
+      "status": 200,
+      "bytes": 80334,
+      "sha256": "fb833c146fe1fbe9613d645e026a40bb03990e607e50e33e35e28aac8d7bdd54",
+      "completed_utc": "2026-10-18T02:39:18.336508+00:00"
+    },
+    {
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-16/2026-10-18/30",
+      "started_utc": "2026-10-18T02:39:14.448025+00:00",
+      "status": 200,
+      "bytes": 69394,
+      "sha256": "441d36adbf190b31f1b69bbb02730717b0741b0c76e252b0441174a8783562cb",
+      "completed_utc": "2026-10-18T02:39:18.866386+00:00"
+    },
+    {
+      "url": "https://clinicaltrials.gov/api/v2/studies?query.cond=Tics&filter.advanced=AREA%5BLastUpdatePostDate%5DRANGE%5B2026-10-16%2C2026-10-18%5D&pageSize=100&format=json&countTotal=true",
+      "started_utc": "2026-10-18T02:39:15.186466+00:00",
+      "status": 200,
+      "bytes": 31369,
+      "sha256": "fe71a9e1884b6e78418da448f42ccd87273a9a2ab058accb38a9d6afdc577b65",
+      "completed_utc": "2026-10-18T02:39:18.472033+00:00"
+    },
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=Tourette+OR+%22tic+disorder%22+OR+%22tic+disorders%22&datetype=pdat&mindate=2026%2F10%2F16&maxdate=2026%2F10%2F18&retmode=json&retmax=1000",
+      "started_utc": "2026-10-18T02:39:17.127745+00:00",
+      "status": 200,
+      "bytes": 811,
+      "sha256": "ac5f9253f75e23cba540571357a5b21731ad7c78eca88b971623a0a1da9c8b6c",
+      "completed_utc": "2026-10-18T02:39:21.395955+00:00"
+    },
+    {
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-10-16/2026-10-18/60",
+      "started_utc": "2026-10-18T02:39:18.337630+00:00",
+      "status": 200,
+      "bytes": 22821,
+      "sha256": "c9763b2e800c090be7e64d634a6a4fc523e5b1905162eb253a6be8806bf18cdd",
+      "completed_utc": "2026-10-18T02:39:21.217639+00:00"
+    },
+    {
+      "url": "https://clinicaltrials.gov/api/v2/studies?query.term=ecopipam&filter.advanced=AREA%5BLastUpdatePostDate%5DRANGE%5B2026-10-16%2C2026-10-18%5D&pageSize=100&format=json&countTotal=true",
+      "started_utc": "2026-10-18T02:39:18.472123+00:00",
+      "status": 200,
+      "bytes": 31,
+      "sha256": "b54968c05ff881a1ef7ce604b6a340248f8e2aee8637bef06da0f5693f520df8",
+      "completed_utc": "2026-10-18T02:39:27.176037+00:00"
+    },
+    {
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-16/2026-10-18/60",
+      "started_utc": "2026-10-18T02:39:18.867024+00:00",
+      "status": 200,
+      "bytes": 63393,
+      "sha256": "ecf89c4605acbb9c28747509a8b0ac08d25fcf8f1093dcf27d8593201e9efa49",
+      "completed_utc": "2026-10-18T02:39:21.495134+00:00"
+    },
+    {
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-16/2026-10-18/90",
+      "started_utc": "2026-10-18T02:39:21.495659+00:00",
+      "status": 200,
+      "bytes": 64794,
+      "sha256": "173cce4cac1aa4ac01d40128e00300c81d32daad380b0aa845c7f8a5639e4fbe",
+      "completed_utc": "2026-10-18T02:39:24.422484+00:00"
+    },
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=Tourette+OR+%22tic+disorder%22+OR+%22tic+disorders%22&datetype=mdat&mindate=2026%2F10%2F16&maxdate=2026%2F10%2F18&retmode=json&retmax=1000",
+      "started_utc": "2026-10-18T02:39:21.796281+00:00",
+      "status": 200,
+      "bytes": 845,
+      "sha256": "471a2b3ea6fcdf6836f7220dca672b3b9ea68bbcabeb4eda1f2934d851441894",
+      "completed_utc": "2026-10-18T02:39:25.734161+00:00"
+    },
+    {
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-16/2026-10-18/120",
+      "started_utc": "2026-10-18T02:39:24.423082+00:00",
+      "status": 200,
+      "bytes": 65641,
+      "sha256": "819699b7edc2da4d85de05ed430e011a8116bef0113328a6221967eb3094b88d",
+      "completed_utc": "2026-10-18T02:39:27.557469+00:00"
+    },
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%28Tourette+OR+%22tic+disorder%22+OR+%22tic+disorders%22%29+AND+%28retraction+OR+retracted+OR+erratum+OR+corrigendum+OR+correction%29&datetype=edat&mindate=2026%2F10%2F16&maxdate=2026%2F10%2F18&retmode=json&retmax=1000",
+      "started_utc": "2026-10-18T02:39:26.134398+00:00",
+      "status": 200,
+      "bytes": 2714,
+      "sha256": "f2f3a0cb9c0b2bdddfa0108a2602e40c3ada501ec0e2f60d9c529e119f35c7b8",
+      "completed_utc": "2026-10-18T02:39:30.344702+00:00"
+    },
+    {
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-16/2026-10-18/150",
+      "started_utc": "2026-10-18T02:39:27.558282+00:00",
+      "status": 200,
+      "bytes": 64881,
+      "sha256": "e2d00e855a6b751904b62151208b967824a1d472b1f57f74d9b9c272f764f18a",
+      "completed_utc": "2026-10-18T02:39:31.786215+00:00"
+    },
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=tics+OR+%22chronic+motor+tic%22+OR+%22chronic+vocal+tic%22+OR+%22persistent+tic%22&datetype=edat&mindate=2026%2F10%2F16&maxdate=2026%2F10%2F18&retmode=json&retmax=1000",
+      "started_utc": "2026-10-18T02:39:30.744950+00:00",
+      "status": 200,
+      "bytes": 429,
+      "sha256": "6249665064d50b24d814d91fb30f15ba11cf2ec93a9cb2ebd051082d20e79a11",
+      "completed_utc": "2026-10-18T02:39:33.282954+00:00"
+    },
+    {
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-16/2026-10-18/180",
+      "started_utc": "2026-10-18T02:39:31.786817+00:00",
+      "status": 200,
+      "bytes": 68988,
+      "sha256": "4553a11ba88578e270d47ec52c045fb6301b7eed238261894764422753c1daa7",
+      "completed_utc": "2026-10-18T02:39:37.442067+00:00"
+    },
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=tics+OR+%22chronic+motor+tic%22+OR+%22chronic+vocal+tic%22+OR+%22persistent+tic%22&datetype=pdat&mindate=2026%2F10%2F16&maxdate=2026%2F10%2F18&retmode=json&retmax=1000",
+      "started_utc": "2026-10-18T02:39:33.683178+00:00",
+      "status": 200,
+      "bytes": 435,
+      "sha256": "49ed4a72a0288da07594baa0f44757c802863de61012417ec15c43fee3361b38",
+      "completed_utc": "2026-10-18T02:39:36.035130+00:00"
+    },
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%28Tourette+OR+%22tic+disorder%22+OR+%22tic+disorders%22%29+AND+%28adult+OR+severe+OR+pain+OR+burden+OR+ADHD+OR+comorbid%2A+OR+cooccurring+OR+treatment+OR+adverse+OR+negative+OR+quality+of+life%29&datetype=edat&mindate=2026%2F10%2F16&maxdate=2026%2F10%2F18&retmode=json&retmax=1000",
+      "started_utc": "2026-10-18T02:39:36.435407+00:00",
+      "status": 200,
+      "bytes": 4008,
+      "sha256": "9cc08e348f10bb09cbea8c2f0bfd5d25e84125da0c48bd872fe44c2b5a84ee65",
+      "completed_utc": "2026-10-18T02:39:39.325098+00:00"
+    },
+    {
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-16/2026-10-18/210",
+      "started_utc": "2026-10-18T02:39:37.442709+00:00",
+      "status": 200,
+      "bytes": 67409,
+      "sha256": "f7fbbe7b745d26f113f42315c8695df6f0d232cebc055b48efb9538b369142d3",
+      "completed_utc": "2026-10-18T02:39:42.103017+00:00"
+    },
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=39947542%2C40229987%2C42527169%2C42808868%2C42867549%2C42888480&retmode=xml",
+      "started_utc": "2026-10-18T02:39:39.725309+00:00",
+      "status": 200,
+      "bytes": 73605,
+      "sha256": "37c90d03265b8421edaddd07b776d1d6125e65f7b87bd55e0fecea8835cbbb64",
+      "completed_utc": "2026-10-18T02:39:42.355380+00:00"
+    },
+    {
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-16/2026-10-18/240",
+      "started_utc": "2026-10-18T02:39:42.103597+00:00",
+      "status": 200,
+      "bytes": 65534,
+      "sha256": "7fc07bbcb9bb9ee4af89359d0e50926bc881cf48b8e4ee40d08624dc2dbde83f",
+      "completed_utc": "2026-10-18T02:39:45.751759+00:00"
+    },
+    {
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-16/2026-10-18/270",
+      "started_utc": "2026-10-18T02:39:45.752381+00:00",
+      "status": 200,
+      "bytes": 68495,
+      "sha256": "416d4c8a610f82694e66ed325829d16c2f8bd63bf6247e43815a78e99e712a58",
+      "completed_utc": "2026-10-18T02:39:50.605352+00:00"
+    },
+    {
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-16/2026-10-18/300",
+      "started_utc": "2026-10-18T02:39:50.605954+00:00",
+      "status": 200,
+      "bytes": 69428,
+      "sha256": "89bf217c54f22e82065288ff87f51fbbb4d79d56abb4d24af936c6131577e6e0",
+      "completed_utc": "2026-10-18T02:39:53.878092+00:00"
+    },
+    {
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-16/2026-10-18/330",
+      "started_utc": "2026-10-18T02:39:53.878706+00:00",
+      "status": 200,
+      "bytes": 67976,
+      "sha256": "e1facfd681f492ca8eb431235257ff75f982f12ae75ca1084e41ec8f667257cf",
+      "completed_utc": "2026-10-18T02:39:58.884181+00:00"
+    },
+    {
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-16/2026-10-18/360",
+      "started_utc": "2026-10-18T02:39:58.884829+00:00",
+      "status": 200,
+      "bytes": 69817,
+      "sha256": "a07a3442ebc699b4302aeb8ed07a72a96b4a0cf7c0de0962442fdbfa6b0c2202",
+      "completed_utc": "2026-10-18T02:40:02.317026+00:00"
+    },
+    {
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-16/2026-10-18/390",
+      "started_utc": "2026-10-18T02:40:02.317602+00:00",
+      "status": 200,
+      "bytes": 66527,
+      "sha256": "bba659789f87847d44dabb01f07ca9fa169e5e5704a61d921a6c5eb18038b2f5",
+      "completed_utc": "2026-10-18T02:40:05.321992+00:00"
+    },
+    {
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-16/2026-10-18/420",
+      "started_utc": "2026-10-18T02:40:05.322550+00:00",
+      "status": 200,
+      "bytes": 68116,
+      "sha256": "9438b08925de2d02644d2b9d4052aefa5743cddc1ac6bea1d8dbb1dae94f50e6",
+      "completed_utc": "2026-10-18T02:40:08.377498+00:00"
+    },
+    {
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-16/2026-10-18/450",
+      "started_utc": "2026-10-18T02:40:08.378244+00:00",
+      "status": 200,
+      "bytes": 51554,
+      "sha256": "8d598d06e88c35d9fa27323c2566beef492c581080e783b0c2a5f1fb1da63275",
+      "completed_utc": "2026-10-18T02:40:12.805583+00:00"
+    }
+  ],
+  "pubmed": {
+    "queries": [
+      {
+        "label": "core_edat",
+        "params": {
+          "db": "pubmed",
+          "term": "Tourette OR \"tic disorder\" OR \"tic disorders\"",
+          "datetype": "edat",
+          "mindate": "2026/10/16",
+          "maxdate": "2026/10/18",
+          "retmode": "json",
+          "retmax": 1000
+        },
+        "count": 1,
+        "ids": [
+          "42888480"
+        ],
+        "querytranslation": "(\"tourette syndrome\"[MeSH Terms] OR (\"tourette\"[All Fields] AND \"syndrome\"[All Fields]) OR \"tourette syndrome\"[All Fields] OR \"tourette\"[All Fields] OR \"tourette s\"[All Fields] OR \"tourettes\"[All Fields] OR \"tourettism\"[All Fields] OR \"tic disorder\"[All Fields] OR \"tic disorders\"[All Fields]) AND 2026/10/16:2026/10/18[Date - Entry]",
+        "warnings": null,
+        "errors": null
+      },
+      {
+        "label": "near_edat",
+        "params": {
+          "db": "pubmed",
+          "term": "Tourette OR \"tic disorder\" OR \"tic disorders\"",
+          "datetype": "edat",
+          "mindate": "2026/10/17",
+          "maxdate": "2026/10/18",
+          "retmode": "json",
+          "retmax": 1000
+        },
+        "count": 1,
+        "ids": [
+          "42888480"
+        ],
+        "querytranslation": "(\"tourette syndrome\"[MeSH Terms] OR (\"tourette\"[All Fields] AND \"syndrome\"[All Fields]) OR \"tourette syndrome\"[All Fields] OR \"tourette\"[All Fields] OR \"tourette s\"[All Fields] OR \"tourettes\"[All Fields] OR \"tourettism\"[All Fields] OR \"tic disorder\"[All Fields] OR \"tic disorders\"[All Fields]) AND 2026/10/17:2026/10/18[Date - Entry]",
+        "warnings": null,
+        "errors": null
+      },
+      {
+        "label": "core_pdat",
+        "params": {
+          "db": "pubmed",
+          "term": "Tourette OR \"tic disorder\" OR \"tic disorders\"",
+          "datetype": "pdat",
+          "mindate": "2026/10/16",
+          "maxdate": "2026/10/18",
+          "retmode": "json",
+          "retmax": 1000
+        },
+        "count": 2,
+        "ids": [
+          "42888480",
+          "42808868"
+        ],
+        "querytranslation": "(\"tourette syndrome\"[MeSH Terms] OR (\"tourette\"[All Fields] AND \"syndrome\"[All Fields]) OR \"tourette syndrome\"[All Fields] OR \"tourette\"[All Fields] OR \"tourette s\"[All Fields] OR \"tourettes\"[All Fields] OR \"tourettism\"[All Fields] OR \"tic disorder\"[All Fields] OR \"tic disorders\"[All Fields]) AND 2026/10/16:2026/10/18[Date - Publication]",
+        "warnings": null,
+        "errors": null
+      },
+      {
+        "label": "core_mdat",
+        "params": {
+          "db": "pubmed",
+          "term": "Tourette OR \"tic disorder\" OR \"tic disorders\"",
+          "datetype": "mdat",
+          "mindate": "2026/10/16",
+          "maxdate": "2026/10/18",
+          "retmode": "json",
+          "retmax": 1000
+        },
+        "count": 5,
+        "ids": [
+          "42888480",
+          "42867549",
+          "42527169",
+          "40229987",
+          "39947542"
+        ],
+        "querytranslation": "(\"tourette syndrome\"[MeSH Terms] OR (\"tourette\"[All Fields] AND \"syndrome\"[All Fields]) OR \"tourette syndrome\"[All Fields] OR \"tourette\"[All Fields] OR \"tourette s\"[All Fields] OR \"tourettes\"[All Fields] OR \"tourettism\"[All Fields] OR \"tic disorder\"[All Fields] OR \"tic disorders\"[All Fields]) AND 2026/10/16:2026/10/18[Date - Modification]",
+        "warnings": null,
+        "errors": null
+      },
+      {
+        "label": "notice_edat",
+        "params": {
+          "db": "pubmed",
+          "term": "(Tourette OR \"tic disorder\" OR \"tic disorders\") AND (retraction OR retracted OR erratum OR corrigendum OR correction)",
+          "datetype": "edat",
+          "mindate": "2026/10/16",
+          "maxdate": "2026/10/18",
+          "retmode": "json",
+          "retmax": 1000
+        },
+        "count": 0,
+        "ids": [],
+        "querytranslation": "(\"tourette syndrome\"[MeSH Terms] OR (\"tourette\"[All Fields] AND \"syndrome\"[All Fields]) OR \"tourette syndrome\"[All Fields] OR \"tourette\"[All Fields] OR \"tourette s\"[All Fields] OR \"tourettes\"[All Fields] OR \"tourettism\"[All Fields] OR \"tic disorder\"[All Fields] OR \"tic disorders\"[All Fields]) AND (\"retract\"[All Fields] OR \"retractable\"[All Fields] OR \"retracted\"[All Fields] OR \"retracting\"[All Fields] OR \"retraction\"[All Fields] OR \"retractions\"[All Fields] OR \"retracts\"[All Fields] OR (\"retract\"[All Fields] OR \"retractable\"[All Fields] OR \"retracted\"[All Fields] OR \"retracting\"[All Fields] OR \"retraction\"[All Fields] OR \"retractions\"[All Fields] OR \"retracts\"[All Fields]) OR (\"published erratum\"[Publication Type] OR \"erratum\"[All Fields]) OR \"corrigendum\"[All Fields] OR (\"correct\"[All Fields] OR \"correctability\"[All Fields] OR \"correctable\"[All Fields] OR \"corrected\"[All Fields] OR \"correctible\"[All Fields] OR \"correcting\"[All Fields] OR \"correction\"[All Fields] OR \"corrections\"[All Fields] OR \"corrective\"[All Fields] OR \"correctives\"[All Fields] OR \"correctness\"[All Fields] OR \"corrects\"[All Fields])) AND 2026/10/16:2026/10/18[Date - Entry]",
+        "warnings": {
+          "phrasesignored": [],
+          "quotedphrasesnotfound": [],
+          "outputmessages": [
+            "No items found."
+          ]
+        },
+        "errors": null
+      },
+      {
+        "label": "syn_edat",
+        "params": {
+          "db": "pubmed",
+          "term": "tics OR \"chronic motor tic\" OR \"chronic vocal tic\" OR \"persistent tic\"",
+          "datetype": "edat",
+          "mindate": "2026/10/16",
+          "maxdate": "2026/10/18",
+          "retmode": "json",
+          "retmax": 1000
+        },
+        "count": 1,
+        "ids": [
+          "42888480"
+        ],
+        "querytranslation": "(\"tics\"[MeSH Terms] OR \"tics\"[All Fields] OR \"chronic motor tic\"[All Fields] OR \"chronic vocal tic\"[All Fields] OR \"persistent tic\"[All Fields]) AND 2026/10/16:2026/10/18[Date - Entry]",
+        "warnings": null,
+        "errors": null
+      },
+      {
+        "label": "syn_pdat",
+        "params": {
+          "db": "pubmed",
+          "term": "tics OR \"chronic motor tic\" OR \"chronic vocal tic\" OR \"persistent tic\"",
+          "datetype": "pdat",
+          "mindate": "2026/10/16",
+          "maxdate": "2026/10/18",
+          "retmode": "json",
+          "retmax": 1000
+        },
+        "count": 1,
+        "ids": [
+          "42888480"
+        ],
+        "querytranslation": "(\"tics\"[MeSH Terms] OR \"tics\"[All Fields] OR \"chronic motor tic\"[All Fields] OR \"chronic vocal tic\"[All Fields] OR \"persistent tic\"[All Fields]) AND 2026/10/16:2026/10/18[Date - Publication]",
+        "warnings": null,
+        "errors": null
+      },
+      {
+        "label": "burden_treatment_edat",
+        "params": {
+          "db": "pubmed",
+          "term": "(Tourette OR \"tic disorder\" OR \"tic disorders\") AND (adult OR severe OR pain OR burden OR ADHD OR comorbid* OR cooccurring OR treatment OR adverse OR negative OR quality of life)",
+          "datetype": "edat",
+          "mindate": "2026/10/16",
+          "maxdate": "2026/10/18",
+          "retmode": "json",
+          "retmax": 1000
+        },
+        "count": 1,
+        "ids": [
+          "42888480"
+        ],
+        "querytranslation": "(\"tourette syndrome\"[MeSH Terms] OR (\"tourette\"[All Fields] AND \"syndrome\"[All Fields]) OR \"tourette syndrome\"[All Fields] OR \"tourette\"[All Fields] OR \"tourette s\"[All Fields] OR \"tourettes\"[All Fields] OR \"tourettism\"[All Fields] OR \"tic disorder\"[All Fields] OR \"tic disorders\"[All Fields]) AND (\"adult\"[MeSH Terms] OR \"adult\"[All Fields] OR \"adults\"[All Fields] OR \"adult s\"[All Fields] OR (\"sever\"[All Fields] OR \"severe\"[All Fields] OR \"severed\"[All Fields] OR \"severely\"[All Fields] OR \"severer\"[All Fields] OR \"severes\"[All Fields] OR \"severing\"[All Fields] OR \"severities\"[All Fields] OR \"severity\"[All Fields] OR \"severs\"[All Fields]) OR (\"pain\"[MeSH Terms] OR \"pain\"[All Fields]) OR (\"burden\"[All Fields] OR \"burdened\"[All Fields] OR \"burdening\"[All Fields] OR \"burdens\"[All Fields]) OR (\"attention deficit disorder with hyperactivity\"[MeSH Terms] OR (\"attention\"[All Fields] AND \"deficit\"[All Fields] AND \"disorder\"[All Fields] AND \"hyperactivity\"[All Fields]) OR \"attention deficit disorder with hyperactivity\"[All Fields] OR \"adhd\"[All Fields]) OR \"comorbid*\"[All Fields] OR (\"cooccur\"[All Fields] OR \"cooccurred\"[All Fields] OR \"cooccurring\"[All Fields]) OR (\"therapeutics\"[MeSH Terms] OR \"therapeutics\"[All Fields] OR \"treatments\"[All Fields] OR \"therapy\"[MeSH Subheading] OR \"therapy\"[All Fields] OR \"treatment\"[All Fields] OR \"treatment s\"[All Fields]) OR (\"adverse\"[All Fields] OR \"adversely\"[All Fields] OR \"adverses\"[All Fields]) OR (\"negative\"[All Fields] OR \"negatively\"[All Fields] OR \"negatives\"[All Fields] OR \"negativities\"[All Fields] OR \"negativity\"[All Fields]) OR (\"quality of life\"[MeSH Terms] OR (\"quality\"[All Fields] AND \"life\"[All Fields]) OR \"quality of life\"[All Fields])) AND 2026/10/16:2026/10/18[Date - Entry]",
+        "warnings": null,
+        "errors": null
+      }
+    ],
+    "id_occurrences": 12,
+    "unique_records": 6,
+    "date_type_correction_screen": [
+      {
+        "pmid": "39947542",
+        "title": "The neuroprotective and behavioral improvement effects of glial fibrillary acidic protein (GFAP) molecules on tic disorder: Regulation of the 5-HT system by yohimbine.",
+        "journal_pubdate": {
+          "Year": "2025",
+          "Month": "Apr"
+        },
+        "article_dates": [
+          {
+            "type": "Electronic",
+            "Year": "2025",
+            "Month": "02",
+            "Day": "11"
+          }
+        ],
+        "history": {
+          "received": {
+            "Year": "2024",
+            "Month": "12",
+            "Day": "18"
+          },
+          "revised": {
+            "Year": "2025",
+            "Month": "2",
+            "Day": "5"
+          },
+          "accepted": {
+            "Year": "2025",
+            "Month": "2",
+            "Day": "10"
+          },
+          "medline": {
+            "Year": "2025",
+            "Month": "3",
+            "Day": "18",
+            "Hour": "6",
+            "Minute": "22"
+          },
+          "pubmed": {
+            "Year": "2025",
+            "Month": "2",
+            "Day": "14",
+            "Hour": "0",
+            "Minute": "24"
+          },
+          "entrez": {
+            "Year": "2025",
+            "Month": "2",
+            "Day": "13",
+            "Hour": "19",
+            "Minute": "33"
+          }
+        },
+        "types": [
+          "Journal Article",
+          "Retracted Publication"
+        ],
+        "identifiers": {
+          "pubmed": "39947542",
+          "doi": "10.1016/j.ijbiomac.2025.140956",
+          "pii": "S0141-8130(25)01505-3"
+        },
+        "DateCompleted": {
+          "Year": "2025",
+          "Month": "07",
+          "Day": "03"
+        },
+        "DateRevised": {
+          "Year": "2026",
+          "Month": "10",
+          "Day": "16"
+        },
+        "corrections": [
+          {
+            "type": "ErratumIn",
+            "source": "Int J Biol Macromol. 2026 Oct;379:153656. doi: 10.1016/j.ijbiomac.2026.153656.",
+            "pmid": "42527169"
+          },
+          {
+            "type": "RetractionIn",
+            "source": "Int J Biol Macromol. 2026 Oct;379:153656. doi: 10.1016/j.ijbiomac.2026.153656.",
+            "pmid": "42527169"
+          }
+        ],
+        "prior_scan_overlap": true,
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/39947542/",
+        "linked_notice_changed": false,
+        "screening_decision": "Already encountered historical preclinical paper. Explicitly retracted; exclude from positive mechanism/efficacy evidence. Linked notice unchanged. Publication February 2025, not a new October study."
+      },
+      {
+        "pmid": "40229987",
+        "title": "Conservative Management of Tourette Syndrome Tics Using Intraoral Occlusal Devices: Report of Two Cases.",
+        "journal_pubdate": {
+          "Year": "2025",
+          "Season": "Mar-Apr"
+        },
+        "article_dates": [],
+        "history": {
+          "revised": {
+            "Year": "2025",
+            "Month": "3",
+            "Day": "29"
+          },
+          "received": {
+            "Year": "2024",
+            "Month": "12",
+            "Day": "3"
+          },
+          "accepted": {
+            "Year": "2025",
+            "Month": "3",
+            "Day": "31"
+          },
+          "medline": {
+            "Year": "2025",
+            "Month": "4",
+            "Day": "15",
+            "Hour": "6",
+            "Minute": "25"
+          },
+          "pubmed": {
+            "Year": "2025",
+            "Month": "4",
+            "Day": "15",
+            "Hour": "6",
+            "Minute": "24"
+          },
+          "entrez": {
+            "Year": "2025",
+            "Month": "4",
+            "Day": "15",
+            "Hour": "1",
+            "Minute": "2"
+          },
+          "pmc-release": {
+            "Year": "2025",
+            "Month": "4",
+            "Day": "15"
+          }
+        },
+        "types": [
+          "Case Reports",
+          "Journal Article",
+          "Research Support, Non-U.S. Gov't"
+        ],
+        "identifiers": {
+          "pubmed": "40229987",
+          "pmc": "PMC11997298",
+          "doi": "10.1111/scd.70032"
+        },
+        "DateCompleted": {
+          "Year": "2025",
+          "Month": "04",
+          "Day": "15"
+        },
+        "DateRevised": {
+          "Year": "2026",
+          "Month": "10",
+          "Day": "16"
+        },
+        "corrections": [],
+        "prior_scan_overlap": true,
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/40229987/",
+        "linked_notice_changed": false,
+        "screening_decision": "Already screened 2025 occlusal-device case reports; metadata revision does not create new evidence. No individual case details reviewed or retained today."
+      },
+      {
+        "pmid": "42527169",
+        "title": "Retraction notice to \"the neuroprotective and behavioral improvement effects of glial fibrillary acidic protein (GFAP) molecules on tic disorder: Regulation of the 5-HT system by yohimbine\" [Int. J. Biol. Macromol. 304 (2025) 140956].",
+        "journal_pubdate": {
+          "Year": "2026",
+          "Month": "Oct"
+        },
+        "article_dates": [
+          {
+            "type": "Electronic",
+            "Year": "2026",
+            "Month": "07",
+            "Day": "29"
+          }
+        ],
+        "history": {
+          "pubmed": {
+            "Year": "2026",
+            "Month": "7",
+            "Day": "30",
+            "Hour": "0",
+            "Minute": "38"
+          },
+          "medline": {
+            "Year": "2026",
+            "Month": "7",
+            "Day": "30",
+            "Hour": "0",
+            "Minute": "38"
+          },
+          "entrez": {
+            "Year": "2026",
+            "Month": "7",
+            "Day": "29",
+            "Hour": "21",
+            "Minute": "57"
+          }
+        },
+        "types": [
+          "Published Erratum",
+          "Retraction Notice"
+        ],
+        "identifiers": {
+          "pubmed": "42527169",
+          "doi": "10.1016/j.ijbiomac.2026.153656",
+          "pii": "S0141-8130(26)03601-9"
+        },
+        "DateCompleted": null,
+        "DateRevised": {
+          "Year": "2026",
+          "Month": "10",
+          "Day": "16"
+        },
+        "corrections": [
+          {
+            "type": "ErratumFor",
+            "source": "Int J Biol Macromol. 2025 Apr;304(Pt 2):140956. doi: 10.1016/j.ijbiomac.2025.140956.",
+            "pmid": "39947542"
+          },
+          {
+            "type": "RetractionOf",
+            "source": "Int J Biol Macromol. 2025 Apr;304(Pt 2):140956. doi: 10.1016/j.ijbiomac.2025.140956.",
+            "pmid": "39947542"
+          }
+        ],
+        "prior_scan_overlap": true,
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/42527169/",
+        "linked_notice_changed": false,
+        "screening_decision": "Already encountered historical retraction notice; electronic July 29, 2026 with October issue assignment. Linked retraction/erratum fields unchanged. Not a new October retraction."
+      },
+      {
+        "pmid": "42808868",
+        "title": "Obsessive-Compulsive Disorder in Adulthood: Etiology, Diagnosis, and Treatment.",
+        "journal_pubdate": {
+          "Year": "2026",
+          "Month": "Oct",
+          "Day": "16"
+        },
+        "article_dates": [
+          {
+            "type": "Electronic",
+            "Year": "2026",
+            "Month": "10",
+            "Day": "16"
+          }
+        ],
+        "history": {
+          "medline": {
+            "Year": "2026",
+            "Month": "9",
+            "Day": "29",
+            "Hour": "12",
+            "Minute": "28"
+          },
+          "pubmed": {
+            "Year": "2026",
+            "Month": "9",
+            "Day": "29",
+            "Hour": "12",
+            "Minute": "28"
+          },
+          "entrez": {
+            "Year": "2026",
+            "Month": "9",
+            "Day": "29",
+            "Hour": "9",
+            "Minute": "52"
+          }
+        },
+        "types": [
+          "Journal Article",
+          "Review"
+        ],
+        "identifiers": {
+          "pubmed": "42808868",
+          "doi": "10.3238/arztebl.m2026.0156",
+          "pii": "arztebl.m2026.0156"
+        },
+        "DateCompleted": null,
+        "DateRevised": {
+          "Year": "2026",
+          "Month": "09",
+          "Day": "29"
+        },
+        "corrections": [],
+        "prior_scan_overlap": true,
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/42808868/",
+        "linked_notice_changed": false,
+        "screening_decision": "Already screened secondary adult OCD review; electronic/issue October 16 but database entry September 29. Excluded from primary evidence."
+      },
+      {
+        "pmid": "42867549",
+        "title": "Allergic load and symptom severity in children with tic disorders: a cross-sectional study.",
+        "journal_pubdate": {
+          "Year": "2026",
+          "Month": "Oct",
+          "Day": "13"
+        },
+        "article_dates": [
+          {
+            "type": "Electronic",
+            "Year": "2026",
+            "Month": "10",
+            "Day": "13"
+          }
+        ],
+        "history": {
+          "received": {
+            "Year": "2026",
+            "Month": "2",
+            "Day": "9"
+          },
+          "accepted": {
+            "Year": "2026",
+            "Month": "10",
+            "Day": "6"
+          },
+          "revised": {
+            "Year": "2026",
+            "Month": "10",
+            "Day": "5"
+          },
+          "medline": {
+            "Year": "2026",
+            "Month": "10",
+            "Day": "13",
+            "Hour": "23",
+            "Minute": "37"
+          },
+          "pubmed": {
+            "Year": "2026",
+            "Month": "10",
+            "Day": "13",
+            "Hour": "23",
+            "Minute": "36"
+          },
+          "entrez": {
+            "Year": "2026",
+            "Month": "10",
+            "Day": "13",
+            "Hour": "17",
+            "Minute": "11"
+          }
+        },
+        "types": [
+          "Journal Article"
+        ],
+        "identifiers": {
+          "pubmed": "42867549",
+          "doi": "10.1007/s00431-026-07510-4",
+          "pii": "10.1007/s00431-026-07510-4"
+        },
+        "DateCompleted": {
+          "Year": "2026",
+          "Month": "10",
+          "Day": "13"
+        },
+        "DateRevised": {
+          "Year": "2026",
+          "Month": "10",
+          "Day": "16"
+        },
+        "corrections": [],
+        "prior_scan_overlap": true,
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/42867549/",
+        "linked_notice_changed": false,
+        "screening_decision": "Duplicate pediatric cross-sectional allergy study already in main evidence ledger; first publication October 13. Revision October 16 is not a new study or adult applicability."
+      },
+      {
+        "pmid": "42888480",
+        "title": "Abdominal Tics in Children and Adolescents: A Phenomenology-First Diagnostic Framework and Differential Diagnosis.",
+        "journal_pubdate": {
+          "Year": "2026",
+          "Month": "Oct",
+          "Day": "16"
+        },
+        "article_dates": [
+          {
+            "type": "Electronic",
+            "Year": "2026",
+            "Month": "10",
+            "Day": "16"
+          }
+        ],
+        "history": {
+          "medline": {
+            "Year": "2026",
+            "Month": "10",
+            "Day": "17",
+            "Hour": "5",
+            "Minute": "33"
+          },
+          "pubmed": {
+            "Year": "2026",
+            "Month": "10",
+            "Day": "17",
+            "Hour": "5",
+            "Minute": "33"
+          },
+          "revised": {
+            "Year": "2026",
+            "Month": "8",
+            "Day": "16"
+          },
+          "received": {
+            "Year": "2026",
+            "Month": "5",
+            "Day": "25"
+          },
+          "accepted": {
+            "Year": "2026",
+            "Month": "10",
+            "Day": "13"
+          },
+          "entrez": {
+            "Year": "2026",
+            "Month": "10",
+            "Day": "17",
+            "Hour": "0",
+            "Minute": "14"
+          }
+        },
+        "types": [
+          "Journal Article",
+          "Review"
+        ],
+        "identifiers": {
+          "pubmed": "42888480",
+          "doi": "10.1111/jpc.70627"
+        },
+        "DateCompleted": null,
+        "DateRevised": {
+          "Year": "2026",
+          "Month": "10",
+          "Day": "17"
+        },
+        "corrections": [],
+        "prior_scan_overlap": false,
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/42888480/",
+        "linked_notice_changed": false,
+        "screening_decision": "Newly encountered pediatric narrative review, electronic October 16 and PubMed entry October 17. Abstract assessed as secondary synthesis; exclude from primary-study evidence and do not treat proposed diagnostic framework as validated clinical accuracy."
+      }
+    ],
+    "new_to_prior_scan_ids": [
+      "42888480"
+    ],
+    "previous_overlap_count": 5
+  },
+  "preprints": [
+    {
+      "server": "medrxiv",
+      "interval": [
+        "2026-10-16",
+        "2026-10-18"
+      ],
+      "pages": [
+        {
+          "cursor": 0,
+          "returned": 30,
+          "message": {
+            "status": "ok",
+            "category": "all",
+            "interval": "2026-10-16:2026-10-18",
+            "cursor": 0,
+            "count": 30,
+            "count_new_papers": "42",
+            "total": "68"
+          }
+        },
+        {
+          "cursor": 30,
+          "returned": 30,
+          "message": {
+            "status": "ok",
+            "category": "all",
+            "interval": "2026-10-16:2026-10-18",
+            "cursor": "30",
+            "count": 30,
+            "count_new_papers": "42",
+            "total": "68"
+          }
+        },
+        {
+          "cursor": 60,
+          "returned": 8,
+          "message": {
+            "status": "ok",
+            "category": "all",
+            "interval": "2026-10-16:2026-10-18",
+            "cursor": "60",
+            "count": 8,
+            "count_new_papers": "42",
+            "total": "68"
+          }
+        }
+      ],
+      "version_index": [
+        {
+          "doi": "10.64898/2026.10.14.26365506",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.09.25.26364003",
+          "version": "2",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.14.26365571",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.08.26365041",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.05.15.26352859",
+          "version": "2",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.03.03.26346563",
+          "version": "2",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.08.17.26360592",
+          "version": "2",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.02.26.26347222",
+          "version": "2",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.09.26365121",
+          "version": "2",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.13.26365373",
+          "version": "2",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.1101/2025.11.04.25339533",
+          "version": "4",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.14.26365587",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.05.28.26353935",
+          "version": "2",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.14.26365559",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.15.26365601",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.1101/2025.10.28.25338971",
+          "version": "2",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.14.26365480",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.14.26365564",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.15.26365586",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.14.26365569",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.15.26365290",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.15.26365610",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.03.17.26348660",
+          "version": "2",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.15.26365608",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.14.26365504",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.15.26365617",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.15.26365615",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.15.26365462",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.15.26365598",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.14.26365577",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.15.26365428",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.14.26365576",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.15.26365629",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.14.26357330",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.14.26365588",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.15.26365645",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.15.26365620",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.14.26365595",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.14.26365580",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.15.26365599",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.14.26365593",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.14.26365553",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.14.26365590",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.14.26365555",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.15.26365614",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.02.25.26346992",
+          "version": "2",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.05.26364655",
+          "version": "2",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.14.26365371",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.15.26365621",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.14.26365591",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.01.09.26343779",
+          "version": "3",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.13.26365321",
+          "version": "2",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.14.26365508",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.02.06.26345217",
+          "version": "2",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.15.26365628",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.14.26365597",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.09.23.26363766",
+          "version": "2",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.15.26365624",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.15.26364476",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.14.26365548",
+          "version": "2",
+          "date": "2026-10-17"
+        },
+        {
+          "doi": "10.64898/2026.08.18.26360719",
+          "version": "2",
+          "date": "2026-10-17"
+        },
+        {
+          "doi": "10.64898/2026.04.13.26349911",
+          "version": "2",
+          "date": "2026-10-17"
+        },
+        {
+          "doi": "10.64898/2026.10.14.26365587",
+          "version": "2",
+          "date": "2026-10-17"
+        },
+        {
+          "doi": "10.64898/2026.08.27.26361471",
+          "version": "2",
+          "date": "2026-10-17"
+        },
+        {
+          "doi": "10.1101/2024.11.20.24317557",
+          "version": "3",
+          "date": "2026-10-17"
+        },
+        {
+          "doi": "10.1101/2025.05.26.25328346",
+          "version": "2",
+          "date": "2026-10-17"
+        },
+        {
+          "doi": "10.64898/2026.10.07.26365015",
+          "version": "2",
+          "date": "2026-10-17"
+        },
+        {
+          "doi": "10.64898/2026.07.11.26357794",
+          "version": "2",
+          "date": "2026-10-17"
+        }
+      ],
+      "matches": [],
+      "screen_regex": "\\btourett\\w*|\\btics?\\b",
+      "screen_fields": "title and abstract",
+      "pagination_complete_for_observed_response": true,
+      "total_returned": 68,
+      "unique_doi_versions": 68,
+      "previous_scan_overlap_doi_versions": 59,
+      "not_in_previous_scan_doi_versions": 9,
+      "reported_totals": [
+        68
+      ]
+    },
+    {
+      "server": "biorxiv",
+      "interval": [
+        "2026-10-16",
+        "2026-10-18"
+      ],
+      "pages": [
+        {
+          "cursor": 0,
+          "returned": 30,
+          "message": {
+            "status": "ok",
+            "category": "all",
+            "interval": "2026-10-16:2026-10-18",
+            "cursor": 0,
+            "count": 30,
+            "count_new_papers": "343",
+            "total": "473"
+          }
+        },
+        {
+          "cursor": 30,
+          "returned": 30,
+          "message": {
+            "status": "ok",
+            "category": "all",
+            "interval": "2026-10-16:2026-10-18",
+            "cursor": "30",
+            "count": 30,
+            "count_new_papers": "343",
+            "total": "473"
+          }
+        },
+        {
+          "cursor": 60,
+          "returned": 30,
+          "message": {
+            "status": "ok",
+            "category": "all",
+            "interval": "2026-10-16:2026-10-18",
+            "cursor": "60",
+            "count": 30,
+            "count_new_papers": "343",
+            "total": "473"
+          }
+        },
+        {
+          "cursor": 90,
+          "returned": 30,
+          "message": {
+            "status": "ok",
+            "category": "all",
+            "interval": "2026-10-16:2026-10-18",
+            "cursor": "90",
+            "count": 30,
+            "count_new_papers": "343",
+            "total": "473"
+          }
+        },
+        {
+          "cursor": 120,
+          "returned": 30,
+          "message": {
+            "status": "ok",
+            "category": "all",
+            "interval": "2026-10-16:2026-10-18",
+            "cursor": "120",
+            "count": 30,
+            "count_new_papers": "343",
+            "total": "473"
+          }
+        },
+        {
+          "cursor": 150,
+          "returned": 30,
+          "message": {
+            "status": "ok",
+            "category": "all",
+            "interval": "2026-10-16:2026-10-18",
+            "cursor": "150",
+            "count": 30,
+            "count_new_papers": "343",
+            "total": "473"
+          }
+        },
+        {
+          "cursor": 180,
+          "returned": 30,
+          "message": {
+            "status": "ok",
+            "category": "all",
+            "interval": "2026-10-16:2026-10-18",
+            "cursor": "180",
+            "count": 30,
+            "count_new_papers": "343",
+            "total": "473"
+          }
+        },
+        {
+          "cursor": 210,
+          "returned": 30,
+          "message": {
+            "status": "ok",
+            "category": "all",
+            "interval": "2026-10-16:2026-10-18",
+            "cursor": "210",
+            "count": 30,
+            "count_new_papers": "343",
+            "total": "473"
+          }
+        },
+        {
+          "cursor": 240,
+          "returned": 30,
+          "message": {
+            "status": "ok",
+            "category": "all",
+            "interval": "2026-10-16:2026-10-18",
+            "cursor": "240",
+            "count": 30,
+            "count_new_papers": "343",
+            "total": "473"
+          }
+        },
+        {
+          "cursor": 270,
+          "returned": 30,
+          "message": {
+            "status": "ok",
+            "category": "all",
+            "interval": "2026-10-16:2026-10-18",
+            "cursor": "270",
+            "count": 30,
+            "count_new_papers": "343",
+            "total": "473"
+          }
+        },
+        {
+          "cursor": 300,
+          "returned": 30,
+          "message": {
+            "status": "ok",
+            "category": "all",
+            "interval": "2026-10-16:2026-10-18",
+            "cursor": "300",
+            "count": 30,
+            "count_new_papers": "343",
+            "total": "473"
+          }
+        },
+        {
+          "cursor": 330,
+          "returned": 30,
+          "message": {
+            "status": "ok",
+            "category": "all",
+            "interval": "2026-10-16:2026-10-18",
+            "cursor": "330",
+            "count": 30,
+            "count_new_papers": "343",
+            "total": "473"
+          }
+        },
+        {
+          "cursor": 360,
+          "returned": 30,
+          "message": {
+            "status": "ok",
+            "category": "all",
+            "interval": "2026-10-16:2026-10-18",
+            "cursor": "360",
+            "count": 30,
+            "count_new_papers": "343",
+            "total": "473"
+          }
+        },
+        {
+          "cursor": 390,
+          "returned": 30,
+          "message": {
+            "status": "ok",
+            "category": "all",
+            "interval": "2026-10-16:2026-10-18",
+            "cursor": "390",
+            "count": 30,
+            "count_new_papers": "343",
+            "total": "473"
+          }
+        },
+        {
+          "cursor": 420,
+          "returned": 30,
+          "message": {
+            "status": "ok",
+            "category": "all",
+            "interval": "2026-10-16:2026-10-18",
+            "cursor": "420",
+            "count": 30,
+            "count_new_papers": "343",
+            "total": "473"
+          }
+        },
+        {
+          "cursor": 450,
+          "returned": 23,
+          "message": {
+            "status": "ok",
+            "category": "all",
+            "interval": "2026-10-16:2026-10-18",
+            "cursor": "450",
+            "count": 23,
+            "count_new_papers": "343",
+            "total": "473"
+          }
+        }
+      ],
+      "version_index": [
+        {
+          "doi": "10.64898/2026.10.14.759109",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.14.759088",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.14.756911",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.12.758566",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.14.759099",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.04.21.719900",
+          "version": "3",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.03.09.710645",
+          "version": "2",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.13.758917",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.14.759150",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.12.758658",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2025.12.10.693611",
+          "version": "5",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.09.29.755342",
+          "version": "3",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.08.757704",
+          "version": "2",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.04.14.718383",
+          "version": "2",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.02.24.707876",
+          "version": "2",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.14.759175",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.13.758987",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.1101/2025.10.21.682321",
+          "version": "2",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.14.759048",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.1101/2025.03.17.643651",
+          "version": "5",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.08.03.742544",
+          "version": "2",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.1101/2024.10.31.621195",
+          "version": "4",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.14.759250",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.09.758034",
+          "version": "2",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.13.759006",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.14.759179",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.05.19.726178",
+          "version": "3",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.14.759104",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.14.759061",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.14.755992",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.13.758108",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.07.26.740780",
+          "version": "2",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.13.758311",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.13.758757",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.14.759163",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.06.13.732073",
+          "version": "2",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.15.759101",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.02.27.708407",
+          "version": "2",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.14.758420",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.14.758573",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.14.759016",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.13.758973",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.13.758590",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.14.759242",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.14.759208",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.06.757155",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.07.02.734913",
+          "version": "2",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.14.759167",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.14.758935",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.14.759119",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.13.758910",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.1101/2025.10.12.681901",
+          "version": "2",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.14.751571",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.07.01.735772",
+          "version": "4",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.07.02.736151",
+          "version": "2",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.07.757191",
+          "version": "2",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.09.758082",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.14.759083",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.14.759217",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.12.758508",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.14.759089",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.14.759285",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.14.759068",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.14.759216",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.08.757578",
+          "version": "2",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.13.758943",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.08.28.747763",
+          "version": "2",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.13.758203",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.14.758948",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.14.759128",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.04.19.719460",
+          "version": "3",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.14.758827",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.14.758549",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.13.758793",
+          "version": "2",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.1101/2025.11.20.689478",
+          "version": "3",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.14.759113",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.13.759003",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.14.759141",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.14.759080",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.14.759078",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.14.759190",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.14.759173",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.14.759079",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.14.759138",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.15.759210",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.14.759066",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.04.14.718167",
+          "version": "5",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.14.759070",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.14.759177",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.13.758872",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.15.757261",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.01.27.701613",
+          "version": "4",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.14.759254",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.14.759265",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.02.756275",
+          "version": "2",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.01.07.697984",
+          "version": "2",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.13.758778",
+          "version": "2",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.1101/2025.12.01.691628",
+          "version": "2",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.14.758331",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.14.759022",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2025.12.15.694470",
+          "version": "2",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.13.758988",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.14.759201",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.14.759162",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.1101/2025.10.08.681167",
+          "version": "3",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.14.759239",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.09.14.751540",
+          "version": "2",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.14.759041",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.06.28.735057",
+          "version": "2",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.15.759441",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.13.759000",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.14.759182",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.14.759155",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.14.759094",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.14.758970",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.15.759330",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.15.759341",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.14.759152",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.15.759203",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.15.757554",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.08.12.744241",
+          "version": "3",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.09.758091",
+          "version": "2",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.14.759140",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.15.759364",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.15.759444",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.15.759340",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.01.18.700179",
+          "version": "2",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.06.05.730320",
+          "version": "2",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.15.759360",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.15.759350",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.15.759403",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.09.01.748758",
+          "version": "2",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.09.757910",
+          "version": "2",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.15.759184",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.15.759172",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.15.759134",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.15.759051",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.15.759342",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.08.18.745337",
+          "version": "2",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.15.759296",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.1101/2020.08.13.250431",
+          "version": "3",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.15.759339",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.15.759306",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.15.759473",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.15.759098",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.15.759270",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.15.759472",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.06.12.731930",
+          "version": "3",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.15.759496",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.15.759451",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.15.759412",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.1101/2025.04.25.650736",
+          "version": "3",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.05.756905",
+          "version": "2",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.16.759531",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.15.759343",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.15.759215",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.15.759354",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.1101/2025.09.12.675815",
+          "version": "2",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.07.21.739551",
+          "version": "2",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.15.759465",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.04.15.718614",
+          "version": "2",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.08.26.747194",
+          "version": "2",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.15.759493",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.16.759525",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.15.759028",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.15.759365",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.03.13.711615",
+          "version": "3",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.06.22.733814",
+          "version": "2",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.09.19.752884",
+          "version": "2",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.15.758759",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.09.758069",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.15.759112",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.15.759314",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.15.759383",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.08.12.744421",
+          "version": "2",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.15.759327",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.15.759447",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.16.759529",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.09.01.748553",
+          "version": "2",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.09.13.751321",
+          "version": "2",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.15.759320",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.15.759488",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.1101/2025.11.18.688874",
+          "version": "2",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.15.759435",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.15.759417",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.14.759228",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.15.759497",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.05.05.722943",
+          "version": "3",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.15.759453",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.04.06.716638",
+          "version": "2",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.15.759504",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.15.759338",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.14.759042",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.15.758725",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.14.758777",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.14.759114",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.16.757273",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2025.12.19.695367",
+          "version": "3",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.15.759499",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.15.759337",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.02.756307",
+          "version": "2",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.15.759419",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.15.759378",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.1101/2025.11.05.686806",
+          "version": "2",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.15.759386",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.15.759353",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.07.757474",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.1101/2025.11.10.687565",
+          "version": "3",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.08.757641",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2025.12.09.693141",
+          "version": "2",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.1101/2025.04.22.650059",
+          "version": "5",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.13.758815",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.14.758626",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.09.757810",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.14.759247",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.15.759434",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.15.759489",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.15.759244",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.09.757970",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.15.757478",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.09.757598",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.14.759213",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.15.759235",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.1101/2025.08.07.669028",
+          "version": "2",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.12.758620",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.09.758136",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.09.757915",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.02.19.706812",
+          "version": "2",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.15.759471",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.16.759538",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.15.759446",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.15.759161",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.15.758668",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.15.759510",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.09.758067",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.08.757522",
+          "version": "2",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.04.30.722052",
+          "version": "4",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.14.759058",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.16.759526",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.1101/2025.11.27.690991",
+          "version": "2",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.15.759361",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.15.759436",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.04.01.715853",
+          "version": "3",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.15.759350",
+          "version": "2",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.15.759291",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.09.757976",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.08.757690",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.08.20.745963",
+          "version": "2",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.15.759464",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.16.759535",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.15.759418",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.13.758238",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.15.759390",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.14.759218",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.08.28.747905",
+          "version": "2",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.15.759101",
+          "version": "2",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.15.754060",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.15.759352",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.15.759485",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.14.759086",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.04.756607",
+          "version": "2",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.09.758135",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.06.10.731214",
+          "version": "12",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.07.30.740978",
+          "version": "2",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.07.08.737154",
+          "version": "4",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.06.08.729486",
+          "version": "2",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.15.759323",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.08.757546",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.09.757904",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.1101/2025.10.28.681564",
+          "version": "2",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.06.757013",
+          "version": "2",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.11.755143",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.09.757958",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.11.757655",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.09.757973",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.09.758070",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.09.757760",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.09.755459",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.09.757981",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.16.759637",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.10.758183",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.10.758063",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.10.756414",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.14.759186",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.15.759480",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.09.757581",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.09.757835",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.09.757962",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.09.757661",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.16.759581",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.15.759299",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.14.759130",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.13.759023",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.12.758491",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.15.759437",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.14.759116",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.13.758796",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.09.757975",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.09.758026",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.09.758003",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.09.757444",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.09.757967",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.09.757961",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.09.758110",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.14.759266",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.13.758892",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.11.757921",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.13.758869",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.09.758114",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.14.759227",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.13.758739",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.09.758097",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.14.755470",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.09.758107",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.15.759347",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.16.759533",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.12.758598",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.14.759238",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.12.758433",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.16.759618",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.12.758415",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.14.759280",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.15.759355",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.13.758810",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.12.758602",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.11.758278",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.12.757897",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.10.758215",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.14.759226",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.14.759087",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.12.757905",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.14.758906",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.15.759289",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.13.751067",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.11.757437",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.09.758096",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.09.05.748609",
+          "version": "2",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.12.758701",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.09.758138",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.09.757928",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.09.758128",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.09.758112",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.09.758098",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.09.758073",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.10.758199",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.15.759406",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.15.759476",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.15.759431",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.15.759409",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.15.759443",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.14.759229",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.10.758160",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.09.752918",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.14.759277",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.09.758132",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.12.758434",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.16.759554",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.14.759191",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.12.758501",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.13.758714",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.15.759374",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.12.758488",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.11.758337",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.10.758213",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.15.758618",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.09.758058",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.03.06.710001",
+          "version": "3",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.14.758945",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.10.758174",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.15.759385",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.1101/2025.02.13.638045",
+          "version": "3",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.15.759353",
+          "version": "2",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.09.758118",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.10.758177",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.09.757766",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.10.757213",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.15.759453",
+          "version": "2",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.13.758939",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.16.759371",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.15.759423",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.09.758105",
+          "version": "2",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.05.05.723028",
+          "version": "2",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.16.759609",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.15.759517",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.15.759329",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.09.757380",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.12.758693",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.08.25.747000",
+          "version": "2",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.13.757620",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.13.758955",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.15.759214",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.12.758086",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.15.759414",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.15.759367",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.15.759486",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.16.759317",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.12.758604",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.12.758671",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.09.757677",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.11.758284",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.10.758218",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.10.758200",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.10.758184",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.10.757703",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.10.758149",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.16.759555",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.10.758164",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.10.758180",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.15.759133",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.09.758094",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.15.758610",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.16.759032",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.15.759029",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.08.757403",
+          "version": "2",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.12.758611",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.13.758981",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.14.759074",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.15.759392",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.12.758579",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.12.758620",
+          "version": "2",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.11.758217",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.10.758244",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.11.758173",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.01.07.698021",
+          "version": "2",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.1101/2025.11.18.689044",
+          "version": "3",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.07.14.738598",
+          "version": "2",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.14.759221",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.05.25.726839",
+          "version": "2",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.03.03.709459",
+          "version": "2",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.15.759220",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.13.758950",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.09.15.751489",
+          "version": "2",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.11.758288",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.14.758842",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.1101/2025.05.04.652128",
+          "version": "4",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.08.10.743911",
+          "version": "5",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.11.758296",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.11.758307",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.1101/2025.11.21.689636",
+          "version": "2",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.13.758621",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.02.756347",
+          "version": "2",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.11.757523",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.06.15.732277",
+          "version": "2",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.16.759515",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.10.758227",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.08.07.741843",
+          "version": "2",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.12.758581",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.1101/2025.09.19.677455",
+          "version": "3",
+          "date": "2026-10-17"
+        },
+        {
+          "doi": "10.64898/2026.10.03.755016",
+          "version": "3",
+          "date": "2026-10-17"
+        },
+        {
+          "doi": "10.1101/2025.11.07.687317",
+          "version": "2",
+          "date": "2026-10-17"
+        },
+        {
+          "doi": "10.1101/2024.10.08.617260",
+          "version": "3",
+          "date": "2026-10-17"
+        },
+        {
+          "doi": "10.1101/2024.12.24.630189",
+          "version": "2",
+          "date": "2026-10-17"
+        },
+        {
+          "doi": "10.64898/2026.05.07.723540",
+          "version": "2",
+          "date": "2026-10-17"
+        },
+        {
+          "doi": "10.1101/2025.04.04.647096",
+          "version": "3",
+          "date": "2026-10-17"
+        },
+        {
+          "doi": "10.1101/2025.06.26.661824",
+          "version": "2",
+          "date": "2026-10-17"
+        },
+        {
+          "doi": "10.1101/2024.08.13.607801",
+          "version": "4",
+          "date": "2026-10-17"
+        },
+        {
+          "doi": "10.64898/2026.06.21.732435",
+          "version": "4",
+          "date": "2026-10-17"
+        },
+        {
+          "doi": "10.1101/2024.10.11.617966",
+          "version": "2",
+          "date": "2026-10-17"
+        },
+        {
+          "doi": "10.64898/2026.10.10.758202",
+          "version": "2",
+          "date": "2026-10-17"
+        },
+        {
+          "doi": "10.64898/2026.03.04.709657",
+          "version": "3",
+          "date": "2026-10-17"
+        },
+        {
+          "doi": "10.64898/2025.12.12.693809",
+          "version": "3",
+          "date": "2026-10-17"
+        },
+        {
+          "doi": "10.64898/2026.09.10.750538",
+          "version": "2",
+          "date": "2026-10-17"
+        },
+        {
+          "doi": "10.1101/2025.04.05.647358",
+          "version": "6",
+          "date": "2026-10-17"
+        },
+        {
+          "doi": "10.1101/2025.10.23.684134",
+          "version": "2",
+          "date": "2026-10-17"
+        },
+        {
+          "doi": "10.64898/2026.10.10.758149",
+          "version": "2",
+          "date": "2026-10-17"
+        },
+        {
+          "doi": "10.1101/2025.10.06.675352",
+          "version": "2",
+          "date": "2026-10-17"
+        },
+        {
+          "doi": "10.64898/2026.05.07.721661",
+          "version": "2",
+          "date": "2026-10-17"
+        },
+        {
+          "doi": "10.64898/2026.08.17.745279",
+          "version": "5",
+          "date": "2026-10-17"
+        },
+        {
+          "doi": "10.64898/2026.05.05.722983",
+          "version": "3",
+          "date": "2026-10-17"
+        },
+        {
+          "doi": "10.1101/2025.10.07.680851",
+          "version": "2",
+          "date": "2026-10-17"
+        },
+        {
+          "doi": "10.64898/2026.10.16.759535",
+          "version": "2",
+          "date": "2026-10-17"
+        },
+        {
+          "doi": "10.64898/2026.10.11.758320",
+          "version": "2",
+          "date": "2026-10-17"
+        },
+        {
+          "doi": "10.64898/2026.10.16.759694",
+          "version": "1",
+          "date": "2026-10-17"
+        }
+      ],
+      "matches": [],
+      "screen_regex": "\\btourett\\w*|\\btics?\\b",
+      "screen_fields": "title and abstract",
+      "pagination_complete_for_observed_response": true,
+      "total_returned": 473,
+      "unique_doi_versions": 473,
+      "previous_scan_overlap_doi_versions": 344,
+      "not_in_previous_scan_doi_versions": 129,
+      "reported_totals": [
+        473
+      ]
+    }
+  ],
+  "registry": [
+    {
+      "label": "ct_tourette",
+      "params": {
+        "query.cond": "Tourette",
+        "filter.advanced": "AREA[LastUpdatePostDate]RANGE[2026-10-16,2026-10-18]",
+        "pageSize": 100,
+        "format": "json",
+        "countTotal": "true"
+      },
+      "response": {
+        "totalCount": 2,
+        "nct_ids": [
+          "NCT05158439",
+          "NCT02119611"
+        ],
+        "nextPageToken": null
+      }
+    },
+    {
+      "label": "ct_tic_disorder",
+      "params": {
+        "query.cond": "tic disorder",
+        "filter.advanced": "AREA[LastUpdatePostDate]RANGE[2026-10-16,2026-10-18]",
+        "pageSize": 100,
+        "format": "json",
+        "countTotal": "true"
+      },
+      "response": {
+        "totalCount": 3,
+        "nct_ids": [
+          "NCT07137442",
+          "NCT05158439",
+          "NCT02119611"
+        ],
+        "nextPageToken": null
+      }
+    },
+    {
+      "label": "ct_tics",
+      "params": {
+        "query.cond": "Tics",
+        "filter.advanced": "AREA[LastUpdatePostDate]RANGE[2026-10-16,2026-10-18]",
+        "pageSize": 100,
+        "format": "json",
+        "countTotal": "true"
+      },
+      "response": {
+        "totalCount": 3,
+        "nct_ids": [
+          "NCT07137442",
+          "NCT05158439",
+          "NCT02119611"
+        ],
+        "nextPageToken": null
+      }
+    },
+    {
+      "label": "ct_ecopipam",
+      "params": {
+        "query.term": "ecopipam",
+        "filter.advanced": "AREA[LastUpdatePostDate]RANGE[2026-10-16,2026-10-18]",
+        "pageSize": 100,
+        "format": "json",
+        "countTotal": "true"
+      },
+      "response": {
+        "totalCount": 0,
+        "nct_ids": [],
+        "nextPageToken": null
+      }
+    }
+  ],
+  "registry_records": [
+    {
+      "nctId": "NCT02119611",
+      "title": "Deep Brain Stimulation Therapy in Movement Disorders",
+      "status": {
+        "statusVerifiedDate": "2026-09-25",
+        "overallStatus": "RECRUITING",
+        "expandedAccessInfo": {
+          "hasExpandedAccess": false
+        },
+        "startDateStruct": {
+          "date": "2014-04-02",
+          "type": "ACTUAL"
+        },
+        "primaryCompletionDateStruct": {
+          "date": "2030-12-01",
+          "type": "ESTIMATED"
+        },
+        "completionDateStruct": {
+          "date": "2030-12-01",
+          "type": "ESTIMATED"
+        },
+        "studyFirstSubmitDate": "2014-04-16",
+        "studyFirstSubmitQcDate": "2014-04-17",
+        "studyFirstPostDateStruct": {
+          "date": "2014-04-21",
+          "type": "ESTIMATED"
+        },
+        "lastUpdateSubmitDate": "2026-10-15",
+        "lastUpdatePostDateStruct": {
+          "date": "2026-10-16",
+          "type": "ACTUAL"
+        }
+      },
+      "hasResults": false,
+      "conditions": [
+        "Parkinson's Disease"
+      ],
+      "design": {
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "designInfo": {
+          "allocation": "NON_RANDOMIZED",
+          "interventionModel": "SINGLE_GROUP",
+          "primaryPurpose": "TREATMENT",
+          "maskingInfo": {
+            "masking": "NONE"
+          }
+        },
+        "enrollmentInfo": {
+          "count": 300,
+          "type": "ESTIMATED"
+        }
+      },
+      "outcome_summary": "Current indication fields are not a verified Tourette cohort; excluded as in prior scan.",
+      "eligibility": {
+        "healthyVolunteers": false,
+        "sex": "ALL",
+        "minimumAge": "18 Years",
+        "maximumAge": "100 Years",
+        "stdAges": [
+          "ADULT",
+          "OLDER_ADULT"
+        ]
+      },
+      "source_url": "https://clinicaltrials.gov/study/NCT02119611",
+      "prior_scan_overlap": true
+    },
+    {
+      "nctId": "NCT05158439",
+      "title": "Safety of Cultured Allogeneic Adult Umbilical Cord or Placental Derived Mesenchymal Stem Cells for Tourette Syndrome",
+      "status": {
+        "statusVerifiedDate": "2026-10",
+        "overallStatus": "WITHDRAWN",
+        "whyStopped": "Inability to recruit participants",
+        "expandedAccessInfo": {
+          "hasExpandedAccess": false
+        },
+        "startDateStruct": {
+          "date": "2022-01",
+          "type": "ESTIMATED"
+        },
+        "primaryCompletionDateStruct": {
+          "date": "2026-01",
+          "type": "ESTIMATED"
+        },
+        "completionDateStruct": {
+          "date": "2026-01",
+          "type": "ESTIMATED"
+        },
+        "studyFirstSubmitDate": "2021-12-02",
+        "studyFirstSubmitQcDate": "2021-12-02",
+        "studyFirstPostDateStruct": {
+          "date": "2021-12-15",
+          "type": "ACTUAL"
+        },
+        "lastUpdateSubmitDate": "2026-10-13",
+        "lastUpdatePostDateStruct": {
+          "date": "2026-10-16",
+          "type": "ACTUAL"
+        }
+      },
+      "hasResults": false,
+      "conditions": [
+        "Tourette Syndrome"
+      ],
+      "design": {
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE1"
+        ],
+        "designInfo": {
+          "allocation": "NA",
+          "interventionModel": "SINGLE_GROUP",
+          "primaryPurpose": "TREATMENT",
+          "maskingInfo": {
+            "masking": "NONE"
+          }
+        },
+        "enrollmentInfo": {
+          "count": 0,
+          "type": "ACTUAL"
+        }
+      },
+      "outcome_summary": "Withdrawn protocol, actual enrollment zero, no results; feasibility/status evidence only.",
+      "eligibility": {
+        "healthyVolunteers": false,
+        "sex": "ALL",
+        "minimumAge": null,
+        "maximumAge": null,
+        "stdAges": [
+          "CHILD",
+          "ADULT",
+          "OLDER_ADULT"
+        ]
+      },
+      "source_url": "https://clinicaltrials.gov/study/NCT05158439",
+      "prior_scan_overlap": true
+    },
+    {
+      "nctId": "NCT07137442",
+      "title": "Distinguishing Tics and Functional Tics Using Clinical Neurophysiological Techniques",
+      "status": {
+        "statusVerifiedDate": "2026-09-16",
+        "overallStatus": "RECRUITING",
+        "expandedAccessInfo": {
+          "hasExpandedAccess": false
+        },
+        "startDateStruct": {
+          "date": "2026-10-21",
+          "type": "ESTIMATED"
+        },
+        "primaryCompletionDateStruct": {
+          "date": "2034-08-01",
+          "type": "ESTIMATED"
+        },
+        "completionDateStruct": {
+          "date": "2034-08-01",
+          "type": "ESTIMATED"
+        },
+        "studyFirstSubmitDate": "2025-08-19",
+        "studyFirstSubmitQcDate": "2025-08-21",
+        "studyFirstPostDateStruct": {
+          "date": "2025-08-22",
+          "type": "ACTUAL"
+        },
+        "lastUpdateSubmitDate": "2026-10-15",
+        "lastUpdatePostDateStruct": {
+          "date": "2026-10-16",
+          "type": "ACTUAL"
+        }
+      },
+      "hasResults": false,
+      "conditions": [
+        "Tics",
+        "Functional Tics"
+      ],
+      "design": {
+        "studyType": "OBSERVATIONAL",
+        "designInfo": {
+          "observationalModel": "COHORT",
+          "timePerspective": "PROSPECTIVE"
+        },
+        "enrollmentInfo": {
+          "count": 75,
+          "type": "ESTIMATED"
+        }
+      },
+      "outcome_summary": "Registered two-day EEG beta-power comparison before tic events; no treatment outcome.",
+      "eligibility": {
+        "healthyVolunteers": false,
+        "sex": "ALL",
+        "minimumAge": "18 Years",
+        "maximumAge": "80 Years",
+        "stdAges": [
+          "ADULT",
+          "OLDER_ADULT"
+        ]
+      },
+      "source_url": "https://clinicaltrials.gov/study/NCT07137442",
+      "prior_scan_overlap": true
+    }
+  ],
+  "completed_utc": "2026-10-18T02:40:12.806658+00:00"
+}

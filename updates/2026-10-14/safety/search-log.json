@@ -1,0 +1,248 @@
+{
+  "scan": "October 14 2026 tic treatment regulatory safety incremental check",
+  "incremental_since_utc": "2026-10-13T03:24:00Z",
+  "overlap_start_utc": "2026-10-12T00:00:00Z",
+  "scan_start_utc": "2026-10-14T02:44:53Z",
+  "sources": "Primary FDA, EMA, MHRA only. Non-regulator search hits discarded.",
+  "time_note": "Search completion times are approximate timestamps recorded immediately after the tool response. Exact direct-download start times and statuses are in source-source-retrievals.json. Raw source copies/tool dumps are not redistributed.",
+  "query_batches": [
+    {
+      "completed_utc": "2026-10-14T02:44:59Z",
+      "queries": [
+        "site.fda.gov/drugs/drug-safety-and-availability October 2026 aripiprazole risperidone pimozide haloperidol safety",
+        "site.ema.europa.eu October 2026 ecopipam aripiprazole guanfacine safety",
+        "site.gov.uk/drug-safety-update October 2026 tetrabenazine valbenazine Tourette"
+      ],
+      "result": "No candidate new notice; FDA indexes located."
+    },
+    {
+      "completed_utc": "2026-10-14T02:45:16Z",
+      "queries": [
+        "site.fda.gov \"Medical Device Safety\" \"2026\" \"Safety Communications\"",
+        "site.gov.uk \"Field Safety Notices for October 2026\""
+      ],
+      "result": "Canonical device/FSM indexes located after two initial wrong-path failures."
+    },
+    {
+      "completed_utc": "2026-10-14T02:46:01Z",
+      "queries": [
+        "site.fda.gov (ecopipam OR aripiprazole OR risperidone OR pimozide OR haloperidol OR clonidine OR guanfacine OR valbenazine OR deutetrabenazine OR tetrabenazine) after:2026-10-11 before:2026-10-15",
+        "site.ema.europa.eu (ecopipam OR aripiprazole OR risperidone OR pimozide OR haloperidol OR clonidine OR guanfacine OR valbenazine OR deutetrabenazine OR tetrabenazine) after:2026-10-11 before:2026-10-15",
+        "site.gov.uk (ecopipam OR aripiprazole OR risperidone OR pimozide OR haloperidol OR clonidine OR guanfacine OR valbenazine OR deutetrabenazine OR tetrabenazine) after:2026-10-11 before:2026-10-15"
+      ],
+      "result": "No additional candidate; search date/domain matching imperfect and old/nonregulator noise returned."
+    },
+    {
+      "completed_utc": "2026-10-14T02:46:25Z",
+      "queries": [
+        {
+          "q": "Neupulse \"safety\" October 2026",
+          "domains": [
+            "fda.gov",
+            "gov.uk",
+            "ema.europa.eu"
+          ]
+        },
+        {
+          "q": "\"deep brain stimulation\" \"recall\" October 2026",
+          "domains": [
+            "fda.gov",
+            "gov.uk"
+          ]
+        },
+        {
+          "q": "\"transcranial magnetic\" \"safety\" October 2026",
+          "domains": [
+            "fda.gov",
+            "gov.uk"
+          ]
+        }
+      ],
+      "result": "No new-window candidate; historical DBS recalls and rTMS clearance/MAUDE results excluded."
+    },
+    {
+      "completed_utc": "2026-10-14T02:47:44Z",
+      "queries": [
+        {
+          "q": "(ecopipam OR guanfacine OR clonidine) safety October 2026",
+          "domains": [
+            "fda.gov",
+            "ema.europa.eu",
+            "gov.uk"
+          ],
+          "recency": 3
+        },
+        {
+          "q": "(valbenazine OR deutetrabenazine OR tetrabenazine) safety October 2026",
+          "domains": [
+            "fda.gov",
+            "ema.europa.eu",
+            "gov.uk"
+          ],
+          "recency": 3
+        },
+        {
+          "q": "(aripiprazole OR risperidone OR pimozide OR haloperidol) safety October 2026",
+          "domains": [
+            "fda.gov",
+            "ema.europa.eu",
+            "gov.uk"
+          ],
+          "recency": 3
+        }
+      ],
+      "result": "No additional new-window candidate. FDA What's New and recalls indexes rechecked."
+    },
+    {
+      "completed_utc": "2026-10-14T02:49:08Z",
+      "queries": [
+        {
+          "q": "(\"median nerve stimulation\" OR Neupulse OR \"Tourette\") safety after:2026-10-11 before:2026-10-15",
+          "domains": [
+            "fda.gov",
+            "ema.europa.eu",
+            "gov.uk"
+          ]
+        },
+        {
+          "q": "(\"deep brain stimulation\" OR \"transcranial magnetic\") (alert OR safety OR recall) after:2026-10-11 before:2026-10-15",
+          "domains": [
+            "fda.gov",
+            "gov.uk"
+          ]
+        }
+      ],
+      "result": "FDA NeuroStar recall found, posted Oct9 and therefore prior-window; inspected separately. Other items historical or not notices."
+    }
+  ],
+  "opened_index_batches": [
+    {
+      "completed_utc": "2026-10-14T02:45:06Z",
+      "result": "FDA DSC Sep15 latest; EMA Oct13 Intuniv update discovered; MHRA indexes opened."
+    },
+    {
+      "completed_utc": "2026-10-14T02:45:23Z",
+      "result": "FDA device Jun3 latest; MHRA Oct FSN only Nova ketone strips; Intuniv document metadata verified."
+    },
+    {
+      "completed_utc": "2026-10-14T02:45:36Z",
+      "result": "Intuniv procedural and label PDFs read; web failed RMP and DOCX, later direct source downloads succeeded."
+    },
+    {
+      "completed_utc": "2026-10-14T02:45:40Z",
+      "result": "Sep3 2026 variation vs Dec11 2025 QT warning variation distinguished."
+    },
+    {
+      "completed_utc": "2026-10-14T02:47:00Z",
+      "result": "SmPC p16 full relevant paragraph inspected."
+    },
+    {
+      "completed_utc": "2026-10-14T02:47:57Z",
+      "result": "Web RMP retry 429; already successfully obtained via direct official URL. FDA recalls latest Oct9."
+    },
+    {
+      "completed_utc": "2026-10-14T02:49:22Z",
+      "result": "NeuroStar FDA recall dates, affected products, quantity, and cause confirmed."
+    }
+  ],
+  "direct_source_retrievals": [
+    {
+      "file": "intuniv_product_information.pdf",
+      "url": "https://www.ema.europa.eu/en/documents/product-information/intuniv-epar-product-information_en.pdf",
+      "retrieved_utc": "2026-10-14T02:46:42.930527+00:00",
+      "status": 200,
+      "bytes": 314522
+    },
+    {
+      "file": "intuniv_procedural_steps.pdf",
+      "url": "https://www.ema.europa.eu/en/documents/procedural-steps-after/intuniv-epar-procedural-steps-taken-scientific-information-after-authorisation_en.pdf",
+      "retrieved_utc": "2026-10-14T02:46:42.930990+00:00",
+      "status": 200,
+      "bytes": 199518
+    },
+    {
+      "file": "intuniv_rmp.pdf",
+      "url": "https://www.ema.europa.eu/en/documents/rmp/intuniv-epar-risk-management-plan_en.pdf",
+      "retrieved_utc": "2026-10-14T02:46:42.931417+00:00",
+      "status": 200,
+      "bytes": 600362
+    },
+    {
+      "file": "intuniv_tracked_changes.docx",
+      "url": "https://www.ema.europa.eu/en/documents/product-information-tracked-changes/intuniv-epar-product-information-tracked-changes_en.docx",
+      "retrieved_utc": "2026-10-14T02:46:42.931812+00:00",
+      "status": 200,
+      "bytes": 96921
+    },
+    {
+      "file": "ema_whats_new.html",
+      "url": "https://www.ema.europa.eu/en/news-events/whats-new",
+      "retrieved_utc": "2026-10-14T02:46:42.932341+00:00",
+      "status": 200,
+      "bytes": 333350
+    },
+    {
+      "file": "fda_drug_communications.html",
+      "url": "https://www.fda.gov/drugs/drug-safety-and-availability/drug-safety-communications",
+      "retrieved_utc": "2026-10-14T02:46:42.933097+00:00",
+      "status": 200,
+      "bytes": 58802
+    },
+    {
+      "file": "fda_device_communications.html",
+      "url": "https://www.fda.gov/medical-devices/medical-device-safety/safety-communications",
+      "retrieved_utc": "2026-10-14T02:46:48.165655+00:00",
+      "status": 200,
+      "bytes": 46668
+    },
+    {
+      "file": "mhra_dsu.html",
+      "url": "https://www.gov.uk/drug-safety-update",
+      "retrieved_utc": "2026-10-14T02:46:49.412198+00:00",
+      "status": 200,
+      "bytes": 158721
+    },
+    {
+      "file": "mhra_alerts.html",
+      "url": "https://www.gov.uk/drug-device-alerts",
+      "retrieved_utc": "2026-10-14T02:46:49.428347+00:00",
+      "status": 200,
+      "bytes": 162920
+    },
+    {
+      "file": "mhra_oct_fsn.html",
+      "url": "https://www.gov.uk/drug-device-alerts/field-safety-notices-for-october-2026",
+      "retrieved_utc": "2026-10-14T02:46:49.606273+00:00",
+      "status": 200,
+      "bytes": 61575
+    }
+  ],
+  "repo_dedup": {
+    "repository": "dotjade/project-neurofreedom",
+    "searched_utc": "2026-10-14T02:52:10Z",
+    "queries": [
+      "NeuroStar",
+      "Z-0142-2027",
+      "222521"
+    ],
+    "all_search_results": 0,
+    "direct_read_dates": [
+      "2026-10-09",
+      "2026-10-10",
+      "2026-10-11",
+      "2026-10-12",
+      "2026-10-13"
+    ],
+    "direct_read_safety_dates": [
+      "2026-10-12",
+      "2026-10-13"
+    ],
+    "identifier_matches": 0
+  },
+  "final_record_count": 2,
+  "classification_counts": {
+    "current_window_regulatory_document_update": 1,
+    "newly_discovered_older_recall": 1,
+    "new_urgent_watched_warning": 0
+  }
+}

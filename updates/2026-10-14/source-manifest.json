@@ -1,0 +1,36 @@
+{
+  "retrieved_utc_approx": "2026-10-14T02:44:26Z",
+  "repository": "dotjade/project-neurofreedom",
+  "files": [
+    {
+      "path": "README.md",
+      "sha": "55577edb11d5edcd18037a9f871570587ae99b13",
+      "url": "https://github.com/dotjade/project-neurofreedom/blob/main/README.md"
+    },
+    {
+      "path": "RESEARCH_PROTOCOL.md",
+      "sha": "3cb049d097d68d032650700cf68d1612cbef1ec7",
+      "url": "https://github.com/dotjade/project-neurofreedom/blob/main/RESEARCH_PROTOCOL.md"
+    },
+    {
+      "path": "STATUS.md",
+      "sha": "e04acdc33867e56795f9603bafe739012568b628",
+      "url": "https://github.com/dotjade/project-neurofreedom/blob/main/STATUS.md"
+    },
+    {
+      "path": "evidence.jsonl",
+      "sha": "22b7a6ad82cb4db8ae5358ce0c36da7e8c219f78",
+      "url": "https://github.com/dotjade/project-neurofreedom/blob/main/evidence.jsonl"
+    },
+    {
+      "path": "updates/2026-10-13-evidence-scan.md",
+      "sha": "4d2234cc7fac235350dcf0c74447a84919fedf87",
+      "url": "https://github.com/dotjade/project-neurofreedom/blob/main/updates/2026-10-13-evidence-scan.md"
+    },
+    {
+      "path": "updates/2026-10-13-search-log.json",
+      "sha": "b1ebcb81f451e0d55d75531de22f0eea1edfaddf",
+      "url": "https://github.com/dotjade/project-neurofreedom/blob/main/updates/2026-10-13-search-log.json"
+    }
+  ]
+}

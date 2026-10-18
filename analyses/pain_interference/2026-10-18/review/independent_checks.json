@@ -1,0 +1,103 @@
+{
+  "status": "passed",
+  "checks_passed": 18,
+  "checks": [
+    "Age groups sum to 181",
+    "Age 19+ groups sum to 140",
+    "Help categories sum to 181",
+    "Table-derived seekers equal 117",
+    "Table-derived seekers disagree with prose 118",
+    "64.6% matches table seekers at one decimal",
+    "64.6% does not match prose seekers at one decimal",
+    "Neither received-help denominator rounds to reported 60.1%",
+    "Table GP percentage is arithmetically coherent",
+    "Table physiotherapist percentage is arithmetically coherent",
+    "Thirteen printed interference domains",
+    "All printed means are within stated 1-5 scale",
+    "Social situations has highest printed tic mean",
+    "Mood has highest printed pain mean",
+    "All printed tic means exceed printed pain means",
+    "Diagnosis status rows total 180",
+    "Prescribed pain medication rows total 178",
+    "Low-resilience ATQ components conflict with total"
+  ],
+  "conditional_percentages": {
+    "aged_19_plus_of_all": "77.34806629834254143646408840",
+    "table_seekers_of_all": "64.64088397790055248618784530",
+    "prose_seekers_of_all": "65.19337016574585635359116022",
+    "received_help_over_table_seekers": "60.68376068376068376068376068",
+    "received_help_over_prose_seekers": "60.16949152542372881355932203",
+    "table_gp_over_table_seekers": "51.28205128205128205128205128",
+    "table_physio_over_table_seekers": "35.89743589743589743589743590"
+  },
+  "printed_mean_differences_tic_minus_pain": {
+    "General activity": "0.34",
+    "Mood": "0.26",
+    "Walking ability": "0.13",
+    "Typical daily work": "0.40",
+    "Self-esteem": "0.86",
+    "Family relationships": "0.57",
+    "Relationships with friends": "0.47",
+    "Relationship with partner": "0.46",
+    "Social situations": "1.12",
+    "School or education": "0.85",
+    "Work/employment": "0.51",
+    "Sleep": "0.22",
+    "General enjoyment of life": "0.05"
+  },
+  "independent_rational_rounding_envelopes": {
+    "General activity": [
+      "57/200",
+      "79/200"
+    ],
+    "Mood": [
+      "1/4",
+      "27/100"
+    ],
+    "Walking ability": [
+      "3/25",
+      "7/50"
+    ],
+    "Typical daily work": [
+      "39/100",
+      "41/100"
+    ],
+    "Self-esteem": [
+      "17/20",
+      "87/100"
+    ],
+    "Family relationships": [
+      "14/25",
+      "29/50"
+    ],
+    "Relationships with friends": [
+      "23/50",
+      "12/25"
+    ],
+    "Relationship with partner": [
+      "9/20",
+      "47/100"
+    ],
+    "Social situations": [
+      "111/100",
+      "113/100"
+    ],
+    "School or education": [
+      "21/25",
+      "43/50"
+    ],
+    "Work/employment": [
+      "1/2",
+      "13/25"
+    ],
+    "Sleep": [
+      "21/100",
+      "23/100"
+    ],
+    "General enjoyment of life": [
+      "1/25",
+      "3/50"
+    ]
+  },
+  "interpretation": "Reporting arithmetic only. Printed mean differences are not established paired contrasts because matched item denominators and covariance are unavailable. No corrected counts, adult-specific pain estimate or sampling intervals are inferred."
+}

@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "source": {
+    "id": "Malek2025",
+    "title": "Coping with pain among adults with chronic tic disorders",
+    "authors": [
+      "Agnieszka Małek"
+    ],
+    "doi": "10.3389/fpsyg.2025.1537088",
+    "pmid": "40808742",
+    "pmcid": "PMC12344498",
+    "journal": "Frontiers in Psychology",
+    "volume": 16,
+    "article": "1537088",
+    "publication_date": "2025-07-30",
+    "data_collection": "2023-07",
+    "received": "2024-11-29",
+    "accepted": "2025-07-15",
+    "pubmed_history": "2025-08-14 12:24 (timezone unspecified)",
+    "extraction_date": "2026-10-17",
+    "primary_url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2025.1537088/full",
+    "pdf_url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2025.1537088/pdf",
+    "supplement_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12344498/supplementaryFiles",
+    "license": "CC BY 4.0, verified publisher copyright and Crossref license metadata",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "historical_not_new_publication": true
+  },
+  "analysis_scope": "Deterministic published-aggregate denominator and displayed-mean consistency audit; no inference",
+  "counts": {
+    "all": 76,
+    "pain": 56,
+    "men_all": 38,
+    "women_all": 38,
+    "men_pain": 26,
+    "women_pain": 30,
+    "men_help_reported": 19,
+    "women_help_reported": 31,
+    "men_relief_reported": 4,
+    "women_relief_reported": 6
+  },
+  "percentages": {
+    "pain": "73.7",
+    "help": "86",
+    "relief": "18"
+  },
+  "vas": {
+    "men": {
+      "n": 26,
+      "present": "3.3",
+      "worst": "4.3",
+      "GTS_n": 19,
+      "CMTD_n": 7,
+      "GTS_present": "3.2",
+      "CMTD_present": "3.4",
+      "GTS_worst": "4.6",
+      "CMTD_worst": "3.6"
+    },
+    "women": {
+      "n": 30,
+      "present": "2.6",
+      "worst": "4.3",
+      "GTS_n": 20,
+      "CMTD_n": 10,
+      "GTS_present": "2.8",
+      "CMTD_present": "2.4",
+      "GTS_worst": "4.6",
+      "CMTD_worst": "4.2"
+    }
+  },
+  "vas_rounding_half_unit": "0.05",
+  "source_locations": {
+    "counts": "Sections3–4,9; Tables1–2",
+    "vas": "Table3; subgroup n from section4/Table2"
+  },
+  "rounding_assumption": "Conventional rounding to displayed precision, half-unit intervals inclusive for conservative compatibility checks. These are rounding ranges, not confidence intervals.",
+  "interpretation_limit": "Main denominator is inconsistent. All scenario percentages and combined means remain conditional arithmetic, not corrected study estimates."
+}

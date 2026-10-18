@@ -1,0 +1,85 @@
+{
+  "date_checked": "2026-10-18",
+  "repository": "dotjade/project-neurofreedom",
+  "baseline_read_order": "Existing day18_base README/protocol/status and GitHub October11 weekly read first; current October18 synthesis-worker snapshots subsequently cross-checked before final reporting. Protocol unchanged.",
+  "repository_snapshots": [
+    {
+      "repository_path": "README.md",
+      "local_snapshot_sha256": "176efd0f327cf0356094bd5f69f63cf840eac38dff51637297764c8d87dbb7c3"
+    },
+    {
+      "repository_path": "RESEARCH_PROTOCOL.md",
+      "local_snapshot_sha256": "2e0fde8aff5d5ff3178db61b9ea350e8467033002ee045eb63764f3c653478b0"
+    },
+    {
+      "repository_path": "STATUS.md",
+      "local_snapshot_sha256": "1eb1dbee13d88a1ed1d460f64fcdb8db43842bbd22ede7b8e8c2a52ceb712ed9"
+    },
+    {
+      "repository_path": "updates/2026-10-11-weekly-synthesis.md",
+      "local_snapshot_sha256": "babbf7ffefd72e178fc11e8e427e439a7c27b1f01fe47e168d03ad67f8864b70"
+    },
+    {
+      "repository_path": "analyses/online_tics/2026-10-14/report.md",
+      "local_snapshot_sha256": "c5707d38ab2de5fe80dc8ca41e78d1909d8e0e6f0c3ebd5311fdad6d466d5ba2"
+    },
+    {
+      "repository_path": "analyses/cbit_maintenance/2026-10-15/report.md",
+      "local_snapshot_sha256": "416a2ce4f2381d4d3b8a0ce07e4a5d05b229b5556f457563c96982efa6e5021c"
+    },
+    {
+      "repository_path": "analyses/cbit_functioning/2026-10-16/report.md",
+      "local_snapshot_sha256": "58d9d7d83fe744abbf0eb34dba38ce4b05d2a426b19bb8708f8def50d57c0748"
+    }
+  ],
+  "oct11_weekly_github_blob_sha": "f035a8bf6e938deb3aaecd5d1b88d37c2d8d3ef9",
+  "search_queries": [
+    "ONLINE TICS internet delivered behavioral therapy trial randomized 2022 adults 161 Wilhelm 2012 McGuire 2020 psychosocial functioning 122",
+    "Marras Andrews Sime Lang botulinum toxin motor tics randomized placebo controlled 2001 pain urge"
+  ],
+  "primary_source_checks": [
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7190082/",
+      "verified": "Original author manuscript readable; same-trial methods, recruitment, selected followup and Tables1-3 checked",
+      "limitation": "Not a full final-publisher version diff"
+    },
+    {
+      "url": "https://jamanetwork.com/journals/jamapsychiatry/fullarticle/1307556",
+      "verified": "Final paper readable; registration, Table2 primary/impairment and Table4 response selection checked"
+    },
+    {
+      "url": "https://juser.fz-juelich.de/record/905141/files/jcm-11-00250-v4.pdf",
+      "verified": "Institutional primary PDF readable; identity, Methods exposure, Tables3-4 and inferential gate checked",
+      "limitation": "No screenshot inspection; no full paper saved"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/psychiatry/articles/10.3389/fpsyt.2016.00119/pdf",
+      "verified": "Protocol PDF readable; conditional confirmatory noninferiority and booster provisions checked",
+      "limitation": "Abstract registration differs from body; body and original result report support NCT02605902"
+    }
+  ],
+  "access_limits": [
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8745756/",
+      "status": "Browser-check page; no challenge solved"
+    },
+    {
+      "url": "https://publications.rwth-aachen.de/record/889351/files/889351.pdf",
+      "status": "Web fetch timed out; used separate verified institutional copy"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/psychiatry/articles/10.3389/fpsyt.2016.00119/full",
+      "status": "Internal fetch error; official PDF route readable"
+    }
+  ],
+  "independence": "New weekly source/estimand audit uses prior daily extractions plus selected fresh primary-source checks. Unit tests mechanically validate rules; they do not independently validate all subjective coding.",
+  "no_claims": [
+    "No exhaustive correction/retraction search in this verification subtask",
+    "No new clinical result",
+    "No pooled effect",
+    "No participant records",
+    "No source paper copies",
+    "No GitHub writes"
+  ],
+  "random_seed": null
+}

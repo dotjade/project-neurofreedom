@@ -1,0 +1,146 @@
+{
+  "schema_version": 1,
+  "scan_date": "2026-10-17",
+  "started_at_utc_approximate": "2026-10-17T03:13:28Z",
+  "last_search_at_utc_approximate": "2026-10-17T03:16:12Z",
+  "prior_cutoff_utc_approximate": "2026-10-16T02:46:00Z",
+  "prior_cutoff_note": "Requested baseline cutoff is approximate. The October 16 report also records a later contextual-notice verification near 02:51 UTC; that MHRA event is already known.",
+  "publication_date_overlap": [
+    "2026-10-15",
+    "2026-10-17"
+  ],
+  "search_system": "web search, restricted in queries to official FDA/EMA/MHRA domains",
+  "unique_query_count": 16,
+  "query_submission_count": 20,
+  "method_notes": [
+    "The first four-query batch was repeated once to retain a complete result-URL inventory; it was not a second independent evidence source.",
+    "Combined query results do not expose query-to-card attribution. Card counts include duplicates, resource pages and historical hits, not unique events.",
+    "Date filters did not reliably exclude historical material. Publication, procedure, document-update, discovery and page-footer dates remain distinct.",
+    "No news/media reporting was used as primary safety evidence. Official regulator indexes and notices were checked directly.",
+    "The scoped negative finding means no additional qualifying notice was verified in retrieved sources, not proof that no safety event exists."
+  ],
+  "batches": [
+    {
+      "id": "search-batch1",
+      "queries": [
+        "site:fda.gov (Tourette OR guanfacine OR aripiprazole OR ecopipam OR risperidone OR pimozide) after:2026-10-14 before:2026-10-18",
+        "site:fda.gov (NeuroStar OR Neupulse OR \"deep brain stimulation\" OR \"median nerve\") after:2026-10-14 before:2026-10-18",
+        "site:ema.europa.eu (Intuniv OR Tourette OR aripiprazole OR guanfacine OR risperidone) after:2026-10-14 before:2026-10-18",
+        "site:gov.uk (Tourette OR ADHD OR OCD OR antidepressants OR guanfacine) after:2026-10-14 before:2026-10-18"
+      ],
+      "screening_summary": "Known October 13 Intuniv metadata and October 15 antidepressant materials; historical DBS notices, longstanding shortage information, approval/listing records and unrelated documents. No new qualifying notice verified.",
+      "result_urls": [
+        "https://www.ema.europa.eu/en/medicines/human/EPAR/intuniv",
+        "https://www.gov.uk/government/publications/antidepressants-use-and-safety--2/selective-serotonin-reuptake-inhibitors-ssris-and-serotonin-and-noradrenaline-reuptake-inhibitors-snris-use-and-safety",
+        "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfres/res.cfm?id=220729",
+        "https://catalogues.ema.europa.eu/node/3292/administrative-details",
+        "https://www.fda.gov/medical-devices/medical-device-recalls-and-early-alerts/abbott-medical-recalls-proclaim-and-infinity-ipgs-inability-exit-magnetic-resonance-imaging-mri-mode",
+        "https://www.gov.uk/government/publications/antidepressants-use-and-safety--2",
+        "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfHDE/hde.cfm?PAGENUM=10&advisorycommittee=&applicant=Medtronic+Neuromodulation&center=&combinationproducts=off&decisiondatefrom=&decisiondateto=&docketnumber=&expeditedreview=&hdenumber=&ivdproducts=off&noticedatefrom=&noticedateto=&productcode=MRU&sortcolumn=&start_search=41&supplementnumber=&supplementtype=&tradename=&znumber=",
+        "https://www.ema.europa.eu/en/medicines/human/shortages/risperidone",
+        "https://origin-cdrh-rst.fda.gov/electrophysiological-biomarkers-non-clinical-safety-evaluation-neuro-interventional-devices",
+        "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfhde/hde.cfm?id=554009",
+        "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfRes/res.cfm?ID=207089",
+        "https://www.accessdata.fda.gov/scrIpts/cdrh/cfdocs/cfRL/rl.cfm?lid=266368&lpcd=OLM",
+        "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2013/204516Orig1s000ClinPharmR.pdf",
+        "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2017/209241orig1s000medr.pdf",
+        "https://www.accessdata.fda.gov/cdrh_docs/pdf15/P150031S040C.pdf",
+        "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2018/210251Orig1s000MultidisciplineR.pdf",
+        "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2013/202971Orig1s000Lbl.pdf",
+        "https://www.ema.europa.eu/mt/documents/product-information/noxafil-epar-product-information_mt.pdf"
+      ],
+      "returned_cards_in_retained_result_set": 18
+    },
+    {
+      "id": "search-batch2",
+      "queries": [
+        "site:fda.gov (clonidine OR haloperidol OR valbenazine OR deutetrabenazine OR tetrabenazine) after:2026-10-14 before:2026-10-18",
+        "site:ema.europa.eu (clonidine OR haloperidol OR pimozide OR valbenazine OR deutetrabenazine OR ecopipam) after:2026-10-14 before:2026-10-18",
+        "site:gov.uk/drug-safety-update (October 2026) (methylphenidate OR atomoxetine OR lisdexamfetamine OR antidepressants OR antipsychotics)",
+        "site:gov.uk/drug-device-alerts (October 2026) (NeuroStar OR Tourette OR stimulation OR guanfacine)"
+      ],
+      "screening_summary": "Known October 15 MHRA communication; current/historical alert-index variants; older methylphenidate switching advice; historical or unrelated medicine documents. No new qualifying notice verified.",
+      "result_urls": [
+        "https://www.gov.uk/drug-safety-update/antidepressants-new-safety-measures-for-all-patients-to-improve-communication-of-the-risk-of-suicidal-thoughts-and-behaviours-and-persistent-sexual-dysfunction",
+        "https://www.gov.uk/drug-device-alerts?alert_type=field-safety-notices",
+        "https://www.gov.uk/drug-safety-update?therapeutic_area=general-practice",
+        "https://www.gov.uk/drug-device-alerts?alert_type%5B%5D=devices&alert_type%5B%5D=field-safety-notices",
+        "https://www.gov.uk/drug-device-alerts?%5B%5D=devices",
+        "https://www.gov.uk/drug-device-alerts?alert_type=medicines-recall-notification",
+        "https://www.gov.uk/drug-device-alerts?%5B%5D=devices&%5B%5D=field-safety-notices",
+        "https://www.gov.uk/drug-device-alerts?alert_type=national-patient-safety",
+        "https://www.gov.uk/government/organisations/medicines-and-healthcare-products-regulatory-agency",
+        "https://www.gov.uk/government/publications/antidepressants-use-and-safety--2/selective-serotonin-reuptake-inhibitors-ssris-and-serotonin-and-noradrenaline-reuptake-inhibitors-snris-use-and-safety",
+        "https://www.gov.uk/drug-safety-update/methylphenidate-long-acting-modified-release-preparations-caution-if-switching-between-products-due-to-differences-in-formulations?UNLID=525568852202610128571",
+        "https://www.gov.uk/drug-device-alerts?alert_type%5B%5D=medicines-recall-notification",
+        "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2017/209885Orig1s000ClinPharmR.pdf",
+        "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2017/209241orig1s000medr.pdf",
+        "https://www.ema.europa.eu/en/documents/product-information/viekirax-epar-product-information_en.pdf",
+        "https://www.ema.europa.eu/sv/documents/product-information/pritorplus-epar-product-information_sv.pdf"
+      ],
+      "returned_cards_in_retained_result_set": 16
+    },
+    {
+      "id": "search-batch3",
+      "queries": [
+        "site:fda.gov (ADHD OR OCD OR methylphenidate OR atomoxetine OR lisdexamfetamine OR fluvoxamine OR sertraline) after:2026-10-14 before:2026-10-18",
+        "site:ema.europa.eu (ADHD OR OCD OR methylphenidate OR atomoxetine OR lisdexamfetamine OR fluvoxamine OR sertraline) after:2026-10-14 before:2026-10-18",
+        "site:gov.uk (ecopipam OR aripiprazole OR risperidone OR pimozide OR haloperidol OR clonidine OR valbenazine OR deutetrabenazine OR tetrabenazine) after:2026-10-14 before:2026-10-18",
+        "(site:fda.gov OR site:ema.europa.eu OR site:gov.uk) (topiramate OR botulinum OR tiapride) (warning OR recall OR safety) after:2026-10-14 before:2026-10-18"
+      ],
+      "screening_summary": "Historic antidepressant and stimulant communications, earlier topiramate measures, unrelated approvals/assays and generic guidance. No new qualifying notice verified.",
+      "result_urls": [
+        "https://www.ema.europa.eu/da/medicines/human/referrals/serotonin-specific-reuptake-inhibitors-serotonin-noradrenaline-reuptake-inhibitors",
+        "https://www.fda.gov/drugs/drug-safety-communications/fda-updating-warnings-improve-safe-use-prescription-stimulants-used-treat-adhd-and-other-conditions",
+        "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2026/220860Orig1s000MultidisciplineR.pdf",
+        "https://www.fda.gov/consumers/articulos-para-el-consumidor-en-espanol/el-tratamiento-y-manejo-del-trastorno-por-deficit-de-atencion-e-hiperactividad",
+        "https://www.accessdata.fda.gov/cdrh_docs/pdf20/K202567.pdf",
+        "https://www.ema.europa.eu/en/documents/committee-report/committee-medicinal-products-human-use-chmp-december-2008-plenary-meeting-monthly-report_en.pdf",
+        "https://www.accessdata.fda.gov/cdrh_docs/pdf21/K210212.pdf",
+        "https://www.ema.europa.eu/et/news/meeting-highlights-committee-medicinal-products-human-use-chmp-9-12-december-2024",
+        "https://www.ema.europa.eu/fr/medicines/psusa/emea-h-n-psr-s-0033",
+        "https://www.ema.europa.eu/is/news/prac-recommends-new-measures-avoid-topiramate-exposure-pregnancy",
+        "https://www.ema.europa.eu/de/human-regulatory-overview/post-authorisation/pharmacovigilance-post-authorisation/medicines-under-additional-monitoring/list-medicines-under-additional-monitoring",
+        "https://www.ema.europa.eu/en/news/use-paracetamol-during-pregnancy-unchanged-eu",
+        "https://www.ema.europa.eu/en/human-regulatory-overview/advanced-therapy-medicinal-products-overview",
+        "https://www.accessdata.fda.gov/scripts/sda/sdDetailNavigation.cfm?id=178ABED376E846C5E053554DA8C0F052&rownum=277&sd=labelingdatabase",
+        "https://www.ema.europa.eu/cs/node/256797",
+        "https://www.ema.europa.eu/da/medicines/human/EPAR/qsiva",
+        "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2017/208780Orig1s000Lbl.pdf",
+        "https://www.ema.europa.eu/bg/media/61494"
+      ],
+      "returned_cards_in_retained_result_set": 18
+    },
+    {
+      "id": "search-batch4",
+      "queries": [
+        "site:fda.gov \"Drug Safety-related Labeling Changes\" database",
+        "site:fda.gov (Tourette OR NeuroStar OR guanfacine OR ecopipam OR aripiprazole OR clonidine OR risperidone OR pimozide) (\"October 16, 2026\" OR \"October 17, 2026\" OR \"10/16/2026\")",
+        "site:ema.europa.eu (Tourette OR ADHD OR OCD OR guanfacine OR aripiprazole OR risperidone) (\"16/10/2026\" OR \"17/10/2026\" OR \"16 October 2026\")",
+        "site:gov.uk (Tourette OR ADHD OR OCD OR antidepressant OR stimulation) (\"16 October 2026\" OR \"17 October 2026\")"
+      ],
+      "screening_summary": "Located current FDA SrLC overview and search page. Other results were older labeling resources, unrelated notices, or procedural timetables. No new qualifying watched notice verified.",
+      "result_urls": [
+        "https://www.fda.gov/drugs/drug-safety-and-availability/drug-safety-labeling-changes-slc-database",
+        "https://www.fda.gov/safety/medical-product-safety-information/drug-safety-related-labeling-changes",
+        "https://www.fda.gov/drugs/development-approval-process-drugs/drug-approvals-and-databases",
+        "https://www.fda.gov/media/165785/download",
+        "https://www.fda.gov/media/135228/download",
+        "https://www.fda.gov/about-fda/cder-offices-and-divisions/office-communications-cder-office-drug-information",
+        "https://www.fda.gov/drugs/laws-acts-and-rules/fdas-labeling-resources-human-prescription-drugs?trk=article-ssr-frontend-pulse_little-text-block",
+        "https://www.fda.gov/drugs/drug-safety-and-availability/postmarket-drug-safety-information-patients-and-providers",
+        "https://www.fda.gov/drugs/drug-safety-and-availability?trk=article-ssr-frontend-pulse_little-text-block",
+        "https://www.fda.gov/media/155795/download?attachment=",
+        "https://www.fda.gov/animal-veterinary/drug-labels/animal-drug-safety-related-labeling-changes",
+        "https://www.fda.gov/animal-veterinary/safety-health/frequently-asked-questions-about-animal-drugs",
+        "https://www.fda.gov/media/155795/download",
+        "https://www.fda.gov/media/170718/download",
+        "https://www.fda.gov/animal-veterinary/cvm-updates/fda-launches-resource-increase-awareness-animal-drug-safety-related-labeling-changes",
+        "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/safety-labeling-changes-implementation-section-505o4-federal-food-drug-and-cosmetic-act",
+        "https://www.fda.gov/drugs/drug-alerts-and-statements/fda-requests-labeling-changes-related-safety-information-clarify-benefitrisk-considerations",
+        "https://www.ema.europa.eu/en/documents/other/timetable-type-ii-variation-worksharing-application-monthly-assessment_en.pdf"
+      ],
+      "returned_cards_in_retained_result_set": 18
+    }
+  ]
+}

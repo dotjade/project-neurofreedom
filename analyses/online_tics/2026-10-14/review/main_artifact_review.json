@@ -1,0 +1,18 @@
+{
+  "main_worker_tests_rerun_passed": 33,
+  "independently_matched_source_contrasts": 9,
+  "all_adjusted_values_match_independent_implementation": true,
+  "main_inputs_sha256": "14d86cb054a2c59c0e97cb953b697e1ea7ce063e87e995b9b218e8d5d797b76f",
+  "main_script_sha256": "23bcc19575772c61326aad59f2803b104638e54b94fb99f766c44ca2bdb60781",
+  "files_written_in_main_worker_directory": false,
+  "findings": "All focal numbers and independently implemented adjustments agree. Narrative preserves gate, timing, missingness, continued-access exposure and VAS coding caveats. No blocking issue.",
+  "core_trial_narrative_and_extraction_review": "Complete; no substantive discrepancy found. Recommended nonsignificance wording and prose-spacing fixes verified.",
+  "main_report_sha256": "60b72c3f6528dae1a086f4fe822c458ab0b71d8f909c86a40a2b8a682f43a747",
+  "main_extraction_sha256": "fdcc22ed5c4f1d746172b1ffc392b18a3ca8cf735091b7a16a051e5095435cbe",
+  "scope_exclusions": [
+    "Full ClinicalTrials.gov historical version chain",
+    "Comprehensive correction/retraction clearance",
+    "Independent verification of proposed next Wilhelm2012 study lead",
+    "Original repository-context reads by main worker"
+  ]
+}

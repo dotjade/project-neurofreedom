@@ -52,7 +52,7 @@ Please share public research sources and original summaries. Keep personal medic
 
 ## Privacy and reuse
 
-This is a public research resource. No patient-specific medical records, family identifiers, personal images, diary entries or genetic data belong here. Store original evidence summaries and source identifiers. Do not upload unlicensed full-text papers or private community content. This repository is not a clinical-data system.
+The repository and https://tourette.fyi/ became public on 13 October 2026 after a repository-history privacy audit. No patient-specific medical records, family identifiers, personal images, diary entries or genetic data belong here. Store original evidence summaries and source identifiers. Do not upload unlicensed full-text papers or private community content. This repository is not a clinical-data system.
 
 ## How to continue
 

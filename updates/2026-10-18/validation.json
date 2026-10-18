@@ -1,0 +1,100 @@
+{
+  "checked_utc": "2026-10-18T02:45:23.339248+00:00",
+  "checks": [
+    {
+      "name": "Eight successful PubMed queries",
+      "passed": true
+    },
+    {
+      "name": "All PubMed result IDs retrieved below cap",
+      "passed": true
+    },
+    {
+      "name": "Twelve occurrences and six unique PubMed IDs",
+      "passed": true
+    },
+    {
+      "name": "Metadata screen matches ID union",
+      "passed": true
+    },
+    {
+      "name": "All screening decisions assigned",
+      "passed": true
+    },
+    {
+      "name": "Only new PubMed ID is explicitly secondary",
+      "passed": true
+    },
+    {
+      "name": "No changed linked notice among overlaps",
+      "passed": true
+    },
+    {
+      "name": "medrxiv complete unique pagination",
+      "passed": true
+    },
+    {
+      "name": "medrxiv no lexical match",
+      "passed": true
+    },
+    {
+      "name": "biorxiv complete unique pagination",
+      "passed": true
+    },
+    {
+      "name": "biorxiv no lexical match",
+      "passed": true
+    },
+    {
+      "name": "541 DOI/version records",
+      "passed": true
+    },
+    {
+      "name": "All direct core requests successful",
+      "passed": true
+    },
+    {
+      "name": "CTgov query counts complete",
+      "passed": true
+    },
+    {
+      "name": "Three unique CTgov window records",
+      "passed": true
+    },
+    {
+      "name": "No changed fields in four previously monitored registry records",
+      "passed": true
+    },
+    {
+      "name": "Registry results not inferred",
+      "passed": true
+    },
+    {
+      "name": "ISRCTN zero bounded result and nonempty positive control",
+      "passed": true
+    },
+    {
+      "name": "Empty new-primary ledger is intentional",
+      "passed": true
+    },
+    {
+      "name": "Python syntax validated",
+      "passed": true
+    },
+    {
+      "name": "JSON and JSONL parse",
+      "passed": true
+    },
+    {
+      "name": "All report local links resolve",
+      "passed": true
+    },
+    {
+      "name": "No saved raw source documents",
+      "passed": true
+    }
+  ],
+  "checks_passed": 23,
+  "checks_failed": 0,
+  "limits": "Accounting and file validation only; not independent scientific review or complete source/history audit."
+}

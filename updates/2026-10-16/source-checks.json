@@ -1,0 +1,346 @@
+{
+  "date": "2026-10-16",
+  "retrieval_window_utc": [
+    "2026-10-16T02:41:17Z",
+    "2026-10-16T02:46:43Z"
+  ],
+  "window_precision": "Approximate boundaries from tool invocation/completion timestamps; exact API timestamps are separate.",
+  "search_batches": [
+    {
+      "query_time_utc": "2026-10-16T02:41:17Z",
+      "queries": [
+        {
+          "q": "(Tourette OR \"tic disorder\") after:2026-10-14 before:2026-10-17",
+          "domains": [
+            "pubmed.ncbi.nlm.nih.gov",
+            "nature.com",
+            "thelancet.com",
+            "jamanetwork.com"
+          ]
+        },
+        {
+          "q": "(Tourette OR tics) after:2026-10-14 before:2026-10-17",
+          "domains": [
+            "biorxiv.org",
+            "medrxiv.org"
+          ]
+        },
+        {
+          "q": "(Tourette OR \"tic disorder\") after:2026-10-14 before:2026-10-17",
+          "domains": [
+            "isrctn.com",
+            "euclinicaltrials.eu",
+            "clinicaltrialsregister.eu",
+            "ensaiosclinicos.gov.br"
+          ]
+        }
+      ],
+      "result_cards": 12,
+      "query_assignment": "Tool combined results; per-query allocation is unavailable.",
+      "decisions": [
+        {
+          "url": "https://www.nature.com/articles/s41572-026-00742-6",
+          "doi": "10.1038/s41572-026-00742-6",
+          "published": "2026-10-08",
+          "decision": "Earlier secondary Primer, not new primary evidence."
+        },
+        {
+          "url": "https://jamanetwork.com/journals/jama/fullarticle/2618623",
+          "doi": "10.1001/jama.2017.0547",
+          "published": "2017-04-18",
+          "decision": "Older patient page; not new research."
+        },
+        {
+          "url": "https://www.nature.com/articles/s41380-025-03178-8",
+          "decision": "Older systematic review; secondary and outside date window."
+        },
+        {
+          "url": "https://jamanetwork.com/journals/jamapsychiatry/fullarticle/2319712",
+          "decision": "Older familial-risk study; not incremental new evidence."
+        },
+        {
+          "url": "https://www.nature.com/nrdp/articles?type=Primer",
+          "decision": "Journal listing; repeats October8 Primer."
+        },
+        {
+          "url": "https://jamanetwork.com/journals/jama/fullarticle/185896",
+          "doi": "10.1001/jama.2010.607",
+          "published": "2010-05-19",
+          "decision": "Existing baseline pediatric CBIT study; duplicate."
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/3859204/",
+          "decision": "1985 report; outside date window."
+        },
+        {
+          "url": "https://www.nature.com/articles/s41386-018-0266-7",
+          "decision": "2018 conference collection; outside date window."
+        },
+        {
+          "url": "https://www.medrxiv.org/content/10.1101/2025.01.03.24319737v1",
+          "doi": "10.1101/2025.01.03.24319737",
+          "version": "1",
+          "decision": "Older preprint version; not new-window posting."
+        },
+        {
+          "url": "https://jamanetwork.com/journals/jamaneurology/fullarticle/2669923",
+          "decision": "Older DBS registry paper; outside date window."
+        },
+        {
+          "url": "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2784765",
+          "decision": "Older deutetrabenazine trial; outside date window."
+        },
+        {
+          "url": "https://ensaiosclinicos.gov.br/rg/RBR-10rvhk97",
+          "decision": "Previously audited ReBEC study; date rechecked below, no new posting identified."
+        }
+      ]
+    },
+    {
+      "query_time_utc": "2026-10-16T02:44:11Z",
+      "queries": [
+        {
+          "q": "\"A Life-Course Conceptual Model of Stigma\" Tourette"
+        },
+        {
+          "q": "\"10.1097/ANS.0000000000000710\""
+        },
+        {
+          "q": "\"Coordinated Care Experience in Late-Life\" \"TICS\""
+        }
+      ],
+      "result_cards": 13,
+      "query_assignment": "Combined tool results; per-query allocation unavailable.",
+      "screening_decision": "No exact new source returned; all cards unrelated/background. No medical or factual claim relies on these results."
+    },
+    {
+      "query_time_utc": "2026-10-16T02:44:56Z",
+      "queries": [
+        {
+          "q": "\"Tourette\" \"0710\"",
+          "domains": [
+            "journals.lww.com"
+          ]
+        },
+        {
+          "q": "\"Life-Course Conceptual Model\" \"Tourette\"",
+          "domains": [
+            "journals.lww.com",
+            "pubmed.ncbi.nlm.nih.gov"
+          ]
+        },
+        {
+          "q": "\"10.1097/ANS.0000000000000710\" (correction OR retraction OR erratum)"
+        }
+      ],
+      "result_cards": 6,
+      "query_assignment": "Combined tool results; per-query allocation unavailable.",
+      "screening_decision": "Unrelated DOI-suffix collisions and background; no relevant correction found, but not a complete notice audit."
+    },
+    {
+      "query_time_utc": "2026-10-16T02:45:07Z",
+      "source": "GitHub default-branch search",
+      "repository": "dotjade/project-neurofreedom",
+      "queries": [
+        {
+          "q": "42875858",
+          "count": 0
+        },
+        {
+          "q": "ANS.0000000000000710",
+          "count": 0
+        },
+        {
+          "q": "Life-Course Conceptual Model",
+          "count": 0
+        }
+      ],
+      "screening_decision": "No search-index match; combined with direct full current primary-ledger and prior-scan review for deduplication. Does not establish no earlier cohort overlap."
+    }
+  ],
+  "source_checks": [
+    {
+      "url": "https://trialsearch.who.int/",
+      "checked_utc_approx": "2026-10-16T02:42:50Z",
+      "status": "Readable landing page, not query results",
+      "finding": "Lists October12 as latest import for ClinicalTrials.gov, CTIS, EU-CTR, ISRCTN, ReBEC and several national registries. Other provider dates older. Landing-page access does not yield complete incremental trial search or a no-new-record conclusion.",
+      "coverage_limit": "No authenticated export or form submission performed; import lag predates current incremental window."
+    },
+    {
+      "url": "https://www.isrctn.com/search?q=Tourette",
+      "checked_utc_approx": "2026-10-16T02:42:50Z",
+      "status": "Inaccessible via web extractor",
+      "finding": "No usable search results."
+    },
+    {
+      "url": "https://euclinicaltrials.eu/search-for-clinical-trials/",
+      "checked_utc_approx": "2026-10-16T02:42:50Z",
+      "status": "Page shell only",
+      "finding": "No readable clinical-trial query results or export."
+    },
+    {
+      "url": "https://ensaiosclinicos.gov.br/rg/RBR-10rvhk97",
+      "checked_utc_approx": "2026-10-16T02:42:50Z",
+      "status": "Readable official record",
+      "registration_date": "2026-07-21",
+      "last_approval_date": "2026-07-21",
+      "decision": "Already audited; no new dated event identified. Search crawl/freshness label is not publication date; historical source limitations are not reanalyzed."
+    },
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=42875858,42875818&retmode=xml",
+      "started_utc": "2026-10-16T02:44:11.806058+00:00",
+      "completed_utc": "2026-10-16T02:44:16.805954+00:00",
+      "status": 200,
+      "bytes": 37558,
+      "sha256": "cd449577ca66b70e09fab943e5b4394dd51c5a8cb64a5bf07688d66fceaaeb6d",
+      "purpose": "Read abstracts and bibliographic metadata for classification; response not persisted"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42875858/",
+      "started_utc": "2026-10-16T02:44:56.835594+00:00",
+      "status": 203,
+      "final_url": "https://pubmed.ncbi.nlm.nih.gov/42875858/",
+      "bytes": 5590,
+      "sha256": "6b68d416a9598ff93cb481c98d6424575db505c6f94a711c86ba264db3cafb0f",
+      "completed_utc": "2026-10-16T02:45:03.449875+00:00"
+    },
+    {
+      "url": "https://doi.org/10.1097/ANS.0000000000000710",
+      "started_utc": "2026-10-16T02:44:56.836364+00:00",
+      "status": 200,
+      "final_url": "https://www.ovid.com/jnls/advancesinnursingscience/abstract/10.1097/ans.0000000000000710~a-life-course-conceptual-model-of-stigma-in-adults-with?redirectionsource=fulltextview",
+      "bytes": 168733,
+      "sha256": "26fad208bb9ab2715bea85053210afa9877440bd999b783c706270f475dc3840",
+      "completed_utc": "2026-10-16T02:45:16.760251+00:00"
+    },
+    {
+      "url": "https://api.crossref.org/works/10.1097/ANS.0000000000000710",
+      "started_utc": "2026-10-16T02:44:56.836976+00:00",
+      "status": 200,
+      "final_url": "https://api.crossref.org/works/10.1097/ANS.0000000000000710",
+      "bytes": 13130,
+      "sha256": "282a707aed8590bc48d16eb7c080f8249bdf6e4d08d37e459e02df208658c67b",
+      "metadata": {
+        "DOI": "10.1097/ans.0000000000000710",
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              10,
+              15
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2026,
+              10,
+              15
+            ]
+          ]
+        },
+        "created": {
+          "date-parts": [
+            [
+              2026,
+              10,
+              15
+            ]
+          ],
+          "date-time": "2026-10-15T04:01:16Z",
+          "timestamp": 1792036876000
+        },
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              10,
+              15
+            ]
+          ],
+          "date-time": "2026-10-15T04:45:57Z",
+          "timestamp": 1792039557677,
+          "version": "4.4.0"
+        },
+        "deposited": {
+          "date-parts": [
+            [
+              2026,
+              10,
+              15
+            ]
+          ],
+          "date-time": "2026-10-15T04:01:19Z",
+          "timestamp": 1792036879000
+        },
+        "resource": {
+          "primary": {
+            "URL": "https://www.ovid.com/10.1097/ANS.0000000000000710"
+          }
+        },
+        "update-to": null,
+        "relation": {}
+      },
+      "completed_utc": "2026-10-16T02:45:00.905258+00:00"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42875858/",
+      "checked_utc_approx": "2026-10-16T02:43:52Z",
+      "status": "Web extractor inaccessible; subsequent shell returned 203 page without article metadata. Official NCBI EFetch provided abstract/date record."
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42875818/",
+      "checked_utc_approx": "2026-10-16T02:43:52Z",
+      "status": "Web extractor inaccessible; official EFetch abstract read successfully."
+    },
+    {
+      "url": "https://doi.org/10.1097/ANS.0000000000000710",
+      "checked_utc_approx": "2026-10-16T02:43:52Z",
+      "status": "Web extractor inaccessible; subsequent standard DOI resolution via HTTP succeeded and verified Ovid destination."
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42808868/",
+      "checked_utc_approx": "2026-10-16T02:43:52Z",
+      "status": "Readable",
+      "finding": "Narrative review of OCD, dated October16; not new primary tic evidence."
+    },
+    {
+      "url": "https://www.ovid.com/jnls/advancesinnursingscience/abstract/10.1097/ans.0000000000000710~a-life-course-conceptual-model-of-stigma-in-adults-with?redirectionsource=fulltextview",
+      "started_utc": "2026-10-16T02:46:20.429742+00:00",
+      "completed_utc": "2026-10-16T02:46:25.763132+00:00",
+      "status": 200,
+      "bytes": 168732,
+      "sha256": "b0a46d73590532cac9f99e8e2d8c69ff1239d65783e06cbdffe3a1323f87d08d",
+      "purpose": "Publisher public overview/abstract/date/access screening; source response not persisted"
+    },
+    {
+      "url": "https://www.ovid.com/jnls/advancesinnursingscience/abstract/10.1097/ans.0000000000000710~a-life-course-conceptual-model-of-stigma-in-adults-with?redirectionsource=fulltextview",
+      "checked_utc_approx": "2026-10-16T02:46:02Z",
+      "status": "Web extractor inaccessible; standard HTTP succeeded",
+      "finding": "Publisher labels Original Article and Publish Ahead of Print, October15. Abstract/overview confirms qualitative interviews with34 adults. Main methods and supplement uninspected."
+    }
+  ],
+  "limitations": [
+    "Search discovery filters returned older sources; only official publication/posting dates control inclusion.",
+    "Search result card counts are not unique studies or exhaustive database totals.",
+    "National registries, CTIS and WHO not fully exported or history-compared."
+  ],
+  "preliminary_probe": {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=Tourette&retmode=json&retmax=0",
+    "checked_utc_approx": "2026-10-16T02:40:51Z",
+    "status": 200,
+    "query": "Tourette",
+    "database_total_returned": 7984,
+    "screened_records": 0,
+    "purpose": "Unfiltered connectivity probe; excluded from formal eight dated query counts."
+  },
+  "count_summary": {
+    "dated_supplementary_web_queries": 3,
+    "focused_source_notice_web_queries": 6,
+    "all_web_query_result_cards": 31,
+    "github_dedup_queries": 3,
+    "formal_api_queries": "See search-log.json;8 PubMed,4 ClinicalTrials.gov,21 preprint pages",
+    "probe_queries": 1
+  }
+}

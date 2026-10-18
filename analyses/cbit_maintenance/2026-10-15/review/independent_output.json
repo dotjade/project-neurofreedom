@@ -1,0 +1,485 @@
+{
+  "source": "https://jamanetwork.com/journals/jamapsychiatry/fullarticle/1307556",
+  "source_locators": [
+    "Table 1",
+    "Table 4 and footnote",
+    "Methods / Study design",
+    "Results / Outcomes",
+    "Results / Treatment durability"
+  ],
+  "interpretation": "Bounds concern the original acute responders' pointwise binary follow-up status. They are deterministic missing-outcome bounds, not confidence intervals. The available-case percentage does not identify maintenance in all acute responders unless an additional missingness assumption is imposed. None of these quantities is an all-randomized causal treatment effect, off-treatment durability, uninterrupted response, remission, cure, or an adult-only estimate.",
+  "acute_response_denominator_check": {
+    "randomized": {
+      "CBIT": 63,
+      "PST": 59,
+      "total": 122
+    },
+    "body_PST": {
+      "numerator": 4,
+      "denominator": 59,
+      "fraction": "4/59",
+      "percent": 6.779661016949152
+    },
+    "abstract_PST": {
+      "numerator": 4,
+      "denominator": 63,
+      "fraction": "4/63",
+      "percent": 6.349206349206349
+    },
+    "abstract_printed_percent": 6.4,
+    "assessment": "Use the body numerator/denominator (4/59) and disclose the abstract discrepancy. Four divided by 63 is 6.349206 percent, conventionally 6.3 percent to one decimal; 4/59 is 6.779661 percent, conventionally 6.8 percent. Do not silently repair the source."
+  },
+  "rows": [
+    {
+      "arm": "CBIT",
+      "month": 3,
+      "randomized": 63,
+      "acute_responders": 24,
+      "assessed": 15,
+      "positive": 13,
+      "assessed_without_positive_response": 2,
+      "unknown_followup_status": 9,
+      "ascertainment_among_acute_responders": {
+        "numerator": 15,
+        "denominator": 24,
+        "fraction": "5/8",
+        "percent": 62.5
+      },
+      "missing_among_acute_responders": {
+        "numerator": 9,
+        "denominator": 24,
+        "fraction": "3/8",
+        "percent": 37.5
+      },
+      "available_case_positive": {
+        "numerator": 13,
+        "denominator": 15,
+        "fraction": "13/15",
+        "percent": 86.66666666666667
+      },
+      "confirmed_positive_among_all_acute_responders": {
+        "numerator": 13,
+        "denominator": 24,
+        "fraction": "13/24",
+        "percent": 54.166666666666664
+      },
+      "missing_outcome_bound_lower": {
+        "numerator": 13,
+        "denominator": 24,
+        "fraction": "13/24",
+        "percent": 54.166666666666664
+      },
+      "missing_outcome_bound_upper": {
+        "numerator": 22,
+        "denominator": 24,
+        "fraction": "11/12",
+        "percent": 91.66666666666667
+      },
+      "confirmed_positive_fraction_of_original_randomized_arm_descriptive_only": {
+        "numerator": 13,
+        "denominator": 63,
+        "fraction": "13/63",
+        "percent": 20.634920634920636
+      },
+      "unknown_outcome_scenarios": [
+        {
+          "positive_among_missing": 0,
+          "maintenance_among_acute_responders": {
+            "numerator": 13,
+            "denominator": 24,
+            "fraction": "13/24",
+            "percent": 54.166666666666664
+          }
+        },
+        {
+          "positive_among_missing": 1,
+          "maintenance_among_acute_responders": {
+            "numerator": 14,
+            "denominator": 24,
+            "fraction": "7/12",
+            "percent": 58.333333333333336
+          }
+        },
+        {
+          "positive_among_missing": 2,
+          "maintenance_among_acute_responders": {
+            "numerator": 15,
+            "denominator": 24,
+            "fraction": "5/8",
+            "percent": 62.5
+          }
+        },
+        {
+          "positive_among_missing": 3,
+          "maintenance_among_acute_responders": {
+            "numerator": 16,
+            "denominator": 24,
+            "fraction": "2/3",
+            "percent": 66.66666666666667
+          }
+        },
+        {
+          "positive_among_missing": 4,
+          "maintenance_among_acute_responders": {
+            "numerator": 17,
+            "denominator": 24,
+            "fraction": "17/24",
+            "percent": 70.83333333333333
+          }
+        },
+        {
+          "positive_among_missing": 5,
+          "maintenance_among_acute_responders": {
+            "numerator": 18,
+            "denominator": 24,
+            "fraction": "3/4",
+            "percent": 75.0
+          }
+        },
+        {
+          "positive_among_missing": 6,
+          "maintenance_among_acute_responders": {
+            "numerator": 19,
+            "denominator": 24,
+            "fraction": "19/24",
+            "percent": 79.16666666666667
+          }
+        },
+        {
+          "positive_among_missing": 7,
+          "maintenance_among_acute_responders": {
+            "numerator": 20,
+            "denominator": 24,
+            "fraction": "5/6",
+            "percent": 83.33333333333333
+          }
+        },
+        {
+          "positive_among_missing": 8,
+          "maintenance_among_acute_responders": {
+            "numerator": 21,
+            "denominator": 24,
+            "fraction": "7/8",
+            "percent": 87.5
+          }
+        },
+        {
+          "positive_among_missing": 9,
+          "maintenance_among_acute_responders": {
+            "numerator": 22,
+            "denominator": 24,
+            "fraction": "11/12",
+            "percent": 91.66666666666667
+          }
+        }
+      ]
+    },
+    {
+      "arm": "CBIT",
+      "month": 6,
+      "randomized": 63,
+      "acute_responders": 24,
+      "assessed": 15,
+      "positive": 12,
+      "assessed_without_positive_response": 3,
+      "unknown_followup_status": 9,
+      "ascertainment_among_acute_responders": {
+        "numerator": 15,
+        "denominator": 24,
+        "fraction": "5/8",
+        "percent": 62.5
+      },
+      "missing_among_acute_responders": {
+        "numerator": 9,
+        "denominator": 24,
+        "fraction": "3/8",
+        "percent": 37.5
+      },
+      "available_case_positive": {
+        "numerator": 12,
+        "denominator": 15,
+        "fraction": "4/5",
+        "percent": 80.0
+      },
+      "confirmed_positive_among_all_acute_responders": {
+        "numerator": 12,
+        "denominator": 24,
+        "fraction": "1/2",
+        "percent": 50.0
+      },
+      "missing_outcome_bound_lower": {
+        "numerator": 12,
+        "denominator": 24,
+        "fraction": "1/2",
+        "percent": 50.0
+      },
+      "missing_outcome_bound_upper": {
+        "numerator": 21,
+        "denominator": 24,
+        "fraction": "7/8",
+        "percent": 87.5
+      },
+      "confirmed_positive_fraction_of_original_randomized_arm_descriptive_only": {
+        "numerator": 12,
+        "denominator": 63,
+        "fraction": "4/21",
+        "percent": 19.047619047619047
+      },
+      "unknown_outcome_scenarios": [
+        {
+          "positive_among_missing": 0,
+          "maintenance_among_acute_responders": {
+            "numerator": 12,
+            "denominator": 24,
+            "fraction": "1/2",
+            "percent": 50.0
+          }
+        },
+        {
+          "positive_among_missing": 1,
+          "maintenance_among_acute_responders": {
+            "numerator": 13,
+            "denominator": 24,
+            "fraction": "13/24",
+            "percent": 54.166666666666664
+          }
+        },
+        {
+          "positive_among_missing": 2,
+          "maintenance_among_acute_responders": {
+            "numerator": 14,
+            "denominator": 24,
+            "fraction": "7/12",
+            "percent": 58.333333333333336
+          }
+        },
+        {
+          "positive_among_missing": 3,
+          "maintenance_among_acute_responders": {
+            "numerator": 15,
+            "denominator": 24,
+            "fraction": "5/8",
+            "percent": 62.5
+          }
+        },
+        {
+          "positive_among_missing": 4,
+          "maintenance_among_acute_responders": {
+            "numerator": 16,
+            "denominator": 24,
+            "fraction": "2/3",
+            "percent": 66.66666666666667
+          }
+        },
+        {
+          "positive_among_missing": 5,
+          "maintenance_among_acute_responders": {
+            "numerator": 17,
+            "denominator": 24,
+            "fraction": "17/24",
+            "percent": 70.83333333333333
+          }
+        },
+        {
+          "positive_among_missing": 6,
+          "maintenance_among_acute_responders": {
+            "numerator": 18,
+            "denominator": 24,
+            "fraction": "3/4",
+            "percent": 75.0
+          }
+        },
+        {
+          "positive_among_missing": 7,
+          "maintenance_among_acute_responders": {
+            "numerator": 19,
+            "denominator": 24,
+            "fraction": "19/24",
+            "percent": 79.16666666666667
+          }
+        },
+        {
+          "positive_among_missing": 8,
+          "maintenance_among_acute_responders": {
+            "numerator": 20,
+            "denominator": 24,
+            "fraction": "5/6",
+            "percent": 83.33333333333333
+          }
+        },
+        {
+          "positive_among_missing": 9,
+          "maintenance_among_acute_responders": {
+            "numerator": 21,
+            "denominator": 24,
+            "fraction": "7/8",
+            "percent": 87.5
+          }
+        }
+      ]
+    },
+    {
+      "arm": "PST",
+      "month": 3,
+      "randomized": 59,
+      "acute_responders": 4,
+      "assessed": 2,
+      "positive": 1,
+      "assessed_without_positive_response": 1,
+      "unknown_followup_status": 2,
+      "ascertainment_among_acute_responders": {
+        "numerator": 2,
+        "denominator": 4,
+        "fraction": "1/2",
+        "percent": 50.0
+      },
+      "missing_among_acute_responders": {
+        "numerator": 2,
+        "denominator": 4,
+        "fraction": "1/2",
+        "percent": 50.0
+      },
+      "available_case_positive": {
+        "numerator": 1,
+        "denominator": 2,
+        "fraction": "1/2",
+        "percent": 50.0
+      },
+      "confirmed_positive_among_all_acute_responders": {
+        "numerator": 1,
+        "denominator": 4,
+        "fraction": "1/4",
+        "percent": 25.0
+      },
+      "missing_outcome_bound_lower": {
+        "numerator": 1,
+        "denominator": 4,
+        "fraction": "1/4",
+        "percent": 25.0
+      },
+      "missing_outcome_bound_upper": {
+        "numerator": 3,
+        "denominator": 4,
+        "fraction": "3/4",
+        "percent": 75.0
+      },
+      "confirmed_positive_fraction_of_original_randomized_arm_descriptive_only": {
+        "numerator": 1,
+        "denominator": 59,
+        "fraction": "1/59",
+        "percent": 1.694915254237288
+      },
+      "unknown_outcome_scenarios": [
+        {
+          "positive_among_missing": 0,
+          "maintenance_among_acute_responders": {
+            "numerator": 1,
+            "denominator": 4,
+            "fraction": "1/4",
+            "percent": 25.0
+          }
+        },
+        {
+          "positive_among_missing": 1,
+          "maintenance_among_acute_responders": {
+            "numerator": 2,
+            "denominator": 4,
+            "fraction": "1/2",
+            "percent": 50.0
+          }
+        },
+        {
+          "positive_among_missing": 2,
+          "maintenance_among_acute_responders": {
+            "numerator": 3,
+            "denominator": 4,
+            "fraction": "3/4",
+            "percent": 75.0
+          }
+        }
+      ]
+    },
+    {
+      "arm": "PST",
+      "month": 6,
+      "randomized": 59,
+      "acute_responders": 4,
+      "assessed": 2,
+      "positive": 1,
+      "assessed_without_positive_response": 1,
+      "unknown_followup_status": 2,
+      "ascertainment_among_acute_responders": {
+        "numerator": 2,
+        "denominator": 4,
+        "fraction": "1/2",
+        "percent": 50.0
+      },
+      "missing_among_acute_responders": {
+        "numerator": 2,
+        "denominator": 4,
+        "fraction": "1/2",
+        "percent": 50.0
+      },
+      "available_case_positive": {
+        "numerator": 1,
+        "denominator": 2,
+        "fraction": "1/2",
+        "percent": 50.0
+      },
+      "confirmed_positive_among_all_acute_responders": {
+        "numerator": 1,
+        "denominator": 4,
+        "fraction": "1/4",
+        "percent": 25.0
+      },
+      "missing_outcome_bound_lower": {
+        "numerator": 1,
+        "denominator": 4,
+        "fraction": "1/4",
+        "percent": 25.0
+      },
+      "missing_outcome_bound_upper": {
+        "numerator": 3,
+        "denominator": 4,
+        "fraction": "3/4",
+        "percent": 75.0
+      },
+      "confirmed_positive_fraction_of_original_randomized_arm_descriptive_only": {
+        "numerator": 1,
+        "denominator": 59,
+        "fraction": "1/59",
+        "percent": 1.694915254237288
+      },
+      "unknown_outcome_scenarios": [
+        {
+          "positive_among_missing": 0,
+          "maintenance_among_acute_responders": {
+            "numerator": 1,
+            "denominator": 4,
+            "fraction": "1/4",
+            "percent": 25.0
+          }
+        },
+        {
+          "positive_among_missing": 1,
+          "maintenance_among_acute_responders": {
+            "numerator": 2,
+            "denominator": 4,
+            "fraction": "1/2",
+            "percent": 50.0
+          }
+        },
+        {
+          "positive_among_missing": 2,
+          "maintenance_among_acute_responders": {
+            "numerator": 3,
+            "denominator": 4,
+            "fraction": "3/4",
+            "percent": 75.0
+          }
+        }
+      ]
+    }
+  ],
+  "assertions": "passed"
+}

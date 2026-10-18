@@ -1,0 +1,107 @@
+{
+  "scope": "Independent published-aggregate checks; not a reanalysis of patient data",
+  "primary_confirmatory_superiority": false,
+  "noninferiority_confirmatory_gate_open": false,
+  "exploratory_ni_upper_below_margin": true,
+  "ni_upper_bound_clearance_points": "0.04",
+  "randomized_by_arm": {
+    "iCBIT": 67,
+    "placebo": 70,
+    "f2f_CBIT": 24
+  },
+  "noncompliant_counts_inferred_from_rounded_percentages": {
+    "iCBIT": 27,
+    "placebo": 16,
+    "f2f_CBIT": 10
+  },
+  "compliant_counts_inferred": {
+    "iCBIT": 40,
+    "placebo": 54,
+    "f2f_CBIT": 14
+  },
+  "denominator_caveat": "Compliance counts are not observed-outcome counts or MMRM-contributor counts. Exact outcome-by-visit Ns were not supplied in the inspected main report.",
+  "adjustment_caveat": "Post hoc selected nine-test family, not the trial's full testing family. No adjusted inference restores the failed confirmatory gate. p<.001 is represented only by its conservative .001 boundary.",
+  "nine_test_sensitivity": {
+    "TTS_V5": {
+      "p_used": "0.001",
+      "p_is_strict_upper_bound": true,
+      "holm_value_or_bound": "0.009",
+      "bonferroni_value_or_bound": "0.009",
+      "holm_below_05": true,
+      "bonferroni_below_05": true,
+      "ci_excludes_zero_in_beneficial_direction": true
+    },
+    "GTS_QOL_V4": {
+      "p_used": "0.002",
+      "p_is_strict_upper_bound": false,
+      "holm_value_or_bound": "0.016",
+      "bonferroni_value_or_bound": "0.018",
+      "holm_below_05": true,
+      "bonferroni_below_05": true,
+      "ci_excludes_zero_in_beneficial_direction": true
+    },
+    "TTS_V4": {
+      "p_used": "0.003",
+      "p_is_strict_upper_bound": false,
+      "holm_value_or_bound": "0.021",
+      "bonferroni_value_or_bound": "0.027",
+      "holm_below_05": true,
+      "bonferroni_below_05": true,
+      "ci_excludes_zero_in_beneficial_direction": true
+    },
+    "impairment_V5": {
+      "p_used": "0.005",
+      "p_is_strict_upper_bound": false,
+      "holm_value_or_bound": "0.030",
+      "bonferroni_value_or_bound": "0.045",
+      "holm_below_05": true,
+      "bonferroni_below_05": true,
+      "ci_excludes_zero_in_beneficial_direction": true
+    },
+    "GTS_QOL_V5": {
+      "p_used": "0.013",
+      "p_is_strict_upper_bound": false,
+      "holm_value_or_bound": "0.065",
+      "bonferroni_value_or_bound": "0.117",
+      "holm_below_05": false,
+      "bonferroni_below_05": false,
+      "ci_excludes_zero_in_beneficial_direction": true
+    },
+    "impairment_V3": {
+      "p_used": "0.019",
+      "p_is_strict_upper_bound": false,
+      "holm_value_or_bound": "0.076",
+      "bonferroni_value_or_bound": "0.171",
+      "holm_below_05": false,
+      "bonferroni_below_05": false,
+      "ci_excludes_zero_in_beneficial_direction": true
+    },
+    "TTS_V3": {
+      "p_used": "0.053",
+      "p_is_strict_upper_bound": false,
+      "holm_value_or_bound": "0.159",
+      "bonferroni_value_or_bound": "0.477",
+      "holm_below_05": false,
+      "bonferroni_below_05": false,
+      "ci_excludes_zero_in_beneficial_direction": false
+    },
+    "impairment_V4": {
+      "p_used": "0.097",
+      "p_is_strict_upper_bound": false,
+      "holm_value_or_bound": "0.194",
+      "bonferroni_value_or_bound": "0.873",
+      "holm_below_05": false,
+      "bonferroni_below_05": false,
+      "ci_excludes_zero_in_beneficial_direction": false
+    },
+    "GTS_QOL_V3": {
+      "p_used": "0.272",
+      "p_is_strict_upper_bound": false,
+      "holm_value_or_bound": "0.272",
+      "bonferroni_value_or_bound": "1",
+      "holm_below_05": false,
+      "bonferroni_below_05": false,
+      "ci_excludes_zero_in_beneficial_direction": false
+    }
+  }
+}

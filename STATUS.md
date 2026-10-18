@@ -1,6 +1,6 @@
 # Project NeuroFreedom status
 
-Updated 13 October 2026. Initial portfolio, five completed daily updates and first completed weekly synthesis.
+Updated 18 October 2026. Initial portfolio, ten completed daily updates and two completed weekly syntheses. Public evidence repository and journal launched 13 October.
 
 ## Completed in this first pass
 
@@ -14,14 +14,14 @@ Updated 13 October 2026. Initial portfolio, five completed daily updates and fir
 
 ## Enabled research schedules
 
-The user approved the following automatic public-science research and repository updates on 8 October 2026. Each schedule was created successfully and returned enabled status. Daily runs were completed on 9, 10, 11, 12 and 13 October 2026; the first weekly synthesis was completed on 11 October; first monthly and quarterly runs remain unverified.
+The user approved the following automatic public-science research and repository updates on 8 October 2026. Each schedule was created successfully and returned enabled status. Daily runs were completed on 9-18 October 2026; weekly syntheses were completed on 11 and 18 October; first monthly and quarterly runs remain unverified.
 
 - Daily new-evidence checks: from 9 October 2026, approximately 08:00 India time.
 - Weekly synthesis: Sundays, from 11 October 2026, approximately 09:00 India time.
 - Monthly hypothesis and feasibility review: first day of each month, from 1 November 2026, approximately 09:00 India time.
 - Quarterly strategy review: 1 January, April, July and October, from 1 January 2027, approximately 10:00 India time.
 
-All use flexible timing, generally within an hour of the stated time. Research updates should be saved to this private repository. Daily no-change runs should not generate repetitive chat messages. Meaningful findings, requested syntheses and actionable blockers should be communicated with source links.
+All use flexible timing, generally within an hour of the stated time. Research updates should be saved to this public evidence repository, without personal or participant data. Daily no-change runs should not generate repetitive chat messages. Meaningful findings, requested syntheses and actionable blockers should be communicated with source links.
 
 ## What has not been done
 
@@ -132,3 +132,117 @@ Executed a published-aggregate response-classification reconstruction from Jeon 
 Close the current measurement-substitution/universal-threshold pass at this evidence. Retain a language/version-specific GTS-QOL candidate with native domains, separate clinician tic severity/components and impairment, and separately verified pain/participation endpoints when those are targeted. Do not launch participant collection or install an invented meaningful-change threshold.
 
 Move next to the adult randomized ONLINE-TICS study, [Haas et al. 2022, DOI 10.3390/jcm11010250](https://www.mdpi.com/2077-0383/11/1/250). Test its time-specific treatment-benefit claim using the primary endpoint and available tic, impairment and GTS-QOL contrasts. Extract uncertainty, multiplicity, attrition and negative findings before any aggregate computation; do not infer joint response or an endpoint-effect difference without the required covariance. This is a verified next source, not a seventh report analyzed in today's synthesis or a clinical recommendation. Continue dated new-evidence surveillance without repeating closed dataset, gating-access, MNS or registry-endpoint work absent a materially new source.
+
+## Completed daily research update - 14 October 2026
+
+The [dated scan](updates/2026-10-14/report.md) screened 27 PubMed metadata records and 632 preprint DOI/version records without a qualifying new tic paper/preprint. One unique ClinicalTrials.gov posting, NCT07137442, describes an existing adult observational physiology study without results. Recruitment/start-date and healthy-control inconsistencies are retained. The [safety review](updates/2026-10-14/safety/report.md) distinguishes the October 13 Intuniv regulatory-document update from its earlier underlying ADHD study and an October 9 NeuroStar recall newly discovered today. No urgent new guanfacine warning or tic efficacy claim follows.
+
+The [ONLINE-TICS audit](analyses/online_tics/2026-10-14/report.md) completes yesterday's planned adult randomized-trial question. The 2022 primary contrast did not establish superiority: -1.28 points, 95% CI -2.58 to 0.01, p=.053. The protocol's confirmatory non-inferiority gate therefore remains closed. Later tic, impairment and disease-specific QoL findings are exploratory and time-specific. Negative findings, early unfavorable contrasts with coding caveats, table/prose inconsistencies, and continued intervention access remain explicit.
+
+A deterministic published-aggregate computation and independent audit reproduced 33 checks. Four of six nominally favorable contrasts survive an explicitly post hoc nine-comparison Holm/Bonferroni sensitivity. This restricted family does not restore confirmation or adjust for all trial tests. Compliance counts are not outcome-specific attrition; missing covariance prevents a joint-response or time-effect-difference calculation. No patient data or medical intervention was used.
+
+### Next bounded decision
+
+Close the ONLINE-TICS aggregate extraction unless corrected results or the missing quantities become available. Next audit the original adult-dominant Wilhelm et al. 2012 CBIT trial's maintenance estimand: primary and follow-up denominators, response-conditioned follow-up, booster exposure and separately measured impairment. Its ages 16-69 include minors; do not report an adult-only estimate without a verified subgroup. Do not assume QoL collection or off-treatment durability. Continue dated surveillance without repeating completed generic cohort searches or prior computations.
+
+### Public journal publication and access
+
+The October 13 visual journal remains the tested deployment. The October 14 feed selects the existing optional small-mark/silly-sentence activity and adds today's dated research note. No new activity, collection or voting is enabled. Displayed repository links were accessible; primary-source access limits are recorded in [the link ledger](public/link-checks/2026-10-14.json). The cloud HTTP client's production feed check returned Cloudflare 403/error 1010. Today's repository feed is saved and must be read back, but live homepage propagation cannot be claimed from that blocked check. No security settings were changed or protections bypassed.
+
+### Publication verification follow-up - 14 October 2026
+
+At 09:07:36 UTC, an established ordinary HTTP workflow returned HTTP 200 and X-Journal-Source: repository. The production feed matched updatedAt 2026-10-14T02:59:44Z, research/activity date October 14, featured activity small-silly-mark and the new timeline title. Production feed propagation is verified. The earlier cloud-client 403 remains an access limitation of that route, not evidence that publication failed. Rendered-page verification was unavailable in the follow-up environment. No security, source, deployment or feedback settings were changed for this check.
+
+## Completed daily research update - 15 October 2026
+
+The [dated scan](updates/2026-10-15/report.md) identified a newly encountered October 13 pediatric cross-sectional allergy/tic-severity study. It is association evidence, not a treatment result or an adult finding. Two October 14 registry postings have no results: the ecopipam expanded-access record is currently temporarily unavailable, without a verified date or reason for that status change, and the existing adult physiology study's estimated start moved by one day. No additional qualifying watched regulator safety notice was verified. Search coverage and source-date limits remain explicit.
+
+The [CBIT maintenance audit](analyses/cbit_maintenance/2026-10-15/report.md) completed the planned Wilhelm 2012 question. Acute randomized benefit and selected follow-up are different estimands. At six months, 12/15 returning early CBIT responders were positive, while nine of the 24 early responders had unknown outcomes. Deterministic missing-outcome enumeration gives 50%-87.5% bounds within those 24, not confidence intervals or an all-randomized response rate. Planned boosters and control nonresponder crossover prevent an off-treatment randomized maintenance claim. Ages 16-69 and severe-presentation selection limit applicability.
+
+Thirty-seven implementation checks and an independent arithmetic/source audit passed. The continuous acute model's 113 analyzed participants, 105 completers and 122 randomized participants are distinct. Impairment is separate from tic severity; no six-month impairment or QoL effect was inferred from the original maintenance table. No participant data, clinical action or simulation was involved.
+
+### Next bounded decision
+
+Close the original-trial maintenance bounds unless corrected reporting or missing outcomes become available. Next inspect the same-trial secondary functioning report by McGuire et al., PMID 31451122, DOI 10.1017/S0033291719002150. Distinguish randomized acute disability/social/family-function contrasts from responder associations and selected follow-up; extract instrument direction, denominators, uncertainty, multiplicity and negative findings before any computation. This is not independent replication. Do not repeat completed generic cohort or attrition work.
+
+### Public journal
+
+Today's feed retains the approved optional activity catalog, selects familiar music or silence, and adds a dated historical-trial note. Voting and collection remain disabled. Source-link access limitations are recorded in [the daily ledger](public/link-checks/2026-10-15.json). Repository and production publication verification are recorded after actual readback.
+
+### Publication verification - 15 October 2026
+
+All 40 research/publication files were read back exactly from commit 32dce905416932cdc372867d8aba31a676f65a41. At 03:09:42 UTC, production /api/public-feed and anonymous raw GitHub both returned HTTP 200 with exactly matching contents; production identified the repository source. The October 15 research/activity dates, updatedAt 2026-10-15T03:07:31Z, music-or-silence selection and new timeline title were verified. The earlier cloud-client block remains a route-specific limitation, not a publication failure. Rendered-page checking was not part of this follow-up. No settings or collection changed.
+
+## Completed daily research update - 16 October 2026
+
+The [dated scan](updates/2026-10-16/report.md) verified an October 15 qualitative study of 34 adults about stigma, relationships and employment. It contributes adult-burden evidence, not treatment efficacy or representative prevalence; full methods and severe-symptom representation remain unverified. One new posting for the existing adult physiology registry has no results; its estimated start shifted October 19 to 20. No additional original-watchlist safety notice was verified, with FDA coverage gaps. A new MHRA antidepressant risk-communication update is retained separately as comorbidity-care context, not a newly discovered risk or medication-change instruction.
+
+The [same-trial CBIT functioning analysis](analyses/cbit_functioning/2026-10-16/report.md) found no nominally significant randomized advantage on 12 acute functional contrasts. This does not establish equivalence or rule out important benefit. Two responder-status associations and selected follow-up findings answer different questions. Post hoc restricted-family multiplicity sensitivities retain none of the functional positives; these cannot repair selection or provide missing confidence intervals. Thirteen tests, independent extraction and arithmetic review passed. Single-participant follow-up scores were excluded from public artifacts.
+
+### Next bounded decision
+
+Close the same-trial CBIT reporting chain unless materially corrected evidence appears. Next audit adult tic-related pain measurement in Malek 2025, DOI 10.3389/fpsyg.2025.1537088, PMID 40808742. Separate current versus worst pain, pain-specific endpoints versus tic severity, denominator-specific proportions and selection, and reported usefulness of care versus causal effectiveness. Do not infer representative prevalence, severe-adult subgroup effects or treatment benefit without supporting design and data. No participant collection, intervention or custodian contact is needed for this evidence step.
+
+### Public journal
+
+Today's public feed adds a dated functional-outcome note and retains the approved optional activity catalog, selecting notice-one-thing. Collection and shared voting remain disabled. The [bounded source-link ledger](public/link-checks/2026-10-16.json) records two retrievable primary sources and one access-limited link, not a confirmed broken source. Publication readback will be recorded after verification.
+
+### Publication verification - 16 October 2026
+
+All 37 research/publication files matched their committed contents on connector readback from 5c1591020fdada505548c040ba1b54a6da74c05f. At 02:54:36 UTC, ordinary anonymous HTTP checks confirmed production /api/public-feed and raw GitHub both returned HTTP 200 and JSON matching the authored October 16 feed. Production reported X-Journal-Source: repository, updatedAt 2026-10-16T02:53:02Z, notice-one-thing and the new timeline title. The earlier urllib403 was route-specific; no security settings or collection changed. This verifies feed propagation, not fresh rendered-page accessibility testing.
+
+## Completed daily research update - 17 October 2026
+
+The [dated scan](updates/2026-10-17/report.md) screened 16 unique PubMed records and 642 preprint DOI/version records. A newly encountered case report is retained only as a general pharmacovigilance signal without individual case details; first-publication timing remains unresolved across sources. An October 16 registry posting reports a mesenchymal-cell protocol withdrawn for inability to recruit, actual enrollment zero and no results. The date of the withdrawal itself is unverified. An older July retraction is explicitly excluded from positive mechanism evidence. No new controlled tic-treatment result or additional qualifying regulator notice was verified in the bounded searches. Access and coverage limits remain visible.
+
+The [historical adult pain audit](analyses/adult_pain/2026-10-17/report.md) advances the planned measurement question using a 76-person support-group sample. Its 56 pain reports concern past or present pain, not current or duration-defined chronic-pain prevalence. Help-seeking counts, percentages and subgroup membership conflict, so no corrected denominator or reliable treatment-success fraction is adopted. Perceived usefulness is not causal effectiveness. Conditional current/worst arithmetic and rounding checks expose another internal inconsistency without claiming clinical change. Eighteen implementation tests and an independent source/arithmetic review accompany the result. No participant data or simulation was used.
+
+### Next bounded decision
+
+Close this source audit unless a public correction or methodological documentation resolves the missing quantities. Next audit pain interference and ascertainment in Taylor, Anderson and Davies 2022, DOI 10.3389/fpsyt.2022.914044, PMID 35990066. Verify recruitment and pain-related entry criteria, interference questions and recall windows, adult-specific estimates and qualitative versus numeric claims. Its ages 16-71 include minors; do not assume adult-only or persistently severe-adult findings. Stop with the exact missing prerequisite if adult-specific estimates cannot be recovered from public aggregate reporting. Do not pool unlike samples or collect participant data.
+
+### Public journal
+
+Today's feed adds a dated pain-measurement note and separately identifies the scan's registry status finding without treatment results. The six approved optional activities are unchanged; rest-or-leave is selected. Shared voting and collection remain disabled. Nine prior timeline links and two primary sources passed ordinary HTTP/content checks; Pappert remains HTTP 403 access-limited, not confirmed broken. Publication verification is recorded only after actual readback.
+
+### Publication verification - 17 October 2026
+
+All 49 research/publication files matched their committed contents on connector readback from f7395781eeeda36262bff8206a8cdaba95c97783. At 03:23:53 UTC, production /api/public-feed and anonymous raw GitHub both returned HTTP 200 and JSON matching the authored feed, updatedAt 2026-10-17T03:22:49Z. Production identified the repository source; research/activity date October 17, rest-or-leave and the new pain-measurement entry were verified. This verifies feed propagation, not fresh rendered-page accessibility. No deployment, security setting or collection changed. [Verification details](updates/2026-10-17/publication-verification.json).
+
+
+## Completed daily research update - 18 October 2026
+
+The [dated scan](updates/2026-10-18/report.md) screened six unique PubMed records and 541 preprint DOI/version records without a new qualifying primary result or relevant trial result. A newly encountered pediatric narrative review remains secondary evidence. Known registry records were unchanged on selected fields. The officially documented ISRCTN XML API now provides a working bounded update query and positive control; zero in-window records is query-specific, not worldwide completeness. WHO ICTRP and CTIS coverage remains incomplete. No additional qualifying regulator notice was verified in the [safety pass](updates/2026-10-18/safety/report.md).
+
+The [historical pain-interference audit](analyses/pain_interference/2026-10-18/report.md) completed the planned Taylor 2022 question. The sample required current tics and tic-related pain, so it cannot estimate pain prevalence. Its adapted 13-domain ratings describe past-week interference, but age mixing and absent item-specific denominators/N/A rules prevent an adult-only estimate. All 13 printed tic-interference means exceed pain-interference means by 0.05-1.12 points; these marginal differences and rounding envelopes are not paired effects, confidence intervals or clinical importance. Qualitative pain priorities remain compatible with those averages. Another care-seeking count conflict is preserved without adopting a correction. Twenty-five implementation tests and independent source/arithmetic review passed. No participant data, intervention or simulation was used.
+
+### Next bounded decision
+
+Close this source audit pending public corrections or age-eligible item-level aggregate summaries. Next audit the controlled focal-tic trial by Marras et al. 2001, PMID 11245710, DOI 10.1212/WNL.56.5.605: determine whether any pain-benefit endpoint was measured separately from tic severity and injection/procedure discomfort. Inspect lawful primary methods/tables, adult applicability, crossover periods/carryover, denominators and uncertainty. An abstract endpoint list cannot establish absence of an outcome in the full study. Stop the one-trial audit if full methods are unavailable or no compatible pain endpoint is reported; do not convert tic reduction into pain efficacy. No participant access or researcher contact is authorized.
+
+### Public journal
+
+Today's feed adds a dated historical pain-interference note and explicitly reports a scan without a qualifying new primary result. The six approved optional activities are unchanged; hand-at-ease is selected. Voting, comments and health-outcome collection remain disabled. Ten existing research links and two primary sources passed; Pappert remains challenge-limited rather than confirmed broken. Publication verification follows actual readback.
+
+### Publication verification - 18 October 2026
+
+All 51 research/publication files matched their committed contents on connector readback from 84bd12e03499cc8c04581b799170613432368348. At 02:48:37 UTC, production /api/public-feed and anonymous raw GitHub returned HTTP 200 with JSON exactly matching the authored feed, updatedAt 2026-10-18T02:47:52Z. Production identified the repository source; research/activity date October 18 and hand-at-ease were verified. The new report also passed connector content readback. This verifies feed propagation, not fresh rendered-page accessibility. [Verification details](updates/2026-10-18/publication-verification.json).
+
+
+## Completed second weekly synthesis - 18 October 2026
+
+The [weekly synthesis](updates/2026-10-18-weekly-synthesis.md) integrates October 12-18 work without adding overlapping search hits or same-trial reports as independent evidence. Acute behavioral-treatment tic benefit remains supported in the Wilhelm trial, while broader function, patient-important pain, selected maintenance and continuing treatment exposure require separate inference. ONLINE-TICS exploratory later findings do not repair its primary testing gate. Pain-selected and support-group surveys cannot supply a pooled population prevalence or causal care-success rate. Biological hypotheses H07/H13/H17/H18/H19 remain speculative rather than directly refuted or validated.
+
+A new deterministic [evidence-structure reanalysis](analyses/evidence_structure/2026-10-18/report.md) maps three fixed publications to two randomizations and preserves 11 analyst-defined inference blocks. These are bookkeeping units, not independent endpoints, evidence votes or a field denominator. Twenty-four implementation tests and parent byte-identical reproduction with five count/status checks passed. The stronger randomized functional-follow-up claim after verified cessation of trial-provided access/boosters is not documented in this set; this does not establish no benefit or recommend stopping learned skills. No clinical effects were pooled.
+
+The [Marras focal-tic audit](analyses/focal_tic_pain/2026-10-18/report.md) could not retrieve lawful complete primary methods/tables. A verified NIHR secondary review nevertheless corroborates a treated-tic-area pain measure under Safety, with the scale unreported. Therefore pain must not be labelled unmeasured. Endpoint definition, benefit versus procedure discomfort, denominator and crossover estimator remain unresolved at primary-source level. No pain-effect calculation was fabricated. A lawful manuscript could reopen this narrowly defined audit; no payment or outreach is requested.
+
+### Next bounded decision after weekly synthesis
+
+Close the unchanged three-publication structure audit and keep Marras's primary-source gate pending a lawful complete version. Next specify and execute a small, clearly labelled synthetic two-outcome design-discrimination test: construct scenarios sharing the same tic response but differing in pain-interference benefit; test what direct paired pain measurement adds under declared observation and missingness assumptions. Write the prediction, disconfirming outcome, joint mechanisms, estimands, seeds and limits before execution. This is distinct from prior one-outcome attrition bounds and response-label agreement. Do not claim clinical rates, meaningful-change thresholds, sample-size/power sufficiency or patient biology from the simulation.
+
+A subsequent human study would require a clinical investigator/institution, patient-priority and measurement validation, comparator and safety plan, ethics/consent and secure governed data, plus separate authorization. No family records, home experiment, participant collection or treatment change is requested. The already verified October 18 homepage feed remains unchanged by this weekly repository update. Publication readback is recorded after verification.
+
+### Weekly publication verification - 18 October 2026
+
+All 27 weekly research/report files matched their committed contents on GitHub connector readback at approximately 04:07:45 UTC from commit 491e53c9a0432b54e63723ab20e1508d593a50a0. The daily homepage feed was deliberately unchanged. [Readback record](updates/2026-10-18-weekly/publication-verification.json).

@@ -1,0 +1,414 @@
+{
+  "CBIT_6m_80pct_benchmark": {
+    "interpretation": "Arithmetic benchmark only; missing outcomes remain unknown",
+    "minimum_missing_positive": 8,
+    "missing_count": 9,
+    "rate_at_minimum": {
+      "fraction": "5/6",
+      "percent": 83.33333333333333,
+      "proportion": 0.8333333333333334
+    }
+  },
+  "acute_source_arithmetic": {
+    "CBIT_response": {
+      "fraction": "8/21",
+      "percent": 38.095238095238095,
+      "proportion": 0.38095238095238093
+    },
+    "PST_response": {
+      "fraction": "4/59",
+      "percent": 6.779661016949152,
+      "proportion": 0.06779661016949153
+    },
+    "ceil_reciprocal": 4,
+    "interpretation": "Reported NNT not reproduced by simple reciprocal of displayed response fractions; no unpublished model or corrected source value inferred",
+    "reciprocal_risk_difference": 3.193298969072165,
+    "reported_NNT": 5,
+    "unadjusted_risk_difference": {
+      "fraction": "388/1239",
+      "percent": 31.315577078288943,
+      "proportion": 0.3131557707828894
+    }
+  },
+  "limitations": [
+    "Response-conditioned follow-up is not an all-randomized treatment contrast.",
+    "Unknown outcomes are varied, not imputed as observed failures.",
+    "No continuous remission or joint visit response is identified.",
+    "No adult-only, off-treatment, quality-of-life or disease-modification estimate.",
+    "No sampling confidence intervals or model-based efficacy recalculation."
+  ],
+  "method": "Deterministic finite-cohort missing-outcome enumeration; no MAR assumption or confidence interval",
+  "rows": [
+    {
+      "acute_responder_identification_bounds": {
+        "lower": {
+          "fraction": "13/24",
+          "percent": 54.166666666666664,
+          "proportion": 0.5416666666666666
+        },
+        "upper": {
+          "fraction": "11/12",
+          "percent": 91.66666666666667,
+          "proportion": 0.9166666666666666
+        }
+      },
+      "arm": "CBIT",
+      "ascertainment": {
+        "fraction": "5/8",
+        "percent": 62.5,
+        "proportion": 0.625
+      },
+      "assessed": 15,
+      "available_case_positive": {
+        "fraction": "13/15",
+        "percent": 86.66666666666667,
+        "proportion": 0.8666666666666667
+      },
+      "documented_acute_and_later_positive_among_randomized": {
+        "fraction": "13/63",
+        "percent": 20.634920634920636,
+        "proportion": 0.20634920634920634
+      },
+      "documented_positive_among_acute_responders": {
+        "fraction": "13/24",
+        "percent": 54.166666666666664,
+        "proportion": 0.5416666666666666
+      },
+      "eligible_acute_responders": 24,
+      "missing_outcome_scenarios": [
+        {
+          "fraction": "13/24",
+          "hypothetical_missing_positive": 0,
+          "percent": 54.166666666666664,
+          "proportion": 0.5416666666666666
+        },
+        {
+          "fraction": "7/12",
+          "hypothetical_missing_positive": 1,
+          "percent": 58.333333333333336,
+          "proportion": 0.5833333333333334
+        },
+        {
+          "fraction": "5/8",
+          "hypothetical_missing_positive": 2,
+          "percent": 62.5,
+          "proportion": 0.625
+        },
+        {
+          "fraction": "2/3",
+          "hypothetical_missing_positive": 3,
+          "percent": 66.66666666666667,
+          "proportion": 0.6666666666666666
+        },
+        {
+          "fraction": "17/24",
+          "hypothetical_missing_positive": 4,
+          "percent": 70.83333333333333,
+          "proportion": 0.7083333333333334
+        },
+        {
+          "fraction": "3/4",
+          "hypothetical_missing_positive": 5,
+          "percent": 75.0,
+          "proportion": 0.75
+        },
+        {
+          "fraction": "19/24",
+          "hypothetical_missing_positive": 6,
+          "percent": 79.16666666666667,
+          "proportion": 0.7916666666666666
+        },
+        {
+          "fraction": "5/6",
+          "hypothetical_missing_positive": 7,
+          "percent": 83.33333333333333,
+          "proportion": 0.8333333333333334
+        },
+        {
+          "fraction": "7/8",
+          "hypothetical_missing_positive": 8,
+          "percent": 87.5,
+          "proportion": 0.875
+        },
+        {
+          "fraction": "11/12",
+          "hypothetical_missing_positive": 9,
+          "percent": 91.66666666666667,
+          "proportion": 0.9166666666666666
+        }
+      ],
+      "months_after_acute": 3,
+      "positive": 13,
+      "unknown": 9
+    },
+    {
+      "acute_responder_identification_bounds": {
+        "lower": {
+          "fraction": "1/2",
+          "percent": 50.0,
+          "proportion": 0.5
+        },
+        "upper": {
+          "fraction": "7/8",
+          "percent": 87.5,
+          "proportion": 0.875
+        }
+      },
+      "arm": "CBIT",
+      "ascertainment": {
+        "fraction": "5/8",
+        "percent": 62.5,
+        "proportion": 0.625
+      },
+      "assessed": 15,
+      "available_case_positive": {
+        "fraction": "4/5",
+        "percent": 80.0,
+        "proportion": 0.8
+      },
+      "documented_acute_and_later_positive_among_randomized": {
+        "fraction": "4/21",
+        "percent": 19.047619047619047,
+        "proportion": 0.19047619047619047
+      },
+      "documented_positive_among_acute_responders": {
+        "fraction": "1/2",
+        "percent": 50.0,
+        "proportion": 0.5
+      },
+      "eligible_acute_responders": 24,
+      "missing_outcome_scenarios": [
+        {
+          "fraction": "1/2",
+          "hypothetical_missing_positive": 0,
+          "percent": 50.0,
+          "proportion": 0.5
+        },
+        {
+          "fraction": "13/24",
+          "hypothetical_missing_positive": 1,
+          "percent": 54.166666666666664,
+          "proportion": 0.5416666666666666
+        },
+        {
+          "fraction": "7/12",
+          "hypothetical_missing_positive": 2,
+          "percent": 58.333333333333336,
+          "proportion": 0.5833333333333334
+        },
+        {
+          "fraction": "5/8",
+          "hypothetical_missing_positive": 3,
+          "percent": 62.5,
+          "proportion": 0.625
+        },
+        {
+          "fraction": "2/3",
+          "hypothetical_missing_positive": 4,
+          "percent": 66.66666666666667,
+          "proportion": 0.6666666666666666
+        },
+        {
+          "fraction": "17/24",
+          "hypothetical_missing_positive": 5,
+          "percent": 70.83333333333333,
+          "proportion": 0.7083333333333334
+        },
+        {
+          "fraction": "3/4",
+          "hypothetical_missing_positive": 6,
+          "percent": 75.0,
+          "proportion": 0.75
+        },
+        {
+          "fraction": "19/24",
+          "hypothetical_missing_positive": 7,
+          "percent": 79.16666666666667,
+          "proportion": 0.7916666666666666
+        },
+        {
+          "fraction": "5/6",
+          "hypothetical_missing_positive": 8,
+          "percent": 83.33333333333333,
+          "proportion": 0.8333333333333334
+        },
+        {
+          "fraction": "7/8",
+          "hypothetical_missing_positive": 9,
+          "percent": 87.5,
+          "proportion": 0.875
+        }
+      ],
+      "months_after_acute": 6,
+      "positive": 12,
+      "unknown": 9
+    },
+    {
+      "acute_responder_identification_bounds": {
+        "lower": {
+          "fraction": "1/4",
+          "percent": 25.0,
+          "proportion": 0.25
+        },
+        "upper": {
+          "fraction": "3/4",
+          "percent": 75.0,
+          "proportion": 0.75
+        }
+      },
+      "arm": "PST",
+      "ascertainment": {
+        "fraction": "1/2",
+        "percent": 50.0,
+        "proportion": 0.5
+      },
+      "assessed": 2,
+      "available_case_positive": {
+        "fraction": "1/2",
+        "percent": 50.0,
+        "proportion": 0.5
+      },
+      "documented_acute_and_later_positive_among_randomized": {
+        "fraction": "1/59",
+        "percent": 1.694915254237288,
+        "proportion": 0.01694915254237288
+      },
+      "documented_positive_among_acute_responders": {
+        "fraction": "1/4",
+        "percent": 25.0,
+        "proportion": 0.25
+      },
+      "eligible_acute_responders": 4,
+      "missing_outcome_scenarios": [
+        {
+          "fraction": "1/4",
+          "hypothetical_missing_positive": 0,
+          "percent": 25.0,
+          "proportion": 0.25
+        },
+        {
+          "fraction": "1/2",
+          "hypothetical_missing_positive": 1,
+          "percent": 50.0,
+          "proportion": 0.5
+        },
+        {
+          "fraction": "3/4",
+          "hypothetical_missing_positive": 2,
+          "percent": 75.0,
+          "proportion": 0.75
+        }
+      ],
+      "months_after_acute": 3,
+      "positive": 1,
+      "unknown": 2
+    },
+    {
+      "acute_responder_identification_bounds": {
+        "lower": {
+          "fraction": "1/4",
+          "percent": 25.0,
+          "proportion": 0.25
+        },
+        "upper": {
+          "fraction": "3/4",
+          "percent": 75.0,
+          "proportion": 0.75
+        }
+      },
+      "arm": "PST",
+      "ascertainment": {
+        "fraction": "1/2",
+        "percent": 50.0,
+        "proportion": 0.5
+      },
+      "assessed": 2,
+      "available_case_positive": {
+        "fraction": "1/2",
+        "percent": 50.0,
+        "proportion": 0.5
+      },
+      "documented_acute_and_later_positive_among_randomized": {
+        "fraction": "1/59",
+        "percent": 1.694915254237288,
+        "proportion": 0.01694915254237288
+      },
+      "documented_positive_among_acute_responders": {
+        "fraction": "1/4",
+        "percent": 25.0,
+        "proportion": 0.25
+      },
+      "eligible_acute_responders": 4,
+      "missing_outcome_scenarios": [
+        {
+          "fraction": "1/4",
+          "hypothetical_missing_positive": 0,
+          "percent": 25.0,
+          "proportion": 0.25
+        },
+        {
+          "fraction": "1/2",
+          "hypothetical_missing_positive": 1,
+          "percent": 50.0,
+          "proportion": 0.5
+        },
+        {
+          "fraction": "3/4",
+          "hypothetical_missing_positive": 2,
+          "percent": 75.0,
+          "proportion": 0.75
+        }
+      ],
+      "months_after_acute": 6,
+      "positive": 1,
+      "unknown": 2
+    }
+  ],
+  "sha256": {
+    "code": "4c3fedec473c257ac5400d76b35e99dc1f62f5ac6e00072700086f8ff4b5991b",
+    "input": "f3a56eecc744c52998c76cc5b5ea6411b1bdb84b1b43f062aa399078b360a8dc"
+  },
+  "source": "Wilhelm et al. 2012; DOI 10.1001/archgenpsychiatry.2011.1528; PMID 22868933; PMC3772729; NCT00231985",
+  "tests": {
+    "names": [
+      "CBIT_acute_partition",
+      "CBIT_analysis_order",
+      "CBIT_3m_enumerated_endpoints",
+      "CBIT_3m_bound_width",
+      "CBIT_3m_monotone",
+      "CBIT_3m_observed_inside_bounds",
+      "CBIT_6m_enumerated_endpoints",
+      "CBIT_6m_bound_width",
+      "CBIT_6m_monotone",
+      "CBIT_6m_observed_inside_bounds",
+      "PST_acute_partition",
+      "PST_analysis_order",
+      "PST_3m_enumerated_endpoints",
+      "PST_3m_bound_width",
+      "PST_3m_monotone",
+      "PST_3m_observed_inside_bounds",
+      "PST_6m_enumerated_endpoints",
+      "PST_6m_bound_width",
+      "PST_6m_monotone",
+      "PST_6m_observed_inside_bounds",
+      "CBIT_3m_manual",
+      "CBIT_6m_manual",
+      "PST_manual",
+      "no_missing_edge",
+      "all_missing_edge",
+      "zero_positive_edge",
+      "invalid_(0, 0, 0)",
+      "invalid_(5, 6, 1)",
+      "invalid_(5, 2, 3)",
+      "invalid_(5, 2, -1)",
+      "invalid_(5.0, 2, 1)",
+      "randomized_total",
+      "analyzed_total",
+      "completed_total",
+      "80pct_sensitivity",
+      "acute_RD_manual",
+      "NNT_discrepancy"
+    ],
+    "passed": 37
+  }
+}

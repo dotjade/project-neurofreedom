@@ -1,0 +1,143 @@
+{
+  "checkedAt": "2026-10-18T04:07:45Z",
+  "researchCommit": "491e53c9a0432b54e63723ab20e1508d593a50a0",
+  "files": [
+    {
+      "path": "analyses/focal_tic_pain/2026-10-18/extraction.json",
+      "match": true,
+      "sha": "9967c92a58064038178be6497a5d48ec0e1e64a4"
+    },
+    {
+      "path": "analyses/focal_tic_pain/2026-10-18/report.md",
+      "match": true,
+      "sha": "2cbfd47ef46a156f7e5846feffdde10b6dcd5ab7"
+    },
+    {
+      "path": "analyses/focal_tic_pain/2026-10-18/search-log.json",
+      "match": true,
+      "sha": "cf0e2ad215d2eeea28df51bdbb646d0c421ff797"
+    },
+    {
+      "path": "analyses/focal_tic_pain/2026-10-18/manifest.json",
+      "match": true,
+      "sha": "48bb89ff1cb23f41e24f7f45bcd6e0f737ea2a38"
+    },
+    {
+      "path": "analyses/focal_tic_pain/2026-10-18/provenance.json",
+      "match": true,
+      "sha": "6f53adc6b333e3bfbbff637409393dbb6f1b0f20"
+    },
+    {
+      "path": "analyses/focal_tic_pain/2026-10-18/prediction.md",
+      "match": true,
+      "sha": "136d4b15f0c72c3eb59691913a63cd74840a74c2"
+    },
+    {
+      "path": "analyses/evidence_structure/2026-10-18/build_inputs.py",
+      "match": true,
+      "sha": "5cf3a1a692f33bcf208a0b8c30ddd72e7b1303c2"
+    },
+    {
+      "path": "analyses/evidence_structure/2026-10-18/parent_check.py",
+      "match": true,
+      "sha": "0c587d6abe46dbfda0ab684a0ef302c42ddb03f1"
+    },
+    {
+      "path": "analyses/evidence_structure/2026-10-18/focal_review_provenance.json",
+      "match": true,
+      "sha": "ce298f7507b8ef1b3e7069ad0c88f72ddc4277b0"
+    },
+    {
+      "path": "analyses/evidence_structure/2026-10-18/report.md",
+      "match": true,
+      "sha": "fb0ffac577fd1a24e232c3e04885f36b8c025fbe"
+    },
+    {
+      "path": "analyses/evidence_structure/2026-10-18/README.md",
+      "match": true,
+      "sha": "44be5601e101133cfe2a0f4a4a26745f0902f22b"
+    },
+    {
+      "path": "analyses/evidence_structure/2026-10-18/execution_log.txt",
+      "match": true,
+      "sha": "77660642b0f51ca0438a1ec77cc7f72e57072dde"
+    },
+    {
+      "path": "analyses/evidence_structure/2026-10-18/focal_boundary_review.md",
+      "match": true,
+      "sha": "e3ab2c826658c12e7ae31900ebf1f80bbef2e11a"
+    },
+    {
+      "path": "analyses/evidence_structure/2026-10-18/aggregate_inputs.json",
+      "match": true,
+      "sha": "acb0b9b24cc9ec9075dc2887ec4c9e2e0f06a198"
+    },
+    {
+      "path": "analyses/evidence_structure/2026-10-18/manifest.json",
+      "match": true,
+      "sha": "7f1eef5aca59a0eb215365124d64217c0df4751a"
+    },
+    {
+      "path": "analyses/evidence_structure/2026-10-18/aggregate_checks.json",
+      "match": true,
+      "sha": "77660642b0f51ca0438a1ec77cc7f72e57072dde"
+    },
+    {
+      "path": "analyses/evidence_structure/2026-10-18/parent_reproduction.json",
+      "match": true,
+      "sha": "97a23a8e170f5a52618ad187aa0587910a06c35c"
+    },
+    {
+      "path": "analyses/evidence_structure/2026-10-18/provenance.json",
+      "match": true,
+      "sha": "04c443bb22cf07bdf9cb2f71f2e6492cea6225a8"
+    },
+    {
+      "path": "analyses/evidence_structure/2026-10-18/verify_structure.py",
+      "match": true,
+      "sha": "6785a8c6abc6aa052909a7911fbd6630047a32a7"
+    },
+    {
+      "path": "analyses/evidence_structure/2026-10-18/parent_check.log",
+      "match": true,
+      "sha": "5c9f8ed1284f2a8a107e7bc555f321cf0a219a73"
+    },
+    {
+      "path": "analyses/evidence_structure/2026-10-18/prediction.md",
+      "match": true,
+      "sha": "d6deaccc01631c0ddd3b22de969b0401f6161fab"
+    },
+    {
+      "path": "updates/2026-10-18-weekly-synthesis.md",
+      "match": true,
+      "sha": "ebc94825acc3d65a2c95e524e1c4de158a260696"
+    },
+    {
+      "path": "updates/2026-10-18-weekly/claim-matrix.json",
+      "match": true,
+      "sha": "f1708aecc8047a3187cca34c35596eb0acb0f9c4"
+    },
+    {
+      "path": "updates/2026-10-18-weekly/source-manifest.json",
+      "match": true,
+      "sha": "ffd823229952064457aee7ef11e10670b836ed9b"
+    },
+    {
+      "path": "README.md",
+      "match": true,
+      "sha": "5f211c6aba8bc2b4dcfafecb584f0dbc9d3ae739"
+    },
+    {
+      "path": "STATUS.md",
+      "match": true,
+      "sha": "6ed8a434d717d457adce6c13662d384a61be004a"
+    },
+    {
+      "path": "hypotheses.md",
+      "match": true,
+      "sha": "73689955820a7b0dbd781c5790f43feb097db4d4"
+    }
+  ],
+  "allExact": true,
+  "homepage": "Daily October18 feed unchanged; no new homepage publication claimed by weekly run."
+}

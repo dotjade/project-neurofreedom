@@ -1,10 +1,45 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-13T13:43:53Z",
-  "lastResearchDate": "2026-10-13",
+  "updatedAt": "2026-10-18T02:47:52Z",
+  "lastResearchDate": "2026-10-18",
   "cadence": "Daily scheduled review; publication follows verified work.",
-  "latestSummary": "The October 13 bounded scan verified no new qualifying result. The measurement review advanced a separate question: keep direct burden and tic scores distinct.",
+  "latestSummary": "A historical survey described how tic-related pain affects everyday life. Today's bounded scan found no qualifying new primary result or trial result.",
   "timeline": [
+    {
+      "date": "2026-10-18",
+      "title": "Pain has its own footprint.",
+      "type": "Historical survey and aggregate audit",
+      "summary": "A historical pain-selected survey reported interference with sleep, mood and everyday life. Mixed ages and missing item counts prevent an adult-only estimate.",
+      "record": "https://github.com/dotjade/project-neurofreedom/blob/main/analyses/pain_interference/2026-10-18/report.md"
+    },
+    {
+      "date": "2026-10-17",
+      "title": "Ask about pain directly.",
+      "type": "Historical survey and aggregate audit",
+      "summary": "A selected adult survey mixed past and present pain. Conflicting help-seeking counts prevent a reliable care-success percentage; reported usefulness does not establish treatment efficacy.",
+      "record": "https://github.com/dotjade/project-neurofreedom/blob/main/analyses/adult_pain/2026-10-17/report.md"
+    },
+    {
+      "date": "2026-10-16",
+      "title": "Measure life beyond tics.",
+      "type": "Same-trial secondary analysis",
+      "summary": "A behavioral-therapy study did not establish added benefit over supportive therapy on its daily-function measures. Positive responder associations answer a different question.",
+      "record": "https://github.com/dotjade/project-neurofreedom/blob/main/analyses/cbit_functioning/2026-10-16/report.md"
+    },
+    {
+      "date": "2026-10-15",
+      "title": "Who came back matters.",
+      "type": "Historical trial and aggregate analysis",
+      "summary": "A behavioral-therapy trial's six-month improvement figure describes returning early responders. Missing follow-ups and planned booster sessions limit claims about lasting benefit for everyone.",
+      "record": "https://github.com/dotjade/project-neurofreedom/blob/main/analyses/cbit_maintenance/2026-10-15/report.md"
+    },
+    {
+      "date": "2026-10-14",
+      "title": "Timing changes the conclusion.",
+      "type": "Historical trial and aggregate analysis",
+      "summary": "A 2022 adult online behavior-therapy trial missed its primary endpoint. Later benefits remain exploratory, with tic severity, impairment and quality of life kept separate.",
+      "record": "https://github.com/dotjade/project-neurofreedom/blob/main/analyses/online_tics/2026-10-14/report.md"
+    },
     {
       "date": "2026-10-13",
       "title": "A tic score is not the whole story.",
@@ -55,8 +90,8 @@
       "type": "Primary qualitative study",
       "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10863457/",
       "label": "Isaacs and colleagues, 2024",
-      "checkedAt": "2026-10-08",
-      "linkState": "Recorded accessible in repository review"
+      "checkedAt": "2026-10-18",
+      "linkState": "Primary article retrievable through this check"
     },
     {
       "title": "Persistence deserves its own attention.",
@@ -64,8 +99,8 @@
       "type": "Primary longitudinal study",
       "url": "https://www.neurology.org/doi/10.1212/01.WNL.0000086370.10186.7C",
       "label": "Pappert and colleagues, 2003",
-      "checkedAt": "2026-10-09",
-      "linkState": "Repository extraction; access depth limited"
+      "checkedAt": "2026-10-18",
+      "linkState": "HTTP 403 in this retrieval; not established broken"
     },
     {
       "title": "Shared improvement is not interchangeability.",
@@ -73,8 +108,8 @@
       "type": "Primary adult cohort study",
       "url": "https://link.springer.com/content/pdf/10.1186/s44247-026-00284-7.pdf",
       "label": "Ivanova and colleagues, 2026",
-      "checkedAt": "2026-10-13",
-      "linkState": "Full report reviewed in repository"
+      "checkedAt": "2026-10-18",
+      "linkState": "Primary PDF retrievable through this check"
     }
   ],
   "activities": [
@@ -140,6 +175,6 @@
     "trend": [],
     "message": "No public ratings are collected yet. There are no votes or trends to show."
   },
-  "activityEditionDate": "2026-10-13",
-  "featuredActivityId": "notice-one-thing"
+  "activityEditionDate": "2026-10-18",
+  "featuredActivityId": "hand-at-ease"
 }

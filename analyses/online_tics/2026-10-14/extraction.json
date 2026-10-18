@@ -1,0 +1,155 @@
+{
+  "record_id": "Haas2022_ONLINE_TICS",
+  "extraction_date_utc": "2026-10-14",
+  "reviewer": "NeuroFreedom bounded public-evidence analysis",
+  "title": "ONLINE-TICS: Internet-Delivered Behavioral Treatment for Patients with Chronic Tic Disorders",
+  "authors_year": "Haas et al., 2022",
+  "doi": "10.3390/jcm11010250",
+  "pmid": "35011989",
+  "pmcid": "PMC8745756",
+  "registry_id": "NCT02605902",
+  "publication_date": "2022-01-04",
+  "sources": {
+    "primary": "https://www.mdpi.com/2077-0383/11/1/250",
+    "accessible_primary_pdf": "https://publications.rwth-aachen.de/record/889351/files/889351.pdf",
+    "second_institutional_copy": "https://juser.fz-juelich.de/record/905141/files/jcm-11-00250-v4.pdf",
+    "protocol": "https://www.frontiersin.org/journals/psychiatry/articles/10.3389/fpsyt.2016.00119/full",
+    "protocol_doi": "10.3389/fpsyt.2016.00119",
+    "protocol_publication_date": "2016-06-30",
+    "registry": "https://clinicaltrials.gov/study/NCT02605902",
+    "registry_api": "https://clinicaltrials.gov/api/v2/studies/NCT02605902",
+    "scale_direction_primary_support": "https://www.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2016.00416/full"
+  },
+  "design": {
+    "type": "Prospective randomized controlled observer-blind three-arm trial at five German centers; only Hannover offered face-to-face CBIT",
+    "randomization": "Protocol: permuted blocks, stratified by site and preexisting anti-tic medication; 1:1 online arms at four centers, initially 1:1:1 at Hannover. Planned f2f n=16, actual n=24.",
+    "participants": {"randomized_total":161,"icbit":67,"online_psychoeducation":70,"face_to_face_cbit":24,"age_range_years":[18,62],"mean_age":35.66,"age_sd":12.47,"male_n":112,"female_n":49,"on_anti_tic_medication_percent":40.4},
+    "recruitment_reported": ["2016-09-29","2020-02-14"],
+    "inclusion": "Adult DSM-5 TS or chronic tic disorder, sufficient German and internet access, tic severity threshold and CGI-S criterion; medication stable at least six weeks. Threshold wording differs between protocol/registry and paper; see discrepancies.",
+    "exclusions": "Prior tic behavioral therapy; comorbidity needing primary/initial treatment; schizophrenia or pervasive developmental disorder; secondary tics or significant neurologic/psychiatric illness; current substance abuse/dependence; absent internet ability/access; recent other interventional study.",
+    "interventions": "Completely therapist-independent internet CBIT versus a similarly delivered education control; face-to-face manualized CBIT at Hannover only. Eight regular sessions. Protocol says over ten weeks; main paper section 2.1 says eight-week treatment.",
+    "ongoing_exposure": "iCBIT participants could use the platform during the six-month follow-up. Face-to-face participants could receive two optional boosters. Control/f2f participants could access iCBIT after their last follow-up.",
+    "masking": "Outcome observers intended masked; participant allocation likely inferable; no genuine participant blinding. Randomization does not remove self-report expectation bias or missingness bias.",
+    "applicability": "Direct adult evidence, but not a specifically persistent-severe adult cohort, an untreated natural-history study, or a refractory-to-CBIT sample. No diagnosis-stratified result or proof of continuously severe symptoms. Exclusions limit application to acute/unstable comorbidity and digitally excluded people."
+  },
+  "endpoints_and_methods": {
+    "primary": "Baseline-to-V3 YGTSS-TTS difference in adjusted mean change, iCBIT minus psychoeducation, at one week after treatment; standalone two-sided alpha .05 / upper 95% CI below zero.",
+    "key_secondary": "V3 YGTSS-TTS iCBIT versus face-to-face non-inferiority margin three points; confirmatory testing allowed only after primary superiority. Primary gate failed, so result is exploratory.",
+    "other_secondary": "V4/V5 TTS, motor/vocal components, impairment, GTS-QOL and GTS-QOL-VAS, video and self-rated tics, urges, clinician global scales, comorbidity and therapeutic alliance. No verified family-wide adjustment for these exploratory outcomes in inspected sources.",
+    "visits": {"V1":"baseline","V2":"five weeks after starting treatment","V3":"one week after end of treatment","V4":"three months after end of treatment","V5":"six months after end of treatment"},
+    "model": "MMRM of change with baseline outcome, treatment, visit, center, anti-tic medication and treatment-by-visit; participant random effect and compound-symmetric within-person covariance; REML, between-within denominator degrees of freedom. Figure 1 specifies separate expanded models through V3, V4 and V5.",
+    "analysis_population": "Nominal ITT includes all randomized participants; this does not mean every outcome was observed for all of them. MMRM uses an assumed missing-at-random mechanism; LOCF in secondary/sensitivity analyses; PP restricted to compliance. Numeric sensitivity estimates are not supplied in the inspected main text.",
+    "responder_definition": "Protocol 30% TTS reduction changed to at least 25% at a reported blinded review meeting following Jeon 2013. This is a documented analysis change, not the original protocol threshold. It remains a tic-response threshold, not a GTS-QOL MCID.",
+    "scale_direction": "For the focal TTS, impairment and GTS-QOL totals, lower is favorable. A separate prior primary study (Gerasch 2016 Methods) explicitly defines GTS-QOL-VAS higher as greater life satisfaction. Trial-specific VAS recoding was not documented in the inspected ONLINE-TICS sources.",
+    "qol_version_limits": "German-language sample and GTS-QOL reference to original Cavanna 2008. Precise translation/scoring/domain algorithm and native-domain change contrasts were not verified; do not pool it automatically with French adaptation or invent an MCID.",
+    "focal_numeric_inputs": "aggregate_inputs.json"
+  },
+  "other_numeric_findings": {
+    "motor_tics_iCBIT_minus_control": [
+      {"visit":"V3","estimate":-0.89,"ci":[-1.59,-0.19],"p":"0.013"},
+      {"visit":"V4","estimate":-1.88,"ci":[-2.68,-1.08],"p":"<0.001"},
+      {"visit":"V5","estimate":-1.71,"ci":[-2.56,-0.86],"p_table":"<0.001","p_prose":"0.001"}
+    ],
+    "vocal_tics_iCBIT_minus_control": [
+      {"visit":"V3","estimate":-0.40,"ci":[-1.31,0.52],"p":"0.395"},
+      {"visit":"V4","estimate":-0.46,"ci":[-1.50,0.59],"p":"0.390"},
+      {"visit":"V5","estimate":-1.00,"ci":[-2.08,0.07],"p":"0.068"}
+    ],
+    "video_MRVS_iCBIT_minus_control": [
+      {"visit":"V3","estimate":-0.88,"ci":[-1.84,0.08],"p":"0.072"},
+      {"visit":"V4","estimate":-1.40,"ci":[-2.40,-0.40],"p":"0.006"},
+      {"visit":"V5","estimate":-0.87,"ci":[-1.95,0.22],"p":"0.117"}
+    ],
+    "urge_PUTS9_iCBIT_minus_control": [
+      {"visit":"V3","estimate":1.46,"ci":[0.32,2.59],"p":"0.012","interpretation":"Nominally unfavorable to iCBIT under higher-worse scoring"},
+      {"visit":"V4","estimate":0.77,"ci":[-0.51,2.06],"p":"0.238"},
+      {"visit":"V5","estimate":0.51,"ci":[-0.92,1.93],"p":"0.484"}
+    ],
+    "GTS_QOL_VAS_iCBIT_minus_control": [
+      {"visit":"V3","estimate":-7.32,"ci":[-12.02,-2.62],"p":"0.002","interpretation":"Unfavorable under standard higher-better VAS scoring; trial coding not independently documented"},
+      {"visit":"V4","estimate":1.69,"ci":[-3.44,6.82],"p":"0.517"},
+      {"visit":"V5","estimate":-5.68,"ci":[-11.37,0.00],"p":"0.050","interpretation":"Boundary value; do not round into definitive significance"}
+    ],
+    "ATQ_discrepancy": {
+      "table4": [
+        {"visit":"V3","estimate":-6.18,"ci":[-11.57,-0.80],"p":"0.025"},
+        {"visit":"V4","estimate":-7.17,"ci":[-12.78,-1.55],"p":"0.013"},
+        {"visit":"V5","estimate":-6.26,"ci":[-12.27,-0.25],"p":"0.041"}
+      ],
+      "prose3_4": [
+        {"visit":"V3","estimate":-5.01,"ci":[-9.61,-0.41],"p":"0.033"},
+        {"visit":"V4","estimate":-6.22,"ci":[-11.06,-1.39],"p":"0.012"},
+        {"visit":"V5","estimate":-5.10,"ci":[-10.27,0.08],"p":"0.053"}
+      ],
+      "action":"Both retained; do not choose the favorable V5 version or combine rows as independent evidence. Excluded from aggregate multiplicity computation."
+    },
+    "tic_responder_difference_percentage_points": [
+      {"visit":"V3","difference":15.2,"p":"0.011"},
+      {"visit":"V4","difference":12.5,"p":"0.062"},
+      {"visit":"V5","difference":15.3,"p":"0.012"}
+    ],
+    "CGI_I_responder_model": "Failed to converge because few met much/very much improved criterion. No joint counts or successful model estimate reconstructed.",
+    "iCBIT_minus_f2f_TTS": [
+      {"visit":"V3","estimate":0.98,"ci":[-1.01,2.96],"p_equality_comparison":"0.333","NI_margin":3},
+      {"visit":"V4","estimate":1.82,"ci":[-0.54,4.18],"p_equality_comparison":"0.130"},
+      {"visit":"V5","estimate":0.25,"ci":[-2.23,2.73],"p_equality_comparison":"0.841"}
+    ],
+    "control_minus_f2f_TTS": [
+      {"visit":"V3","estimate":1.26,"ci":[-0.59,3.10],"p":"0.180"},
+      {"visit":"V4","estimate":2.48,"ci":[0.36,4.60],"p":"0.022"},
+      {"visit":"V5","estimate":1.33,"ci":[-0.85,3.52],"p":"0.230"}
+    ],
+    "comorbidity": "Table 4 has isolated nominal contrasts in OCD, ADHD, depression and anxiety but no consistent improvement at every visit; all four V5 contrasts include zero. No unqualified global psychiatric benefit claim."
+  },
+  "attrition": {
+    "compliant_by_v3_n":108,
+    "noncompliant_by_v3_n":53,
+    "reported_missing_clinic_visits_until_v3_n":42,
+    "reported_inadequate_sessions_n":11,
+    "further_dropouts_during_followup_n":9,
+    "derived_arm_counts": "See aggregate_checks.json; 27/16/10 noncompliant and 40/54/14 compliant in iCBIT/control/f2f.",
+    "unidentified": "Arm-by-visit outcome-specific observed n, missingness pattern, missingness-specific outcome means, and joint change covariance. Do not derive exact V3 completer or model-used sample counts from compliance.",
+    "interpretation": "MAR is an assumption; LOCF and PP agreement do not demonstrate robustness to informative missingness. No MNAR tipping-point efficacy calculation supported by available aggregates."
+  },
+  "safety": {
+    "incident_event_count":128,
+    "participants_with_at_least_one_incident_percent":{"iCBIT":32.8,"control":34.3,"f2f":58.3},
+    "iCBIT_vs_control_p":0.857,
+    "iCBIT_vs_f2f_p":0.028,
+    "attribution":"Investigators assessed none as treatment-related; open-question ascertainment.",
+    "limit":"Events are not participants. No observed attributed safety signal does not establish absence of rare harms or burden. Nominal group comparison is not definitive comparative safety."
+  },
+  "funding_conflicts": {
+    "funding":"German Federal Ministry of Education and Research, grant 01KG1421; EUR 600 from Tourette-Gesellschaft Deutschland.",
+    "platform":"Minddistrict implementation collaboration; trial investigators developed the intervention.",
+    "declarations":"Main paper lists multiple research, consulting, advisory, lecture or trial-funding relationships for K. Müller-Vahl, R. Musil, V. Roessner and another investigator; others report none. Full disclosure section linked; no inference of misconduct."
+  },
+  "source_discrepancies": [
+    "Protocol abstract lists NCT02413216, a pediatric TicHelper trial; body, primary paper and official record identify ONLINE-TICS as NCT02605902.",
+    "Protocol abstract says eighty sessions; body says eight sessions over ten weeks. Main paper says eight-week treatment. Preserve visit timing relative to treatment end.",
+    "Protocol/registry use TTS >14/>10 and CGI-S >4; primary paper describes minimum scores of 14/10 and 4. Actual boundary handling not resolved.",
+    "Registry control description includes relaxation training; main paper describes psychoeducation excluding behavioral-therapy information. Do not silently equate full control content without clarification.",
+    "Table 3 impairment V5 CI upper is -1.54; Results 3.1 prose prints +1.54. Use the table for the aggregate audit, prominently retain discrepancy.",
+    "ATQ estimates, intervals and p-values in Table 4 differ from Results 3.4 prose, including V5 nominal significance.",
+    "Motor V5 p is <.001 in Table 3 and .001 in prose. Not used in the focal nine-contrast computation."
+  ],
+  "registry_snapshot": {
+    "retrieved_date_utc":"2026-10-14",
+    "status":"COMPLETED",
+    "first_posted":"2015-11-16",
+    "last_update_posted":"2020-05-27",
+    "actual_start":"2016-09-29",
+    "actual_primary_completion":"2020-04-15",
+    "actual_completion":"2020-04-15",
+    "actual_enrollment":161,
+    "primary":"YGTSS-TTS one week after end of treatment",
+    "secondary_outcome_entries_n":12,
+    "hasResults":false,
+    "IPD_plan":"No in indexed researcher view; paper says data available on request. Neither is granted access.",
+    "limitation":"Current API record and researcher-view current/original fields inspected; complete historical version chain not audited."
+  },
+  "correction_retraction_check": "No linked correction or retraction identified in inspected PubMed/primary metadata and limited exact-DOI/title search. Publisher HTML blocked by 429; this is not comprehensive clearance.",
+  "access": "Institutional main-paper PDF text accessible, publisher HTML returned 429, direct PMC showed browser challenge; PDF screenshots failed. Full protocol HTML and official registry API accessible. No source full-text files or participant data saved.",
+  "supported_claim": "Later exploratory randomized tic and disease-specific QoL contrasts favor iCBIT in adults under continued platform access, with separate timing and considerable missingness uncertainty.",
+  "unsupported_claims": ["Primary confirmatory superiority established", "Confirmatory or universal equivalence to face-to-face CBIT", "Significant increase in efficacy over time", "Tic and quality-of-life effects differ or agree at individual level", "Global wellbeing improvement across every instrument", "Durability without continued access/practice", "Disease modification or cure", "A validated meaningful-change threshold for GTS-QOL", "Applicability to all severe/refractory adult patients"]
+}

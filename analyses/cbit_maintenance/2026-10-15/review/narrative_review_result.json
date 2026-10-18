@@ -1,0 +1,10 @@
+{
+  "verdict": "PASS within assigned maintenance/counts/interpretation review scope",
+  "wording_fixes_verified": true,
+  "reviewed_files_sha256": {
+    "report.md": "ca3bd0303ac91e2664c0e17a38b61cdb7c73fe3050347ab296380d5fbc2ade36",
+    "extraction.json": "cf2f83fe1126079cf6e92b2ae4b4c170aad3c17896735752283a2cff2aee22a9",
+    "provenance.json": "0195559aa57789be7186c4819d29df06d96e062aae6a2d570fee2f9b645fc68a"
+  },
+  "scope_note": "Narrative maintenance/counts/interpretation, acute reported CI cross-check, and related structured-extraction fields. Registry history, next-study metadata, comprehensive manuscript version differences and repository context are outside independent verification scope."
+}

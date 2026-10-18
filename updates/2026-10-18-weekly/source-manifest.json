@@ -1,0 +1,153 @@
+{
+  "repository": "dotjade/project-neurofreedom",
+  "branch": "main",
+  "observed_commit": "f150f4c019aca9ecda98b05d6c313b6fd1ae962c",
+  "observed_commit_time_utc": "2026-10-18T02:49:14Z",
+  "source_files": [
+    {
+      "path": "README.md",
+      "blob_sha": "f37db17fbbc502b0a0ef481c2f87ac14a87b04b7",
+      "url": "https://github.com/dotjade/project-neurofreedom/blob/main/README.md"
+    },
+    {
+      "path": "RESEARCH_PROTOCOL.md",
+      "blob_sha": "d69c21b73447f7ad9df0a3949b7fcaf57dd5ddde",
+      "url": "https://github.com/dotjade/project-neurofreedom/blob/main/RESEARCH_PROTOCOL.md"
+    },
+    {
+      "path": "STATUS.md",
+      "blob_sha": "c5b16580c9c1e65b4a0b3ebee58ff94d485b6fed",
+      "url": "https://github.com/dotjade/project-neurofreedom/blob/main/STATUS.md"
+    },
+    {
+      "path": "updates/2026-10-11-weekly-synthesis.md",
+      "blob_sha": "f035a8bf6e938deb3aaecd5d1b88d37c2d8d3ef9",
+      "url": "https://github.com/dotjade/project-neurofreedom/blob/main/updates/2026-10-11-weekly-synthesis.md"
+    },
+    {
+      "path": "hypotheses.md",
+      "blob_sha": "b18ce231cc55c952a2b0f80aa05394587bb7e3af",
+      "url": "https://github.com/dotjade/project-neurofreedom/blob/main/hypotheses.md"
+    },
+    {
+      "path": "analyses/adult_burden/2026-10-12/report.md",
+      "blob_sha": "daf4bbbde5cdc82ef7e1d74391d33c265d58cdc0",
+      "url": "https://github.com/dotjade/project-neurofreedom/blob/main/analyses/adult_burden/2026-10-12/report.md"
+    },
+    {
+      "path": "analyses/adult_pain/2026-10-17/report.md",
+      "blob_sha": "7701dc5e7f9b62d027468c958712439238f581bc",
+      "url": "https://github.com/dotjade/project-neurofreedom/blob/main/analyses/adult_pain/2026-10-17/report.md"
+    },
+    {
+      "path": "analyses/burden_validation/2026-10-13/report.md",
+      "blob_sha": "4891ac5c8071208edb08a6dddef5acdfbf5c340e",
+      "url": "https://github.com/dotjade/project-neurofreedom/blob/main/analyses/burden_validation/2026-10-13/report.md"
+    },
+    {
+      "path": "analyses/cbit_functioning/2026-10-16/report.md",
+      "blob_sha": "8649b92dd2aa992f985a05b3c5c54ac815ee53aa",
+      "url": "https://github.com/dotjade/project-neurofreedom/blob/main/analyses/cbit_functioning/2026-10-16/report.md"
+    },
+    {
+      "path": "analyses/cbit_maintenance/2026-10-15/report.md",
+      "blob_sha": "2f525b8cc877315352bbf9a3a881c6216abb2506",
+      "url": "https://github.com/dotjade/project-neurofreedom/blob/main/analyses/cbit_maintenance/2026-10-15/report.md"
+    },
+    {
+      "path": "analyses/online_tics/2026-10-14/report.md",
+      "blob_sha": "0bdf4c16b9ce0970b23d52fa50c01aae10dd9c60",
+      "url": "https://github.com/dotjade/project-neurofreedom/blob/main/analyses/online_tics/2026-10-14/report.md"
+    },
+    {
+      "path": "analyses/pain_interference/2026-10-18/report.md",
+      "blob_sha": "983099a654724e5aade4a88407f37a1e0140bbfe",
+      "url": "https://github.com/dotjade/project-neurofreedom/blob/main/analyses/pain_interference/2026-10-18/report.md"
+    },
+    {
+      "path": "updates/2026-10-12-cbit-tms-extraction.md",
+      "blob_sha": "864a12a6b1d802788e53988306106c85d9209de4",
+      "url": "https://github.com/dotjade/project-neurofreedom/blob/main/updates/2026-10-12-cbit-tms-extraction.md"
+    },
+    {
+      "path": "updates/2026-10-12-evidence-scan.md",
+      "blob_sha": "1d0ebe874bda4269096cab1ac4e147c69bf8333f",
+      "url": "https://github.com/dotjade/project-neurofreedom/blob/main/updates/2026-10-12-evidence-scan.md"
+    },
+    {
+      "path": "updates/2026-10-13-evidence-scan.md",
+      "blob_sha": "4d2234cc7fac235350dcf0c74447a84919fedf87",
+      "url": "https://github.com/dotjade/project-neurofreedom/blob/main/updates/2026-10-13-evidence-scan.md"
+    },
+    {
+      "path": "updates/2026-10-14/report.md",
+      "blob_sha": "993b2c7b43522ad1690e2a129543debcd533b626",
+      "url": "https://github.com/dotjade/project-neurofreedom/blob/main/updates/2026-10-14/report.md"
+    },
+    {
+      "path": "updates/2026-10-15/report.md",
+      "blob_sha": "61b2cf1f6f345bbdd115a9dc0348a6b3c07face8",
+      "url": "https://github.com/dotjade/project-neurofreedom/blob/main/updates/2026-10-15/report.md"
+    },
+    {
+      "path": "updates/2026-10-16/report.md",
+      "blob_sha": "25247cc79c5890c860c1e96a6735c3d91fd738a4",
+      "url": "https://github.com/dotjade/project-neurofreedom/blob/main/updates/2026-10-16/report.md"
+    },
+    {
+      "path": "updates/2026-10-17/report.md",
+      "blob_sha": "8e6a6314ec29cc3bab22185334944cf829b0e6b5",
+      "url": "https://github.com/dotjade/project-neurofreedom/blob/main/updates/2026-10-17/report.md"
+    },
+    {
+      "path": "updates/2026-10-18/report.md",
+      "blob_sha": "0fc01c625f47792636a06ec00b4bb4ccc7f7e7ca",
+      "url": "https://github.com/dotjade/project-neurofreedom/blob/main/updates/2026-10-18/report.md"
+    },
+    {
+      "path": "updates/2026-10-18/safety/report.md",
+      "blob_sha": "c26caf9c27f7b933b25f20b99b8a74c41bac1253",
+      "url": "https://github.com/dotjade/project-neurofreedom/blob/main/updates/2026-10-18/safety/report.md"
+    },
+    {
+      "path": "analyses/sensory_gating/2026-10-12/report.md",
+      "blob_sha": "538650a2189a4e3ec4b7da9bae32284408666a2e",
+      "url": "https://github.com/dotjade/project-neurofreedom/blob/main/analyses/sensory_gating/2026-10-12/report.md"
+    }
+  ],
+  "primary_ledger": {
+    "path": "evidence.jsonl",
+    "sha": "8405b9026b03f63169a3c1d17cc0ca26186c06c7"
+  },
+  "direct_primary_browser_open_check": {
+    "date": "2026-10-18",
+    "urls": [
+      "https://www.mdpi.com/2077-0383/11/1/250",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC7190082/",
+      "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2025.1537088/full",
+      "https://www.frontiersin.org/journals/psychiatry/articles/10.3389/fpsyt.2022.914044/full"
+    ],
+    "note": "Read-only source openings, not repetition of dated daily surveillance. No primary-source copies redistributed."
+  },
+  "new_weekly_artifacts": [
+    {
+      "report": "analyses/evidence_structure/2026-10-18/report.md",
+      "inputs": "analyses/evidence_structure/2026-10-18/aggregate_inputs.json",
+      "output": "analyses/evidence_structure/2026-10-18/aggregate_checks.json",
+      "verification": "analyses/evidence_structure/2026-10-18/parent_reproduction.json",
+      "local_report_sha256": "1b2c77567dac0427df78705f7b187bd402db3327a8f483ffe7dabddfcc9b0ef9"
+    },
+    {
+      "report": "analyses/focal_tic_pain/2026-10-18/report.md",
+      "extraction": "analyses/focal_tic_pain/2026-10-18/extraction.json",
+      "provenance": "analyses/focal_tic_pain/2026-10-18/provenance.json",
+      "local_report_sha256": "44c4a25aa68ac982a9e2a26c3fdabadc37ac741a7ac7c3d907a1981119c885e6"
+    }
+  ],
+  "publication_destinations": {
+    "report": "updates/2026-10-18-weekly-synthesis.md",
+    "claim_matrix": "updates/2026-10-18-weekly/claim-matrix.json",
+    "source_manifest": "updates/2026-10-18-weekly/source-manifest.json"
+  },
+  "synthesis_scope_note": "Historical study results and daily calculations were synthesized, not rerun by the prose-synthesis worker. No new daily surveillance scan, clinical analysis, simulated patient data or GitHub write occurred."
+}

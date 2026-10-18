@@ -1,0 +1,209 @@
+{
+  "analysis_id": "online_tics_time_specific_2026_10_14",
+  "retrieval_date_utc": "2026-10-14",
+  "prediction_recorded_at_utc": "2026-10-14T02:44:00Z",
+  "timestamp_note": "Minute-precision record, before first new-paper open/search. Filesystem clock display differs from UTC; conversation-provided UTC used.",
+  "repo_source_read_before_new_extraction": [
+    {
+      "path": "README.md",
+      "blob_sha": "55577edb11d5edcd18037a9f871570587ae99b13",
+      "url": "https://github.com/dotjade/project-neurofreedom/blob/main/README.md"
+    },
+    {
+      "path": "RESEARCH_PROTOCOL.md",
+      "blob_sha": "3cb049d097d68d032650700cf68d1612cbef1ec7",
+      "url": "https://github.com/dotjade/project-neurofreedom/blob/main/RESEARCH_PROTOCOL.md"
+    },
+    {
+      "path": "STATUS.md",
+      "blob_sha": "e04acdc33867e56795f9603bafe739012568b628",
+      "url": "https://github.com/dotjade/project-neurofreedom/blob/main/STATUS.md"
+    },
+    {
+      "path": "analyses/burden_validation/2026-10-13/report.md",
+      "blob_sha": "4891ac5c8071208edb08a6dddef5acdfbf5c340e",
+      "url": "https://github.com/dotjade/project-neurofreedom/blob/main/analyses/burden_validation/2026-10-13/report.md"
+    }
+  ],
+  "search_scope": "Targeted identity and interpretation verification for one prespecified adult trial, not a systematic review or current literature surveillance. No date/filter limit on historical primary-source discovery.",
+  "queries": [
+    {
+      "source": "web search",
+      "query": "Haas 2022 ONLINE-TICS 250 PMC randomized internet behavioral intervention",
+      "date": "2026-10-14",
+      "purpose": "Primary-paper identity and accessible public source",
+      "selected": [
+        "PMCID PMC8745756",
+        "PMID35011989",
+        "DOI10.3390/jcm11010250",
+        "RWTH institutional PDF"
+      ],
+      "exclusions": "Other trial/protocol results retained only as identity leads"
+    },
+    {
+      "source": "web search",
+      "query": "ONLINE-TICS trial protocol 2015 Haas Jakubovski Müller Vahl 2016 registry",
+      "date": "2026-10-14",
+      "purpose": "Prospective protocol and registry",
+      "selected": [
+        "DOI10.3389/fpsyt.2016.00119",
+        "NCT02605902"
+      ],
+      "exclusions": "NCT02413216 is a different pediatric TicHelper trial; CANNA-TICS is not this intervention"
+    },
+    {
+      "source": "web search",
+      "query": "\"GTS-QOL\" \"VAS\" \"satisfied\" 100",
+      "date": "2026-10-14",
+      "purpose": "Clarify VAS direction",
+      "selected": [],
+      "exclusions": "Search noise and patent/other-scale results not used as trial evidence"
+    },
+    {
+      "source": "web search",
+      "query": "\"Haas\" \"10.3390/jcm11010250\" correction OR erratum OR retraction",
+      "date": "2026-10-14",
+      "purpose": "Bounded correction/retraction check",
+      "selected": [],
+      "finding": "No matching correction/retraction identified; not comprehensive clearance"
+    },
+    {
+      "source": "web search",
+      "query": "\"NCT02605902\" \"Primary Outcome\" \"11 weeks\"",
+      "date": "2026-10-14",
+      "purpose": "Registered timing verification",
+      "selected": [
+        "NCT02605902 official record"
+      ],
+      "finding": "Primary one week after treatment rather than assuming an exact calendar week"
+    },
+    {
+      "source": "web search",
+      "query": "\"ONLINE-TICS\" \"QoL-VAS\"",
+      "date": "2026-10-14",
+      "purpose": "Cross-check indexed Table4 values",
+      "selected": [
+        "PMC primary-paper indexed text",
+        "RWTH PDF"
+      ],
+      "finding": "Identical focal and VAS values"
+    },
+    {
+      "source": "web search",
+      "query": "\"GTS-QOL\" \"extremely dissatisfied\" Cavanna",
+      "date": "2026-10-14",
+      "purpose": "Scale direction",
+      "selected": [],
+      "exclusions": "Patent mirrors and child-scale sources not used to infer trial recoding"
+    },
+    {
+      "source": "web search",
+      "query": "\"NCT02605902\" YGTSS 2016",
+      "date": "2026-10-14",
+      "purpose": "Official registry researcher-view metadata",
+      "selected": [
+        "https://clinicaltrials.gov/study/NCT02605902?tab=table"
+      ],
+      "finding": "Indexed researcher view available; ordinary open returns shell"
+    },
+    {
+      "source": "direct primary-source verification",
+      "query": "Gerasch2016 Methods Assessments for health-related QoL",
+      "date": "2026-10-14",
+      "selected": [
+        "https://www.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2016.00416/full"
+      ],
+      "finding": "Higher GTS-QOL worse; higher GTS-QOL-VAS better. Used only for standard direction; trial-specific coding remains unverified"
+    },
+    {
+      "source": "web search",
+      "query": "Wilhelm 2012 randomized trial behavior therapy adults Tourette 16 69 booster follow-up 6 months PMC",
+      "date": "2026-10-14",
+      "purpose": "Verify next bounded source lead, not a second completed trial analysis",
+      "selected": [
+        "PMCIDPMC3772729",
+        "PMID22868933",
+        "DOI10.1001/archgenpsychiatry.2011.1528"
+      ],
+      "finding": "Age16–69, responders offered boosters/follow-up; main next question is maintenance estimand"
+    },
+    {
+      "source": "web search",
+      "query": "\"Study protocol for a parallel-group randomized controlled trial of internet-delivered behavior therapy for adults with Tourette syndrome\"",
+      "date": "2026-10-14",
+      "purpose": "Identify an alternative future protocol lead discovered in previous query",
+      "selected": [
+        "PMID40949315",
+        "DOI10.3389/fdgth.2025.1518666",
+        "NCT06271083"
+      ],
+      "finding": "Protocol metadata only; no new outcome or current recruitment/status inference made; not included as an analyzed study"
+    }
+  ],
+  "screening_note": "Identity-matched pages and relevant method passages were selected; search result pagination was not exhaustive and an all-hit screening count was not recorded. Do not present these searches as complete coverage.",
+  "source_access": [
+    {
+      "url": "https://www.mdpi.com/2077-0383/11/1/250",
+      "result": "429 Too Many Requests on initial/repeat opens; /htm also unavailable",
+      "action": "Used author-institution-hosted version of record"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8745756/",
+      "result": "Direct open browser challenge; indexed search primary text accessible",
+      "action": "Did not solve challenge"
+    },
+    {
+      "url": "https://publications.rwth-aachen.de/record/889351/files/889351.pdf",
+      "result": "15-page PDF full text parsed, methods/tables/results/discussion/disclosures inspected",
+      "license_observed": "CC BY4.0 on title page",
+      "saved_full_text": false,
+      "visual_verification": "Web screenshots pages7 and9 failed; no visual verification claim"
+    },
+    {
+      "url": "https://juser.fz-juelich.de/record/905141/files/jcm-11-00250-v4.pdf",
+      "result": "Second institutional primary-paper copy opens",
+      "saved_full_text": false
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/psychiatry/articles/10.3389/fpsyt.2016.00119/full",
+      "result": "Protocol full HTML readable",
+      "saved_full_text": false
+    },
+    {
+      "url": "https://clinicaltrials.gov/api/v2/studies/NCT02605902",
+      "result": "Web open failed; direct Python urllib GET succeeded, selected metadata inspected",
+      "retrieval_date_utc": "2026-10-14",
+      "saved_full_record": false,
+      "last_update_posted": "2020-05-27",
+      "has_results": false
+    },
+    {
+      "url": "https://clinicaltrials.gov/study/NCT02605902?tab=table",
+      "result": "Search-indexed official researcher view supplies current/original fields; direct open returns shell",
+      "historical_version_chain_audited": false
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2016.00416/full",
+      "result": "QoL methods readable; scale direction only checked"
+    }
+  ],
+  "reproducibility": {
+    "code": "aggregate_checks.py",
+    "inputs": "aggregate_inputs.json",
+    "outputs": "aggregate_checks.json",
+    "command": "python aggregate_checks.py",
+    "python": "3.12.14",
+    "dependencies": "Python standard library only",
+    "random_seed": "Not applicable; deterministic",
+    "tests_passed": 33,
+    "independent_review": "Sibling reviewer separately extracted nine numerical rows, implemented Decimal calculations, and called audit(); independent artifact managed outside this directory"
+  },
+  "limits": [
+    "No individual records",
+    "No joint outcome covariance",
+    "No endpoint-specific missingness table",
+    "No unrestricted full-family multiplicity claim",
+    "No GitHub write from this task",
+    "No outreach, account creation, purchases or clinical action"
+  ]
+}

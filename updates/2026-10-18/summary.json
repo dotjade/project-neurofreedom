@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-18",
+  "core_started_utc": "2026-10-18T02:39:04.831175+00:00",
+  "core_completed_utc": "2026-10-18T02:40:12.806658+00:00",
+  "supplement_completed_utc": "2026-10-18T02:41:34.935486+00:00",
+  "inclusive_overlap": [
+    "2026-10-16",
+    "2026-10-18"
+  ],
+  "primary_evidence_additions": 0,
+  "pubmed_unique": 6,
+  "pubmed_occurrences": 12,
+  "new_pubmed_ids": [
+    "42888480"
+  ],
+  "secondary_reviews_newly_encountered": 1,
+  "preprint_doi_versions": 541,
+  "preprint_lexical_matches": 0,
+  "ctgov_unique_in_window": 3,
+  "ctgov_new_relevant_postings": 0,
+  "ctgov_new_results": 0,
+  "isrctn_window_total": 0,
+  "isrctn_positive_control_total": 22,
+  "conclusion": "No new qualifying primary tic result or newly posted relevant registry result verified in bounded searches. A new narrative review is secondary evidence; known negative-feasibility and retraction records are retained.",
+  "coverage_limits": [
+    "Partial October 18 day and indexing lag.",
+    "PubMed is not all journals; no full-text review of every record.",
+    "Lexical screen on two preprint servers may miss synonym-only work or other servers.",
+    "CTgov and ISRCTN are not worldwide registry coverage.",
+    "WHO ICTRP landing page only, latest listed imports October 12; no query export. CTIS shell only.",
+    "No claim of a cure, absence of all relevant research, or a change in care."
+  ]
+}

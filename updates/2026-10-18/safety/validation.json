@@ -1,0 +1,79 @@
+{
+  "checks": [
+    {
+      "name": "15 link/feed results",
+      "passed": true
+    },
+    {
+      "name": "10 timeline confirmations",
+      "passed": true
+    },
+    {
+      "name": "2 primary content identities",
+      "passed": true
+    },
+    {
+      "name": "0 established broken",
+      "passed": true
+    },
+    {
+      "name": "production and raw match baseline",
+      "passed": true
+    },
+    {
+      "name": "catalog and feedback exact matching production",
+      "passed": true
+    },
+    {
+      "name": "15 queries 68 cards",
+      "passed": true
+    },
+    {
+      "name": "17 official source paths",
+      "passed": true
+    }
+  ],
+  "result": "passed",
+  "files": [
+    {
+      "name": "check_links.py",
+      "sha256": "8abf524e04f78137c97d895ab0963ea69e11e622ff299d7449348de62050b55e"
+    },
+    {
+      "name": "link-check-run.log",
+      "sha256": "98945d35729b95114b6a363b0b28d5f098ce9731fc2f9dd23eee4202dc04074a"
+    },
+    {
+      "name": "link-ledger.json",
+      "sha256": "ff9e2aa7b0028a87db53d99b52bd125ddb41b9e40c6c1801984a2e6462b02fa0"
+    },
+    {
+      "name": "production.json",
+      "sha256": "f50943e412e3467aa3ed8825b753c6a9f6f734b90f3bfd66a747308ac986170f"
+    },
+    {
+      "name": "rawSource.json",
+      "sha256": "f50943e412e3467aa3ed8825b753c6a9f6f734b90f3bfd66a747308ac986170f"
+    },
+    {
+      "name": "regulatory-evidence.jsonl",
+      "sha256": "f737c902d61c43eb1f66adfa59106153507a7b12f64558fb3d2db05cb9e8f7b1"
+    },
+    {
+      "name": "report.md",
+      "sha256": "aa2039acd2adf85d5aa78ebccaebc43f93be8526a307005edd75695b2b92e071"
+    },
+    {
+      "name": "repository-provenance.json",
+      "sha256": "dafcd81ac7a470007e08739ebac273b655a87f29764da5a538134f8da2b106c5"
+    },
+    {
+      "name": "search-log.json",
+      "sha256": "03b7a683ffeafcf09da67b8986ef0f0bbb3c1f951ce9f8d6c68ecf9e9e7ce6ec"
+    },
+    {
+      "name": "source-checks.json",
+      "sha256": "24ad066ddadfe9ad4e8b4732c3a05693e4313584866f2cc85d0dd0a0340659ce"
+    }
+  ]
+}

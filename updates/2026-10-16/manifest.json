@@ -1,0 +1,66 @@
+{
+  "package_date": "2026-10-16",
+  "verification": "JSON/JSONL parsed; count and pagination checks passed; no raw abstracts/full papers/contact details. MHRA contextual classification verified and reconciled; original watched count zero. No commits.",
+  "files": [
+    {
+      "path": "baseline-metadata.json",
+      "bytes": 55713,
+      "sha256": "e112ac18c38ad69dd27c38e237cdf8d20a353717f715e7ec3372944e8c039da7"
+    },
+    {
+      "path": "primary-evidence.jsonl",
+      "bytes": 4428,
+      "sha256": "27e571812f5da5f65b041fa4eebb354eb1d720cad43947ae49cc80b1b9749d17"
+    },
+    {
+      "path": "prior-registry-selected-fields.json",
+      "bytes": 2466,
+      "sha256": "610374c86cb28a8a55b72726d0fe9bece8a38f1e9eb95f3ba935e14ba446d634"
+    },
+    {
+      "path": "registry-evidence.jsonl",
+      "bytes": 3761,
+      "sha256": "4bc3a858f55ebf8d710379349418257079c9b22fa7fae8d1c5ee43abfaf3da89"
+    },
+    {
+      "path": "report.md",
+      "bytes": 10593,
+      "sha256": "fef74a8b15456d6c962504ad6b492476bf1a1a38924153905dfa4ed7366bfbcb"
+    },
+    {
+      "path": "safety/regulatory-evidence.jsonl",
+      "bytes": 2881,
+      "sha256": "bf216006c7c004d4af7bdeaa23cbe8b27a0d37ae5f8e34711f9895488acaeea4"
+    },
+    {
+      "path": "safety/report.md",
+      "bytes": 6477,
+      "sha256": "45b2542caf3f0e8cc10377a613e1ad6c2a77f850915bf749363d9402294612b1"
+    },
+    {
+      "path": "safety/search-log.json",
+      "bytes": 50309,
+      "sha256": "70953dca38dc4c94405e5f6c9cd1c449ac6561aaee0e3dbcab18a95581dd88f6"
+    },
+    {
+      "path": "safety/source-checks.json",
+      "bytes": 12715,
+      "sha256": "f3d61d6e61cf37351aeef8fac83ef07638e6b4601aaac3397296985ebe8fdc34"
+    },
+    {
+      "path": "scan_sources.py",
+      "bytes": 9535,
+      "sha256": "891477a8fd678bb6ff970cbade48fbf5f4f45ea371e868a8d2457c49ad01dc96"
+    },
+    {
+      "path": "search-log.json",
+      "bytes": 139848,
+      "sha256": "90c22f24538cc26643dae65c114722350a5ca89d1ebccd68deea542fe7bb518a"
+    },
+    {
+      "path": "source-checks.json",
+      "bytes": 13252,
+      "sha256": "b8ad4cff3d2246cf25a131cc25b4c8fb7b1d74bde7fb5638a6bc483667770304"
+    }
+  ]
+}

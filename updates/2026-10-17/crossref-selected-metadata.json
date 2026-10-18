@@ -1,0 +1,198 @@
+[
+  {
+    "url": "https://api.crossref.org/works/10.1016/j.therap.2026.08.002",
+    "retrieved_utc": "2026-10-17T03:15:40.739851+00:00",
+    "sha256": "e72fa86a1f27c64c34861f9cc861738c8910b10f867f3194ae86c924131e4a40",
+    "metadata": {
+      "DOI": "10.1016/j.therap.2026.08.002",
+      "title": [
+        "Behavioral tics following sublingual allergen immunotherapy (OSIRIS): A case report"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            9
+          ]
+        ]
+      },
+      "published-online": null,
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            9
+          ]
+        ]
+      },
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            23
+          ]
+        ],
+        "date-time": "2026-09-23T04:17:58Z",
+        "timestamp": 1790137078000
+      },
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            15
+          ]
+        ],
+        "date-time": "2026-10-15T20:35:12Z",
+        "timestamp": 1792096512000
+      },
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            15
+          ]
+        ],
+        "date-time": "2026-10-15T20:47:31Z",
+        "timestamp": 1792097251951,
+        "version": "4.4.0"
+      },
+      "type": "journal-article",
+      "relation": {},
+      "update-to": null,
+      "URL": "https://doi.org/10.1016/j.therap.2026.08.002",
+      "link": [
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S0040595726000934?httpAccept=text/xml",
+          "content-type": "text/xml",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S0040595726000934?httpAccept=text/plain",
+          "content-type": "text/plain",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        }
+      ]
+    }
+  },
+  {
+    "url": "https://api.crossref.org/works/10.1016/j.ijbiomac.2026.153656",
+    "retrieved_utc": "2026-10-17T03:15:45.677442+00:00",
+    "sha256": "d6ba93b0a5c657fd20081b9e1c9156fe947693bae90885a23f9ec2b6db32d6ec",
+    "metadata": {
+      "DOI": "10.1016/j.ijbiomac.2026.153656",
+      "title": [
+        "Retraction notice to \u201cthe neuroprotective and behavioral improvement effects of glial fibrillary acidic protein (GFAP) molecules on tic disorder: Regulation of the 5-HT system by yohimbine\u201d [Int. J. Biol. Macromol. 304 (2025) 140956]"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            10
+          ]
+        ]
+      },
+      "published-online": null,
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            10
+          ]
+        ]
+      },
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            29
+          ]
+        ],
+        "date-time": "2026-07-29T20:41:38Z",
+        "timestamp": 1785357698000
+      },
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            14
+          ]
+        ],
+        "date-time": "2026-10-14T22:48:03Z",
+        "timestamp": 1792018083000
+      },
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            14
+          ]
+        ],
+        "date-time": "2026-10-14T23:45:12Z",
+        "timestamp": 1792021512133,
+        "version": "4.4.0"
+      },
+      "type": "journal-article",
+      "relation": {},
+      "update-to": [
+        {
+          "DOI": "10.1016/j.ijbiomac.2025.140956",
+          "type": "retraction",
+          "label": "Retraction",
+          "source": "retraction-watch",
+          "updated": {
+            "date-parts": [
+              [
+                2026,
+                7,
+                29
+              ]
+            ],
+            "date-time": "2026-07-29T00:00:00Z",
+            "timestamp": 1785283200000
+          },
+          "record-id": "72460"
+        },
+        {
+          "DOI": "10.1016/j.ijbiomac.2025.140956",
+          "type": "erratum",
+          "label": "Erratum",
+          "source": "publisher",
+          "updated": {
+            "date-parts": [
+              [
+                2026,
+                10,
+                1
+              ]
+            ],
+            "date-time": "2026-10-01T00:00:00Z",
+            "timestamp": 1790812800000
+          }
+        }
+      ],
+      "URL": "https://doi.org/10.1016/j.ijbiomac.2026.153656",
+      "link": [
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S0141813026036019?httpAccept=text/xml",
+          "content-type": "text/xml",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S0141813026036019?httpAccept=text/plain",
+          "content-type": "text/plain",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        }
+      ]
+    }
+  }
+]

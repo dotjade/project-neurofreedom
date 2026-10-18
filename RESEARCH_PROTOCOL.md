@@ -70,3 +70,7 @@ Operationalize remission before searching for a switch. Extract how longitudinal
 ## Active discovery execution update on 8 October 2026
 
 The daily and weekly schedules were successfully updated to require hypothesis testing or feasible analyses, not collection alone. Existing schedules remain unchanged. Research runs use available compute; no paid resources, external-agent connections, public release or clinical intervention are authorized by this execution plan. Synthetic methods tests must be labelled explicitly and cannot establish an individual biological mechanism. An open collaboration project remains a proposal pending a reviewed publication scope and appropriate governance.
+
+## Public publication scope - 13 October 2026
+
+The owner authorized public release of the evidence repository and tourette.fyi research journal. This supersedes the historical private-only/public-release restriction above for original public-science summaries, reproducible aggregate or synthetic analyses, source links and the approved optional activity catalog. It does not authorize participant collection, personal stories, medical intervention, outreach, or publication of private/identifiable information. Follow [the verified public update workflow](public/UPDATE_WORKFLOW.md); preserve truthful dates, accessible concise copy and explicit limitations. Shared voting remains disabled pending its separate privacy and hosting checks.

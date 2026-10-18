@@ -1,0 +1,6 @@
+arm	month	acute_responders	assessed	positive	unknown	ascertainment_pct	available_case_pct	confirmed_pct_of_acute_responders	missing_outcome_lower_pct	missing_outcome_upper_pct
+CBIT	3	24	15	13	9	62.5	86.66666666666667	54.166666666666664	54.166666666666664	91.66666666666667
+CBIT	6	24	15	12	9	62.5	80.0	50.0	50.0	87.5
+PST	3	4	2	1	2	50.0	50.0	25.0	25.0	75.0
+PST	6	4	2	1	2	50.0	50.0	25.0	25.0	75.0
+All independent arithmetic assertions passed.

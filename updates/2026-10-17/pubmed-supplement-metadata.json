@@ -1,0 +1,185 @@
+{
+  "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=42881067%2C42527169&retmode=xml",
+  "retrieved_utc": "2026-10-17T03:15:23.165352+00:00",
+  "sha256": "ce0bdf5de1861a3f915d6e1bb9b78aae5a93ea833c7a132f3b83a233e4b4a6b2",
+  "records": [
+    {
+      "pmid": "42881067",
+      "title": "Behavioral tics following sublingual allergen immunotherapy (OSIRIS): A case report.",
+      "authors": [
+        {
+          "last_name": "Traverso",
+          "initials": "L"
+        },
+        {
+          "last_name": "Mittaine",
+          "initials": "M"
+        },
+        {
+          "last_name": "Bagheri",
+          "initials": "H"
+        }
+      ],
+      "journal": "Therapie",
+      "identifiers": {
+        "pubmed": "42881067",
+        "doi": "10.1016/j.therap.2026.08.002",
+        "pii": "S0040-5957(26)00093-4"
+      },
+      "article_dates": [
+        {
+          "DateType": "Electronic",
+          "Year": "2026",
+          "Month": "09",
+          "Day": "23"
+        }
+      ],
+      "history": {
+        "received": {
+          "Year": "2026",
+          "Month": "1",
+          "Day": "8"
+        },
+        "revised": {
+          "Year": "2026",
+          "Month": "7",
+          "Day": "22"
+        },
+        "accepted": {
+          "Year": "2026",
+          "Month": "8",
+          "Day": "31"
+        },
+        "medline": {
+          "Year": "2026",
+          "Month": "10",
+          "Day": "15",
+          "Hour": "23",
+          "Minute": "31"
+        },
+        "pubmed": {
+          "Year": "2026",
+          "Month": "10",
+          "Day": "15",
+          "Hour": "23",
+          "Minute": "31"
+        },
+        "entrez": {
+          "Year": "2026",
+          "Month": "10",
+          "Day": "15",
+          "Hour": "22",
+          "Minute": "5"
+        }
+      },
+      "citation_pubdate": {
+        "Year": "2026",
+        "Month": "Sep",
+        "Day": "23"
+      },
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "corrections": []
+    },
+    {
+      "pmid": "42527169",
+      "title": "Retraction notice to \"the neuroprotective and behavioral improvement effects of glial fibrillary acidic protein (GFAP) molecules on tic disorder: Regulation of the 5-HT system by yohimbine\" [Int. J. Biol. Macromol. 304 (2025) 140956].",
+      "authors": [
+        {
+          "last_name": "Liu",
+          "initials": "L"
+        },
+        {
+          "last_name": "Chen",
+          "initials": "Y"
+        },
+        {
+          "last_name": "Chen",
+          "initials": "J"
+        },
+        {
+          "last_name": "Cheng",
+          "initials": "S"
+        },
+        {
+          "last_name": "Yang",
+          "initials": "Y"
+        },
+        {
+          "last_name": "Wang",
+          "initials": "L"
+        },
+        {
+          "last_name": "Cai",
+          "initials": "H"
+        },
+        {
+          "last_name": "Tang",
+          "initials": "J"
+        },
+        {
+          "last_name": "Xuan",
+          "initials": "X"
+        }
+      ],
+      "journal": "International journal of biological macromolecules",
+      "identifiers": {
+        "pubmed": "42527169",
+        "doi": "10.1016/j.ijbiomac.2026.153656",
+        "pii": "S0141-8130(26)03601-9"
+      },
+      "article_dates": [
+        {
+          "DateType": "Electronic",
+          "Year": "2026",
+          "Month": "07",
+          "Day": "29"
+        }
+      ],
+      "history": {
+        "pubmed": {
+          "Year": "2026",
+          "Month": "7",
+          "Day": "30",
+          "Hour": "0",
+          "Minute": "38"
+        },
+        "medline": {
+          "Year": "2026",
+          "Month": "7",
+          "Day": "30",
+          "Hour": "0",
+          "Minute": "38"
+        },
+        "entrez": {
+          "Year": "2026",
+          "Month": "7",
+          "Day": "29",
+          "Hour": "21",
+          "Minute": "57"
+        }
+      },
+      "citation_pubdate": {
+        "Year": "2026",
+        "Month": "Oct"
+      },
+      "pubtypes": [
+        "Published Erratum",
+        "Retraction Notice"
+      ],
+      "corrections": [
+        {
+          "RefType": "ErratumFor",
+          "pmid": "39947542",
+          "source": "Int J Biol Macromol. 2025 Apr;304(Pt 2):140956. doi: 10.1016/j.ijbiomac.2025.140956."
+        },
+        {
+          "RefType": "RetractionOf",
+          "pmid": "39947542",
+          "source": "Int J Biol Macromol. 2025 Apr;304(Pt 2):140956. doi: 10.1016/j.ijbiomac.2025.140956."
+        }
+      ]
+    }
+  ]
+}

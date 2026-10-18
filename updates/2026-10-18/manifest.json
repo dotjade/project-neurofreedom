@@ -1,0 +1,97 @@
+{
+  "date": "2026-10-18",
+  "root_files": [
+    {
+      "path": "baseline-metadata.json",
+      "bytes": 128066,
+      "sha256": "e6fb4eb4146cae43fe378c100f467b721482a36e11d2f8a464f2eeb3e4d6bfc3"
+    },
+    {
+      "path": "baseline-repository-provenance.json",
+      "bytes": 3880,
+      "sha256": "ad8b6f92e55fb43181b9f5366cc4a55a18e4fcd3ee279e99e77407f7f3aacb20"
+    },
+    {
+      "path": "build_results.py",
+      "bytes": 7839,
+      "sha256": "4ec87318754ba6805974fb90b5b38528b3390505c45816421129026d250a2256"
+    },
+    {
+      "path": "check_isrctn.py",
+      "bytes": 1684,
+      "sha256": "724ea0a0bd4c7a82c694f91d8a7c4933acd5c80205f94f1fab7454c85b2203a1"
+    },
+    {
+      "path": "integrity-recheck.jsonl",
+      "bytes": 754,
+      "sha256": "1e5082f6d412f1fce3f586fcb2b1254e0ae1d854f2bdbd3b4d63d1c249beb775"
+    },
+    {
+      "path": "isrctn-control.json",
+      "bytes": 14428,
+      "sha256": "2537657df0e32955ddcbcd979b477d90d0eae99acf7a98a9ef8cffe7013b9ff4"
+    },
+    {
+      "path": "primary-evidence.jsonl",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "registry-evidence.jsonl",
+      "bytes": 7252,
+      "sha256": "e94ed57b4e9ea770be2d48afd01b8d87e7433ef7adeca024be0cd471c9604b36"
+    },
+    {
+      "path": "report.md",
+      "bytes": 11356,
+      "sha256": "51a872426dc635ff303282079c0467f909290f6694279ce1511875cd1edcd9da"
+    },
+    {
+      "path": "scan_sources.py",
+      "bytes": 9594,
+      "sha256": "1b9ab24c7f5b6d3bf4aa2ec323f6cac29d3c9417b7e18f7abdb474cd06ed3e7c"
+    },
+    {
+      "path": "scan_supplement.py",
+      "bytes": 3550,
+      "sha256": "dd795e744e0977f65c8796b267ea6a1a8fcc8bf288f819b3e3891fc2ab8ff79a"
+    },
+    {
+      "path": "search-log.json",
+      "bytes": 118325,
+      "sha256": "038d09f4539342f565b8d4861e833afa014f4a0415e0d41b5d18f59563f79bf0"
+    },
+    {
+      "path": "secondary-screening.jsonl",
+      "bytes": 2801,
+      "sha256": "aaf48517fcd989f544e3f850c81112619755f6db3ce418219327cf3de5f4f024"
+    },
+    {
+      "path": "source-checks.json",
+      "bytes": 6964,
+      "sha256": "8692937c3db8aed5056d6bfbde73cdd3e718b88e2255856d55db9ed5f7f4bdd5"
+    },
+    {
+      "path": "summary.json",
+      "bytes": 1394,
+      "sha256": "38cc76e8f187f6274a47efd56a894df9b24f3f41b0eb4a9c60b60e7efb934f19"
+    },
+    {
+      "path": "supplement-selected-metadata.json",
+      "bytes": 9775,
+      "sha256": "2b21775075b53e8d1e4239e3b1eebeb9c5e3f00c4c92aa675d23ddc223114921"
+    },
+    {
+      "path": "validate_results.py",
+      "bytes": 4445,
+      "sha256": "aa93ddca5e11264c5382f069d11503dffdd90a9056090525e579c92297809e0a"
+    },
+    {
+      "path": "validation.json",
+      "bytes": 2219,
+      "sha256": "6a933bd24168ea2ee8a5ca1a0978be9ef7569ccbb2e0b108e3fd27046b7bdf44"
+    }
+  ],
+  "baseline_directory": "baseline/ is a local read-only comparison snapshot, not a new research addition.",
+  "primary_additions": 0
+}

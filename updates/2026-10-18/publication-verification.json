@@ -1,0 +1,282 @@
+{
+  "checkedAt": "2026-10-18T02:48:37.661548+00:00",
+  "researchCommit": "84bd12e03499cc8c04581b799170613432368348",
+  "repositoryReadback": {
+    "fileCount": 51,
+    "allExact": true,
+    "files": [
+      {
+        "path": "analyses/pain_interference/2026-10-18/extraction.json",
+        "match": true,
+        "sha": "b8b1aec33d441a169ec1f355f7672196c0128648"
+      },
+      {
+        "path": "analyses/pain_interference/2026-10-18/report.md",
+        "match": true,
+        "sha": "983099a654724e5aade4a88407f37a1e0140bbfe"
+      },
+      {
+        "path": "analyses/pain_interference/2026-10-18/execution_log.txt",
+        "match": true,
+        "sha": "e6c129c3635170b557157626f10579da343390c6"
+      },
+      {
+        "path": "analyses/pain_interference/2026-10-18/aggregate_inputs.json",
+        "match": true,
+        "sha": "65b659d1bc66b5a0959072399a7a79868dcf53d0"
+      },
+      {
+        "path": "analyses/pain_interference/2026-10-18/manifest.json",
+        "match": true,
+        "sha": "866a8198d61a6bea7a77739eda369e7dcf7acb0f"
+      },
+      {
+        "path": "analyses/pain_interference/2026-10-18/aggregate_checks.json",
+        "match": true,
+        "sha": "bece34fa1f28614b7db01c85f2a1b570a2a17cd1"
+      },
+      {
+        "path": "analyses/pain_interference/2026-10-18/provenance.json",
+        "match": true,
+        "sha": "bf3ecad0622bf1bcc0bf17e9034456ac42129ac5"
+      },
+      {
+        "path": "analyses/pain_interference/2026-10-18/test_aggregate_checks.py",
+        "match": true,
+        "sha": "badd14025ae1b4661fde57e8272f0effe7441d2f"
+      },
+      {
+        "path": "analyses/pain_interference/2026-10-18/aggregate_checks.py",
+        "match": true,
+        "sha": "d6824a3af8759619a502442a0a57c7d0cea8ef4b"
+      },
+      {
+        "path": "analyses/pain_interference/2026-10-18/prediction.md",
+        "match": true,
+        "sha": "7dc9ecc21b4f8ef572f9a3ee73e8db60b689fbb4"
+      },
+      {
+        "path": "analyses/pain_interference/2026-10-18/review/independent_checks.json",
+        "match": true,
+        "sha": "395d3c17333ff08327ebb21aeca8643b17ccab45"
+      },
+      {
+        "path": "analyses/pain_interference/2026-10-18/review/independent_review.md",
+        "match": true,
+        "sha": "2c425cebb5d5c25e2461066b4fd5a37d6e79d9e3"
+      },
+      {
+        "path": "analyses/pain_interference/2026-10-18/review/independent_checks.py",
+        "match": true,
+        "sha": "41084be24acc08932510fa6955c73297b88fcffd"
+      },
+      {
+        "path": "analyses/pain_interference/2026-10-18/review/aggregate_review.md",
+        "match": true,
+        "sha": "7443a965178ded3bc5435111ab25cf9626393b24"
+      },
+      {
+        "path": "analyses/pain_interference/2026-10-18/review/comparison_result.json",
+        "match": true,
+        "sha": "16cc69d22cbafcc76bb35d3e41beca1c87b31388"
+      },
+      {
+        "path": "analyses/pain_interference/2026-10-18/review/analysis_tests_rerun.txt",
+        "match": true,
+        "sha": "68a0968a563dcc11dc992e16a28b3aaa1edd9b05"
+      },
+      {
+        "path": "analyses/pain_interference/2026-10-18/review/compare_outputs.py",
+        "match": true,
+        "sha": "ac1d828c5027e8786e5ad8f10b3b25072547798d"
+      },
+      {
+        "path": "updates/2026-10-18/validate_results.py",
+        "match": true,
+        "sha": "a50fa2b7871aec4fc82693b8fc4d684b29004433"
+      },
+      {
+        "path": "updates/2026-10-18/check_isrctn.py",
+        "match": true,
+        "sha": "0ed6c233dc2ef16eddc78f4ccc0b97ca7c448c11"
+      },
+      {
+        "path": "updates/2026-10-18/scan_supplement.py",
+        "match": true,
+        "sha": "8a271c289668d27aba724d68011254759f7cd94a"
+      },
+      {
+        "path": "updates/2026-10-18/integrity-recheck.jsonl",
+        "match": true,
+        "sha": "c6018019a51f0d59e353857018a1f2a0b3204023"
+      },
+      {
+        "path": "updates/2026-10-18/supplement-selected-metadata.json",
+        "match": true,
+        "sha": "5229494bbade15ea7c74ae68b6d6c48cfdb0401b"
+      },
+      {
+        "path": "updates/2026-10-18/baseline-repository-provenance.json",
+        "match": true,
+        "sha": "09e135adc81dce77713eb181b27b4dd753a82566"
+      },
+      {
+        "path": "updates/2026-10-18/report.md",
+        "match": true,
+        "sha": "0fc01c625f47792636a06ec00b4bb4ccc7f7e7ca"
+      },
+      {
+        "path": "updates/2026-10-18/primary-evidence.jsonl",
+        "match": true,
+        "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+      },
+      {
+        "path": "updates/2026-10-18/secondary-screening.jsonl",
+        "match": true,
+        "sha": "acb4c5358aff0b39959e4049d04a7a39998aeb53"
+      },
+      {
+        "path": "updates/2026-10-18/summary.json",
+        "match": true,
+        "sha": "b65c5a90567acb1ee2cc1e49b7eb3a17169f6c9c"
+      },
+      {
+        "path": "updates/2026-10-18/search-log.json",
+        "match": true,
+        "sha": "849e30f58ed40924b1e200c96e1a54050a037a86"
+      },
+      {
+        "path": "updates/2026-10-18/build_results.py",
+        "match": true,
+        "sha": "fe042f5a62147865e4318125ecab856ed6658365"
+      },
+      {
+        "path": "updates/2026-10-18/scan_sources.py",
+        "match": true,
+        "sha": "09ec03195b2768ca4c05586fecb3e8bb4f1d6523"
+      },
+      {
+        "path": "updates/2026-10-18/registry-evidence.jsonl",
+        "match": true,
+        "sha": "99c0adaac1e5d8da1d4d595b4cec4817f37b5024"
+      },
+      {
+        "path": "updates/2026-10-18/manifest.json",
+        "match": true,
+        "sha": "b1b5d16ae9d31af6827c6e91859feb86946e7ebb"
+      },
+      {
+        "path": "updates/2026-10-18/isrctn-control.json",
+        "match": true,
+        "sha": "16ddff36249aa298ddd02e1380fe69e0aaa5fab2"
+      },
+      {
+        "path": "updates/2026-10-18/validation.json",
+        "match": true,
+        "sha": "9b38e952a0f28173f92e9abf045a54d15965f606"
+      },
+      {
+        "path": "updates/2026-10-18/source-checks.json",
+        "match": true,
+        "sha": "3ead0c0d30024077aae0f009c7db87bd3eda1a10"
+      },
+      {
+        "path": "updates/2026-10-18/baseline-metadata.json",
+        "match": true,
+        "sha": "2bdcceab8562fa59bb629331aa6649c20b7a02ba"
+      },
+      {
+        "path": "updates/2026-10-18/safety/report.md",
+        "match": true,
+        "sha": "c26caf9c27f7b933b25f20b99b8a74c41bac1253"
+      },
+      {
+        "path": "updates/2026-10-18/safety/search-log.json",
+        "match": true,
+        "sha": "d38bcf0f9b2d2ae2731e9fff206bd55b7d2fe55f"
+      },
+      {
+        "path": "updates/2026-10-18/safety/source-checks.json",
+        "match": true,
+        "sha": "d55afd26b4326813639a9d26296f3fad52001fa3"
+      },
+      {
+        "path": "updates/2026-10-18/safety/regulatory-evidence.jsonl",
+        "match": true,
+        "sha": "f51e266488189b9e2239b64ef27015ca9037fbeb"
+      },
+      {
+        "path": "updates/2026-10-18/safety/repository-provenance.json",
+        "match": true,
+        "sha": "d2f2df6f7af7f659b1222ec65a1dc6ec882b631a"
+      },
+      {
+        "path": "updates/2026-10-18/safety/check_links.py",
+        "match": true,
+        "sha": "c6d7817126f72d0b9d7338d1e582c322c4da3e9b"
+      },
+      {
+        "path": "updates/2026-10-18/safety/link-check-run.log",
+        "match": true,
+        "sha": "225d4c8189f870ccacb530b1db8040227a29ed17"
+      },
+      {
+        "path": "updates/2026-10-18/safety/validation.json",
+        "match": true,
+        "sha": "5c681a0f3b4dba6afcec3cef2bb7791727fdf95e"
+      },
+      {
+        "path": "updates/2026-10-18/safety/link-ledger.json",
+        "match": true,
+        "sha": "512cace6830fe108d2b351e9d1a0e977a0a0c75d"
+      },
+      {
+        "path": "public/link-checks/2026-10-18.json",
+        "match": true,
+        "sha": "512cace6830fe108d2b351e9d1a0e977a0a0c75d"
+      },
+      {
+        "path": "public/research-feed.json",
+        "match": true,
+        "sha": "de5ba4f393e89f4fe129d007dda602f6acfdb853"
+      },
+      {
+        "path": "public/validation/2026-10-18-feed.cjs",
+        "match": true,
+        "sha": "be066c37b9b6d989dde93eaea039445e26e3b74d"
+      },
+      {
+        "path": "README.md",
+        "match": true,
+        "sha": "f37db17fbbc502b0a0ef481c2f87ac14a87b04b7"
+      },
+      {
+        "path": "STATUS.md",
+        "match": true,
+        "sha": "61a66984144c0126b4e5f7fcfc3db59c3a769cb4"
+      },
+      {
+        "path": "evidence.jsonl",
+        "match": true,
+        "sha": "8405b9026b03f63169a3c1d17cc0ca26186c06c7"
+      }
+    ]
+  },
+  "production": {
+    "url": "https://tourette.fyi/api/public-feed",
+    "httpStatus": 200,
+    "source": "repository",
+    "jsonMatchesCommittedSource": true,
+    "updatedAt": "2026-10-18T02:47:52Z",
+    "lastResearchDate": "2026-10-18",
+    "activityEditionDate": "2026-10-18",
+    "featuredActivityId": "hand-at-ease",
+    "checkedAt": "2026-10-18T02:48:37.661548+00:00"
+  },
+  "anonymousSource": {
+    "url": "https://raw.githubusercontent.com/dotjade/project-neurofreedom/main/public/research-feed.json",
+    "httpStatus": 200,
+    "jsonMatchesCommittedSource": true
+  },
+  "limitations": "Feed propagation verified, not fresh rendered-page accessibility, real-device narration or zoom. No deployment or collection setting changed."
+}

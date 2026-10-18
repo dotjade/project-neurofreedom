@@ -1,0 +1,122 @@
+{
+  "blocks": [
+    {
+      "id": "O_primary",
+      "status": "primary_superiority_not_demonstrated",
+      "trial_id": "NCT02605902"
+    },
+    {
+      "id": "O_later_tics",
+      "status": "exploratory_randomized_positive_some_visits",
+      "trial_id": "NCT02605902"
+    },
+    {
+      "id": "O_impairment",
+      "status": "exploratory_randomized_positive_some_visits",
+      "trial_id": "NCT02605902"
+    },
+    {
+      "id": "O_qol",
+      "status": "exploratory_randomized_positive_some_visits",
+      "trial_id": "NCT02605902"
+    },
+    {
+      "id": "O_noninferiority",
+      "status": "confirmatory_gate_closed",
+      "trial_id": "NCT02605902"
+    },
+    {
+      "id": "W_primary",
+      "status": "primary_superiority_supported",
+      "trial_id": "NCT00231985"
+    },
+    {
+      "id": "W_impairment",
+      "status": "secondary_randomized_nominal_positive",
+      "trial_id": "NCT00231985"
+    },
+    {
+      "id": "W_maintenance",
+      "status": "selected_responder_maintenance",
+      "trial_id": "NCT00231985"
+    },
+    {
+      "id": "M_randomized_function",
+      "status": "randomized_difference_not_demonstrated",
+      "trial_id": "NCT00231985"
+    },
+    {
+      "id": "M_response_function",
+      "status": "postrandomization_association",
+      "trial_id": "NCT00231985"
+    },
+    {
+      "id": "M_followup_function",
+      "status": "selected_within_group_followup",
+      "trial_id": "NCT00231985"
+    }
+  ],
+  "code_sha256": "0fecfb288ca2a6f819aa5094eabbfca02242685025effabd9f0b7f182be00a22",
+  "deduplicated_trial_allocation_slots": 283,
+  "enrollment_warning": "Allocation accounting only; not an analysis sample, adult-only N, meta-analysis or verified unique-person census across trials",
+  "independent_randomized_trial_clusters": 2,
+  "inference_block_count": 11,
+  "input_sha256": "1d99727b9338a61ef920f44b950282ea62cc73cd886b9c0e565ecee782cdf3e7",
+  "primary_status_counts": {
+    "primary_superiority_not_demonstrated": 1,
+    "primary_superiority_supported": 1
+  },
+  "randomized_functional_followup_after_verified_cessation_clusters": [],
+  "replicated_randomized_functional_followup_after_verified_cessation_supported": false,
+  "report_level_repeated_enrollment_slots": 405,
+  "result_publications": 3,
+  "scope_warning": "Counts describe this fixed coding table only. Blocks are correlated and unequally sized, not evidence weights or a probability of efficacy.",
+  "status_counts": {
+    "confirmatory_gate_closed": 1,
+    "exploratory_randomized_positive_some_visits": 3,
+    "postrandomization_association": 1,
+    "primary_superiority_not_demonstrated": 1,
+    "primary_superiority_supported": 1,
+    "randomized_difference_not_demonstrated": 1,
+    "secondary_randomized_nominal_positive": 1,
+    "selected_responder_maintenance": 1,
+    "selected_within_group_followup": 1
+  },
+  "strict_confirmatory_adult_only_cessation_clusters": [],
+  "test_count": 24,
+  "tests_passed": [
+    "three_publications_two_trials",
+    "same_trial_secondary_publication",
+    "date_and_doi_case_normalization",
+    "duplicate_date_version_does_not_add_trial",
+    "distinct_synthetic_trial_adds_cluster",
+    "repeated_allocation_slots_removed",
+    "genuine_acute_benefit_preserved",
+    "failed_online_primary_preserved",
+    "eleven_preselected_blocks",
+    "same_trial_function_does_not_inherit_primary_positive",
+    "noninferiority_gate_not_rescued",
+    "selected_maintenance_not_randomized",
+    "selected_function_not_randomized",
+    "responder_association_not_treatment_effect",
+    "none_verified_treatment_cessation_functional_claim",
+    "no_replicated_claim",
+    "claim_can_pass_when_all_requirements_verified",
+    "unknown_functional_favorable_reported_does_not_pass_strict_claim",
+    "unknown_randomized_contrast_retained_does_not_pass_strict_claim",
+    "unknown_cessation_of_platform_or_boosters_verified_does_not_pass_strict_claim",
+    "unknown_confirmatory_support_does_not_pass_strict_claim",
+    "unknown_adult_only_does_not_pass_strict_claim",
+    "conflicting_same_doi_cluster_rejected",
+    "not_equivalence_language"
+  ],
+  "trial_to_reports": {
+    "NCT00231985": [
+      "McGuire2020",
+      "Wilhelm2012"
+    ],
+    "NCT02605902": [
+      "Haas2022"
+    ]
+  }
+}

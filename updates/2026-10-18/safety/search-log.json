@@ -1,0 +1,347 @@
+{
+  "schema_version": 1,
+  "scan_date": "2026-10-18",
+  "prior_verified_scan_completed_utc_approximate": "2026-10-17T03:17:12Z",
+  "publication_date_overlap": [
+    "2026-10-16",
+    "2026-10-18"
+  ],
+  "query_system": "web search restricted in query text to official FDA/EMA/MHRA sources; irrelevant government-domain hits excluded",
+  "query_count": 15,
+  "returned_card_count": 68,
+  "batches": [
+    {
+      "id": "search-batch-1",
+      "submitted_at_utc": "2026-10-18T02:39:16.039Z",
+      "queries": [
+        "site:fda.gov (Tourette OR guanfacine OR aripiprazole OR ecopipam OR risperidone OR pimozide) after:2026-10-15 before:2026-10-19",
+        "site:fda.gov (NeuroStar OR Neupulse OR \"deep brain stimulation\" OR \"median nerve\") after:2026-10-15 before:2026-10-19",
+        "site:ema.europa.eu (Intuniv OR Tourette OR aripiprazole OR guanfacine OR risperidone) after:2026-10-15 before:2026-10-19",
+        "site:gov.uk (Tourette OR ADHD OR OCD OR antidepressants OR guanfacine) after:2026-10-15 before:2026-10-19"
+      ],
+      "returned_card_count": 17,
+      "cards": [
+        {
+          "title": "Intuniv | European Medicines Agency (EMA)",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/intuniv"
+        },
+        {
+          "title": "Antidepressants: use and safety - GOV.UK",
+          "url": "https://www.gov.uk/government/publications/antidepressants-use-and-safety--2/selective-serotonin-reuptake-inhibitors-ssris-and-serotonin-and-noradrenaline-reuptake-inhibitors-snris-use-and-safety"
+        },
+        {
+          "title": "Class 2 Device Recall Medline",
+          "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfres/res.cfm?id=220729"
+        },
+        {
+          "title": "Drug utilisation study of Intuniv® (guanfacine extended release) in European Countries – A prescriber survey (Intuniv survey study Europe) | HMA-EMA Catalogues of real-world data sources and studies",
+          "url": "https://catalogues.ema.europa.eu/node/3292/administrative-details"
+        },
+        {
+          "title": "Abbott Medical Recalls Proclaim and Infinity IPGs for Inability to Exit Magnetic Resonance Imaging (MRI) Mode | FDA",
+          "url": "https://www.fda.gov/medical-devices/medical-device-recalls-and-early-alerts/abbott-medical-recalls-proclaim-and-infinity-ipgs-inability-exit-magnetic-resonance-imaging-mri-mode"
+        },
+        {
+          "title": "Antidepressants: use and safety - GOV.UK",
+          "url": "https://www.gov.uk/government/publications/antidepressants-use-and-safety--2"
+        },
+        {
+          "title": "Electrophysiological Biomarkers for Non-clinical Safety Evaluation of Neuro-interventional Devices | Center for Devices and Radiological Health",
+          "url": "https://www.origin-cdrh-rst.fda.gov/electrophysiological-biomarkers-non-clinical-safety-evaluation-neuro-interventional-devices"
+        },
+        {
+          "title": "Humanitarian Device Exemption (HDE)",
+          "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfHDE/hde.cfm?PAGENUM=10&advisorycommittee=&applicant=Medtronic+Neuromodulation&center=&combinationproducts=off&decisiondatefrom=&decisiondateto=&docketnumber=&expeditedreview=&hdenumber=&ivdproducts=off&noticedatefrom=&noticedateto=&productcode=MRU&sortcolumn=&start_search=41&supplementnumber=&supplementtype=&tradename=&znumber="
+        },
+        {
+          "title": "Class 2 Device Recall Vercise Genus\" R16 and R32 Implantable Pulse Generator Kit",
+          "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfRes/res.cfm?ID=207089"
+        },
+        {
+          "title": "Establishment Registration & Device Listing",
+          "url": "https://www.accessdata.fda.gov/scrIpts/cdrh/cfdocs/cfRL/rl.cfm?lid=266368&lpcd=OLM"
+        },
+        {
+          "title": "Class 2 Device Recall A610",
+          "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfRes/res.cfm?id=186320"
+        },
+        {
+          "title": "EMEA-000235-PIP02-10-M02 - paediatric investigation plan | European Medicines Agency (EMA)",
+          "url": "https://www.ema.europa.eu/ga/medicines/human/paediatric-investigation-plans/emea-000235-pip02-10-m02"
+        },
+        {
+          "title": "Boston Scientific",
+          "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf15/P150031S040C.pdf"
+        },
+        {
+          "title": "<table id=\"e1\">",
+          "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf20/K203527.pdf"
+        },
+        {
+          "title": "Table 1: Description of studies used in PopPK analyses dataset",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2017/209885Orig1s000ClinPharmR.pdf"
+        },
+        {
+          "title": "Pramipexole Accord, INN-pramipexole",
+          "url": "https://www.ema.europa.eu/nl/documents/product-information/pramipexole-accord-epar-product-information_nl.pdf"
+        },
+        {
+          "title": "Uni-Review– NDA 210251",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2018/210251Orig1s000MultidisciplineR.pdf"
+        }
+      ],
+      "screening_summary": "Known Intuniv and antidepressant material; historical device recalls, approvals/listings and older or unrelated regulatory documents. No new qualifying notice verified."
+    },
+    {
+      "id": "search-batch-2",
+      "submitted_at_utc": "2026-10-18T02:39:26.757Z",
+      "queries": [
+        "site:fda.gov (clonidine OR haloperidol OR valbenazine OR deutetrabenazine OR tetrabenazine) after:2026-10-15 before:2026-10-19",
+        "site:ema.europa.eu (clonidine OR haloperidol OR pimozide OR valbenazine OR deutetrabenazine OR ecopipam) after:2026-10-15 before:2026-10-19",
+        "site:gov.uk/drug-safety-update (October 2026) (methylphenidate OR atomoxetine OR lisdexamfetamine OR antidepressants OR antipsychotics)",
+        "site:gov.uk/drug-device-alerts (October 2026) (NeuroStar OR Tourette OR stimulation OR guanfacine)"
+      ],
+      "returned_card_count": 18,
+      "cards": [
+        {
+          "title": "Antidepressants: new safety measures for all patients to improve communication of the risk of suicidal thoughts and behaviours and persistent sexual dysfunction - GOV.UK",
+          "url": "https://www.gov.uk/drug-safety-update/antidepressants-new-safety-measures-for-all-patients-to-improve-communication-of-the-risk-of-suicidal-thoughts-and-behaviours-and-persistent-sexual-dysfunction"
+        },
+        {
+          "title": "Drug Safety Update - GOV.UK",
+          "url": "https://www.gov.uk/drug-safety-update?therapeutic_area=general-practice"
+        },
+        {
+          "title": "Alerts, recalls and safety information: medicines and medical devices - GOV.UK",
+          "url": "https://www.gov.uk/drug-device-alerts?alert_type%5B%5D=devices&alert_type%5B%5D=field-safety-notices"
+        },
+        {
+          "title": "Alerts, recalls and safety information: medicines and medical devices - GOV.UK",
+          "url": "https://www.gov.uk/drug-device-alerts?%5B%5D=devices"
+        },
+        {
+          "title": "Alerts, recalls and safety information: medicines and medical devices - GOV.UK",
+          "url": "https://www.gov.uk/drug-device-alerts?alert_type=medicines-recall-notification"
+        },
+        {
+          "title": "Alerts, recalls and safety information: medicines and medical devices - GOV.UK",
+          "url": "https://www.gov.uk/drug-device-alerts?%5B%5D=devices&%5B%5D=field-safety-notices"
+        },
+        {
+          "title": "Alerts, recalls and safety information: medicines and medical devices - GOV.UK",
+          "url": "https://www.gov.uk/drug-device-alerts?alert_type=national-patient-safety"
+        },
+        {
+          "title": "Medicines and Healthcare products Regulatory Agency - GOV.UK",
+          "url": "https://www.gov.uk/government/organisations/medicines-and-healthcare-products-regulatory-agency"
+        },
+        {
+          "title": "Antidepressants: use and safety - GOV.UK",
+          "url": "https://www.gov.uk/government/publications/antidepressants-use-and-safety--2/selective-serotonin-reuptake-inhibitors-ssris-and-serotonin-and-noradrenaline-reuptake-inhibitors-snris-use-and-safety"
+        },
+        {
+          "title": "Methylphenidate long-acting (modified-release) preparations: caution if switching between products due to differences in formulations - GOV.UK",
+          "url": "https://www.gov.uk/drug-safety-update/methylphenidate-long-acting-modified-release-preparations-caution-if-switching-between-products-due-to-differences-in-formulations?UNLID=525568852202610128571"
+        },
+        {
+          "title": "Alerts, recalls and safety information: medicines and medical devices - GOV.UK",
+          "url": "https://www.gov.uk/drug-device-alerts?alert_type%5B%5D=medicines-recall-notification"
+        },
+        {
+          "title": "Alerts, recalls and safety information: medicines and medical devices - GOV.UK",
+          "url": "https://www.gov.uk/drug-device-alerts?alert_type%5B%5D=national-patient-safety"
+        },
+        {
+          "title": "While not FDA-approved for VMS, clonidine and gabapentin are used off-label to treat VMS. Safety and efficacy data in the population with VMS is limited, but they appear less efficacious than HT. Side effects seen with clonidine include dry mouth, drowsiness, and insomnia, and side effects for gabapentin include dizziness, somnolence, and peripheral edema.",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2023/216578Orig1s000RiskR.pdf"
+        },
+        {
+          "title": "# 1. EXECUTIVE SUMMARY",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2017/209885Orig1s000ClinPharmR.pdf"
+        },
+        {
+          "title": "DEPARTMENT OF HEALTH AND HUMAN SERVICES",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2017/208082Orig1s000ltr.pdf"
+        },
+        {
+          "title": "<table id=\"e1\">",
+          "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf20/K202567.pdf"
+        },
+        {
+          "title": "Medicines you must not take with Viekirax",
+          "url": "https://www.ema.europa.eu/en/documents/product-information/viekirax-epar-product-information_en.pdf"
+        },
+        {
+          "title": "<table id=\"e1\">",
+          "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf20/K203527.pdf"
+        }
+      ],
+      "screening_summary": "Known October 15 antidepressant communication; alert-index variants include stale cached results; older methylphenidate warning and older/unrelated regulatory documents. No new qualifying notice verified."
+    },
+    {
+      "id": "search-batch-3",
+      "submitted_at_utc": "2026-10-18T02:40:05.252Z",
+      "queries": [
+        "site:fda.gov (ADHD OR OCD OR methylphenidate OR atomoxetine OR lisdexamfetamine OR fluvoxamine OR sertraline) after:2026-10-15 before:2026-10-19",
+        "site:ema.europa.eu (ADHD OR OCD OR methylphenidate OR atomoxetine OR lisdexamfetamine OR fluvoxamine OR sertraline) after:2026-10-15 before:2026-10-19",
+        "site:gov.uk (ecopipam OR aripiprazole OR risperidone OR pimozide OR haloperidol OR clonidine OR valbenazine OR deutetrabenazine OR tetrabenazine) after:2026-10-15 before:2026-10-19",
+        "(site:fda.gov OR site:ema.europa.eu OR site:gov.uk) (topiramate OR botulinum OR tiapride) (warning OR recall OR safety) after:2026-10-15 before:2026-10-19"
+      ],
+      "returned_card_count": 18,
+      "cards": [
+        {
+          "title": "FDA updating warnings to improve safe use of prescription stimulants used to treat ADHD and other conditions | FDA",
+          "url": "https://www.fda.gov/drugs/drug-safety-communications/fda-updating-warnings-improve-safe-use-prescription-stimulants-used-treat-adhd-and-other-conditions"
+        },
+        {
+          "title": "Topamax - supply shortage | European Medicines Agency (EMA)",
+          "url": "https://www.ema.europa.eu/en/medicines/human/shortages/topamax"
+        },
+        {
+          "title": "New Pediatric Labeling Information Database - Detail",
+          "url": "https://www.accessdata.fda.gov/scripts/sda/sdDetailNavigation.cfm?id=14CE032258141B7DE053564DA8C071F2&sd=labelingdatabase"
+        },
+        {
+          "title": "<table id=\"e1\">",
+          "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf20/K202567.pdf"
+        },
+        {
+          "title": "Meeting highlights from the Committee for Medicinal Products for Human Use (CHMP) 9-12 December 2024 | European Medicines Agency (EMA)",
+          "url": "https://www.ema.europa.eu/en/news/meeting-highlights-committee-medicinal-products-human-use-chmp-9-12-december-2024"
+        },
+        {
+          "title": "Microsoft Word - Correction FINAL CHMP Monthly Report December 2008 Rev 0.doc",
+          "url": "https://www.ema.europa.eu/en/documents/committee-report/committee-medicinal-products-human-use-chmp-december-2008-plenary-meeting-monthly-report_en.pdf"
+        },
+        {
+          "title": "EudraCT",
+          "url": "https://eudract.ema.europa.eu/results-web/"
+        },
+        {
+          "title": "EMEA/H/N/PSR/S/0033 - periodic safety update report single assessment | European Medicines Agency (EMA)",
+          "url": "https://www.ema.europa.eu/fr/medicines/psusa/emea-h-n-psr-s-0033"
+        },
+        {
+          "title": "PRAC recommends new measures to avoid topiramate exposure in pregnancy | European Medicines Agency (EMA)",
+          "url": "https://www.ema.europa.eu/is/news/prac-recommends-new-measures-avoid-topiramate-exposure-pregnancy"
+        },
+        {
+          "title": "List of medicines under additional monitoring | European Medicines Agency (EMA)",
+          "url": "https://www.ema.europa.eu/de/human-regulatory-overview/post-authorisation/pharmacovigilance-post-authorisation/medicines-under-additional-monitoring/list-medicines-under-additional-monitoring"
+        },
+        {
+          "title": "Classification of changes: questions and answers | European Medicines Agency (EMA)",
+          "url": "https://www.ema.europa.eu/en/human-regulatory-overview/post-authorisation/classification-changes-questions-answers"
+        },
+        {
+          "title": "Methylphenidate product-specific bioequivalence guidance - Scientific guideline | European Medicines Agency (EMA)",
+          "url": "https://www.ema.europa.eu/cs/node/256797"
+        },
+        {
+          "title": "EU/3/17/1855 - orphan designation for treatment of Lennox-Gastaut syndrome | European Medicines Agency (EMA)",
+          "url": "https://www.ema.europa.eu/en/medicines/human/orphan-designations/eu-3-17-1855"
+        },
+        {
+          "title": "Type-IA variations: questions and answers | European Medicines Agency (EMA)",
+          "url": "https://www.ema.europa.eu/cs/human-regulatory-overview/post-authorisation/variations-including-extensions-marketing-authorisations/type-ia-variations-questions-answers"
+        },
+        {
+          "title": "Cross Discipline Team Leader Review",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2017/022063Orig1s000SumR.pdf"
+        },
+        {
+          "title": "Clinical Safety Review",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2016/209531orig1s000medr.pdf"
+        },
+        {
+          "title": "Clinical Review",
+          "url": "https://www.fda.gov/media/124194/download"
+        },
+        {
+          "title": "Clinical Review",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2023/216578Orig1s000MedR.pdf?trk=public_post_comment-text"
+        }
+      ],
+      "screening_summary": "Historical stimulant/antidepressant/topiramate warnings and unrelated or procedural documents. Topamax shortage candidate checked directly: first published June 29, 2026, ongoing with expected resolution end-2026; no in-window event established."
+    },
+    {
+      "id": "search-batch-4",
+      "submitted_at_utc": "2026-10-18T02:40:19.294Z",
+      "queries": [
+        "site:fda.gov (Tourette OR NeuroStar OR guanfacine OR ecopipam OR aripiprazole OR clonidine OR risperidone OR pimozide) (\"October 16, 2026\" OR \"October 17, 2026\" OR \"October 18, 2026\")",
+        "site:ema.europa.eu (Tourette OR ADHD OR OCD OR guanfacine OR aripiprazole OR risperidone) (\"16/10/2026\" OR \"17/10/2026\" OR \"18/10/2026\")",
+        "site:gov.uk (Tourette OR ADHD OR OCD OR antidepressant OR stimulation) (\"16 October 2026\" OR \"17 October 2026\" OR \"18 October 2026\")"
+      ],
+      "returned_card_count": 15,
+      "cards": [
+        {
+          "title": "Outage Notification and Disruption Policy | FDA",
+          "url": "https://www.fda.gov/industry/policiesguidance/outage-notification-and-disruption-policy"
+        },
+        {
+          "title": "Official address Domenico Scarlattilaan 6  ●1083 HS Amsterdam  ●The Netherlands",
+          "url": "https://www.ema.europa.eu/en/documents/other/timetable-type-ii-variation-worksharing-application-monthly-assessment_en.pdf"
+        },
+        {
+          "title": "Statutory Sick Pay tables for 2026 - GOV.UK",
+          "url": "https://www.gov.uk/government/publications/statutory-sick-pay-tables-for-linking-periods-of-incapacity-for-work/statutory-sick-pay-tables-for-2026"
+        },
+        {
+          "title": "Events | London Borough of Waltham Forest",
+          "url": "https://www.walthamforest.gov.uk/events?events_category=57&events_end=&events_location=49&events_start=&page=35"
+        },
+        {
+          "title": "Events | London Borough of Waltham Forest",
+          "url": "https://www.walthamforest.gov.uk/events?dates=choose&end=&events_category=All&events_location=All&page=355&start=2022-06-24"
+        },
+        {
+          "title": "Official address Domenico Scarlattilaan 6  ●1083 HS Amsterdam  ●The Netherlands",
+          "url": "https://www.ema.europa.eu/system/files/documents/other/timetable-safety-signal-atmp-en.pdf"
+        },
+        {
+          "title": "PRIME: eligibility requests and outcomes | European Medicines Agency (EMA)",
+          "url": "https://www.ema.europa.eu/en/human-regulatory-overview/research-development/prime-priority-medicines/prime-eligibility-requests-outcomes"
+        },
+        {
+          "title": "Events | Ampthill Town Council",
+          "url": "https://www.ampthill-tc.gov.uk/events"
+        },
+        {
+          "title": "Recommended submission dates 2024-2026",
+          "url": "https://www.ema.europa.eu/it/media/23933"
+        },
+        {
+          "title": "Events | London Borough of Waltham Forest",
+          "url": "https://www.walthamforest.gov.uk/events?dates=choose&end=&events_category=57&events_end=&events_location=50&events_start=&page=71&start=2022-06-21"
+        },
+        {
+          "title": "Events | London Borough of Waltham Forest",
+          "url": "https://www.walthamforest.gov.uk/events?page=645"
+        },
+        {
+          "title": "Home - Hemyock Parish Council",
+          "url": "https://hemyockparish.gov.uk/?p=108"
+        },
+        {
+          "title": "Admission - Household Waste Recycling Centre Haverton Hill - Stockton-on-Tees Borough Council",
+          "url": "https://digital.stockton.gov.uk/hwrc-bookings?selectedDay=20261014"
+        },
+        {
+          "title": "Calendar for Greater Manchester Integrated Care Partnership Board - October 2026",
+          "url": "https://democracy.greatermanchester-ca.gov.uk/mgCalendarMonthView.aspx?C=426R&CID=426&DD=2026&M=10&MR=1&OT=R&WE=1"
+        },
+        {
+          "title": "Admission - Household Waste Recycling Centre Haverton Hill - Stockton-on-Tees Borough Council",
+          "url": "https://digital.stockton.gov.uk/hwrc-bookings?date=20261013"
+        }
+      ],
+      "screening_summary": "Exact-date queries returned an FDA electronic-submission outage notice, EMA procedural dates and irrelevant local-government calendar pages. None is qualifying watched-therapy evidence."
+    }
+  ],
+  "limitations": [
+    "Result-card counts include duplicates, old documents and irrelevant sources, not unique events.",
+    "Search date constraints and crawl labels do not guarantee publication freshness.",
+    "No third-party/news safety claims used as evidence.",
+    "Only titles, URLs and original screening summaries retained; no article full text or case details saved."
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "retrieved_utc_approximate": "2026-10-15T02:57:00Z/2026-10-15T02:59:22Z",
+  "note": "Original source-check summaries only. Source dates are dates displayed by official pages, not search-engine freshness dates. No source files or full text are redistributed.",
+  "baseline_repository_files_read": [
+    "https://github.com/dotjade/project-neurofreedom/blob/main/README.md",
+    "https://github.com/dotjade/project-neurofreedom/blob/main/RESEARCH_PROTOCOL.md",
+    "https://github.com/dotjade/project-neurofreedom/blob/main/updates/2026-10-14/safety/report.md"
+  ],
+  "sources": [
+    {
+      "source_id": "FDA-DSC",
+      "url": "https://www.fda.gov/drugs/drug-safety-and-availability/drug-safety-communications",
+      "status": "retrieved",
+      "scope": "Newest visible dated communications",
+      "source_date": "2026-09-15",
+      "summary": "Newest visible entry remains Kybella; no watched overlap entry."
+    },
+    {
+      "source_id": "FDA-DEVICE-SC",
+      "url": "https://www.fda.gov/medical-devices/medical-device-safety/safety-communications",
+      "status": "retrieved",
+      "scope": "Newest visible dated communications",
+      "source_date": "2026-06-03",
+      "summary": "Newest visible entry remains ankle replacement; no watched overlap entry."
+    },
+    {
+      "source_id": "FDA-DRUG-NEWS",
+      "url": "https://www.fda.gov/drugs/news-events-human-drugs/whats-new-related-drugs",
+      "status": "retrieved",
+      "scope": "October 13–14 rows",
+      "source_date": "2026-10-14",
+      "summary": "One October 14 item concerns an expanded bladder-cancer indication for nogapendekin alfa inbakicept-pmln. October 13 Orange Book/database group is baseline overlap. No watched notice."
+    },
+    {
+      "source_id": "FDA-RECALL-INDEX",
+      "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts",
+      "status": "retrieved",
+      "scope": "Top ten visible rows; all three October 14 rows screened",
+      "source_date": "2026-10-14",
+      "summary": "Three October 14 rows concern argatroban particulate matter and two sesame-allergen food entries, all outside the watchlist. Next visible date is October 9. This index explicitly omits recalls without a listed public notice."
+    },
+    {
+      "source_id": "EMA-NEW",
+      "url": "https://www.ema.europa.eu/en/news-events/whats-new",
+      "status": "retrieved",
+      "scope": "35 rows dated October 14 and 26 rows dated October 13",
+      "source_date": "2026-10-14",
+      "row_counts": {
+        "2026-10-14": 35,
+        "2026-10-13": 26,
+        "2026-10-15": 0
+      },
+      "summary": "No named watchlist medicine among October 14 rows. Known October 13 Intuniv entry deduplicated. No October 15 row visible."
+    },
+    {
+      "source_id": "MHRA-DSU",
+      "url": "https://www.gov.uk/drug-safety-update",
+      "status": "retrieved",
+      "scope": "Newest visible dated update",
+      "source_date": "2026-09-02",
+      "summary": "Newest visible entry remains parenteral nutrition filters; no watched overlap item."
+    },
+    {
+      "source_id": "MHRA-ALERTS",
+      "url": "https://www.gov.uk/drug-device-alerts",
+      "status": "retrieved",
+      "scope": "Newest visible issued rows",
+      "source_date": "2026-10-13",
+      "summary": "Newest entry remains CRRT/echinocandin adsorption advice; outside watchlist. October 12 Pedmarqsi recall is also unrelated; no October 14–15 item visible."
+    },
+    {
+      "source_id": "MHRA-FSN",
+      "url": "https://www.gov.uk/drug-device-alerts/field-safety-notices-for-october-2026",
+      "status": "retrieved",
+      "scope": "Entire substantive monthly list visible",
+      "source_date": "2026-10-09",
+      "summary": "October field-safety page still contains Nova StatStrip ketone test strips only; no watched device."
+    },
+    {
+      "source_id": "EMA-INTUNIV",
+      "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/intuniv",
+      "status": "retrieved",
+      "scope": "RMP, English product-information, procedure-history and tracked-changes publication metadata",
+      "source_date": "2026-10-13",
+      "underlying_procedure_date": "2026-09-03",
+      "summary": "Known document dates remain October 13; latest product-information procedure remains VR/0000334464, September 3. Already recorded in October 14 report; not a new finding."
+    },
+    {
+      "source_id": "FDA-NEUROSTAR",
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfRES/res.cfm?id=222521",
+      "status": "retrieved",
+      "scope": "Notice event fields and footer",
+      "source_date": "2026-10-09",
+      "firm_initiated_date": "2026-08-24",
+      "page_footer_date": "2026-10-13",
+      "identifiers": [
+        "Z-0142-2027",
+        "99812"
+      ],
+      "summary": "Known Class II NeuroStar recall remains open/classified for HP coil cables outside product specifications, 179 units. Core fields match prior extracted summary. Current footer October 13 differs from prior footer October 12, but no event-level substantive update is evidenced. No injury count or injury mechanism inferred."
+    },
+    {
+      "source_id": "EMA-PRAC",
+      "url": "https://www.ema.europa.eu/en/human-regulatory-overview/post-authorisation/pharmacovigilance-post-authorisation/signal-management/prac-recommendations-safety-signals",
+      "status": "retrieved",
+      "scope": "Newest English overview and wording publication metadata",
+      "source_date": "2026-09-28",
+      "summary": "Newest visible English recommendation set is the August 31–September 3 PRAC meeting, first published September 28; no new overlap set visible."
+    },
+    {
+      "source_id": "EMA-BOARD",
+      "url": "https://www.ema.europa.eu/en/documents/other/outcome-written-procedures-finalised-during-period-04-june-2026-22-september-2026_en.pdf",
+      "status": "retrieved",
+      "scope": "Two-page text inspection",
+      "source_date": "2026-09-30",
+      "web_listing_date": "2026-10-14",
+      "summary": "Newly listed document concerns board membership, accounts and meeting minutes, not watched-product safety; excluded. Web publication and document date kept separate."
+    },
+    {
+      "source_id": "FDA-LIST-STALE",
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfRES/res.cfm?IVDProducts=&PMA_510K_Num=&centerclassificationtypetext=2&event_id=&firmlegalnam=&knumber=&pagenum=10&pnumber=&postdatefrom=10%2F09%2F2019&postdateto=&productcode=&productdescriptiontxt=&productshortreasontxt=&recallnumber=&recallstatus=&rootCauseText=&sortcolumn=cdd&start_search=1",
+      "status": "retrieved_but_not_current",
+      "scope": "Top listing returned by direct open",
+      "source_date": "2026-09-14",
+      "summary": "Search summary showed October rows but direct opening redirected and returned a September 14 footer and September rows, with a 500-record cap. Not used as current surveillance evidence."
+    },
+    {
+      "source_id": "FDA-DATE-QUERY",
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfRES/res.cfm?postdatefrom=10%2F13%2F2026&postdateto=10%2F15%2F2026&start_search=1",
+      "status": "tool_inaccessible",
+      "scope": "Attempted October 13–15 recall database filter",
+      "summary": "Web tool reported URL not accessible. No database no-result count inferred."
+    }
+  ]
+}
