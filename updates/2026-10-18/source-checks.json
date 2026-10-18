@@ -1,0 +1,148 @@
+{
+  "date": "2026-10-18",
+  "timestamp_note": "Direct API calls carry exact UTC request times. Web invocations below are approximate from session timestamps; per-query server time and total search-engine counts were not exposed.",
+  "web_discovery_batches": [
+    {
+      "invoked_utc_approx": "2026-10-18T02:39:05Z",
+      "queries": [
+        {
+          "q": "site.pubmed.ncbi.nlm.nih.gov Tourette \"2026 Oct 17\""
+        },
+        {
+          "q": "site.pubmed.ncbi.nlm.nih.gov Tourette \"2026 Oct 18\""
+        },
+        {
+          "q": "site.clinicaltrials.gov Tourette \"October 17, 2026\""
+        }
+      ],
+      "displayed_results": 17,
+      "total_engine_count": null,
+      "decision": "No qualifying primary in-window lead. NCT06194305 mirror synchronization date checked against official API; official last update July22, no results. Other event/calendar, mirror and irrelevant returns excluded. No community or case narrative retained."
+    },
+    {
+      "invoked_utc_approx": "2026-10-18T02:39:26Z",
+      "queries": [
+        {
+          "q": "Tourette \"October 17\" \"2026\" study",
+          "domains": [
+            "pubmed.ncbi.nlm.nih.gov",
+            "nature.com",
+            "sciencedirect.com",
+            "onlinelibrary.wiley.com",
+            "frontiersin.org"
+          ]
+        },
+        {
+          "q": "\"tic\" \"2026\" \"October 16\" trial",
+          "domains": [
+            "pubmed.ncbi.nlm.nih.gov",
+            "sciencedirect.com",
+            "onlinelibrary.wiley.com"
+          ]
+        },
+        {
+          "q": "Tourette \"2026\" \"October\" trial",
+          "domains": [
+            "trialsearch.who.int",
+            "isrctn.com",
+            "clinicaltrialsregister.eu"
+          ]
+        },
+        {
+          "q": "Tourette pain severe adult ADHD preprint October 2026",
+          "domains": [
+            "biorxiv.org",
+            "medrxiv.org"
+          ]
+        }
+      ],
+      "displayed_results": null,
+      "total_engine_count": null,
+      "decision": "Output partially truncated; no enumerated engine-coverage claim. Official ISRCTN SATURN lead pursued via documented API. Older preprints remained outside overlap; unrelated clinical records excluded."
+    },
+    {
+      "invoked_utc_approx": "2026-10-18T02:41:39Z",
+      "queries": [
+        {
+          "q": "\"Abdominal Tics in Children and Adolescents\" \"2026\"",
+          "domains": [
+            "onlinelibrary.wiley.com",
+            "pubmed.ncbi.nlm.nih.gov"
+          ]
+        }
+      ],
+      "displayed_results": 7,
+      "total_engine_count": null,
+      "decision": "No exact new-review result. Older Wiley case-report, observational and unrelated-review returns excluded from overlap without case-level extraction. Official EFetch and Crossref, not the noisy search output, support the narrative-review metadata."
+    }
+  ],
+  "web_access_attempts": [
+    {
+      "invoked_utc_approx": "2026-10-18T02:39:27Z",
+      "url": "https://trialsearch.who.int/",
+      "result": "Web extractor timeout. Later ordinary HTTP succeeded; landing page latest visible date token October12. No usable query export."
+    },
+    {
+      "invoked_utc_approx": "2026-10-18T02:39:27Z",
+      "url": "https://www.isrctn.com/search?q=Tourette",
+      "result": "Web tool inaccessible. Official public XML query later succeeded."
+    },
+    {
+      "invoked_utc_approx": "2026-10-18T02:39:27Z",
+      "url": "https://euclinicaltrials.eu/search-for-clinical-trials/?lang=en",
+      "result": "Page shell only; no enumerable result set."
+    },
+    {
+      "invoked_utc_approx": "2026-10-18T02:39:39Z",
+      "url": "https://www.isrctn.com/ISRCTN14910154",
+      "result": "Redirected to holding page requiring JavaScript/cookies, which linked the API documentation via FAQ. No bypass or login attempted."
+    },
+    {
+      "invoked_utc_approx": "2026-10-18T02:39:49Z",
+      "url": "https://www.isrctn.com/page/faqs",
+      "result": "Readable official documentation; recommends XML API for downloads."
+    },
+    {
+      "invoked_utc_approx": "2026-10-18T02:40:11Z",
+      "url": "https://www.isrctn.com/api",
+      "result": "Bare API root redirected to identity/login endpoint; no login attempted. Documented public query/single-trial endpoints subsequently worked without credentials."
+    },
+    {
+      "invoked_utc_approx": "2026-10-18T02:40:11Z",
+      "url": "https://bit.ly/ISRCTN_APIdoc_v0_6",
+      "result": "Official-FAQ-linked API documentation, version0.6 dated August18 2023, read. Public base endpoint, query format, date syntax and single-threaded request guidance used. Documentation not redistributed."
+    },
+    {
+      "invoked_utc_approx": "2026-10-18T02:40:47Z",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42888480/",
+      "result": "Web extraction inaccessible; official EFetch succeeded."
+    }
+  ],
+  "public_api_logs": [
+    "search-log.json",
+    "supplement-selected-metadata.json",
+    "isrctn-control.json"
+  ],
+  "isrctn": {
+    "specification_source": "https://www.isrctn.com/page/faqs",
+    "query_endpoint": "https://www.isrctn.com/api/query/format/default",
+    "window_query": "(Tourette OR tics OR \"tic disorder\") AND lastEdited GE 2026-10-16T00:00:00 AND lastEdited LT 2026-10-19T00:00:00",
+    "limit": 50,
+    "totalCount": 0,
+    "positive_control": {
+      "query": "Tourette",
+      "limit": 1,
+      "totalCount": 22,
+      "returned": 1
+    },
+    "coverage": "Working documented XML route improves coverage. Does not mean all22 undated records were screened; no worldwide zero-trial conclusion.",
+    "constraints": "Sequential bounded public requests only, no account action or credential use."
+  },
+  "date_adjudication": {
+    "pmid_42888480": "Publication October16 in PubMed/Crossref; PubMed entry October17 05:33 and Entrez entry00:14 have no timezone; Crossref creation October17 03:55:38 UTC. Secondary review, not new primary data.",
+    "nct06194305": "Official last posting July22; discovery mirror's October17 synchronization is not a registry posting."
+  },
+  "deduplication": "PMID/DOI and publication types checked against prior scan and current primary ledger; all current registry query IDs in previous scan. DOI/version keys compared exactly for preprints. The review introduces no new primary cohort; no cohort-level participant data were examined.",
+  "software_notes": "scan_sources.py, scan_supplement.py and check_isrctn.py executed. Public code removes transient abstract-printing from the initial scanner and excludes unnecessary contact honorific/opaque ID fields from XML metadata; these retention-only changes do not change query output or decisions. build_results.py executed and all code syntax checked. No raw source body retained.",
+  "retention": "Original summaries, bibliographic/protocol metadata, source identifiers, dates and response hashes only. No abstracts, individual case data, private community material, full paper, HTML or XML saved."
+}

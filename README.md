@@ -110,3 +110,11 @@ Read the protocol and latest status first. Verify the latest source and reposito
 - [Adult pain measurement audit](analyses/adult_pain/2026-10-17/report.md): pain windows, inconsistent care denominators and limits of perceived usefulness.
 - [Reproducible arithmetic](analyses/adult_pain/2026-10-17/aggregate_checks.json) and [independent review](analyses/adult_pain/2026-10-17/review/REVIEW.md).
 - [Displayed-link checks](public/link-checks/2026-10-17.json).
+
+
+## Research update - 18 October 2026
+
+- [Dated evidence scan](updates/2026-10-18/report.md): no new qualifying primary result; a newly indexed review remains secondary evidence. Official ISRCTN API coverage improved.
+- [Pain-interference audit](analyses/pain_interference/2026-10-18/report.md): pain-selected recruitment, past-week domain measurements and missing adult-only estimates.
+- [Reproducible aggregate checks](analyses/pain_interference/2026-10-18/aggregate_checks.json) and [independent review](analyses/pain_interference/2026-10-18/review/aggregate_review.md).
+- [Safety review](updates/2026-10-18/safety/report.md) and [displayed-link checks](public/link-checks/2026-10-18.json).

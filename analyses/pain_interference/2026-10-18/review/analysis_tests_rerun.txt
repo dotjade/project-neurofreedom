@@ -1,0 +1,30 @@
+test_adult_not_imputed (test_aggregate_checks.AggregateChecks.test_adult_not_imputed) ... ok
+test_age_counts (test_aggregate_checks.AggregateChecks.test_age_counts) ... ok
+test_all_reported_gaps_positive (test_aggregate_checks.AggregateChecks.test_all_reported_gaps_positive) ... ok
+test_deterministic (test_aggregate_checks.AggregateChecks.test_deterministic) ... ok
+test_domains (test_aggregate_checks.AggregateChecks.test_domains) ... ok
+test_duplicate_domain (test_aggregate_checks.AggregateChecks.test_duplicate_domain) ... ok
+test_general_activity_envelope (test_aggregate_checks.AggregateChecks.test_general_activity_envelope) ... ok
+test_help_conflict (test_aggregate_checks.AggregateChecks.test_help_conflict) ... ok
+test_help_partition (test_aggregate_checks.AggregateChecks.test_help_partition) ... ok
+test_help_percent (test_aggregate_checks.AggregateChecks.test_help_percent) ... ok
+test_invalid_count (test_aggregate_checks.AggregateChecks.test_invalid_count) ... ok
+test_invalid_denominator (test_aggregate_checks.AggregateChecks.test_invalid_denominator) ... ok
+test_invalid_mean (test_aggregate_checks.AggregateChecks.test_invalid_mean) ... ok
+test_item_denominators_not_imputed (test_aggregate_checks.AggregateChecks.test_item_denominators_not_imputed) ... ok
+test_largest_gap (test_aggregate_checks.AggregateChecks.test_largest_gap) ... ok
+test_no_clinical_estimate (test_aggregate_checks.AggregateChecks.test_no_clinical_estimate) ... ok
+test_nonfinite_mean (test_aggregate_checks.AggregateChecks.test_nonfinite_mean) ... ok
+test_pain_ranking (test_aggregate_checks.AggregateChecks.test_pain_ranking) ... ok
+test_provider_percentages (test_aggregate_checks.AggregateChecks.test_provider_percentages) ... ok
+test_receipt_percent (test_aggregate_checks.AggregateChecks.test_receipt_percent) ... ok
+test_rounding_does_not_reverse_signs (test_aggregate_checks.AggregateChecks.test_rounding_does_not_reverse_signs) ... ok
+test_rounding_one_decimal (test_aggregate_checks.AggregateChecks.test_rounding_one_decimal) ... ok
+test_rounding_two_decimal (test_aggregate_checks.AggregateChecks.test_rounding_two_decimal) ... ok
+test_smallest_gap (test_aggregate_checks.AggregateChecks.test_smallest_gap) ... ok
+test_tic_ranking (test_aggregate_checks.AggregateChecks.test_tic_ranking) ... ok
+
+----------------------------------------------------------------------
+Ran 25 tests in 0.002s
+
+OK

@@ -1,6 +1,6 @@
 # Project NeuroFreedom status
 
-Updated 16 October 2026. Initial portfolio, eight completed daily updates and first completed weekly synthesis. Public evidence repository and journal launched 13 October.
+Updated 18 October 2026. Initial portfolio, ten completed daily updates and first completed weekly synthesis. Public evidence repository and journal launched 13 October.
 
 ## Completed in this first pass
 
@@ -14,7 +14,7 @@ Updated 16 October 2026. Initial portfolio, eight completed daily updates and fi
 
 ## Enabled research schedules
 
-The user approved the following automatic public-science research and repository updates on 8 October 2026. Each schedule was created successfully and returned enabled status. Daily runs were completed on 9, 10, 11, 12 and 13 October 2026; the first weekly synthesis was completed on 11 October; first monthly and quarterly runs remain unverified.
+The user approved the following automatic public-science research and repository updates on 8 October 2026. Each schedule was created successfully and returned enabled status. Daily runs were completed on 9-18 October 2026; the first weekly synthesis was completed on 11 October; first monthly and quarterly runs remain unverified.
 
 - Daily new-evidence checks: from 9 October 2026, approximately 08:00 India time.
 - Weekly synthesis: Sundays, from 11 October 2026, approximately 09:00 India time.
@@ -208,3 +208,18 @@ Today's feed adds a dated pain-measurement note and separately identifies the sc
 ### Publication verification - 17 October 2026
 
 All 49 research/publication files matched their committed contents on connector readback from f7395781eeeda36262bff8206a8cdaba95c97783. At 03:23:53 UTC, production /api/public-feed and anonymous raw GitHub both returned HTTP 200 and JSON matching the authored feed, updatedAt 2026-10-17T03:22:49Z. Production identified the repository source; research/activity date October 17, rest-or-leave and the new pain-measurement entry were verified. This verifies feed propagation, not fresh rendered-page accessibility. No deployment, security setting or collection changed. [Verification details](updates/2026-10-17/publication-verification.json).
+
+
+## Completed daily research update - 18 October 2026
+
+The [dated scan](updates/2026-10-18/report.md) screened six unique PubMed records and 541 preprint DOI/version records without a new qualifying primary result or relevant trial result. A newly encountered pediatric narrative review remains secondary evidence. Known registry records were unchanged on selected fields. The officially documented ISRCTN XML API now provides a working bounded update query and positive control; zero in-window records is query-specific, not worldwide completeness. WHO ICTRP and CTIS coverage remains incomplete. No additional qualifying regulator notice was verified in the [safety pass](updates/2026-10-18/safety/report.md).
+
+The [historical pain-interference audit](analyses/pain_interference/2026-10-18/report.md) completed the planned Taylor 2022 question. The sample required current tics and tic-related pain, so it cannot estimate pain prevalence. Its adapted 13-domain ratings describe past-week interference, but age mixing and absent item-specific denominators/N/A rules prevent an adult-only estimate. All 13 printed tic-interference means exceed pain-interference means by 0.05-1.12 points; these marginal differences and rounding envelopes are not paired effects, confidence intervals or clinical importance. Qualitative pain priorities remain compatible with those averages. Another care-seeking count conflict is preserved without adopting a correction. Twenty-five implementation tests and independent source/arithmetic review passed. No participant data, intervention or simulation was used.
+
+### Next bounded decision
+
+Close this source audit pending public corrections or age-eligible item-level aggregate summaries. Next audit the controlled focal-tic trial by Marras et al. 2001, PMID 11245710, DOI 10.1212/WNL.56.5.605: determine whether any pain-benefit endpoint was measured separately from tic severity and injection/procedure discomfort. Inspect lawful primary methods/tables, adult applicability, crossover periods/carryover, denominators and uncertainty. An abstract endpoint list cannot establish absence of an outcome in the full study. Stop the one-trial audit if full methods are unavailable or no compatible pain endpoint is reported; do not convert tic reduction into pain efficacy. No participant access or researcher contact is authorized.
+
+### Public journal
+
+Today's feed adds a dated historical pain-interference note and explicitly reports a scan without a qualifying new primary result. The six approved optional activities are unchanged; hand-at-ease is selected. Voting, comments and health-outcome collection remain disabled. Ten existing research links and two primary sources passed; Pappert remains challenge-limited rather than confirmed broken. Publication verification follows actual readback.

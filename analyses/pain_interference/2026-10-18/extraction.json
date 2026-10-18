@@ -1,0 +1,114 @@
+{
+  "id": "Taylor2022Pain",
+  "evidence_type": "primary_study",
+  "title": "An online survey investigating the experiences of tic-related pain and use of pain management techniques in people with tics and tic disorders",
+  "title_note": "Bibliographic subtitle; leading quotation omitted.",
+  "authors": [
+    "Evangeline Taylor",
+    "Seonaid Anderson",
+    "E. Bethan Davies"
+  ],
+  "year": 2022,
+  "doi": "10.3389/fpsyt.2022.914044",
+  "pmid": "35990066",
+  "pmcid": "PMC9388784",
+  "url": "https://www.frontiersin.org/journals/psychiatry/articles/10.3389/fpsyt.2022.914044/full",
+  "source_urls": [
+    "https://www.frontiersin.org/journals/psychiatry/articles/10.3389/fpsyt.2022.914044/full",
+    "https://www.frontiersin.org/journals/psychiatry/articles/10.3389/fpsyt.2022.914044/pdf",
+    "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9388784/fullTextXML",
+    "https://pubmed.ncbi.nlm.nih.gov/35990066/"
+  ],
+  "publication_dates": {
+    "published": "2022-08-05",
+    "accepted": "2022-07-13",
+    "received": "2022-04-06",
+    "survey_open": "2021-06-10",
+    "survey_closed": "2021-07-13"
+  },
+  "study_type": "Cross-sectional, self-selected English-language online survey with descriptive quantitative summaries and inductive thematic analysis.",
+  "population": "181 respondents aged 16–71 from 18 countries; eligibility required current tics AND tic-related pain, age≥16, suspected or confirmed tic disorder, and English literacy. Online patient/support/research channels. No adult-only or severe-persistent-adult estimate.",
+  "n": {
+    "completed": 181,
+    "aged_16_to_18": 41,
+    "aged_19plus": 140,
+    "aged_18plus": null,
+    "item_valid_n": null,
+    "item_not_applicable_n": null,
+    "paired_item_n": null,
+    "formal_diagnosis_reported": 153,
+    "help_seekers_table_derived": 117,
+    "help_seekers_prose": 118,
+    "help_received": 71
+  },
+  "recruitment": "Four of eight approached national TS charities advertised; an online TS community, NIHR MindTech social media and circulation to 47 TS support associations. Exposure, starts, exclusions, dropouts, response rate not given.",
+  "comparator": "No randomized or population control. Separately reported tic- and pain-interference domain means, with matched contributing sets unverified.",
+  "exposure": "Current self-attributed tic-related pain selected at entry; self-reported pain causes, care and management histories; no assigned intervention.",
+  "outcomes": {
+    "interference": "Adapted 13-domain BPI-SF-related scale scored 1–5, previous-week recall, N/A choice; each domain mean/SD reported separately for tics and pain.",
+    "validation": "No validation of expanded adaptation, full question stems, middle labels or clinically important threshold supplied in checked report.",
+    "tic_severity": "Adult Tic Questionnaire total 0–216; paper describes current severity without a separate explicit recall-window specification.",
+    "resilience": "Brief Resilience Scale; not a pain measure.",
+    "care": "Help-seeking, techniques used and perceived impact of tic treatment; bounded recall period not specified.",
+    "qualitative": "Thematic interpretations, not numerical prevalence or validated causal pathways."
+  },
+  "numeric_results": {
+    "pain_interference_highest": [
+      {
+        "domain": "Mood",
+        "mean": 3.31,
+        "sd": 1.24
+      },
+      {
+        "domain": "Sleep",
+        "mean": 3.24,
+        "sd": 1.4
+      },
+      {
+        "domain": "General enjoyment of life",
+        "mean": 3.04,
+        "sd": 1.32
+      }
+    ],
+    "reported_mean_gaps": "All 13 tic means exceed corresponding pain means; minimum 0.05, maximum 1.12. Signs robust to conservative ordinary-rounding envelopes. Not established paired differences or adult estimates.",
+    "help_conflict": "71+46=117 table seekers versus 118 prose;64.6% matches 117/181, while 118/181 rounds 65.2%.71/117 rounds 60.7%;71/118 rounds 60.2%, neither prose 60.1%.No corrected count adopted.",
+    "additional_scope_relevant_conflicts": [
+      "Highest tic mean 3.86 social situations omitted from prose highest-domain list",
+      "Sleep tic SD 1.31 table versus 1.21 prose",
+      "General doctor/physiotherapy counts 60/42 table versus 61/43 prose"
+    ]
+  },
+  "uncertainty": "SDs supplied; no relevant confidence intervals, paired covariance, item valid counts or age-stratified summaries. Rounding envelopes are numerical reporting checks, not sampling uncertainty.",
+  "negative_findings": [
+    "Qualitative reports include variable tolerability and mixed perceived usefulness; no uniform benefit",
+    "Unchanged or worse pain reported with tic treatment; not causal treatment harms/effects",
+    "Authors did not measure quantitative satisfaction/appraisal of professional pain help",
+    "No prospective chronology establishing proposed tic–pain feedback cycle"
+  ],
+  "followup": "None prospective; one survey time point with recalled experiences.",
+  "attrition": "Authors assert no missing outcomes, but N/A was permitted and handling/item counts not supplied. Recruitment/dropout flow unavailable.",
+  "adverse_events": "No systematic comparative safety analysis; subjective treatment-impact reports are not incidence or causal estimates. Singleton treatment cells not republished.",
+  "risk_of_bias": [
+    "Pain-selected self-selection through online support channels",
+    "English/internet access and survey-completion selection",
+    "Self-reported diagnosis and pain attribution",
+    "Mixed ages, including minors",
+    "No persistent-severe-adult stratum",
+    "Unknown item-specific N/A handling and response denominators",
+    "Cross-sectional recall; unassigned heterogeneous treatment histories",
+    "Single lead qualitative coder with discussion/refinement by second author; no causal identification",
+    "Reporting inconsistencies retained"
+  ],
+  "conflicts_funding": "NIHR MindTech Medtech Cooperative and NIHR Nottingham Biomedical Research Centre cofunding; authors declare no relevant commercial/financial relationships.",
+  "applicability": "Describes pain-related burden within a pain-experiencing mixed-age convenience sample. Cannot establish population pain prevalence, age≥18 interference estimates, or severe-persistent-adult outcomes.",
+  "related_cohort_ids": [],
+  "cohort_overlap_status": "No overlap with Małek established; distinct setting/time and no pooling. Independent replication not claimed.",
+  "claim_supported": "Past-week interference was directly assessed separately from tic severity, and pain burden/support concerns deserve distinct measurement. Marginal mean and qualitative individual-priority statements are different estimands.",
+  "claim_not_supported": "Representative prevalence, chronic pain duration, adult-only effects, paired significance, clinical meaningfulness, causal feedback, treatment efficacy/inefficacy, comparative self-management benefit, durable benefit, disease modification or cure.",
+  "retrieval_status": "Publisher HTML/PDF and official EuropePMC XML inspected; PDF pages 5–7 visually verified. No public blank questionnaire, adult-only supplement or linked dataset located. EuropePMC flags hasSuppl=N, hasData=N. PubMed/PMC direct HTML browser-check limits.",
+  "extraction_date": "2026-10-18",
+  "reviewer": "Research assistant, independent source-method review, separate source/arithmetic review; not clinical peer review.",
+  "correction_retraction_check": "No linked correction/retraction found in publisher,official XML,Crossref or focused DOI searches; bounded finding only.",
+  "next_verification_task": "Close Taylor audit absent public correction or methodological clarification. Adult descriptives require age ≥18 item valid/N/A counts, handling, means and dispersion; paired comparison additionally matched n and covariance/difference dispersion. Next distinct candidate: Marras et al. 2001 botulinum-toxin randomized crossover trial, PMID 11245710, DOI 10.1212/WNL.56.5.605. Verify whether pain-specific benefit/interference was measured separately from tic outcomes and procedure discomfort; check adult applicability, carryover and missing numerical prerequisites. Stop without pain-effect inference if no compatible endpoint or lawful full methods.",
+  "privacy": "Original paraphrases and public aggregates only; no individual narratives, quotations, singleton treatment/demographic cells, family data or full-paper copies. No outreach or participant access."
+}

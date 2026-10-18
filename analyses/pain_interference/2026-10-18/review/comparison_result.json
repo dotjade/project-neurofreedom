@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "cross_implementation_comparisons": 43,
+  "scope": "13 differences, 26 rational rounding endpoints, 4 denominator guardrails",
+  "analysis_test_rerun": "25 unittest tests passed",
+  "regenerated_output": "byte-for-byte identical to pre-rerun output",
+  "limitations": "Deterministic arithmetic verification only; no patient records or clinical validation."
+}

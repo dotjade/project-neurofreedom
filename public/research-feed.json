@@ -1,10 +1,17 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-17T03:22:49Z",
-  "lastResearchDate": "2026-10-17",
+  "updatedAt": "2026-10-18T02:47:52Z",
+  "lastResearchDate": "2026-10-18",
   "cadence": "Daily scheduled review; publication follows verified work.",
-  "latestSummary": "A historical adult survey shows why pain timing and care denominators matter. Today's scan found a withdrawn zero-enrollment trial record, not treatment results.",
+  "latestSummary": "A historical survey described how tic-related pain affects everyday life. Today's bounded scan found no qualifying new primary result or trial result.",
   "timeline": [
+    {
+      "date": "2026-10-18",
+      "title": "Pain has its own footprint.",
+      "type": "Historical survey and aggregate audit",
+      "summary": "A historical pain-selected survey reported interference with sleep, mood and everyday life. Mixed ages and missing item counts prevent an adult-only estimate.",
+      "record": "https://github.com/dotjade/project-neurofreedom/blob/main/analyses/pain_interference/2026-10-18/report.md"
+    },
     {
       "date": "2026-10-17",
       "title": "Ask about pain directly.",
@@ -83,7 +90,7 @@
       "type": "Primary qualitative study",
       "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10863457/",
       "label": "Isaacs and colleagues, 2024",
-      "checkedAt": "2026-10-17",
+      "checkedAt": "2026-10-18",
       "linkState": "Primary article retrievable through this check"
     },
     {
@@ -92,7 +99,7 @@
       "type": "Primary longitudinal study",
       "url": "https://www.neurology.org/doi/10.1212/01.WNL.0000086370.10186.7C",
       "label": "Pappert and colleagues, 2003",
-      "checkedAt": "2026-10-17",
+      "checkedAt": "2026-10-18",
       "linkState": "HTTP 403 in this retrieval; not established broken"
     },
     {
@@ -101,7 +108,7 @@
       "type": "Primary adult cohort study",
       "url": "https://link.springer.com/content/pdf/10.1186/s44247-026-00284-7.pdf",
       "label": "Ivanova and colleagues, 2026",
-      "checkedAt": "2026-10-17",
+      "checkedAt": "2026-10-18",
       "linkState": "Primary PDF retrievable through this check"
     }
   ],
@@ -168,6 +175,6 @@
     "trend": [],
     "message": "No public ratings are collected yet. There are no votes or trends to show."
   },
-  "activityEditionDate": "2026-10-17",
-  "featuredActivityId": "rest-or-leave"
+  "activityEditionDate": "2026-10-18",
+  "featuredActivityId": "hand-at-ease"
 }
