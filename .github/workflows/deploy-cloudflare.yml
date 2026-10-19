@@ -1,0 +1,76 @@
+name: Validate and deploy Tourette journal
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'public/journal-source/**'
+      - 'public/research-feed.json'
+      - '.github/workflows/deploy-cloudflare.yml'
+  pull_request:
+    branches: [main]
+    paths:
+      - 'public/journal-source/**'
+      - 'public/research-feed.json'
+      - '.github/workflows/deploy-cloudflare.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+defaults:
+  run:
+    working-directory: public/journal-source
+
+concurrency:
+  group: cloudflare-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version: 24
+          cache: npm
+          cache-dependency-path: public/journal-source/package-lock.json
+      - run: npm ci
+      - run: npm run check
+      - run: npm run build
+      - run: npx --no-install wrangler deploy --dry-run
+  deploy:
+    needs: check
+    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+      CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version: 24
+          cache: npm
+          cache-dependency-path: public/journal-source/package-lock.json
+      - name: Check deployment credentials
+        run: |
+          if [ -z "$CLOUDFLARE_API_TOKEN" ] || [ -z "$CLOUDFLARE_ACCOUNT_ID" ]; then
+            echo "::error::Configure CLOUDFLARE_API_TOKEN and CLOUDFLARE_ACCOUNT_ID in repository Actions secrets."
+            exit 1
+          fi
+      - run: npm ci
+      - run: npm run build
+      - name: Publish tested revision
+        run: npx --no-install wrangler deploy
+      - name: Check public site and repository feed
+        run: |
+          curl --fail --silent --show-error --retry 3 --retry-delay 5 --retry-all-errors https://tourette.fyi/ -o /dev/null
+          curl --fail --silent --show-error --retry 3 --retry-delay 5 --retry-all-errors https://tourette.fyi/api/public-feed -o /dev/null
