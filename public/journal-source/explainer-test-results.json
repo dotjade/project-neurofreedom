@@ -1,0 +1,31 @@
+{
+  "passed": 16,
+  "checks": [
+    "Introduction is first main section",
+    "One page h1, introduction named",
+    "Unique element IDs",
+    "No text or structural changes to activities, journal, findings, purpose",
+    "Unchanged feed, collection config and Worker",
+    "Feedback remains disabled",
+    "SVG has accessible title and description",
+    "Scientific limits and tic kindness present",
+    "Native keyboard disclosures",
+    "Canonical QR target and local download",
+    "No new external scripts or stylesheet dependency",
+    "No forms or data collection added",
+    "No em dash in new visible copy",
+    "Responsive and forced-color support",
+    "Existing narration includes definitions and caption",
+    "QR is valid local SVG"
+  ],
+  "limits": [
+    "Full browser desktop/mobile/zoom and actual narration not run: local Chromium launch restricted, cloud HTTP preview connection refused.",
+    "Static SVG visual review and independent QR decoding were performed separately."
+  ],
+  "files": {
+    "index.html": "e99b5bf2d64c455d767dc65b6169287ca27374fb66bc909f85c2f6b974a70ca1",
+    "journal.css": "1535075e0ec5575e092cf3df25f972c32c52e1fc45dd8c78cf11691dd04b3566",
+    "journal.js": "c5c9b7fd6acb92d1adbd33ef78aeda13792ea9523ecd0c873fc228c61fb5e850",
+    "tourette-qr.svg": "9868c8b7ed1106d622445d61cbafacdf9764113667f2146b6ca32fcda1629777"
+  }
+}

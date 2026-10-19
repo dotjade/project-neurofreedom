@@ -37,3 +37,14 @@ The page now leads with an original inline SVG scene of dot reading and examinin
 DOM text accounting found 216 default-visible words versus 634 at launch, a 66 percent reduction, excluding collapsed disclosures and screen-reader-only status. This is not a pixel/rendered measurement. Source tests cover content, fallback, feed refresh, safe rendering, narration, motion preferences, reflection and responsive CSS/touch-target rules. Actual narrow-device, zoom and physical keyboard rendering remain for parent live review.
 
 The daily feed and public/UPDATE_WORKFLOW.md remain intact. Existing research/activity dates and source links are preserved. Shared voting remains disabled and no screenshot or review-device metadata is published.
+
+
+## Shareable Tourette introduction, 19 October 2026
+
+The first main section is now a public introduction at `https://tourette.fyi/#what-is-tourette`. An original inline SVG shows approximate cortex, basal ganglia and thalamus locations with a separate simplified circuit loop. It is explicitly labelled as an educational schematic, not a scan, individual diagnosis or complete causal model. Expandable text separates normal chemical-messenger roles from uncertain Tourette mechanisms and links public sources and human studies. No personal or family context was added.
+
+The local `tourette-qr.svg` encodes that exact canonical URL, with a white quiet zone, a visible textual link and a download link. Its rasterized final SVG was independently decoded successfully. It makes no tracking or QR-provider request. Native disclosures work without JavaScript; existing user-triggered narration also includes the diagram transcript, definition list and caption. The diagram has no animation. Responsive and forced-color rules preserve textual alternatives.
+
+Verification: 16 focused source checks and JavaScript syntax checks passed. The SVG was rendered and visually reviewed. Existing activity, journal, findings and purpose sections are unchanged, as are the feed, Worker, collection configuration and headers. See `explainer-test-results.json` for checks and file hashes. Full desktop/mobile browser rendering, zoom, real keyboard/touch interaction and actual narration were not verified for this edition because an executable browser preview was unavailable. No accessibility certification is claimed.
+
+Publication status: this is a source update, not a verified deployment. The existing authenticated Wrangler route must publish the updated static assets, including `tourette-qr.svg`. A daily feed-only update cannot publish this section. After deployment, verify the homepage anchor, QR download, narration, narrow screens and zoom; also verify `/api/public-feed` still returns the repository edition. No DNS, new credentials, paid resources or replacement site are required.
