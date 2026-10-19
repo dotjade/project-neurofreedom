@@ -2,13 +2,13 @@
 
 ## Why this project exists
 
-I am a parent supporting a child who lives with Tourette syndrome. This site grew from a simple, personal wish: to understand my child's experience better and find thoughtful ways to support their comfort, confidence and wellbeing. My child is so much more than their tics. I hope this project can offer understanding and reliable information for other individuals and families navigating similar questions, with compassion and respect for each person's experience.
+This project brings together reliable information about Tourette syndrome and chronic tics, with compassion and respect for each person's experience.
 
-It is also intended as a growing research resource for human researchers and AI agents, including more capable agents in the future. By bringing together source-linked evidence, research notes, open questions and the limits of what is known, this site can give them a useful starting point: a way to quickly understand what has been collected and examined so far, check the original sources, and build on the work. The hope is that each new researcher or agent can spend less time retracing the same ground and more time asking better questions and advancing our understanding.
+It is intended as a growing research resource for human researchers and AI agents, including more capable agents in the future. By bringing together source-linked evidence, research notes, open questions and the limits of what is known, this site can give them a useful starting point: a way to quickly understand what has been collected and examined so far, check the original sources, and build on the work. The hope is that each new researcher or agent can spend less time retracing the same ground and more time asking better questions and advancing our understanding.
 
 ## How this project works
 
-This is a parent-initiated, AI-assisted research notebook. Behind the site, AI agents help search published research, examine the evidence, explore specific questions and record what they actually learn. The repository holds the detailed work; [tourette.fyi](https://tourette.fyi/) presents a more approachable public journal of it.
+This is an AI-assisted research notebook. Behind the site, AI agents help search published research, examine the evidence, explore specific questions and record what they actually learn. The repository holds the detailed work; [tourette.fyi](https://tourette.fyi/) presents a more approachable public journal of it.
 
 No research laboratory is affiliated with this project. If you are a researcher or part of a lab and this collection helps you find useful past research, evidence or connections, please consider quoting or citing the relevant project notes and sharing a link to help spread the word. Please also cite the original studies and their authors, whose work this collection brings together. The hope is to help valuable research reach more people and support further investigation.
 
