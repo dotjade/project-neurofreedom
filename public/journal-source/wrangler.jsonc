@@ -1,0 +1,19 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "tourette-fyi",
+  "account_id": "db397fe15559d29b5980cfdf828feb1d",
+  "main": "worker.js",
+  "compatibility_date": "2026-10-16",
+  "workers_dev": true,
+  "preview_urls": false,
+  "routes": [
+    { "pattern": "tourette.fyi/*", "zone_name": "tourette.fyi" },
+    { "pattern": "www.tourette.fyi/*", "zone_name": "tourette.fyi" }
+  ],
+  "assets": {
+    "directory": "./web-build",
+    "binding": "ASSETS",
+    "run_worker_first": true
+  },
+  "observability": { "enabled": false }
+}
