@@ -1,0 +1,38 @@
+{
+  "population_size": 400,
+  "population_seed": 20261019,
+  "replicates": 200,
+  "replicate_seed_start": 20262019,
+  "measurement_error_half_width": 0.25,
+  "baseline": 5,
+  "score_bounds": [
+    0,
+    10
+  ],
+  "worlds": [
+    "A",
+    "B",
+    "C"
+  ],
+  "designs": {
+    "complete": {
+      "1": 1,
+      "-1": 1
+    },
+    "mcar": {
+      "1": 0.6,
+      "-1": 0.6
+    },
+    "mar": {
+      "1": 0.3,
+      "-1": 0.8
+    },
+    "support_loss": {
+      "1": 0,
+      "-1": 1
+    }
+  },
+  "diagnostic_mcse_multiplier": 4,
+  "preregistration_recorded_at_utc": "2026-10-19T03:07:06Z",
+  "preregistration_sha256": "80d1305ea39d32c8f8a5be7576f9a79b66cc4fdd87ebf06d8a9fda2997527c17"
+}
