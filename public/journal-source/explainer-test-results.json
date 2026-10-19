@@ -23,8 +23,8 @@
     "Static SVG visual review and independent QR decoding were performed separately."
   ],
   "files": {
-    "index.html": "e99b5bf2d64c455d767dc65b6169287ca27374fb66bc909f85c2f6b974a70ca1",
-    "journal.css": "1535075e0ec5575e092cf3df25f972c32c52e1fc45dd8c78cf11691dd04b3566",
+    "index.html": "f6a6cc9ac0415db5f7bbbc0b8afd89ed63f68c11135f06958ff2e73ed5e7e15f",
+    "journal.css": "ef694ae5136901b55459e87fcb96c73a36cfb8a5882c6196a5df8b1924217be2",
     "journal.js": "c5c9b7fd6acb92d1adbd33ef78aeda13792ea9523ecd0c873fc228c61fb5e850",
     "tourette-qr.svg": "9868c8b7ed1106d622445d61cbafacdf9764113667f2146b6ca32fcda1629777"
   }
