@@ -1,0 +1,15 @@
+{
+  "checks": {
+    "pubmed_ids_unique": true,
+    "pubmed_counts_match": true,
+    "all_pubmed_decided": true,
+    "new_primary_intentionally_empty": true,
+    "preprint_counts_match": true,
+    "preprint_pagination_complete": true,
+    "core_no_errors": true,
+    "candidate_no_errors": true,
+    "registries_no_new_results": true
+  },
+  "result": "PASS",
+  "scope": "Structural/count/provenance checks, not independent clinical peer review."
+}

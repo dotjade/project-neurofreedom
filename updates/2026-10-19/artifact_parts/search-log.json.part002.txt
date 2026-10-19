@@ -1,0 +1,448 @@
+ds] OR \"chronic motor tic\"[All Fields] OR \"chronic vocal tic\"[All Fields] OR \"persistent tic\"[All Fields]) AND 2026/10/17:2026/10/19[Date - Entry]",
+        "warnings": null,
+        "errors": null
+      },
+      {
+        "label": "syn_pdat",
+        "params": {
+          "db": "pubmed",
+          "term": "tics OR \"chronic motor tic\" OR \"chronic vocal tic\" OR \"persistent tic\"",
+          "datetype": "pdat",
+          "mindate": "2026/10/17",
+          "maxdate": "2026/10/19",
+          "retmode": "json",
+          "retmax": 1000
+        },
+        "count": 0,
+        "ids": [],
+        "querytranslation": "(\"tics\"[MeSH Terms] OR \"tics\"[All Fields] OR \"chronic motor tic\"[All Fields] OR \"chronic vocal tic\"[All Fields] OR \"persistent tic\"[All Fields]) AND 2026/10/17:2026/10/19[Date - Publication]",
+        "warnings": {
+          "phrasesignored": [],
+          "quotedphrasesnotfound": [],
+          "outputmessages": [
+            "No items found."
+          ]
+        },
+        "errors": null
+      },
+      {
+        "label": "burden_treatment_edat",
+        "params": {
+          "db": "pubmed",
+          "term": "(Tourette OR \"tic disorder\" OR \"tic disorders\") AND (adult OR severe OR pain OR burden OR ADHD OR comorbid* OR cooccurring OR treatment OR adverse OR negative OR quality of life)",
+          "datetype": "edat",
+          "mindate": "2026/10/17",
+          "maxdate": "2026/10/19",
+          "retmode": "json",
+          "retmax": 1000
+        },
+        "count": 3,
+        "ids": [
+          "42890894",
+          "42890800",
+          "42888480"
+        ],
+        "querytranslation": "(\"tourette syndrome\"[MeSH Terms] OR (\"tourette\"[All Fields] AND \"syndrome\"[All Fields]) OR \"tourette syndrome\"[All Fields] OR \"tourette\"[All Fields] OR \"tourette s\"[All Fields] OR \"tourettes\"[All Fields] OR \"tourettism\"[All Fields] OR \"tic disorder\"[All Fields] OR \"tic disorders\"[All Fields]) AND (\"adult\"[MeSH Terms] OR \"adult\"[All Fields] OR \"adults\"[All Fields] OR \"adult s\"[All Fields] OR (\"sever\"[All Fields] OR \"severe\"[All Fields] OR \"severed\"[All Fields] OR \"severely\"[All Fields] OR \"severer\"[All Fields] OR \"severes\"[All Fields] OR \"severing\"[All Fields] OR \"severities\"[All Fields] OR \"severity\"[All Fields] OR \"severs\"[All Fields]) OR (\"pain\"[MeSH Terms] OR \"pain\"[All Fields]) OR (\"burden\"[All Fields] OR \"burdened\"[All Fields] OR \"burdening\"[All Fields] OR \"burdens\"[All Fields]) OR (\"attention deficit disorder with hyperactivity\"[MeSH Terms] OR (\"attention\"[All Fields] AND \"deficit\"[All Fields] AND \"disorder\"[All Fields] AND \"hyperactivity\"[All Fields]) OR \"attention deficit disorder with hyperactivity\"[All Fields] OR \"adhd\"[All Fields]) OR \"comorbid*\"[All Fields] OR (\"cooccur\"[All Fields] OR \"cooccurred\"[All Fields] OR \"cooccurring\"[All Fields]) OR (\"therapeutics\"[MeSH Terms] OR \"therapeutics\"[All Fields] OR \"treatments\"[All Fields] OR \"therapy\"[MeSH Subheading] OR \"therapy\"[All Fields] OR \"treatment\"[All Fields] OR \"treatment s\"[All Fields]) OR (\"adverse\"[All Fields] OR \"adversely\"[All Fields] OR \"adverses\"[All Fields]) OR (\"negative\"[All Fields] OR \"negatively\"[All Fields] OR \"negatives\"[All Fields] OR \"negativities\"[All Fields] OR \"negativity\"[All Fields]) OR (\"quality of life\"[MeSH Terms] OR (\"quality\"[All Fields] AND \"life\"[All Fields]) OR \"quality of life\"[All Fields])) AND 2026/10/17:2026/10/19[Date - Entry]",
+        "warnings": null,
+        "errors": null
+      }
+    ],
+    "id_occurrences": 21,
+    "unique_records": 12,
+    "date_type_correction_screen": [
+      {
+        "pmid": "10382139",
+        "title": "Brief report: specific executive function profiles in three neurodevelopmental disorders.",
+        "journal_pubdate": {
+          "Year": "1999",
+          "Month": "Apr"
+        },
+        "article_dates": [],
+        "history": {
+          "pubmed": {
+            "Year": "1999",
+            "Month": "6",
+            "Day": "26"
+          },
+          "medline": {
+            "Year": "1999",
+            "Month": "6",
+            "Day": "26",
+            "Hour": "0",
+            "Minute": "1"
+          },
+          "entrez": {
+            "Year": "1999",
+            "Month": "6",
+            "Day": "26",
+            "Hour": "0",
+            "Minute": "0"
+          }
+        },
+        "types": [
+          "Clinical Trial",
+          "Comparative Study",
+          "Controlled Clinical Trial",
+          "Journal Article",
+          "Research Support, U.S. Gov't, P.H.S."
+        ],
+        "identifiers": {
+          "pubmed": "10382139",
+          "doi": "10.1023/a:1023052913110"
+        },
+        "DateCompleted": {
+          "Year": "1999",
+          "Month": "08",
+          "Day": "05"
+        },
+        "DateRevised": {
+          "Year": "2026",
+          "Month": "10",
+          "Day": "17"
+        },
+        "corrections": [
+          {
+            "type": "CommentIn",
+            "source": "J Autism Dev Disord. 2000 Jun;30(3):263. doi: 10.1023/a:1017288320602.",
+            "pmid": "11055462"
+          }
+        ],
+        "prior_scan_overlap": false,
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/10382139/",
+        "linked_notice_changed": false,
+        "screening_decision": "Historical 1999 comparative executive-function report; October 17 metadata revision is not a new study. No abstract available in EFetch; no new extraction or efficacy claim."
+      },
+      {
+        "pmid": "11055462",
+        "title": "Attention-deficit hyperactivity disorder (ADHD), Tourette disorder (TD), and autism.",
+        "journal_pubdate": {
+          "Year": "2000",
+          "Month": "Jun"
+        },
+        "article_dates": [],
+        "history": {
+          "pubmed": {
+            "Year": "2000",
+            "Month": "10",
+            "Day": "31",
+            "Hour": "11",
+            "Minute": "0"
+          },
+          "medline": {
+            "Year": "2001",
+            "Month": "3",
+            "Day": "3",
+            "Hour": "10",
+            "Minute": "1"
+          },
+          "entrez": {
+            "Year": "2000",
+            "Month": "10",
+            "Day": "31",
+            "Hour": "11",
+            "Minute": "0"
+          }
+        },
+        "types": [
+          "Case Reports",
+          "Comment",
+          "Comparative Study",
+          "Letter"
+        ],
+        "identifiers": {
+          "pubmed": "11055462",
+          "doi": "10.1023/a:1017288320602"
+        },
+        "DateCompleted": {
+          "Year": "2001",
+          "Month": "02",
+          "Day": "15"
+        },
+        "DateRevised": {
+          "Year": "2026",
+          "Month": "10",
+          "Day": "17"
+        },
+        "corrections": [
+          {
+            "type": "CommentOn",
+            "source": "J Autism Dev Disord. 1999 Feb;29(1):81-6. doi: 10.1023/a:1025974701090.",
+            "pmid": "10097997"
+          },
+          {
+            "type": "CommentOn",
+            "source": "J Autism Dev Disord. 1999 Apr;29(2):171-7. doi: 10.1023/a:1023052913110.",
+            "pmid": "10382139"
+          }
+        ],
+        "prior_scan_overlap": false,
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/11055462/",
+        "linked_notice_changed": false,
+        "screening_decision": "Historical 2000 letter/comment with case-report classification. No individual case details reviewed or retained; not new primary evidence."
+      },
+      {
+        "pmid": "11518480",
+        "title": "Further evidence of intact working memory in autism.",
+        "journal_pubdate": {
+          "Year": "2001",
+          "Month": "Jun"
+        },
+        "article_dates": [],
+        "history": {
+          "pubmed": {
+            "Year": "2001",
+            "Month": "8",
+            "Day": "24",
+            "Hour": "10",
+            "Minute": "0"
+          },
+          "medline": {
+            "Year": "2002",
+            "Month": "1",
+            "Day": "11",
+            "Hour": "10",
+            "Minute": "1"
+          },
+          "entrez": {
+            "Year": "2001",
+            "Month": "8",
+            "Day": "24",
+            "Hour": "10",
+            "Minute": "0"
+          }
+        },
+        "types": [
+          "Journal Article",
+          "Research Support, U.S. Gov't, P.H.S."
+        ],
+        "identifiers": {
+          "pubmed": "11518480",
+          "doi": "10.1023/a:1010794902139"
+        },
+        "DateCompleted": {
+          "Year": "2002",
+          "Month": "01",
+          "Day": "10"
+        },
+        "DateRevised": {
+          "Year": "2026",
+          "Month": "10",
+          "Day": "17"
+        },
+        "corrections": [],
+        "prior_scan_overlap": false,
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/11518480/",
+        "linked_notice_changed": false,
+        "screening_decision": "Historical 2001 autism working-memory comparison includes a Tourette comparator. Abstract reports no between-group working-memory differences. Not a new publication or tic-treatment result."
+      },
+      {
+        "pmid": "40977255",
+        "title": "The CM-aGPi Network in the Generation of Tics in Tourette Syndrome.",
+        "journal_pubdate": {
+          "Year": "2025",
+          "Month": "Dec"
+        },
+        "article_dates": [
+          {
+            "type": "Electronic",
+            "Year": "2025",
+            "Month": "09",
+            "Day": "22"
+          }
+        ],
+        "history": {
+          "revised": {
+            "Year": "2025",
+            "Month": "8",
+            "Day": "15"
+          },
+          "received": {
+            "Year": "2025",
+            "Month": "6",
+            "Day": "24"
+          },
+          "accepted": {
+            "Year": "2025",
+            "Month": "9",
+            "Day": "3"
+          },
+          "medline": {
+            "Year": "2025",
+            "Month": "12",
+            "Day": "17",
+            "Hour": "13",
+            "Minute": "2"
+          },
+          "pubmed": {
+            "Year": "2025",
+            "Month": "9",
+            "Day": "22",
+            "Hour": "6",
+            "Minute": "31"
+          },
+          "entrez": {
+            "Year": "2025",
+            "Month": "9",
+            "Day": "22",
+            "Hour": "3",
+            "Minute": "33"
+          },
+          "pmc-release": {
+            "Year": "2025",
+            "Month": "12",
+            "Day": "17"
+          }
+        },
+        "types": [
+          "Journal Article",
+          "Research Support, N.I.H., Extramural"
+        ],
+        "identifiers": {
+          "pubmed": "40977255",
+          "pmc": "PMC12710177",
+          "doi": "10.1002/mds.70043"
+        },
+        "DateCompleted": {
+          "Year": "2025",
+          "Month": "12",
+          "Day": "17"
+        },
+        "DateRevised": {
+          "Year": "2026",
+          "Month": "10",
+          "Day": "17"
+        },
+        "corrections": [],
+        "prior_scan_overlap": false,
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/40977255/",
+        "linked_notice_changed": false,
+        "screening_decision": "Historical September 2025 electronic publication with October 17 metadata revision. Small repeated intracranial-recording study, not a new-window study or treatment-effect trial. Preserve as historical mechanistic follow-up lead."
+      },
+      {
+        "pmid": "41621322",
+        "title": "Polygenic risk scores for pediatric obsessive-compulsive symptoms: Mediating effects in samples clinically diagnosed with mental disorders.",
+        "journal_pubdate": {
+          "Year": "2026",
+          "Month": "Apr"
+        },
+        "article_dates": [
+          {
+            "type": "Electronic",
+            "Year": "2026",
+            "Month": "01",
+            "Day": "27"
+          }
+        ],
+        "history": {
+          "received": {
+            "Year": "2025",
+            "Month": "11",
+            "Day": "7"
+          },
+          "revised": {
+            "Year": "2026",
+            "Month": "1",
+            "Day": "24"
+          },
+          "accepted": {
+            "Year": "2026",
+            "Month": "1",
+            "Day": "26"
+          },
+          "medline": {
+            "Year": "2026",
+            "Month": "2",
+            "Day": "20",
+            "Hour": "0",
+            "Minute": "32"
+          },
+          "pubmed": {
+            "Year": "2026",
+            "Month": "2",
+            "Day": "2",
+            "Hour": "0",
+            "Minute": "29"
+          },
+          "entrez": {
+            "Year": "2026",
+            "Month": "2",
+            "Day": "1",
+            "Hour": "18",
+            "Minute": "6"
+          }
+        },
+        "types": [
+          "Journal Article",
+          "Research Support, Non-U.S. Gov't",
+          "Research Support, N.I.H., Extramural"
+        ],
+        "identifiers": {
+          "pubmed": "41621322",
+          "doi": "10.1016/j.psychres.2026.116977",
+          "pii": "S0165-1781(26)00038-7"
+        },
+        "DateCompleted": {
+          "Year": "2026",
+          "Month": "07",
+          "Day": "06"
+        },
+        "DateRevised": {
+          "Year": "2026",
+          "Month": "10",
+          "Day": "18"
+        },
+        "corrections": [
+          {
+            "type": "UpdateOf",
+            "source": "Res Sq. 2025 Aug 06:rs.3.rs-7115885. doi: 10.21203/rs.3.rs-7115885/v1.",
+            "pmid": "40799755"
+          }
+        ],
+        "prior_scan_overlap": false,
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/41621322/",
+        "linked_notice_changed": false,
+        "screening_decision": "Historical January 2026 pediatric OCS genetic analysis; tic-disorder polygenic scores do not establish a new TS-specific causal treatment target. Linked UpdateOf preprint PMID 40799755 is the same work, not independent replication."
+      },
+      {
+        "pmid": "41689912",
+        "title": "Neurocognitive functioning in gambling: A systematic review of comparisons with other psychiatric and comorbid conditions.",
+        "journal_pubdate": {
+          "Year": "2026",
+          "Month": "May"
+        },
+        "article_dates": [
+          {
+            "type": "Electronic",
+            "Year": "2026",
+            "Month": "02",
+            "Day": "05"
+          }
+        ],
+        "history": {
+          "received": {
+            "Year": "2025",
+            "Month": "12",
+            "Day": "3"
+          },
+          "revised": {
+            "Year": "2026",
+            "Month": "2",
+            "Day": "4"
+          },
+          "accepted": {
+            "Year": "2026",
+            "Month": "2",
+            "Day": "4"
+          },
+          "medline": {
+            "Year": "2026",
+            "Month": "3",
+            "Day": "12",
+            "Hour": "1",
+            "Minute": "9"
+          },
+          "pubmed": {
+            "Year": "2026",
+            "Month": "2",
+            "Day": "14",
+            "Hour": "

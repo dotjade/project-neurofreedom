@@ -1,0 +1,40 @@
+{
+  "status": "passed",
+  "plan_sha256": "80d1305ea39d32c8f8a5be7576f9a79b66cc4fdd87ebf06d8a9fda2997527c17",
+  "finite_mean_uv": -0.005373600673953618,
+  "independent_algebra_truth": {
+    "A": {
+      "pain_mean": 1.0,
+      "centered_covariance": 0.15978505597304182,
+      "cross_moment": 2.1597850559730416
+    },
+    "B": {
+      "pain_mean": 0.0,
+      "centered_covariance": 0.15978505597304182,
+      "cross_moment": 0.15978505597304182
+    },
+    "C": {
+      "pain_mean": -5.35682609381638e-17,
+      "centered_covariance": -0.24021494402695812,
+      "cross_moment": -0.24021494402695823
+    }
+  },
+  "analytic_expected_HT_plugin_covariance_bias": {
+    "complete": {
+      "A": -0.0,
+      "B": -0.0,
+      "C": -0.0
+    },
+    "mcar": {
+      "A": -0.0035996417599550696,
+      "B": -0.0002663084266217364,
+      "C": 0.00040035824004493035
+    },
+    "mar": {
+      "A": -0.010099048073397038,
+      "B": -0.0025990480733970394,
+      "C": 0.003900951926602961
+    }
+  },
+  "scope": "Inferential/plan-consistency review; full independent replication is a separate reviewer task."
+}

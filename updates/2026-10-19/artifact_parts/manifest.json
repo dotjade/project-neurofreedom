@@ -1,0 +1,45 @@
+{
+  "purpose": "Storage-only chunking after oversized connector writes stalled. No analytical change. Reassemble before running original analysis/review or live scan code.",
+  "files": [
+    {
+      "path": "search-log.json",
+      "sha256": "0ad096d6d179b175eb9c698cc80000fdb5b0c2d501cf52bbcb1876bd264d528b",
+      "bytes": 64905,
+      "parts": [
+        "artifact_parts/search-log.json.part001.txt",
+        "artifact_parts/search-log.json.part002.txt",
+        "artifact_parts/search-log.json.part003.txt",
+        "artifact_parts/search-log.json.part004.txt",
+        "artifact_parts/search-log.json.part005.txt"
+      ]
+    },
+    {
+      "path": "baseline-metadata.json",
+      "sha256": "432baef8dcc5f2a48f679091e9a84a01eecf7ecbfe10101bae4879b5902af89e",
+      "bytes": 87429,
+      "parts": [
+        "artifact_parts/baseline-metadata.json.part001.txt",
+        "artifact_parts/baseline-metadata.json.part002.txt",
+        "artifact_parts/baseline-metadata.json.part003.txt",
+        "artifact_parts/baseline-metadata.json.part004.txt",
+        "artifact_parts/baseline-metadata.json.part005.txt",
+        "artifact_parts/baseline-metadata.json.part006.txt"
+      ]
+    },
+    {
+      "path": "baseline-search-log.json",
+      "sha256": "038d09f4539342f565b8d4861e833afa014f4a0415e0d41b5d18f59563f79bf0",
+      "bytes": 118325,
+      "parts": [
+        "artifact_parts/baseline-search-log.json.part001.txt",
+        "artifact_parts/baseline-search-log.json.part002.txt",
+        "artifact_parts/baseline-search-log.json.part003.txt",
+        "artifact_parts/baseline-search-log.json.part004.txt",
+        "artifact_parts/baseline-search-log.json.part005.txt",
+        "artifact_parts/baseline-search-log.json.part006.txt",
+        "artifact_parts/baseline-search-log.json.part007.txt",
+        "artifact_parts/baseline-search-log.json.part008.txt"
+      ]
+    }
+  ]
+}

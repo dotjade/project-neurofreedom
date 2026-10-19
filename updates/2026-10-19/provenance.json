@@ -1,0 +1,23 @@
+{
+  "repository": "https://github.com/dotjade/project-neurofreedom",
+  "tree_sha_at_read": "00f5e25592b3ab2a15f5485053358ea9356d97a5",
+  "retrieval": "GitHub connector, main branch, October 19 03:06\u201303:07 UTC",
+  "inputs_read": [
+    "RESEARCH_PROTOCOL.md",
+    "evidence.jsonl",
+    "updates/2026-10-18/report.md",
+    "updates/2026-10-18/scan_sources.py",
+    "updates/2026-10-18/scan_supplement.py",
+    "updates/2026-10-18/check_isrctn.py",
+    "updates/2026-10-18/build_results.py",
+    "updates/2026-10-18/search-log.json",
+    "updates/2026-10-18/supplement-selected-metadata.json"
+  ],
+  "code_adaptation": "Previous bounded scan updated to October 17\u201319 inclusive; near-entry window October 18\u201319; ISRCTN exclusive end October 20. No source text persisted.",
+  "baseline_files": {
+    "baseline-metadata.json": "Selected prior identifiers, PubMed dates/corrections and preprint DOI/version keys, required by scan_sources.py.",
+    "baseline-supplement.json": "Prior selected registry metadata, required by build_results.py.",
+    "baseline-search-log.json": "Prior query metadata needed only for finalize.py registry comparison."
+  },
+  "privacy": "No person-level observations, contact fields, full papers or abstract bodies retained."
+}

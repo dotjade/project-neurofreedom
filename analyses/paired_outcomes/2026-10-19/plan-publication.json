@@ -1,0 +1,34 @@
+{
+  "type": "public prospective synthetic methods plan, not clinical registration",
+  "commit": "0a4677711ad6da4f7122a194cefa49b5ede3f097",
+  "parent": "00f5e25592b3ab2a15f5485053358ea9356d97a5",
+  "verifiedBeforeExecutionAt": "2026-10-19T03:09:20Z",
+  "readback": [
+    {
+      "path": "analyses/paired_outcomes/2026-10-19/preregistration.md",
+      "matched": true,
+      "sha": "3355f709a396fdf45d34dc82ba6ee353e98638a6"
+    },
+    {
+      "path": "analyses/paired_outcomes/2026-10-19/config.json",
+      "matched": true,
+      "sha": "e7f7538d1768d9fb8cef34547dbd6f2c0c9e582e"
+    },
+    {
+      "path": "analyses/paired_outcomes/2026-10-19/source_provenance.json",
+      "matched": true,
+      "sha": "f23f8585b2916500b10acf286b234de416108cad"
+    },
+    {
+      "path": "analyses/paired_outcomes/2026-10-19/preregistration.sha256",
+      "matched": true,
+      "sha": "e29326b372c679d996a57a908311e5d73d9ecb8b"
+    },
+    {
+      "path": "analyses/paired_outcomes/2026-10-19/preexecution.sha256",
+      "matched": true,
+      "sha": "0e18446962b294fa763fcfb28754be34c382d1c8"
+    }
+  ],
+  "scope": "Five frozen files published before simulation execution; no feed change."
+}

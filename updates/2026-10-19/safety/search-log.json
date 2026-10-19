@@ -1,0 +1,106 @@
+{
+  "scan_date": "2026-10-19",
+  "nominal_since": "2026-10-18T02:41:00Z",
+  "publication_date_overlap": "2026-10-17 through current early-day 2026-10-19; search engine date filters not trusted as publication dates",
+  "query_count": 12,
+  "returned_card_count": 48,
+  "batches": [
+    {
+      "batch": 1,
+      "queries": [
+        "site:fda.gov (ecopipam OR aripiprazole OR risperidone OR pimozide OR haloperidol) after:2026-10-17 before:2026-10-20",
+        "site:fda.gov (clonidine OR guanfacine OR valbenazine OR deutetrabenazine OR tetrabenazine) after:2026-10-17 before:2026-10-20",
+        "site:ema.europa.eu (Tourette OR tic OR guanfacine OR aripiprazole OR risperidone) after:2026-10-17 before:2026-10-20",
+        "site:gov.uk (MHRA OR \"Drug Safety Update\") (tic OR Tourette OR guanfacine OR aripiprazole OR risperidone) after:2026-10-17 before:2026-10-20"
+      ],
+      "started_at_utc": "2026-10-19T03:07:33Z",
+      "timestamp_precision": "approximate from execution log",
+      "returned_cards": 15,
+      "result_headers": [
+        "Medicines and Healthcare products Regulatory Agency - GOV.UK (https://www.gov.uk/government/organisations/medicines-and-healthcare-products-regulatory-agency)",
+        "Safety communications concerning medicines, medical devices and other healthcare products - GOV.UK (https://www.gov.uk/government/publications/safety-communications-concerning-medicines-medical-devices-and-other-healthcare-products/safety-communications-concerning-medicines-medical-devices-and-other-healthcare-products)",
+        "MHRA strengthens safety warnings for finasteride and dutasteride - GOV.UK (https://www.gov.uk/government/news/mhra-strengthens-safety-warnings-for-finasteride-and-dutasteride)",
+        "Drug Safety Update - GOV.UK (https://www.gov.uk/drug-safety-update?therapeutic_area=neurology)",
+        "MHRA strengthening dependency and addiction warnings on medicines used to treat pain, anxiety, and insomnia - GOV.UK (https://www.gov.uk/government/news/mhra-strengthening-dependency-and-addiction-warnings-on-medicines-used-to-treat-pain-anxiety-and-insomnia)",
+        "Guidance on pharmacovigilance procedures - GOV.UK (https://www.gov.uk/government/publications/guidance-on-pharmacovigilance-procedures/guidance-on-pharmacovigilance-procedures)",
+        "Safety Public Assessment Reports - GOV.UK (https://www.gov.uk/guidance/safety-public-assessment-reports)",
+        "MHRA Safety Roundup: December 2025 - GOV.UK (https://www.gov.uk/drug-device-alerts/mhra-safety-roundup-december-2025)",
+        "[Withdrawn] Drug Safety Update: monthly PDF newsletter - GOV.UK (https://www.gov.uk/government/publications/drug-safety-update-monthly-newsletter)",
+        "NDA/BLA Multi-disciplinary Review and Evaluation {NDA 022063/S-001} (https://www.accessdata.fda.gov/drugsatfda_docs/pediatric/475_22063S1%20mixed%20salts%20amphetamine%20multidisciplinary%20bpca_0.pdf)",
+        "MHRA Safety Roundup: September 2026 - GOV.UK (https://www.gov.uk/drug-device-alerts/mhra-safety-roundup-september-2026?trk=article-ssr-frontend-pulse_little-text-block)",
+        "Aripiprazole Zentiva | European Medicines Agency (EMA) (https://www.ema.europa.eu/en/medicines/human/EPAR/aripiprazole-zentiva)",
+        "Haldol and associated names - referral | European Medicines Agency (EMA) (https://www.ema.europa.eu/da/medicines/human/referrals/haldol-associated-names)",
+        "number of cases (≥20 cases in the sample and ≥1,200 cases in the national estimate) and level of variability (coefficient of variation ≤0.3). (https://www.accessdata.fda.gov/drugsatfda_docs/nda/2019/211243Orig1s000OtherR.pdf)",
+        "Table 6: Efficacy Results in Patients With Relapsed or Refractory FL (Study 205) (https://www.accessdata.fda.gov/drugsatfda_docs/nda/2021/213176Orig1Orig2s000Lbl.pdf)"
+      ],
+      "screening": "No additional qualifying official material-safety notice verified. Older documents, general regulatory pages, incidental term matches, prior-seen events and unrelated records excluded. One non-regulator community story result was out of scope; no personal narrative retained."
+    },
+    {
+      "batch": 2,
+      "queries": [
+        "site:fda.gov (NeuroStar OR Neupulse OR \"median nerve\" OR \"deep brain stimulation\" OR rTMS) after:2026-10-17 before:2026-10-20",
+        "site:ema.europa.eu (ecopipam OR valbenazine OR deutetrabenazine OR tetrabenazine OR pimozide OR haloperidol OR clonidine) after:2026-10-17 before:2026-10-20",
+        "site:gov.uk (Neupulse OR NeuroStar OR topiramate OR botulinum OR tiapride OR methylphenidate OR atomoxetine OR lisdexamfetamine OR fluvoxamine OR sertraline) after:2026-10-17 before:2026-10-20",
+        "site:fda.gov (topiramate OR botulinum OR tiapride OR methylphenidate OR atomoxetine OR lisdexamfetamine OR fluvoxamine OR sertraline) after:2026-10-17 before:2026-10-20"
+      ],
+      "started_at_utc": "2026-10-19T03:07:53Z",
+      "timestamp_precision": "approximate from execution log",
+      "returned_cards": 18,
+      "result_headers": [
+        "Austedo | European Medicines Agency (EMA) (https://www.ema.europa.eu/en/medicines/human/EPAR/austedo)",
+        "Meeting highlights from the Committee for Medicinal Products for Human Use (CHMP) 13-16 October 2025 | European Medicines Agency (EMA) (https://www.ema.europa.eu/el/news/meeting-highlights-committee-medicinal-products-human-use-chmp-13-16-october-2025)",
+        "EU/3/08/597 - orphan designation for treatment of Huntington’s disease | European Medicines Agency (EMA) (https://www.ema.europa.eu/pt/medicines/human/orphan-designations/eu-3-08-597)",
+        "Haldol and associated names - referral | European Medicines Agency (EMA) (https://www.ema.europa.eu/et/medicines/human/referrals/haldol-associated-names)",
+        "Questions and answers on how to use a CEP in the context of a Marketing Authorisation Application or a Marketing Authorisation Variation - Scientific guideline | European Medicines Agency (EMA) (https://www.ema.europa.eu/en/scientific-guidelines/questions-answers-how-use-cep-context-marketing-authorisation-application-or-marketing-authorisation-variation)",
+        "Electrophysiological Biomarkers for Non-clinical Safety Evaluation of Neuro-interventional Devices | Center for Devices and Radiological Health (https://cdrh-rst.fda.gov/electrophysiological-biomarkers-non-clinical-safety-evaluation-neuro-interventional-devices)",
+        "Kinzalkomb, INN-telmisartanhydrochlorothiazide-telmisartan-hydrochlorothiazide (https://www.ema.europa.eu/hu/documents/product-information/kinzalkomb-epar-product-information_hu.pdf)",
+        "PritorPlus, INN-telmisartanhydrochlorothiazide-telmisartan-hydrochlorothiazide (https://www.ema.europa.eu/sl/documents/product-information/pritorplus-epar-product-information_sl.pdf)",
+        "Getting involved in EMA activities as a patient, consumer or carer | European Medicines Agency (EMA) (https://www.ema.europa.eu/en/partners-networks/patients-consumers/getting-involved-ema-activities-patient-consumer-or-carer)",
+        "Clinical Pharmacology Review (https://www.accessdata.fda.gov/drugsatfda_docs/nda/2018/761077Orig1s000ClinPharmR.pdf)",
+        "MAUDE Adverse Event Report: MERCURY SILVER AMALGAM; DENTAL AMALGAM (https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfmaude/detail.cfm?mdrfoi__id=17059239&pc=OIV)",
+        "European Medicines Agency recommends restricting use of thiocolchicoside by mouth or injection | European Medicines Agency (EMA) (https://www.ema.europa.eu/en/news/european-medicines-agency-recommends-restricting-use-thiocolchicoside-mouth-or-injection)",
+        "ICH Q5A(R2) Guideline on viral safety evaluation of biotechnology products derived from cell lines of human or animal origin - Scientific guideline | European Medicines Agency (EMA) (https://www.ema.europa.eu/ro/node/69743)",
+        "EMA advises continued use of medicines for hypertension, heart or kidney disease during COVID-19 pandemic | European Medicines Agency (EMA) (https://www.ema.europa.eu/en/news/ema-advises-continued-use-medicines-hypertension-heart-or-kidney-disease-during-covid-19-pandemic)",
+        "NDA/BLA Multi-disciplinary Review and Evaluation {NDA 022063/S-001} (https://www.accessdata.fda.gov/drugsatfda_docs/pediatric/475_22063S1%20mixed%20salts%20amphetamine%20multidisciplinary%20bpca_0.pdf)",
+        "Regulatory information - eSubmission Gateway or web client mandatory for all eCTD submissions through the centralised procedure from 1 March 2014 | European Medicines Agency (EMA) (https://www.ema.europa.eu/ro/news/regulatory-information-esubmission-gateway-or-web-client-mandatory-all-ectd-submissions-through-centralised-procedure-1-march-2014)",
+        "Table 6: Efficacy Results in Patients With Relapsed or Refractory FL (Study 205) (https://www.accessdata.fda.gov/drugsatfda_docs/nda/2021/213176Orig1Orig2s000Lbl.pdf)",
+        "IVEMEND, INN-fosaprepitant dimeglumine (https://www.ema.europa.eu/mt/documents/product-information/ivemend-epar-product-information_mt.pdf)"
+      ],
+      "screening": "No additional qualifying official material-safety notice verified. Older documents, general regulatory pages, incidental term matches, prior-seen events and unrelated records excluded. One non-regulator community story result was out of scope; no personal narrative retained."
+    },
+    {
+      "batch": 3,
+      "queries": [
+        "site:ema.europa.eu (Neupulse OR NeuroStar OR topiramate OR botulinum OR tiapride OR methylphenidate OR atomoxetine OR lisdexamfetamine OR fluvoxamine OR sertraline) after:2026-10-17 before:2026-10-20",
+        "site:gov.uk (ecopipam OR pimozide OR haloperidol OR clonidine OR valbenazine OR deutetrabenazine OR tetrabenazine) after:2026-10-17 before:2026-10-20",
+        "site:fda.gov \"October\" \"2026\" (Tourette OR ecopipam OR NeuroStar OR Neupulse)",
+        "site:gov.uk \"October\" \"2026\" (antidepressants OR \"deep brain stimulation\" OR \"median nerve\")"
+      ],
+      "started_at_utc": "2026-10-19T03:08:36.682Z",
+      "timestamp_precision": "ISO timestamp captured before call",
+      "returned_cards": 15,
+      "result_headers": [
+        "Class 2 Device Recall NeuroStar Advanced Therapy System (https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfRes/res.cfm?id=222521)",
+        "Comparative Effectiveness and Safety of Selective Serotonin Reuptake Inhibitors in Adult Attention-Deficit/Hyperactivity Disorder and comorbid depression (ASSURE-Extend) | HMA-EMA Catalogues of real-world data sources and studies (https://catalogues.ema.europa.eu/node/3730/methodological-aspects)",
+        "Serotonin-specific reuptake inhibitors and serotonin-noradrenaline reuptake inhibitors - referral | European Medicines Agency (EMA) (https://www.ema.europa.eu/pt/medicines/human/referrals/serotonin-specific-reuptake-inhibitors-serotonin-noradrenaline-reuptake-inhibitors)",
+        "List of medicines under additional monitoring | European Medicines Agency (EMA) (https://www.ema.europa.eu/no/human-regulatory-overview/post-authorisation/pharmacovigilance-post-authorisation/medicines-under-additional-monitoring/list-medicines-under-additional-monitoring)",
+        "Tuzulby | European Medicines Agency (EMA) (https://www.ema.europa.eu/en/medicines/human/EPAR/tuzulby)",
+        "Guidance and help - Article  · PLM (https://euema-plm-uat2.ema.europa.eu/guidance-and-help/article/?artid=KA-01106)",
+        "PSUSA/00000262/202311 - periodic safety update report single assessment | European Medicines Agency (EMA) (https://www.ema.europa.eu/de/medicines/psusa/psusa-00000262-202311)",
+        "Meeting highlights from the Committee for Medicinal Products for Human Use (CHMP) 9-12 December 2024 | European Medicines Agency (EMA) (https://www.ema.europa.eu/et/news/meeting-highlights-committee-medicinal-products-human-use-chmp-9-12-december-2024)",
+        "DEPARTMENT OF HEALTH AND HUMAN SERVICES Food and Drug Administration Individual Patient Expanded Access Investigational New Drug Application (IND) (Title 21, Code of Federal Regulations (CFR) Part 312) None | Form Approved: OMB No. 0910-0814 Expiration Date: October 31, 2026 See PRA Statement on last page. --- | ---1. Physician Name, Name of Institution or Clinical Practice, Address, and Contact Information (https://www.fda.gov/about-fda/forms/individual-patient-expanded-access-investigational-new-drug-application-ind-pdf)",
+        "What's new | European Medicines Agency (EMA) (https://www.ema.europa.eu/es/news-events/whats-new/two-months-ago)",
+        "Class 2 Device Recall Medline (https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfRES/res.cfm?id=223070)",
+        "EudraCT (https://eudract.ema.europa.eu/eudract-web/components/eudractnumber/eudractNumber.faces)",
+        "GDUFA Facility Arrears List                                                                 Thursday, June 11, 2026 (https://www.fda.gov/media/186165/download)",
+        "FDA U.S. FOOD & DRUG ADMINISTRATION (https://download.open.fda.gov/crl/CRL_NDA216900_20260626_Redacted.pdf)"
+      ],
+      "screening": "No additional qualifying official material-safety notice verified. Older documents, general regulatory pages, incidental term matches, prior-seen events and unrelated records excluded. One non-regulator community story result was out of scope; no personal narrative retained."
+    }
+  ],
+  "limitations": [
+    "Batch results do not expose per-query counts or total hit counts.",
+    "48 search cards include duplicates, non-regulator spillover, older and irrelevant pages; not 48 independent safety events.",
+    "Only returned cards screened; no exhaustive pagination or complete ingredient-label comparison."
+  ]
+}

@@ -1,0 +1,23 @@
+test_bounds_with_error_envelope (test_analysis.Checks.test_bounds_with_error_envelope) ... ok
+test_complete_counts (test_analysis.Checks.test_complete_counts) ... ok
+test_complete_ht_equals_cc (test_analysis.Checks.test_complete_ht_equals_cc) ... ok
+test_covariance_independent_centering (test_analysis.Checks.test_covariance_independent_centering) ... ok
+test_known_probabilities (test_analysis.Checks.test_known_probabilities) ... ok
+test_no_diagnostic_omission (test_analysis.Checks.test_no_diagnostic_omission) ... ok
+test_oracle_cross_moment (test_analysis.Checks.test_oracle_cross_moment) ... ok
+test_plan_hash (test_analysis.Checks.test_plan_hash) ... ok
+test_population_count (test_analysis.Checks.test_population_count) ... ok
+test_population_reproducible (test_analysis.Checks.test_population_reproducible) ... ok
+test_replicates_reproducible (test_analysis.Checks.test_replicates_reproducible) ... ok
+test_row_count_and_seed (test_analysis.Checks.test_row_count_and_seed) ... ok
+test_stratum_balance (test_analysis.Checks.test_stratum_balance) ... ok
+test_support_loss_counts (test_analysis.Checks.test_support_loss_counts) ... ok
+test_support_loss_observational_identity (test_analysis.Checks.test_support_loss_observational_identity) ... ok
+test_tic_only_identical (test_analysis.Checks.test_tic_only_identical) ... ok
+test_truth_means (test_analysis.Checks.test_truth_means) ... ok
+test_zero_stratum_latents (test_analysis.Checks.test_zero_stratum_latents) ... ok
+
+----------------------------------------------------------------------
+Ran 18 tests in 0.864s
+
+OK

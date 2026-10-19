@@ -1,0 +1,302 @@
+{
+  "date": "2026-10-19",
+  "started_utc": "2026-10-19T03:07:21.309861+00:00",
+  "inclusive_overlap": [
+    "2026-10-17",
+    "2026-10-19"
+  ],
+  "prior_core_end_utc": "2026-10-18T02:41:39Z",
+  "retrieval_requests": [
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=Tourette+OR+%22tic+disorder%22+OR+%22tic+disorders%22&datetype=edat&mindate=2026%2F10%2F17&maxdate=2026%2F10%2F19&retmode=json&retmax=1000",
+      "started_utc": "2026-10-19T03:07:21.312810+00:00",
+      "status": 200,
+      "bytes": 816,
+      "sha256": "458866ea173405a830e0b3c4c292c0851b4748776a29227890ce0da35db27251",
+      "completed_utc": "2026-10-19T03:07:28.359395+00:00"
+    },
+    {
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-17/2026-10-19/0",
+      "started_utc": "2026-10-19T03:07:21.314927+00:00",
+      "status": 200,
+      "bytes": 64883,
+      "sha256": "1360a0e89a0170a8474735cd79a924f5319b74b032814f6b9ad9b351bab7d800",
+      "completed_utc": "2026-10-19T03:07:31.202573+00:00"
+    },
+    {
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-10-17/2026-10-19/0",
+      "started_utc": "2026-10-19T03:07:21.315507+00:00",
+      "status": 200,
+      "bytes": 25094,
+      "sha256": "1a2aa685a2832fd804c5dd17f24fc2932c2834a40850fad1845ce7d17d8da9f6",
+      "completed_utc": "2026-10-19T03:07:31.978724+00:00"
+    },
+    {
+      "url": "https://clinicaltrials.gov/api/v2/studies?query.cond=Tourette&filter.advanced=AREA%5BLastUpdatePostDate%5DRANGE%5B2026-10-17%2C2026-10-19%5D&pageSize=100&format=json&countTotal=true",
+      "started_utc": "2026-10-19T03:07:21.316560+00:00",
+      "status": 200,
+      "bytes": 31,
+      "sha256": "b54968c05ff881a1ef7ce604b6a340248f8e2aee8637bef06da0f5693f520df8",
+      "completed_utc": "2026-10-19T03:07:29.043899+00:00"
+    },
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=Tourette+OR+%22tic+disorder%22+OR+%22tic+disorders%22&datetype=edat&mindate=2026%2F10%2F18&maxdate=2026%2F10%2F19&retmode=json&retmax=1000",
+      "started_utc": "2026-10-19T03:07:28.759638+00:00",
+      "status": 200,
+      "bytes": 884,
+      "sha256": "e9d763f1b33bac51f81d0d4e3bc8b4fa7205f058726215ef0e51126f22f01585",
+      "completed_utc": "2026-10-19T03:07:32.400414+00:00"
+    },
+    {
+      "url": "https://clinicaltrials.gov/api/v2/studies?query.cond=tic+disorder&filter.advanced=AREA%5BLastUpdatePostDate%5DRANGE%5B2026-10-17%2C2026-10-19%5D&pageSize=100&format=json&countTotal=true",
+      "started_utc": "2026-10-19T03:07:29.043956+00:00",
+      "status": 200,
+      "bytes": 31,
+      "sha256": "b54968c05ff881a1ef7ce604b6a340248f8e2aee8637bef06da0f5693f520df8",
+      "completed_utc": "2026-10-19T03:07:34.720492+00:00"
+    },
+    {
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-17/2026-10-19/30",
+      "started_utc": "2026-10-19T03:07:31.203158+00:00",
+      "status": 200,
+      "bytes": 70693,
+      "sha256": "62aea70e5cfee00c8d20a8f9e99a67db0b5de6e9093c27efdc6ed374b9bc0823",
+      "completed_utc": "2026-10-19T03:07:35.254849+00:00"
+    },
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=Tourette+OR+%22tic+disorder%22+OR+%22tic+disorders%22&datetype=pdat&mindate=2026%2F10%2F17&maxdate=2026%2F10%2F19&retmode=json&retmax=1000",
+      "started_utc": "2026-10-19T03:07:32.800663+00:00",
+      "status": 200,
+      "bytes": 890,
+      "sha256": "d5960a7b129163235f62c0614d6c479468438752747cb9fdee6af31c763f45b2",
+      "completed_utc": "2026-10-19T03:07:37.406640+00:00"
+    },
+    {
+      "url": "https://clinicaltrials.gov/api/v2/studies?query.cond=Tics&filter.advanced=AREA%5BLastUpdatePostDate%5DRANGE%5B2026-10-17%2C2026-10-19%5D&pageSize=100&format=json&countTotal=true",
+      "started_utc": "2026-10-19T03:07:34.720573+00:00",
+      "status": 200,
+      "bytes": 31,
+      "sha256": "b54968c05ff881a1ef7ce604b6a340248f8e2aee8637bef06da0f5693f520df8",
+      "completed_utc": "2026-10-19T03:07:38.345734+00:00"
+    },
+    {
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-17/2026-10-19/60",
+      "started_utc": "2026-10-19T03:07:35.255669+00:00",
+      "status": 200,
+      "bytes": 67744,
+      "sha256": "a60d0633651b870dd26cd1708bff0baaf6bf94530c3e2bcf0a66ec2e19805ed4",
+      "completed_utc": "2026-10-19T03:07:40.280317+00:00"
+    },
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=Tourette+OR+%22tic+disorder%22+OR+%22tic+disorders%22&datetype=mdat&mindate=2026%2F10%2F17&maxdate=2026%2F10%2F19&retmode=json&retmax=1000",
+      "started_utc": "2026-10-19T03:07:37.806944+00:00",
+      "status": 200,
+      "bytes": 889,
+      "sha256": "bef4580c122e40c0c7ab993bf0f951605ffb0c551654429c5c9563378fffeb33",
+      "completed_utc": "2026-10-19T03:07:41.799986+00:00"
+    },
+    {
+      "url": "https://clinicaltrials.gov/api/v2/studies?query.term=ecopipam&filter.advanced=AREA%5BLastUpdatePostDate%5DRANGE%5B2026-10-17%2C2026-10-19%5D&pageSize=100&format=json&countTotal=true",
+      "started_utc": "2026-10-19T03:07:38.345786+00:00",
+      "status": 200,
+      "bytes": 31,
+      "sha256": "b54968c05ff881a1ef7ce604b6a340248f8e2aee8637bef06da0f5693f520df8",
+      "completed_utc": "2026-10-19T03:07:42.255177+00:00"
+    },
+    {
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-17/2026-10-19/90",
+      "started_utc": "2026-10-19T03:07:40.280870+00:00",
+      "status": 200,
+      "bytes": 68455,
+      "sha256": "2474f0cb38f7e5ba9fb837df6a4b0448e04f7b34f71517ac87cc4174708f3227",
+      "completed_utc": "2026-10-19T03:07:46.466654+00:00"
+    },
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%28Tourette+OR+%22tic+disorder%22+OR+%22tic+disorders%22%29+AND+%28retraction+OR+retracted+OR+erratum+OR+corrigendum+OR+correction%29&datetype=edat&mindate=2026%2F10%2F17&maxdate=2026%2F10%2F19&retmode=json&retmax=1000",
+      "started_utc": "2026-10-19T03:07:42.200284+00:00",
+      "status": 200,
+      "bytes": 2714,
+      "sha256": "8486f8fe98a815d2b559019805c20b98426faa77a6cb12e3430b60083aee6d0b",
+      "completed_utc": "2026-10-19T03:07:45.694198+00:00"
+    },
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=tics+OR+%22chronic+motor+tic%22+OR+%22chronic+vocal+tic%22+OR+%22persistent+tic%22&datetype=edat&mindate=2026%2F10%2F17&maxdate=2026%2F10%2F19&retmode=json&retmax=1000",
+      "started_utc": "2026-10-19T03:07:46.094415+00:00",
+      "status": 200,
+      "bytes": 484,
+      "sha256": "35103304d24df27073613efdd49e10eb3e065ef8a286e80b72f21a59f7fa21e5",
+      "completed_utc": "2026-10-19T03:07:51.386476+00:00"
+    },
+    {
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-10-17/2026-10-19/120",
+      "started_utc": "2026-10-19T03:07:46.467281+00:00",
+      "status": 200,
+      "bytes": 11485,
+      "sha256": "01efa07ce8868edb862df0bee76b85d29385ff6a10041bc1a7e193523c03f686",
+      "completed_utc": "2026-10-19T03:07:51.880003+00:00"
+    },
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=tics+OR+%22chronic+motor+tic%22+OR+%22chronic+vocal+tic%22+OR+%22persistent+tic%22&datetype=pdat&mindate=2026%2F10%2F17&maxdate=2026%2F10%2F19&retmode=json&retmax=1000",
+      "started_utc": "2026-10-19T03:07:51.786736+00:00",
+      "status": 200,
+      "bytes": 525,
+      "sha256": "97fdadadccebf6a3a5a4b7ccd5e732b875b53bcaabfafa4b0e29a68ba6362054",
+      "completed_utc": "2026-10-19T03:07:56.314389+00:00"
+    },
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%28Tourette+OR+%22tic+disorder%22+OR+%22tic+disorders%22%29+AND+%28adult+OR+severe+OR+pain+OR+burden+OR+ADHD+OR+comorbid%2A+OR+cooccurring+OR+treatment+OR+adverse+OR+negative+OR+quality+of+life%29&datetype=edat&mindate=2026%2F10%2F17&maxdate=2026%2F10%2F19&retmode=json&retmax=1000",
+      "started_utc": "2026-10-19T03:07:56.714612+00:00",
+      "status": 200,
+      "bytes": 4030,
+      "sha256": "a444c1828a45bbebe2d48594fdecb63f841796c06697ca09d387ff6863c33523",
+      "completed_utc": "2026-10-19T03:08:00.427691+00:00"
+    },
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=10382139%2C11055462%2C11518480%2C40977255%2C41621322%2C41689912%2C42888480%2C42889367%2C42889785%2C42890800%2C42890894%2C42893364&retmode=xml",
+      "started_utc": "2026-10-19T03:08:00.827904+00:00",
+      "status": 200,
+      "bytes": 190947,
+      "sha256": "593c74773f821b2adda09970f82f06a476f59e56895f5913980bd2634b9e3c25",
+      "completed_utc": "2026-10-19T03:08:06.346018+00:00"
+    }
+  ],
+  "pubmed": {
+    "queries": [
+      {
+        "label": "core_edat",
+        "params": {
+          "db": "pubmed",
+          "term": "Tourette OR \"tic disorder\" OR \"tic disorders\"",
+          "datetype": "edat",
+          "mindate": "2026/10/17",
+          "maxdate": "2026/10/19",
+          "retmode": "json",
+          "retmax": 1000
+        },
+        "count": 3,
+        "ids": [
+          "42890894",
+          "42890800",
+          "42888480"
+        ],
+        "querytranslation": "(\"tourette syndrome\"[MeSH Terms] OR (\"tourette\"[All Fields] AND \"syndrome\"[All Fields]) OR \"tourette syndrome\"[All Fields] OR \"tourette\"[All Fields] OR \"tourette s\"[All Fields] OR \"tourettes\"[All Fields] OR \"tourettism\"[All Fields] OR \"tic disorder\"[All Fields] OR \"tic disorders\"[All Fields]) AND 2026/10/17:2026/10/19[Date - Entry]",
+        "warnings": null,
+        "errors": null
+      },
+      {
+        "label": "near_edat",
+        "params": {
+          "db": "pubmed",
+          "term": "Tourette OR \"tic disorder\" OR \"tic disorders\"",
+          "datetype": "edat",
+          "mindate": "2026/10/18",
+          "maxdate": "2026/10/19",
+          "retmode": "json",
+          "retmax": 1000
+        },
+        "count": 0,
+        "ids": [],
+        "querytranslation": "(\"tourette syndrome\"[MeSH Terms] OR (\"tourette\"[All Fields] AND \"syndrome\"[All Fields]) OR \"tourette syndrome\"[All Fields] OR \"tourette\"[All Fields] OR \"tourette s\"[All Fields] OR \"tourettes\"[All Fields] OR \"tourettism\"[All Fields] OR \"tic disorder\"[All Fields] OR \"tic disorders\"[All Fields]) AND 2026/10/18:2026/10/19[Date - Entry]",
+        "warnings": {
+          "phrasesignored": [],
+          "quotedphrasesnotfound": [],
+          "outputmessages": [
+            "No items found."
+          ]
+        },
+        "errors": null
+      },
+      {
+        "label": "core_pdat",
+        "params": {
+          "db": "pubmed",
+          "term": "Tourette OR \"tic disorder\" OR \"tic disorders\"",
+          "datetype": "pdat",
+          "mindate": "2026/10/17",
+          "maxdate": "2026/10/19",
+          "retmode": "json",
+          "retmax": 1000
+        },
+        "count": 0,
+        "ids": [],
+        "querytranslation": "(\"tourette syndrome\"[MeSH Terms] OR (\"tourette\"[All Fields] AND \"syndrome\"[All Fields]) OR \"tourette syndrome\"[All Fields] OR \"tourette\"[All Fields] OR \"tourette s\"[All Fields] OR \"tourettes\"[All Fields] OR \"tourettism\"[All Fields] OR \"tic disorder\"[All Fields] OR \"tic disorders\"[All Fields]) AND 2026/10/17:2026/10/19[Date - Publication]",
+        "warnings": {
+          "phrasesignored": [],
+          "quotedphrasesnotfound": [],
+          "outputmessages": [
+            "No items found."
+          ]
+        },
+        "errors": null
+      },
+      {
+        "label": "core_mdat",
+        "params": {
+          "db": "pubmed",
+          "term": "Tourette OR \"tic disorder\" OR \"tic disorders\"",
+          "datetype": "mdat",
+          "mindate": "2026/10/17",
+          "maxdate": "2026/10/19",
+          "retmode": "json",
+          "retmax": 1000
+        },
+        "count": 9,
+        "ids": [
+          "42890894",
+          "42890800",
+          "42888480",
+          "41689912",
+          "41621322",
+          "40977255",
+          "11518480",
+          "11055462",
+          "10382139"
+        ],
+        "querytranslation": "(\"tourette syndrome\"[MeSH Terms] OR (\"tourette\"[All Fields] AND \"syndrome\"[All Fields]) OR \"tourette syndrome\"[All Fields] OR \"tourette\"[All Fields] OR \"tourette s\"[All Fields] OR \"tourettes\"[All Fields] OR \"tourettism\"[All Fields] OR \"tic disorder\"[All Fields] OR \"tic disorders\"[All Fields]) AND 2026/10/17:2026/10/19[Date - Modification]",
+        "warnings": null,
+        "errors": null
+      },
+      {
+        "label": "notice_edat",
+        "params": {
+          "db": "pubmed",
+          "term": "(Tourette OR \"tic disorder\" OR \"tic disorders\") AND (retraction OR retracted OR erratum OR corrigendum OR correction)",
+          "datetype": "edat",
+          "mindate": "2026/10/17",
+          "maxdate": "2026/10/19",
+          "retmode": "json",
+          "retmax": 1000
+        },
+        "count": 0,
+        "ids": [],
+        "querytranslation": "(\"tourette syndrome\"[MeSH Terms] OR (\"tourette\"[All Fields] AND \"syndrome\"[All Fields]) OR \"tourette syndrome\"[All Fields] OR \"tourette\"[All Fields] OR \"tourette s\"[All Fields] OR \"tourettes\"[All Fields] OR \"tourettism\"[All Fields] OR \"tic disorder\"[All Fields] OR \"tic disorders\"[All Fields]) AND (\"retract\"[All Fields] OR \"retractable\"[All Fields] OR \"retracted\"[All Fields] OR \"retracting\"[All Fields] OR \"retraction\"[All Fields] OR \"retractions\"[All Fields] OR \"retracts\"[All Fields] OR (\"retract\"[All Fields] OR \"retractable\"[All Fields] OR \"retracted\"[All Fields] OR \"retracting\"[All Fields] OR \"retraction\"[All Fields] OR \"retractions\"[All Fields] OR \"retracts\"[All Fields]) OR (\"published erratum\"[Publication Type] OR \"erratum\"[All Fields]) OR \"corrigendum\"[All Fields] OR (\"correct\"[All Fields] OR \"correctability\"[All Fields] OR \"correctable\"[All Fields] OR \"corrected\"[All Fields] OR \"correctible\"[All Fields] OR \"correcting\"[All Fields] OR \"correction\"[All Fields] OR \"corrections\"[All Fields] OR \"corrective\"[All Fields] OR \"correctives\"[All Fields] OR \"correctness\"[All Fields] OR \"corrects\"[All Fields])) AND 2026/10/17:2026/10/19[Date - Entry]",
+        "warnings": {
+          "phrasesignored": [],
+          "quotedphrasesnotfound": [],
+          "outputmessages": [
+            "No items found."
+          ]
+        },
+        "errors": null
+      },
+      {
+        "label": "syn_edat",
+        "params": {
+          "db": "pubmed",
+          "term": "tics OR \"chronic motor tic\" OR \"chronic vocal tic\" OR \"persistent tic\"",
+          "datetype": "edat",
+          "mindate": "2026/10/17",
+          "maxdate": "2026/10/19",
+          "retmode": "json",
+          "retmax": 1000
+        },
+        "count": 6,
+        "ids": [
+          "42893364",
+          "42890894",
+          "42890800",
+          "42889785",
+          "42889367",
+          "42888480"
+        ],
+        "querytranslation": "(\"tics\"[MeSH Terms] OR \"tics\"[All Fiel

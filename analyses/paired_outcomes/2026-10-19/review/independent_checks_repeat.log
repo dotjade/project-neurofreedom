@@ -1,0 +1,54 @@
+{
+  "checks_passed": 157936,
+  "numeric_tolerance": 2e-12,
+  "maximum_numeric_difference": 1.0269562977782698e-15,
+  "rows_independently_recomputed": 2400,
+  "diagnostic_flags": 0,
+  "realized_score_bounds": [
+    2.1530993985822886,
+    6.046782530766715
+  ],
+  "observed_sample_ranges": {
+    "complete": [
+      400,
+      400
+    ],
+    "mcar": [
+      215,
+      268
+    ],
+    "mar": [
+      197,
+      244
+    ],
+    "support_loss": [
+      200,
+      200
+    ]
+  },
+  "analytic_HT_covariance_bias": {
+    "complete": {
+      "A": -0.0,
+      "B": -0.0,
+      "C": -0.0
+    },
+    "mcar": {
+      "A": -0.0035996417599550696,
+      "B": -0.0002663084266217364,
+      "C": 0.00040035824004493035
+    },
+    "mar": {
+      "A": -0.010099048073397038,
+      "B": -0.0025990480733970394,
+      "C": 0.003900951926602962
+    }
+  },
+  "input_sha256": {
+    "preregistration.md": "80d1305ea39d32c8f8a5be7576f9a79b66cc4fdd87ebf06d8a9fda2997527c17",
+    "config.json": "9088abb9b665683f86cec5b23e711d3ade09630fbeea64c730067ff7e84763cd",
+    "run_analysis.py": "a5a96d364c60047f44e4522d9ddcacb5150a15164deb78f938d67cc7b01364ac",
+    "synthetic_inputs.csv": "acd8cf6703c81419d931ea2fd6368c4840ece78121887964a77f85820b5f2018",
+    "replicate_results.csv": "f61ea5f2a468527983aca93ee102e2469d81992ab40c6dba60bb09b8ef4c71f7",
+    "results.json": "d6bf4d79c1cd4c3cc1b256314ed68da00b2ec4375807c4b2d17df4f2e3e33bbe"
+  }
+}

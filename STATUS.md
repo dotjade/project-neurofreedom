@@ -1,6 +1,6 @@
 # Project NeuroFreedom status
 
-Updated 18 October 2026. Initial portfolio, ten completed daily updates and two completed weekly syntheses. Public evidence repository and journal launched 13 October.
+Updated 19 October 2026. Initial portfolio, eleven completed daily updates and two completed weekly syntheses. Public evidence repository and journal launched 13 October.
 
 ## Completed in this first pass
 
@@ -14,7 +14,7 @@ Updated 18 October 2026. Initial portfolio, ten completed daily updates and two 
 
 ## Enabled research schedules
 
-The user approved the following automatic public-science research and repository updates on 8 October 2026. Each schedule was created successfully and returned enabled status. Daily runs were completed on 9-18 October 2026; weekly syntheses were completed on 11 and 18 October; first monthly and quarterly runs remain unverified.
+The user approved the following automatic public-science research and repository updates on 8 October 2026. Each schedule was created successfully and returned enabled status. Daily runs were completed on 9-19 October 2026; weekly syntheses were completed on 11 and 18 October; first monthly and quarterly runs remain unverified.
 
 - Daily new-evidence checks: from 9 October 2026, approximately 08:00 India time.
 - Weekly synthesis: Sundays, from 11 October 2026, approximately 09:00 India time.
@@ -246,3 +246,20 @@ A subsequent human study would require a clinical investigator/institution, pati
 ### Weekly publication verification - 18 October 2026
 
 All 27 weekly research/report files matched their committed contents on GitHub connector readback at approximately 04:07:45 UTC from commit 491e53c9a0432b54e63723ab20e1508d593a50a0. The daily homepage feed was deliberately unchanged. [Readback record](updates/2026-10-18-weekly/publication-verification.json).
+
+
+## Completed daily research update - 19 October 2026
+
+The [dated scan](updates/2026-10-19/report.md) screened 12 PubMed records and 134 preprint DOI/version records. No new-window qualifying primary tic-study result or newly posted relevant trial result was verified. Newly encountered reviews and conceptual articles remain separate from primary evidence. One historical six-participant intracranial-recording paper is retained as an unverified-age/cohort lead, not a new treatment result or granted data access. Known negative registry findings remain. No additional qualifying watched regulator notice was verified; recall-filter, labeling and global-registry coverage gaps remain explicit.
+
+The [synthetic paired-outcome test](analyses/paired_outcomes/2026-10-19/report.md) was publicly specified at commit [0a46777](https://github.com/dotjade/project-neurofreedom/commit/0a4677711ad6da4f7122a194cefa49b5ede3f097) and read back before execution. Three constructed worlds have identical tic records but different pain-change means or joint moments. Direct paired observations distinguish some worlds under the chosen assumptions. Observed-covariate missingness distorts naive summaries; known-probability weighting recovers expected raw moments under positivity, but plug-in covariance is not generally unbiased. When an entire stratum is unobserved, two worlds have exactly identical observed records despite different full-population pain means. That negative finding is preserved.
+
+The 400 artificial units and 200 observation replicates are arbitrary computational settings, not clinical sample-size/power recommendations. Outputs comprise 2,400 observation summaries with Monte Carlo uncertainty, source, seeds and tests. No clinical effect, meaningful-change threshold, patient biology or treatment efficacy is inferred. Independent design/arithmetic review and numerical reproduction are linked from the report. No participant data, intervention or outreach was used.
+
+### Next bounded decision
+
+Close this fixed synthetic run. A defensible future paired-outcome design needs actual measurement definitions, recall windows, subgroup coverage and support for error/missingness assumptions; simulation does not supply them. The Marras primary-methods gate remains unresolved. Next inspect the newly encountered historical CM-aGPi recording paper, PMID 40977255, DOI 10.1002/mds.70043, for lawful full methods, ages, trial identifiers, prior-cohort overlap and exact recording-state comparisons before deciding whether it adds a nonduplicated mechanism test. Do not infer causation, validated prediction, stimulation-free natural history or data availability from the abstract. Stop at the missing prerequisite if methods are inaccessible; do not reopen the generic cohort search or request participant data.
+
+### Public journal
+
+The feed adds a dated synthetic-methods note and preserves the six approved optional activities, selecting familiar-route. Shared voting, comments and health-outcome collection remain disabled. Eleven pre-existing research links and two primary sources passed the [bounded link check](public/link-checks/2026-10-19.json); Pappert remains HTTP 403 access-limited, not confirmed broken. This daily update does not change homepage framing, source, deployment or security settings. New-link and production verification are recorded only after actual publication/readback.

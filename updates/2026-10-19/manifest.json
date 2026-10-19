@@ -1,0 +1,145 @@
+{
+  "destination_prefix": "updates/2026-10-19/",
+  "files": [
+    {
+      "local": "report.md",
+      "destination": "updates/2026-10-19/report.md",
+      "bytes": 11061,
+      "sha256": "4fa4ad9653a81402fbd7869201fed6ed3576cb0e03a3c2bc838eb8c532c08e87"
+    },
+    {
+      "local": "summary.json",
+      "destination": "updates/2026-10-19/summary.json",
+      "bytes": 996,
+      "sha256": "6ffd750cef343c29e4d492d259d024f52c68b10db9237f2e561b338214cbf48b"
+    },
+    {
+      "local": "search-log.json",
+      "destination": "updates/2026-10-19/search-log.json",
+      "bytes": 64905,
+      "sha256": "0ad096d6d179b175eb9c698cc80000fdb5b0c2d501cf52bbcb1876bd264d528b"
+    },
+    {
+      "local": "scan_sources.py",
+      "destination": "updates/2026-10-19/scan_sources.py",
+      "bytes": 9595,
+      "sha256": "5d54cf49e3e916490be47ff3f2b4e6ee5f3422215653480518c4ed80a1ed520b"
+    },
+    {
+      "local": "scan_supplement.py",
+      "destination": "updates/2026-10-19/scan_supplement.py",
+      "bytes": 3551,
+      "sha256": "0a840ebbf7bc6256bf2c25409e99585a5f663073699b193110cd1ce3d3b3d624"
+    },
+    {
+      "local": "check_isrctn.py",
+      "destination": "updates/2026-10-19/check_isrctn.py",
+      "bytes": 1685,
+      "sha256": "7a2591b4174e1481140a8c331bab97b6a9ea1d685c31c4542570fa7964b9d1c7"
+    },
+    {
+      "local": "verify_candidates.py",
+      "destination": "updates/2026-10-19/verify_candidates.py",
+      "bytes": 1587,
+      "sha256": "3ff64a4f766bf94964bc639d77267190a98b82e88e46c2d8324811104cd408d1"
+    },
+    {
+      "local": "build_results.py",
+      "destination": "updates/2026-10-19/build_results.py",
+      "bytes": 6740,
+      "sha256": "da203e57e03d7c1ea611f62a371de4cee87ed3df57abc75e3ae1a1bd1e833907"
+    },
+    {
+      "local": "finalize.py",
+      "destination": "updates/2026-10-19/finalize.py",
+      "bytes": 6666,
+      "sha256": "8ace08fe8ed26c35b3cef2ed722f1b9ba532128bbc95a1d7f6abbe73828f35d0"
+    },
+    {
+      "local": "baseline-metadata.json",
+      "destination": "updates/2026-10-19/baseline-metadata.json",
+      "bytes": 87429,
+      "sha256": "432baef8dcc5f2a48f679091e9a84a01eecf7ecbfe10101bae4879b5902af89e"
+    },
+    {
+      "local": "baseline-supplement.json",
+      "destination": "updates/2026-10-19/baseline-supplement.json",
+      "bytes": 9776,
+      "sha256": "581b1f08f911b00bc3267324521562f355b15797a848bb191e000afe1b021dba"
+    },
+    {
+      "local": "baseline-search-log.json",
+      "destination": "updates/2026-10-19/baseline-search-log.json",
+      "bytes": 118325,
+      "sha256": "038d09f4539342f565b8d4861e833afa014f4a0415e0d41b5d18f59563f79bf0"
+    },
+    {
+      "local": "supplement-selected-metadata.json",
+      "destination": "updates/2026-10-19/supplement-selected-metadata.json",
+      "bytes": 9775,
+      "sha256": "8a66c68a1e5fe45178dee2441c59bd371616ce8d2b14e0360ac4bd948048943c"
+    },
+    {
+      "local": "isrctn-control.json",
+      "destination": "updates/2026-10-19/isrctn-control.json",
+      "bytes": 14428,
+      "sha256": "e0ca1143d1e0b3d70f245f2d88f00ed2acd80615d4bb5ede89e5f1b49203a916"
+    },
+    {
+      "local": "candidate-verification.json",
+      "destination": "updates/2026-10-19/candidate-verification.json",
+      "bytes": 11263,
+      "sha256": "3b2f9d0e855b54882100fbaac015f52f112c063e0f7da6e60ec0e932c0156e95"
+    },
+    {
+      "local": "primary-evidence.jsonl",
+      "destination": "updates/2026-10-19/primary-evidence.jsonl",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "local": "secondary-screening.jsonl",
+      "destination": "updates/2026-10-19/secondary-screening.jsonl",
+      "bytes": 3865,
+      "sha256": "4188dec180c957ddb240e68f52446d407e79d722faf5d0e17863564635395e8d"
+    },
+    {
+      "local": "historical-leads.jsonl",
+      "destination": "updates/2026-10-19/historical-leads.jsonl",
+      "bytes": 1631,
+      "sha256": "9a4f9c851905986a341ba42fd5285b17beacfcee594bb532331649d4e0bc89a2"
+    },
+    {
+      "local": "registry-evidence.jsonl",
+      "destination": "updates/2026-10-19/registry-evidence.jsonl",
+      "bytes": 6458,
+      "sha256": "1f821cc6381a072522f48f278f7d1a72fbdae2fd1f203796e399796b2dea7ed8"
+    },
+    {
+      "local": "discovery-log.json",
+      "destination": "updates/2026-10-19/discovery-log.json",
+      "bytes": 2351,
+      "sha256": "34b7ece5952b71de696b0e8aa817d3925c6cb653721696149850c9c390a1c904"
+    },
+    {
+      "local": "provenance.json",
+      "destination": "updates/2026-10-19/provenance.json",
+      "bytes": 1263,
+      "sha256": "b4a0c028e3f0900292495641cd86fffbce560fc9af844f1a7c2502870291ece5"
+    },
+    {
+      "local": "validation.json",
+      "destination": "updates/2026-10-19/validation.json",
+      "bytes": 447,
+      "sha256": "0e257a3245a5a98925e697252cee6e6f904a0fe90efc45dfa5adc9bd3d8d34b5"
+    }
+  ],
+  "also_publish": "manifest.json",
+  "excluded": [
+    "baseline-evidence.jsonl",
+    "scan-run.log",
+    "supplement-run.log",
+    "isrctn-run.log"
+  ],
+  "reproduce": "python scan_sources.py --out .; python scan_supplement.py --out .; python check_isrctn.py .; python verify_candidates.py; python build_results.py; python finalize.py. Live-source outputs can change and new records require manual review rather than blind reuse of dated decisions."
+}

@@ -1,0 +1,196 @@
+     "date": "2026-10-18"
+        },
+        {
+          "doi": "10.64898/2026.10.12.758458",
+          "version": "1",
+          "date": "2026-10-18"
+        },
+        {
+          "doi": "10.64898/2026.10.12.758263",
+          "version": "1",
+          "date": "2026-10-18"
+        },
+        {
+          "doi": "10.64898/2026.10.12.758494",
+          "version": "1",
+          "date": "2026-10-18"
+        },
+        {
+          "doi": "10.64898/2026.10.13.758170",
+          "version": "1",
+          "date": "2026-10-18"
+        },
+        {
+          "doi": "10.64898/2026.10.12.758470",
+          "version": "1",
+          "date": "2026-10-18"
+        },
+        {
+          "doi": "10.64898/2026.10.12.758533",
+          "version": "1",
+          "date": "2026-10-18"
+        },
+        {
+          "doi": "10.64898/2026.10.12.757096",
+          "version": "1",
+          "date": "2026-10-18"
+        },
+        {
+          "doi": "10.64898/2026.10.12.758663",
+          "version": "1",
+          "date": "2026-10-18"
+        },
+        {
+          "doi": "10.64898/2026.10.12.755729",
+          "version": "1",
+          "date": "2026-10-18"
+        },
+        {
+          "doi": "10.64898/2026.10.12.758644",
+          "version": "1",
+          "date": "2026-10-18"
+        },
+        {
+          "doi": "10.64898/2026.10.12.758563",
+          "version": "1",
+          "date": "2026-10-18"
+        },
+        {
+          "doi": "10.64898/2026.10.12.758440",
+          "version": "1",
+          "date": "2026-10-18"
+        },
+        {
+          "doi": "10.64898/2026.10.13.758765",
+          "version": "1",
+          "date": "2026-10-18"
+        },
+        {
+          "doi": "10.64898/2026.10.13.758074",
+          "version": "1",
+          "date": "2026-10-18"
+        },
+        {
+          "doi": "10.64898/2026.10.12.756161",
+          "version": "1",
+          "date": "2026-10-18"
+        },
+        {
+          "doi": "10.64898/2026.10.12.758461",
+          "version": "1",
+          "date": "2026-10-18"
+        },
+        {
+          "doi": "10.64898/2026.10.15.759394",
+          "version": "1",
+          "date": "2026-10-18"
+        },
+        {
+          "doi": "10.64898/2026.10.13.759005",
+          "version": "1",
+          "date": "2026-10-18"
+        },
+        {
+          "doi": "10.64898/2026.10.14.759232",
+          "version": "1",
+          "date": "2026-10-18"
+        },
+        {
+          "doi": "10.64898/2026.10.12.757514",
+          "version": "1",
+          "date": "2026-10-18"
+        },
+        {
+          "doi": "10.64898/2026.10.12.758505",
+          "version": "1",
+          "date": "2026-10-18"
+        },
+        {
+          "doi": "10.64898/2026.10.12.758631",
+          "version": "1",
+          "date": "2026-10-18"
+        },
+        {
+          "doi": "10.64898/2026.10.13.758922",
+          "version": "1",
+          "date": "2026-10-18"
+        }
+      ],
+      "matches": [],
+      "screen_regex": "\\btourett\\w*|\\btics?\\b",
+      "screen_fields": "title and abstract",
+      "pagination_complete_for_observed_response": true,
+      "total_returned": 125,
+      "unique_doi_versions": 125,
+      "previous_scan_overlap_doi_versions": 26,
+      "not_in_previous_scan_doi_versions": 99,
+      "reported_totals": [
+        125
+      ]
+    }
+  ],
+  "registry": [
+    {
+      "label": "ct_tourette",
+      "params": {
+        "query.cond": "Tourette",
+        "filter.advanced": "AREA[LastUpdatePostDate]RANGE[2026-10-17,2026-10-19]",
+        "pageSize": 100,
+        "format": "json",
+        "countTotal": "true"
+      },
+      "response": {
+        "totalCount": 0,
+        "nct_ids": [],
+        "nextPageToken": null
+      }
+    },
+    {
+      "label": "ct_tic_disorder",
+      "params": {
+        "query.cond": "tic disorder",
+        "filter.advanced": "AREA[LastUpdatePostDate]RANGE[2026-10-17,2026-10-19]",
+        "pageSize": 100,
+        "format": "json",
+        "countTotal": "true"
+      },
+      "response": {
+        "totalCount": 0,
+        "nct_ids": [],
+        "nextPageToken": null
+      }
+    },
+    {
+      "label": "ct_tics",
+      "params": {
+        "query.cond": "Tics",
+        "filter.advanced": "AREA[LastUpdatePostDate]RANGE[2026-10-17,2026-10-19]",
+        "pageSize": 100,
+        "format": "json",
+        "countTotal": "true"
+      },
+      "response": {
+        "totalCount": 0,
+        "nct_ids": [],
+        "nextPageToken": null
+      }
+    },
+    {
+      "label": "ct_ecopipam",
+      "params": {
+        "query.term": "ecopipam",
+        "filter.advanced": "AREA[LastUpdatePostDate]RANGE[2026-10-17,2026-10-19]",
+        "pageSize": 100,
+        "format": "json",
+        "countTotal": "true"
+      },
+      "response": {
+        "totalCount": 0,
+        "nct_ids": [],
+        "nextPageToken": null
+      }
+    }
+  ],
+  "registry_records": [],
+  "completed_utc": "2026-10-19T03:08:06.347455+00:00"
+}

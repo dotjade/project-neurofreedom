@@ -1,0 +1,59 @@
+{
+  "date": "2026-10-19",
+  "tool": "web search",
+  "time_interval_utc": [
+    "03:07:22",
+    "03:07:48"
+  ],
+  "exact_queries": [
+    "Tourette \"October 18\" \"2026\" research",
+    "Tourette \"October 19\" \"2026\" trial",
+    "site.medrxiv.org Tourette October 2026",
+    "site.biorxiv.org Tourette October 2026",
+    "\"Tourette\" research October 2026 adult",
+    "\"tic disorder\" research October 2026",
+    "site.clinicaltrials.gov \"Tourette\" \"2026-10-18\"",
+    "site.isrctn.com Tourette 2026",
+    "\"Tourette\" \"2026\" \"October\" randomized negative trial",
+    "\"Tourette\" \"2026\" \"October\" pain adult burden"
+  ],
+  "recency_days": {
+    "indices_4_5_8_9": 3
+  },
+  "count_limit": "Search engine supplied combined ranked responses, not enumerable database totals; no completeness claim. Ten queries in three calls.",
+  "screening": "No verified in-window primary result. Older review/hypothesis/registry/preprint leads were classified using primary sources; unrelated legal-trial and social results excluded without retained details.",
+  "selected_sources": [
+    {
+      "url": "https://www.frontiersin.org/journals/psychiatry/articles/10.3389/fpsyt.2026.1948442/full",
+      "decision": "Publisher identifies Hypothesis and Theory, published October 2."
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/child-and-adolescent-psychiatry/articles/10.3389/frcha.2026.1936806/full",
+      "decision": "Publisher identifies systematic review, published October 2."
+    },
+    {
+      "url": "https://www.medrxiv.org/content/10.64898/2026.09.29.26364036v1",
+      "decision": "Preprint posted October 1, outside window; no new version verified."
+    },
+    {
+      "url": "https://www.biorxiv.org/content/10.64898/2026.07.27.740916v1",
+      "decision": "Preprint posted July 28, outside window; no new version verified."
+    },
+    {
+      "url": "https://clinicaltrials.ucsf.edu/trial/NCT07839377",
+      "decision": "Institutional registry lead, checked against official CTgov API."
+    }
+  ],
+  "github_exact_identifier_searches": {
+    "repository": "dotjade/project-neurofreedom",
+    "time_utc": "03:08:58",
+    "queries": [
+      "40977255",
+      "41621322",
+      "1948442",
+      "1936806"
+    ],
+    "returned_results_each": 0,
+    "limit": "Search absence does not establish cohort independence."
+  }
+}

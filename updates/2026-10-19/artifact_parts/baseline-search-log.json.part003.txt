@@ -1,0 +1,575 @@
+           "Minute": "28"
+          },
+          "pubmed": {
+            "Year": "2026",
+            "Month": "9",
+            "Day": "29",
+            "Hour": "12",
+            "Minute": "28"
+          },
+          "entrez": {
+            "Year": "2026",
+            "Month": "9",
+            "Day": "29",
+            "Hour": "9",
+            "Minute": "52"
+          }
+        },
+        "types": [
+          "Journal Article",
+          "Review"
+        ],
+        "identifiers": {
+          "pubmed": "42808868",
+          "doi": "10.3238/arztebl.m2026.0156",
+          "pii": "arztebl.m2026.0156"
+        },
+        "DateCompleted": null,
+        "DateRevised": {
+          "Year": "2026",
+          "Month": "09",
+          "Day": "29"
+        },
+        "corrections": [],
+        "prior_scan_overlap": true,
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/42808868/",
+        "linked_notice_changed": false,
+        "screening_decision": "Already screened secondary adult OCD review; electronic/issue October 16 but database entry September 29. Excluded from primary evidence."
+      },
+      {
+        "pmid": "42867549",
+        "title": "Allergic load and symptom severity in children with tic disorders: a cross-sectional study.",
+        "journal_pubdate": {
+          "Year": "2026",
+          "Month": "Oct",
+          "Day": "13"
+        },
+        "article_dates": [
+          {
+            "type": "Electronic",
+            "Year": "2026",
+            "Month": "10",
+            "Day": "13"
+          }
+        ],
+        "history": {
+          "received": {
+            "Year": "2026",
+            "Month": "2",
+            "Day": "9"
+          },
+          "accepted": {
+            "Year": "2026",
+            "Month": "10",
+            "Day": "6"
+          },
+          "revised": {
+            "Year": "2026",
+            "Month": "10",
+            "Day": "5"
+          },
+          "medline": {
+            "Year": "2026",
+            "Month": "10",
+            "Day": "13",
+            "Hour": "23",
+            "Minute": "37"
+          },
+          "pubmed": {
+            "Year": "2026",
+            "Month": "10",
+            "Day": "13",
+            "Hour": "23",
+            "Minute": "36"
+          },
+          "entrez": {
+            "Year": "2026",
+            "Month": "10",
+            "Day": "13",
+            "Hour": "17",
+            "Minute": "11"
+          }
+        },
+        "types": [
+          "Journal Article"
+        ],
+        "identifiers": {
+          "pubmed": "42867549",
+          "doi": "10.1007/s00431-026-07510-4",
+          "pii": "10.1007/s00431-026-07510-4"
+        },
+        "DateCompleted": {
+          "Year": "2026",
+          "Month": "10",
+          "Day": "13"
+        },
+        "DateRevised": {
+          "Year": "2026",
+          "Month": "10",
+          "Day": "16"
+        },
+        "corrections": [],
+        "prior_scan_overlap": true,
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/42867549/",
+        "linked_notice_changed": false,
+        "screening_decision": "Duplicate pediatric cross-sectional allergy study already in main evidence ledger; first publication October 13. Revision October 16 is not a new study or adult applicability."
+      },
+      {
+        "pmid": "42888480",
+        "title": "Abdominal Tics in Children and Adolescents: A Phenomenology-First Diagnostic Framework and Differential Diagnosis.",
+        "journal_pubdate": {
+          "Year": "2026",
+          "Month": "Oct",
+          "Day": "16"
+        },
+        "article_dates": [
+          {
+            "type": "Electronic",
+            "Year": "2026",
+            "Month": "10",
+            "Day": "16"
+          }
+        ],
+        "history": {
+          "medline": {
+            "Year": "2026",
+            "Month": "10",
+            "Day": "17",
+            "Hour": "5",
+            "Minute": "33"
+          },
+          "pubmed": {
+            "Year": "2026",
+            "Month": "10",
+            "Day": "17",
+            "Hour": "5",
+            "Minute": "33"
+          },
+          "revised": {
+            "Year": "2026",
+            "Month": "8",
+            "Day": "16"
+          },
+          "received": {
+            "Year": "2026",
+            "Month": "5",
+            "Day": "25"
+          },
+          "accepted": {
+            "Year": "2026",
+            "Month": "10",
+            "Day": "13"
+          },
+          "entrez": {
+            "Year": "2026",
+            "Month": "10",
+            "Day": "17",
+            "Hour": "0",
+            "Minute": "14"
+          }
+        },
+        "types": [
+          "Journal Article",
+          "Review"
+        ],
+        "identifiers": {
+          "pubmed": "42888480",
+          "doi": "10.1111/jpc.70627"
+        },
+        "DateCompleted": null,
+        "DateRevised": {
+          "Year": "2026",
+          "Month": "10",
+          "Day": "17"
+        },
+        "corrections": [],
+        "prior_scan_overlap": false,
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/42888480/",
+        "linked_notice_changed": false,
+        "screening_decision": "Newly encountered pediatric narrative review, electronic October 16 and PubMed entry October 17. Abstract assessed as secondary synthesis; exclude from primary-study evidence and do not treat proposed diagnostic framework as validated clinical accuracy."
+      }
+    ],
+    "new_to_prior_scan_ids": [
+      "42888480"
+    ],
+    "previous_overlap_count": 5
+  },
+  "preprints": [
+    {
+      "server": "medrxiv",
+      "interval": [
+        "2026-10-16",
+        "2026-10-18"
+      ],
+      "pages": [
+        {
+          "cursor": 0,
+          "returned": 30,
+          "message": {
+            "status": "ok",
+            "category": "all",
+            "interval": "2026-10-16:2026-10-18",
+            "cursor": 0,
+            "count": 30,
+            "count_new_papers": "42",
+            "total": "68"
+          }
+        },
+        {
+          "cursor": 30,
+          "returned": 30,
+          "message": {
+            "status": "ok",
+            "category": "all",
+            "interval": "2026-10-16:2026-10-18",
+            "cursor": "30",
+            "count": 30,
+            "count_new_papers": "42",
+            "total": "68"
+          }
+        },
+        {
+          "cursor": 60,
+          "returned": 8,
+          "message": {
+            "status": "ok",
+            "category": "all",
+            "interval": "2026-10-16:2026-10-18",
+            "cursor": "60",
+            "count": 8,
+            "count_new_papers": "42",
+            "total": "68"
+          }
+        }
+      ],
+      "version_index": [
+        {
+          "doi": "10.64898/2026.10.14.26365506",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.09.25.26364003",
+          "version": "2",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.14.26365571",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.08.26365041",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.05.15.26352859",
+          "version": "2",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.03.03.26346563",
+          "version": "2",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.08.17.26360592",
+          "version": "2",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.02.26.26347222",
+          "version": "2",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.09.26365121",
+          "version": "2",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.13.26365373",
+          "version": "2",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.1101/2025.11.04.25339533",
+          "version": "4",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.14.26365587",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.05.28.26353935",
+          "version": "2",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.14.26365559",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.15.26365601",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.1101/2025.10.28.25338971",
+          "version": "2",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.14.26365480",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.14.26365564",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.15.26365586",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.14.26365569",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.15.26365290",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.15.26365610",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.03.17.26348660",
+          "version": "2",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.15.26365608",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.14.26365504",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.15.26365617",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.15.26365615",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.15.26365462",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.15.26365598",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.14.26365577",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.15.26365428",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.14.26365576",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.15.26365629",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.14.26357330",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.14.26365588",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.15.26365645",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.15.26365620",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.14.26365595",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.14.26365580",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.15.26365599",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.14.26365593",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.14.26365553",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.14.26365590",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.14.26365555",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.15.26365614",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.02.25.26346992",
+          "version": "2",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.05.26364655",
+          "version": "2",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.14.26365371",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.15.26365621",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.14.26365591",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.01.09.26343779",
+          "version": "3",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.13.26365321",
+          "version": "2",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.14.26365508",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.02.06.26345217",
+          "version": "2",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.15.26365628",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.14.26365597",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.09.23.26363766",
+          "version": "2",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.15.26365624",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.15.26364476",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.14.26365548",
+          "version": "2",
+          "date": "2026-10-17"
+        },
+        {
+          "doi": "10.64898/2026.08.18.26360719",
+          "version": "2",
+          "date": "2026-10-17"
+        },
+        {
+          "doi": "10.64898/2026.04.13.26349911",
+          "version": "2",
+          "date": "2026-10-17"
+        },
+        {
+          "doi": "10.64898/2026.10.14.26365587",
+          "version": "2",
+          "date": "2026-10-17"
+        },
+        {
+          "doi": "10.64898/2026.08.27.26361471",
+          "version": "2",
+          "date": "2026-10-17"
+        },
+        {
+          "doi": "10.1101/2024.11.20.24317557",
+          "version": "3",
+          "date": "2026-10-17"
+        },
+        {
+          "doi": "10.1101/2025.05.26.25328346",
+          "version": "2",
+          "date": "2026-10-17"
+     

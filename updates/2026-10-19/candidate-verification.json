@@ -1,0 +1,368 @@
+{
+  "requests": [
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=10382139,11518480,40977255,41621322,41689912,42890800,42890894,42893364&retmode=xml",
+      "started_utc": "2026-10-19T03:09:19.502342+00:00",
+      "status": 200,
+      "bytes": 147405,
+      "sha256": "73e03f7d341907685310d6d3a9f70ea6588417ca858c464299de90de90bbfd94",
+      "completed_utc": "2026-10-19T03:09:24.813228+00:00"
+    },
+    {
+      "url": "https://clinicaltrials.gov/api/v2/studies/NCT05158439",
+      "started_utc": "2026-10-19T03:09:24.813421+00:00",
+      "status": 200,
+      "bytes": 4712,
+      "sha256": "654548293bc6342ecf67be907c30870a6d4eeefb577508f43a9fa3b867a9ca4d",
+      "completed_utc": "2026-10-19T03:09:28.499357+00:00"
+    },
+    {
+      "url": "https://clinicaltrials.gov/api/v2/studies/NCT07137442",
+      "started_utc": "2026-10-19T03:09:28.499629+00:00",
+      "status": 200,
+      "bytes": 9840,
+      "sha256": "b8085d29bf79b5baeeafd6c2e02d68f46de559c211aa60ab98776cac64e70319",
+      "completed_utc": "2026-10-19T03:09:32.438945+00:00"
+    },
+    {
+      "url": "https://clinicaltrials.gov/api/v2/studies/NCT07839377",
+      "started_utc": "2026-10-19T03:09:32.438999+00:00",
+      "status": 200,
+      "bytes": 24610,
+      "sha256": "22133f6faee161d78270f408b75d0e8a4ebb733f3c4b0773a973875440b3935b",
+      "completed_utc": "2026-10-19T03:09:35.643115+00:00"
+    },
+    {
+      "url": "https://clinicaltrials.gov/api/v2/studies/NCT07854665",
+      "started_utc": "2026-10-19T03:09:35.643151+00:00",
+      "status": 200,
+      "bytes": 8439,
+      "sha256": "45fe00c79b5257e9602f10a294989b6daca9d0f3acf0a77d0e9e873632eb3375",
+      "completed_utc": "2026-10-19T03:09:40.927197+00:00"
+    },
+    {
+      "url": "https://clinicaltrials.gov/api/v2/studies/NCT06825520",
+      "started_utc": "2026-10-19T03:09:40.927242+00:00",
+      "status": 200,
+      "bytes": 19074,
+      "sha256": "580ccbba8075d3b435452aa8743ce71927c35d6c3486413afd0ba0c1b17a3b49",
+      "completed_utc": "2026-10-19T03:09:45.422954+00:00"
+    }
+  ],
+  "pubmed": [
+    {
+      "pmid": "10382139",
+      "abstract_available": false,
+      "abstract_retained": false,
+      "title": "Brief report: specific executive function profiles in three neurodevelopmental disorders."
+    },
+    {
+      "pmid": "11518480",
+      "abstract_available": true,
+      "abstract_retained": false,
+      "title": "Further evidence of intact working memory in autism."
+    },
+    {
+      "pmid": "40977255",
+      "abstract_available": true,
+      "abstract_retained": false,
+      "title": "The CM-aGPi Network in the Generation of Tics in Tourette Syndrome."
+    },
+    {
+      "pmid": "41621322",
+      "abstract_available": true,
+      "abstract_retained": false,
+      "title": "Polygenic risk scores for pediatric obsessive-compulsive symptoms: Mediating effects in samples clinically diagnosed with mental disorders."
+    },
+    {
+      "pmid": "41689912",
+      "abstract_available": true,
+      "abstract_retained": false,
+      "title": "Neurocognitive functioning in gambling: A systematic review of comparisons with other psychiatric and comorbid conditions."
+    },
+    {
+      "pmid": "42890800",
+      "abstract_available": true,
+      "abstract_retained": false,
+      "title": "\"I swear it's not Tourette's!\" - it is time to rethink coprolalia in Tourette syndrome."
+    },
+    {
+      "pmid": "42890894",
+      "abstract_available": true,
+      "abstract_retained": false,
+      "title": "A systematic review to characterize functional tic-like behaviors."
+    },
+    {
+      "pmid": "42893364",
+      "abstract_available": true,
+      "abstract_retained": false,
+      "title": "PANDAS in the post-COVID era: links to group A Streptococcus and implications for pediatric neuropsychiatry \u2012 a narrative review."
+    }
+  ],
+  "registry": [
+    {
+      "id": "NCT05158439",
+      "title": "Safety of Cultured Allogeneic Adult Umbilical Cord or Placental Derived Mesenchymal Stem Cells for Tourette Syndrome",
+      "status": {
+        "statusVerifiedDate": "2026-10",
+        "overallStatus": "WITHDRAWN",
+        "whyStopped": "Inability to recruit participants",
+        "expandedAccessInfo": {
+          "hasExpandedAccess": false
+        },
+        "startDateStruct": {
+          "date": "2022-01",
+          "type": "ESTIMATED"
+        },
+        "primaryCompletionDateStruct": {
+          "date": "2026-01",
+          "type": "ESTIMATED"
+        },
+        "completionDateStruct": {
+          "date": "2026-01",
+          "type": "ESTIMATED"
+        },
+        "studyFirstSubmitDate": "2021-12-02",
+        "studyFirstSubmitQcDate": "2021-12-02",
+        "studyFirstPostDateStruct": {
+          "date": "2021-12-15",
+          "type": "ACTUAL"
+        },
+        "lastUpdateSubmitDate": "2026-10-13",
+        "lastUpdatePostDateStruct": {
+          "date": "2026-10-16",
+          "type": "ACTUAL"
+        }
+      },
+      "design": {
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE1"
+        ],
+        "designInfo": {
+          "allocation": "NA",
+          "interventionModel": "SINGLE_GROUP",
+          "primaryPurpose": "TREATMENT",
+          "maskingInfo": {
+            "masking": "NONE"
+          }
+        },
+        "enrollmentInfo": {
+          "count": 0,
+          "type": "ACTUAL"
+        }
+      },
+      "hasResults": false
+    },
+    {
+      "id": "NCT07137442",
+      "title": "Distinguishing Tics and Functional Tics Using Clinical Neurophysiological Techniques",
+      "status": {
+        "statusVerifiedDate": "2026-09-16",
+        "overallStatus": "RECRUITING",
+        "expandedAccessInfo": {
+          "hasExpandedAccess": false
+        },
+        "startDateStruct": {
+          "date": "2026-10-21",
+          "type": "ESTIMATED"
+        },
+        "primaryCompletionDateStruct": {
+          "date": "2034-08-01",
+          "type": "ESTIMATED"
+        },
+        "completionDateStruct": {
+          "date": "2034-08-01",
+          "type": "ESTIMATED"
+        },
+        "studyFirstSubmitDate": "2025-08-19",
+        "studyFirstSubmitQcDate": "2025-08-21",
+        "studyFirstPostDateStruct": {
+          "date": "2025-08-22",
+          "type": "ACTUAL"
+        },
+        "lastUpdateSubmitDate": "2026-10-15",
+        "lastUpdatePostDateStruct": {
+          "date": "2026-10-16",
+          "type": "ACTUAL"
+        }
+      },
+      "design": {
+        "studyType": "OBSERVATIONAL",
+        "designInfo": {
+          "observationalModel": "COHORT",
+          "timePerspective": "PROSPECTIVE"
+        },
+        "enrollmentInfo": {
+          "count": 75,
+          "type": "ESTIMATED"
+        }
+      },
+      "hasResults": false
+    },
+    {
+      "id": "NCT07839377",
+      "title": "Teen and Adult Tic TMS Study",
+      "status": {
+        "statusVerifiedDate": "2026-09",
+        "overallStatus": "RECRUITING",
+        "expandedAccessInfo": {
+          "hasExpandedAccess": false
+        },
+        "startDateStruct": {
+          "date": "2026-06-01",
+          "type": "ACTUAL"
+        },
+        "primaryCompletionDateStruct": {
+          "date": "2028-06",
+          "type": "ESTIMATED"
+        },
+        "completionDateStruct": {
+          "date": "2028-10",
+          "type": "ESTIMATED"
+        },
+        "studyFirstSubmitDate": "2026-09-14",
+        "studyFirstSubmitQcDate": "2026-09-18",
+        "studyFirstPostDateStruct": {
+          "date": "2026-09-24",
+          "type": "ACTUAL"
+        },
+        "lastUpdateSubmitDate": "2026-09-18",
+        "lastUpdatePostDateStruct": {
+          "date": "2026-09-24",
+          "type": "ACTUAL"
+        }
+      },
+      "design": {
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "designInfo": {
+          "allocation": "RANDOMIZED",
+          "interventionModel": "PARALLEL",
+          "primaryPurpose": "TREATMENT",
+          "maskingInfo": {
+            "masking": "NONE"
+          }
+        },
+        "enrollmentInfo": {
+          "count": 40,
+          "type": "ESTIMATED"
+        }
+      },
+      "hasResults": false
+    },
+    {
+      "id": "NCT07854665",
+      "title": "A Randomized Controlled Clinical Trial of Transcutaneous Auricular Point Electrical Stimulation for Improving Symptoms of Chronic Tic Disorders in Children/Adolescents",
+      "status": {
+        "statusVerifiedDate": "2026-09",
+        "overallStatus": "NOT_YET_RECRUITING",
+        "expandedAccessInfo": {
+          "hasExpandedAccess": false
+        },
+        "startDateStruct": {
+          "date": "2026-10-31",
+          "type": "ESTIMATED"
+        },
+        "primaryCompletionDateStruct": {
+          "date": "2027-07-30",
+          "type": "ESTIMATED"
+        },
+        "completionDateStruct": {
+          "date": "2027-09-30",
+          "type": "ESTIMATED"
+        },
+        "studyFirstSubmitDate": "2026-09-27",
+        "studyFirstSubmitQcDate": "2026-09-27",
+        "studyFirstPostDateStruct": {
+          "date": "2026-10-02",
+          "type": "ACTUAL"
+        },
+        "lastUpdateSubmitDate": "2026-09-27",
+        "lastUpdatePostDateStruct": {
+          "date": "2026-10-02",
+          "type": "ACTUAL"
+        }
+      },
+      "design": {
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "designInfo": {
+          "allocation": "RANDOMIZED",
+          "interventionModel": "PARALLEL",
+          "primaryPurpose": "TREATMENT",
+          "maskingInfo": {
+            "masking": "TRIPLE",
+            "whoMasked": [
+              "PARTICIPANT",
+              "INVESTIGATOR",
+              "OUTCOMES_ASSESSOR"
+            ]
+          }
+        },
+        "enrollmentInfo": {
+          "count": 124,
+          "type": "ESTIMATED"
+        }
+      },
+      "hasResults": false
+    },
+    {
+      "id": "NCT06825520",
+      "title": "Investigating Changes in Premonitory Urges During Habit Reversal Training for Tics",
+      "status": {
+        "statusVerifiedDate": "2025-05",
+        "overallStatus": "RECRUITING",
+        "expandedAccessInfo": {
+          "hasExpandedAccess": false
+        },
+        "startDateStruct": {
+          "date": "2025-02-11",
+          "type": "ACTUAL"
+        },
+        "primaryCompletionDateStruct": {
+          "date": "2025-07",
+          "type": "ESTIMATED"
+        },
+        "completionDateStruct": {
+          "date": "2026-05",
+          "type": "ESTIMATED"
+        },
+        "studyFirstSubmitDate": "2025-02-05",
+        "studyFirstSubmitQcDate": "2025-02-11",
+        "studyFirstPostDateStruct": {
+          "date": "2025-02-13",
+          "type": "ACTUAL"
+        },
+        "lastUpdateSubmitDate": "2025-05-21",
+        "lastUpdatePostDateStruct": {
+          "date": "2025-05-28",
+          "type": "ACTUAL"
+        }
+      },
+      "design": {
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "designInfo": {
+          "allocation": "NA",
+          "interventionModel": "SINGLE_GROUP",
+          "primaryPurpose": "BASIC_SCIENCE",
+          "maskingInfo": {
+            "masking": "NONE"
+          }
+        },
+        "enrollmentInfo": {
+          "count": 6,
+          "type": "ESTIMATED"
+        }
+      },
+      "hasResults": false
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "plan_commit": "0a4677711ad6da4f7122a194cefa49b5ede3f097",
+  "plan_readback_confirmed_utc": "2026-10-19T03:09:20Z",
+  "execution_started_after_utc": "2026-10-19T03:09:32Z",
+  "execution_finished_before_utc": "2026-10-19T03:09:39Z",
+  "python_version": "3.12.14",
+  "preregistration_deviations": [],
+  "note": "Prepublication editorial clarifications described in report; published plan/config bytes unchanged. Unit count and replicate count are arbitrary computational settings.",
+  "execution_file_sha256": {
+    "preregistration.md": "80d1305ea39d32c8f8a5be7576f9a79b66cc4fdd87ebf06d8a9fda2997527c17",
+    "config.json": "9088abb9b665683f86cec5b23e711d3ade09630fbeea64c730067ff7e84763cd",
+    "run_analysis.py": "a5a96d364c60047f44e4522d9ddcacb5150a15164deb78f938d67cc7b01364ac",
+    "test_analysis.py": "72a87e3426ab7202200e2625383dd8f6bd4644354b7272a7ec2e57ea11f598c1",
+    "synthetic_inputs.csv": "acd8cf6703c81419d931ea2fd6368c4840ece78121887964a77f85820b5f2018",
+    "replicate_results.csv": "f61ea5f2a468527983aca93ee102e2469d81992ab40c6dba60bb09b8ef4c71f7",
+    "results.json": "d6bf4d79c1cd4c3cc1b256314ed68da00b2ec4375807c4b2d17df4f2e3e33bbe"
+  }
+}

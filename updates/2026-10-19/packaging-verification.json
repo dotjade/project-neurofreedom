@@ -1,0 +1,15 @@
+{
+  "checkedAt": "2026-10-19T03:43:27Z",
+  "change": "Lossless public storage packaging only; four oversized artifacts split into ordered parts. Frozen plan/configuration and analysis unchanged.",
+  "checks": {
+    "allPartsReconstructedAndSha256Verified": true,
+    "unitTestsPassed": 18,
+    "independentNumericCheckerPassed": true,
+    "independentDesignCheckerPassed": true,
+    "csvOriginalNewlinesPreserved": true
+  },
+  "rootSpotCheck": {
+    "reportedAt": "2026-10-19T03:13:30Z",
+    "checks": "Root read analysis, independent design review and scan report; reran 18 unit tests successfully. Not a separate full numerical regeneration."
+  }
+}

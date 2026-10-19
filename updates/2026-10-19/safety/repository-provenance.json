@@ -1,0 +1,37 @@
+{
+  "retrieved_at_utc_approx": "2026-10-19T03:07:00Z through 03:07:25Z",
+  "repository": "dotjade/project-neurofreedom",
+  "ref": "main",
+  "files": [
+    {
+      "path": "public/research-feed.json",
+      "sha": "de5ba4f393e89f4fe129d007dda602f6acfdb853",
+      "url": "https://github.com/dotjade/project-neurofreedom/blob/main/public/research-feed.json"
+    },
+    {
+      "path": "public/UPDATE_WORKFLOW.md",
+      "sha": "80ba2e9ae8fb029e51248fbac681f350b928dd78",
+      "url": "https://github.com/dotjade/project-neurofreedom/blob/main/public/UPDATE_WORKFLOW.md"
+    },
+    {
+      "path": "updates/2026-10-18/safety/report.md",
+      "sha": "c26caf9c27f7b933b25f20b99b8a74c41bac1253",
+      "url": "https://github.com/dotjade/project-neurofreedom/blob/main/updates/2026-10-18/safety/report.md"
+    },
+    {
+      "path": "updates/2026-10-18/safety/source-checks.json",
+      "sha": "d55afd26b4326813639a9d26296f3fad52001fa3",
+      "url": "https://github.com/dotjade/project-neurofreedom/blob/main/updates/2026-10-18/safety/source-checks.json"
+    },
+    {
+      "path": "updates/2026-10-18/safety/search-log.json",
+      "sha": "d38bcf0f9b2d2ae2731e9fff206bd55b7d2fe55f",
+      "url": "https://github.com/dotjade/project-neurofreedom/blob/main/updates/2026-10-18/safety/search-log.json"
+    },
+    {
+      "path": "updates/2026-10-18/safety/link-ledger.json",
+      "sha": "512cace6830fe108d2b351e9d1a0e977a0a0c75d",
+      "url": "https://github.com/dotjade/project-neurofreedom/blob/main/updates/2026-10-18/safety/link-ledger.json"
+    }
+  ]
+}

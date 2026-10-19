@@ -1,0 +1,568 @@
+{
+  "cutoff_utc": "2026-10-18T02:41:39Z",
+  "pubmed": [
+    {
+      "pmid": "39947542",
+      "title": "The neuroprotective and behavioral improvement effects of glial fibrillary acidic protein (GFAP) molecules on tic disorder: Regulation of the 5-HT system by yohimbine.",
+      "journal_pubdate": {
+        "Year": "2025",
+        "Month": "Apr"
+      },
+      "article_dates": [
+        {
+          "type": "Electronic",
+          "Year": "2025",
+          "Month": "02",
+          "Day": "11"
+        }
+      ],
+      "history": {
+        "received": {
+          "Year": "2024",
+          "Month": "12",
+          "Day": "18"
+        },
+        "revised": {
+          "Year": "2025",
+          "Month": "2",
+          "Day": "5"
+        },
+        "accepted": {
+          "Year": "2025",
+          "Month": "2",
+          "Day": "10"
+        },
+        "medline": {
+          "Year": "2025",
+          "Month": "3",
+          "Day": "18",
+          "Hour": "6",
+          "Minute": "22"
+        },
+        "pubmed": {
+          "Year": "2025",
+          "Month": "2",
+          "Day": "14",
+          "Hour": "0",
+          "Minute": "24"
+        },
+        "entrez": {
+          "Year": "2025",
+          "Month": "2",
+          "Day": "13",
+          "Hour": "19",
+          "Minute": "33"
+        }
+      },
+      "types": [
+        "Journal Article",
+        "Retracted Publication"
+      ],
+      "identifiers": {
+        "pubmed": "39947542",
+        "doi": "10.1016/j.ijbiomac.2025.140956",
+        "pii": "S0141-8130(25)01505-3"
+      },
+      "DateCompleted": {
+        "Year": "2025",
+        "Month": "07",
+        "Day": "03"
+      },
+      "DateRevised": {
+        "Year": "2026",
+        "Month": "10",
+        "Day": "16"
+      },
+      "corrections": [
+        {
+          "type": "ErratumIn",
+          "source": "Int J Biol Macromol. 2026 Oct;379:153656. doi: 10.1016/j.ijbiomac.2026.153656.",
+          "pmid": "42527169"
+        },
+        {
+          "type": "RetractionIn",
+          "source": "Int J Biol Macromol. 2026 Oct;379:153656. doi: 10.1016/j.ijbiomac.2026.153656.",
+          "pmid": "42527169"
+        }
+      ],
+      "prior_scan_overlap": true,
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/39947542/",
+      "linked_notice_changed": false,
+      "screening_decision": "Already encountered historical preclinical paper. Explicitly retracted; exclude from positive mechanism/efficacy evidence. Linked notice unchanged. Publication February 2025, not a new October study."
+    },
+    {
+      "pmid": "40229987",
+      "title": "Conservative Management of Tourette Syndrome Tics Using Intraoral Occlusal Devices: Report of Two Cases.",
+      "journal_pubdate": {
+        "Year": "2025",
+        "Season": "Mar-Apr"
+      },
+      "article_dates": [],
+      "history": {
+        "revised": {
+          "Year": "2025",
+          "Month": "3",
+          "Day": "29"
+        },
+        "received": {
+          "Year": "2024",
+          "Month": "12",
+          "Day": "3"
+        },
+        "accepted": {
+          "Year": "2025",
+          "Month": "3",
+          "Day": "31"
+        },
+        "medline": {
+          "Year": "2025",
+          "Month": "4",
+          "Day": "15",
+          "Hour": "6",
+          "Minute": "25"
+        },
+        "pubmed": {
+          "Year": "2025",
+          "Month": "4",
+          "Day": "15",
+          "Hour": "6",
+          "Minute": "24"
+        },
+        "entrez": {
+          "Year": "2025",
+          "Month": "4",
+          "Day": "15",
+          "Hour": "1",
+          "Minute": "2"
+        },
+        "pmc-release": {
+          "Year": "2025",
+          "Month": "4",
+          "Day": "15"
+        }
+      },
+      "types": [
+        "Case Reports",
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "identifiers": {
+        "pubmed": "40229987",
+        "pmc": "PMC11997298",
+        "doi": "10.1111/scd.70032"
+      },
+      "DateCompleted": {
+        "Year": "2025",
+        "Month": "04",
+        "Day": "15"
+      },
+      "DateRevised": {
+        "Year": "2026",
+        "Month": "10",
+        "Day": "16"
+      },
+      "corrections": [],
+      "prior_scan_overlap": true,
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/40229987/",
+      "linked_notice_changed": false,
+      "screening_decision": "Already screened 2025 occlusal-device case reports; metadata revision does not create new evidence. No individual case details reviewed or retained today."
+    },
+    {
+      "pmid": "42527169",
+      "title": "Retraction notice to \"the neuroprotective and behavioral improvement effects of glial fibrillary acidic protein (GFAP) molecules on tic disorder: Regulation of the 5-HT system by yohimbine\" [Int. J. Biol. Macromol. 304 (2025) 140956].",
+      "journal_pubdate": {
+        "Year": "2026",
+        "Month": "Oct"
+      },
+      "article_dates": [
+        {
+          "type": "Electronic",
+          "Year": "2026",
+          "Month": "07",
+          "Day": "29"
+        }
+      ],
+      "history": {
+        "pubmed": {
+          "Year": "2026",
+          "Month": "7",
+          "Day": "30",
+          "Hour": "0",
+          "Minute": "38"
+        },
+        "medline": {
+          "Year": "2026",
+          "Month": "7",
+          "Day": "30",
+          "Hour": "0",
+          "Minute": "38"
+        },
+        "entrez": {
+          "Year": "2026",
+          "Month": "7",
+          "Day": "29",
+          "Hour": "21",
+          "Minute": "57"
+        }
+      },
+      "types": [
+        "Published Erratum",
+        "Retraction Notice"
+      ],
+      "identifiers": {
+        "pubmed": "42527169",
+        "doi": "10.1016/j.ijbiomac.2026.153656",
+        "pii": "S0141-8130(26)03601-9"
+      },
+      "DateCompleted": null,
+      "DateRevised": {
+        "Year": "2026",
+        "Month": "10",
+        "Day": "16"
+      },
+      "corrections": [
+        {
+          "type": "ErratumFor",
+          "source": "Int J Biol Macromol. 2025 Apr;304(Pt 2):140956. doi: 10.1016/j.ijbiomac.2025.140956.",
+          "pmid": "39947542"
+        },
+        {
+          "type": "RetractionOf",
+          "source": "Int J Biol Macromol. 2025 Apr;304(Pt 2):140956. doi: 10.1016/j.ijbiomac.2025.140956.",
+          "pmid": "39947542"
+        }
+      ],
+      "prior_scan_overlap": true,
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42527169/",
+      "linked_notice_changed": false,
+      "screening_decision": "Already encountered historical retraction notice; electronic July 29, 2026 with October issue assignment. Linked retraction/erratum fields unchanged. Not a new October retraction."
+    },
+    {
+      "pmid": "42808868",
+      "title": "Obsessive-Compulsive Disorder in Adulthood: Etiology, Diagnosis, and Treatment.",
+      "journal_pubdate": {
+        "Year": "2026",
+        "Month": "Oct",
+        "Day": "16"
+      },
+      "article_dates": [
+        {
+          "type": "Electronic",
+          "Year": "2026",
+          "Month": "10",
+          "Day": "16"
+        }
+      ],
+      "history": {
+        "medline": {
+          "Year": "2026",
+          "Month": "9",
+          "Day": "29",
+          "Hour": "12",
+          "Minute": "28"
+        },
+        "pubmed": {
+          "Year": "2026",
+          "Month": "9",
+          "Day": "29",
+          "Hour": "12",
+          "Minute": "28"
+        },
+        "entrez": {
+          "Year": "2026",
+          "Month": "9",
+          "Day": "29",
+          "Hour": "9",
+          "Minute": "52"
+        }
+      },
+      "types": [
+        "Journal Article",
+        "Review"
+      ],
+      "identifiers": {
+        "pubmed": "42808868",
+        "doi": "10.3238/arztebl.m2026.0156",
+        "pii": "arztebl.m2026.0156"
+      },
+      "DateCompleted": null,
+      "DateRevised": {
+        "Year": "2026",
+        "Month": "09",
+        "Day": "29"
+      },
+      "corrections": [],
+      "prior_scan_overlap": true,
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42808868/",
+      "linked_notice_changed": false,
+      "screening_decision": "Already screened secondary adult OCD review; electronic/issue October 16 but database entry September 29. Excluded from primary evidence."
+    },
+    {
+      "pmid": "42867549",
+      "title": "Allergic load and symptom severity in children with tic disorders: a cross-sectional study.",
+      "journal_pubdate": {
+        "Year": "2026",
+        "Month": "Oct",
+        "Day": "13"
+      },
+      "article_dates": [
+        {
+          "type": "Electronic",
+          "Year": "2026",
+          "Month": "10",
+          "Day": "13"
+        }
+      ],
+      "history": {
+        "received": {
+          "Year": "2026",
+          "Month": "2",
+          "Day": "9"
+        },
+        "accepted": {
+          "Year": "2026",
+          "Month": "10",
+          "Day": "6"
+        },
+        "revised": {
+          "Year": "2026",
+          "Month": "10",
+          "Day": "5"
+        },
+        "medline": {
+          "Year": "2026",
+          "Month": "10",
+          "Day": "13",
+          "Hour": "23",
+          "Minute": "37"
+        },
+        "pubmed": {
+          "Year": "2026",
+          "Month": "10",
+          "Day": "13",
+          "Hour": "23",
+          "Minute": "36"
+        },
+        "entrez": {
+          "Year": "2026",
+          "Month": "10",
+          "Day": "13",
+          "Hour": "17",
+          "Minute": "11"
+        }
+      },
+      "types": [
+        "Journal Article"
+      ],
+      "identifiers": {
+        "pubmed": "42867549",
+        "doi": "10.1007/s00431-026-07510-4",
+        "pii": "10.1007/s00431-026-07510-4"
+      },
+      "DateCompleted": {
+        "Year": "2026",
+        "Month": "10",
+        "Day": "13"
+      },
+      "DateRevised": {
+        "Year": "2026",
+        "Month": "10",
+        "Day": "16"
+      },
+      "corrections": [],
+      "prior_scan_overlap": true,
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42867549/",
+      "linked_notice_changed": false,
+      "screening_decision": "Duplicate pediatric cross-sectional allergy study already in main evidence ledger; first publication October 13. Revision October 16 is not a new study or adult applicability."
+    },
+    {
+      "pmid": "42888480",
+      "title": "Abdominal Tics in Children and Adolescents: A Phenomenology-First Diagnostic Framework and Differential Diagnosis.",
+      "journal_pubdate": {
+        "Year": "2026",
+        "Month": "Oct",
+        "Day": "16"
+      },
+      "article_dates": [
+        {
+          "type": "Electronic",
+          "Year": "2026",
+          "Month": "10",
+          "Day": "16"
+        }
+      ],
+      "history": {
+        "medline": {
+          "Year": "2026",
+          "Month": "10",
+          "Day": "17",
+          "Hour": "5",
+          "Minute": "33"
+        },
+        "pubmed": {
+          "Year": "2026",
+          "Month": "10",
+          "Day": "17",
+          "Hour": "5",
+          "Minute": "33"
+        },
+        "revised": {
+          "Year": "2026",
+          "Month": "8",
+          "Day": "16"
+        },
+        "received": {
+          "Year": "2026",
+          "Month": "5",
+          "Day": "25"
+        },
+        "accepted": {
+          "Year": "2026",
+          "Month": "10",
+          "Day": "13"
+        },
+        "entrez": {
+          "Year": "2026",
+          "Month": "10",
+          "Day": "17",
+          "Hour": "0",
+          "Minute": "14"
+        }
+      },
+      "types": [
+        "Journal Article",
+        "Review"
+      ],
+      "identifiers": {
+        "pubmed": "42888480",
+        "doi": "10.1111/jpc.70627"
+      },
+      "DateCompleted": null,
+      "DateRevised": {
+        "Year": "2026",
+        "Month": "10",
+        "Day": "17"
+      },
+      "corrections": [],
+      "prior_scan_overlap": false,
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42888480/",
+      "linked_notice_changed": false,
+      "screening_decision": "Newly encountered pediatric narrative review, electronic October 16 and PubMed entry October 17. Abstract assessed as secondary synthesis; exclude from primary-study evidence and do not treat proposed diagnostic framework as validated clinical accuracy."
+    }
+  ],
+  "preprints": [
+    {
+      "server": "medrxiv",
+      "interval": [
+        "2026-10-16",
+        "2026-10-18"
+      ],
+      "pages": [
+        {
+          "cursor": 0,
+          "returned": 30,
+          "message": {
+            "status": "ok",
+            "category": "all",
+            "interval": "2026-10-16:2026-10-18",
+            "cursor": 0,
+            "count": 30,
+            "count_new_papers": "42",
+            "total": "68"
+          }
+        },
+        {
+          "cursor": 30,
+          "returned": 30,
+          "message": {
+            "status": "ok",
+            "category": "all",
+            "interval": "2026-10-16:2026-10-18",
+            "cursor": "30",
+            "count": 30,
+            "count_new_papers": "42",
+            "total": "68"
+          }
+        },
+        {
+          "cursor": 60,
+          "returned": 8,
+          "message": {
+            "status": "ok",
+            "category": "all",
+            "interval": "2026-10-16:2026-10-18",
+            "cursor": "60",
+            "count": 8,
+            "count_new_papers": "42",
+            "total": "68"
+          }
+        }
+      ],
+      "version_index": [
+        {
+          "doi": "10.64898/2026.10.14.26365506",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.09.25.26364003",
+          "version": "2",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.14.26365571",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.08.26365041",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.05.15.26352859",
+          "version": "2",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.03.03.26346563",
+          "version": "2",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.08.17.26360592",
+          "version": "2",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.02.26.26347222",
+          "version": "2",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.09.26365121",
+          "version": "2",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.13.26365373",
+          "version": "2",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.1101/2025.11.04.25339533",
+          "version": "4",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.10.14.26365587",
+          "version": "1",
+          "date": "2026-10-16"
+        },
+        {
+          "doi": "10.64898/2026.05.28.26353935",
+          "version": "2",
+          "date": "2026-10-16"
+        },
+        {
+          "do

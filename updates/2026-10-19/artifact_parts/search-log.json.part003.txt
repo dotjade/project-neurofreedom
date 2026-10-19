@@ -1,0 +1,566 @@
+18",
+            "Minute": "31"
+          },
+          "entrez": {
+            "Year": "2026",
+            "Month": "2",
+            "Day": "14",
+            "Hour": "18",
+            "Minute": "1"
+          }
+        },
+        "types": [
+          "Journal Article",
+          "Systematic Review",
+          "Research Support, Non-U.S. Gov't"
+        ],
+        "identifiers": {
+          "pubmed": "41689912",
+          "doi": "10.1016/j.psychres.2026.117000",
+          "pii": "S0165-1781(26)00061-2"
+        },
+        "DateCompleted": {
+          "Year": "2026",
+          "Month": "03",
+          "Day": "11"
+        },
+        "DateRevised": {
+          "Year": "2026",
+          "Month": "10",
+          "Day": "18"
+        },
+        "corrections": [],
+        "prior_scan_overlap": false,
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/41689912/",
+        "linked_notice_changed": false,
+        "screening_decision": "Historical February 2026 systematic review of gambling cognition; secondary and outside the new-publication window."
+      },
+      {
+        "pmid": "42888480",
+        "title": "Abdominal Tics in Children and Adolescents: A Phenomenology-First Diagnostic Framework and Differential Diagnosis.",
+        "journal_pubdate": {
+          "Year": "2026",
+          "Month": "Oct",
+          "Day": "16"
+        },
+        "article_dates": [
+          {
+            "type": "Electronic",
+            "Year": "2026",
+            "Month": "10",
+            "Day": "16"
+          }
+        ],
+        "history": {
+          "revised": {
+            "Year": "2026",
+            "Month": "8",
+            "Day": "16"
+          },
+          "received": {
+            "Year": "2026",
+            "Month": "5",
+            "Day": "25"
+          },
+          "accepted": {
+            "Year": "2026",
+            "Month": "10",
+            "Day": "13"
+          },
+          "medline": {
+            "Year": "2026",
+            "Month": "10",
+            "Day": "17",
+            "Hour": "5",
+            "Minute": "33"
+          },
+          "pubmed": {
+            "Year": "2026",
+            "Month": "10",
+            "Day": "17",
+            "Hour": "5",
+            "Minute": "33"
+          },
+          "entrez": {
+            "Year": "2026",
+            "Month": "10",
+            "Day": "17",
+            "Hour": "0",
+            "Minute": "14"
+          }
+        },
+        "types": [
+          "Journal Article",
+          "Review"
+        ],
+        "identifiers": {
+          "pubmed": "42888480",
+          "doi": "10.1111/jpc.70627"
+        },
+        "DateCompleted": null,
+        "DateRevised": {
+          "Year": "2026",
+          "Month": "10",
+          "Day": "17"
+        },
+        "corrections": [],
+        "prior_scan_overlap": true,
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/42888480/",
+        "linked_notice_changed": false,
+        "screening_decision": "October 16 pediatric abdominal-tic narrative review already screened October 18. No new cohort or validated diagnostic-accuracy estimate."
+      },
+      {
+        "pmid": "42889367",
+        "title": "Editorial: Sepsis awareness month 2024.",
+        "journal_pubdate": {
+          "Year": "2026"
+        },
+        "article_dates": [
+          {
+            "type": "Electronic",
+            "Year": "2026",
+            "Month": "10",
+            "Day": "01"
+          }
+        ],
+        "history": {
+          "received": {
+            "Year": "2026",
+            "Month": "9",
+            "Day": "6"
+          },
+          "accepted": {
+            "Year": "2026",
+            "Month": "9",
+            "Day": "18"
+          },
+          "medline": {
+            "Year": "2026",
+            "Month": "10",
+            "Day": "17",
+            "Hour": "23",
+            "Minute": "14"
+          },
+          "pubmed": {
+            "Year": "2026",
+            "Month": "10",
+            "Day": "17",
+            "Hour": "23",
+            "Minute": "13"
+          },
+          "entrez": {
+            "Year": "2026",
+            "Month": "10",
+            "Day": "17",
+            "Hour": "10",
+            "Minute": "36"
+          },
+          "pmc-release": {
+            "Year": "2026",
+            "Month": "10",
+            "Day": "1"
+          }
+        },
+        "types": [
+          "Editorial"
+        ],
+        "identifiers": {
+          "pubmed": "42889367",
+          "pmc": "PMC13669169",
+          "doi": "10.3389/fmed.2026.1990102"
+        },
+        "DateCompleted": {
+          "Year": "2026",
+          "Month": "10",
+          "Day": "17"
+        },
+        "DateRevised": {
+          "Year": "2026",
+          "Month": "10",
+          "Day": "17"
+        },
+        "corrections": [],
+        "prior_scan_overlap": false,
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/42889367/",
+        "linked_notice_changed": false,
+        "screening_decision": "Sepsis editorial; unrelated lexical return, excluded."
+      },
+      {
+        "pmid": "42889785",
+        "title": "Evaluation of a highly stable biogenic palladium nanocatalyst for industrially relevant and sustainable nitro reduction.",
+        "journal_pubdate": {
+          "Year": "2026",
+          "Month": "Sep",
+          "Day": "28"
+        },
+        "article_dates": [
+          {
+            "type": "Electronic",
+            "Year": "2026",
+            "Month": "09",
+            "Day": "28"
+          }
+        ],
+        "history": {
+          "received": {
+            "Year": "2026",
+            "Month": "7",
+            "Day": "4"
+          },
+          "accepted": {
+            "Year": "2026",
+            "Month": "9",
+            "Day": "26"
+          },
+          "medline": {
+            "Year": "2026",
+            "Month": "10",
+            "Day": "17",
+            "Hour": "23",
+            "Minute": "12"
+          },
+          "pubmed": {
+            "Year": "2026",
+            "Month": "10",
+            "Day": "17",
+            "Hour": "23",
+            "Minute": "12"
+          },
+          "entrez": {
+            "Year": "2026",
+            "Month": "10",
+            "Day": "17",
+            "Hour": "12",
+            "Minute": "30"
+          },
+          "pmc-release": {
+            "Year": "2026",
+            "Month": "9",
+            "Day": "28"
+          }
+        },
+        "types": [
+          "Journal Article"
+        ],
+        "identifiers": {
+          "pubmed": "42889785",
+          "pmc": "PMC13670218",
+          "doi": "10.1039/d6na00568c",
+          "pii": "d6na00568c"
+        },
+        "DateCompleted": null,
+        "DateRevised": {
+          "Year": "2026",
+          "Month": "10",
+          "Day": "17"
+        },
+        "corrections": [],
+        "prior_scan_overlap": false,
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/42889785/",
+        "linked_notice_changed": false,
+        "screening_decision": "Palladium nanocatalyst study; unrelated lexical return, excluded."
+      },
+      {
+        "pmid": "42890800",
+        "title": "\"I swear it's not Tourette's!\" - it is time to rethink coprolalia in Tourette syndrome.",
+        "journal_pubdate": {
+          "Year": "2026"
+        },
+        "article_dates": [
+          {
+            "type": "Electronic",
+            "Year": "2026",
+            "Month": "10",
+            "Day": "02"
+          }
+        ],
+        "history": {
+          "received": {
+            "Year": "2026",
+            "Month": "7",
+            "Day": "25"
+          },
+          "revised": {
+            "Year": "2026",
+            "Month": "9",
+            "Day": "3"
+          },
+          "accepted": {
+            "Year": "2026",
+            "Month": "9",
+            "Day": "4"
+          },
+          "medline": {
+            "Year": "2026",
+            "Month": "10",
+            "Day": "17",
+            "Hour": "23",
+            "Minute": "39"
+          },
+          "pubmed": {
+            "Year": "2026",
+            "Month": "10",
+            "Day": "17",
+            "Hour": "23",
+            "Minute": "38"
+          },
+          "entrez": {
+            "Year": "2026",
+            "Month": "10",
+            "Day": "17",
+            "Hour": "19",
+            "Minute": "8"
+          },
+          "pmc-release": {
+            "Year": "2026",
+            "Month": "10",
+            "Day": "2"
+          }
+        },
+        "types": [
+          "Journal Article"
+        ],
+        "identifiers": {
+          "pubmed": "42890800",
+          "pmc": "PMC13672326",
+          "doi": "10.3389/fpsyt.2026.1948442"
+        },
+        "DateCompleted": {
+          "Year": "2026",
+          "Month": "10",
+          "Day": "17"
+        },
+        "DateRevised": {
+          "Year": "2026",
+          "Month": "10",
+          "Day": "17"
+        },
+        "corrections": [],
+        "prior_scan_overlap": false,
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/42890800/",
+        "linked_notice_changed": false,
+        "screening_decision": "October 2 hypothesis/theory article, newly encountered in PubMed. A conceptual classification proposal, not primary diagnostic-validation evidence; do not infer functional etiology from coprolalia alone."
+      },
+      {
+        "pmid": "42890894",
+        "title": "A systematic review to characterize functional tic-like behaviors.",
+        "journal_pubdate": {
+          "Year": "2026"
+        },
+        "article_dates": [
+          {
+            "type": "Electronic",
+            "Year": "2026",
+            "Month": "10",
+            "Day": "02"
+          }
+        ],
+        "history": {
+          "received": {
+            "Year": "2026",
+            "Month": "7",
+            "Day": "14"
+          },
+          "revised": {
+            "Year": "2026",
+            "Month": "9",
+            "Day": "1"
+          },
+          "accepted": {
+            "Year": "2026",
+            "Month": "9",
+            "Day": "14"
+          },
+          "medline": {
+            "Year": "2026",
+            "Month": "10",
+            "Day": "17",
+            "Hour": "23",
+            "Minute": "39"
+          },
+          "pubmed": {
+            "Year": "2026",
+            "Month": "10",
+            "Day": "17",
+            "Hour": "23",
+            "Minute": "38"
+          },
+          "entrez": {
+            "Year": "2026",
+            "Month": "10",
+            "Day": "17",
+            "Hour": "20",
+            "Minute": "5"
+          },
+          "pmc-release": {
+            "Year": "2026",
+            "Month": "10",
+            "Day": "2"
+          }
+        },
+        "types": [
+          "Journal Article",
+          "Systematic Review"
+        ],
+        "identifiers": {
+          "pubmed": "42890894",
+          "pmc": "PMC13672511",
+          "doi": "10.3389/frcha.2026.1936806"
+        },
+        "DateCompleted": {
+          "Year": "2026",
+          "Month": "10",
+          "Day": "17"
+        },
+        "DateRevised": {
+          "Year": "2026",
+          "Month": "10",
+          "Day": "17"
+        },
+        "corrections": [],
+        "prior_scan_overlap": false,
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/42890894/",
+        "linked_notice_changed": false,
+        "screening_decision": "October 2 systematic review of functional tic-like behaviors, newly encountered in PubMed. Secondary synthesis, with overlapping cohorts explicitly acknowledged; do not add its included studies as independent new cohorts."
+      },
+      {
+        "pmid": "42893364",
+        "title": "PANDAS in the post-COVID era: links to group A Streptococcus and implications for pediatric neuropsychiatry \u2012 a narrative review.",
+        "journal_pubdate": {
+          "Year": "2026",
+          "Month": "May",
+          "Day": "30"
+        },
+        "article_dates": [
+          {
+            "type": "Electronic",
+            "Year": "2026",
+            "Month": "05",
+            "Day": "30"
+          }
+        ],
+        "history": {
+          "medline": {
+            "Year": "2026",
+            "Month": "10",
+            "Day": "18",
+            "Hour": "11",
+            "Minute": "29"
+          },
+          "pubmed": {
+            "Year": "2026",
+            "Month": "10",
+            "Day": "18",
+            "Hour": "11",
+            "Minute": "29"
+          },
+          "entrez": {
+            "Year": "2026",
+            "Month": "10",
+            "Day": "18",
+            "Hour": "5",
+            "Minute": "34"
+          }
+        },
+        "types": [
+          "Journal Article",
+          "Review"
+        ],
+        "identifiers": {
+          "pubmed": "42893364",
+          "doi": "10.12740/PP/OnlineFirst/218782",
+          "pii": "218782"
+        },
+        "DateCompleted": null,
+        "DateRevised": {
+          "Year": "2026",
+          "Month": "10",
+          "Day": "18"
+        },
+        "corrections": [],
+        "prior_scan_overlap": false,
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/42893364/",
+        "linked_notice_changed": false,
+        "screening_decision": "May 30 pediatric PANDAS narrative review newly indexed in October; secondary synthesis, not new chronic-tic immune-treatment evidence or adult efficacy."
+      }
+    ],
+    "new_to_prior_scan_ids": [
+      "10382139",
+      "11055462",
+      "11518480",
+      "40977255",
+      "41621322",
+      "41689912",
+      "42889367",
+      "42889785",
+      "42890800",
+      "42890894",
+      "42893364"
+    ],
+    "previous_overlap_count": 1
+  },
+  "preprints": [
+    {
+      "server": "medrxiv",
+      "interval": [
+        "2026-10-17",
+        "2026-10-19"
+      ],
+      "pages": [
+        {
+          "cursor": 0,
+          "returned": 9,
+          "message": {
+            "status": "ok",
+            "category": "all",
+            "interval": "2026-10-17:2026-10-19",
+            "cursor": 0,
+            "count": 9,
+            "count_new_papers": "0",
+            "total": "9"
+          }
+        }
+      ],
+      "version_index": [
+        {
+          "doi": "10.64898/2026.10.14.26365548",
+          "version": "2",
+          "date": "2026-10-17"
+        },
+        {
+          "doi": "10.64898/2026.08.18.26360719",
+          "version": "2",
+          "date": "2026-10-17"
+        },
+        {
+          "doi": "10.64898/2026.04.13.26349911",
+          "version": "2",
+          "date": "2026-10-17"
+        },
+        {
+          "doi": "10.64898/2026.10.14.26365587",
+          "version": "2",
+          "date": "2026-10-17"
+        },
+        {
+          "doi": "10.64898/2026.08.27.26361471",
+          "version": "2",
+          "date": "2026-10-17"
+        },
+        {
+          "doi": "10.1101/2024.11.20.24317557",
+          "version": "3",
+          "date": "2026-10-17"
+        },
+        {
+          "doi": "10.1101/2025.05.26.25328346",
+          "version": "2",
+          "date": "2026-10-17"
+        },
+        {
+          "doi": "10.64898/2026.10.07.26365015",
+          "version": "2",
+          "date": "2026-10-17"
+        },
+        {
+          "doi": "10.

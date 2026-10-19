@@ -1,10 +1,17 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-18T02:47:52Z",
-  "lastResearchDate": "2026-10-18",
+  "updatedAt": "2026-10-19T03:43:00Z",
+  "lastResearchDate": "2026-10-19",
   "cadence": "Daily scheduled review; publication follows verified work.",
-  "latestSummary": "A historical survey described how tic-related pain affects everyday life. Today's bounded scan found no qualifying new primary result or trial result.",
+  "latestSummary": "A synthetic test examined what paired pain measurement adds to tic scores, including a missing-data failure. The bounded scan verified no new primary-study or trial result.",
   "timeline": [
+    {
+      "date": "2026-10-19",
+      "title": "What paired outcomes can and cannot reveal.",
+      "type": "Synthetic methods test",
+      "summary": "Constructed worlds shared identical tic change but differed in pain change. Direct paired measures distinguished some worlds; excluding an entire group made two worlds indistinguishable.",
+      "record": "https://github.com/dotjade/project-neurofreedom/blob/main/analyses/paired_outcomes/2026-10-19/report.md"
+    },
     {
       "date": "2026-10-18",
       "title": "Pain has its own footprint.",
@@ -90,7 +97,7 @@
       "type": "Primary qualitative study",
       "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10863457/",
       "label": "Isaacs and colleagues, 2024",
-      "checkedAt": "2026-10-18",
+      "checkedAt": "2026-10-19",
       "linkState": "Primary article retrievable through this check"
     },
     {
@@ -99,7 +106,7 @@
       "type": "Primary longitudinal study",
       "url": "https://www.neurology.org/doi/10.1212/01.WNL.0000086370.10186.7C",
       "label": "Pappert and colleagues, 2003",
-      "checkedAt": "2026-10-18",
+      "checkedAt": "2026-10-19",
       "linkState": "HTTP 403 in this retrieval; not established broken"
     },
     {
@@ -108,7 +115,7 @@
       "type": "Primary adult cohort study",
       "url": "https://link.springer.com/content/pdf/10.1186/s44247-026-00284-7.pdf",
       "label": "Ivanova and colleagues, 2026",
-      "checkedAt": "2026-10-18",
+      "checkedAt": "2026-10-19",
       "linkState": "Primary PDF retrievable through this check"
     }
   ],
@@ -175,6 +182,6 @@
     "trend": [],
     "message": "No public ratings are collected yet. There are no votes or trends to show."
   },
-  "activityEditionDate": "2026-10-18",
-  "featuredActivityId": "hand-at-ease"
+  "activityEditionDate": "2026-10-19",
+  "featuredActivityId": "familiar-route"
 }

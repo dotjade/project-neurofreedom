@@ -1,0 +1,40 @@
+{
+  "purpose": "Storage-only chunking after oversized connector writes stalled. No analytical change. Reassemble before running original analysis/review or live scan code.",
+  "files": [
+    {
+      "path": "replicate_results.csv",
+      "sha256": "f61ea5f2a468527983aca93ee102e2469d81992ab40c6dba60bb09b8ef4c71f7",
+      "bytes": 416156,
+      "parts": [
+        "artifact_parts/replicate_results.csv.part001.txt",
+        "artifact_parts/replicate_results.csv.part002.txt",
+        "artifact_parts/replicate_results.csv.part003.txt",
+        "artifact_parts/replicate_results.csv.part004.txt",
+        "artifact_parts/replicate_results.csv.part005.txt",
+        "artifact_parts/replicate_results.csv.part006.txt",
+        "artifact_parts/replicate_results.csv.part007.txt",
+        "artifact_parts/replicate_results.csv.part008.txt",
+        "artifact_parts/replicate_results.csv.part009.txt",
+        "artifact_parts/replicate_results.csv.part010.txt",
+        "artifact_parts/replicate_results.csv.part011.txt",
+        "artifact_parts/replicate_results.csv.part012.txt",
+        "artifact_parts/replicate_results.csv.part013.txt",
+        "artifact_parts/replicate_results.csv.part014.txt",
+        "artifact_parts/replicate_results.csv.part015.txt",
+        "artifact_parts/replicate_results.csv.part016.txt",
+        "artifact_parts/replicate_results.csv.part017.txt",
+        "artifact_parts/replicate_results.csv.part018.txt",
+        "artifact_parts/replicate_results.csv.part019.txt",
+        "artifact_parts/replicate_results.csv.part020.txt",
+        "artifact_parts/replicate_results.csv.part021.txt",
+        "artifact_parts/replicate_results.csv.part022.txt",
+        "artifact_parts/replicate_results.csv.part023.txt",
+        "artifact_parts/replicate_results.csv.part024.txt",
+        "artifact_parts/replicate_results.csv.part025.txt",
+        "artifact_parts/replicate_results.csv.part026.txt",
+        "artifact_parts/replicate_results.csv.part027.txt",
+        "artifact_parts/replicate_results.csv.part028.txt"
+      ]
+    }
+  ]
+}

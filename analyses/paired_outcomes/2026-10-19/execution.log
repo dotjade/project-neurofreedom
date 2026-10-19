@@ -1,0 +1,25 @@
+{
+  "finite_population": 400,
+  "replicate_rows": 2400,
+  "diagnostic_flags": 0,
+  "truth": {
+    "A": {
+      "tic_mean": 2.0,
+      "pain_mean": 1.0,
+      "cross_moment": 2.1597850559730416,
+      "covariance": 0.1597850559730416
+    },
+    "B": {
+      "tic_mean": 2.0,
+      "pain_mean": 0.0,
+      "cross_moment": 0.15978505597304182,
+      "covariance": 0.15978505597304182
+    },
+    "C": {
+      "tic_mean": 2.0,
+      "pain_mean": -5.35682609381638e-17,
+      "cross_moment": -0.24021494402695823,
+      "covariance": -0.24021494402695812
+    }
+  }
+}
