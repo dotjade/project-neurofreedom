@@ -1,0 +1,101 @@
+{
+  "created_utc": "2026-10-20T03:02:54.414985+00:00",
+  "scope": "Publication artifact allowlist; source metadata, original decisions and reproducible code only. Redundant local scan stdout is excluded.",
+  "files": [
+    {
+      "path": "baseline-metadata.json",
+      "bytes": 23827,
+      "sha256": "02bb10635732f29dfad8e0b92c682d56a9e4c1e87f2782c845838ff752de4846"
+    },
+    {
+      "path": "baseline-registry.json",
+      "bytes": 4609,
+      "sha256": "9b6a0e943946f1594bbd04f1bfffdd66b6b31406bd09df103de39542de595ac7"
+    },
+    {
+      "path": "biorxiv-preprint-index.tsv",
+      "bytes": 14280,
+      "sha256": "e0166c0282f497679dab46cfd3e943cb99f69a72e44476438d3b5b6fe0a2d89b"
+    },
+    {
+      "path": "build_results.py",
+      "bytes": 8777,
+      "sha256": "25c5194ee5a8f11b6edf61b8242b3ba903b7ee0ab43fd49a9bed9834edcb5966"
+    },
+    {
+      "path": "discovery-log.json",
+      "bytes": 5118,
+      "sha256": "f458a5825f22bc12d2c918f70314183dc8b411fe2a4760d67a7136a92257816b"
+    },
+    {
+      "path": "medrxiv-preprint-index.tsv",
+      "bytes": 4007,
+      "sha256": "9be3e5dc12d4081de79eebf7deccd3d11d7612afad85651ef63a5bf1792e7e0d"
+    },
+    {
+      "path": "primary-evidence.jsonl",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "provenance.json",
+      "bytes": 2214,
+      "sha256": "f17ca74abc5c64c2bcab567ff0a280bd5d3d4b78e140677c59afca9ac753d974"
+    },
+    {
+      "path": "pubmed-screening.jsonl",
+      "bytes": 9775,
+      "sha256": "ffe9bbb342b852fb099e439961214eb292b86a17be2f86fb3ab70a3d838538d1"
+    },
+    {
+      "path": "registry-evidence.jsonl",
+      "bytes": 5733,
+      "sha256": "4677d91705ac0a7e682c407d4a467f3b5c035b8adddfc1a3bd5297dde02d595f"
+    },
+    {
+      "path": "report.md",
+      "bytes": 10522,
+      "sha256": "273973cd10f29862e45f4dc160cfa999541c46aaff9639445378a821451daec5"
+    },
+    {
+      "path": "scan_sources.py",
+      "bytes": 9595,
+      "sha256": "762244c12ea0d40031327642cd61fabbac08c71d55c47cde8fe6fe8fe2516627"
+    },
+    {
+      "path": "scan_supplement.py",
+      "bytes": 4060,
+      "sha256": "7ba66adc1d50f98a2f18cc6c5c4041c8a1774c6de06041f8a7ab8f3d7b45ff82"
+    },
+    {
+      "path": "search-log.json",
+      "bytes": 34240,
+      "sha256": "8547d7bd267d2a479416f82b387423350b5c83b0f7728f83c7450ee74694f256"
+    },
+    {
+      "path": "secondary-screening.jsonl",
+      "bytes": 8269,
+      "sha256": "d03016a8e9ddbf2c5635409c7b8f43e3b4444cc436a858333bccc149b5b5af48"
+    },
+    {
+      "path": "summary.json",
+      "bytes": 1355,
+      "sha256": "42ed47f72455cdc1bdc076403f0257c863e90e4c5ecae74899119afd67d91c0e"
+    },
+    {
+      "path": "supplement-selected-metadata.json",
+      "bytes": 7929,
+      "sha256": "7d6c41782f47db1e394d88e5b02c5477e4ffbcc00d548cdd91b6d0f50c9dcdac"
+    },
+    {
+      "path": "validate_artifacts.py",
+      "bytes": 2074,
+      "sha256": "965c50a532922ab051a310fd4ae520eaff397e3149a97253e04b8e252352299b"
+    },
+    {
+      "path": "validation.json",
+      "bytes": 409,
+      "sha256": "27366ac64752ad2e65b8ce0c41e1f68b669ac3f69b8efb65254cae980dde4ba7"
+    }
+  ]
+}

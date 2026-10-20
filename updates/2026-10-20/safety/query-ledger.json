@@ -1,0 +1,283 @@
+{
+  "checkDate": "2026-10-20",
+  "windowStart": "2026-10-19T03:09:45Z",
+  "overlapDateFilter": "after:2026-10-18 before:2026-10-21; actual cutoff applies, no future evidence inferred",
+  "queryCount": 12,
+  "resultCardsScreened": 46,
+  "countNote": "Search cards across batches, not independent events or total search-engine hits; batch grouping prevents reliable per-query attribution.",
+  "batches": [
+    {
+      "batch": 1,
+      "startedAt": "2026-10-20T02:49:33.368Z",
+      "queries": [
+        "site:fda.gov (Tourette OR ecopipam OR aripiprazole OR risperidone OR pimozide OR haloperidol) (safety OR recall OR warning) after:2026-10-18 before:2026-10-21",
+        "site:ema.europa.eu (Tourette OR ecopipam OR aripiprazole OR risperidone OR pimozide OR haloperidol OR guanfacine) after:2026-10-18 before:2026-10-21",
+        "site:gov.uk (Tourette OR ecopipam OR aripiprazole OR risperidone OR pimozide OR haloperidol OR guanfacine) (safety OR recall OR warning) after:2026-10-18 before:2026-10-21",
+        "site:fda.gov (clonidine OR guanfacine OR valbenazine OR deutetrabenazine OR tetrabenazine) (safety OR recall OR warning) after:2026-10-18 before:2026-10-21"
+      ],
+      "resultCardsScreened": 18,
+      "perQueryCountsAvailable": false,
+      "screenedCards": [
+        {
+          "title": "Recalls, Market Withdrawals, & Safety Alerts | FDA",
+          "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts?search_api_fulltext=Direct+Rx",
+          "decision": "Search/index page; no dated watched notice established."
+        },
+        {
+          "title": "Drug Safety and Availability | FDA",
+          "url": "https://www.fda.gov/drugs/drug-safety-and-availability?trk=article-ssr-frontend-pulse_little-text-block",
+          "decision": "General safety resource; no dated watched notice established."
+        },
+        {
+          "title": "Safety Public Assessment Reports - GOV.UK",
+          "url": "https://www.gov.uk/guidance/safety-public-assessment-reports",
+          "decision": "Assessment-report index; latest update October 15, before the window."
+        },
+        {
+          "title": "MAUDE Adverse Event Report: MEDTRONIC PUERTO RICO OPERATIONS CO. SYNCHROMED II; PUMP, INFUSION, IMPLANTED, PROGRAMMABLE",
+          "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfMAUDE/Detail.cfm?MDRFOI__ID=13932997",
+          "decision": "Historical incidental MAUDE result; no individual case narrative retained or causality inferred."
+        },
+        {
+          "title": "Risperdal - referral | European Medicines Agency (EMA)",
+          "url": "https://www.ema.europa.eu/en/medicines/human/referrals/risperdal",
+          "decision": "Historical 2008 harmonisation referral."
+        },
+        {
+          "title": "Alerts, recalls and safety information: medicines and medical devices - GOV.UK",
+          "url": "https://www.gov.uk/drug-device-alerts?medical_specialism=psychiatry",
+          "decision": "Index; current source read separately."
+        },
+        {
+          "title": "Haldol and associated names - referral | European Medicines Agency (EMA)",
+          "url": "https://www.ema.europa.eu/de/medicines/human/referrals/haldol-associated-names",
+          "decision": "Historical 2017 harmonisation referral."
+        },
+        {
+          "title": "Aripiprazole (Abilify and generic brands): risk of pathological gambling - GOV.UK",
+          "url": "https://www.gov.uk/drug-safety-update/aripiprazole-abilify-and-generic-brands-risk-of-pathological-gambling?UNLID=51955836320261018102845",
+          "decision": "Historical December 2023 communication; query-string timestamp is not publication."
+        },
+        {
+          "title": "Abilify | European Medicines Agency (EMA)",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/abilify",
+          "decision": "Historical EPAR context."
+        },
+        {
+          "title": "DARWIN EU® - Antipsychotic prescribing in people with dementia in Europe: a descriptive analysis of trends and patient characteristics | HMA-EMA Catalogues of real-world data sources and studies",
+          "url": "https://catalogues.ema.europa.eu/node/4283/methodological-aspects",
+          "decision": "Dementia prescribing study catalogue; not a new safety notice."
+        },
+        {
+          "title": "Lurasidone EU Risk Management Plan Page 8 of 92",
+          "url": "https://www.ema.europa.eu/en/documents/rmp/latuda-epar-risk-management-plan_en.pdf",
+          "decision": "Unrelated lurasidone risk-management document with incidental medicine mentions."
+        },
+        {
+          "title": "Class 2 Device Recall Intrapulmonary Percussive Ventilation, IPV HC, Product Number: S00009; Phasitron, P5HC",
+          "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfRes/res.cfm?id=222261",
+          "decision": "Unrelated ventilator recall."
+        },
+        {
+          "title": "Haloperidol (Haldol): reminder of risks when used in elderly patients for the acute treatment of delirium - GOV.UK",
+          "url": "https://www.gov.uk/drug-safety-update/haloperidol-haldol-reminder-of-risks-when-used-in-elderly-patients-for-the-acute-treatment-of-delirium",
+          "decision": "Historical December 2021 delirium warning."
+        },
+        {
+          "title": "Division Director Review",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2012/203415Orig1s000SumR.pdf",
+          "decision": "Unrelated 2012 regulatory review."
+        },
+        {
+          "title": "COA Tracking ID: C2024184",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2025/219019Orig1s000OtherR.pdf",
+          "decision": "Unrelated regulatory outcome-assessment document."
+        },
+        {
+          "title": "PREVYMIS, INN-letermovir",
+          "url": "https://www.ema.europa.eu/is/documents/product-information/prevymis-epar-product-information_is.pdf",
+          "decision": "Unrelated letermovir label with interaction mention."
+        },
+        {
+          "title": "AHFS Category 28:08",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/98/015034_S032_PONSTEL.pdf",
+          "decision": "Historical unrelated Ponstel label."
+        },
+        {
+          "title": "fluid replacement, as indicated. Prescribers are to withhold, reduce the dose, or permanently discontinue adagrasib based on the severity of the adverse reaction.",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2023/216340Orig1s000RiskR.pdf",
+          "decision": "Unrelated adagrasib regulatory review."
+        }
+      ]
+    },
+    {
+      "batch": 2,
+      "startedAt": "2026-10-20T02:49:56.469Z",
+      "queries": [
+        "(site:ema.europa.eu OR site:gov.uk) (clonidine OR guanfacine OR valbenazine OR deutetrabenazine OR tetrabenazine OR ecopipam) (safety OR recall OR warning) after:2026-10-18 before:2026-10-21",
+        "(site:fda.gov OR site:gov.uk OR site:ema.europa.eu) (Neupulse OR \"median nerve stimulation\" OR NeuroStar OR \"deep brain stimulation\" OR \"transcranial magnetic\") (recall OR safety) after:2026-10-18 before:2026-10-21",
+        "(site:fda.gov OR site:gov.uk OR site:ema.europa.eu) (topiramate OR Topamax OR \"botulinum toxin\" OR tiapride) (safety OR recall OR warning) after:2026-10-18 before:2026-10-21",
+        "(site:fda.gov OR site:gov.uk OR site:ema.europa.eu) (methylphenidate OR atomoxetine OR lisdexamfetamine OR fluvoxamine OR sertraline OR antidepressants) (safety OR recall OR warning) after:2026-10-18 before:2026-10-21"
+      ],
+      "resultCardsScreened": 12,
+      "perQueryCountsAvailable": false,
+      "screenedCards": [
+        {
+          "title": "Class 2 Medicines Recall: Amarox Limited, Sertraline 100mg film-coated tablets, EL(26)A/22 - GOV.UK",
+          "url": "https://www.gov.uk/drug-device-alerts/class-2-medicines-recall-amarox-limited-sertraline-100mg-film-coated-tablets-el-26-a-slash-22",
+          "decision": "Historical April 28 sertraline packaging recall; not new-window."
+        },
+        {
+          "title": "Alerts, recalls and safety information: medicines and medical devices - GOV.UK",
+          "url": "https://www.gov.uk/drug-device-alerts",
+          "decision": "Official index; new weekly listings inspected separately."
+        },
+        {
+          "title": "Botulinum toxin type B (Neurobloc): serious known risks - GOV.UK",
+          "url": "https://www.gov.uk/drug-safety-update/botulinum-toxin-type-b-neurobloc-serious-known-risks",
+          "decision": "Historical botulinum-toxin warning."
+        },
+        {
+          "title": "UKHSA Advisory Board: Chief Executive's Report - GOV.UK",
+          "url": "https://www.gov.uk/government/publications/ukhsa-advisory-board-meeting-papers-for-september-2025/ukhsa-advisory-board-chief-executives-report",
+          "decision": "Historical 2025 botulism/agency report."
+        },
+        {
+          "title": "MHRA crackdown on illegal ‘Botox’ after victims left seriously ill - GOV.UK",
+          "url": "https://www.gov.uk/government/news/mhra-crackdown-on-illegal-botox-after-victims-left-seriously-ill",
+          "decision": "Historical 2025 enforcement news."
+        },
+        {
+          "title": "Incidents & Resilience Annual Report 2025/26 - GOV.UK",
+          "url": "https://www.gov.uk/government/publications/fsa-260607-annual-incidents-report/incidents-resilience-annual-report-202526",
+          "decision": "Food safety annual report outside scope."
+        },
+        {
+          "title": "Animal feed report: FSA Business Committee - GOV.UK",
+          "url": "https://www.gov.uk/government/publications/food-standards-agency-business-committee-meeting-september-2026/animal-feed-report-fsa-business-committee",
+          "decision": "Animal-feed safety outside scope."
+        },
+        {
+          "title": "Botulism (Clostridium botulinum) - GOV.UK",
+          "url": "https://www.gov.uk/government/publications/botulism-clostridium-botulinum/botulism-clostridium-botulinum",
+          "decision": "General botulism guidance outside new treatment-notice scope."
+        },
+        {
+          "title": "Motion: Safe Use of Non-Surgical Cosmetic Products and Procedures (Revised Wording)",
+          "url": "https://aims.niassembly.gov.uk/plenary/details.aspx?ba=1&doc=397294+&fd=02%2F12%2F2024&it=0&mcv=0&mtv=0&per=1&pid=2&pn=0&ptv=0&sid=p&sp=0&spv=-1&tbv=0&td=02%2F12%2F2024",
+          "decision": "Historical parliamentary motion, not regulator notice."
+        },
+        {
+          "title": "Replacing animals in science: A strategy to support the development, validation and uptake of alternative methods - GOV.UK",
+          "url": "https://www.gov.uk/government/publications/replacing-animals-in-science-strategy/replacing-animals-in-science-a-strategy-to-support-the-development-validation-and-uptake-of-alternative-methods",
+          "decision": "Historical research-policy strategy, not patient safety event."
+        },
+        {
+          "title": "UK WDA(H) 15108 | MHRA",
+          "url": "https://cms.mhra.gov.uk/mhra/wda/uk-wdah-15108",
+          "decision": "Wholesale licence record, not safety notice."
+        },
+        {
+          "title": "Botulism: diagnosis, data and analysis - GOV.UK",
+          "url": "https://www.gov.uk/government/collections/botulism-diagnosis-data-and-analysis",
+          "decision": "General collection page, not new notice."
+        }
+      ]
+    },
+    {
+      "batch": 3,
+      "startedAt": "2026-10-20T02:50:52.583Z",
+      "queries": [
+        "site:accessdata.fda.gov/scripts/cdrh/cfdocs/cfRES/ (NeuroStar OR \"Deep Brain\" OR Neupulse) after:2026-10-18 before:2026-10-21",
+        "site:fda.gov \"October 19, 2026\" (recall OR safety OR labeling)",
+        "site:ema.europa.eu \"19/10/2026\" (guanfacine OR aripiprazole OR topiramate OR safety)",
+        "site:gov.uk (\"19 October 2026\" OR \"20 October 2026\") (MHRA OR safety OR recall)"
+      ],
+      "resultCardsScreened": 16,
+      "perQueryCountsAvailable": false,
+      "screenedCards": [
+        {
+          "title": "Medicines and Healthcare products Regulatory Agency - GOV.UK",
+          "url": "https://www.gov.uk/government/organisations/medicines-and-healthcare-products-regulatory-agency",
+          "decision": "Official agency index; October 19 field-notice publications inspected separately. Other October 19 items unrelated."
+        },
+        {
+          "title": "FDA Issues Guidance on Identity and Safety Information for New Dietary Ingredient Notifications | FDA",
+          "url": "https://www.fda.gov/food/hfp-constituent-updates/fda-issues-guidance-identity-and-safety-information-new-dietary-ingredient-notifications",
+          "decision": "Dietary-ingredient notification guidance; no watched product safety event."
+        },
+        {
+          "title": "Product Classification",
+          "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpcd/classification.cfm?deviceclass=&devicename=&implant_flag=&life_sustain_support_flag=&pagenum=10&panel=&productcode=&regulationnumber=&sortcolumn=regulationnumber&start_search=441&submission_type_id=&summary_malfunction_reporting=&thirdparty=",
+          "decision": "Device classification page; footer date not recall event."
+        },
+        {
+          "title": "Safety Alert for Salmonella: Oysters from Little Wicomico River, Virginia | FDA",
+          "url": "https://www.fda.gov/food/alerts-advisories-safety-information/safety-alert-salmonella-oysters-little-wicomico-river-virginia",
+          "decision": "Food recall outside scope."
+        },
+        {
+          "title": "Medical Device Recalls",
+          "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfRES/res.cfm?event_id=98913&start_search=1",
+          "decision": "Historical May 28 DBS adaptor recall listing."
+        },
+        {
+          "title": "FDA Releases Sampling Results on Economically Motivated Adulteration in Lemon Juice | FDA",
+          "url": "https://www.fda.gov/food/hfp-constituent-updates/fda-releases-sampling-results-economically-motivated-adulteration-lemon-juice",
+          "decision": "Food sampling report outside scope."
+        },
+        {
+          "title": "Class 2 Device Recall Vercise Deep Brain Stimulation Systems Surgical Implant Manual",
+          "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfres/res.cfm?id=214651",
+          "decision": "Historical September 2025 DBS manual recall."
+        },
+        {
+          "title": "Outbreak Investigation of Salmonella: Pistachio Cream (June 2025) | FDA",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-salmonella-pistachio-cream-june-2025",
+          "decision": "Historical food outbreak; October 2026 expiry date is not publication."
+        },
+        {
+          "title": "Premarket Approval (PMA)",
+          "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?ID=P140009S129",
+          "decision": "Historical DBS approval supplement, not a new recall."
+        },
+        {
+          "title": "Product Classification",
+          "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfPCD/classification.cfm?deviceclass=&devicename=&implant_flag=&life_sustain_support_flag=&pagenum=50&panel=&productcode=&regulationnumber=&sortcolumn=regulationnumber&start_search=451&submission_type_id=&summary_malfunction_reporting=&thirdparty=",
+          "decision": "Classification page; no event established."
+        },
+        {
+          "title": "Class 2 Device Recall Abbott Eterna",
+          "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfres/res.cfm?id=216508",
+          "decision": "Historical Abbott Eterna/Liberta recall."
+        },
+        {
+          "title": "Class 2 Device Recall Vercise Genus\" R16 and R32 Implantable Pulse Generator Kit",
+          "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfRes/res.cfm?ID=207089",
+          "decision": "Historical Vercise Genus recall."
+        },
+        {
+          "title": "Official address Domenico Scarlattilaan 6 ●1083 HS Amsterdam ●The Netherlands",
+          "url": "https://www.ema.europa.eu/en/documents/other/timetable-type-ii-variation-worksharing-application-monthly-assessment_en.pdf",
+          "decision": "Procedural variation timetable, not a product signal."
+        },
+        {
+          "title": "Timetable: Safety Signal - ATMP",
+          "url": "https://www.ema.europa.eu/en/documents/other/timetable-safety-signal-assessment-responses-request-supplementary-information-rsi-atmp_en.pdf",
+          "decision": "Procedural signal timetable, not a product signal."
+        },
+        {
+          "title": "Timetable Safety referrals - Art 20 and Art 31PhV - 2026-2028",
+          "url": "https://www.ema.europa.eu/en/documents/other/timetable-safety-referral-article-20-article-31-pharmacovigilance_en.pdf",
+          "decision": "Procedural safety-referral timetable, not a product signal."
+        },
+        {
+          "title": "GE Healthcare",
+          "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf20/K201103.pdf",
+          "decision": "Historical imaging regulatory submission outside watched treatment scope."
+        }
+      ]
+    }
+  ],
+  "windowEnd": "2026-10-20T02:53:04.118877Z"
+}

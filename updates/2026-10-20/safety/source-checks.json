@@ -1,0 +1,205 @@
+{
+  "checkDate": "2026-10-20",
+  "windowStart": "2026-10-19T03:09:45Z",
+  "windowEnd": "2026-10-20T02:53:04.118877Z",
+  "officialSourcePaths": 21,
+  "sources": [
+    {
+      "id": "FDA-DSC",
+      "url": "https://www.fda.gov/drugs/drug-safety-and-availability/drug-safety-communications",
+      "retrievalStartedAt": "2026-10-20T02:50:11.252Z",
+      "date": "2026-09-15",
+      "status": "readable",
+      "summary": "Newest visible drug-safety communication is September 15 Kybella item, before the window and outside watched medicines.",
+      "dateNote": "Publication, issuance, procedure, discovery and page-footer dates are distinct; within-day publication times generally unavailable."
+    },
+    {
+      "id": "FDA-DEVICE-SAFETY",
+      "url": "https://www.fda.gov/medical-devices/medical-device-safety/safety-communications",
+      "retrievalStartedAt": "2026-10-20T02:50:11.252Z",
+      "date": "2026-06-03",
+      "status": "readable",
+      "summary": "Newest visible device-safety communication is June 3 ankle-replacement item, outside scope.",
+      "dateNote": "Publication, issuance, procedure, discovery and page-footer dates are distinct; within-day publication times generally unavailable."
+    },
+    {
+      "id": "FDA-RECALL-NOTICES",
+      "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts",
+      "retrievalStartedAt": "2026-10-20T02:50:11.252Z",
+      "date": "2026-10-17",
+      "status": "readable_limited_index",
+      "summary": "Newest displayed recall press notice is October 17 gelato; October 16 salmon follows. FDA says this index is not all recalls.",
+      "dateNote": "Publication, issuance, procedure, discovery and page-footer dates are distinct; within-day publication times generally unavailable."
+    },
+    {
+      "id": "FDA-CDRH-NEWS",
+      "url": "https://www.fda.gov/medical-devices/medical-devices-news-and-events/cdrh-new-news-and-updates",
+      "retrievalStartedAt": "2026-10-20T02:50:11.252Z",
+      "date": "2026-10-19",
+      "status": "readable",
+      "summary": "New October 19 item is a Lumify diagnostic-ultrasound classification update, examined separately and outside watched therapies.",
+      "dateNote": "Publication, issuance, procedure, discovery and page-footer dates are distinct; within-day publication times generally unavailable."
+    },
+    {
+      "id": "EMA-WHATS-NEW",
+      "url": "https://www.ema.europa.eu/en/news-events/whats-new",
+      "retrievalStartedAt": "2026-10-20T02:50:32.381Z",
+      "date": "2026-10-19",
+      "status": "readable",
+      "summary": "Screened all 41 rows for October 19. None identifies a watched tic therapy; adverse-reaction data-quality framework and pharmacovigilance agendas are procedural, not product-risk signals.",
+      "dateNote": "Publication, issuance, procedure, discovery and page-footer dates are distinct; within-day publication times generally unavailable."
+    },
+    {
+      "id": "EMA-PRAC-SIGNALS",
+      "url": "https://www.ema.europa.eu/en/human-regulatory-overview/post-authorisation/pharmacovigilance-post-authorisation/signal-management/prac-recommendations-safety-signals",
+      "retrievalStartedAt": "2026-10-20T02:50:32.381Z",
+      "date": "2026-09-28",
+      "status": "readable",
+      "summary": "Latest English signal recommendations and wording remain September 28 publication for the August 31–September 3 meeting.",
+      "dateNote": "Publication, issuance, procedure, discovery and page-footer dates are distinct; within-day publication times generally unavailable."
+    },
+    {
+      "id": "MHRA-DSU",
+      "url": "https://www.gov.uk/drug-safety-update",
+      "retrievalStartedAt": "2026-10-20T02:50:32.381Z",
+      "date": "2026-10-15",
+      "status": "readable_prior_seen",
+      "summary": "Newest visible item remains October 15 antidepressant risk-communication measures. Prior-seen comorbidity-care context, not a new-window risk discovery or medication instruction.",
+      "dateNote": "Publication, issuance, procedure, discovery and page-footer dates are distinct; within-day publication times generally unavailable."
+    },
+    {
+      "id": "MHRA-ALERTS",
+      "url": "https://www.gov.uk/drug-device-alerts",
+      "retrievalStartedAt": "2026-10-20T02:50:32.381Z",
+      "date": null,
+      "status": "readable_date_caution",
+      "summary": "Newly surfaced weekly field notices have publication October 19 but earlier issued dates. Index is not chronological; detail pages inspected rather than treating issuance alone as publication.",
+      "dateNote": "Publication, issuance, procedure, discovery and page-footer dates are distinct; within-day publication times generally unavailable."
+    },
+    {
+      "id": "MHRA-OCT-FSN",
+      "url": "https://www.gov.uk/drug-device-alerts/field-safety-notices-for-october-2026",
+      "retrievalStartedAt": "2026-10-20T02:50:32.381Z",
+      "date": "2026-10-09",
+      "status": "readable",
+      "summary": "Monthly October page names Nova ketone strips; outside watched therapies.",
+      "dateNote": "Publication, issuance, procedure, discovery and page-footer dates are distinct; within-day publication times generally unavailable."
+    },
+    {
+      "id": "FDA-DRUG-NEWS",
+      "url": "https://www.fda.gov/drugs/news-events-human-drugs/whats-new-related-drugs",
+      "retrievalStartedAt": "2026-10-20T02:51:49.246Z",
+      "date": "2026-10-16",
+      "status": "readable",
+      "summary": "Newest dated item remains eye-drop approval; no new-window watched item verified.",
+      "dateNote": "Publication, issuance, procedure, discovery and page-footer dates are distinct; within-day publication times generally unavailable."
+    },
+    {
+      "id": "FDA-DRUG-ALERTS",
+      "url": "https://www.fda.gov/drugs/drug-safety-and-availability/drug-alerts-and-statements",
+      "retrievalStartedAt": "2026-10-20T02:51:49.246Z",
+      "date": "2026-10-16",
+      "status": "readable",
+      "summary": "Newest Statement remains October 16 eye-drop approval; newest Alert May 15 expired levonorgestrel. No new-window watched item verified.",
+      "dateNote": "Publication, issuance, procedure, discovery and page-footer dates are distinct; within-day publication times generally unavailable."
+    },
+    {
+      "id": "FDA-NEUROSTAR",
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfRES/res.cfm?id=222521",
+      "retrievalStartedAt": "2026-10-20T02:51:49.246Z",
+      "date": "2026-10-09",
+      "status": "web_fetch_error_then_http_readable",
+      "summary": "Web open failed with 400. One ordinary curl GET succeeded with HTTP 200: Z-0142-2027 remains open/classified, initiated August 24, posted October 9, 179 units, HP-coil cable nonconformance; footer October 16. No substantive new event established. See neurostar-http-check.json.",
+      "dateNote": "Publication, issuance, procedure, discovery and page-footer dates are distinct; within-day publication times generally unavailable."
+    },
+    {
+      "id": "FDA-SRLC",
+      "url": "https://www.accessdata.fda.gov/scripts/cder/safetylabelingchanges/",
+      "retrievalStartedAt": "2026-10-20T02:51:49.246Z",
+      "date": null,
+      "status": "search_form_only",
+      "summary": "Search form is readable. No executed date-result set or ingredient-by-ingredient labeling enumeration obtained. Not a zero-result finding.",
+      "dateNote": "Publication, issuance, procedure, discovery and page-footer dates are distinct; within-day publication times generally unavailable."
+    },
+    {
+      "id": "MHRA-FSN-OCT5-9",
+      "url": "https://www.gov.uk/drug-device-alerts/field-safety-notices-5-to-9-october-2026",
+      "retrievalStartedAt": "2026-10-20T02:51:50.042Z",
+      "date": "2026-10-19",
+      "status": "readable_titles_and_summaries",
+      "summary": "Page published October 19, issued October 13. All seven item headings screened: laboratory devices, imaging/archive software, breathing systems, Lumify, radiation software and insulin pump; none identifies a watched tic therapy. Manufacturer attachments not exhaustively read.",
+      "dateNote": "Publication, issuance, procedure, discovery and page-footer dates are distinct; within-day publication times generally unavailable."
+    },
+    {
+      "id": "MHRA-FSN-OCT12-16",
+      "url": "https://www.gov.uk/drug-device-alerts/field-safety-notices-12-october-2026-to-16-october-2026",
+      "retrievalStartedAt": "2026-10-20T02:51:50.042Z",
+      "date": "2026-10-19",
+      "status": "readable_titles_and_summaries_with_attachment_gap",
+      "summary": "Page published October 19, issued October 12. Eleven item headings screened. No watched treatment named. Beckman Coulter is labelled only See Section 8; Creyos has no hazard summary. Their linked notice containers returned no readable text, leaving narrow content/relevance uncertainty.",
+      "dateNote": "Publication, issuance, procedure, discovery and page-footer dates are distinct; within-day publication times generally unavailable."
+    },
+    {
+      "id": "FDA-LUMIFY",
+      "url": "https://www.fda.gov/medical-devices/medical-device-recalls-and-early-alerts/diagnostic-ultrasound-system-correction-philips-ultrasound-issues-updated-use-instructions-lumify",
+      "retrievalStartedAt": "2026-10-20T02:51:50.042Z",
+      "date": "2026-10-19",
+      "status": "readable_outside_scope",
+      "summary": "October 19 update classifies diagnostic-ultrasound communication as Class I recall; product is for diagnostic imaging, not therapeutic neurostimulation. Excluded from watched tic-treatment findings.",
+      "dateNote": "Publication, issuance, procedure, discovery and page-footer dates are distinct; within-day publication times generally unavailable."
+    },
+    {
+      "id": "EMA-INTUNIV",
+      "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/intuniv",
+      "retrievalStartedAt": "2026-10-20T02:52:29.658Z",
+      "date": "2026-10-13",
+      "status": "readable_prior_seen_metadata",
+      "summary": "Risk-management and product-information documents retain October 13 update metadata. No fresh label-text comparison performed.",
+      "dateNote": "Publication, issuance, procedure, discovery and page-footer dates are distinct; within-day publication times generally unavailable."
+    },
+    {
+      "id": "EMA-TOPAMAX",
+      "url": "https://www.ema.europa.eu/en/medicines/human/shortages/topamax",
+      "retrievalStartedAt": "2026-10-20T02:52:29.658Z",
+      "date": "2026-06-29",
+      "status": "readable_prior_seen_supply_context",
+      "summary": "Ongoing tablet shortage, expected end-2026 resolution, first published June 29. EMA explicitly attributes it to manufacturing interruption rather than a product quality defect or safety issue. Not a new-window notice.",
+      "dateNote": "Publication, issuance, procedure, discovery and page-footer dates are distinct; within-day publication times generally unavailable."
+    },
+    {
+      "id": "MHRA-CREYOS-ATTACHMENT",
+      "url": "https://mhra-gov.filecamp.com/s/d/k4tlzeCNqC7PnbTX",
+      "retrievalStartedAt": "2026-10-20T02:52:30.519Z",
+      "date": null,
+      "status": "no_readable_text",
+      "summary": "Linked official Filecamp container returns text/html with zero readable lines. Hazard and treatment relevance are unverified. No bypass or repeated requests performed.",
+      "dateNote": "Publication, issuance, procedure, discovery and page-footer dates are distinct; within-day publication times generally unavailable."
+    },
+    {
+      "id": "MHRA-BECKMAN-ATTACHMENT",
+      "url": "https://mhra-gov.filecamp.com/s/d/fd9VNH5vz1b40APy",
+      "retrievalStartedAt": "2026-10-20T02:52:30.519Z",
+      "date": null,
+      "status": "no_readable_text",
+      "summary": "Linked official Filecamp container returns text/html with zero readable lines. The parent listing does not identify the product beyond See Section 8, so full relevance is unverified.",
+      "dateNote": "Publication, issuance, procedure, discovery and page-footer dates are distinct; within-day publication times generally unavailable."
+    },
+    {
+      "id": "FDA-DEVICE-DATE-FILTER",
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfRES/res.cfm?start_search=1&postdatefrom=10%2F18%2F2026&postdateto=10%2F20%2F2026",
+      "retrievalStartedAt": "2026-10-20T02:52:57.395Z",
+      "date": null,
+      "status": "inaccessible_web_tool",
+      "summary": "October 18–20 device-recall date-result listing was inaccessible; this is not an empty result set.",
+      "dateNote": "Publication, issuance, procedure, discovery and page-footer dates are distinct; within-day publication times generally unavailable.",
+      "retrievalTimestampType": "captured at batch completion"
+    }
+  ],
+  "limits": [
+    "FDA filtered recall results inaccessible and SrLC records unenumerated.",
+    "No byte-for-byte label comparison; manufacturer notices and national EU regulators are not exhaustively enumerated.",
+    "Two new MHRA weekly notice attachments unreadable, leaving a narrow relevance/content gap.",
+    "Search/index freshness is not event freshness, and date filters can return historical or unrelated records.",
+    "No individual adverse-event analysis, treatment instruction or personal applicability inference."
+  ]
+}

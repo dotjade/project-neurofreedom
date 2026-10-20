@@ -1,0 +1,37 @@
+{
+  "repository": "dotjade/project-neurofreedom",
+  "readMethod": "GitHub connector fetch_file on repository default branch",
+  "readWindowApproximateUTC": "2026-10-20 02:48:21–02:48:35",
+  "files": [
+    {
+      "path": "RESEARCH_PROTOCOL.md",
+      "sha": "d69c21b73447f7ad9df0a3949b7fcaf57dd5ddde",
+      "url": "https://github.com/dotjade/project-neurofreedom/blob/main/RESEARCH_PROTOCOL.md"
+    },
+    {
+      "path": "STATUS.md",
+      "sha": "17758ee520428e2de34ad93e9d9c7548ea999a20",
+      "url": "https://github.com/dotjade/project-neurofreedom/blob/main/STATUS.md"
+    },
+    {
+      "path": "public/journal-source/README.md",
+      "sha": "b4b9c74518021f693122e959291dd3871d562215",
+      "url": "https://github.com/dotjade/project-neurofreedom/blob/main/public/journal-source/README.md"
+    },
+    {
+      "path": "public/research-feed.json",
+      "sha": "7348aed4f257e6a8c34f2658d6f5dc1a94e11942",
+      "url": "https://github.com/dotjade/project-neurofreedom/blob/main/public/research-feed.json"
+    },
+    {
+      "path": "updates/2026-10-19/safety/report.md",
+      "sha": "9b652863b7d9ee0a12fdf1f7fb7b6a9a776f225e",
+      "url": "https://github.com/dotjade/project-neurofreedom/blob/main/updates/2026-10-19/safety/report.md"
+    },
+    {
+      "path": "public/link-checks/2026-10-19.json",
+      "sha": "ad735f1959b2b6c1d7852c8aca088d0ef53dc48c",
+      "url": "https://github.com/dotjade/project-neurofreedom/blob/main/public/link-checks/2026-10-19.json"
+    }
+  ]
+}

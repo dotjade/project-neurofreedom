@@ -1,0 +1,86 @@
+{
+  "description": "Publication allowlist for original CM-aGPi audit artifacts.",
+  "source_copy_policy": "No full copyrighted article/protocol/supplement copies, figures, participant table rows, narratives or individual outcomes are retained. Only original analysis, bibliographic/protocol metadata, published cohort aggregates and code are included.",
+  "local_allowlist": [
+    "build_structured_inputs.py",
+    "check_testing_unit.py",
+    "collect_registry_metadata.py",
+    "evidence-record.json",
+    "evidence-record.jsonl",
+    "registry-selected-metadata.json",
+    "report.md",
+    "retrieval-log.json",
+    "source-claim-matrix.json",
+    "structured-audit.json",
+    "testing-unit-check.json",
+    "artifact-manifest.json"
+  ],
+  "expected_review_paths_supplied_separately": [
+    "review/independent_review.md",
+    "review/check_exact_rank_bound.py"
+  ],
+  "files": [
+    {
+      "path": "build_structured_inputs.py",
+      "bytes": 14180,
+      "sha256": "9c33ce3799ae9b7226522162d67fcb0e52faefc9c43d07d6944ca4b884f9d3ae"
+    },
+    {
+      "path": "check_testing_unit.py",
+      "bytes": 2334,
+      "sha256": "ab32a9c6985c94d660af737fbf423dea75be3e161ea595e3bce5634db13050fe"
+    },
+    {
+      "path": "collect_registry_metadata.py",
+      "bytes": 2231,
+      "sha256": "0718e1107e1275988e5a421093332f1aba352c2a0cd01c8b507d54a1e220db7f"
+    },
+    {
+      "path": "evidence-record.json",
+      "bytes": 4106,
+      "sha256": "bdc5d00dc48def4bd40024f208bee48f57ad1274473fb2de019272cadb6c5212"
+    },
+    {
+      "path": "evidence-record.jsonl",
+      "bytes": 3833,
+      "sha256": "a33261bcedcf0a4b69d2c4c12e47fbce130a0ce15a8a4d063679fcadf8f80c71"
+    },
+    {
+      "path": "registry-selected-metadata.json",
+      "bytes": 3801,
+      "sha256": "371ce70c98e6e6ab8768eb71956eacceddbeb1ddd762c34dbfca68c35cc2fa22"
+    },
+    {
+      "path": "report.md",
+      "bytes": 14482,
+      "sha256": "ea55d53c1c6cc7fef62de2c4912934a7b47b0af20e0c3e16fd25314edfac7f7a"
+    },
+    {
+      "path": "retrieval-log.json",
+      "bytes": 3120,
+      "sha256": "ec294018f9db1e78f5d67c5497ccd15d869147217f4f7c6c01d9e13ea41e5879"
+    },
+    {
+      "path": "source-claim-matrix.json",
+      "bytes": 8064,
+      "sha256": "15f0bd1894d7bc9b8eb4f83cbbc162bb2ef33ab4dee6c2f5461dd21fa5ddc26f"
+    },
+    {
+      "path": "structured-audit.json",
+      "bytes": 1543,
+      "sha256": "3dc8623cf926f7e272a960fcd5a7b559a550a1f42928228860ea2ef63d70a81d"
+    },
+    {
+      "path": "testing-unit-check.json",
+      "bytes": 1238,
+      "sha256": "6827c51dac671ba5a2b0959392c54ea1afa57ccba955792ab0fbbde6dcb80b54"
+    }
+  ],
+  "validation": {
+    "json_parsing": "passed",
+    "evidence_json_jsonl_semantic_equality": "passed",
+    "required_schema_fields": "passed",
+    "exact_rank_diagnostic_assertions": "passed"
+  },
+  "manifest_note": "Manifest itself excluded from self-hashing. Review files are supplied separately and should be verified by the publisher before inclusion."
+}

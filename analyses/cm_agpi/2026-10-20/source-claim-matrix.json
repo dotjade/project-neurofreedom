@@ -1,0 +1,154 @@
+[
+  {
+    "id": "population",
+    "claim": "Adults aged 19–32; six implanted and five physiology contributors.",
+    "source": "https://movementdisorders.onlinelibrary.wiley.com/doi/10.1002/mds.70043",
+    "location": "Methods: Participants; Data Analysis; Results: Electrophysiology and Structural Imaging",
+    "status": "verified",
+    "limit": "Eligibility age range is not the observed sample age range; no table rows retained."
+  },
+  {
+    "id": "trial",
+    "claim": "NCT05371041.",
+    "source": "https://movementdisorders.onlinelibrary.wiley.com/doi/10.1002/mds.70043",
+    "location": "Methods: Participants; reference 19",
+    "status": "verified",
+    "limit": "Do not merge this identifier with NCT02056873."
+  },
+  {
+    "id": "state",
+    "claim": "Rest, cued hand movement and unrestricted tic conditions; synchronous bilateral CM/aGPi recording.",
+    "source": "https://movementdisorders.onlinelibrary.wiley.com/doi/10.1002/mds.70043",
+    "location": "Electrophysiological Recordings; Postoperative Visits and Behavioral Tasks",
+    "status": "verified",
+    "limit": "Selected comparison conditions are not a randomized causal intervention."
+  },
+  {
+    "id": "window",
+    "claim": "Methods initial three months; abstract nine monthly visits; therapy begins month four.",
+    "source": "https://movementdisorders.onlinelibrary.wiley.com/doi/10.1002/mds.70043",
+    "location": "Abstract Methods; Postoperative Visits and Behavioral Tasks; Figure 1",
+    "status": "unresolved analysis-window discrepancy",
+    "limit": "No visit-by-visit analysis contribution inventory was verified."
+  },
+  {
+    "id": "protocol_window",
+    "claim": "Physiology focus months 1–3; optimization months 4–9; physiology allowed at all protocol visits; intraoperative test stimulation possible.",
+    "source": "https://cdn.clinicaltrials.gov/large-docs/41/NCT05371041/Prot_000.pdf",
+    "location": "Research Plan; Surgical Procedure; Study Visits",
+    "status": "verified planned design",
+    "limit": "A protocol does not establish which epochs the publication analyzed."
+  },
+  {
+    "id": "epochs",
+    "claim": "Onset-centered two-second epochs with overlap; tic subtypes pooled.",
+    "source": "https://movementdisorders.onlinelibrary.wiley.com/doi/10.1002/mds.70043",
+    "location": "Data Analysis",
+    "status": "verified",
+    "limit": "Post-onset information prevents interpreting this analysis as an evaluated pre-onset predictor."
+  },
+  {
+    "id": "power",
+    "claim": "Low-frequency tic-related increases; higher-frequency features not consistently preserved.",
+    "source": "https://movementdisorders.onlinelibrary.wiley.com/doi/10.1002/mds.70043",
+    "location": "Results: Low-Frequency Power",
+    "status": "reported",
+    "limit": "No participant-level effect reconstruction or general absence claim."
+  },
+  {
+    "id": "coherence",
+    "claim": "Low-frequency intra/interhemispheric coherence differences; reported beta/low-gamma coherence nulls.",
+    "source": "https://movementdisorders.onlinelibrary.wiley.com/doi/10.1002/mds.70043",
+    "location": "Results: Relationship between Thalamus and Pallidum; Figure 4",
+    "status": "reported",
+    "limit": "Coherence magnitude, PSI and phase consistency must not be conflated."
+  },
+  {
+    "id": "direction",
+    "claim": "Low-frequency phase lead attributed to CM.",
+    "source": "https://movementdisorders.onlinelibrary.wiley.com/doi/10.1002/mds.70043",
+    "location": "Results: Phase Synchrony",
+    "status": "reported association",
+    "limit": "Temporal phase lead does not identify a causal driver, direct connection, or beneficial intervention."
+  },
+  {
+    "id": "counterevidence",
+    "claim": "Results report low-gamma interhemispheric phase features; Discussion makes broader low-gamma phase-null statement.",
+    "source": "https://movementdisorders.onlinelibrary.wiley.com/doi/10.1002/mds.70043",
+    "location": "Final paragraph of Results: Phase Synchrony; Discussion paragraph beginning Because no significant",
+    "status": "internal inconsistency retained",
+    "limit": "Reject a blanket no-high-frequency-effect summary."
+  },
+  {
+    "id": "unit",
+    "claim": "Group feature averaging followed by rank tests per time-frequency pair; exact independent unit and epoch counts unresolved.",
+    "source": "https://movementdisorders.onlinelibrary.wiley.com/doi/10.1002/mds.70043",
+    "location": "Final two paragraphs of Data Analysis",
+    "status": "insufficient specification",
+    "limit": "Cannot infer participant-level precision or identify actual tested unit from the description."
+  },
+  {
+    "id": "math",
+    "claim": "Exact two-sided signed-rank minimum at five independent nonzero distinct-rank pairs is 0.0625.",
+    "source": "check_testing_unit.py",
+    "location": "Post-reading exhaustive sign enumeration",
+    "status": "executed original diagnostic",
+    "limit": "Not preregistered; not an audit of the authors actual calculation; not a clinical-effect result."
+  },
+  {
+    "id": "registry_design",
+    "claim": "Eight actual enrollees; single-group, unmasked device feasibility; results first posted 2026-09-25.",
+    "source": "https://clinicaltrials.gov/api/v2/studies/NCT05371041",
+    "location": "protocolSection.designModule; statusModule; hasResults",
+    "status": "verified historical linked result",
+    "limit": "Different denominator and estimand from five-person physiology analysis; not a new-window result."
+  },
+  {
+    "id": "overlap_gate",
+    "claim": "Prior DBS/neurosurgery is excluded, including explanted DBS.",
+    "source": "https://cdn.clinicaltrials.gov/large-docs/41/NCT05371041/Prot_000.pdf",
+    "location": "Inclusion and Exclusion Criteria",
+    "status": "verified planned eligibility",
+    "limit": "Supports distinctness from earlier implant cohort conditional on adherence, not identity-level proof."
+  },
+  {
+    "id": "registry_safety",
+    "claim": "Serious affected 3/8; other affected 8/8; deaths 0/8; approximately two-year follow-up; non-systematic assessment.",
+    "source": "https://clinicaltrials.gov/api/v2/studies/NCT05371041",
+    "location": "resultsSection.adverseEventsModule.eventGroups, timeFrame, assessmentType",
+    "status": "verified published aggregates",
+    "limit": "Occurrence not causality; does not contradict an earlier shorter-window report by itself."
+  },
+  {
+    "id": "outcome_metadata",
+    "claim": "Clinical outcome construct and time origin require reconciliation before any effect calculation.",
+    "source": "https://clinicaltrials.gov/api/v2/studies/NCT05371041",
+    "location": "outcomesModule; baselineCharacteristicsModule measure descriptions; outcomeMeasuresModule group description",
+    "status": "unresolved",
+    "limit": "No individual result rows retained or analyzed."
+  },
+  {
+    "id": "sap",
+    "claim": "Dated 2021-12-20; manuscript-specific clinical paired endpoint analysis paragraph present.",
+    "source": "https://cdn.clinicaltrials.gov/large-docs/41/NCT05371041/SAP_001.pdf",
+    "location": "Statistical Analysis Plan",
+    "status": "verified document content",
+    "limit": "Does not establish preregistration of this physiology analysis."
+  },
+  {
+    "id": "access",
+    "claim": "Paper offers reasonable-request access; registry IPD plan says NO.",
+    "source": "https://movementdisorders.onlinelibrary.wiley.com/doi/10.1002/mds.70043 ; https://clinicaltrials.gov/api/v2/studies/NCT05371041",
+    "location": "Data Availability Statement; ipdSharingStatementModule",
+    "status": "both verified",
+    "limit": "Different scopes may explain difference; neither grants data access."
+  },
+  {
+    "id": "later_overlap",
+    "claim": "2026 Research Square preprint names NCT02056873 and NCT05371041 and 16 pooled participants.",
+    "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13596655/",
+    "location": "Methods: Subjects; Ethical Disclosures",
+    "status": "verified indexed primary manuscript",
+    "limit": "Not peer-reviewed; exact intersection not established; not independent replication."
+  }
+]

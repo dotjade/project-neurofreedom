@@ -1,0 +1,82 @@
+{
+  "date_utc": "2026-10-20",
+  "approximate_work_window_utc": "02:47–03:00",
+  "repository_reads": [
+    {
+      "path": "README.md",
+      "sha": "4c3bafbd09ca4073d183cef267c746afa09147bf"
+    },
+    {
+      "path": "RESEARCH_PROTOCOL.md",
+      "sha": "d69c21b73447f7ad9df0a3949b7fcaf57dd5ddde"
+    },
+    {
+      "path": "STATUS.md",
+      "sha": "17758ee520428e2de34ad93e9d9c7548ea999a20"
+    },
+    {
+      "path": "updates/2026-10-19/report.md"
+    },
+    {
+      "path": "evidence.jsonl"
+    },
+    {
+      "path": "analyses/data_feasibility/2026-10-11-adult-audit.md"
+    }
+  ],
+  "queries": [
+    "\"PMC12710177\"",
+    "\"The CM-aGPi Network\" age NCT methods",
+    "\"NCT05371041\"",
+    "\"NCT05371041\" \"Tourette\" \"Gomez\"",
+    "\"Differentiating tic electrophysiology\" \"NCT\"",
+    "\"Deep Learning for Automated Tic Detection\" \"2026\"",
+    "\"Thalamocortical network activity enables\" \"NCT\"",
+    "site:pmc.ncbi.nlm.nih.gov/articles/PMC10948908 \"NCT02056873\"",
+    "site:pmc.ncbi.nlm.nih.gov/articles/PMC9468946 \"NCT02056873\"",
+    "\"Differentiating tic electrophysiology\" Tourette 2020 subjects",
+    "\"10.1002/mds.70043\" correction erratum retraction",
+    "\"PMC9468946\" \"Clinical\"",
+    "\"PMC10948908\" \"NCT\"",
+    "\"PMC4936504\" \"NCT\""
+  ],
+  "date_filters": "None; exact historical paper/trial/cited-report audit, not new-publication surveillance.",
+  "source_access": [
+    {
+      "url": "https://movementdisorders.onlinelibrary.wiley.com/doi/10.1002/mds.70043",
+      "status": "Full HTML accessible through web reader; direct urllib returned HTTP 403."
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12710177/",
+      "status": "Direct challenge; indexed primary full-methods text accessible."
+    },
+    {
+      "url": "https://doi.org/10.1002/mds.70043",
+      "status": "Initial web resolver error; publisher direct URL worked."
+    },
+    {
+      "url": "https://clinicaltrials.gov/api/v2/studies/NCT05371041",
+      "status": "Web parser error; direct official API HTTP 200, selected metadata saved."
+    },
+    {
+      "url": "https://cdn.clinicaltrials.gov/large-docs/41/NCT05371041/Prot_000.pdf",
+      "status": "Official PDF HTTP 200, 734930 bytes parsed in memory; source PDF not retained."
+    },
+    {
+      "url": "https://cdn.clinicaltrials.gov/large-docs/41/NCT05371041/SAP_001.pdf",
+      "status": "Official PDF HTTP 200, 32736 bytes parsed in memory; source PDF not retained."
+    },
+    {
+      "source": "Article supplement mds70043-sup-0001-FigureS1-S4-TableS1.docx",
+      "status": "Publisher link error; not retrieved."
+    }
+  ],
+  "licensing": "Main article identifies CC BY-NC-ND 4.0. Original analysis/factual metadata only; no article, figures, source tables or full-text copies stored.",
+  "coverage_limits": [
+    "Exact prior-report overlap beyond trial-family membership is not identity-verified.",
+    "Supplement plots/table not inspected.",
+    "Notice search is not exhaustive.",
+    "No global novel-first claim.",
+    "Registry results are historical and outside October 20 new-window evidence."
+  ]
+}

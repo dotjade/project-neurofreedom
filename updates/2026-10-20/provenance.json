@@ -1,0 +1,36 @@
+{
+  "repository": "https://github.com/dotjade/project-neurofreedom",
+  "read_utc": "2026-10-20T02:49:02.079Z",
+  "inputs": [
+    {
+      "path": "README.md",
+      "sha": "4c3bafbd09ca4073d183cef267c746afa09147bf",
+      "url": "https://github.com/dotjade/project-neurofreedom/blob/main/README.md"
+    },
+    {
+      "path": "RESEARCH_PROTOCOL.md",
+      "sha": "d69c21b73447f7ad9df0a3949b7fcaf57dd5ddde",
+      "url": "https://github.com/dotjade/project-neurofreedom/blob/main/RESEARCH_PROTOCOL.md"
+    },
+    {
+      "path": "STATUS.md",
+      "sha": "17758ee520428e2de34ad93e9d9c7548ea999a20",
+      "url": "https://github.com/dotjade/project-neurofreedom/blob/main/STATUS.md"
+    },
+    {
+      "path": "updates/2026-10-19/report.md",
+      "sha": "c88bb36fa4cb5bf6838ae82636d94f0140564a7f",
+      "url": "https://github.com/dotjade/project-neurofreedom/blob/main/updates/2026-10-19/report.md"
+    }
+  ],
+  "prior_cutoff_utc": "2026-10-19T03:09:45Z",
+  "latest_decision": "Inspect historical CM-aGPi paper PMID 40977255 for lawful methods, ages, cohort overlap and exact recording state. This worker covers the separate new-evidence scan.",
+  "inputs_read_note": "Current repository files were read through GitHub connector before searching. Local October 19 metadata were used only for observed identifier/selected-field comparisons; their hashes are included by build_results.py.",
+  "code_adaptation": "October 18\u201320 inclusive API overlap, near-entry October 19\u201320; no age, severity, language or human-only filter. ISRCTN exclusive end October 21. API timeouts capped at 20 seconds.",
+  "privacy": "Public bibliographic/protocol metadata and original summaries only. Abstracts read transiently for three secondary/historical candidates; no full abstracts, full papers, participant records, contacts, or private material retained in publication artifacts.",
+  "prior_local_input_hashes": {
+    "search-log.json": "0ad096d6d179b175eb9c698cc80000fdb5b0c2d501cf52bbcb1876bd264d528b",
+    "supplement-selected-metadata.json": "8a66c68a1e5fe45178dee2441c59bd371616ce8d2b14e0360ac4bd948048943c",
+    "candidate-verification.json": "3b2f9d0e855b54882100fbaac015f52f112c063e0f7da6e60ec0e932c0156e95"
+  }
+}

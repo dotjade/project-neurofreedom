@@ -1,0 +1,20 @@
+{
+  "checkedAt": "2026-10-20T02:57:25.235882+00:00",
+  "allPassed": true,
+  "checks": {
+    "12_timeline_targets_pass": true,
+    "2_primary_sources_pass": true,
+    "1_bot_challenge_preserved": true,
+    "0_confirmed_broken": true,
+    "production_raw_match_repository": true,
+    "production_raw_body_hash_agree": true,
+    "repository_body_hash_agrees": true,
+    "12_queries_46_cards": true,
+    "all_card_urls_present": true,
+    "21_official_paths": true,
+    "window_agreement": true,
+    "feedback_disabled": true,
+    "link_checker_syntax": true
+  },
+  "localCopyNote": "The initial local feed snapshot had an extra trailing newline from the file-writing tool. Replaced it with the exact connector content before hashing; parsed JSON never differed."
+}

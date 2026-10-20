@@ -1,0 +1,28 @@
+{
+  "scope": "post-reading mathematical compatibility diagnostic, not preregistered; no study-data analysis",
+  "prediction": "Under the stated exact signed-rank assumptions, minimum two-sided p for five independent pairs is 2/32 = 0.0625.",
+  "assumptions": [
+    "five independent participant-level paired differences",
+    "no zero differences",
+    "distinct absolute ranks",
+    "exact symmetric sign-flip null",
+    "standard doubled-tail two-sided p value"
+  ],
+  "results": [
+    {
+      "n_independent_nonzero_pairs": 5,
+      "sign_configurations": 32,
+      "minimum_exact_two_sided_p": 0.0625,
+      "closed_form_minimum": 0.0625,
+      "total_rank_sum": 15
+    },
+    {
+      "n_independent_nonzero_pairs": 6,
+      "sign_configurations": 64,
+      "minimum_exact_two_sided_p": 0.03125,
+      "closed_form_minimum": 0.03125,
+      "total_rank_sum": 21
+    }
+  ],
+  "conclusion": "Reported very small p values cannot be interpreted as exact signed-rank tests of five paired participant summaries. This does not establish an author error: the testing unit or implementation may differ and is unresolved. This check cannot select between participant, time, frequency or epoch units, or identify an asymptotic implementation."
+}

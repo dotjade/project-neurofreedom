@@ -1,0 +1,61 @@
+{
+  "method": "independent generating-function derivation",
+  "scope": "Exact two-sided doubled-tail signed-rank test under equiprobable signs, independent nonzero paired differences and distinct absolute ranks. No claim about which observations or test implementation the paper actually used.",
+  "checks": [
+    {
+      "n": 5,
+      "rank_sum_counts": [
+        1,
+        1,
+        1,
+        2,
+        2,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        2,
+        2,
+        1,
+        1,
+        1
+      ],
+      "sign_patterns": 32,
+      "minimum_exact_two_sided_p": 0.0625,
+      "fraction": "1/16"
+    },
+    {
+      "n": 6,
+      "rank_sum_counts": [
+        1,
+        1,
+        1,
+        2,
+        2,
+        3,
+        4,
+        4,
+        4,
+        5,
+        5,
+        5,
+        5,
+        4,
+        4,
+        4,
+        3,
+        2,
+        2,
+        1,
+        1,
+        1
+      ],
+      "sign_patterns": 64,
+      "minimum_exact_two_sided_p": 0.03125,
+      "fraction": "1/32"
+    }
+  ],
+  "matches_main_check": true
+}
