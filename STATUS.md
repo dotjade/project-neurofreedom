@@ -1,6 +1,6 @@
 # Project NeuroFreedom status
 
-Updated 19 October 2026. Initial portfolio, eleven completed daily updates and two completed weekly syntheses. Public evidence repository and journal launched 13 October.
+Updated 20 October 2026. Initial portfolio, twelve completed daily updates and two completed weekly syntheses. Public evidence repository and journal launched 13 October.
 
 ## Completed in this first pass
 
@@ -14,7 +14,7 @@ Updated 19 October 2026. Initial portfolio, eleven completed daily updates and t
 
 ## Enabled research schedules
 
-The user approved the following automatic public-science research and repository updates on 8 October 2026. Each schedule was created successfully and returned enabled status. Daily runs were completed on 9-19 October 2026; weekly syntheses were completed on 11 and 18 October; first monthly and quarterly runs remain unverified.
+The user approved the following automatic public-science research and repository updates on 8 October 2026. Each schedule was created successfully and returned enabled status. Daily runs were completed on 9-20 October 2026; weekly syntheses were completed on 11 and 18 October; first monthly and quarterly runs remain unverified.
 
 - Daily new-evidence checks: from 9 October 2026, approximately 08:00 India time.
 - Weekly synthesis: Sundays, from 11 October 2026, approximately 09:00 India time.
@@ -267,3 +267,22 @@ The feed adds a dated synthetic-methods note and preserves the six approved opti
 ### Publication verification - 19 October 2026
 
 All 102 research/publication artifacts matched exact connector readback from commit 323cdc9029e01671def86922eb05d43179fd9192 at 03:51:54 UTC. Large artifacts use lossless parts with original-byte SHA-256 reconstruction; tests and independent checkers passed after reassembly. At 03:53:45 UTC, after the documented 120-second cache, production /api/public-feed returned HTTP 200 with X-Journal-Source: repository and JSON exactly matching the authored feed, updatedAt 2026-10-19T03:43:00Z. Anonymous raw GitHub matched the same bytes at 03:53:49; the new report link passed HTTP/content checks at 03:53:53. Research/activity date October 19, familiar-route and disabled feedback were verified. The preceding README/index privacy commit was preserved exactly. This verifies feed propagation, not a new rendered-page accessibility test. [Verification record](updates/2026-10-19/publication-verification.json).
+
+
+## Completed daily research update - 20 October 2026
+
+The [dated scan](updates/2026-10-20/report.md) screened eight PubMed records and 452 preprint DOI/version records without a new-window qualifying primary tic-study result or newly posted relevant trial result. NCT07137442's October 19 posting moves its estimated start by one day; selected recruiting status, design, planned enrollment and no-results flag are unchanged. Older reviews and a historical article remain separate from primary evidence. Known negative/status findings and retraction exclusions remain. The [safety pass](updates/2026-10-20/safety/report.md) found no additional qualifying watched regulator notice, with FDA recall/labeling coverage and two unreadable MHRA attachments explicitly unresolved.
+
+The [historical CM-aGPi methods audit](analyses/cm_agpi/2026-10-20/report.md) resolved adult enrollment and trial identity while narrowing the usable inference. Six adults aged 19-32 were implanted, but one physiology exclusion leaves five analyzed contributors. Initial three-month unstimulated recording methods and an abstract describing nine monthly visits cannot be treated as nine verified stimulation-naive analyzed months. The protocol allows intraoperative testing and later therapy. Tic/rest/voluntary-movement physiology contrasts are observational; phase lead is not causal proof, prospective forecasting or clinical benefit.
+
+Metric-specific beta/low-gamma nulls and a low-gamma phase Results/Discussion inconsistency are preserved. Repeated epoch/session nesting, exact testing units and population-level uncertainty remain insufficiently documented. A small post-reading, no-data combinatorial diagnostic found that an exact two-sided signed-rank test of five independent nonzero paired summaries cannot have p below 0.0625 under the stated assumptions. This does not identify the authors' test implementation or establish an error. Independent generating-function calculation and a separate verification rerun reproduced the result.
+
+Linked NCT05371041 results were posted September 25, not in today's scan window. Its eight-person trial denominator, longer non-systematic adverse-event window and protocol/registry endpoint timing are separate from the six-enrolled/five-analyzed paper. A later preprint names this and an older trial, so participant overlap must not be counted as independent replication. No participant rows or raw signals were retained, analyzed or published. No medical intervention, outreach or access request was made.
+
+### Next bounded decision
+
+Close this fixed paper-methods and arithmetic audit absent a public correction or new aggregate documentation. Next perform a bounded aggregate-only crosswalk of NCT05371041's public protocol, SAP and posted results: resolve endpoint definitions, baseline/endpoint denominators, timing relative to implantation versus stimulation initiation, and safety ascertainment windows. The registry exposes participant-level result rows; do not retain, reconstruct, pool or analyze them. If a compatible aggregate clinical estimator or timing definition cannot be established without individual rows, record the missing prerequisite and stop without an efficacy calculation. Do not contact investigators, request participant data, reopen the generic cohort search or repeat completed synthetic work.
+
+### Public journal
+
+The feed adds a concise dated methods note. All six approved optional activities are unchanged, with notice-one-thing selected. Voting, comments and health-outcome collection remain disabled. Twelve pre-existing research links and two primary sources passed the [bounded link check](public/link-checks/2026-10-20.json); Pappert remains HTTP 403 bot-challenged rather than confirmed broken. Homepage source, security settings and deployment configuration are unchanged. The existing Actions workflow may deploy the feed-triggered revision; publication and run outcomes are recorded only after actual verification.

@@ -1,0 +1,19 @@
+{
+  "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfRES/res.cfm?id=222521",
+  "startedAt": "2026-10-20T02:52:58.194281+00:00",
+  "method": "one ordinary anonymous curl GET after web-tool retrieval error",
+  "curlExitCode": 0,
+  "error": null,
+  "responseMetadata": "200\thttps://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfRES/res.cfm?id=222521\ttext/html;charset=UTF-8",
+  "bytes": 44291,
+  "selectedFields": [
+    "nced Therapy System Date Initiated by Firm August 24, 2026 Date Posted October 09, 2026 Recall Status 1 Open 3 , Classified Recall Number Z-0142-2027 Recall Event ID 99812 510(K)Number K231926 K233621 Product Classification Transcranial magnetic stimulator - Product Code OBP Product NeuroS",
+    "irm August 24, 2026 Date Posted October 09, 2026 Recall Status 1 Open 3 , Classified Recall Number Z-0142-2027 Recall Event ID 99812 510(K)Number K231926 K233621 Product Classification Transcranial magnetic stimulator - Product Code OBP Product NeuroStar Advanced Therapy System. Contains t",
+    "ed October 09, 2026 Recall Status 1 Open 3 , Classified Recall Number Z-0142-2027 Recall Event ID 99812 510(K)Number K231926 K233621 Product Classification Transcranial magnetic stimulator - Product Code OBP Product NeuroStar Advanced Therapy System. Contains the NeuroStar HP Coil Assembly",
+    "Open 3 , Classified Recall Number Z-0142-2027 Recall Event ID 99812 510(K)Number K231926 K233621 Product Classification Transcranial magnetic stimulator - Product Code OBP Product NeuroStar Advanced Therapy System. Contains the NeuroStar HP Coil Assembly Part Number 81-01000-200. Affects t",
+    "iamson 610-640-4202 Manufacturer Reason for Recall Cables are not in conformance with the product specifications required in the production of the HP Coil Assembly. FDA Determined Cause 2 Nonconforming Material/Component Action NeuroStar began notification to consignees on about 08/24/2026",
+    "the next 12 months. Quantity in Commerce 179 units Distribution Worldwide distribution - US Nationwide and the countries of Japan and South Korea. Total Product Life Cycle TPLC Device Report 1 A record in this database is created when a firm initiates a correction or removal action. The re",
+    "Links on this page: Page Last Updated: 10/16/2026 Note: If you need help accessing information in different file formats, see Instructions for Downloading Viewers and Players . Language Assistance Available: Espa\u00f1ol | \u7e41\u9ad4\u4e2d\u6587 | Ti\u1ebfng Vi\u1ec7t | \ud55c\uad6d\uc5b4 | Tagalog | \u0420\u0443\u0441\u0441\u043a\u0438\u0439 | \u0627\u0644\u0639\u0631\u0628\u064a\u0629 | Krey\u00f2l Ayisyen |"
+  ],
+  "completedAt": "2026-10-20T02:53:04.118877+00:00"
+}

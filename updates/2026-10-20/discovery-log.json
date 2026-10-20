@@ -1,0 +1,69 @@
+{
+  "scope": "Supplementary web discovery and selected direct-source checks; not an enumerable literature database or evidence denominator.",
+  "timestamp_method": "UTC call brackets from contemporaneous session timestamps. The web tool does not expose exact request timestamps.",
+  "search_batches": [
+    {
+      "started_no_earlier_than_utc": "2026-10-20T02:49:04Z",
+      "completed_no_later_than_utc": "2026-10-20T02:49:18Z",
+      "queries": [
+        "Tourette \"October 19, 2026\" study trial",
+        "Tourette \"October 20, 2026\" study preprint",
+        "Tourette tics adult severe trial negative results October 2026"
+      ],
+      "displayed_result_items": 23,
+      "decision": "No qualifying in-window primary result identified. Historical CBIT and MNS articles were already known. A gemlapodect trial mirror was a discovery lead only. Social narratives, support events and unrelated legal/other-disease hits were excluded without retaining details.",
+      "candidate_links": [
+        {
+          "url": "https://www.clinicaltrials.eu/trial/study-on-the-effects-of-gemlapodect-for-adults-and-adolescents-with-tourette-syndrome",
+          "decision": "Mirror displays an October 14 refresh and EUCT 2023-505086-83-00. Refresh/crawl dates do not establish a new result or amendment; an official-source check follows."
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42704310/",
+          "decision": "Known September 7 MNS follow-up; no new publication or independent replication."
+        },
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/3772729/",
+          "decision": "Known historical adult CBIT trial; not a new-window result."
+        }
+      ]
+    },
+    {
+      "started_no_earlier_than_utc": "2026-10-20T02:52:42Z",
+      "completed_no_later_than_utc": "2026-10-20T02:53:01Z",
+      "queries": [
+        {"query": "Tourette tics after:2026-10-18 before:2026-10-21", "domains": ["medrxiv.org", "biorxiv.org"]},
+        {"query": "Tourette \"2026\" \"October\" \"19\" study", "domains": ["pubmed.ncbi.nlm.nih.gov", "nature.com", "neurology.org", "academic.oup.com"]},
+        {"query": "Tourette \"2026-10-19\"", "domains": ["clinicaltrials.gov", "isrctn.com", "euclinicaltrials.eu"]},
+        {"query": "\"NOE-TTS-201\"", "domains": ["clinicaltrials.gov", "euclinicaltrials.eu"]}
+      ],
+      "displayed_result_items": 14,
+      "decision": "Older primary studies, preprints, reviews and unrelated lexical matches were excluded from the new-window count. Date terms in a search string do not validate publication dates.",
+      "candidate_links": [
+        {"url": "https://euclinicaltrials.eu/ctis-public/view/2023-505086-83-00", "decision": "Official identity/protocol link discovered; readable direct current record was not obtained."},
+        {"url": "https://www.medrxiv.org/content/10.1101/2023.03.06.23286799v1.full", "decision": "Historical MNS preprint, not a verified new-window version."},
+        {"url": "https://pubmed.ncbi.nlm.nih.gov/42267238/", "decision": "June 5 deutetrabenazine systematic review/meta-analysis; secondary and outside the window. Underlying randomized trials were not recounted."},
+        {"url": "https://academic.oup.com/braincomms/article/7/3/fcaf172/8125275", "decision": "2025 adult neural-oscillation primary study; outside the window, no new result extracted."},
+        {"url": "https://pubmed.ncbi.nlm.nih.gov/42293419/", "decision": "June 8 caregiver survey; outside the window, no new treatment-efficacy result."},
+        {"url": "https://www.medrxiv.org/content/10.1101/2025.02.08.25321933v4.full", "decision": "Older scoping-review preprint; no verified in-window version."},
+        {"url": "https://www.medrxiv.org/content/10.64898/2026.07.02.26357130v1.full", "decision": "Older Wolfram-syndrome consensus preprint; not a new primary chronic-tic result."}
+      ]
+    }
+  ],
+  "direct_checks": [
+    {
+      "started_no_earlier_than_utc": "2026-10-20T02:50:20Z",
+      "completed_no_later_than_utc": "2026-10-20T02:50:43Z",
+      "urls": ["https://pubmed.ncbi.nlm.nih.gov/41633747/", "https://pubmed.ncbi.nlm.nih.gov/41779259/", "https://pubmed.ncbi.nlm.nih.gov/42726672/"],
+      "outcomes": ["No useful readable content", "Review metadata and abstract readable", "Cache miss"],
+      "decision": "Official EFetch API subsequently supplied all three candidate abstracts for transient screening; metadata-only verification is in supplement-selected-metadata.json."
+    },
+    {
+      "started_no_earlier_than_utc": "2026-10-20T02:53:01Z",
+      "completed_no_later_than_utc": "2026-10-20T02:53:17Z",
+      "url": "https://euclinicaltrials.eu/ctis-public/view/2023-505086-83-00",
+      "outcome": "Direct open yielded zero readable lines.",
+      "decision": "Do not infer current status, a new amendment, or absence/presence of results from the search snippet. No systematic CTIS enumeration completed."
+    }
+  ],
+  "privacy": "Only public scholarly/protocol links and original decisions retained. No social narratives, contacts, participant data, abstract bodies or full papers saved."
+}

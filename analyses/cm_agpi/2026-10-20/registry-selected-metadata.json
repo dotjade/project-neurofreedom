@@ -1,0 +1,156 @@
+{
+  "source_url": "https://clinicaltrials.gov/api/v2/studies/NCT05371041",
+  "retrieved_utc": "2026-10-20T02:56:34.621529+00:00",
+  "http_status": 200,
+  "source_sha256": "ed153888cb438709807e55dc285dc515fab952777271f9253c24a429ac7ed664",
+  "retention": "Selected metadata and published cohort aggregates only; no individual results, narratives or source body retained.",
+  "nct_id": "NCT05371041",
+  "status": {
+    "statusVerifiedDate": "2026-09",
+    "overallStatus": "ACTIVE_NOT_RECRUITING",
+    "expandedAccessInfo": {
+      "hasExpandedAccess": false
+    },
+    "startDateStruct": {
+      "date": "2022-06-20",
+      "type": "ACTUAL"
+    },
+    "primaryCompletionDateStruct": {
+      "date": "2026-05-01",
+      "type": "ACTUAL"
+    },
+    "completionDateStruct": {
+      "date": "2027-08-31",
+      "type": "ESTIMATED"
+    },
+    "studyFirstSubmitDate": "2022-05-06",
+    "studyFirstSubmitQcDate": "2022-05-11",
+    "studyFirstPostDateStruct": {
+      "date": "2022-05-12",
+      "type": "ACTUAL"
+    },
+    "resultsFirstSubmitDate": "2026-08-07",
+    "resultsFirstSubmitQcDate": "2026-09-24",
+    "resultsFirstPostDateStruct": {
+      "date": "2026-09-25",
+      "type": "ACTUAL"
+    },
+    "lastUpdateSubmitDate": "2026-09-24",
+    "lastUpdatePostDateStruct": {
+      "date": "2026-09-25",
+      "type": "ACTUAL"
+    }
+  },
+  "design": {
+    "studyType": "INTERVENTIONAL",
+    "phases": [
+      "NA"
+    ],
+    "designInfo": {
+      "allocation": "NA",
+      "interventionModel": "SINGLE_GROUP",
+      "primaryPurpose": "DEVICE_FEASIBILITY",
+      "maskingInfo": {
+        "masking": "NONE"
+      }
+    },
+    "enrollmentInfo": {
+      "count": 8,
+      "type": "ACTUAL"
+    }
+  },
+  "eligibility_age": {
+    "minimumAge": "18 Years",
+    "maximumAge": "85 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "previous_neurosurgery_exclusion_verified": true,
+  "ipd_sharing": {
+    "ipdSharing": "NO"
+  },
+  "has_results": true,
+  "primary_outcome_titles_timeframes": [
+    {
+      "measure": "Yale Global Tic Severity Scale_(YGTSS) - Total Tic Score",
+      "timeFrame": "9 months"
+    }
+  ],
+  "participant_flow": [
+    {
+      "period": "Overall Study",
+      "milestones": [
+        {
+          "type": "STARTED",
+          "subjects": [
+            "8"
+          ]
+        },
+        {
+          "type": "COMPLETED",
+          "subjects": [
+            "8"
+          ]
+        },
+        {
+          "type": "NOT COMPLETED",
+          "subjects": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "ae_timeframe": "from enrollment until end of follow-up (approximately 2 years after lead implant surgery)",
+  "ae_frequency_threshold": "0",
+  "ae_totals": [
+    {
+      "deathsNumAffected": 0,
+      "deathsNumAtRisk": 8,
+      "seriousNumAffected": 3,
+      "seriousNumAtRisk": 8,
+      "otherNumAffected": 8,
+      "otherNumAtRisk": 8
+    }
+  ],
+  "ae_assessment_types": [
+    "NON_SYSTEMATIC_ASSESSMENT"
+  ],
+  "documents": [
+    {
+      "typeAbbrev": "Prot",
+      "hasProtocol": true,
+      "hasSap": false,
+      "hasIcf": false,
+      "label": "Study Protocol",
+      "date": "2025-05-12",
+      "uploadDate": "2026-09-24T11:52",
+      "filename": "Prot_000.pdf",
+      "size": 734930
+    },
+    {
+      "typeAbbrev": "SAP",
+      "hasProtocol": false,
+      "hasSap": true,
+      "hasIcf": false,
+      "label": "Statistical Analysis Plan",
+      "date": "2021-12-20",
+      "uploadDate": "2026-09-24T11:52",
+      "filename": "SAP_001.pdf",
+      "size": 32736
+    },
+    {
+      "typeAbbrev": "ICF",
+      "hasProtocol": false,
+      "hasSap": false,
+      "hasIcf": true,
+      "label": "Informed Consent Form",
+      "date": "2026-03-02",
+      "uploadDate": "2026-08-05T15:55",
+      "filename": "ICF_002.pdf",
+      "size": 287881
+    }
+  ]
+}

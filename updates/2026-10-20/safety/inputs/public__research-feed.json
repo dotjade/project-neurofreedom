@@ -1,0 +1,187 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-10-19T03:43:00Z",
+  "lastResearchDate": "2026-10-19",
+  "cadence": "Daily scheduled review; publication follows verified work.",
+  "latestSummary": "A synthetic test examined what paired pain measurement adds to tic scores, including a missing-data failure. The bounded scan verified no new primary-study or trial result.",
+  "timeline": [
+    {
+      "date": "2026-10-19",
+      "title": "What paired outcomes can and cannot reveal.",
+      "type": "Synthetic methods test",
+      "summary": "Constructed worlds shared identical tic change but differed in pain change. Direct paired measures distinguished some worlds; excluding an entire group made two worlds indistinguishable.",
+      "record": "https://github.com/dotjade/project-neurofreedom/blob/main/analyses/paired_outcomes/2026-10-19/report.md"
+    },
+    {
+      "date": "2026-10-18",
+      "title": "Pain has its own footprint.",
+      "type": "Historical survey and aggregate audit",
+      "summary": "A historical pain-selected survey reported interference with sleep, mood and everyday life. Mixed ages and missing item counts prevent an adult-only estimate.",
+      "record": "https://github.com/dotjade/project-neurofreedom/blob/main/analyses/pain_interference/2026-10-18/report.md"
+    },
+    {
+      "date": "2026-10-17",
+      "title": "Ask about pain directly.",
+      "type": "Historical survey and aggregate audit",
+      "summary": "A selected adult survey mixed past and present pain. Conflicting help-seeking counts prevent a reliable care-success percentage; reported usefulness does not establish treatment efficacy.",
+      "record": "https://github.com/dotjade/project-neurofreedom/blob/main/analyses/adult_pain/2026-10-17/report.md"
+    },
+    {
+      "date": "2026-10-16",
+      "title": "Measure life beyond tics.",
+      "type": "Same-trial secondary analysis",
+      "summary": "A behavioral-therapy study did not establish added benefit over supportive therapy on its daily-function measures. Positive responder associations answer a different question.",
+      "record": "https://github.com/dotjade/project-neurofreedom/blob/main/analyses/cbit_functioning/2026-10-16/report.md"
+    },
+    {
+      "date": "2026-10-15",
+      "title": "Who came back matters.",
+      "type": "Historical trial and aggregate analysis",
+      "summary": "A behavioral-therapy trial's six-month improvement figure describes returning early responders. Missing follow-ups and planned booster sessions limit claims about lasting benefit for everyone.",
+      "record": "https://github.com/dotjade/project-neurofreedom/blob/main/analyses/cbit_maintenance/2026-10-15/report.md"
+    },
+    {
+      "date": "2026-10-14",
+      "title": "Timing changes the conclusion.",
+      "type": "Historical trial and aggregate analysis",
+      "summary": "A 2022 adult online behavior-therapy trial missed its primary endpoint. Later benefits remain exploratory, with tic severity, impairment and quality of life kept separate.",
+      "record": "https://github.com/dotjade/project-neurofreedom/blob/main/analyses/online_tics/2026-10-14/report.md"
+    },
+    {
+      "date": "2026-10-13",
+      "title": "A tic score is not the whole story.",
+      "type": "Published aggregate analysis",
+      "summary": "A six-report measurement review keeps tic severity, impairment, and quality of life separate. A reconstructed response table showed 14.66% disagreement between two response labels, not an adult quality-of-life result.",
+      "record": "https://github.com/dotjade/project-neurofreedom/blob/main/analyses/burden_validation/2026-10-13/report.md"
+    },
+    {
+      "date": "2026-10-12",
+      "title": "Keep severe adult experiences in view.",
+      "type": "Primary-study review",
+      "summary": "The adult burden review examined published measures and follow-up windows. Sparse visits cannot describe every day between them, and high burden need not depend on waxing and waning.",
+      "record": "https://github.com/dotjade/project-neurofreedom/blob/main/analyses/adult_burden/2026-10-12/report.md"
+    },
+    {
+      "date": "2026-10-11",
+      "title": "Ask what missing outcomes could change.",
+      "type": "Published aggregate sensitivity analysis",
+      "summary": "The median-nerve stimulation follow-up analysis tested missing-outcome scenarios. Reported improvement among returnees did not identify the result for everyone originally included.",
+      "record": "https://github.com/dotjade/project-neurofreedom/blob/main/analyses/mns_attrition/report.md"
+    },
+    {
+      "date": "2026-10-10",
+      "title": "An available dataset is not always the right dataset.",
+      "type": "Data-feasibility audit",
+      "summary": "Five cohort families were checked for adult, time-linked observations. No resource demonstrated the full combination needed for the proposed days-and-weeks antecedent question.",
+      "record": "https://github.com/dotjade/project-neurofreedom/blob/main/analyses/data_feasibility/2026-10-10-audit.md"
+    },
+    {
+      "date": "2026-10-09",
+      "title": "Define improvement before combining results.",
+      "type": "Primary-study harmonization",
+      "summary": "Four studies used different ways to identify tic absence. Meaningful improvement and observable tics can coexist. No single pooled remission rate was calculated.",
+      "record": "https://github.com/dotjade/project-neurofreedom/blob/main/analyses/remission/2026-10-09-harmonization.md"
+    },
+    {
+      "date": "2026-10-08",
+      "title": "A convincing pattern still needs a test.",
+      "type": "Synthetic methods test",
+      "summary": "A reproducible cycle-detection benchmark compared repeating fits with future forecasts and nonperiodic baselines. Generated data tested a method, not a biological mechanism.",
+      "record": "https://github.com/dotjade/project-neurofreedom/blob/main/analyses/cycle_detection/README.md"
+    }
+  ],
+  "findings": [
+    {
+      "title": "Daily life belongs beside tic counts.",
+      "summary": "An adult qualitative study highlighted better treatments and practical daily-life priorities. A specialist-clinic sample cannot represent everyone.",
+      "type": "Primary qualitative study",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10863457/",
+      "label": "Isaacs and colleagues, 2024",
+      "checkedAt": "2026-10-19",
+      "linkState": "Primary article retrievable through this check"
+    },
+    {
+      "title": "Persistence deserves its own attention.",
+      "summary": "A small blinded adult follow-up found observable tics in some people who reported being tic-free. Observation method changes what a study can claim.",
+      "type": "Primary longitudinal study",
+      "url": "https://www.neurology.org/doi/10.1212/01.WNL.0000086370.10186.7C",
+      "label": "Pappert and colleagues, 2003",
+      "checkedAt": "2026-10-19",
+      "linkState": "HTTP 403 in this retrieval; not established broken"
+    },
+    {
+      "title": "Shared improvement is not interchangeability.",
+      "summary": "Published treatment cohorts can show changes in both tic scores and quality of life. That alone does not show that one measure can replace the other.",
+      "type": "Primary adult cohort study",
+      "url": "https://link.springer.com/content/pdf/10.1186/s44247-026-00284-7.pdf",
+      "label": "Ivanova and colleagues, 2026",
+      "checkedAt": "2026-10-19",
+      "linkState": "Primary PDF retrievable through this check"
+    }
+  ],
+  "activities": [
+    {
+      "id": "hand-at-ease",
+      "title": "A hand at ease",
+      "kind": "Gentle movement",
+      "intro": "Gently open and rest one hand in your usual supported position, if that feels comfortable.",
+      "seated": "Use your usual supported seated position. No stretching or stillness is required.",
+      "standing": "If standing is already comfortable, keep your usual support and let the hand rest naturally.",
+      "rest": "Imagine the movement, or rest. There is nothing to complete."
+    },
+    {
+      "id": "familiar-route",
+      "title": "A familiar little route",
+      "kind": "Your usual supports",
+      "intro": "Consider a short stroll or wheel along a familiar level route, using your usual supports.",
+      "seated": "Stay seated and notice something familiar around you instead.",
+      "standing": "Choose only a route and movement that already feel comfortable for you.",
+      "rest": "Stay where you are, imagine the route, or skip it."
+    },
+    {
+      "id": "notice-one-thing",
+      "title": "Notice one comfortable thing",
+      "kind": "A quiet moment",
+      "intro": "Notice one comfortable sound, shape, or texture nearby.",
+      "seated": "Look or listen from wherever you are comfortably seated.",
+      "standing": "If you are already comfortable standing, notice something nearby.",
+      "rest": "No need to pay close attention. Rest or skip freely."
+    },
+    {
+      "id": "music-or-silence",
+      "title": "Familiar music, or silence",
+      "kind": "Ordinary leisure",
+      "intro": "Choose familiar quiet music if you would enjoy it. Silence is an equal choice.",
+      "seated": "Listen in your usual comfortable position if you choose.",
+      "standing": "There is no need to move, dance, or keep a rhythm.",
+      "rest": "Choose silence, rest, or leave this idea for another day."
+    },
+    {
+      "id": "small-silly-mark",
+      "title": "A small mark or a silly sentence",
+      "kind": "A little play",
+      "intro": "Make a small mark, or say, type, or imagine a silly sentence.",
+      "seated": "Use a familiar comfortable way to draw, speak, or type.",
+      "standing": "If you prefer standing, keep your usual support. Imagining works too.",
+      "rest": "Do nothing, or imagine something amusing. Either is enough."
+    },
+    {
+      "id": "rest-or-leave",
+      "title": "Rest, or leave the page",
+      "kind": "An equal choice",
+      "intro": "Rest can be the whole idea. There is no progress to keep up with.",
+      "seated": "Settle into your usual comfortable seated position if you want.",
+      "standing": "Change to a usual comfortable position if that suits you.",
+      "rest": "Close the page or simply carry on with your day."
+    }
+  ],
+  "feedback": {
+    "enabled": false,
+    "sampleSize": 0,
+    "aggregates": [],
+    "trend": [],
+    "message": "No public ratings are collected yet. There are no votes or trends to show."
+  },
+  "activityEditionDate": "2026-10-19",
+  "featuredActivityId": "familiar-route"
+}

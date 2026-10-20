@@ -111,3 +111,16 @@ A research program toward better understanding, effective treatments and ultimat
 - [Executed evidence-structure analysis](analyses/evidence_structure/2026-10-18/report.md): three result publications, two randomized trial clusters; outcome, selection and continued exposure remain distinct.
 - [Focal-tic pain endpoint audit](analyses/focal_tic_pain/2026-10-18/report.md): secondary evidence corroborates pain measurement, while inaccessible primary methods prevent a pain-benefit estimate.
 - [Claim and decision matrix](updates/2026-10-18-weekly/claim-matrix.json), with a proposed two-outcome design-discrimination experiment and explicit clinical governance dependencies.
+
+
+## Research update - 19 October 2026
+
+- [Dated evidence scan](updates/2026-10-19/report.md): no verified new-window primary result; a historical intracranial-recording paper retained as a methods/cohort lead.
+- [Synthetic paired-outcome test](analyses/paired_outcomes/2026-10-19/report.md): identical tic observations can conceal different pain outcomes; whole-stratum missingness can leave even paired observations nonidentifying.
+
+## Research update - 20 October 2026
+
+- [Dated evidence and registry scan](updates/2026-10-20/report.md): one estimated-start-date posting, without a new primary-study or trial result.
+- [CM-aGPi primary-methods audit](analyses/cm_agpi/2026-10-20/report.md): adult applicability, five analyzed contributors, recording-state discrepancies, statistical-unit uncertainty and linked-cohort boundaries.
+- [No-data compatibility diagnostic](analyses/cm_agpi/2026-10-20/testing-unit-check.json) and [independent review](analyses/cm_agpi/2026-10-20/review/independent_review.md): exact paired-test assumptions are explicit; no clinical or author-error inference.
+- [Safety scan](updates/2026-10-20/safety/report.md) and [existing research-link checks](public/link-checks/2026-10-20.json).

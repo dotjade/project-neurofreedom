@@ -1,0 +1,47 @@
+[
+  {
+    "path": "report.md",
+    "bytes": 10118,
+    "sha256": "da85585dc09bb9ba6473d0302bb03f43ab55ebbf5c3534628419dcd13dcd9a13"
+  },
+  {
+    "path": "query-ledger.json",
+    "bytes": 17377,
+    "sha256": "162d0f7be22e6ee08b511ccbf15e45144719c873117107b64ef9a3d5992a7f65"
+  },
+  {
+    "path": "source-checks.json",
+    "bytes": 13267,
+    "sha256": "ca4cd3ca8a2c5efd087ed0bd1d2049f545305b17b1f979baf8ba5c3c6838451b"
+  },
+  {
+    "path": "link-ledger.json",
+    "bytes": 18135,
+    "sha256": "3a1c4e89aba8751c6ca13e43c28da1eb15ac12d08154384a7464d2cddfd85a01"
+  },
+  {
+    "path": "repository-provenance.json",
+    "bytes": 1488,
+    "sha256": "9a724dac7ddfe8765b722f43fc9d4305cc91a0fed7d73066a58664bb9e86fae2"
+  },
+  {
+    "path": "neurostar-http-check.json",
+    "bytes": 2695,
+    "sha256": "0d87e6f7887d0e3f2c07b7dee4748276205417f2282cd8fdd552a1036bd23312"
+  },
+  {
+    "path": "validation.json",
+    "bytes": 762,
+    "sha256": "04eb689aaa1de9b83af78c1c0c510773089323f13893302023bf7b8c67d8330f"
+  },
+  {
+    "path": "check_links.py",
+    "bytes": 5407,
+    "sha256": "a2150cc3c00cd73d52153d875fc63b19cfffc8c2f7874c0b093fa16bef4ae7ae"
+  },
+  {
+    "path": "inputs/public__research-feed.json",
+    "bytes": 10531,
+    "sha256": "bdd1bf076c81a20ce735c4d535094bb7811d9e72659cc8195aa224050fa6e768"
+  }
+]

@@ -1,0 +1,39 @@
+{
+  "review_date_utc": "2026-10-20",
+  "scope": "Independent aggregate-methods and claim-boundary review of the final CM–aGPi audit; privacy, study denominators, phase/coherence distinctions, trial-family overlap and public-only next gate.",
+  "verdict": "No material correction required in the reviewed scope.",
+  "verified_boundaries": [
+    "Six implanted, five physiology contributors, eight broader-trial enrollees remain separate.",
+    "Adult-only applicability and selective surgical cohort are explicit.",
+    "The three-month/nine-visit discrepancy remains unresolved rather than silently repaired.",
+    "Phase lead is not promoted to causal generation or therapeutic benefit.",
+    "Low-gamma phase positives and contradictory broad negative wording are retained.",
+    "Statistical-unit ambiguity is not labelled proof of invalid statistics.",
+    "Linked-trial provenance is not treated as independent replication or exact identity matching.",
+    "The next task uses lawful public aggregate material and stops before unsupported efficacy calculations."
+  ],
+  "independent_math_check": {
+    "result": "Passed",
+    "n5_minimum_exact_two_sided_p": 0.0625,
+    "n6_minimum_exact_two_sided_p": 0.03125,
+    "method": "Rank-sum generating-function coefficients, independently compared with main sign enumeration.",
+    "portable_explicit_and_default_path_runs": "Passed; JSON output unchanged."
+  },
+  "limitations": [
+    "This review does not reproduce the original physiological calculations or inspect restricted participant data.",
+    "The unavailable supplement may contain clarifications.",
+    "Older thalamocortical reports were not comprehensively re-audited in this review.",
+    "This is source/methods review, not clinical peer review."
+  ],
+  "reviewed_sha256": {
+    "report.md": "ea55d53c1c6cc7fef62de2c4912934a7b47b0af20e0c3e16fd25314edfac7f7a",
+    "evidence-record.json": "bdc5d00dc48def4bd40024f208bee48f57ad1274473fb2de019272cadb6c5212",
+    "structured-audit.json": "3dc8623cf926f7e272a960fcd5a7b559a550a1f42928228860ea2ef63d70a81d",
+    "source-claim-matrix.json": "15f0bd1894d7bc9b8eb4f83cbbc162bb2ef33ab4dee6c2f5461dd21fa5ddc26f"
+  },
+  "review_files": [
+    "independent_review.md",
+    "check_exact_rank_bound.py",
+    "independent-testing-unit-check.json"
+  ]
+}
