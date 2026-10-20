@@ -286,3 +286,9 @@ Close this fixed paper-methods and arithmetic audit absent a public correction o
 ### Public journal
 
 The feed adds a concise dated methods note. All six approved optional activities are unchanged, with notice-one-thing selected. Voting, comments and health-outcome collection remain disabled. Twelve pre-existing research links and two primary sources passed the [bounded link check](public/link-checks/2026-10-20.json); Pappert remains HTTP 403 bot-challenged rather than confirmed broken. Homepage source, security settings and deployment configuration are unchanged. The existing Actions workflow may deploy the feed-triggered revision; publication and run outcomes are recorded only after actual verification.
+
+### Publication verification - 20 October 2026
+
+All 52 research/publication artifacts matched exact connector readback from commit dc546070b95ed6dc2a9b565fdb4c383458b1fc9e. Tree comparison preserved all 445 other existing files with no unexpected additions. The [Actions run](https://github.com/dotjade/project-neurofreedom/actions/runs/39362825691) passed validation, build, dry-run and deployment on attempt 1; its deployment job completed at 03:10:24 UTC.
+
+After the documented cache interval, production /api/public-feed returned HTTP 200 with X-Journal-Source: repository at 03:11:50 UTC; anonymous raw GitHub matched at 03:11:53. Both were byte-identical to the authored feed, updatedAt 2026-10-20T03:03:03Z. Research/activity date October 20, notice-one-thing, all six unchanged catalog entries and disabled feedback were verified. The new report link passed at 03:11:57; live feedback-config.json remained disabled with no API origin at 03:12:01. This verifies propagation and deployment, not new rendered-page accessibility testing. [Verification record](updates/2026-10-20/publication-verification.json).
