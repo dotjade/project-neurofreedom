@@ -1,0 +1,25 @@
+{
+  "validated_utc": "2026-10-21T03:00:18.430056+00:00",
+  "status": "passed",
+  "checks_passed": 17,
+  "checks": [
+    "eight_unique_pubmed_records",
+    "eleven_pubmed_id_occurrences",
+    "all_pubmed_ids_fetched",
+    "five_prior_overlaps",
+    "zero_new_qualifying_primary_tic_outcomes",
+    "adjacent_primary_not_misclassified",
+    "preprints_no_duplicates_all_observed_pages",
+    "652_preprints_zero_matches",
+    "preprint_dates_within_overlap",
+    "tsv_indexes_match_logs",
+    "three_exact_registry_date_diffs",
+    "registry_controls_unchanged",
+    "registry_no_results",
+    "negative_feasibility_preserved",
+    "isrctn_zero_with_positive_control",
+    "known_recoveries_documented",
+    "python_sources_parse"
+  ],
+  "scope": "Offline consistency checks, not independent scientific peer review."
+}

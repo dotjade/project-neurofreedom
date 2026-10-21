@@ -1,0 +1,118 @@
+{
+  "started_utc": "2026-10-21T02:52:54.908439+00:00",
+  "checks": [
+    {
+      "label": "QSM_Crossref",
+      "request": {
+        "url": "https://api.crossref.org/works/10.3174/ajnr.A9681",
+        "started_utc": "2026-10-21T02:52:54.914178+00:00",
+        "status": 200,
+        "bytes": 2778,
+        "sha256": "d7252c6dd2c5a1d41a1e47ba7d296cfcc0b78350f7ac8805ef7cd4e724f98953",
+        "completed_utc": "2026-10-21T02:53:03.151234+00:00"
+      },
+      "body_retained": false,
+      "selected": {
+        "DOI": "10.3174/ajnr.a9681",
+        "title": [
+          "Quantitative Susceptibility Mapping of the Centromedian Nucleus and Indirect Comparison with Alternate Sequences"
+        ],
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2026,
+              10,
+              19
+            ]
+          ],
+          "date-time": "2026-10-19T21:25:20Z",
+          "timestamp": 1792445120000
+        },
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              10,
+              19
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2026,
+              10,
+              19
+            ]
+          ]
+        },
+        "published-print": null,
+        "update-to": null,
+        "relation": {},
+        "is-referenced-by-count": 0,
+        "license": null
+      }
+    },
+    {
+      "label": "QSM_publisher",
+      "request": {
+        "url": "https://www.ajnr.org/content/early/2026/10/19/ajnr.A9681",
+        "started_utc": "2026-10-21T02:52:54.917515+00:00",
+        "error": "HTTP Error 404: Not Found",
+        "completed_utc": "2026-10-21T02:53:02.721112+00:00"
+      },
+      "body_retained": false
+    },
+    {
+      "label": "QSM_DOI",
+      "request": {
+        "url": "https://doi.org/10.3174/ajnr.A9681",
+        "started_utc": "2026-10-21T02:52:54.918147+00:00",
+        "status": 200,
+        "bytes": 190149,
+        "sha256": "46286b73333d46b74d1bd61ca1a83e6df21ea31a2f8cb49b446792b4b780af79",
+        "completed_utc": "2026-10-21T02:53:18.927531+00:00"
+      },
+      "body_retained": false,
+      "title": "Quantitative Susceptibility Mapping of the Centromedian Nucleus and Indirect Comparison with Alternate Sequences | American Journal of Neuroradiology",
+      "metadata": [
+        {
+          "name": "DC.Date",
+          "content": "2026-10-19"
+        },
+        {
+          "name": "article:published_time",
+          "content": "2026-10-15"
+        },
+        {
+          "name": "citation_title",
+          "content": "Quantitative Susceptibility Mapping of the Centromedian Nucleus and Indirect Comparison with Alternate Sequences"
+        },
+        {
+          "name": "citation_publication_date",
+          "content": "2026/10/15"
+        },
+        {
+          "name": "citation_doi",
+          "content": "10.3174/ajnr.A9681"
+        }
+      ]
+    },
+    {
+      "label": "CTIS_gemlapodect",
+      "request": {
+        "url": "https://euclinicaltrials.eu/ctis-public/view/2023-505086-83-00",
+        "started_utc": "2026-10-21T02:52:54.918797+00:00",
+        "status": 200,
+        "bytes": 66254,
+        "sha256": "8734cbb42cde74ad98eb8a1a0eaf0965e9e15b059616a06c0ba5a2d466308d2d",
+        "completed_utc": "2026-10-21T02:53:01.552480+00:00"
+      },
+      "body_retained": false,
+      "title": "Clinical Trials in the European Union - EMA",
+      "metadata": []
+    }
+  ],
+  "completed_utc": "2026-10-21T02:53:18.934707+00:00"
+}

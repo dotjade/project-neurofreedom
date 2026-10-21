@@ -1,0 +1,396 @@
+{
+  "source_url": "https://clinicaltrials.gov/api/v2/studies/NCT05371041",
+  "request_url": "https://clinicaltrials.gov/api/v2/studies/NCT05371041?fields=protocolSection.identificationModule%2CprotocolSection.statusModule%2CprotocolSection.designModule%2CprotocolSection.outcomesModule%2CprotocolSection.referencesModule%2CprotocolSection.ipdSharingStatementModule%2CdocumentSection%2ChasResults%2CresultsSection.participantFlowModule.groups%2CresultsSection.participantFlowModule.periods.title%2CresultsSection.participantFlowModule.periods.milestones%2CresultsSection.baselineCharacteristicsModule.groups%2CresultsSection.baselineCharacteristicsModule.denoms%2CresultsSection.baselineCharacteristicsModule.populationDescription%2CresultsSection.baselineCharacteristicsModule.measures.title%2CresultsSection.baselineCharacteristicsModule.measures.description%2CresultsSection.baselineCharacteristicsModule.measures.paramType%2CresultsSection.baselineCharacteristicsModule.measures.unitOfMeasure%2CresultsSection.baselineCharacteristicsModule.measures.denoms%2CresultsSection.outcomeMeasuresModule.outcomeMeasures.type%2CresultsSection.outcomeMeasuresModule.outcomeMeasures.title%2CresultsSection.outcomeMeasuresModule.outcomeMeasures.description%2CresultsSection.outcomeMeasuresModule.outcomeMeasures.timeFrame%2CresultsSection.outcomeMeasuresModule.outcomeMeasures.paramType%2CresultsSection.outcomeMeasuresModule.outcomeMeasures.dispersionType%2CresultsSection.outcomeMeasuresModule.outcomeMeasures.unitOfMeasure%2CresultsSection.outcomeMeasuresModule.outcomeMeasures.denoms%2CresultsSection.outcomeMeasuresModule.outcomeMeasures.groups%2CresultsSection.outcomeMeasuresModule.outcomeMeasures.analyses%2CresultsSection.outcomeMeasuresModule.outcomeMeasures.populationDescription%2CresultsSection.outcomeMeasuresModule.outcomeMeasures.reportingStatus%2CresultsSection.adverseEventsModule.timeFrame%2CresultsSection.adverseEventsModule.frequencyThreshold%2CresultsSection.adverseEventsModule.eventGroups%2CresultsSection.adverseEventsModule.seriousEvents.assessmentType%2CresultsSection.adverseEventsModule.otherEvents.assessmentType",
+  "retrieved_utc": "2026-10-21T02:51:59.853044+00:00",
+  "http_status": 200,
+  "projected_response_sha256": "7db69827ead62113232d3b6e597282cd592d6d18b44eb8c8e01630f15f3a28ca",
+  "projection_fields": [
+    "protocolSection.identificationModule",
+    "protocolSection.statusModule",
+    "protocolSection.designModule",
+    "protocolSection.outcomesModule",
+    "protocolSection.referencesModule",
+    "protocolSection.ipdSharingStatementModule",
+    "documentSection",
+    "hasResults",
+    "resultsSection.participantFlowModule.groups",
+    "resultsSection.participantFlowModule.periods.title",
+    "resultsSection.participantFlowModule.periods.milestones",
+    "resultsSection.baselineCharacteristicsModule.groups",
+    "resultsSection.baselineCharacteristicsModule.denoms",
+    "resultsSection.baselineCharacteristicsModule.populationDescription",
+    "resultsSection.baselineCharacteristicsModule.measures.title",
+    "resultsSection.baselineCharacteristicsModule.measures.description",
+    "resultsSection.baselineCharacteristicsModule.measures.paramType",
+    "resultsSection.baselineCharacteristicsModule.measures.unitOfMeasure",
+    "resultsSection.baselineCharacteristicsModule.measures.denoms",
+    "resultsSection.outcomeMeasuresModule.outcomeMeasures.type",
+    "resultsSection.outcomeMeasuresModule.outcomeMeasures.title",
+    "resultsSection.outcomeMeasuresModule.outcomeMeasures.description",
+    "resultsSection.outcomeMeasuresModule.outcomeMeasures.timeFrame",
+    "resultsSection.outcomeMeasuresModule.outcomeMeasures.paramType",
+    "resultsSection.outcomeMeasuresModule.outcomeMeasures.dispersionType",
+    "resultsSection.outcomeMeasuresModule.outcomeMeasures.unitOfMeasure",
+    "resultsSection.outcomeMeasuresModule.outcomeMeasures.denoms",
+    "resultsSection.outcomeMeasuresModule.outcomeMeasures.groups",
+    "resultsSection.outcomeMeasuresModule.outcomeMeasures.analyses",
+    "resultsSection.outcomeMeasuresModule.outcomeMeasures.populationDescription",
+    "resultsSection.outcomeMeasuresModule.outcomeMeasures.reportingStatus",
+    "resultsSection.adverseEventsModule.timeFrame",
+    "resultsSection.adverseEventsModule.frequencyThreshold",
+    "resultsSection.adverseEventsModule.eventGroups",
+    "resultsSection.adverseEventsModule.seriousEvents.assessmentType",
+    "resultsSection.adverseEventsModule.otherEvents.assessmentType"
+  ],
+  "retention": "Server-projected definitions, study metadata, denominators and published whole-cohort safety totals only. No result classes or individual rows requested or saved.",
+  "data": {
+    "protocolSection": {
+      "identificationModule": {
+        "nctId": "NCT05371041",
+        "orgStudyIdInfo": {
+          "id": "IRB202102161"
+        },
+        "secondaryIdInfos": [
+          {
+            "id": "UH3NS119844",
+            "type": "NIH",
+            "link": "https://reporter.nih.gov/quickSearch/UH3NS119844"
+          },
+          {
+            "id": "OCR41251",
+            "type": "OTHER",
+            "domain": "UFOnCore"
+          }
+        ],
+        "organization": {
+          "fullName": "University of Florida",
+          "class": "OTHER"
+        },
+        "briefTitle": "Tourette Deep Brain Stimulation (DBS) Target Detection & Suppression",
+        "officialTitle": "Defining Targets for Tic Detection and Suppression in Tourette Syndrome Deep Brain Stimulation"
+      },
+      "statusModule": {
+        "statusVerifiedDate": "2026-09",
+        "overallStatus": "ACTIVE_NOT_RECRUITING",
+        "expandedAccessInfo": {
+          "hasExpandedAccess": false
+        },
+        "startDateStruct": {
+          "date": "2022-06-20",
+          "type": "ACTUAL"
+        },
+        "primaryCompletionDateStruct": {
+          "date": "2026-05-01",
+          "type": "ACTUAL"
+        },
+        "completionDateStruct": {
+          "date": "2027-08-31",
+          "type": "ESTIMATED"
+        },
+        "studyFirstSubmitDate": "2022-05-06",
+        "studyFirstSubmitQcDate": "2022-05-11",
+        "studyFirstPostDateStruct": {
+          "date": "2022-05-12",
+          "type": "ACTUAL"
+        },
+        "resultsFirstSubmitDate": "2026-08-07",
+        "resultsFirstSubmitQcDate": "2026-09-24",
+        "resultsFirstPostDateStruct": {
+          "date": "2026-09-25",
+          "type": "ACTUAL"
+        },
+        "lastUpdateSubmitDate": "2026-09-24",
+        "lastUpdatePostDateStruct": {
+          "date": "2026-09-25",
+          "type": "ACTUAL"
+        }
+      },
+      "designModule": {
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "designInfo": {
+          "allocation": "NA",
+          "interventionModel": "SINGLE_GROUP",
+          "primaryPurpose": "DEVICE_FEASIBILITY",
+          "maskingInfo": {
+            "masking": "NONE"
+          }
+        },
+        "enrollmentInfo": {
+          "count": 8,
+          "type": "ACTUAL"
+        }
+      },
+      "outcomesModule": {
+        "primaryOutcomes": [
+          {
+            "measure": "Yale Global Tic Severity Scale_(YGTSS) - Total Tic Score",
+            "description": "The YGTSS is a clinician-rated scale used to assess tic severity over the prior week. It includes a checklist of motor and vocal tics followed by an assessment of the number, frequency, intensity, complexity, and inference of motor tics and phonic tics - scored separately. Each of these dimensions is scored on a 0 to 5 scale. The YGTSS provides three tic severity scores: Total Motor (0 to 25); Total Phonic (0 to 25) and the combined Total Tic Severity Score (0 to 50), as well as a separate Impairment dimension scored from 0 to 50. The Total Tic Score (YGTSS-TTS) was used in these analyses.",
+            "timeFrame": "9 months"
+          }
+        ]
+      },
+      "ipdSharingStatementModule": {
+        "ipdSharing": "NO"
+      }
+    },
+    "resultsSection": {
+      "participantFlowModule": {
+        "groups": [
+          {
+            "id": "FG000",
+            "title": "9 Month Primary Outcome",
+            "description": "This Primary Outcome data was captured 9 Months after the initiation of DBS. The YGTSS is the primary outcome metric and was compared to baseline to determine responder vs. non-responder with responders having \\>30% improvement."
+          }
+        ],
+        "periods": [
+          {
+            "title": "Overall Study",
+            "milestones": [
+              {
+                "type": "STARTED",
+                "achievements": [
+                  {
+                    "groupId": "FG000",
+                    "numSubjects": "8"
+                  }
+                ]
+              },
+              {
+                "type": "COMPLETED",
+                "achievements": [
+                  {
+                    "groupId": "FG000",
+                    "numSubjects": "8"
+                  }
+                ]
+              },
+              {
+                "type": "NOT COMPLETED",
+                "achievements": [
+                  {
+                    "groupId": "FG000",
+                    "numSubjects": "0"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "baselineCharacteristicsModule": {
+        "groups": [
+          {
+            "id": "BG000",
+            "title": "Medtronic Percept Neurostimulator",
+            "description": "This is a deep brain stimulator that can also record brain signals and deliver stimulation through a control algorithm based on brain activity."
+          }
+        ],
+        "denoms": [
+          {
+            "units": "Participants",
+            "counts": [
+              {
+                "groupId": "BG000",
+                "value": "8"
+              }
+            ]
+          }
+        ],
+        "measures": [
+          {
+            "title": "Age, Categorical",
+            "description": "At Baseline",
+            "paramType": "COUNT_OF_PARTICIPANTS",
+            "unitOfMeasure": "Participants"
+          },
+          {
+            "title": "Sex: Female, Male",
+            "paramType": "COUNT_OF_PARTICIPANTS",
+            "unitOfMeasure": "Participants"
+          },
+          {
+            "title": "Race (NIH/OMB)",
+            "paramType": "COUNT_OF_PARTICIPANTS",
+            "unitOfMeasure": "Participants"
+          },
+          {
+            "title": "Ethnicity (NIH/OMB)",
+            "paramType": "COUNT_OF_PARTICIPANTS",
+            "unitOfMeasure": "Participants"
+          },
+          {
+            "title": "YGTSS Score",
+            "description": "This is a score of motor and vocal tic severity out of 100. There are three components, the motor sub score (out of 25), the vocal sub score (out of 25), and total impairment (out of 50). The higher the score the more severe the tics. Here the Baseline YGTSS of all 8 subjects will be listed, each subject is identified by their unique identifier.",
+            "paramType": "NUMBER",
+            "unitOfMeasure": "Scores on a scale"
+          }
+        ]
+      },
+      "outcomeMeasuresModule": {
+        "outcomeMeasures": [
+          {
+            "type": "PRIMARY",
+            "title": "Yale Global Tic Severity Scale_(YGTSS) - Total Tic Score",
+            "description": "The YGTSS is a clinician-rated scale used to assess tic severity over the prior week. It includes a checklist of motor and vocal tics followed by an assessment of the number, frequency, intensity, complexity, and inference of motor tics and phonic tics - scored separately. Each of these dimensions is scored on a 0 to 5 scale. The YGTSS provides three tic severity scores: Total Motor (0 to 25); Total Phonic (0 to 25) and the combined Total Tic Severity Score (0 to 50), as well as a separate Impairment dimension scored from 0 to 50. The Total Tic Score (YGTSS-TTS) was used in these analyses.",
+            "populationDescription": "8 Subjects were analyzed, 8 subjects were enrolled.",
+            "reportingStatus": "POSTED",
+            "paramType": "NUMBER",
+            "unitOfMeasure": "Scores on a scale",
+            "timeFrame": "9 months",
+            "groups": [
+              {
+                "id": "OG000",
+                "title": "9 Month Primary Outcome",
+                "description": "This Primary Outcome data was captured 9 Months after the initiation of DBS. The YGTSS is the primary outcome metric and was compared to baseline to determine responder vs. non-responder with responders having \\>30% improvement."
+              }
+            ],
+            "denoms": [
+              {
+                "units": "Participants",
+                "counts": [
+                  {
+                    "groupId": "OG000",
+                    "value": "8"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "adverseEventsModule": {
+        "frequencyThreshold": "0",
+        "timeFrame": "from enrollment until end of follow-up (approximately 2 years after lead implant surgery)",
+        "eventGroups": [
+          {
+            "id": "EG000",
+            "title": "9 Month Primary Outcome",
+            "description": "This Primary Outcome data was captured 9 Months after the initiation of DBS. The YGTSS is the primary outcome metric and was compared to baseline to determine responder vs. non-responder with responders having \\>30% improvement.",
+            "deathsNumAffected": 0,
+            "deathsNumAtRisk": 8,
+            "seriousNumAffected": 3,
+            "seriousNumAtRisk": 8,
+            "otherNumAffected": 8,
+            "otherNumAtRisk": 8
+          }
+        ],
+        "seriousEvents": [
+          {
+            "assessmentType": "NON_SYSTEMATIC_ASSESSMENT"
+          },
+          {
+            "assessmentType": "NON_SYSTEMATIC_ASSESSMENT"
+          },
+          {
+            "assessmentType": "NON_SYSTEMATIC_ASSESSMENT"
+          }
+        ],
+        "otherEvents": [
+          {
+            "assessmentType": "NON_SYSTEMATIC_ASSESSMENT"
+          },
+          {
+            "assessmentType": "NON_SYSTEMATIC_ASSESSMENT"
+          },
+          {
+            "assessmentType": "NON_SYSTEMATIC_ASSESSMENT"
+          },
+          {
+            "assessmentType": "NON_SYSTEMATIC_ASSESSMENT"
+          },
+          {
+            "assessmentType": "NON_SYSTEMATIC_ASSESSMENT"
+          },
+          {
+            "assessmentType": "NON_SYSTEMATIC_ASSESSMENT"
+          },
+          {
+            "assessmentType": "NON_SYSTEMATIC_ASSESSMENT"
+          },
+          {
+            "assessmentType": "NON_SYSTEMATIC_ASSESSMENT"
+          },
+          {
+            "assessmentType": "NON_SYSTEMATIC_ASSESSMENT"
+          },
+          {
+            "assessmentType": "NON_SYSTEMATIC_ASSESSMENT"
+          },
+          {
+            "assessmentType": "NON_SYSTEMATIC_ASSESSMENT"
+          },
+          {
+            "assessmentType": "NON_SYSTEMATIC_ASSESSMENT"
+          },
+          {
+            "assessmentType": "NON_SYSTEMATIC_ASSESSMENT"
+          },
+          {
+            "assessmentType": "NON_SYSTEMATIC_ASSESSMENT"
+          },
+          {
+            "assessmentType": "NON_SYSTEMATIC_ASSESSMENT"
+          },
+          {
+            "assessmentType": "NON_SYSTEMATIC_ASSESSMENT"
+          },
+          {
+            "assessmentType": "NON_SYSTEMATIC_ASSESSMENT"
+          },
+          {
+            "assessmentType": "NON_SYSTEMATIC_ASSESSMENT"
+          },
+          {
+            "assessmentType": "NON_SYSTEMATIC_ASSESSMENT"
+          },
+          {
+            "assessmentType": "NON_SYSTEMATIC_ASSESSMENT"
+          }
+        ]
+      }
+    },
+    "documentSection": {
+      "largeDocumentModule": {
+        "largeDocs": [
+          {
+            "typeAbbrev": "Prot",
+            "hasProtocol": true,
+            "hasSap": false,
+            "hasIcf": false,
+            "label": "Study Protocol",
+            "date": "2025-05-12",
+            "uploadDate": "2026-09-24T11:52",
+            "filename": "Prot_000.pdf",
+            "size": 734930
+          },
+          {
+            "typeAbbrev": "SAP",
+            "hasProtocol": false,
+            "hasSap": true,
+            "hasIcf": false,
+            "label": "Statistical Analysis Plan",
+            "date": "2021-12-20",
+            "uploadDate": "2026-09-24T11:52",
+            "filename": "SAP_001.pdf",
+            "size": 32736
+          },
+          {
+            "typeAbbrev": "ICF",
+            "hasProtocol": false,
+            "hasSap": false,
+            "hasIcf": true,
+            "label": "Informed Consent Form",
+            "date": "2026-03-02",
+            "uploadDate": "2026-08-05T15:55",
+            "filename": "ICF_002.pdf",
+            "size": 287881
+          }
+        ]
+      }
+    },
+    "hasResults": true
+  }
+}

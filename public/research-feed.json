@@ -1,10 +1,17 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-20T03:03:03Z",
-  "lastResearchDate": "2026-10-20",
+  "updatedAt": "2026-10-21T03:01:10Z",
+  "lastResearchDate": "2026-10-21",
   "cadence": "Daily scheduled review; publication follows verified work.",
-  "latestSummary": "Full methods narrowed what a historical brain-recording study can show. The bounded scan found one protocol-date update, with no new primary-study or trial result.",
+  "latestSummary": "The bounded scan found a protocol-date change, not new clinical results. A historical trial audit clarified why its public score and timing fields cannot yet support our efficacy calculation.",
   "timeline": [
+    {
+      "date": "2026-10-21",
+      "title": "Match the score and the clock.",
+      "type": "Historical registry/protocol crosswalk",
+      "summary": "An implanted-device trial's public score definitions and timing do not yet support a compatible aggregate comparison. We did not calculate treatment effects; this is not a finding of no benefit.",
+      "record": "https://github.com/dotjade/project-neurofreedom/blob/main/analyses/trial_crosswalk/2026-10-21/report.md"
+    },
     {
       "date": "2026-10-20",
       "title": "A brain signal is still a clue.",
@@ -104,7 +111,7 @@
       "type": "Primary qualitative study",
       "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10863457/",
       "label": "Isaacs and colleagues, 2024",
-      "checkedAt": "2026-10-20",
+      "checkedAt": "2026-10-21",
       "linkState": "Primary article retrievable through this check"
     },
     {
@@ -113,7 +120,7 @@
       "type": "Primary longitudinal study",
       "url": "https://www.neurology.org/doi/10.1212/01.WNL.0000086370.10186.7C",
       "label": "Pappert and colleagues, 2003",
-      "checkedAt": "2026-10-20",
+      "checkedAt": "2026-10-21",
       "linkState": "HTTP 403 in this retrieval; not established broken"
     },
     {
@@ -122,7 +129,7 @@
       "type": "Primary adult cohort study",
       "url": "https://link.springer.com/content/pdf/10.1186/s44247-026-00284-7.pdf",
       "label": "Ivanova and colleagues, 2026",
-      "checkedAt": "2026-10-20",
+      "checkedAt": "2026-10-21",
       "linkState": "Primary PDF retrievable through this check"
     }
   ],
@@ -189,6 +196,6 @@
     "trend": [],
     "message": "No public ratings are collected yet. There are no votes or trends to show."
   },
-  "activityEditionDate": "2026-10-20",
-  "featuredActivityId": "notice-one-thing"
+  "activityEditionDate": "2026-10-21",
+  "featuredActivityId": "music-or-silence"
 }
