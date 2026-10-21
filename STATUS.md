@@ -309,3 +309,13 @@ Close this fixed crosswalk absent public aggregate clarification of constructs, 
 ### Public journal
 
 The dated feed note distinguishes historical documentation analysis from a scan without a new qualifying clinical result. All six optional activities are unchanged, with music-or-silence selected. Voting, comments and health-outcome collection remain disabled in source. Thirteen existing repository links and two finding sources were retrievable; Pappert remains HTTP 403 access-limited, not established broken. Ordinary production API retrieval was access-limited during preparation; source and live publication verification will be recorded only after actual readback. No deployment configuration or security setting was changed.
+
+### Publication verification - 21 October 2026
+
+The research commit [107de0de693eb34dfbda99f7b188e7b282f59add](https://github.com/dotjade/project-neurofreedom/commit/107de0de693eb34dfbda99f7b188e7b282f59add) contains all 58 intended files. Fresh remote fetch verified every authored byte, with 495 unrelated existing files preserved and no unexpected paths. Connector readback on main separately verified the feed and crosswalk report. The integration manifest describes that research-commit snapshot; this later verification note updates STATUS only after those checks.
+
+[Actions run 39539553973](https://github.com/dotjade/project-neurofreedom/actions/runs/39539553973) passed validation, build, deployment dry-run and production deployment; the deployment job completed at 03:37:35 UTC. The new report link returned HTTP 200 at 03:38:27.
+
+An independent ordinary-browser read of /api/public-feed at 03:37:24 confirmed updatedAt 2026-10-21T03:01:10Z, October 21 research/activity dates, the new note, music-or-silence and disabled feedback with zero votes. Browser /feedback-config.json at 03:38:55 confirmed enabled false and apiOrigin null. Direct non-browser production requests remained HTTP 403, so this is browser field verification, not a byte-for-byte API comparison or response-header inspection. No security settings or authentication were changed.
+
+After the documented cache interval, the homepage at 03:39:48 showed the October 21 research note, matching repository-edition timestamp and music-or-silence selection without an access warning. Existing UI limitations remain: the bundled October 13 edition can briefly appear before the feed loads, and the static next-question link still points to ONLINE-TICS rather than the current STATUS plan. These were observed, not changed in this research-only publication. [Verification record](updates/2026-10-21/publication-verification.json).

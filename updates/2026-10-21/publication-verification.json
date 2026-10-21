@@ -1,0 +1,473 @@
+{
+  "verifiedAt": "2026-10-21T03:37:48.772199+00:00",
+  "commit": "107de0de693eb34dfbda99f7b188e7b282f59add",
+  "tree": "11aaacfd24c540aeba292b3618d86d72c28077ee",
+  "files": [
+    {
+      "path": "STATUS.md",
+      "sha256": "e671862a4d6fde60624d419cb42648c15a390485ca57842ff97eea65b5aa7e39",
+      "exact_match": true
+    },
+    {
+      "path": "analyses/trial_crosswalk/2026-10-21/README.md",
+      "sha256": "539966a197dd408459b6b6f2bc1ce3cf069abadb9048516e0dfce7f5040120d7",
+      "exact_match": true
+    },
+    {
+      "path": "analyses/trial_crosswalk/2026-10-21/artifact-manifest.json",
+      "sha256": "854813aacb8382a4ab988daf5ce9dd6635e29ed3e63a2d791313af96fb89cd77",
+      "exact_match": true
+    },
+    {
+      "path": "analyses/trial_crosswalk/2026-10-21/build_extraction.py",
+      "sha256": "04ecc61ea9349c02a290b9da489a3983a6c75792f25a97943ee138f124a5d4e5",
+      "exact_match": true
+    },
+    {
+      "path": "analyses/trial_crosswalk/2026-10-21/check_metadata.py",
+      "sha256": "f4df751e251e7472df824ff5a07d51ea41cb3c5ceafa1279334519b0a4104e3b",
+      "exact_match": true
+    },
+    {
+      "path": "analyses/trial_crosswalk/2026-10-21/collect_registry_metadata.py",
+      "sha256": "23fdfa5cab4be7f6dec0c2d39c923f0add0e66c98164d6328cf3a1785d7841d8",
+      "exact_match": true
+    },
+    {
+      "path": "analyses/trial_crosswalk/2026-10-21/evidence-record.json",
+      "sha256": "3e39845f61c0bd3f315ea3d8011f37093b6600909e77a0c64b6b171971a1aaf5",
+      "exact_match": true
+    },
+    {
+      "path": "analyses/trial_crosswalk/2026-10-21/evidence-record.jsonl",
+      "sha256": "0fbe191cf8235b3b70c5d876edd71ab9852128035614cb3bc6bf4886d4d53c54",
+      "exact_match": true
+    },
+    {
+      "path": "analyses/trial_crosswalk/2026-10-21/finalize_artifacts.py",
+      "sha256": "a197d9b34b9939718c82b059de53a3355e96316b8507de259e479079190f1131",
+      "exact_match": true
+    },
+    {
+      "path": "analyses/trial_crosswalk/2026-10-21/integration-review.md",
+      "sha256": "98dcfcb200cad4631a0a4f43185e5522a202b1dbcd698dcf613047919f6c6107",
+      "exact_match": true
+    },
+    {
+      "path": "analyses/trial_crosswalk/2026-10-21/metadata-checks.json",
+      "sha256": "347f28775777e528818dbb8949e02a297e14a88bb274981621b38c7ccfe03d5f",
+      "exact_match": true
+    },
+    {
+      "path": "analyses/trial_crosswalk/2026-10-21/registry-projected-metadata.json",
+      "sha256": "b4da2850066ac5c014242082ad3afcdad9081c4a7db7adbcd5ecdd6f300be183",
+      "exact_match": true
+    },
+    {
+      "path": "analyses/trial_crosswalk/2026-10-21/report.md",
+      "sha256": "15634ca8b59a2a9ee541401020782237a640a29dcb7f046a824e81360e15105f",
+      "exact_match": true
+    },
+    {
+      "path": "analyses/trial_crosswalk/2026-10-21/retrieval-log.json",
+      "sha256": "78fa5a52f64c4524cb7e245dee9d7195399291e224c1f3f27b478471c2b8add1",
+      "exact_match": true
+    },
+    {
+      "path": "analyses/trial_crosswalk/2026-10-21/structured-extraction.json",
+      "sha256": "6344f519e669471179bfda52e818fd66344cfb302d88175138a3bba145b526f7",
+      "exact_match": true
+    },
+    {
+      "path": "evidence.jsonl",
+      "sha256": "07e30b057f6a7cb581cfc07e788dda03b73af04ff9e8cecb0d4cb359c5ab478e",
+      "exact_match": true
+    },
+    {
+      "path": "public/link-checks/2026-10-21.json",
+      "sha256": "fb72b3c3afc5a5a76365eef72e2ebeac6f48ab207e14d6f8b8cfb8eef1886083",
+      "exact_match": true
+    },
+    {
+      "path": "public/research-feed.json",
+      "sha256": "20dfc6c90b101b34d44d448a0bf40cfbfe4e4b51b6be3f812ecd28a7c8c48abd",
+      "exact_match": true
+    },
+    {
+      "path": "updates/2026-10-21/activity-review.json",
+      "sha256": "8145e01efe0dc643b7225aa7994e0c91e3967cf9485f1e9fc8828f5ff2c5b22c",
+      "exact_match": true
+    },
+    {
+      "path": "updates/2026-10-21/adjacent-evidence.jsonl",
+      "sha256": "2a5f59f2b0d6e51a788e14d26b4cde97b9eedb233fa4017e72f396a6e971e867",
+      "exact_match": true
+    },
+    {
+      "path": "updates/2026-10-21/baseline-metadata.json",
+      "sha256": "2de29185559b4874cbe5bca34b8e9a87c3825cde65b92625f7d2fd545a309917",
+      "exact_match": true
+    },
+    {
+      "path": "updates/2026-10-21/baseline-registry.json",
+      "sha256": "0dca23ee6b3e55a5ffe3108e0ef7649dcccee0e8be541c4efe5e244292da78de",
+      "exact_match": true
+    },
+    {
+      "path": "updates/2026-10-21/biorxiv-preprint-index.tsv",
+      "sha256": "8fb15d53c9a2d8b3013907bb650e1bad3fd154c5a304401e3c0fac0b4f1a3bc5",
+      "exact_match": true
+    },
+    {
+      "path": "updates/2026-10-21/build_results.py",
+      "sha256": "6e5398e1f5135708d0bb11e2ef426b5f6bafc1a5e742812b76fb6bb4028db966",
+      "exact_match": true
+    },
+    {
+      "path": "updates/2026-10-21/candidate-verification.json",
+      "sha256": "ebed5a2335c200b237ee13e92ab3523a3756f0f61aa9eb00fc33f0bd0efe5916",
+      "exact_match": true
+    },
+    {
+      "path": "updates/2026-10-21/check_links.py",
+      "sha256": "63b9782174b18778c159706d75718bcb3d1dcba3999e2d24b117902460029ab4",
+      "exact_match": true
+    },
+    {
+      "path": "updates/2026-10-21/discovery-log.json",
+      "sha256": "9b4fd0529809e6e7be5cc37fa1a75ca9a08bf0f9c697c8ed6132b1c05a6e1145",
+      "exact_match": true
+    },
+    {
+      "path": "updates/2026-10-21/feed-validation.json",
+      "sha256": "effdfbb7ebb82ac4370df402f33eb9170ebe3316293eccbc64a3c292571e3f89",
+      "exact_match": true
+    },
+    {
+      "path": "updates/2026-10-21/historical-preclinical.jsonl",
+      "sha256": "f3ded4c80ebe22f38bcdc20de02df109587853e24f893980da586d2505cf9651",
+      "exact_match": true
+    },
+    {
+      "path": "updates/2026-10-21/manifest.json",
+      "sha256": "54ce4520740fac67834e8925727d320e3c9e2f259985b86c301f89b574e38677",
+      "exact_match": true
+    },
+    {
+      "path": "updates/2026-10-21/medrxiv-preprint-index.tsv",
+      "sha256": "cc83fc428e3e1124df0c024d15cb28b01fa616efeb72fe810459a9b4a47b744c",
+      "exact_match": true
+    },
+    {
+      "path": "updates/2026-10-21/preprint-resume-log.json",
+      "sha256": "64d99d3ebbf951a02f28475a54adb813de4d512f445393879091f13926a016d9",
+      "exact_match": true
+    },
+    {
+      "path": "updates/2026-10-21/preprint-search-log.json",
+      "sha256": "0cf25fe465761d6dbea3c7642e0b6d772f1cb035e339469d2fae7b0d9c8baa7d",
+      "exact_match": true
+    },
+    {
+      "path": "updates/2026-10-21/primary-evidence.jsonl",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "exact_match": true
+    },
+    {
+      "path": "updates/2026-10-21/provenance.json",
+      "sha256": "b1d48a23462072fd3161de0acbbd924f8965a03cf663b8c4a29f47cc265d57e4",
+      "exact_match": true
+    },
+    {
+      "path": "updates/2026-10-21/publisher-date-check-initial.json",
+      "sha256": "d8c3fdbfb6b74685959a81893c1bb88ebf999fe6dcf683855d84e3792c852e80",
+      "exact_match": true
+    },
+    {
+      "path": "updates/2026-10-21/publisher-date-check.json",
+      "sha256": "bae8723323d0db50d2191b48a7a3eefaca59af0f9c667c9c4e647b74aac67053",
+      "exact_match": true
+    },
+    {
+      "path": "updates/2026-10-21/pubmed-screening.jsonl",
+      "sha256": "fdfd3f528bc6e88896d057370553f0aa89c7a5749db9e1d006dd725a81eab779",
+      "exact_match": true
+    },
+    {
+      "path": "updates/2026-10-21/registry-evidence.jsonl",
+      "sha256": "8f0822de715fcec74b5be48b11523258c1401b8df410404ee03e9253eb5437c3",
+      "exact_match": true
+    },
+    {
+      "path": "updates/2026-10-21/report.md",
+      "sha256": "7e3e045d55c4358ae868cfc0d5ff21ce50b6590fbc94aef35f5382fcfcb2ab27",
+      "exact_match": true
+    },
+    {
+      "path": "updates/2026-10-21/resume_preprints.py",
+      "sha256": "765d7141eaa929ecba8e01ab3e261affaf0794d8a039bb6c3b3c2ad022969029",
+      "exact_match": true
+    },
+    {
+      "path": "updates/2026-10-21/safety/manifest.json",
+      "sha256": "1fe7a754b3bf77599c9c48ec2e7bdaf41b245243efcb5ba39dbc341d9930eff4",
+      "exact_match": true
+    },
+    {
+      "path": "updates/2026-10-21/safety/query-ledger.json",
+      "sha256": "9983d2b96ef395ff4ece9daa34800b333fe8db4a8a62b030f70a712f4fa180bf",
+      "exact_match": true
+    },
+    {
+      "path": "updates/2026-10-21/safety/report.md",
+      "sha256": "65ad874bfe2868c56b0bd3617e988d39889d3af85ff4c65cf49ca91067fb1538",
+      "exact_match": true
+    },
+    {
+      "path": "updates/2026-10-21/safety/repository-provenance.json",
+      "sha256": "09743395921623118e5d275b79945d6ccac4ea12002f2e1945df0825d8eace99",
+      "exact_match": true
+    },
+    {
+      "path": "updates/2026-10-21/safety/source-checks.json",
+      "sha256": "c984d60f0dede3aa044421b76479275aeb899a78c4ab3b521b148f111a326750",
+      "exact_match": true
+    },
+    {
+      "path": "updates/2026-10-21/scan_sources.py",
+      "sha256": "373059a0ac638db7732eeaf3cf71aa8efe5041c43883f825481793a80f691fa6",
+      "exact_match": true
+    },
+    {
+      "path": "updates/2026-10-21/scan_supplement.py",
+      "sha256": "aed289b0c32950862638adbf12868e8f46bb8344c34044930e5053b34bb830ca",
+      "exact_match": true
+    },
+    {
+      "path": "updates/2026-10-21/search-log.json",
+      "sha256": "508a345cccb8579f78ba035435d57169d627a62e4dffe2ef4268a897f090a096",
+      "exact_match": true
+    },
+    {
+      "path": "updates/2026-10-21/secondary-screening.jsonl",
+      "sha256": "f1d05fbcd32a8f374dd9821a6841306613395e322fc0a3543f718e0694618f5c",
+      "exact_match": true
+    },
+    {
+      "path": "updates/2026-10-21/selected-candidate-checks.json",
+      "sha256": "ef02db41e4b87fc3c91ae69cd986747bef6636da590a9cd93e04531bd07044ee",
+      "exact_match": true
+    },
+    {
+      "path": "updates/2026-10-21/summary.json",
+      "sha256": "e856f42521167c5c0c6bf53003bcda4dbae12993d3c11c3bc6c1f08775697776",
+      "exact_match": true
+    },
+    {
+      "path": "updates/2026-10-21/supplement-selected-metadata.json",
+      "sha256": "8fe3c4000659ecf188ac2b3b2d317d005e31f4dfc95167ba6a44253ca79be60d",
+      "exact_match": true
+    },
+    {
+      "path": "updates/2026-10-21/validate_artifacts.py",
+      "sha256": "992226b28592fc6c58658c9afad3d3571fce52339803e868a1dfea3880facec0",
+      "exact_match": true
+    },
+    {
+      "path": "updates/2026-10-21/validation.json",
+      "sha256": "ee3a78d4a126be77927a6b28e8d90756faa13fe9bf4f73eca749e7578b19aafd",
+      "exact_match": true
+    },
+    {
+      "path": "updates/2026-10-21/verify_publisher_date.py",
+      "sha256": "5aff7ddc3d0581852a363ffbccc75985edca8009b198d6e39f484662614b636f",
+      "exact_match": true
+    },
+    {
+      "path": "updates/2026-10-21/verify_selected_candidates.py",
+      "sha256": "8c4a174b20d76bbdd9df01b1296fbe70de9aa9341e4cb965014d91ba7f1fb058",
+      "exact_match": true
+    },
+    {
+      "path": "updates/2026-10-21/integration-manifest.json",
+      "sha256": "1c4dfe5a342053b9f33c7b4a75a99b6e9bc72106f4358857f7b0779d8de672bc",
+      "exact_match": true
+    }
+  ],
+  "unrelatedExistingFilesPreserved": 495,
+  "noUnexpectedPaths": true,
+  "connectorReadback": [
+    "public/research-feed.json",
+    "analyses/trial_crosswalk/2026-10-21/report.md"
+  ],
+  "actions": {
+    "checkedAt": "2026-10-21T03:38:11.862768+00:00",
+    "id": 39539553973,
+    "head_sha": "107de0de693eb34dfbda99f7b188e7b282f59add",
+    "status": "completed",
+    "conclusion": "success",
+    "url": "https://github.com/dotjade/project-neurofreedom/actions/runs/39539553973",
+    "jobs": [
+      {
+        "name": "check",
+        "status": "completed",
+        "conclusion": "success",
+        "completed_at": "2026-10-21T03:37:14Z",
+        "steps": [
+          {
+            "name": "Set up job",
+            "conclusion": "success"
+          },
+          {
+            "name": "Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+            "conclusion": "success"
+          },
+          {
+            "name": "Run actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020",
+            "conclusion": "success"
+          },
+          {
+            "name": "Run npm ci",
+            "conclusion": "success"
+          },
+          {
+            "name": "Run npm run check",
+            "conclusion": "success"
+          },
+          {
+            "name": "Run npm run build",
+            "conclusion": "success"
+          },
+          {
+            "name": "Run npx --no-install wrangler deploy --dry-run",
+            "conclusion": "success"
+          },
+          {
+            "name": "Post Run actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020",
+            "conclusion": "success"
+          },
+          {
+            "name": "Post Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+            "conclusion": "success"
+          },
+          {
+            "name": "Complete job",
+            "conclusion": "success"
+          }
+        ]
+      },
+      {
+        "name": "deploy",
+        "status": "completed",
+        "conclusion": "success",
+        "completed_at": "2026-10-21T03:37:35Z",
+        "steps": [
+          {
+            "name": "Set up job",
+            "conclusion": "success"
+          },
+          {
+            "name": "Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+            "conclusion": "success"
+          },
+          {
+            "name": "Run actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020",
+            "conclusion": "success"
+          },
+          {
+            "name": "Check deployment credentials",
+            "conclusion": "success"
+          },
+          {
+            "name": "Run npm ci",
+            "conclusion": "success"
+          },
+          {
+            "name": "Run npm run build",
+            "conclusion": "success"
+          },
+          {
+            "name": "Publish tested revision",
+            "conclusion": "success"
+          },
+          {
+            "name": "Check public site and repository feed",
+            "conclusion": "success"
+          },
+          {
+            "name": "Post Run actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020",
+            "conclusion": "success"
+          },
+          {
+            "name": "Post Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+            "conclusion": "success"
+          },
+          {
+            "name": "Complete job",
+            "conclusion": "success"
+          }
+        ]
+      }
+    ]
+  },
+  "postPublicationLinks": [
+    {
+      "url": "https://github.com/dotjade/project-neurofreedom/blob/main/analyses/trial_crosswalk/2026-10-21/report.md",
+      "checkedAt": "2026-10-21T03:38:27.090923+00:00",
+      "status": 200,
+      "sourceHeader": null
+    },
+    {
+      "url": "https://tourette.fyi/api/public-feed",
+      "checkedAt": "2026-10-21T03:38:32.687366+00:00",
+      "accessError": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://tourette.fyi/feedback-config.json",
+      "checkedAt": "2026-10-21T03:38:35.982115+00:00",
+      "accessError": "HTTP Error 403: Forbidden"
+    }
+  ],
+  "apiBrowserReadback": {
+    "checkedAt": "2026-10-21T03:37:24Z",
+    "method": "ordinary cloud browser JSON view by independent verification worker",
+    "updatedAt": "2026-10-21T03:01:10Z",
+    "lastResearchDate": "2026-10-21",
+    "activityEditionDate": "2026-10-21",
+    "featuredActivityId": "music-or-silence",
+    "firstTitle": "Match the score and the clock.",
+    "feedbackEnabled": false,
+    "sampleSize": 0,
+    "aggregates": [],
+    "trend": [],
+    "headerInspected": false,
+    "byteEqualityClaimed": false
+  },
+  "writeRecovery": {
+    "initialCreateTree": "Interrupted after no response; no commit/ref attempted at that stage. Deterministic intended tree absent in read-only API check. Smaller tree batches succeeded; final tree matches intended exact bytes.",
+    "noSecurityOrAuthenticationChanges": true
+  },
+  "feedbackConfigBrowserReadback": {
+    "checkedAt": "2026-10-21T03:38:55Z",
+    "enabled": false,
+    "apiOrigin": null,
+    "verifiedAt": null,
+    "method": "ordinary cloud browser JSON view by independent verification worker"
+  },
+  "homepageBrowserReadback": {
+    "checkedAt": "2026-10-21T03:39:48Z",
+    "afterDocumentedCache": true,
+    "researchDate": "2026-10-21",
+    "title": "Match the score and the clock.",
+    "edition": "Repository edition",
+    "updatedAt": "2026-10-21T03:01:10Z",
+    "activity": "Familiar music, or silence",
+    "activityDate": "2026-10-21",
+    "accessErrorWarning": false,
+    "limitations": [
+      "Initial bundled October 13 edition briefly visible before current repository feed loads.",
+      "Pre-existing static next-question link still names ONLINE-TICS; current research plan is in STATUS.md. No UI source changed in this run."
+    ]
+  },
+  "recordedAt": "2026-10-21T03:40:21.261550+00:00"
+}
