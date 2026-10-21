@@ -1,0 +1,16 @@
+{
+  "checkedAt": "2026-10-21T02:51:21.227409+00:00",
+  "catalogEntries": 6,
+  "catalogSha256": "0487bc15136c23f4f6536377c4852229bf39ab878d6e6d27fbd48e53480a7cbe",
+  "result": "Preserve all six existing entries verbatim. Optional rest/skip alternatives remain explicit. No exertion target, breath holding, tic suppression, food suggestion, streak/point system or treatment claim found in catalog.",
+  "selectedActivity": "music-or-silence",
+  "selectionDate": "2026-10-21",
+  "meaning": "Dated optional leisure selection only, not clinical evidence or new intervention.",
+  "feedbackEnabled": false,
+  "feedbackConfig": {
+    "enabled": false,
+    "apiOrigin": null,
+    "verifiedAt": null
+  },
+  "notTested": "No new physical-device, narration, zoom or rendered accessibility test."
+}

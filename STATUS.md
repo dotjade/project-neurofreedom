@@ -1,6 +1,6 @@
 # Project NeuroFreedom status
 
-Updated 20 October 2026. Initial portfolio, twelve completed daily updates and two completed weekly syntheses. Public evidence repository and journal launched 13 October.
+Updated 21 October 2026. Initial portfolio, thirteen completed daily updates and two completed weekly syntheses. Public evidence repository and journal launched 13 October.
 
 ## Completed in this first pass
 
@@ -14,7 +14,7 @@ Updated 20 October 2026. Initial portfolio, twelve completed daily updates and t
 
 ## Enabled research schedules
 
-The user approved the following automatic public-science research and repository updates on 8 October 2026. Each schedule was created successfully and returned enabled status. Daily runs were completed on 9-20 October 2026; weekly syntheses were completed on 11 and 18 October; first monthly and quarterly runs remain unverified.
+The user approved the following automatic public-science research and repository updates on 8 October 2026. Each schedule was created successfully and returned enabled status. Daily runs were completed on 9-21 October 2026; weekly syntheses were completed on 11 and 18 October; first monthly and quarterly runs remain unverified.
 
 - Daily new-evidence checks: from 9 October 2026, approximately 08:00 India time.
 - Weekly synthesis: Sundays, from 11 October 2026, approximately 09:00 India time.
@@ -292,3 +292,20 @@ The feed adds a concise dated methods note. All six approved optional activities
 All 52 research/publication artifacts matched exact connector readback from commit dc546070b95ed6dc2a9b565fdb4c383458b1fc9e. Tree comparison preserved all 445 other existing files with no unexpected additions. The [Actions run](https://github.com/dotjade/project-neurofreedom/actions/runs/39362825691) passed validation, build, dry-run and deployment on attempt 1; its deployment job completed at 03:10:24 UTC.
 
 After the documented cache interval, production /api/public-feed returned HTTP 200 with X-Journal-Source: repository at 03:11:50 UTC; anonymous raw GitHub matched at 03:11:53. Both were byte-identical to the authored feed, updatedAt 2026-10-20T03:03:03Z. Research/activity date October 20, notice-one-thing, all six unchanged catalog entries and disabled feedback were verified. The new report link passed at 03:11:57; live feedback-config.json remained disabled with no API origin at 03:12:01. This verifies propagation and deployment, not new rendered-page accessibility testing. [Verification record](updates/2026-10-20/publication-verification.json).
+
+
+## Completed daily research update - 21 October 2026
+
+The [dated scan](updates/2026-10-21/report.md) screened eight PubMed records and 652 preprint DOI/version records without a new qualifying primary tic-study outcome or newly posted relevant trial result. A watched observational protocol moved its estimated start again; a newly encountered adjacent imaging study predates the prior strict cutoff and does not establish clinical targeting or efficacy. Historical preclinical and secondary evidence remain distinct. The [safety pass](updates/2026-10-21/safety/report.md) found no additional qualifying watched notice within its bounded coverage, with recall, labeling and worldwide surveillance gaps retained.
+
+The [aggregate-only NCT05371041 crosswalk](analyses/trial_crosswalk/2026-10-21/report.md) resolves definitions and denominators but stops without an efficacy calculation. Baseline metadata defines a 0-100 YGTSS including impairment, whereas the primary endpoint defines a 0-50 tic score. Equal denominators of eight do not establish comparability. The protocol separates lead implantation, later pulse-generator placement and therapy activation; the registry's DBS-initiation wording does not identify the same time zero. Safety has its own longer, non-systematically assessed window. These documentation gaps limit this project's calculation, not the validity of the study or the existence of treatment benefit.
+
+Official registry retrieval used server-projected fields excluding participant measurement classes. No individual rows were retained, reconstructed or analyzed, no efficacy estimate was computed and no clinical intervention or outreach occurred. Eighteen metadata/boundary checks passed; they are not statistical hypothesis tests or clinical peer review.
+
+### Next bounded decision
+
+Close this fixed crosswalk absent public aggregate clarification of constructs, clocks and estimator. Next audit the already named Okun et al. 2024 report (PMID 38499664, DOI 10.1038/s41598-024-57071-5, NCT02056873): distinguish blinded within-visit stimulation-state contrasts, longitudinal baseline comparisons and MOS-36 functional outcomes. Check measure versions, recall/assessment windows, aggregate denominators, uncertainty and safety timing. Preserve same-cohort overlap with Cagle 2022. The earlier October 11 resource audit does not complete this clinical/function estimand audit. Stop if lawful public aggregates cannot establish a compatible functional contrast; do not reconstruct individuals or reopen generic cohort searches.
+
+### Public journal
+
+The dated feed note distinguishes historical documentation analysis from a scan without a new qualifying clinical result. All six optional activities are unchanged, with music-or-silence selected. Voting, comments and health-outcome collection remain disabled in source. Thirteen existing repository links and two finding sources were retrievable; Pappert remains HTTP 403 access-limited, not established broken. Ordinary production API retrieval was access-limited during preparation; source and live publication verification will be recorded only after actual readback. No deployment configuration or security setting was changed.

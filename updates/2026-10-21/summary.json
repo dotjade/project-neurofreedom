@@ -1,0 +1,36 @@
+{
+  "date": "2026-10-21",
+  "prior_cutoff_utc": "2026-10-20T02:53:17Z",
+  "overlap_inclusive": [
+    "2026-10-19",
+    "2026-10-21"
+  ],
+  "api_started_utc": "2026-10-21T02:50:26.582445+00:00",
+  "final_main_api_cutoff_utc": "2026-10-21T02:57:34.629924+00:00",
+  "web_discovery_end_bracket_utc": "2026-10-21T02:53:54Z",
+  "pubmed_id_occurrences": 11,
+  "pubmed_unique_records": 8,
+  "pubmed_prior_overlap": 5,
+  "new_qualifying_primary_tic_study_outcomes": 0,
+  "adjacent_primary_studies_newly_encountered": 1,
+  "historical_preclinical_studies_newly_encountered": 1,
+  "preprint_doi_version_records": 652,
+  "preprint_lexical_matches": 0,
+  "preprint_complete_observed_totals": true,
+  "ctgov_query_occurrences": 2,
+  "ctgov_unique_window_records": 1,
+  "new_registry_postings": 1,
+  "new_registry_results": 0,
+  "isrctn_window_total": 0,
+  "isrctn_positive_control_total": 22,
+  "preprint_recovery": "Initial baseline version_index KeyError prevented feed requests. TSV baseline restored; first feed pass timed out at cursor 60 for both; resume uses longer timeout and logs every attempt.",
+  "limitations": [
+    "Early-day overlapping surveillance, not continuous or exhaustive.",
+    "No age/severity restriction; explicit adult severe burden/comorbidity/negative-result query. No result means evidence gap, not absence of burden or efficacy.",
+    "PubMed publication/entry/modification and registry posting dates differ; newly encountered does not mean newly published.",
+    "Preprint lexical screen can miss synonyms; other servers not comprehensively enumerated.",
+    "WHO query export unavailable; CTIS SPA returns no interpreted protocol record; national/worldwide registry coverage incomplete.",
+    "Full registry history and comprehensive publisher/Crossmark clearance not performed.",
+    "No participant data, stories, full abstracts or papers retained; original summaries and public metadata only."
+  ]
+}

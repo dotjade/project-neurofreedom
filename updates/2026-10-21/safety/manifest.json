@@ -1,0 +1,31 @@
+{
+  "validatedAt": "2026-10-21T02:55:52.218453+00:00",
+  "checks": [
+    "16 exact queries verified",
+    "56 cards each have disposition",
+    "18 source checks verified",
+    "No raw source snapshots or individual adverse-event narratives retained"
+  ],
+  "files": [
+    {
+      "file": "query-ledger.json",
+      "bytes": 22725,
+      "sha256": "9983d2b96ef395ff4ece9daa34800b333fe8db4a8a62b030f70a712f4fa180bf"
+    },
+    {
+      "file": "report.md",
+      "bytes": 5161,
+      "sha256": "65ad874bfe2868c56b0bd3617e988d39889d3af85ff4c65cf49ca91067fb1538"
+    },
+    {
+      "file": "repository-provenance.json",
+      "bytes": 1541,
+      "sha256": "09743395921623118e5d275b79945d6ccac4ea12002f2e1945df0825d8eace99"
+    },
+    {
+      "file": "source-checks.json",
+      "bytes": 12140,
+      "sha256": "c984d60f0dede3aa044421b76479275aeb899a78c4ab3b521b148f111a326750"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "request": {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=41220182,41794658,42896917&retmode=xml",
+    "started_utc": "2026-10-21T02:51:56.574336+00:00",
+    "status": 200,
+    "bytes": 55187,
+    "sha256": "b62af8908596754fa63cbf7bbcdf24e057308ee0e4b4cdef0c48da7688a6edae",
+    "completed_utc": "2026-10-21T02:52:03.942773+00:00"
+  },
+  "records": [
+    {
+      "pmid": "41220182",
+      "title": "Modulatory Effects of Jujuboside A on Amino Acid Neurotransmitter Profiles in Tic Disorder.",
+      "authors": [
+        "Fei Fan",
+        "Si Zhang",
+        "Hongwei Wu",
+        "Meiyu Zhang",
+        "Fei Han"
+      ],
+      "abstract_available": true,
+      "abstract_retained": false,
+      "conflict_statement": "The authors declare no conflicts of interest."
+    },
+    {
+      "pmid": "41794658",
+      "title": "Psychiatric comorbidity in functional tics: a scoping review.",
+      "authors": [
+        "Michael N Nemeh",
+        "Peggy Tahir",
+        "Matthew E Hirschtritt",
+        "Raj K Kalapatapu"
+      ],
+      "abstract_available": true,
+      "abstract_retained": false,
+      "conflict_statement": "Declarations. Ethics approval and consent to participate: Not applicable. Consent for Publication: Not applicable. Competing interests: The authors declare no competing interests."
+    },
+    {
+      "pmid": "42896917",
+      "title": "Quantitative Susceptibility Mapping of the Centromedian Nucleus and Indirect Comparison with Alternate Sequences.",
+      "authors": [
+        "Mohammed A Rasheed",
+        "Vivian Nguyen",
+        "Megan V Ryan",
+        "Steven G Ojemann",
+        "Daniel R Kramer",
+        "John A Thompson",
+        "Issam A Awad",
+        "David Satzer"
+      ],
+      "abstract_available": true,
+      "abstract_retained": false,
+      "conflict_statement": null
+    }
+  ]
+}

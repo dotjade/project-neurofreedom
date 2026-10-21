@@ -1,0 +1,347 @@
+{
+  "checkDate": "2026-10-21",
+  "windowStart": "2026-10-20T02:53:04.118877Z",
+  "windowEnd": "2026-10-21T02:52:58.744651Z",
+  "dateRule": "Overlap search strings use after:2026-10-19 before:2026-10-22. Only evidence actually available by last retrieval may qualify; October 21 end-of-day/future notices not inferred. Source publication/update date governs inclusion, not search crawl age, URL tracking timestamps, expiry dates, or page footer.",
+  "queryCount": 16,
+  "resultCardsScreened": 56,
+  "countNote": "Returned search cards, not independent events or engine total. Batch output does not support per-query attribution. No cards from Health Canada were returned in these broad batches; this is not proof of no Canadian notices. Official index checked independently.",
+  "batches": [
+    {
+      "id": 1,
+      "startedAt": "2026-10-21T02:50:18.984Z",
+      "queries": [
+        "site:fda.gov (Tourette OR ecopipam OR aripiprazole OR risperidone OR pimozide OR haloperidol) (safety OR recall OR warning) after:2026-10-19 before:2026-10-22",
+        "site:ema.europa.eu (Tourette OR ecopipam OR aripiprazole OR risperidone OR pimozide OR haloperidol OR guanfacine) after:2026-10-19 before:2026-10-22",
+        "site:gov.uk (Tourette OR ecopipam OR aripiprazole OR risperidone OR pimozide OR haloperidol OR guanfacine) (safety OR recall OR warning) after:2026-10-19 before:2026-10-22",
+        "site:fda.gov (clonidine OR guanfacine OR valbenazine OR deutetrabenazine OR tetrabenazine) (safety OR recall OR warning) after:2026-10-19 before:2026-10-22"
+      ],
+      "resultCardsScreened": 18,
+      "perQueryCountsAvailable": false,
+      "screenedCards": [
+        {
+          "title": "Recalls, Market Withdrawals, & Safety Alerts | FDA",
+          "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts?search_api_fulltext=Direct+Rx",
+          "decision": "Index page; not a dated watched-product notice; unfiltered current indexes checked separately."
+        },
+        {
+          "title": "Alerts, recalls and safety information: medicines and medical devices - GOV.UK",
+          "url": "https://www.gov.uk/drug-device-alerts",
+          "decision": "Index page; retrieved directly to avoid stale search snippet."
+        },
+        {
+          "title": "Safety Public Assessment Reports - GOV.UK",
+          "url": "https://www.gov.uk/guidance/safety-public-assessment-reports",
+          "decision": "Last source update October 15; before the window."
+        },
+        {
+          "title": "Class 2 Device Recall VANTAGE TITAN 3T",
+          "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfres/res.cfm?id=217629",
+          "decision": "Historical January 2026 imaging recall; outside watched therapeutic-device scope."
+        },
+        {
+          "title": "Class 2 Device Recall DEX Ophthalmic Tissue Forceps",
+          "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfRes/res.cfm?ID=219460",
+          "decision": "Historical May 2026 ophthalmic device recall; outside scope."
+        },
+        {
+          "title": "Class 2 Device Recall Diasol Liquid Concentrate",
+          "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfRes/res.cfm?id=217478",
+          "decision": "Historical December 2025 dialysis concentrate recall; outside scope."
+        },
+        {
+          "title": "Aripiprazole (Abilify and generic brands): risk of pathological gambling - GOV.UK",
+          "url": "https://www.gov.uk/drug-safety-update/aripiprazole-abilify-and-generic-brands-risk-of-pathological-gambling?UNLID=51955836420261018102845",
+          "decision": "December 2023 communication; URL tracking timestamp is not publication."
+        },
+        {
+          "title": "Class 1 Device Recall MAGNETOM systems",
+          "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfRes/res.cfm?id=215864",
+          "decision": "Historical imaging-system recall; outside scope."
+        },
+        {
+          "title": "Class 2 Device Recall Medline",
+          "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfRes/res.cfm?id=203772",
+          "decision": "Historical manual resuscitator recall; outside scope."
+        },
+        {
+          "title": "Class 2 Device Recall Intrapulmonary Percussive Ventilation, IPV HC, Product Number: S00009; Phasitron, P5HC",
+          "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfRes/res.cfm?id=222261",
+          "decision": "Historical ventilator recall; outside scope."
+        },
+        {
+          "title": "Class 2 Device Recall VERICIS",
+          "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfRes/res.cfm?id=212599",
+          "decision": "Historical cardiovascular archive software recall; outside scope."
+        },
+        {
+          "title": "Abilify | European Medicines Agency (EMA)",
+          "url": "https://www.ema.europa.eu/ga/medicines/human/EPAR/abilify",
+          "decision": "Historical EPAR context; no new-window notice established."
+        },
+        {
+          "title": "# Selected Requirements of Prescribing Information",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2017/761055Orig1s000OtherR.pdf",
+          "decision": "Historical 2017 regulatory labeling/review material; incidental match."
+        },
+        {
+          "title": "patients at increased risk of serious infections or patients with history of malignancies) may limit their use.",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2023/761262Orig1s000RiskR.pdf",
+          "decision": "Historical 2023 unrelated regulatory review; incidental match."
+        },
+        {
+          "title": "Regulatory document search excerpt (206321Orig1s000ClinPharmR.pdf)",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2014/206321Orig1s000ClinPharmR.pdf",
+          "decision": "Historical 2014 liraglutide review; unrelated."
+        },
+        {
+          "title": "7.6  DRUG UTILIZATION TABLES",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2021/213378Orig1Orig2s000OtherR.pdf",
+          "decision": "Historical 2021 drug-utilization tables; no new-window notice."
+        },
+        {
+          "title": "NSAIDs are often essential agents in the m",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/anda/98/74978ap.pdf",
+          "decision": "Historical ibuprofen regulatory material; unrelated."
+        },
+        {
+          "title": "Regulatory document search excerpt (021660Orig1s010.pdf)",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2007/021660Orig1s010.pdf",
+          "decision": "Historical 2007 paclitaxel labeling; unrelated."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "startedAt": "2026-10-21T02:50:28.974Z",
+      "queries": [
+        "(site:ema.europa.eu OR site:gov.uk) (clonidine OR guanfacine OR valbenazine OR deutetrabenazine OR tetrabenazine OR ecopipam) (safety OR recall OR warning) after:2026-10-19 before:2026-10-22",
+        "(site:fda.gov OR site:gov.uk OR site:ema.europa.eu) (Neupulse OR \"median nerve stimulation\" OR NeuroStar OR \"deep brain stimulation\" OR \"transcranial magnetic\") (recall OR safety) after:2026-10-19 before:2026-10-22",
+        "(site:fda.gov OR site:gov.uk OR site:ema.europa.eu) (topiramate OR Topamax OR \"botulinum toxin\" OR tiapride) (safety OR recall OR warning) after:2026-10-19 before:2026-10-22",
+        "(site:fda.gov OR site:gov.uk OR site:ema.europa.eu) (methylphenidate OR atomoxetine OR lisdexamfetamine OR fluvoxamine OR sertraline OR antidepressants) (safety OR recall OR warning) after:2026-10-19 before:2026-10-22"
+      ],
+      "resultCardsScreened": 12,
+      "perQueryCountsAvailable": false,
+      "screenedCards": [
+        {
+          "title": "Class 2 Medicines Recall: Amarox Limited, Sertraline 100mg film-coated tablets, EL(26)A/22 - GOV.UK",
+          "url": "https://www.gov.uk/drug-device-alerts/class-2-medicines-recall-amarox-limited-sertraline-100mg-film-coated-tablets-el-26-a-slash-22",
+          "decision": "April 28 sertraline packaging recall; before the window; no individual narrative retained."
+        },
+        {
+          "title": "UKHSA Advisory Board: Chief Executive's Report - GOV.UK",
+          "url": "https://www.gov.uk/government/publications/ukhsa-advisory-board-meeting-papers-for-september-2025/ukhsa-advisory-board-chief-executives-report",
+          "decision": "Historical 2025 UKHSA report; not new-window."
+        },
+        {
+          "title": "Alerts, recalls and safety information: medicines and medical devices - GOV.UK",
+          "url": "https://www.gov.uk/drug-device-alerts?alert_type=field-safety-notices",
+          "decision": "Index variant; current unfiltered index checked separately."
+        },
+        {
+          "title": "MHRA crackdown on illegal ‘Botox’ after victims left seriously ill - GOV.UK",
+          "url": "https://www.gov.uk/government/news/mhra-crackdown-on-illegal-botox-after-victims-left-seriously-ill",
+          "decision": "August/September 2025 enforcement notice; historical."
+        },
+        {
+          "title": "Replacing animals in science: A strategy to support the development, validation and uptake of alternative methods - GOV.UK",
+          "url": "https://www.gov.uk/government/publications/replacing-animals-in-science-strategy/replacing-animals-in-science-a-strategy-to-support-the-development-validation-and-uptake-of-alternative-methods",
+          "decision": "Research-policy strategy, not a new product-risk notice."
+        },
+        {
+          "title": "UK WDA(H) 15108 | MHRA",
+          "url": "https://cms.mhra.gov.uk/mhra/wda/uk-wdah-15108",
+          "decision": "Wholesale distribution authorization, not safety signal."
+        },
+        {
+          "title": "Freedom of Information Request | Barnet Council",
+          "url": "https://www.barnet.gov.uk/foi-requests/17608340",
+          "decision": "Local FOI request, not regulator notice; excluded."
+        },
+        {
+          "title": "FOI Request - Non Surgical Cosmetic Procedures",
+          "url": "https://www.moray.gov.uk/information-governance-access-to-information-requests/foi-requests-responses/foi-requests-by-month-2025/foi-request-non-surgical-cosmetic-procedures/",
+          "decision": "Local FOI response, not regulator notice; excluded without retaining case content."
+        },
+        {
+          "title": "MHRA Safety Roundup: September 2025 - GOV.UK",
+          "url": "https://www.gov.uk/drug-device-alerts/mhra-safety-roundup-september-2025?es_c=E210ECAD7E32026141BF38FB2CB5F6DC&es_cl=55D99BABD416E417FE57963C57EBA65E&es_id=y77%C2%A3o2",
+          "decision": "Historical September 2025 roundup."
+        },
+        {
+          "title": "Official Reports",
+          "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?docID=419470&eveDate=2024-12-02",
+          "decision": "Historical parliamentary proceedings, not a regulator notice."
+        },
+        {
+          "title": "Regulatory document search excerpt (the-impact-of-body-image-on-mental-and-physical-health-government-response-to-the-house-of-commons-health-and-social-care-committees-second-report-o)",
+          "url": "https://www.gov.uk/government/publications/the-impact-of-body-image-on-mental-and-physical-health-government-response/the-impact-of-body-image-on-mental-and-physical-health-government-response-to-the-house-of-commons-health-and-social-care-committees-second-report-o",
+          "decision": "Historical government response, not a new regulator notice."
+        },
+        {
+          "title": "Misfiled items - The National Archives",
+          "url": "https://www.nationalarchives.gov.uk/about-us/how-we-work/transparency/misfiled-items/",
+          "decision": "National Archives administrative page; incidental recall-word match."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "startedAt": "2026-10-21T02:50:40.342Z",
+      "queries": [
+        "site:tga.gov.au (Tourette OR ecopipam OR aripiprazole OR risperidone OR pimozide OR haloperidol OR clonidine OR guanfacine OR valbenazine OR deutetrabenazine OR tetrabenazine) (recall OR safety OR warning) after:2026-10-19 before:2026-10-22",
+        "(site:recalls-rappels.canada.ca OR site:canada.ca) (Tourette OR ecopipam OR aripiprazole OR risperidone OR pimozide OR haloperidol OR clonidine OR guanfacine OR valbenazine OR deutetrabenazine OR tetrabenazine) (recall OR safety OR warning) after:2026-10-19 before:2026-10-22",
+        "(site:tga.gov.au OR site:recalls-rappels.canada.ca OR site:canada.ca) (Neupulse OR NeuroStar OR \"median nerve stimulation\" OR \"deep brain stimulation\" OR \"transcranial magnetic\" OR topiramate OR \"botulinum toxin\" OR tiapride) (recall OR safety OR warning) after:2026-10-19 before:2026-10-22",
+        "(site:tga.gov.au OR site:recalls-rappels.canada.ca OR site:canada.ca) (methylphenidate OR atomoxetine OR lisdexamfetamine OR fluvoxamine OR sertraline OR antidepressants) (recall OR safety OR warning) after:2026-10-19 before:2026-10-22"
+      ],
+      "resultCardsScreened": 12,
+      "perQueryCountsAvailable": false,
+      "screenedCards": [
+        {
+          "title": "Understanding listed medicines compliance reviews | Therapeutic Goods Administration (TGA)",
+          "url": "https://www.tga.gov.au/resources/guidance/understanding-listed-medicines-compliance-reviews",
+          "decision": "General compliance guidance last updated June 22, 2026."
+        },
+        {
+          "title": "Report an adverse event or safety problem | Therapeutic Goods Administration (TGA)",
+          "url": "https://www.tga.gov.au/safety/report-problem/report-adverse-event-or-safety-problem",
+          "decision": "General reporting guidance last updated September 2; search published-yesterday label misleading."
+        },
+        {
+          "title": "What to do if your medicine or medical device is recalled | Therapeutic Goods Administration (TGA)",
+          "url": "https://www.tga.gov.au/safety/recalls-and-other-market-actions/what-do-if-your-medicine-or-medical-device-recalled",
+          "decision": "General recall guidance last updated October 3, 2025; recent search metadata not source publication."
+        },
+        {
+          "title": "Database of Recalls, Product Alerts and Product Corrections",
+          "url": "https://apps.tga.gov.au/PROD/DRAC/arn-entry.aspx",
+          "decision": "Search form only. No executed product/date result set. Official database discloses two-day publication lag."
+        },
+        {
+          "title": "Procedure for recalls, product alerts and product corrections (PRAC) | Therapeutic Goods Administration (TGA)",
+          "url": "https://www.tga.gov.au/safety/recalls-and-other-market-actions/procedure-recalls-product-alerts-and-product-corrections-prac",
+          "decision": "General procedural guidance last updated February 24, 2026."
+        },
+        {
+          "title": "How to search the Database of Adverse Event Notifications (DAEN): medicines | Therapeutic Goods Administration (TGA)",
+          "url": "https://www.tga.gov.au/safety/adverse-events/medicine-adverse-events/how-search-database-adverse-event-notifications-daen-medicines",
+          "decision": "Database-use guidance last updated February 9; not a new risk notice. No individual reports analyzed."
+        },
+        {
+          "title": "Medicines Safety Update, Volume 8, Number 1, February 2017 | Therapeutic Goods Administration (TGA)",
+          "url": "https://www.tga.gov.au/news/safety-updates/medicines-safety-update-volume-8-number-1-february-2017",
+          "decision": "Historical February 2017 aripiprazole safety update."
+        },
+        {
+          "title": "Medicine Shortages Information Initiative | Therapeutic Goods Administration (TGA)",
+          "url": "https://apps.tga.gov.au/Prod/msi/search",
+          "decision": "Supply-status database; displayed watched product examples had historical updates; not a new material safety notice. No exhaustive ingredient enumeration."
+        },
+        {
+          "title": "Procedure for recalls, product alerts and product corrections (PRAC) - Questions and answers | Therapeutic Goods Administration (TGA)",
+          "url": "https://www.tga.gov.au/safety/recalls-and-other-market-actions/procedure-recalls-product-alerts-and-product-corrections-prac/procedure-recalls-product-alerts-and-product-corrections-prac-questions-and-answers",
+          "decision": "General procedural FAQ last updated July 14; not a product-risk notice."
+        },
+        {
+          "title": "Pharmacovigilance Inspection Program | Therapeutic Goods Administration (TGA)",
+          "url": "https://www.tga.gov.au/safety/safety-monitoring-and-information/medicine-monitoring-guidelines-and-safety-reviews/pharmacovigilance-inspection-program",
+          "decision": "General pharmacovigilance guidance last updated June 2; not a new risk notice."
+        },
+        {
+          "title": "How we manage your medicines adverse event reports | Therapeutic Goods Administration (TGA)",
+          "url": "https://www.tga.gov.au/safety/adverse-events/medicine-adverse-events/how-we-manage-your-medicines-adverse-event-reports",
+          "decision": "General reporting-process guidance last updated October 1, 2025."
+        },
+        {
+          "title": "Use of legislative powers related to recalls and other market actions | Therapeutic Goods Administration (TGA)",
+          "url": "https://www.tga.gov.au/resources/guidance/use-legislative-powers-related-recalls-and-other-market-actions",
+          "decision": "General legislative-powers guidance published February 24; not a product-risk notice."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "startedAt": "2026-10-21T02:50:49.582Z",
+      "queries": [
+        "site:recalls-rappels.canada.ca \"2026\" (aripiprazole OR risperidone OR guanfacine OR \"deep brain\")",
+        "site:recalls-rappels.canada.ca \"October 20, 2026\"",
+        "site:tga.gov.au \"20 October 2026\" (safety OR recall OR warning)",
+        "site:fda.gov \"October 20, 2026\" (safety OR recall OR labeling)"
+      ],
+      "resultCardsScreened": 14,
+      "perQueryCountsAvailable": false,
+      "screenedCards": [
+        {
+          "title": "FDA Issues Final Guidance on Prescription Drug Apps and Software | FDA",
+          "url": "https://www.fda.gov/news-events/press-announcements/fda-issues-final-guidance-prescription-drug-apps-and-software",
+          "decision": "October 20 software/labeling policy guidance; no watched-product signal."
+        },
+        {
+          "title": "CDRH New - News and Updates | FDA",
+          "url": "https://www.fda.gov/medical-devices/medical-devices-news-and-events/cdrh-new-news-and-updates",
+          "decision": "October 20 index updates screened separately; no watched therapy named."
+        },
+        {
+          "title": "Import Alert for Certain Olympus Medical Devices Manufactured in Japan - Letter to Health Care Providers | FDA",
+          "url": "https://www.fda.gov/medical-devices/letters-health-care-providers/import-alert-certain-olympus-medical-devices-manufactured-japan-letter-health-care-providers",
+          "decision": "October 20 Olympus endoscope/import-alert update; outside watched therapies."
+        },
+        {
+          "title": "FDA Approves Once-Weekly Generic Hormone Therapy Patch for Women | FDA",
+          "url": "https://www.fda.gov/news-events/press-announcements/fda-approves-once-weekly-generic-hormone-therapy-patch-women",
+          "decision": "October 20 menopausal hormone approval; unrelated."
+        },
+        {
+          "title": "FDA Approves First-of-Its-Kind Chronic Hepatitis B Treatment | FDA",
+          "url": "https://www.fda.gov/news-events/press-announcements/fda-approves-first-its-kind-chronic-hepatitis-b-treatment",
+          "decision": "October 20 hepatitis B approval; unrelated."
+        },
+        {
+          "title": "Andrographis recalls: Concerns over allergy risk | Therapeutic Goods Administration (TGA)",
+          "url": "https://www.tga.gov.au/safety/recalls-and-other-market-actions/market-actions/andrographis-recalls-concerns-over-allergy-risk",
+          "decision": "Published October 1 and updated October 20; Andrographis outside watched therapies."
+        },
+        {
+          "title": "FDA Approves Ready-to-Use Cefovecin Injectable for Treatment of Certain Skin Infections in Dogs | FDA",
+          "url": "https://www.fda.gov/animal-veterinary/cvm-updates/fda-approves-ready-use-cefovecin-injectable-treatment-certain-skin-infections-dogs",
+          "decision": "Veterinary cefovecin approval; outside scope."
+        },
+        {
+          "title": "Aflivu and Ahzantive (aflibercept) | Therapeutic Goods Administration (TGA)",
+          "url": "https://www.tga.gov.au/resources/auspmd/aflivu-and-ahzantive-aflibercept",
+          "decision": "Aflibercept assessment/approval; outside watched therapies."
+        },
+        {
+          "title": "What's New Related to Drugs | FDA",
+          "url": "https://www.fda.gov/drugs/news-events-human-drugs/whats-new-related-drugs",
+          "decision": "Drug news index; no qualifying watched notice established from returned cards."
+        },
+        {
+          "title": "Wainua | Therapeutic Goods Administration (TGA)",
+          "url": "https://www.tga.gov.au/resources/auspar/wainua",
+          "decision": "Unrelated eplontersen assessment page."
+        },
+        {
+          "title": "Prescription medicines | Therapeutic Goods Administration (TGA)",
+          "url": "https://www.tga.gov.au/products/medicines/prescription-medicines",
+          "decision": "General prescription-medicine guidance; no risk notice."
+        },
+        {
+          "title": "Funding Opportunities for Rare Disease Research | FDA",
+          "url": "https://www.fda.gov/industry/grant-programs-support-development-medical-products-rare-diseases/funding-opportunities-rare-disease-research",
+          "decision": "Funding opportunity page; no product-risk notice."
+        },
+        {
+          "title": "Approval Letter_125360Orig1s107ltr.pdf",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2026/125360Orig1s107ltr.pdf",
+          "decision": "Historical/supplemental approval letter; no qualifying watched signal established."
+        },
+        {
+          "title": "October 8, 2026 Clinical Review Memo - EVARREST",
+          "url": "https://www.fda.gov/media/195804/download?attachment=",
+          "decision": "EVARREST regulatory review; outside watched therapies."
+        }
+      ]
+    }
+  ]
+}

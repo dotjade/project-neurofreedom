@@ -1,0 +1,245 @@
+{
+  "date": "2026-10-21",
+  "note": "Web results are discovery leads only. Tool does not expose exact query timestamp or per-query counts when batching. Times are observed call brackets; not source API timestamps. Original summaries only; no source text retained.",
+  "batches": [
+    {
+      "start_bracket_utc": "2026-10-21T02:50:27Z",
+      "end_bracket_utc": "2026-10-21T02:50:43Z",
+      "queries": [
+        {
+          "q": "(Tourette OR \"tic disorder\") (trial OR adult OR severe OR treatment OR pain OR comorbidity) after:2026-10-19 before:2026-10-22",
+          "domains": [
+            "pubmed.ncbi.nlm.nih.gov",
+            "medrxiv.org",
+            "biorxiv.org"
+          ]
+        },
+        {
+          "q": "(Tourette OR \"tic disorder\") (randomized OR placebo OR adverse OR negative OR retraction) after:2026-10-19 before:2026-10-22",
+          "domains": [
+            "jamanetwork.com",
+            "thelancet.com",
+            "nejm.org",
+            "bmj.com",
+            "nature.com",
+            "movementdisorders.onlinelibrary.wiley.com"
+          ]
+        },
+        {
+          "q": "(Tourette OR \"tic disorder\" OR ecopipam OR gemlapodect) after:2026-10-19 before:2026-10-22",
+          "domains": [
+            "clinicaltrials.gov",
+            "isrctn.com",
+            "euclinicaltrials.eu",
+            "trialsearch.who.int"
+          ]
+        }
+      ],
+      "results": [
+        {
+          "title": "Behavior Therapy for Children With Tourette Disorder: A Randomized Controlled Trial | Adolescent Medicine | JAMA | JAMA Network",
+          "url": "https://jamanetwork.com/journals/jama/fullarticle/185896",
+          "decision": "Historical tic trial, protocol, registry cohort report or preprint; recent crawl does not establish new publication/version."
+        },
+        {
+          "title": "Tourette syndrome.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42850293/",
+          "decision": "Secondary review; not a newly verified primary result."
+        },
+        {
+          "title": "Randomized Trial of Behavior Therapy for Adults With Tourette Syndrome | Genetics and Genomics | JAMA Psychiatry | JAMA Network",
+          "url": "https://jamanetwork.com/journals/jamapsychiatry/fullarticle/1307556",
+          "decision": "Historical tic trial, protocol, registry cohort report or preprint; recent crawl does not establish new publication/version."
+        },
+        {
+          "title": "A double-blind, sham-controlled, trial of home-administered rhythmic 10Hz median nerve stimulation for the reduction of tics, and suppression of the urge-to-tic, in individuals with Tourette syndrome and chronic tic disorder | medRxiv",
+          "url": "https://www.medrxiv.org/content/10.1101/2023.03.06.23286799v1.full",
+          "decision": "Historical tic trial, protocol, registry cohort report or preprint; recent crawl does not establish new publication/version."
+        },
+        {
+          "title": "Contemporary Perspectives on Neurobiology and Treatment of Tic Disorders: A Narrative Review - PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42389056/",
+          "decision": "Secondary review; not a newly verified primary result."
+        },
+        {
+          "title": "Efficacy and Safety of Deep Brain Stimulation in Tourette Syndrome: The International Tourette Syndrome Deep Brain Stimulation Public Database and Registry | Neurology | JAMA Neurology | JAMA Network",
+          "url": "https://jamanetwork.com/journals/jamaneurology/fullarticle/2669923",
+          "decision": "Historical tic trial, protocol, registry cohort report or preprint; recent crawl does not establish new publication/version."
+        },
+        {
+          "title": "Abdominal Tics in Children and Adolescents: A Phenomenology-First Diagnostic Framework and Differential Diagnosis.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42888480/",
+          "decision": "Diagnostic framework lead, not a verified new-window primary outcome."
+        },
+        {
+          "title": "Tics and Tourette Syndrome | Neurology | JAMA | JAMA Network",
+          "url": "https://jamanetwork.com/journals/jama/fullarticle/2618623",
+          "decision": "Historical tic trial, protocol, registry cohort report or preprint; recent crawl does not establish new publication/version."
+        },
+        {
+          "title": "CYP2D6-Guided Opioid Therapy for Chronic Pain: A Multi-Center Pragmatic Randomized Controlled Trial.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42878248/",
+          "decision": "Different disorder/population; outside tic-specific scan."
+        },
+        {
+          "title": "An Internet-Based Cognitive-Behavioral Program, With Telephone Support, Improves Pain, Disability and Emotional Well-Being in Adults With Chronic Pain: Randomized Controlled Trial of the Pain Course With 2-Year Follow-Up.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42528312/",
+          "decision": "Different disorder/population; outside tic-specific scan."
+        },
+        {
+          "title": "Neurology | JAMA Network",
+          "url": "https://jamanetwork.com/collections/5777/neurology?fl_Categories=Neurology&fl_ContentType=Article&page=14",
+          "decision": "Collection index, not primary evidence."
+        },
+        {
+          "title": "Testing peripheral and central therapies for provoked vestibulodynia: results from the UPDATe trial.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42857927/",
+          "decision": "Different disorder/population; outside tic-specific scan."
+        },
+        {
+          "title": "Targeted Interventions in Tourette’s using Advanced Neuroimaging and Stimulation (TITANS): study protocol for a double-blind, randomised controlled trial of transcranial magnetic stimulation (TMS) to the supplementary motor area in children with Tourette’s syndrome",
+          "url": "https://bmjopen.bmj.com/content/bmjopen/11/12/e053156.full.pdf",
+          "decision": "Historical tic trial, protocol, registry cohort report or preprint; recent crawl does not establish new publication/version."
+        },
+        {
+          "title": "Two Phase 3 Trials of Adalimumab for Hidradenitis Suppurativa",
+          "url": "https://www.nejm.org/doi/pdf/10.1056/NEJMoa1504370?download=true",
+          "decision": "Different disorder/population; outside tic-specific scan."
+        }
+      ],
+      "result_entries": 14
+    },
+    {
+      "start_bracket_utc": "2026-10-21T02:51:56Z",
+      "end_bracket_utc": "2026-10-21T02:52:08Z",
+      "queries": [
+        {
+          "q": "\"Quantitative Susceptibility Mapping of the Centromedian Nucleus\"",
+          "domains": [
+            "ajnr.org",
+            "pubmed.ncbi.nlm.nih.gov"
+          ]
+        },
+        {
+          "q": "\"Tourette\" \"October 20, 2026\" study",
+          "domains": [
+            "pubmed.ncbi.nlm.nih.gov",
+            "medrxiv.org",
+            "biorxiv.org",
+            "clinicaltrials.gov"
+          ]
+        },
+        {
+          "q": "\"Tourette\" \"October 21, 2026\" study",
+          "domains": [
+            "pubmed.ncbi.nlm.nih.gov",
+            "medrxiv.org",
+            "biorxiv.org",
+            "clinicaltrials.gov"
+          ]
+        }
+      ],
+      "results": [
+        {
+          "title": "Imaging the Centromedian Thalamic Nucleus Using Quantitative Susceptibility Mapping - PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/31998098/",
+          "decision": "Historical or different-topic imaging lead, not the exact new candidate; no qualifying new-window tic outcome established."
+        },
+        {
+          "title": "Frameless Robot-Assisted Asleep Centromedian Thalamic Nucleus Deep Brain Stimulation Surgery in Patients with Drug-Resistant Epilepsy: Technical Description and Short-Term Clinical Results.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/36892782/",
+          "decision": "Historical or different-topic imaging lead, not the exact new candidate; no qualifying new-window tic outcome established."
+        },
+        {
+          "title": "Quantitative susceptibility mapping of human brain reflects spatial variation in tissue composition - PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/21224002/",
+          "decision": "Historical or different-topic imaging lead, not the exact new candidate; no qualifying new-window tic outcome established."
+        },
+        {
+          "title": "Visualizing the deep cerebellar nuclei using quantitative susceptibility mapping: An application in healthy controls, Parkinson's disease patients and essential tremor patients - PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/36502376/",
+          "decision": "Historical or different-topic imaging lead, not the exact new candidate; no qualifying new-window tic outcome established."
+        },
+        {
+          "title": "Suitable reference tissues for quantitative susceptibility mapping of the brain - PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/27529579/",
+          "decision": "Historical or different-topic imaging lead, not the exact new candidate; no qualifying new-window tic outcome established."
+        },
+        {
+          "title": "Quantitative Susceptibility Mapping of Brain Iron Relating to Cognitive Impairment in Hypertension - PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/34989062/",
+          "decision": "Historical or different-topic imaging lead, not the exact new candidate; no qualifying new-window tic outcome established."
+        },
+        {
+          "title": "Quantitative susceptibility mapping of the midbrain in Parkinson's disease - PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/26362242/",
+          "decision": "Historical or different-topic imaging lead, not the exact new candidate; no qualifying new-window tic outcome established."
+        },
+        {
+          "title": "Quantitative susceptibility mapping of striatum in children and adults, and its association with working memory performance - PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/27132546/",
+          "decision": "Historical or different-topic imaging lead, not the exact new candidate; no qualifying new-window tic outcome established."
+        },
+        {
+          "title": "Quantitative susceptibility mapping of human brain at 3T: a multisite reproducibility study - PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/25339652/",
+          "decision": "Historical or different-topic imaging lead, not the exact new candidate; no qualifying new-window tic outcome established."
+        },
+        {
+          "title": "Nonlinear inversion model-driven deep learning method for magnetic resonance imaging (MRI) quantitative susceptibility mapping imaging - PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41669455/",
+          "decision": "Historical or different-topic imaging lead, not the exact new candidate; no qualifying new-window tic outcome established."
+        },
+        {
+          "title": "Quantitative Susceptibility Mapping Using the Multiple Dipole-inversion Combination with k-space Segmentation Method - PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/28367904/",
+          "decision": "Historical or different-topic imaging lead, not the exact new candidate; no qualifying new-window tic outcome established."
+        },
+        {
+          "title": "Automatic detection of neuromelanin and iron in the midbrain nuclei using a magnetic resonance imaging-based brain template.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/35072301/",
+          "decision": "Historical or different-topic imaging lead, not the exact new candidate; no qualifying new-window tic outcome established."
+        },
+        {
+          "title": "with Quantitative Susceptibility Mapping",
+          "url": "https://www.ajnr.org/content/ajnr/early/2016/01/28/ajnr.A4645.full.pdf",
+          "decision": "Historical or different-topic imaging lead, not the exact new candidate; no qualifying new-window tic outcome established."
+        },
+        {
+          "title": "Reproducibility Study",
+          "url": "https://www.ajnr.org/content/ajnr/36/3/467.full.pdf",
+          "decision": "Historical or different-topic imaging lead, not the exact new candidate; no qualifying new-window tic outcome established."
+        },
+        {
+          "title": "SEPTEMBER 2020",
+          "url": "https://www.ajnr.org/content/ajnr/41/9/local/complete-issue.pdf",
+          "decision": "Historical or different-topic imaging lead, not the exact new candidate; no qualifying new-window tic outcome established."
+        },
+        {
+          "title": "VOLUME 39 • PP 405–604",
+          "url": "https://www.ajnr.org/content/ajnr/39/3/local/complete-issue.pdf",
+          "decision": "Historical or different-topic imaging lead, not the exact new candidate; no qualifying new-window tic outcome established."
+        }
+      ],
+      "result_entries": 16
+    }
+  ],
+  "direct_web_checks": [
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42896917/",
+      "outcome": "Web tool inaccessible; official EFetch XML succeeded separately."
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41220182/",
+      "outcome": "No readable lines; official EFetch XML succeeded separately."
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41794658/",
+      "outcome": "Readable review; official EFetch XML also checked."
+    },
+    {
+      "url": "https://doi.org/10.3174/ajnr.A9681",
+      "outcome": "Web tool inaccessible; direct urllib DOI resolver succeeded separately."
+    }
+  ]
+}

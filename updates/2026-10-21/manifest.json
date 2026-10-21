@@ -1,0 +1,222 @@
+{
+  "publication_allowlist": [
+    "report.md",
+    "summary.json",
+    "provenance.json",
+    "baseline-metadata.json",
+    "baseline-registry.json",
+    "search-log.json",
+    "preprint-search-log.json",
+    "preprint-resume-log.json",
+    "supplement-selected-metadata.json",
+    "candidate-verification.json",
+    "selected-candidate-checks.json",
+    "publisher-date-check.json",
+    "publisher-date-check-initial.json",
+    "discovery-log.json",
+    "pubmed-screening.jsonl",
+    "primary-evidence.jsonl",
+    "adjacent-evidence.jsonl",
+    "historical-preclinical.jsonl",
+    "secondary-screening.jsonl",
+    "registry-evidence.jsonl",
+    "biorxiv-preprint-index.tsv",
+    "medrxiv-preprint-index.tsv",
+    "scan_sources.py",
+    "scan_supplement.py",
+    "resume_preprints.py",
+    "verify_selected_candidates.py",
+    "verify_publisher_date.py",
+    "build_results.py",
+    "validate_artifacts.py",
+    "validation.json",
+    "safety/report.md",
+    "safety/query-ledger.json",
+    "safety/source-checks.json",
+    "safety/repository-provenance.json",
+    "safety/manifest.json",
+    "manifest.json"
+  ],
+  "files": [
+    {
+      "path": "report.md",
+      "bytes": 11600,
+      "sha256": "7e3e045d55c4358ae868cfc0d5ff21ce50b6590fbc94aef35f5382fcfcb2ab27"
+    },
+    {
+      "path": "summary.json",
+      "bytes": 1924,
+      "sha256": "e856f42521167c5c0c6bf53003bcda4dbae12993d3c11c3bc6c1f08775697776"
+    },
+    {
+      "path": "provenance.json",
+      "bytes": 1543,
+      "sha256": "b1d48a23462072fd3161de0acbbd924f8965a03cf663b8c4a29f47cc265d57e4"
+    },
+    {
+      "path": "baseline-metadata.json",
+      "bytes": 45808,
+      "sha256": "2de29185559b4874cbe5bca34b8e9a87c3825cde65b92625f7d2fd545a309917"
+    },
+    {
+      "path": "baseline-registry.json",
+      "bytes": 5735,
+      "sha256": "0dca23ee6b3e55a5ffe3108e0ef7649dcccee0e8be541c4efe5e244292da78de"
+    },
+    {
+      "path": "search-log.json",
+      "bytes": 35126,
+      "sha256": "508a345cccb8579f78ba035435d57169d627a62e4dffe2ef4268a897f090a096"
+    },
+    {
+      "path": "preprint-search-log.json",
+      "bytes": 19745,
+      "sha256": "0cf25fe465761d6dbea3c7642e0b6d772f1cb035e339469d2fae7b0d9c8baa7d"
+    },
+    {
+      "path": "preprint-resume-log.json",
+      "bytes": 57403,
+      "sha256": "64d99d3ebbf951a02f28475a54adb813de4d512f445393879091f13926a016d9"
+    },
+    {
+      "path": "supplement-selected-metadata.json",
+      "bytes": 10707,
+      "sha256": "8fe3c4000659ecf188ac2b3b2d317d005e31f4dfc95167ba6a44253ca79be60d"
+    },
+    {
+      "path": "candidate-verification.json",
+      "bytes": 1864,
+      "sha256": "ebed5a2335c200b237ee13e92ab3523a3756f0f61aa9eb00fc33f0bd0efe5916"
+    },
+    {
+      "path": "selected-candidate-checks.json",
+      "bytes": 3542,
+      "sha256": "ef02db41e4b87fc3c91ae69cd986747bef6636da590a9cd93e04531bd07044ee"
+    },
+    {
+      "path": "publisher-date-check.json",
+      "bytes": 406,
+      "sha256": "bae8723323d0db50d2191b48a7a3eefaca59af0f9c667c9c4e647b74aac67053"
+    },
+    {
+      "path": "publisher-date-check-initial.json",
+      "bytes": 411,
+      "sha256": "d8c3fdbfb6b74685959a81893c1bb88ebf999fe6dcf683855d84e3792c852e80"
+    },
+    {
+      "path": "discovery-log.json",
+      "bytes": 13670,
+      "sha256": "9b4fd0529809e6e7be5cc37fa1a75ca9a08bf0f9c697c8ed6132b1c05a6e1145"
+    },
+    {
+      "path": "pubmed-screening.jsonl",
+      "bytes": 10077,
+      "sha256": "fdfd3f528bc6e88896d057370553f0aa89c7a5749db9e1d006dd725a81eab779"
+    },
+    {
+      "path": "primary-evidence.jsonl",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "adjacent-evidence.jsonl",
+      "bytes": 2880,
+      "sha256": "2a5f59f2b0d6e51a788e14d26b4cde97b9eedb233fa4017e72f396a6e971e867"
+    },
+    {
+      "path": "historical-preclinical.jsonl",
+      "bytes": 862,
+      "sha256": "f3ded4c80ebe22f38bcdc20de02df109587853e24f893980da586d2505cf9651"
+    },
+    {
+      "path": "secondary-screening.jsonl",
+      "bytes": 7541,
+      "sha256": "f1d05fbcd32a8f374dd9821a6841306613395e322fc0a3543f718e0694618f5c"
+    },
+    {
+      "path": "registry-evidence.jsonl",
+      "bytes": 5875,
+      "sha256": "8f0822de715fcec74b5be48b11523258c1401b8df410404ee03e9253eb5437c3"
+    },
+    {
+      "path": "biorxiv-preprint-index.tsv",
+      "bytes": 19931,
+      "sha256": "8fb15d53c9a2d8b3013907bb650e1bad3fd154c5a304401e3c0fac0b4f1a3bc5"
+    },
+    {
+      "path": "medrxiv-preprint-index.tsv",
+      "bytes": 7156,
+      "sha256": "cc83fc428e3e1124df0c024d15cb28b01fa616efeb72fe810459a9b4a47b744c"
+    },
+    {
+      "path": "scan_sources.py",
+      "bytes": 9759,
+      "sha256": "373059a0ac638db7732eeaf3cf71aa8efe5041c43883f825481793a80f691fa6"
+    },
+    {
+      "path": "scan_supplement.py",
+      "bytes": 3380,
+      "sha256": "aed289b0c32950862638adbf12868e8f46bb8344c34044930e5053b34bb830ca"
+    },
+    {
+      "path": "resume_preprints.py",
+      "bytes": 2746,
+      "sha256": "765d7141eaa929ecba8e01ab3e261affaf0794d8a039bb6c3b3c2ad022969029"
+    },
+    {
+      "path": "verify_selected_candidates.py",
+      "bytes": 1638,
+      "sha256": "8c4a174b20d76bbdd9df01b1296fbe70de9aa9341e4cb965014d91ba7f1fb058"
+    },
+    {
+      "path": "verify_publisher_date.py",
+      "bytes": 1336,
+      "sha256": "5aff7ddc3d0581852a363ffbccc75985edca8009b198d6e39f484662614b636f"
+    },
+    {
+      "path": "build_results.py",
+      "bytes": 9951,
+      "sha256": "6e5398e1f5135708d0bb11e2ef426b5f6bafc1a5e742812b76fb6bb4028db966"
+    },
+    {
+      "path": "validate_artifacts.py",
+      "bytes": 3928,
+      "sha256": "992226b28592fc6c58658c9afad3d3571fce52339803e868a1dfea3880facec0"
+    },
+    {
+      "path": "validation.json",
+      "bytes": 815,
+      "sha256": "ee3a78d4a126be77927a6b28e8d90756faa13fe9bf4f73eca749e7578b19aafd"
+    },
+    {
+      "path": "safety/report.md",
+      "bytes": 5161,
+      "sha256": "65ad874bfe2868c56b0bd3617e988d39889d3af85ff4c65cf49ca91067fb1538"
+    },
+    {
+      "path": "safety/query-ledger.json",
+      "bytes": 22725,
+      "sha256": "9983d2b96ef395ff4ece9daa34800b333fe8db4a8a62b030f70a712f4fa180bf"
+    },
+    {
+      "path": "safety/source-checks.json",
+      "bytes": 12140,
+      "sha256": "c984d60f0dede3aa044421b76479275aeb899a78c4ab3b521b148f111a326750"
+    },
+    {
+      "path": "safety/repository-provenance.json",
+      "bytes": 1541,
+      "sha256": "09743395921623118e5d275b79945d6ccac4ea12002f2e1945df0825d8eace99"
+    },
+    {
+      "path": "safety/manifest.json",
+      "bytes": 886,
+      "sha256": "1fe7a754b3bf77599c9c48ec2e7bdaf41b245243efcb5ba39dbc341d9930eff4"
+    }
+  ],
+  "excluded": [
+    "__pycache__/**",
+    "transient source HTML/XML/abstract/full-text bodies (not retained)"
+  ],
+  "note": "Explicit original-summary/metadata/code allowlist. Parent handles repository publication. Manifest does not hash itself."
+}

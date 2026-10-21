@@ -1,0 +1,322 @@
+{
+  "started_utc": "2026-10-21T02:51:01.449274+00:00",
+  "NCT05158439": {
+    "id": "NCT05158439",
+    "request": {
+      "url": "https://clinicaltrials.gov/api/v2/studies/NCT05158439",
+      "started_utc": "2026-10-21T02:51:01.465888+00:00",
+      "status": 200,
+      "bytes": 4712,
+      "sha256": "fe3e46e8b32e610cc2d3ed795a7fae5bb4e759196565e79c98732cf1d4bae897",
+      "completed_utc": "2026-10-21T02:51:06.759798+00:00"
+    },
+    "title": "Safety of Cultured Allogeneic Adult Umbilical Cord or Placental Derived Mesenchymal Stem Cells for Tourette Syndrome",
+    "status": {
+      "statusVerifiedDate": "2026-10",
+      "overallStatus": "WITHDRAWN",
+      "whyStopped": "Inability to recruit participants",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2022-01",
+        "type": "ESTIMATED"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2026-01",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2026-01",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2021-12-02",
+      "studyFirstSubmitQcDate": "2021-12-02",
+      "studyFirstPostDateStruct": {
+        "date": "2021-12-15",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-10-13",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-10-16",
+        "type": "ACTUAL"
+      }
+    },
+    "design": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE1"
+      ],
+      "designInfo": {
+        "allocation": "NA",
+        "interventionModel": "SINGLE_GROUP",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 0,
+        "type": "ACTUAL"
+      }
+    },
+    "hasResults": false
+  },
+  "NCT07093541": {
+    "id": "NCT07093541",
+    "request": {
+      "url": "https://clinicaltrials.gov/api/v2/studies/NCT07093541",
+      "started_utc": "2026-10-21T02:51:01.468634+00:00",
+      "status": 200,
+      "bytes": 18653,
+      "sha256": "10b591c4196ece444376dcd7b31fbf682da58cb0786f84b42e9a1a994c4e60d4",
+      "completed_utc": "2026-10-21T02:51:06.821109+00:00"
+    },
+    "title": "Expanded Access Program for Treatment With Ecopipam for Tourette's Disorder",
+    "status": {
+      "statusVerifiedDate": "2026-03",
+      "overallStatus": "TEMPORARILY_NOT_AVAILABLE",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "studyFirstSubmitDate": "2025-07-10",
+      "studyFirstSubmitQcDate": "2025-07-21",
+      "studyFirstPostDateStruct": {
+        "date": "2025-07-30",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-10-08",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-10-14",
+        "type": "ACTUAL"
+      }
+    },
+    "design": {
+      "studyType": "EXPANDED_ACCESS",
+      "expandedAccessTypes": {
+        "treatment": true
+      }
+    },
+    "hasResults": false
+  },
+  "NCT06194305": {
+    "id": "NCT06194305",
+    "request": {
+      "url": "https://clinicaltrials.gov/api/v2/studies/NCT06194305",
+      "started_utc": "2026-10-21T02:51:01.485420+00:00",
+      "status": 200,
+      "bytes": 10891,
+      "sha256": "e031f435152b402b9df8b99403c4aa44d0a8b64613007330259a4e7bbe9728e2",
+      "completed_utc": "2026-10-21T02:51:06.816458+00:00"
+    },
+    "title": "Multimodal Profiling of Response to Pediatric Comprehensive Behavioral Intervention for Tics",
+    "status": {
+      "statusVerifiedDate": "2026-07",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2024-04-25",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2029-02-19",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2029-02-19",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2023-10-16",
+      "studyFirstSubmitQcDate": "2023-12-21",
+      "studyFirstPostDateStruct": {
+        "date": "2024-01-08",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-07-21",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-07-22",
+        "type": "ACTUAL"
+      }
+    },
+    "design": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "NON_RANDOMIZED",
+        "interventionModel": "SINGLE_GROUP",
+        "primaryPurpose": "HEALTH_SERVICES_RESEARCH",
+        "maskingInfo": {
+          "masking": "NONE",
+          "maskingDescription": "This study does not involve treatment randomization so participants and all study personnel will be aware that participants are receiving CBIT. An Independent Evaluator will conduct pre-, post-treatment and 3-month follow-up assessments. This IE will be masked to information related to CBIT progress (e.g., visit attendance, specific content of sessions, therapist/supervisor perspectives on patient progress, CBIT session documentation). The IE will complete the primary outcome measure (YGTSS)."
+        }
+      },
+      "enrollmentInfo": {
+        "count": 100,
+        "type": "ESTIMATED"
+      }
+    },
+    "hasResults": false
+  },
+  "NCT07137442": {
+    "id": "NCT07137442",
+    "request": {
+      "url": "https://clinicaltrials.gov/api/v2/studies/NCT07137442",
+      "started_utc": "2026-10-21T02:51:01.522280+00:00",
+      "status": 200,
+      "bytes": 9840,
+      "sha256": "be875fa467c2c4218c92d1460e331f89e13e373f7980afef5f50bd5f22e09ad3",
+      "completed_utc": "2026-10-21T02:51:06.822786+00:00"
+    },
+    "title": "Distinguishing Tics and Functional Tics Using Clinical Neurophysiological Techniques",
+    "status": {
+      "statusVerifiedDate": "2026-09-16",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2026-10-25",
+        "type": "ESTIMATED"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2034-08-01",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2034-08-01",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2025-08-19",
+      "studyFirstSubmitQcDate": "2025-08-21",
+      "studyFirstPostDateStruct": {
+        "date": "2025-08-22",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-10-19",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-10-20",
+        "type": "ACTUAL"
+      }
+    },
+    "design": {
+      "studyType": "OBSERVATIONAL",
+      "designInfo": {
+        "observationalModel": "COHORT",
+        "timePerspective": "PROSPECTIVE"
+      },
+      "enrollmentInfo": {
+        "count": 75,
+        "type": "ESTIMATED"
+      }
+    },
+    "hasResults": false
+  },
+  "isrctn_window": {
+    "label": "window",
+    "query": "(Tourette OR tics OR \"tic disorder\") AND lastEdited GE 2026-10-19T00:00:00 AND lastEdited LT 2026-10-22T00:00:00",
+    "request": {
+      "url": "https://www.isrctn.com/api/query/format/default?q=%28Tourette+OR+tics+OR+%22tic+disorder%22%29+AND+lastEdited+GE+2026-10-19T00%3A00%3A00+AND+lastEdited+LT+2026-10-22T00%3A00%3A00&limit=50",
+      "started_utc": "2026-10-21T02:51:06.761364+00:00",
+      "status": 200,
+      "bytes": 77,
+      "sha256": "9102345f60a6769cd03fb92d5a00f71c6bbfb597ba699e5f98161f95f657dfc6",
+      "completed_utc": "2026-10-21T02:51:12.013814+00:00"
+    },
+    "root_tag": "{http://www.67bricks.com/isrctn}allTrials",
+    "root_attributes": {
+      "totalCount": "0"
+    },
+    "selected_nodes": []
+  },
+  "isrctn_positive_control": {
+    "label": "positive_control",
+    "query": "Tourette",
+    "request": {
+      "url": "https://www.isrctn.com/api/query/format/default?q=Tourette&limit=1",
+      "started_utc": "2026-10-21T02:51:06.817329+00:00",
+      "status": 200,
+      "bytes": 24657,
+      "sha256": "5aeec721d27bc3914a9542e6ef767abbf8f3b5b2da634d08784796244e162ac8",
+      "completed_utc": "2026-10-21T02:51:12.077832+00:00"
+    },
+    "root_tag": "{http://www.67bricks.com/isrctn}allTrials",
+    "root_attributes": {
+      "totalCount": "22"
+    },
+    "selected_nodes": [
+      {
+        "tag": "{http://www.67bricks.com/isrctn}isrctn",
+        "text": "82718960",
+        "attributes": {
+          "dateAssigned": "2025-07-10T14:44:41.280095Z"
+        }
+      },
+      {
+        "tag": "{http://www.67bricks.com/isrctn}title",
+        "text": "Online remote behavioural intervention for tics",
+        "attributes": {}
+      },
+      {
+        "tag": "{http://www.67bricks.com/isrctn}scientificTitle",
+        "text": "Online remote behavioural intervention for tics: a single cohort usability study",
+        "attributes": {}
+      }
+    ]
+  },
+  "isrctn_direct_control": {
+    "label": "direct_control",
+    "query": null,
+    "request": {
+      "url": "https://www.isrctn.com/api/trial/ISRCTN14910154/format/default",
+      "started_utc": "2026-10-21T02:51:06.821182+00:00",
+      "status": 200,
+      "bytes": 23452,
+      "sha256": "174b266fa02d3e662d438828f5726ca16eecfe3c71ffba8c4f5206f30c281933",
+      "completed_utc": "2026-10-21T02:51:12.010126+00:00"
+    },
+    "root_tag": "{http://www.67bricks.com/isrctn}fullTrial",
+    "root_attributes": {},
+    "selected_nodes": [
+      {
+        "tag": "{http://www.67bricks.com/isrctn}isrctn",
+        "text": "14910154",
+        "attributes": {
+          "dateAssigned": "2022-11-30T09:44:42.163719Z"
+        }
+      },
+      {
+        "tag": "{http://www.67bricks.com/isrctn}title",
+        "text": "Stimulant medication for ADHD and tics - understanding response versus non-stimulants",
+        "attributes": {}
+      },
+      {
+        "tag": "{http://www.67bricks.com/isrctn}scientificTitle",
+        "text": "Stimulant Medication for ADHD and Tics - Understanding Response versus Non-stimulants (SATURN): a randomised trial of the clinical and cost-effectiveness of methylphenidate versus guanfacine for ADHD in children and young people with a co-existing tic disorder",
+        "attributes": {}
+      }
+    ]
+  },
+  "who": {
+    "source": "WHO ICTRP landing page",
+    "request": {
+      "url": "https://trialsearch.who.int/",
+      "started_utc": "2026-10-21T02:51:06.822937+00:00",
+      "status": 200,
+      "bytes": 36375,
+      "sha256": "1b61a6f3d62c9ee22f40a8ca57b7cfefd0e355fde8f6fd2bee3f5fdfaea115b0",
+      "completed_utc": "2026-10-21T02:51:14.107680+00:00"
+    },
+    "query_export_obtained": false,
+    "title": "ICTRP Search Portal",
+    "listed_date_tokens": [
+      "12 October 2026",
+      "14 September 2026",
+      "5 October 2026"
+    ]
+  },
+  "completed_utc": "2026-10-21T02:51:14.112838+00:00"
+}

@@ -1,0 +1,226 @@
+{
+  "analysis_date": "2026-10-21",
+  "trial_id": "NCT05371041",
+  "analysis_type": "aggregate-only source compatibility crosswalk",
+  "prediction": "A common construct, operational timing and published aggregate estimator can either be verified or their exact prerequisites identified.",
+  "preregistered": false,
+  "source_index": [
+    {
+      "id": "registry",
+      "url": "https://clinicaltrials.gov/api/v2/studies/NCT05371041",
+      "results_first_posted": "2026-09-25"
+    },
+    {
+      "id": "protocol",
+      "url": "https://cdn.clinicaltrials.gov/large-docs/41/NCT05371041/Prot_000.pdf",
+      "version_date": "2025-05-12",
+      "pages": 27,
+      "sha256": "52469442b6ec5c2f1e1e98ec0a1420d22d253d301eae14af81567a0fd0b9e7a9"
+    },
+    {
+      "id": "sap",
+      "url": "https://cdn.clinicaltrials.gov/large-docs/41/NCT05371041/SAP_001.pdf",
+      "version_date": "2021-12-20",
+      "pages": 2,
+      "sha256": "dafd132f5aed539ae7de039e6d8506c320f11bc4ac31089350092c85618d8834"
+    }
+  ],
+  "claims": [
+    {
+      "id": "baseline_construct",
+      "source_url": "https://clinicaltrials.gov/api/v2/studies/NCT05371041",
+      "location": "resultsSection.baselineCharacteristicsModule.measures[title=YGTSS Score].description",
+      "original_summary": "Baseline definition includes motor, vocal and impairment components; total range 0–100.",
+      "facts": {
+        "minimum": 0,
+        "maximum": 100,
+        "includes_impairment": true
+      }
+    },
+    {
+      "id": "endpoint_construct",
+      "source_url": "https://clinicaltrials.gov/api/v2/studies/NCT05371041",
+      "location": "protocolSection.outcomesModule.primaryOutcomes; resultsSection.outcomeMeasuresModule.outcomeMeasures.description",
+      "original_summary": "Primary outcome definition is total motor plus phonic tic severity, range 0–50, prior-week clinician assessment.",
+      "facts": {
+        "minimum": 0,
+        "maximum": 50,
+        "includes_impairment": false
+      }
+    },
+    {
+      "id": "baseline_denominator",
+      "source_url": "https://clinicaltrials.gov/api/v2/studies/NCT05371041",
+      "location": "resultsSection.baselineCharacteristicsModule.denoms",
+      "original_summary": "Baseline module reports eight participants; no YGTSS-measure-specific denominator is returned.",
+      "facts": {
+        "module_n": 8,
+        "measure_specific_n_verified": false
+      }
+    },
+    {
+      "id": "endpoint_denominator",
+      "source_url": "https://clinicaltrials.gov/api/v2/studies/NCT05371041",
+      "location": "resultsSection.outcomeMeasuresModule.outcomeMeasures.denoms; populationDescription",
+      "original_summary": "Eight enrolled and eight analyzed are reported for the primary outcome.",
+      "facts": {
+        "n": 8
+      }
+    },
+    {
+      "id": "flow",
+      "source_url": "https://clinicaltrials.gov/api/v2/studies/NCT05371041",
+      "location": "resultsSection.participantFlowModule.periods.milestones",
+      "original_summary": "Overall flow is eight started, eight completed and zero not completed; later visit completeness is not established.",
+      "facts": {
+        "started": 8,
+        "completed": 8,
+        "not_completed": 0
+      }
+    },
+    {
+      "id": "planned_responder_criterion",
+      "source_url": "https://cdn.clinicaltrials.gov/large-docs/41/NCT05371041/Prot_000.pdf",
+      "location": "pp.4,8",
+      "original_summary": "Protocol plans greater-than-30-percent individual improvement and four of eight responders as its threshold; these are not observed results.",
+      "facts": {
+        "comparison": ">",
+        "percent": 30,
+        "planned_responders": 4,
+        "planned_denominator": 8
+      }
+    },
+    {
+      "id": "motor_scale_wording",
+      "source_url": "https://cdn.clinicaltrials.gov/large-docs/41/NCT05371041/Prot_000.pdf",
+      "location": "p.8",
+      "original_summary": "A post-primary-treatment option refers to YGTSS motor-scale improvement; this does not establish a universal score definition.",
+      "facts": {}
+    },
+    {
+      "id": "baseline_visit_rule",
+      "source_url": "https://cdn.clinicaltrials.gov/large-docs/41/NCT05371041/Prot_000.pdf",
+      "location": "pp.8,22",
+      "original_summary": "Comparator is preoperative; separate baseline visit is required only when screening assessments occurred more than 45 days before surgery.",
+      "facts": {
+        "screening_to_surgery_threshold_days": 45
+      }
+    },
+    {
+      "id": "surgical_clock",
+      "source_url": "https://cdn.clinicaltrials.gov/large-docs/41/NCT05371041/Prot_000.pdf",
+      "location": "p.6",
+      "original_summary": "Lead surgery may be staged. IPGs are placed approximately one month after all leads; first three physiology months are explicitly post-IPG.",
+      "facts": {}
+    },
+    {
+      "id": "primary_visit_clock",
+      "source_url": "https://cdn.clinicaltrials.gov/large-docs/41/NCT05371041/Prot_000.pdf",
+      "location": "pp.5,7–8",
+      "original_summary": "Programming is planned during months 4–9, with day-270/month-nine assessment, ±14-day visit window and 30 days stable settings; data collection spans two to three outpatient days.",
+      "facts": {
+        "nominal_day": 270,
+        "nominal_month": 9,
+        "visit_tolerance_days": 14,
+        "stable_settings_days": 30
+      }
+    },
+    {
+      "id": "posted_clock",
+      "source_url": "https://clinicaltrials.gov/api/v2/studies/NCT05371041",
+      "location": "resultsSection.outcomeMeasuresModule.outcomeMeasures.groups.description; participantFlowModule.groups.description",
+      "original_summary": "Posted group narrative places measurement nine months after DBS initiation without defining activation versus implantation.",
+      "facts": {
+        "nominal_month": 9,
+        "operational_time_zero_verified": false
+      }
+    },
+    {
+      "id": "intervention_state",
+      "source_url": "https://cdn.clinicaltrials.gov/large-docs/41/NCT05371041/Prot_000.pdf",
+      "location": "p.7",
+      "original_summary": "Temporary open-loop settings are permitted if a suitable control signal has not been found; uniform closed-loop exposure cannot be assumed.",
+      "facts": {}
+    },
+    {
+      "id": "sap_plan",
+      "source_url": "https://cdn.clinicaltrials.gov/large-docs/41/NCT05371041/SAP_001.pdf",
+      "location": "p.2",
+      "original_summary": "General feasibility plan is descriptive/primarily individual; a manuscript paragraph names signed-rank baseline/month-nine comparisons, median change and Spearman correlation with FDR on correlation p values. No numerical aggregate estimator is provided.",
+      "facts": {}
+    },
+    {
+      "id": "sap_provenance",
+      "source_url": "https://cdn.clinicaltrials.gov/large-docs/41/NCT05371041/SAP_001.pdf",
+      "location": "pp.1–2; registry documentSection.largeDocumentModule.largeDocs",
+      "original_summary": "Cover date is 2021-12-20, upload 2026-09-24T11:52. Manuscript paragraph has no separately verified addition date or named manuscript.",
+      "facts": {}
+    },
+    {
+      "id": "aggregate_estimator",
+      "source_url": "https://clinicaltrials.gov/api/v2/studies/NCT05371041",
+      "location": "resultsSection.outcomeMeasuresModule.outcomeMeasures.paramType; .analyses; .dispersionType",
+      "original_summary": "Parameter type NUMBER, no analyses/dispersion object returned by projection. No compatible published aggregate paired change or responder count is established by these inspected sources.",
+      "facts": {
+        "compatible_estimator_established": false
+      }
+    },
+    {
+      "id": "safety_window",
+      "source_url": "https://clinicaltrials.gov/api/v2/studies/NCT05371041",
+      "location": "resultsSection.adverseEventsModule.timeFrame; seriousEvents.assessmentType; otherEvents.assessmentType",
+      "original_summary": "Enrollment through follow-up approximately two years after lead surgery; non-systematic assessment. A common complete two-year observation period is not verified.",
+      "facts": {
+        "assessment": "NON_SYSTEMATIC_ASSESSMENT",
+        "fixed_two_year_risk_verified": false
+      }
+    },
+    {
+      "id": "safety_totals",
+      "source_url": "https://clinicaltrials.gov/api/v2/studies/NCT05371041",
+      "location": "resultsSection.adverseEventsModule.eventGroups",
+      "original_summary": "Affected-person totals are serious 3/8, other 8/8, deaths 0/8. Categories may overlap and do not establish device causation.",
+      "facts": {
+        "serious_affected": 3,
+        "serious_at_risk": 8,
+        "other_affected": 8,
+        "other_at_risk": 8,
+        "deaths_affected": 0,
+        "deaths_at_risk": 8
+      }
+    },
+    {
+      "id": "safety_monitoring_plan",
+      "source_url": "https://cdn.clinicaltrials.gov/large-docs/41/NCT05371041/Prot_000.pdf",
+      "location": "pp.21,23",
+      "original_summary": "Scheduled AE log and investigator/DSMB review are planned; they do not override the posted non-systematic assessment label.",
+      "facts": {}
+    }
+  ],
+  "compatibility_gates": {
+    "baseline_endpoint_construct_resolved": false,
+    "operational_time_origin_resolved": false,
+    "module_baseline_and_endpoint_denominators_verified": true,
+    "compatible_published_aggregate_estimator_established": false,
+    "safety_window_and_assessment_label_verified": true
+  },
+  "decision": "STOP_WITHOUT_EFFICACY_CALCULATION",
+  "efficacy_calculation_performed": false,
+  "participant_rows_saved_or_analyzed": false,
+  "unexpected_search_exposure": "One initial mirror search result displayed rows; no values retained, reconstructed or used. Later searches restricted to primary domains. Official API retrieval was server-projected.",
+  "missing_prerequisites": [
+    "Public common-score clarification",
+    "Operational time-zero and aggregate assessment-window clarification",
+    "Eligible analysis population/missingness and published aggregate paired change/uncertainty or responder counts",
+    "Intervention-state accounting for a closed-loop-specific interpretation",
+    "Aggregate observation-time coverage for fixed-period safety risk"
+  ],
+  "next_question": {
+    "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10948908/",
+    "pmid": "38499664",
+    "trial": "NCT02056873",
+    "question": "Distinguish blinded within-visit stimulation-state, longitudinal baseline and MOS-36 functional estimands using lawful published aggregates only.",
+    "nonduplication": "October 11 adult-resource audit covered antecedent cadence/access feasibility and noted score wording, not this detailed clinical/function contrast.",
+    "stop": "Stop without reconstructed patient effects if compatible aggregate functional comparison cannot be verified."
+  }
+}

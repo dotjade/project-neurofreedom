@@ -1,0 +1,187 @@
+{
+  "windowStart": "2026-10-20T02:53:04.118877Z",
+  "windowEnd": "2026-10-21T02:52:58.744651+00:00",
+  "sourceCheckCount": 18,
+  "checks": [
+    {
+      "id": "mhra-dsu",
+      "url": "https://www.gov.uk/drug-safety-update",
+      "startedAt": "2026-10-21T02:51:28.363021+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://www.gov.uk/drug-safety-update",
+      "bodySha256": "38543c7fc2d4c21e88c7c15f5982d62d05eb757b6fb6e5fb0b5e53ec1565156a",
+      "completedAt": "2026-10-21T02:51:36.756098+00:00",
+      "status": "readable",
+      "summary": "Newest DSU item is October 20 IXCHIQ vaccine authorization withdrawal, outside watched therapies; October 15 antidepressant notice remains historical relevant comorbidity context."
+    },
+    {
+      "id": "mhra-alerts",
+      "url": "https://www.gov.uk/drug-device-alerts",
+      "startedAt": "2026-10-21T02:51:28.367182+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://www.gov.uk/drug-device-alerts",
+      "bodySha256": "1c4641cde566df603a82ce74fb7816b5abee9e69fd7f926e452a8eeeaf31e0c8",
+      "completedAt": "2026-10-21T02:51:36.341673+00:00",
+      "status": "readable_nonchronological_index",
+      "summary": "Current first-page titles still include October 5-9 and October 12-16 weekly notices with earlier issued dates. No newly qualifying watched product named. Prior-day attachment gaps remain, not revalidated."
+    },
+    {
+      "id": "tga-alerts",
+      "url": "https://www.tga.gov.au/safety/safety-alerts",
+      "startedAt": "2026-10-21T02:51:28.370599+00:00",
+      "error": "HTTP Error 503: Service Unavailable",
+      "completedAt": "2026-10-21T02:51:34.521544+00:00",
+      "status": "http_error_then_web_readable",
+      "summary": "Ordinary HTTP GET returned 503; separate web-tool retrieval read the canonical safety-alert index."
+    },
+    {
+      "id": "canada",
+      "url": "https://recalls-rappels.canada.ca/en",
+      "startedAt": "2026-10-21T02:51:28.380413+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://recalls-rappels.canada.ca/en",
+      "bodySha256": "04feb41ab83e4951d812f6c395ab5c5e6b58cb292a55c657789e95c4743d93b1",
+      "completedAt": "2026-10-21T02:51:34.525607+00:00",
+      "status": "readable_index",
+      "summary": "Ten first-page recent rows screened. Newest listed recalls dated October 19 include dantrolene injection and digital ECG, not watched therapies. Footer modified October 20 is not a new event date."
+    },
+    {
+      "id": "ema-prac",
+      "url": "https://www.ema.europa.eu/en/human-regulatory-overview/post-authorisation/pharmacovigilance-post-authorisation/signal-management/prac-recommendations-safety-signals",
+      "startedAt": "2026-10-21T02:51:28.391457+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://www.ema.europa.eu/en/human-regulatory-overview/post-authorisation/pharmacovigilance-post-authorisation/signal-management/prac-recommendations-safety-signals",
+      "bodySha256": "f022b0d028e10dd3257504668ce9435f0d4d791a60c559cb046519aa3fc1fd22",
+      "completedAt": "2026-10-21T02:51:35.452095+00:00",
+      "status": "readable",
+      "summary": "Latest recommendation documents remain September 28 publication for the August 31-September 3 meeting. No new-window watched signal established."
+    },
+    {
+      "id": "FDA-DRUG-SAFETY",
+      "url": "https://www.fda.gov/drugs/drug-safety-and-availability/drug-safety-communications",
+      "retrievalMinuteUTC": "2026-10-21T02:50:00Z",
+      "timePrecision": "minute; recorded from tool-call sequence, not asserted exact wall-clock instant",
+      "method": "web search/open/find; no full source copy retained",
+      "status": "readable_index",
+      "summary": "Latest listed notice September 15 (Kybella), before the window."
+    },
+    {
+      "id": "FDA-DEVICE-SAFETY",
+      "url": "https://www.fda.gov/medical-devices/medical-device-safety/safety-communications",
+      "retrievalMinuteUTC": "2026-10-21T02:50:00Z",
+      "timePrecision": "minute; recorded from tool-call sequence, not asserted exact wall-clock instant",
+      "method": "web search/open/find; no full source copy retained",
+      "status": "readable_index",
+      "summary": "Latest listed notice June 3, before the window."
+    },
+    {
+      "id": "FDA-CDRH",
+      "url": "https://www.fda.gov/medical-devices/medical-devices-news-and-events/cdrh-new-news-and-updates",
+      "retrievalMinuteUTC": "2026-10-21T02:50:00Z",
+      "timePrecision": "minute; recorded from tool-call sequence, not asserted exact wall-clock instant",
+      "method": "web search/open/find; no full source copy retained",
+      "status": "readable_index",
+      "summary": "Six October 20 entries screened: two change-control policy pages, glucose meter removal, two infusion-pack alerts and Olympus import-alert update. None names watched therapeutic neurostimulation or tic medicines. October 19 diagnostic-ultrasound item remains outside scope."
+    },
+    {
+      "id": "EMA-WHATSNEW",
+      "url": "https://www.ema.europa.eu/en/news-events/whats-new",
+      "retrievalMinuteUTC": "2026-10-21T02:50:00Z",
+      "timePrecision": "minute; recorded from tool-call sequence, not asserted exact wall-clock instant",
+      "method": "web search/open/find; no full source copy retained",
+      "status": "readable_index",
+      "summary": "All 48 October 20 rows (through the next October 19 row) screened. No watched tic therapy named. Safety-signal timetable is procedural, not a product-risk finding."
+    },
+    {
+      "id": "TGA-SAFETY",
+      "url": "https://www.tga.gov.au/safety/safety-monitoring-and-information/safety-alerts",
+      "retrievalMinuteUTC": "2026-10-21T02:51:00Z",
+      "timePrecision": "minute; recorded from tool-call sequence, not asserted exact wall-clock instant",
+      "method": "web search/open/find; no full source copy retained",
+      "status": "readable_index",
+      "summary": "Latest six safety-alert headings screened, newest September 14. No in-window watched notice. Old safety/safety-alerts path redirects here in web retrieval."
+    },
+    {
+      "id": "TGA-UPDATES",
+      "url": "https://www.tga.gov.au/news/safety-updates",
+      "retrievalMinuteUTC": "2026-10-21T02:52:00Z",
+      "timePrecision": "minute; recorded from tool-call sequence, not asserted exact wall-clock instant",
+      "method": "web search/open/find; no full source copy retained",
+      "status": "readable_index",
+      "summary": "Latest six update headings screened; newest vaccine reconstitution October 14, followed by August Product Information update published September 11. No in-window watched notice."
+    },
+    {
+      "id": "TGA-MARKET",
+      "url": "https://www.tga.gov.au/safety/recalls-and-other-market-actions/market-actions",
+      "retrievalMinuteUTC": "2026-10-21T02:52:00Z",
+      "timePrecision": "minute; recorded from tool-call sequence, not asserted exact wall-clock instant",
+      "method": "web search/open/find; no full source copy retained",
+      "status": "readable_index",
+      "summary": "Latest six market-action headings screened. Newest original publication October 16 avacopan withdrawal; Andrographis heading is dated October 1, but detail/search metadata disclose October 20 update. Neither is watched therapy."
+    },
+    {
+      "id": "TGA-ANDROGRAPHIS",
+      "url": "https://www.tga.gov.au/safety/recalls-and-other-market-actions/market-actions/andrographis-recalls-concerns-over-allergy-risk",
+      "retrievalMinuteUTC": "2026-10-21T02:51:00Z",
+      "timePrecision": "minute; recorded from tool-call sequence, not asserted exact wall-clock instant",
+      "method": "web search/open/find; no full source copy retained",
+      "status": "readable_outside_scope",
+      "summary": "Published October 1, updated October 20: Andrographis-containing products recalled for allergy risk. Outside watched tic/comorbidity therapies. No case narrative retained."
+    },
+    {
+      "id": "TGA-DRAC",
+      "url": "https://apps.tga.gov.au/PROD/DRAC/arn-entry.aspx",
+      "retrievalMinuteUTC": "2026-10-21T02:50:00Z",
+      "timePrecision": "minute; recorded from tool-call sequence, not asserted exact wall-clock instant",
+      "method": "web search/open/find; no full source copy retained",
+      "status": "search_form_only",
+      "summary": "Database describes two-day lag before actions appear, and JavaScript search requirement. No executed ingredient/date result set obtained; not a zero-result finding."
+    },
+    {
+      "id": "CANADA-ALL",
+      "url": "https://recalls-rappels.canada.ca/en/search/site",
+      "retrievalMinuteUTC": "2026-10-21T02:52:00Z",
+      "timePrecision": "minute; recorded from tool-call sequence, not asserted exact wall-clock instant",
+      "method": "web search/open/find; no full source copy retained",
+      "status": "readable_index",
+      "summary": "Fifteen first-page rows screened, newest October 19. Five October 19 headings include two health products (dantrolene injection, IQecg) outside watch; remaining rows October 16. Index and homepage overlap, not 25 distinct events."
+    },
+    {
+      "id": "FDA-SRLC",
+      "url": "https://www.accessdata.fda.gov/scripts/cder/safetylabelingchanges/",
+      "retrievalMinuteUTC": "2026-10-21T02:52:00Z",
+      "timePrecision": "minute; recorded from tool-call sequence, not asserted exact wall-clock instant",
+      "method": "web search/open/find; no full source copy retained",
+      "status": "search_form_only",
+      "summary": "Search form readable. No executed date-result set or ingredient-by-ingredient enumeration. Form says only NDA/CDER BLA changes are covered, not ANDAs."
+    },
+    {
+      "id": "FDA-RECALL-FILTER",
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfRES/res.cfm?start_search=1&postdatefrom=10%2F19%2F2026&postdateto=10%2F21%2F2026",
+      "retrievalMinuteUTC": "2026-10-21T02:52:00Z",
+      "timePrecision": "minute; recorded from tool-call sequence, not asserted exact wall-clock instant",
+      "method": "web search/open/find; no full source copy retained",
+      "status": "web_inaccessible",
+      "summary": "Web tool reports inaccessible; not an empty result set. Date range intentionally overlaps; no future-day completeness inferred."
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfRES/res.cfm?id=222521",
+      "startedAt": "2026-10-21T02:52:54.322888+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfRES/res.cfm?id=222521",
+      "bodySha256": "2ec754a6294a86a1051be72161b509a55285b0b6c7d6d701ab4d7986fb9d4f8b",
+      "completedAt": "2026-10-21T02:52:58.744651+00:00",
+      "id": "FDA-NEUROSTAR",
+      "status": "readable_selected_fields",
+      "summary": "Selected fields remain Class 2, Open/Classified, recall Z-0142-2027, initiation August 24 and posting October 9. No new event established from these fields. This pass did not preserve a complete content diff or re-extract quantity/hazard text."
+    }
+  ],
+  "limits": [
+    "FDA recall date listing inaccessible; FDA labeling changes not enumerated or text-diffed. These are unknown coverage, not negative searches.",
+    "Prior October 19 MHRA weekly-notice Creyos and Beckman Coulter attachment gaps remain carried forward; attachments were not re-requested in this pass. Prior sources: https://mhra-gov.filecamp.com/s/d/k4tlzeCNqC7PnbTX and https://mhra-gov.filecamp.com/s/d/fd9VNH5vz1b40APy .",
+    "TGA DRAC result set not executed and database reports two-day posting lag; cannot exclude current-window actions. Safety-alert HTTP 503 was partly resolved via readable web index, not a full database scan.",
+    "Health Canada coverage is bounded first-page index/title screening and search-engine queries, not complete ingredient labeling or all archived notices. Broad search returned no Canadian cards.",
+    "No exhaustive national EU or manufacturer notice enumeration. Indexing/updates may lag and source dates usually have no within-day time.",
+    "No individual adverse-event reports analyzed, no causality estimate, treatment instruction, patient story, outreach, or external write."
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "repository": "dotjade/project-neurofreedom",
+  "cloneCommit": "81feefe52fa1a401b01fd51ee8950a5e4de4a9ae",
+  "readMethods": "README, protocol, status and prior report read with GitHub connector; prior ledgers additionally read from parent-provided read-only clone. No repository mutation.",
+  "files": [
+    {
+      "path": "README.md",
+      "gitBlobSha": "4c3bafbd09ca4073d183cef267c746afa09147bf",
+      "sha256": "6b1d997e495751f81c97048c86cd8864732cdd8313cc3d9363605bb4425721d2"
+    },
+    {
+      "path": "RESEARCH_PROTOCOL.md",
+      "gitBlobSha": "d69c21b73447f7ad9df0a3949b7fcaf57dd5ddde",
+      "sha256": "6f0025df7fd62fc2fe952cfbca96fca811ae76b917b7e7d4d45a501fe89e6859"
+    },
+    {
+      "path": "STATUS.md",
+      "gitBlobSha": "645b36e803527155bda90913508b97d2da6d50da",
+      "sha256": "126bfc7d9b81a692099ef4dcc8e81b455529df3d4adeb7e5acf0671820bb96a2"
+    },
+    {
+      "path": "updates/2026-10-20/safety/report.md",
+      "gitBlobSha": "cc1cfe2abe36c8bada6134ac22253e3bc2f9d022",
+      "sha256": "da85585dc09bb9ba6473d0302bb03f43ab55ebbf5c3534628419dcd13dcd9a13"
+    },
+    {
+      "path": "updates/2026-10-20/safety/query-ledger.json",
+      "gitBlobSha": "d2a51c7e2ec99befd9b954c2660f65a4323f10c4",
+      "sha256": "162d0f7be22e6ee08b511ccbf15e45144719c873117107b64ef9a3d5992a7f65"
+    },
+    {
+      "path": "updates/2026-10-20/safety/source-checks.json",
+      "gitBlobSha": "9fdab4b6eee2415235f5fddecdb8f8b739b8400e",
+      "sha256": "ca4cd3ca8a2c5efd087ed0bd1d2049f545305b17b1f979baf8ba5c3c6838451b"
+    }
+  ]
+}

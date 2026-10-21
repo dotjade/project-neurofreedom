@@ -1,0 +1,25 @@
+{
+  "passed": 18,
+  "total": 18,
+  "checks": {
+    "correct_trial": true,
+    "projection_matches_saved_script": true,
+    "result_classes_not_requested": true,
+    "eight_actual_enrollees": true,
+    "baseline_module_n8": true,
+    "endpoint_n8": true,
+    "baseline_100_definition": true,
+    "endpoint_50_definition": true,
+    "nine_month_label": true,
+    "initiation_clock_preserved": true,
+    "lead_surgery_safety_clock": true,
+    "nonsystematic_label": true,
+    "safety_totals_preserved": true,
+    "no_analysis_object_returned": true,
+    "no_dispersion_object_returned": true,
+    "stopping_gate_retained": true,
+    "participant_values_not_saved": true,
+    "no_retained_pdf": true
+  },
+  "interpretation": "Metadata consistency and privacy-boundary checks only; not clinical verification or hypothesis tests."
+}
