@@ -1,0 +1,12 @@
+{
+  "checkedAt": "2026-10-22T03:11:07.253078Z",
+  "baseCommit": "c9314ae695c3b5624f5049a3d819fef922ebe14b",
+  "status": "passed",
+  "analysisChecks": 25,
+  "scanChecks": 31,
+  "independentSourceReview": "a33ad930e7cd9a7459dd9d2ed575ac92b744eb49b609d4b8ed63af8cc4a5f495",
+  "sourceAndBuild": "npm run check and npm run build passed; generated web-build assets excluded from publication",
+  "preservation": "Existing timeline, six activity objects, feedback object, homepage source, Worker, feedback configuration and deployment workflow unchanged. Canonical evidence appended once.",
+  "boundaries": "No participant rows, raw physiological signals, private narratives or full-text source documents in selected publish set. No new clinical effect, simulation or cure claim.",
+  "limits": "No new physical-device, narration, mobile/zoom or accessibility test. Remote publication and CI checked separately after commit."
+}

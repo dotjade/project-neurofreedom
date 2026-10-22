@@ -1,0 +1,51 @@
+{
+  "checkedAt": "2026-10-22T03:05:14.774845+00:00",
+  "checks": [
+    "All JSON/JSONL parsed",
+    "Python AST parsed, not rerun",
+    "8 date-filtered queries and 25 cards consistent",
+    "20 source paths",
+    "14 timeline articles read and 3 finding sources checked",
+    "Pre-publication curl production/raw hash matched",
+    "Six unchanged baseline activity IDs and feedback disabled",
+    "No em dash in deliverables"
+  ],
+  "publication": "Not performed by this agent; final feed/new-report verification remains integrator task",
+  "files": [
+    {
+      "path": "updates/2026-10-22/safety/adjacent-regulatory-evidence.jsonl",
+      "sha256": "a9fc019ae19553cf2f3a3db604471cade5021cb5c00f9a152d74697198b88f87",
+      "bytes": 1509
+    },
+    {
+      "path": "updates/2026-10-22/safety/check_links.py",
+      "sha256": "95eefee4979cd3325b07b8da01e6ec9d1c8fad4f076e6cf80568b1e8b847e545",
+      "bytes": 5929
+    },
+    {
+      "path": "updates/2026-10-22/safety/query-ledger.json",
+      "sha256": "9b77a5f447f7b703a7b95a814324920e2ddbb6591e9fe4f6624b078684dc1dd8",
+      "bytes": 11886
+    },
+    {
+      "path": "updates/2026-10-22/safety/report.md",
+      "sha256": "805ad600caa5bcb14b3fb3ae85933d145c15ccf2869fffb71276b0d68458a886",
+      "bytes": 6761
+    },
+    {
+      "path": "updates/2026-10-22/safety/repository-provenance.json",
+      "sha256": "e1a391576c34cd9b33b0b5e388caf0d6dfbc588577fbfa1bbb0d1257e295656f",
+      "bytes": 1369
+    },
+    {
+      "path": "updates/2026-10-22/safety/source-checks.json",
+      "sha256": "eb0361f6de61796ae0545bf6cf9870cff1927c00c2626679f8f432e9d5e94411",
+      "bytes": 10046
+    },
+    {
+      "path": "public/link-checks/2026-10-22.json",
+      "sha256": "c12612983b56724630e0c6d8da8cec83b2b27d18c2c96a38c7e9b4f1000ee370",
+      "bytes": 22703
+    }
+  ]
+}

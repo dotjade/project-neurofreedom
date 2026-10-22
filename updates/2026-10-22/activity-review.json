@@ -1,0 +1,13 @@
+{
+  "checkedAt": "2026-10-22T03:00:40.025791Z",
+  "catalogEntries": 6,
+  "catalogSha256CompactJson": "a0d31c5a52a08d55df01308fc9ba9bf6a470d39465e65db9b2ff155d8a8300b0",
+  "sourceCommit": "c9314ae695c3b5624f5049a3d819fef922ebe14b",
+  "catalogChanged": false,
+  "result": "Preserve all six approved entries verbatim. Rest and skipping remain equal choices. No new exercise target, breath holding, tic suppression, food suggestion, streak, points or treatment claim.",
+  "selectedActivity": "small-silly-mark",
+  "selectionDate": "2026-10-22",
+  "meaning": "Dated optional play selection only, not research or treatment.",
+  "feedbackEnabled": false,
+  "notTested": "No new physical-device, narration, zoom or rendered accessibility testing."
+}

@@ -1,0 +1,97 @@
+{
+  "prepared_utc": "2026-10-22T03:09:26.774523+00:00",
+  "base_commit": "c9314ae695c3b5624f5049a3d819fef922ebe14b",
+  "publication_scope": "Only original aggregate summaries, primary-source metadata, reproducible documentation checks and review. No participant rows, case narratives, raw signals or full-text source assets.",
+  "files": [
+    {
+      "path": "analyses/okun_estimands/2026-10-22/README.md",
+      "bytes": 1888,
+      "sha256": "092b58d0c754df8850d768a628f2abbb13f9d4bc36762c47488e975f000714fd"
+    },
+    {
+      "path": "analyses/okun_estimands/2026-10-22/check_extraction.py",
+      "bytes": 4779,
+      "sha256": "ad83139a188e6e507d3682b924807e2e57a56926ee11e76ba784cda84fc4c84c"
+    },
+    {
+      "path": "analyses/okun_estimands/2026-10-22/checks.json",
+      "bytes": 1560,
+      "sha256": "ad97bc37d634b7996484ed22e8957b946f33ef2a1af5e866278d72f38a405e5f"
+    },
+    {
+      "path": "analyses/okun_estimands/2026-10-22/collect_registry_metadata.py",
+      "bytes": 4256,
+      "sha256": "74bb19d0ff56ae206be3e179f5a8398ce1afbf9040bf932ba67d4b3cd5ced328"
+    },
+    {
+      "path": "analyses/okun_estimands/2026-10-22/evidence-record.json",
+      "bytes": 5228,
+      "sha256": "05bb7f2703eba7ff047994979abb237eee01b620622daf429c3a05c61013eb38"
+    },
+    {
+      "path": "analyses/okun_estimands/2026-10-22/evidence-record.jsonl",
+      "bytes": 4932,
+      "sha256": "0a656f896d8b5b78f07bd454e33d21c5264d1f949a1a77819112aaa0fb9f29bf"
+    },
+    {
+      "path": "analyses/okun_estimands/2026-10-22/prediction.md",
+      "bytes": 1288,
+      "sha256": "3a4bbc21322f04ad04fda3ba554d981b01823170e4eb4ccd02d22af9adda5d18"
+    },
+    {
+      "path": "analyses/okun_estimands/2026-10-22/provenance.json",
+      "bytes": 3744,
+      "sha256": "09b66a4cf988601b3fb29b6320e168d1eadedaae481430fcc099177a98d3669b"
+    },
+    {
+      "path": "analyses/okun_estimands/2026-10-22/registry-projected-metadata.json",
+      "bytes": 27117,
+      "sha256": "ca9a99db2568456e041809f07a179ecacf3ddde8e71a9d205ca5c13885608c4a"
+    },
+    {
+      "path": "analyses/okun_estimands/2026-10-22/report.md",
+      "bytes": 15331,
+      "sha256": "a33ad930e7cd9a7459dd9d2ed575ac92b744eb49b609d4b8ed63af8cc4a5f495"
+    },
+    {
+      "path": "analyses/okun_estimands/2026-10-22/review/draft-review.json",
+      "bytes": 2263,
+      "sha256": "2c40570e3931f41b9f562ac9cb7fe5feb071187eebe49c621b5e0001dba88b66"
+    },
+    {
+      "path": "analyses/okun_estimands/2026-10-22/review/independent_review.md",
+      "bytes": 6353,
+      "sha256": "5ff434b902745e127f51683de5ae6ea9cc42c9c3561ec01b3cb6e6f8518c5bde"
+    },
+    {
+      "path": "analyses/okun_estimands/2026-10-22/review/registry-independent-check.json",
+      "bytes": 2888,
+      "sha256": "c9cd6542eaacb086a27cbf37eb866d91d4980b7baea87a34a7f8b00fcedaaac5"
+    },
+    {
+      "path": "analyses/okun_estimands/2026-10-22/source-retrieval.json",
+      "bytes": 2496,
+      "sha256": "bdb0d27c67bbb33d6cc2047d3d248b55c086c38e7da41af7d6cf991866636570"
+    },
+    {
+      "path": "analyses/okun_estimands/2026-10-22/structured-extraction.json",
+      "bytes": 6622,
+      "sha256": "99210c004fba9cbf1e9f7d999cd039e711470f75d1685a857ecd2ee37050d107"
+    }
+  ],
+  "auxiliary_files": [
+    "analyses/okun_estimands/2026-10-22/artifact-manifest.json"
+  ],
+  "excluded": [
+    "__pycache__"
+  ],
+  "file_count_including_manifest": 16,
+  "total_bytes_excluding_manifest": 90745,
+  "tests": {
+    "command": "PYTHONDONTWRITEBYTECODE=1 python check_extraction.py --no-write",
+    "passed": 25,
+    "failed": 0,
+    "meaning": "metadata/inference-boundary checks only"
+  },
+  "report_sha256": "a33ad930e7cd9a7459dd9d2ed575ac92b744eb49b609d4b8ed63af8cc4a5f495"
+}

@@ -1,0 +1,167 @@
+{
+  "checkDate": "2026-10-22",
+  "windowStart": "2026-10-21T02:52:58.744651Z",
+  "windowEnd": "2026-10-22T03:01:21Z",
+  "checks": [
+    {
+      "title": "FDA drug-safety communications",
+      "url": "https://www.fda.gov/drugs/drug-safety-and-availability/drug-safety-communications",
+      "result": "Latest listed communication September 15, 2026. No in-window entry on inspected index.",
+      "status": "retrievable",
+      "method": "web search/open reader, no credentials or bypass",
+      "retrievalWindowUTC": "2026-10-22T02:57:00Z/2026-10-22T03:01:21Z"
+    },
+    {
+      "title": "FDA device-safety communications",
+      "url": "https://www.fda.gov/medical-devices/medical-device-safety/safety-communications",
+      "result": "Latest listed communication June 3, 2026. No in-window entry on inspected index.",
+      "status": "retrievable",
+      "method": "web search/open reader, no credentials or bypass",
+      "retrievalWindowUTC": "2026-10-22T02:57:00Z/2026-10-22T03:01:21Z"
+    },
+    {
+      "title": "FDA CDRH news",
+      "url": "https://www.fda.gov/medical-devices/medical-devices-news-and-events/cdrh-new-news-and-updates",
+      "result": "Latest date October 20, 2026 with six entries: policy/control-plan items, glucose-meter removal, infusion-pack corrections, Olympus import alert. Prior-day overlaps, none names watched therapy.",
+      "status": "retrievable",
+      "method": "web search/open reader, no credentials or bypass",
+      "retrievalWindowUTC": "2026-10-22T02:57:00Z/2026-10-22T03:01:21Z"
+    },
+    {
+      "title": "FDA NeuroStar recall",
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfRES/res.cfm?id=222521",
+      "result": "Selected fields still Class 2, open/classified, recall Z-0142-2027, event 99812, initiated August 24 and posted October 9. No complete record diff claimed.",
+      "status": "retrievable_selected_fields",
+      "method": "web search/open reader, no credentials or bypass",
+      "retrievalWindowUTC": "2026-10-22T02:57:00Z/2026-10-22T03:01:21Z"
+    },
+    {
+      "title": "FDA SrLC",
+      "url": "https://www.accessdata.fda.gov/scripts/cder/safetylabelingchanges/",
+      "result": "Search form and help text available; no executed product/date result set. Cannot exclude unenumerated labeling changes.",
+      "status": "limited_search_form_only",
+      "method": "web search/open reader, no credentials or bypass",
+      "retrievalWindowUTC": "2026-10-22T02:57:00Z/2026-10-22T03:01:21Z"
+    },
+    {
+      "title": "EMA What's new",
+      "url": "https://www.ema.europa.eu/en/news-events/whats-new",
+      "result": "All 23 October 21 rows inspected. No watched ingredient named. Two generic device opinions required title/purpose scrutiny; therapeutic instrument identified as CEVIRA cervical device, not tic device. Site warns search may be incomplete during usability work.",
+      "status": "retrievable_with_completeness_warning",
+      "method": "web search/open reader, no credentials or bypass",
+      "retrievalWindowUTC": "2026-10-22T02:57:00Z/2026-10-22T03:01:21Z"
+    },
+    {
+      "title": "EMA CECP device opinion",
+      "url": "https://www.ema.europa.eu/en/documents/other/general-medicine-therapeutic-treatment-instruments-notified-body-2797-12-05-2026-expert-decision-opinion-context-clinical-evaluation-consultation-procedure-cecp_en.pdf",
+      "result": "EMA/EX/0000336395, publicly indexed October 21. Intended use is cervical photodynamic therapy (CEVIRA), outside watched therapies. No document reproduced.",
+      "status": "retrievable_pdf_identity_checked",
+      "method": "web search/open reader, no credentials or bypass",
+      "retrievalWindowUTC": "2026-10-22T02:57:00Z/2026-10-22T03:01:21Z"
+    },
+    {
+      "title": "EMA PRAC index",
+      "url": "https://www.ema.europa.eu/en/human-regulatory-overview/post-authorisation/pharmacovigilance-post-authorisation/signal-management/prac-recommendations-safety-signals",
+      "result": "Latest listed safety-signal recommendations remain August 31-September 3 meeting, first published September 28. No newer recommendations in inspected top section.",
+      "status": "retrievable",
+      "method": "web search/open reader, no credentials or bypass",
+      "retrievalWindowUTC": "2026-10-22T02:57:00Z/2026-10-22T03:01:21Z"
+    },
+    {
+      "title": "MHRA Drug Safety Update",
+      "url": "https://www.gov.uk/drug-safety-update",
+      "result": "Top entry October 20 IXCHIQ vaccine withdrawal outside watch. October 15 antidepressant safety communication is prior-window comorbidity context, not new.",
+      "status": "retrievable",
+      "method": "web search/open reader, no credentials or bypass",
+      "retrievalWindowUTC": "2026-10-22T02:57:00Z/2026-10-22T03:01:21Z"
+    },
+    {
+      "title": "MHRA alerts",
+      "url": "https://www.gov.uk/drug-device-alerts",
+      "result": "First-page recent entries inspected; latest October weekly notices and known October 13 renal-replacement alert, no new watched therapy notice established. Page remains nonchronological; issuance date is not necessarily publication date. Prior two unreadable weekly attachments not retried and remain unresolved.",
+      "status": "retrievable_index_only",
+      "method": "web search/open reader, no credentials or bypass",
+      "retrievalWindowUTC": "2026-10-22T02:57:00Z/2026-10-22T03:01:21Z"
+    },
+    {
+      "title": "TGA safety alerts",
+      "url": "https://www.tga.gov.au/safety/safety-monitoring-and-information/safety-alerts",
+      "result": "Latest six headings screened; newest September 14. No in-window watched notice.",
+      "status": "retrievable",
+      "method": "web search/open reader, no credentials or bypass",
+      "retrievalWindowUTC": "2026-10-22T02:57:00Z/2026-10-22T03:01:21Z"
+    },
+    {
+      "title": "TGA safety updates",
+      "url": "https://www.tga.gov.au/news/safety-updates",
+      "result": "Latest six headings screened; newest October 14 vaccine reconstitution. No in-window watched notice.",
+      "status": "retrievable",
+      "method": "web search/open reader, no credentials or bypass",
+      "retrievalWindowUTC": "2026-10-22T02:57:00Z/2026-10-22T03:01:21Z"
+    },
+    {
+      "title": "TGA market actions",
+      "url": "https://www.tga.gov.au/safety/recalls-and-other-market-actions/market-actions",
+      "result": "Latest six headings screened; newest October 16 avacopan withdrawal. No in-window watched notice. This is not the full DRAC database.",
+      "status": "retrievable",
+      "method": "web search/open reader, no credentials or bypass",
+      "retrievalWindowUTC": "2026-10-22T02:57:00Z/2026-10-22T03:01:21Z"
+    },
+    {
+      "title": "Health Canada recall homepage",
+      "url": "https://recalls-rappels.canada.ca/en",
+      "result": "Ten displayed rows inspected; five October 21 entries. Four health-product recalls (Azurion 7, i-STAT hs-TnI cartridge, FP3D resins, Femyso) outside watch. Cannabis labeling recall examined separately as adjacent evidence.",
+      "status": "retrievable",
+      "method": "web search/open reader, no credentials or bypass",
+      "retrievalWindowUTC": "2026-10-22T02:57:00Z/2026-10-22T03:01:21Z"
+    },
+    {
+      "title": "Health Canada RA-82825",
+      "url": "https://recalls-rappels.canada.ca/en/alert-recall/galaxie-brands-corporation-recalls-overtime-punch-out-due-labelling-issue",
+      "result": "Original publication and update October 21. Ontario OVERTIME Punch Out dried cannabis flower lot 11185 has switched THC/CBD values. No reported complaints/adverse reactions as of notice. Adjacent consumer-product recall, not a watched tic-treatment result or class-wide risk estimate.",
+      "status": "retrievable",
+      "method": "web search/open reader, no credentials or bypass",
+      "retrievalWindowUTC": "2026-10-22T02:57:00Z/2026-10-22T03:01:21Z"
+    },
+    {
+      "title": "ESSTS homepage",
+      "url": "https://www.essts.org/",
+      "result": "June conference program includes guideline-related session, but no new-window issued guideline verified. Conference title is not a guideline update.",
+      "status": "retrievable",
+      "method": "web search/open reader, no credentials or bypass",
+      "retrievalWindowUTC": "2026-10-22T02:57:00Z/2026-10-22T03:01:21Z"
+    },
+    {
+      "title": "ESSTS partners",
+      "url": "https://www.essts.org/partners",
+      "result": "Describes 2022 guideline version 2.0 and further update under consideration; does not establish a newly issued guideline.",
+      "status": "retrievable",
+      "method": "web search/open reader, no credentials or bypass",
+      "retrievalWindowUTC": "2026-10-22T02:57:00Z/2026-10-22T03:01:21Z"
+    },
+    {
+      "title": "AAN guideline content",
+      "url": "https://www.aan.com/Guidelines/Home/GetGuidelineContent/964",
+      "result": "Search metadata suggested recent publication, but PDF front matter documents board approval February 12, 2019. Historical guidance, not verified new-window revision. Initial search warned aan.com robots blocking; direct known document was readable through web reader.",
+      "status": "retrievable_historical_pdf",
+      "method": "web search/open reader, no credentials or bypass",
+      "retrievalWindowUTC": "2026-10-22T02:57:00Z/2026-10-22T03:01:21Z"
+    },
+    {
+      "title": "NICE NG127",
+      "url": "https://www.nice.org.uk/guidance/ng127",
+      "result": "Web reader HTTP403; current version changes not verified.",
+      "status": "access_limited",
+      "method": "web search/open reader, no credentials or bypass",
+      "retrievalWindowUTC": "2026-10-22T02:57:00Z/2026-10-22T03:01:21Z"
+    },
+    {
+      "title": "ESSTS guideline candidate path",
+      "url": "https://www.essts.org/guidelines",
+      "result": "Candidate path inaccessible; current partners page used for verified guideline-version context.",
+      "status": "unverified_candidate_path",
+      "method": "web search/open reader, no credentials or bypass",
+      "retrievalWindowUTC": "2026-10-22T02:57:00Z/2026-10-22T03:01:21Z"
+    }
+  ]
+}

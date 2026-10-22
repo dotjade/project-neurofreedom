@@ -1,0 +1,174 @@
+{
+  "checkDate": "2026-10-22",
+  "windowStart": "2026-10-21T02:52:58.744651Z",
+  "retrievalIntervalUTC": "2026-10-22 02:57-03:00; exact per-query instants not instrumented",
+  "queryCount": 8,
+  "resultCardsScreened": 25,
+  "dateRule": "Queries overlap October 20. Source dates, not crawl dates, determine new-window eligibility. No evidence after actual cutoff is inferred.",
+  "countNote": "Returned cards across batched searches, not unique events or total hits; language and index duplicates retained with exclusion reason.",
+  "batches": [
+    {
+      "id": 1,
+      "queries": [
+        "site:fda.gov (Tourette OR ecopipam OR aripiprazole OR risperidone OR pimozide OR haloperidol OR clonidine OR guanfacine OR valbenazine OR deutetrabenazine OR tetrabenazine) (safety OR recall OR warning) after:2026-10-20 before:2026-10-23",
+        "site:ema.europa.eu (Tourette OR ecopipam OR aripiprazole OR risperidone OR pimozide OR haloperidol OR clonidine OR guanfacine OR valbenazine OR deutetrabenazine OR tetrabenazine) after:2026-10-20 before:2026-10-23",
+        "site:gov.uk (Tourette OR ecopipam OR aripiprazole OR risperidone OR pimozide OR haloperidol OR clonidine OR guanfacine OR valbenazine OR deutetrabenazine OR tetrabenazine) (safety OR recall OR warning) after:2026-10-20 before:2026-10-23",
+        "(site:fda.gov OR site:ema.europa.eu OR site:gov.uk) (Neupulse OR NeuroStar OR \"median nerve stimulation\" OR \"deep brain stimulation\" OR \"transcranial magnetic\" OR topiramate OR \"botulinum toxin\" OR tiapride) (safety OR recall) after:2026-10-20 before:2026-10-23"
+      ],
+      "resultCardsScreened": 13,
+      "perQueryCountsAvailable": false,
+      "screenedCards": [
+        {
+          "title": "Haldol and associated names - referral | European Medicines Agency (EMA)",
+          "url": "https://www.ema.europa.eu/et/medicines/human/referrals/haldol-associated-names",
+          "decision": "Historical 2017 Haldol referral, not a new-window notice."
+        },
+        {
+          "title": "Class 2 Medicines Recall: Aripiprazole 1mg/ml oral solution EL (19)A/21 - GOV.UK",
+          "url": "https://www.gov.uk/drug-device-alerts/class-2-medicines-recall-aripiprazole-1mg-ml-oral-solution-el-19-a-21",
+          "decision": "Aripiprazole recall published 12 September 2019, before the window."
+        },
+        {
+          "title": "RISVAN historical labeling PDF",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2025/214835Orig1s000Lbl.pdf",
+          "decision": "Historical RISVAN labeling file under 2025 NDA path; no new-window labeling change established."
+        },
+        {
+          "title": "National Patient Safety Alerts (NaPSA) | Department of Health",
+          "url": "https://www.health-ni.gov.uk/topics/national-patient-safety-alerts-napsa",
+          "decision": "Northern Ireland alert index, mostly historical entries; no dated watched notice established."
+        },
+        {
+          "title": "Austedo | European Medicines Agency (EMA)",
+          "url": "https://www.ema.europa.eu/cs/medicines/human/EPAR/austedo",
+          "decision": "Austedo EPAR last source update 23 January 2026, before the window."
+        },
+        {
+          "title": "Alerts, recalls and safety information: medicines and medical devices - GOV.UK",
+          "url": "https://www.gov.uk/drug-device-alerts?medical_specialism=general-surgery",
+          "decision": "Filtered MHRA index, not itself a new safety event; unfiltered index checked separately."
+        },
+        {
+          "title": "Drug Safety Update - GOV.UK",
+          "url": "https://www.gov.uk/drug-safety-update?therapeutic_area%5B%5D=neurology&therapeutic_area%5B%5D=obstetrics-gynaecology-fertility&therapeutic_area%5B%5D=paediatrics-neonatology&therapeutic_area%5B%5D=psychiatry",
+          "decision": "Filtered MHRA index, historical result snippets; unfiltered index checked separately."
+        },
+        {
+          "title": "Alerts, recalls and safety information: medicines and medical devices - GOV.UK",
+          "url": "https://www.gov.uk/drug-device-alerts?medical_specialism=haematology-oncology",
+          "decision": "Filtered MHRA index, not itself a new safety event; unfiltered index checked separately."
+        },
+        {
+          "title": "Drug Safety Update - GOV.UK",
+          "url": "https://www.gov.uk/drug-safety-update",
+          "decision": "MHRA safety index checked directly; latest October 20 vaccine item is outside watch."
+        },
+        {
+          "title": "Drug Safety and Availability | FDA",
+          "url": "https://www.fda.gov/drugs/drug-safety-and-availability?trk=article-ssr-frontend-pulse_little-text-block",
+          "decision": "FDA safety landing page, not a dated event; direct current communications indexes checked."
+        },
+        {
+          "title": "Abilify | European Medicines Agency (EMA)",
+          "url": "https://www.ema.europa.eu/pt/medicines/human/EPAR/abilify",
+          "decision": "Historical Abilify EPAR; no in-window material change established."
+        },
+        {
+          "title": "Aripiprazole Mylan Pharma (previously Aripiprazole Pharmathen) | European Medicines Agency (EMA)",
+          "url": "https://www.ema.europa.eu/it/medicines/human/EPAR/aripiprazole-mylan-pharma",
+          "decision": "Historical aripiprazole EPAR; no in-window material change established."
+        },
+        {
+          "title": "Review of the use of haloperidol in elderly patients with acute delirium - GOV.UK",
+          "url": "https://www.gov.uk/government/publications/review-of-the-use-of-haloperidol-in-elderly-patients-with-acute-delirium/review-of-the-use-of-haloperidol-in-elderly-patients-with-acute-delirium",
+          "decision": "Historical 2021 haloperidol-delirium review, not new-window."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "queries": [
+        "(site:fda.gov OR site:ema.europa.eu OR site:gov.uk) (methylphenidate OR atomoxetine OR lisdexamfetamine OR fluvoxamine OR sertraline OR antidepressants) (safety OR recall OR warning) after:2026-10-20 before:2026-10-23",
+        "(site:tga.gov.au OR site:recalls-rappels.canada.ca OR site:canada.ca) (Tourette OR ecopipam OR aripiprazole OR risperidone OR pimozide OR haloperidol OR clonidine OR guanfacine OR valbenazine OR deutetrabenazine OR tetrabenazine) (safety OR recall) after:2026-10-20 before:2026-10-23",
+        "(site:tga.gov.au OR site:recalls-rappels.canada.ca OR site:canada.ca) (Neupulse OR NeuroStar OR \"median nerve stimulation\" OR \"deep brain stimulation\" OR topiramate OR \"botulinum toxin\" OR tiapride OR methylphenidate OR atomoxetine OR lisdexamfetamine OR fluvoxamine OR sertraline) (safety OR recall) after:2026-10-20 before:2026-10-23",
+        "(site:aan.com OR site:essts.org OR site:nice.org.uk) (Tourette OR \"tic disorder\") (guideline OR guidance OR update) after:2026-10-20 before:2026-10-23"
+      ],
+      "resultCardsScreened": 12,
+      "perQueryCountsAvailable": false,
+      "screenedCards": [
+        {
+          "title": "Methylphenidate - referral | European Medicines Agency (EMA)",
+          "url": "https://www.ema.europa.eu/en/medicines/human/referrals/methylphenidate",
+          "decision": "Historical 2009 methylphenidate referral."
+        },
+        {
+          "title": "Serotonin-specific reuptake inhibitors and serotonin-noradrenaline reuptake inhibitors - referral | European Medicines Agency (EMA)",
+          "url": "https://www.ema.europa.eu/et/medicines/human/referrals/serotonin-specific-reuptake-inhibitors-serotonin-noradrenaline-reuptake-inhibitors",
+          "decision": "Historical 2005 antidepressant referral; same referral as another language result."
+        },
+        {
+          "title": "ESSTS | European Society for the Study of Tourette Syndrome",
+          "url": "https://www.essts.org/",
+          "decision": "ESSTS conference and news page; June 2026 presentation is not a newly issued guideline."
+        },
+        {
+          "title": "Outcomes of imposed non-interventional post-authorisation safety studies | European Medicines Agency (EMA)",
+          "url": "https://www.ema.europa.eu/en/human-regulatory-overview/post-authorisation/pharmacovigilance-post-authorisation/post-authorisation-safety-studies-pass/outcomes-imposed-non-interventional-post-authorisation-safety-studies",
+          "decision": "PASS results index; cited methylphenidate document published 2 December 2025, before the window."
+        },
+        {
+          "title": "ESSTS | Directory of Tourette Syndrome Patient Associations around the world",
+          "url": "https://www.essts.org/directory",
+          "decision": "Association directory, not a clinical guideline; no contacts retained or contacted."
+        },
+        {
+          "title": "Serotonin-specific reuptake inhibitors and serotonin-noradrenaline reuptake inhibitors - referral | European Medicines Agency (EMA)",
+          "url": "https://www.ema.europa.eu/es/medicines/human/referrals/serotonin-specific-reuptake-inhibitors-serotonin-noradrenaline-reuptake-inhibitors",
+          "decision": "Spanish version of historical 2005 referral, duplicate."
+        },
+        {
+          "title": "Find recalls, advisories and safety alerts - Canada.ca",
+          "url": "https://recalls-rappels.canada.ca/en?initialSessionID=134-4790943-5041326&ld=ASXXSCTCADirect&page=%2C4",
+          "decision": "Recall homepage variant; canonical current homepage checked directly."
+        },
+        {
+          "title": "Trouvez des rappels, des avis et des avis de s\u00e9curit\u00e9 \u2013 Canada.ca",
+          "url": "https://recalls-rappels.canada.ca/fr",
+          "decision": "French recall homepage; canonical English current homepage checked directly."
+        },
+        {
+          "title": "Tuzulby | European Medicines Agency (EMA)",
+          "url": "https://www.ema.europa.eu/ga/medicines/human/EPAR/tuzulby",
+          "decision": "Historical methylphenidate EPAR; no dated in-window update verified."
+        },
+        {
+          "title": "ESSTS Registration | See you in Malm\u00f6 on 9-11 June 2027!",
+          "url": "https://www.essts.org/registration",
+          "decision": "Conference-registration page, not guidance or an issued clinical guideline."
+        },
+        {
+          "title": "Find recalls, advisories and safety alerts - Canada.ca",
+          "url": "https://recalls-rappels.canada.ca/en?page=%2C14&wbdisable=true",
+          "decision": "Recall homepage variant; canonical current homepage checked directly."
+        },
+        {
+          "title": "EMA confirms positive benefit-risk for antidepressant Valdoxan/Thymanax (agomelatine) | European Medicines Agency (EMA)",
+          "url": "https://www.ema.europa.eu/en/news/ema-confirms-positive-benefit-risk-antidepressant-valdoxan-thymanax-agomelatine",
+          "decision": "Historical agomelatine regulatory communication, not new-window."
+        }
+      ]
+    }
+  ],
+  "windowEnd": "2026-10-22T03:01:21Z",
+  "supplementarySourceResolution": {
+    "queries": [
+      "\"Perspectives from Adults with Tourette Syndrome\" \"10.2147\"",
+      "\"Pappert\" \"Long-term outcome of Tourette syndrome\" PubMed",
+      "site:aan.com Tourette guideline 2019 update 2026",
+      "site:essts.org guidelines Tourette 2026",
+      "\"Objective assessments of longitudinal outcome in Gilles de la Tourette\" Pubmed"
+    ],
+    "purpose": "Primary-source URL and historical guideline-date verification, not an additional date-filtered surveillance screen. Only returned relevant original-source leads pursued; broader incidental cards not included in surveillance counts.",
+    "coverage": "Direct AAN document front matter, ESSTS site, Pappert primary routes and Isaacs primary publisher alternatives checked. Search snippets are not a claim of current live full-text access."
+  }
+}

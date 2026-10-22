@@ -1,0 +1,575 @@
+{
+  "source_url": "https://clinicaltrials.gov/api/v2/studies/NCT02056873",
+  "request_url": "https://clinicaltrials.gov/api/v2/studies/NCT02056873?fields=protocolSection.identificationModule%2CprotocolSection.statusModule%2CprotocolSection.designModule%2CprotocolSection.outcomesModule%2CprotocolSection.referencesModule%2CprotocolSection.ipdSharingStatementModule%2CdocumentSection%2ChasResults%2CresultsSection.participantFlowModule.groups%2CresultsSection.participantFlowModule.periods.title%2CresultsSection.participantFlowModule.periods.milestones%2CresultsSection.baselineCharacteristicsModule.groups%2CresultsSection.baselineCharacteristicsModule.denoms%2CresultsSection.baselineCharacteristicsModule.populationDescription%2CresultsSection.baselineCharacteristicsModule.measures.title%2CresultsSection.baselineCharacteristicsModule.measures.description%2CresultsSection.baselineCharacteristicsModule.measures.paramType%2CresultsSection.baselineCharacteristicsModule.measures.unitOfMeasure%2CresultsSection.baselineCharacteristicsModule.measures.denoms%2CresultsSection.outcomeMeasuresModule.outcomeMeasures.type%2CresultsSection.outcomeMeasuresModule.outcomeMeasures.title%2CresultsSection.outcomeMeasuresModule.outcomeMeasures.description%2CresultsSection.outcomeMeasuresModule.outcomeMeasures.timeFrame%2CresultsSection.outcomeMeasuresModule.outcomeMeasures.paramType%2CresultsSection.outcomeMeasuresModule.outcomeMeasures.dispersionType%2CresultsSection.outcomeMeasuresModule.outcomeMeasures.unitOfMeasure%2CresultsSection.outcomeMeasuresModule.outcomeMeasures.denoms%2CresultsSection.outcomeMeasuresModule.outcomeMeasures.groups%2CresultsSection.outcomeMeasuresModule.outcomeMeasures.analyses%2CresultsSection.outcomeMeasuresModule.outcomeMeasures.populationDescription%2CresultsSection.outcomeMeasuresModule.outcomeMeasures.reportingStatus%2CresultsSection.adverseEventsModule.timeFrame%2CresultsSection.adverseEventsModule.frequencyThreshold%2CresultsSection.adverseEventsModule.eventGroups%2CresultsSection.adverseEventsModule.seriousEvents.assessmentType%2CresultsSection.adverseEventsModule.otherEvents.assessmentType",
+  "retrieved_utc": "2026-10-22T02:57:57.734876+00:00",
+  "http_status": 200,
+  "projected_response_sha256": "159b34fea8da84b1619cfc7bc5b9d3dca2a5de0f50dace5aa13d0a851e5f3291",
+  "projection_fields": [
+    "protocolSection.identificationModule",
+    "protocolSection.statusModule",
+    "protocolSection.designModule",
+    "protocolSection.outcomesModule",
+    "protocolSection.referencesModule",
+    "protocolSection.ipdSharingStatementModule",
+    "documentSection",
+    "hasResults",
+    "resultsSection.participantFlowModule.groups",
+    "resultsSection.participantFlowModule.periods.title",
+    "resultsSection.participantFlowModule.periods.milestones",
+    "resultsSection.baselineCharacteristicsModule.groups",
+    "resultsSection.baselineCharacteristicsModule.denoms",
+    "resultsSection.baselineCharacteristicsModule.populationDescription",
+    "resultsSection.baselineCharacteristicsModule.measures.title",
+    "resultsSection.baselineCharacteristicsModule.measures.description",
+    "resultsSection.baselineCharacteristicsModule.measures.paramType",
+    "resultsSection.baselineCharacteristicsModule.measures.unitOfMeasure",
+    "resultsSection.baselineCharacteristicsModule.measures.denoms",
+    "resultsSection.outcomeMeasuresModule.outcomeMeasures.type",
+    "resultsSection.outcomeMeasuresModule.outcomeMeasures.title",
+    "resultsSection.outcomeMeasuresModule.outcomeMeasures.description",
+    "resultsSection.outcomeMeasuresModule.outcomeMeasures.timeFrame",
+    "resultsSection.outcomeMeasuresModule.outcomeMeasures.paramType",
+    "resultsSection.outcomeMeasuresModule.outcomeMeasures.dispersionType",
+    "resultsSection.outcomeMeasuresModule.outcomeMeasures.unitOfMeasure",
+    "resultsSection.outcomeMeasuresModule.outcomeMeasures.denoms",
+    "resultsSection.outcomeMeasuresModule.outcomeMeasures.groups",
+    "resultsSection.outcomeMeasuresModule.outcomeMeasures.analyses",
+    "resultsSection.outcomeMeasuresModule.outcomeMeasures.populationDescription",
+    "resultsSection.outcomeMeasuresModule.outcomeMeasures.reportingStatus",
+    "resultsSection.adverseEventsModule.timeFrame",
+    "resultsSection.adverseEventsModule.frequencyThreshold",
+    "resultsSection.adverseEventsModule.eventGroups",
+    "resultsSection.adverseEventsModule.seriousEvents.assessmentType",
+    "resultsSection.adverseEventsModule.otherEvents.assessmentType"
+  ],
+  "retention": "Server-projected definitions, study metadata, denominators and published whole-cohort safety totals only. No result classes or individual rows requested or saved.",
+  "data": {
+    "protocolSection": {
+      "identificationModule": {
+        "nctId": "NCT02056873",
+        "orgStudyIdInfo": {
+          "id": "IRB201300850 -A-N"
+        },
+        "secondaryIdInfos": [
+          {
+            "id": "R01NS096008",
+            "type": "NIH",
+            "link": "https://reporter.nih.gov/quickSearch/R01NS096008"
+          },
+          {
+            "id": "1553482",
+            "type": "OTHER_GRANT",
+            "domain": "NATIONAL SCIENCE FOUNDATION"
+          },
+          {
+            "id": "OCR20343",
+            "type": "OTHER",
+            "domain": "UF OnCore"
+          }
+        ],
+        "organization": {
+          "fullName": "University of Florida",
+          "class": "OTHER"
+        },
+        "briefTitle": "Tourette Syndrome Deep Brain Stimulation",
+        "officialTitle": "The Human Thalamocortical Network in Tourette Syndrome"
+      },
+      "statusModule": {
+        "statusVerifiedDate": "2024-08",
+        "overallStatus": "COMPLETED",
+        "expandedAccessInfo": {
+          "hasExpandedAccess": false
+        },
+        "startDateStruct": {
+          "date": "2014-03-20",
+          "type": "ACTUAL"
+        },
+        "primaryCompletionDateStruct": {
+          "date": "2021-08-25",
+          "type": "ACTUAL"
+        },
+        "completionDateStruct": {
+          "date": "2023-08-24",
+          "type": "ACTUAL"
+        },
+        "studyFirstSubmitDate": "2014-02-03",
+        "studyFirstSubmitQcDate": "2014-02-04",
+        "studyFirstPostDateStruct": {
+          "date": "2014-02-06",
+          "type": "ESTIMATED"
+        },
+        "resultsFirstSubmitDate": "2023-10-18",
+        "resultsFirstSubmitQcDate": "2024-08-30",
+        "resultsFirstPostDateStruct": {
+          "date": "2024-09-05",
+          "type": "ACTUAL"
+        },
+        "lastUpdateSubmitDate": "2024-08-30",
+        "lastUpdatePostDateStruct": {
+          "date": "2024-09-05",
+          "type": "ACTUAL"
+        }
+      },
+      "designModule": {
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "designInfo": {
+          "allocation": "NON_RANDOMIZED",
+          "interventionModel": "SEQUENTIAL",
+          "primaryPurpose": "TREATMENT",
+          "maskingInfo": {
+            "masking": "NONE"
+          }
+        },
+        "enrollmentInfo": {
+          "count": 10,
+          "type": "ACTUAL"
+        }
+      },
+      "outcomesModule": {
+        "primaryOutcomes": [
+          {
+            "measure": "Number of Participants With a 40% Reduction in Total Tics on the Yale Global Tic Severity Scale (YGTSS) With CDBS (Period 1)",
+            "description": "The Yale Global Tic Severity Scale (YGTSS) is a 10-item semi-structured clinician-rating instrument that provides an evaluation of the number, frequency, intensity, complexity, and interference of motor and phonic symptoms. The items pertaining to the tic ratings are scored on two subscales: motor tics and phonic tics. Behaviors are rated on a 6-point scale. The total scale has been used in this study and has a range of 0-50. A higher score indicates a higher severity of symptoms.\n\nPatients reach the outcome measure with a 40% reduction of YGTSS at month 6 post-op compared to baseline (i.e., 40% improvement in their tic severity scale).",
+            "timeFrame": "Baseline to 6 months post-surgery"
+          }
+        ]
+      },
+      "referencesModule": {
+        "references": [
+          {
+            "pmid": "36094652",
+            "type": "DERIVED",
+            "citation": "Cagle JN, Okun MS, Cernera S, Eisinger RS, Opri E, Bowers D, Ward H, Foote KD, Gunduz A. Embedded Human Closed-Loop Deep Brain Stimulation for Tourette Syndrome: A Nonrandomized Controlled Trial. JAMA Neurol. 2022 Oct 1;79(10):1064-1068. doi: 10.1001/jamaneurol.2022.2741."
+          }
+        ],
+        "seeAlsoLinks": [
+          {
+            "label": "UF Center for Movement Disorders \\& Neurorestoration",
+            "url": "http://movementdisorders.ufhealth.org/"
+          }
+        ]
+      }
+    },
+    "resultsSection": {
+      "participantFlowModule": {
+        "groups": [
+          {
+            "id": "FG000",
+            "title": "First Period: Continuous DBS; Second Period: Switch to Responsive DBS in Qualified Patients",
+            "description": "The surgical intervention requires implantation of a DBS system: one CM thalamic leads per hemisphere, one Electrocorticography (ECOG) strip per hemisphere, and two neurostimulators implanted in the chest. The strip provides an interface for brain activity to be monitored.\n\nThe system includes a programmer with a telemetry interface and a patient remote to check battery and device status. The programmer is used to set up the device, i.e., stimulation and recording, and retrieve data for subsequent review.\n\nFirst Period: The system will be set to provide continuous deep brain stimulation (CDBS) for the 6 months postsurgery. Subjects will be evaluated monthly as part of normal clinical care for DBS.\n\nSecond Period: At 6 months, the investigators will determine whether a subject is a candidate for responsive brain stimulation (RBS). A neuromarker that detects tics significantly must be identified for a subject to receive the second intervention. Qualifying subjects will have the option to change their settings to participate in the RBS stimulation intervention. Subjects who do not qualify or do not participate will continue to receive this intervention for the duration of the study. Subjects will been seen every 6 months for evaluation as part of normal clinical care for DBS."
+          }
+        ],
+        "periods": [
+          {
+            "title": "Continuous DBS",
+            "milestones": [
+              {
+                "type": "STARTED",
+                "achievements": [
+                  {
+                    "groupId": "FG000",
+                    "numSubjects": "10"
+                  }
+                ]
+              },
+              {
+                "type": "Qualify for Second Intervention at the End of First Intervention",
+                "achievements": [
+                  {
+                    "groupId": "FG000",
+                    "numSubjects": "10"
+                  }
+                ]
+              },
+              {
+                "type": "COMPLETED",
+                "achievements": [
+                  {
+                    "groupId": "FG000",
+                    "numSubjects": "10"
+                  }
+                ]
+              },
+              {
+                "type": "NOT COMPLETED",
+                "achievements": [
+                  {
+                    "groupId": "FG000",
+                    "numSubjects": "0"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Responsive DBS",
+            "milestones": [
+              {
+                "type": "STARTED",
+                "achievements": [
+                  {
+                    "groupId": "FG000",
+                    "comment": "2 participants' study period finished before firmware update was available for the second period.",
+                    "numSubjects": "8"
+                  }
+                ]
+              },
+              {
+                "type": "COMPLETED",
+                "achievements": [
+                  {
+                    "groupId": "FG000",
+                    "numSubjects": "5"
+                  }
+                ]
+              },
+              {
+                "type": "NOT COMPLETED",
+                "achievements": [
+                  {
+                    "groupId": "FG000",
+                    "numSubjects": "3"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "baselineCharacteristicsModule": {
+        "populationDescription": "Patients with Tourette Syndrome that have been deemed candidates for deep brain stimulation (DBS) surgery.",
+        "groups": [
+          {
+            "id": "BG000",
+            "title": "Deep Brain Stimulation (DBS)",
+            "description": "The surgical intervention requires implantation of a DBS system: one CM thalamic leads per hemisphere, one Electrocorticography (ECOG) strip per hemisphere, and two neurostimulators implanted in the chest. The strip provides an interface for brain activity to be monitored.\n\nThe system includes a programmer with a telemetry interface, and a patient remote to check battery and device status. The programmer is used to set up the device, i.e., stimulation and recording, and retrieve data for subsequent review.\n\nThe system will be set to provide continuous stimulation for the 6 months postsurgery. Subjects will be seen monthly for evaluation as a part of normal clinical care for DBS. At 6 months, the investigators will determine whether a subject is a candidate for responsive brain stimulation (RBS). Qualifying subjects will have the option to have their settings changed in order to participate in the RBS stimulation intervention. Subjects who do not qualify or do not participate will continue to receive this intervention for the duration of the study. Subjects will been seen every 6 months for evaluation as part of normal clinical care for DBS."
+          }
+        ],
+        "denoms": [
+          {
+            "units": "Participants",
+            "counts": [
+              {
+                "groupId": "BG000",
+                "value": "10"
+              }
+            ]
+          }
+        ],
+        "measures": [
+          {
+            "title": "Age, Categorical",
+            "paramType": "COUNT_OF_PARTICIPANTS",
+            "unitOfMeasure": "Participants"
+          },
+          {
+            "title": "Sex: Female, Male",
+            "paramType": "COUNT_OF_PARTICIPANTS",
+            "unitOfMeasure": "Participants"
+          },
+          {
+            "title": "Ethnicity (NIH/OMB)",
+            "paramType": "COUNT_OF_PARTICIPANTS",
+            "unitOfMeasure": "Participants"
+          },
+          {
+            "title": "Race (NIH/OMB)",
+            "paramType": "COUNT_OF_PARTICIPANTS",
+            "unitOfMeasure": "Participants"
+          },
+          {
+            "title": "Region of Enrollment",
+            "paramType": "NUMBER",
+            "unitOfMeasure": "participants"
+          },
+          {
+            "title": "Yale Global Tic Severity Scale (YGTSS)",
+            "description": "YGTSS is a questionnaire that has a range of 0-50, with higher values corresponding to more severe symptoms. The goal of the interventions is to decrease the presurgical baseline measure.",
+            "paramType": "MEAN",
+            "unitOfMeasure": "units on the YGTSS scale"
+          }
+        ]
+      },
+      "outcomeMeasuresModule": {
+        "outcomeMeasures": [
+          {
+            "type": "PRIMARY",
+            "title": "Number of Participants With a 40% Reduction in Total Tics on the Yale Global Tic Severity Scale (YGTSS) With CDBS (Period 1)",
+            "description": "The Yale Global Tic Severity Scale (YGTSS) is a 10-item semi-structured clinician-rating instrument that provides an evaluation of the number, frequency, intensity, complexity, and interference of motor and phonic symptoms. The items pertaining to the tic ratings are scored on two subscales: motor tics and phonic tics. Behaviors are rated on a 6-point scale. The total scale has been used in this study and has a range of 0-50. A higher score indicates a higher severity of symptoms.\n\nPatients reach the outcome measure with a 40% reduction of YGTSS at month 6 post-op compared to baseline (i.e., 40% improvement in their tic severity scale).",
+            "reportingStatus": "POSTED",
+            "paramType": "COUNT_OF_PARTICIPANTS",
+            "unitOfMeasure": "Participants",
+            "timeFrame": "Baseline to 6 months post-surgery",
+            "groups": [
+              {
+                "id": "OG000",
+                "title": "Deep Brain Stimulation (DBS)",
+                "description": "The surgical intervention requires implantation of a DBS system: one CM thalamic leads per hemisphere, one Electrocorticography (ECOG) strip per hemisphere, and two neurostimulators implanted in the chest. The strip provides an interface for brain activity to be monitored.\n\nThe system includes a programmer with a telemetry interface, and a patient remote to check battery and device status. The programmer is used to set up the device, i.e., stimulation and recording, and retrieve data for subsequent review.\n\nThe system will be set to provide continuous stimulation for the 6 months postsurgery. Subjects will be seen monthly for evaluation as a part of normal clinical care for DBS. At 6 months, the investigators will determine whether a subject is a candidate for responsive brain stimulation (RBS). Qualifying subjects will have the option to have their settings changed in order to participate in the RBS stimulation intervention. Subjects who do not qualify or do not participate will continue to receive this intervention for the duration of the study. Subjects will been seen every 6 months for evaluation as part of normal clinical care for DBS."
+              }
+            ],
+            "denoms": [
+              {
+                "units": "Participants",
+                "counts": [
+                  {
+                    "groupId": "OG000",
+                    "value": "10"
+                  }
+                ]
+              }
+            ],
+            "analyses": [
+              {
+                "groupIds": [
+                  "OG000"
+                ],
+                "groupDescription": "At 6 months post-surgery the YGTSS scores of each subjects is statistically tested against their baseline scores.\n\nA decrease in this tic severity scale means that the severity of the tics have reduced.\n\nHence, we performed a superiority test, which statistically verifies if the reduction in the tic severity scale was meaningful.",
+                "nonInferiorityType": "SUPERIORITY",
+                "pValue": "0.05",
+                "statisticalMethod": "Wilcoxon (Mann-Whitney)",
+                "paramType": "Mean Difference (Final Values)",
+                "paramValue": ".3",
+                "ciNumSides": "ONE_SIDED"
+              }
+            ]
+          }
+        ]
+      },
+      "adverseEventsModule": {
+        "frequencyThreshold": "1",
+        "timeFrame": "3 years",
+        "eventGroups": [
+          {
+            "id": "EG000",
+            "title": "Continuous Deep Brain Stimulation (DBS)",
+            "description": "Subjects' DBS surgical intervention requires implantation of two bilateral DBS system: a CM thalamic lead,an ECOG strip leads, one neurostimulator implanted in the chest per hemisphere.\n\nNeurostimulator and leads system includes a programmer with a telemetry interface, and a patient remote control to check device status. The programmer is used to set up the stimulation and signal recording to retrieve data for subsequent review.\n\nThe DBS system will provide continuous stimulation for the 6 months following surgery. Subjects will be seen monthly for evaluation as a part of normal clinical care for DBS. At 6 months, the investigators will determine whether the subject is a candidate for responsive brain stimulation (RBS). Qualifying subjects will have the option to have their settings changed in order to participate in the RBS stimulation intervention. Subjects who do not qualify or do not participate will continue to receive this intervention for the duration of the study.\n\nSix months post-surgery, the DBS system will be set to provide responsive stimulation for the duration of the study. Subjects will be seen every 6 months for evaluation as a part of normal clinical care for DBS.\n\nData gathered from the subject during the first 6 months will be used to determine if this intervention is applicable for each individual subject. Subjects who do not qualify will continue to receive the other study intervention.",
+            "deathsNumAffected": 0,
+            "deathsNumAtRisk": 10,
+            "seriousNumAffected": 4,
+            "seriousNumAtRisk": 10,
+            "otherNumAffected": 10,
+            "otherNumAtRisk": 10
+          },
+          {
+            "id": "EG001",
+            "title": "Responsive Brain Stimulation (RBS)",
+            "description": "At 6 months, the investigators will determine whether the subject is a candidate for responsive brain stimulation (RBS). Qualifying subjects will have the option to have their settings changed in order to participate in the RBS stimulation intervention. Subjects who do not qualify or do not participate will continue to receive this intervention for the duration of the study.",
+            "deathsNumAffected": 0,
+            "deathsNumAtRisk": 5,
+            "seriousNumAffected": 0,
+            "seriousNumAtRisk": 5,
+            "otherNumAffected": 0,
+            "otherNumAtRisk": 5
+          }
+        ],
+        "seriousEvents": [
+          {
+            "assessmentType": "SYSTEMATIC_ASSESSMENT"
+          },
+          {
+            "assessmentType": "SYSTEMATIC_ASSESSMENT"
+          },
+          {
+            "assessmentType": "SYSTEMATIC_ASSESSMENT"
+          },
+          {
+            "assessmentType": "SYSTEMATIC_ASSESSMENT"
+          },
+          {
+            "assessmentType": "SYSTEMATIC_ASSESSMENT"
+          },
+          {
+            "assessmentType": "SYSTEMATIC_ASSESSMENT"
+          },
+          {
+            "assessmentType": "SYSTEMATIC_ASSESSMENT"
+          },
+          {
+            "assessmentType": "SYSTEMATIC_ASSESSMENT"
+          },
+          {
+            "assessmentType": "SYSTEMATIC_ASSESSMENT"
+          },
+          {
+            "assessmentType": "SYSTEMATIC_ASSESSMENT"
+          }
+        ],
+        "otherEvents": [
+          {
+            "assessmentType": "SYSTEMATIC_ASSESSMENT"
+          },
+          {
+            "assessmentType": "SYSTEMATIC_ASSESSMENT"
+          },
+          {
+            "assessmentType": "SYSTEMATIC_ASSESSMENT"
+          },
+          {
+            "assessmentType": "SYSTEMATIC_ASSESSMENT"
+          },
+          {
+            "assessmentType": "SYSTEMATIC_ASSESSMENT"
+          },
+          {
+            "assessmentType": "SYSTEMATIC_ASSESSMENT"
+          },
+          {
+            "assessmentType": "SYSTEMATIC_ASSESSMENT"
+          },
+          {
+            "assessmentType": "SYSTEMATIC_ASSESSMENT"
+          },
+          {
+            "assessmentType": "SYSTEMATIC_ASSESSMENT"
+          },
+          {
+            "assessmentType": "SYSTEMATIC_ASSESSMENT"
+          },
+          {
+            "assessmentType": "SYSTEMATIC_ASSESSMENT"
+          },
+          {
+            "assessmentType": "SYSTEMATIC_ASSESSMENT"
+          },
+          {
+            "assessmentType": "SYSTEMATIC_ASSESSMENT"
+          },
+          {
+            "assessmentType": "SYSTEMATIC_ASSESSMENT"
+          },
+          {
+            "assessmentType": "SYSTEMATIC_ASSESSMENT"
+          },
+          {
+            "assessmentType": "SYSTEMATIC_ASSESSMENT"
+          },
+          {
+            "assessmentType": "SYSTEMATIC_ASSESSMENT"
+          },
+          {
+            "assessmentType": "SYSTEMATIC_ASSESSMENT"
+          },
+          {
+            "assessmentType": "SYSTEMATIC_ASSESSMENT"
+          },
+          {
+            "assessmentType": "SYSTEMATIC_ASSESSMENT"
+          },
+          {
+            "assessmentType": "SYSTEMATIC_ASSESSMENT"
+          },
+          {
+            "assessmentType": "SYSTEMATIC_ASSESSMENT"
+          },
+          {
+            "assessmentType": "SYSTEMATIC_ASSESSMENT"
+          },
+          {
+            "assessmentType": "SYSTEMATIC_ASSESSMENT"
+          },
+          {
+            "assessmentType": "SYSTEMATIC_ASSESSMENT"
+          },
+          {
+            "assessmentType": "SYSTEMATIC_ASSESSMENT"
+          },
+          {
+            "assessmentType": "SYSTEMATIC_ASSESSMENT"
+          },
+          {
+            "assessmentType": "SYSTEMATIC_ASSESSMENT"
+          },
+          {
+            "assessmentType": "SYSTEMATIC_ASSESSMENT"
+          },
+          {
+            "assessmentType": "SYSTEMATIC_ASSESSMENT"
+          },
+          {
+            "assessmentType": "SYSTEMATIC_ASSESSMENT"
+          },
+          {
+            "assessmentType": "SYSTEMATIC_ASSESSMENT"
+          },
+          {
+            "assessmentType": "SYSTEMATIC_ASSESSMENT"
+          },
+          {
+            "assessmentType": "SYSTEMATIC_ASSESSMENT"
+          },
+          {
+            "assessmentType": "SYSTEMATIC_ASSESSMENT"
+          },
+          {
+            "assessmentType": "SYSTEMATIC_ASSESSMENT"
+          },
+          {
+            "assessmentType": "SYSTEMATIC_ASSESSMENT"
+          },
+          {
+            "assessmentType": "SYSTEMATIC_ASSESSMENT"
+          },
+          {
+            "assessmentType": "SYSTEMATIC_ASSESSMENT"
+          },
+          {
+            "assessmentType": "SYSTEMATIC_ASSESSMENT"
+          },
+          {
+            "assessmentType": "SYSTEMATIC_ASSESSMENT"
+          },
+          {
+            "assessmentType": "SYSTEMATIC_ASSESSMENT"
+          },
+          {
+            "assessmentType": "SYSTEMATIC_ASSESSMENT"
+          },
+          {
+            "assessmentType": "SYSTEMATIC_ASSESSMENT"
+          },
+          {
+            "assessmentType": "SYSTEMATIC_ASSESSMENT"
+          },
+          {
+            "assessmentType": "SYSTEMATIC_ASSESSMENT"
+          },
+          {
+            "assessmentType": "SYSTEMATIC_ASSESSMENT"
+          }
+        ]
+      }
+    },
+    "documentSection": {
+      "largeDocumentModule": {
+        "largeDocs": [
+          {
+            "typeAbbrev": "Prot_SAP",
+            "hasProtocol": true,
+            "hasSap": true,
+            "hasIcf": false,
+            "label": "Study Protocol and Statistical Analysis Plan",
+            "date": "2019-09-23",
+            "uploadDate": "2023-10-10T12:40",
+            "filename": "Prot_SAP_000.pdf",
+            "size": 1431805
+          },
+          {
+            "typeAbbrev": "ICF",
+            "hasProtocol": false,
+            "hasSap": false,
+            "hasIcf": true,
+            "label": "Informed Consent Form",
+            "date": "2019-09-27",
+            "uploadDate": "2023-10-10T13:16",
+            "filename": "ICF_001.pdf",
+            "size": 731736
+          }
+        ]
+      }
+    },
+    "hasResults": true
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "started_utc": "2026-10-22T02:59:05.882179+00:00",
+  "window": {
+    "query": "(Tourette OR tics OR \"tic disorder\") AND lastEdited GE 2026-10-20T00:00:00 AND lastEdited LT 2026-10-23T00:00:00",
+    "request": {
+      "url": "https://www.isrctn.com/api/query/format/default?q=%28Tourette+OR+tics+OR+%22tic+disorder%22%29+AND+lastEdited+GE+2026-10-20T00%3A00%3A00+AND+lastEdited+LT+2026-10-23T00%3A00%3A00&limit=50",
+      "started_utc": "2026-10-22T02:59:05.884905+00:00",
+      "status": 200,
+      "bytes": 77,
+      "sha256": "9102345f60a6769cd03fb92d5a00f71c6bbfb597ba699e5f98161f95f657dfc6",
+      "completed_utc": "2026-10-22T02:59:11.557113+00:00"
+    },
+    "root_tag": "{http://www.67bricks.com/isrctn}allTrials",
+    "root_attributes": {
+      "totalCount": "0"
+    },
+    "selected_nodes": []
+  },
+  "positive_control": {
+    "query": "Tourette",
+    "request": {
+      "url": "https://www.isrctn.com/api/query/format/default?q=Tourette&limit=1",
+      "started_utc": "2026-10-22T02:59:05.885641+00:00",
+      "status": 200,
+      "bytes": 24657,
+      "sha256": "5aeec721d27bc3914a9542e6ef767abbf8f3b5b2da634d08784796244e162ac8",
+      "completed_utc": "2026-10-22T02:59:11.687370+00:00"
+    },
+    "root_tag": "{http://www.67bricks.com/isrctn}allTrials",
+    "root_attributes": {
+      "totalCount": "22"
+    },
+    "selected_nodes": [
+      {
+        "tag": "{http://www.67bricks.com/isrctn}isrctn",
+        "text": "82718960",
+        "attributes": {
+          "dateAssigned": "2025-07-10T14:44:41.280095Z"
+        }
+      },
+      {
+        "tag": "{http://www.67bricks.com/isrctn}scientificTitle",
+        "text": "Online remote behavioural intervention for tics: a single cohort usability study",
+        "attributes": {}
+      }
+    ]
+  },
+  "who_ictrp": {
+    "request": {
+      "url": "https://trialsearch.who.int/",
+      "started_utc": "2026-10-22T02:59:05.886110+00:00",
+      "status": 200,
+      "bytes": 36375,
+      "sha256": "eb691ecf62c7258ce76750700bdf22842cf362e54bf9d8a947119819fc23465e",
+      "completed_utc": "2026-10-22T02:59:12.801575+00:00"
+    },
+    "query_export_obtained": false,
+    "listed_date_tokens": [
+      "12 October 2026",
+      "14 September 2026",
+      "5 October 2026"
+    ]
+  },
+  "ctis": {
+    "request": {
+      "url": "https://euclinicaltrials.eu/ctis-public/view/2023-505086-83-00",
+      "started_utc": "2026-10-22T02:59:05.886704+00:00",
+      "status": 200,
+      "bytes": 66254,
+      "sha256": "8734cbb42cde74ad98eb8a1a0eaf0965e9e15b059616a06c0ba5a2d466308d2d",
+      "completed_utc": "2026-10-22T02:59:11.802957+00:00"
+    },
+    "parsed_trial_record": false,
+    "interpretation": "HTML application shell retrieval does not establish current trial status."
+  },
+  "completed_utc": "2026-10-22T02:59:12.802907+00:00"
+}

@@ -1,0 +1,117 @@
+{
+  "date": "2026-10-22",
+  "method": "Supplementary web discovery. Combined tool results cannot be allocated to individual queries. Cards are not unique studies or complete engine hits.",
+  "batches": [
+    {
+      "utc_bracket": [
+        "2026-10-22T02:56:43Z",
+        "2026-10-22T02:56:50Z"
+      ],
+      "queries": [
+        "Tourette tic disorder October 21 2026 study",
+        "Tourette adult severe pain quality life 2026 October trial results"
+      ],
+      "displayed_cards": 17
+    },
+    {
+      "utc_bracket": [
+        "2026-10-22T02:58:41Z",
+        "2026-10-22T02:59:07Z"
+      ],
+      "queries": [
+        "site.medrxiv.org Tourette \"2026\" \"October\"",
+        "site.biorxiv.org Tourette \"2026\" \"October\"",
+        "site.researchsquare.com Tourette \"2026\" \"October\"",
+        "site.isrctn.com Tourette \"October\" \"2026\""
+      ],
+      "displayed_cards": 19
+    }
+  ],
+  "retention": "No automatically returned community post URLs, identities, narratives or contact fields retained. Those cards were excluded from scientific evidence. Third-party summaries were discovery only.",
+  "decisions": [
+    {
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42189524/",
+      "doi": "10.1001/jamaneurol.2026.1431",
+      "type": "historical_primary_randomized_withdrawal_trial",
+      "decision": "Published May 26 electronically, July issue. Previously known ecopipam outcome, not new-window evidence; secondary October-issue coverage is not a new trial."
+    },
+    {
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42780243/",
+      "doi": "10.21203/rs.3.rs-10832475/v1",
+      "type": "historical_preprint",
+      "decision": "September 20 preprint; no new version established from search cards."
+    },
+    {
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42640249/",
+      "doi": "10.1002/ana.78340",
+      "type": "historical_primary_cross_sectional_imaging",
+      "decision": "August 25 study, not new-window evidence; no prospective prediction or therapeutic effect established."
+    },
+    {
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42704310/",
+      "doi": "10.1111/jnp.70080",
+      "type": "historical_same_trial_extension",
+      "decision": "September 7 MNS follow-up, already analyzed in this repository; not independent replication or a new outcome."
+    },
+    {
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42082715/",
+      "type": "historical_primary",
+      "decision": "May 4 pediatric comorbidity paper, outside scan interval; no adult extrapolation."
+    },
+    {
+      "source_url": "https://www.nature.com/articles/s41572-026-00742-6",
+      "doi": "10.1038/s41572-026-00742-6",
+      "type": "historical_secondary_primer_with_correction_lead",
+      "decision": "October 8 primer already in repository. Official search card includes October 15 change history correcting swapped comorbidity table entries. Direct open redirected to inaccessible publisher authorization route, so no new full-text verification. Not a new-window notice."
+    },
+    {
+      "source_url": "https://www.sciencedirect.com/science/article/abs/pii/S0022395626003614",
+      "doi": "10.1016/j.jpsychires.2026.06.053",
+      "type": "historical_primary_imaging",
+      "decision": "October issue display does not establish a new since-cutoff publication. No new-window result included."
+    },
+    {
+      "source_url": "https://clinicaltrials.ucsf.edu/trial/NCT07839377",
+      "id": "NCT07839377",
+      "type": "historical_official_protocol",
+      "decision": "Official university page repeats prior teen/adult TMS protocol, not results. Already checked in October 19 registry record."
+    },
+    {
+      "source_url": "https://www.essts.org/news/tourette-syndrome-and-rage-attacks",
+      "type": "professional_society_educational_summary",
+      "decision": "October 12 podcast summary, not a new independent study."
+    },
+    {
+      "source_url": "https://www.frontiersin.org/journals/neurology/articles/10.3389/fneur.2026.1971225/abstract",
+      "doi": "10.3389/fneur.2026.1971225",
+      "type": "perspective",
+      "decision": "Conceptual assessment framework, not empirical clinical validation or new primary evidence."
+    },
+    {
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.09.29.26364036v1",
+      "doi": "10.64898/2026.09.29.26364036",
+      "type": "historical_preprint",
+      "decision": "Version 1 posted October 1, already audited October 12. No newly posted version established."
+    },
+    {
+      "source_url": "https://bmjopen.bmj.com/content/16/2/e102693",
+      "doi": "10.1136/bmjopen-2025-102693",
+      "type": "historical_primary_adult_burden",
+      "decision": "February 2026 cross-sectional survey, not new-window evidence. Download/crawl dates do not determine publication."
+    }
+  ],
+  "direct_open_limits": [
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42527169/",
+      "status": "Web tool returned no usable substantive page text; official EFetch metadata succeeded."
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39947542/",
+      "status": "Web tool returned no usable substantive page text; official EFetch metadata succeeded."
+    },
+    {
+      "url": "https://www.nature.com/articles/s41572-026-00742-6",
+      "status": "Publisher authorization redirect inaccessible to web tool; not proof link is broken."
+    }
+  ]
+}

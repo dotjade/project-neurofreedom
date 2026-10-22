@@ -1,6 +1,6 @@
 # Project NeuroFreedom status
 
-Updated 21 October 2026. Initial portfolio, thirteen completed daily updates and two completed weekly syntheses. Public evidence repository and journal launched 13 October.
+Updated 22 October 2026. Initial portfolio, fourteen completed daily updates and two completed weekly syntheses. Public evidence repository and journal launched 13 October.
 
 ## Completed in this first pass
 
@@ -14,7 +14,7 @@ Updated 21 October 2026. Initial portfolio, thirteen completed daily updates and
 
 ## Enabled research schedules
 
-The user approved the following automatic public-science research and repository updates on 8 October 2026. Each schedule was created successfully and returned enabled status. Daily runs were completed on 9-21 October 2026; weekly syntheses were completed on 11 and 18 October; first monthly and quarterly runs remain unverified.
+The user approved the following automatic public-science research and repository updates on 8 October 2026. Each schedule was created successfully and returned enabled status. Daily runs were completed on 9-22 October 2026; weekly syntheses were completed on 11 and 18 October; first monthly and quarterly runs remain unverified.
 
 - Daily new-evidence checks: from 9 October 2026, approximately 08:00 India time.
 - Weekly synthesis: Sundays, from 11 October 2026, approximately 09:00 India time.
@@ -319,3 +319,22 @@ The research commit [107de0de693eb34dfbda99f7b188e7b282f59add](https://github.co
 An independent ordinary-browser read of /api/public-feed at 03:37:24 confirmed updatedAt 2026-10-21T03:01:10Z, October 21 research/activity dates, the new note, music-or-silence and disabled feedback with zero votes. Browser /feedback-config.json at 03:38:55 confirmed enabled false and apiOrigin null. Direct non-browser production requests remained HTTP 403, so this is browser field verification, not a byte-for-byte API comparison or response-header inspection. No security settings or authentication were changed.
 
 After the documented cache interval, the homepage at 03:39:48 showed the October 21 research note, matching repository-edition timestamp and music-or-silence selection without an access warning. Existing UI limitations remain: the bundled October 13 edition can briefly appear before the feed loads, and the static next-question link still points to ONLINE-TICS rather than the current STATUS plan. These were observed, not changed in this research-only publication. [Verification record](updates/2026-10-21/publication-verification.json).
+
+
+## Completed daily research update - 22 October 2026
+
+The [dated scan](updates/2026-10-22/report.md) screened four PubMed metadata records and 639 preprint DOI/version pairs without a new qualifying primary tic-study outcome or newly posted relevant trial result. All four PubMed records are historical overlaps. A known retracted paper remains excluded; metadata revisions are not a new retraction or reinstatement. NCT07137442 moved its estimated start again without results. The [safety pass](updates/2026-10-22/safety/report.md) verified no new watched-treatment notice or issued tic guideline within bounded coverage. A lot-specific Canadian cannabis-labeling recall is retained separately as adjacent evidence, not a tic-treatment result. Existing safety, labeling and worldwide registry gaps remain explicit.
+
+The [Okun 2024 clinical/function estimand audit](analyses/okun_estimands/2026-10-22/report.md) distinguishes randomized-order, masked stimulation-state video assessments during an outcome period from longitudinal recalled tic severity and MOS-36 function. The protocol plans separate testing days; it does not establish actual same-day testing or complete washout. The functional narrative reports improvement in some domains but nonsignificance after multiplicity adjustment. Neither a responsive-versus-continuous functional contrast nor a compatible published aggregate paired denominator and uncertainty were established. No functional efficacy estimate was calculated, and this is not evidence of no benefit.
+
+The ten enrolled adults, eight chronic-capable devices, selected responders and registry period-completion counts are not interchangeable denominators. The earlier Cagle report overlaps this trial rather than supplying independent replication. Co-occurring-outcome nulls, reoperations and the registry's separate three-year safety window remain visible. Sequential safety groups do not support a comparative-harm calculation. The article's response wording and current registered endpoint differ; no individual score or responder classification was repaired or reconstructed.
+
+Twenty-five metadata/boundary checks and a separate source review support the analytic audit; 31 offline scan checks passed. These are documentation/software checks, not clinical hypothesis tests or independent clinical peer review. No participant rows, raw signals, private narratives or unlicensed full text were retained in deliverables. No outreach, data request, paid compute or medical action occurred.
+
+### Next bounded decision
+
+Close this fixed functional-effect calculation attempt unless new public aggregate documentation supplies the instrument version/recall window, comparable treatment exposure, outcome-specific paired denominator, missingness rule and change with uncertainty. Next perform a bounded official historical-registration audit of NCT02056873 to trace dated outcome/design versions and public protocol amendments behind 40% total-tic, motor-only and responsive criteria and follow-up windows. Inspect metadata and documents only, not result measurement rows. If official history cannot be retrieved, record the provenance gap and stop without inferring selective reporting, revising responders, reopening generic cohort searches or repeating this audit.
+
+### Public journal
+
+The feed adds a dated historical-methods note distinct from the no-new-result scan. All six optional activities remain unchanged, with small-silly-mark selected. Voting, comments and health-outcome collection remain disabled. Fourteen pre-existing timeline articles and the Ivanova PDF were retrieved; Pappert returned a 403 challenge and Isaacs PMC a 203 browser challenge, neither established broken. Canonical links remain, with current access labels. The [link record](public/link-checks/2026-10-22.json) distinguishes the previous-edition production baseline from later publication verification. No homepage source, deployment configuration or security setting was changed; source and production readback are recorded only after verification.

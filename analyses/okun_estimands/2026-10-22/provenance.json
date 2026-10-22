@@ -1,0 +1,85 @@
+{
+  "date": "2026-10-22",
+  "base_commit": "c9314ae695c3b5624f5049a3d819fef922ebe14b",
+  "prior_files": [
+    "README.md",
+    "RESEARCH_PROTOCOL.md",
+    "STATUS.md",
+    "public/journal-source/README.md",
+    "analyses/data_feasibility/2026-10-11-adult-audit.md",
+    "analyses/trial_crosswalk/2026-10-21/report.md",
+    "evidence.jsonl"
+  ],
+  "review_scope": "Named paper/trial methods and aggregate functional contrast, not new-evidence scan or systematic review.",
+  "working_prediction_recorded_utc": "2026-10-22T02:57:00Z",
+  "prediction_timing": "After initial primary-article orientation, before detailed extraction; not preregistration.",
+  "search_queries": [
+    {
+      "query": "\"s41598-024-57071-5\" correction retraction",
+      "purpose": "bounded integrity check"
+    },
+    {
+      "query": "\"NCT02056873\" protocol statistical analysis plan",
+      "domains": [
+        "clinicaltrials.gov"
+      ],
+      "purpose": "locate official protocol"
+    },
+    {
+      "query": "\"Embedded Human Closed-Loop Deep Brain Stimulation\" Cagle 2022",
+      "domains": [
+        "pubmed.ncbi.nlm.nih.gov",
+        "jamanetwork.com",
+        "pmc.ncbi.nlm.nih.gov"
+      ],
+      "purpose": "verify linked same-trial primary source"
+    },
+    {
+      "query": "\"MOS-36\" \"Okun\" \"2024\" \"quality\"",
+      "purpose": "functional aggregate availability; unexpectedly displayed participant rows, not retained/used"
+    },
+    {
+      "query": "\"Embedded Human Closed-Loop\" \"14\" \"15\"",
+      "purpose": "earlier primary recall wording"
+    },
+    {
+      "query": "\"Embedded Human Closed-Loop\" \"washout\"",
+      "purpose": "earlier primary state timing"
+    },
+    {
+      "query": "\"Embedded Human Closed-Loop\" \"6.6\" \"paired\"",
+      "purpose": "check aggregate methods; unrelated results not evidence"
+    },
+    {
+      "query": "site:pmc.ncbi.nlm.nih.gov/articles/PMC9468946/ \"Main Outcomes\" \"40%\"",
+      "purpose": "endpoint scope check; unhelpful results"
+    },
+    {
+      "query": "site:pmc.ncbi.nlm.nih.gov/articles/PMC9468946/ \"30%\"",
+      "purpose": "endpoint scope check; unhelpful results"
+    },
+    {
+      "query": "site:pmc.ncbi.nlm.nih.gov/articles/PMC9468946/ \"1 hour\"",
+      "purpose": "state timing check; unhelpful results"
+    }
+  ],
+  "search_window": "Historical named-source audit without publication-date limit; retrieval 22 October 2026.",
+  "counts": "Two linked primary reports, one official registry and one protocol/SAP family; search engine result denominator not exhaustive and not used as a systematic-review count.",
+  "access_limits": [
+    "PMC returned bot check in live reader/direct request",
+    "web reader table links/cache errors, direct publisher table retrieval succeeded",
+    "live Crossmark cache miss; indexed primary Crossmark current status only"
+  ],
+  "incidental_exposure": "Search output included participant tables; an initial supplement-parser output included case narratives. Neither retained in artifacts nor analyzed. Subsequent extraction restricted to safe headers/notes, aggregate statements and projected metadata.",
+  "fulltext_retained": false,
+  "participant_data_retained": false,
+  "new_calculations": "Only documentation/boundary validation; no clinical effect, confidence interval or simulation.",
+  "funding_or_paid_compute": false,
+  "sources": {
+    "paper": "https://www.nature.com/articles/s41598-024-57071-5",
+    "functional_table": "https://www.nature.com/articles/s41598-024-57071-5/tables/6",
+    "protocol": "https://cdn.clinicaltrials.gov/large-docs/73/NCT02056873/Prot_SAP_000.pdf",
+    "registry": "https://clinicaltrials.gov/study/NCT02056873",
+    "cagle": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9468946/"
+  }
+}

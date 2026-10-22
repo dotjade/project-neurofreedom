@@ -1,0 +1,47 @@
+[
+  {
+    "source": "paper",
+    "url": "https://www.nature.com/articles/s41598-024-57071-5",
+    "status": 200,
+    "sha256": "58b170f2a419e21fd8682adf33c9eb7daeba4848d422979c59b61d4710e8fd86",
+    "retrieved_utc": "2026-10-22T02:58:26.848173+00:00",
+    "retained": "Source metadata and original extraction only, no HTML/fulltext."
+  },
+  {
+    "source": "protocol",
+    "url": "https://cdn.clinicaltrials.gov/large-docs/73/NCT02056873/Prot_SAP_000.pdf",
+    "status": 200,
+    "final_url": "https://cdn.clinicaltrials.gov/large-docs/73/NCT02056873/Prot_SAP_000.pdf",
+    "sha256": "44e5a74fc8e02d109f0780bb4ed2ca7ec9a1aa2a89327db4788bc7a6960f9260",
+    "retrieved_utc": "2026-10-22T02:59:14.055844+00:00",
+    "pages": 64,
+    "content_status": "In-memory PDF methods inspection; no PDF/fulltext retained."
+  },
+  {
+    "source": "functional_table",
+    "url": "https://www.nature.com/articles/s41598-024-57071-5/tables/6",
+    "status": 200,
+    "final_url": "https://www.nature.com/articles/s41598-024-57071-5/tables/6?error=cookies_not_supported&code=ffc0ba70-aa17-48b3-9759-99a8cb940409",
+    "sha256": "839c581a27a7f0011c69ecd202758545eb9555730e1633c50d2b684990b2f04a",
+    "retrieved_utc": "2026-10-22T02:59:26.249536+00:00",
+    "content_status": "Headers/notes only used; no individual rows retained or reconstructed."
+  },
+  {
+    "source": "supplement",
+    "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41598-024-57071-5/MediaObjects/41598_2024_57071_MOESM1_ESM.docx",
+    "status": 200,
+    "final_url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41598-024-57071-5/MediaObjects/41598_2024_57071_MOESM1_ESM.docx",
+    "sha256": "09147fa7967eeb25317d3b329630e17005b9190a51da031fa89e6be75b2d17f3",
+    "retrieved_utc": "2026-10-22T02:59:13.886317+00:00",
+    "content_status": "Aggregate table headers inspected; initial parser accidentally displayed outside-table case narratives. No narratives retained or analyzed."
+  },
+  {
+    "source": "cagle",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9468946/",
+    "status": 203,
+    "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9468946/",
+    "sha256": "03fb3db246eddca0fc9287b40495072a3bf2b77098e2e4eee8b8a306ae7114d6",
+    "retrieved_utc": "2026-10-22T02:59:13.070640+00:00",
+    "content_status": "HTTP 203 browser-check page, not article fulltext. Primary indexed methods inspected; independent review access recorded separately."
+  }
+]
