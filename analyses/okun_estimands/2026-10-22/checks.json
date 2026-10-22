@@ -1,0 +1,37 @@
+{
+  "executed_utc": "2026-10-22T03:08:10.323330+00:00",
+  "passed": 25,
+  "failed": 0,
+  "checks": [
+    "registry contains no result classes/categories/measurement rows",
+    "identity NCT02056873",
+    "actual enrollment ten",
+    "chronic treatment not randomized",
+    "registry completed",
+    "results date historical",
+    "completion-date discrepancy preserved",
+    "one posted primary endpoint",
+    "registry forty percent continuous endpoint",
+    "registry six-month clock",
+    "registry endpoint denominator ten",
+    "no functional endpoint in projected outcome definitions",
+    "responsive period starts eight completes five",
+    "safety separate three-year window",
+    "safety ascertainment systematic",
+    "other event threshold one percent",
+    "safety published group totals 0",
+    "safety published group totals 1",
+    "Cagle same-trial reference",
+    "functional missing quantities not invented",
+    "nonsignificance not equivalence",
+    "functional calculation stopped",
+    "no patient or synthetic clinical inference",
+    "planned days not actual within-day claim",
+    "synthetic malformed measurement payload rejected"
+  ],
+  "interpretation": "Documentation consistency and privacy-boundary tests only; not statistical tests, independent efficacy replication or clinical validation.",
+  "input_sha256": {
+    "structured-extraction.json": "99210c004fba9cbf1e9f7d999cd039e711470f75d1685a857ecd2ee37050d107",
+    "registry-projected-metadata.json": "ca9a99db2568456e041809f07a179ecacf3ddde8e71a9d205ca5c13885608c4a"
+  }
+}

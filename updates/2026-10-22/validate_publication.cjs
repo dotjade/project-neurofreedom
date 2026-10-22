@@ -1,0 +1,42 @@
+/* Re-run from any working directory: node updates/2026-10-22/validate_publication.cjs */
+const fs = require('node:fs');
+const path = require('node:path');
+const vm = require('node:vm');
+const assert = require('node:assert/strict');
+const crypto = require('node:crypto');
+const root = path.resolve(__dirname, '../..');
+const read = p => fs.readFileSync(path.join(root, p), 'utf8');
+const feedText = read('public/research-feed.json');
+const feed = JSON.parse(feedText);
+const source = read('public/journal-source/journal.js');
+const validationSource = source.slice(source.indexOf('const allowedActivityIds='), source.indexOf('function link('));
+assert.ok(validationSource.includes('function validFeed('));
+const sandbox = { URL, Date, Set, feed, valid: false };
+vm.runInNewContext(validationSource + '\nvalid=validFeed(feed);', sandbox);
+assert.equal(sandbox.valid, true, 'Current production renderer accepts feed');
+assert.ok(Buffer.byteLength(feedText) < 64000);
+assert.equal(feed.lastResearchDate, '2026-10-22');
+assert.equal(feed.activityEditionDate, '2026-10-22');
+assert.equal(feed.timeline[0].date, '2026-10-22');
+assert.equal(new Set(feed.timeline.map(e => e.date)).size, feed.timeline.length);
+assert.ok(feed.timeline.every((e,i) => !i || e.date <= feed.timeline[i-1].date));
+assert.ok(!feedText.includes('\u2014'));
+assert.equal(feed.activities.length, 6);
+const catalogHash = crypto.createHash('sha256').update(JSON.stringify(feed.activities)).digest('hex');
+const review = JSON.parse(read('updates/2026-10-22/activity-review.json'));
+assert.equal(catalogHash, review.catalogSha256CompactJson);
+assert.equal(feed.featuredActivityId, review.selectedActivity);
+assert.deepEqual(feed.feedback, JSON.parse(read('updates/2026-10-22/feedback-baseline.json')));
+assert.equal(feed.feedback.enabled, false);
+assert.equal(feed.feedback.sampleSize, 0);
+assert.deepEqual(feed.feedback.aggregates, []);
+assert.deepEqual(feed.feedback.trend, []);
+assert.deepEqual(JSON.parse(read('public/journal-source/feedback-config.json')), {enabled:false,apiOrigin:null,verifiedAt:null});
+const records = read('evidence.jsonl').split('\n').filter(line => line.trim()).map(JSON.parse);
+assert.equal(records.filter(e => e.id === 'pmid:38499664').length, 1, 'One canonical primary-study record');
+for (const entry of feed.timeline) {
+  const prefix = 'https://github.com/dotjade/project-neurofreedom/blob/main/';
+  assert.ok(entry.record.startsWith(prefix));
+  assert.ok(fs.existsSync(path.join(root, entry.record.slice(prefix.length))), entry.record);
+}
+console.log(JSON.stringify({result:'passed',renderer:'current journal.js validFeed',timelineEntries:feed.timeline.length,activities:feed.activities.length,feedback:'disabled',catalogSha256CompactJson:catalogHash,limits:'Source/schema checks, not rendered accessibility or clinical validation.'},null,2));

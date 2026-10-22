@@ -1,0 +1,100 @@
+{
+  "scope": "Explicit scan publication files. No raw source bodies, temporary baseline or __pycache__. Validation output and this manifest are auxiliary files; parent integration hashes all deliverables.",
+  "base_commit": "c9314ae695c3b5624f5049a3d819fef922ebe14b",
+  "files": [
+    {
+      "path": "biorxiv-preprint-index.tsv",
+      "bytes": 18125,
+      "sha256": "00a49b1daba4781a31300550a870f591bc610f1a669eb914c20deff9800937a5"
+    },
+    {
+      "path": "build_results.py",
+      "bytes": 6311,
+      "sha256": "b4ce38fa78ade31953b6b979a0c1a38960a4d4bb58de145871b373e2a6a59d66"
+    },
+    {
+      "path": "discovery-log.json",
+      "bytes": 5381,
+      "sha256": "09a72979a239619123ccdda70876909943e482899bdb7a1d866b82f38135f8cb"
+    },
+    {
+      "path": "integrity-recheck.json",
+      "bytes": 3060,
+      "sha256": "f2f847b05a301e7904a821eabfcd9042a36ca4bc7826660d062845c714d81c7d"
+    },
+    {
+      "path": "medrxiv-preprint-index.tsv",
+      "bytes": 7826,
+      "sha256": "162d8d29733cabef5950d15927947ad5b417a5535a0af3d62fcd434025926129"
+    },
+    {
+      "path": "prepare_baseline.py",
+      "bytes": 1506,
+      "sha256": "6c72d28d9861228694a3e8a0c906c904c4f05016034fcdaeea5c33c3f0e9054e"
+    },
+    {
+      "path": "primary-evidence.jsonl",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "provenance.json",
+      "bytes": 2239,
+      "sha256": "23089b0953230e9c84ba83a161e271414047f22e91b55ca44cd7fc6c76192300"
+    },
+    {
+      "path": "pubmed-screening.jsonl",
+      "bytes": 5669,
+      "sha256": "b8ff24bb4abc0003a3dd5c6fa6e38bb9ad0ae55d11bf379481e27bd77d043190"
+    },
+    {
+      "path": "registry-evidence.jsonl",
+      "bytes": 6521,
+      "sha256": "754925b88a3329edfe6ee29fd3fd4be4cb8847757444f4b047a66fac42d1ce6e"
+    },
+    {
+      "path": "report.md",
+      "bytes": 10654,
+      "sha256": "fbaf1ecb8ce3d9ba901ed45cc1d52930daab109888ebdf91f71807ab381dfebb"
+    },
+    {
+      "path": "request-log.json",
+      "bytes": 15665,
+      "sha256": "2a40adb2d4813126e1cbcf9413087e78c8f1929151f5e99c80aacd0a90efd20d"
+    },
+    {
+      "path": "scan_sources.py",
+      "bytes": 9469,
+      "sha256": "05773d0d459b26a98de942b2802f6138a7e417b9d4363349e8feccb2c1a642fb"
+    },
+    {
+      "path": "scan_supplement.py",
+      "bytes": 2349,
+      "sha256": "48cdfeb19bfcb73fbfbfd1235ad09e249b7641a1e6f1b23393b4268cd349bab4"
+    },
+    {
+      "path": "search-log.json",
+      "bytes": 22106,
+      "sha256": "0aea2f1cb7693522806fd6210caa620c973b912b3afb68bac5d275a6d0f38e2f"
+    },
+    {
+      "path": "summary.json",
+      "bytes": 830,
+      "sha256": "9be2000bfca8d1349b4bd726497da724b08e53cee8b2a0e535be2b5aa49f4816"
+    },
+    {
+      "path": "supplement-selected-metadata.json",
+      "bytes": 2792,
+      "sha256": "8648951e59bc58c3b761b31159d661c8f5978bd53da281131e9845665dcfb4c6"
+    },
+    {
+      "path": "validate_artifacts.py",
+      "bytes": 5525,
+      "sha256": "8311ddbbc761e1b042367c4dc2326de5dcc9a30c166d6ca0a2c8f5d215bc5e89"
+    }
+  ],
+  "auxiliary_files": [
+    "manifest.json",
+    "validation.json"
+  ]
+}

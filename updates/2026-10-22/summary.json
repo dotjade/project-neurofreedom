@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-22",
+  "strict_prior_cutoff_utc": "2026-10-21T02:57:34.629924Z",
+  "core_started_utc": "2026-10-22T02:58:39.764722+00:00",
+  "core_completed_utc": "2026-10-22T03:00:44.969432+00:00",
+  "pubmed_unique_records": 4,
+  "pubmed_id_occurrences": 4,
+  "pubmed_previous_day_overlap": 2,
+  "pubmed_historical_repository_overlap": 4,
+  "new_qualifying_primary_tic_results": 0,
+  "preprint_doi_versions": 639,
+  "preprint_lexical_matches": 1,
+  "qualifying_preprints": 0,
+  "registry_update_window_unique_ids": [
+    "NCT07137442"
+  ],
+  "new_posted_trial_results": 0,
+  "new_retractions": 0,
+  "api_request_errors": 0,
+  "decision": "No new-window result changes the separately scoped Okun 2024 clinical/function estimand audit. Preserve the historical retraction exclusion and unchanged negative registry evidence."
+}

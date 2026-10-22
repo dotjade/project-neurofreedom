@@ -1,0 +1,9 @@
+{
+  "result": "passed",
+  "renderer": "current journal.js validFeed",
+  "timelineEntries": 15,
+  "activities": 6,
+  "feedback": "disabled",
+  "catalogSha256CompactJson": "a0d31c5a52a08d55df01308fc9ba9bf6a470d39465e65db9b2ff155d8a8300b0",
+  "limits": "Source/schema checks, not rendered accessibility or clinical validation."
+}

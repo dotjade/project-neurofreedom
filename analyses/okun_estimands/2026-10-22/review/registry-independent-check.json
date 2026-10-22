@@ -1,0 +1,108 @@
+{
+  "retrieved_utc": "2026-10-22T03:01:00.434849+00:00",
+  "http_status": 200,
+  "request_url": "https://clinicaltrials.gov/api/v2/studies/NCT02056873?fields=resultsSection.participantFlowModule.periods.title%2CresultsSection.participantFlowModule.periods.milestones%2CresultsSection.adverseEventsModule.timeFrame%2CresultsSection.adverseEventsModule.eventGroups%2CresultsSection.adverseEventsModule.seriousEvents.assessmentType%2CresultsSection.adverseEventsModule.otherEvents.assessmentType",
+  "response_sha256": "212a0a6a4ad78be11bb4d5a480fc8ac3bcb7fbcbd02fbb8f891734ead828715a",
+  "flow": [
+    {
+      "title": "Continuous DBS",
+      "milestones": [
+        {
+          "type": "STARTED",
+          "achievements": [
+            {
+              "groupId": "FG000",
+              "numSubjects": "10"
+            }
+          ]
+        },
+        {
+          "type": "Qualify for Second Intervention at the End of First Intervention",
+          "achievements": [
+            {
+              "groupId": "FG000",
+              "numSubjects": "10"
+            }
+          ]
+        },
+        {
+          "type": "COMPLETED",
+          "achievements": [
+            {
+              "groupId": "FG000",
+              "numSubjects": "10"
+            }
+          ]
+        },
+        {
+          "type": "NOT COMPLETED",
+          "achievements": [
+            {
+              "groupId": "FG000",
+              "numSubjects": "0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Responsive DBS",
+      "milestones": [
+        {
+          "type": "STARTED",
+          "achievements": [
+            {
+              "groupId": "FG000",
+              "comment": "2 participants' study period finished before firmware update was available for the second period.",
+              "numSubjects": "8"
+            }
+          ]
+        },
+        {
+          "type": "COMPLETED",
+          "achievements": [
+            {
+              "groupId": "FG000",
+              "numSubjects": "5"
+            }
+          ]
+        },
+        {
+          "type": "NOT COMPLETED",
+          "achievements": [
+            {
+              "groupId": "FG000",
+              "numSubjects": "3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "safety_window": "3 years",
+  "safety_groups": [
+    {
+      "id": "EG000",
+      "title": "Continuous Deep Brain Stimulation (DBS)",
+      "deathsNumAffected": 0,
+      "deathsNumAtRisk": 10,
+      "seriousNumAffected": 4,
+      "seriousNumAtRisk": 10,
+      "otherNumAffected": 10,
+      "otherNumAtRisk": 10
+    },
+    {
+      "id": "EG001",
+      "title": "Responsive Brain Stimulation (RBS)",
+      "deathsNumAffected": 0,
+      "deathsNumAtRisk": 5,
+      "seriousNumAffected": 0,
+      "seriousNumAtRisk": 5,
+      "otherNumAffected": 0,
+      "otherNumAtRisk": 5
+    }
+  ],
+  "assessment_types": [
+    "SYSTEMATIC_ASSESSMENT"
+  ]
+}

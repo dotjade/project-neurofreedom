@@ -1,0 +1,27 @@
+{
+  "repository": "dotjade/project-neurofreedom",
+  "baseCommit": "c9314ae695c3b5624f5049a3d819fef922ebe14b",
+  "readBeforeSearch": [
+    "README.md",
+    "RESEARCH_PROTOCOL.md",
+    "STATUS.md",
+    "public/journal-source/README.md",
+    "public/UPDATE_WORKFLOW.md",
+    "updates/2026-10-21/safety/report.md",
+    "updates/2026-10-21/safety/query-ledger.json",
+    "public/link-checks/2026-10-21.json",
+    "public/research-feed.json"
+  ],
+  "sourceContent": "Current GitHub connector read at pinned commit; later cross-checked against local clone. Original summaries only. No primary full text or private/patient material retained for publication.",
+  "blobs": {
+    "README.md": "4c3bafbd09ca4073d183cef267c746afa09147bf",
+    "RESEARCH_PROTOCOL.md": "d69c21b73447f7ad9df0a3949b7fcaf57dd5ddde",
+    "STATUS.md": "d5993beba60eb0855569345cefd5840826c5c40b",
+    "public/journal-source/README.md": "b4b9c74518021f693122e959291dd3871d562215",
+    "public/UPDATE_WORKFLOW.md": "80ba2e9ae8fb029e51248fbac681f350b928dd78",
+    "updates/2026-10-21/safety/report.md": "3662727e04041cbf3324141819d57d9f98f4bbdd",
+    "updates/2026-10-21/safety/query-ledger.json": "629968d240a1f23aa10069b4277d508075060bb6",
+    "public/link-checks/2026-10-21.json": "81f15eacb1dea2f1893db217baa2211b7ff8c861",
+    "public/research-feed.json": "ed771d1d594fc38b56c1454a1f1d3441ab90e90a"
+  }
+}

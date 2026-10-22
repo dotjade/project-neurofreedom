@@ -1,0 +1,96 @@
+[
+  {
+    "id": "39947542",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/39947542/",
+    "compared_to": "updates/2026-10-18/search-log.json",
+    "selected_metadata_changes": {
+      "corrections": {
+        "previous": [
+          {
+            "type": "ErratumIn",
+            "source": "Int J Biol Macromol. 2026 Oct;379:153656. doi: 10.1016/j.ijbiomac.2026.153656.",
+            "pmid": "42527169"
+          },
+          {
+            "type": "RetractionIn",
+            "source": "Int J Biol Macromol. 2026 Oct;379:153656. doi: 10.1016/j.ijbiomac.2026.153656.",
+            "pmid": "42527169"
+          }
+        ],
+        "current": [
+          {
+            "type": "RetractionIn",
+            "source": "Int J Biol Macromol. 2026 Oct;379:153656. doi: 10.1016/j.ijbiomac.2026.153656.",
+            "pmid": "42527169"
+          }
+        ]
+      },
+      "DateRevised": {
+        "previous": {
+          "Year": "2026",
+          "Month": "10",
+          "Day": "16"
+        },
+        "current": {
+          "Year": "2026",
+          "Month": "10",
+          "Day": "21"
+        }
+      }
+    },
+    "interpretation": "Duplicate erratum cross-links no longer returned; notice is Journal Article plus Retraction Notice rather than Published Erratum plus Retraction Notice. RetractionIn/RetractionOf remain. This is changed metadata, not a new retraction or reinstatement.",
+    "new_notice": false
+  },
+  {
+    "id": "42527169",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42527169/",
+    "compared_to": "updates/2026-10-18/search-log.json",
+    "selected_metadata_changes": {
+      "types": {
+        "previous": [
+          "Published Erratum",
+          "Retraction Notice"
+        ],
+        "current": [
+          "Journal Article",
+          "Retraction Notice"
+        ]
+      },
+      "corrections": {
+        "previous": [
+          {
+            "type": "ErratumFor",
+            "source": "Int J Biol Macromol. 2025 Apr;304(Pt 2):140956. doi: 10.1016/j.ijbiomac.2025.140956.",
+            "pmid": "39947542"
+          },
+          {
+            "type": "RetractionOf",
+            "source": "Int J Biol Macromol. 2025 Apr;304(Pt 2):140956. doi: 10.1016/j.ijbiomac.2025.140956.",
+            "pmid": "39947542"
+          }
+        ],
+        "current": [
+          {
+            "type": "RetractionOf",
+            "source": "Int J Biol Macromol. 2025 Apr;304(Pt 2):140956. doi: 10.1016/j.ijbiomac.2025.140956.",
+            "pmid": "39947542"
+          }
+        ]
+      },
+      "DateRevised": {
+        "previous": {
+          "Year": "2026",
+          "Month": "10",
+          "Day": "16"
+        },
+        "current": {
+          "Year": "2026",
+          "Month": "10",
+          "Day": "21"
+        }
+      }
+    },
+    "interpretation": "Duplicate erratum cross-links no longer returned; notice is Journal Article plus Retraction Notice rather than Published Erratum plus Retraction Notice. RetractionIn/RetractionOf remain. This is changed metadata, not a new retraction or reinstatement.",
+    "new_notice": false
+  }
+]

@@ -1,0 +1,31 @@
+{
+  "reviewed_utc": "2026-10-22T03:08:51.230348+00:00",
+  "reviewed_path": "analyses/okun_estimands/2026-10-22/report.md",
+  "reviewed_sha256": "a33ad930e7cd9a7459dd9d2ed575ac92b744eb49b609d4b8ed63af8cc4a5f495",
+  "review_kind": "Independent source and inference check; not clinical peer review",
+  "outcome": "No substantive inference error identified in the inspected draft; keep stated access and aggregate-boundary limitations.",
+  "checked_claims": [
+    "Primary-outcome-period state testing distinguished from six-month chronic treatment allocation",
+    "Planned three separate days, one hour in assigned mode, and 30-day stability verified in official protocol",
+    "Cagle prior-14-day recall wording verified in indexed primary methods",
+    "MOS-36 main narrative direction retained with adjusted nonsignificance, not equivalence",
+    "MOS-36 participant table not used to derive denominator, mean or uncertainty",
+    "Selected responder percentages not relabelled full-cohort effects",
+    "Trial family overlap with Cagle retained",
+    "Independent narrow registry retrieval reproduces period flow 8/5/3 and safety affected-person totals",
+    "Sequential selected safety groups not treated as randomized risk comparison",
+    "No numerical efficacy estimate or participant rows in reviewed report",
+    "Final source-access wording correctly limits Cagle to indexed primary excerpts, not verified direct PDF retrieval",
+    "Modified Rush five 0-4 categories and total 0-20 verified in protocol printed p18; explicit YGTSS-R not asserted",
+    "Final 25 offline checks independently passed 2026-10-22T03:08:10.323330+00:00"
+  ],
+  "limits": [
+    "No raw participant data or full study datasets analyzed",
+    "Protocol implementation for every participant not established",
+    "Actual MOS-36 recall form/scoring and functional paired denominator unresolved",
+    "Not every cited supplementary detail independently checked",
+    "Any edits after reviewed SHA need re-review if they change claims"
+  ],
+  "initial_reviewed_sha256": "adb73697ceac4e0a513b19933dd017288f12f9e9c400a4e32b34aa435327d29d",
+  "final_change_scope": "Measure-identity caution, review links, and source-access clarification read; no new clinical estimates introduced."
+}

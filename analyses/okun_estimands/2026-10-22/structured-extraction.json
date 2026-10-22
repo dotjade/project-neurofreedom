@@ -1,0 +1,172 @@
+{
+  "id": "okun2024:clinical-function-estimands:2026-10-22",
+  "date_checked": "2026-10-22",
+  "source_urls": {
+    "paper": "https://www.nature.com/articles/s41598-024-57071-5",
+    "functional_table": "https://www.nature.com/articles/s41598-024-57071-5/tables/6",
+    "protocol": "https://cdn.clinicaltrials.gov/large-docs/73/NCT02056873/Prot_SAP_000.pdf",
+    "registry": "https://clinicaltrials.gov/study/NCT02056873",
+    "cagle": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9468946/"
+  },
+  "study": {
+    "pmid": "38499664",
+    "pmcid": "PMC10948908",
+    "doi": "10.1038/s41598-024-57071-5",
+    "nct": "NCT02056873",
+    "publication_date": "2024-03-18",
+    "enrolled": 10,
+    "chronic_responsive_capable": 8,
+    "published_responder_count": 4,
+    "published_response_denominator": 8,
+    "response_threshold_caveat": "Article mixes points and percent; Discussion specifies >=30% motor reduction. Do not repair/reclassify.",
+    "mean_age": 30.1,
+    "age_sd": 8.2,
+    "mean_disease_duration_years": 22.6,
+    "disease_duration_sd": 6.9,
+    "population": "Selected medication-refractory adults aged at least 21 with severe disabling TS; YGTSS tic score >35/50. Protocol excludes untreated/unstable psychiatric conditions.",
+    "cohort_overlap": [
+      "PMID36094652",
+      "NCT02056873"
+    ],
+    "same_trial_is_not_independent_replication": true
+  },
+  "estimands": [
+    {
+      "id": "video_state",
+      "outcome": "Modified Rush videotape tic scale",
+      "construct": "Currently observed tic expression",
+      "comparison": [
+        "no stimulation",
+        "continuous/open-loop",
+        "responsive"
+      ],
+      "mode_order_randomized": true,
+      "participant_and_psychiatrist_masked_in_article": true,
+      "chronic_treatment_allocation_randomized": false,
+      "assessment_period": "Primary-outcome period around six months",
+      "protocol_plan": "Three separate days; mode assigned one hour before measurement; preceding stable stimulation settings for 30 days.",
+      "actual_day_level_implementation_verified": false,
+      "carryover_absence_verified": false,
+      "aggregate_paired_denominator": null,
+      "functional_outcome": false,
+      "source_locations": [
+        "paper Clinical programming",
+        "protocol pp31-32,38"
+      ],
+      "protocol_scale_range": [
+        0,
+        20
+      ],
+      "protocol_scale_definition": "Five 0-4 categories, protocol p18; article acronym variants are not a separate validated version."
+    },
+    {
+      "id": "ygtss_longitudinal",
+      "outcome": "YGTSS recalled severity",
+      "construct": "History over prior weeks",
+      "comparison": [
+        "preoperative baseline",
+        "approximately six months after initial implants"
+      ],
+      "mode_specific_comparison_identified": false,
+      "why": "Article explicitly says prior-weeks YGTSS cannot compare continuous with responsive modes at the primary assessment.",
+      "earlier_cagle_recall_days": 14,
+      "source_locations": [
+        "paper Clinical programming and chronic-responsive Results",
+        "Cagle2022 Methods"
+      ],
+      "revised_YGTSS_version_verified": false
+    },
+    {
+      "id": "mos36_function",
+      "outcome": "MOS-36/SF-36 functional health domains",
+      "comparison": [
+        "baseline",
+        "six months"
+      ],
+      "instrument_version": null,
+      "recall_window": null,
+      "scoring_algorithm": null,
+      "paired_denominator": null,
+      "aggregate_paired_mean_change": null,
+      "paired_change_sd": null,
+      "confidence_interval": null,
+      "adjusted_p_values": null,
+      "multiplicity_method": null,
+      "reported_direction": "Several domains reportedly improved by more than ten points.",
+      "reported_inference": "No significant group changes after multiplicity adjustment.",
+      "nonsignificance_is_equivalence": false,
+      "responsive_vs_continuous_contrast_identified": false,
+      "row_reconstruction_permitted": false,
+      "source_locations": [
+        "paper Quality of life and Table6",
+        "protocol pp19,23-24"
+      ]
+    }
+  ],
+  "protocol": {
+    "date": "2019-09-23",
+    "registry_upload": "2023-10-10T12:40",
+    "page_count": 64,
+    "same_day_assessment_assumed": false,
+    "planned_stabilization_hours": 1,
+    "planned_stable_settings_days": 30,
+    "planned_video_test_days": 3,
+    "actual_common_clock_verified": false,
+    "outcome_wording_internally_uniform": false,
+    "outcome_wording_caveat": "Total motor/phonic >40% appears alongside motor-only >40% or >=40%; cannot establish prospective history from this version alone."
+  },
+  "registry": {
+    "last_update_posted": "2024-09-05",
+    "results_first_posted": "2024-09-05",
+    "primary_endpoint": "40% reduction in total tic score with continuous DBS",
+    "primary_timeframe": "Baseline to 6 months post-surgery",
+    "primary_denominator": 10,
+    "responsive_period_started": 8,
+    "responsive_period_completed": 5,
+    "mos36_outcome_present": false,
+    "completion_date": "2023-08-24",
+    "paper_completion_date": "2023-06-30"
+  },
+  "safety": {
+    "registry_window": "3 years",
+    "assessment": "SYSTEMATIC_ASSESSMENT",
+    "other_event_threshold_percent": 1,
+    "groups": [
+      {
+        "label": "Continuous DBS",
+        "at_risk": 10,
+        "serious_affected": 4,
+        "other_affected": 10,
+        "deaths": 0
+      },
+      {
+        "label": "Responsive DBS",
+        "at_risk": 5,
+        "serious_affected": 0,
+        "other_affected": 0,
+        "deaths": 0
+      }
+    ],
+    "groups_independent_randomized": false,
+    "uniform_completed_three_year_observation_established": false,
+    "main_paper_summary": "Infection-related explantation/reimplantation and separate lead repositioning are reported. No shared six-month risk window is verified."
+  },
+  "negative_outcomes": [
+    "MOS-36 changes not significant after multiplicity adjustment",
+    "No significant longitudinal changes reported in depression, mania, ADHD or OCD scales"
+  ],
+  "decision": {
+    "compatible_functional_effect_identified": false,
+    "clinical_effect_calculated": false,
+    "simulation_performed": false,
+    "participant_data_analyzed": false,
+    "missing_prerequisites": [
+      "SF-36 version/recall/scoring",
+      "treatment exposure across recall window",
+      "paired functional denominator and missingness rule",
+      "aggregate paired change and uncertainty",
+      "defined comparable treatment contrast"
+    ],
+    "next_task": "Official historical NCT02056873 outcome/design version provenance audit; no result rows or participant reconstruction."
+  }
+}
