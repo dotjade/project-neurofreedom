@@ -1,0 +1,677 @@
+{
+  "date": "2026-10-23",
+  "started_utc": "2026-10-23T02:55:45.373465+00:00",
+  "inclusive_overlap": [
+    "2026-10-21",
+    "2026-10-23"
+  ],
+  "prior_core_end_utc": "2026-10-22T03:00:44.969432+00:00",
+  "pubmed": {
+    "queries": [
+      {
+        "label": "core_edat",
+        "params": {
+          "db": "pubmed",
+          "term": "Tourette OR \"tic disorder\" OR \"tic disorders\"",
+          "datetype": "edat",
+          "mindate": "2026/10/21",
+          "maxdate": "2026/10/23",
+          "retmode": "json",
+          "retmax": 1000
+        },
+        "count": 2,
+        "ids": [
+          "42903303",
+          "42902960"
+        ],
+        "querytranslation": "(\"tourette syndrome\"[MeSH Terms] OR (\"tourette\"[All Fields] AND \"syndrome\"[All Fields]) OR \"tourette syndrome\"[All Fields] OR \"tourette\"[All Fields] OR \"tourette s\"[All Fields] OR \"tourettes\"[All Fields] OR \"tourettism\"[All Fields] OR \"tic disorder\"[All Fields] OR \"tic disorders\"[All Fields]) AND 2026/10/21:2026/10/23[Date - Entry]",
+        "warnings": null,
+        "errors": null
+      },
+      {
+        "label": "near_edat",
+        "params": {
+          "db": "pubmed",
+          "term": "Tourette OR \"tic disorder\" OR \"tic disorders\"",
+          "datetype": "edat",
+          "mindate": "2026/10/22",
+          "maxdate": "2026/10/23",
+          "retmode": "json",
+          "retmax": 1000
+        },
+        "count": 2,
+        "ids": [
+          "42903303",
+          "42902960"
+        ],
+        "querytranslation": "(\"tourette syndrome\"[MeSH Terms] OR (\"tourette\"[All Fields] AND \"syndrome\"[All Fields]) OR \"tourette syndrome\"[All Fields] OR \"tourette\"[All Fields] OR \"tourette s\"[All Fields] OR \"tourettes\"[All Fields] OR \"tourettism\"[All Fields] OR \"tic disorder\"[All Fields] OR \"tic disorders\"[All Fields]) AND 2026/10/22:2026/10/23[Date - Entry]",
+        "warnings": null,
+        "errors": null
+      },
+      {
+        "label": "core_pdat",
+        "params": {
+          "db": "pubmed",
+          "term": "Tourette OR \"tic disorder\" OR \"tic disorders\"",
+          "datetype": "pdat",
+          "mindate": "2026/10/21",
+          "maxdate": "2026/10/23",
+          "retmode": "json",
+          "retmax": 1000
+        },
+        "count": 0,
+        "ids": [],
+        "querytranslation": "(\"tourette syndrome\"[MeSH Terms] OR (\"tourette\"[All Fields] AND \"syndrome\"[All Fields]) OR \"tourette syndrome\"[All Fields] OR \"tourette\"[All Fields] OR \"tourette s\"[All Fields] OR \"tourettes\"[All Fields] OR \"tourettism\"[All Fields] OR \"tic disorder\"[All Fields] OR \"tic disorders\"[All Fields]) AND 2026/10/21:2026/10/23[Date - Publication]",
+        "warnings": {
+          "phrasesignored": [],
+          "quotedphrasesnotfound": [],
+          "outputmessages": [
+            "No items found."
+          ]
+        },
+        "errors": null
+      },
+      {
+        "label": "core_mdat",
+        "params": {
+          "db": "pubmed",
+          "term": "Tourette OR \"tic disorder\" OR \"tic disorders\"",
+          "datetype": "mdat",
+          "mindate": "2026/10/21",
+          "maxdate": "2026/10/23",
+          "retmode": "json",
+          "retmax": 1000
+        },
+        "count": 19,
+        "ids": [
+          "42903303",
+          "42902960",
+          "42527169",
+          "40353708",
+          "40304057",
+          "40265762",
+          "39985332",
+          "39947542",
+          "25161066",
+          "24840790",
+          "24236274",
+          "24795782",
+          "19698938",
+          "19395047",
+          "18280023",
+          "18058387",
+          "17453897",
+          "15970726",
+          "11527335"
+        ],
+        "querytranslation": "(\"tourette syndrome\"[MeSH Terms] OR (\"tourette\"[All Fields] AND \"syndrome\"[All Fields]) OR \"tourette syndrome\"[All Fields] OR \"tourette\"[All Fields] OR \"tourette s\"[All Fields] OR \"tourettes\"[All Fields] OR \"tourettism\"[All Fields] OR \"tic disorder\"[All Fields] OR \"tic disorders\"[All Fields]) AND 2026/10/21:2026/10/23[Date - Modification]",
+        "warnings": null,
+        "errors": null
+      },
+      {
+        "label": "notice_edat",
+        "params": {
+          "db": "pubmed",
+          "term": "(Tourette OR \"tic disorder\" OR \"tic disorders\") AND (retraction OR retracted OR erratum OR corrigendum OR correction)",
+          "datetype": "edat",
+          "mindate": "2026/10/21",
+          "maxdate": "2026/10/23",
+          "retmode": "json",
+          "retmax": 1000
+        },
+        "count": 0,
+        "ids": [],
+        "querytranslation": "(\"tourette syndrome\"[MeSH Terms] OR (\"tourette\"[All Fields] AND \"syndrome\"[All Fields]) OR \"tourette syndrome\"[All Fields] OR \"tourette\"[All Fields] OR \"tourette s\"[All Fields] OR \"tourettes\"[All Fields] OR \"tourettism\"[All Fields] OR \"tic disorder\"[All Fields] OR \"tic disorders\"[All Fields]) AND (\"retract\"[All Fields] OR \"retractable\"[All Fields] OR \"retracted\"[All Fields] OR \"retracting\"[All Fields] OR \"retraction\"[All Fields] OR \"retractions\"[All Fields] OR \"retracts\"[All Fields] OR (\"retract\"[All Fields] OR \"retractable\"[All Fields] OR \"retracted\"[All Fields] OR \"retracting\"[All Fields] OR \"retraction\"[All Fields] OR \"retractions\"[All Fields] OR \"retracts\"[All Fields]) OR (\"published erratum\"[Publication Type] OR \"erratum\"[All Fields]) OR \"corrigendum\"[All Fields] OR (\"correct\"[All Fields] OR \"correctability\"[All Fields] OR \"correctable\"[All Fields] OR \"corrected\"[All Fields] OR \"correctible\"[All Fields] OR \"correcting\"[All Fields] OR \"correction\"[All Fields] OR \"corrections\"[All Fields] OR \"corrective\"[All Fields] OR \"correctives\"[All Fields] OR \"correctness\"[All Fields] OR \"corrects\"[All Fields])) AND 2026/10/21:2026/10/23[Date - Entry]",
+        "warnings": {
+          "phrasesignored": [],
+          "quotedphrasesnotfound": [],
+          "outputmessages": [
+            "No items found."
+          ]
+        },
+        "errors": null
+      },
+      {
+        "label": "syn_edat",
+        "params": {
+          "db": "pubmed",
+          "term": "tics OR \"chronic motor tic\" OR \"chronic vocal tic\" OR \"persistent tic\"",
+          "datetype": "edat",
+          "mindate": "2026/10/21",
+          "maxdate": "2026/10/23",
+          "retmode": "json",
+          "retmax": 1000
+        },
+        "count": 2,
+        "ids": [
+          "42903303",
+          "42902960"
+        ],
+        "querytranslation": "(\"tics\"[MeSH Terms] OR \"tics\"[All Fields] OR \"chronic motor tic\"[All Fields] OR \"chronic vocal tic\"[All Fields] OR \"persistent tic\"[All Fields]) AND 2026/10/21:2026/10/23[Date - Entry]",
+        "warnings": null,
+        "errors": null
+      },
+      {
+        "label": "syn_pdat",
+        "params": {
+          "db": "pubmed",
+          "term": "tics OR \"chronic motor tic\" OR \"chronic vocal tic\" OR \"persistent tic\"",
+          "datetype": "pdat",
+          "mindate": "2026/10/21",
+          "maxdate": "2026/10/23",
+          "retmode": "json",
+          "retmax": 1000
+        },
+        "count": 0,
+        "ids": [],
+        "querytranslation": "(\"tics\"[MeSH Terms] OR \"tics\"[All Fields] OR \"chronic motor tic\"[All Fields] OR \"chronic vocal tic\"[All Fields] OR \"persistent tic\"[All Fields]) AND 2026/10/21:2026/10/23[Date - Publication]",
+        "warnings": {
+          "phrasesignored": [],
+          "quotedphrasesnotfound": [],
+          "outputmessages": [
+            "No items found."
+          ]
+        },
+        "errors": null
+      },
+      {
+        "label": "burden_treatment_edat",
+        "params": {
+          "db": "pubmed",
+          "term": "(Tourette OR \"tic disorder\" OR \"tic disorders\") AND (adult OR severe OR pain OR burden OR ADHD OR comorbid* OR cooccurring OR treatment OR adverse OR negative OR quality of life)",
+          "datetype": "edat",
+          "mindate": "2026/10/21",
+          "maxdate": "2026/10/23",
+          "retmode": "json",
+          "retmax": 1000
+        },
+        "count": 2,
+        "ids": [
+          "42903303",
+          "42902960"
+        ],
+        "querytranslation": "(\"tourette syndrome\"[MeSH Terms] OR (\"tourette\"[All Fields] AND \"syndrome\"[All Fields]) OR \"tourette syndrome\"[All Fields] OR \"tourette\"[All Fields] OR \"tourette s\"[All Fields] OR \"tourettes\"[All Fields] OR \"tourettism\"[All Fields] OR \"tic disorder\"[All Fields] OR \"tic disorders\"[All Fields]) AND (\"adult\"[MeSH Terms] OR \"adult\"[All Fields] OR \"adults\"[All Fields] OR \"adult s\"[All Fields] OR (\"sever\"[All Fields] OR \"severe\"[All Fields] OR \"severed\"[All Fields] OR \"severely\"[All Fields] OR \"severer\"[All Fields] OR \"severes\"[All Fields] OR \"severing\"[All Fields] OR \"severities\"[All Fields] OR \"severity\"[All Fields] OR \"severs\"[All Fields]) OR (\"pain\"[MeSH Terms] OR \"pain\"[All Fields]) OR (\"burden\"[All Fields] OR \"burdened\"[All Fields] OR \"burdening\"[All Fields] OR \"burdens\"[All Fields]) OR (\"attention deficit disorder with hyperactivity\"[MeSH Terms] OR (\"attention\"[All Fields] AND \"deficit\"[All Fields] AND \"disorder\"[All Fields] AND \"hyperactivity\"[All Fields]) OR \"attention deficit disorder with hyperactivity\"[All Fields] OR \"adhd\"[All Fields]) OR \"comorbid*\"[All Fields] OR (\"cooccur\"[All Fields] OR \"cooccurred\"[All Fields] OR \"cooccurring\"[All Fields]) OR (\"therapeutics\"[MeSH Terms] OR \"therapeutics\"[All Fields] OR \"treatments\"[All Fields] OR \"therapy\"[MeSH Subheading] OR \"therapy\"[All Fields] OR \"treatment\"[All Fields] OR \"treatment s\"[All Fields]) OR (\"adverse\"[All Fields] OR \"adversely\"[All Fields] OR \"adverses\"[All Fields]) OR (\"negative\"[All Fields] OR \"negatively\"[All Fields] OR \"negatives\"[All Fields] OR \"negativities\"[All Fields] OR \"negativity\"[All Fields]) OR (\"quality of life\"[MeSH Terms] OR (\"quality\"[All Fields] AND \"life\"[All Fields]) OR \"quality of life\"[All Fields])) AND 2026/10/21:2026/10/23[Date - Entry]",
+        "warnings": null,
+        "errors": null
+      }
+    ],
+    "id_occurrences": 27,
+    "unique_records": 19,
+    "new_to_prior_scan_ids": [
+      "11527335",
+      "15970726",
+      "17453897",
+      "18058387",
+      "18280023",
+      "19395047",
+      "19698938",
+      "24236274",
+      "24795782",
+      "24840790",
+      "25161066",
+      "39985332",
+      "40265762",
+      "40304057",
+      "40353708",
+      "42902960",
+      "42903303"
+    ],
+    "previous_overlap_count": 2
+  },
+  "preprints": [
+    {
+      "server": "medrxiv",
+      "interval": [
+        "2026-10-21",
+        "2026-10-23"
+      ],
+      "pages": [
+        {
+          "cursor": 0,
+          "returned": 30,
+          "message": {
+            "status": "ok",
+            "category": "all",
+            "interval": "2026-10-21:2026-10-23",
+            "cursor": 0,
+            "count": 30,
+            "count_new_papers": "146",
+            "total": "177"
+          }
+        },
+        {
+          "cursor": 30,
+          "returned": 30,
+          "message": {
+            "status": "ok",
+            "category": "all",
+            "interval": "2026-10-21:2026-10-23",
+            "cursor": "30",
+            "count": 30,
+            "count_new_papers": "146",
+            "total": "177"
+          }
+        },
+        {
+          "cursor": 60,
+          "returned": 30,
+          "message": {
+            "status": "ok",
+            "category": "all",
+            "interval": "2026-10-21:2026-10-23",
+            "cursor": "60",
+            "count": 30,
+            "count_new_papers": "146",
+            "total": "177"
+          }
+        },
+        {
+          "cursor": 90,
+          "returned": 30,
+          "message": {
+            "status": "ok",
+            "category": "all",
+            "interval": "2026-10-21:2026-10-23",
+            "cursor": "90",
+            "count": 30,
+            "count_new_papers": "146",
+            "total": "177"
+          }
+        },
+        {
+          "cursor": 120,
+          "returned": 30,
+          "message": {
+            "status": "ok",
+            "category": "all",
+            "interval": "2026-10-21:2026-10-23",
+            "cursor": "120",
+            "count": 30,
+            "count_new_papers": "146",
+            "total": "177"
+          }
+        },
+        {
+          "cursor": 150,
+          "returned": 27,
+          "message": {
+            "status": "ok",
+            "category": "all",
+            "interval": "2026-10-21:2026-10-23",
+            "cursor": "150",
+            "count": 27,
+            "count_new_papers": "146",
+            "total": "177"
+          }
+        }
+      ],
+      "matches": [],
+      "screen_regex": "\\btourett\\w*|\\btics?\\b",
+      "screen_fields": "title and abstract",
+      "pagination_complete_for_observed_response": true,
+      "total_returned": 177,
+      "unique_doi_versions": 177,
+      "previous_scan_overlap_doi_versions": 115,
+      "not_in_previous_scan_doi_versions": 62,
+      "reported_totals": [
+        177
+      ],
+      "index_path": "medrxiv-preprint-index.tsv"
+    },
+    {
+      "server": "biorxiv",
+      "interval": [
+        "2026-10-21",
+        "2026-10-23"
+      ],
+      "pages": [
+        {
+          "cursor": 0,
+          "returned": 30,
+          "message": {
+            "status": "ok",
+            "category": "all",
+            "interval": "2026-10-21:2026-10-23",
+            "cursor": 0,
+            "count": 30,
+            "count_new_papers": "344",
+            "total": "524"
+          }
+        },
+        {
+          "cursor": 30,
+          "returned": 30,
+          "message": {
+            "status": "ok",
+            "category": "all",
+            "interval": "2026-10-21:2026-10-23",
+            "cursor": "30",
+            "count": 30,
+            "count_new_papers": "344",
+            "total": "524"
+          }
+        },
+        {
+          "cursor": 60,
+          "returned": 30,
+          "message": {
+            "status": "ok",
+            "category": "all",
+            "interval": "2026-10-21:2026-10-23",
+            "cursor": "60",
+            "count": 30,
+            "count_new_papers": "344",
+            "total": "524"
+          }
+        },
+        {
+          "cursor": 90,
+          "returned": 30,
+          "message": {
+            "status": "ok",
+            "category": "all",
+            "interval": "2026-10-21:2026-10-23",
+            "cursor": "90",
+            "count": 30,
+            "count_new_papers": "344",
+            "total": "524"
+          }
+        },
+        {
+          "cursor": 120,
+          "returned": 30,
+          "message": {
+            "status": "ok",
+            "category": "all",
+            "interval": "2026-10-21:2026-10-23",
+            "cursor": "120",
+            "count": 30,
+            "count_new_papers": "344",
+            "total": "524"
+          }
+        },
+        {
+          "cursor": 150,
+          "returned": 30,
+          "message": {
+            "status": "ok",
+            "category": "all",
+            "interval": "2026-10-21:2026-10-23",
+            "cursor": "150",
+            "count": 30,
+            "count_new_papers": "344",
+            "total": "524"
+          }
+        },
+        {
+          "cursor": 180,
+          "returned": 30,
+          "message": {
+            "status": "ok",
+            "category": "all",
+            "interval": "2026-10-21:2026-10-23",
+            "cursor": "180",
+            "count": 30,
+            "count_new_papers": "344",
+            "total": "524"
+          }
+        },
+        {
+          "cursor": 210,
+          "returned": 30,
+          "message": {
+            "status": "ok",
+            "category": "all",
+            "interval": "2026-10-21:2026-10-23",
+            "cursor": "210",
+            "count": 30,
+            "count_new_papers": "344",
+            "total": "524"
+          }
+        },
+        {
+          "cursor": 240,
+          "returned": 30,
+          "message": {
+            "status": "ok",
+            "category": "all",
+            "interval": "2026-10-21:2026-10-23",
+            "cursor": "240",
+            "count": 30,
+            "count_new_papers": "344",
+            "total": "524"
+          }
+        },
+        {
+          "cursor": 270,
+          "returned": 30,
+          "message": {
+            "status": "ok",
+            "category": "all",
+            "interval": "2026-10-21:2026-10-23",
+            "cursor": "270",
+            "count": 30,
+            "count_new_papers": "344",
+            "total": "524"
+          }
+        },
+        {
+          "cursor": 300,
+          "returned": 30,
+          "message": {
+            "status": "ok",
+            "category": "all",
+            "interval": "2026-10-21:2026-10-23",
+            "cursor": "300",
+            "count": 30,
+            "count_new_papers": "344",
+            "total": "524"
+          }
+        },
+        {
+          "cursor": 330,
+          "returned": 30,
+          "message": {
+            "status": "ok",
+            "category": "all",
+            "interval": "2026-10-21:2026-10-23",
+            "cursor": "330",
+            "count": 30,
+            "count_new_papers": "344",
+            "total": "524"
+          }
+        },
+        {
+          "cursor": 360,
+          "returned": 30,
+          "message": {
+            "status": "ok",
+            "category": "all",
+            "interval": "2026-10-21:2026-10-23",
+            "cursor": "360",
+            "count": 30,
+            "count_new_papers": "344",
+            "total": "524"
+          }
+        },
+        {
+          "cursor": 390,
+          "returned": 30,
+          "message": {
+            "status": "ok",
+            "category": "all",
+            "interval": "2026-10-21:2026-10-23",
+            "cursor": "390",
+            "count": 30,
+            "count_new_papers": "344",
+            "total": "524"
+          }
+        },
+        {
+          "cursor": 420,
+          "returned": 30,
+          "message": {
+            "status": "ok",
+            "category": "all",
+            "interval": "2026-10-21:2026-10-23",
+            "cursor": "420",
+            "count": 30,
+            "count_new_papers": "344",
+            "total": "524"
+          }
+        },
+        {
+          "cursor": 450,
+          "returned": 30,
+          "message": {
+            "status": "ok",
+            "category": "all",
+            "interval": "2026-10-21:2026-10-23",
+            "cursor": "450",
+            "count": 30,
+            "count_new_papers": "344",
+            "total": "524"
+          }
+        },
+        {
+          "cursor": 480,
+          "returned": 30,
+          "message": {
+            "status": "ok",
+            "category": "all",
+            "interval": "2026-10-21:2026-10-23",
+            "cursor": "480",
+            "count": 30,
+            "count_new_papers": "344",
+            "total": "524"
+          }
+        },
+        {
+          "cursor": 510,
+          "returned": 14,
+          "message": {
+            "status": "ok",
+            "category": "all",
+            "interval": "2026-10-21:2026-10-23",
+            "cursor": "510",
+            "count": 14,
+            "count_new_papers": "344",
+            "total": "524"
+          }
+        }
+      ],
+      "matches": [
+        {
+          "doi": "10.64898/2026.06.25.734531",
+          "version": "2",
+          "date": "2026-10-21",
+          "title": "Thermodynamic Quality Control Reshapes Spatially Resolved Metabolic Flux Predictions in Prostate Cancer",
+          "category": "cancer biology",
+          "published": "NA",
+          "screening_decision": "Excluded lexical false positive: TICs means thermodynamically infeasible cycles in prostate-cancer modeling.",
+          "qualifying_tic_result": false
+        },
+        {
+          "doi": "10.64898/2026.10.17.759814",
+          "version": "1",
+          "date": "2026-10-22",
+          "title": "TACTIC: hybrid denoising and clustering for robust 16S amplicon diversity estimates",
+          "category": "bioinformatics",
+          "published": "NA",
+          "screening_decision": "Excluded lexical false positive: TIC means Taxonomy-Informed Clustering in 16S amplicon methods.",
+          "qualifying_tic_result": false
+        }
+      ],
+      "screen_regex": "\\btourett\\w*|\\btics?\\b",
+      "screen_fields": "title and abstract",
+      "pagination_complete_for_observed_response": true,
+      "total_returned": 524,
+      "unique_doi_versions": 524,
+      "previous_scan_overlap_doi_versions": 216,
+      "not_in_previous_scan_doi_versions": 308,
+      "reported_totals": [
+        524
+      ],
+      "index_path": "biorxiv-preprint-index.tsv"
+    }
+  ],
+  "registry": [
+    {
+      "label": "ct_tourette",
+      "params": {
+        "query.cond": "Tourette",
+        "filter.advanced": "AREA[LastUpdatePostDate]RANGE[2026-10-21,2026-10-23]",
+        "pageSize": 100,
+        "format": "json",
+        "countTotal": "true",
+        "fields": "NCTId,BriefTitle,StatusModule,DesignModule,Condition,MinimumAge,MaximumAge,StdAge,HasResults"
+      },
+      "response": {
+        "totalCount": 0,
+        "nct_ids": [],
+        "nextPageToken": null
+      }
+    },
+    {
+      "label": "ct_tic_disorder",
+      "params": {
+        "query.cond": "tic disorder",
+        "filter.advanced": "AREA[LastUpdatePostDate]RANGE[2026-10-21,2026-10-23]",
+        "pageSize": 100,
+        "format": "json",
+        "countTotal": "true",
+        "fields": "NCTId,BriefTitle,StatusModule,DesignModule,Condition,MinimumAge,MaximumAge,StdAge,HasResults"
+      },
+      "response": {
+        "totalCount": 1,
+        "nct_ids": [
+          "NCT07137442"
+        ],
+        "nextPageToken": null
+      }
+    },
+    {
+      "label": "ct_tics",
+      "params": {
+        "query.cond": "Tics",
+        "filter.advanced": "AREA[LastUpdatePostDate]RANGE[2026-10-21,2026-10-23]",
+        "pageSize": 100,
+        "format": "json",
+        "countTotal": "true",
+        "fields": "NCTId,BriefTitle,StatusModule,DesignModule,Condition,MinimumAge,MaximumAge,StdAge,HasResults"
+      },
+      "response": {
+        "totalCount": 1,
+        "nct_ids": [
+          "NCT07137442"
+        ],
+        "nextPageToken": null
+      }
+    },
+    {
+      "label": "ct_ecopipam",
+      "params": {
+        "query.term": "ecopipam",
+        "filter.advanced": "AREA[LastUpdatePostDate]RANGE[2026-10-21,2026-10-23]",
+        "pageSize": 100,
+        "format": "json",
+        "countTotal": "true",
+        "fields": "NCTId,BriefTitle,StatusModule,DesignModule,Condition,MinimumAge,MaximumAge,StdAge,HasResults"
+      },
+      "response": {
+        "totalCount": 0,
+        "nct_ids": [],
+        "nextPageToken": null
+      }
+    }
+  ],
+  "registry_direct_controls": [
+    "NCT05158439",
+    "NCT07093541",
+    "NCT06194305",
+    "NCT07137442"
+  ],
+  "completed_utc": "2026-10-23T02:57:07.490048+00:00",
+  "request_log_path": "request-log.json",
+  "scope": "Selected public metadata. No full abstracts/papers, participant measurements, contacts, private narratives, or raw physiological signals retained."
+}

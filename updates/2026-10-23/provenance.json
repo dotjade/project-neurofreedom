@@ -1,0 +1,62 @@
+{
+  "repository": "dotjade/project-neurofreedom",
+  "read_only_commit": "7d609957041a0a3be47fab331bf74dd838998927",
+  "sources": [
+    {
+      "path": "README.md",
+      "sha256": "6b1d997e495751f81c97048c86cd8864732cdd8313cc3d9363605bb4425721d2",
+      "baseline_input": false
+    },
+    {
+      "path": "RESEARCH_PROTOCOL.md",
+      "sha256": "6f0025df7fd62fc2fe952cfbca96fca811ae76b917b7e7d4d45a501fe89e6859",
+      "baseline_input": false
+    },
+    {
+      "path": "STATUS.md",
+      "sha256": "dbfd855edd38b578a8349319b2426f9fc814c29d6c00f3955c3686c6f85e46c8",
+      "baseline_input": false
+    },
+    {
+      "path": "public/journal-source/README.md",
+      "sha256": "809173b6459331730d4fd9b0df135079b1e8dfdb030f4babbfc0055fcec1197e",
+      "baseline_input": false
+    },
+    {
+      "path": "evidence.jsonl",
+      "sha256": "84ea8cd580a4efa750dd0bf6b70978fd8bbaee2a3f6fb89617cbac796777e504",
+      "baseline_input": false
+    },
+    {
+      "path": "updates/2026-10-22/report.md",
+      "sha256": "fbaf1ecb8ce3d9ba901ed45cc1d52930daab109888ebdf91f71807ab381dfebb",
+      "baseline_input": false
+    },
+    {
+      "path": "updates/2026-10-22/summary.json",
+      "sha256": "9be2000bfca8d1349b4bd726497da724b08e53cee8b2a0e535be2b5aa49f4816",
+      "baseline_input": true
+    },
+    {
+      "path": "updates/2026-10-22/pubmed-screening.jsonl",
+      "sha256": "b8ff24bb4abc0003a3dd5c6fa6e38bb9ad0ae55d11bf379481e27bd77d043190",
+      "baseline_input": true
+    },
+    {
+      "path": "updates/2026-10-22/registry-evidence.jsonl",
+      "sha256": "754925b88a3329edfe6ee29fd3fd4be4cb8847757444f4b047a66fac42d1ce6e",
+      "baseline_input": true
+    },
+    {
+      "path": "updates/2026-10-22/biorxiv-preprint-index.tsv",
+      "sha256": "00a49b1daba4781a31300550a870f591bc610f1a669eb914c20deff9800937a5",
+      "baseline_input": true
+    },
+    {
+      "path": "updates/2026-10-22/medrxiv-preprint-index.tsv",
+      "sha256": "162d8d29733cabef5950d15927947ad5b417a5535a0af3d62fcd434025926129",
+      "baseline_input": true
+    }
+  ],
+  "retention": "Public source metadata and original summaries only; baseline bodies and transient abstracts are not publication artifacts."
+}

@@ -1,0 +1,185 @@
+{
+  "checkDate": "2026-10-23",
+  "windowStart": "2026-10-22T03:01:21Z",
+  "windowEnd": "2026-10-23T03:01:22Z",
+  "retrievalIntervalUTC": "2026-10-23T02:55:34Z/2026-10-23T03:01:22Z",
+  "queryCount": 8,
+  "queryExecutions": 12,
+  "resultCardsScreened": 27,
+  "dateRule": "Overlapping after:2026-10-21 before:2026-10-24 query syntax is broad. Source publication/update dates and actual cutoff determine eligibility; future material is not inferred.",
+  "countNote": "27 cards from the fully captured batch-1 rerun (13) and batch 2 (14); cards are not unique events or total hits. Batch 1 was repeated once because its first displayed output was truncated; preliminary cards are not double-counted. Search-result numbering skips are not counts. Per-query counts unavailable.",
+  "batches": [
+    {
+      "id": 1,
+      "queries": [
+        "site:fda.gov (Tourette OR ecopipam OR aripiprazole OR risperidone OR pimozide OR haloperidol OR clonidine OR guanfacine OR valbenazine OR deutetrabenazine OR tetrabenazine) (safety OR recall OR warning) after:2026-10-21 before:2026-10-24",
+        "site:ema.europa.eu (Tourette OR ecopipam OR aripiprazole OR risperidone OR pimozide OR haloperidol OR clonidine OR guanfacine OR valbenazine OR deutetrabenazine OR tetrabenazine) after:2026-10-21 before:2026-10-24",
+        "site:gov.uk (Tourette OR ecopipam OR aripiprazole OR risperidone OR pimozide OR haloperidol OR clonidine OR guanfacine OR valbenazine OR deutetrabenazine OR tetrabenazine) (safety OR recall OR warning) after:2026-10-21 before:2026-10-24",
+        "(site:fda.gov OR site:ema.europa.eu OR site:gov.uk) (Neupulse OR NeuroStar OR \"median nerve stimulation\" OR \"deep brain stimulation\" OR \"transcranial magnetic\" OR topiramate OR \"botulinum toxin\" OR tiapride) (safety OR recall) after:2026-10-21 before:2026-10-24"
+      ],
+      "retrievalIntervalUTC": "2026-10-23T02:59:30Z/2026-10-23T02:59:59Z",
+      "resultCardsScreened": 13,
+      "screenedCards": [
+        {
+          "title": "Haldol and associated names - referral | European Medicines Agency (EMA)",
+          "url": "https://www.ema.europa.eu/en/medicines/human/referrals/haldol-associated-names",
+          "decision": "Historical 2017 haloperidol referral; no new-window notice."
+        },
+        {
+          "title": "Class 2 Medicines Recall: Aripiprazole 1mg/ml oral solution (EL (19)A/20) - GOV.UK",
+          "url": "https://www.gov.uk/drug-device-alerts/class-2-medicines-recall-aripiprazole-1mg-ml-oral-solution-el-19-a-20",
+          "decision": "Historical recall published 30 July 2019; no new-window notice."
+        },
+        {
+          "title": "**Additional Adverse Reactions Reported at an Incidence of 2% or more in Oral Risperidone-treated Adult Patients and Greater than Placebo**",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2025/214835Orig1s000Lbl.pdf",
+          "decision": "RISVAN labeling under 2025 NDA path; no new-window labeling change established. Reader attempt yielded internal error, so full label not inspected."
+        },
+        {
+          "title": "Austedo | European Medicines Agency (EMA)",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/austedo",
+          "decision": "Historical Austedo EPAR; no new-window change established."
+        },
+        {
+          "title": "Alerts, recalls and safety information: medicines and medical devices - GOV.UK",
+          "url": "https://www.gov.uk/drug-device-alerts?alert_type=national-patient-safety",
+          "decision": "Filtered alerts index, not itself an event; canonical MHRA index checked."
+        },
+        {
+          "title": "Haloperidol (Haldol): reminder of risks when used in elderly patients for the acute treatment of delirium - GOV.UK",
+          "url": "https://www.gov.uk/drug-safety-update/haloperidol-haldol-reminder-of-risks-when-used-in-elderly-patients-for-the-acute-treatment-of-delirium",
+          "decision": "Historical 10 December 2021 delirium warning, not new-window."
+        },
+        {
+          "title": "Drug Alerts and Statements | FDA",
+          "url": "https://www.fda.gov/drugs/drug-safety-and-availability/drug-alerts-and-statements",
+          "decision": "Current alerts/statements index checked; October 22 ARC annual-report statement is not a watched-treatment safety notice."
+        },
+        {
+          "title": "January - March 2016 | New Safety Information or Potential Signals of Serious Risks Identified from the FDA Adverse Event Monitoring System (AEMS) | FDA",
+          "url": "https://www.fda.gov/drugs/fda-adverse-event-monitoring-system-aems/january-march-2016-new-safety-information-or-potential-signals-serious-risks-identified-fda-adverse",
+          "decision": "Historical 2016 signal with 2016 labeling action, not new-window despite recent crawl/publication metadata."
+        },
+        {
+          "title": "Aripiprazole Zentiva | European Medicines Agency (EMA)",
+          "url": "https://www.ema.europa.eu/de/medicines/human/EPAR/aripiprazole-zentiva",
+          "decision": "Historical aripiprazole EPAR; April 2026 product-information date on English counterpart, not new-window."
+        },
+        {
+          "title": "Drug Safety and Availability | FDA",
+          "url": "https://www.fda.gov/drugs/drug-safety-and-availability?trk=article-ssr-frontend-pulse_little-text-block",
+          "decision": "Safety landing page, not a dated event; current communications indexes checked."
+        },
+        {
+          "title": "Safety communications concerning medicines, medical devices and other healthcare products - GOV.UK",
+          "url": "https://www.gov.uk/government/publications/safety-communications-concerning-medicines-medical-devices-and-other-healthcare-products/safety-communications-concerning-medicines-medical-devices-and-other-healthcare-products",
+          "decision": "Regulatory process explanation, not a new treatment safety event."
+        },
+        {
+          "title": "MHRA strengthening dependency and addiction warnings on medicines used to treat pain, anxiety, and insomnia - GOV.UK",
+          "url": "https://www.gov.uk/government/news/mhra-strengthening-dependency-and-addiction-warnings-on-medicines-used-to-treat-pain-anxiety-and-insomnia",
+          "decision": "January 2026 dependency-warning news, before window and outside prespecified ingredient watch."
+        },
+        {
+          "title": "Safety Public Assessment Reports - GOV.UK",
+          "url": "https://www.gov.uk/guidance/safety-public-assessment-reports",
+          "decision": "Safety-assessment index, not evidence of a new dated watched notice; canonical safety indexes checked."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "queries": [
+        "(site:fda.gov OR site:ema.europa.eu OR site:gov.uk) (methylphenidate OR atomoxetine OR lisdexamfetamine OR fluvoxamine OR sertraline OR antidepressants) (safety OR recall OR warning) after:2026-10-21 before:2026-10-24",
+        "(site:tga.gov.au OR site:recalls-rappels.canada.ca OR site:canada.ca) (Tourette OR ecopipam OR aripiprazole OR risperidone OR pimozide OR haloperidol OR clonidine OR guanfacine OR valbenazine OR deutetrabenazine OR tetrabenazine) (safety OR recall) after:2026-10-21 before:2026-10-24",
+        "(site:tga.gov.au OR site:recalls-rappels.canada.ca OR site:canada.ca) (Neupulse OR NeuroStar OR \"median nerve stimulation\" OR \"deep brain stimulation\" OR topiramate OR \"botulinum toxin\" OR tiapride OR methylphenidate OR atomoxetine OR lisdexamfetamine OR fluvoxamine OR sertraline) (safety OR recall) after:2026-10-21 before:2026-10-24",
+        "(site:aan.com OR site:essts.org OR site:nice.org.uk) (Tourette OR \"tic disorder\") (guideline OR guidance OR update) after:2026-10-21 before:2026-10-24"
+      ],
+      "retrievalIntervalUTC": "2026-10-23T02:55:49Z/2026-10-23T02:56:13Z",
+      "resultCardsScreened": 14,
+      "screenedCards": [
+        {
+          "title": "Methylphenidate - referral | European Medicines Agency (EMA)",
+          "url": "https://www.ema.europa.eu/en/medicines/human/referrals/methylphenidate",
+          "decision": "Historical 2009 methylphenidate referral."
+        },
+        {
+          "title": "ADHD medicines - supply shortage | European Medicines Agency (EMA)",
+          "url": "https://www.ema.europa.eu/hr/medicines/human/shortages/adhd-medicines",
+          "decision": "Shortage page last updated 20 November 2025; explicitly not a safety-related shortage, not new-window."
+        },
+        {
+          "title": "Serotonin-specific reuptake inhibitors and serotonin-noradrenaline reuptake inhibitors - referral | European Medicines Agency (EMA)",
+          "url": "https://www.ema.europa.eu/en/medicines/human/referrals/serotonin-specific-reuptake-inhibitors-serotonin-noradrenaline-reuptake-inhibitors",
+          "decision": "Historical 2005 antidepressant referral."
+        },
+        {
+          "title": "ESSTS | Courses & Training | Specialist Training: Behavioural Treatment for Tics 2027",
+          "url": "https://www.essts.org/news/specialist-training-behavioural-treatment-for-tics",
+          "decision": "Training announcement dated 14 September 2026, not an issued guideline."
+        },
+        {
+          "title": "Find recalls, advisories and safety alerts - Canada.ca",
+          "url": "https://recalls-rappels.canada.ca/en",
+          "decision": "Recall homepage checked directly; latest displayed rows dated October 21, before strict cutoff."
+        },
+        {
+          "title": "Outcomes of imposed non-interventional post-authorisation safety studies | European Medicines Agency (EMA)",
+          "url": "https://www.ema.europa.eu/en/human-regulatory-overview/post-authorisation/pharmacovigilance-post-authorisation/post-authorisation-safety-studies-pass/outcomes-imposed-non-interventional-post-authorisation-safety-studies",
+          "decision": "PASS index; displayed methylphenidate documents first published 2 December 2025."
+        },
+        {
+          "title": "Zoloft - referral | European Medicines Agency (EMA)",
+          "url": "https://www.ema.europa.eu/en/medicines/human/referrals/zoloft",
+          "decision": "Historical 2009 sertraline referral."
+        },
+        {
+          "title": "Tuzulby | European Medicines Agency (EMA)",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/tuzulby",
+          "decision": "Historical methylphenidate EPAR; no new-window material change established."
+        },
+        {
+          "title": "ESSTS | Directory of Tourette Syndrome Patient Associations around the world",
+          "url": "https://www.essts.org/directory",
+          "decision": "Association directory, not guidance; no contacts retained or contacted."
+        },
+        {
+          "title": "ESSTS | News",
+          "url": "https://www.essts.org/news",
+          "decision": "News index latest item October 12; no new issued guideline."
+        },
+        {
+          "title": "Cymbalta | European Medicines Agency (EMA)",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/cymbalta",
+          "decision": "Historical duloxetine EPAR; incidental fluvoxamine interaction, no new-window notice."
+        },
+        {
+          "title": "Valdoxan | European Medicines Agency (EMA)",
+          "url": "https://www.ema.europa.eu/nl/medicines/human/EPAR/valdoxan",
+          "decision": "Historical agomelatine EPAR; incidental fluvoxamine interaction, no new-window notice."
+        },
+        {
+          "title": "EURMP XOFIGO\u00ae 06/2025",
+          "url": "https://www.ema.europa.eu/en/documents/rmp/xofigo-epar-risk-management-plan_en.pdf",
+          "decision": "Xofigo risk-management plan dated June 2025, outside watched therapies."
+        },
+        {
+          "title": "# Risk Management Plan",
+          "url": "https://www.ema.europa.eu/en/documents/rmp/apremilast-accord-epar-risk-management-plan_en.pdf",
+          "decision": "Apremilast risk-management plan, outside watched therapies; incidental antidepressant mention."
+        }
+      ]
+    }
+  ],
+  "supplementarySourceResolution": {
+    "queries": [
+      "\"21955933\" Tourette",
+      "\"16520330\" Tourette",
+      "\"25264251\" Tourette",
+      "\"26041822\" Tourette"
+    ],
+    "purpose": "Resolve challenged homepage PubMed source identities, not an additional surveillance screen.",
+    "outcome": "One canonical PubMed search result and primary-source reference metadata were useful; unrelated numeric-ID hits and non-primary mirrors were not used for claims or replacements. No private narratives/full papers retained."
+  },
+  "timestampNote": "Batched retrieval intervals are bounded by actual tool timestamps; per-query instants were not instrumented."
+}

@@ -1,0 +1,17 @@
+{
+  "label": "Pappert institutional primary PDF",
+  "url": "https://www.rcpsych.ac.uk/docs/default-source/members/devolved-nations/rcpsych-in-wales/wales-cap-objective-assess-longit-outcomes.pdf?sfvrsn=d52dec25_2",
+  "checkedAt": "2026-10-23T02:58:52.174643+00:00",
+  "method": "ordinary anonymous curl GET with redirects, no credentials or bypass",
+  "httpStatus": 200,
+  "finalUrl": "https://www.rcpsych.ac.uk/docs/default-source/members/devolved-nations/rcpsych-in-wales/wales-cap-objective-assess-longit-outcomes.pdf?sfvrsn=d52dec25_2",
+  "contentType": "application/pdf",
+  "bytes": 125480,
+  "pdfMagic": true,
+  "curlExitCode": 0,
+  "identityCheckStartedAt": "2026-10-23T03:01:08.415105+00:00",
+  "expectedIdentityConfirmed": true,
+  "identityCheckCompletedAt": "2026-10-23T03:01:12.231621+00:00",
+  "webReaderResult": "Primary PDF exposed with matching DOI and title; 2026-10-23 02:58 UTC.",
+  "recommendation": "Verified institutional primary alternative on this check; retain canonical publisher URL, which is challenged rather than established broken. This result does not establish future availability."
+}

@@ -1,0 +1,168 @@
+{
+  "scope": "Independent live metadata comparison and original-checker replication; not clinical hypothesis tests",
+  "checks": [
+    {
+      "name": "review_versions_exact",
+      "passed": true
+    },
+    {
+      "name": "v1_live_url_exact",
+      "passed": true
+    },
+    {
+      "name": "v1_live_sections_exact",
+      "passed": true
+    },
+    {
+      "name": "v1_four_allowed_metadata_sections",
+      "passed": true
+    },
+    {
+      "name": "v7_live_url_exact",
+      "passed": true
+    },
+    {
+      "name": "v7_live_sections_exact",
+      "passed": true
+    },
+    {
+      "name": "v7_four_allowed_metadata_sections",
+      "passed": true
+    },
+    {
+      "name": "v8_live_url_exact",
+      "passed": true
+    },
+    {
+      "name": "v8_live_sections_exact",
+      "passed": true
+    },
+    {
+      "name": "v8_four_allowed_metadata_sections",
+      "passed": true
+    },
+    {
+      "name": "v13_live_url_exact",
+      "passed": true
+    },
+    {
+      "name": "v13_live_sections_exact",
+      "passed": true
+    },
+    {
+      "name": "v13_four_allowed_metadata_sections",
+      "passed": true
+    },
+    {
+      "name": "v23_live_url_exact",
+      "passed": true
+    },
+    {
+      "name": "v23_live_sections_exact",
+      "passed": true
+    },
+    {
+      "name": "v23_four_allowed_metadata_sections",
+      "passed": true
+    },
+    {
+      "name": "v24_live_url_exact",
+      "passed": true
+    },
+    {
+      "name": "v24_live_sections_exact",
+      "passed": true
+    },
+    {
+      "name": "v24_four_allowed_metadata_sections",
+      "passed": true
+    },
+    {
+      "name": "v25_live_url_exact",
+      "passed": true
+    },
+    {
+      "name": "v25_live_sections_exact",
+      "passed": true
+    },
+    {
+      "name": "v25_four_allowed_metadata_sections",
+      "passed": true
+    },
+    {
+      "name": "live_history_index_exact",
+      "passed": true
+    },
+    {
+      "name": "history_is_25_contiguous_versions",
+      "passed": true
+    },
+    {
+      "name": "exact_protocol_outcome_change_label_only_v25",
+      "passed": true
+    },
+    {
+      "name": "selected_pre2024_outcomes_unchanged",
+      "passed": true
+    },
+    {
+      "name": "four_to_one_declared_primary_windows",
+      "passed": true
+    },
+    {
+      "name": "40_absent_early_present_current",
+      "passed": true
+    },
+    {
+      "name": "current_calendar_clock_is_postoperative",
+      "passed": true
+    },
+    {
+      "name": "masking_labels_differ_v7_v8",
+      "passed": true
+    },
+    {
+      "name": "first_submitted_qc_posted_distinct",
+      "passed": true
+    },
+    {
+      "name": "current_results_submission_qc_posting_distinct",
+      "passed": true
+    },
+    {
+      "name": "protocol_date_upload_distinct",
+      "passed": true
+    },
+    {
+      "name": "original_checker_output_reproduces_exactly",
+      "passed": true
+    },
+    {
+      "name": "reported_clock_corrected",
+      "passed": true
+    },
+    {
+      "name": "protocol_hash_and_page_count_verified",
+      "passed": true
+    }
+  ],
+  "passed": 36,
+  "participant_data_analyzed": false,
+  "simulation": false,
+  "sha256": {
+    "browser-extraction.js": "6192756ab1d734285ccb7f465800192352dab0fbc1c8279e5bf7f019e9de6d8c",
+    "check_history.py": "32b7cabbcff33e59a45e0b2500e84f84753dc189c2a08cf045b02400e74a28e1",
+    "checks.json": "fb8114afbf28d90b1a8450064eed0c158a1928d95eba079a955cc8ab19f28338",
+    "prediction.md": "fea402b851fc501aaf61883243270ab705f08da3cd310da11de2d3ed4534c490",
+    "protocol-provenance.json": "aa94d671e0a992658d4fa5c3149acb27fa92ce52f16aae1a493cb8ee0202893a",
+    "provenance.json": "12160831b2d67a656f4267b9065c57c464a9611c7abf47bbb31e131f0fa98c12",
+    "report.md": "ee4db9e0bb56d0da0a133cc8c847888dd101581f1039c9577ecdd38ad1221c98",
+    "version-1-metadata.json": "434824926dedaf923e346239a2cb43d04b80c505dccd5aba83e95fb08a818fbc",
+    "version-13-metadata.json": "63c73c6bef6ed828ec4377c9443c89507b59c84ab85f3553efbf5c70ffe98a75",
+    "version-23-metadata.json": "bd52e943a5dcc3c944edc66663b6cab7a41a44e69c5c6a57dc318c2979b94632",
+    "version-24-metadata.json": "d0d83709cc0892c08f266b28666c60c2571daf9ea00271e2c13481628aa14723",
+    "version-25-metadata.json": "af10db1001a0f0b0f87789934124c5a954d70ca3529bcd81a29de9e69b67ee73",
+    "version-7-metadata.json": "92566798a4fc4bb94a9a3145fe6dccbd1516e4444ab1ce35d2212e8cc980f419",
+    "version-8-metadata.json": "a0eaed9078cdaa7b6d60d5990af6b3a5f702ce8c5a513cc0571cb2a24b94b3f6"
+  }
+}

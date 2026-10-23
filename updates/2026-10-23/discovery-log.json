@@ -1,0 +1,11 @@
+{
+ "date":"2026-10-23",
+ "method":"Supplementary web discovery; exact queries retained. Combined search returns are not exhaustive hit counts, and displayed-card counts were not systematically exported.",
+ "batches":[
+  {"utc_bracket":["2026-10-23T02:55:06Z","2026-10-23T02:55:07Z"],"queries":["site.pubmed.ncbi.nlm.nih.gov (Tourette OR \"tic disorder\") \"2026 Oct 22\"","site.medrxiv.org Tourette October 2026","site.biorxiv.org Tourette October 2026"],"decision":"Older primary/preprint/review cards; no newly posted tic result established. Automatically returned community cards excluded."},
+  {"utc_bracket":["2026-10-23T02:56:05Z","2026-10-23T02:56:07Z"],"queries":[{"q":"Tourette tics \"2026\" \"October\" adult severe pain randomized negative","domains":["pubmed.ncbi.nlm.nih.gov","medrxiv.org","biorxiv.org"],"recency_days":3},{"q":"Tourette \"October 22\" \"2026\"","domains":["nature.com","sciencedirect.com","springer.com","frontiersin.org","wiley.com"],"recency_days":3},{"q":"Tourette tic trial \"2026\" \"October\" results","domains":["clinicaltrials.gov","isrctn.com","euclinicaltrials.eu"],"recency_days":3}],"decision":"Mostly unrelated or older records; engine recency/crawl filters do not establish publication dates."},
+  {"utc_bracket":["2026-10-23T02:57:27Z","2026-10-23T02:57:31Z"],"queries":["\"When Tics and Autism Meet\"","\"Clinical factors predicting tic persistence into adulthood\""],"decision":"Located official Frontiers source and earlier Calgary conference abstract. Conference and full article are not independent cohorts; full article used."}
+ ],
+ "primary_sources_checked":[{"url":"https://www.frontiersin.org/journals/psychiatry/articles/10.3389/fpsyt.2026.1948693/full","status":"Primary full text accessible; newly indexed study extracted."},{"url":"https://movementdisorders.onlinelibrary.wiley.com/doi/10.1002/mdc3.70882","status":"Web inaccessible and ordinary HTTP403; official public PMC EFetch succeeded separately, not proof canonical URL is broken."}],
+ "limits":["Direct web PubMed/PMC pages were unavailable; official EFetch succeeded.","WHO direct web retry timed out after shell HTTP502; no query export.","No private or community content retained; no full papers or abstracts retained.","Search cards alone did not establish a new version, correction, recruitment event or treatment effect."]
+}

@@ -1,0 +1,53 @@
+[
+  {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=13683974&retmode=xml",
+    "started_utc": "2026-10-23T02:59:31.537230+00:00",
+    "status": 200,
+    "bytes": 93865,
+    "sha256": "ae380efb03158837f8e893650503f901829871e43dc8a8a4f421c3fdd90d1257",
+    "selected_metadata": {
+      "doi": "10.1002/mdc3.70882",
+      "pmc": "PMC13683974",
+      "title": "When Tics and Autism Meet: Phenomenology, Severity, and Treatment Patterns",
+      "publication_dates": [
+        {
+          "pub-type": "epub",
+          "day": "20",
+          "month": "10",
+          "year": "2026"
+        }
+      ],
+      "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/"
+    },
+    "completed_utc": "2026-10-23T02:59:37.026454+00:00"
+  },
+  {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=13680449&retmode=xml",
+    "started_utc": "2026-10-23T02:59:37.026478+00:00",
+    "status": 200,
+    "bytes": 123206,
+    "sha256": "9ffcfc1906499154bf98bae4557380416475f8cee8a24be284a6ecaecc0451e9",
+    "selected_metadata": {
+      "doi": "10.3389/fpsyt.2026.1948693",
+      "pmc": "PMC13680449",
+      "title": "Clinical factors predicting tic persistence into adulthood",
+      "publication_dates": [
+        {
+          "publication-format": "electronic",
+          "date-type": "pub",
+          "iso-8601-date": "2026-10-06",
+          "day": "06",
+          "month": "10",
+          "year": "2026"
+        },
+        {
+          "publication-format": "electronic",
+          "date-type": "collection",
+          "year": "2026"
+        }
+      ],
+      "license_url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "completed_utc": "2026-10-23T02:59:40.584478+00:00"
+  }
+]
