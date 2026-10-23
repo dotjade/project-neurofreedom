@@ -1,6 +1,6 @@
 # Project NeuroFreedom status
 
-Updated 22 October 2026. Initial portfolio, fourteen completed daily updates and two completed weekly syntheses. Public evidence repository and journal launched 13 October.
+Updated 23 October 2026. Initial portfolio, fifteen completed daily updates and two completed weekly syntheses. Public evidence repository and journal launched 13 October.
 
 ## Completed in this first pass
 
@@ -14,7 +14,7 @@ Updated 22 October 2026. Initial portfolio, fourteen completed daily updates and
 
 ## Enabled research schedules
 
-The user approved the following automatic public-science research and repository updates on 8 October 2026. Each schedule was created successfully and returned enabled status. Daily runs were completed on 9-22 October 2026; weekly syntheses were completed on 11 and 18 October; first monthly and quarterly runs remain unverified.
+The user approved the following automatic public-science research and repository updates on 8 October 2026. Each schedule was created successfully and returned enabled status. Daily runs were completed on 9-23 October 2026; weekly syntheses were completed on 11 and 18 October; first monthly and quarterly runs remain unverified.
 
 - Daily new-evidence checks: from 9 October 2026, approximately 08:00 India time.
 - Weekly synthesis: Sundays, from 11 October 2026, approximately 09:00 India time.
@@ -348,3 +348,20 @@ The research commit [b3a08b7a7bb5c6761401630889de118540a87315](https://github.co
 After the documented short cache, ordinary anonymous curl retrieved production /api/public-feed at 03:20:12 UTC: HTTP 200, X-Journal-Source repository and bytes exactly matching the authored feed. Verified updatedAt is 2026-10-22T03:07:36Z, with October 22 research/activity dates, small-silly-mark, all six unchanged catalog entries and disabled feedback. An earlier urllib request returned 403, but curl and browser reads succeeded without security changes; this is not a standing publication blocker.
 
 Browser readback at 03:20:23 showed the dated research note, matching repository-edition timestamp and selected activity. The static October 13 edition appeared before the feed loaded, and the static next-question link still targets ONLINE-TICS rather than the current STATUS plan. These existing UI limits were observed, not changed in this research-only update. No new mobile, zoom, real-device narration or accessibility certification is claimed. [Verification record](updates/2026-10-22/publication-verification.json).
+
+
+## Completed daily research update - 23 October 2026
+
+The [dated scan](updates/2026-10-23/report.md) screened 19 PubMed records and 701 preprint DOI/version records. Two primary observational papers newly entered PubMed after the previous cutoff, but were electronically published earlier, on October 20 and October 6. A mixed-age clinic study of 535 participants examines ASD and tic measurement; lower adjusted measured impairment does not establish lower actual burden, and its total-tic severity association was nonsignificant. A selected retrospective survey of 258 adults reports associations with recalled adult-worst symptoms, not prospective prediction or population persistence. Both were deduplicated and added to evidence.jsonl with original source-linked extractions. No new relevant trial result or qualifying preprint was verified; known retractions, feasibility negatives and registry access limits remain.
+
+The [official NCT02056873 history audit](analyses/registration_history/2026-10-23/report.md) inspected all 25 history-index entries and seven selected metadata versions. Four primary outcomes in the initial registration remained in the inspected June 2023 version; the August 2024 submission contains one 40% total-tic endpoint. The public protocol dated September 2019 already contains 40% criteria, with inconsistent total/motor and responsive-timing wording. Therefore the current registry cannot be treated as the initial plan, nor can the 2024 edit be treated as the origin of the threshold. Exact earlier protocol amendments and reasons for changes remain unverified. No selective-reporting allegation, responder repair, individual-data reconstruction or efficacy calculation follows.
+
+The separate [safety pass](updates/2026-10-23/safety/report.md) verified no new qualifying watched-treatment notice or issued tic guideline within bounded coverage. FDA labeling/recalls, some attachments and worldwide coverage remain limited. No absence-of-risk claim or medical action was made.
+
+### Next bounded decision
+
+Close the historical-registration audit absent new public dated amendments. Next audit Kaylor et al. (PMID 42903303, DOI 10.3389/fpsyt.2026.1948693): do the published aggregates establish a temporally ordered, outcome-specific adult-risk model, or only retrospective associations in selected respondents? Map invitation, response, completeness and model denominators; compare lifetime-versus-childhood OCD wording and current-medication timing with recalled adult-worst outcomes; preserve nonsignificant results and the printed p=.050 boundary. Stop at missing public model counts or timing rather than reconstructing individuals, pooling unlike outcomes or inferring medication harm. No new patient data, contact or treatment changes are authorized.
+
+### Public journal
+
+The feed distinguishes two newly indexed older observational papers from the historical registration audit. All six approved activities are unchanged, with rest-or-leave selected; voting, comments and health-outcome collection remain disabled. The [link pass](public/link-checks/2026-10-23.json) checks 15 existing timeline links, three findings and nine additional homepage research/guidance sources. No target is established broken. Pappert remains publisher-challenged with a verified institutional primary alternative; Isaacs is readable through the web reader despite direct-access limits. The October 22 production edition was a verified preparation baseline, not proof of this update. Publication is recorded only after source and live readback.

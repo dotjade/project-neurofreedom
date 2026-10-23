@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-23",
+  "strict_prior_cutoff_utc": "2026-10-22T03:00:44.969432+00:00",
+  "core_started_utc": "2026-10-23T02:55:45.373465+00:00",
+  "core_completed_utc": "2026-10-23T02:57:07.490048+00:00",
+  "pubmed_unique_records": 19,
+  "pubmed_id_occurrences": 27,
+  "pubmed_previous_day_overlap": 2,
+  "newly_indexed_primary_records": 2,
+  "new_to_repository_primary_records": 2,
+  "new_primary_publications_since_prior_cutoff": 0,
+  "historical_metadata_records": 17,
+  "preprint_doi_versions": 701,
+  "preprint_lexical_matches": 2,
+  "qualifying_preprints": 0,
+  "registry_update_window_unique_ids": [
+    "NCT07137442"
+  ],
+  "new_posted_trial_results": 0,
+  "new_retractions": 0,
+  "api_request_errors": 0,
+  "decision": "Two newly indexed cross-sectional primary studies extend adult-burden/comorbidity evidence; neither establishes a treatment effect, prospective prediction or population remission. Registry update remains a planned-date change without results."
+}

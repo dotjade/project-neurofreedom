@@ -1,0 +1,19 @@
+{
+  "checkedAt": "2026-10-23T03:03:33.187852+00:00",
+  "checks": {
+    "31_combined_link_results": true,
+    "15_timeline_targets_verified": true,
+    "no_confirmed_broken_target": true,
+    "three_finding_state_proposals": true,
+    "same_baseline_feed_bytes": true,
+    "baseline_matches_repository": true,
+    "query_screen_card_counts": true,
+    "20_source_checks": true,
+    "catalog_safeguards_all_pass": true,
+    "pappert_primary_alternative_identity_verified": true,
+    "safety_cutoff_consistent": true,
+    "feedback_source_disabled": true
+  },
+  "allPassed": true,
+  "note": "12 offline ledger checks plus 11 source/config safeguard checks, not clinical hypothesis tests or browser QA."
+}

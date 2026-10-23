@@ -1,0 +1,19 @@
+{
+  "base_commit": "7d609957041a0a3be47fab331bf74dd838998927",
+  "date": "2026-10-23",
+  "read_first_source_sha256": {
+    "README.md": "6b1d997e495751f81c97048c86cd8864732cdd8313cc3d9363605bb4425721d2",
+    "RESEARCH_PROTOCOL.md": "6f0025df7fd62fc2fe952cfbca96fca811ae76b917b7e7d4d45a501fe89e6859",
+    "STATUS.md": "dbfd855edd38b578a8349319b2426f9fc814c29d6c00f3955c3686c6f85e46c8",
+    "evidence.jsonl": "84ea8cd580a4efa750dd0bf6b70978fd8bbaee2a3f6fb89617cbac796777e504",
+    "public/journal-source/README.md": "809173b6459331730d4fd9b0df135079b1e8dfdb030f4babbfc0055fcec1197e",
+    "public/UPDATE_WORKFLOW.md": "f9d9a9b17bfbb06c8b075abad60495b9aeef58c96e768ea3d56a3d47c29a2d3f",
+    "analyses/okun_estimands/2026-10-22/report.md": "a33ad930e7cd9a7459dd9d2ed575ac92b744eb49b609d4b8ed63af8cc4a5f495",
+    "analyses/okun_estimands/2026-10-22/structured-extraction.json": "99210c004fba9cbf1e9f7d999cd039e711470f75d1685a857ecd2ee37050d107"
+  },
+  "history_source": "https://clinicaltrials.gov/study/NCT02056873?tab=history",
+  "scope": "All25 index entries;7 selected full metadata versions, not all25 full versions",
+  "raw_papers_retained": false,
+  "participant_measurements_retained": false,
+  "seed": null
+}

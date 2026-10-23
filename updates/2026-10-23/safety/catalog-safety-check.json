@@ -1,0 +1,26 @@
+{
+  "checkedAt": "2026-10-23T03:00:47.798278+00:00",
+  "checks": {
+    "six_activity_ids_unchanged": true,
+    "all_activity_content_matches_bundled_approved_catalog": true,
+    "no_food_field": true,
+    "feedback_disabled": true,
+    "zero_vote_aggregates": true,
+    "source_feedback_disabled_with_null_origin": true,
+    "vote_setup_returns_before_requests": true,
+    "no_html_form": true,
+    "no_browser_storage_api": true,
+    "reflection_clear_on_pagehide": true,
+    "activity_optional_stop_message": true
+  },
+  "allPassed": true,
+  "limits": "Source/config review plus ordinary live JSON GET; not rendered-page accessibility, real-user interaction or provider log inspection. Latent gated voting code exists but configuration disables it. No health-outcome/comment submission UI found in checked source.",
+  "activityIds": [
+    "hand-at-ease",
+    "familiar-route",
+    "notice-one-thing",
+    "music-or-silence",
+    "small-silly-mark",
+    "rest-or-leave"
+  ]
+}

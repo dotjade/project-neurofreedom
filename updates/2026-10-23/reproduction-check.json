@@ -1,0 +1,14 @@
+{
+  "result": "byte-identical",
+  "artifacts_checked": [
+    "biorxiv-preprint-index.tsv",
+    "integrity-recheck.json",
+    "medrxiv-preprint-index.tsv",
+    "pubmed-screening.jsonl",
+    "registry-evidence.jsonl",
+    "request-log.json",
+    "search-log.json",
+    "summary.json"
+  ],
+  "scope": "Repeat normalization of same saved core API metadata; not a repeated live search or independent clinical review."
+}

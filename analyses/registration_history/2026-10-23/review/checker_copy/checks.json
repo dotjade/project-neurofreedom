@@ -1,0 +1,170 @@
+{
+  "kind": "Offline documentation checks, not clinical hypothesis tests",
+  "checks": [
+    {
+      "name": "version_1_identity",
+      "passed": true
+    },
+    {
+      "name": "version_1_only_metadata",
+      "passed": true
+    },
+    {
+      "name": "version_1_no_result_rows",
+      "passed": true
+    },
+    {
+      "name": "version_7_identity",
+      "passed": true
+    },
+    {
+      "name": "version_7_only_metadata",
+      "passed": true
+    },
+    {
+      "name": "version_7_no_result_rows",
+      "passed": true
+    },
+    {
+      "name": "version_8_identity",
+      "passed": true
+    },
+    {
+      "name": "version_8_only_metadata",
+      "passed": true
+    },
+    {
+      "name": "version_8_no_result_rows",
+      "passed": true
+    },
+    {
+      "name": "version_13_identity",
+      "passed": true
+    },
+    {
+      "name": "version_13_only_metadata",
+      "passed": true
+    },
+    {
+      "name": "version_13_no_result_rows",
+      "passed": true
+    },
+    {
+      "name": "version_23_identity",
+      "passed": true
+    },
+    {
+      "name": "version_23_only_metadata",
+      "passed": true
+    },
+    {
+      "name": "version_23_no_result_rows",
+      "passed": true
+    },
+    {
+      "name": "version_24_identity",
+      "passed": true
+    },
+    {
+      "name": "version_24_only_metadata",
+      "passed": true
+    },
+    {
+      "name": "version_24_no_result_rows",
+      "passed": true
+    },
+    {
+      "name": "version_25_identity",
+      "passed": true
+    },
+    {
+      "name": "version_25_only_metadata",
+      "passed": true
+    },
+    {
+      "name": "version_25_no_result_rows",
+      "passed": true
+    },
+    {
+      "name": "history_index_has_25_versions",
+      "passed": true
+    },
+    {
+      "name": "outcome_change_index_only_version25",
+      "passed": true
+    },
+    {
+      "name": "outcomes_v7_equal_v1",
+      "passed": true
+    },
+    {
+      "name": "outcomes_v8_equal_v1",
+      "passed": true
+    },
+    {
+      "name": "outcomes_v13_equal_v1",
+      "passed": true
+    },
+    {
+      "name": "outcomes_v23_equal_v1",
+      "passed": true
+    },
+    {
+      "name": "outcomes_v24_equal_v1",
+      "passed": true
+    },
+    {
+      "name": "v1_four_primary_windows",
+      "passed": true
+    },
+    {
+      "name": "v1_no_40_percent",
+      "passed": true
+    },
+    {
+      "name": "v25_one_primary_window",
+      "passed": true
+    },
+    {
+      "name": "v25_40_percent_total",
+      "passed": true
+    },
+    {
+      "name": "masking_boundary",
+      "passed": true
+    },
+    {
+      "name": "enrollment_20_then_10",
+      "passed": true
+    },
+    {
+      "name": "latest_nonrandomized_sequential",
+      "passed": true
+    },
+    {
+      "name": "first_submission_distinct_from_qc",
+      "passed": true
+    },
+    {
+      "name": "protocol_date_before_upload",
+      "passed": true
+    },
+    {
+      "name": "old_document_section_empty",
+      "passed": true
+    }
+  ],
+  "passed": 38,
+  "seed": null,
+  "simulation": false,
+  "participant_data_analyzed": false,
+  "input_sha256": {
+    "version-1-metadata.json": "434824926dedaf923e346239a2cb43d04b80c505dccd5aba83e95fb08a818fbc",
+    "version-7-metadata.json": "92566798a4fc4bb94a9a3145fe6dccbd1516e4444ab1ce35d2212e8cc980f419",
+    "version-8-metadata.json": "a0eaed9078cdaa7b6d60d5990af6b3a5f702ce8c5a513cc0571cb2a24b94b3f6",
+    "version-13-metadata.json": "63c73c6bef6ed828ec4377c9443c89507b59c84ab85f3553efbf5c70ffe98a75",
+    "version-23-metadata.json": "bd52e943a5dcc3c944edc66663b6cab7a41a44e69c5c6a57dc318c2979b94632",
+    "version-24-metadata.json": "d0d83709cc0892c08f266b28666c60c2571daf9ea00271e2c13481628aa14723",
+    "version-25-metadata.json": "af10db1001a0f0b0f87789934124c5a954d70ca3529bcd81a29de9e69b67ee73"
+  }
+}

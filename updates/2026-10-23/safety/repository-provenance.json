@@ -1,0 +1,19 @@
+{
+  "checkedAt": "2026-10-23T03:00:47.798626+00:00",
+  "baseCommit": "7d609957041a0a3be47fab331bf74dd838998927",
+  "gitStatus": "",
+  "readFiles": {
+    "README.md": "6b1d997e495751f81c97048c86cd8864732cdd8313cc3d9363605bb4425721d2",
+    "RESEARCH_PROTOCOL.md": "6f0025df7fd62fc2fe952cfbca96fca811ae76b917b7e7d4d45a501fe89e6859",
+    "STATUS.md": "dbfd855edd38b578a8349319b2426f9fc814c29d6c00f3955c3686c6f85e46c8",
+    "public/journal-source/README.md": "809173b6459331730d4fd9b0df135079b1e8dfdb030f4babbfc0055fcec1197e",
+    "updates/2026-10-22/safety/report.md": "805ad600caa5bcb14b3fb3ae85933d145c15ccf2869fffb71276b0d68458a886",
+    "public/link-checks/2026-10-22.json": "c12612983b56724630e0c6d8da8cec83b2b27d18c2c96a38c7e9b4f1000ee370",
+    "public/research-feed.json": "12e3bc305d0ab291a89df3405a0450f9521d7af7f9222e0ef0abc31157994089",
+    "public/journal-source/index.html": "f6a6cc9ac0415db5f7bbbc0b8afd89ed63f68c11135f06958ff2e73ed5e7e15f",
+    "public/journal-source/journal.js": "c5c9b7fd6acb92d1adbd33ef78aeda13792ea9523ecd0c873fc228c61fb5e850",
+    "public/journal-source/feedback-config.json": "921c0e74bdcdb85c79c11bd2e7d9fa3b8fdfcb12fd74114c3a51a659f3cde133"
+  },
+  "repositoryModified": false,
+  "published": false
+}

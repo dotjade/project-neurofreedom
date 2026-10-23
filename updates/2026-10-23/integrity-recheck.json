@@ -1,0 +1,18 @@
+[
+  {
+    "id": "39947542",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/39947542/",
+    "compared_to": "updates/2026-10-22/pubmed-screening.jsonl",
+    "selected_metadata_changes": {},
+    "new_notice": false,
+    "interpretation": "Known retraction and reciprocal notice remain; selected metadata unchanged from prior scan."
+  },
+  {
+    "id": "42527169",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42527169/",
+    "compared_to": "updates/2026-10-22/pubmed-screening.jsonl",
+    "selected_metadata_changes": {},
+    "new_notice": false,
+    "interpretation": "Known retraction and reciprocal notice remain; selected metadata unchanged from prior scan."
+  }
+]
