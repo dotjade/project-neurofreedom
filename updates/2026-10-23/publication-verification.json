@@ -1,0 +1,209 @@
+{
+  "verified_utc": "2026-10-23T04:02:59.451776+00:00",
+  "research_commit": "6206597968e9d45add8239f39e3ab8c424cb1000",
+  "repository_readback": {
+    "commit": "6206597968e9d45add8239f39e3ab8c424cb1000",
+    "checked_utc": "2026-10-23T03:59:46.640175+00:00",
+    "authored_files_exact": 61,
+    "unrelated_files_preserved": 605,
+    "unexpected_paths": []
+  },
+  "connector_feed_readback_exact": true,
+  "workflow": {
+    "url": "https://github.com/dotjade/project-neurofreedom/actions/runs/39897918648",
+    "head_sha": "6206597968e9d45add8239f39e3ab8c424cb1000",
+    "jobs": [
+      {
+        "name": "check",
+        "status": "completed",
+        "conclusion": "success",
+        "started_at": "2026-10-23T03:59:38Z",
+        "completed_at": "2026-10-23T03:59:48Z",
+        "steps": [
+          {
+            "name": "Set up job",
+            "status": "completed",
+            "conclusion": "success"
+          },
+          {
+            "name": "Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+            "status": "completed",
+            "conclusion": "success"
+          },
+          {
+            "name": "Run actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020",
+            "status": "completed",
+            "conclusion": "success"
+          },
+          {
+            "name": "Run npm ci",
+            "status": "completed",
+            "conclusion": "success"
+          },
+          {
+            "name": "Run npm run check",
+            "status": "completed",
+            "conclusion": "success"
+          },
+          {
+            "name": "Run npm run build",
+            "status": "completed",
+            "conclusion": "success"
+          },
+          {
+            "name": "Run npx --no-install wrangler deploy --dry-run",
+            "status": "completed",
+            "conclusion": "success"
+          },
+          {
+            "name": "Post Run actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020",
+            "status": "completed",
+            "conclusion": "success"
+          },
+          {
+            "name": "Post Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+            "status": "completed",
+            "conclusion": "success"
+          },
+          {
+            "name": "Complete job",
+            "status": "completed",
+            "conclusion": "success"
+          }
+        ]
+      },
+      {
+        "name": "deploy",
+        "status": "completed",
+        "conclusion": "success",
+        "started_at": "2026-10-23T03:59:49Z",
+        "completed_at": "2026-10-23T04:00:19Z",
+        "steps": [
+          {
+            "name": "Set up job",
+            "status": "completed",
+            "conclusion": "success"
+          },
+          {
+            "name": "Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+            "status": "completed",
+            "conclusion": "success"
+          },
+          {
+            "name": "Run actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020",
+            "status": "completed",
+            "conclusion": "success"
+          },
+          {
+            "name": "Check deployment credentials",
+            "status": "completed",
+            "conclusion": "success"
+          },
+          {
+            "name": "Run npm ci",
+            "status": "completed",
+            "conclusion": "success"
+          },
+          {
+            "name": "Run npm run build",
+            "status": "completed",
+            "conclusion": "success"
+          },
+          {
+            "name": "Publish tested revision",
+            "status": "completed",
+            "conclusion": "success"
+          },
+          {
+            "name": "Check public site and repository feed",
+            "status": "completed",
+            "conclusion": "success"
+          },
+          {
+            "name": "Post Run actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020",
+            "status": "completed",
+            "conclusion": "success"
+          },
+          {
+            "name": "Post Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+            "status": "completed",
+            "conclusion": "success"
+          },
+          {
+            "name": "Complete job",
+            "status": "completed",
+            "conclusion": "success"
+          }
+        ]
+      }
+    ]
+  },
+  "anonymous_http": [
+    {
+      "label": "raw_source",
+      "url": "https://raw.githubusercontent.com/dotjade/project-neurofreedom/main/public/research-feed.json",
+      "checked_utc": "2026-10-23T04:02:12.410634+00:00",
+      "http_status": "200",
+      "curl_exit": 0,
+      "error": "",
+      "bytes": 12559,
+      "sha256": "2265e3fd16672886b0bce66078bc3c26ea550c102daf21ecc78e5e5fb1fe8c4d",
+      "exact_authored_bytes": true,
+      "updatedAt": "2026-10-23T03:57:38Z",
+      "lastResearchDate": "2026-10-23",
+      "activityEditionDate": "2026-10-23",
+      "featuredActivityId": "rest-or-leave",
+      "feedbackDisabled": true,
+      "activity_count": 6
+    },
+    {
+      "label": "production",
+      "url": "https://tourette.fyi/api/public-feed",
+      "checked_utc": "2026-10-23T04:02:16.437808+00:00",
+      "http_status": "200",
+      "curl_exit": 0,
+      "error": "",
+      "bytes": 12559,
+      "sha256": "2265e3fd16672886b0bce66078bc3c26ea550c102daf21ecc78e5e5fb1fe8c4d",
+      "exact_authored_bytes": true,
+      "updatedAt": "2026-10-23T03:57:38Z",
+      "lastResearchDate": "2026-10-23",
+      "activityEditionDate": "2026-10-23",
+      "featuredActivityId": "rest-or-leave",
+      "feedbackDisabled": true,
+      "activity_count": 6,
+      "repository_source_header": true
+    },
+    {
+      "label": "report",
+      "url": "https://github.com/dotjade/project-neurofreedom/blob/main/analyses/registration_history/2026-10-23/report.md",
+      "checked_utc": "2026-10-23T04:02:21.378538+00:00",
+      "http_status": "200",
+      "curl_exit": 0,
+      "error": "",
+      "bytes": 283164,
+      "sha256": "d145dc11fea497928e5b9b86fe023b2b074781726102c30ec6f8d495203ba9dd",
+      "expected_title_present": true
+    },
+    {
+      "label": "feedback",
+      "url": "https://tourette.fyi/feedback-config.json",
+      "checked_utc": "2026-10-23T04:02:25.101150+00:00",
+      "http_status": "200",
+      "curl_exit": 0,
+      "error": "",
+      "bytes": 66,
+      "sha256": "921c0e74bdcdb85c79c11bd2e7d9fa3b8fdfcb12fd74114c3a51a659f3cde133",
+      "config": {
+        "enabled": false,
+        "apiOrigin": null,
+        "verifiedAt": null
+      }
+    }
+  ],
+  "limitations": [
+    "No new rendered-page/mobile/zoom/real-device narration certification.",
+    "No homepage source, deployment configuration or security setting changed; existing automated workflow performed publication.",
+    "Integration manifest describes research-commit snapshot, not this later verification-only note."
+  ]
+}
