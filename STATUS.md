@@ -365,3 +365,12 @@ Close the historical-registration audit absent new public dated amendments. Next
 ### Public journal
 
 The feed distinguishes two newly indexed older observational papers from the historical registration audit. All six approved activities are unchanged, with rest-or-leave selected; voting, comments and health-outcome collection remain disabled. The [link pass](public/link-checks/2026-10-23.json) checks 15 existing timeline links, three findings and nine additional homepage research/guidance sources. No target is established broken. Pappert remains publisher-challenged with a verified institutional primary alternative; Isaacs is readable through the web reader despite direct-access limits. The October 22 production edition was a verified preparation baseline, not proof of this update. Publication is recorded only after source and live readback.
+
+
+### Publication verification - 23 October 2026
+
+Research commit [6206597968e9d45add8239f39e3ab8c424cb1000](https://github.com/dotjade/project-neurofreedom/commit/6206597968e9d45add8239f39e3ab8c424cb1000) contains all 61 intended artifacts. Fresh Git fetch and exact byte comparisons verified every authored file at 03:59:46 UTC, with all 605 unrelated existing files preserved and no unexpected paths. The GitHub connector separately read back the exact authored feed. The integration manifest describes this research-commit snapshot, before the later verification note.
+
+[Actions run 39897918648](https://github.com/dotjade/project-neurofreedom/actions/runs/39897918648) passed validation, build, deployment dry-run and production deployment. The deployment job completed at 04:00:19 UTC. After the documented cache, anonymous raw GitHub at 04:02:12 and production /api/public-feed at 04:02:16 returned HTTP 200 and bytes exactly matching the authored feed. Production returned X-Journal-Source repository. Verified updatedAt is 2026-10-23T03:57:38Z, October 23 research/activity dates, rest-or-leave, six unchanged catalog entries and disabled feedback.
+
+The new audit report link returned HTTP 200 with its expected title at 04:02:21; live feedback-config.json remained disabled with apiOrigin null at 04:02:25. No new rendered-page, mobile, zoom or real-device narration test is claimed. No deployment configuration or security setting changed. [Verification record](updates/2026-10-23/publication-verification.json).
