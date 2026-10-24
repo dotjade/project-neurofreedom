@@ -391,3 +391,12 @@ Close the fixed adult-risk audit unless new public documentation supplies outcom
 ### Public journal
 
 The feed distinguishes the newly indexed older methods paper from today's adult aggregate audit. All six optional activities are unchanged, with hand-at-ease selected; voting, comments and health-outcome collection remain disabled. The [bounded link pass](public/link-checks/2026-10-24.json) distinguishes retrievable sources from client-specific challenges, not assumed outages. The October 23 production feed was a preparation baseline; this publication is claimed only after later exact GitHub and production verification. No static source, deployment configuration or security setting changed.
+
+
+### Publication verification - 24 October 2026
+
+Research commit [28b410cff15200d0862088cc592ad44c34421e1a](https://github.com/dotjade/project-neurofreedom/commit/28b410cff15200d0862088cc592ad44c34421e1a) contains all 65 intended artifacts. Fresh Git fetch and exact byte comparison verified every authored file at 02:54:57 UTC, with 664 unrelated existing files preserved and no unexpected paths. The GitHub connector separately read back the exact authored feed. The integration manifest identifies the research-commit snapshot, before this receipt.
+
+[Actions run 40056133711](https://github.com/dotjade/project-neurofreedom/actions/runs/40056133711) passed validation, build, deployment dry-run and production deployment. Anonymous raw GitHub at 02:56:11 and production /api/public-feed at 02:56:15 returned HTTP 200 and exact authored bytes. Production returned X-Journal-Source repository. Verified updatedAt is 2026-10-24T02:51:56Z, October 24 research/activity dates, hand-at-ease, six unchanged approved activities and disabled feedback.
+
+The audit report URL returned HTTP 200 with expected title at 02:56:20; feedback-config.json remained disabled with apiOrigin null at 02:56:23. No new rendered-page/mobile/zoom/real-device narration test is claimed. Static homepage source, deployment configuration and security settings were not changed. [Verification record](updates/2026-10-24/publication-verification.json).
