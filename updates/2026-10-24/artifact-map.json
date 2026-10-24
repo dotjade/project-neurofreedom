@@ -1,0 +1,39 @@
+{
+  "root": "day24_scan",
+  "intended_repository_destination": "updates/2026-10-24",
+  "integration_authority": "Parent owns repository integration and publication; base checkout was not modified.",
+  "main_report": "report.md",
+  "machine_summary": "summary.json",
+  "one_primary_record_to_append_once": "primary-evidence.jsonl",
+  "core_search": [
+    "scan_sources.py",
+    "prepare_baseline.py",
+    "search-log.json",
+    "request-log.json",
+    "pubmed-screening.jsonl",
+    "biorxiv-preprint-index.tsv",
+    "medrxiv-preprint-index.tsv",
+    "registry-evidence.jsonl",
+    "build_results.py"
+  ],
+  "supplements": [
+    "scan_supplement.py",
+    "supplement-selected-metadata.json",
+    "who-homepage-check.json",
+    "discovery-log.json"
+  ],
+  "verification": [
+    "check_primary_sources.py",
+    "primary-source-checks.json",
+    "check_integrity_controls.py",
+    "integrity-control-source.json",
+    "integrity-recheck.json",
+    "provenance.json",
+    "validate_artifacts.py",
+    "validation.json",
+    "verify_reproduction.py",
+    "reproduction-check.json"
+  ],
+  "publication_note": "One primary methods addition. Case report is metadata-only. Do not add newly indexed older publications as newly published-since-cutoff outcomes.",
+  "excluded_local_files": "__pycache__ contains only interpreter bytecode; exclude from publication."
+}

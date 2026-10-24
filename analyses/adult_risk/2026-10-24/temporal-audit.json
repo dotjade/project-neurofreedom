@@ -1,0 +1,23 @@
+{
+  "question": "Do measured exposures precede recalled adult-worst outcomes?",
+  "evidence_type": "Primary peer-reviewed cross-sectional study; original methods audit",
+  "source": "https://www.frontiersin.org/journals/psychiatry/articles/10.3389/fpsyt.2026.1948693/full",
+  "items": [
+    {"variable":"childhood_worst_tics","locator":"2.1, 2.2.1","verified":"Childhood worst period must be before 18; adult worst at least 18 and no later than assessment; retrospective ratings collected at survey.","not_established":"Prospectively measured baseline severity; independent contemporary childhood rater; out-of-sample predictive performance."},
+    {"variable":"ocd","locator":"2.2.2, 4","verified":"Methods assign lifetime diagnosis from adapted symptom/severity criteria. Discussion refers to childhood OCD.","not_established":"Published model uses a childhood-only diagnosis or onset before adult-worst tics. Do not replace lifetime with childhood."},
+    {"variable":"adhd","locator":"2.2.2, 2.3, Table 4","verified":"Lifetime diagnosis uses retrospective childhood symptoms plus onset and impairment criteria; severity-model p=.82.","not_established":"Prospective predictor assessment, absence of all ADHD effects, equivalence or transportability."},
+    {"variable":"tic_medication","locator":"2.2.3, Table 4, 4","verified":"Medication status is current at survey; impairment coefficient 4.76, p=.020. Authors discuss treatment seeking with greater impairment.","not_established":"Medication preceding the recalled worst period, a causal harmful or beneficial treatment effect, or untreated natural history."},
+    {"variable":"life_event","locator":"2.2.4, 2.3, Tables 4–5","verified":"Retrospective question concerns event at adult-worst tic period. Severity-model p=.098; impairment-model p=.0078. Positive valence associations not significant for either outcome.","not_established":"Event onset before worsening, a causal trigger or evidence that avoiding events prevents tics. Personal event descriptions were not retained."},
+    {"variable":"current_as_adult_worst","locator":"2.2.1","verified":"50 people reuse current six-month scores as adult-worst.","not_established":"Independent repeated observation or validation of the retrospective outcome."}
+  ],
+  "model_documentation": {
+    "tts": {"predictors":["ocd","adhd","life_event","childhood_worst_tts","age"],"r_squared":0.32,"adjusted_r_squared":0.31,"n":null},
+    "impairment": {"predictors":["current_medication","ocd","sex","life_event","childhood_worst_impairment","age"],"r_squared":0.28,"adjusted_r_squared":0.26,"n":null},
+    "selection":"Candidate predictors selected from age-adjusted single-predictor models at p<.1; childhood score included.",
+    "ocd_impairment_p_printed":"0.050",
+    "ocd_impairment_threshold_note":"Table bolding/narrative claim significance while footnote defines p<.05. Rounded display cannot adjudicate unrounded threshold; preserved without correction.",
+    "missing_data_rule":"No explicit outcome-specific complete-case/imputation rule located in inspected methods/tables.",
+    "validation":"No held-out validation, calibration or external predictive performance located in the inspected paper. Reported R-squared is not established out-of-sample accuracy."
+  },
+  "decision":"Retain retrospective association evidence; no verified prospective risk model or causal medication effect. Stop at missing documentation rather than infer model denominators."
+}

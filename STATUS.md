@@ -1,6 +1,6 @@
 # Project NeuroFreedom status
 
-Updated 23 October 2026. Initial portfolio, fifteen completed daily updates and two completed weekly syntheses. Public evidence repository and journal launched 13 October.
+Updated 24 October 2026. Initial portfolio, sixteen completed daily updates and two completed weekly syntheses. Public evidence repository and journal launched 13 October.
 
 ## Completed in this first pass
 
@@ -14,7 +14,7 @@ Updated 23 October 2026. Initial portfolio, fifteen completed daily updates and 
 
 ## Enabled research schedules
 
-The user approved the following automatic public-science research and repository updates on 8 October 2026. Each schedule was created successfully and returned enabled status. Daily runs were completed on 9-23 October 2026; weekly syntheses were completed on 11 and 18 October; first monthly and quarterly runs remain unverified.
+The user approved the following automatic public-science research and repository updates on 8 October 2026. Each schedule was created successfully and returned enabled status. Daily runs were completed on 9-24 October 2026; weekly syntheses were completed on 11 and 18 October; first monthly and quarterly runs remain unverified.
 
 - Daily new-evidence checks: from 9 October 2026, approximately 08:00 India time.
 - Weekly synthesis: Sundays, from 11 October 2026, approximately 09:00 India time.
@@ -374,3 +374,20 @@ Research commit [6206597968e9d45add8239f39e3ab8c424cb1000](https://github.com/do
 [Actions run 39897918648](https://github.com/dotjade/project-neurofreedom/actions/runs/39897918648) passed validation, build, deployment dry-run and production deployment. The deployment job completed at 04:00:19 UTC. After the documented cache, anonymous raw GitHub at 04:02:12 and production /api/public-feed at 04:02:16 returned HTTP 200 and bytes exactly matching the authored feed. Production returned X-Journal-Source repository. Verified updatedAt is 2026-10-23T03:57:38Z, October 23 research/activity dates, rest-or-leave, six unchanged catalog entries and disabled feedback.
 
 The new audit report link returned HTTP 200 with its expected title at 04:02:21; live feedback-config.json remained disabled with apiOrigin null at 04:02:25. No new rendered-page, mobile, zoom or real-device narration test is claimed. No deployment configuration or security setting changed. [Verification record](updates/2026-10-23/publication-verification.json).
+
+
+## Completed daily research update - 24 October 2026
+
+The [dated scan](updates/2026-10-24/report.md) screened 19 PubMed records and 597 preprint DOI/version records. One October 7 primary video-phenotyping methods paper newly entered PubMed on October 23. Its external pediatric cohort contained no consensus-positive tics, so overall multi-phenotype accuracy does not establish tic-detection sensitivity. The seven held-out people are not 56 independent participants, and negative reference-label/calibration results remain visible. A newly indexed case report is retained as citation metadata only. No new qualifying preprint or relevant posted trial result was verified; date-only registry updates and coverage gaps remain explicit.
+
+The [adult-risk audit](analyses/adult_risk/2026-10-24/report.md) verifies Kaylor's invitation/response/completeness stages and runs deterministic published-aggregate arithmetic. Table 1 counts and rounded percentages are compatible with different denominators, but these conditional totals are not author-confirmed regression n. The two final model counts and explicit missing-data rules were not located. Lifetime OCD and current medication do not establish exposure before recalled adult-worst outcomes. The childhood association, nonsignificant terms and printed impairment-OCD p=.050 boundary are retained. No prospective individual-risk model, population-persistence estimate or causal medication effect follows.
+
+The [safety pass](updates/2026-10-24/safety/report.md) records actual official-source checks and surveillance limitations. Existing safety signals remain separate from new notices. No absence-of-risk claim, treatment change, patient data, source full text, contact or paid compute was involved.
+
+### Next bounded decision
+
+Close the fixed adult-risk audit unless new public documentation supplies outcome-specific model counts, missing-data handling and exposure timing. Next audit Aldurayhim et al. (PMID 42902960, DOI 10.1002/mdc3.70882): can mixed-age adjusted impairment findings support an adult-specific burden conclusion, and is a measurement explanation tested or only proposed? Map aggregate age/comorbidity/model coverage, preserve the null total-tic severity result, and stop at absent adult-stratified data. Do not repeat the earlier adult registry surrogate audit, reconstruct participants or infer less lived burden from lower measured impairment.
+
+### Public journal
+
+The feed distinguishes the newly indexed older methods paper from today's adult aggregate audit. All six optional activities are unchanged, with hand-at-ease selected; voting, comments and health-outcome collection remain disabled. The [bounded link pass](public/link-checks/2026-10-24.json) distinguishes retrievable sources from client-specific challenges, not assumed outages. The October 23 production feed was a preparation baseline; this publication is claimed only after later exact GitHub and production verification. No static source, deployment configuration or security setting changed.

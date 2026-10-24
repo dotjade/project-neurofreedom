@@ -1,0 +1,306 @@
+[
+  {
+    "url": "https://api.biorxiv.org/details/biorxiv/2026-10-22/2026-10-24/0",
+    "started_utc": "2026-10-24T02:44:06.138881+00:00",
+    "status": 200,
+    "bytes": 65419,
+    "sha256": "593769e285dba2e77e618565ca971070233f04aaad4a8fd73048edd79ce4d6d7",
+    "completed_utc": "2026-10-24T02:44:15.701485+00:00"
+  },
+  {
+    "url": "https://api.biorxiv.org/details/medrxiv/2026-10-22/2026-10-24/0",
+    "started_utc": "2026-10-24T02:44:06.139832+00:00",
+    "status": 200,
+    "bytes": 82040,
+    "sha256": "a1cd8bb9af6495fd505e3ff01289ed5b1c63a3b374d36cb8d29478abc4d6394f",
+    "completed_utc": "2026-10-24T02:44:14.442600+00:00"
+  },
+  {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=Tourette+OR+%22tic+disorder%22+OR+%22tic+disorders%22&datetype=edat&mindate=2026%2F10%2F22&maxdate=2026%2F10%2F24&retmode=json&retmax=1000",
+    "started_utc": "2026-10-24T02:44:06.140596+00:00",
+    "status": 200,
+    "bytes": 816,
+    "sha256": "b507e969e5492851a8877a99412c3d38d9bd6bdc801168eb80163ff41600fee0",
+    "completed_utc": "2026-10-24T02:44:11.213623+00:00"
+  },
+  {
+    "url": "https://clinicaltrials.gov/api/v2/studies?query.cond=Tourette&filter.advanced=AREA%5BLastUpdatePostDate%5DRANGE%5B2026-10-22%2C2026-10-24%5D&pageSize=100&format=json&countTotal=true&fields=NCTId%2CBriefTitle%2CStatusModule%2CDesignModule%2CCondition%2CMinimumAge%2CMaximumAge%2CStdAge%2CHasResults",
+    "started_utc": "2026-10-24T02:44:06.141431+00:00",
+    "status": 200,
+    "bytes": 31,
+    "sha256": "b54968c05ff881a1ef7ce604b6a340248f8e2aee8637bef06da0f5693f520df8",
+    "completed_utc": "2026-10-24T02:44:11.037941+00:00"
+  },
+  {
+    "url": "https://clinicaltrials.gov/api/v2/studies?query.cond=tic+disorder&filter.advanced=AREA%5BLastUpdatePostDate%5DRANGE%5B2026-10-22%2C2026-10-24%5D&pageSize=100&format=json&countTotal=true&fields=NCTId%2CBriefTitle%2CStatusModule%2CDesignModule%2CCondition%2CMinimumAge%2CMaximumAge%2CStdAge%2CHasResults",
+    "started_utc": "2026-10-24T02:44:11.038026+00:00",
+    "status": 200,
+    "bytes": 1117,
+    "sha256": "9daa70d68c917b9e5124f8f9615b58dc8039bde796e1f26c289b97942060c0fa",
+    "completed_utc": "2026-10-24T02:44:16.585613+00:00"
+  },
+  {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=Tourette+OR+%22tic+disorder%22+OR+%22tic+disorders%22&datetype=edat&mindate=2026%2F10%2F23&maxdate=2026%2F10%2F24&retmode=json&retmax=1000",
+    "started_utc": "2026-10-24T02:44:11.613900+00:00",
+    "status": 200,
+    "bytes": 794,
+    "sha256": "14833cdb1ff2072ce197037b9adc32c19a7ea90901d6074f57302d5aac8ad2f0",
+    "completed_utc": "2026-10-24T02:44:17.154478+00:00"
+  },
+  {
+    "url": "https://api.biorxiv.org/details/medrxiv/2026-10-22/2026-10-24/30",
+    "started_utc": "2026-10-24T02:44:14.443360+00:00",
+    "status": 200,
+    "bytes": 78829,
+    "sha256": "c5712ebd980cbaaf91bd79efe8a186b550c4e805f86f034b0adc009db9787faa",
+    "completed_utc": "2026-10-24T02:44:17.943156+00:00"
+  },
+  {
+    "url": "https://api.biorxiv.org/details/biorxiv/2026-10-22/2026-10-24/30",
+    "started_utc": "2026-10-24T02:44:15.702006+00:00",
+    "status": 200,
+    "bytes": 62653,
+    "sha256": "cd0fea7ffa89a9dd502d9adfa071c4dfaa5dee7ad57840fdc5aea5b792578325",
+    "completed_utc": "2026-10-24T02:44:18.597197+00:00"
+  },
+  {
+    "url": "https://clinicaltrials.gov/api/v2/studies?query.cond=Tics&filter.advanced=AREA%5BLastUpdatePostDate%5DRANGE%5B2026-10-22%2C2026-10-24%5D&pageSize=100&format=json&countTotal=true&fields=NCTId%2CBriefTitle%2CStatusModule%2CDesignModule%2CCondition%2CMinimumAge%2CMaximumAge%2CStdAge%2CHasResults",
+    "started_utc": "2026-10-24T02:44:16.585698+00:00",
+    "status": 200,
+    "bytes": 1117,
+    "sha256": "9daa70d68c917b9e5124f8f9615b58dc8039bde796e1f26c289b97942060c0fa",
+    "completed_utc": "2026-10-24T02:44:22.937904+00:00"
+  },
+  {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=Tourette+OR+%22tic+disorder%22+OR+%22tic+disorders%22&datetype=pdat&mindate=2026%2F10%2F22&maxdate=2026%2F10%2F24&retmode=json&retmax=1000",
+    "started_utc": "2026-10-24T02:44:17.554717+00:00",
+    "status": 200,
+    "bytes": 890,
+    "sha256": "840c75e206d6215516a1cbe55e0de189aa79dd7a30d68337ac82d83550d56184",
+    "completed_utc": "2026-10-24T02:44:22.964101+00:00"
+  },
+  {
+    "url": "https://api.biorxiv.org/details/medrxiv/2026-10-22/2026-10-24/60",
+    "started_utc": "2026-10-24T02:44:17.944006+00:00",
+    "status": 200,
+    "bytes": 79397,
+    "sha256": "1b94faeedac4f59aa3ba58f544638af2fed4000ac2911180a22ef385ae41be2c",
+    "completed_utc": "2026-10-24T02:44:21.456145+00:00"
+  },
+  {
+    "url": "https://api.biorxiv.org/details/biorxiv/2026-10-22/2026-10-24/60",
+    "started_utc": "2026-10-24T02:44:18.597755+00:00",
+    "status": 200,
+    "bytes": 67004,
+    "sha256": "d776ac3025f40b16a36aebc182dbbc0179c3a9b92d3da3ca939c0698ae91461c",
+    "completed_utc": "2026-10-24T02:44:22.122608+00:00"
+  },
+  {
+    "url": "https://api.biorxiv.org/details/medrxiv/2026-10-22/2026-10-24/90",
+    "started_utc": "2026-10-24T02:44:21.457023+00:00",
+    "status": 200,
+    "bytes": 78182,
+    "sha256": "6f661af08c88a88a809f194937c42cf5607e959304d12c18e908f28dda383bd5",
+    "completed_utc": "2026-10-24T02:44:25.949228+00:00"
+  },
+  {
+    "url": "https://api.biorxiv.org/details/biorxiv/2026-10-22/2026-10-24/90",
+    "started_utc": "2026-10-24T02:44:22.123260+00:00",
+    "status": 200,
+    "bytes": 65742,
+    "sha256": "f3c475918be59195b0a1c207f41346b6293c7a851a430323cb8df8e03eb8605f",
+    "completed_utc": "2026-10-24T02:44:26.777965+00:00"
+  },
+  {
+    "url": "https://clinicaltrials.gov/api/v2/studies?query.term=ecopipam&filter.advanced=AREA%5BLastUpdatePostDate%5DRANGE%5B2026-10-22%2C2026-10-24%5D&pageSize=100&format=json&countTotal=true&fields=NCTId%2CBriefTitle%2CStatusModule%2CDesignModule%2CCondition%2CMinimumAge%2CMaximumAge%2CStdAge%2CHasResults",
+    "started_utc": "2026-10-24T02:44:22.937975+00:00",
+    "status": 200,
+    "bytes": 31,
+    "sha256": "b54968c05ff881a1ef7ce604b6a340248f8e2aee8637bef06da0f5693f520df8",
+    "completed_utc": "2026-10-24T02:44:29.002676+00:00"
+  },
+  {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=Tourette+OR+%22tic+disorder%22+OR+%22tic+disorders%22&datetype=mdat&mindate=2026%2F10%2F22&maxdate=2026%2F10%2F24&retmode=json&retmax=1000",
+    "started_utc": "2026-10-24T02:44:23.364318+00:00",
+    "status": 200,
+    "bytes": 990,
+    "sha256": "d994edfb5a6f11b1165d2661281ab941eef23781ce506fc972a3ce0d981a77d9",
+    "completed_utc": "2026-10-24T02:44:28.472277+00:00"
+  },
+  {
+    "url": "https://api.biorxiv.org/details/medrxiv/2026-10-22/2026-10-24/120",
+    "started_utc": "2026-10-24T02:44:25.949990+00:00",
+    "status": 200,
+    "bytes": 14120,
+    "sha256": "ba39d89206a9eaaf4bb6e016b925bbc731127f218ab1f75b4bd09540fa4fb976",
+    "completed_utc": "2026-10-24T02:44:35.285782+00:00"
+  },
+  {
+    "url": "https://api.biorxiv.org/details/biorxiv/2026-10-22/2026-10-24/120",
+    "started_utc": "2026-10-24T02:44:26.778661+00:00",
+    "status": 200,
+    "bytes": 66391,
+    "sha256": "23124df77625dd394a6ce4fa9934d8f9538ca583bc33299e64322a2d9435e9d4",
+    "completed_utc": "2026-10-24T02:44:36.207748+00:00"
+  },
+  {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%28Tourette+OR+%22tic+disorder%22+OR+%22tic+disorders%22%29+AND+%28retraction+OR+retracted+OR+erratum+OR+corrigendum+OR+correction%29&datetype=edat&mindate=2026%2F10%2F22&maxdate=2026%2F10%2F24&retmode=json&retmax=1000",
+    "started_utc": "2026-10-24T02:44:28.872557+00:00",
+    "status": 200,
+    "bytes": 2714,
+    "sha256": "31371d644c21d74ba017bffd1859dba1b1027a1f8ce9fb87079320fe44e43a27",
+    "completed_utc": "2026-10-24T02:44:33.153656+00:00"
+  },
+  {
+    "url": "https://clinicaltrials.gov/api/v2/studies/NCT05158439?fields=NCTId%2CBriefTitle%2CStatusModule%2CDesignModule%2CCondition%2CMinimumAge%2CMaximumAge%2CStdAge%2CHasResults",
+    "started_utc": "2026-10-24T02:44:29.002728+00:00",
+    "status": 200,
+    "bytes": 1179,
+    "sha256": "a6fcee82d40a5e0f895b086ac79fb614544824d8e06472c4a54893056b5c5d89",
+    "completed_utc": "2026-10-24T02:44:35.877619+00:00"
+  },
+  {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=tics+OR+%22chronic+motor+tic%22+OR+%22chronic+vocal+tic%22+OR+%22persistent+tic%22&datetype=edat&mindate=2026%2F10%2F22&maxdate=2026%2F10%2F24&retmode=json&retmax=1000",
+    "started_utc": "2026-10-24T02:44:33.553886+00:00",
+    "status": 200,
+    "bytes": 462,
+    "sha256": "b277471fd023d47bca704c4ad430d04d6f1df5b37a2a8910711bbcd73eeab6cb",
+    "completed_utc": "2026-10-24T02:44:36.637342+00:00"
+  },
+  {
+    "url": "https://clinicaltrials.gov/api/v2/studies/NCT07093541?fields=NCTId%2CBriefTitle%2CStatusModule%2CDesignModule%2CCondition%2CMinimumAge%2CMaximumAge%2CStdAge%2CHasResults",
+    "started_utc": "2026-10-24T02:44:35.877669+00:00",
+    "status": 200,
+    "bytes": 821,
+    "sha256": "2c3977918d54e6e684c27005c0ba7e8dff981e9ce68162446eb32b3351a66de6",
+    "completed_utc": "2026-10-24T02:44:39.528838+00:00"
+  },
+  {
+    "url": "https://api.biorxiv.org/details/biorxiv/2026-10-22/2026-10-24/150",
+    "started_utc": "2026-10-24T02:44:36.208509+00:00",
+    "status": 200,
+    "bytes": 65289,
+    "sha256": "7d3d22cf44dd4df1f11f5ddbae881695e6886def289cc2836f1c2c11a4b4ad02",
+    "completed_utc": "2026-10-24T02:44:40.248906+00:00"
+  },
+  {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=tics+OR+%22chronic+motor+tic%22+OR+%22chronic+vocal+tic%22+OR+%22persistent+tic%22&datetype=pdat&mindate=2026%2F10%2F22&maxdate=2026%2F10%2F24&retmode=json&retmax=1000",
+    "started_utc": "2026-10-24T02:44:37.037564+00:00",
+    "status": 200,
+    "bytes": 525,
+    "sha256": "a890e43d2f124ddbbc794cd851961a5ef420c7d866544143025d25c70fbf823e",
+    "completed_utc": "2026-10-24T02:44:41.165827+00:00"
+  },
+  {
+    "url": "https://clinicaltrials.gov/api/v2/studies/NCT06194305?fields=NCTId%2CBriefTitle%2CStatusModule%2CDesignModule%2CCondition%2CMinimumAge%2CMaximumAge%2CStdAge%2CHasResults",
+    "started_utc": "2026-10-24T02:44:39.528976+00:00",
+    "status": 200,
+    "bytes": 1718,
+    "sha256": "34fd7426fbf87f0bba9978282d6774763c7d7e4caa4080f08dd597d54505e156",
+    "completed_utc": "2026-10-24T02:44:42.434340+00:00"
+  },
+  {
+    "url": "https://api.biorxiv.org/details/biorxiv/2026-10-22/2026-10-24/180",
+    "started_utc": "2026-10-24T02:44:40.249606+00:00",
+    "status": 200,
+    "bytes": 67109,
+    "sha256": "a87e6837120d98eb0b33d324a5efddfcc7ab6fa7cec1b55a4b5656485cd2fb39",
+    "completed_utc": "2026-10-24T02:44:44.714101+00:00"
+  },
+  {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%28Tourette+OR+%22tic+disorder%22+OR+%22tic+disorders%22%29+AND+%28adult+OR+severe+OR+pain+OR+burden+OR+ADHD+OR+comorbid%2A+OR+cooccurring+OR+treatment+OR+adverse+OR+negative+OR+quality+of+life%29&datetype=edat&mindate=2026%2F10%2F22&maxdate=2026%2F10%2F24&retmode=json&retmax=1000",
+    "started_utc": "2026-10-24T02:44:41.566044+00:00",
+    "status": 200,
+    "bytes": 4019,
+    "sha256": "ee843e3817db696b8b42d501c16183df988caa42082a628855fb1c42337c9a76",
+    "completed_utc": "2026-10-24T02:44:44.929994+00:00"
+  },
+  {
+    "url": "https://clinicaltrials.gov/api/v2/studies/NCT07137442?fields=NCTId%2CBriefTitle%2CStatusModule%2CDesignModule%2CCondition%2CMinimumAge%2CMaximumAge%2CStdAge%2CHasResults",
+    "started_utc": "2026-10-24T02:44:42.434403+00:00",
+    "status": 200,
+    "bytes": 1086,
+    "sha256": "5030f94347817d56ac2a3a0615afa0dfa98e290dcb9f89601c691af8d08f75bc",
+    "completed_utc": "2026-10-24T02:44:45.822596+00:00"
+  },
+  {
+    "url": "https://api.biorxiv.org/details/biorxiv/2026-10-22/2026-10-24/210",
+    "started_utc": "2026-10-24T02:44:44.714718+00:00",
+    "status": 200,
+    "bytes": 69604,
+    "sha256": "c6a3afb76af3c21f57eab848b22865f7c406c56029f1866591060e886612b14b",
+    "completed_utc": "2026-10-24T02:44:49.916793+00:00"
+  },
+  {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=11527335%2C15970726%2C17453897%2C18058387%2C18280023%2C19395047%2C19698938%2C24236274%2C24795782%2C24840790%2C25161066%2C40265962%2C40326633%2C42550254%2C42640249%2C42902960%2C42903303%2C42908833%2C42910671&retmode=xml",
+    "started_utc": "2026-10-24T02:44:45.330275+00:00",
+    "status": 200,
+    "bytes": 513937,
+    "sha256": "8b5332cf76ba412d177990f47f4e2a04d20af4fa741b7a0994a5709273d3bae8",
+    "completed_utc": "2026-10-24T02:44:48.653324+00:00"
+  },
+  {
+    "url": "https://api.biorxiv.org/details/biorxiv/2026-10-22/2026-10-24/240",
+    "started_utc": "2026-10-24T02:44:49.917786+00:00",
+    "status": 200,
+    "bytes": 65674,
+    "sha256": "5ea663b60289e39a72ec440cae6dc1bdc6bf369225f340d7adc1609afde98863",
+    "completed_utc": "2026-10-24T02:44:55.079045+00:00"
+  },
+  {
+    "url": "https://api.biorxiv.org/details/biorxiv/2026-10-22/2026-10-24/270",
+    "started_utc": "2026-10-24T02:44:55.079798+00:00",
+    "status": 200,
+    "bytes": 67849,
+    "sha256": "2ccc8270b758b76e682e8f0db65d615a4082be08f9e16b3c757c216d2a229fd9",
+    "completed_utc": "2026-10-24T02:44:59.235483+00:00"
+  },
+  {
+    "url": "https://api.biorxiv.org/details/biorxiv/2026-10-22/2026-10-24/300",
+    "started_utc": "2026-10-24T02:44:59.236144+00:00",
+    "status": 200,
+    "bytes": 62406,
+    "sha256": "665c171a41c8ba0920ce4c6bfca6b63c7828facbff03e32813da0f87804c039e",
+    "completed_utc": "2026-10-24T02:45:02.968411+00:00"
+  },
+  {
+    "url": "https://api.biorxiv.org/details/biorxiv/2026-10-22/2026-10-24/330",
+    "started_utc": "2026-10-24T02:45:02.968976+00:00",
+    "status": 200,
+    "bytes": 67590,
+    "sha256": "53b8107761b999262948abca82a3d143020ebab3154d26110211e0ec1acf333e",
+    "completed_utc": "2026-10-24T02:45:08.564593+00:00"
+  },
+  {
+    "url": "https://api.biorxiv.org/details/biorxiv/2026-10-22/2026-10-24/360",
+    "started_utc": "2026-10-24T02:45:08.565184+00:00",
+    "status": 200,
+    "bytes": 62273,
+    "sha256": "1aedf4fdde49cc2151c7be26804c0bd9d76dfc90cdf39dbe305ee408cd1a931c",
+    "completed_utc": "2026-10-24T02:45:12.808132+00:00"
+  },
+  {
+    "url": "https://api.biorxiv.org/details/biorxiv/2026-10-22/2026-10-24/390",
+    "started_utc": "2026-10-24T02:45:12.808787+00:00",
+    "status": 200,
+    "bytes": 67078,
+    "sha256": "440fdb092f1ecf5d45fba717245ed4203d740211d0fbc8975217edeeb4a7bd53",
+    "completed_utc": "2026-10-24T02:45:17.069019+00:00"
+  },
+  {
+    "url": "https://api.biorxiv.org/details/biorxiv/2026-10-22/2026-10-24/420",
+    "started_utc": "2026-10-24T02:45:17.069756+00:00",
+    "status": 200,
+    "bytes": 64168,
+    "sha256": "dbb9ed8d9190078d8ee4acebab9abbf0fe594292e8852dcaffeec31850910b09",
+    "completed_utc": "2026-10-24T02:45:20.669203+00:00"
+  },
+  {
+    "url": "https://api.biorxiv.org/details/biorxiv/2026-10-22/2026-10-24/450",
+    "started_utc": "2026-10-24T02:45:20.669798+00:00",
+    "status": 200,
+    "bytes": 49538,
+    "sha256": "532e04c678b99a28db016a5eacc04bf202d5c4569a4ddfef449106706d053198",
+    "completed_utc": "2026-10-24T02:45:24.340630+00:00"
+  }
+]

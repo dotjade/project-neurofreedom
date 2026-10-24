@@ -1,0 +1,147 @@
+{
+  "checks": [
+    {
+      "name": "deterministic reproduction",
+      "passed": true
+    },
+    {
+      "name": "flow ordered",
+      "passed": true
+    },
+    {
+      "name": "flow partition",
+      "passed": true
+    },
+    {
+      "name": "male candidate present",
+      "passed": true
+    },
+    {
+      "name": "male bounded",
+      "passed": true
+    },
+    {
+      "name": "male labeled conditional",
+      "passed": true
+    },
+    {
+      "name": "white candidate present",
+      "passed": true
+    },
+    {
+      "name": "white bounded",
+      "passed": true
+    },
+    {
+      "name": "white labeled conditional",
+      "passed": true
+    },
+    {
+      "name": "non_hispanic candidate present",
+      "passed": true
+    },
+    {
+      "name": "non_hispanic bounded",
+      "passed": true
+    },
+    {
+      "name": "non_hispanic labeled conditional",
+      "passed": true
+    },
+    {
+      "name": "current_medication candidate present",
+      "passed": true
+    },
+    {
+      "name": "current_medication bounded",
+      "passed": true
+    },
+    {
+      "name": "current_medication labeled conditional",
+      "passed": true
+    },
+    {
+      "name": "family_history candidate present",
+      "passed": true
+    },
+    {
+      "name": "family_history bounded",
+      "passed": true
+    },
+    {
+      "name": "family_history labeled conditional",
+      "passed": true
+    },
+    {
+      "name": "ocd candidate present",
+      "passed": true
+    },
+    {
+      "name": "ocd bounded",
+      "passed": true
+    },
+    {
+      "name": "ocd labeled conditional",
+      "passed": true
+    },
+    {
+      "name": "adhd candidate present",
+      "passed": true
+    },
+    {
+      "name": "adhd bounded",
+      "passed": true
+    },
+    {
+      "name": "adhd labeled conditional",
+      "passed": true
+    },
+    {
+      "name": "life_event candidate present",
+      "passed": true
+    },
+    {
+      "name": "life_event bounded",
+      "passed": true
+    },
+    {
+      "name": "life_event labeled conditional",
+      "passed": true
+    },
+    {
+      "name": "model counts unknown",
+      "passed": true
+    },
+    {
+      "name": "no simulation",
+      "passed": true
+    },
+    {
+      "name": "boundary p preserved",
+      "passed": true
+    },
+    {
+      "name": "different outcome sets",
+      "passed": true
+    },
+    {
+      "name": "no temporal causal claim",
+      "passed": true
+    },
+    {
+      "name": "source identity",
+      "passed": true
+    },
+    {
+      "name": "rounding OCD only208",
+      "passed": true
+    },
+    {
+      "name": "rounding ADHD only252",
+      "passed": true
+    }
+  ],
+  "passed": 35,
+  "failed": 0,
+  "kind": "software/documentation checks, not clinical validation"
+}

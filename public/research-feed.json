@@ -1,10 +1,17 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T03:57:38Z",
-  "lastResearchDate": "2026-10-23",
+  "updatedAt": "2026-10-24T02:51:56Z",
+  "lastResearchDate": "2026-10-24",
   "cadence": "Daily scheduled review; publication follows verified work.",
-  "latestSummary": "Two older observational studies were newly indexed, adding adult-persistence and autism-related evidence with important limits. A historical registry audit traced changes in study definitions, not treatment effects.",
+  "latestSummary": "A newly indexed video-methods study had no tic-positive external cases, so tic sensitivity remains untested. An adult survey audit separates retrospective associations from individual prediction.",
   "timeline": [
+    {
+      "date": "2026-10-24",
+      "title": "Check who a result can speak for.",
+      "type": "Primary-study scan and aggregate methods audit",
+      "summary": "An older video study adds a measurement limitation, not treatment proof. An adult survey also leaves model counts and timing uncertain; it cannot yet predict an individual’s course.",
+      "record": "https://github.com/dotjade/project-neurofreedom/blob/main/analyses/adult_risk/2026-10-24/report.md"
+    },
     {
       "date": "2026-10-23",
       "title": "Check when a definition changed.",
@@ -125,7 +132,7 @@
       "type": "Primary qualitative study",
       "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10863457/",
       "label": "Isaacs and colleagues, 2024",
-      "checkedAt": "2026-10-23",
+      "checkedAt": "2026-10-24",
       "linkState": "Primary text readable via web reader; direct request access-limited"
     },
     {
@@ -134,8 +141,8 @@
       "type": "Primary longitudinal study",
       "url": "https://www.neurology.org/doi/10.1212/01.WNL.0000086370.10186.7C",
       "label": "Pappert and colleagues, 2003",
-      "checkedAt": "2026-10-23",
-      "linkState": "HTTP 403 in this retrieval; not established broken"
+      "checkedAt": "2026-10-24",
+      "linkState": "Publisher HTTP 403 challenge; institutional primary PDF available"
     },
     {
       "title": "Shared improvement is not interchangeability.",
@@ -143,7 +150,7 @@
       "type": "Primary adult cohort study",
       "url": "https://link.springer.com/content/pdf/10.1186/s44247-026-00284-7.pdf",
       "label": "Ivanova and colleagues, 2026",
-      "checkedAt": "2026-10-23",
+      "checkedAt": "2026-10-24",
       "linkState": "Primary PDF retrievable through this check"
     }
   ],
@@ -210,6 +217,6 @@
     "trend": [],
     "message": "No public ratings are collected yet. There are no votes or trends to show."
   },
-  "activityEditionDate": "2026-10-23",
-  "featuredActivityId": "rest-or-leave"
+  "activityEditionDate": "2026-10-24",
+  "featuredActivityId": "hand-at-ease"
 }

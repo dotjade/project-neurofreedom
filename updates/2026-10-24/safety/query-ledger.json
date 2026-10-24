@@ -1,0 +1,173 @@
+{
+  "checkDate": "2026-10-24",
+  "windowStart": "2026-10-23T03:01:22Z",
+  "windowEnd": "2026-10-24T02:46:04Z",
+  "retrievalIntervalUTC": "2026-10-24T02:43:49Z/2026-10-24T02:46:04Z",
+  "queryCount": 6,
+  "queryExecutions": 10,
+  "resultCardsScreened": 27,
+  "dateRule": "Overlapping after:2026-10-22 before:2026-10-25 syntax; eligibility assessed against source dates and actual cutoff, never crawl/future dates.",
+  "countNote": "27 cards in two fully captured batches, not unique events or total search-engine hits. Initial four-query output was truncated and repeated once; preliminary cards are not counted again. Per-query result counts unavailable.",
+  "batches": [
+    {
+      "id": 1,
+      "queries": [
+        "(site:fda.gov OR site:ema.europa.eu OR site:gov.uk OR site:tga.gov.au OR site:recalls-rappels.canada.ca) (Tourette OR ecopipam OR aripiprazole OR risperidone OR pimozide OR haloperidol) (safety OR recall OR warning) after:2026-10-22 before:2026-10-25",
+        "(site:fda.gov OR site:ema.europa.eu OR site:gov.uk OR site:tga.gov.au OR site:recalls-rappels.canada.ca) (clonidine OR guanfacine OR valbenazine OR deutetrabenazine OR tetrabenazine) (safety OR recall OR warning) after:2026-10-22 before:2026-10-25",
+        "(site:fda.gov OR site:ema.europa.eu OR site:gov.uk OR site:tga.gov.au OR site:recalls-rappels.canada.ca) (Neupulse OR \"median nerve\" OR NeuroStar OR rTMS OR \"deep brain stimulation\") (safety OR recall OR warning) after:2026-10-22 before:2026-10-25",
+        "(site:aan.com OR site:essts.org OR site:nice.org.uk) (Tourette OR tic) (guideline OR guidance OR update) after:2026-10-22 before:2026-10-25"
+      ],
+      "retrievalIntervalUTC": "2026-10-24T02:44:06Z/2026-10-24T02:44:15Z",
+      "resultCardsScreened": 13,
+      "screenedCards": [
+        {
+          "title": "ESSTS | European Society for the Study of Tourette Syndrome",
+          "url": "https://www.essts.org/",
+          "decision": "Society homepage has an October 12 podcast and September 14 training notice; neither establishes a new issued guideline."
+        },
+        {
+          "title": "Risperidone - supply shortage | European Medicines Agency (EMA)",
+          "url": "https://www.ema.europa.eu/en/medicines/human/shortages/risperidone",
+          "decision": "Risperidone supply notice first published November 19, 2025; described manufacturing shortages, not a new-window safety event."
+        },
+        {
+          "title": "Alerts, recalls and safety information: medicines and medical devices - GOV.UK",
+          "url": "https://www.gov.uk/drug-device-alerts",
+          "decision": "Alerts index; checked separately rather than counted as a safety event."
+        },
+        {
+          "title": "Antipsychotic medicines - GOV.UK",
+          "url": "https://www.gov.uk/government/publications/antipsychotic-medicines-licensed-products-uses-and-side-effects/antipsychotic-medicines",
+          "decision": "Historical antipsychotic information published August 25, 2005, not new-window."
+        },
+        {
+          "title": "Class 2 Medicines Recall: Aripiprazole 1mg/ml oral solution (EL (19)A/20) - GOV.UK",
+          "url": "https://www.gov.uk/drug-device-alerts/class-2-medicines-recall-aripiprazole-1mg-ml-oral-solution-el-19-a-20",
+          "decision": "Historical July 30, 2019 aripiprazole recall EL(19)A/20."
+        },
+        {
+          "title": "Aripiprazole Zentiva | European Medicines Agency (EMA)",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/aripiprazole-zentiva",
+          "decision": "Historical EPAR; no new-window change was established from this card."
+        },
+        {
+          "title": "ESSTS | Courses & Training | Specialist Training: Behavioural Treatment for Tics 2027",
+          "url": "https://www.essts.org/news/specialist-training-behavioural-treatment-for-tics",
+          "decision": "Training announcement September 14, 2026, not a new guideline."
+        },
+        {
+          "title": "Aripiprazole Mylan | European Medicines Agency (EMA)",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/aripiprazole-mylan",
+          "decision": "Withdrawn application documented May 2015; not a new-window event."
+        },
+        {
+          "title": "Medicines Safety Update, Volume 8, Number 1, February 2017 | Therapeutic Goods Administration (TGA)",
+          "url": "https://www.tga.gov.au/news/safety-updates/medicines-safety-update-volume-8-number-1-february-2017",
+          "decision": "Historical February 2017 aripiprazole impulse-control warning."
+        },
+        {
+          "title": "Haldol and associated names - referral | European Medicines Agency (EMA)",
+          "url": "https://www.ema.europa.eu/en/medicines/human/referrals/haldol-associated-names",
+          "decision": "Historical haloperidol referral completed February 23, 2017."
+        },
+        {
+          "title": "Haloperidol (Haldol): reminder of risks when used in elderly patients for the acute treatment of delirium - GOV.UK",
+          "url": "https://www.gov.uk/drug-safety-update/haloperidol-haldol-reminder-of-risks-when-used-in-elderly-patients-for-the-acute-treatment-of-delirium",
+          "decision": "Historical December 10, 2021 warning concerning elderly delirium care."
+        },
+        {
+          "title": "Risperidone | Therapeutic Goods Administration (TGA)",
+          "url": "https://www.tga.gov.au/safety/safety-monitoring-and-information/safety-alerts/risperidone",
+          "decision": "Historical May 19, 2025 oral-solution dosing warning; not new-window."
+        },
+        {
+          "title": "COVID-19 Vaccine Janssen, INN-Ad26.COV2-S, recombinant",
+          "url": "https://www.ema.europa.eu/en/documents/assessment-report/covid-19-vaccine-janssen-epar-public-assessment-report_en.pdf",
+          "decision": "Vaccine assessment outside the watched therapies; no new watched event established."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "queries": [
+        "(site:fda.gov OR site:ema.europa.eu OR site:gov.uk OR site:tga.gov.au OR site:recalls-rappels.canada.ca) (topiramate OR \"botulinum toxin\" OR tiapride) (safety OR recall OR warning) after:2026-10-22 before:2026-10-25",
+        "(site:fda.gov OR site:ema.europa.eu OR site:gov.uk OR site:tga.gov.au OR site:recalls-rappels.canada.ca) (methylphenidate OR atomoxetine OR lisdexamfetamine OR fluvoxamine OR sertraline OR antidepressants) (safety OR recall OR warning) after:2026-10-22 before:2026-10-25"
+      ],
+      "retrievalIntervalUTC": "2026-10-24T02:44:15Z/2026-10-24T02:44:20Z",
+      "resultCardsScreened": 14,
+      "screenedCards": [
+        {
+          "title": "Alerts, recalls and safety information: medicines and medical devices - GOV.UK",
+          "url": "https://www.gov.uk/drug-device-alerts?medical_specialism=psychiatry",
+          "decision": "Psychiatry-filtered alerts index; not itself an event. Historical sertraline recall also returned separately."
+        },
+        {
+          "title": "Precautionary recall of antidepressant medication due to manufacturing error - GOV.UK",
+          "url": "https://www.gov.uk/government/news/precautionaryrecall-of-antidepressant-medication-due-to-manufacturing-error",
+          "decision": "April 28, 2026 sertraline recall news; historical, same event as EL(26)A/22."
+        },
+        {
+          "title": "ADHD medicines - supply shortage | European Medicines Agency (EMA)",
+          "url": "https://www.ema.europa.eu/hr/medicines/human/shortages/adhd-medicines",
+          "decision": "Historical shortage notice; no new-window update established, and not described as safety-related."
+        },
+        {
+          "title": "Alerts, recalls and safety information: medicines and medical devices - GOV.UK",
+          "url": "https://www.gov.uk/drug-device-alerts?alert_type=medicines-recall-notification",
+          "decision": "Recall-filtered index; not itself an event."
+        },
+        {
+          "title": "Serotonin-specific reuptake inhibitors and serotonin-noradrenaline reuptake inhibitors - referral | European Medicines Agency (EMA)",
+          "url": "https://www.ema.europa.eu/lt/medicines/human/referrals/serotonin-specific-reuptake-inhibitors-serotonin-noradrenaline-reuptake-inhibitors",
+          "decision": "Historical 2005 antidepressant referral; not new-window."
+        },
+        {
+          "title": "Botulinum toxin type A products: updated warnings regarding risk of iatrogenic botulism - GOV.UK",
+          "url": "https://www.gov.uk/drug-safety-update/botulinum-toxin-type-a-products-updated-warnings-regarding-risk-of-iatrogenic-botulism",
+          "decision": "July 15, 2026 botulinum warning; historical rather than new-window."
+        },
+        {
+          "title": "Product Information safety updates - year table | Therapeutic Goods Administration (TGA)",
+          "url": "https://www.tga.gov.au/product-information-safety-updates-year-table",
+          "decision": "Direct page says last updated September 29, 2026, despite search card freshness. Displayed approval dates are earlier; not a complete current labeling surveillance result."
+        },
+        {
+          "title": "Antidepressants – updated safety communications - GOV.UK",
+          "url": "https://www.gov.uk/government/publications/antidepressants-updated-safety-communications",
+          "decision": "Public assessment report published October 15, 2026; prior-window antidepressant context."
+        },
+        {
+          "title": "Updated warnings for botulinum toxin products following rare cases of botulism - GOV.UK",
+          "url": "https://www.gov.uk/government/news/updated-warnings-for-botulinum-toxin-products-following-rare-cases-of-botulism",
+          "decision": "July 15, 2026 news for same botulinum warning; not an independent or new-window event."
+        },
+        {
+          "title": "Methylphenidate - referral | European Medicines Agency (EMA)",
+          "url": "https://www.ema.europa.eu/en/medicines/human/referrals/methylphenidate",
+          "decision": "Historical 2009 methylphenidate referral; not new-window."
+        },
+        {
+          "title": "Class 2 Medicines Recall: Amarox Limited, Sertraline 100mg film-coated tablets, EL(26)A/22 - GOV.UK",
+          "url": "https://www.gov.uk/drug-device-alerts/class-2-medicines-recall-amarox-limited-sertraline-100mg-film-coated-tablets-el-26-a-slash-22",
+          "decision": "April 28, 2026 sertraline recall EL(26)A/22, DMRC 39135670; historical."
+        },
+        {
+          "title": "Outcomes of imposed non-interventional post-authorisation safety studies | European Medicines Agency (EMA)",
+          "url": "https://www.ema.europa.eu/en/human-regulatory-overview/post-authorisation/pharmacovigilance-post-authorisation/post-authorisation-safety-studies-pass/outcomes-imposed-non-interventional-post-authorisation-safety-studies",
+          "decision": "PASS outcomes index; card does not establish a new-window watched action."
+        },
+        {
+          "title": "1.8.2　　　　　　　　　　　　　　　　 EU-RMP v 1.0　　　　　　　　　　　　　　 Methylphenidate hydrochloride",
+          "url": "https://www.ema.europa.eu/en/documents/rmp/tuzulby-epar-risk-management-plan_en.pdf",
+          "decision": "Tuzulby risk-management PDF references PSUSA/00002024/202110; no new publication/update established from card."
+        },
+        {
+          "title": "AZILECT, INN-rasagiline",
+          "url": "https://www.ema.europa.eu/en/documents/procedural-steps-after/azilect-epar-procedural-steps-taken-scientific-information-after-authorisation-archive_en.pdf",
+          "decision": "Rasagiline archive with 2009 procedure dates; outside watched therapies and time window."
+        }
+      ]
+    }
+  ],
+  "timestampNote": "Retrieval intervals bracket actual tool calls, not instrumented per-page timestamps. Link-check scripts contain instrumented UTC instants."
+}

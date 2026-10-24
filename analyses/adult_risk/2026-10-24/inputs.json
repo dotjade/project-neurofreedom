@@ -1,0 +1,75 @@
+{
+  "study": {
+    "doi": "10.3389/fpsyt.2026.1948693",
+    "pmid": "42903303",
+    "pmc": "PMC13680449",
+    "published": "2026-10-06",
+    "title": "Clinical factors predicting tic persistence into adulthood"
+  },
+  "stages": {
+    "invited": 758,
+    "responded": 334,
+    "complete_tic_items": 292,
+    "retained": 258,
+    "current_tics": 247,
+    "current_as_adult_worst": 50
+  },
+  "table1_percentages": [
+    {
+      "field": "male",
+      "count": 144,
+      "percent": "56.0",
+      "source_locator": "Table 1"
+    },
+    {
+      "field": "white",
+      "count": 240,
+      "percent": "93.4",
+      "source_locator": "Table 1"
+    },
+    {
+      "field": "non_hispanic",
+      "count": 252,
+      "percent": "98.4",
+      "source_locator": "Table 1"
+    },
+    {
+      "field": "current_medication",
+      "count": 72,
+      "percent": "27.9",
+      "source_locator": "Table 1"
+    },
+    {
+      "field": "family_history",
+      "count": 155,
+      "percent": "66.8",
+      "source_locator": "Table 1"
+    },
+    {
+      "field": "ocd",
+      "count": 124,
+      "percent": "59.6",
+      "source_locator": "Table 1"
+    },
+    {
+      "field": "adhd",
+      "count": 67,
+      "percent": "26.6",
+      "source_locator": "Table 1"
+    },
+    {
+      "field": "life_event",
+      "count": 153,
+      "percent": "59.3",
+      "source_locator": "Table 1"
+    }
+  ],
+  "source_locator_stages": "Sections 2.1, 2.2.1 and 3.1",
+  "rounding_assumption": "nearest 0.1 percentage point, half-up; all denominators at most 258",
+  "model_counts": {
+    "adult_worst_tts": null,
+    "adult_worst_impairment": null
+  },
+  "model_count_status": "not located in inspected main-text methods/Tables 1\u20135; no individual reconstruction",
+  "source_license": "CC BY 4.0; facts only retained"
+}

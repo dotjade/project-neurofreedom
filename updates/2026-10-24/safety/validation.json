@@ -1,0 +1,30 @@
+{
+  "checkedAt": "2026-10-24T02:51:00.935376+00:00",
+  "checks": {
+    "pinned_base": true,
+    "correct_daily_date": true,
+    "link_counts": true,
+    "no_established_broken_target": true,
+    "timeline_targets_confirmed": true,
+    "baseline_feed_bytes": true,
+    "baseline_old_not_new_edition": true,
+    "production_header": true,
+    "baseline_feedback_disabled": true,
+    "canonical_challenge_not_broken": true,
+    "attributed_primary_alternative": true,
+    "supplementary_paper_bytes_removed": true,
+    "source_check_count": true,
+    "source_strict_cutoff_matches": true,
+    "queries_distinct_six": true,
+    "captured_card_count": true,
+    "every_card_has_disposition": true,
+    "known_access_limit_retained": true,
+    "catalog_and_source_checks_pass": true,
+    "no_publication_claim": true,
+    "no_full_papers_in_delivery": true,
+    "report_limitations_present": true
+  },
+  "checkCount": 22,
+  "allPassed": true,
+  "scope": "Offline documentation/software checks, not clinical validation or independent clinical peer review."
+}

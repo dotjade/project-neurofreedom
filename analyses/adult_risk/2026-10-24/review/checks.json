@@ -1,0 +1,434 @@
+{
+  "passed": 69,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "exact rational denominators: male",
+      "passed": true,
+      "evidence": [
+        257
+      ]
+    },
+    {
+      "name": "conditional complements: male",
+      "passed": true,
+      "evidence": [
+        1
+      ]
+    },
+    {
+      "name": "conditional label: male",
+      "passed": true
+    },
+    {
+      "name": "exact rational denominators: white",
+      "passed": true,
+      "evidence": [
+        257
+      ]
+    },
+    {
+      "name": "conditional complements: white",
+      "passed": true,
+      "evidence": [
+        1
+      ]
+    },
+    {
+      "name": "conditional label: white",
+      "passed": true
+    },
+    {
+      "name": "exact rational denominators: non_hispanic",
+      "passed": true,
+      "evidence": [
+        256
+      ]
+    },
+    {
+      "name": "conditional complements: non_hispanic",
+      "passed": true,
+      "evidence": [
+        2
+      ]
+    },
+    {
+      "name": "conditional label: non_hispanic",
+      "passed": true
+    },
+    {
+      "name": "exact rational denominators: current_medication",
+      "passed": true,
+      "evidence": [
+        258
+      ]
+    },
+    {
+      "name": "conditional complements: current_medication",
+      "passed": true,
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "name": "conditional label: current_medication",
+      "passed": true
+    },
+    {
+      "name": "exact rational denominators: family_history",
+      "passed": true,
+      "evidence": [
+        232
+      ]
+    },
+    {
+      "name": "conditional complements: family_history",
+      "passed": true,
+      "evidence": [
+        26
+      ]
+    },
+    {
+      "name": "conditional label: family_history",
+      "passed": true
+    },
+    {
+      "name": "exact rational denominators: ocd",
+      "passed": true,
+      "evidence": [
+        208
+      ]
+    },
+    {
+      "name": "conditional complements: ocd",
+      "passed": true,
+      "evidence": [
+        50
+      ]
+    },
+    {
+      "name": "conditional label: ocd",
+      "passed": true
+    },
+    {
+      "name": "exact rational denominators: adhd",
+      "passed": true,
+      "evidence": [
+        252
+      ]
+    },
+    {
+      "name": "conditional complements: adhd",
+      "passed": true,
+      "evidence": [
+        6
+      ]
+    },
+    {
+      "name": "conditional label: adhd",
+      "passed": true
+    },
+    {
+      "name": "exact rational denominators: life_event",
+      "passed": true,
+      "evidence": [
+        258
+      ]
+    },
+    {
+      "name": "conditional complements: life_event",
+      "passed": true,
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "name": "conditional label: life_event",
+      "passed": true
+    },
+    {
+      "name": "stage proportion: response_of_invited",
+      "passed": true
+    },
+    {
+      "name": "stage proportion: complete_of_responded",
+      "passed": true
+    },
+    {
+      "name": "stage proportion: retained_of_complete",
+      "passed": true
+    },
+    {
+      "name": "stage proportion: retained_of_invited",
+      "passed": true
+    },
+    {
+      "name": "stage proportion: current_tics_in_retained",
+      "passed": true
+    },
+    {
+      "name": "stage proportion: current_reused_as_adult_worst",
+      "passed": true
+    },
+    {
+      "name": "stage differences",
+      "passed": true
+    },
+    {
+      "name": "flow partitions invited total",
+      "passed": true
+    },
+    {
+      "name": "model n not inferred",
+      "passed": true
+    },
+    {
+      "name": "simulation absent",
+      "passed": true
+    },
+    {
+      "name": "official source identity",
+      "passed": true
+    },
+    {
+      "name": "same source version as audit",
+      "passed": true
+    },
+    {
+      "name": "no XML supplementary-material element",
+      "passed": true
+    },
+    {
+      "name": "official Table 1 row: male",
+      "passed": true
+    },
+    {
+      "name": "official Table 1 row: white",
+      "passed": true
+    },
+    {
+      "name": "official Table 1 row: non_hispanic",
+      "passed": true
+    },
+    {
+      "name": "official Table 1 row: current_medication",
+      "passed": true
+    },
+    {
+      "name": "official Table 1 row: family_history",
+      "passed": true
+    },
+    {
+      "name": "official Table 1 row: ocd",
+      "passed": true
+    },
+    {
+      "name": "official Table 1 row: adhd",
+      "passed": true
+    },
+    {
+      "name": "official Table 1 row: life_event",
+      "passed": true
+    },
+    {
+      "name": "Table 1 excludes missing or unknown",
+      "passed": true
+    },
+    {
+      "name": "published recruitment stages",
+      "passed": true
+    },
+    {
+      "name": "current tic count",
+      "passed": true
+    },
+    {
+      "name": "current score reused for 50",
+      "passed": true
+    },
+    {
+      "name": "retrospective age periods",
+      "passed": true
+    },
+    {
+      "name": "lifetime OCD and ADHD designation",
+      "passed": true
+    },
+    {
+      "name": "medication current at survey",
+      "passed": true
+    },
+    {
+      "name": "event contemporaneous not necessarily antecedent",
+      "passed": true
+    },
+    {
+      "name": "discussion childhood OCD wording exists",
+      "passed": true
+    },
+    {
+      "name": "authors acknowledge retrospective self report",
+      "passed": true
+    },
+    {
+      "name": "ASD exclusion acknowledged",
+      "passed": true
+    },
+    {
+      "name": "selection rule p less than .1",
+      "passed": true
+    },
+    {
+      "name": "no explicit imputation or complete case rule in methods",
+      "passed": true
+    },
+    {
+      "name": "official Table 4 p: tts ADHD status",
+      "passed": true,
+      "evidence": "0.82"
+    },
+    {
+      "name": "official Table 4 p: tts Significant life event",
+      "passed": true,
+      "evidence": "0.098"
+    },
+    {
+      "name": "official Table 4 p: impairment OCD status",
+      "passed": true,
+      "evidence": "0.050"
+    },
+    {
+      "name": "official Table 4 p: impairment Current tic medication status",
+      "passed": true,
+      "evidence": "0.020"
+    },
+    {
+      "name": "official Table 4 p: impairment Significant life event",
+      "passed": true,
+      "evidence": "0.0078"
+    },
+    {
+      "name": "medication coefficient",
+      "passed": true
+    },
+    {
+      "name": "outcome predictor set: tts",
+      "passed": true,
+      "evidence": [
+        "ocd",
+        "adhd",
+        "life_event",
+        "childhood_worst_tts",
+        "age"
+      ]
+    },
+    {
+      "name": "outcome predictor set: impairment",
+      "passed": true,
+      "evidence": [
+        "current_medication",
+        "ocd",
+        "sex",
+        "life_event",
+        "childhood_worst_impairment",
+        "age"
+      ]
+    },
+    {
+      "name": "positive event nulls both outcomes",
+      "passed": true,
+      "evidence": [
+        "0.47",
+        "0.70"
+      ]
+    },
+    {
+      "name": "boundary p preserved in temporal audit",
+      "passed": true
+    },
+    {
+      "name": "all source tables inspected",
+      "passed": true
+    }
+  ],
+  "independent_algorithm": "Exact Fraction interval [printed percent-0.05, printed percent+0.05), bounded integer denominator 1..258",
+  "conditional_denominators": [
+    {
+      "field": "male",
+      "candidates": [
+        257
+      ],
+      "conditional_complements": [
+        1
+      ]
+    },
+    {
+      "field": "white",
+      "candidates": [
+        257
+      ],
+      "conditional_complements": [
+        1
+      ]
+    },
+    {
+      "field": "non_hispanic",
+      "candidates": [
+        256
+      ],
+      "conditional_complements": [
+        2
+      ]
+    },
+    {
+      "field": "current_medication",
+      "candidates": [
+        258
+      ],
+      "conditional_complements": [
+        0
+      ]
+    },
+    {
+      "field": "family_history",
+      "candidates": [
+        232
+      ],
+      "conditional_complements": [
+        26
+      ]
+    },
+    {
+      "field": "ocd",
+      "candidates": [
+        208
+      ],
+      "conditional_complements": [
+        50
+      ]
+    },
+    {
+      "field": "adhd",
+      "candidates": [
+        252
+      ],
+      "conditional_complements": [
+        6
+      ]
+    },
+    {
+      "field": "life_event",
+      "candidates": [
+        258
+      ],
+      "conditional_complements": [
+        0
+      ]
+    }
+  ],
+  "model_n": {
+    "tts": null,
+    "impairment": null
+  },
+  "scope": "Published aggregate and documentation checks; not participant reconstruction, clinical validation, or a model-n derivation."
+}
