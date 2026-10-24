@@ -1,0 +1,24 @@
+{
+  "artifactCountExcludingManifest": 14,
+  "files": {
+    "2026-10-24.json": "812bb1ae64102d8c81b9a2bf0125ceb0923f152988e335b8190162ffda1c789f",
+    "catalog-safety-check.json": "fc70ec2014f6f46b4e4daddcc5fbec3a9fc17be75294ed20f2360706a478051a",
+    "check_homepage_links.py": "7826effd736d17744694015d0197dc82b6dc2cad001292bd5a4b5a262c5da3d7",
+    "check_links.py": "a87279e8b8a55cca3b07f3d7074271296e2ec61637d6bff2b24ae6b4638e3cc7",
+    "check_supplement.py": "27882d08a9e0d466ec6b8a52933c9dfe3f588c7cb249980c328438c85805bc4b",
+    "homepage-link-check.json": "7421266ca761c1b8b5ad62b1840d320ba63a489e12744769fd682dec1db8f4a7",
+    "link-check-rerun.json": "baa29682a5c5599ed47e35ab147f8c75985b69e85af9dcba759f303f04e016ab",
+    "query-ledger.json": "f3762b28c7655ff177b53c7ed21c5d76b61cc99c2fce36a226ec25dfc48acff3",
+    "report.md": "bd3e63faf13717ee586e435516f365755fdc8403fa81090ab238af75dbbdf59c",
+    "repository-provenance.json": "b826521ed14e008de4dad33643f8d1cdc2625c5b09f19b2c9c1c5a8fc15f652f",
+    "source-checks.json": "b5f102ab9f000e4b685202325bf3654e3d4d965e1c900a2ff0f83da877f5a3df",
+    "supplementary-checks.json": "b4b12463651c81851436f2c96654587b562a9277738fce127f5c146d043b6b43",
+    "validate.py": "fcb3d851337e3354f19f9c233503a32ac4ac7ea55c0941bc90ee2b570dbc3a50",
+    "validation.json": "2e9d1d71e51ad3814580147d33afbfbadae865478441415de965efc3a3c5cc6a"
+  },
+  "placement": {
+    "2026-10-24.json": "public/link-checks/2026-10-24.json",
+    "allOtherArtifacts": "updates/2026-10-24/safety/"
+  },
+  "checks": "All four Python scripts parsed; 22 offline validation checks passed; 14 source/config safeguards passed."
+}

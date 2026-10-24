@@ -1,0 +1,187 @@
+{
+  "checkDate": "2026-10-24",
+  "windowStart": "2026-10-23T03:01:22Z",
+  "windowEnd": "2026-10-24T02:46:04Z",
+  "checks": [
+    {
+      "title": "FDA drug-safety communications",
+      "url": "https://www.fda.gov/drugs/drug-safety-and-availability/drug-safety-communications",
+      "status": "retrievable",
+      "result": "Top six rows inspected; newest dated September 15, 2026. No new-window row in inspected section.",
+      "method": "Public web search/open/find reader; no credentials or bypass",
+      "retrievalIntervalUTC": "2026-10-24T02:43:49Z/2026-10-24T02:46:04Z"
+    },
+    {
+      "title": "FDA device-safety communications",
+      "url": "https://www.fda.gov/medical-devices/medical-device-safety/safety-communications",
+      "status": "retrievable",
+      "result": "Top eleven rows inspected; newest dated June 3, 2026. No new-window row in inspected section.",
+      "method": "Public web search/open/find reader; no credentials or bypass",
+      "retrievalIntervalUTC": "2026-10-24T02:43:49Z/2026-10-24T02:46:04Z"
+    },
+    {
+      "title": "FDA CDRH news",
+      "url": "https://www.fda.gov/medical-devices/medical-devices-news-and-events/cdrh-new-news-and-updates",
+      "status": "retrievable",
+      "result": "Six newest entries dated October 20; none names a watched therapy. Earlier entries do not establish a new-window event.",
+      "method": "Public web search/open/find reader; no credentials or bypass",
+      "retrievalIntervalUTC": "2026-10-24T02:43:49Z/2026-10-24T02:46:04Z"
+    },
+    {
+      "title": "FDA drug alerts/statements",
+      "url": "https://www.fda.gov/drugs/drug-safety-and-availability/drug-alerts-and-statements",
+      "status": "retrievable",
+      "result": "Alerts lead with May 15; statements lead with October 22 ARC annual-report announcement, not a watched-treatment safety event.",
+      "method": "Public web search/open/find reader; no credentials or bypass",
+      "retrievalIntervalUTC": "2026-10-24T02:43:49Z/2026-10-24T02:46:04Z"
+    },
+    {
+      "title": "FDA NeuroStar recall",
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfRES/res.cfm?id=222521",
+      "status": "retrievable_selected_fields",
+      "result": "Class 2; Open, Classified; recall Z-0142-2027, event 99812, initiated August 24 and posted October 9. Selected fields agree with previous check; no full-record diff.",
+      "method": "Public web search/open/find reader; no credentials or bypass",
+      "retrievalIntervalUTC": "2026-10-24T02:43:49Z/2026-10-24T02:46:04Z"
+    },
+    {
+      "title": "FDA SrLC",
+      "url": "https://www.accessdata.fda.gov/scripts/cder/safetylabelingchanges/",
+      "status": "limited_search_form_only",
+      "result": "Date-search form now shows October 23 as upper input, not an executed ingredient/date result set. Labeling coverage remains incomplete.",
+      "method": "Public web search/open/find reader; no credentials or bypass",
+      "retrievalIntervalUTC": "2026-10-24T02:43:49Z/2026-10-24T02:46:04Z"
+    },
+    {
+      "title": "EMA What's new",
+      "url": "https://www.ema.europa.eu/en/news-events/whats-new",
+      "status": "retrievable_with_completeness_warning",
+      "result": "All 25 October 23 rows screened by heading/ingredient. No medicine row names a watched ingredient. PRAC and COMP minutes and MSSG item pursued separately. Search-incompleteness banner remains.",
+      "method": "Public web search/open/find reader; no credentials or bypass",
+      "retrievalIntervalUTC": "2026-10-24T02:43:49Z/2026-10-24T02:46:04Z"
+    },
+    {
+      "title": "EMA PRAC signal index",
+      "url": "https://www.ema.europa.eu/en/human-regulatory-overview/post-authorisation/pharmacovigilance-post-authorisation/signal-management/prac-recommendations-safety-signals",
+      "status": "retrievable",
+      "result": "Latest listed recommendations remain the August 31-September 3 meeting, published September 28; EMA/PRAC/183502/2026 and wording EMA/PRAC/183503/2026.",
+      "method": "Public web search/open/find reader; no credentials or bypass",
+      "retrievalIntervalUTC": "2026-10-24T02:43:49Z/2026-10-24T02:46:04Z"
+    },
+    {
+      "title": "EMA newly listed PRAC minutes",
+      "url": "https://www.ema.europa.eu/en/documents/minutes/minutes-prac-meeting-31-august-3-september-2026_en.pdf",
+      "status": "retrievable_selected_sections",
+      "result": "Newly listed October 23; document dated October 21 for August 31-September 3 meeting, EMA/PRAC/225029/2026. Watch-term search and signal headings checked. Risperidone/OKEDI appears in section 18.3.7 as five-year renewal EMA/R/0000343015, not a new safety signal. Public minutes acknowledge undisclosed material.",
+      "method": "Public web search/open/find reader; no credentials or bypass",
+      "retrievalIntervalUTC": "2026-10-24T02:43:49Z/2026-10-24T02:46:04Z"
+    },
+    {
+      "title": "EMA COMP minutes September 8-10",
+      "url": "https://www.ema.europa.eu/en/news-events/whats-new",
+      "status": "reader_error_not_screened",
+      "result": "October 23 index row for COMP minutes clicked; reader returned Internal Error without document text or an error code. Contents unverified; no bypass. Index URL is locator, not claimed PDF retrieval.",
+      "method": "Public web search/open/find reader; no credentials or bypass",
+      "retrievalIntervalUTC": "2026-10-24T02:43:49Z/2026-10-24T02:46:04Z"
+    },
+    {
+      "title": "EMA MSSG October meeting",
+      "url": "https://www.ema.europa.eu/en/events/meeting-executive-steering-group-shortages-safety-medicinal-products-mssg-october-2026",
+      "status": "retrievable",
+      "result": "Updated October 23 index item describes cancellation of scheduled October 21 event, not a watched-treatment safety action.",
+      "method": "Public web search/open/find reader; no credentials or bypass",
+      "retrievalIntervalUTC": "2026-10-24T02:43:49Z/2026-10-24T02:46:04Z"
+    },
+    {
+      "title": "MHRA Drug Safety Update",
+      "url": "https://www.gov.uk/drug-safety-update",
+      "status": "retrievable",
+      "result": "First five entries inspected: newest October 20 vaccine withdrawal; prior October 15 antidepressant and July 15 botulinum notices remain historical.",
+      "method": "Public web search/open/find reader; no credentials or bypass",
+      "retrievalIntervalUTC": "2026-10-24T02:43:49Z/2026-10-24T02:46:04Z"
+    },
+    {
+      "title": "MHRA alerts index",
+      "url": "https://www.gov.uk/drug-device-alerts",
+      "status": "retrievable_index_only",
+      "result": "First nine entries through September 28-October 2 field notices inspected. Nonchronological issue dates prevent treating top-of-page inspection as complete publication surveillance. Prior attachment gap remains.",
+      "method": "Public web search/open/find reader; no credentials or bypass",
+      "retrievalIntervalUTC": "2026-10-24T02:43:49Z/2026-10-24T02:46:04Z"
+    },
+    {
+      "title": "TGA safety alerts",
+      "url": "https://www.tga.gov.au/safety/safety-monitoring-and-information/safety-alerts",
+      "status": "retrievable_selected_headings",
+      "result": "First two headings show September 14 counterfeit retatrutide and August 25 skin-brightening product alerts; no new-window watched notice established.",
+      "method": "Public web search/open/find reader; no credentials or bypass",
+      "retrievalIntervalUTC": "2026-10-24T02:43:49Z/2026-10-24T02:46:04Z"
+    },
+    {
+      "title": "TGA safety updates",
+      "url": "https://www.tga.gov.au/news/safety-updates",
+      "status": "retrievable_selected_headings",
+      "result": "Six latest headings inspected; newest October 14 vaccine preparation. No new-window watched notice established.",
+      "method": "Public web search/open/find reader; no credentials or bypass",
+      "retrievalIntervalUTC": "2026-10-24T02:43:49Z/2026-10-24T02:46:04Z"
+    },
+    {
+      "title": "TGA market actions",
+      "url": "https://www.tga.gov.au/safety/recalls-and-other-market-actions/market-actions",
+      "status": "retrievable_selected_headings",
+      "result": "First four headings inspected; newest October 16 avacopan withdrawal. This is not enumeration of the interactive DRAC database.",
+      "method": "Public web search/open/find reader; no credentials or bypass",
+      "retrievalIntervalUTC": "2026-10-24T02:43:49Z/2026-10-24T02:46:04Z"
+    },
+    {
+      "title": "TGA PI year table",
+      "url": "https://www.tga.gov.au/product-information-safety-updates-year-table",
+      "status": "retrievable_with_posting_lag_limit",
+      "result": "Page says last updated September 29 despite fresh search metadata. Top approval dates July 30; downloadable table described as through August. Current-window labeling completeness unverified.",
+      "method": "Public web search/open/find reader; no credentials or bypass",
+      "retrievalIntervalUTC": "2026-10-24T02:43:49Z/2026-10-24T02:46:04Z"
+    },
+    {
+      "title": "Health Canada recall homepage",
+      "url": "https://recalls-rappels.canada.ca/en",
+      "status": "retrievable",
+      "result": "Ten displayed rows inspected. Newest October 23 food-allergen recall and two October 22 consumer-product recalls fall outside watched therapies. October 21 cannabis-labeling recall remains prior-window adjacent evidence.",
+      "method": "Public web search/open/find reader; no credentials or bypass",
+      "retrievalIntervalUTC": "2026-10-24T02:43:49Z/2026-10-24T02:46:04Z"
+    },
+    {
+      "title": "ESSTS partners",
+      "url": "https://www.essts.org/partners",
+      "status": "retrievable",
+      "result": "Describes 2022 clinical guideline version 2.0 and another update under consideration, not newly issued.",
+      "method": "Public web search/open/find reader; no credentials or bypass",
+      "retrievalIntervalUTC": "2026-10-24T02:43:49Z/2026-10-24T02:46:04Z"
+    },
+    {
+      "title": "ESSTS news",
+      "url": "https://www.essts.org/news",
+      "status": "retrievable_but_client_cache_variation",
+      "result": "Reader news index leads September 14; search-exposed society homepage includes October 12 podcast. Neither view establishes a new-window guideline; differing views limit freshness inference.",
+      "method": "Public web search/open/find reader; no credentials or bypass",
+      "retrievalIntervalUTC": "2026-10-24T02:43:49Z/2026-10-24T02:46:04Z"
+    },
+    {
+      "title": "AAN guideline document",
+      "url": "https://www.aan.com/Guidelines/Home/GetGuidelineContent/964",
+      "status": "retrievable_historical_pdf",
+      "result": "Front matter identifies AAN board approval February 12, 2019. No new edition established by this historical document check.",
+      "method": "Public web search/open/find reader; no credentials or bypass",
+      "retrievalIntervalUTC": "2026-10-24T02:43:49Z/2026-10-24T02:46:04Z"
+    },
+    {
+      "title": "NICE NG127",
+      "url": "https://www.nice.org.uk/guidance/ng127",
+      "status": "access_limited_http_403",
+      "result": "Reader returned HTTP403 Forbidden; current changes unverified. No authentication/security change or bypass attempted.",
+      "method": "Public web search/open/find reader; no credentials or bypass",
+      "retrievalIntervalUTC": "2026-10-24T02:43:49Z/2026-10-24T02:46:04Z"
+    }
+  ],
+  "newQualifyingWatchedNoticeVerified": false,
+  "worldwideExhaustivenessClaimed": false,
+  "timestampNote": "Bracketed tool-call interval, not instrumented per-page instants.",
+  "dateRule": "Source-day metadata is separate from precise posting time. Newly observed October23 EMA documents lack an intraday posting timestamp, so exact placement after the prior cutoff remains unverified."
+}

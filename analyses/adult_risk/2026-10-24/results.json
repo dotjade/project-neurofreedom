@@ -1,0 +1,158 @@
+{
+  "analysis_type": "published-aggregate documentation arithmetic; not simulation",
+  "seed": null,
+  "stage_proportions": {
+    "response_of_invited": {
+      "numerator": 334,
+      "denominator": 758,
+      "percent": 44.063325
+    },
+    "complete_of_responded": {
+      "numerator": 292,
+      "denominator": 334,
+      "percent": 87.42515
+    },
+    "retained_of_complete": {
+      "numerator": 258,
+      "denominator": 292,
+      "percent": 88.356164
+    },
+    "retained_of_invited": {
+      "numerator": 258,
+      "denominator": 758,
+      "percent": 34.036939
+    },
+    "current_tics_in_retained": {
+      "numerator": 247,
+      "denominator": 258,
+      "percent": 95.736434
+    },
+    "current_reused_as_adult_worst": {
+      "numerator": 50,
+      "denominator": 258,
+      "percent": 19.379845
+    }
+  },
+  "stage_differences": {
+    "did_not_respond": 424,
+    "responded_without_complete_tic_items": 42,
+    "excluded_after_tic_item_completeness": 34
+  },
+  "rounding_compatible_denominators": [
+    {
+      "field": "male",
+      "count": 144,
+      "percent": "56.0",
+      "source_locator": "Table 1",
+      "candidates": [
+        257
+      ],
+      "conditional_missing_or_unknown_counts": [
+        1
+      ],
+      "status": "conditional arithmetic, NOT author-confirmed denominator or regression sample"
+    },
+    {
+      "field": "white",
+      "count": 240,
+      "percent": "93.4",
+      "source_locator": "Table 1",
+      "candidates": [
+        257
+      ],
+      "conditional_missing_or_unknown_counts": [
+        1
+      ],
+      "status": "conditional arithmetic, NOT author-confirmed denominator or regression sample"
+    },
+    {
+      "field": "non_hispanic",
+      "count": 252,
+      "percent": "98.4",
+      "source_locator": "Table 1",
+      "candidates": [
+        256
+      ],
+      "conditional_missing_or_unknown_counts": [
+        2
+      ],
+      "status": "conditional arithmetic, NOT author-confirmed denominator or regression sample"
+    },
+    {
+      "field": "current_medication",
+      "count": 72,
+      "percent": "27.9",
+      "source_locator": "Table 1",
+      "candidates": [
+        258
+      ],
+      "conditional_missing_or_unknown_counts": [
+        0
+      ],
+      "status": "conditional arithmetic, NOT author-confirmed denominator or regression sample"
+    },
+    {
+      "field": "family_history",
+      "count": 155,
+      "percent": "66.8",
+      "source_locator": "Table 1",
+      "candidates": [
+        232
+      ],
+      "conditional_missing_or_unknown_counts": [
+        26
+      ],
+      "status": "conditional arithmetic, NOT author-confirmed denominator or regression sample"
+    },
+    {
+      "field": "ocd",
+      "count": 124,
+      "percent": "59.6",
+      "source_locator": "Table 1",
+      "candidates": [
+        208
+      ],
+      "conditional_missing_or_unknown_counts": [
+        50
+      ],
+      "status": "conditional arithmetic, NOT author-confirmed denominator or regression sample"
+    },
+    {
+      "field": "adhd",
+      "count": 67,
+      "percent": "26.6",
+      "source_locator": "Table 1",
+      "candidates": [
+        252
+      ],
+      "conditional_missing_or_unknown_counts": [
+        6
+      ],
+      "status": "conditional arithmetic, NOT author-confirmed denominator or regression sample"
+    },
+    {
+      "field": "life_event",
+      "count": 153,
+      "percent": "59.3",
+      "source_locator": "Table 1",
+      "candidates": [
+        258
+      ],
+      "conditional_missing_or_unknown_counts": [
+        0
+      ],
+      "status": "conditional arithmetic, NOT author-confirmed denominator or regression sample"
+    }
+  ],
+  "model_counts": {
+    "adult_worst_tts": null,
+    "adult_worst_impairment": null
+  },
+  "no_model_n_inferred": true,
+  "interpretation_limits": [
+    "Rounding assumption may be wrong; percentages may contain errors.",
+    "Single-variable denominators do not reveal joint overlap, outcome availability, imputation or regression n.",
+    "Retained sample is selected, not a population persistence denominator.",
+    "No inference of missing-at-random, exposure order, predictive performance or treatment harm."
+  ]
+}

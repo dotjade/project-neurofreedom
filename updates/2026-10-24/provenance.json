@@ -1,0 +1,62 @@
+{
+  "repository": "dotjade/project-neurofreedom",
+  "read_only_commit": "275d4cbb7386f41dc275395a11acad3a479c5a95",
+  "sources": [
+    {
+      "path": "README.md",
+      "sha256": "6b1d997e495751f81c97048c86cd8864732cdd8313cc3d9363605bb4425721d2",
+      "baseline_input": false
+    },
+    {
+      "path": "RESEARCH_PROTOCOL.md",
+      "sha256": "6f0025df7fd62fc2fe952cfbca96fca811ae76b917b7e7d4d45a501fe89e6859",
+      "baseline_input": false
+    },
+    {
+      "path": "STATUS.md",
+      "sha256": "ffefbae786946ce283970b5627399c437f23bc9e8bf5243e05cad9aff2b5f548",
+      "baseline_input": false
+    },
+    {
+      "path": "public/journal-source/README.md",
+      "sha256": "809173b6459331730d4fd9b0df135079b1e8dfdb030f4babbfc0055fcec1197e",
+      "baseline_input": false
+    },
+    {
+      "path": "evidence.jsonl",
+      "sha256": "8eb068d38c45b99937374c5aa0f23cafaaf5a36cd64e0d362d9cf79836c145af",
+      "baseline_input": false
+    },
+    {
+      "path": "updates/2026-10-23/report.md",
+      "sha256": "c1ad8863308612899c0eb2e4aab1d93b84f81f590ff5c816168d19046a01daea",
+      "baseline_input": false
+    },
+    {
+      "path": "updates/2026-10-23/summary.json",
+      "sha256": "39a82e3645e9b5ee3bad8aa5952cc7476ad8ba7e94a4e4e9e864c696abfaea54",
+      "baseline_input": true
+    },
+    {
+      "path": "updates/2026-10-23/pubmed-screening.jsonl",
+      "sha256": "b19ae114c9bb0c0df290b7dd8e0d57ae39f19102f827b5655da074a1e2182582",
+      "baseline_input": true
+    },
+    {
+      "path": "updates/2026-10-23/registry-evidence.jsonl",
+      "sha256": "3bfcc2f582acb49ee46d578a5d571c78432823d72bb3e27520b39032902bb926",
+      "baseline_input": true
+    },
+    {
+      "path": "updates/2026-10-23/biorxiv-preprint-index.tsv",
+      "sha256": "9ca6bc92641c0cd1be8b736eedc09bbcc68920bc81cc0ca2a6605223158691f6",
+      "baseline_input": true
+    },
+    {
+      "path": "updates/2026-10-23/medrxiv-preprint-index.tsv",
+      "sha256": "93cf9d61964d9d56515c15332df9366b2479c02d8b2a91e090daf98c2d8cd2a5",
+      "baseline_input": true
+    }
+  ],
+  "retention": "Public source metadata and original summaries only. No source abstracts, full text, contact fields or participant measurement rows retained."
+}

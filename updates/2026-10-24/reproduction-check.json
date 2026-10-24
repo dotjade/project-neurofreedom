@@ -1,0 +1,42 @@
+{
+  "status": "passed",
+  "reproduced_files": 7,
+  "checks": [
+    {
+      "path": "search-log.json",
+      "byte_identical": true,
+      "sha256": "9f1277ef91d90bd0c74f77695eda6f8387378086efbcf380b90c9f706789550b"
+    },
+    {
+      "path": "request-log.json",
+      "byte_identical": true,
+      "sha256": "0a956b6fa19616023a08f2f9cbe2172d6b36eebddbf137cb0be178b7474a047e"
+    },
+    {
+      "path": "pubmed-screening.jsonl",
+      "byte_identical": true,
+      "sha256": "5b7e1c7a6c27e97851ed3965259cdfa361ed70e32056ca3161d7e0f9ba5a8ebb"
+    },
+    {
+      "path": "registry-evidence.jsonl",
+      "byte_identical": true,
+      "sha256": "10385fdec8dfbe2ad6e3b7ec2571a075aef8f3f592a12a1b942f25e57a71dd5c"
+    },
+    {
+      "path": "biorxiv-preprint-index.tsv",
+      "byte_identical": true,
+      "sha256": "c94552e2b33785f3c7c4d7a75b205e1056febf54f85e3572fc37bd11732d80a0"
+    },
+    {
+      "path": "medrxiv-preprint-index.tsv",
+      "byte_identical": true,
+      "sha256": "801184bb81a606898e59f491b9c8f888c6dfbce0f861aa21661cb94a2db08113"
+    },
+    {
+      "path": "summary.json",
+      "byte_identical": true,
+      "sha256": "9c2b8f52f9ef51a3479cf7a54ef6206b06206d03a677d8253fb86c6153529568"
+    }
+  ],
+  "scope": "Saved selected metadata only, no new live queries or clinical recalculation."
+}

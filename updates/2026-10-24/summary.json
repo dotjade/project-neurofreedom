@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-24",
+  "strict_prior_cutoff_utc": "2026-10-23T02:57:07.490048+00:00",
+  "core_started_utc": "2026-10-24T02:44:06.135112+00:00",
+  "core_completed_utc": "2026-10-24T02:45:24.341792+00:00",
+  "pubmed_unique_records": 19,
+  "pubmed_id_occurrences": 28,
+  "pubmed_previous_day_overlap": 13,
+  "newly_indexed_records": 2,
+  "newly_indexed_primary_records_added": 1,
+  "newly_indexed_case_reports_metadata_only": 1,
+  "new_to_repository_primary_records": 1,
+  "verified_new_primary_publications_since_prior_cutoff": 0,
+  "unknown_exact_publication_date_records": 1,
+  "historical_or_previous_scan_metadata_records": 17,
+  "preprint_doi_versions": 597,
+  "preprint_lexical_matches": 1,
+  "qualifying_preprints": 0,
+  "registry_update_window_unique_ids": [
+    "NCT07137442"
+  ],
+  "new_posted_trial_results": 0,
+  "new_retractions": 0,
+  "api_request_errors": 0,
+  "decision": "One newly indexed October 7 adjacent methods paper cannot validate tic-detection sensitivity because no external consensus-positive tics were present. A newly indexed case report is metadata-only. No new qualifying preprint or posted trial result verified."
+}

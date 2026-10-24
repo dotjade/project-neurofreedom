@@ -1,0 +1,86 @@
+{
+  "date": "2026-10-24",
+  "purpose": "Bounded discovery supplement, not exhaustive database search",
+  "batches": [
+    {
+      "bracket_utc": [
+        "2026-10-24T02:43:49Z",
+        "2026-10-24T02:44:08Z"
+      ],
+      "queries": [
+        "Tourette \"October 23, 2026\" study",
+        "Tourette \"October 24, 2026\" trial",
+        "Tourette tic disorder adult severe burden comorbidity trial after:2026-10-22 before:2026-10-25",
+        "Tourette tics negative null randomized trial retraction correction after:2026-10-22 before:2026-10-25"
+      ]
+    },
+    {
+      "bracket_utc": [
+        "2026-10-24T02:44:40Z",
+        "2026-10-24T02:44:47Z"
+      ],
+      "queries": [
+        {
+          "query": "Tourette \"October 2026\" after:2026-10-22 before:2026-10-25",
+          "domains": [
+            "pubmed.ncbi.nlm.nih.gov",
+            "frontiersin.org",
+            "nature.com",
+            "onlinelibrary.wiley.com"
+          ]
+        },
+        {
+          "query": "\"tic disorder\" after:2026-10-22 before:2026-10-25",
+          "domains": [
+            "pubmed.ncbi.nlm.nih.gov",
+            "frontiersin.org",
+            "sciencedirect.com",
+            "springer.com"
+          ]
+        },
+        {
+          "query": "Tourette trial \"2026\" \"October\" severe adults pain function negative",
+          "domains": [
+            "clinicaltrials.gov",
+            "isrctn.com",
+            "medrxiv.org",
+            "biorxiv.org"
+          ]
+        },
+        {
+          "query": "Tourette retraction correction \"2026\" after:2026-10-22 before:2026-10-25",
+          "domains": [
+            "pubmed.ncbi.nlm.nih.gov",
+            "nature.com",
+            "frontiersin.org",
+            "onlinelibrary.wiley.com"
+          ]
+        }
+      ]
+    }
+  ],
+  "selected_leads": [
+    {
+      "url": "https://www.medrxiv.org/content/10.64898/2026.09.29.26364036v1",
+      "decision": "Known preprint already extracted October 12. Search crawl date is not a new preprint version."
+    },
+    {
+      "url": "https://ctis.eu/trial/2024-512949-17-00",
+      "decision": "Nonofficial mirror, previously referenced. Not used to establish current official registry status."
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/child-and-adolescent-psychiatry/articles/10.3389/frcha.2026.1936806/full",
+      "decision": "October 2 systematic review, not a new primary report."
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/neurology/articles/10.3389/fneur.2026.1904458/full",
+      "decision": "Direct primary confirmation of PubMed lead; October 7 publication, October 23 entry."
+    }
+  ],
+  "excluded_classes": [
+    "Unrelated events and lexical matches",
+    "Nonprimary summaries and old guidance",
+    "Personal health narratives accidentally returned by general search; no URLs, stories or identifiers retained"
+  ],
+  "limits": "Web date operators and crawl dates are discovery aids, not publication-date evidence. Core API search and primary metadata govern inclusion."
+}

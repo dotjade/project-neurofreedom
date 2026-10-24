@@ -1,0 +1,31 @@
+[
+  {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=13683199&retmode=xml",
+    "started_utc": "2026-10-24T02:46:02.984795+00:00",
+    "status": 200,
+    "bytes": 181164,
+    "sha256": "17c03753442413a9b373fff84d865d686d8eaa136a05d695060f0bb357454ac9",
+    "selected_metadata": {
+      "doi": "10.3389/fneur.2026.1904458",
+      "pmc": "PMC13683199",
+      "title": "Simultaneous hyperkinetic movement disorders phenotyping: a cross-cohort pediatric transfer study using routine videos, markerless pose estimation and a tabular foundation model",
+      "publication_dates": [
+        {
+          "publication-format": "electronic",
+          "date-type": "pub",
+          "iso-8601-date": "2026-10-07",
+          "day": "07",
+          "month": "10",
+          "year": "2026"
+        },
+        {
+          "publication-format": "electronic",
+          "date-type": "collection",
+          "year": "2026"
+        }
+      ],
+      "license_url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "completed_utc": "2026-10-24T02:46:07.776625+00:00"
+  }
+]

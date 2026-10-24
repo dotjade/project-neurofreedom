@@ -1,0 +1,16 @@
+{
+  "base_commit": "275d4cbb7386f41dc275395a11acad3a479c5a95",
+  "read_date": "2026-10-24",
+  "files": {
+    "README.md": "6b1d997e495751f81c97048c86cd8864732cdd8313cc3d9363605bb4425721d2",
+    "RESEARCH_PROTOCOL.md": "6f0025df7fd62fc2fe952cfbca96fca811ae76b917b7e7d4d45a501fe89e6859",
+    "STATUS.md": "ffefbae786946ce283970b5627399c437f23bc9e8bf5243e05cad9aff2b5f548",
+    "evidence.jsonl": "8eb068d38c45b99937374c5aa0f23cafaaf5a36cd64e0d362d9cf79836c145af",
+    "public/journal-source/README.md": "809173b6459331730d4fd9b0df135079b1e8dfdb030f4babbfc0055fcec1197e",
+    "public/UPDATE_WORKFLOW.md": "f9d9a9b17bfbb06c8b075abad60495b9aeef58c96e768ea3d56a3d47c29a2d3f",
+    "updates/2026-10-23/report.md": "c1ad8863308612899c0eb2e4aab1d93b84f81f590ff5c816168d19046a01daea",
+    "public/research-feed.json": "2265e3fd16672886b0bce66078bc3c26ea550c102daf21ecc78e5e5fb1fe8c4d"
+  },
+  "source": "https://github.com/dotjade/project-neurofreedom",
+  "boundary": "No private or individual/family information included."
+}

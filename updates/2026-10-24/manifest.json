@@ -1,0 +1,136 @@
+{
+  "created_utc": "2026-10-24T02:51:19.330050+00:00",
+  "scope": "Authored source, selected metadata, summaries and reproduction record. Manifest and mutable validation self-report excluded to avoid circular hashing. Integration appended a cross-link section to report.md; report hash updated after that authored addition.",
+  "files": [
+    {
+      "path": "artifact-map.json",
+      "bytes": 1354,
+      "sha256": "f3a183eb8db026ca303a9e4e0b964cb1916254fe848dd3b22ca569e5abb524c3"
+    },
+    {
+      "path": "biorxiv-preprint-index.tsv",
+      "bytes": 18869,
+      "sha256": "c94552e2b33785f3c7c4d7a75b205e1056febf54f85e3572fc37bd11732d80a0"
+    },
+    {
+      "path": "build_results.py",
+      "bytes": 7368,
+      "sha256": "3d7332b1134fa47f780cee03a7817aa501f3b141f42f63f1aef57639518c06c0"
+    },
+    {
+      "path": "check_integrity_controls.py",
+      "bytes": 1493,
+      "sha256": "f9a01cc7a47b548f65e53c3a076df8a7a7f36972bebe64985f8c6569eedbefd7"
+    },
+    {
+      "path": "check_primary_sources.py",
+      "bytes": 1738,
+      "sha256": "90c19346c024e8b173af1033b4ca74f80fd593451172252695d8195fedee3292"
+    },
+    {
+      "path": "discovery-log.json",
+      "bytes": 3033,
+      "sha256": "bdfc94047e7cf519c30f0ef6b7c345aff814cc6ac48e5d8a2c05463a2d22e722"
+    },
+    {
+      "path": "integrity-control-source.json",
+      "bytes": 1679,
+      "sha256": "9861894fc8fca4627d75e194d4516cd3a61f3b35c43e64fa5975745c897b9f75"
+    },
+    {
+      "path": "integrity-recheck.json",
+      "bytes": 779,
+      "sha256": "4dffea2a6fb86b132517ceff12b6f5f76b2dfb4e2741561be103c0ec5cdda5e2"
+    },
+    {
+      "path": "medrxiv-preprint-index.tsv",
+      "bytes": 5259,
+      "sha256": "801184bb81a606898e59f491b9c8f888c6dfbce0f861aa21661cb94a2db08113"
+    },
+    {
+      "path": "prepare_baseline.py",
+      "bytes": 1280,
+      "sha256": "aa3d043e00f76c07407ef42a404901e46a850414f89a32c768506dcb75f917c2"
+    },
+    {
+      "path": "primary-evidence.jsonl",
+      "bytes": 5527,
+      "sha256": "619934eaee16ff91ff3227ebfeabc36bdddbd0fb70adcafc3ea3f2b981256429"
+    },
+    {
+      "path": "primary-source-checks.json",
+      "bytes": 1094,
+      "sha256": "346c21c8be370818dbbd7964de4a36dda23b3c8771cf066640cdc97cc38ae0dd"
+    },
+    {
+      "path": "provenance.json",
+      "bytes": 2200,
+      "sha256": "eeb2220b107a2fbb9fed6dd57409ee4ee589f5fb0c486d4e12c504a440a6e0f4"
+    },
+    {
+      "path": "pubmed-screening.jsonl",
+      "bytes": 28445,
+      "sha256": "5b7e1c7a6c27e97851ed3965259cdfa361ed70e32056ca3161d7e0f9ba5a8ebb"
+    },
+    {
+      "path": "registry-evidence.jsonl",
+      "bytes": 6455,
+      "sha256": "10385fdec8dfbe2ad6e3b7ec2571a075aef8f3f592a12a1b942f25e57a71dd5c"
+    },
+    {
+      "path": "report.md",
+      "bytes": 12184,
+      "sha256": "3b17e4e0b93881db68f86ed71c8042d841ec296351580811e5f459ca3340bf6f"
+    },
+    {
+      "path": "reproduction-check.json",
+      "bytes": 1307,
+      "sha256": "fa3580ec3b39074334cce05b215f612f876082b6b74159ead9b68c3175f5412c"
+    },
+    {
+      "path": "request-log.json",
+      "bytes": 15190,
+      "sha256": "0a956b6fa19616023a08f2f9cbe2172d6b36eebddbf137cb0be178b7474a047e"
+    },
+    {
+      "path": "scan_sources.py",
+      "bytes": 9469,
+      "sha256": "b15b07e69771583e3252819a66c0156bc14f631d35cc19b5fc44e5d2f769b8d3"
+    },
+    {
+      "path": "scan_supplement.py",
+      "bytes": 2349,
+      "sha256": "79c6d729dc3ae091d907b83ab47e33c5267758330305fe008acd2495b1ee59f5"
+    },
+    {
+      "path": "search-log.json",
+      "bytes": 21453,
+      "sha256": "9f1277ef91d90bd0c74f77695eda6f8387378086efbcf380b90c9f706789550b"
+    },
+    {
+      "path": "summary.json",
+      "bytes": 1152,
+      "sha256": "9c2b8f52f9ef51a3479cf7a54ef6206b06206d03a677d8253fb86c6153529568"
+    },
+    {
+      "path": "supplement-selected-metadata.json",
+      "bytes": 2793,
+      "sha256": "a7ed86765b06ff5cd663c3514f41c8fb0517a67c5d8a2fb2c85aee0d51750970"
+    },
+    {
+      "path": "validate_artifacts.py",
+      "bytes": 7438,
+      "sha256": "cf1a0509d2c09d73b9254d65bc94af3d1a6b11d5e55859fbcd8c59f438e06bc4"
+    },
+    {
+      "path": "verify_reproduction.py",
+      "bytes": 1856,
+      "sha256": "d4cfabdabc488fc0c5abe9472277971d9846524fbb753117032f92520721b74c"
+    },
+    {
+      "path": "who-homepage-check.json",
+      "bytes": 920,
+      "sha256": "0415f28106e3706d07538f305faed69aa34242c875d159b84f8b8c8d873143de"
+    }
+  ]
+}

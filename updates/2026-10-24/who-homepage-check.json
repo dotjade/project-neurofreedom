@@ -1,0 +1,19 @@
+{
+  "url": "https://trialsearch.who.int/",
+  "started_utc": "2026-10-24T02:46:04.622303+00:00",
+  "status": 200,
+  "bytes": 36376,
+  "sha256": "9eadcd353ea592492401c1cdea123dd8ac742f639cdb54ee4d3ba2e27679c2ed",
+  "completed_utc": "2026-10-24T02:46:10.228740+00:00",
+  "purpose": "Inspect public homepage form metadata and dataset update labels; no full page retained.",
+  "preliminary_local_parser_failure": "bs4 unavailable before any network request; standard library fallback used, no package installation.",
+  "selected_dataset_import_dates": {
+    "weekly_listed_providers": "2026-10-19",
+    "other_visible_dates": [
+      "2026-10-12",
+      "2026-09-14"
+    ]
+  },
+  "query_export_obtained": false,
+  "interpretation": "Homepage readable; displayed import labels predate current scan. No Tourette query export was obtained; not proof of worldwide no-update coverage. No session state or source body retained."
+}

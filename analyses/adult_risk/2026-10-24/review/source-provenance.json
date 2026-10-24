@@ -1,0 +1,20 @@
+{
+  "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=13680449&retmode=xml",
+  "started_utc": "2026-10-24T02:49:29.284807+00:00",
+  "completed_utc": "2026-10-24T02:49:32.547163+00:00",
+  "http_status": 200,
+  "response_bytes": 123206,
+  "response_sha256": "9ffcfc1906499154bf98bae4557380416475f8cee8a24be284a6ecaecc0451e9",
+  "identifiers": {
+    "pmcid": "PMC13680449",
+    "pmcid-ver": "PMC13680449.1",
+    "pmcaid": "13680449",
+    "pmcaiid": "13680449",
+    "pmid": "42903303",
+    "doi": "10.3389/fpsyt.2026.1948693"
+  },
+  "full_text_saved": false,
+  "participant_data_or_figures_saved": false,
+  "publisher_read": "Official Frontiers HTML via web tool; methods, Tables 1-5, discussion read",
+  "web_PMC_access_limit": "PMC HTML web.open failed with cache miss; official EFetch XML succeeded without bypass or escalation."
+}
