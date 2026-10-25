@@ -1,0 +1,17 @@
+{
+  "commit": "cf765847a7e12ac5f39ea99a3bc8e8676a2b7fb3",
+  "checked_utc": "2026-10-25T03:45:21.864366+00:00",
+  "authored_files_exact": 15,
+  "unrelated_files_preserved": 787,
+  "unexpected_paths": [],
+  "anonymous_report_status": 200,
+  "anonymous_report_sha256": "f4728a8e54d9e3478f7abb39180b7340dfb644e6ff46dec69e26ffb03a3dfd0d",
+  "anonymous_checked_utc": "2026-10-25T03:46:04.576186+00:00",
+  "connector_results_readback": true,
+  "connector_report_heading_readback": true,
+  "implementation_tests": 13,
+  "independent_arithmetic_checks": 13,
+  "ci": "No run expected: repository workflow paths only match public journal source/feed/config, all unchanged.",
+  "homepage": "Daily October25 edition and all public files preserved; no new homepage publication claimed.",
+  "privacy": "Public repository verified; original public-science summaries and aggregate arithmetic only."
+}
