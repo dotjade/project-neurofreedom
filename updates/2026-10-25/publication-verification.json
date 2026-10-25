@@ -1,0 +1,108 @@
+{
+  "research_commit": "5ac2b41130e251ca7750fbf93e93b20d48712d98",
+  "verified_utc": "2026-10-25T02:54:19.330845+00:00",
+  "git_readback": {
+    "commit": "5ac2b41130e251ca7750fbf93e93b20d48712d98",
+    "checked_utc": "2026-10-25T02:52:29.581131+00:00",
+    "authored_files_exact": 61,
+    "unrelated_files_preserved": 727,
+    "unexpected_paths": []
+  },
+  "connector_feed_exact_bytes": true,
+  "connector_feed_blob_sha": "e09558ae0b2c6965dccf2087be6db55ae6aa0764",
+  "workflow": {
+    "checked_utc": "2026-10-25T02:53:38.500120+00:00",
+    "commit": "5ac2b41130e251ca7750fbf93e93b20d48712d98",
+    "runs": [
+      {
+        "id": 40156099146,
+        "status": "completed",
+        "conclusion": "success",
+        "html_url": "https://github.com/dotjade/project-neurofreedom/actions/runs/40156099146",
+        "jobs": [
+          {
+            "name": "check",
+            "status": "completed",
+            "conclusion": "success",
+            "completed_at": "2026-10-25T02:52:40Z"
+          },
+          {
+            "name": "deploy",
+            "status": "completed",
+            "conclusion": "success",
+            "completed_at": "2026-10-25T02:53:04Z"
+          }
+        ]
+      }
+    ]
+  },
+  "anonymous_http": [
+    {
+      "label": "raw_source",
+      "url": "https://raw.githubusercontent.com/dotjade/project-neurofreedom/main/public/research-feed.json",
+      "checked_utc": "2026-10-25T02:53:46.421029+00:00",
+      "http_status": "200",
+      "curl_exit": 0,
+      "error": "",
+      "bytes": 13472,
+      "sha256": "6a4af583a95081ad8410584ccd53829d09389e58b279e99adee910de09ae4e68",
+      "exact_authored_bytes": true,
+      "updatedAt": "2026-10-25T02:50:28Z",
+      "lastResearchDate": "2026-10-25",
+      "activityEditionDate": "2026-10-25",
+      "featuredActivityId": "music-or-silence",
+      "feedbackDisabled": true,
+      "activity_count": 6
+    },
+    {
+      "label": "production",
+      "url": "https://tourette.fyi/api/public-feed",
+      "checked_utc": "2026-10-25T02:53:51.197140+00:00",
+      "http_status": "200",
+      "curl_exit": 0,
+      "error": "",
+      "bytes": 13472,
+      "sha256": "6a4af583a95081ad8410584ccd53829d09389e58b279e99adee910de09ae4e68",
+      "exact_authored_bytes": true,
+      "updatedAt": "2026-10-25T02:50:28Z",
+      "lastResearchDate": "2026-10-25",
+      "activityEditionDate": "2026-10-25",
+      "featuredActivityId": "music-or-silence",
+      "feedbackDisabled": true,
+      "activity_count": 6,
+      "repository_source_header": true
+    },
+    {
+      "label": "report",
+      "url": "https://github.com/dotjade/project-neurofreedom/blob/main/analyses/asd_measurement/2026-10-25/report.md",
+      "checked_utc": "2026-10-25T02:53:56.260984+00:00",
+      "http_status": "200",
+      "curl_exit": 0,
+      "error": "",
+      "bytes": 271340,
+      "sha256": "0b61b3b98d42796111fe83e4fb53a6a995cf80b5bb2958820b6b14bec7ab22e1",
+      "expected_title_present": true
+    },
+    {
+      "label": "feedback",
+      "url": "https://tourette.fyi/feedback-config.json",
+      "checked_utc": "2026-10-25T02:54:00.839250+00:00",
+      "http_status": "200",
+      "curl_exit": 0,
+      "error": "",
+      "bytes": 66,
+      "sha256": "921c0e74bdcdb85c79c11bd2e7d9fa3b8fdfcb12fd74114c3a51a659f3cde133",
+      "config": {
+        "enabled": false,
+        "apiOrigin": null,
+        "verifiedAt": null
+      }
+    }
+  ],
+  "limits": [
+    "No new rendered-page/mobile/zoom/real-device narration certification.",
+    "No static source, deployment configuration, security settings or activity catalog changed.",
+    "Scan provenance validator requires pinned pre-integration baseline; initial run on edited checkout failed source-hash guard, rerun on archived baseline passed31 checks. Seven normalized outputs reproduced byte-identically.",
+    "Integration manifest describes research commit before this later receipt."
+  ]
+}
