@@ -1,0 +1,19 @@
+{
+  "checked_utc": "2026-10-25T02:45:18Z",
+  "queries": [
+    "Tourette tic disorder study October 24 25 2026 trial preprint",
+    "site.medrxiv.org Tourette October 2026",
+    "site.clinicaltrials.gov Tourette October 24 2026"
+  ],
+  "reviewed_primary_leads": [
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42856611/",
+      "decision": "Existing CBIT/TMS preprint overlap, not new version verified."
+    },
+    {
+      "url": "https://jamanetwork.com/journals/jamaneurology/fullarticle/2849573",
+      "decision": "Existing May26 ecopipam publication; new crawl does not establish new outcome."
+    }
+  ],
+  "limits": "Discovery results are not comprehensive; aggregators and community recruitment content not used as evidence or retained."
+}

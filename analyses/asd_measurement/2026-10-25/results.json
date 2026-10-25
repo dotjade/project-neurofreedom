@@ -1,0 +1,51 @@
+{
+  "analysis_type": "Deterministic arithmetic on published aggregates, not a simulation",
+  "seed": null,
+  "seed_reason": "No random sampling",
+  "model_coverage": {
+    "impairment": {
+      "analyzed": 483,
+      "not_in_model": 52,
+      "fraction_of_total": 0.902803738317757
+    },
+    "tic_severity": {
+      "analyzed": 485,
+      "not_in_model": 50,
+      "fraction_of_total": 0.9065420560747663
+    }
+  },
+  "model_overlap_bounds": {
+    "minimum": 433,
+    "maximum": 483,
+    "assumption": "Both reported model samples are subsets of the same 535-person cohort. Bounds are mathematical, not observed overlap."
+  },
+  "comparisons": {
+    "impairment": {
+      "unadjusted_asd_minus_non_asd": -3.06,
+      "unadjusted_p": 0.111,
+      "adjusted_asd_coefficient": -4.49,
+      "adjusted_ci": [
+        -8.46,
+        -0.51
+      ],
+      "adjusted_p": 0.027,
+      "adjusted_ci_contains_zero": false,
+      "difference_between_coefficients_not_causal_decomposition": true
+    },
+    "tic_severity": {
+      "unadjusted_asd_minus_non_asd": 1.84,
+      "unadjusted_p": 0.152,
+      "adjusted_asd_coefficient": -0.31,
+      "adjusted_ci": [
+        -2.91,
+        2.29
+      ],
+      "adjusted_p": 0.814,
+      "adjusted_ci_contains_zero": true,
+      "difference_between_coefficients_not_causal_decomposition": true
+    }
+  },
+  "adult_specific_estimate_identified": false,
+  "measurement_mechanism_test_identified": false,
+  "support_level3_fraction_of_asd": 0.061224489795918366
+}

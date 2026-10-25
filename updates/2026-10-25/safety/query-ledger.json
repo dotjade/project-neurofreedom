@@ -1,0 +1,18 @@
+{
+  "previousCutoff": "2026-10-24T02:46:04Z",
+  "searchIntervalUTC": "2026-10-25T02:44:58Z/2026-10-25T02:45:28Z",
+  "queries": [
+    "site:fda.gov (aripiprazole OR risperidone OR guanfacine OR NeuroStar OR ecopipam) after:2026-10-23 before:2026-10-26",
+    "site:ema.europa.eu (aripiprazole OR risperidone OR pimozide OR haloperidol OR deutetrabenazine) after:2026-10-23 before:2026-10-26",
+    "site:gov.uk (Tourette OR guanfacine OR aripiprazole OR botulinum OR antidepressants) after:2026-10-23 before:2026-10-26",
+    "site:tga.gov.au (Tourette OR methylphenidate OR clonidine OR botulinum OR atomoxetine) after:2026-10-23 before:2026-10-26",
+    "(Tourette OR \"tic disorder\") (guideline OR safety OR warning OR recall) after:2026-10-23 before:2026-10-26",
+    "(ecopipam OR Neupulse OR valbenazine OR tetrabenazine OR topiramate OR tiapride) (safety OR recall OR warning) after:2026-10-23 before:2026-10-26"
+  ],
+  "displayedResultCards": 38,
+  "uniqueEventsNotClaimed": true,
+  "screening": "Date metadata and relevance screening. Search dates overlap cutoff. Crawl dates are not publication dates. Historical pages, general directories, reviews and secondary encyclopedias excluded from new findings. One individual MAUDE report excluded without retaining patient narrative or details.",
+  "qualifyingNewMaterialSafetyFindings": 0,
+  "newIssuedTicGuidelinesVerified": 0,
+  "watch": "Core: ecopipam; aripiprazole, risperidone, pimozide, haloperidol; clonidine, guanfacine; valbenazine, deutetrabenazine, tetrabenazine; Neupulse/median-nerve stimulation, rTMS/NeuroStar, DBS. Supplementary: topiramate, botulinum toxin, tiapride; methylphenidate, atomoxetine, lisdexamfetamine, fluvoxamine, sertraline, antidepressants. Not exhaustive."
+}

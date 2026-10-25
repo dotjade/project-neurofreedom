@@ -1,0 +1,125 @@
+{
+  "passed": 30,
+  "checks": [
+    {
+      "check": "cohort partition",
+      "passed": true
+    },
+    {
+      "check": "ASD support partition",
+      "passed": true
+    },
+    {
+      "check": "impairment subset",
+      "passed": true
+    },
+    {
+      "check": "impairment excluded arithmetic",
+      "passed": true
+    },
+    {
+      "check": "impairment coverage",
+      "passed": true
+    },
+    {
+      "check": "impairment interval order",
+      "passed": true
+    },
+    {
+      "check": "impairment source beta",
+      "passed": true
+    },
+    {
+      "check": "impairment source p",
+      "passed": true
+    },
+    {
+      "check": "impairment no causal decomposition",
+      "passed": true
+    },
+    {
+      "check": "tic_severity subset",
+      "passed": true
+    },
+    {
+      "check": "tic_severity excluded arithmetic",
+      "passed": true
+    },
+    {
+      "check": "tic_severity coverage",
+      "passed": true
+    },
+    {
+      "check": "tic_severity interval order",
+      "passed": true
+    },
+    {
+      "check": "tic_severity source beta",
+      "passed": true
+    },
+    {
+      "check": "tic_severity source p",
+      "passed": true
+    },
+    {
+      "check": "tic_severity no causal decomposition",
+      "passed": true
+    },
+    {
+      "check": "overlap lower",
+      "passed": true
+    },
+    {
+      "check": "overlap upper",
+      "passed": true
+    },
+    {
+      "check": "impairment contrast",
+      "passed": true
+    },
+    {
+      "check": "severity contrast",
+      "passed": true
+    },
+    {
+      "check": "severity interval includes zero",
+      "passed": true
+    },
+    {
+      "check": "adult count unknown",
+      "passed": true
+    },
+    {
+      "check": "not adult estimate",
+      "passed": true
+    },
+    {
+      "check": "not mechanism validation",
+      "passed": true
+    },
+    {
+      "check": "no random seed",
+      "passed": true
+    },
+    {
+      "check": "byte reproducibility",
+      "passed": true
+    },
+    {
+      "check": "prediction.md present",
+      "passed": true
+    },
+    {
+      "check": "report.md present",
+      "passed": true
+    },
+    {
+      "check": "source-provenance.json present",
+      "passed": true
+    },
+    {
+      "check": "paper not retained",
+      "passed": true
+    }
+  ]
+}

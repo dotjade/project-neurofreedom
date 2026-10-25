@@ -1,0 +1,134 @@
+{
+  "files": [
+    {
+      "path": "biorxiv-preprint-index.tsv",
+      "bytes": 16113,
+      "sha256": "a5eb18fb342925913cc1c6b862a68f940f99510a4fe72bba235201a05dd11f9b"
+    },
+    {
+      "path": "build_results.py",
+      "bytes": 6343,
+      "sha256": "d871df1ee31d4f243267e6b638e792ca171d0bcdab7d9ebfc3bc481d58d8e1f3"
+    },
+    {
+      "path": "chd-independent-review.json",
+      "bytes": 2812,
+      "sha256": "98b5bc7fd959871d8bb03259cd198efe14bfeb27b2e3e4d3cabcb8d5daa6da17"
+    },
+    {
+      "path": "check_integrity_controls.py",
+      "bytes": 1493,
+      "sha256": "f9a01cc7a47b548f65e53c3a076df8a7a7f36972bebe64985f8c6569eedbefd7"
+    },
+    {
+      "path": "check_primary_sources.py",
+      "bytes": 1905,
+      "sha256": "a3fe4d5b01d84365d9b9d7ebe4b2dad81f506a3d141a9f6171de94049223edf8"
+    },
+    {
+      "path": "discovery-log.json",
+      "bytes": 752,
+      "sha256": "30905fe1316f1df878e626e2660888b3921a9c25c670df8a32517e104a883edc"
+    },
+    {
+      "path": "integrity-control-source.json",
+      "bytes": 1679,
+      "sha256": "bea3890ead79094751c8ae2350c6fc42e78db58824877391ed9eb961a55a224f"
+    },
+    {
+      "path": "integrity-recheck.json",
+      "bytes": 527,
+      "sha256": "fbd496b05e8f48ff3f31185ae879132c0e4f4a5970bbb8866721090daf2b374b"
+    },
+    {
+      "path": "medrxiv-preprint-index.tsv",
+      "bytes": 5558,
+      "sha256": "bf785b3caf38ea05dcbf8ad97e5eef8108abb31c69f37934248b6d502e9f5a54"
+    },
+    {
+      "path": "prepare_baseline.py",
+      "bytes": 1280,
+      "sha256": "c47a7e431c79e0c5c59b86b62dcbe83e711633cfa6ea668ed08a335950f16616"
+    },
+    {
+      "path": "primary-evidence.jsonl",
+      "bytes": 3750,
+      "sha256": "cdfbc4e9f03bda340978c1339c7f19092cbb7b275142be02208a6b24dde64737"
+    },
+    {
+      "path": "primary-source-checks.json",
+      "bytes": 1855,
+      "sha256": "8b02852e27a23d540151c75b976b02c863fd6c8e81dfafcc2a2c6d8febd2ea62"
+    },
+    {
+      "path": "provenance.json",
+      "bytes": 1815,
+      "sha256": "244b4c93d8e3f7ad7fed7fcdc7fc3ba4da8b266ae25f5a0065b47e82c93a1aaf"
+    },
+    {
+      "path": "pubmed-screening.jsonl",
+      "bytes": 13186,
+      "sha256": "9a804a37606cd28c75f220f26e651b36c3cb4842ce5e6d071ec47c1b7c25495f"
+    },
+    {
+      "path": "registry-evidence.jsonl",
+      "bytes": 6047,
+      "sha256": "e3d86ba4719f95afb065339900dc97d23b2de0dbe6969d187e49e958fa84137a"
+    },
+    {
+      "path": "report.md",
+      "bytes": 8262,
+      "sha256": "0b0978ead0ddb6e4cfb8a6f7050533ea8065f4c3f49a8e50e0132340ecb789c0"
+    },
+    {
+      "path": "reproduction-check.json",
+      "bytes": 1307,
+      "sha256": "dba65e4f1c245eb40aeb39ef44bfe86865eaf1ad481e8379321cc07779aeb376"
+    },
+    {
+      "path": "request-log.json",
+      "bytes": 14427,
+      "sha256": "da2f49799f053c432734c5935a9bc6c2fcf54be072f19e36c9fefa3590b84a26"
+    },
+    {
+      "path": "scan_sources.py",
+      "bytes": 9469,
+      "sha256": "8405ebc65d780033b9e68025e1cefe534e5e497d065c1b52042a8117f4337870"
+    },
+    {
+      "path": "scan_supplement.py",
+      "bytes": 2349,
+      "sha256": "d6a0958cb4ecb58d058a847c580d5882f21d9892684aa3435f2dcf57a5944729"
+    },
+    {
+      "path": "search-log.json",
+      "bytes": 19990,
+      "sha256": "954b9e5b587dc443b09c5a00ecb13f4833c18e65ef2c976f85b3efd96c64eeb2"
+    },
+    {
+      "path": "summary.json",
+      "bytes": 1002,
+      "sha256": "ca4dcdde127a188d2db7a5386ecc13ce749209f34faf02d91ed906ab1e8ee8a9"
+    },
+    {
+      "path": "supplement-selected-metadata.json",
+      "bytes": 2793,
+      "sha256": "061f173fc4cd454bccc5e61fd1df4f77a24547b927a036c59764bdc26828f656"
+    },
+    {
+      "path": "validate_artifacts.py",
+      "bytes": 5442,
+      "sha256": "a0f1b3556844c5a17694a494129567c8068e186da532231fb28517630205eddc"
+    },
+    {
+      "path": "validation.json",
+      "bytes": 1270,
+      "sha256": "edbaa7726cbf89c66a043c4d269053aa86401f2e4a6d43e068041f846af2e78c"
+    },
+    {
+      "path": "verify_reproduction.py",
+      "bytes": 1856,
+      "sha256": "739caf64633c249d73abe034ac16cd53d36b2909d876f75ac44ffafe2c2a755f"
+    }
+  ]
+}

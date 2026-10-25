@@ -1,0 +1,132 @@
+{
+  "checkIntervalUTC": "2026-10-25T02:45:02Z/2026-10-25T02:45:53Z",
+  "sources": [
+    {
+      "label": "FDA drug communications",
+      "url": "https://www.fda.gov/drugs/drug-safety-and-availability/drug-safety-communications",
+      "result": "Latest displayed item September15, Kybella. No new-window watched notice.",
+      "access": "read",
+      "method": "web reader open/find on official source"
+    },
+    {
+      "label": "FDA device communications",
+      "url": "https://www.fda.gov/medical-devices/medical-device-safety/safety-communications",
+      "result": "Latest displayed item June3 ankle replacement. No new-window watched notice.",
+      "access": "read",
+      "method": "web reader open/find on official source"
+    },
+    {
+      "label": "FDA drug alerts",
+      "url": "https://www.fda.gov/drugs/drug-safety-and-availability/drug-alerts-and-statements",
+      "result": "Latest October22 ARC annual report. Not treatment safety action.",
+      "access": "read",
+      "method": "web reader open/find on official source"
+    },
+    {
+      "label": "FDA CDRH news",
+      "url": "https://www.fda.gov/medical-devices/medical-devices-news-and-events/cdrh-new-news-and-updates",
+      "result": "Six latest entries dated October20. No new-window watched notice.",
+      "access": "read",
+      "method": "web reader open/find on official source"
+    },
+    {
+      "label": "FDA labeling database",
+      "url": "https://www.accessdata.fda.gov/scripts/cder/safetylabelingchanges/",
+      "result": "Search form and instructions exposed, not executed labeling result set.",
+      "access": "form_only",
+      "method": "web reader open/find on official source"
+    },
+    {
+      "label": "EMA new index",
+      "url": "https://www.ema.europa.eu/en/news-events/whats-new",
+      "result": "Latest25 rows October23, already preceding cutoff. Screened headings/ingredients. Search-incompleteness warning present.",
+      "access": "read_limited_index",
+      "method": "web reader open/find on official source"
+    },
+    {
+      "label": "EMA PRAC signals",
+      "url": "https://www.ema.europa.eu/en/human-regulatory-overview/post-authorisation/pharmacovigilance-post-authorisation/signal-management/prac-recommendations-safety-signals",
+      "result": "Latest monthly signal recommendation first published September28. Historical, not new-window notice.",
+      "access": "read",
+      "method": "web reader open/find on official source"
+    },
+    {
+      "label": "MHRA safety update",
+      "url": "https://www.gov.uk/drug-safety-update",
+      "result": "Latest October20 vaccine withdrawal. October15 antidepressant and July15 botulinum warnings remain historical.",
+      "access": "read",
+      "method": "web reader open/find on official source"
+    },
+    {
+      "label": "MHRA alerts",
+      "url": "https://www.gov.uk/drug-device-alerts",
+      "result": "First seven headings inspected; nonchronological. Issue dates not necessarily posting dates; attachments not screened.",
+      "access": "read_limited_index",
+      "method": "web reader open/find on official source"
+    },
+    {
+      "label": "TGA safety updates",
+      "url": "https://www.tga.gov.au/news/safety-updates",
+      "result": "Six displayed latest updates, latest October14 vaccine reconstitution.",
+      "access": "read",
+      "method": "web reader open/find on official source"
+    },
+    {
+      "label": "TGA alerts",
+      "url": "https://www.tga.gov.au/safety/safety-monitoring-and-information/safety-alerts",
+      "result": "Latest September14 counterfeit retatrutide, outside watch/window.",
+      "access": "read",
+      "method": "web reader open/find on official source"
+    },
+    {
+      "label": "TGA PI year table",
+      "url": "https://www.tga.gov.au/product-information-safety-updates-year-table",
+      "result": "Last updated September29 despite fresh search card. Approval dates not posting dates; labeling lag unresolved.",
+      "access": "read",
+      "method": "web reader open/find on official source"
+    },
+    {
+      "label": "Health Canada recall index",
+      "url": "https://recalls-rappels.canada.ca/en",
+      "result": "Ten latest entries inspected. Latest October23 food-allergen recall, outside watch. Page modifiedOctober24 does not make listed recalls new.",
+      "access": "read",
+      "method": "web reader open/find on official source"
+    },
+    {
+      "label": "ESSTS guideline context",
+      "url": "https://www.essts.org/partners",
+      "result": "2022 version2.0 and further update under consideration, not new issued guideline.",
+      "access": "read",
+      "method": "web reader open/find on official source"
+    },
+    {
+      "label": "AAN guideline",
+      "url": "https://www.aan.com/Guidelines/Home/GetGuidelineContent/964",
+      "result": "Document identifies board approval February12,2019. Not new guideline.",
+      "access": "read",
+      "method": "web reader open/find on official source"
+    },
+    {
+      "label": "NICE NG127",
+      "url": "https://www.nice.org.uk/guidance/ng127",
+      "result": "HTTP403, current revision unavailable.",
+      "access": "access_limited",
+      "method": "web reader open/find on official source"
+    },
+    {
+      "label": "AWMF TicCare announcement",
+      "url": "https://www.awmf.org/aktuelles/awmf-aktuell/diagnostik-und-behandlung-primaerer-tic-stoerungen-ticcare",
+      "result": "October1,2026 announcement describes planned S3 update for all ages, not a new issued guideline in this window.",
+      "access": "read",
+      "method": "web reader open/find on official source"
+    },
+    {
+      "label": "AWMF guideline register",
+      "url": "https://register.awmf.org/de/leitlinien/detail/030-012",
+      "result": "Suspicious-request response. Registry status not verified, no bypass.",
+      "access": "bot_challenge",
+      "method": "web reader open/find on official source"
+    }
+  ],
+  "scope": "Bounded direct-source checks, not all linked attachments or all countries. No clinical action or individual-data extraction."
+}

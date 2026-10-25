@@ -1,0 +1,71 @@
+{
+  "review_date": "2026-10-25",
+  "independent_method": "Fresh concurrent direct HTTPS reads with separate HTMLParser; no use of parent extraction file, no source text retained. Checked displayed publisher table cells and visible prose.",
+  "sources": [
+    {
+      "url": "https://link.springer.com/article/10.1186/s12888-026-08454-7",
+      "started_utc": "2026-10-25T02:48:42.597704+00:00",
+      "completed_utc": "2026-10-25T02:49:00.750101+00:00",
+      "status": 200,
+      "sha256": "ad42917f35bc7d3a5fbac0bc2c428420797ffce1204db5699237ef20ff75a34d",
+      "bytes": 446158,
+      "published_date_confirmed": true,
+      "version_record_confirmed": true,
+      "prose_direction_confirmed": true,
+      "main_null_confirmed": true,
+      "version_record_check_note": "Independent visible-text inspection confirmed 23 October 2026; HTML spacing around colon defeated initial exact-string check."
+    },
+    {
+      "url": "https://link.springer.com/article/10.1186/s12888-026-08454-7/tables/2",
+      "started_utc": "2026-10-25T02:48:42.598469+00:00",
+      "completed_utc": "2026-10-25T02:49:00.224734+00:00",
+      "status": 200,
+      "sha256": "4c64c1efc6e2630d35184c7f8db76292d1c7c72ceb98f624989bdc29292fb6e3",
+      "bytes": 232010
+    },
+    {
+      "url": "https://link.springer.com/article/10.1186/s12888-026-08454-7/tables/3",
+      "started_utc": "2026-10-25T02:48:42.598887+00:00",
+      "completed_utc": "2026-10-25T02:49:00.568305+00:00",
+      "status": 200,
+      "sha256": "07b700f9d18f374c8e4e4f0509ccb9f1fc3e7eadc50a6d40a047c9bffc0a696f",
+      "bytes": 239097
+    }
+  ],
+  "verified_aggregate_cells": {
+    "table_2_tourette": {
+      "adjusted_OR": 1.48,
+      "CI95": [
+        0.54,
+        4.07
+      ],
+      "p": 0.45
+    },
+    "table_3_tourette": {
+      "unweighted_n": 52839,
+      "mild": {
+        "adjusted_OR": 1.32,
+        "CI95": [
+          0.63,
+          1.49
+        ],
+        "p": 0.08
+      },
+      "moderate_severe": {
+        "adjusted_OR": 0.68,
+        "CI95": [
+          0.22,
+          3.26
+        ],
+        "p": 0.12
+      }
+    }
+  },
+  "date_labels": {
+    "published": "2026-07-25",
+    "version_of_record": "2026-10-23"
+  },
+  "finding": "Printed severity table gives a smaller moderate/severe point estimate than mild, contrary to the abstract prose direction. Both confidence intervals include one and neither printed p value is below .05. The overall Tourette association is nonsignificant.",
+  "limits": "No repair, recoding, pooled effect, between-severity contrast, participant reconstruction or causal inference. Cannot determine which source element is erroneous. No source supplements or original data reanalysis.",
+  "decision": "Retain exact cells and contradiction. Do not support a directional severity conclusion from this record."
+}

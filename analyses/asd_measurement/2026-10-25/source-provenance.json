@@ -1,0 +1,30 @@
+{
+  "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=13683974&retmode=xml",
+  "start_utc": "2026-10-25T02:45:42.429991+00:00",
+  "completed_utc": "2026-10-25T02:45:46.138124+00:00",
+  "http_status": 200,
+  "response_sha256": "ae380efb03158837f8e893650503f901829871e43dc8a8a4f421c3fdd90d1257",
+  "response_bytes": 93865,
+  "identifiers": {
+    "pmcid": "PMC13683974",
+    "pmcid-ver": "PMC13683974.1",
+    "pmcaid": "13683974",
+    "pmcaiid": "13683974",
+    "pmid": "42902960",
+    "doi": "10.1002/mdc3.70882",
+    "publisher-id": "MDC370882"
+  },
+  "tables_inspected": [
+    "TABLE 1",
+    "TABLE 2",
+    "TABLE 3",
+    "TABLE 4"
+  ],
+  "supplement_types": [
+    "Supplementary S1. ICMJE Disclosure Statement form."
+  ],
+  "source_license": "CC BY-NC-ND 4.0, as stated in source; only facts and original summaries retained",
+  "paper_body_retained": false,
+  "individual_data_accessed": false,
+  "limits": "Main paper and supplement inventory inspected. Disclosure document not audited; participant data unavailable publicly and not requested."
+}
