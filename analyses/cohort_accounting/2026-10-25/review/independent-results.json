@@ -1,0 +1,78 @@
+{
+  "method": "integer Venn-cell enumeration; no participant identities or outcomes",
+  "conditional_on": "accurate distinct-person counts and report containment in the two enrollment universes",
+  "with_preprint_membership": {
+    "configuration_count": 7,
+    "union_values": [
+      16,
+      17,
+      18
+    ],
+    "intersection_values": [
+      0,
+      1,
+      2
+    ]
+  },
+  "without_preprint_membership": {
+    "configuration_count": 9,
+    "union_values": [
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "intersection_values": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  },
+  "disjoint_and_mixed": {
+    "summary": {
+      "configuration_count": 3,
+      "union_values": [
+        18
+      ],
+      "intersection_values": [
+        0
+      ]
+    },
+    "allocations": [
+      {
+        "cohort_intersection": 0,
+        "cohort_union": 18,
+        "mixed_a_only": 8,
+        "mixed_b_only": 8,
+        "mixed_shared": 0
+      },
+      {
+        "cohort_intersection": 0,
+        "cohort_union": 18,
+        "mixed_a_only": 9,
+        "mixed_b_only": 7,
+        "mixed_shared": 0
+      },
+      {
+        "cohort_intersection": 0,
+        "cohort_union": 18,
+        "mixed_a_only": 10,
+        "mixed_b_only": 6,
+        "mixed_shared": 0
+      }
+    ]
+  },
+  "invalid_role_count_sum": 43,
+  "checks_passed": 13
+}

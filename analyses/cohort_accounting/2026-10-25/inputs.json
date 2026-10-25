@@ -1,0 +1,81 @@
+{
+  "baseline_commit": "e55501a7efd48d0a7d7232d7cfeb06fa51f31168",
+  "cohorts": {
+    "NCT02056873": 10,
+    "NCT05371041": 8
+  },
+  "reports": [
+    {
+      "id": "Cagle2022",
+      "n": 4,
+      "role": "embedded-device analysis",
+      "cohorts": [
+        "NCT02056873"
+      ],
+      "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9468946/",
+      "audit": "analyses/okun_estimands/2026-10-22/report.md"
+    },
+    {
+      "id": "Okun2024",
+      "n": 10,
+      "role": "enrolled trial cohort, not outcome-specific pairs",
+      "cohorts": [
+        "NCT02056873"
+      ],
+      "source": "https://www.nature.com/articles/s41598-024-57071-5",
+      "audit": "analyses/okun_estimands/2026-10-22/report.md"
+    },
+    {
+      "id": "Lowor2025",
+      "n": 5,
+      "role": "physiology contributors, six implanted",
+      "cohorts": [
+        "NCT05371041"
+      ],
+      "source": "https://doi.org/10.1002/mds.70043",
+      "audit": "analyses/cm_agpi/2026-10-20/report.md"
+    },
+    {
+      "id": "Registry05371041",
+      "n": 8,
+      "role": "actual enrolled cohort, not every clinical estimand",
+      "cohorts": [
+        "NCT05371041"
+      ],
+      "source": "https://clinicaltrials.gov/study/NCT05371041",
+      "audit": "analyses/trial_crosswalk/2026-10-21/report.md"
+    },
+    {
+      "id": "Lowor2026preprint",
+      "n": 16,
+      "role": "distinct subjects across two named trials, preliminary methods report",
+      "cohorts": [
+        "NCT02056873",
+        "NCT05371041"
+      ],
+      "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13596655/",
+      "doi": "10.21203/rs.3.rs-10832475/v1",
+      "publication_date": "2026-09-20",
+      "audit": "analyses/cm_agpi/2026-10-20/report.md"
+    }
+  ],
+  "assumptions": [
+    "Report-to-trial links represent containment in the named enrollment universes; identities and complete enrollment provenance are not verified.",
+    "The preprint count16 denotes distinct people drawn only from the two named enrollment universes.",
+    "Disjointness is an optional sensitivity assumption supported by later-trial prior-DBS exclusion, not verified identity matching."
+  ],
+  "fresh_source_check": {
+    "time": "2026-10-25T03:40:17Z",
+    "route": "primary PMC indexed Methods and PubMed metadata",
+    "confirmed": [
+      "16 subjects",
+      "both trial identifiers",
+      "preprint status/date"
+    ],
+    "limits": [
+      "direct PMC challenged",
+      "no individual tables read",
+      "unrelated numeric-identifier search results excluded and not retained"
+    ]
+  }
+}

@@ -1,6 +1,6 @@
 # Project NeuroFreedom status
 
-Updated 25 October 2026. Initial portfolio, seventeen completed daily updates and two completed weekly syntheses. Public evidence repository and journal launched 13 October.
+Updated 25 October 2026. Initial portfolio, seventeen completed daily updates and three completed weekly syntheses. Public evidence repository and journal launched 13 October.
 
 ## Completed in this first pass
 
@@ -14,7 +14,7 @@ Updated 25 October 2026. Initial portfolio, seventeen completed daily updates an
 
 ## Enabled research schedules
 
-The user approved the following automatic public-science research and repository updates on 8 October 2026. Each schedule was created successfully and returned enabled status. Daily runs were completed on 9-25 October 2026; weekly syntheses were completed on 11 and 18 October; first monthly and quarterly runs remain unverified.
+The user approved the following automatic public-science research and repository updates on 8 October 2026. Each schedule was created successfully and returned enabled status. Daily runs were completed on 9-25 October 2026; weekly syntheses were completed on 11, 18 and 25 October; first monthly and quarterly runs remain unverified.
 
 - Daily new-evidence checks: from 9 October 2026, approximately 08:00 India time.
 - Weekly synthesis: Sundays, from 11 October 2026, approximately 09:00 India time.
@@ -424,3 +424,12 @@ Research commit [5ac2b41130e251ca7750fbf93e93b20d48712d98](https://github.com/do
 [Actions run 40156099146](https://github.com/dotjade/project-neurofreedom/actions/runs/40156099146) passed validation, build and deployment. Anonymous raw GitHub and production /api/public-feed matched the authored bytes after the documented cache. Production was checked at 2026-10-25T02:53:51.197140+00:00 with HTTP 200 and X-Journal-Source repository. Verified updatedAt is 2026-10-25T02:50:28Z; research/activity dates are October 25, music-or-silence is selected, six catalog entries are unchanged and collection is disabled.
 
 The new audit report returned HTTP 200 with expected title and live feedback-config.json remained disabled with no API origin. No new rendered-page, mobile, zoom or narration test is claimed. Static source, deployment configuration and security settings were unchanged. [Verification record](updates/2026-10-25/publication-verification.json).
+
+
+## Completed weekly synthesis - 25 October 2026
+
+The [third weekly synthesis](updates/2026-10-25-weekly-synthesis.md) reconciles October19–25 evidence and actual work. It retains severe-adult state associations, persistent adult burden and measured ASD associations without promoting them to causal control, prospective prognosis or adult-specific burden. Negative results, registry-history counterevidence, source inconsistencies and access limits remain explicit.
+
+The new [conditional cohort-accounting computation](analyses/cohort_accounting/2026-10-25/report.md) maps five report-role counts to two trial families. The invalid role sum43 is not a sample size. Under stated containment assumptions the enrollment union is16–18;18 additionally assumes disjointness. These are not observed unique memberships, clinical denominators or independent efficacy replications. Code, inputs, outputs and independent review are retained; no participant data were reconstructed.
+
+The next bounded public-only task remains the original YGTSS validation population/informant/measurement audit. No owner medical information or action is needed now; human research remains dependent on separate institutional, clinical, ethics and data-governance authorization. Homepage feed/activity and collection settings are unchanged by this weekly run.

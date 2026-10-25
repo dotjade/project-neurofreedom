@@ -1,0 +1,30 @@
+{
+  "baseline_commit": "e55501a7efd48d0a7d7232d7cfeb06fa51f31168",
+  "visibility_verified": "public",
+  "scope": "Original synthesis of daily source audits; not all primary papers freshly re-extracted.",
+  "sources": {
+    "README.md": "6b1d997e495751f81c97048c86cd8864732cdd8313cc3d9363605bb4425721d2",
+    "RESEARCH_PROTOCOL.md": "6f0025df7fd62fc2fe952cfbca96fca811ae76b917b7e7d4d45a501fe89e6859",
+    "STATUS.md": "acea0c7adc739a41398c2cb5387ac949b3e4c75ed6b44b7ae46f9537ad8f2da4",
+    "public/journal-source/README.md": "809173b6459331730d4fd9b0df135079b1e8dfdb030f4babbfc0055fcec1197e",
+    "evidence.jsonl": "f58f33f2f1871ab57d76499869ea07ad565b7f919650decda0e2c9efcb4da77c",
+    "hypotheses.md": "37cc4370094c4fff4acfaaa9afe7e39906e290b2e272443ec15d2a02d678e925",
+    "updates/2026-10-18-weekly-synthesis.md": "5b6995a14e3d96e89c46c393b6df60108274b92ced1d584f8497e8163718dbc0",
+    "updates/2026-10-19/report.md": "ebbdd50e41e82bd658208006bde350554c5b6f93125dd3544fe330c7052dfa1a",
+    "updates/2026-10-20/report.md": "273973cd10f29862e45f4dc160cfa999541c46aaff9639445378a821451daec5",
+    "updates/2026-10-21/report.md": "7e3e045d55c4358ae868cfc0d5ff21ce50b6590fbc94aef35f5382fcfcb2ab27",
+    "updates/2026-10-22/report.md": "fbaf1ecb8ce3d9ba901ed45cc1d52930daab109888ebdf91f71807ab381dfebb",
+    "updates/2026-10-23/report.md": "c1ad8863308612899c0eb2e4aab1d93b84f81f590ff5c816168d19046a01daea",
+    "updates/2026-10-24/report.md": "3b17e4e0b93881db68f86ed71c8042d841ec296351580811e5f459ca3340bf6f",
+    "updates/2026-10-25/report.md": "18ddbd1ef664cffc8ba5637d7b3a80b8d5302d4f30a108d405bcc1d303e59c2a",
+    "analyses/paired_outcomes/2026-10-19/report.md": "fc67b9ca160ab4f16ffc4458a651531c0f6954d0efaf15cd1f4b55b9f81d10b4",
+    "analyses/cm_agpi/2026-10-20/report.md": "ea55d53c1c6cc7fef62de2c4912934a7b47b0af20e0c3e16fd25314edfac7f7a",
+    "analyses/trial_crosswalk/2026-10-21/report.md": "15634ca8b59a2a9ee541401020782237a640a29dcb7f046a824e81360e15105f",
+    "analyses/okun_estimands/2026-10-22/report.md": "a33ad930e7cd9a7459dd9d2ed575ac92b744eb49b609d4b8ed63af8cc4a5f495",
+    "analyses/registration_history/2026-10-23/report.md": "ee4db9e0bb56d0da0a133cc8c847888dd101581f1039c9577ecdd38ad1221c98",
+    "analyses/adult_risk/2026-10-24/report.md": "7e05817fa9b3d53cdb8d52c860526065d9283cd766f83e527614121ed9ccfeae",
+    "analyses/asd_measurement/2026-10-25/report.md": "0829fd9b3ce327d966ea0dcde93fdadbe78da44e6502bc2c9a3bd2fe67827a9e"
+  },
+  "new_analysis": "analyses/cohort_accounting/2026-10-25",
+  "daily_feed_changed": false
+}
