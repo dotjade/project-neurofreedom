@@ -1,0 +1,33 @@
+{
+  "report_roles": 5,
+  "named_trial_families": 2,
+  "invalid_naive_role_sum": 43,
+  "conditional_union_bounds_no_disjointness": [
+    16,
+    18
+  ],
+  "conditional_cohort_overlap_bounds": [
+    0,
+    2
+  ],
+  "if_disjoint_union": 18,
+  "if_disjoint_preprint_allocations": [
+    {
+      "older_trial": 8,
+      "newer_trial": 8
+    },
+    {
+      "older_trial": 9,
+      "newer_trial": 7
+    },
+    {
+      "older_trial": 10,
+      "newer_trial": 6
+    }
+  ],
+  "without_preprint_and_without_disjointness_bounds": [
+    10,
+    18
+  ],
+  "interpretation": "Conditional set constraints, not observed unique count, efficacy sample size, confidence interval, safety denominator or independent replication."
+}

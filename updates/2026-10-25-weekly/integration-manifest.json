@@ -1,0 +1,21 @@
+{
+  "base_commit": "e55501a7efd48d0a7d7232d7cfeb06fa51f31168",
+  "files": {
+    "STATUS.md": "484eca5c2c95f6033907da6734876cf0984b732d235fda3c5471ecde4e0807e8",
+    "analyses/cohort_accounting/2026-10-25/analyze.py": "89c37c2f3a572102dd44bd9625739f861a441f33fc42bb90988e180a58ec7d53",
+    "analyses/cohort_accounting/2026-10-25/inputs.json": "62f07013eaa963f823f62b37d16db3363913a12632017b58dbb42ed6f73c8a31",
+    "analyses/cohort_accounting/2026-10-25/prediction.md": "1cbc5d3cb84f775ac637ffcf93a74a118ab0a50ac46c14da2d4e89e0912ac5e0",
+    "analyses/cohort_accounting/2026-10-25/report.md": "97c39e571f1708882f42a87135cb665165449f103294cd55dfbbfd77d83cacd4",
+    "analyses/cohort_accounting/2026-10-25/results.json": "c202c8534c94116b4902185a8dbbca8ba97a78d158c0f56530ecda40298f8e05",
+    "analyses/cohort_accounting/2026-10-25/review/independent-results.json": "32f37072be1f6af281fc6fb5763d9e836e4d957d7ebe8d900cdb971ba6eff998",
+    "analyses/cohort_accounting/2026-10-25/review/independent_bounds.py": "8c6604641a953fea6c1c4905cefa0e5f256caca41adae178aae3c5cc0bcac337",
+    "analyses/cohort_accounting/2026-10-25/review/independent_review.md": "831b74312408e6187ac0fee308b1d36761c7d6090103f06b19679f6b5fe707bc",
+    "analyses/cohort_accounting/2026-10-25/test_analysis.py": "8061bf9d0fe60ee92c1cc82258fc3d782bf1c1f166227e0cfbdb4133dbd9245f",
+    "analyses/cohort_accounting/2026-10-25/tests.log": "f69bf15bc3d6a89869db051c2f7afcb80e9d691e4fed136c7d1fa45cb4c4a835",
+    "hypotheses.md": "ba5085cf6700292f9b6751d7d11cd8b44339ac08a06f40d9e9d8c9b56483c85e",
+    "updates/2026-10-25-weekly-synthesis.md": "f4728a8e54d9e3478f7abb39180b7340dfb644e6ff46dec69e26ffb03a3dfd0d",
+    "updates/2026-10-25-weekly/source-manifest.json": "ca6f9837d7f5e0b78eb7b856790341a8631d2bc0adcfb5f3390bb6bd45771864"
+  },
+  "manifest_excludes_itself": true,
+  "scope": "Weekly research commit before later receipt"
+}

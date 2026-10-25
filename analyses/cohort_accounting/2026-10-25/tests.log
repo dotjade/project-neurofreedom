@@ -1,0 +1,18 @@
+test_allocations (test_analysis.TestAccounting.test_allocations) ... ok
+test_cohort_key_order (test_analysis.TestAccounting.test_cohort_key_order) ... ok
+test_determinism (test_analysis.TestAccounting.test_determinism) ... ok
+test_disjoint (test_analysis.TestAccounting.test_disjoint) ... ok
+test_families (test_analysis.TestAccounting.test_families) ... ok
+test_impossible (test_analysis.TestAccounting.test_impossible) ... ok
+test_naive (test_analysis.TestAccounting.test_naive) ... ok
+test_nesting (test_analysis.TestAccounting.test_nesting) ... ok
+test_order (test_analysis.TestAccounting.test_order) ... ok
+test_overlap (test_analysis.TestAccounting.test_overlap) ... ok
+test_roles (test_analysis.TestAccounting.test_roles) ... ok
+test_sensitivity (test_analysis.TestAccounting.test_sensitivity) ... ok
+test_union (test_analysis.TestAccounting.test_union) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 0.001s
+
+OK
