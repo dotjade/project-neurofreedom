@@ -415,3 +415,12 @@ Close this fixed cohort audit absent new public adult-stratified or direct measu
 ### Public journal
 
 The feed distinguishes the older newly discovered observational source from the completed methods audit, with no new-treatment claim. All six optional activities are unchanged, music-or-silence is selected, and collection remains disabled. The [bounded link pass](public/link-checks/2026-10-25.json) records actual dates and distinguishes access challenges from broken targets. The prior production edition is a baseline only; publication is verified separately after commit/readback. No static source, deployment configuration or security setting was changed.
+
+
+### Publication verification - 25 October 2026
+
+Research commit [5ac2b41130e251ca7750fbf93e93b20d48712d98](https://github.com/dotjade/project-neurofreedom/commit/5ac2b41130e251ca7750fbf93e93b20d48712d98) contains all 61 authored artifacts. Fresh Git fetch/readback verified exact bytes and preservation of 727 unrelated existing files at 02:52:29 UTC. The GitHub connector separately read back the exact feed. No unexpected paths were added.
+
+[Actions run 40156099146](https://github.com/dotjade/project-neurofreedom/actions/runs/40156099146) passed validation, build and deployment. Anonymous raw GitHub and production /api/public-feed matched the authored bytes after the documented cache. Production was checked at 2026-10-25T02:53:51.197140+00:00 with HTTP 200 and X-Journal-Source repository. Verified updatedAt is 2026-10-25T02:50:28Z; research/activity dates are October 25, music-or-silence is selected, six catalog entries are unchanged and collection is disabled.
+
+The new audit report returned HTTP 200 with expected title and live feedback-config.json remained disabled with no API origin. No new rendered-page, mobile, zoom or narration test is claimed. Static source, deployment configuration and security settings were unchanged. [Verification record](updates/2026-10-25/publication-verification.json).
