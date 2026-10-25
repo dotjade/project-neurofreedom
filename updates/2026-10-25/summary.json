@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-25",
+  "strict_prior_cutoff_utc": "2026-10-24T02:45:24.341792+00:00",
+  "core_started_utc": "2026-10-25T02:45:01.257480+00:00",
+  "core_completed_utc": "2026-10-25T02:46:02.904884+00:00",
+  "pubmed_unique_records": 8,
+  "pubmed_id_occurrences": 12,
+  "pubmed_previous_day_overlap": 6,
+  "new_to_previous_scan_records": 2,
+  "new_to_repository_primary_records": 1,
+  "verified_new_primary_publications_since_prior_cutoff": 0,
+  "verified_newly_entered_pubmed_since_prior_cutoff": 0,
+  "unknown_exact_publication_date_records": 1,
+  "preprint_doi_versions": 535,
+  "preprint_lexical_matches": 0,
+  "qualifying_preprints": 0,
+  "registry_update_window_unique_ids": [
+    "NCT07137442"
+  ],
+  "new_posted_trial_results": 0,
+  "new_retractions": 0,
+  "api_request_errors": 0,
+  "decision": "One older primary study newly encountered in overlap search is added, retaining null overall CHD-Tourette association. No qualifying new-window publication, preprint or trial result verified."
+}

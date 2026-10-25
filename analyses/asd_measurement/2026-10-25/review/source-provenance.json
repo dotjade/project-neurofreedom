@@ -1,0 +1,22 @@
+{
+  "source_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=13683974&retmode=xml",
+  "started_utc": "2026-10-25T02:47:20.754826+00:00",
+  "completed_utc": "2026-10-25T02:47:26.067542+00:00",
+  "http_status": 200,
+  "response_sha256": "ae380efb03158837f8e893650503f901829871e43dc8a8a4f421c3fdd90d1257",
+  "response_bytes": 93865,
+  "article_body_retained": false,
+  "participant_data_accessed": false,
+  "identifiers": {
+    "pmcid": "PMC13683974",
+    "pmcid-ver": "PMC13683974.1",
+    "pmcaid": "13683974",
+    "pmcaiid": "13683974",
+    "pmid": "42902960",
+    "doi": "10.1002/mdc3.70882",
+    "publisher-id": "MDC370882"
+  },
+  "supplement_inventory": [
+    "Supplementary S1. ICMJE Disclosure Statement form."
+  ]
+}

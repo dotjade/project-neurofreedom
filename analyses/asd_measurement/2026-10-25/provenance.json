@@ -1,0 +1,14 @@
+{
+  "base_commit": "ab9d4320f0e51198866a176467a9a131cc7c44cd",
+  "checked_utc": "2026-10-25T02:47:12.322570+00:00",
+  "files": {
+    "README.md": "6b1d997e495751f81c97048c86cd8864732cdd8313cc3d9363605bb4425721d2",
+    "RESEARCH_PROTOCOL.md": "6f0025df7fd62fc2fe952cfbca96fca811ae76b917b7e7d4d45a501fe89e6859",
+    "STATUS.md": "392b06795d019d83aa3e2e2f326ee74d4dff60268bd25f1a0abf6c501e7c3d9a",
+    "public/journal-source/README.md": "809173b6459331730d4fd9b0df135079b1e8dfdb030f4babbfc0055fcec1197e",
+    "public/UPDATE_WORKFLOW.md": "f9d9a9b17bfbb06c8b075abad60495b9aeef58c96e768ea3d56a3d47c29a2d3f",
+    "evidence.jsonl": "24db9d129ba12183ec9d1cd122ee3644b01bb92b9316bbdb38609794afd25608",
+    "updates/2026-10-24/report.md": "3b17e4e0b93881db68f86ed71c8042d841ec296351580811e5f459ca3340bf6f"
+  },
+  "scope": "Public aggregate/source-methods audit only"
+}

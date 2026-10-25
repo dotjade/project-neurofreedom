@@ -1,0 +1,145 @@
+{
+  "passed": 35,
+  "checks": [
+    {
+      "check": "DOI identity",
+      "passed": true
+    },
+    {
+      "check": "PMID identity",
+      "passed": true
+    },
+    {
+      "check": "PMC identity",
+      "passed": true
+    },
+    {
+      "check": "TABLE 1 Participants exact cell",
+      "passed": true
+    },
+    {
+      "check": "TABLE 1 Age at time of enrolment (years) exact cell",
+      "passed": true
+    },
+    {
+      "check": "TABLE 1 Level 1 exact cell",
+      "passed": true
+    },
+    {
+      "check": "TABLE 1 Level 2 exact cell",
+      "passed": true
+    },
+    {
+      "check": "TABLE 1 Level 3 exact cell",
+      "passed": true
+    },
+    {
+      "check": "TABLE 1 Impairment exact cell",
+      "passed": true
+    },
+    {
+      "check": "TABLE 2 Total tic score exact cell",
+      "passed": true
+    },
+    {
+      "check": "TABLE 2 Impairment exact cell",
+      "passed": true
+    },
+    {
+      "check": "TABLE 2 Global score exact cell",
+      "passed": true
+    },
+    {
+      "check": "TABLE 3 Age at enrollment exact cell",
+      "passed": true
+    },
+    {
+      "check": "TABLE 3 Autism spectrum disorder exact cell",
+      "passed": true
+    },
+    {
+      "check": "tic_severity contrast independent",
+      "passed": true
+    },
+    {
+      "check": "tic_severity unadjusted p",
+      "passed": true
+    },
+    {
+      "check": "impairment contrast independent",
+      "passed": true
+    },
+    {
+      "check": "impairment unadjusted p",
+      "passed": true
+    },
+    {
+      "check": "impairment beta CI",
+      "passed": true
+    },
+    {
+      "check": "impairment adjusted p",
+      "passed": true
+    },
+    {
+      "check": "tic_severity beta CI",
+      "passed": true
+    },
+    {
+      "check": "tic_severity adjusted p",
+      "passed": true
+    },
+    {
+      "check": "model counts in source",
+      "passed": true
+    },
+    {
+      "check": "impairment missing count",
+      "passed": true
+    },
+    {
+      "check": "impairment coverage",
+      "passed": true
+    },
+    {
+      "check": "tic_severity missing count",
+      "passed": true
+    },
+    {
+      "check": "tic_severity coverage",
+      "passed": true
+    },
+    {
+      "check": "overlap union bound",
+      "passed": true
+    },
+    {
+      "check": "overlap subset bound",
+      "passed": true
+    },
+    {
+      "check": "support3 proportion",
+      "passed": true
+    },
+    {
+      "check": "no simulated observations",
+      "passed": true
+    },
+    {
+      "check": "only disclosure supplement",
+      "passed": true
+    },
+    {
+      "check": "parent30 checks reproduced",
+      "passed": true
+    },
+    {
+      "check": "output bytes independently rerun",
+      "passed": true
+    },
+    {
+      "check": "overlap wording correction read back",
+      "passed": true
+    }
+  ]
+}

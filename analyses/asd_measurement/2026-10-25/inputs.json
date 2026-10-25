@@ -1,0 +1,134 @@
+{
+  "study": {
+    "pmid": "42902960",
+    "pmc": "PMC13683974",
+    "doi": "10.1002/mdc3.70882",
+    "published": "2026-10-20"
+  },
+  "sample": {
+    "total": 535,
+    "asd": 49,
+    "non_asd": 486,
+    "age_mean": 15.23,
+    "age_range": [
+      3,
+      72
+    ],
+    "adult_count": null,
+    "asd_adult_count": null,
+    "support_level_counts": [
+      29,
+      17,
+      3
+    ]
+  },
+  "model_counts": {
+    "impairment": 483,
+    "tic_severity": 485
+  },
+  "unadjusted": {
+    "impairment": {
+      "asd_mean": 14.79,
+      "non_asd_mean": 17.85,
+      "p": 0.111
+    },
+    "tic_severity": {
+      "asd_mean": 21.12,
+      "non_asd_mean": 19.28,
+      "p": 0.152
+    }
+  },
+  "adjusted": {
+    "impairment": {
+      "beta": -4.49,
+      "ci": [
+        -8.46,
+        -0.51
+      ],
+      "p": 0.027
+    },
+    "tic_severity": {
+      "beta": -0.31,
+      "ci": [
+        -2.91,
+        2.29
+      ],
+      "p": 0.814
+    }
+  },
+  "scale_ranges": {
+    "impairment": [
+      0,
+      50
+    ],
+    "tic_severity": [
+      0,
+      50
+    ]
+  },
+  "selected_source_cells": {
+    "TABLE 1": [
+      [
+        "Participants",
+        "535 (100%)"
+      ],
+      [
+        "Age at time of enrolment (years)",
+        "15.23 (14.25–16.20); range 3–72"
+      ],
+      [
+        "Level 1",
+        "29 (59.2%)"
+      ],
+      [
+        "Level 2",
+        "17 (34.7%)"
+      ],
+      [
+        "Level 3",
+        "3 (6.1%)"
+      ],
+      [
+        "Impairment",
+        "17.57 (16.47–18.66)"
+      ]
+    ],
+    "TABLE 2": [
+      [
+        "Total tic score",
+        "19.28 (18.52–20.04)",
+        "21.12 (18.46–23.78)",
+        "0.152"
+      ],
+      [
+        "Impairment",
+        "17.85 (16.71–18.99)",
+        "14.79 (10.91–18.67)",
+        "0.111"
+      ],
+      [
+        "Global score",
+        "36.98 (35.29–38.68)",
+        "35.91 (30.31–41.52)",
+        "0.707"
+      ]
+    ],
+    "TABLE 3": [
+      [
+        "Age at enrollment",
+        "0.16 (0.04, 0.29)",
+        "0.011*",
+        "0.03 (−0.06, 0.11)",
+        "0.516"
+      ],
+      [
+        "Autism spectrum disorder",
+        "−4.49 (−8.46, −0.51)",
+        "0.027*",
+        "−0.31 (−2.91, 2.29)",
+        "0.814"
+      ]
+    ]
+  },
+  "scope": "Published cohort aggregates only; Table 2 headings are group totals, not verified item-specific counts."
+}

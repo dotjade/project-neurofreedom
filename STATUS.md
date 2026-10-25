@@ -1,6 +1,6 @@
 # Project NeuroFreedom status
 
-Updated 24 October 2026. Initial portfolio, sixteen completed daily updates and two completed weekly syntheses. Public evidence repository and journal launched 13 October.
+Updated 25 October 2026. Initial portfolio, seventeen completed daily updates and two completed weekly syntheses. Public evidence repository and journal launched 13 October.
 
 ## Completed in this first pass
 
@@ -14,7 +14,7 @@ Updated 24 October 2026. Initial portfolio, sixteen completed daily updates and 
 
 ## Enabled research schedules
 
-The user approved the following automatic public-science research and repository updates on 8 October 2026. Each schedule was created successfully and returned enabled status. Daily runs were completed on 9-24 October 2026; weekly syntheses were completed on 11 and 18 October; first monthly and quarterly runs remain unverified.
+The user approved the following automatic public-science research and repository updates on 8 October 2026. Each schedule was created successfully and returned enabled status. Daily runs were completed on 9-25 October 2026; weekly syntheses were completed on 11 and 18 October; first monthly and quarterly runs remain unverified.
 
 - Daily new-evidence checks: from 9 October 2026, approximately 08:00 India time.
 - Weekly synthesis: Sundays, from 11 October 2026, approximately 09:00 India time.
@@ -400,3 +400,18 @@ Research commit [28b410cff15200d0862088cc592ad44c34421e1a](https://github.com/do
 [Actions run 40056133711](https://github.com/dotjade/project-neurofreedom/actions/runs/40056133711) passed validation, build, deployment dry-run and production deployment. Anonymous raw GitHub at 02:56:11 and production /api/public-feed at 02:56:15 returned HTTP 200 and exact authored bytes. Production returned X-Journal-Source repository. Verified updatedAt is 2026-10-24T02:51:56Z, October 24 research/activity dates, hand-at-ease, six unchanged approved activities and disabled feedback.
 
 The audit report URL returned HTTP 200 with expected title at 02:56:20; feedback-config.json remained disabled with apiOrigin null at 02:56:23. No new rendered-page/mobile/zoom/real-device narration test is claimed. Static homepage source, deployment configuration and security settings were not changed. [Verification record](updates/2026-10-24/publication-verification.json).
+
+
+## Completed daily research update - 25 October 2026
+
+The [dated scan](updates/2026-10-25/report.md) distinguishes an older primary population paper newly discovered in this run from a new publication or new indexing event since the previous cutoff. Its main congenital-heart-disease/Tourette association is nonsignificant; printed subgroup estimates contradict the prose, so no directional severity claim is endorsed. Neither result establishes causation. The bounded new-evidence, registry and safety results and access limits are recorded in the linked report, not treated as exhaustive global surveillance.
+
+The [ASD age/measurement audit](analyses/asd_measurement/2026-10-25/report.md) tests whether a mixed-age adjusted impairment coefficient supports an adult-specific burden conclusion or validates the proposed communication/reporting explanation. It does neither. The measured adjusted association is retained alongside the unadjusted and total-tic nulls. Deterministic aggregate checks calculate model coverage of 483/535 and 485/535 and a possible 433–483 overlap, not actual membership. Adult-by-ASD analytic counts and independent measurement-validation tests were not identified. No age distribution, individual data or causal treatment effect was reconstructed.
+
+### Next bounded decision
+
+Close this fixed cohort audit absent new public adult-stratified or direct measurement-validation documentation. Next inspect McGuire et al.'s original 2018 multicenter YGTSS revision/validation study, cited by the ASD paper: map age/comorbidity coverage, informant and reliability design, impairment-versus-tic outcomes and negative findings. Determine whether it validates interpretation across ASD/communication groups or only broader tic-scale performance. Do not infer subgroup validation from a general reliability coefficient or request participant data.
+
+### Public journal
+
+The feed distinguishes the older newly discovered observational source from the completed methods audit, with no new-treatment claim. All six optional activities are unchanged, music-or-silence is selected, and collection remains disabled. The [bounded link pass](public/link-checks/2026-10-25.json) records actual dates and distinguishes access challenges from broken targets. The prior production edition is a baseline only; publication is verified separately after commit/readback. No static source, deployment configuration or security setting was changed.
