@@ -1,0 +1,62 @@
+{
+  "checked_at_utc": "2026-10-26T03:00:12Z",
+  "baseline_commit": "1dafa0fdb06d4f08ba13f281bc866c3b5f58b170",
+  "primary": {
+    "pmid": "29653992",
+    "pmcid": "PMC5952973",
+    "doi": "10.1212/WNL.0000000000005474",
+    "electronic_publication": "2018-04-13",
+    "issue_date": "2018-05-08",
+    "evidence_type": "peer-reviewed cross-sectional psychometric study with proposed expert revisions"
+  },
+  "access": [
+    {
+      "url": "https://escholarship.org/content/qt4bh642p5/qt4bh642p5_noSplash_eaa44b57940714e0d4c85bd4f35f18fa.pdf",
+      "status": "web reader full text available; pages 2\u20136 inspected; screenshots pages 2\u20134 internal error; no visual table confirmation",
+      "at_utc": "2026-10-26T02:59:24Z"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5952973/",
+      "status": "direct web open browser challenge; indexed source excerpts readable",
+      "at_utc": "2026-10-26T02:59:09Z"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5952973/fullTextXML",
+      "status": "HTTP 500",
+      "at_utc": "2026-10-26T02:59:05Z"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/utils/oa/oa.fcgi?id=PMC5952973",
+      "status": "HTTP 404; not evidence that article itself is missing",
+      "at_utc": "2026-10-26T02:59:19Z"
+    },
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=29653992&retmode=xml",
+      "status": "HTTP 200, transient selected metadata inspection",
+      "sha256": "a5353ab4000e34353d927ab8324252502ff8f2f2ffb08dd96f11f9421dadbd81",
+      "comments_corrections": [],
+      "at_utc": "2026-10-26T03:00:12Z"
+    }
+  ],
+  "searches": [
+    {
+      "query": "McGuire 2018 multicenter examination psychometric properties Yale Global Tic Severity Scale revision",
+      "purpose": "primary identification"
+    },
+    {
+      "query": "\"10.1212/WNL.0000000000005474\" correction retraction",
+      "purpose": "bounded notice check; none identified"
+    },
+    {
+      "query": "\"PMC5952973\" autism impairment reliability",
+      "purpose": "targeted subgroup/design source discovery"
+    }
+  ],
+  "limitations": [
+    "Not systematic search of all YGTSS validation literature",
+    "Supplements not retrieved",
+    "No source-trial eligibility re-audit",
+    "PDF table sign discrepancies not visually confirmed",
+    "No fulltext or participant data stored"
+  ]
+}

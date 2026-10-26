@@ -1,0 +1,69 @@
+{
+  "source": {
+    "pmid": "29653992",
+    "pmcid": "PMC5952973",
+    "doi": "10.1212/WNL.0000000000005474",
+    "url": "https://escholarship.org/uc/item/4bh642p5",
+    "locator": "Methods, Tables 1 and 2; Neurology 90:e1711-e1719"
+  },
+  "counts": {
+    "total": 617,
+    "youth": 516,
+    "adult": 101,
+    "tourette": 552,
+    "chronic_motor": 46,
+    "chronic_vocal": 5,
+    "transient": 14,
+    "structured_interview": 410,
+    "best_estimate": 207
+  },
+  "site_counts": [
+    181,
+    207,
+    66,
+    47,
+    41,
+    40,
+    35
+  ],
+  "interview_counts": [
+    157,
+    122,
+    106,
+    25
+  ],
+  "age_years": {
+    "range": [
+      5,
+      69
+    ],
+    "adult_cutoff": 18
+  },
+  "table1_means": {
+    "youth": {
+      "motor": 14.21,
+      "phonic": 9.67,
+      "total_tic": 23.88,
+      "impairment": 22.61
+    },
+    "adult": {
+      "motor": 15.16,
+      "phonic": 7.7,
+      "total_tic": 22.86,
+      "impairment": 24.38
+    }
+  },
+  "alpha": {
+    "motor": 0.8,
+    "phonic": 0.87,
+    "total_tic": 0.82,
+    "total_tic_and_impairment": 0.67
+  },
+  "ascertainment": {
+    "asd_count": null,
+    "adult_asd_count": null,
+    "language_ability_groups": null,
+    "severe_persistent_adult_count": null
+  },
+  "interpretation": "Selected published aggregates, not participant data. Null means not reported/identified in inspected main report, not zero. Alpha is internal consistency, not subgroup validity."
+}

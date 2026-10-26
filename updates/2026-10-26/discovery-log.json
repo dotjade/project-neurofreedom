@@ -1,0 +1,22 @@
+{
+  "checked_utc": "2026-10-26T02:59:17Z",
+  "queries": [
+    "Tourette \"October 26\" \"2026\" trial study",
+    "Tourette \"October 25\" \"2026\" research"
+  ],
+  "decision": "Web discovery returned mostly irrelevant/date-collision results. Secondary case-series publicity was cross-matched to primary metadata PMID42921162; not treated as new clinical evidence. No source narratives stored.",
+  "primary_access_checks": [
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42925937/",
+      "method": "web reader",
+      "checked_utc": "2026-10-26T03:00:13Z",
+      "status": "tool inaccessible, not proven broken"
+    },
+    {
+      "url": "https://doi.org/10.1016/j.jep.2026.122551",
+      "method": "web reader",
+      "checked_utc": "2026-10-26T03:00:13Z",
+      "status": "tool inaccessible, not proven broken"
+    }
+  ]
+}

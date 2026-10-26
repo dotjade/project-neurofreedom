@@ -1,0 +1,19 @@
+{
+  "checkedAt": "2026-10-26T03:00:43.476786+00:00",
+  "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=42925937&retmode=xml",
+  "source_sha256": "dd9dbb9cf00fefca41b03286c224f2fcd15197903b20310c37e263b057d212f8",
+  "evidence_type": "peer-reviewed primary preclinical study; abstract-only inspection",
+  "pmid": "42925937",
+  "doi": "10.1016/j.jep.2026.122551",
+  "electronic_publication_date": "2026-10-24",
+  "reviewer": "Separate integrating agent source check, not clinical peer review",
+  "checks": {
+    "rat_not_human": true,
+    "reported_seven_groups_n10_not_verified_outcome_denominators": true,
+    "title_causal_wording_not_supported_by_abstract_conclusion": true,
+    "abstract_explicitly_leaves_c1qa_causality_unresolved": true,
+    "pubmed_and_entrez_history_differ_timezone_unverified": true,
+    "new_to_saved_scan_not_proven_new_since_prior_cutoff": true
+  },
+  "limits": "No full methods, blinding, outcome-level sample counts, multiplicity, precision or human safety reviewed. No human treatment or individual biology inference. No full abstract retained."
+}

@@ -1,0 +1,37 @@
+{
+  "checkedAt": "2026-10-26T03:01:46.760929+00:00",
+  "reviewer": "Independent AI-assisted source and arithmetic review; not clinical peer review",
+  "sources": [
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29653992/",
+      "method": "web reader",
+      "status": "readable",
+      "verified_identifiers": {
+        "pmid": "29653992",
+        "pmcid": "PMC5952973",
+        "doi": "10.1212/WNL.0000000000005474"
+      },
+      "electronic_publication": "2018-04-13",
+      "issue_date": "2018-05-08"
+    },
+    {
+      "url": "https://escholarship.org/content/qt4bh642p5/qt4bh642p5_noSplash_eaa44b57940714e0d4c85bd4f35f18fa.pdf",
+      "method": "web-reader extracted text",
+      "status": "readable methods, results, tables 1-3 and discussion",
+      "local_download": "HTTP 429; no source body retained",
+      "screenshot": "web screenshot failed Cache miss; printed glyphs not visually verified",
+      "source_hash": null
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5952973/",
+      "method": "web reader",
+      "status": "UnexpectedStatusCode access failure; not established broken"
+    }
+  ],
+  "limitations": [
+    "No full source copy saved or published.",
+    "No supplements or participant data inspected.",
+    "Extracted-table signs cannot be treated as visually confirmed print errors.",
+    "This independent pass does not establish a systematic correction/retraction search."
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "id": "pmid:29653992",
+  "title": "A multicenter examination and strategic revisions of the Yale Global Tic Severity Scale",
+  "authors_year": "McGuire et al., 2018",
+  "date_checked": "2026-10-26",
+  "extraction_date": "2026-10-26",
+  "evidence_type": "peer-reviewed cross-sectional psychometric study and expert-consensus proposed revisions",
+  "pmid": "29653992",
+  "pmcid": "PMC5952973",
+  "doi": "10.1212/WNL.0000000000005474",
+  "source_url": "https://escholarship.org/uc/item/4bh642p5",
+  "electronic_publication_date": "2018-04-13",
+  "issue_date": "2018-05-08",
+  "new_publication_since_prior_scan": false,
+  "review_scope": "Historical study selected by October25 next-question plan, not new evidence in current publication window",
+  "population": "Seven US academic tic/OCD specialty clinics, ages5\u201369; DSM-IV tic disorders, primarily Tourette; mixed clinical-care/trial ascertainment",
+  "sample": {
+    "total": 617,
+    "youth_under18": 516,
+    "adult_at_least18": 101,
+    "tourette": 552,
+    "chronic_motor": 46,
+    "chronic_vocal": 5,
+    "transient": 14,
+    "structured_diagnostic_interview": 410,
+    "best_estimate_diagnosis": 207,
+    "asd": null,
+    "adult_asd": null,
+    "severe_persistent_adult": null
+  },
+  "comparator": "Descriptive adult/youth comparisons, then pooled internal consistency and item-score distributions",
+  "intervention": "None tested in this psychometric analysis; source cohorts include clinical trials",
+  "outcomes": "Original clinician-rated YGTSS 7\u201310-day motor/phonic total tic severity and separate tic-related impairment; revisions proposed after original-scale analysis",
+  "results": {
+    "pooled_alpha": {
+      "motor": 0.8,
+      "phonic": 0.87,
+      "total_tic": 0.82,
+      "total_tic_and_impairment": 0.67
+    },
+    "note": "Alpha is internal consistency, not interrater reliability or subgroup measurement invariance. Adult/youth total tic and impairment contrasts not marked significant; no equivalence established."
+  },
+  "negative_and_conflicting_evidence": [
+    "Cross-site/rater interrater and test\u2013retest reliability not examined despite training",
+    "No ASD/communication-specific validation identified in inspected main report; missing subgroup counts are not zero",
+    "Revised form recommended by consensus, not prospectively validated or head-to-head tested here",
+    "Discussion alpha range differs from explicit motor table/abstract value; table retained",
+    "Text-extracted Table3 signs differ from direction labels in two cells; visual confirmation unavailable and cells not used in analysis"
+  ],
+  "follow_up": "Cross-sectional; no developmental trajectory or durability inference",
+  "uncertainty": "No subgroup-specific precision or measurement equivalence established; no new coefficients/intervals reconstructed",
+  "attrition_missingness": "Reported617 total for main tables; source-protocol selection and item-level missingness beyond published report not independently reconstructed",
+  "adverse_events": "Not an intervention safety analysis; no absence-of-risk inference",
+  "risk_of_bias": [
+    "Specialty clinic and source-trial selection",
+    "Predominantly youth and Tourette diagnoses",
+    "Site/protocol and informant variation",
+    "Small chronic vocal subgroup",
+    "No reported ASD/language stratified validity assessment"
+  ],
+  "funding_conflicts": "NIH and charitable/research funding; author disclosures include royalties and industry relationships; not conflict-free certification",
+  "related_cohorts": [
+    "Includes data from cited pediatric/adult CBIT and other clinical studies; do not count psychometric report as independent treatment replication"
+  ],
+  "claim_supported": "Broader pooled original-scale internal consistency and rationale for proposed anchor revisions",
+  "claim_not_supported": [
+    "ASD/communication measurement equivalence",
+    "Proof that ratings are biased",
+    "Direct validation of revised form",
+    "Persistent-severe-adult validation",
+    "Interchangeable tic severity and lived burden",
+    "Treatment benefit or disease modification"
+  ],
+  "retrieval_status": "Lawful UC repository PDF text and indexed primary excerpts inspected; screenshots failed; direct PMC challenged and EuropePMC XML500. Supplements/source-trial exclusions not audited. No paper copy retained.",
+  "correction_retraction_check": "PubMed EFetch returned no CommentsCorrections; bounded exact DOI notice search found none, not exhaustive clearance",
+  "reviewer": "AI-assisted methods extraction with independent source/arithmetic review, not clinical peer review",
+  "audit_path": "analyses/ygtss_validation/2026-10-26/report.md",
+  "next_verification_task": "Inspect2021 EMTICS original psychometrics (PMID33716826) factorial/convergent/discriminant methods and negative findings, keeping pediatric applicability distinct from unanswered adult/ASD validity."
+}
