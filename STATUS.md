@@ -452,3 +452,12 @@ Close this fixed 2018 audit absent new documentation. Next inspect the independe
 ### Public journal
 
 The feed distinguishes no qualifying new clinical result from the older preclinical source and completed historical measurement audit. All six optional activities are unchanged, with notice-one-thing selected; voting, comments and health-outcome collection remain disabled. The [bounded link pass](public/link-checks/2026-10-26.json) records actual dates and distinguishes source access challenges from broken targets. October 25 production was a verified baseline only; October 26 publication is recorded separately after exact source/live readback. Static source, deployment configuration and security settings are unchanged.
+
+
+### Publication verification - 26 October 2026
+
+Research commit [66b92f23cc16d62a88057145c2f6464514927ddf](https://github.com/dotjade/project-neurofreedom/commit/66b92f23cc16d62a88057145c2f6464514927ddf) contains all 58 authored artifacts. Fresh Git fetch and exact byte comparison verified them at 03:05:58 UTC, preserving 800 unrelated existing files with no unexpected paths. The GitHub connector separately read back the exact feed. The integration manifest covers this research snapshot, before this receipt.
+
+[Actions run 40262350548](https://github.com/dotjade/project-neurofreedom/actions/runs/40262350548) passed validation, build, deployment dry-run and production deployment. Deployment completed at 03:06:30 UTC. Anonymous raw GitHub at 03:06:28 and production /api/public-feed at 03:06:42 returned HTTP 200 with exact authored bytes; production returned X-Journal-Source repository. Verified updatedAt is 2026-10-26T03:04:05Z; research/activity dates are October 26, notice-one-thing is selected, six approved activities are unchanged and collection remains disabled.
+
+The new audit URL returned HTTP 200 with expected title at 03:06:47; live feedback-config.json remained disabled with null API origin at 03:06:51. No new rendered-page, mobile, zoom or narration test is claimed. Static source, deployment configuration and security settings were unchanged. [Verification receipt](updates/2026-10-26/publication-verification.json).
