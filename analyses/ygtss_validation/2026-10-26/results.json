@@ -1,0 +1,21 @@
+{
+  "kind": "Deterministic published-aggregate arithmetic; not simulation or participant reanalysis",
+  "seed": null,
+  "partition_checks": {
+    "age": true,
+    "diagnosis": true,
+    "sites": true,
+    "interview": true,
+    "ascertainment": true
+  },
+  "adult_percent": "16.369530",
+  "structured_interview_percent": "66.450567",
+  "chronic_motor_or_vocal_percent": "8.265802",
+  "adult_minus_youth_printed_mean_points": {
+    "motor": "0.95",
+    "phonic": "-1.97",
+    "total_tic": "-1.02",
+    "impairment": "1.77"
+  },
+  "limits": "Differences use rounded reported means, not adjusted effects or equivalence tests. No reconstructed scores, confidence intervals, subgroup counts, reliability coefficients, causal effects or patient biology."
+}

@@ -1,0 +1,106 @@
+{
+  "created_utc": "2026-10-26T03:05:00.116254+00:00",
+  "scope": "Daily scan artifacts including independent preclinical review; excludes separate safety subdirectory and later integration/publication records.",
+  "files": [
+    {
+      "path": "updates/2026-10-26/biorxiv-preprint-index.tsv",
+      "sha256": "b5fb0368ccaab5f864691b24166974d4551221771a0e75873882d399c17b0369"
+    },
+    {
+      "path": "updates/2026-10-26/build_results.py",
+      "sha256": "56b904e72eebe67d5123bf5f59b12c5cc487116169e8d8095f3a20318768510d"
+    },
+    {
+      "path": "updates/2026-10-26/check_integrity_controls.py",
+      "sha256": "f9a01cc7a47b548f65e53c3a076df8a7a7f36972bebe64985f8c6569eedbefd7"
+    },
+    {
+      "path": "updates/2026-10-26/discovery-log.json",
+      "sha256": "5ee6917ad0a5a6612a745603476c3a1da7d79b49d30d14821cb45c2950d00bfd"
+    },
+    {
+      "path": "updates/2026-10-26/integrity-control-source.json",
+      "sha256": "e863c3b20eff7a04ce8b8500c15d2306334190158d808412ddd2d240ae46320f"
+    },
+    {
+      "path": "updates/2026-10-26/integrity-recheck.json",
+      "sha256": "fbd496b05e8f48ff3f31185ae879132c0e4f4a5970bbb8866721090daf2b374b"
+    },
+    {
+      "path": "updates/2026-10-26/medrxiv-preprint-index.tsv",
+      "sha256": "1150284efce27f9db33e5555bcbc9d3d7089d20c9db66aa08782d4b817b7bb8f"
+    },
+    {
+      "path": "updates/2026-10-26/preclinical-independent-review.json",
+      "sha256": "47c7afd359e53e5f4ada14f234992c206f5194fd9b2408f0eb7ca642b4f0ec51"
+    },
+    {
+      "path": "updates/2026-10-26/prepare_baseline.py",
+      "sha256": "4896546f4f5962b2c054e858cc995f1ad3907d478895ec6bda9e172f59e2e3fe"
+    },
+    {
+      "path": "updates/2026-10-26/primary-evidence.jsonl",
+      "sha256": "03d3714ee37e4f13366df3c0b5d00f5e5f45121ee5a8c9a804a956d55e867758"
+    },
+    {
+      "path": "updates/2026-10-26/provenance.json",
+      "sha256": "c4d592a2763bcac436aa0c929178dbc70559d684bdbe167b9ac40518ac3528f4"
+    },
+    {
+      "path": "updates/2026-10-26/pubmed-screening.jsonl",
+      "sha256": "f28d2c0cfa44a7625f68bd31bf5470bd086b91a10babda32c43a7bed2b6a36e4"
+    },
+    {
+      "path": "updates/2026-10-26/registry-evidence.jsonl",
+      "sha256": "e3d86ba4719f95afb065339900dc97d23b2de0dbe6969d187e49e958fa84137a"
+    },
+    {
+      "path": "updates/2026-10-26/report.md",
+      "sha256": "3938bf34c02b319283ad65dbdc9feb545340c6adf295551b646c1178c73d1609"
+    },
+    {
+      "path": "updates/2026-10-26/reproduction-check.json",
+      "sha256": "0e4a1543f6488c2a8dfcb6b5403a0b4889bea37efb9e6f0805ac705516a39557"
+    },
+    {
+      "path": "updates/2026-10-26/request-log.json",
+      "sha256": "ddc32b71dd134d565d242a7dc7eadbe68d4101494478b328581a2e7733e6b8ce"
+    },
+    {
+      "path": "updates/2026-10-26/scan_sources.py",
+      "sha256": "da1b9d2e56ebf5fa3dffedf54e826c143e5df7f66bab1378a77e68a249b60a23"
+    },
+    {
+      "path": "updates/2026-10-26/scan_supplement.py",
+      "sha256": "505b5c2906ca2b593b5269a9a7b634b71edb9b2307770cea33c8496d35eca8e9"
+    },
+    {
+      "path": "updates/2026-10-26/search-log.json",
+      "sha256": "df8cf8d4815d0bd3cee2f1ae3c7920b42a725649191dfca4e1ce3b83c4fb0665"
+    },
+    {
+      "path": "updates/2026-10-26/summary.json",
+      "sha256": "9a5235d99e7a5c38331047f2f67b400cae70f22d9f8694bb68408e871f24b85a"
+    },
+    {
+      "path": "updates/2026-10-26/supplement-selected-metadata.json",
+      "sha256": "8f5f63e999249b5046fb65a3faeae79c5a56ff7f399d38c6651548c4d18b9aea"
+    },
+    {
+      "path": "updates/2026-10-26/validate_artifacts.py",
+      "sha256": "93aede4ddc6a5e2041f728a493e36f5ca131df4c9e437e221fd05fcf2abaaa59"
+    },
+    {
+      "path": "updates/2026-10-26/validate_publication.py",
+      "sha256": "224d004b1a35c7e3dc46f3edc266650cb42137742592ef0d42a805d4f068ddc3"
+    },
+    {
+      "path": "updates/2026-10-26/validation.json",
+      "sha256": "28a7e630b6152ac93ab77087c01ad6f6df1a732cec09b83c7fa05ab4f9b257f1"
+    },
+    {
+      "path": "updates/2026-10-26/verify_reproduction.py",
+      "sha256": "a72b2dbff82afa9f22bdd4864b04210aaeb4ec84f636890752e19d16aebfc74c"
+    }
+  ]
+}

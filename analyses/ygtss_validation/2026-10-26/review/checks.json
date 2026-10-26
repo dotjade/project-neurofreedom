@@ -1,0 +1,126 @@
+{
+  "method": "Independent Decimal arithmetic from publicly reported aggregate counts and rounded means. Not a simulation, statistical reanalysis or validation. No seed applies.",
+  "checks": [
+    {
+      "name": "age_partition",
+      "actual": "617",
+      "expected": "617",
+      "passed": true
+    },
+    {
+      "name": "diagnosis_partition",
+      "actual": "617",
+      "expected": "617",
+      "passed": true
+    },
+    {
+      "name": "sites_partition",
+      "actual": "617",
+      "expected": "617",
+      "passed": true
+    },
+    {
+      "name": "structured_interview_partition",
+      "actual": "410",
+      "expected": "410",
+      "passed": true
+    },
+    {
+      "name": "diagnostic_procedure_partition",
+      "actual": "617",
+      "expected": "617",
+      "passed": true
+    },
+    {
+      "name": "adult_percent_2dp",
+      "actual": "16.37",
+      "expected": "16.37",
+      "passed": true
+    },
+    {
+      "name": "structured_interview_percent_2dp",
+      "actual": "66.45",
+      "expected": "66.45",
+      "passed": true
+    },
+    {
+      "name": "ts_percent_2dp",
+      "actual": "89.47",
+      "expected": "89.47",
+      "passed": true
+    },
+    {
+      "name": "adult_minus_youth_tic_mean",
+      "actual": "-1.02",
+      "expected": "-1.02",
+      "passed": true
+    },
+    {
+      "name": "adult_minus_youth_impairment_mean",
+      "actual": "1.77",
+      "expected": "1.77",
+      "passed": true
+    },
+    {
+      "name": "adult_minus_youth_motor_mean",
+      "actual": "0.95",
+      "expected": "0.95",
+      "passed": true
+    },
+    {
+      "name": "adult_minus_youth_phonic_mean",
+      "actual": "-1.97",
+      "expected": "-1.97",
+      "passed": true
+    },
+    {
+      "name": "author_adult_percent",
+      "actual": "16.369530",
+      "expected": "16.369530",
+      "passed": true
+    },
+    {
+      "name": "author_structured_percent",
+      "actual": "66.450567",
+      "expected": "66.450567",
+      "passed": true
+    },
+    {
+      "name": "author_chronic_motor_vocal_percent",
+      "actual": "8.265802",
+      "expected": "8.265802",
+      "passed": true
+    },
+    {
+      "name": "author_motor_difference",
+      "actual": "0.95",
+      "expected": "0.95",
+      "passed": true
+    },
+    {
+      "name": "author_phonic_difference",
+      "actual": "-1.97",
+      "expected": "-1.97",
+      "passed": true
+    },
+    {
+      "name": "author_total_tic_difference",
+      "actual": "-1.02",
+      "expected": "-1.02",
+      "passed": true
+    },
+    {
+      "name": "author_impairment_difference",
+      "actual": "1.77",
+      "expected": "1.77",
+      "passed": true
+    },
+    {
+      "name": "author_partitions_pass",
+      "actual": "True",
+      "expected": "True",
+      "passed": true
+    }
+  ],
+  "passed": 20
+}

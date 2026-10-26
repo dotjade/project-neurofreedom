@@ -1,0 +1,170 @@
+{
+  "previousCutoff": "2026-10-25T02:46:31Z",
+  "completedAt": "2026-10-26T03:00:17Z",
+  "sources": [
+    {
+      "label": "FDA drug communications",
+      "url": "https://www.fda.gov/drugs/drug-safety-and-availability/drug-safety-communications",
+      "checkedAt": "2026-10-26T02:59:33Z",
+      "method": "Web reader, ordinary public source; no login or access bypass",
+      "status": "retrieved",
+      "result": "Latest listed communication September 15, 2026; no new-window heading.",
+      "limitations": "Index/selected fields only; attachments not fully screened."
+    },
+    {
+      "label": "FDA device communications",
+      "url": "https://www.fda.gov/medical-devices/medical-device-safety/safety-communications",
+      "checkedAt": "2026-10-26T02:59:33Z",
+      "method": "Web reader, ordinary public source; no login or access bypass",
+      "status": "retrieved",
+      "result": "Latest listed communication June 3, 2026.",
+      "limitations": "Index/selected fields only; attachments not fully screened."
+    },
+    {
+      "label": "FDA CDRH news",
+      "url": "https://www.fda.gov/medical-devices/medical-devices-news-and-events/cdrh-new-news-and-updates",
+      "checkedAt": "2026-10-26T02:59:54Z",
+      "method": "Web reader, ordinary public source; no login or access bypass",
+      "status": "retrieved",
+      "result": "Six latest headings October 20, 2026; none watched therapies.",
+      "limitations": "Index/selected fields only; attachments not fully screened."
+    },
+    {
+      "label": "FDA alerts/statements",
+      "url": "https://www.fda.gov/drugs/drug-safety-and-availability/drug-alerts-and-statements",
+      "checkedAt": "2026-10-26T03:00:07Z",
+      "method": "Web reader, ordinary public source; no login or access bypass",
+      "status": "retrieved",
+      "result": "Latest statement October 22 ARC annual report; latest alert May 15. Neither is new-window watched-treatment safety.",
+      "limitations": "Index/selected fields only; attachments not fully screened."
+    },
+    {
+      "label": "FDA labeling",
+      "url": "https://www.accessdata.fda.gov/scripts/cder/safetylabelingchanges/",
+      "checkedAt": "2026-10-26T02:59:54Z",
+      "method": "Web reader, ordinary public source; no login or access bypass",
+      "status": "partial_access",
+      "result": "Search form retrieved; no dated labeling result set executed.",
+      "limitations": "Label-change coverage incomplete."
+    },
+    {
+      "label": "FDA NeuroStar recall",
+      "url": "https://www.accessdata.fda.gov/SCRIPTs/cdrh/cfdocs/cfres/res.cfm?id=222521",
+      "checkedAt": "2026-10-26T02:59:33Z",
+      "method": "Web reader, ordinary public source; no login or access bypass",
+      "status": "retrieved",
+      "result": "Selected fields: Z-0142-2027, event 99812, Class 2, open/classified; initiated August 24, posted October 9. Already recorded October 20/23. Not a new recall.",
+      "limitations": "No complete field-history diff or serial-number analysis."
+    },
+    {
+      "label": "EMA new index",
+      "url": "https://www.ema.europa.eu/en/news-events/whats-new",
+      "checkedAt": "2026-10-26T02:59:54Z",
+      "method": "Web reader, ordinary public source; no login or access bypass",
+      "status": "retrieved",
+      "result": "Latest 25 rows dated October 23. Headings/ingredients screened; no new-window item. Search-incompleteness banner persists.",
+      "limitations": "Index/selected fields only; attachments not fully screened."
+    },
+    {
+      "label": "EMA PRAC signals",
+      "url": "https://www.ema.europa.eu/en/human-regulatory-overview/post-authorisation/pharmacovigilance-post-authorisation/signal-management/prac-recommendations-safety-signals",
+      "checkedAt": "2026-10-26T02:59:45Z",
+      "method": "Web reader, ordinary public source; no login or access bypass",
+      "status": "retrieved",
+      "result": "Lead recommendation published September 28, 2026. October 23 minutes index release predates cutoff and was checked previously.",
+      "limitations": "Index/selected fields only; attachments not fully screened."
+    },
+    {
+      "label": "MHRA Drug Safety Update",
+      "url": "https://www.gov.uk/drug-safety-update",
+      "checkedAt": "2026-10-26T02:59:33Z",
+      "method": "Web reader, ordinary public source; no login or access bypass",
+      "status": "retrieved",
+      "result": "Latest October 20; antidepressant October 15 warning remains historical.",
+      "limitations": "Index/selected fields only; attachments not fully screened."
+    },
+    {
+      "label": "MHRA alerts",
+      "url": "https://www.gov.uk/drug-device-alerts",
+      "checkedAt": "2026-10-26T02:59:45Z",
+      "method": "Web reader, ordinary public source; no login or access bypass",
+      "status": "retrieved",
+      "result": "First seven headings inspected; nonchronological index. No new-window watched-treatment notice verified.",
+      "limitations": "Issue date not necessarily posting date; attachments not fully screened."
+    },
+    {
+      "label": "TGA safety updates",
+      "url": "https://www.tga.gov.au/news/safety-updates",
+      "checkedAt": "2026-10-26T03:00:07Z",
+      "method": "Web reader, ordinary public source; no login or access bypass",
+      "status": "retrieved",
+      "result": "Latest October 14 vaccine reconstitution.",
+      "limitations": "Index/selected fields only; attachments not fully screened."
+    },
+    {
+      "label": "TGA safety alerts",
+      "url": "https://www.tga.gov.au/safety/safety-monitoring-and-information/safety-alerts",
+      "checkedAt": "2026-10-26T03:00:07Z",
+      "method": "Web reader, ordinary public source; no login or access bypass",
+      "status": "retrieved",
+      "result": "Latest September 14 counterfeit retatrutide.",
+      "limitations": "Index/selected fields only; attachments not fully screened."
+    },
+    {
+      "label": "TGA PI table",
+      "url": "https://www.tga.gov.au/product-information-safety-updates-year-table",
+      "checkedAt": "2026-10-26T03:00:07Z",
+      "method": "Web reader, ordinary public source; no login or access bypass",
+      "status": "retrieved",
+      "result": "Last updated September 29, 2026. Approval dates not posting dates.",
+      "limitations": "Posting lag and interactive recall coverage incomplete."
+    },
+    {
+      "label": "Health Canada recall index",
+      "url": "https://recalls-rappels.canada.ca/en",
+      "checkedAt": "2026-10-26T02:59:45Z",
+      "method": "Web reader, ordinary public source; no login or access bypass",
+      "status": "retrieved",
+      "result": "Ten displayed entries screened. Latest October 23 vehicle/food recalls; no new-window watched-treatment item.",
+      "limitations": "Index/selected fields only; attachments not fully screened."
+    },
+    {
+      "label": "ESSTS",
+      "url": "https://www.essts.org/partners",
+      "checkedAt": "2026-10-26T03:00:07Z",
+      "method": "Web reader, ordinary public source; no login or access bypass",
+      "status": "retrieved",
+      "result": "2022 version 2.0 guideline; further update under consideration, not newly issued.",
+      "limitations": "Index/selected fields only; attachments not fully screened."
+    },
+    {
+      "label": "AAN",
+      "url": "https://www.aan.com/PressRoom/Home/PressRelease/2721",
+      "checkedAt": "2026-10-26T03:00:17Z",
+      "method": "Web reader, ordinary public source; no login or access bypass",
+      "status": "retrieved",
+      "result": "Release dated May 6, 2019 describes May 7 guideline. Not new-window guidance.",
+      "limitations": "Index/selected fields only; attachments not fully screened."
+    },
+    {
+      "label": "NICE NG127",
+      "url": "https://www.nice.org.uk/guidance/ng127",
+      "checkedAt": "2026-10-26T02:59:45Z",
+      "method": "Web reader, ordinary public source; no login or access bypass",
+      "status": "access_limited",
+      "result": "Web reader timed out with 400 retrieval error. Content not inspected today.",
+      "limitations": "No claim of broken page or current guideline revision status."
+    },
+    {
+      "label": "AWMF TicCare",
+      "url": "https://www.awmf.org/aktuelles/awmf-aktuell/diagnostik-und-behandlung-primaerer-tic-stoerungen-ticcare",
+      "checkedAt": "2026-10-26T03:00:17Z",
+      "method": "Web reader, ordinary public source; no login or access bypass",
+      "status": "retrieved",
+      "result": "October 1 registration announcement for planned all-age S3 guideline development; not issued new-window guidance.",
+      "limitations": "Register not re-opened today; prior register access gap persists."
+    }
+  ],
+  "qualifyingNewFindings": 0,
+  "coverage": "Bounded selected official indexes and six search queries, not exhaustive worldwide or complete labeling/recall surveillance. No attachments fully rescreened."
+}

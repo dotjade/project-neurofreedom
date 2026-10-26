@@ -1,6 +1,6 @@
 # Project NeuroFreedom status
 
-Updated 25 October 2026. Initial portfolio, seventeen completed daily updates and three completed weekly syntheses. Public evidence repository and journal launched 13 October.
+Updated 26 October 2026. Initial portfolio, eighteen completed daily updates and three completed weekly syntheses. Public evidence repository and journal launched 13 October.
 
 ## Completed in this first pass
 
@@ -14,7 +14,7 @@ Updated 25 October 2026. Initial portfolio, seventeen completed daily updates an
 
 ## Enabled research schedules
 
-The user approved the following automatic public-science research and repository updates on 8 October 2026. Each schedule was created successfully and returned enabled status. Daily runs were completed on 9-25 October 2026; weekly syntheses were completed on 11, 18 and 25 October; first monthly and quarterly runs remain unverified.
+The user approved the following automatic public-science research and repository updates on 8 October 2026. Each schedule was created successfully and returned enabled status. Daily runs were completed on 9-26 October 2026; weekly syntheses were completed on 11, 18 and 25 October; first monthly and quarterly runs remain unverified.
 
 - Daily new-evidence checks: from 9 October 2026, approximately 08:00 India time.
 - Weekly synthesis: Sundays, from 11 October 2026, approximately 09:00 India time.
@@ -437,3 +437,18 @@ The next bounded public-only task remains the original YGTSS validation populati
 ### Weekly publication verification - 25 October 2026
 
 Weekly research commit [cf765847a7e12ac5f39ea99a3bc8e8676a2b7fb3](https://github.com/dotjade/project-neurofreedom/commit/cf765847a7e12ac5f39ea99a3bc8e8676a2b7fb3) was freshly fetched and all 15 authored files compared byte for byte at03:45:21UTC. All787 unrelated existing files, including the daily public feed, were preserved with no unexpected paths. Connector readback verified the results and report heading; anonymous raw GitHub returned the exact report bytes. No journal deployment was triggered or required because its path filters were untouched. This is repository publication, not a second homepage update. [Receipt](updates/2026-10-25-weekly/publication-verification.json).
+
+
+## Completed daily research update - 26 October 2026
+
+The [dated scan](updates/2026-10-26/report.md) distinguishes an older newly encountered rat-model study from verified new-window evidence. The paper's abstract leaves C1qa causality unresolved; neither its treatment-associated changes nor its title establish a human mechanism or benefit. No qualifying new clinical result was verified in the bounded scan. Publication, indexing and retrieval dates remain distinct, with incomplete worldwide registry and safety coverage.
+
+The [YGTSS validation audit](analyses/ygtss_validation/2026-10-26/report.md) advances the latest question using the original 2018 multicenter paper. Its pooled internal-consistency results do not establish ASD/communication-group measurement equivalence. Interrater and test-retest reliability across sites/raters were not tested in this sample, and proposed revised anchors were not an independent prospective validation of the revised form. Neither proof of bias nor proof of unbiased interpretation follows. Adults were 101/617; age coverage alone does not establish persistent-severe-adult validation. Published-aggregate arithmetic preserves nonsignificant total-tic and impairment age contrasts without calling them equivalence.
+
+### Next bounded decision
+
+Close this fixed 2018 audit absent new documentation. Next inspect the independent 2021 EMTICS psychometric paper (PMID 33716826, DOI 10.3389/fpsyt.2021.626459), reconciling factorial/convergent/discriminant tests and negative fit findings with the 2018 pooled-alpha claim. Verify instrument version and pediatric eligibility, keeping total tic and impairment distinct; do not extrapolate to adults or ASD/communication groups without the missing public subgroup-validation evidence. No participant data or contact is authorized or needed.
+
+### Public journal
+
+The feed distinguishes no qualifying new clinical result from the older preclinical source and completed historical measurement audit. All six optional activities are unchanged, with notice-one-thing selected; voting, comments and health-outcome collection remain disabled. The [bounded link pass](public/link-checks/2026-10-26.json) records actual dates and distinguishes source access challenges from broken targets. October 25 production was a verified baseline only; October 26 publication is recorded separately after exact source/live readback. Static source, deployment configuration and security settings are unchanged.
