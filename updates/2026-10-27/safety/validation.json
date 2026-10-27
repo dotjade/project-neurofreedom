@@ -1,0 +1,28 @@
+{
+  "passed": 22,
+  "total": 22,
+  "checks": {
+    "six_activity_ids_unchanged": true,
+    "all_activity_content_matches_bundled_approved_catalog": true,
+    "no_food_field": true,
+    "feedback_disabled": true,
+    "zero_vote_aggregates": true,
+    "source_feedback_disabled_with_null_origin": true,
+    "vote_setup_returns_before_external_requests": true,
+    "no_html_form_input_or_textarea": true,
+    "no_browser_storage_api": true,
+    "reflection_clear_on_pagehide": true,
+    "activity_optional_stop_message": true,
+    "all_static_research_citations_in_checked_set": true,
+    "live_homepage_and_script_match_pinned_source": true,
+    "live_feedback_disabled": true,
+    "19_timeline_targets_retrieved": true,
+    "no_confirmed_broken_target": true,
+    "baseline_exact_bytes": true,
+    "production_repository_header": true,
+    "all20_source_checks_recorded": true,
+    "six_queries_recorded": true,
+    "no_new_findings_claimed": true,
+    "paper_bytes_not_retained": true
+  }
+}

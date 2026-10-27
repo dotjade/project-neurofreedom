@@ -1,0 +1,12 @@
+{
+  "checkedAt": "2026-10-27T03:15:20Z",
+  "source": "https://www.nature.com/articles/s41593-026-02419-5",
+  "method": "Independent web-reader inspection of primary publisher date, abstract and main aggregate description",
+  "doi": "10.1038/s41593-026-02419-5",
+  "publication_date": "2026-09-01",
+  "evidence_type": "Peer-reviewed human genetic association study, not an intervention trial",
+  "verified_aggregates": {"affected_probands": 3964, "case_trios": 2418, "case_singletons": 1546, "control_trios": 1734, "combined_analysis_high_confidence_genes": 34, "union_across_combined_and_separate_analyses": 36},
+  "interpretation": "The 36-gene total spans combined and disorder-specific analyses; it is not 36 independently proven causal mechanisms or treatment targets. Probands, trios and all sequenced people are different units. The September publication predates today's scan; publicity does not reset publication date. No personal genotype, individual prediction, treatment or patient biology follows.",
+  "limitations": "This independent check covers the date and selected aggregate distinctions, not full variant-level quality control, all supplements, penetrance or independent replication. No participant or family data were retrieved or retained. Original summary only.",
+  "reviewer": "Integrating research agent; documentation check, not clinical peer review"
+}

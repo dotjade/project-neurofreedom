@@ -1,0 +1,45 @@
+{
+  "checkedAt": "2026-10-27T03:17:27.914132+00:00",
+  "review_type": "Independent AI-assisted primary-source and arithmetic review, not clinical peer review",
+  "sources": [
+    {
+      "url": "https://www.frontiersin.org/journals/psychiatry/articles/10.3389/fpsyt.2021.626459/full",
+      "status": "Primary article HTML readable via web reader and ordinary HTTP",
+      "inspected": "Methods, results, Tables 1 and 2, Discussion, supplement link",
+      "date": "2021-02-25",
+      "doi": "10.3389/fpsyt.2021.626459"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7949908/",
+      "status": "Browser challenge in web reader, not established broken"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7949908/fullTextXML",
+      "status": "HTTP 200; transient inspection of supplement metadata; no source body saved"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7949908/supplementaryFiles",
+      "status": "HTTP 200 application/zip, 140032 bytes",
+      "inspected_file": "Data_Sheet_1.PDF",
+      "file_sha256": "8258aa21e1f6d770cd255fa49c24afa0d3e59fd09c6c61b2d1c5cba3efeaaca4",
+      "checkedAt": "2026-10-27T03:19:22.015164+00:00",
+      "scope": "Published model-summary table only, not participant rows"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6349795/fullTextXML",
+      "status": "HTTP 200, transient primary protocol paragraph inspection",
+      "checkedAt": "2026-10-27T03:20:08.196484+00:00",
+      "scope": "ASD eligibility and compliance exclusions independently checked; no actual analytic subgroup count inferred"
+    }
+  ],
+  "supplement_access": "Resolved through official EuropePMC supplementaryFiles endpoint. One-page Data_Sheet_1.PDF extracted temporarily and inspected as text and rendered image; no source PDF/image retained in repository.",
+  "method_limit": "Exact omega variant/formula/package and original code not verified from main report. No reconstruction of CFA or participant data.",
+  "tool_note": "Initial standard Python script lacked requests module; retried with standard-library urllib successfully. No package installation.",
+  "supplement_summary": {
+    "misspecification_decisions": 13,
+    "inconclusive_decisions": 2,
+    "no_misspecification_rows": "not shown by source",
+    "omega_variant_formula_code": "not supplied in inspected table",
+    "interpretation": "These are reported model diagnostics, not independently recomputed residual tests or evidence of ASD-specific reporting bias."
+  }
+}

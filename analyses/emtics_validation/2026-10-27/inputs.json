@@ -1,0 +1,60 @@
+{
+  "source": {
+    "pmid": "33716826",
+    "doi": "10.3389/fpsyt.2021.626459",
+    "url": "https://www.frontiersin.org/journals/psychiatry/articles/10.3389/fpsyt.2021.626459/full",
+    "locators": "Statistical Analyses, Internal Consistency, Factor Structure, Table 2"
+  },
+  "sample": {
+    "total": 706,
+    "tourette": 624,
+    "chronic_motor": 76,
+    "chronic_vocal": 6,
+    "subgroup_age_at_least8_methods": 578,
+    "no_phonic_past_week": 178,
+    "no_motor_past_week": 21,
+    "age_range": [
+      3,
+      16
+    ]
+  },
+  "reliability": {
+    "TTS": {
+      "alpha": "0.87",
+      "omega": "0.58"
+    },
+    "GSS": {
+      "alpha": "0.88",
+      "omega": "0.56"
+    }
+  },
+  "fit": {
+    "RMSEA": "0.09",
+    "CFI": "0.90",
+    "TLI": "0.87"
+  },
+  "rmsea_reported_interval": [
+    "0.08",
+    "0.10"
+  ],
+  "cutoffs": {
+    "lenient": {
+      "RMSEA": "0.10",
+      "CFI": "0.90",
+      "TLI": "0.90"
+    },
+    "stringent": {
+      "RMSEA": "0.06",
+      "CFI": "0.95",
+      "TLI": "0.95"
+    }
+  },
+  "correlations_TTS": {
+    "CGI_S": "0.65",
+    "CY_BOCS": "0.27",
+    "SNAP_IV": "0.24",
+    "SDQ_internalizing": "0.27"
+  },
+  "rounding_half_unit": "0.005",
+  "interpretation": "Selected reported aggregate values. Cutoffs are alternatives cited in the paper, not universal validation rules. No covariance matrix, individual scores or model refit."
+}

@@ -1,0 +1,188 @@
+{
+  "previousCutoff": "2026-10-26T03:00:17Z",
+  "completedAt": "2026-10-27T03:16:57Z",
+  "sources": [
+    {
+      "label": "FDA drug communications",
+      "url": "https://www.fda.gov/drugs/drug-safety-and-availability/drug-safety-communications",
+      "checkedAt": "2026-10-27T03:15:47Z",
+      "method": "Web reader, ordinary public source; no login or access bypass",
+      "status": "retrieved",
+      "result": "Latest listed communication September 15, 2026; no new-window heading.",
+      "limitations": "Bounded index or selected metadata check; not exhaustive labeling/recall surveillance. Attachments unreviewed except separately listed PRAC documents."
+    },
+    {
+      "label": "FDA device communications",
+      "url": "https://www.fda.gov/medical-devices/medical-device-safety/safety-communications",
+      "checkedAt": "2026-10-27T03:15:47Z",
+      "method": "Web reader, ordinary public source; no login or access bypass",
+      "status": "retrieved",
+      "result": "Latest listed communication June 3, 2026.",
+      "limitations": "Bounded index or selected metadata check; not exhaustive labeling/recall surveillance. Attachments unreviewed except separately listed PRAC documents."
+    },
+    {
+      "label": "FDA CDRH news",
+      "url": "https://www.fda.gov/medical-devices/medical-devices-news-and-events/cdrh-new-news-and-updates",
+      "checkedAt": "2026-10-27T03:15:47Z",
+      "method": "Web reader, ordinary public source; no login or access bypass",
+      "status": "retrieved",
+      "result": "Six latest headings October 20, 2026; none watched therapies.",
+      "limitations": "Bounded index or selected metadata check; not exhaustive labeling/recall surveillance. Attachments unreviewed except separately listed PRAC documents."
+    },
+    {
+      "label": "FDA alerts/statements",
+      "url": "https://www.fda.gov/drugs/drug-safety-and-availability/drug-alerts-and-statements",
+      "checkedAt": "2026-10-27T03:15:47Z",
+      "method": "Web reader, ordinary public source; no login or access bypass",
+      "status": "retrieved",
+      "result": "Latest statement October 22 ARC annual report; outside current window. No watched-treatment action verified.",
+      "limitations": "Bounded index or selected metadata check; not exhaustive labeling/recall surveillance. Attachments unreviewed except separately listed PRAC documents."
+    },
+    {
+      "label": "FDA labeling",
+      "url": "https://www.accessdata.fda.gov/scripts/cder/safetylabelingchanges/",
+      "checkedAt": "2026-10-27T03:15:47Z",
+      "method": "Web reader, ordinary public source; no login or access bypass",
+      "status": "partial_access",
+      "result": "Search form retrieved; no dated labeling result set executed.",
+      "limitations": "Bounded index or selected metadata check; not exhaustive labeling/recall surveillance. Attachments unreviewed except separately listed PRAC documents."
+    },
+    {
+      "label": "EMA new index",
+      "url": "https://www.ema.europa.eu/en/news-events/whats-new",
+      "checkedAt": "2026-10-27T03:15:47Z",
+      "method": "Web reader, ordinary public source; no login or access bypass",
+      "status": "retrieved",
+      "result": "25 October 26 rows screened, followed by October 23. New PRAC recommendations, wording, cumulative list and agenda appear. Search-incompleteness banner persists. Cumulative list not diffed.",
+      "limitations": "Bounded index or selected metadata check; not exhaustive labeling/recall surveillance. Attachments unreviewed except separately listed PRAC documents."
+    },
+    {
+      "label": "EMA PRAC signals",
+      "url": "https://www.ema.europa.eu/en/human-regulatory-overview/post-authorisation/pharmacovigilance-post-authorisation/signal-management/prac-recommendations-safety-signals",
+      "checkedAt": "2026-10-27T03:15:47Z",
+      "method": "Web reader, ordinary public source; no login or access bypass",
+      "status": "retrieved",
+      "result": "New recommendations EMA/PRAC/206892/2026 and wording EMA/PRAC/206903/2026 first published October 26; adoption September 28-October 1. Both documents inspected separately.",
+      "limitations": "Bounded index or selected metadata check; not exhaustive labeling/recall surveillance. Attachments unreviewed except separately listed PRAC documents."
+    },
+    {
+      "label": "MHRA Drug Safety Update",
+      "url": "https://www.gov.uk/drug-safety-update",
+      "checkedAt": "2026-10-27T03:15:47Z",
+      "method": "Web reader, ordinary public source; no login or access bypass",
+      "status": "retrieved",
+      "result": "New October 26 MedSafetyWeek reporting campaign and Yellow Card update; not a new watched-treatment risk. October 15 antidepressant warning remains historical.",
+      "limitations": "Bounded index or selected metadata check; not exhaustive labeling/recall surveillance. Attachments unreviewed except separately listed PRAC documents."
+    },
+    {
+      "label": "MHRA alerts",
+      "url": "https://www.gov.uk/drug-device-alerts",
+      "checkedAt": "2026-10-27T03:15:47Z",
+      "method": "Web reader, ordinary public source; no login or access bypass",
+      "status": "retrieved",
+      "result": "First six headings screened, including October 26 clopidogrel liquids recall outside watch. Nonchronological index; issue and posting dates may differ.",
+      "limitations": "Bounded index or selected metadata check; not exhaustive labeling/recall surveillance. Attachments unreviewed except separately listed PRAC documents."
+    },
+    {
+      "label": "TGA safety updates",
+      "url": "https://www.tga.gov.au/news/safety-updates",
+      "checkedAt": "2026-10-27T03:15:47Z",
+      "method": "Web reader, ordinary public source; no login or access bypass",
+      "status": "retrieved",
+      "result": "Latest October 14 vaccine reconstitution.",
+      "limitations": "Bounded index or selected metadata check; not exhaustive labeling/recall surveillance. Attachments unreviewed except separately listed PRAC documents."
+    },
+    {
+      "label": "TGA safety alerts",
+      "url": "https://www.tga.gov.au/safety/safety-monitoring-and-information/safety-alerts",
+      "checkedAt": "2026-10-27T03:15:47Z",
+      "method": "Web reader, ordinary public source; no login or access bypass",
+      "status": "retrieved",
+      "result": "Latest September 14 counterfeit retatrutide.",
+      "limitations": "Bounded index or selected metadata check; not exhaustive labeling/recall surveillance. Attachments unreviewed except separately listed PRAC documents."
+    },
+    {
+      "label": "TGA PI table",
+      "url": "https://www.tga.gov.au/product-information-safety-updates-year-table",
+      "checkedAt": "2026-10-27T03:15:47Z",
+      "method": "Web reader, ordinary public source; no login or access bypass",
+      "status": "retrieved",
+      "result": "Last updated September 29, 2026. Approval dates not posting dates.",
+      "limitations": "Bounded index or selected metadata check; not exhaustive labeling/recall surveillance. Attachments unreviewed except separately listed PRAC documents."
+    },
+    {
+      "label": "Health Canada recall index",
+      "url": "https://recalls-rappels.canada.ca/en",
+      "checkedAt": "2026-10-27T03:15:47Z",
+      "method": "Web reader, ordinary public source; no login or access bypass",
+      "status": "retrieved",
+      "result": "Ten displayed entries screened; latest October 27 food recall, October 26 stent/analyzer/glucose-app and consumer recalls. No watched-treatment item verified.",
+      "limitations": "Bounded index or selected metadata check; not exhaustive labeling/recall surveillance. Attachments unreviewed except separately listed PRAC documents."
+    },
+    {
+      "label": "ESSTS",
+      "url": "https://www.essts.org/partners",
+      "checkedAt": "2026-10-27T03:15:47Z",
+      "method": "Web reader, ordinary public source; no login or access bypass",
+      "status": "retrieved",
+      "result": "2022 version 2.0 guideline; further update under consideration, not newly issued.",
+      "limitations": "Bounded index or selected metadata check; not exhaustive labeling/recall surveillance. Attachments unreviewed except separately listed PRAC documents."
+    },
+    {
+      "label": "AAN",
+      "url": "https://www.aan.com/PressRoom/Home/PressRelease/2721",
+      "checkedAt": "2026-10-27T03:15:47Z",
+      "method": "Web reader, ordinary public source; no login or access bypass",
+      "status": "retrieved",
+      "result": "Release dated May 6, 2019 describes May 7 guideline. Not new-window guidance.",
+      "limitations": "Bounded index or selected metadata check; not exhaustive labeling/recall surveillance. Attachments unreviewed except separately listed PRAC documents."
+    },
+    {
+      "label": "NICE NG127",
+      "url": "https://www.nice.org.uk/guidance/ng127",
+      "checkedAt": "2026-10-27T03:15:47Z",
+      "method": "Web reader, ordinary public source; no login or access bypass",
+      "status": "access_limited",
+      "result": "HTTP 403 in web reader. Current text not inspected; not established broken.",
+      "limitations": "Bounded index or selected metadata check; not exhaustive labeling/recall surveillance. Attachments unreviewed except separately listed PRAC documents."
+    },
+    {
+      "label": "AWMF TicCare",
+      "url": "https://www.awmf.org/aktuelles/awmf-aktuell/diagnostik-und-behandlung-primaerer-tic-stoerungen-ticcare",
+      "checkedAt": "2026-10-27T03:15:47Z",
+      "method": "Web reader, ordinary public source; no login or access bypass",
+      "status": "retrieved",
+      "result": "October 1 registration announcement for planned all-age S3 guideline development; not issued new-window guidance.",
+      "limitations": "Bounded index or selected metadata check; not exhaustive labeling/recall surveillance. Attachments unreviewed except separately listed PRAC documents."
+    },
+    {
+      "label": "PRAC adopted recommendations",
+      "url": "https://www.ema.europa.eu/en/documents/prac-recommendation/prac-recommendations-signals-adopted-28-september-1-october-2026-prac-meeting_en.pdf",
+      "checkedAt": "2026-10-27T03:16:12Z",
+      "method": "Official PDF web reader and transient lexical check as specified",
+      "status": "retrieved",
+      "result": "All five pages inspected. Product-information update concerns binimetinib/encorafenib neutropenia, EPITT 20255; other listed substances are outside defined watch. New document, no qualifying watched-treatment material finding.",
+      "limitations": "Source dates and decision stage distinguished; no patient narrative or source document retained."
+    },
+    {
+      "label": "PRAC wording",
+      "url": "https://www.ema.europa.eu/en/documents/prac-recommendation/new-product-information-wording-extracts-prac-recommendations-signals-adopted-28-september-1-october-2026-prac_en.pdf",
+      "checkedAt": "2026-10-27T03:16:12Z",
+      "method": "Official PDF web reader and transient lexical check as specified",
+      "status": "retrieved",
+      "result": "Both pages inspected; binimetinib/encorafenib wording, not a separate independent risk finding or watched treatment.",
+      "limitations": "Source dates and decision stage distinguished; no patient narrative or source document retained."
+    },
+    {
+      "label": "PRAC October agenda",
+      "url": "https://www.ema.europa.eu/en/documents/agenda/agenda-prac-meeting-26-29-october-2026_en.pdf",
+      "checkedAt": "2026-10-27T03:16:57Z",
+      "method": "Official PDF web reader and transient lexical check as specified",
+      "status": "retrieved",
+      "result": "Agenda only. Six substring occurrences map to two contents/body items, including tetrabenazine inside deutetrabenazine. Deutetrabenazine PSUSA/00011177/202603 (page 25) and methylphenidate new formulation/strength extension (page 20) are for adoption, not new risk conclusions.",
+      "limitations": "Source dates and decision stage distinguished; no patient narrative or source document retained."
+    }
+  ],
+  "qualifyingNewFindings": 0,
+  "coverage": "20 selected official sources including two complete short PRAC PDFs and one agenda lexical check. No complete national, labeling, recall or all-attachment coverage."
+}

@@ -1,6 +1,6 @@
 # Project NeuroFreedom status
 
-Updated 26 October 2026. Initial portfolio, eighteen completed daily updates and three completed weekly syntheses. Public evidence repository and journal launched 13 October.
+Updated 27 October 2026. Initial portfolio, nineteen completed daily updates and three completed weekly syntheses. Public evidence repository and journal launched 13 October.
 
 ## Completed in this first pass
 
@@ -14,7 +14,7 @@ Updated 26 October 2026. Initial portfolio, eighteen completed daily updates and
 
 ## Enabled research schedules
 
-The user approved the following automatic public-science research and repository updates on 8 October 2026. Each schedule was created successfully and returned enabled status. Daily runs were completed on 9-26 October 2026; weekly syntheses were completed on 11, 18 and 25 October; first monthly and quarterly runs remain unverified.
+The user approved the following automatic public-science research and repository updates on 8 October 2026. Each schedule was created successfully and returned enabled status. Daily runs were completed on 9-27 October 2026; weekly syntheses were completed on 11, 18 and 25 October; first monthly and quarterly runs remain unverified.
 
 - Daily new-evidence checks: from 9 October 2026, approximately 08:00 India time.
 - Weekly synthesis: Sundays, from 11 October 2026, approximately 09:00 India time.
@@ -461,3 +461,18 @@ Research commit [66b92f23cc16d62a88057145c2f6464514927ddf](https://github.com/do
 [Actions run 40262350548](https://github.com/dotjade/project-neurofreedom/actions/runs/40262350548) passed validation, build, deployment dry-run and production deployment. Deployment completed at 03:06:30 UTC. Anonymous raw GitHub at 03:06:28 and production /api/public-feed at 03:06:42 returned HTTP 200 with exact authored bytes; production returned X-Journal-Source repository. Verified updatedAt is 2026-10-26T03:04:05Z; research/activity dates are October 26, notice-one-thing is selected, six approved activities are unchanged and collection remains disabled.
 
 The new audit URL returned HTTP 200 with expected title at 03:06:47; live feedback-config.json remained disabled with null API origin at 03:06:51. No new rendered-page, mobile, zoom or narration test is claimed. Static source, deployment configuration and security settings were unchanged. [Verification receipt](updates/2026-10-26/publication-verification.json).
+
+
+## Completed daily research update - 27 October 2026
+
+The [dated scan](updates/2026-10-27/report.md) found no qualifying new-window primary publication, preprint or posted trial result within its bounded coverage. An older September genetic-association paper was newly encountered: 36 is a union across combined and diagnosis-specific analyses, not 36 validated treatments. Registry metadata postings include an estimated start-date change and a historical mixed-diagnosis study; neither is a new clinical result. Worldwide coverage and access limits remain explicit.
+
+The [EMTICS measurement audit](analyses/emtics_validation/2026-10-27/report.md) tests the latest question beyond collection. In the same 706-child sample, total tic score alpha .87 coexists with reported omega .58 and marginal model fit. Neither coefficient is an independently established true reliability, and no decline across studies is inferred. Deterministic comparisons against the paper's alternative cutoffs and a conditional rounding check preserve the fit limitations without invalidating every YGTSS use. Total tic severity, tic-attributed impairment and broader burden remain distinct. Pediatric eligibility and permitted ASD enrollment do not establish adult or ASD-group validation.
+
+### Next bounded decision
+
+Close this fixed aggregate comparison absent clarifying public methods. Next audit Ho et al.'s parent-versus-clinician study (PMID 32819930, DOI 10.1136/bmjopen-2019-034634): distinguish correlation from agreement, patients from repeated visits, and shared information from independent ratings. Verify version, timing, completeness and subgroup exclusions before treating ratings as interchangeable. This addresses a specific informant gap, not another alpha audit. Pediatric proxy evidence cannot replace adult self-report or ASD/communication-group validation. No participant data or contact is needed or authorized.
+
+### Public journal
+
+The feed distinguishes the no-new-window scan from the older genetic association and historical measurement audit. All six approved activities are unchanged, with rest-or-leave selected; voting, comments and health-outcome collection remain disabled. The [dated link pass](public/link-checks/2026-10-27.json) distinguishes access limitations from broken sources. The prior live edition is a baseline only; source and production verification are recorded separately after publication. Static source, deployment configuration and security settings are unchanged.
