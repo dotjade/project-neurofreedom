@@ -1,0 +1,91 @@
+{
+  "id": "pmid:33716826",
+  "title": "Yale Global Tic Severity Scale (YGTSS): Psychometric Quality of the Gold Standard for Tic Assessment Based on the Large-Scale EMTICS Study",
+  "authors_year": "Haas et al., 2021",
+  "extraction_date": "2026-10-27",
+  "date_checked": "2026-10-27",
+  "pmid": "33716826",
+  "pmcid": "PMC7949908",
+  "doi": "10.3389/fpsyt.2021.626459",
+  "source_url": "https://www.frontiersin.org/journals/psychiatry/articles/10.3389/fpsyt.2021.626459/full",
+  "electronic_publication_date": "2021-02-25",
+  "evidence_type": "Peer-reviewed cross-sectional psychometric analysis of longitudinal cohort baseline",
+  "new_publication_since_prior_scan": false,
+  "review_scope": "Historical source selected by October 26 research plan, not new-window discovery",
+  "population": "Children ages 3\u201316 in 16 European clinical centers; original YGTSS, not administered YGTSS-R validation",
+  "sample": {
+    "total": 706,
+    "tourette": 624,
+    "chronic_motor": 76,
+    "chronic_vocal": 6,
+    "adult": 0,
+    "asd": null,
+    "subgroup_methods_age_at_least_8": 578
+  },
+  "eligibility": "Linked protocol PMID 29982875 permits ASD but excludes inability of child to understand/comply or parental inability to comply; eligibility does not establish ASD representation or subgroup validity. Serious medical/neurological illness and recent antibiotics also excluded in protocol.",
+  "intervention": "None tested by psychometric analysis",
+  "comparator": "CGI-S for convergence; CY-BOCS, parent SNAP-IV and SDQ internalizing for discrimination; ordinal two-factor model and coefficient comparison",
+  "outcomes": "Original YGTSS total tic score (TTS), separately rated impairment and global sum (GSS), not all lived burden",
+  "follow_up": "Baseline only for this analysis, not longitudinal response or prediction",
+  "results": {
+    "TTS_alpha": 0.87,
+    "TTS_omega": 0.58,
+    "GSS_alpha": 0.88,
+    "GSS_omega": 0.56,
+    "RMSEA": 0.09,
+    "RMSEA_reported_interval": [
+      0.08,
+      0.1
+    ],
+    "CFI": 0.9,
+    "TLI": 0.87,
+    "TTS_Spearman_correlations": {
+      "CGI_S": 0.65,
+      "CY_BOCS": 0.27,
+      "SNAP_IV": 0.24,
+      "SDQ_internalizing": 0.27
+    },
+    "impairment_factor_loadings": {
+      "motor": 0.46,
+      "phonic": 0.24
+    }
+  },
+  "uncertainty": "Exact omega variant, formula and implementation not verified in main report or inspected supplement; no coefficient uncertainty or new estimates reconstructed. Good alpha does not imply good fit, omega is not treated as true reliability.",
+  "negative_and_conflicting_evidence": [
+    "Marginal factor fit and at least 13 residual-error misspecifications; subsequent EFA no satisfactory alternative",
+    "Supplement has 13 misspecification and two inconclusive rows; omitted no-misspecification rows and mixed expected parameter change signs retained",
+    "No empirical interrater reliability or language-stratified validation",
+    "No adult or ASD/communication-group measurement equivalence demonstrated",
+    "Methods \u22658 versus Results >8 subgroup wording discrepancy retained",
+    "Past-week modality absence counts use full 706 denominator, not 624 TS denominator",
+    "Abstract OCD correlation appears as 27; explicit Table 2 value .27 extracted"
+  ],
+  "attrition_missingness": "706 retained after baseline cleaning/eligibility; pair-specific correlation counts and complete missingness handling not established in inspected report",
+  "adverse_events": "Not intervention safety research; no absence-of-risk inference",
+  "risk_of_bias": [
+    "Clinic-based pediatric cohort with relatively low average impairment",
+    "Mixed languages and centers without language-specific validation",
+    "Only CGI-S convergence comparator; independent blinding not established",
+    "Construct/informant/recall-window differences for discriminant comparators",
+    "Small chronic-vocal subgroup; no severe-adult representation"
+  ],
+  "funding_conflicts": "EMTICS European research funding; author disclosures include multiple institutional and industry research/consultancy relationships; not conflict-free certification",
+  "related_cohort_ids": [
+    "EMTICS COURSE baseline",
+    "protocol PMID 29982875 / DOI 10.1007/s00787-018-1190-4"
+  ],
+  "claim_supported": "Convergence/discrimination evidence coexists with limited factorial fit, coefficient dependence and reasons to keep tic severity and impairment distinct",
+  "claim_not_supported": [
+    "YGTSS universally invalid",
+    "Omega is true reliability or alpha bias equals coefficient gap",
+    "Adult/ASD/communication or language measurement equivalence",
+    "Validation of revised anchors",
+    "Treatment response, remission or causal mechanism"
+  ],
+  "retrieval_status": "Publisher full HTML and official EuropePMC XML inspected transiently; independent reviewer retrieved official supplemental aggregate table and visually checked it. Direct PMC challenged. No full-text or participant files retained.",
+  "correction_retraction_check": "No PubMed linked notice or notice in bounded exact-DOI search; not comprehensive clearance",
+  "reviewer": "AI-assisted source/methods audit with independent source/arithmetic review; not clinical peer review",
+  "audit_path": "analyses/emtics_validation/2026-10-27/report.md",
+  "computation": "Deterministic coefficient-gap and published-cutoff sensitivity on rounded aggregates; no model fitting or simulation",
+  "next_verification_task": "Bounded Ho et al. 2020 parent-versus-clinician audit (PMID 32819930, DOI 10.1136/bmjopen-2019-034634): agreement vs correlation, repeated-visit unit, informant independence, completeness/version and subgroup eligibility; no extrapolation to adult/ASD."
+}

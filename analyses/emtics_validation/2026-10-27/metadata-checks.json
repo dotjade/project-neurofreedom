@@ -1,0 +1,28 @@
+[
+  {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=33716826&retmode=xml",
+    "at_utc": "2026-10-27T03:15:58.748537+00:00",
+    "sha256": "cf3c0a305920fd6e57a1df1a23f63c5a2f1e565d7644cce9daa8b6887ef579d6",
+    "pmid": "33716826",
+    "article_dates": [
+      {
+        "type": "Electronic",
+        "date": "2021-02-25"
+      }
+    ],
+    "comments_corrections": []
+  },
+  {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=29982875&retmode=xml",
+    "at_utc": "2026-10-27T03:16:01.506620+00:00",
+    "sha256": "a25e133b117603611679937522508c0874fef246a7b28ef6e7f5dcacf84fd833",
+    "pmid": "29982875",
+    "article_dates": [
+      {
+        "type": "Electronic",
+        "date": "2018-07-07"
+      }
+    ],
+    "comments_corrections": []
+  }
+]

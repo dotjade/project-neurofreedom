@@ -1,0 +1,174 @@
+{
+  "method": "Decimal arithmetic on printed aggregate values. Threshold outcomes are conditional on rounded reported point estimates, not new model fits. No simulation, clinical effect or random seed.",
+  "passed": 28,
+  "checks": [
+    {
+      "name": "sex_partition",
+      "actual": "706",
+      "expected": "706",
+      "passed": true
+    },
+    {
+      "name": "diagnosis_partition",
+      "actual": "706",
+      "expected": "706",
+      "passed": true
+    },
+    {
+      "name": "older_group_complement",
+      "actual": "128",
+      "expected": "128",
+      "passed": true
+    },
+    {
+      "name": "no_recent_phonic_percent",
+      "actual": "25.212465",
+      "expected": "25.212465",
+      "passed": true
+    },
+    {
+      "name": "no_recent_motor_percent",
+      "actual": "2.974504",
+      "expected": "2.974504",
+      "passed": true
+    },
+    {
+      "name": "TTS_alpha_minus_omega",
+      "actual": "0.29",
+      "expected": "0.29",
+      "passed": true
+    },
+    {
+      "name": "GSS_alpha_minus_omega",
+      "actual": "0.32",
+      "expected": "0.32",
+      "passed": true
+    },
+    {
+      "name": "same_coefficient_crossstudy_alpha_difference",
+      "actual": "0.05",
+      "expected": "0.05",
+      "passed": true
+    },
+    {
+      "name": "lenient_RMSEA",
+      "actual": "True",
+      "expected": "True",
+      "passed": true
+    },
+    {
+      "name": "lenient_CFI",
+      "actual": "True",
+      "expected": "True",
+      "passed": true
+    },
+    {
+      "name": "lenient_TLI",
+      "actual": "False",
+      "expected": "False",
+      "passed": true
+    },
+    {
+      "name": "lenient_all_pass",
+      "actual": "False",
+      "expected": "False",
+      "passed": true
+    },
+    {
+      "name": "stringent_RMSEA",
+      "actual": "False",
+      "expected": "False",
+      "passed": true
+    },
+    {
+      "name": "stringent_CFI",
+      "actual": "False",
+      "expected": "False",
+      "passed": true
+    },
+    {
+      "name": "stringent_TLI",
+      "actual": "False",
+      "expected": "False",
+      "passed": true
+    },
+    {
+      "name": "stringent_all_pass",
+      "actual": "False",
+      "expected": "False",
+      "passed": true
+    },
+    {
+      "name": "rounding_lower_CFI_fails_lenient",
+      "actual": "False",
+      "expected": "False",
+      "passed": true
+    },
+    {
+      "name": "rounding_upper_CFI_passes_lenient",
+      "actual": "True",
+      "expected": "True",
+      "passed": true
+    },
+    {
+      "name": "author_gap_TTS",
+      "actual": "0.29",
+      "expected": "0.29",
+      "passed": true
+    },
+    {
+      "name": "author_gap_GSS",
+      "actual": "0.32",
+      "expected": "0.32",
+      "passed": true
+    },
+    {
+      "name": "author_cutoff_count_lenient",
+      "actual": "2",
+      "expected": "2",
+      "passed": true
+    },
+    {
+      "name": "author_conjunction_lenient",
+      "actual": "False",
+      "expected": "False",
+      "passed": true
+    },
+    {
+      "name": "author_cutoff_count_stringent",
+      "actual": "0",
+      "expected": "0",
+      "passed": true
+    },
+    {
+      "name": "author_conjunction_stringent",
+      "actual": "False",
+      "expected": "False",
+      "passed": true
+    },
+    {
+      "name": "author_TLI_upper_boundary",
+      "actual": "0.875",
+      "expected": "0.875",
+      "passed": true
+    },
+    {
+      "name": "author_RMSEA_lower_boundary",
+      "actual": "0.085",
+      "expected": "0.085",
+      "passed": true
+    },
+    {
+      "name": "author_CFI_rounding_sensitive",
+      "actual": "True",
+      "expected": "True",
+      "passed": true
+    },
+    {
+      "name": "author_partition",
+      "actual": "True",
+      "expected": "True",
+      "passed": true
+    }
+  ]
+}

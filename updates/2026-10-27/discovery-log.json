@@ -1,0 +1,24 @@
+{
+  "checked_utc": "2026-10-27T03:14:42Z",
+  "queries": [
+    "Tourette research \"October 26\" \"2026\"",
+    "Tourette trial study \"October 27\" \"2026\"",
+    "site.nature.com \"36\" \"tic disorders\" \"2026\""
+  ],
+  "decision": "October 26 secondary publicity led to older September genetics source. Only primary source supports extraction. Third-party registry synchronization date is not a new official update. Other search hits were date collisions or secondary material.",
+  "primary_source": {
+    "url": "https://www.nature.com/articles/s41593-026-02419-5",
+    "checked_utc": "2026-10-27T03:14:59Z",
+    "status": "primary HTML readable through web reader with cookie-error URL suffix; not a broken source",
+    "publication_date": "2026-09-01",
+    "scope": "Abstract and opening main paragraphs; no participant rows or full-text retention"
+  },
+  "baseline_dedup": {
+    "commit": "10689d9b7194f8600dd2d9b01137975229cd036b",
+    "terms": [
+      "42680906",
+      "10.1038/s41593-026-02419-5"
+    ],
+    "matched_paths": []
+  }
+}

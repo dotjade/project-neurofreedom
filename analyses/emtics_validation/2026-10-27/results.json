@@ -1,0 +1,38 @@
+{
+  "analysis_type": "Deterministic published-aggregate sensitivity; not simulation",
+  "random_seed": null,
+  "alpha_minus_omega": {
+    "TTS": "0.29",
+    "GSS": "0.32"
+  },
+  "cutoff_sensitivity": {
+    "lenient": {
+      "individual_cutoffs_met": {
+        "RMSEA": true,
+        "CFI": true,
+        "TLI": false
+      },
+      "count_met": 2,
+      "all_three_met": false
+    },
+    "stringent": {
+      "individual_cutoffs_met": {
+        "RMSEA": false,
+        "CFI": false,
+        "TLI": false
+      },
+      "count_met": 0,
+      "all_three_met": false
+    }
+  },
+  "rounding_sensitivity": {
+    "assumption": "Hypothetical conventional rounding to two decimals; not source-supplied precision intervals",
+    "TLI_upper_rounding_boundary": "0.875",
+    "TLI_below_even_lenient_cutoff_throughout_rounding_interval": true,
+    "RMSEA_lower_rounding_boundary": "0.085",
+    "RMSEA_above_stringent_cutoff_throughout_rounding_interval": true,
+    "CFI_lenient_boundary_is_rounding_sensitive": true
+  },
+  "diagnosis_partition_matches": true,
+  "limits": "Arithmetic differences are not estimates of alpha bias or reliability loss. Threshold conjunction is a transparent sensitivity convention, not a diagnostic decision. No significance tests or clinical effects computed."
+}

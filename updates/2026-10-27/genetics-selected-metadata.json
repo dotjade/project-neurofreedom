@@ -1,0 +1,51 @@
+{
+  "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=42680906&retmode=xml",
+  "started_utc": "2026-10-27T03:16:37.302122+00:00",
+  "completed_utc": "2026-10-27T03:16:41.479545+00:00",
+  "sha256": "682969eb4235cd51d3f87eacc416c0f0a8a185095d74de9a3d692533aa831c9f",
+  "pmid": "42680906",
+  "title": "Whole-exome sequencing in individuals with obsessive-compulsive disorder and chronic tic disorders identifies 36 large-effect risk genes.",
+  "article_dates": [
+    {
+      "type": "Electronic",
+      "Year": "2026",
+      "Month": "09",
+      "Day": "01"
+    }
+  ],
+  "history": {
+    "received": {
+      "Year": "2025",
+      "Month": "10",
+      "Day": "8"
+    },
+    "accepted": {
+      "Year": "2026",
+      "Month": "7",
+      "Day": "16"
+    },
+    "medline": {
+      "Year": "2026",
+      "Month": "9",
+      "Day": "2",
+      "Hour": "5",
+      "Minute": "36"
+    },
+    "pubmed": {
+      "Year": "2026",
+      "Month": "9",
+      "Day": "2",
+      "Hour": "5",
+      "Minute": "36"
+    },
+    "entrez": {
+      "Year": "2026",
+      "Month": "9",
+      "Day": "2",
+      "Hour": "0",
+      "Minute": "36"
+    }
+  },
+  "corrections": [],
+  "source_content_retained": false
+}

@@ -1,10 +1,17 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-26T03:04:05Z",
-  "lastResearchDate": "2026-10-26",
+  "updatedAt": "2026-10-27T03:20:03Z",
+  "lastResearchDate": "2026-10-27",
   "cadence": "Daily scheduled review; publication follows verified work.",
-  "latestSummary": "An older animal study is not human treatment evidence. A scale audit separates overall consistency from validation across autism or communication groups.",
+  "latestSummary": "A pediatric tic-scale study shows why consistency alone is not enough. The scan added an older genetics paper, not a new treatment result.",
   "timeline": [
+    {
+      "date": "2026-10-27",
+      "title": "One statistic is not the whole test.",
+      "type": "Historical measurement audit and evidence scan",
+      "summary": "The bounded scan verified no new paper or trial result. An older genetics paper was added. A separate pediatric scale audit found high consistency alongside imperfect model fit; adult and autism-specific validity remain open.",
+      "record": "https://github.com/dotjade/project-neurofreedom/blob/main/analyses/emtics_validation/2026-10-27/report.md"
+    },
     {
       "date": "2026-10-26",
       "title": "Check what a scale was tested to measure.",
@@ -146,7 +153,7 @@
       "type": "Primary qualitative study",
       "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10863457/",
       "label": "Isaacs and colleagues, 2024",
-      "checkedAt": "2026-10-26",
+      "checkedAt": "2026-10-27",
       "linkState": "Primary text readable via web reader; direct request access-limited"
     },
     {
@@ -155,7 +162,7 @@
       "type": "Primary longitudinal study",
       "url": "https://www.neurology.org/doi/10.1212/01.WNL.0000086370.10186.7C",
       "label": "Pappert and colleagues, 2003",
-      "checkedAt": "2026-10-26",
+      "checkedAt": "2026-10-27",
       "linkState": "Publisher HTTP 403 challenge; institutional primary PDF available"
     },
     {
@@ -164,7 +171,7 @@
       "type": "Primary adult cohort study",
       "url": "https://link.springer.com/content/pdf/10.1186/s44247-026-00284-7.pdf",
       "label": "Ivanova and colleagues, 2026",
-      "checkedAt": "2026-10-26",
+      "checkedAt": "2026-10-27",
       "linkState": "Primary PDF retrievable through this check"
     }
   ],
@@ -231,6 +238,6 @@
     "trend": [],
     "message": "No public ratings are collected yet. There are no votes or trends to show."
   },
-  "activityEditionDate": "2026-10-26",
-  "featuredActivityId": "notice-one-thing"
+  "activityEditionDate": "2026-10-27",
+  "featuredActivityId": "rest-or-leave"
 }
