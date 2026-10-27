@@ -476,3 +476,12 @@ Close this fixed aggregate comparison absent clarifying public methods. Next aud
 ### Public journal
 
 The feed distinguishes the no-new-window scan from the older genetic association and historical measurement audit. All six approved activities are unchanged, with rest-or-leave selected; voting, comments and health-outcome collection remain disabled. The [dated link pass](public/link-checks/2026-10-27.json) distinguishes access limitations from broken sources. The prior live edition is a baseline only; source and production verification are recorded separately after publication. Static source, deployment configuration and security settings are unchanged.
+
+
+### Publication verification - 27 October 2026
+
+Research commit [935fd5ea07071f0f41dc60121e72df7fb26aca5a](https://github.com/dotjade/project-neurofreedom/commit/935fd5ea07071f0f41dc60121e72df7fb26aca5a) contains all 62 authored artifacts. Fresh Git fetch and exact byte comparison verified them at 03:21:22 UTC, preserving 856 unrelated existing files with no unexpected paths. The GitHub connector separately read back the exact feed at 03:21:32. The integration manifest covers this research snapshot, before this receipt.
+
+[Actions run 40443699740](https://github.com/dotjade/project-neurofreedom/actions/runs/40443699740) passed validation, build, deployment dry-run and production deployment. Deployment completed at 03:22:07 UTC. Anonymous raw GitHub at 03:21:56 and production /api/public-feed at 03:22:09 returned HTTP 200 with exact authored bytes; production returned X-Journal-Source repository. Verified updatedAt is 2026-10-27T03:20:03Z; research/activity dates are October 27, rest-or-leave is selected, six approved activities are unchanged and collection remains disabled.
+
+The new audit URL returned HTTP 200 with expected title at 03:22:14; live feedback-config.json remained disabled with null API origin at 03:22:16. No new rendered-page, mobile, zoom or narration test is claimed. Static source, deployment configuration and security settings were unchanged. [Verification receipt](updates/2026-10-27/publication-verification.json).
