@@ -522,3 +522,10 @@ Original completed work includes a public-aggregate genetics audit, a negative-t
 The next gene-specific Wang question is only partly advanced: union counts and negative convergence evidence were audited, but all 36 gene classifications still require a safely separated public aggregate table. A fixed operational comparison of timing hypotheses is a complementary next methods step, not authorization for data collection.
 
 This is requested deeper synthesis after the completed daily scan, not another claimed daily scan. The dated public feed adds that distinction and retains the six safe activities, selected daily feature and disabled collection settings. Publication readback follows separately.
+
+
+### Causal synthesis publication verification - 28 October 2026
+
+Research commit [156aa011d63dd747da6600eeb5c6d2a8406ca907](https://github.com/dotjade/project-neurofreedom/commit/156aa011d63dd747da6600eeb5c6d2a8406ca907) was read back exactly for all 41 authored files, preserving 976 unrelated files. The GitHub connector separately verified the exact feed. [Actions run 40775666064](https://github.com/dotjade/project-neurofreedom/actions/runs/40775666064) passed validation, build, deployment dry-run and deployment, completed at 21:54:22 UTC.
+
+At 21:56:41 UTC, after the documented cache interval, production /api/public-feed returned HTTP 200, X-Journal-Source repository and exact authored bytes with updatedAt 2026-10-28T21:52:16Z. An earlier Python-client 403 was an access limitation: curl returned HTTP 200 with the prior verified cached edition before the final exact match. The new report URL returned HTTP 200 with its expected title; live feedback configuration remained disabled with null API origin. Six activities and the daily selection are unchanged. No new rendered/mobile test is claimed. [Verification receipt](analyses/causal_synthesis/2026-10-28/publication-verification.json).

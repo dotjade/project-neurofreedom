@@ -1,0 +1,40 @@
+{
+  "researchCommit": "156aa011d63dd747da6600eeb5c6d2a8406ca907",
+  "sourceReadback": {
+    "verifiedAt": "2026-10-28T21:53:54Z",
+    "exactFiles": 41,
+    "preservedUnrelatedFiles": 976,
+    "unexpectedPaths": [],
+    "connectorFeedExact": true
+  },
+  "workflow": {
+    "url": "https://github.com/dotjade/project-neurofreedom/actions/runs/40775666064",
+    "conclusion": "success",
+    "deployCompletedAt": "2026-10-28T21:54:22Z"
+  },
+  "production": {
+    "checkedAt": "2026-10-28T21:56:41.918237Z",
+    "url": "https://tourette.fyi/api/public-feed",
+    "httpStatus": 200,
+    "source": "repository",
+    "exactAuthoredBytes": true,
+    "updatedAt": "2026-10-28T21:52:16Z",
+    "lastResearchDate": "2026-10-28",
+    "sha256": "ac01c9ed1f323b6651f9fbec5e0df3d37a8177b4addeb792720c7310366a34eb"
+  },
+  "accessHistory": {
+    "raw": "HTTP 200 exact authored bytes at 21:54:06 UTC",
+    "pythonClient": "HTTP 403 production access limitation, not a broken endpoint",
+    "curlInitial": "HTTP 200 repository source at 21:54:19 UTC, prior verified cached edition",
+    "report": "HTTP 200 and expected report title verified",
+    "feedback": {
+      "enabled": false,
+      "apiOrigin": null,
+      "verifiedAt": null
+    }
+  },
+  "limitations": [
+    "No new rendered or mobile test claimed.",
+    "Receipt finalized after execution-environment interruption, using already completed checks."
+  ]
+}
