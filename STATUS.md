@@ -502,3 +502,12 @@ Close this fixed informant audit unless public documentation resolves its specif
 ### Public journal
 
 The feed distinguishes older primary evidence, registry metadata, a new communication about a known interaction and the historical methods audit from a new tic-treatment result. All six approved activities remain unchanged, with small-silly-mark selected; voting, comments and health-outcome collection are disabled. The [link pass](public/link-checks/2026-10-28.json) records actual dates and access limitations separately from broken targets. The October 27 live edition is a baseline only; publication verification follows exact source and production readback. Static source, deployment configuration and security settings are unchanged.
+
+
+### Publication verification - 28 October 2026
+
+Research commit [5ea22250c40bb31e7288e87ab22c8b58e75afda4](https://github.com/dotjade/project-neurofreedom/commit/5ea22250c40bb31e7288e87ab22c8b58e75afda4) contains all 61 authored artifacts. Fresh Git fetch and exact byte comparison verified them at 03:03:07 UTC, preserving 916 unrelated existing files with no unexpected paths. The GitHub connector separately read back the exact feed at 03:03:18. The integration manifest covers this research snapshot, before this receipt.
+
+[Actions run 40624447387](https://github.com/dotjade/project-neurofreedom/actions/runs/40624447387) passed validation, build, deployment dry-run and production deployment. Deployment completed at 03:03:46 UTC. Anonymous raw GitHub at 03:03:23 and production /api/public-feed at 03:03:26 matched authored bytes; a fresh production check after deployment at 03:04:04 again returned HTTP 200 with exact bytes and X-Journal-Source repository. Verified updatedAt is 2026-10-28T03:00:27Z; research/activity dates are October 28, small-silly-mark is selected, six approved activities are unchanged and collection remains disabled.
+
+The new audit URL returned HTTP 200 with expected title at 03:03:30; live feedback-config.json remained disabled with null API origin at 03:03:37. No new rendered-page, mobile, zoom or narration test is claimed. Static source, deployment configuration and security settings were unchanged. [Verification receipt](updates/2026-10-28/publication-verification.json).
