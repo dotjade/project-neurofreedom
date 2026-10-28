@@ -1,0 +1,185 @@
+{
+  "recordedAt": "2026-10-28T03:04:32.715982+00:00",
+  "source": {
+    "checkedAt": "2026-10-28T03:03:07.833992+00:00",
+    "research_commit": "5ea22250c40bb31e7288e87ab22c8b58e75afda4",
+    "base_commit": "7ef323818a2a808a19e367e78ba01533fc9dce58",
+    "exact_files_verified": 61,
+    "unrelated_files_preserved": 916,
+    "unexpected_paths": []
+  },
+  "connector_feed": {
+    "checkedAt": "2026-10-28T03:03:18.528Z",
+    "exact_match": true,
+    "blob_sha": "c14195c9df7c484eadd66b24dde8399934d35c6c",
+    "updatedAt": "2026-10-28T03:00:27Z"
+  },
+  "workflow": {
+    "id": 40624447387,
+    "url": "https://github.com/dotjade/project-neurofreedom/actions/runs/40624447387",
+    "head_sha": "5ea22250c40bb31e7288e87ab22c8b58e75afda4",
+    "status": "completed",
+    "conclusion": "success",
+    "jobs": [
+      {
+        "name": "check",
+        "status": "completed",
+        "conclusion": "success",
+        "completed_at": "2026-10-28T03:03:24Z",
+        "steps": [
+          {
+            "name": "Set up job",
+            "conclusion": "success"
+          },
+          {
+            "name": "Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+            "conclusion": "success"
+          },
+          {
+            "name": "Run actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020",
+            "conclusion": "success"
+          },
+          {
+            "name": "Run npm ci",
+            "conclusion": "success"
+          },
+          {
+            "name": "Run npm run check",
+            "conclusion": "success"
+          },
+          {
+            "name": "Run npm run build",
+            "conclusion": "success"
+          },
+          {
+            "name": "Run npx --no-install wrangler deploy --dry-run",
+            "conclusion": "success"
+          },
+          {
+            "name": "Post Run actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020",
+            "conclusion": "success"
+          },
+          {
+            "name": "Post Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+            "conclusion": "success"
+          },
+          {
+            "name": "Complete job",
+            "conclusion": "success"
+          }
+        ]
+      },
+      {
+        "name": "deploy",
+        "status": "completed",
+        "conclusion": "success",
+        "completed_at": "2026-10-28T03:03:46Z",
+        "steps": [
+          {
+            "name": "Set up job",
+            "conclusion": "success"
+          },
+          {
+            "name": "Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+            "conclusion": "success"
+          },
+          {
+            "name": "Run actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020",
+            "conclusion": "success"
+          },
+          {
+            "name": "Check deployment credentials",
+            "conclusion": "success"
+          },
+          {
+            "name": "Run npm ci",
+            "conclusion": "success"
+          },
+          {
+            "name": "Run npm run build",
+            "conclusion": "success"
+          },
+          {
+            "name": "Publish tested revision",
+            "conclusion": "success"
+          },
+          {
+            "name": "Check public site and repository feed",
+            "conclusion": "success"
+          },
+          {
+            "name": "Post Run actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020",
+            "conclusion": "success"
+          },
+          {
+            "name": "Post Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+            "conclusion": "success"
+          },
+          {
+            "name": "Complete job",
+            "conclusion": "success"
+          }
+        ]
+      }
+    ]
+  },
+  "public_reads": [
+    {
+      "name": "raw",
+      "url": "https://raw.githubusercontent.com/dotjade/project-neurofreedom/main/public/research-feed.json",
+      "checkedAt": "2026-10-28T03:03:23.811955+00:00",
+      "httpStatus": 200,
+      "curlExitCode": 0,
+      "exact_match": true,
+      "sha256": "9ad9dc3c87fd2512d0ff5a1ae30a405ae86857126e826688fccd952df7ee7594",
+      "updatedAt": "2026-10-28T03:00:27Z"
+    },
+    {
+      "name": "production",
+      "url": "https://tourette.fyi/api/public-feed",
+      "checkedAt": "2026-10-28T03:03:26.551696+00:00",
+      "httpStatus": 200,
+      "curlExitCode": 0,
+      "exact_match": true,
+      "sha256": "9ad9dc3c87fd2512d0ff5a1ae30a405ae86857126e826688fccd952df7ee7594",
+      "updatedAt": "2026-10-28T03:00:27Z",
+      "repository_header": true
+    },
+    {
+      "name": "report",
+      "url": "https://github.com/dotjade/project-neurofreedom/blob/main/analyses/informant_agreement/2026-10-28/report.md",
+      "checkedAt": "2026-10-28T03:03:30.891200+00:00",
+      "httpStatus": 200,
+      "curlExitCode": 0,
+      "expected_title_present": true
+    },
+    {
+      "name": "feedback",
+      "url": "https://tourette.fyi/feedback-config.json",
+      "checkedAt": "2026-10-28T03:03:37.065396+00:00",
+      "httpStatus": 200,
+      "curlExitCode": 0,
+      "disabled_with_null_origin": true
+    },
+    {
+      "name": "production_after_deployment",
+      "url": "https://tourette.fyi/api/public-feed",
+      "checkedAt": "2026-10-28T03:04:04.275834+00:00",
+      "httpStatus": 200,
+      "curlExitCode": 0,
+      "exact_match": true,
+      "sha256": "9ad9dc3c87fd2512d0ff5a1ae30a405ae86857126e826688fccd952df7ee7594",
+      "updatedAt": "2026-10-28T03:00:27Z",
+      "repository_header": true
+    }
+  ],
+  "verified_edition": {
+    "updatedAt": "2026-10-28T03:00:27Z",
+    "lastResearchDate": "2026-10-28",
+    "activityEditionDate": "2026-10-28",
+    "featuredActivityId": "small-silly-mark",
+    "approved_catalog_unchanged": true,
+    "collection_disabled": true
+  },
+  "limits": "No new rendered-page, mobile, zoom, real-device narration or accessibility test. No static source, deployment configuration or security settings changed. Integration manifest identifies research-commit snapshot before this later receipt."
+}
