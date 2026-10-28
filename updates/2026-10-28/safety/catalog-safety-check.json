@@ -1,0 +1,30 @@
+{
+  "checkedAt": "2026-10-28T02:55:57.464299+00:00",
+  "checks": {
+    "six_activity_ids_unchanged": true,
+    "all_activity_content_matches_bundled_approved_catalog": true,
+    "no_food_field": true,
+    "feedback_disabled": true,
+    "zero_vote_aggregates": true,
+    "source_feedback_disabled_with_null_origin": true,
+    "vote_setup_returns_before_external_requests": true,
+    "no_html_form_input_or_textarea": true,
+    "no_browser_storage_api": true,
+    "reflection_clear_on_pagehide": true,
+    "activity_optional_stop_message": true,
+    "all_static_research_citations_in_checked_set": true,
+    "live_homepage_and_script_match_pinned_source": true,
+    "live_feedback_disabled": true
+  },
+  "allPassed": true,
+  "activityIds": [
+    "hand-at-ease",
+    "familiar-route",
+    "notice-one-thing",
+    "music-or-silence",
+    "small-silly-mark",
+    "rest-or-leave"
+  ],
+  "staticResearchCitationCount": 18,
+  "scope": "Source/config safeguards and ordinary live GETs only. Reflection is an unsent page-memory select. Latent vote code is gated off. No rendered, keyboard, mobile, zoom, narration, provider-log or clinical-safety certification."
+}

@@ -1,0 +1,54 @@
+{
+  "source": {
+    "pmid": "32819930",
+    "doi": "10.1136/bmjopen-2019-034634",
+    "url": "https://bmjopen.bmj.com/content/10/8/e034634",
+    "locator": "Results: Study population, Table1, Diagnostic accuracy; Figure 2 independently visually reviewed"
+  },
+  "counts": {
+    "patients_enrolled": 594,
+    "patients_paired_analysis": 527,
+    "parent_assessments": 3356,
+    "paired_assessments": 1455,
+    "clinician_mild": 819,
+    "both_mild": 752,
+    "clinician_moderate_severe": 636,
+    "both_moderate_severe": 507,
+    "fellow_assessments": 1522
+  },
+  "mean_difference_points": {
+    "entire": "4.15",
+    "combined_tic": "2.40",
+    "impairment": "2.41",
+    "motor": "1.17",
+    "vocal": "1.23"
+  },
+  "published": {
+    "auroc": "0.858",
+    "auroc_ci": [
+      "0.839",
+      "0.876"
+    ],
+    "sensitivity_percent": "79.7",
+    "sensitivity_ci": [
+      "76.6",
+      "82.8"
+    ],
+    "specificity_percent": "91.8",
+    "specificity_ci": [
+      "89.9",
+      "93.7"
+    ],
+    "repetition_reduction_entire": "0.24",
+    "repetition_reduction_entire_ci": [
+      "0.14",
+      "0.34"
+    ],
+    "repetition_reduction_combined": "0.17",
+    "repetition_reduction_combined_ci": [
+      "0.11",
+      "0.22"
+    ]
+  },
+  "interpretation": "Aggregate assessment counts, not individual records. Binary categories reproduced as authors tabulate; handling score20 and exact score endpoint unresolved. Mean difference described as absolute but subtraction wording ambiguous."
+}

@@ -1,0 +1,36 @@
+# Safety, interpretation and public-link review: October 28, 2026
+
+## Result and decision
+
+The bounded pass found **one newly published communication of an older diagnostic interaction**, not a new tic-treatment safety finding or issued tic guideline. The [MHRA October roundup](https://www.gov.uk/drug-device-alerts/mhra-safety-roundup-october-2026), published and issued October 27, discusses possible false-positive ioflupane DAT scan interpretation with venlafaxine. Evidence for other SNRIs is limited and the mechanism is unclear. It also repeats an October 15 antidepressant communication. These are regulatory communications, not randomized treatment evidence, prevalence estimates or patient-specific conclusions.
+
+The diagnostic interaction predates this window: [FDA approval letter NDA 022454/S-017](https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2026/022454Orig1s017ltr.pdf), reference 5781146, is signed April 15, 2026. It refers to a February 2 safety notification about venlafaxine/desvenlafaxine image interference. March 4 is the application date, not the approval date. The [April 2026 label](https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/022454s017lbl.pdf) corroborates the interaction. The UK label revision date was not established. No medication or imaging-management instructions are provided here. Retain this as newly encountered regulatory context, not a new biological discovery, tic diagnostic recommendation or treatment change.
+
+## Food-IgG interpretation safeguard
+
+The separate literature scan encountered a pediatric food-IgG association paper. This review did not independently reproduce that study. It checked authoritative interpretation boundaries: [AAAAI guidance](https://www.aaaai.org/tools-for-the-public/conditions-library/allergies/igg-food-test) rejects food-IgG testing as a validated diagnosis of allergy or intolerance; exposure and tolerance are competing explanations. The [CSACI position statement](https://pmc.ncbi.nlm.nih.gov/articles/PMC3443017/), published July 26, 2012, DOI 10.1186/1710-1492-8-12, PMID 22835332, independently supports these limits and discusses harms from inappropriate restriction or reintroduction. These are historical society guidance, not new-window findings. Association rules cannot establish an allergy, food-caused tics, a diet benefit or a patient's biology. No food activity, allergy test or dietary intervention was added. A low IgG result is not evidence that a known allergen is safe.
+
+## Actual coverage and uncertainty
+
+- Previous verified cutoff: October 27 at 03:16:57 UTC. Today's six core overlapping searches ran at 02:55:04 to 02:55:19 UTC, with 39 displayed cards, not 39 unique events. Search windows intentionally overlap the cutoff; publication/event dates control eligibility. Three supplementary queries checked diagnostic-label provenance and food-IgG interpretation. Exact queries, including mistyped domain operators, are in `query-ledger.json`.
+- `source-checks.json` records 22 current source checks: FDA, EMA, MHRA, TGA, Health Canada, ESSTS, AAN, NICE, AWMF, plus selected diagnostic-label and allergy-guidance checks. Counts describe checks, not independent positive evidence.
+- FDA CDRH has three October 27 headings outside watched therapies. EMA has 22 October 27 rows; no core watched substance matched. Pregabalin Viatris is outside the explicit watch. PRAC recommendations remain the October 26 releases reviewed previously; their PDFs and agenda were not reread today. An agenda is not a final decision.
+- MHRA's first two alert headings and selected roundup sections were reviewed, not every linked attachment. A tracked product-link route failed HTTP 400; this does not establish a broken product record. No tracking URL or individual adverse-event narrative was retained.
+- FDA labeling returned a form, not an executed results set. NICE returned HTTP 403. AWMF is search-metadata confirmation of development, not a newly issued guideline. TGA PI metadata is dated September 29. These gaps preclude an exhaustive worldwide or all-comorbidity safety claim. Older guidance and search crawl dates are not new events.
+- The watch covers commonly studied tic therapies and selected co-occurring-condition treatments across ages, but does not establish absence of risk in persistent severe adult symptoms or any subgroup. No trial efficacy, personal advice or patient biology is inferred from this surveillance.
+
+## Public links and optional activity safeguards
+
+The dated [link ledger](../../../public/link-checks/2026-10-28.json) checks all 20 existing timeline targets, three finding targets and nine additional static research/guidance links. All 20 repository targets were readable. Ivanova's primary PDF was readable. Isaacs was readable through the public web reader while direct HTTP access was limited. Pappert's publisher route returned a bot challenge, not an established broken link; the institutional primary PDF returned HTTP 200 and matched article identity. Canonical attribution remains unchanged.
+
+All six direct PubMed requests returned HTTP 200 **with a reCAPTCHA page**, not the requested article. The supplementary web reader retrieved PMID 25044024, while the other five remained limited. CDC, MedlinePlus and ONLINE-TICS were readable. No target was established broken. This is HTTP/content checking, not rendered-browser accessibility or mobile QA.
+
+The public API and raw GitHub feed matched pinned October 27 repository bytes, updatedAt `2026-10-27T03:20:03Z`. The API reported repository source and a 120-second cache. The live homepage and journal script also matched pinned source. This verifies the previous edition only; integration must verify the new edition separately.
+
+All six approved activities remain unchanged: hand-at-ease, familiar-route, notice-one-thing, music-or-silence, small-silly-mark and rest-or-leave. Manual wording review found no exertion target, breath holding, tic suppression, food/allergy task, streak, point or treatment claim. Activities remain optional, with stopping/skipping allowed. Shared voting is disabled, with zero aggregates and null API origin; no comments or health-outcome collection were enabled. Reflection remains unsent page memory and clears on pagehide. Source checks are not a provider-log audit or clinical safety certification. No new activity was proposed.
+
+## Reproducibility and next decision
+
+Run `python updates/2026-10-28/safety/validate.py` for the saved-ledger assertions: **22/22 passed**, including 14 catalog/source/config safeguards. The three `check_*.py` scripts perform fresh ordinary anonymous GETs and therefore produce new timestamps/statuses if rerun. Temporary source bodies are removed; only original summaries and selected metadata are retained. No source paper, patient/family content, credential or personal anecdote is stored. No paid computation or simulation was used.
+
+Continue bounded monitoring, preserve the known diagnostic interaction as historical context, and maintain the food-IgG interpretation boundary. The scan does not warrant a new-treatment or breakthrough announcement. Final publication and newly authored-link readback belong to integration.

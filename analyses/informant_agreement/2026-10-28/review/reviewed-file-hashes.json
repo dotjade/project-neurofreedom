@@ -1,0 +1,13 @@
+{
+  "checkedAt": "2026-10-28T03:01:41.945238+00:00",
+  "files": {
+    "report.md": "7587e528ac883c5a91751d0305cb1e4c82e2f140f74b50e9a30e56caecb643c4",
+    "evidence-record.json": "4755b651a2acf552c3fc6e136970f87caa4c508b6d18397482153fd3052d006c",
+    "source-checks.json": "b84041f969f98f0d66096be5949b38bb66e9641bc878d964b07daf222e65dffa",
+    "metadata-checks.json": "e2cea7744bdb9295d68baac93524c0a99cf1c0eb809fbe8cd9b45d9cff7d8fa3",
+    "inputs.json": "0cd7b8534a5977b28724aafd73a51e8424eebde8338fef294ea8375332137f97",
+    "analyze.py": "18f3a6133f392d7247c7f7b2a64bc7dff731abb2e88a54436b851bd13bcb1ea3",
+    "results.json": "fbf6ed84c5a7f51a430c2f9b5b48827ea5f2a7962f04977cab0f6ae5c64d0d9a",
+    "test_analysis.py": "a95cc20a7d505f57b0c2210b5258375a1d8dfbf2a5fd070af91c36e31cad62b8"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "previousCutoff": "2026-10-27T03:16:57Z",
+  "searchIntervalUTC": "2026-10-28T02:55:04Z/2026-10-28T02:55:19Z",
+  "queries": [
+    "site:fda.gov (aripiprazole OR risperidone OR guanfacine OR NeuroStar OR ecopipam) after:2026-10-26 before:2026-10-29",
+    "site:ema.europa.eu (aripiprazole OR risperidone OR pimozide OR haloperidol OR deutetrabenazine) after:2026-10-26 before:2026-10-29",
+    "site:gov.uk (Tourette OR guanfacine OR aripiprazole OR botulinum OR antidepressants) after:2026-10-26 before:2026-10-29",
+    "site:tga.gov.au (Tourette OR methylphenidate OR clonidine OR botulinum OR atomoxetine) after:2026-10-26 before:2026-10-29",
+    "(Tourette OR \"tic disorder\") (guideline OR safety OR warning OR recall) after:2026-10-26 before:2026-10-29",
+    "(ecopipam OR Neupulse OR valbenazine OR tetrabenazine OR topiramate OR tiapride) (safety OR recall OR warning) after:2026-10-26 before:2026-10-29"
+  ],
+  "displayedResultCards": 39,
+  "uniqueEventsNotClaimed": true,
+  "screening": "Six overlapping core queries, 39 displayed cards not unique events. Source dates govern eligibility. Older studies/labels, irrelevant sources and directories excluded. Individual adverse-event card excluded without retaining narrative. Direct index found new MHRA communication; FDA provenance places underlying diagnostic interaction before current window.",
+  "qualifyingNewMaterialSafetyFindings": 0,
+  "newIssuedTicGuidelinesVerified": 0,
+  "watch": "Core: ecopipam; aripiprazole, risperidone, pimozide, haloperidol; clonidine, guanfacine; valbenazine, deutetrabenazine, tetrabenazine; Neupulse/median-nerve stimulation, rTMS/NeuroStar, DBS. Supplementary: topiramate, botulinum toxin, tiapride; methylphenidate, atomoxetine, lisdexamfetamine, fluvoxamine, sertraline, antidepressants. Not exhaustive.",
+  "newWindowCommunicationsOfPreviouslyKnownRisks": 1,
+  "supplementaryQueries": [
+    {
+      "query": "site.gov.uk \"Ioflupane\" \"venlafaxine\"",
+      "executedAt": "2026-10-28T02:56:12Z",
+      "note": "First domain operator was mistyped; provenance resolved from official direct sources."
+    },
+    {
+      "query": "site:gov.uk \"ioflupane\" \"October 2026\"",
+      "executedAt": "2026-10-28T02:56:12Z"
+    },
+    {
+      "query": "site.aaaai.org food IgG testing not recommended tolerance",
+      "executedAt": "2026-10-28T02:58:28Z",
+      "note": "Domain operator mistyped; only official society primary guidance used. Personal/community results excluded without retaining details."
+    }
+  ]
+}

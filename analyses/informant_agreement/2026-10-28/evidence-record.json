@@ -1,0 +1,104 @@
+{
+  "id": "pmid:32819930",
+  "title": "Is the Yale Global Tic Severity Scale a valid tool for parent-reported assessment in the paediatric population? A prospective observational study in Taiwan",
+  "authors_year": "Ho et al., 2020",
+  "pmid": "32819930",
+  "pmcid": "PMC7440819",
+  "doi": "10.1136/bmjopen-2019-034634",
+  "source_url": "https://bmjopen.bmj.com/content/10/8/e034634",
+  "electronic_publication_date": "2020-08-20",
+  "extraction_date": "2026-10-28",
+  "date_checked": "2026-10-28",
+  "evidence_type": "Peer-reviewed prospective observational repeated-assessment study",
+  "new_publication_since_prior_scan": false,
+  "review_scope": "Historical study selected by October 27 informant-agreement question, not newly published evidence",
+  "population": "Regularly followed pediatric Tourette patients at one Taiwan clinic; final mean age 8.8 years (SD 2.97). Adult, ASD/communication-specific and chronic motor/vocal-only validation not established.",
+  "sample": {
+    "enrolled_patients": 594,
+    "paired_analysis_patients": 527,
+    "parent_assessments": 3356,
+    "fellow_assessments_figure2": 1522,
+    "paired_assessments": 1455
+  },
+  "intervention": "No randomized intervention; observational association between repeated form completion and score differences",
+  "comparator": "Parent versus pediatric fellow scores/category; clinician reference is not independent biological truth. Both masked to other score, not necessarily independent information.",
+  "instrument": "Author-translated revised traditional Chinese online YGTSS form; exact identity with 2018 YGTSS-R not verified. Figure 1 is partial illustration.",
+  "timing": "Parents encouraged to complete day before visit, fellows at visit; Results simultaneous wording conflicts with explicit nonsimultaneous limitation. Same-visit pairing retained.",
+  "outcomes": "Entire score and motor/vocal/combined tic and separate impairment differences; binary clinician-reference discrimination with exact score endpoint and handling value 20 unresolved",
+  "follow_up": "June 2018\u2013April 2019 collection with repeated outpatient assessments; not prospective treatment efficacy or clinical improvement",
+  "results": {
+    "AUROC": 0.858,
+    "AUROC_CI": [
+      0.839,
+      0.876
+    ],
+    "sensitivity_percent": 79.7,
+    "sensitivity_CI": [
+      76.6,
+      82.8
+    ],
+    "specificity_percent": 91.8,
+    "specificity_CI": [
+      89.9,
+      93.7
+    ],
+    "entire_mean_difference": 4.15,
+    "entire_mean_difference_CI": [
+      3.82,
+      4.48
+    ],
+    "combined_tic_mean_difference": 2.4,
+    "combined_tic_mean_difference_CI": [
+      2.22,
+      2.58
+    ],
+    "GEE_repetition_reduction_entire": 0.24,
+    "GEE_repetition_reduction_entire_CI": [
+      0.14,
+      0.34
+    ],
+    "GEE_repetition_reduction_combined": 0.17,
+    "GEE_repetition_reduction_combined_CI": [
+      0.11,
+      0.22
+    ]
+  },
+  "analysis_methods": "Reported GEE accounts for participant clustering in repeated differences; logistic GEE described for discrimination. No models refitted.",
+  "aggregate_reconciliation": "507/636 sensitivity and 752/819 specificity reproduce printed rounding; 196/1455 discordant assessments, not distinct people. Mean-absolute conditional triangle bounds .01\u20134.81 include reported entire 4.15, so component nonadditivity is not automatically an error.",
+  "negative_and_conflicting_evidence": [
+    "No numerical correlation coefficient, ICC, agreement limits or prespecified equivalence margin identified in inspected report",
+    "Fourth-assessment nonsignificance is not equivalence; repeated exposure not randomized training",
+    "Mild<20 versus moderate/severe>20 leaves 20 undefined; no cutoff repair or inferred boundary counts",
+    "Methods absolute differences versus subtraction wording unresolved, so no directional parent bias inferred",
+    "Simultaneous Results wording contradicted by timing/limitations",
+    "Convenience sampling and partial report pairing limit generalization"
+  ],
+  "attrition_missingness": "67 enrollees absent paired analysis; 1,901 parent reports unpaired; 67 of 1,522 fellow evaluations unpaired, numerically the same 67 but a different unit. Not established retention or missing-patient counts.",
+  "uncertainty": "No de novo cluster-naive intervals, score-sign reconstruction, per-repetition retention or patient-level agreement estimate. Exact difference coding and dichotomized score definition unresolved.",
+  "adverse_events": "Not intervention safety evidence; no absence-of-risk inference",
+  "risk_of_bias": [
+    "Selected familiar clinic families and few newly diagnosed patients",
+    "Convenience fellow assessment and incomplete pairing",
+    "Shared symptom information despite masked numeric scores",
+    "Different observation timing/settings",
+    "Unadjusted important severity/duration characteristics and repeated-visit selection",
+    "Variable parent/fellow assessment; limited subgroup eligibility reporting"
+  ],
+  "funding_conflicts": "No specific research grant declared; competing interests none declared, not independent comprehensive verification",
+  "related_cohort_ids": [
+    "Single Taiwan outpatient cohort June 2018\u2013April 2019"
+  ],
+  "claim_supported": "Promising parent-report discrimination against clinician categories and observational repeated-assessment association in this clinic",
+  "claim_not_supported": [
+    "Continuous-score interchangeability",
+    "Four-assessment training efficacy or equivalence",
+    "Independent diagnostic truth",
+    "Adult self-report or ASD/communication validity",
+    "Treatment improvement or cure"
+  ],
+  "retrieval_status": "Official EuropePMC XML inspected transiently; reviewer visually checked Figures1\u20132 from official archive. Publisher 403. No full paper, images or participant narratives retained.",
+  "correction_retraction_check": "No linked PubMed notice or notice in bounded exact DOI search; not exhaustive clearance",
+  "reviewer": "AI-assisted aggregate/methods audit with independent source/arithmetic review, not clinical peer review",
+  "audit_path": "analyses/informant_agreement/2026-10-28/report.md",
+  "next_verification_task": "Close fixed audit absent clarifications. Next audit Wang et al. (2026), PMID 42680906, public aggregate transdiagnostic versus chronic-tic-specific gene evidence, overlap/ascertainment, multiplicity and replication; no individual variants or therapeutic-target inference."
+}

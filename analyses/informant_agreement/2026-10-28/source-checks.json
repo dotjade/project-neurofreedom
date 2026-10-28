@@ -1,0 +1,36 @@
+{
+  "date": "2026-10-28",
+  "baseline_commit": "7ef323818a2a808a19e367e78ba01533fc9dce58",
+  "primary_pmid": "32819930",
+  "primary_doi": "10.1136/bmjopen-2019-034634",
+  "access": [
+    {
+      "url": "https://bmjopen.bmj.com/content/10/8/e034634",
+      "status": "Web reader HTTP 403, access limited not established broken",
+      "at_utc": "2026-10-28T02:54:54Z"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7440819/fullTextXML",
+      "status": "Official XML readable; selected methods and aggregate results inspected; hashes/times in metadata-checks.json"
+    }
+  ],
+  "figures": "Independent reviewer retrieved official supplementaryFiles archive and visually inspected Figures 1\u20132; see review provenance. Figure 1 is partial form, not full version/translation equivalence check. Figure 2 supplies 1522 fellow evaluations. No images/fulltext retained.",
+  "searches": [
+    {
+      "query": "\"10.1136/bmjopen-2019-034634\" correction retraction",
+      "purpose": "Bounded notice check, none found"
+    },
+    {
+      "query": "\"32819930\" YGTSS revised exclusion autism",
+      "purpose": "Primary eligibility/version discovery; irrelevant search collisions excluded"
+    }
+  ],
+  "privacy": "Initial full-body transient display included feedback quotes; none retained, analyzed or republished. Subsequent extraction restricted to aggregate methods/results. No patient rows or private data.",
+  "limitations": [
+    "Publisher access challenge",
+    "Complete translated form not verified",
+    "No participant-level agreement refit",
+    "Exact cutoff/score and difference coding unresolved",
+    "No comprehensive integrity clearance"
+  ]
+}

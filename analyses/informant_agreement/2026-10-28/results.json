@@ -1,0 +1,35 @@
+{
+  "kind": "Deterministic published-aggregate audit, not simulation",
+  "seed": null,
+  "assessment_table": {
+    "reference": "Clinician category, not independent biological truth",
+    "parent_moderate_clinician_moderate": 507,
+    "parent_mild_clinician_moderate": 129,
+    "parent_moderate_clinician_mild": 67,
+    "parent_mild_clinician_mild": 752
+  },
+  "checks": {
+    "table_sums_to_pairs": true,
+    "reference_categories_sum_to_pairs": true
+  },
+  "patient_paired_analysis_fraction_percent": "88.720539",
+  "parent_assessment_pairing_percent": "43.355185",
+  "fellow_assessment_pairing_percent": "95.597898",
+  "unpaired_fellow_assessments": 67,
+  "unpaired_parent_assessments": 1901,
+  "patients_not_in_paired_analysis": 67,
+  "sensitivity_percent": "79.716981",
+  "specificity_percent": "91.819292",
+  "category_agreement_percent": "86.529210",
+  "category_disagreement_percent": "13.470790",
+  "discordant_assessments": 196,
+  "difference_additivity_audit": {
+    "component_sum": "4.81",
+    "entire_minus_component_sum": "-0.66",
+    "mean_absolute_sum_lower_bound": "0.01",
+    "mean_absolute_sum_upper_bound": "4.81",
+    "entire_within_conditional_absolute_bounds": true,
+    "conditions": "If components and total refer to same paired observations and absolute differences of an additive score; if signed means, sum identity instead applies. No mechanism chosen or source value repaired."
+  },
+  "limits": "Visit-level descriptive fractions, not population accuracy or person-level discordance; no newly computed confidence interval or equivalence test. GEE not refitted."
+}

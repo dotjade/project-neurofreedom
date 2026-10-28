@@ -1,0 +1,15 @@
+{
+  "checked_utc": "2026-10-28T02:54:49Z",
+  "queries": [
+    "Tourette research \"October 27\" \"2026\"",
+    "Tourette trial study \"October 28\" \"2026\""
+  ],
+  "decision": "No qualifying new primary finding from discovery search. NCT05558566 third-party synchronization date checked against official selected metadata: last update June 9, no results. Other hits were old sources, secondary pages or date collisions.",
+  "primary_access_limits": [
+    {
+      "url": "https://www.mdpi.com/1424-8247/19/10/1529",
+      "checked_utc": "2026-10-28T02:55:42Z",
+      "status": "web-reader429 rate limit, not established broken"
+    }
+  ]
+}

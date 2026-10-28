@@ -1,0 +1,114 @@
+{
+  "created_utc": "2026-10-28T03:02:15.710263+00:00",
+  "scope": "Daily scan artifacts including independent primary review; excludes separate safety subdirectory and later integration/publication records.",
+  "files": [
+    {
+      "path": "updates/2026-10-28/biorxiv-preprint-index.tsv",
+      "sha256": "8acf6011c1a0011ab3e5cfe145a00e16e6ca793fe0c4df004359cb51ad15133b"
+    },
+    {
+      "path": "updates/2026-10-28/build_results.py",
+      "sha256": "1371cc89a7c3ce5489f34f03a18a1bae2a39347369a13518961bcebe2109e1a9"
+    },
+    {
+      "path": "updates/2026-10-28/check_integrity_controls.py",
+      "sha256": "f9a01cc7a47b548f65e53c3a076df8a7a7f36972bebe64985f8c6569eedbefd7"
+    },
+    {
+      "path": "updates/2026-10-28/discovery-log.json",
+      "sha256": "3904b7ce96d20d1f9718764afd1c536597c541d5da67c01909b8f3eb6e232151"
+    },
+    {
+      "path": "updates/2026-10-28/discovery-registry-check.json",
+      "sha256": "b60a974c106031d0bfa6e6112ad995a6ea237706bc1913cb8104a6473ed394b6"
+    },
+    {
+      "path": "updates/2026-10-28/gptics-publisher-metadata.json",
+      "sha256": "434d5419bfbde7ac7f08a3c7abb80346825ef0ce0914af0b632ca24acd31ff74"
+    },
+    {
+      "path": "updates/2026-10-28/integrity-control-source.json",
+      "sha256": "1fddd51d4aca3877e1dc9ec5b582409784a7deeab72b13821c4d94e2840339d5"
+    },
+    {
+      "path": "updates/2026-10-28/integrity-recheck.json",
+      "sha256": "fbd496b05e8f48ff3f31185ae879132c0e4f4a5970bbb8866721090daf2b374b"
+    },
+    {
+      "path": "updates/2026-10-28/medrxiv-preprint-index.tsv",
+      "sha256": "8523892862f43cf4c657fb50531bf360be7cf8705b8e00d7e9793484513718d0"
+    },
+    {
+      "path": "updates/2026-10-28/prepare_baseline.py",
+      "sha256": "23c55dc3c2f1e7f04977e9e79ae3e16d582ed25b2146bf05a192421663dd7441"
+    },
+    {
+      "path": "updates/2026-10-28/primary-evidence.jsonl",
+      "sha256": "08de3ab10d624bfa3577a4f79c4ab1b17cfcedc0fc580f641c4f5d612b4bcdc7"
+    },
+    {
+      "path": "updates/2026-10-28/primary-independent-review.json",
+      "sha256": "e6316d2e6575e115ebe554eaf94516bcac521f65e17d3c548139d64df9a7e981"
+    },
+    {
+      "path": "updates/2026-10-28/provenance.json",
+      "sha256": "38b5eacc5469ae65aac72cade328d2d8874ef3a54e416e4359501497b0c503e2"
+    },
+    {
+      "path": "updates/2026-10-28/pubmed-screening.jsonl",
+      "sha256": "6d7766e1ef81854dfec1d7346e9a025904c604deed347bc3bc15d1244f041baf"
+    },
+    {
+      "path": "updates/2026-10-28/registry-evidence.jsonl",
+      "sha256": "6a96540749f7d36c7993036e35647189275be5fb49ceab33536cb713d53a85e6"
+    },
+    {
+      "path": "updates/2026-10-28/report.md",
+      "sha256": "cfb6c851ef6e5bf77dfdb889dba9154917ecfaae9e9c8d2618f54ce4d440afbe"
+    },
+    {
+      "path": "updates/2026-10-28/reproduction-check.json",
+      "sha256": "a2fbb41455e90820cb73da1c3d3aa68e135d2003b0ff94001af8c9da39fd907b"
+    },
+    {
+      "path": "updates/2026-10-28/request-log.json",
+      "sha256": "6966c7d33f4aaaa6e647a1e99b0427bfcbae40f7ae4e4537f9dcb103ecd7c6a8"
+    },
+    {
+      "path": "updates/2026-10-28/scan_sources.py",
+      "sha256": "5e3bb3b4da8af1e57094d3be360cb3b9f50d2eccfda165af41920e884c7d7a19"
+    },
+    {
+      "path": "updates/2026-10-28/scan_supplement.py",
+      "sha256": "5f17d9e1ff87106e60bf06041743e11bbcd0c49274e1a935d71fd78447e04649"
+    },
+    {
+      "path": "updates/2026-10-28/search-log.json",
+      "sha256": "1b0e2f9977af7ecc8e88e6e53cccf5d2002a9174acf73755ded8ce4a9d25ad2b"
+    },
+    {
+      "path": "updates/2026-10-28/summary.json",
+      "sha256": "c49e50e71bbf7e631fa29bed1b8c8e325a55f32a4eb6bf8f9d9a5a359f0239a1"
+    },
+    {
+      "path": "updates/2026-10-28/supplement-selected-metadata.json",
+      "sha256": "2f8ff2a90ef470997820366ad9a44cfb7eb43cb334951948bd26f6c28b3c7f32"
+    },
+    {
+      "path": "updates/2026-10-28/validate_artifacts.py",
+      "sha256": "b1a68415e15ef024eef7ce738f8f2ee6ca60cc413cfa3464f30894078aaf2264"
+    },
+    {
+      "path": "updates/2026-10-28/validate_publication.py",
+      "sha256": "e0a02bcb5f8ddc5496ac521b6f67b40db30f75566617e18a371166a43c928fc4"
+    },
+    {
+      "path": "updates/2026-10-28/validation.json",
+      "sha256": "a8cd316e1a2aad731e5737737b9b4ef96a3dd81579a2410474e27f0ff9fc8912"
+    },
+    {
+      "path": "updates/2026-10-28/verify_reproduction.py",
+      "sha256": "6c864687cf62ac2bc352796d564e763071af2e40e9f7ad46c7ed297cc74d2aa8"
+    }
+  ]
+}

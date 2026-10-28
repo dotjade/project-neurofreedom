@@ -1,0 +1,81 @@
+{
+  "started_utc": "2026-10-28T02:55:09.492386+00:00",
+  "url": "https://clinicaltrials.gov/api/v2/studies/NCT05558566?fields=NCTId%2CBriefTitle%2CStatusModule%2CDesignModule%2CCondition%2CMinimumAge%2CMaximumAge%2CStdAge%2CHasResults",
+  "status": 200,
+  "sha256": "5cbd1ef4156a161f4bc10b280c07271da356119bc3eebcba7d69b8448be25fab",
+  "selected_record": {
+    "protocolSection": {
+      "identificationModule": {
+        "nctId": "NCT05558566",
+        "briefTitle": "Neurofeedback From the Supplementary Motor Area for Tourette Syndrome"
+      },
+      "statusModule": {
+        "statusVerifiedDate": "2026-06",
+        "overallStatus": "RECRUITING",
+        "expandedAccessInfo": {
+          "hasExpandedAccess": false
+        },
+        "startDateStruct": {
+          "date": "2022-11-01",
+          "type": "ACTUAL"
+        },
+        "primaryCompletionDateStruct": {
+          "date": "2026-12-20",
+          "type": "ESTIMATED"
+        },
+        "completionDateStruct": {
+          "date": "2027-01-20",
+          "type": "ESTIMATED"
+        },
+        "studyFirstSubmitDate": "2022-09-21",
+        "studyFirstSubmitQcDate": "2022-09-23",
+        "studyFirstPostDateStruct": {
+          "date": "2022-09-28",
+          "type": "ACTUAL"
+        },
+        "lastUpdateSubmitDate": "2026-06-08",
+        "lastUpdatePostDateStruct": {
+          "date": "2026-06-09",
+          "type": "ACTUAL"
+        }
+      },
+      "conditionsModule": {
+        "conditions": [
+          "Tourette Syndrome in Adolescence"
+        ]
+      },
+      "designModule": {
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "designInfo": {
+          "allocation": "RANDOMIZED",
+          "interventionModel": "PARALLEL",
+          "primaryPurpose": "TREATMENT",
+          "maskingInfo": {
+            "masking": "DOUBLE",
+            "whoMasked": [
+              "PARTICIPANT",
+              "OUTCOMES_ASSESSOR"
+            ]
+          }
+        },
+        "enrollmentInfo": {
+          "count": 64,
+          "type": "ESTIMATED"
+        }
+      },
+      "eligibilityModule": {
+        "minimumAge": "10 Years",
+        "maximumAge": "16 Years",
+        "stdAges": [
+          "CHILD"
+        ]
+      }
+    },
+    "hasResults": false
+  },
+  "interpretation": "Third-party synchronization date is not an official update or result. Selected public metadata only.",
+  "completed_utc": "2026-10-28T02:55:14.271983+00:00"
+}
