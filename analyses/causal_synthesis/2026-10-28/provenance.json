@@ -1,0 +1,43 @@
+{
+  "baselineCommit": "f72a50695f7c4a07e15206cd84737be4ebf33177",
+  "requiredSourceFiles": [
+    {
+      "path": "README.md",
+      "baselineSha256": "6b1d997e495751f81c97048c86cd8864732cdd8313cc3d9363605bb4425721d2"
+    },
+    {
+      "path": "RESEARCH_PROTOCOL.md",
+      "baselineSha256": "6f0025df7fd62fc2fe952cfbca96fca811ae76b917b7e7d4d45a501fe89e6859"
+    },
+    {
+      "path": "STATUS.md",
+      "baselineSha256": "3032c53636d325856ea8730cf44b6b0f72f25d9f84e059cd35cb50b9669d6a66"
+    },
+    {
+      "path": "public/journal-source/README.md",
+      "baselineSha256": "809173b6459331730d4fd9b0df135079b1e8dfdb030f4babbfc0055fcec1197e"
+    },
+    {
+      "path": "hypotheses.md",
+      "baselineSha256": "ba5085cf6700292f9b6751d7d11cd8b44339ac08a06f40d9e9d8c9b56483c85e"
+    },
+    {
+      "path": "foundation.md",
+      "baselineSha256": "dd3472d5e5e664520ae0fe19431bcd825915e7116e8edf4a597253bc7effe66e"
+    },
+    {
+      "path": "roadmap.md",
+      "baselineSha256": "ac477bf401b3c5aa8fe6f5b39f519bf92a9f4a702f445a2c4f6008dfd10de077"
+    },
+    {
+      "path": "evidence.jsonl",
+      "baselineSha256": "e5062f565ec97287f9ecf67e60c533dd96fad4fd2c3dc3e3792fe029bf03d0ec"
+    }
+  ],
+  "scope": "Requested causal synthesis after completed daily scan, not a new systematic evidence scan",
+  "individualDataUsed": false,
+  "randomSeed": null,
+  "codeRuns": "Exact deterministic enumeration and published aggregate arithmetic; no paid compute",
+  "activitySafetyReview": "Existing six optional activities and disabled collection unchanged; no new physical or food activity",
+  "dailyDisplayedLinkPass": "public/link-checks/2026-10-28.json; same-day checks retained, new synthesis link verified after publication"
+}

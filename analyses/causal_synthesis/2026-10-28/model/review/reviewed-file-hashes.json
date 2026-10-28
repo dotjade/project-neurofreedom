@@ -1,0 +1,11 @@
+{
+  "checkedAt": "2026-10-28T21:49:04.773534+00:00",
+  "files": {
+    "plan.md": "abc2a71c3ed116a8fbead33eeb464a6a1c3ada70bf4e67f7a34a4444f476284f",
+    "report.md": "2a2f0ed26c25f3a0e5e8048ce9b762bc22a529540d72b8dc18c071d45badd26b",
+    "inputs.json": "a4da51b742f474b99ba5213744f2ab20163c858a3806b728a584bde512cf7de4",
+    "analyze.py": "61c8bb5445c36cf062120c0fdcc4729f441f2dc0a6043f0f8a6df19c831ba87a",
+    "results.json": "6a2e096d56527c1351a26a1d79f3f26b624df7f07fa789b3e0ec6bc288ccd562",
+    "test_analysis.py": "dfa5f8735527acf5af3218695f16219e6007719daff47cf198fd25c0e9b52d4d"
+  }
+}

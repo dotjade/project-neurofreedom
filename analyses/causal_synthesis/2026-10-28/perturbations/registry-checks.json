@@ -1,0 +1,190 @@
+[
+  {
+    "id": "NCT05615220",
+    "url": "https://clinicaltrials.gov/api/v2/studies/NCT05615220",
+    "checkedAt": "2026-10-28T21:41:52.767451+00:00",
+    "httpStatus": 200,
+    "title": "Ecopipam Tablets to Study Tourette's Disorder in Children, Adolescents and Adults",
+    "status": "COMPLETED",
+    "lastUpdatePostDate": {
+      "date": "2026-06-12",
+      "type": "ACTUAL"
+    },
+    "enrollment": {
+      "count": 216,
+      "type": "ACTUAL"
+    },
+    "minimumAge": "6 Years",
+    "maximumAge": null,
+    "primaryOutcomeNames": [
+      "Time From Randomization to Relapse in Participants Greater Than and Equal to (>=) 6 and Less Than (<) 18 Years During the Double-Blind R/WD"
+    ],
+    "hasResults": true,
+    "evidenceType": "official registry metadata, not independent trial replication"
+  },
+  {
+    "id": "NCT01727700",
+    "url": "https://clinicaltrials.gov/api/v2/studies/NCT01727700",
+    "checkedAt": "2026-10-28T21:41:52.767939+00:00",
+    "httpStatus": 200,
+    "title": "Study Evaluating the Safety and Efficacy of Fixed-dose Once-daily Oral Aripiprazole in Children and Adolescents With Tourette's Disorder",
+    "status": "COMPLETED",
+    "lastUpdatePostDate": {
+      "date": "2015-02-13",
+      "type": "ESTIMATED"
+    },
+    "enrollment": {
+      "count": 133,
+      "type": "ACTUAL"
+    },
+    "minimumAge": "7 Years",
+    "maximumAge": "17 Years",
+    "primaryOutcomeNames": [
+      "Change From Baseline to Week 8 in Yale Global Tic Severity Scale (YGTSS) Total Tic Score (TTS)."
+    ],
+    "hasResults": true,
+    "evidenceType": "official registry metadata, not independent trial replication"
+  },
+  {
+    "id": "NCT03452943",
+    "url": "https://clinicaltrials.gov/api/v2/studies/NCT03452943",
+    "checkedAt": "2026-10-28T21:41:52.768479+00:00",
+    "httpStatus": 200,
+    "title": "Alternatives for Reducing Tics in Tourette Syndrome (TS): A Study of TEV-50717 (Deutetrabenazine) for the Treatment of Tourette Syndrome in Children and Adolescents",
+    "status": "COMPLETED",
+    "lastUpdatePostDate": {
+      "date": "2021-11-09",
+      "type": "ACTUAL"
+    },
+    "enrollment": {
+      "count": 119,
+      "type": "ACTUAL"
+    },
+    "minimumAge": "6 Years",
+    "maximumAge": "16 Years",
+    "primaryOutcomeNames": [
+      "Change From Baseline in the TTS of the YGTSS at Week 12"
+    ],
+    "hasResults": true,
+    "evidenceType": "official registry metadata, not independent trial replication"
+  },
+  {
+    "id": "NCT03571256",
+    "url": "https://clinicaltrials.gov/api/v2/studies/NCT03571256",
+    "checkedAt": "2026-10-28T21:41:52.768907+00:00",
+    "httpStatus": 200,
+    "title": "A Study to Test if TEV-50717 is Effective in Relieving Tics Associated With Tourette Syndrome (TS)",
+    "status": "COMPLETED",
+    "lastUpdatePostDate": {
+      "date": "2021-11-09",
+      "type": "ACTUAL"
+    },
+    "enrollment": {
+      "count": 158,
+      "type": "ACTUAL"
+    },
+    "minimumAge": "6 Years",
+    "maximumAge": "16 Years",
+    "primaryOutcomeNames": [
+      "Change From Baseline in the TTS of the YGTSS at Week 8 Between High-Dose TEV-50717-Treated Participants and Placebo-Treated Participants"
+    ],
+    "hasResults": true,
+    "evidenceType": "official registry metadata, not independent trial replication"
+  },
+  {
+    "id": "NCT01647269",
+    "url": "https://clinicaltrials.gov/api/v2/studies/NCT01647269",
+    "checkedAt": "2026-10-28T21:41:52.769626+00:00",
+    "httpStatus": 200,
+    "title": "A Trial of Bilateral Deep Brain Stimulation to the Globus Pallidus Internum in Tourette Syndrome",
+    "status": "COMPLETED",
+    "lastUpdatePostDate": {
+      "date": "2015-03-19",
+      "type": "ESTIMATED"
+    },
+    "enrollment": {
+      "count": 15,
+      "type": "ACTUAL"
+    },
+    "minimumAge": "20 Years",
+    "maximumAge": null,
+    "primaryOutcomeNames": [
+      "Change in Yale Global Tic Severity Scale"
+    ],
+    "hasResults": false,
+    "evidenceType": "official registry metadata, not independent trial replication"
+  },
+  {
+    "id": "NCT00478842",
+    "url": "https://clinicaltrials.gov/api/v2/studies/NCT00478842",
+    "checkedAt": "2026-10-28T21:41:56.317288+00:00",
+    "httpStatus": 200,
+    "title": "Pallidal Stimulation and Gilles de la Tourette Syndrome",
+    "status": "COMPLETED",
+    "lastUpdatePostDate": {
+      "date": "2017-02-23",
+      "type": "ACTUAL"
+    },
+    "enrollment": {
+      "count": 20,
+      "type": "ACTUAL"
+    },
+    "minimumAge": "18 Years",
+    "maximumAge": "60 Years",
+    "primaryOutcomeNames": [
+      "To evaluate the therapeutic effect of the high frequency bilateral stimulation of GPI in severe forms and invalidating MGT, in a protocol randomized as a double blind man in parallel groups.",
+      "The assumption tested is that of the frank improvement (> 60% on scale YGTSS) of the symptoms of the MGT by the bilateral stimulation of GPI in its former part."
+    ],
+    "hasResults": false,
+    "evidenceType": "official registry metadata, not independent trial replication"
+  },
+  {
+    "id": "NCT04731714",
+    "url": "https://clinicaltrials.gov/api/v2/studies/NCT04731714",
+    "checkedAt": "2026-10-28T21:41:56.326242+00:00",
+    "httpStatus": 200,
+    "title": "Median Nerve Stimulation Pilot",
+    "status": "COMPLETED",
+    "lastUpdatePostDate": {
+      "date": "2023-10-05",
+      "type": "ACTUAL"
+    },
+    "enrollment": {
+      "count": 34,
+      "type": "ACTUAL"
+    },
+    "minimumAge": "15 Years",
+    "maximumAge": "64 Years",
+    "primaryOutcomeNames": [
+      "Change in Tic Frequency From When MNS is Turned Off",
+      "Change in Tic Severity From When MNS is Turned Off",
+      "Change in Tic Frequency During Rhythmic MNS (vs. Arrhythmic MNS)",
+      "Change in Tic Severity During Rhythmic MNS (vs. Arrhythmic MNS)"
+    ],
+    "hasResults": true,
+    "evidenceType": "official registry metadata, not independent trial replication"
+  },
+  {
+    "id": "NCT04007991",
+    "url": "https://clinicaltrials.gov/api/v2/studies/NCT04007991",
+    "checkedAt": "2026-10-28T21:42:55.064097+00:00",
+    "httpStatus": 200,
+    "title": "Ecopipam Tablets to Study Tourette's Syndrome in Children and Adolescents",
+    "status": "COMPLETED",
+    "lastUpdatePostDate": {
+      "date": "2023-10-04",
+      "type": "ACTUAL"
+    },
+    "enrollment": {
+      "count": 153,
+      "type": "ACTUAL"
+    },
+    "minimumAge": "6 Years",
+    "maximumAge": "17 Years",
+    "primaryOutcomeNames": [
+      "Change From Baseline in the Yale Global Tic Severity Scale-Total Tic Score (YGTSS-TTS) at Week 12"
+    ],
+    "hasResults": true,
+    "evidenceType": "official registry metadata, not independent trial replication"
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-28",
+  "method": "Targeted web primary-source discovery followed by main-text or official PubMed checks",
+  "queries": [
+    "histidine decarboxylase Tourette mouse histamine deficiency 2014 Baldan rescue primary study",
+    "Tourette basal ganglia organoids interneuron 2022 mispatterning isogenic rescue",
+    "Tourette CELSR3 2024 2025 mouse sensorimotor dopamine repetitive behavior null adult rescue",
+    "Tourette histamine H3 antagonist randomized trial AZD5213 negative 2016"
+  ],
+  "additional_lookup": "Wang 2026 main Results/Methods and repository H01/H05/H06/H09",
+  "decision": "Convergence, histamine modulation and stage-specific rescue have prior art. No novelty or exhaustive-search claim. Review-sourced H3 trial efficacy not adopted without primary verification.",
+  "limitations": [
+    "No supplementary participant/genotype files",
+    "No gene-by-gene exhaustive q-value extraction",
+    "No private data or contact",
+    "PMC challenge pages distinguished from broken links"
+  ]
+}

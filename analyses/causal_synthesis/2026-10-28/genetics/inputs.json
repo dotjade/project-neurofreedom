@@ -1,0 +1,20 @@
+{
+ "source": "https://www.nature.com/articles/s41593-026-02419-5",
+ "source_sections": "Results cohort overview; Identification of large-effect risk genes; Figure 3 description",
+ "publication_date": "2026-09-01",
+ "checked_date": "2026-10-28",
+ "ctd_hc": 10,
+ "ocd_hc": 12,
+ "combined_hc": 34,
+ "union_hc": 36,
+ "shared_bf": 30,
+ "ctd_only_bf": 1,
+ "ocd_only_bf": 5,
+ "trio_probands": 2418,
+ "singleton_probands": 1546,
+ "new_trios": 872,
+ "new_singletons": 1080,
+ "hc_threshold": "FDR < 0.1",
+ "probable_threshold": "0.1 <= FDR < 0.3 plus at least two de novo damaging events",
+ "warning": "BF contribution is not separate statistical significance or biological exclusivity. Newly sequenced is not necessarily newly ascertained. Gene-set counts cannot be added as independent genes."
+}

@@ -1,0 +1,734 @@
+{
+  "label": "SYNTHETIC MODEL ONLY. Analyst-chosen probabilities, no patients or treatment predictions.",
+  "method": "Independent high-precision closed forms, not authors finite-state enumeration. No random seed.",
+  "checks_passed": 113,
+  "checks": [
+    {
+      "name": "single_drive",
+      "actual": "0.2",
+      "expected": "0.2",
+      "passed": true
+    },
+    {
+      "name": "OR_drive",
+      "actual": "0.200000000000000000000000000000000000000000000000000000000000",
+      "expected": "0.2",
+      "passed": true
+    },
+    {
+      "name": "AND_drive",
+      "actual": "0.200000000000000000000000000000000000000000000000000000000000",
+      "expected": "0.2",
+      "passed": true
+    },
+    {
+      "name": "0.5_single_baseline",
+      "actual": "0.10",
+      "expected": "0.10",
+      "passed": true
+    },
+    {
+      "name": "0.5_single_half_gate",
+      "actual": "0.05",
+      "expected": "0.05",
+      "passed": true
+    },
+    {
+      "name": "0.5_OR_baseline",
+      "actual": "0.100000000000000000000000000000000000000000000000000000000000",
+      "expected": "0.10",
+      "passed": true
+    },
+    {
+      "name": "0.5_OR_half_gate",
+      "actual": "0.050000000000000000000000000000000000000000000000000000000000",
+      "expected": "0.05",
+      "passed": true
+    },
+    {
+      "name": "0.5_AND_baseline",
+      "actual": "0.100000000000000000000000000000000000000000000000000000000000",
+      "expected": "0.10",
+      "passed": true
+    },
+    {
+      "name": "0.5_AND_half_gate",
+      "actual": "0.050000000000000000000000000000000000000000000000000000000000",
+      "expected": "0.05",
+      "passed": true
+    },
+    {
+      "name": "0.5_shared_gate_action_baseline",
+      "actual": "0.20",
+      "expected": "0.2",
+      "passed": true
+    },
+    {
+      "name": "0.5_shared_gate_action_halved",
+      "actual": "0.10",
+      "expected": "0.1",
+      "passed": true
+    },
+    {
+      "name": "0.8_single_baseline",
+      "actual": "0.16",
+      "expected": "0.16",
+      "passed": true
+    },
+    {
+      "name": "0.8_single_half_gate",
+      "actual": "0.08",
+      "expected": "0.08",
+      "passed": true
+    },
+    {
+      "name": "0.8_OR_baseline",
+      "actual": "0.160000000000000000000000000000000000000000000000000000000000",
+      "expected": "0.16",
+      "passed": true
+    },
+    {
+      "name": "0.8_OR_half_gate",
+      "actual": "0.080000000000000000000000000000000000000000000000000000000000",
+      "expected": "0.08",
+      "passed": true
+    },
+    {
+      "name": "0.8_AND_baseline",
+      "actual": "0.160000000000000000000000000000000000000000000000000000000000",
+      "expected": "0.16",
+      "passed": true
+    },
+    {
+      "name": "0.8_AND_half_gate",
+      "actual": "0.080000000000000000000000000000000000000000000000000000000000",
+      "expected": "0.08",
+      "passed": true
+    },
+    {
+      "name": "0.8_shared_gate_action_baseline",
+      "actual": "0.32",
+      "expected": "0.32",
+      "passed": true
+    },
+    {
+      "name": "0.8_shared_gate_action_halved",
+      "actual": "0.16",
+      "expected": "0.16",
+      "passed": true
+    },
+    {
+      "name": "Frechet_joint_lower",
+      "actual": "0",
+      "expected": "0",
+      "passed": true
+    },
+    {
+      "name": "Frechet_joint_upper",
+      "actual": "0.25",
+      "expected": "0.25",
+      "passed": true
+    },
+    {
+      "name": "Frechet_independent_joint",
+      "actual": "0.0625",
+      "expected": "0.0625",
+      "passed": true
+    },
+    {
+      "name": "Frechet_OR_lower",
+      "actual": "0.25",
+      "expected": "0.25",
+      "passed": true
+    },
+    {
+      "name": "Frechet_OR_upper",
+      "actual": "0.50",
+      "expected": "0.5",
+      "passed": true
+    },
+    {
+      "name": "joint_mass_0",
+      "actual": "1.00",
+      "expected": "1",
+      "passed": true
+    },
+    {
+      "name": "X_marginal_0",
+      "actual": "0.25",
+      "expected": "0.25",
+      "passed": true
+    },
+    {
+      "name": "Z_marginal_0",
+      "actual": "0.25",
+      "expected": "0.25",
+      "passed": true
+    },
+    {
+      "name": "joint_mass_0.0625",
+      "actual": "1.0000",
+      "expected": "1",
+      "passed": true
+    },
+    {
+      "name": "X_marginal_0.0625",
+      "actual": "0.2500",
+      "expected": "0.25",
+      "passed": true
+    },
+    {
+      "name": "Z_marginal_0.0625",
+      "actual": "0.2500",
+      "expected": "0.25",
+      "passed": true
+    },
+    {
+      "name": "joint_mass_0.25",
+      "actual": "1.00",
+      "expected": "1",
+      "passed": true
+    },
+    {
+      "name": "X_marginal_0.25",
+      "actual": "0.25",
+      "expected": "0.25",
+      "passed": true
+    },
+    {
+      "name": "Z_marginal_0.25",
+      "actual": "0.25",
+      "expected": "0.25",
+      "passed": true
+    },
+    {
+      "name": "author_event_single_A_none",
+      "actual": "0.1",
+      "expected": "0.10",
+      "passed": true
+    },
+    {
+      "name": "author_action_single_A_none",
+      "actual": "0.2",
+      "expected": "0.20",
+      "passed": true
+    },
+    {
+      "name": "author_event_single_A_downstream",
+      "actual": "0.05",
+      "expected": "0.05",
+      "passed": true
+    },
+    {
+      "name": "author_action_single_A_downstream",
+      "actual": "0.1",
+      "expected": "0.100",
+      "passed": true
+    },
+    {
+      "name": "author_event_single_A_block_X",
+      "actual": "0.0",
+      "expected": "0.0",
+      "passed": true
+    },
+    {
+      "name": "author_action_single_A_block_X",
+      "actual": "0.2",
+      "expected": "0.20",
+      "passed": true
+    },
+    {
+      "name": "author_event_single_A_block_Z",
+      "actual": "0.1",
+      "expected": "0.10",
+      "passed": true
+    },
+    {
+      "name": "author_action_single_A_block_Z",
+      "actual": "0.2",
+      "expected": "0.20",
+      "passed": true
+    },
+    {
+      "name": "author_event_single_A_block_both",
+      "actual": "0.0",
+      "expected": "0",
+      "passed": true
+    },
+    {
+      "name": "author_action_single_A_block_both",
+      "actual": "0.2",
+      "expected": "0.20",
+      "passed": true
+    },
+    {
+      "name": "author_event_single_B_none",
+      "actual": "0.16",
+      "expected": "0.16",
+      "passed": true
+    },
+    {
+      "name": "author_action_single_B_none",
+      "actual": "0.32",
+      "expected": "0.32",
+      "passed": true
+    },
+    {
+      "name": "author_event_single_B_downstream",
+      "actual": "0.08",
+      "expected": "0.08",
+      "passed": true
+    },
+    {
+      "name": "author_action_single_B_downstream",
+      "actual": "0.16",
+      "expected": "0.160",
+      "passed": true
+    },
+    {
+      "name": "author_event_single_B_block_X",
+      "actual": "0.0",
+      "expected": "0.0",
+      "passed": true
+    },
+    {
+      "name": "author_action_single_B_block_X",
+      "actual": "0.32",
+      "expected": "0.32",
+      "passed": true
+    },
+    {
+      "name": "author_event_single_B_block_Z",
+      "actual": "0.16",
+      "expected": "0.16",
+      "passed": true
+    },
+    {
+      "name": "author_action_single_B_block_Z",
+      "actual": "0.32",
+      "expected": "0.32",
+      "passed": true
+    },
+    {
+      "name": "author_event_single_B_block_both",
+      "actual": "0.0",
+      "expected": "0",
+      "passed": true
+    },
+    {
+      "name": "author_action_single_B_block_both",
+      "actual": "0.32",
+      "expected": "0.32",
+      "passed": true
+    },
+    {
+      "name": "author_event_parallel_A_none",
+      "actual": "0.1",
+      "expected": "0.100000000000000000000000000000000000000000000000000000000000",
+      "passed": true
+    },
+    {
+      "name": "author_action_parallel_A_none",
+      "actual": "0.2",
+      "expected": "0.20",
+      "passed": true
+    },
+    {
+      "name": "author_event_parallel_A_downstream",
+      "actual": "0.05",
+      "expected": "0.050000000000000000000000000000000000000000000000000000000000",
+      "passed": true
+    },
+    {
+      "name": "author_action_parallel_A_downstream",
+      "actual": "0.1",
+      "expected": "0.100",
+      "passed": true
+    },
+    {
+      "name": "author_event_parallel_A_block_X",
+      "actual": "0.0527864045",
+      "expected": "0.0527864045000420607181652662537447529118763280776948551458205",
+      "passed": true
+    },
+    {
+      "name": "author_action_parallel_A_block_X",
+      "actual": "0.2",
+      "expected": "0.20",
+      "passed": true
+    },
+    {
+      "name": "author_event_parallel_A_block_Z",
+      "actual": "0.0527864045",
+      "expected": "0.0527864045000420607181652662537447529118763280776948551458205",
+      "passed": true
+    },
+    {
+      "name": "author_action_parallel_A_block_Z",
+      "actual": "0.2",
+      "expected": "0.20",
+      "passed": true
+    },
+    {
+      "name": "author_event_parallel_A_block_both",
+      "actual": "0.0",
+      "expected": "0",
+      "passed": true
+    },
+    {
+      "name": "author_action_parallel_A_block_both",
+      "actual": "0.2",
+      "expected": "0.20",
+      "passed": true
+    },
+    {
+      "name": "author_event_parallel_B_none",
+      "actual": "0.16",
+      "expected": "0.160000000000000000000000000000000000000000000000000000000000",
+      "passed": true
+    },
+    {
+      "name": "author_action_parallel_B_none",
+      "actual": "0.32",
+      "expected": "0.32",
+      "passed": true
+    },
+    {
+      "name": "author_event_parallel_B_downstream",
+      "actual": "0.08",
+      "expected": "0.080000000000000000000000000000000000000000000000000000000000",
+      "passed": true
+    },
+    {
+      "name": "author_action_parallel_B_downstream",
+      "actual": "0.16",
+      "expected": "0.160",
+      "passed": true
+    },
+    {
+      "name": "author_event_parallel_B_block_X",
+      "actual": "0.0844582472",
+      "expected": "0.0844582472000672971490644260059916046590021249243117682333128",
+      "passed": true
+    },
+    {
+      "name": "author_action_parallel_B_block_X",
+      "actual": "0.32",
+      "expected": "0.32",
+      "passed": true
+    },
+    {
+      "name": "author_event_parallel_B_block_Z",
+      "actual": "0.0844582472",
+      "expected": "0.0844582472000672971490644260059916046590021249243117682333128",
+      "passed": true
+    },
+    {
+      "name": "author_action_parallel_B_block_Z",
+      "actual": "0.32",
+      "expected": "0.32",
+      "passed": true
+    },
+    {
+      "name": "author_event_parallel_B_block_both",
+      "actual": "0.0",
+      "expected": "0",
+      "passed": true
+    },
+    {
+      "name": "author_action_parallel_B_block_both",
+      "actual": "0.32",
+      "expected": "0.32",
+      "passed": true
+    },
+    {
+      "name": "author_event_coincidence_A_none",
+      "actual": "0.1",
+      "expected": "0.100000000000000000000000000000000000000000000000000000000000",
+      "passed": true
+    },
+    {
+      "name": "author_action_coincidence_A_none",
+      "actual": "0.2",
+      "expected": "0.20",
+      "passed": true
+    },
+    {
+      "name": "author_event_coincidence_A_downstream",
+      "actual": "0.05",
+      "expected": "0.050000000000000000000000000000000000000000000000000000000000",
+      "passed": true
+    },
+    {
+      "name": "author_action_coincidence_A_downstream",
+      "actual": "0.1",
+      "expected": "0.100",
+      "passed": true
+    },
+    {
+      "name": "author_event_coincidence_A_block_X",
+      "actual": "0.0",
+      "expected": "0.0",
+      "passed": true
+    },
+    {
+      "name": "author_action_coincidence_A_block_X",
+      "actual": "0.2",
+      "expected": "0.20",
+      "passed": true
+    },
+    {
+      "name": "author_event_coincidence_A_block_Z",
+      "actual": "0.0",
+      "expected": "0.0",
+      "passed": true
+    },
+    {
+      "name": "author_action_coincidence_A_block_Z",
+      "actual": "0.2",
+      "expected": "0.20",
+      "passed": true
+    },
+    {
+      "name": "author_event_coincidence_A_block_both",
+      "actual": "0.0",
+      "expected": "0",
+      "passed": true
+    },
+    {
+      "name": "author_action_coincidence_A_block_both",
+      "actual": "0.2",
+      "expected": "0.20",
+      "passed": true
+    },
+    {
+      "name": "author_event_coincidence_B_none",
+      "actual": "0.16",
+      "expected": "0.160000000000000000000000000000000000000000000000000000000000",
+      "passed": true
+    },
+    {
+      "name": "author_action_coincidence_B_none",
+      "actual": "0.32",
+      "expected": "0.32",
+      "passed": true
+    },
+    {
+      "name": "author_event_coincidence_B_downstream",
+      "actual": "0.08",
+      "expected": "0.080000000000000000000000000000000000000000000000000000000000",
+      "passed": true
+    },
+    {
+      "name": "author_action_coincidence_B_downstream",
+      "actual": "0.16",
+      "expected": "0.160",
+      "passed": true
+    },
+    {
+      "name": "author_event_coincidence_B_block_X",
+      "actual": "0.0",
+      "expected": "0.0",
+      "passed": true
+    },
+    {
+      "name": "author_action_coincidence_B_block_X",
+      "actual": "0.32",
+      "expected": "0.32",
+      "passed": true
+    },
+    {
+      "name": "author_event_coincidence_B_block_Z",
+      "actual": "0.0",
+      "expected": "0.0",
+      "passed": true
+    },
+    {
+      "name": "author_action_coincidence_B_block_Z",
+      "actual": "0.32",
+      "expected": "0.32",
+      "passed": true
+    },
+    {
+      "name": "author_event_coincidence_B_block_both",
+      "actual": "0.0",
+      "expected": "0",
+      "passed": true
+    },
+    {
+      "name": "author_action_coincidence_B_block_both",
+      "actual": "0.32",
+      "expected": "0.32",
+      "passed": true
+    },
+    {
+      "name": "author_joint_sum_0",
+      "actual": "1.00",
+      "expected": "1",
+      "passed": true
+    },
+    {
+      "name": "author_X_marginal_0",
+      "actual": "0.25",
+      "expected": "0.25",
+      "passed": true
+    },
+    {
+      "name": "author_Z_marginal_0",
+      "actual": "0.25",
+      "expected": "0.25",
+      "passed": true
+    },
+    {
+      "name": "author_AND_gate_0",
+      "actual": "0.0",
+      "expected": "0.0",
+      "passed": true
+    },
+    {
+      "name": "author_joint_sum_0.0625",
+      "actual": "1.0000",
+      "expected": "1",
+      "passed": true
+    },
+    {
+      "name": "author_X_marginal_0.0625",
+      "actual": "0.2500",
+      "expected": "0.25",
+      "passed": true
+    },
+    {
+      "name": "author_Z_marginal_0.0625",
+      "actual": "0.2500",
+      "expected": "0.25",
+      "passed": true
+    },
+    {
+      "name": "author_AND_gate_0.0625",
+      "actual": "0.03125",
+      "expected": "0.03125",
+      "passed": true
+    },
+    {
+      "name": "author_joint_sum_0.125",
+      "actual": "1.000",
+      "expected": "1",
+      "passed": true
+    },
+    {
+      "name": "author_X_marginal_0.125",
+      "actual": "0.250",
+      "expected": "0.25",
+      "passed": true
+    },
+    {
+      "name": "author_Z_marginal_0.125",
+      "actual": "0.250",
+      "expected": "0.25",
+      "passed": true
+    },
+    {
+      "name": "author_AND_gate_0.125",
+      "actual": "0.0625",
+      "expected": "0.0625",
+      "passed": true
+    },
+    {
+      "name": "author_joint_sum_0.1875",
+      "actual": "1.0000",
+      "expected": "1",
+      "passed": true
+    },
+    {
+      "name": "author_X_marginal_0.1875",
+      "actual": "0.2500",
+      "expected": "0.25",
+      "passed": true
+    },
+    {
+      "name": "author_Z_marginal_0.1875",
+      "actual": "0.2500",
+      "expected": "0.25",
+      "passed": true
+    },
+    {
+      "name": "author_AND_gate_0.1875",
+      "actual": "0.09375",
+      "expected": "0.09375",
+      "passed": true
+    },
+    {
+      "name": "author_joint_sum_0.25",
+      "actual": "1.00",
+      "expected": "1",
+      "passed": true
+    },
+    {
+      "name": "author_X_marginal_0.25",
+      "actual": "0.25",
+      "expected": "0.25",
+      "passed": true
+    },
+    {
+      "name": "author_Z_marginal_0.25",
+      "actual": "0.25",
+      "expected": "0.25",
+      "passed": true
+    },
+    {
+      "name": "author_AND_gate_0.25",
+      "actual": "0.125",
+      "expected": "0.125",
+      "passed": true
+    }
+  ],
+  "predictions": {
+    "0.5": {
+      "single": {
+        "baseline": "0.10",
+        "half_gate": "0.05",
+        "block_X": "0.0",
+        "block_Z": "0.10",
+        "block_both": "0"
+      },
+      "OR": {
+        "baseline": "0.100000000000000000000000000000000000000000000000000000000000",
+        "half_gate": "0.050000000000000000000000000000000000000000000000000000000000",
+        "block_X": "0.0527864045000420607181652662537447529118763280776948551458205",
+        "block_Z": "0.0527864045000420607181652662537447529118763280776948551458205",
+        "block_both": "0"
+      },
+      "AND": {
+        "baseline": "0.100000000000000000000000000000000000000000000000000000000000",
+        "half_gate": "0.050000000000000000000000000000000000000000000000000000000000",
+        "block_X": "0.0",
+        "block_Z": "0.0",
+        "block_both": "0"
+      }
+    },
+    "0.8": {
+      "single": {
+        "baseline": "0.16",
+        "half_gate": "0.08",
+        "block_X": "0.0",
+        "block_Z": "0.16",
+        "block_both": "0"
+      },
+      "OR": {
+        "baseline": "0.160000000000000000000000000000000000000000000000000000000000",
+        "half_gate": "0.080000000000000000000000000000000000000000000000000000000000",
+        "block_X": "0.0844582472000672971490644260059916046590021249243117682333128",
+        "block_Z": "0.0844582472000672971490644260059916046590021249243117682333128",
+        "block_both": "0"
+      },
+      "AND": {
+        "baseline": "0.160000000000000000000000000000000000000000000000000000000000",
+        "half_gate": "0.080000000000000000000000000000000000000000000000000000000000",
+        "block_X": "0.0",
+        "block_Z": "0.0",
+        "block_both": "0"
+      }
+    }
+  },
+  "candidate_scope": "Equivalence only for specified observed marginal outputs/contrasts; not all measurements or biology."
+}

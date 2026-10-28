@@ -1,0 +1,202 @@
+{
+  "request_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=42680906,20445167,24411733,28681514,36447010,39892689,38683996,41226347,40155412&retmode=xml",
+  "started_utc": "2026-10-28T21:43:07.914882+00:00",
+  "completed_utc": "2026-10-28T21:43:14.493196+00:00",
+  "response_sha256": "90a70ec6d2535b8deef120c6d7774352b1eb3d5bb62e59009c96a51b9d08391e",
+  "records": [
+    {
+      "pmid": "42680906",
+      "title": "Whole-exome sequencing in individuals with obsessive-compulsive disorder and chronic tic disorders identifies 36 large-effect risk genes.",
+      "identifiers": {
+        "pubmed": "42680906",
+        "doi": "10.1038/s41593-026-02419-5",
+        "pii": "10.1038/s41593-026-02419-5"
+      },
+      "article_dates": [
+        {
+          "DateType": "Electronic",
+          "Year": "2026",
+          "Month": "09",
+          "Day": "01"
+        }
+      ],
+      "corrections": [],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42680906/"
+    },
+    {
+      "pmid": "20445167",
+      "title": "L-histidine decarboxylase and Tourette's syndrome.",
+      "identifiers": {
+        "pubmed": "20445167",
+        "mid": "NIHMS207406",
+        "pmc": "PMC2894694",
+        "doi": "10.1056/NEJMoa0907006",
+        "pii": "NEJMoa0907006"
+      },
+      "article_dates": [
+        {
+          "DateType": "Electronic",
+          "Year": "2010",
+          "Month": "05",
+          "Day": "05"
+        }
+      ],
+      "corrections": [
+        {
+          "type": "CommentIn",
+          "pmid": "20718796"
+        }
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/20445167/"
+    },
+    {
+      "pmid": "24411733",
+      "title": "Histidine decarboxylase deficiency causes tourette syndrome: parallel findings in humans and mice.",
+      "identifiers": {
+        "pubmed": "24411733",
+        "mid": "NIHMS534956",
+        "pmc": "PMC3894588",
+        "doi": "10.1016/j.neuron.2013.10.052"
+      },
+      "article_dates": [],
+      "corrections": [
+        {
+          "type": "ErratumIn",
+          "pmid": null
+        }
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/24411733/"
+    },
+    {
+      "pmid": "28681514",
+      "title": "Behavioral and stereological characterization of Hdc KO mice: Relation to Tourette syndrome.",
+      "identifiers": {
+        "pubmed": "28681514",
+        "doi": "10.1002/cne.24279"
+      },
+      "article_dates": [
+        {
+          "DateType": "Electronic",
+          "Year": "2017",
+          "Month": "08",
+          "Day": "02"
+        }
+      ],
+      "corrections": [],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/28681514/"
+    },
+    {
+      "pmid": "36447010",
+      "title": "Mispatterning and interneuron deficit in Tourette Syndrome basal ganglia organoids.",
+      "identifiers": {
+        "pubmed": "36447010",
+        "mid": "NIHMS1871304",
+        "pmc": "PMC9949887",
+        "doi": "10.1038/s41380-022-01880-5",
+        "pii": "10.1038/s41380-022-01880-5"
+      },
+      "article_dates": [
+        {
+          "DateType": "Electronic",
+          "Year": "2022",
+          "Month": "11",
+          "Day": "29"
+        }
+      ],
+      "corrections": [],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/36447010/"
+    },
+    {
+      "pmid": "39892689",
+      "title": "Interneuron Loss and Microglia Activation by Transcriptome Analyses in the Basal Ganglia of Tourette Disorder.",
+      "identifiers": {
+        "pubmed": "39892689",
+        "mid": "NIHMS2065194",
+        "pmc": "PMC12255533",
+        "doi": "10.1016/j.biopsych.2024.12.022",
+        "pii": "S0006-3223(25)00064-2"
+      },
+      "article_dates": [
+        {
+          "DateType": "Electronic",
+          "Year": "2025",
+          "Month": "01",
+          "Day": "30"
+        }
+      ],
+      "corrections": [
+        {
+          "type": "UpdateOf",
+          "pmid": "38464084"
+        }
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/39892689/"
+    },
+    {
+      "pmid": "38683996",
+      "title": "Human mutations in high-confidence Tourette disorder genes affect sensorimotor behavior, reward learning, and striatal dopamine in mice.",
+      "identifiers": {
+        "pubmed": "38683996",
+        "pmc": "PMC11087812",
+        "doi": "10.1073/pnas.2307156121"
+      },
+      "article_dates": [
+        {
+          "DateType": "Electronic",
+          "Year": "2024",
+          "Month": "04",
+          "Day": "29"
+        }
+      ],
+      "corrections": [
+        {
+          "type": "UpdateOf",
+          "pmid": "38077033"
+        }
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/38683996/"
+    },
+    {
+      "pmid": "41226347",
+      "title": "A Celsr3 Mutation Linked to Tourette Disorder Disrupts Cortical Dendritic Patterning and Striatal Cholinergic Interneuron Excitability.",
+      "identifiers": {
+        "pubmed": "41226347",
+        "pmc": "PMC12610430",
+        "doi": "10.3390/ijms262110307",
+        "pii": "ijms262110307"
+      },
+      "article_dates": [
+        {
+          "DateType": "Electronic",
+          "Year": "2025",
+          "Month": "10",
+          "Day": "23"
+        }
+      ],
+      "corrections": [],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/41226347/"
+    },
+    {
+      "pmid": "40155412",
+      "title": "Tic-related behaviors in Celsr3 mutant mice are contributed by alterations of striatal D3 dopamine receptors.",
+      "identifiers": {
+        "pubmed": "40155412",
+        "mid": "NIHMS2143171",
+        "pmc": "PMC13386578",
+        "doi": "10.1038/s41380-025-02970-w",
+        "pii": "10.1038/s41380-025-02970-w"
+      },
+      "article_dates": [
+        {
+          "DateType": "Electronic",
+          "Year": "2025",
+          "Month": "03",
+          "Day": "28"
+        }
+      ],
+      "corrections": [],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/40155412/"
+    }
+  ],
+  "source_bodies_retained": false
+}

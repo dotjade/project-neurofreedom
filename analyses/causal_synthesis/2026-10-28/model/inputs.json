@@ -1,0 +1,1 @@
+{"baseline_drive_probability":0.2,"gate_contexts":{"A":0.5,"B":0.8},"downstream_gate_multiplier":0.5,"ordinary_action_demand_probability":0.4,"coincidence_marginal_probability":0.25,"joint_grid":[0,0.0625,0.125,0.1875,0.25],"seed":null,"evidence_type":"Synthetic analyst-chosen inputs, not fitted clinical or biological quantities"}

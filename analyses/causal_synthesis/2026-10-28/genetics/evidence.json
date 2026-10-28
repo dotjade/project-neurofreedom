@@ -1,0 +1,39 @@
+[
+  {
+    "source": "PMID42680906",
+    "type": "human genetic association plus computational enrichment",
+    "supports": "Heterogeneous/shared liability hypotheses",
+    "does_not_establish": "Universal acute trigger or validated target",
+    "negative": "Network-database nonreplication and subgroup/variant-class nulls retained"
+  },
+  {
+    "source": "PMID24411733",
+    "type": "genetically anchored mouse perturbation",
+    "supports": "Manipulable histamine-dopamine route in model",
+    "does_not_establish": "Safe human cure or universal histamine deficiency"
+  },
+  {
+    "source": "PMID28681514",
+    "type": "mouse behavioral and stereological primary study",
+    "supports": "Behavioral abnormalities need not require interneuron-number loss in this model",
+    "does_not_establish": "No functional interneuron involvement"
+  },
+  {
+    "source": "PMID36447010",
+    "type": "human-derived developmental organoid comparison",
+    "supports": "Developmental patterning hypothesis",
+    "does_not_establish": "Adult reversibility or real-time tic trigger"
+  },
+  {
+    "source": "PMID39892689",
+    "type": "adult postmortem single-nucleus comparison",
+    "supports": "Persistent-adult cell-type/pathway differences",
+    "does_not_establish": "Temporal cause or inflammation-first mechanism"
+  },
+  {
+    "source": "PMID38683996 / PMID41226347 / PMID40155412",
+    "type": "genetic mouse model and perturbation comparisons",
+    "supports": "Model-dependent circuit/dopamine phenotypes",
+    "does_not_establish": "One direction or treatment across all genetic routes"
+  }
+]

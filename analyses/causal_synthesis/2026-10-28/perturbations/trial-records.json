@@ -1,0 +1,311 @@
+{
+  "checkedAt": "2026-10-28T21:43:56.433980+00:00",
+  "scope": "Purposive causal contrast set, not exhaustive review or comparative effectiveness ranking. No new study discovery claimed.",
+  "records": [
+    {
+      "id": "ecopipam-initiation",
+      "doi": "10.1542/peds.2022-059574",
+      "url": "https://publications.aap.org/pediatrics/article/151/2/e2022059574/190459/Ecopipam-for-Tourette-Syndrome-A-Randomized-Trial",
+      "publication": "Online 2023-01-11; issue 2023-02",
+      "evidenceType": "peer-reviewed primary controlled trial",
+      "population": "Eligibility 6 to <18 years, TTS >=20",
+      "design": "12-week placebo-controlled parallel D1 antagonist trial",
+      "counts": {
+        "randomized": 153,
+        "active": 76,
+        "placebo": 77
+      },
+      "selectedAggregateResult": {
+        "outcome": "YGTSS-TTS 0-50",
+        "activeMinusPlacebo": -3.44,
+        "CI95": [
+          -6.09,
+          -0.79
+        ],
+        "p": 0.01
+      },
+      "interpretationLimits": "Supports average symptomatic efficacy, not endogenous dopamine excess. Mood/ADHD/OCD measures showed no meaningful between-group differences. Any-time response is not endpoint remission.",
+      "safety": "Headache, insomnia, fatigue and somnolence; any AE 61.8% active versus 49.4% placebo.",
+      "registry": "NCT04007991",
+      "access": "Selected primary full-text methods/results; not supplements",
+      "checkedAt": "2026-10-28T21:43:56.433980+00:00",
+      "correctionRetractionCheck": "No dedicated comprehensive check in this bounded pass; primary page inspection only."
+    },
+    {
+      "id": "ecopipam-withdrawal",
+      "doi": "10.1001/jamaneurol.2026.1431",
+      "url": "https://jamanetwork.com/journals/jamaneurology/fullarticle/2849573",
+      "publication": "Online 2026-05-26; issue 2026-07",
+      "evidenceType": "peer-reviewed primary controlled trial",
+      "population": "Pediatric and adult TS; only open-label responders randomized",
+      "design": "12-week open-label then 12-week randomized withdrawal",
+      "counts": {
+        "openLabel": 216,
+        "pediatricRandomized": 90,
+        "adultRandomized": 14
+      },
+      "selectedAggregateResult": {
+        "outcome": "time to relapse",
+        "pediatricHR": 0.47,
+        "pediatricCI95": [
+          0.26,
+          0.84
+        ],
+        "adultHR": 0.51,
+        "adultCI95": [
+          0.11,
+          2.3
+        ]
+      },
+      "interpretationLimits": "Enriched maintenance contrast, not unselected initiation, adult equivalence, off-treatment disease modification or cure. Relapse combines lost improvement, added medication or hospitalization.",
+      "safety": "CNS adverse effects; 34/216 discontinued for AEs during open-label exposure.",
+      "registry": "NCT05615220",
+      "access": "Selected primary full-text methods/results; not supplements",
+      "checkedAt": "2026-10-28T21:43:56.433980+00:00",
+      "correctionRetractionCheck": "No dedicated comprehensive check in this bounded pass; primary page inspection only."
+    },
+    {
+      "id": "aripiprazole-initiation",
+      "doi": "10.1089/cap.2016.0026",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5689110/",
+      "publication": "2017",
+      "evidenceType": "peer-reviewed primary controlled trial",
+      "population": "Ages 7-17, Tourette disorder",
+      "design": "8-week randomized parallel placebo control; low/high dose",
+      "counts": {
+        "randomized": 133,
+        "low": 44,
+        "high": 45,
+        "placebo": 44,
+        "completed": 119
+      },
+      "selectedAggregateResult": {
+        "outcome": "YGTSS-TTS 0-50",
+        "lowMinusPlacebo": -6.3,
+        "lowCI95": [
+          -10.2,
+          -2.3
+        ],
+        "highMinusPlacebo": -9.9,
+        "highCI95": [
+          -13.8,
+          -5.9
+        ]
+      },
+      "interpretationLimits": "Dopaminergic and serotonergic actions make this an imperfect selective D2 probe. Separate impairment improvement reported; no guarantee of functional recovery or universal response. Dose arms share placebo.",
+      "safety": "Sedation, somnolence and fatigue; short trial cannot establish long-term safety.",
+      "registry": "NCT01727700",
+      "access": "Ordinary HTTP primary full text readable; web-reader route challenged.",
+      "checkedAt": "2026-10-28T21:43:56.433980+00:00",
+      "correctionRetractionCheck": "No dedicated comprehensive check in this bounded pass; primary page inspection only."
+    },
+    {
+      "id": "artists1",
+      "doi": "10.1001/jamanetworkopen.2021.28204",
+      "url": "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2784765",
+      "publication": "2021-10-05",
+      "evidenceType": "peer-reviewed primary controlled trial",
+      "population": "Ages 6-16, moderate/severe TS",
+      "design": "12-week flexible-dose VMAT2 inhibitor versus placebo",
+      "counts": {
+        "randomized": 119,
+        "active": 59,
+        "placebo": 60
+      },
+      "selectedAggregateResult": {
+        "outcome": "YGTSS-TTS 0-50",
+        "activeMinusPlacebo": -0.7,
+        "CI95": [
+          -4.1,
+          2.8
+        ],
+        "p": 0.69,
+        "ADLdifference": -1.1,
+        "ADLCI95": [
+          -7.3,
+          5.1
+        ]
+      },
+      "interpretationLimits": "Null efficacy, not zero effect proven. ADL outcome also imprecise/null. No measured CNS mediator establishing adequate causal target engagement.",
+      "safety": "Fatigue/weight gain; any TEAE 38/58 versus 33/59; no serious TEAE.",
+      "registry": "NCT03452943",
+      "access": "Selected primary full-text methods/results; not supplements",
+      "checkedAt": "2026-10-28T21:43:56.433980+00:00",
+      "correctionRetractionCheck": "No dedicated comprehensive check in this bounded pass; primary page inspection only."
+    },
+    {
+      "id": "artists2",
+      "doi": "10.1001/jamanetworkopen.2021.29397",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8524312/",
+      "publication": "2021-10-18",
+      "evidenceType": "peer-reviewed primary controlled trial",
+      "population": "Ages 6-16, mean baseline TTS 33.8",
+      "design": "8-week fixed-dose VMAT2 inhibitor; primary high-dose versus placebo",
+      "counts": {
+        "randomized": 158,
+        "high": 52,
+        "low": 54,
+        "placebo": 52,
+        "mITT": 153,
+        "safety": 157
+      },
+      "selectedAggregateResult": {
+        "outcome": "YGTSS-TTS 0-50",
+        "activeMinusPlacebo": -0.8,
+        "CI95": [
+          -3.9,
+          2.3
+        ],
+        "p": 0.6
+      },
+      "interpretationLimits": "Second distinct negative trial; no nominally significant key secondary outcome. Does not establish adult failure or class-wide biological irrelevance.",
+      "safety": "Any TEAE 65% high dose, 44% low dose, 49% placebo; short follow-up.",
+      "registry": "NCT03571256",
+      "access": "Ordinary HTTP primary full text readable; web-reader route challenged.",
+      "checkedAt": "2026-10-28T21:43:56.433980+00:00",
+      "correctionRetractionCheck": "No dedicated comprehensive check in this bounded pass; primary page inspection only."
+    },
+    {
+      "id": "dbs-crossover",
+      "doi": "10.1016/S1474-4422(15)00008-3",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25882029/",
+      "publication": "2015",
+      "evidenceType": "peer-reviewed primary controlled trial",
+      "population": "Eligibility >=20; mean 34.7; severe medically refractory TS",
+      "design": "GPi stimulation on/off crossover, 3 months per condition",
+      "counts": {
+        "enrolled": 15,
+        "randomized": 14,
+        "bothBlindedAssessments": 13
+      },
+      "selectedAggregateResult": {
+        "outcome": "YGTSS global total, not TTS",
+        "offMinusOn": 12.4,
+        "CI95": [
+          0.1,
+          24.7
+        ],
+        "p": 0.048
+      },
+      "interpretationLimits": "Small completer crossover, broad uncertainty, carryover/order concern. Circuit modulation not initiating lesion localization. Not comparable to pediatric TTS units.",
+      "safety": "Three serious events: two hardware infections, one hypomania episode; aggregate only.",
+      "registry": "NCT01647269",
+      "access": "Primary abstract via ordinary HTTP; web-reader direct open limited.",
+      "checkedAt": "2026-10-28T21:43:56.433980+00:00",
+      "correctionRetractionCheck": "No dedicated comprehensive check in this bounded pass; primary page inspection only."
+    },
+    {
+      "id": "dbs-parallel",
+      "doi": "10.1016/S1474-4422(17)30160-6",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28645853/",
+      "publication": "Online 2017-06-20; issue 2017-08",
+      "evidenceType": "peer-reviewed primary controlled trial",
+      "population": "Ages 18-60; severe medically refractory TS",
+      "design": "Anterior GPi active versus sham, 3-month blinded phase after implantation",
+      "counts": {
+        "paperEnrolled": 19,
+        "randomized": 17,
+        "completedBlinded": 16
+      },
+      "selectedAggregateResult": {
+        "outcome": "YGTSS global total change",
+        "medianPercentChangeActive": 1.1,
+        "medianPercentChangeSham": 0.0,
+        "p": 0.39
+      },
+      "interpretationLimits": "Retain conflict with crossover trial. Different programming/design/selection, imprecision and timing prevent all-DBS refutation or posthoc rescue. Registry enrollment20 differs from paper19.",
+      "safety": "15 serious events in 13 people; four hardware infections. Surgical harms occur outside active stimulation too.",
+      "registry": "NCT00478842",
+      "access": "Primary indexed abstract read; no full-text supplement review.",
+      "checkedAt": "2026-10-28T21:43:56.433980+00:00",
+      "correctionRetractionCheck": "No dedicated comprehensive check in this bounded pass; primary page inspection only."
+    },
+    {
+      "id": "mns-home",
+      "doi": "10.1111/jnp.12313",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10947020/",
+      "publication": "2023",
+      "evidenceType": "peer-reviewed primary controlled trial",
+      "population": "Eligibility >=12, moderate/severe TS or chronic tic disorder",
+      "design": "Four-week active/sham/waitlist comparison",
+      "counts": {
+        "initialAllocation": 135,
+        "initialPerArm": 45,
+        "analysisReported": [
+          41,
+          39,
+          41
+        ],
+        "primaryCompleteCasePerArm": 39
+      },
+      "selectedAggregateResult": {
+        "outcome": "YGTSS-TTS 0-50",
+        "activeReduction": 7.13,
+        "shamReduction": 2.13,
+        "reportedContrastP": 0.02
+      },
+      "interpretationLimits": "Postallocation exclusions, sham design and developer involvement matter. Does not isolate rhythmic entrainment; extension is overlapping cohort, not replication. Waitlist values differ across article sections; not harmonized here.",
+      "safety": "Detailed event table not independently extracted in this pass; no safety guarantee.",
+      "registry": null,
+      "access": "Selected primary text through ordinary HTTP and publisher index; later HTTP response challenged.",
+      "checkedAt": "2026-10-28T21:43:56.433980+00:00",
+      "correctionRetractionCheck": "No dedicated comprehensive check in this bounded pass; primary page inspection only."
+    },
+    {
+      "id": "mns-mechanism",
+      "doi": "10.3390/jcm12072514",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10095326/",
+      "publication": "2023-03-27",
+      "evidenceType": "peer-reviewed primary controlled trial",
+      "population": "Ages 15-64, mean TTS26",
+      "design": "Rhythmic versus arrhythmic crossover with randomized on/off blocks",
+      "counts": {
+        "completed": 32,
+        "arrhythmicVideoAnalyzed": 31,
+        "registryEnrollment": 34
+      },
+      "selectedAggregateResult": {
+        "outcome": "tic-frequency differential, reported model units",
+        "rhythmicArrhythmicDifference": 0.96,
+        "CI95": [
+          -12.9,
+          14.8
+        ],
+        "p": 0.89
+      },
+      "interpretationLimits": "No demonstrated rhythmic advantage or poststimulation persistence. Active comparator, not inert placebo; no formal equivalence or same-person EEG mediation established. Registry34 not substituted for paper32.",
+      "safety": "No serious events; discomfort possible.",
+      "registry": "NCT04731714",
+      "access": "Primary indexed methods/results and abstract; no patient comments retained.",
+      "checkedAt": "2026-10-28T21:43:56.433980+00:00",
+      "correctionRetractionCheck": "No dedicated comprehensive check in this bounded pass; primary page inspection only."
+    },
+    {
+      "id": "rtms-severe-adult",
+      "doi": "10.1016/j.brs.2014.11.015",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4454615/",
+      "publication": "2015",
+      "evidenceType": "peer-reviewed primary controlled trial",
+      "population": "Adults >=18; mean33.7; persistent severe/refractory TS; major psychiatric exclusions",
+      "design": "Three-week active SMA rTMS versus sham, then open-label extension",
+      "counts": {
+        "randomized": 20,
+        "active": 9,
+        "sham": 11
+      },
+      "selectedAggregateResult": {
+        "outcome": "YGTSS-TTS",
+        "meanPercentReductionActive": 17.3,
+        "meanPercentReductionSham": 13.2,
+        "abstractP": 0.27,
+        "figureCompleterP": 0.56
+      },
+      "interpretationLimits": "Both reported tests null; population/statistical distinction not fully reconciled. Seven-person open-label extension cannot establish delayed efficacy. Does not refute every circuit target or stimulation implementation.",
+      "safety": "Headache and discomfort; small selected sample cannot exclude rare harms.",
+      "registry": null,
+      "access": "Primary ordinary HTTP full text; web-reader route challenged.",
+      "checkedAt": "2026-10-28T21:43:56.433980+00:00",
+      "correctionRetractionCheck": "No dedicated comprehensive check in this bounded pass; primary page inspection only."
+    }
+  ]
+}

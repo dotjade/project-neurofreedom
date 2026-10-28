@@ -1,0 +1,59 @@
+{
+  "method": "Intersect each printed 95% CI with (-infinity, -threshold]. No pooling, fitted model, seed, participant reconstruction or probabilities assigned to parameters. Printed CI rounding preserved.",
+  "thresholdsAreIllustrativeNotClinical": true,
+  "results": [
+    {
+      "id": "artists1",
+      "CI95": [
+        -4.1,
+        2.8
+      ],
+      "includesZero": true,
+      "illustrativeBeneficialDifferences": [
+        {
+          "benefitPoints": 3,
+          "anyEffectAtLeastThisBeneficialCompatibleWithReportedCI": true
+        },
+        {
+          "benefitPoints": 4,
+          "anyEffectAtLeastThisBeneficialCompatibleWithReportedCI": true
+        },
+        {
+          "benefitPoints": 5,
+          "anyEffectAtLeastThisBeneficialCompatibleWithReportedCI": false
+        },
+        {
+          "benefitPoints": 6.5,
+          "anyEffectAtLeastThisBeneficialCompatibleWithReportedCI": false
+        }
+      ]
+    },
+    {
+      "id": "artists2",
+      "CI95": [
+        -3.9,
+        2.3
+      ],
+      "includesZero": true,
+      "illustrativeBeneficialDifferences": [
+        {
+          "benefitPoints": 3,
+          "anyEffectAtLeastThisBeneficialCompatibleWithReportedCI": true
+        },
+        {
+          "benefitPoints": 4,
+          "anyEffectAtLeastThisBeneficialCompatibleWithReportedCI": false
+        },
+        {
+          "benefitPoints": 5,
+          "anyEffectAtLeastThisBeneficialCompatibleWithReportedCI": false
+        },
+        {
+          "benefitPoints": 6.5,
+          "anyEffectAtLeastThisBeneficialCompatibleWithReportedCI": false
+        }
+      ]
+    }
+  ],
+  "assertionsPassed": 5
+}

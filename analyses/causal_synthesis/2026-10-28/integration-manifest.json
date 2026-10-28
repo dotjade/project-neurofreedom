@@ -1,0 +1,177 @@
+{
+  "createdAt": "2026-10-28T21:53:21.033197+00:00",
+  "baseCommit": "f72a50695f7c4a07e15206cd84737be4ebf33177",
+  "files": [
+    {
+      "path": "STATUS.md",
+      "sha256": "50ac0efd3f9e5c631c6042442bf73a14c416dacdcee0cabbda3113300dcfd9e9"
+    },
+    {
+      "path": "public/research-feed.json",
+      "sha256": "ac01c9ed1f323b6651f9fbec5e0df3d37a8177b4addeb792720c7310366a34eb"
+    },
+    {
+      "path": "analyses/causal_synthesis/2026-10-28/circuits/identifier-checks.json",
+      "sha256": "32493ef462530223566f6252bec2c067a8a7aa0c91c98eec712eb69ccb59e327"
+    },
+    {
+      "path": "analyses/causal_synthesis/2026-10-28/circuits/report.md",
+      "sha256": "0b1ab7192484a06f0f639192629b880687afa7440193368782b879bcbb7df1e8"
+    },
+    {
+      "path": "analyses/causal_synthesis/2026-10-28/circuits/sources.json",
+      "sha256": "3e98dce0236746e9ac144395eaa0b2df05fd7aa3f49fe7ca15bb1d00dcd4540d"
+    },
+    {
+      "path": "analyses/causal_synthesis/2026-10-28/critique/critical-synthesis.md",
+      "sha256": "258da3e403eff25f4497ddeaddc697484c7a087ef158dba1b7549b6183bd3ba8"
+    },
+    {
+      "path": "analyses/causal_synthesis/2026-10-28/critique/search-log.json",
+      "sha256": "9ea51b5dc991b3924af89fdaf51ae79b1b75317f41fecef27547fcc05f0c255f"
+    },
+    {
+      "path": "analyses/causal_synthesis/2026-10-28/executive-summary.md",
+      "sha256": "326f0d19dc87342d43e6d316cae0fa0ffcc1db9b360a1c971357a5ae13bcbc97"
+    },
+    {
+      "path": "analyses/causal_synthesis/2026-10-28/genetics/aggregate_checks.py",
+      "sha256": "4b7c983bdeaa69a02762635617a1555b4f40cb2de23ddbf41bcf61be5b8ca2eb"
+    },
+    {
+      "path": "analyses/causal_synthesis/2026-10-28/genetics/evidence.json",
+      "sha256": "a5d7c759bd3fbe2d1dd3292cb51ca6b03e99b3b77c9085a30b043b4bf02833fc"
+    },
+    {
+      "path": "analyses/causal_synthesis/2026-10-28/genetics/inputs.json",
+      "sha256": "1b76fd66a6ff3df3eee398ab08e791fe226f382de2bdc97646e34970bb96d8ed"
+    },
+    {
+      "path": "analyses/causal_synthesis/2026-10-28/genetics/provenance.json",
+      "sha256": "cb62cfcebe9a776d3f0c657e7ad926912229ada828e6716a924389250d2f8841"
+    },
+    {
+      "path": "analyses/causal_synthesis/2026-10-28/genetics/report.md",
+      "sha256": "462e479040ef2afb4e6ae1d84ef692708ffd1283c8143508473649925ce4e6ba"
+    },
+    {
+      "path": "analyses/causal_synthesis/2026-10-28/genetics/results.json",
+      "sha256": "290688d99929e848717bba268323d62bb04c167fda356749efd5b423d1b89815"
+    },
+    {
+      "path": "analyses/causal_synthesis/2026-10-28/genetics/search-log.json",
+      "sha256": "6515bcf87da2861f6444711317f5c9260a60307c0d68367b1c5bb4ec5c7eb8ab"
+    },
+    {
+      "path": "analyses/causal_synthesis/2026-10-28/genetics/source-metadata.json",
+      "sha256": "56f9321e296d7fbeead0eabcce38b5120d313bd74f13e4483ddc1718a009b1c6"
+    },
+    {
+      "path": "analyses/causal_synthesis/2026-10-28/genetics/validation.json",
+      "sha256": "d7a94143764ae36727d28fd69b8ea589297ae620804d76c1d4f864f124f5cb03"
+    },
+    {
+      "path": "analyses/causal_synthesis/2026-10-28/model/analyze.py",
+      "sha256": "61c8bb5445c36cf062120c0fdcc4729f441f2dc0a6043f0f8a6df19c831ba87a"
+    },
+    {
+      "path": "analyses/causal_synthesis/2026-10-28/model/inputs.json",
+      "sha256": "a4da51b742f474b99ba5213744f2ab20163c858a3806b728a584bde512cf7de4"
+    },
+    {
+      "path": "analyses/causal_synthesis/2026-10-28/model/plan.md",
+      "sha256": "abc2a71c3ed116a8fbead33eeb464a6a1c3ada70bf4e67f7a34a4444f476284f"
+    },
+    {
+      "path": "analyses/causal_synthesis/2026-10-28/model/report.md",
+      "sha256": "2a2f0ed26c25f3a0e5e8048ce9b762bc22a529540d72b8dc18c071d45badd26b"
+    },
+    {
+      "path": "analyses/causal_synthesis/2026-10-28/model/results.json",
+      "sha256": "6a2e096d56527c1351a26a1d79f3f26b624df7f07fa789b3e0ec6bc288ccd562"
+    },
+    {
+      "path": "analyses/causal_synthesis/2026-10-28/model/review/checks.json",
+      "sha256": "58bc79d11f990e179ae835236183342a855bd9a90a5eb014d2c528b2de1a4326"
+    },
+    {
+      "path": "analyses/causal_synthesis/2026-10-28/model/review/independent_checks.py",
+      "sha256": "1be0e3fc26028ff7ab7f883a3211917845644257586694203489f9ad3a651d5b"
+    },
+    {
+      "path": "analyses/causal_synthesis/2026-10-28/model/review/integration-review.md",
+      "sha256": "c41454478c1167ff362c25a4092fc7f6c8da404f6386b1ddb7c430ca30e629c3"
+    },
+    {
+      "path": "analyses/causal_synthesis/2026-10-28/model/review/review.md",
+      "sha256": "03253dc5cc3631aeb6c42c017783194b89c21c5503ee1b7de3325c5c87124863"
+    },
+    {
+      "path": "analyses/causal_synthesis/2026-10-28/model/review/reviewed-file-hashes.json",
+      "sha256": "d60bae0a14dd6e0bdbf6199bcf0e08fef8a4e53931d426d0a9d71a77bbf49ca8"
+    },
+    {
+      "path": "analyses/causal_synthesis/2026-10-28/model/test-output.txt",
+      "sha256": "643c7cfc3921e5830e047bed28578bc933677c101c9c5a9f6610b6207052d03c"
+    },
+    {
+      "path": "analyses/causal_synthesis/2026-10-28/model/test_analysis.py",
+      "sha256": "dfa5f8735527acf5af3218695f16219e6007719daff47cf198fd25c0e9b52d4d"
+    },
+    {
+      "path": "analyses/causal_synthesis/2026-10-28/novelty-check.json",
+      "sha256": "7d0b7eb9f1e79fe496b06da60182c69ab1377b12e94af1db8fb90fc141344a7d"
+    },
+    {
+      "path": "analyses/causal_synthesis/2026-10-28/perturbations/check_intervals.py",
+      "sha256": "afb6f94bc2e40227e882cf5c12f47f12556a9411442ba0343db4827bd38b567d"
+    },
+    {
+      "path": "analyses/causal_synthesis/2026-10-28/perturbations/check_registries.py",
+      "sha256": "e90dc48b2009c619d425c1e1e08541956df1c030360d27bbdb7ebfa3bba3dbbb"
+    },
+    {
+      "path": "analyses/causal_synthesis/2026-10-28/perturbations/interval-results.json",
+      "sha256": "4ebe33733f3fbafcd96dd94f626b52bd886208cd2e7e6c1723955fa749aad15e"
+    },
+    {
+      "path": "analyses/causal_synthesis/2026-10-28/perturbations/methods.json",
+      "sha256": "7cb5d32c2e81732a6f2de2a0bfbeca972b07cc9d027f88b3232c4812c275b364"
+    },
+    {
+      "path": "analyses/causal_synthesis/2026-10-28/perturbations/registry-checks.json",
+      "sha256": "2b91b3a9ed732e8fca92fe97e1994cd9998f147860cfdf5e09a3d20be21f9f39"
+    },
+    {
+      "path": "analyses/causal_synthesis/2026-10-28/perturbations/report.md",
+      "sha256": "a0bef2a86f85053c5216700947e2bf19a77b7b2d350afecd4eec1478f522a0c7"
+    },
+    {
+      "path": "analyses/causal_synthesis/2026-10-28/perturbations/trial-records.json",
+      "sha256": "49734166b162aefa721d249093359b0eabe51e4a9c5f820091a90b10d1784a1a"
+    },
+    {
+      "path": "analyses/causal_synthesis/2026-10-28/perturbations/validation.json",
+      "sha256": "11fb4f6f598847fbd700dbb992e5140a3eb90ce0c053c307bdd6e7f29f8487fe"
+    },
+    {
+      "path": "analyses/causal_synthesis/2026-10-28/provenance.json",
+      "sha256": "42b53894095683b243814c0c43bc633f41d9fc47c7be9be086d077e871e1af54"
+    },
+    {
+      "path": "analyses/causal_synthesis/2026-10-28/report.md",
+      "sha256": "98c5e5a88ec30fee6c5c3decf9907c69124eabcc9d70a02db3495bcfa603caba"
+    }
+  ],
+  "tests": {
+    "modelImplementation": 10,
+    "modelIndependentClosedForm": 113,
+    "geneticArithmetic": 6,
+    "trialIntervalAssertions": 5,
+    "feedSchema": "passed",
+    "journalBuild": "passed",
+    "jsonParse": "passed",
+    "unrelatedCatalogAndCollection": "unchanged"
+  },
+  "scope": "Research snapshot before publication receipt; manifest excludes itself."
+}
