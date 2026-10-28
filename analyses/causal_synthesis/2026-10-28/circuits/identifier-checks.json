@@ -1,0 +1,72 @@
+{
+  "at_utc": "2026-10-28T21:45:21.475046+00:00",
+  "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=16520330,24904391,40946095,40977255&retmode=xml",
+  "sha256": "6fdc1314d10c7a907cfc4fa880dfe6508faa40f28bcf9421ab0036d68c699639",
+  "records": [
+    {
+      "pmid": "16520330",
+      "title": "Neural correlates of tic generation in Tourette syndrome: an event-related functional MRI study.",
+      "ids": {
+        "pubmed": "16520330",
+        "doi": "10.1093/brain/awl050",
+        "pii": "awl050"
+      },
+      "dates": [
+        {
+          "type": "Electronic",
+          "date": "2006-03-06"
+        }
+      ],
+      "linked_notices": []
+    },
+    {
+      "pmid": "24904391",
+      "title": "Imaging the where and when of tic generation and resting state networks in adult Tourette patients.",
+      "ids": {
+        "pubmed": "24904391",
+        "pmc": "PMC4035756",
+        "doi": "10.3389/fnhum.2014.00362"
+      },
+      "dates": [
+        {
+          "type": "Electronic",
+          "date": "2014-05-28"
+        }
+      ],
+      "linked_notices": []
+    },
+    {
+      "pmid": "40946095",
+      "title": "Thalamo-frontal functional connectivity patterns in Tourette Syndrome: Insights from combined intracranial DBS and EEG recordings.",
+      "ids": {
+        "pubmed": "40946095",
+        "pmc": "PMC12700786",
+        "doi": "10.1038/s41380-025-03220-9",
+        "pii": "10.1038/s41380-025-03220-9"
+      },
+      "dates": [
+        {
+          "type": "Electronic",
+          "date": "2025-09-13"
+        }
+      ],
+      "linked_notices": []
+    },
+    {
+      "pmid": "40977255",
+      "title": "The CM-aGPi Network in the Generation of Tics in Tourette Syndrome.",
+      "ids": {
+        "pubmed": "40977255",
+        "pmc": "PMC12710177",
+        "doi": "10.1002/mds.70043"
+      },
+      "dates": [
+        {
+          "type": "Electronic",
+          "date": "2025-09-22"
+        }
+      ],
+      "linked_notices": []
+    }
+  ]
+}

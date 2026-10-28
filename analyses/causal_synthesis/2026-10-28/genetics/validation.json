@@ -1,0 +1,7 @@
+{
+  "checked_utc": "2026-10-28T21:43:37.066816+00:00",
+  "assertions_passed": 6,
+  "deterministic_rerun_byte_identical": true,
+  "result_sha256": "290688d99929e848717bba268323d62bb04c167fda356749efd5b423d1b89815",
+  "scope": "Arithmetic and reproducibility, not source peer review or clinical validation."
+}

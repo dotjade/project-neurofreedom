@@ -1,0 +1,279 @@
+{
+  "label": "SYNTHETIC MATHEMATICAL DEMONSTRATION, not biological discovery",
+  "method": "Finite Boolean-state enumeration, no random sampling or fitted patient data",
+  "seed": null,
+  "input_probabilities": {
+    "single": 0.2,
+    "parallel": 0.10557280900008414,
+    "coincidence": 0.4472135954999579
+  },
+  "scenarios": [
+    {
+      "model": "single",
+      "context": "A",
+      "intervention": "none",
+      "event_probability": 0.1,
+      "ordinary_action_probability": 0.2
+    },
+    {
+      "model": "single",
+      "context": "A",
+      "intervention": "downstream",
+      "event_probability": 0.05,
+      "ordinary_action_probability": 0.1
+    },
+    {
+      "model": "single",
+      "context": "A",
+      "intervention": "block_X",
+      "event_probability": 0.0,
+      "ordinary_action_probability": 0.2
+    },
+    {
+      "model": "single",
+      "context": "A",
+      "intervention": "block_Z",
+      "event_probability": 0.1,
+      "ordinary_action_probability": 0.2
+    },
+    {
+      "model": "single",
+      "context": "A",
+      "intervention": "block_both",
+      "event_probability": 0.0,
+      "ordinary_action_probability": 0.2
+    },
+    {
+      "model": "single",
+      "context": "B",
+      "intervention": "none",
+      "event_probability": 0.16,
+      "ordinary_action_probability": 0.32
+    },
+    {
+      "model": "single",
+      "context": "B",
+      "intervention": "downstream",
+      "event_probability": 0.08,
+      "ordinary_action_probability": 0.16
+    },
+    {
+      "model": "single",
+      "context": "B",
+      "intervention": "block_X",
+      "event_probability": 0.0,
+      "ordinary_action_probability": 0.32
+    },
+    {
+      "model": "single",
+      "context": "B",
+      "intervention": "block_Z",
+      "event_probability": 0.16,
+      "ordinary_action_probability": 0.32
+    },
+    {
+      "model": "single",
+      "context": "B",
+      "intervention": "block_both",
+      "event_probability": 0.0,
+      "ordinary_action_probability": 0.32
+    },
+    {
+      "model": "parallel",
+      "context": "A",
+      "intervention": "none",
+      "event_probability": 0.1,
+      "ordinary_action_probability": 0.2
+    },
+    {
+      "model": "parallel",
+      "context": "A",
+      "intervention": "downstream",
+      "event_probability": 0.05,
+      "ordinary_action_probability": 0.1
+    },
+    {
+      "model": "parallel",
+      "context": "A",
+      "intervention": "block_X",
+      "event_probability": 0.0527864045,
+      "ordinary_action_probability": 0.2
+    },
+    {
+      "model": "parallel",
+      "context": "A",
+      "intervention": "block_Z",
+      "event_probability": 0.0527864045,
+      "ordinary_action_probability": 0.2
+    },
+    {
+      "model": "parallel",
+      "context": "A",
+      "intervention": "block_both",
+      "event_probability": 0.0,
+      "ordinary_action_probability": 0.2
+    },
+    {
+      "model": "parallel",
+      "context": "B",
+      "intervention": "none",
+      "event_probability": 0.16,
+      "ordinary_action_probability": 0.32
+    },
+    {
+      "model": "parallel",
+      "context": "B",
+      "intervention": "downstream",
+      "event_probability": 0.08,
+      "ordinary_action_probability": 0.16
+    },
+    {
+      "model": "parallel",
+      "context": "B",
+      "intervention": "block_X",
+      "event_probability": 0.0844582472,
+      "ordinary_action_probability": 0.32
+    },
+    {
+      "model": "parallel",
+      "context": "B",
+      "intervention": "block_Z",
+      "event_probability": 0.0844582472,
+      "ordinary_action_probability": 0.32
+    },
+    {
+      "model": "parallel",
+      "context": "B",
+      "intervention": "block_both",
+      "event_probability": 0.0,
+      "ordinary_action_probability": 0.32
+    },
+    {
+      "model": "coincidence",
+      "context": "A",
+      "intervention": "none",
+      "event_probability": 0.1,
+      "ordinary_action_probability": 0.2
+    },
+    {
+      "model": "coincidence",
+      "context": "A",
+      "intervention": "downstream",
+      "event_probability": 0.05,
+      "ordinary_action_probability": 0.1
+    },
+    {
+      "model": "coincidence",
+      "context": "A",
+      "intervention": "block_X",
+      "event_probability": 0.0,
+      "ordinary_action_probability": 0.2
+    },
+    {
+      "model": "coincidence",
+      "context": "A",
+      "intervention": "block_Z",
+      "event_probability": 0.0,
+      "ordinary_action_probability": 0.2
+    },
+    {
+      "model": "coincidence",
+      "context": "A",
+      "intervention": "block_both",
+      "event_probability": 0.0,
+      "ordinary_action_probability": 0.2
+    },
+    {
+      "model": "coincidence",
+      "context": "B",
+      "intervention": "none",
+      "event_probability": 0.16,
+      "ordinary_action_probability": 0.32
+    },
+    {
+      "model": "coincidence",
+      "context": "B",
+      "intervention": "downstream",
+      "event_probability": 0.08,
+      "ordinary_action_probability": 0.16
+    },
+    {
+      "model": "coincidence",
+      "context": "B",
+      "intervention": "block_X",
+      "event_probability": 0.0,
+      "ordinary_action_probability": 0.32
+    },
+    {
+      "model": "coincidence",
+      "context": "B",
+      "intervention": "block_Z",
+      "event_probability": 0.0,
+      "ordinary_action_probability": 0.32
+    },
+    {
+      "model": "coincidence",
+      "context": "B",
+      "intervention": "block_both",
+      "event_probability": 0.0,
+      "ordinary_action_probability": 0.32
+    }
+  ],
+  "coincidence_frechet_bounds": [
+    0,
+    0.25
+  ],
+  "coincidence_sensitivity": [
+    {
+      "joint_probability": 0,
+      "marginal_X": 0.25,
+      "marginal_Z": 0.25,
+      "p11": 0,
+      "p10": 0.25,
+      "p01": 0.25,
+      "p00": 0.5,
+      "AND_event_probability_at_gate_A": 0.0
+    },
+    {
+      "joint_probability": 0.0625,
+      "marginal_X": 0.25,
+      "marginal_Z": 0.25,
+      "p11": 0.0625,
+      "p10": 0.1875,
+      "p01": 0.1875,
+      "p00": 0.5625,
+      "AND_event_probability_at_gate_A": 0.03125
+    },
+    {
+      "joint_probability": 0.125,
+      "marginal_X": 0.25,
+      "marginal_Z": 0.25,
+      "p11": 0.125,
+      "p10": 0.125,
+      "p01": 0.125,
+      "p00": 0.625,
+      "AND_event_probability_at_gate_A": 0.0625
+    },
+    {
+      "joint_probability": 0.1875,
+      "marginal_X": 0.25,
+      "marginal_Z": 0.25,
+      "p11": 0.1875,
+      "p10": 0.0625,
+      "p01": 0.0625,
+      "p00": 0.6875,
+      "AND_event_probability_at_gate_A": 0.09375
+    },
+    {
+      "joint_probability": 0.25,
+      "marginal_X": 0.25,
+      "marginal_Z": 0.25,
+      "p11": 0.25,
+      "p10": 0.0,
+      "p01": 0.0,
+      "p00": 0.75,
+      "AND_event_probability_at_gate_A": 0.125
+    }
+  ],
+  "limits": "Observational/response agreement is constructed, not empirical evidence. Ideal node specificity and gate sharing are assumptions. No patient mechanism, effect size or clinical recommendation follows."
+}

@@ -1,0 +1,11 @@
+{
+ "checkedAt":"2026-10-28T21:44:11Z",
+ "scope":"Bounded primary-literature prior-art check, not exhaustive novelty clearance",
+ "queries":["Tourette tic cortical input striatal refractory period temporal pattern 2015 26674861","Tourette compensation lag motor variability state transition Kurvits 2024 tics","Tourette input variability compensation lag tic prediction within person"],
+ "primary_prior_art":[
+ {"pmid":"26674861","url":"https://pubmed.ncbi.nlm.nih.gov/26674861/","relevance":"Cortical input and striatal refractory state in tic-like timing already studied in an animal model."},
+ {"pmid":"38661451","url":"https://pubmed.ncbi.nlm.nih.gov/38661451/","relevance":"Sensorimotor noise and rapid compensation/state-transition interpretation already proposed; not our discovery."},
+ {"doi":"10.1093/braincomms/fcaf458","url":"https://doi.org/10.1093/braincomms/fcaf458","relevance":"Sensorimotor predictive-process adaptation is existing primary research, sent for bounded independent critique."}
+ ],
+ "decision":"Do not claim the field overlooked gating, neural noise, predictive processing or compensation. Our contribution is an explicitly conditional synthesis, causal-role audit, candidate discriminating predictions and reproducible inference counterexample. The exact proposed cross-state interaction is not established novel by this search."
+}

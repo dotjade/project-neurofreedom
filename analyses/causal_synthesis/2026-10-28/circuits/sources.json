@@ -1,0 +1,113 @@
+{
+  "checked_date": "2026-10-28",
+  "baseline_commit": "f72a50695f7c4a07e15206cd84737be4ebf33177",
+  "sources": [
+    {
+      "id": "PMID16520330",
+      "doi": "10.1093/brain/awl050",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16520330/",
+      "type": "peer-reviewed event-related fMRI",
+      "population": "10 participants, adult mean age",
+      "finding": "Distributed pre-expression insular/cingulate/SMA/sensory association contrasted with execution regions",
+      "causal_role": "temporal association, not neuronal direction or necessity",
+      "access": "PubMed primary abstract and source-indexed primary excerpts; not full methods re-audit"
+    },
+    {
+      "id": "PMID24904391",
+      "doi": "10.3389/fnhum.2014.00362",
+      "url": "https://www.frontiersin.org/journals/human-neuroscience/articles/10.3389/fnhum.2014.00362/full",
+      "type": "peer-reviewed fMRI",
+      "population": "10 adults event-related analysis, separate resting-state analysis not pooled here",
+      "finding": "Earlier modeled cortical bins, later subcortical and execution-associated activity",
+      "causal_role": "BOLD event-model association not millisecond neural sequencing",
+      "access": "Publisher primary text and official PMC4035756 XML"
+    },
+    {
+      "id": "doi:10.1038/s41467-024-55242-6",
+      "doi": "10.1038/s41467-024-55242-6",
+      "url": "https://www.nature.com/articles/s41467-024-55242-6",
+      "published": "2024-12-16",
+      "type": "peer-reviewed observational DBS connectivity-outcome and lesion-map synthesis",
+      "population": "37 severe adults, separate 10-person replication; reused 22-lesion map; 1,000 healthy normative connectome",
+      "finding": "CON/SCAN connectivity-outcome associations with negative and nonsignificant network comparators",
+      "causal_role": "perturbation-linked anatomical association, not randomized network targeting or developmental etiology",
+      "limitations": [
+        "normative healthy atlas",
+        "heterogeneous response",
+        "lesion cohort acquired tics",
+        "main text replication .54 versus figure caption .054",
+        "age correlation printed outside possible range"
+      ],
+      "access": "Publisher full HTML; individual figures/data not downloaded"
+    },
+    {
+      "id": "PMID40946095",
+      "doi": "10.1038/s41380-025-03220-9",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12700786/",
+      "type": "peer-reviewed thalamic LFP plus EEG",
+      "population": "8 enrolled male implanted adults, 2 excluded; 6 final with 5 tic and 4 suppression analysis",
+      "finding": "pre-tic alpha connectivity decrease, unlike local power",
+      "causal_role": "candidate precursor/control-state association; not demonstrated urge mediation",
+      "limitations": [
+        "urge ratings reserved for separate work",
+        "no matched voluntary controls",
+        "brief DBS washout after long treatment",
+        "analysis selects tics with preceding tic-free interval",
+        "prior coherence findings differ"
+      ],
+      "access": "Official EuropePMC XML selected aggregate methods/results/limitations; no individual rows retained"
+    },
+    {
+      "id": "PMID40977255",
+      "doi": "10.1002/mds.70043",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40977255/",
+      "type": "peer-reviewed CM\u2013aGPi LFP state comparison",
+      "population": "6 implanted severe adults, 5 physiology; NCT05371041",
+      "finding": "low-frequency tic-state coherence and reported CM phase lead",
+      "causal_role": "onset-centered state association, not pre-tic prediction or direct causal generator",
+      "access": "Fresh PubMed identifier verification; detailed claims rely on already verified repository October 20 primary-source audit, not repeat full-text extraction",
+      "overlap": "Clinical registry same trial; pooled 2026 preprint not independent replication"
+    },
+    {
+      "id": "doi:10.3389/fnhum.2025.1720968",
+      "doi": "10.3389/fnhum.2025.1720968",
+      "url": "https://www.frontiersin.org/journals/human-neuroscience/articles/10.3389/fnhum.2025.1720968/full",
+      "published": "2025-12-04",
+      "type": "peer-reviewed randomized sham-controlled single-session perturbation",
+      "population": "14 youth ages 12\u201317, 8 active and 6 sham",
+      "finding": "small state-dependent behavioral effects; ordinary suppression frequency contrast d=0; no neural target engagement measured",
+      "causal_role": "intervention-level preliminary effect, not local SMA mechanism or adult treatment proof",
+      "access": "Publisher full HTML selected methods/results/limitations"
+    },
+    {
+      "id": "doi:10.1016/j.brs.2014.11.015",
+      "doi": "10.1016/j.brs.2014.11.015",
+      "url": "https://doi.org/10.1016/j.brs.2014.11.015",
+      "type": "peer-reviewed adult randomized sham-controlled rTMS",
+      "population": "20 severely affected adults",
+      "finding": "controlled phase did not establish superior clinical tic reduction",
+      "causal_role": "counterevidence to generic SMA therapeutic sufficiency; does not prove no SMA contribution",
+      "access": "Primary PMC indexed methods/results plus existing H15 source; fresh EuropePMC PMC4454615 fullTextXML returned 500; conflicting secondary p values excluded"
+    }
+  ],
+  "access_failures": [
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4454615/fullTextXML",
+      "status": "HTTP 500"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7015800/fullTextXML",
+      "status": "HTTP 500; neurofeedback source not used for substantive final claims"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5088605/fullTextXML",
+      "status": "HTTP 500; insula source discovery not independently extracted"
+    }
+  ],
+  "limitations": [
+    "Targeted not exhaustive systematic review",
+    "No participant-level analyses or pooled estimates",
+    "No complete integrity search for all sources; selected PubMed linked notices checked",
+    "No source fulltext or private/identifying medical information retained"
+  ]
+}

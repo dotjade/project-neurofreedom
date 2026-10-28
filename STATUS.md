@@ -511,3 +511,14 @@ Research commit [5ea22250c40bb31e7288e87ab22c8b58e75afda4](https://github.com/do
 [Actions run 40624447387](https://github.com/dotjade/project-neurofreedom/actions/runs/40624447387) passed validation, build, deployment dry-run and production deployment. Deployment completed at 03:03:46 UTC. Anonymous raw GitHub at 03:03:23 and production /api/public-feed at 03:03:26 matched authored bytes; a fresh production check after deployment at 03:04:04 again returned HTTP 200 with exact bytes and X-Journal-Source repository. Verified updatedAt is 2026-10-28T03:00:27Z; research/activity dates are October 28, small-silly-mark is selected, six approved activities are unchanged and collection remains disabled.
 
 The new audit URL returned HTTP 200 with expected title at 03:03:30; live feedback-config.json remained disabled with null API origin at 03:03:37. No new rendered-page, mobile, zoom or narration test is claimed. Static source, deployment configuration and security settings were unchanged. [Verification receipt](updates/2026-10-28/publication-verification.json).
+
+
+## Requested causal synthesis - 28 October 2026
+
+The [source-linked synthesis](analyses/causal_synthesis/2026-10-28/report.md) and [accessible summary](analyses/causal_synthesis/2026-10-28/executive-summary.md) distinguish enduring susceptibility, immediate event generation and controllable expression. Ranked hypotheses concern state-dependent input/control timing, heterogeneous developmental routes to functional convergence, and event probability versus action identity. Existing prior art and strong null findings prevent a novelty or biological-discovery claim. Persistent severe adults and broader functional burden remain explicit.
+
+Original completed work includes a public-aggregate genetics audit, a negative-trial interval audit and an explicitly synthetic causal-identification counterexample with 10 implementation tests and 113 independent closed-form checks. These do not establish a new human mechanism or treatment. Exact human-data prerequisites are recorded; no participant data or intervention was used.
+
+The next gene-specific Wang question is only partly advanced: union counts and negative convergence evidence were audited, but all 36 gene classifications still require a safely separated public aggregate table. A fixed operational comparison of timing hypotheses is a complementary next methods step, not authorization for data collection.
+
+This is requested deeper synthesis after the completed daily scan, not another claimed daily scan. The dated public feed adds that distinction and retains the six safe activities, selected daily feature and disabled collection settings. Publication readback follows separately.

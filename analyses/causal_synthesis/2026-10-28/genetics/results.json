@@ -1,0 +1,25 @@
+{
+  "analysis": "published aggregate accounting; not simulation or clinical effect estimate",
+  "seed": null,
+  "gene_sets": {
+    "combined_high_confidence": 34,
+    "union_high_confidence": 36,
+    "outside_combined_but_in_union": 2,
+    "shared_bf_contribution_percent": 83.33333333333333,
+    "contribution_partition_total": 36
+  },
+  "sequencing": {
+    "total_probands": 3964,
+    "newly_sequenced_probands": 1952,
+    "previously_sequenced_probands": 2012,
+    "previously_sequenced_percent": 50.75681130171544
+  },
+  "not_identified": [
+    "individual memberships",
+    "gene independence",
+    "independent replication",
+    "population penetrance",
+    "causal acute trigger",
+    "adult reversibility"
+  ]
+}

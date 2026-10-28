@@ -1,0 +1,11 @@
+{
+  "checkedAt": "2026-10-28T21:46:19.284112+00:00",
+  "uniqueTrialDois": 10,
+  "officialRegistrySnapshots": 8,
+  "allRegistryHTTP200": true,
+  "intervalAssertionsPassed": 5,
+  "jsonSyntax": true,
+  "pythonSyntax": true,
+  "localReportLinksExist": true,
+  "noEmDash": true
+}

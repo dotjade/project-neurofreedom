@@ -1,10 +1,17 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-28T03:00:27Z",
+  "updatedAt": "2026-10-28T21:52:16Z",
   "lastResearchDate": "2026-10-28",
   "cadence": "Daily scheduled review; publication follows verified work.",
-  "latestSummary": "Similar severity categories do not make parent and clinician scores interchangeable. The scan adds older studies and a new communication about a known diagnostic interaction.",
+  "latestSummary": "A controllable point is not necessarily the original cause. A source-linked synthesis prioritizes testable timing and control hypotheses, retains negative evidence and makes no biological discovery claim.",
   "timeline": [
+    {
+      "date": "2026-10-28",
+      "title": "A control point is not always the original cause.",
+      "type": "Causal synthesis and synthetic methods test",
+      "summary": "We compared timing and control hypotheses with contradictory studies. Synthetic examples show why symptom control alone cannot identify a unique cause. This is a research synthesis, not a new treatment discovery.",
+      "record": "https://github.com/dotjade/project-neurofreedom/blob/main/analyses/causal_synthesis/2026-10-28/report.md"
+    },
     {
       "date": "2026-10-28",
       "title": "Matching categories is not matching scores.",

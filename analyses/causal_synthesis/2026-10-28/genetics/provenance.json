@@ -1,0 +1,33 @@
+{
+  "baseline_commit": "f72a50695f7c4a07e15206cd84737be4ebf33177",
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "6b1d997e495751f81c97048c86cd8864732cdd8313cc3d9363605bb4425721d2"
+    },
+    {
+      "path": "RESEARCH_PROTOCOL.md",
+      "sha256": "6f0025df7fd62fc2fe952cfbca96fca811ae76b917b7e7d4d45a501fe89e6859"
+    },
+    {
+      "path": "STATUS.md",
+      "sha256": "3032c53636d325856ea8730cf44b6b0f72f25d9f84e059cd35cb50b9669d6a66"
+    },
+    {
+      "path": "public/journal-source/README.md",
+      "sha256": "809173b6459331730d4fd9b0df135079b1e8dfdb030f4babbfc0055fcec1197e"
+    },
+    {
+      "path": "foundation.md",
+      "sha256": "dd3472d5e5e664520ae0fe19431bcd825915e7116e8edf4a597253bc7effe66e"
+    },
+    {
+      "path": "hypotheses.md",
+      "sha256": "ba5085cf6700292f9b6751d7d11cd8b44339ac08a06f40d9e9d8c9b56483c85e"
+    },
+    {
+      "path": "evidence.jsonl",
+      "sha256": "e5062f565ec97287f9ecf67e60c533dd96fad4fd2c3dc3e3792fe029bf03d0ec"
+    }
+  ]
+}
