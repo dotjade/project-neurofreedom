@@ -1,0 +1,55 @@
+{
+  "baseline_commit": "7ef323818a2a808a19e367e78ba01533fc9dce58",
+  "sources": [
+    {
+      "path": "README.md",
+      "sha256": "6b1d997e495751f81c97048c86cd8864732cdd8313cc3d9363605bb4425721d2",
+      "baseline_input": false
+    },
+    {
+      "path": "RESEARCH_PROTOCOL.md",
+      "sha256": "6f0025df7fd62fc2fe952cfbca96fca811ae76b917b7e7d4d45a501fe89e6859",
+      "baseline_input": false
+    },
+    {
+      "path": "STATUS.md",
+      "sha256": "1d9967d4796f1e1eda716d107cd01a612bb62dbe43c6edd3eb76c0163ca1db69",
+      "baseline_input": false
+    },
+    {
+      "path": "public/journal-source/README.md",
+      "sha256": "809173b6459331730d4fd9b0df135079b1e8dfdb030f4babbfc0055fcec1197e",
+      "baseline_input": false
+    },
+    {
+      "path": "evidence.jsonl",
+      "sha256": "2b2b89464d7d0934bdc5aee752c54b60acf99f77770d542bc40143d0fd12f6d9",
+      "baseline_input": false
+    },
+    {
+      "path": "updates/2026-10-27/summary.json",
+      "sha256": "d8c5a96a90aa592e671e03ece2fa1e4dbe817b644fb420664f524adb5b8f9781",
+      "baseline_input": true
+    },
+    {
+      "path": "updates/2026-10-27/pubmed-screening.jsonl",
+      "sha256": "aedd9308767b21503673d654a131a88a1a4cb9a010ed0587e113443146f2d6e3",
+      "baseline_input": true
+    },
+    {
+      "path": "updates/2026-10-27/registry-evidence.jsonl",
+      "sha256": "2a6dda7e75f54b1d212ee9f82ba23565c86adb4bbb2fc82155efcbf8e837d61a",
+      "baseline_input": true
+    },
+    {
+      "path": "updates/2026-10-27/biorxiv-preprint-index.tsv",
+      "sha256": "c4092f685df8fbebdc7d9b1367558955b4d935ea31f61792f2da25383f1e7454",
+      "baseline_input": true
+    },
+    {
+      "path": "updates/2026-10-27/medrxiv-preprint-index.tsv",
+      "sha256": "36bf35d3ca43f515eaef7b75478b2a2d261c8a4ceac379cdf201717b276983b4",
+      "baseline_input": true
+    }
+  ]
+}

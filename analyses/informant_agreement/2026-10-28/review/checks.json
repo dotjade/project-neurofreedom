@@ -1,0 +1,180 @@
+{
+  "method": "Published classification aggregates and arithmetic only. Repeated assessments are not independent people. No ICC, interval, causal learning effect or individual score estimated. No random seed.",
+  "passed": 29,
+  "checks": [
+    {
+      "name": "reports_not_paired",
+      "actual": "1901",
+      "expected": "1901",
+      "passed": true
+    },
+    {
+      "name": "enrollees_without_analyzed_pair",
+      "actual": "67",
+      "expected": "67",
+      "passed": true
+    },
+    {
+      "name": "reference_positive_partition",
+      "actual": "636",
+      "expected": "636",
+      "passed": true
+    },
+    {
+      "name": "reference_negative_partition",
+      "actual": "819",
+      "expected": "819",
+      "passed": true
+    },
+    {
+      "name": "all_classifications",
+      "actual": "1455",
+      "expected": "1455",
+      "passed": true
+    },
+    {
+      "name": "discordant_classifications",
+      "actual": "196",
+      "expected": "196",
+      "passed": true
+    },
+    {
+      "name": "concordant_classifications",
+      "actual": "1259",
+      "expected": "1259",
+      "passed": true
+    },
+    {
+      "name": "parent_positive_classifications",
+      "actual": "574",
+      "expected": "574",
+      "passed": true
+    },
+    {
+      "name": "parent_negative_classifications",
+      "actual": "881",
+      "expected": "881",
+      "passed": true
+    },
+    {
+      "name": "sensitivity_1dp",
+      "actual": "79.7",
+      "expected": "79.7",
+      "passed": true
+    },
+    {
+      "name": "specificity_1dp",
+      "actual": "91.8",
+      "expected": "91.8",
+      "passed": true
+    },
+    {
+      "name": "discordance_2dp",
+      "actual": "13.47",
+      "expected": "13.47",
+      "passed": true
+    },
+    {
+      "name": "paired_report_coverage_2dp",
+      "actual": "43.36",
+      "expected": "43.36",
+      "passed": true
+    },
+    {
+      "name": "paired_patient_coverage_2dp",
+      "actual": "88.72",
+      "expected": "88.72",
+      "passed": true
+    },
+    {
+      "name": "component_difference_sum",
+      "actual": "4.81",
+      "expected": "4.81",
+      "passed": true
+    },
+    {
+      "name": "absolute_total_possible_cancellation",
+      "actual": "True",
+      "expected": "True",
+      "passed": true
+    },
+    {
+      "name": "fellow_evaluations_unpaired",
+      "actual": "67",
+      "expected": "67",
+      "passed": true
+    },
+    {
+      "name": "absolute_lower_bound",
+      "actual": "0.01",
+      "expected": "0.01",
+      "passed": true
+    },
+    {
+      "name": "author_sensitivity_percent",
+      "actual": "79.716981",
+      "expected": "79.716981",
+      "passed": true
+    },
+    {
+      "name": "author_specificity_percent",
+      "actual": "91.819292",
+      "expected": "91.819292",
+      "passed": true
+    },
+    {
+      "name": "author_category_agreement_percent",
+      "actual": "86.529210",
+      "expected": "86.529210",
+      "passed": true
+    },
+    {
+      "name": "author_category_disagreement_percent",
+      "actual": "13.470790",
+      "expected": "13.470790",
+      "passed": true
+    },
+    {
+      "name": "author_patient_paired_analysis_fraction_percent",
+      "actual": "88.720539",
+      "expected": "88.720539",
+      "passed": true
+    },
+    {
+      "name": "author_parent_assessment_pairing_percent",
+      "actual": "43.355185",
+      "expected": "43.355185",
+      "passed": true
+    },
+    {
+      "name": "author_absolute_lower_bound",
+      "actual": "0.01",
+      "expected": "0.01",
+      "passed": true
+    },
+    {
+      "name": "author_absolute_upper_bound",
+      "actual": "4.81",
+      "expected": "4.81",
+      "passed": true
+    },
+    {
+      "name": "author_absolute_compatible",
+      "actual": "True",
+      "expected": "True",
+      "passed": true
+    },
+    {
+      "name": "author_fellow_pairing_percent",
+      "actual": "95.597898",
+      "expected": "95.597898",
+      "passed": true
+    },
+    {
+      "name": "author_unpaired_fellow_assessments",
+      "actual": "67",
+      "expected": "67",
+      "passed": true
+    }
+  ]
+}

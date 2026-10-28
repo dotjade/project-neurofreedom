@@ -1,10 +1,17 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-27T03:20:03Z",
-  "lastResearchDate": "2026-10-27",
+  "updatedAt": "2026-10-28T03:00:27Z",
+  "lastResearchDate": "2026-10-28",
   "cadence": "Daily scheduled review; publication follows verified work.",
-  "latestSummary": "A pediatric tic-scale study shows why consistency alone is not enough. The scan added an older genetics paper, not a new treatment result.",
+  "latestSummary": "Similar severity categories do not make parent and clinician scores interchangeable. The scan adds older studies and a new communication about a known diagnostic interaction.",
   "timeline": [
+    {
+      "date": "2026-10-28",
+      "title": "Matching categories is not matching scores.",
+      "type": "Historical methods audit, evidence and safety scan",
+      "summary": "A ratings audit distinguishes repeated assessments from people and classification from score agreement. Older care-access and animal studies, a no-results registry and a notice about known scan interference are not new tic-treatment results.",
+      "record": "https://github.com/dotjade/project-neurofreedom/blob/main/analyses/informant_agreement/2026-10-28/report.md"
+    },
     {
       "date": "2026-10-27",
       "title": "One statistic is not the whole test.",
@@ -153,7 +160,7 @@
       "type": "Primary qualitative study",
       "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10863457/",
       "label": "Isaacs and colleagues, 2024",
-      "checkedAt": "2026-10-27",
+      "checkedAt": "2026-10-28",
       "linkState": "Primary text readable via web reader; direct request access-limited"
     },
     {
@@ -162,7 +169,7 @@
       "type": "Primary longitudinal study",
       "url": "https://www.neurology.org/doi/10.1212/01.WNL.0000086370.10186.7C",
       "label": "Pappert and colleagues, 2003",
-      "checkedAt": "2026-10-27",
+      "checkedAt": "2026-10-28",
       "linkState": "Publisher HTTP 403 challenge; institutional primary PDF available"
     },
     {
@@ -171,7 +178,7 @@
       "type": "Primary adult cohort study",
       "url": "https://link.springer.com/content/pdf/10.1186/s44247-026-00284-7.pdf",
       "label": "Ivanova and colleagues, 2026",
-      "checkedAt": "2026-10-27",
+      "checkedAt": "2026-10-28",
       "linkState": "Primary PDF retrievable through this check"
     }
   ],
@@ -238,6 +245,6 @@
     "trend": [],
     "message": "No public ratings are collected yet. There are no votes or trends to show."
   },
-  "activityEditionDate": "2026-10-27",
-  "featuredActivityId": "rest-or-leave"
+  "activityEditionDate": "2026-10-28",
+  "featuredActivityId": "small-silly-mark"
 }

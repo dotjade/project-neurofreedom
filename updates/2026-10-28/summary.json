@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-28",
+  "strict_prior_cutoff_utc": "2026-10-27T03:15:11.950351+00:00",
+  "core_started_utc": "2026-10-28T02:54:37.863420+00:00",
+  "core_completed_utc": "2026-10-28T02:55:55.467615+00:00",
+  "pubmed_unique_records": 20,
+  "pubmed_id_occurrences": 31,
+  "pubmed_previous_day_overlap": 9,
+  "new_to_previous_scan_records": 11,
+  "new_to_repository_primary_records": 2,
+  "verified_new_primary_publications_since_prior_cutoff": 0,
+  "verified_newly_entered_pubmed_since_prior_cutoff": 0,
+  "unknown_exact_publication_date_records": 1,
+  "preprint_doi_versions": 581,
+  "preprint_lexical_matches": 0,
+  "qualifying_preprints": 0,
+  "registry_update_window_unique_ids": [
+    "NCT01019343",
+    "NCT07137442",
+    "NCT07898592"
+  ],
+  "new_posted_trial_results": 0,
+  "new_retractions": 0,
+  "api_request_errors": 0,
+  "decision": "Two older primary papers newly retrieved, not newly published in this window. One new broad-support registry protocol without results; no qualifying preprint or clinical result verified. Indexing/version timing limitations retained."
+}

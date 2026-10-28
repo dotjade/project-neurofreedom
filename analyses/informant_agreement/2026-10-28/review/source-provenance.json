@@ -1,0 +1,45 @@
+{
+  "checkedAt": "2026-10-28T02:58:23.303395+00:00",
+  "review_type": "Independent AI-assisted primary-source and arithmetic review, not clinical peer review",
+  "sources": [
+    {
+      "url": "https://bmjopen.bmj.com/content/10/8/e034634",
+      "status": "Web reader HTTP 403, not established broken"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32819930/",
+      "status": "Web reader incomplete shell"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:32819930%20AND%20SRC:MED&format=xml",
+      "status": "HTTP 200 metadata verified PMID, PMCID, DOI and first publication 2020-08-20"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7440819/fullTextXML",
+      "status": "HTTP 200 transient source inspection; feedback subsection excluded",
+      "scope": "Methods, results, limitations, Table 1, figure metadata; no full text retained"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7440819/supplementaryFiles",
+      "status": "HTTP 200 ZIP 2856263 bytes; only figures 1 and 2 temporarily extracted and visually inspected",
+      "excluded": "Reviewer-comments and draft-revision PDFs not inspected"
+    }
+  ],
+  "figures": {
+    "bmjopen-2019-034634f01.jpg": {
+      "sha256": "5dd1f1dc4480a9335c789211cd831d76462a12c2c33b05a64cfe3dcb34cf1d14"
+    },
+    "bmjopen-2019-034634f02.jpg": {
+      "sha256": "a899f550d571184075c48e09cbd6b2f916f55cf7ab784bb4f2ba251a6be8cfd7"
+    }
+  },
+  "figure_original_summary": {
+    "figure1": "Partial motor checklist/number illustration only. Chinese and English displayed option counts differ. Does not establish full translation equivalence or specific YGTSS-R version.",
+    "figure2": "594 enrollees generated 3356 parent evaluations; 527 patients generated 1522 fellow evaluations; 1455 pairs analyzed. Unpaired evaluation counts are not unpaired patient identities."
+  },
+  "limitations": [
+    "No full translated form, individual scores, identities or feedback narratives inspected.",
+    "No numerical ICC found in inspected primary methods/results.",
+    "Threshold equality and score variant unspecified in inspected analysis text."
+  ]
+}

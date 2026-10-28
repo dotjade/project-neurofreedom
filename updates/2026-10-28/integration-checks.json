@@ -1,0 +1,26 @@
+{
+  "checkedAt": "2026-10-28T03:02:15.746683+00:00",
+  "passed": 18,
+  "checks": [
+    "schema preserved",
+    "six approved activities unchanged",
+    "feedback unchanged and off",
+    "new edition date",
+    "write timestamp not future",
+    "existing timeline preserved",
+    "timeline within renderer cap",
+    "new journal links actual report",
+    "no em dash in visible feed",
+    "approved activity selection",
+    "evidence unique id",
+    "evidence unique doi",
+    "evidence unique pmid",
+    "new JSON parses",
+    "finding checked today Isaacs and colleagues, 2024",
+    "finding checked today Pappert and colleagues, 2003",
+    "finding checked today Ivanova and colleagues, 2026",
+    "live collection config disabled"
+  ],
+  "feed_sha256": "9ad9dc3c87fd2512d0ff5a1ae30a405ae86857126e826688fccd952df7ee7594",
+  "scope": "Offline schema, safety, preservation and evidence identity checks; not clinical validation or production verification."
+}

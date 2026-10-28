@@ -1,6 +1,6 @@
 # Project NeuroFreedom status
 
-Updated 27 October 2026. Initial portfolio, nineteen completed daily updates and three completed weekly syntheses. Public evidence repository and journal launched 13 October.
+Updated 28 October 2026. Initial portfolio, twenty completed daily updates and three completed weekly syntheses. Public evidence repository and journal launched 13 October.
 
 ## Completed in this first pass
 
@@ -14,7 +14,7 @@ Updated 27 October 2026. Initial portfolio, nineteen completed daily updates and
 
 ## Enabled research schedules
 
-The user approved the following automatic public-science research and repository updates on 8 October 2026. Each schedule was created successfully and returned enabled status. Daily runs were completed on 9-27 October 2026; weekly syntheses were completed on 11, 18 and 25 October; first monthly and quarterly runs remain unverified.
+The user approved the following automatic public-science research and repository updates on 8 October 2026. Each schedule was created successfully and returned enabled status. Daily runs were completed on 9-28 October 2026; weekly syntheses were completed on 11, 18 and 25 October; first monthly and quarterly runs remain unverified.
 
 - Daily new-evidence checks: from 9 October 2026, approximately 08:00 India time.
 - Weekly synthesis: Sundays, from 11 October 2026, approximately 09:00 India time.
@@ -485,3 +485,20 @@ Research commit [935fd5ea07071f0f41dc60121e72df7fb26aca5a](https://github.com/do
 [Actions run 40443699740](https://github.com/dotjade/project-neurofreedom/actions/runs/40443699740) passed validation, build, deployment dry-run and production deployment. Deployment completed at 03:22:07 UTC. Anonymous raw GitHub at 03:21:56 and production /api/public-feed at 03:22:09 returned HTTP 200 with exact authored bytes; production returned X-Journal-Source repository. Verified updatedAt is 2026-10-27T03:20:03Z; research/activity dates are October 27, rest-or-leave is selected, six approved activities are unchanged and collection remains disabled.
 
 The new audit URL returned HTTP 200 with expected title at 03:22:14; live feedback-config.json remained disabled with null API origin at 03:22:16. No new rendered-page, mobile, zoom or narration test is claimed. Static source, deployment configuration and security settings were unchanged. [Verification receipt](updates/2026-10-27/publication-verification.json).
+
+
+## Completed daily research update - 28 October 2026
+
+The [dated scan](updates/2026-10-28/report.md) adds two older primary studies newly captured in indexing: qualitative care-access evidence and a rat/cell experiment. GP-TiCS first appeared in July and reached its version of record on October 27; date fields are not interchangeable. Twenty interviewees span four roles, not twenty patients or a prevalence sample. The preclinical experiment cannot establish human efficacy. A new parent-support registry has no results, and other metadata updates are not clinical findings. Previously deferred food-IgG evidence was not relabeled new or used to justify allergy diagnosis, dietary restriction or tic treatment.
+
+The [Ho informant audit](analyses/informant_agreement/2026-10-28/report.md) advances the latest question beyond collection. Its 1,455 paired assessments arise from 527 patients, not independent people. Published-aggregate reconstruction yields 196 discordant categories, or 13.47% of assessments, without a cluster-naive confidence interval. Reported discrimination, masking and GEE are preserved as strengths, but do not establish continuous-score interchangeability or causal improvement from practice. A conditional absolute-difference bound explains why non-additive reported differences are not automatically an error. Score identity, the boundary at 20 and repeated-measure agreement uncertainty remain unresolved. Pediatric proxy evidence does not validate adult or ASD/communication-group ratings.
+
+The [safety pass](updates/2026-10-28/safety/report.md) records an October 27 MHRA communication on venlafaxine/SNRI interference with ioflupane DAT imaging. Earlier FDA documentation shows this is a known diagnostic interaction, not a newly discovered tic-treatment risk. No medication change or individual action is proposed. Official allergy guidance is kept separate from the old IgG association paper.
+
+### Next bounded decision
+
+Close this fixed informant audit unless public documentation resolves its specific score/threshold/agreement gaps. Next inspect Wang et al. (PMID 42680906, DOI 10.1038/s41593-026-02419-5) using public aggregate tables: which of the 36 reported risk genes have chronic-tic-specific versus OCD or combined support, under which multiple-testing thresholds and replication evidence? Test whether a transdiagnostic union supports a Tourette-specific target claim, retaining negative disorder-specific results. No individual variants, pedigrees, patient predictions or treatment-target claims are authorized.
+
+### Public journal
+
+The feed distinguishes older primary evidence, registry metadata, a new communication about a known interaction and the historical methods audit from a new tic-treatment result. All six approved activities remain unchanged, with small-silly-mark selected; voting, comments and health-outcome collection are disabled. The [link pass](public/link-checks/2026-10-28.json) records actual dates and access limitations separately from broken targets. The October 27 live edition is a baseline only; publication verification follows exact source and production readback. Static source, deployment configuration and security settings are unchanged.

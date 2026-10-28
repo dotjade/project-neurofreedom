@@ -1,0 +1,18 @@
+{
+  "checkedAt": "2026-10-28T02:56:22Z",
+  "scope": "Independent primary publisher abstract/date and official regulator item check; not clinical peer review",
+  "gp_tics": {
+    "doi": "10.1186/s12875-026-03496-y",
+    "source": "https://link.springer.com/article/10.1186/s12875-026-03496-y",
+    "access": "Web reader, crawled last month, showing early accepted-research disclaimer",
+    "displayed_publication_date": "2026-07-30",
+    "interview_role_counts": {"adults_with_tics": 5, "parents": 5, "general_practitioners": 6, "secondary_professionals": 4},
+    "interpretation": "Twenty interviewees span four roles, not twenty patients or independent trials. Themes concern education, referrals and wider life impact. This qualitative study does not estimate prevalence or prove effectiveness of training. Current publisher version/indexing dates need separate verification; cached early-version date is preserved.",
+    "privacy": "Abstract and bibliographic header only; no interview quotes or individual/family narratives retained."
+  },
+  "mhra": {
+    "source": "https://www.gov.uk/drug-device-alerts/mhra-safety-roundup-october-2026",
+    "published_and_issued": "2026-10-27",
+    "interpretation": "Official roundup reports potential interference of venlafaxine with ioflupane DAT scan interpretation and false-positive diagnostic readings. Evidence for other SNRIs is more limited. This is diagnostic-interaction guidance, not a tic efficacy result. The underlying label revision date is not established by the roundup date. No medication changes recommended or performed."
+  }
+}
