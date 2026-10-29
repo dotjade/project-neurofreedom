@@ -1,0 +1,15 @@
+{
+  "checked_at": "2026-10-29T03:15:57.894830+00:00",
+  "main_url": "https://www.nature.com/articles/s41593-026-02419-5",
+  "source_data_fig2_url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41593-026-02419-5/MediaObjects/41593_2026_2419_MOESM6_ESM.xlsx",
+  "source_data_fig2_sha256": "265b43a939cdb3322e4282b23f788b7b17c1fc64e06593c58417cd585e956b63",
+  "source_data_fig2_bytes": 932505,
+  "source_scope": "Publisher labels standalone Fig2 statistical source data and gene sets. Read Fig2c and Fig2d only. Fig2c contains gene-level rows, q, counts, flags, chromosome; retained union36 and only relevant fields. No participant/variant IDs. Source workbook not copied into repository.",
+  "mixed_supplement_accessed": false,
+  "source_data_fig3": "Standalone Fig3 inspected headers/first gene aggregate rows only. Not used in computation because plot decomposition is not unrestricted inferential Bayes factors.",
+  "limits": [
+    "Separate disorder q values and trio-only q not available in these selected standalone sheets.",
+    "No individual variant, pedigree or participant supplement was requested.",
+    "No independent-replication reanalysis."
+  ]
+}

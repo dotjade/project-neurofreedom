@@ -1,10 +1,17 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-28T21:52:16Z",
-  "lastResearchDate": "2026-10-28",
+  "updatedAt": "2026-10-29T03:19:42Z",
+  "lastResearchDate": "2026-10-29",
   "cadence": "Daily scheduled review; publication follows verified work.",
-  "latestSummary": "A controllable point is not necessarily the original cause. A source-linked synthesis prioritizes testable timing and control hypotheses, retains negative evidence and makes no biological discovery claim.",
+  "latestSummary": "A newly retrieved adult study links sensory attenuation with current tic severity, not a proven cause. A separate gene audit distinguishes shared statistical support from disorder-specific biology.",
   "timeline": [
+    {
+      "date": "2026-10-29",
+      "title": "An association is a clue, not a cause.",
+      "type": "Adult behavioral evidence and aggregate genetic audit",
+      "summary": "An October 28 adult study reports altered sensory attenuation and a severity association, with a null comparison retained. A separate audit maps all 36 genes across analyses without treating them as proven treatment targets.",
+      "record": "https://github.com/dotjade/project-neurofreedom/blob/main/updates/2026-10-29/report.md"
+    },
     {
       "date": "2026-10-28",
       "title": "A control point is not always the original cause.",
@@ -167,7 +174,7 @@
       "type": "Primary qualitative study",
       "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10863457/",
       "label": "Isaacs and colleagues, 2024",
-      "checkedAt": "2026-10-28",
+      "checkedAt": "2026-10-29",
       "linkState": "Primary text readable via web reader; direct request access-limited"
     },
     {
@@ -176,7 +183,7 @@
       "type": "Primary longitudinal study",
       "url": "https://www.neurology.org/doi/10.1212/01.WNL.0000086370.10186.7C",
       "label": "Pappert and colleagues, 2003",
-      "checkedAt": "2026-10-28",
+      "checkedAt": "2026-10-29",
       "linkState": "Publisher HTTP 403 challenge; institutional primary PDF available"
     },
     {
@@ -185,7 +192,7 @@
       "type": "Primary adult cohort study",
       "url": "https://link.springer.com/content/pdf/10.1186/s44247-026-00284-7.pdf",
       "label": "Ivanova and colleagues, 2026",
-      "checkedAt": "2026-10-28",
+      "checkedAt": "2026-10-29",
       "linkState": "Primary PDF retrievable through this check"
     }
   ],
@@ -252,6 +259,6 @@
     "trend": [],
     "message": "No public ratings are collected yet. There are no votes or trends to show."
   },
-  "activityEditionDate": "2026-10-28",
-  "featuredActivityId": "small-silly-mark"
+  "activityEditionDate": "2026-10-29",
+  "featuredActivityId": "notice-one-thing"
 }

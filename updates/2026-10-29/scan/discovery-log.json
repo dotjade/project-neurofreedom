@@ -1,0 +1,22 @@
+{
+  "checked_date": "2026-10-29",
+  "queries": [
+    "Tourette research \"October 28\" \"2026\"",
+    "Tourette trial study \"October 29\" \"2026\"",
+    "site.aacap.org 2026 \"Ecopipam\" \"8 Weeks\"",
+    "site.jaacap.org 2026 \"Ecopipam\" \"POST-HOC\""
+  ],
+  "sources": [
+    {
+      "url": "https://news.vumc.org/2026/10/28/touch-sensitivity-in-chronic-tic-disorders-linked-to-early-brain-response/",
+      "type": "institutional publicity",
+      "decision": "October28 news about prior PMID42810670, not new primary study or numerical-table access."
+    },
+    {
+      "url": "https://www.mdsabstracts.org/abstract/safety-and-effect-of-ecopipam-during-the-first-8-weeks-of-treatment-for-tourette-syndrome-a-post-hoc-analysis/",
+      "type": "primary conference abstract, prior meeting",
+      "decision": "Post-hoc pooling of different treatment contexts;178/255 assessed at week8,292 treated. Not independent controlled replication or newly verified publication."
+    }
+  ],
+  "limitations": "AACAP secondary program listing not promoted to official new results; no community narratives, source bodies or contact details retained."
+}

@@ -1,0 +1,50 @@
+{
+  "checkedAt": "2026-10-29T03:14:13.518111+00:00",
+  "baselineCommit": "4dcd1aeaa9c31ec4912a1f19b6e6d51946a08951",
+  "requiredFiles": [
+    {
+      "path": "README.md",
+      "sha256": "6b1d997e495751f81c97048c86cd8864732cdd8313cc3d9363605bb4425721d2"
+    },
+    {
+      "path": "RESEARCH_PROTOCOL.md",
+      "sha256": "6f0025df7fd62fc2fe952cfbca96fca811ae76b917b7e7d4d45a501fe89e6859"
+    },
+    {
+      "path": "STATUS.md",
+      "sha256": "302b66180337b8463bd85c8c3712a116d71d91a319eb476e353f0dd7ed900980"
+    },
+    {
+      "path": "evidence.jsonl",
+      "sha256": "e5062f565ec97287f9ecf67e60c533dd96fad4fd2c3dc3e3792fe029bf03d0ec"
+    },
+    {
+      "path": "public/journal-source/README.md",
+      "sha256": "809173b6459331730d4fd9b0df135079b1e8dfdb030f4babbfc0055fcec1197e"
+    },
+    {
+      "path": "public/UPDATE_WORKFLOW.md",
+      "sha256": "f9d9a9b17bfbb06c8b075abad60495b9aeef58c96e768ea3d56a3d47c29a2d3f"
+    },
+    {
+      "path": "updates/2026-10-28/report.md",
+      "sha256": "cfb6c851ef6e5bf77dfdb889dba9154917ecfaae9e9c8d2618f54ce4d440afbe"
+    },
+    {
+      "path": "updates/2026-10-28/summary.json",
+      "sha256": "c49e50e71bbf7e631fa29bed1b8c8e325a55f32a4eb6bf8f9d9a5a359f0239a1"
+    },
+    {
+      "path": "analyses/causal_synthesis/2026-10-28/report.md",
+      "sha256": "98c5e5a88ec30fee6c5c3decf9907c69124eabcc9d70a02db3495bcfa603caba"
+    },
+    {
+      "path": "analyses/causal_synthesis/2026-10-28/genetics/report.md",
+      "sha256": "462e479040ef2afb4e6ae1d84ef692708ffd1283c8143508473649925ce4e6ba"
+    }
+  ],
+  "dailyScanBaseline": "2026-10-28T02:55:55.467615Z",
+  "laterSpecialSynthesis": "2026-10-28, not a replacement daily scan baseline",
+  "scope": "All ages and severities, including persistent severe adult symptoms, functional burden, co-occurrence, unmet needs and response. No remission assumption.",
+  "authorization": "Public original evidence summaries, permitted aggregate/synthetic analyses and feed updates; no participant data, contact, intervention or paid compute."
+}

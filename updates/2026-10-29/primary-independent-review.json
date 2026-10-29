@@ -1,0 +1,23 @@
+{
+  "checkedAt": "2026-10-29T03:15:58.938842+00:00",
+  "reviewer": "Independent integration review",
+  "pmid": "42947547",
+  "doi": "10.1002/mds.70590",
+  "source": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=42947547&retmode=xml",
+  "electronicPublicationDate": "2026-10-28",
+  "verified": [
+    "Thirty adults with TS and thirty controls",
+    "Direct force-reproduction attenuation reduced in TS",
+    "Indirect condition group comparison null",
+    "Association with YGTSS total tic score beyond medication load, obsessive-compulsive symptoms and urge severity",
+    "No linked CommentsCorrections notice in returned metadata"
+  ],
+  "limitations": [
+    "Abstract only; numerical magnitude, precision, formal interaction and complete confounder/model checks unavailable",
+    "Publication date-only and PubMed history timezone not verified",
+    "Difference between significant and nonsignificant conditions is not a formal group-by-condition interaction",
+    "Contemporaneous variance explained is not prospective prediction or causal mediation",
+    "Authors first-direct-behavioral-evidence claim not independently established by exhaustive novelty search"
+  ],
+  "access": "Web PubMed route inaccessible; official EFetch readable. No paper full text retained."
+}

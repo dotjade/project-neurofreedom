@@ -1,6 +1,6 @@
 # Project NeuroFreedom status
 
-Updated 28 October 2026. Initial portfolio, twenty completed daily updates and three completed weekly syntheses. Public evidence repository and journal launched 13 October.
+Updated 29 October 2026. Initial portfolio, twenty-one completed daily updates and three completed weekly syntheses. Public evidence repository and journal launched 13 October.
 
 ## Completed in this first pass
 
@@ -14,7 +14,7 @@ Updated 28 October 2026. Initial portfolio, twenty completed daily updates and t
 
 ## Enabled research schedules
 
-The user approved the following automatic public-science research and repository updates on 8 October 2026. Each schedule was created successfully and returned enabled status. Daily runs were completed on 9-28 October 2026; weekly syntheses were completed on 11, 18 and 25 October; first monthly and quarterly runs remain unverified.
+The user approved the following automatic public-science research and repository updates on 8 October 2026. Each schedule was created successfully and returned enabled status. Daily runs were completed on 9-29 October 2026; weekly syntheses were completed on 11, 18 and 25 October; first monthly and quarterly runs remain unverified.
 
 - Daily new-evidence checks: from 9 October 2026, approximately 08:00 India time.
 - Weekly synthesis: Sundays, from 11 October 2026, approximately 09:00 India time.
@@ -529,3 +529,18 @@ This is requested deeper synthesis after the completed daily scan, not another c
 Research commit [156aa011d63dd747da6600eeb5c6d2a8406ca907](https://github.com/dotjade/project-neurofreedom/commit/156aa011d63dd747da6600eeb5c6d2a8406ca907) was read back exactly for all 41 authored files, preserving 976 unrelated files. The GitHub connector separately verified the exact feed. [Actions run 40775666064](https://github.com/dotjade/project-neurofreedom/actions/runs/40775666064) passed validation, build, deployment dry-run and deployment, completed at 21:54:22 UTC.
 
 At 21:56:41 UTC, after the documented cache interval, production /api/public-feed returned HTTP 200, X-Journal-Source repository and exact authored bytes with updatedAt 2026-10-28T21:52:16Z. An earlier Python-client 403 was an access limitation: curl returned HTTP 200 with the prior verified cached edition before the final exact match. The new report URL returned HTTP 200 with its expected title; live feedback configuration remained disabled with null API origin. Six activities and the daily selection are unchanged. No new rendered/mobile test is claimed. [Verification receipt](analyses/causal_synthesis/2026-10-28/publication-verification.json).
+
+
+## Completed daily research update - 29 October 2026
+
+The [dated report](updates/2026-10-29/report.md) adds a newly retrieved adult force-matching study, PMID 42947547, DOI 10.1002/mds.70590, electronically dated October 28. Thirty adults with TS and 30 controls show reduced direct-condition sensory attenuation and a contemporaneous tic-severity association; the indirect-condition null is retained. Abstract-only precision, formal interaction and within-day publication-time limits prevent causal, prospective or exact post-cutoff claims. Expanded-access registry availability changed without an inferred reason or safety cause. No posted trial result or qualifying preprint was verified in the bounded scan.
+
+The [gene-specificity audit](analyses/gene_specificity/2026-10-29/report.md) advances the latest plan beyond yesterday's union arithmetic. Safely separated aggregate figure data resolve all 36 genes: 3 high confidence in both disorder analyses, 7 CTD-not-OCD, 9 OCD-not-CTD and 17 combined-only. CELSR3 and WWC1 meet combined probable rather than high-confidence rules. Six implementation tests and 50 independent source/input checks passed. These are threshold memberships, not biological exclusivity, effect heterogeneity, independent replication or therapeutic targets. No participant, variant or pedigree data were accessed.
+
+### Next bounded decision
+
+Close the fixed membership audit. Next inspect the new force-matching paper's lawful primary methods/results for formal group-by-condition contrast, precision, model specification and current severity versus future prediction. Compare construct definitions with older sensory-gating evidence, without pooling unlike endpoints. If full methods are inaccessible, record the exact prerequisite; no individual data request, contact, recruitment or intervention is authorized.
+
+### Public journal
+
+The feed distinguishes the adult association, registry metadata and historical aggregate analysis from a treatment discovery. All six activities remain unchanged, with notice-one-thing selected; voting, comments and health-outcome collection remain disabled. The [dated link pass](public/link-checks/2026-10-29.json) preserves bot/access limitations separately from broken links. The [safety pass](updates/2026-10-29/safety/report.md) verifies no qualifying new watched-treatment safety finding within its stated limits, including an EMA incomplete-search warning. Source and live-edition readback follow publication, not assumed from local tests.

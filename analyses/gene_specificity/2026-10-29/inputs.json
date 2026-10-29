@@ -1,0 +1,371 @@
+{
+  "source": "Wang2026 Source Data Fig.2",
+  "doi": "10.1038/s41593-026-02419-5",
+  "sheets": {
+    "memberships": "Fig2d",
+    "combined_q_and_counts": "Fig2c"
+  },
+  "unit": "gene, never person or variant",
+  "records": [
+    {
+      "gene": "ABCD2",
+      "hcOCD": false,
+      "hcCTD": false,
+      "hcOCDCTD": true,
+      "combined_q": "7.8348481861317307E-2",
+      "combined_dnDam_count": 2,
+      "published_combined_hc": 1,
+      "published_combined_probable": 0
+    },
+    {
+      "gene": "ACACB",
+      "hcOCD": true,
+      "hcCTD": false,
+      "hcOCDCTD": true,
+      "combined_q": "5.7389425190192397E-2",
+      "combined_dnDam_count": 1,
+      "published_combined_hc": 1,
+      "published_combined_probable": 0
+    },
+    {
+      "gene": "ADIPOR2",
+      "hcOCD": true,
+      "hcCTD": false,
+      "hcOCDCTD": true,
+      "combined_q": "5.37495644138586E-2",
+      "combined_dnDam_count": 2,
+      "published_combined_hc": 1,
+      "published_combined_probable": 0
+    },
+    {
+      "gene": "AKAP1",
+      "hcOCD": false,
+      "hcCTD": false,
+      "hcOCDCTD": true,
+      "combined_q": "7.5571996993434004E-2",
+      "combined_dnDam_count": 2,
+      "published_combined_hc": 1,
+      "published_combined_probable": 0
+    },
+    {
+      "gene": "ANK3",
+      "hcOCD": false,
+      "hcCTD": false,
+      "hcOCDCTD": true,
+      "combined_q": "9.6750067415351401E-2",
+      "combined_dnDam_count": 2,
+      "published_combined_hc": 1,
+      "published_combined_probable": 0
+    },
+    {
+      "gene": "AP1G1",
+      "hcOCD": false,
+      "hcCTD": false,
+      "hcOCDCTD": true,
+      "combined_q": "7.2701627647775699E-2",
+      "combined_dnDam_count": 2,
+      "published_combined_hc": 1,
+      "published_combined_probable": 0
+    },
+    {
+      "gene": "ARHGAP5",
+      "hcOCD": false,
+      "hcCTD": true,
+      "hcOCDCTD": true,
+      "combined_q": "1.11968247655515E-2",
+      "combined_dnDam_count": 2,
+      "published_combined_hc": 1,
+      "published_combined_probable": 0
+    },
+    {
+      "gene": "BCAN",
+      "hcOCD": false,
+      "hcCTD": false,
+      "hcOCDCTD": true,
+      "combined_q": "9.4263519541093799E-2",
+      "combined_dnDam_count": 2,
+      "published_combined_hc": 1,
+      "published_combined_probable": 0
+    },
+    {
+      "gene": "BRWD1",
+      "hcOCD": true,
+      "hcCTD": false,
+      "hcOCDCTD": true,
+      "combined_q": "1.6679238781217E-2",
+      "combined_dnDam_count": 2,
+      "published_combined_hc": 1,
+      "published_combined_probable": 0
+    },
+    {
+      "gene": "CACNA1A",
+      "hcOCD": false,
+      "hcCTD": false,
+      "hcOCDCTD": true,
+      "combined_q": "9.9389298186439004E-2",
+      "combined_dnDam_count": 2,
+      "published_combined_hc": 1,
+      "published_combined_probable": 0
+    },
+    {
+      "gene": "CARMIL2",
+      "hcOCD": false,
+      "hcCTD": false,
+      "hcOCDCTD": true,
+      "combined_q": "8.6549260978155101E-2",
+      "combined_dnDam_count": 2,
+      "published_combined_hc": 1,
+      "published_combined_probable": 0
+    },
+    {
+      "gene": "CCDC168",
+      "hcOCD": true,
+      "hcCTD": false,
+      "hcOCDCTD": true,
+      "combined_q": "2.7300673732677999E-2",
+      "combined_dnDam_count": 0,
+      "published_combined_hc": 1,
+      "published_combined_probable": 0
+    },
+    {
+      "gene": "CELSR3",
+      "hcOCD": false,
+      "hcCTD": true,
+      "hcOCDCTD": false,
+      "combined_q": "0.12751907856514899",
+      "combined_dnDam_count": 3,
+      "published_combined_hc": 0,
+      "published_combined_probable": 1
+    },
+    {
+      "gene": "CEP95",
+      "hcOCD": false,
+      "hcCTD": false,
+      "hcOCDCTD": true,
+      "combined_q": "6.4008688494266802E-2",
+      "combined_dnDam_count": 1,
+      "published_combined_hc": 1,
+      "published_combined_probable": 0
+    },
+    {
+      "gene": "CHD8",
+      "hcOCD": true,
+      "hcCTD": false,
+      "hcOCDCTD": true,
+      "combined_q": "3.7487960660551301E-3",
+      "combined_dnDam_count": 3,
+      "published_combined_hc": 1,
+      "published_combined_probable": 0
+    },
+    {
+      "gene": "COL13A1",
+      "hcOCD": false,
+      "hcCTD": false,
+      "hcOCDCTD": true,
+      "combined_q": "6.7057414294075704E-2",
+      "combined_dnDam_count": 2,
+      "published_combined_hc": 1,
+      "published_combined_probable": 0
+    },
+    {
+      "gene": "DNAH10",
+      "hcOCD": false,
+      "hcCTD": false,
+      "hcOCDCTD": true,
+      "combined_q": "8.1151405945737901E-2",
+      "combined_dnDam_count": 2,
+      "published_combined_hc": 1,
+      "published_combined_probable": 0
+    },
+    {
+      "gene": "DNAH9",
+      "hcOCD": true,
+      "hcCTD": true,
+      "hcOCDCTD": true,
+      "combined_q": "2.6117062618310101E-3",
+      "combined_dnDam_count": 3,
+      "published_combined_hc": 1,
+      "published_combined_probable": 0
+    },
+    {
+      "gene": "DST",
+      "hcOCD": false,
+      "hcCTD": true,
+      "hcOCDCTD": true,
+      "combined_q": "6.0442718325650797E-3",
+      "combined_dnDam_count": 3,
+      "published_combined_hc": 1,
+      "published_combined_probable": 0
+    },
+    {
+      "gene": "ELF1",
+      "hcOCD": false,
+      "hcCTD": false,
+      "hcOCDCTD": true,
+      "combined_q": "1.3968693417388401E-2",
+      "combined_dnDam_count": 2,
+      "published_combined_hc": 1,
+      "published_combined_probable": 0
+    },
+    {
+      "gene": "JAK2",
+      "hcOCD": true,
+      "hcCTD": false,
+      "hcOCDCTD": true,
+      "combined_q": "4.9926016126175601E-2",
+      "combined_dnDam_count": 2,
+      "published_combined_hc": 1,
+      "published_combined_probable": 0
+    },
+    {
+      "gene": "LPIN1",
+      "hcOCD": false,
+      "hcCTD": false,
+      "hcOCDCTD": true,
+      "combined_q": "6.9961037819531405E-2",
+      "combined_dnDam_count": 2,
+      "published_combined_hc": 1,
+      "published_combined_probable": 0
+    },
+    {
+      "gene": "MSANTD4",
+      "hcOCD": false,
+      "hcCTD": false,
+      "hcOCDCTD": true,
+      "combined_q": "9.1710795885614704E-2",
+      "combined_dnDam_count": 1,
+      "published_combined_hc": 1,
+      "published_combined_probable": 0
+    },
+    {
+      "gene": "NIPBL",
+      "hcOCD": false,
+      "hcCTD": true,
+      "hcOCDCTD": true,
+      "combined_q": "7.5856095358354404E-3",
+      "combined_dnDam_count": 3,
+      "published_combined_hc": 1,
+      "published_combined_probable": 0
+    },
+    {
+      "gene": "PKD1",
+      "hcOCD": false,
+      "hcCTD": true,
+      "hcOCDCTD": true,
+      "combined_q": "4.5770677854060297E-2",
+      "combined_dnDam_count": 3,
+      "published_combined_hc": 1,
+      "published_combined_probable": 0
+    },
+    {
+      "gene": "PRRC2A",
+      "hcOCD": false,
+      "hcCTD": false,
+      "hcOCDCTD": true,
+      "combined_q": "2.2254000826175901E-2",
+      "combined_dnDam_count": 2,
+      "published_combined_hc": 1,
+      "published_combined_probable": 0
+    },
+    {
+      "gene": "QRICH1",
+      "hcOCD": true,
+      "hcCTD": true,
+      "hcOCDCTD": true,
+      "combined_q": "3.4489122143033203E-4",
+      "combined_dnDam_count": 4,
+      "published_combined_hc": 1,
+      "published_combined_probable": 0
+    },
+    {
+      "gene": "RBSN",
+      "hcOCD": false,
+      "hcCTD": false,
+      "hcOCDCTD": true,
+      "combined_q": "6.0805011019520398E-2",
+      "combined_dnDam_count": 2,
+      "published_combined_hc": 1,
+      "published_combined_probable": 0
+    },
+    {
+      "gene": "SCUBE1",
+      "hcOCD": true,
+      "hcCTD": false,
+      "hcOCDCTD": true,
+      "combined_q": "4.16458514760875E-2",
+      "combined_dnDam_count": 2,
+      "published_combined_hc": 1,
+      "published_combined_probable": 0
+    },
+    {
+      "gene": "SETD1A",
+      "hcOCD": true,
+      "hcCTD": true,
+      "hcOCDCTD": true,
+      "combined_q": "1.9185269014272401E-2",
+      "combined_dnDam_count": 2,
+      "published_combined_hc": 1,
+      "published_combined_probable": 0
+    },
+    {
+      "gene": "SYNE1",
+      "hcOCD": false,
+      "hcCTD": false,
+      "hcOCDCTD": true,
+      "combined_q": "3.7147125836456102E-2",
+      "combined_dnDam_count": 1,
+      "published_combined_hc": 1,
+      "published_combined_probable": 0
+    },
+    {
+      "gene": "TEP1",
+      "hcOCD": true,
+      "hcCTD": false,
+      "hcOCDCTD": true,
+      "combined_q": "3.2481804683944897E-2",
+      "combined_dnDam_count": 2,
+      "published_combined_hc": 1,
+      "published_combined_probable": 0
+    },
+    {
+      "gene": "TTC21B",
+      "hcOCD": false,
+      "hcCTD": false,
+      "hcOCDCTD": true,
+      "combined_q": "8.9131786083306602E-2",
+      "combined_dnDam_count": 1,
+      "published_combined_hc": 1,
+      "published_combined_probable": 0
+    },
+    {
+      "gene": "ULK1",
+      "hcOCD": false,
+      "hcCTD": true,
+      "hcOCDCTD": true,
+      "combined_q": "8.3849382904457398E-2",
+      "combined_dnDam_count": 2,
+      "published_combined_hc": 1,
+      "published_combined_probable": 0
+    },
+    {
+      "gene": "WWC1",
+      "hcOCD": false,
+      "hcCTD": true,
+      "hcOCDCTD": false,
+      "combined_q": "0.116143064160853",
+      "combined_dnDam_count": 3,
+      "published_combined_hc": 0,
+      "published_combined_probable": 1
+    },
+    {
+      "gene": "ZMYM2",
+      "hcOCD": true,
+      "hcCTD": false,
+      "hcOCDCTD": true,
+      "combined_q": "5.5447836718625098E-4",
+      "combined_dnDam_count": 3,
+      "published_combined_hc": 1,
+      "published_combined_probable": 0
+    }
+  ]
+}

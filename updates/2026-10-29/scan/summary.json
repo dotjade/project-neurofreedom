@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-29",
+  "strict_prior_cutoff_utc": "2026-10-28T02:55:55.467615+00:00",
+  "core_started_utc": "2026-10-29T03:13:25.510089+00:00",
+  "core_completed_utc": "2026-10-29T03:16:14.716688+00:00",
+  "pubmed_unique_records": 22,
+  "pubmed_id_occurrences": 40,
+  "pubmed_previous_day_overlap": 15,
+  "new_to_previous_scan_records": 7,
+  "new_to_repository_primary_records": 1,
+  "verified_new_primary_publications_since_prior_cutoff": 0,
+  "verified_newly_entered_pubmed_since_prior_cutoff": 0,
+  "unknown_exact_publication_date_records": 0,
+  "preprint_doi_versions": 771,
+  "preprint_lexical_matches": 0,
+  "qualifying_preprints": 0,
+  "registry_update_window_unique_ids": [
+    "NCT07093541",
+    "NCT07137442",
+    "NCT07854665",
+    "NCT07898592"
+  ],
+  "new_posted_trial_results": 0,
+  "new_retractions": 0,
+  "api_request_errors": 1,
+  "decision": "Newly retrieved October 28 adult sensory-attenuation primary study, with within-day publication-time uncertainty. Expanded-access availability changed; no cause inferred. No new posted trial result or qualifying preprint verified; dynamic pagination and one recovered API failure retained."
+}

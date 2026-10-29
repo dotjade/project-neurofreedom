@@ -1,0 +1,33 @@
+{
+  "target_id": "wang2026_wes_ocd_ctd",
+  "preserve_original_extraction_date": "2026-10-27",
+  "amendment_date": "2026-10-29",
+  "amendment_not_new_publication": true,
+  "fields_to_merge": {
+    "last_verified_analysis_date": "2026-10-29",
+    "analysis_reports": [
+      "analyses/causal_synthesis/2026-10-28/genetics/report.md",
+      "analyses/gene_specificity/2026-10-29/report.md"
+    ],
+    "gene_specific_results": {
+      "both_separate_disorder_hc": [
+        "DNAH9",
+        "QRICH1",
+        "SETD1A"
+      ],
+      "CTD_hc_not_OCD_hc_count": 7,
+      "OCD_hc_not_CTD_hc_count": 9,
+      "neither_separate_disorder_hc_combined_hc_count": 17,
+      "combined_probable_not_hc": [
+        "CELSR3",
+        "WWC1"
+      ],
+      "classification_checks": "36 gene rows match published combined flags; six implementation tests and independent source review",
+      "probable_rule": "0.1 <= q < 0.3 and >= 2 aggregate de novo damaging events; high confidence q < 0.1 does not require this count"
+    },
+    "interpretation": "The complete published union maps to 3 genes high confidence in both separate disorder analyses, 7 CTD-not-OCD, 9 OCD-not-CTD and 17 combined-only. These are threshold memberships, not tests of phenotype-specific effects, biological exclusivity, individual risk or treatment targets. Cohort reuse prevents independent-replication claims.",
+    "access": "Main article and standalone publisher Source Data Fig.2 gene-only Fig2c/Fig2d inspected. Retained only 36 gene-level aggregate rows, source URL and hash. Mixed participant/variant/pedigree Supplementary Tables 1-36 not requested. Fig3 aggregate display values not used for inference. Separate-disorder and trio-only q values remain unavailable in selected standalone sheets.",
+    "precision": "Combined q values retained at source precision. Separate-disorder q, effect-size intervals and direct diagnostic heterogeneity tests not extracted or reconstructed.",
+    "next_verification_task": "Fixed membership audit closed. Extend only with safely separated public gene-only uncertainty/held-out replication evidence; no mixed participant supplement or patient prediction."
+  }
+}
