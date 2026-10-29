@@ -544,3 +544,12 @@ Close the fixed membership audit. Next inspect the new force-matching paper's la
 ### Public journal
 
 The feed distinguishes the adult association, registry metadata and historical aggregate analysis from a treatment discovery. All six activities remain unchanged, with notice-one-thing selected; voting, comments and health-outcome collection remain disabled. The [dated link pass](public/link-checks/2026-10-29.json) preserves bot/access limitations separately from broken links. The [safety pass](updates/2026-10-29/safety/report.md) verifies no qualifying new watched-treatment safety finding within its stated limits, including an EMA incomplete-search warning. Source and live-edition readback follow publication, not assumed from local tests.
+
+
+### Publication verification - 29 October 2026
+
+Research commit [fd87c35655711b14b8b7b53adffa1c3bb0fb8fbe](https://github.com/dotjade/project-neurofreedom/commit/fd87c35655711b14b8b7b53adffa1c3bb0fb8fbe), followed by [82b12486d39ffd9a1b584cb03b44e23e62292427](https://github.com/dotjade/project-neurofreedom/commit/82b12486d39ffd9a1b584cb03b44e23e62292427) restoring exact reviewed CSV line endings, contains all 62 authored files. Fresh Git readback verified exact bytes at 03:23:21 UTC, preserving 1,015 unrelated files with no unexpected paths. The CSV-only correction changed no deployed content or scientific result.
+
+[Actions run 40811715850](https://github.com/dotjade/project-neurofreedom/actions/runs/40811715850) passed validation, build, deployment dry-run and production deployment, completed at 03:22:41 UTC. The GitHub connector and anonymous raw source matched the authored feed. Production /api/public-feed matched before deployment and again afterward with HTTP 200 and X-Journal-Source repository; its updatedAt is 2026-10-29T03:19:42Z. Both new report links returned HTTP 200 with expected titles. Live feedback remains disabled with null API origin; six activities are unchanged, with notice-one-thing selected.
+
+Exact timestamps and checks are in the [verification receipt](updates/2026-10-29/publication-verification.json). No new rendered-page, mobile, zoom or narration test is claimed. The integration manifest covers the research snapshot before this receipt.
