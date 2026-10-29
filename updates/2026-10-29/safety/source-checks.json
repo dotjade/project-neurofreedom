@@ -1,0 +1,186 @@
+{
+  "previousCutoff": "2026-10-28T02:59:54Z",
+  "completedAt": "2026-10-29T03:15:45Z",
+  "sources": [
+    {
+      "label": "FDA drug communications",
+      "url": "https://www.fda.gov/drugs/drug-safety-and-availability/drug-safety-communications",
+      "checkedAt": "2026-10-29T03:13:33Z/2026-10-29T03:14:37Z",
+      "method": "Public web reader, selected index/metadata sections; no access bypass",
+      "status": "retrieved",
+      "result": "Latest drug communication remains September 15, 2026; no new-window heading.",
+      "limitations": "Bounded coverage; linked documents unreviewed unless separately listed; not exhaustive pharmacovigilance."
+    },
+    {
+      "label": "FDA device communications",
+      "url": "https://www.fda.gov/medical-devices/medical-device-safety/safety-communications",
+      "checkedAt": "2026-10-29T03:13:33Z/2026-10-29T03:14:37Z",
+      "method": "Public web reader, selected index/metadata sections; no access bypass",
+      "status": "retrieved",
+      "result": "Latest device communication remains June 3, 2026.",
+      "limitations": "Bounded coverage; linked documents unreviewed unless separately listed; not exhaustive pharmacovigilance."
+    },
+    {
+      "label": "FDA CDRH news",
+      "url": "https://www.fda.gov/medical-devices/medical-devices-news-and-events/cdrh-new-news-and-updates",
+      "checkedAt": "2026-10-29T03:13:33Z/2026-10-29T03:14:37Z",
+      "method": "Public web reader, selected index/metadata sections; no access bypass",
+      "status": "retrieved",
+      "result": "October 28 has two education/consumer-page updates; outside watched therapies. Prior October 27 device/draft guidance entries not new today.",
+      "limitations": "Bounded coverage; linked documents unreviewed unless separately listed; not exhaustive pharmacovigilance."
+    },
+    {
+      "label": "FDA alerts/statements",
+      "url": "https://www.fda.gov/drugs/drug-safety-and-availability/drug-alerts-and-statements",
+      "checkedAt": "2026-10-29T03:13:33Z/2026-10-29T03:14:37Z",
+      "method": "Public web reader, selected index/metadata sections; no access bypass",
+      "status": "retrieved",
+      "result": "Latest statement October 22 ARC annual report; outside current window.",
+      "limitations": "Bounded coverage; linked documents unreviewed unless separately listed; not exhaustive pharmacovigilance."
+    },
+    {
+      "label": "FDA labeling",
+      "url": "https://www.accessdata.fda.gov/scripts/cder/safetylabelingchanges/",
+      "checkedAt": "2026-10-29T03:13:33Z/2026-10-29T03:14:37Z",
+      "method": "Public web reader, selected index/metadata sections; no access bypass",
+      "status": "retrieved",
+      "result": "Retrieved form with To October 28, 2026, not an executed result set. Comprehensive labeling check unavailable.",
+      "limitations": "Bounded coverage; linked documents unreviewed unless separately listed; not exhaustive pharmacovigilance."
+    },
+    {
+      "label": "EMA new index",
+      "url": "https://www.ema.europa.eu/en/news-events/whats-new",
+      "checkedAt": "2026-10-29T03:13:33Z/2026-10-29T03:14:37Z",
+      "method": "Public web reader, selected index/metadata sections; no access bypass",
+      "status": "retrieved",
+      "result": "33 October 28 rows screened before October 27 rows. No core watched substance; memantine, levodopa/carbidopa and valproate are outside explicit watch. Valproate document reviewed separately. Incomplete-search warning visible today.",
+      "limitations": "Bounded coverage; linked documents unreviewed unless separately listed; not exhaustive pharmacovigilance."
+    },
+    {
+      "label": "EMA PRAC signals",
+      "url": "https://www.ema.europa.eu/en/human-regulatory-overview/post-authorisation/pharmacovigilance-post-authorisation/signal-management/prac-recommendations-safety-signals",
+      "checkedAt": "2026-10-29T03:13:33Z/2026-10-29T03:14:37Z",
+      "method": "Public web reader, selected index/metadata sections; no access bypass",
+      "status": "retrieved",
+      "result": "Latest recommendations remain October 26 releases, references 206892/2026 and 206903/2026. PDFs and agenda not reread today; no final October meeting conclusion inferred.",
+      "limitations": "Bounded coverage; linked documents unreviewed unless separately listed; not exhaustive pharmacovigilance."
+    },
+    {
+      "label": "MHRA Drug Safety Update",
+      "url": "https://www.gov.uk/drug-safety-update",
+      "checkedAt": "2026-10-29T03:13:33Z/2026-10-29T03:14:37Z",
+      "method": "Public web reader, selected index/metadata sections; no access bypass",
+      "status": "retrieved",
+      "result": "Latest October 26 MedSafetyWeek, October 20 vaccine and October 15 antidepressant entries; no new-window heading.",
+      "limitations": "Bounded coverage; linked documents unreviewed unless separately listed; not exhaustive pharmacovigilance."
+    },
+    {
+      "label": "MHRA alerts",
+      "url": "https://www.gov.uk/drug-device-alerts",
+      "checkedAt": "2026-10-29T03:13:33Z/2026-10-29T03:14:37Z",
+      "method": "Public web reader, selected index/metadata sections; no access bypass",
+      "status": "retrieved",
+      "result": "Three latest headings screened: field notices and monthly roundup issued October 27, clopidogrel October 26. Field notice publication is October 28, checked separately. Prior monthly roundup not relabeled new.",
+      "limitations": "Bounded coverage; linked documents unreviewed unless separately listed; not exhaustive pharmacovigilance."
+    },
+    {
+      "label": "TGA safety updates",
+      "url": "https://www.tga.gov.au/news/safety-updates",
+      "checkedAt": "2026-10-29T03:13:33Z/2026-10-29T03:14:37Z",
+      "method": "Public web reader, selected index/metadata sections; no access bypass",
+      "status": "retrieved",
+      "result": "Latest update remains October 14 vaccine reconstitution.",
+      "limitations": "Bounded coverage; linked documents unreviewed unless separately listed; not exhaustive pharmacovigilance."
+    },
+    {
+      "label": "TGA safety alerts",
+      "url": "https://www.tga.gov.au/safety/safety-monitoring-and-information/safety-alerts",
+      "checkedAt": "2026-10-29T03:13:33Z/2026-10-29T03:14:37Z",
+      "method": "Public web reader, selected index/metadata sections; no access bypass",
+      "status": "retrieved",
+      "result": "Latest alert September 14; outside window.",
+      "limitations": "Bounded coverage; linked documents unreviewed unless separately listed; not exhaustive pharmacovigilance."
+    },
+    {
+      "label": "TGA PI table",
+      "url": "https://www.tga.gov.au/product-information-safety-updates-year-table",
+      "checkedAt": "2026-10-29T03:13:33Z/2026-10-29T03:14:37Z",
+      "method": "Public web reader, selected index/metadata sections; no access bypass",
+      "status": "retrieved",
+      "result": "PI table last updated September 29; current label coverage incomplete.",
+      "limitations": "Bounded coverage; linked documents unreviewed unless separately listed; not exhaustive pharmacovigilance."
+    },
+    {
+      "label": "Health Canada recall index",
+      "url": "https://recalls-rappels.canada.ca/en",
+      "checkedAt": "2026-10-29T03:13:33Z/2026-10-29T03:14:37Z",
+      "method": "Public web reader, selected index/metadata sections; no access bypass",
+      "status": "retrieved",
+      "result": "Ten displayed entries screened, latest four October 28: blood-culture test, imaging systems/scanner and diagnostic assay. No watched therapy identified from headings; attachments not reviewed.",
+      "limitations": "Bounded coverage; linked documents unreviewed unless separately listed; not exhaustive pharmacovigilance."
+    },
+    {
+      "label": "ESSTS",
+      "url": "https://www.essts.org/partners",
+      "checkedAt": "2026-10-29T03:13:33Z/2026-10-29T03:14:37Z",
+      "method": "Public web reader, selected index/metadata sections; no access bypass",
+      "status": "retrieved",
+      "result": "2022 version 2.0 guidelines remain current on page, further update under consideration; not newly issued.",
+      "limitations": "Bounded coverage; linked documents unreviewed unless separately listed; not exhaustive pharmacovigilance."
+    },
+    {
+      "label": "AAN",
+      "url": "https://www.aan.com/PressRoom/Home/PressRelease/2721",
+      "checkedAt": "2026-10-29T03:13:33Z/2026-10-29T03:14:37Z",
+      "method": "Public web reader, selected index/metadata sections; no access bypass",
+      "status": "retrieved",
+      "result": "May 6, 2019 release for May 7 guideline; historical, not newly issued.",
+      "limitations": "Bounded coverage; linked documents unreviewed unless separately listed; not exhaustive pharmacovigilance."
+    },
+    {
+      "label": "NICE NG127",
+      "url": "https://www.nice.org.uk/guidance/ng127",
+      "checkedAt": "2026-10-29T03:13:33Z/2026-10-29T03:14:37Z",
+      "method": "Public web reader, selected index/metadata sections; no access bypass",
+      "status": "access_limited",
+      "result": "HTTP 403. No substantive guideline verification today.",
+      "limitations": "Bounded coverage; linked documents unreviewed unless separately listed; not exhaustive pharmacovigilance."
+    },
+    {
+      "label": "AWMF TicCare",
+      "url": "https://www.awmf.org/aktuelles/awmf-aktuell/diagnostik-und-behandlung-primaerer-tic-stoerungen-ticcare",
+      "checkedAt": "2026-10-29T03:13:33Z/2026-10-29T03:14:37Z",
+      "method": "Public web reader, selected index/metadata sections; no access bypass",
+      "status": "retrieved",
+      "result": "October 1, 2026 registration announcement, registry 030-012, version 6.0; planned S3 development, not issued guideline. Date and announcement type verified directly today.",
+      "limitations": "Bounded coverage; linked documents unreviewed unless separately listed; not exhaustive pharmacovigilance."
+    },
+    {
+      "label": "MHRA weekly field notices",
+      "url": "https://www.gov.uk/drug-device-alerts/field-safety-notices-19-to-23-october-2026",
+      "checkedAt": "2026-10-29T03:14:27Z/2026-10-29T03:14:45Z",
+      "method": "Public web reader; original summary only",
+      "status": "retrieved",
+      "result": "Published October 28, issued October 27, period October 19-23. All 13 listed device families screened; no MNS, rTMS or DBS watch match. Not a new tic safety finding.",
+      "limitations": "Individual manufacturer attachments not opened; general devices may be used in care but are outside explicit therapeutic watch."
+    },
+    {
+      "label": "Valproate CMDh conclusions",
+      "url": "https://www.ema.europa.eu/en/documents/psusa/valproate-cmdh-scientific-conclusions-grounds-variation-amendments-product-information-timetable-implementation-ema-pass-0000287665_en.pdf",
+      "checkedAt": "2026-10-29T03:14:27Z/2026-10-29T03:14:45Z",
+      "method": "Public web reader; original summary only",
+      "status": "retrieved",
+      "result": "October 28 index update, but Annex III dates adoption to July 2026 CMDh meeting. Benefit-risk remains unchanged subject to variation. Document requests further pregnancy-prevention/utilization monitoring; no update of additional risk-minimization strategy justified at that point. Not a new tic result or evidence prior risks disappeared.",
+      "limitations": "Outside core watch, selected as adjacent co-occurring-condition context. Index update not equated with first publication or new risk; earlier document version not compared. No medication advice or risk rate inferred."
+    },
+    {
+      "label": "DailyMed topiramate date check",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a01b2631-263f-4b28-9820-9a5bed2f8d5c",
+      "checkedAt": "2026-10-29T03:14:27Z/2026-10-29T03:14:45Z",
+      "method": "Public web reader; original summary only",
+      "status": "retrieved",
+      "result": "Search suggested recent PDF publication. Canonical label says updated July 30, 2026, revised April 2026, recent major changes March 2026. Outside window; not a newly discovered October safety change.",
+      "limitations": "PDF web route cache miss; canonical HTML retrieved. Date/identity check only, not a complete label diff or safety summary."
+    }
+  ]
+}

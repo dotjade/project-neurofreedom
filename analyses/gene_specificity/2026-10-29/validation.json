@@ -1,0 +1,8 @@
+{
+  "implementation_unit_tests": 6,
+  "implementation_status": "pass",
+  "per_gene_combined_classification_crosschecks": 36,
+  "independent_review": "review/",
+  "scope": "deterministic published-aggregate audit; no inference or patient reconstruction",
+  "unknown_workbook_guard_test": "pass; rejected before ZIP/XML parsing"
+}

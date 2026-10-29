@@ -1,0 +1,263 @@
+{
+  "createdAt": "2026-10-29T03:21:13.702879+00:00",
+  "baseCommit": "4dcd1aeaa9c31ec4912a1f19b6e6d51946a08951",
+  "files": [
+    {
+      "path": "STATUS.md",
+      "sha256": "ab3a601993159845abb1cf0aa5cd995f8e9e349d9946da3485d282317404ea6e"
+    },
+    {
+      "path": "evidence.jsonl",
+      "sha256": "7e0cbee171dc35c9d268c8a97e4cc57317267935f93c1b2288975e485214a8de"
+    },
+    {
+      "path": "public/research-feed.json",
+      "sha256": "0ab82a00f103a96c71db84cfd86c9393701c95b4628ffea100d45a683771d28b"
+    },
+    {
+      "path": "public/link-checks/2026-10-29.json",
+      "sha256": "c71ae7a4799d59a268071e7f2d238259c457a24cc6022a562feddab675163e91"
+    },
+    {
+      "path": "analyses/gene_specificity/2026-10-29/analyze.py",
+      "sha256": "a33c0c1c6b620d613db7bbe5f41b55ee04e90852e8576ef56100694cd40332ca"
+    },
+    {
+      "path": "analyses/gene_specificity/2026-10-29/evidence-amendment.json",
+      "sha256": "a832f41276ebe2ebaa60fec6e98a1a87babda3b6c8f1623faa579a0cb53dc9e0"
+    },
+    {
+      "path": "analyses/gene_specificity/2026-10-29/extract_inputs.py",
+      "sha256": "976785f2d6cca08f8ca94441f61fad5bed72e0a447103b5e4759db9fe87376ff"
+    },
+    {
+      "path": "analyses/gene_specificity/2026-10-29/gene-map.csv",
+      "sha256": "0281bb47f956125c377af5303bf45a12d5488c04ddcd86218c48efee27600361"
+    },
+    {
+      "path": "analyses/gene_specificity/2026-10-29/inputs.json",
+      "sha256": "c5671832edcadc22a47dab322690b56906a13d2e865d9e47ad88bb02e3e7d37d"
+    },
+    {
+      "path": "analyses/gene_specificity/2026-10-29/report.md",
+      "sha256": "982977822fa03a83c9a7b5be932759253641e35cbaf496d1b9e1b9d3081c663d"
+    },
+    {
+      "path": "analyses/gene_specificity/2026-10-29/results.json",
+      "sha256": "6acaeaf2d835a898361f59760f592c15438a7da4d81658bd78640e9c8c1c44c1"
+    },
+    {
+      "path": "analyses/gene_specificity/2026-10-29/review/independent_source_checks.py",
+      "sha256": "5469e3bd6f92eb4251f117fc4bdfd6759d7f4c9f1d7d093eda9fb380458223ce"
+    },
+    {
+      "path": "analyses/gene_specificity/2026-10-29/review/review.md",
+      "sha256": "efe1a1344f529c8d04509020833f7d30c5c965a6bdc3e9b62df0b3e8c31f3f3d"
+    },
+    {
+      "path": "analyses/gene_specificity/2026-10-29/review/reviewed-file-hashes.json",
+      "sha256": "41ccae082a055e3fe7ab61ae0c30b63857ebe2014754efd1727bd26453385a5f"
+    },
+    {
+      "path": "analyses/gene_specificity/2026-10-29/review/source-checks.json",
+      "sha256": "b5300b0ea1219504bb6b1d1dfc600dc9e78f56c775016ece7d8de8471d4b5d2a"
+    },
+    {
+      "path": "analyses/gene_specificity/2026-10-29/source-checks.json",
+      "sha256": "c49504aa2c321eb0dd1dcf6e06e8fd18a179ca5baec9ab9f93be4825fbc7d3df"
+    },
+    {
+      "path": "analyses/gene_specificity/2026-10-29/test_analysis.py",
+      "sha256": "0e4e4fccf19f6ab068c0a0b1dcd58c87a4f4919982d1bd90a7a042150b1f6222"
+    },
+    {
+      "path": "analyses/gene_specificity/2026-10-29/validation.json",
+      "sha256": "3fa57c26d7f2d932132d9ab0c31d6fcf6527b839ff8ef5ae4b677a835c0ff1a7"
+    },
+    {
+      "path": "updates/2026-10-29/primary-independent-review.json",
+      "sha256": "986402b9710a4c3fb1cfa5ec3916d442df746694592201c6291946de06c1e19f"
+    },
+    {
+      "path": "updates/2026-10-29/provenance.json",
+      "sha256": "36a504b9e407cf93954cdc0c1b3330d959a40f5a3d817a8d7bd34fb0b74c09ae"
+    },
+    {
+      "path": "updates/2026-10-29/report.md",
+      "sha256": "0808d1affc40f5fa9890a387d48d5b2a85f1fe72591d75a40409f08dbec2785d"
+    },
+    {
+      "path": "updates/2026-10-29/safety/catalog-safety-check.json",
+      "sha256": "9c8e5a06642268ec84b72b0c3b8a8df0ec5ce15e411438ca4619c66664b47d5f"
+    },
+    {
+      "path": "updates/2026-10-29/safety/check_homepage_links.py",
+      "sha256": "7826effd736d17744694015d0197dc82b6dc2cad001292bd5a4b5a262c5da3d7"
+    },
+    {
+      "path": "updates/2026-10-29/safety/check_links.py",
+      "sha256": "a87279e8b8a55cca3b07f3d7074271296e2ec61637d6bff2b24ae6b4638e3cc7"
+    },
+    {
+      "path": "updates/2026-10-29/safety/check_supplement.py",
+      "sha256": "95229723c3a06461f3767e213f82225ad5f18b3ec596bbd1c872c2277f3ade9a"
+    },
+    {
+      "path": "updates/2026-10-29/safety/homepage-link-check.json",
+      "sha256": "f588e526e05d7fb8fbd7ab272bd965328fe2578f288bb2fdb6bca88ee4855ab2"
+    },
+    {
+      "path": "updates/2026-10-29/safety/link-check-rerun.json",
+      "sha256": "570af76bb30edc5ea7af704cc19b52599793390f7c7faa3be27e08c911461419"
+    },
+    {
+      "path": "updates/2026-10-29/safety/query-ledger.json",
+      "sha256": "fb90c43f3460630feaf703dbadb45256def083d9a8ebcb7ed1f9528cfbb3be5b"
+    },
+    {
+      "path": "updates/2026-10-29/safety/report.md",
+      "sha256": "b4062fa2779139036c60ee25f79caeef66a7dc36109ff8d6bfaf2a7541658edd"
+    },
+    {
+      "path": "updates/2026-10-29/safety/repository-provenance.json",
+      "sha256": "e0af2aa9ced854fdc404cf5f40eef7e006f91715249eef2875a265deea505bbb"
+    },
+    {
+      "path": "updates/2026-10-29/safety/source-checks.json",
+      "sha256": "a417eea6dc92fc003de42499880451ecf24e144eed28543c5f5932ec9e5ca20a"
+    },
+    {
+      "path": "updates/2026-10-29/safety/supplementary-checks.json",
+      "sha256": "4abe4264a1f12c8c7a08441a22edd2aa1284477d3f23924616034c8acb7a99e5"
+    },
+    {
+      "path": "updates/2026-10-29/safety/validate.py",
+      "sha256": "2c82339cdd029d4e718c04c13d986a78fede3dd50276e9949ad665cdebc7ee4a"
+    },
+    {
+      "path": "updates/2026-10-29/safety/validation.json",
+      "sha256": "347e93e6b0473dd73e8263d11c5fec26afbccc4899fd346952e1cc783fd48ab7"
+    },
+    {
+      "path": "updates/2026-10-29/scan/biorxiv-preprint-index.tsv",
+      "sha256": "6f99d68f91fa8847564453c5c785bd3a68d85e6ab7326f8410795eab80f52781"
+    },
+    {
+      "path": "updates/2026-10-29/scan/build_results.py",
+      "sha256": "2b22335071a3daf57cdcf12c72ee55ae1be40608b48ec27cde769f69fb3d1bd6"
+    },
+    {
+      "path": "updates/2026-10-29/scan/check_integrity_controls.py",
+      "sha256": "f9a01cc7a47b548f65e53c3a076df8a7a7f36972bebe64985f8c6569eedbefd7"
+    },
+    {
+      "path": "updates/2026-10-29/scan/discovery-log.json",
+      "sha256": "94a7d6dab8b1704585d88287bba4bb6d9006c06f3145be3df0bb71b88d61a8cc"
+    },
+    {
+      "path": "updates/2026-10-29/scan/integrity-control-source.json",
+      "sha256": "df62fae062f2866e207ddb325b8a57afaf59d2ba726935b26bcdb8b1db4ee753"
+    },
+    {
+      "path": "updates/2026-10-29/scan/integrity-recheck.json",
+      "sha256": "fbd496b05e8f48ff3f31185ae879132c0e4f4a5970bbb8866721090daf2b374b"
+    },
+    {
+      "path": "updates/2026-10-29/scan/medrxiv-preprint-index.tsv",
+      "sha256": "34c7a00ce73b0049a9ae734f5490863979881c6ef7b0d6f91ab850dc4e91c3f2"
+    },
+    {
+      "path": "updates/2026-10-29/scan/medrxiv-recovery.json",
+      "sha256": "6429babc798d981ae6c2d5c6e111e674581dac395e6a043f4b1d7cca90666b77"
+    },
+    {
+      "path": "updates/2026-10-29/scan/merge_recovery.py",
+      "sha256": "8dae70ededb391ddebaea39328fa6477776fc91c98827dae3b43c6d67a506bb5"
+    },
+    {
+      "path": "updates/2026-10-29/scan/prepare_baseline.py",
+      "sha256": "37b61d478a8167a793b73a40de01ca0204736c18118769d970387f6d034de3ab"
+    },
+    {
+      "path": "updates/2026-10-29/scan/primary-evidence.jsonl",
+      "sha256": "cdb2f2c74b3d6e99ba8bd298ced83583e7644cba3efb3b5e1d36786df138f1f5"
+    },
+    {
+      "path": "updates/2026-10-29/scan/provenance.json",
+      "sha256": "bb301aa791eed9e6db7eab3b7f19c42d392ab02e367519dd3f19de522613c1a7"
+    },
+    {
+      "path": "updates/2026-10-29/scan/pubmed-screening.jsonl",
+      "sha256": "1591e5c9fcc25610fdce97725db40b9e15496738766a85ff5ca4f20c8fea6a1b"
+    },
+    {
+      "path": "updates/2026-10-29/scan/registry-evidence.jsonl",
+      "sha256": "df751f786cb7d0ead444201a065a77cc2d139566809fb5983237294b5c5f3e4d"
+    },
+    {
+      "path": "updates/2026-10-29/scan/report.md",
+      "sha256": "3d63e87c71aa6b68e0f22be17fe9ff652b05d057b469b8c262f0d4e5e4a9b271"
+    },
+    {
+      "path": "updates/2026-10-29/scan/reproduction-check.json",
+      "sha256": "e6288a603467fb19b3a42bd129c705c0597a6713aa8b983373aaaf4fae5fe33f"
+    },
+    {
+      "path": "updates/2026-10-29/scan/request-log.json",
+      "sha256": "ad2fecc5cb7266dd998b5f6258fed62275560e24f4aa65511a083257610ba8f9"
+    },
+    {
+      "path": "updates/2026-10-29/scan/retry_medrxiv.py",
+      "sha256": "12b8ac081a4a1f50e1034586b0f1512566b61502233cb605b6832721d0d60dea"
+    },
+    {
+      "path": "updates/2026-10-29/scan/scan_sources.py",
+      "sha256": "78198b61b36168325071ad6cb5ab611b75dd3e64734bce1c397cfce113581bd1"
+    },
+    {
+      "path": "updates/2026-10-29/scan/scan_supplement.py",
+      "sha256": "425ee7698041d6bc739647410ba9f4b34060a5d68b37b3559807909992a5d2de"
+    },
+    {
+      "path": "updates/2026-10-29/scan/search-log.json",
+      "sha256": "d14c44292207492f751420b27b631bac77bc5e8447204b4afbe7eaf1c9b2d001"
+    },
+    {
+      "path": "updates/2026-10-29/scan/summary.json",
+      "sha256": "d0d0768e17a38ba27e01e8e1febfa49580d257af7b69739cf1f2cb70b0877c1d"
+    },
+    {
+      "path": "updates/2026-10-29/scan/supplement-selected-metadata.json",
+      "sha256": "1528b1c496c562f7adfc655dc6482eba2a8bb3a7bc7e1c94e971ad5692d06689"
+    },
+    {
+      "path": "updates/2026-10-29/scan/validate_artifacts.py",
+      "sha256": "01b053fbaebe253089d219183af1dcb5f603a17702e97d763c9c7afab88db8a8"
+    },
+    {
+      "path": "updates/2026-10-29/scan/validation.json",
+      "sha256": "8f2d87e7d3c3d429913234b087b7d5c487cac204d3e3d7de3d782eec12947c97"
+    },
+    {
+      "path": "updates/2026-10-29/scan/verify_reproduction.py",
+      "sha256": "32d69f4711582abba387347368a522b7ec09444499a3ce93a3b6a38dea8f00cb"
+    },
+    {
+      "path": "updates/2026-10-29/validate_integration.py",
+      "sha256": "76a532d414aac9c3034ce9830e99e6292c451ed87234c0a3c07f8398986c355e"
+    }
+  ],
+  "validation": {
+    "geneUnitTests": 6,
+    "geneSourceChecks": 50,
+    "geneRowClassificationChecks": 36,
+    "scanChecks": 35,
+    "normalizedOutputsExact": 7,
+    "safetyChecks": 22,
+    "integration": "passed",
+    "feedSchema": "passed",
+    "journalBuild": "passed",
+    "reviewedArtifactHashes": 11
+  },
+  "scope": "Research snapshot before manifest and publication receipt; no biological validation implied."
+}

@@ -1,0 +1,72 @@
+{
+  "method": "Published-membership partition and Decimal threshold verification. Not re-estimated FDR or diagnostic specificity.",
+  "groups": {
+    "both_disorder_hc": [
+      "DNAH9",
+      "QRICH1",
+      "SETD1A"
+    ],
+    "CTD_hc_not_OCD_hc": [
+      "ARHGAP5",
+      "CELSR3",
+      "DST",
+      "NIPBL",
+      "PKD1",
+      "ULK1",
+      "WWC1"
+    ],
+    "OCD_hc_not_CTD_hc": [
+      "ACACB",
+      "ADIPOR2",
+      "BRWD1",
+      "CCDC168",
+      "CHD8",
+      "JAK2",
+      "SCUBE1",
+      "TEP1",
+      "ZMYM2"
+    ],
+    "neither_disorder_hc_combined_hc": [
+      "ABCD2",
+      "AKAP1",
+      "ANK3",
+      "AP1G1",
+      "BCAN",
+      "CACNA1A",
+      "CARMIL2",
+      "CEP95",
+      "COL13A1",
+      "DNAH10",
+      "ELF1",
+      "LPIN1",
+      "MSANTD4",
+      "PRRC2A",
+      "RBSN",
+      "SYNE1",
+      "TTC21B"
+    ]
+  },
+  "group_counts": {
+    "both_disorder_hc": 3,
+    "CTD_hc_not_OCD_hc": 7,
+    "OCD_hc_not_CTD_hc": 9,
+    "neither_disorder_hc_combined_hc": 17
+  },
+  "combined_not_hc": [
+    {
+      "gene": "CELSR3",
+      "combined_q": "0.12751907856514899",
+      "combined_dnDam_count": 3,
+      "combined_classification": "probable"
+    },
+    {
+      "gene": "WWC1",
+      "combined_q": "0.116143064160853",
+      "combined_dnDam_count": 3,
+      "combined_classification": "probable"
+    }
+  ],
+  "separate_disorder_q_available": false,
+  "independent_replication_tested": false,
+  "seed": null
+}

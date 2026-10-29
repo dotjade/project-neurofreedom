@@ -1,0 +1,24 @@
+{
+  "checkedAt": "2026-10-29T03:14:35.682750+00:00",
+  "baseCommit": "4dcd1aeaa9c31ec4912a1f19b6e6d51946a08951",
+  "gitStatus": "?? updates/2026-10-29/\n",
+  "readFiles": {
+    "README.md": "6b1d997e495751f81c97048c86cd8864732cdd8313cc3d9363605bb4425721d2",
+    "RESEARCH_PROTOCOL.md": "6f0025df7fd62fc2fe952cfbca96fca811ae76b917b7e7d4d45a501fe89e6859",
+    "STATUS.md": "302b66180337b8463bd85c8c3712a116d71d91a319eb476e353f0dd7ed900980",
+    "EXERCISE_EVIDENCE.md": "7dbcda72443794650a4803d3b5126009d050fb41d82f83f7d439f9e969eae3d8",
+    "GAMING_EVIDENCE.md": "683f4cb631ca3407d6ed11a0bbc3a17b344f166d342d023f0a75fc3ad867e0fd",
+    "COMMUNITY_EVIDENCE.md": "8ee9925c5f07486d5cd8cc92c34c80c4d7724a960703cbfd6a07bb1b6ae08300",
+    "evidence.jsonl": "e5062f565ec97287f9ecf67e60c533dd96fad4fd2c3dc3e3792fe029bf03d0ec",
+    "public/journal-source/README.md": "809173b6459331730d4fd9b0df135079b1e8dfdb030f4babbfc0055fcec1197e",
+    "updates/2026-10-28/safety/report.md": "4713d86c7871d8af96404ed16f0b138d9b22d7db1e6d88031d0010bcc8a614ce",
+    "public/link-checks/2026-10-28.json": "7aa1195f38a26214e507536bb7da54336a7c199cced8c5a2b13cb04f4395b9b8",
+    "public/research-feed.json": "ac01c9ed1f323b6651f9fbec5e0df3d37a8177b4addeb792720c7310366a34eb",
+    "public/journal-source/index.html": "f6a6cc9ac0415db5f7bbbc0b8afd89ed63f68c11135f06958ff2e73ed5e7e15f",
+    "public/journal-source/journal.js": "c5c9b7fd6acb92d1adbd33ef78aeda13792ea9523ecd0c873fc228c61fb5e850",
+    "public/journal-source/feedback-config.json": "921c0e74bdcdb85c79c11bd2e7d9fa3b8fdfcb12fd74114c3a51a659f3cde133"
+  },
+  "readScopeNote": "STATUS instructions/current state and recent dated updates; evidence.jsonl targeted keyword scan for finding-source provenance, with current finding details in the feed and community note. Earlier historical sections not exhaustively re-reviewed.",
+  "repositoryModifiedByThisCheck": false,
+  "publishedByThisCheck": false
+}
