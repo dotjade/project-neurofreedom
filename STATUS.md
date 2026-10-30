@@ -570,3 +570,12 @@ Close the fixed access/contrast exercise and reopen the adult numerical audit on
 ### Public journal
 
 The dated feed distinguishes older evidence and the synthetic methods result from a new clinical discovery. Six safe activities remain unchanged; music-or-silence is selected. Voting, comments and health-outcome collection remain disabled. The [link ledger](public/link-checks/2026-10-30.json) records readable, bot-blocked and access-limited routes rather than labeling blocked sources broken. Publication checks follow the actual commit.
+
+
+### Publication verification - 30 October 2026
+
+Research commit [32bccba004b82d9c18741d2984219bfca3870fe4](https://github.com/dotjade/project-neurofreedom/commit/32bccba004b82d9c18741d2984219bfca3870fe4) contains all 60 authored files. Fresh Git readback verified exact bytes at 02:57:30 UTC, preserving 1,075 unrelated files with no unexpected paths. The GitHub connector independently verified the exact feed.
+
+[Actions run 40994608100](https://github.com/dotjade/project-neurofreedom/actions/runs/40994608100) passed validation, build, deployment dry-run and production deployment, completed at 02:57:48 UTC. Anonymous raw and production feed checks returned exact authored bytes; a fresh post-deployment check again matched with HTTP 200 and X-Journal-Source repository. Verified updatedAt is 2026-10-30T02:56:07Z. Both new report URLs returned HTTP 200 with expected titles. Feedback remains disabled with null API origin; six activities are unchanged and music-or-silence is selected.
+
+The [verification receipt](updates/2026-10-30/publication-verification.json) preserves exact timestamps. No new rendered-page, mobile, zoom or narration test is claimed. The integration manifest covers the research snapshot before this receipt.

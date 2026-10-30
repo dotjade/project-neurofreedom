@@ -1,0 +1,78 @@
+{
+  "researchCommit": "32bccba004b82d9c18741d2984219bfca3870fe4",
+  "sourceReadback": {
+    "verifiedAt": "2026-10-30T02:57:30.265801+00:00",
+    "exactFiles": 60,
+    "preservedUnrelatedFiles": 1075,
+    "unexpectedPaths": []
+  },
+  "httpChecks": [
+    {
+      "name": "raw",
+      "url": "https://raw.githubusercontent.com/dotjade/project-neurofreedom/main/public/research-feed.json",
+      "checkedAt": "2026-10-30T02:57:39.510495+00:00",
+      "httpStatus": 200,
+      "source": null,
+      "exactAuthoredBytes": true,
+      "updatedAt": "2026-10-30T02:56:07Z",
+      "sha256": "d7855a9cfb2810014ac2313526c092f7b7504e6262cca6f904f2cb23fa466b96"
+    },
+    {
+      "name": "production",
+      "url": "https://tourette.fyi/api/public-feed",
+      "checkedAt": "2026-10-30T02:57:42.861241+00:00",
+      "httpStatus": 200,
+      "source": "repository",
+      "exactAuthoredBytes": true,
+      "updatedAt": "2026-10-30T02:56:07Z",
+      "sha256": "d7855a9cfb2810014ac2313526c092f7b7504e6262cca6f904f2cb23fa466b96"
+    },
+    {
+      "name": "report",
+      "url": "https://github.com/dotjade/project-neurofreedom/blob/main/updates/2026-10-30/report.md",
+      "checkedAt": "2026-10-30T02:57:47.949262+00:00",
+      "httpStatus": 200,
+      "source": null,
+      "expectedTitle": true
+    },
+    {
+      "name": "audit",
+      "url": "https://github.com/dotjade/project-neurofreedom/blob/main/analyses/sensory_contrast/2026-10-30/report.md",
+      "checkedAt": "2026-10-30T02:57:52.556393+00:00",
+      "httpStatus": 200,
+      "source": null,
+      "expectedTitle": true
+    },
+    {
+      "name": "feedback",
+      "url": "https://tourette.fyi/feedback-config.json",
+      "checkedAt": "2026-10-30T02:57:55.325547+00:00",
+      "httpStatus": 200,
+      "source": null,
+      "settings": {
+        "enabled": false,
+        "apiOrigin": null,
+        "verifiedAt": null
+      }
+    }
+  ],
+  "postDeploymentProduction": {
+    "checkedAt": "2026-10-30T02:58:15.989810+00:00",
+    "httpStatus": 200,
+    "source": "repository",
+    "exactAuthoredBytes": true,
+    "updatedAt": "2026-10-30T02:56:07Z",
+    "sha256": "d7855a9cfb2810014ac2313526c092f7b7504e6262cca6f904f2cb23fa466b96"
+  },
+  "workflow": {
+    "url": "https://github.com/dotjade/project-neurofreedom/actions/runs/40994608100",
+    "conclusion": "success",
+    "deployCompletedAt": "2026-10-30T02:57:48Z",
+    "testedCommit": "32bccba004b82d9c18741d2984219bfca3870fe4"
+  },
+  "githubConnectorFeedExact": true,
+  "limitations": [
+    "No new rendered/mobile/zoom/narration test claimed.",
+    "Exact feed already matched; no stale-cache waiting was needed. Documented maximum cache remains 120 seconds."
+  ]
+}
