@@ -1,0 +1,130 @@
+{
+  "scope": "Bounded methods/aggregate access and construct comparison, not exhaustive search or numerical clinical reanalysis",
+  "verified_metadata": [
+    {
+      "pmid": "42947547",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=42947547&retmode=xml",
+      "checked_at": "2026-10-30T02:53:48.320495+00:00",
+      "response_sha256": "f5a23a7c589c386419d937ca8cdab30bb8ba46916391b103fb1c6698ff71365a",
+      "title": "Reduced Sensory Attenuation Scales with Tic Severity in Tourette Syndrome.",
+      "identifiers": {
+        "pubmed": "42947547",
+        "doi": "10.1002/mds.70590"
+      },
+      "electronic_date": "2026-10-28",
+      "linked_comments_corrections": 0,
+      "retention": "identity and hash only; source XML not stored"
+    },
+    {
+      "pmid": "42810670",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=42810670&retmode=xml",
+      "checked_at": "2026-10-30T02:53:52.620052+00:00",
+      "response_sha256": "6b2803792b0f85c2f3e194e553380da6a5b224427f4ac4dd04508915b25538cd",
+      "title": "Somatosensory gating of pneumatic stimuli in adults with chronic tic disorder.",
+      "identifiers": {
+        "pubmed": "42810670",
+        "doi": "10.1016/j.biopsycho.2026.109408",
+        "pii": "S0301-0511(26)00221-8"
+      },
+      "electronic_date": "2026-09-29",
+      "linked_comments_corrections": 0,
+      "retention": "identity and hash only; source XML not stored"
+    }
+  ],
+  "searches": [
+    {
+      "engine": "web",
+      "query": "\"10.1002/mds.70590\"",
+      "result": "No accessible final manuscript established; related institutional/conference title and publisher listing found"
+    },
+    {
+      "engine": "web",
+      "query": "\"Reduced Sensory Attenuation Scales\"",
+      "result": "No accessible final manuscript established; related institutional/conference title and publisher listing found"
+    },
+    {
+      "engine": "web",
+      "query": "\"Reduced Sensory Attenuation\" Stanco repository",
+      "result": "No accessible final manuscript established; related institutional/conference title and publisher listing found"
+    },
+    {
+      "engine": "web",
+      "query": "\"mds.70590\" site:unimib.it",
+      "result": "No accessible final manuscript established; related institutional/conference title and publisher listing found"
+    },
+    {
+      "engine": "web",
+      "query": "\"mds.70590\" site:univr.it",
+      "result": "No accessible final manuscript established; related institutional/conference title and publisher listing found"
+    }
+  ],
+  "routes": [
+    {
+      "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/mds.70590",
+      "result": "HTTP403"
+    },
+    {
+      "url": "https://movementdisorders.onlinelibrary.wiley.com/doi/full-xml/10.1002/mds.70590",
+      "result": "HTTP403"
+    },
+    {
+      "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/mds.70590",
+      "result": "HTTP403"
+    },
+    {
+      "url": "https://api.crossref.org/works/10.1002/mds.70590",
+      "result": "HTTP200; WileyPDF/XML links and publisher terms licenses, no fulltext read"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:42947547&format=json",
+      "result": "HTTP200; inPMC=N,inEPMC=N,hasPDF=N"
+    },
+    {
+      "url": "https://api.openalex.org/works/https://doi.org/10.1002/mds.70590",
+      "result": "HTTP200; bronze publisher location plus OSF project, no repositoryfulltext flag"
+    },
+    {
+      "url": "https://api.osf.io/v2/nodes/cvsrz/",
+      "result": "HTTP200; matched title, public project, registrationfalse,preprintfalse,emptydescription; created2026-05-14 modified2026-07-23"
+    },
+    {
+      "url": "https://api.osf.io/v2/nodes/cvsrz/children/",
+      "result": "HTTP200 empty"
+    },
+    {
+      "url": "https://api.osf.io/v2/nodes/cvsrz/wikis/",
+      "result": "HTTP200 empty"
+    },
+    {
+      "url": "https://api.osf.io/v2/nodes/cvsrz/files/osfstorage/",
+      "result": "HTTP200 metadata-only top-level list of2 .omv files named Dataset; no file content read"
+    },
+    {
+      "url": "https://boa.unimib.it/handle/10281/617602",
+      "result": "HTTP403; related conference record title located via index, not final methods"
+    },
+    {
+      "url": "https://www.essts.org/download-area",
+      "result": "Web reader explicit member-restricted notice; no linked files fetched"
+    },
+    {
+      "url": "https://www.sciencedirect.com/science/article/pii/S0301051126002218",
+      "result": "HTTP200 195-byte SiteUnavailable page, not fulltext"
+    }
+  ],
+  "participant_files_accessed": false,
+  "fulltext_saved": false,
+  "contacts_or_access_requests": false,
+  "interpretation": "Public dataset availability does not override no-participant-data scope. HTTP403 and errorpage not broken-link proof.",
+  "next_question_source": {
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7617943/fullTextXML",
+    "status": "HTTP200 150128 bytes; transient XML read, not retained",
+    "checked_at": "2026-10-30T02:54:17Z",
+    "pmid": "40531356",
+    "pmcid": "PMC7617943",
+    "doi": "10.1152/jn.00055.2025",
+    "inspected": "title, identifiers, abstract, section headings only; no dataset accessed",
+    "baseline_duplicate_search": "git grep DOI, PMCID and title fragment returned no match"
+  },
+  "initial_route_pass_utc": "2026-10-30T02:49:20Z to 2026-10-30T02:51:18Z"
+}

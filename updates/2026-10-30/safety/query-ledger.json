@@ -1,0 +1,20 @@
+{
+  "previousCutoff": "2026-10-29T03:15:45Z",
+  "searchIntervalUTC": "2026-10-30T02:49:21Z/2026-10-30T02:49:29Z",
+  "queries": [
+    "site:fda.gov (aripiprazole OR risperidone OR guanfacine OR NeuroStar OR ecopipam) after:2026-10-28 before:2026-10-31",
+    "site:ema.europa.eu (aripiprazole OR risperidone OR pimozide OR haloperidol OR deutetrabenazine) after:2026-10-28 before:2026-10-31",
+    "site:gov.uk (Tourette OR guanfacine OR aripiprazole OR botulinum OR antidepressants) after:2026-10-28 before:2026-10-31",
+    "site:tga.gov.au (Tourette OR methylphenidate OR clonidine OR botulinum OR atomoxetine) after:2026-10-28 before:2026-10-31",
+    "(Tourette OR \"tic disorder\") (guideline OR safety OR warning OR recall) after:2026-10-28 before:2026-10-31",
+    "(ecopipam OR Neupulse OR valbenazine OR tetrabenazine OR topiramate OR tiapride) (safety OR recall OR warning) after:2026-10-28 before:2026-10-31"
+  ],
+  "displayedResultCards": 24,
+  "uniqueEventsNotClaimed": true,
+  "screening": "Six overlapping queries returned 24 displayed cards, not unique events. Old labels/guidance, unrelated material, sponsor announcements and secondary sources excluded from new material safety findings. Individual adverse-event cards excluded without retaining narratives. NPRA updated title resolved to 2023, not current-window evidence. Source dates control eligibility.",
+  "qualifyingNewMaterialSafetyFindings": 0,
+  "newIssuedTicGuidelinesVerified": 0,
+  "watch": "Core: ecopipam; aripiprazole, risperidone, pimozide, haloperidol; clonidine, guanfacine; valbenazine, deutetrabenazine, tetrabenazine; Neupulse/median-nerve stimulation, rTMS/NeuroStar, DBS. Supplementary: topiramate, botulinum toxin, tiapride; methylphenidate, atomoxetine, lisdexamfetamine, fluvoxamine, sertraline, antidepressants. Not exhaustive.",
+  "newWindowCommunicationsOfPreviouslyKnownRisks": 0,
+  "supplementaryQueries": []
+}

@@ -1,0 +1,10 @@
+{
+  "checkedAt": "2026-10-30T02:52:06Z",
+  "pmid": "42952789",
+  "doi": "10.3389/fpsyt.2026.1903047",
+  "source": "https://www.frontiersin.org/journals/psychiatry/articles/10.3389/fpsyt.2026.1903047/full",
+  "evidenceType": "Peer-reviewed cross-sectional pediatric association, not intervention",
+  "verified": ["October 14 publication, not a new-window first publication", "41 treatment-naive children younger than 14", "Median reported duration one month", "YGTSS global severity is total tic plus impairment, range 0 to 100", "Fifteen primary Spearman correlations used BH correction", "CD4 absolute count association retained adjusted P .026", "Vitamin D and D3 correlations did not survive primary correction", "Separate secondary regressions were nominal exploratory analyses"],
+  "limits": ["No causal, supplementation or immune-treatment inference", "No persistent-severe-adult validation", "Covariate adjustment does not remove all confounding", "No participant data, supplementary datasets or individual scatterplot points retrieved"],
+  "reviewer": "Independent integration source check, not clinical peer review"
+}

@@ -1,0 +1,177 @@
+{
+  "previousCutoff": "2026-10-29T03:15:45Z",
+  "completedAt": "2026-10-30T02:51:09Z",
+  "sources": [
+    {
+      "label": "FDA drug communications",
+      "url": "https://www.fda.gov/drugs/drug-safety-and-availability/drug-safety-communications",
+      "checkedAt": "2026-10-30T02:49:29Z/2026-10-30T02:50:23Z",
+      "method": "Public web reader, selected index/metadata sections; no access bypass",
+      "status": "retrieved",
+      "result": "Latest drug communication September 15, 2026; no new-window heading.",
+      "limitations": "Bounded index/metadata coverage; attachments unreviewed unless separately listed; not exhaustive pharmacovigilance."
+    },
+    {
+      "label": "FDA device communications",
+      "url": "https://www.fda.gov/medical-devices/medical-device-safety/safety-communications",
+      "checkedAt": "2026-10-30T02:49:29Z/2026-10-30T02:50:23Z",
+      "method": "Public web reader, selected index/metadata sections; no access bypass",
+      "status": "retrieved",
+      "result": "Latest device communication June 3, 2026.",
+      "limitations": "Bounded index/metadata coverage; attachments unreviewed unless separately listed; not exhaustive pharmacovigilance."
+    },
+    {
+      "label": "FDA CDRH news",
+      "url": "https://www.fda.gov/medical-devices/medical-devices-news-and-events/cdrh-new-news-and-updates",
+      "checkedAt": "2026-10-30T02:49:29Z/2026-10-30T02:50:23Z",
+      "method": "Public web reader, selected index/metadata sections; no access bypass",
+      "status": "retrieved",
+      "result": "Five October 29 headings: Medline beds/accessories alert and four device-classification notices; outside explicit therapeutic watch.",
+      "limitations": "Bounded index/metadata coverage; attachments unreviewed unless separately listed; not exhaustive pharmacovigilance."
+    },
+    {
+      "label": "FDA alerts/statements",
+      "url": "https://www.fda.gov/drugs/drug-safety-and-availability/drug-alerts-and-statements",
+      "checkedAt": "2026-10-30T02:49:29Z/2026-10-30T02:50:23Z",
+      "method": "Public web reader, selected index/metadata sections; no access bypass",
+      "status": "retrieved",
+      "result": "Latest statement October 22 ARC annual report; outside window.",
+      "limitations": "Bounded index/metadata coverage; attachments unreviewed unless separately listed; not exhaustive pharmacovigilance."
+    },
+    {
+      "label": "FDA labeling",
+      "url": "https://www.accessdata.fda.gov/scripts/cder/safetylabelingchanges/",
+      "checkedAt": "2026-10-30T02:49:29Z/2026-10-30T02:50:23Z",
+      "method": "Public web reader, selected index/metadata sections; no access bypass",
+      "status": "retrieved",
+      "result": "Form with To October 29 retrieved, not an executed results set. Labeling coverage incomplete.",
+      "limitations": "Bounded index/metadata coverage; attachments unreviewed unless separately listed; not exhaustive pharmacovigilance."
+    },
+    {
+      "label": "EMA new index",
+      "url": "https://www.ema.europa.eu/en/news-events/whats-new",
+      "checkedAt": "2026-10-30T02:49:29Z/2026-10-30T02:50:23Z",
+      "method": "Public web reader, selected index/metadata sections; no access bypass",
+      "status": "retrieved",
+      "result": "17 October 29 rows screened before October 28 entries; no core watched therapy. Prior incomplete-search warning not visible in current parsed text; absence does not certify completeness.",
+      "limitations": "Bounded index/metadata coverage; attachments unreviewed unless separately listed; not exhaustive pharmacovigilance."
+    },
+    {
+      "label": "EMA PRAC signals",
+      "url": "https://www.ema.europa.eu/en/human-regulatory-overview/post-authorisation/pharmacovigilance-post-authorisation/signal-management/prac-recommendations-safety-signals",
+      "checkedAt": "2026-10-30T02:49:29Z/2026-10-30T02:50:23Z",
+      "method": "Public web reader, selected index/metadata sections; no access bypass",
+      "status": "retrieved",
+      "result": "Latest recommendations remain October 26 releases, references 206892/2026 and 206903/2026. No newer recommendation verified; PDFs/agenda not reread.",
+      "limitations": "Bounded index/metadata coverage; attachments unreviewed unless separately listed; not exhaustive pharmacovigilance."
+    },
+    {
+      "label": "MHRA Drug Safety Update",
+      "url": "https://www.gov.uk/drug-safety-update",
+      "checkedAt": "2026-10-30T02:49:29Z/2026-10-30T02:50:23Z",
+      "method": "Public web reader, selected index/metadata sections; no access bypass",
+      "status": "retrieved",
+      "result": "Latest entry remains October 26 MedSafetyWeek; no new-window heading.",
+      "limitations": "Bounded index/metadata coverage; attachments unreviewed unless separately listed; not exhaustive pharmacovigilance."
+    },
+    {
+      "label": "MHRA alerts",
+      "url": "https://www.gov.uk/drug-device-alerts",
+      "checkedAt": "2026-10-30T02:49:29Z/2026-10-30T02:50:23Z",
+      "method": "Public web reader timeout twice; ordinary anonymous urllib GET HTTP 200, selected headings parsed in memory, no body retained.",
+      "status": "retrieved",
+      "result": "Two October 29 recall headings: lercanidipine and Mynzepli, outside explicit watch; following entries are October 27 field notice/roundup. Web reader timed out twice; ordinary anonymous HTTP succeeded. Linked notices not opened.",
+      "limitations": "Bounded index/metadata coverage; attachments unreviewed unless separately listed; not exhaustive pharmacovigilance."
+    },
+    {
+      "label": "TGA safety updates",
+      "url": "https://www.tga.gov.au/news/safety-updates",
+      "checkedAt": "2026-10-30T02:49:29Z/2026-10-30T02:50:23Z",
+      "method": "Public web reader, selected index/metadata sections; no access bypass",
+      "status": "retrieved",
+      "result": "Latest update October 14 vaccine reconstitution.",
+      "limitations": "Bounded index/metadata coverage; attachments unreviewed unless separately listed; not exhaustive pharmacovigilance."
+    },
+    {
+      "label": "TGA safety alerts",
+      "url": "https://www.tga.gov.au/safety/safety-monitoring-and-information/safety-alerts",
+      "checkedAt": "2026-10-30T02:49:29Z/2026-10-30T02:50:23Z",
+      "method": "Public web reader, selected index/metadata sections; no access bypass",
+      "status": "retrieved",
+      "result": "Latest alert September 14; outside window.",
+      "limitations": "Bounded index/metadata coverage; attachments unreviewed unless separately listed; not exhaustive pharmacovigilance."
+    },
+    {
+      "label": "TGA PI table",
+      "url": "https://www.tga.gov.au/product-information-safety-updates-year-table",
+      "checkedAt": "2026-10-30T02:49:29Z/2026-10-30T02:50:23Z",
+      "method": "Public web reader, selected index/metadata sections; no access bypass",
+      "status": "retrieved",
+      "result": "PI table last updated September 29; current label coverage incomplete.",
+      "limitations": "Bounded index/metadata coverage; attachments unreviewed unless separately listed; not exhaustive pharmacovigilance."
+    },
+    {
+      "label": "Health Canada recall index",
+      "url": "https://recalls-rappels.canada.ca/en",
+      "checkedAt": "2026-10-30T02:49:29Z/2026-10-30T02:50:23Z",
+      "method": "Public web reader, selected index/metadata sections; no access bypass",
+      "status": "retrieved",
+      "result": "Ten displayed October 29 headings screened: food/consumer and non-watch device recalls. Includes sensory swing consumer recall, outside approved catalog and therapeutic watch; no activity change proposed. Attachments not reviewed.",
+      "limitations": "Bounded index/metadata coverage; attachments unreviewed unless separately listed; not exhaustive pharmacovigilance."
+    },
+    {
+      "label": "ESSTS",
+      "url": "https://www.essts.org/partners",
+      "checkedAt": "2026-10-30T02:49:29Z/2026-10-30T02:50:23Z",
+      "method": "Public web reader, selected index/metadata sections; no access bypass",
+      "status": "retrieved",
+      "result": "2022 version 2.0 guidelines remain on page; update under consideration, not newly issued.",
+      "limitations": "Bounded index/metadata coverage; attachments unreviewed unless separately listed; not exhaustive pharmacovigilance."
+    },
+    {
+      "label": "AAN",
+      "url": "https://www.aan.com/PressRoom/Home/PressRelease/2721",
+      "checkedAt": "2026-10-30T02:49:29Z/2026-10-30T02:50:23Z",
+      "method": "Public web reader, selected index/metadata sections; no access bypass",
+      "status": "retrieved",
+      "result": "May 2019 guideline release, not newly issued.",
+      "limitations": "Bounded index/metadata coverage; attachments unreviewed unless separately listed; not exhaustive pharmacovigilance."
+    },
+    {
+      "label": "NICE NG127",
+      "url": "https://www.nice.org.uk/guidance/ng127",
+      "checkedAt": "2026-10-30T02:49:29Z/2026-10-30T02:50:23Z",
+      "method": "Public web reader, selected index/metadata sections; no access bypass",
+      "status": "access_limited",
+      "result": "HTTP 403; no substantive verification today.",
+      "limitations": "Bounded index/metadata coverage; attachments unreviewed unless separately listed; not exhaustive pharmacovigilance."
+    },
+    {
+      "label": "AWMF TicCare",
+      "url": "https://www.awmf.org/aktuelles/awmf-aktuell/diagnostik-und-behandlung-primaerer-tic-stoerungen-ticcare",
+      "checkedAt": "2026-10-30T02:49:29Z/2026-10-30T02:50:23Z",
+      "method": "Public web reader, selected index/metadata sections; no access bypass",
+      "status": "retrieved",
+      "result": "TicCare development registration announcement, version 6.0; not an issued guideline.",
+      "limitations": "Bounded index/metadata coverage; attachments unreviewed unless separately listed; not exhaustive pharmacovigilance."
+    },
+    {
+      "label": "NPRA safety index",
+      "url": "https://npra.gov.my/index.php/en/health-professionals/safety-alertsen.html",
+      "checkedAt": "2026-10-30T02:49:48Z/2026-10-30T02:49:57Z",
+      "method": "Public web reader",
+      "status": "retrieved",
+      "result": "Search-surfaced updated topiramate title checked for date; month/day listing alone insufficient to assign year.",
+      "limitations": "Targeted date follow-up only, not complete national surveillance."
+    },
+    {
+      "label": "NPRA topiramate date verification",
+      "url": "https://npra.gov.my/index.php/en/component/content/article/449-english/safety-alerts-main/safety-alerts-2023/1527474-topiramate-neurodevelopmental-disorders-in-children-exposed-to-topiramate-during-pregnancy.html?Itemid=1391",
+      "checkedAt": "2026-10-30T02:50:13Z",
+      "method": "Public web reader",
+      "status": "retrieved",
+      "result": "Page shows November 29, 2023; says originally March 17, 2023 and regulatory action October 12, 2023. Historical warning, not a new October 2026 finding.",
+      "limitations": "Date/identity check, not a current complete risk review. No individual reports or medication advice retained."
+    }
+  ]
+}

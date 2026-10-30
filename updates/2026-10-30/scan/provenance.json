@@ -1,0 +1,65 @@
+{
+  "baseline_commit": "e324b6d369652b9a280faf8b318d9321fd2d4dcb",
+  "sources": [
+    {
+      "path": "README.md",
+      "sha256": "6b1d997e495751f81c97048c86cd8864732cdd8313cc3d9363605bb4425721d2",
+      "baseline_input": false
+    },
+    {
+      "path": "RESEARCH_PROTOCOL.md",
+      "sha256": "6f0025df7fd62fc2fe952cfbca96fca811ae76b917b7e7d4d45a501fe89e6859",
+      "baseline_input": false
+    },
+    {
+      "path": "STATUS.md",
+      "sha256": "2b932a78fdddb73e05e607935c3034ffb4ed067ce335199e5b15a8c8dceb3154",
+      "baseline_input": false
+    },
+    {
+      "path": "evidence.jsonl",
+      "sha256": "7e0cbee171dc35c9d268c8a97e4cc57317267935f93c1b2288975e485214a8de",
+      "baseline_input": false
+    },
+    {
+      "path": "public/journal-source/README.md",
+      "sha256": "809173b6459331730d4fd9b0df135079b1e8dfdb030f4babbfc0055fcec1197e",
+      "baseline_input": false
+    },
+    {
+      "path": "updates/2026-10-29/scan/summary.json",
+      "sha256": "d0d0768e17a38ba27e01e8e1febfa49580d257af7b69739cf1f2cb70b0877c1d",
+      "baseline_input": true
+    },
+    {
+      "path": "updates/2026-10-29/scan/pubmed-screening.jsonl",
+      "sha256": "1591e5c9fcc25610fdce97725db40b9e15496738766a85ff5ca4f20c8fea6a1b",
+      "baseline_input": true
+    },
+    {
+      "path": "updates/2026-10-29/scan/registry-evidence.jsonl",
+      "sha256": "df751f786cb7d0ead444201a065a77cc2d139566809fb5983237294b5c5f3e4d",
+      "baseline_input": true
+    },
+    {
+      "path": "updates/2026-10-29/scan/biorxiv-preprint-index.tsv",
+      "sha256": "6f99d68f91fa8847564453c5c785bd3a68d85e6ab7326f8410795eab80f52781",
+      "baseline_input": true
+    },
+    {
+      "path": "updates/2026-10-29/scan/medrxiv-preprint-index.tsv",
+      "sha256": "34c7a00ce73b0049a9ae734f5490863979881c6ef7b0d6f91ab850dc4e91c3f2",
+      "baseline_input": true
+    },
+    {
+      "path": "updates/2026-10-29/scan/integrity-recheck.json",
+      "sha256": "fbd496b05e8f48ff3f31185ae879132c0e4f4a5970bbb8866721090daf2b374b",
+      "baseline_input": true
+    },
+    {
+      "path": "updates/2026-10-29/scan/integrity-control-source.json",
+      "sha256": "df62fae062f2866e207ddb325b8a57afaf59d2ba726935b26bcdb8b1db4ee753",
+      "baseline_input": true
+    }
+  ]
+}
