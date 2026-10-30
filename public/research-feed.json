@@ -1,10 +1,17 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-29T03:19:42Z",
-  "lastResearchDate": "2026-10-29",
+  "updatedAt": "2026-10-30T02:56:07Z",
+  "lastResearchDate": "2026-10-30",
   "cadence": "Daily scheduled review; publication follows verified work.",
-  "latestSummary": "A newly retrieved adult study links sensory attenuation with current tic severity, not a proven cause. A separate gene audit distinguishes shared statistical support from disorder-specific biology.",
+  "latestSummary": "No new-window study result was verified; an older pediatric paper was added. A separate synthetic test shows why different significance labels cannot establish a difference between conditions.",
   "timeline": [
+    {
+      "date": "2026-10-30",
+      "title": "Test the difference, not two labels.",
+      "type": "Evidence scan and synthetic contrast audit",
+      "summary": "An older pediatric association is not treatment proof. Adult sensory methods remain access-limited; a clearly synthetic calculation shows why separate condition tests cannot supply the missing contrast.",
+      "record": "https://github.com/dotjade/project-neurofreedom/blob/main/updates/2026-10-30/report.md"
+    },
     {
       "date": "2026-10-29",
       "title": "An association is a clue, not a cause.",
@@ -174,8 +181,8 @@
       "type": "Primary qualitative study",
       "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10863457/",
       "label": "Isaacs and colleagues, 2024",
-      "checkedAt": "2026-10-29",
-      "linkState": "Primary text readable via web reader; direct request access-limited"
+      "checkedAt": "2026-10-30",
+      "linkState": "Direct HTTP 203 access-limited; article metadata not verified in this pass"
     },
     {
       "title": "Persistence deserves its own attention.",
@@ -183,7 +190,7 @@
       "type": "Primary longitudinal study",
       "url": "https://www.neurology.org/doi/10.1212/01.WNL.0000086370.10186.7C",
       "label": "Pappert and colleagues, 2003",
-      "checkedAt": "2026-10-29",
+      "checkedAt": "2026-10-30",
       "linkState": "Publisher HTTP 403 challenge; institutional primary PDF available"
     },
     {
@@ -192,7 +199,7 @@
       "type": "Primary adult cohort study",
       "url": "https://link.springer.com/content/pdf/10.1186/s44247-026-00284-7.pdf",
       "label": "Ivanova and colleagues, 2026",
-      "checkedAt": "2026-10-29",
+      "checkedAt": "2026-10-30",
       "linkState": "Primary PDF retrievable through this check"
     }
   ],
@@ -259,6 +266,6 @@
     "trend": [],
     "message": "No public ratings are collected yet. There are no votes or trends to show."
   },
-  "activityEditionDate": "2026-10-29",
-  "featuredActivityId": "notice-one-thing"
+  "activityEditionDate": "2026-10-30",
+  "featuredActivityId": "music-or-silence"
 }

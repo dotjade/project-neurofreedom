@@ -1,0 +1,11 @@
+{
+  "target_id": "sensory_attenuation2026_ts_force_matching",
+  "preserve_extraction_date": "2026-10-29",
+  "amendment_date": "2026-10-30",
+  "fields_to_merge": {
+    "followup_audit": "analyses/sensory_contrast/2026-10-30/report.md",
+    "access": "Official abstract/metadata reverified. Wiley fullXML/PDF403; EPMC no archived fulltext. Matched OSF public project is not preregistration or preprint by metadata; only two dataset file names inspected, no contents. Institutional route403 and ESSTS explicit restriction respected. No final methods or safe aggregate output obtained.",
+    "precision": "Formal interaction, covariance, force-level contrasts, endpoint/model n, missingness, coefficients/CI and prospective validation remain unavailable. No empirical effect inferred from synthetic demonstration.",
+    "next_verification_task": "Close bounded access pass until a lawful public manuscript or participant-free output provides exact contrasts, uncertainty, model n and specification. Do not open mixed datasets or contact authors under this task."
+  }
+}

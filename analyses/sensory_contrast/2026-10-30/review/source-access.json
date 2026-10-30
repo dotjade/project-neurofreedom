@@ -1,0 +1,31 @@
+{
+  "checked_at": "2026-10-30T02:50:36.826630+00:00",
+  "primary_pmid": "42947547",
+  "doi": "10.1002/mds.70590",
+  "independent_routes": [
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42947547/",
+      "method": "web reader",
+      "result": "tool inaccessible; not proof broken or paywalled"
+    },
+    {
+      "url": "https://movementdisorders.onlinelibrary.wiley.com/doi/10.1002/mds.70590",
+      "method": "web reader",
+      "result": "tool inaccessible; not proof broken or paywalled"
+    },
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=42947547&retmode=xml",
+      "method": "Python urllib transient XML",
+      "result": "successful official abstract and identifier verification; no full text or individual data retained"
+    }
+  ],
+  "independently_verified": "30 adults with TS and 30 controls; reduced direct force overestimation and indirect-condition group null; association with current total tic severity adjusting selected variables. No numeric contrast, uncertainty or model diagnostics in abstract.",
+  "not_established": "Formal group-by-condition effect, interaction uncertainty, out-of-sample prediction, causation, persistent-severe adult subgroup validity, or author novelty wording.",
+  "limits": "Abstract only. Different condition-specific significance is not an interaction; current association is not prospective forecasting.",
+  "older_primary_check": {
+    "pmid": "42810670",
+    "checked_at": "2026-10-30T02:55:06.347907+00:00",
+    "route": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=42810670&retmode=xml",
+    "result": "Official abstract verified transiently: 28 CTD and34 controls; P50/N140/P300 gating and tactile-responsivity association null; smaller S1 P50 in CTD associated with responsivity. No sourcebody retained."
+  }
+}

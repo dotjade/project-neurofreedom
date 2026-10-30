@@ -1,6 +1,6 @@
 # Project NeuroFreedom status
 
-Updated 29 October 2026. Initial portfolio, twenty-one completed daily updates and three completed weekly syntheses. Public evidence repository and journal launched 13 October.
+Updated 30 October 2026. Initial portfolio, twenty-two completed daily updates and three completed weekly syntheses. Public evidence repository and journal launched 13 October.
 
 ## Completed in this first pass
 
@@ -14,7 +14,7 @@ Updated 29 October 2026. Initial portfolio, twenty-one completed daily updates a
 
 ## Enabled research schedules
 
-The user approved the following automatic public-science research and repository updates on 8 October 2026. Each schedule was created successfully and returned enabled status. Daily runs were completed on 9-29 October 2026; weekly syntheses were completed on 11, 18 and 25 October; first monthly and quarterly runs remain unverified.
+The user approved the following automatic public-science research and repository updates on 8 October 2026. Each schedule was created successfully and returned enabled status. Daily runs were completed on 9-30 October 2026; weekly syntheses were completed on 11, 18 and 25 October; first monthly and quarterly runs remain unverified.
 
 - Daily new-evidence checks: from 9 October 2026, approximately 08:00 India time.
 - Weekly synthesis: Sundays, from 11 October 2026, approximately 09:00 India time.
@@ -553,3 +553,20 @@ Research commit [fd87c35655711b14b8b7b53adffa1c3bb0fb8fbe](https://github.com/do
 [Actions run 40811715850](https://github.com/dotjade/project-neurofreedom/actions/runs/40811715850) passed validation, build, deployment dry-run and production deployment, completed at 03:22:41 UTC. The GitHub connector and anonymous raw source matched the authored feed. Production /api/public-feed matched before deployment and again afterward with HTTP 200 and X-Journal-Source repository; its updatedAt is 2026-10-29T03:19:42Z. Both new report links returned HTTP 200 with expected titles. Live feedback remains disabled with null API origin; six activities are unchanged, with notice-one-thing selected.
 
 Exact timestamps and checks are in the [verification receipt](updates/2026-10-29/publication-verification.json). No new rendered-page, mobile, zoom or narration test is claimed. The integration manifest covers the research snapshot before this receipt.
+
+
+## Completed daily research update - 30 October 2026
+
+The [daily report](updates/2026-10-30/report.md) distinguishes an older October 14 pediatric immune/vitamin association newly retrieved from a new-window result. Its short-duration pediatric sample and YGTSS global endpoint do not establish persistent-adult mechanisms. Vitamin correlations fail primary multiple-testing correction; no supplementation or immune-treatment conclusion follows. No qualifying new-window first publication, preprint, posted trial result or watched-treatment safety finding was verified within the recorded coverage. Registry start-date changes are metadata, not outcomes.
+
+The [sensory-contrast audit](analyses/sensory_contrast/2026-10-30/report.md) advances the latest question through a construct/estimand comparison and exact access boundary. The adult attenuation paper's safe public methods/aggregate output remain unavailable; exposed dataset files were not opened. Separate condition significance statements cannot identify the formal condition contrast, and concurrent association is not future prediction. The older repeated-input gating null measures a different construct and remains preserved.
+
+The [explicitly synthetic model](analyses/sensory_contrast/2026-10-30/model/report.md) holds both marginal estimates and errors fixed while varying admissible estimator covariance. The contrast remains fixed but its uncertainty and test decision change. Nine implementation tests and 42 independent checks pass. This demonstrates an inference limitation, not an empirical TS mechanism or a claim about an omitted test in the actual paper.
+
+### Next bounded decision
+
+Close the fixed access/contrast exercise and reopen the adult numerical audit only when a lawful participant-free manuscript or statistical output supplies the stated quantities. Next audit the accessible primary modeling study PMID 40531356, DOI 10.1152/jn.00055.2025, PMCID PMC7617943: which memory, noise and calibration assumptions identify predictive attenuation from force matching, and which published aggregate patterns discriminate divisive, subtractive or nonpredictive accounts? No participant dataset, contact, intervention or new biological inference from synthetic results is authorized.
+
+### Public journal
+
+The dated feed distinguishes older evidence and the synthetic methods result from a new clinical discovery. Six safe activities remain unchanged; music-or-silence is selected. Voting, comments and health-outcome collection remain disabled. The [link ledger](public/link-checks/2026-10-30.json) records readable, bot-blocked and access-limited routes rather than labeling blocked sources broken. Publication checks follow the actual commit.

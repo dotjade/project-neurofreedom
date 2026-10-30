@@ -1,0 +1,50 @@
+{
+  "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=39947542,42527169&retmode=xml",
+  "started_utc": "2026-10-30T02:49:46.832868+00:00",
+  "records": [
+    {
+      "pmid": "39947542",
+      "title": "The neuroprotective and behavioral improvement effects of glial fibrillary acidic protein (GFAP) molecules on tic disorder: Regulation of the 5-HT system by yohimbine.",
+      "types": [
+        "Journal Article",
+        "Retracted Publication"
+      ],
+      "DateRevised": {
+        "Year": "2026",
+        "Month": "10",
+        "Day": "21"
+      },
+      "corrections": [
+        {
+          "type": "RetractionIn",
+          "source": "Int J Biol Macromol. 2026 Oct;379:153656. doi: 10.1016/j.ijbiomac.2026.153656.",
+          "pmid": "42527169"
+        }
+      ]
+    },
+    {
+      "pmid": "42527169",
+      "title": "Retraction notice to \"the neuroprotective and behavioral improvement effects of glial fibrillary acidic protein (GFAP) molecules on tic disorder: Regulation of the 5-HT system by yohimbine\" [Int. J. Biol. Macromol. 304 (2025) 140956].",
+      "types": [
+        "Journal Article",
+        "Retraction Notice"
+      ],
+      "DateRevised": {
+        "Year": "2026",
+        "Month": "10",
+        "Day": "21"
+      },
+      "corrections": [
+        {
+          "type": "RetractionOf",
+          "source": "Int J Biol Macromol. 2025 Apr;304(Pt 2):140956. doi: 10.1016/j.ijbiomac.2025.140956.",
+          "pmid": "39947542"
+        }
+      ]
+    }
+  ],
+  "status": 200,
+  "bytes": 16861,
+  "sha256": "ec8d5695302ddf68aadae755454c45eb78c9c53a2b88d04d3a899abc21077f16",
+  "completed_utc": "2026-10-30T02:49:52.108599+00:00"
+}

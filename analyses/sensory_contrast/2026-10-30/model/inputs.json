@@ -1,0 +1,12 @@
+{
+  "label": "SYNTHETIC AGGREGATE ESTIMATES ONLY, not paper or patient data",
+  "direct_difference": 0.6,
+  "indirect_difference": 0.2,
+  "direct_standard_error": 0.2,
+  "indirect_standard_error": 0.2,
+  "estimate_correlations": [-0.5, 0.0, 0.5, 0.9],
+  "alpha": 0.05,
+  "normal_critical_95": 1.959963984540054,
+  "seed": null,
+  "units": "Arbitrary mathematical units, not measured force"
+}

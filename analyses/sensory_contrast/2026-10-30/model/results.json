@@ -1,0 +1,80 @@
+{
+  "label": "SYNTHETIC AGGREGATE ESTIMATES ONLY, not paper or patient data",
+  "method": "Analytic Gaussian formulas evaluated numerically under analyst-chosen known covariance, not clinical estimation",
+  "seed": null,
+  "marginal_tests_identical_across_scenarios": [
+    {
+      "condition": "direct",
+      "difference": 0.6,
+      "se": 0.2,
+      "z": 2.9999999999999996,
+      "p_two_sided": 0.002699796063260197
+    },
+    {
+      "condition": "indirect",
+      "difference": 0.2,
+      "se": 0.2,
+      "z": 1.0,
+      "p_two_sided": 0.31731050786291415
+    }
+  ],
+  "contrast_scenarios": [
+    {
+      "estimate_correlation": -0.5,
+      "covariance": -0.020000000000000004,
+      "covariance_determinant": 0.0012000000000000005,
+      "contrast": 0.39999999999999997,
+      "contrast_se": 0.3464101615137755,
+      "z": 1.1547005383792512,
+      "p_two_sided": 0.24821307898992373,
+      "ci95": [
+        -0.27895144044570314,
+        1.078951440445703
+      ],
+      "below_illustrative_alpha": false
+    },
+    {
+      "estimate_correlation": 0.0,
+      "covariance": 0.0,
+      "covariance_determinant": 0.0016000000000000007,
+      "contrast": 0.39999999999999997,
+      "contrast_se": 0.28284271247461906,
+      "z": 1.4142135623730947,
+      "p_two_sided": 0.15729920705028527,
+      "ci95": [
+        -0.15436152973987122,
+        0.9543615297398711
+      ],
+      "below_illustrative_alpha": false
+    },
+    {
+      "estimate_correlation": 0.5,
+      "covariance": 0.020000000000000004,
+      "covariance_determinant": 0.0012000000000000005,
+      "contrast": 0.39999999999999997,
+      "contrast_se": 0.2,
+      "z": 1.9999999999999998,
+      "p_two_sided": 0.04550026389635847,
+      "ci95": [
+        0.008007203091989157,
+        0.7919927969080107
+      ],
+      "below_illustrative_alpha": true
+    },
+    {
+      "estimate_correlation": 0.9,
+      "covariance": 0.036000000000000004,
+      "covariance_determinant": 0.00030400000000000045,
+      "contrast": 0.39999999999999997,
+      "contrast_se": 0.08944271909999163,
+      "z": 4.472135954999577,
+      "p_two_sided": 7.74421643104419e-06,
+      "ci95": [
+        0.22469549188468357,
+        0.5753045081153163
+      ],
+      "below_illustrative_alpha": true
+    }
+  ],
+  "conclusion": "Marginal results alone do not identify the contrast precision or statistical decision."
+}

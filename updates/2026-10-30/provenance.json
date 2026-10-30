@@ -1,0 +1,41 @@
+{
+  "checkedAt": "2026-10-30T02:51:59.150080+00:00",
+  "baselineCommit": "e324b6d369652b9a280faf8b318d9321fd2d4dcb",
+  "requiredFiles": [
+    {
+      "path": "README.md",
+      "sha256": "6b1d997e495751f81c97048c86cd8864732cdd8313cc3d9363605bb4425721d2"
+    },
+    {
+      "path": "RESEARCH_PROTOCOL.md",
+      "sha256": "6f0025df7fd62fc2fe952cfbca96fca811ae76b917b7e7d4d45a501fe89e6859"
+    },
+    {
+      "path": "STATUS.md",
+      "sha256": "2b932a78fdddb73e05e607935c3034ffb4ed067ce335199e5b15a8c8dceb3154"
+    },
+    {
+      "path": "evidence.jsonl",
+      "sha256": "7e0cbee171dc35c9d268c8a97e4cc57317267935f93c1b2288975e485214a8de"
+    },
+    {
+      "path": "public/journal-source/README.md",
+      "sha256": "809173b6459331730d4fd9b0df135079b1e8dfdb030f4babbfc0055fcec1197e"
+    },
+    {
+      "path": "public/UPDATE_WORKFLOW.md",
+      "sha256": "f9d9a9b17bfbb06c8b075abad60495b9aeef58c96e768ea3d56a3d47c29a2d3f"
+    },
+    {
+      "path": "updates/2026-10-29/report.md",
+      "sha256": "0808d1affc40f5fa9890a387d48d5b2a85f1fe72591d75a40409f08dbec2785d"
+    },
+    {
+      "path": "updates/2026-10-29/scan/summary.json",
+      "sha256": "d0d0768e17a38ba27e01e8e1febfa49580d257af7b69739cf1f2cb70b0877c1d"
+    }
+  ],
+  "dailyScanBaseline": "2026-10-29T03:16:14.716688Z",
+  "scope": "All ages/severities, persistent severe adults, function, comorbidity, unmet needs and response; no remission assumption. Public source evidence only.",
+  "analysis": "Sensory-contrast estimand/access audit plus explicitly synthetic covariance demonstration; no patient observations or individual data."
+}

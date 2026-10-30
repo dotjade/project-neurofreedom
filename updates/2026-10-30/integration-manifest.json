@@ -1,0 +1,254 @@
+{
+  "createdAt": "2026-10-30T02:56:33.376187+00:00",
+  "baseCommit": "e324b6d369652b9a280faf8b318d9321fd2d4dcb",
+  "files": [
+    {
+      "path": "STATUS.md",
+      "sha256": "a6d7df97d7536268d49a98060c76b47590556ff78b4132c3ee45c44892b459f3"
+    },
+    {
+      "path": "evidence.jsonl",
+      "sha256": "8924486e6bcaa823bba3015ca59ce036c99683b78e7aa570e0fb01aba0551b02"
+    },
+    {
+      "path": "public/research-feed.json",
+      "sha256": "d7855a9cfb2810014ac2313526c092f7b7504e6262cca6f904f2cb23fa466b96"
+    },
+    {
+      "path": "public/link-checks/2026-10-30.json",
+      "sha256": "881c67402173a06aca42fd9b19e51cc02f7e442e0ab6278e85f26afd4d7f6534"
+    },
+    {
+      "path": "analyses/sensory_contrast/2026-10-30/evidence-amendment.json",
+      "sha256": "c7c10d2a9264d54c7532245f930ca2c23cf53b9f7b23297eb462b50e348ec895"
+    },
+    {
+      "path": "analyses/sensory_contrast/2026-10-30/model/analyze.py",
+      "sha256": "f42cc9d88af7b0c1aed6d36d770d22d2d0741ceabd9ee093d2e5c9ee5c7fea38"
+    },
+    {
+      "path": "analyses/sensory_contrast/2026-10-30/model/inputs.json",
+      "sha256": "03038560bdc9d054ae051e5f5892c1f418ffa134aac44b97537257d7a5228b23"
+    },
+    {
+      "path": "analyses/sensory_contrast/2026-10-30/model/plan.md",
+      "sha256": "c2d130899f76d63995737fcf14e2ff9887111129d26e266d7d1c2f2619732a8c"
+    },
+    {
+      "path": "analyses/sensory_contrast/2026-10-30/model/report.md",
+      "sha256": "f59c633ec63f1bf50390d8afa03e94e4d8dd804392fd734b9360527fa0994625"
+    },
+    {
+      "path": "analyses/sensory_contrast/2026-10-30/model/results.json",
+      "sha256": "6da045536b9053e22981e071d2864dcf9e653f69d1da9029559a70f6d00ff020"
+    },
+    {
+      "path": "analyses/sensory_contrast/2026-10-30/model/review/checks.json",
+      "sha256": "d16a5f088ede090d6dc051bc72a73f2b571e3653e04f14e23515fcb0f68f42ea"
+    },
+    {
+      "path": "analyses/sensory_contrast/2026-10-30/model/review/independent_checks.py",
+      "sha256": "036dc010339dc1b8b2fafd375dc91df60c0c320661a8edfb73aff9aa03fc4d91"
+    },
+    {
+      "path": "analyses/sensory_contrast/2026-10-30/model/review/review.md",
+      "sha256": "31c38ff7e1d10a4a9cea82fd49f29d5337983c18757aaa3dfce5fd542cbdab05"
+    },
+    {
+      "path": "analyses/sensory_contrast/2026-10-30/model/review/reviewed-file-hashes.json",
+      "sha256": "b11340898d16217a256c2956646cb02ee02f7ed3303ec78faaed38f3b994b84c"
+    },
+    {
+      "path": "analyses/sensory_contrast/2026-10-30/model/test_analysis.py",
+      "sha256": "9a530d88c2763fd742c1c9ecdd20b39e423ba3ee17ec5ccaee56c5827b3f4440"
+    },
+    {
+      "path": "analyses/sensory_contrast/2026-10-30/report.md",
+      "sha256": "d86387707888f1ecd5b4dee0321dde948f414405c0bd721a8c95cc0133e1fbc8"
+    },
+    {
+      "path": "analyses/sensory_contrast/2026-10-30/review/review.md",
+      "sha256": "69156bb39e9625d6c2723a108d4052ade9d9b4c060598357b0f09837ddac684f"
+    },
+    {
+      "path": "analyses/sensory_contrast/2026-10-30/review/reviewed-file-hashes.json",
+      "sha256": "43cd9ab6de16106b83a1f3760920b2daaa602505193b93c7e05926bcd3dccd81"
+    },
+    {
+      "path": "analyses/sensory_contrast/2026-10-30/review/source-access.json",
+      "sha256": "fe831e9dde51926e876ee9a62f5a1d1f4570ff2c88adedf29bf41889ca23dc4f"
+    },
+    {
+      "path": "analyses/sensory_contrast/2026-10-30/source-checks.json",
+      "sha256": "feaa5969ed239854e0acb5b06b24dbfa5448852ec391c69ab781c70c26b13bcd"
+    },
+    {
+      "path": "updates/2026-10-30/primary-independent-review.json",
+      "sha256": "275b8cc04dc2764e79eb66929850d65dbf806d50082de68cf337372656e4cb79"
+    },
+    {
+      "path": "updates/2026-10-30/provenance.json",
+      "sha256": "e9cbde5b1544df5e3edb03a5964fd2308e0866b965552f7d0a28a88e86928040"
+    },
+    {
+      "path": "updates/2026-10-30/report.md",
+      "sha256": "0c02c9aa9d924510bcacfe4bcd07127126041708d7803ba17fe4472ff7a195f8"
+    },
+    {
+      "path": "updates/2026-10-30/safety/catalog-safety-check.json",
+      "sha256": "593f59306501d57b71dbd63ae87c8573164e64233e8bb1fde64035290bde01b3"
+    },
+    {
+      "path": "updates/2026-10-30/safety/check_homepage_links.py",
+      "sha256": "7826effd736d17744694015d0197dc82b6dc2cad001292bd5a4b5a262c5da3d7"
+    },
+    {
+      "path": "updates/2026-10-30/safety/check_links.py",
+      "sha256": "a87279e8b8a55cca3b07f3d7074271296e2ec61637d6bff2b24ae6b4638e3cc7"
+    },
+    {
+      "path": "updates/2026-10-30/safety/check_supplement.py",
+      "sha256": "ac3ed5425b96e648334fd058f0a60d911690673cdbb8e67901c930c05d590b0d"
+    },
+    {
+      "path": "updates/2026-10-30/safety/homepage-link-check.json",
+      "sha256": "d778c9673424c864f39ac4580e90c5887ad976613393fa5078c21460185d52fc"
+    },
+    {
+      "path": "updates/2026-10-30/safety/link-check-rerun.json",
+      "sha256": "f5ddcf8d46cb8523e89d45ee0fd120bb7ef032857d2212cc33abd79e5d9eac49"
+    },
+    {
+      "path": "updates/2026-10-30/safety/query-ledger.json",
+      "sha256": "39c0a9186f3ecd272978552fc977b929799f3a4a261ab7ebb2477a9489a88c87"
+    },
+    {
+      "path": "updates/2026-10-30/safety/report.md",
+      "sha256": "dc4a7c1352cc48c264a429a3b845fb8f52ae4f98458d36f22d10667ae0ea3f1a"
+    },
+    {
+      "path": "updates/2026-10-30/safety/repository-provenance.json",
+      "sha256": "0268a30fd9bbe6665b9aaff37659f2aeca038893db177720d7cf6840d722d0f6"
+    },
+    {
+      "path": "updates/2026-10-30/safety/source-checks.json",
+      "sha256": "951cab345225c36773300f2294a8654ca8ea9a6935d908e7ca867b5f0d3f1145"
+    },
+    {
+      "path": "updates/2026-10-30/safety/supplementary-checks.json",
+      "sha256": "aeab9182af5c96537986cb252a80a6a25d45f5ab5a0b30e2db7a1bf881ede63c"
+    },
+    {
+      "path": "updates/2026-10-30/safety/validate.py",
+      "sha256": "cce7324f2cd82a1d73980de93dceb216453021ddf36232a8f63e3d10e3153411"
+    },
+    {
+      "path": "updates/2026-10-30/safety/validation.json",
+      "sha256": "37621dd8e2886251fccfc5f81ad3fcf13eb6cd4170a82fd4ed5c8c0e6f8634f8"
+    },
+    {
+      "path": "updates/2026-10-30/scan/biorxiv-preprint-index.tsv",
+      "sha256": "42385e44860fef031108159d4a65a31937b850c7d5e82edecaf41827ca77d9b9"
+    },
+    {
+      "path": "updates/2026-10-30/scan/build_results.py",
+      "sha256": "0b6272a873938902149aa1e7ee05f1909e49a6cc5ecb7a4f3b4867b0bef164ca"
+    },
+    {
+      "path": "updates/2026-10-30/scan/check_integrity_controls.py",
+      "sha256": "f9a01cc7a47b548f65e53c3a076df8a7a7f36972bebe64985f8c6569eedbefd7"
+    },
+    {
+      "path": "updates/2026-10-30/scan/discovery-log.json",
+      "sha256": "60e15790f6f1f4027f7520b7631fb66a968f8f560f7275b83e4feb1ed4c92a58"
+    },
+    {
+      "path": "updates/2026-10-30/scan/integrity-control-source.json",
+      "sha256": "7495eab4fc26abafc45cf74bd9e8b71c1bd67a26af296dc68d405ce9dd695f38"
+    },
+    {
+      "path": "updates/2026-10-30/scan/integrity-recheck.json",
+      "sha256": "f62679f6fb1ede1bd6c201ba9f9b8b597f1135a07e121d05753526de783959f1"
+    },
+    {
+      "path": "updates/2026-10-30/scan/medrxiv-preprint-index.tsv",
+      "sha256": "28a2f233aec37d01489368333db044fb2205cd2124443c452fa2ba0b0242364b"
+    },
+    {
+      "path": "updates/2026-10-30/scan/prepare_baseline.py",
+      "sha256": "b813177f6484b6452a16b081a9a86707054118536825c7a3c2a60f8aecad8540"
+    },
+    {
+      "path": "updates/2026-10-30/scan/primary-evidence.jsonl",
+      "sha256": "cf844f99122306f27e97651e575573cf97e593b37d139e01238d4d2afca75bda"
+    },
+    {
+      "path": "updates/2026-10-30/scan/provenance.json",
+      "sha256": "a267054ce527e2a9fefc1f4e4d4e06b01921f562befc70675512759f1668b349"
+    },
+    {
+      "path": "updates/2026-10-30/scan/pubmed-screening.jsonl",
+      "sha256": "39874f1a5aec2c9d219d14121d59eed5fc84e8b6fc7be76015000984c10b4174"
+    },
+    {
+      "path": "updates/2026-10-30/scan/registry-evidence.jsonl",
+      "sha256": "d7378095b68a951785474caa53f34ba2a6f2ac63f5468d5935571317a74ef523"
+    },
+    {
+      "path": "updates/2026-10-30/scan/report.md",
+      "sha256": "a8d751da55d94dbe450713cd7352df1f6afa2722111bf2ae50cb8fd9615e9357"
+    },
+    {
+      "path": "updates/2026-10-30/scan/reproduction-check.json",
+      "sha256": "3da2e058575e5b757d9dabb42b86725bb5adb377a7d71e50f66d2e1c9a2b5c8b"
+    },
+    {
+      "path": "updates/2026-10-30/scan/request-log.json",
+      "sha256": "81d0c7b70499dff7a0f651b7b1e207a0308144ceb5346f7b2ca052cd13718858"
+    },
+    {
+      "path": "updates/2026-10-30/scan/scan_sources.py",
+      "sha256": "4416f692b0b920183ab3b83e8bf0fb2b9e46c2fece7336ae237f671cb1019405"
+    },
+    {
+      "path": "updates/2026-10-30/scan/scan_supplement.py",
+      "sha256": "3292aa9d22b0f4152e7009b26662e2cf2cc68b4669d5c6a604ee33e4946868a0"
+    },
+    {
+      "path": "updates/2026-10-30/scan/search-log.json",
+      "sha256": "a08c4b9ec861fa5afe41f2e509e0fdc29288f1c90f7e8374eee36a166768af60"
+    },
+    {
+      "path": "updates/2026-10-30/scan/summary.json",
+      "sha256": "bbe5c771a5c443bfdf11ad53d0406a42335347584228af9194d90574a172919c"
+    },
+    {
+      "path": "updates/2026-10-30/scan/supplement-selected-metadata.json",
+      "sha256": "8f7816c5b5730ce97196ab1de4b68c5ffd34d91b902b17c37bfbe146a59a1ad2"
+    },
+    {
+      "path": "updates/2026-10-30/scan/validate_artifacts.py",
+      "sha256": "fabb1ded43635be42078dab4c4baed3f552ec0d1f22b23beed349a49ee97460a"
+    },
+    {
+      "path": "updates/2026-10-30/scan/validation.json",
+      "sha256": "004b37d96c1e71881e3563ca3f9a470bdccf38367be78516b304ed81042d276a"
+    },
+    {
+      "path": "updates/2026-10-30/scan/verify_reproduction.py",
+      "sha256": "a894c990680378b768021f66b0fa9a8cab90fde23338fbe7827b17d4fba4040d"
+    }
+  ],
+  "validation": {
+    "modelUnitTests": 9,
+    "independentModelChecks": 42,
+    "scanChecks": 34,
+    "normalizedOutputsExact": 7,
+    "safetyChecks": 22,
+    "jsonAndDedup": "passed",
+    "catalogAndCollection": "unchanged",
+    "feedSchema": "passed",
+    "journalBuild": "passed"
+  },
+  "scope": "Research snapshot; excludes manifest itself and later verification receipt. Mathematical/software checks are not clinical validation."
+}
