@@ -1,6 +1,6 @@
 # Project NeuroFreedom status
 
-Updated 30 October 2026. Initial portfolio, twenty-two completed daily updates and three completed weekly syntheses. Public evidence repository and journal launched 13 October.
+Updated 31 October 2026. Initial portfolio, twenty-three completed daily updates and three completed weekly syntheses. Public evidence repository and journal launched 13 October.
 
 ## Completed in this first pass
 
@@ -14,7 +14,7 @@ Updated 30 October 2026. Initial portfolio, twenty-two completed daily updates a
 
 ## Enabled research schedules
 
-The user approved the following automatic public-science research and repository updates on 8 October 2026. Each schedule was created successfully and returned enabled status. Daily runs were completed on 9-30 October 2026; weekly syntheses were completed on 11, 18 and 25 October; first monthly and quarterly runs remain unverified.
+The user approved the following automatic public-science research and repository updates on 8 October 2026. Each schedule was created successfully and returned enabled status. Daily runs were completed on 9-31 October 2026; weekly syntheses were completed on 11, 18 and 25 October; first monthly and quarterly runs remain unverified.
 
 - Daily new-evidence checks: from 9 October 2026, approximately 08:00 India time.
 - Weekly synthesis: Sundays, from 11 October 2026, approximately 09:00 India time.
@@ -579,3 +579,18 @@ Research commit [32bccba004b82d9c18741d2984219bfca3870fe4](https://github.com/do
 [Actions run 40994608100](https://github.com/dotjade/project-neurofreedom/actions/runs/40994608100) passed validation, build, deployment dry-run and production deployment, completed at 02:57:48 UTC. Anonymous raw and production feed checks returned exact authored bytes; a fresh post-deployment check again matched with HTTP 200 and X-Journal-Source repository. Verified updatedAt is 2026-10-30T02:56:07Z. Both new report URLs returned HTTP 200 with expected titles. Feedback remains disabled with null API origin; six activities are unchanged and music-or-silence is selected.
 
 The [verification receipt](updates/2026-10-30/publication-verification.json) preserves exact timestamps. No new rendered-page, mobile, zoom or narration test is claimed. The integration manifest covers the research snapshot before this receipt.
+
+
+## Completed daily research update - 31 October 2026
+
+The [daily report](updates/2026-10-31/report.md) records no verified new-window primary first publication, qualifying preprint or posted trial result. An older October 20 postmortem histamine-expression pilot pools diagnoses and does not establish a Tourette-specific target. New NCT07905898 is a no-results adolescent feasibility protocol: enrollment metadata 95 and narrative 85 differ, with only 60 described as randomized. The adjacent EMA Deanxit combination review is a calendar-window safety communication, not a tic-treatment finding, causal conclusion or monotherapy/class-wide warning. Publication and review-initiation dates remain distinct.
+
+The [force-matching assumptions audit](analyses/force_matching/2026-10-31/report.md) inspects a historical primary model with no TS sample. Divisive fits favor the specified alternative with weak subgroup exceptions retained. Shared memory/comparison, an unattenuated indirect baseline, independent factor moments and borrowed gain-study calibration limit identification. A clearly synthetic deterministic example shows a constant target offset can coexist with a divisive condition ratio; relabeling a multiplicative factor as response calibration leaves its distribution unchanged. This is mathematical non-identification, not an empirical mechanism or a claim that calibration explains the actual study. Thirty implementation checks passed; independent checks are recorded separately.
+
+### Next bounded decision
+
+Close the fixed model-assumption audit. Next audit published aggregate within-session indirect-task learning and repeat-session reliability, checking age, trial order, calibration, coefficients and uncertainty. Stop if only participant rows or contact are available. The adult TS contrast still requires a lawful participant-free methods/results source; no reinspection of mixed datasets is authorized. Persistent severe adults, pain, participation and co-occurring conditions remain central but unvalidated by this laboratory model.
+
+### Public journal
+
+The dated feed separates scan findings, regulatory review, historical model and synthetic result. All six safe activities remain unchanged, with small-silly-mark selected. Voting, comments and health-outcome collection remain off. The [link ledger](public/link-checks/2026-10-31.json) preserves bot/access limitations rather than calling blocked pages broken. Actual source and production readback follows the commit.

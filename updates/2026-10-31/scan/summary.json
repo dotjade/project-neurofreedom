@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-31",
+  "strict_prior_cutoff_utc": "2026-10-30T02:51:17.233943+00:00",
+  "core_started_utc": "2026-10-31T03:26:19.771888+00:00",
+  "core_completed_utc": "2026-10-31T03:27:38.991962+00:00",
+  "pubmed_unique_records": 24,
+  "pubmed_id_occurrences": 32,
+  "pubmed_previous_day_overlap": 12,
+  "new_to_previous_scan_records": 12,
+  "new_to_repository_primary_records": 1,
+  "verified_new_primary_publications_since_prior_cutoff": 0,
+  "preprint_doi_versions": 684,
+  "preprint_lexical_matches": 0,
+  "qualifying_preprints": 0,
+  "registry_update_window_unique_ids": [
+    "NCT07137442",
+    "NCT07905898"
+  ],
+  "new_registry_protocols": [
+    "NCT07905898"
+  ],
+  "new_posted_trial_results": 0,
+  "new_retractions": 0,
+  "api_request_errors": 0,
+  "decision": "Older October 20 mixed-diagnosis histamine pilot newly retrieved; no new-window first publication or clinical result. New adolescent resilience feasibility protocol is not efficacy evidence. One estimated registry start shifted one day."
+}

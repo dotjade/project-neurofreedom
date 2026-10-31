@@ -1,0 +1,21 @@
+{
+  "checkedAt": "2026-10-31T03:27:33.968746+00:00",
+  "baseCommit": "8b9fd54ff445e8f5e74ffffa48f49a80ad36990b",
+  "gitStatus": "?? updates/2026-10-31/\n",
+  "readFiles": {
+    "README.md": "6b1d997e495751f81c97048c86cd8864732cdd8313cc3d9363605bb4425721d2",
+    "RESEARCH_PROTOCOL.md": "6f0025df7fd62fc2fe952cfbca96fca811ae76b917b7e7d4d45a501fe89e6859",
+    "STATUS.md": "802e82a975352b71ba849cd7ced8ff1feb3ebcdbc927c5797e9940839d346317",
+    "public/journal-source/README.md": "809173b6459331730d4fd9b0df135079b1e8dfdb030f4babbfc0055fcec1197e",
+    "public/UPDATE_WORKFLOW.md": "f9d9a9b17bfbb06c8b075abad60495b9aeef58c96e768ea3d56a3d47c29a2d3f",
+    "updates/2026-10-30/safety/report.md": "dc4a7c1352cc48c264a429a3b845fb8f52ae4f98458d36f22d10667ae0ea3f1a",
+    "public/link-checks/2026-10-30.json": "881c67402173a06aca42fd9b19e51cc02f7e442e0ab6278e85f26afd4d7f6534",
+    "public/research-feed.json": "d7855a9cfb2810014ac2313526c092f7b7504e6262cca6f904f2cb23fa466b96",
+    "public/journal-source/index.html": "f6a6cc9ac0415db5f7bbbc0b8afd89ed63f68c11135f06958ff2e73ed5e7e15f",
+    "public/journal-source/journal.js": "c5c9b7fd6acb92d1adbd33ef78aeda13792ea9523ecd0c873fc228c61fb5e850",
+    "public/journal-source/feedback-config.json": "921c0e74bdcdb85c79c11bd2e7d9fa3b8fdfcb12fd74114c3a51a659f3cde133"
+  },
+  "readScopeNote": "Required project instructions, latest status and prior safety/link ledgers read. Feed/source/config parsed by the recorded checks. Repository-wide targeted keyword search for regulatory dedup, not exhaustive older evidence re-review.",
+  "repositoryModifiedByThisCheck": false,
+  "publishedByThisCheck": false
+}

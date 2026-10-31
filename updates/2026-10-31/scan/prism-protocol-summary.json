@@ -1,0 +1,29 @@
+{
+  "request": {
+    "url": "https://clinicaltrials.gov/api/v2/studies/NCT07905898?fields=NCTId%2CBriefTitle%2CBriefSummary%2CDetailedDescription%2CStatusModule%2CDesignModule%2CCondition%2CMinimumAge%2CMaximumAge%2CStdAge%2CHasResults%2CArmGroup%2CIntervention%2CPrimaryOutcome%2CSecondaryOutcome",
+    "checked_at": "2026-10-31T03:26:55.804142+00:00",
+    "status": 200,
+    "sha256": "01214600d3c9a2448fe64a70d95c152816dd1cea72748d02bd2f65dec860a94e"
+  },
+  "nctId": "NCT07905898",
+  "source_url": "https://clinicaltrials.gov/study/NCT07905898",
+  "evidence_type": "new official registry protocol, no results",
+  "first_posted": "2026-10-30",
+  "status": "NOT_YET_RECRUITING",
+  "planned_total_enrollment_field": 95,
+  "detailed_adolescent_enrollment": 85,
+  "phase_counts": {
+    "adaptation_adolescents": 10,
+    "single_arm_open_trial": 15,
+    "randomized_pilot": 60
+  },
+  "denominator_limit": "Top-line 95 versus detailed 85 adolescent enrollment. Caregivers are mentioned, but the registry does not explicitly reconcile the 10-person difference. Do not call all 95 randomized adolescents.",
+  "age_range_years": [
+    12,
+    18
+  ],
+  "pilot_design": "Randomized 1:1 PRISM plus usual care versus usual care with matched study check-ins; outcome assessor blinded.",
+  "primary_endpoints": "Feasibility, not definitive tic efficacy: at least 12/15 completion in open phase; mean FIM >=4 in intervention arm of randomized pilot.",
+  "secondary_domains": "Resilience, tic severity and separate impairment, co-occurring symptoms and functioning. Planned repeated assessments through 26 weeks in pilot.",
+  "clinical_claim": "Protocol only. No proven benefit, adult applicability, recruitment invitation or treatment recommendation."
+}

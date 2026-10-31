@@ -1,0 +1,45 @@
+{
+  "checkedAt": "2026-10-31T03:27:01.323439+00:00",
+  "baselineCommit": "8b9fd54ff445e8f5e74ffffa48f49a80ad36990b",
+  "requiredFiles": [
+    {
+      "path": "README.md",
+      "sha256": "6b1d997e495751f81c97048c86cd8864732cdd8313cc3d9363605bb4425721d2"
+    },
+    {
+      "path": "RESEARCH_PROTOCOL.md",
+      "sha256": "6f0025df7fd62fc2fe952cfbca96fca811ae76b917b7e7d4d45a501fe89e6859"
+    },
+    {
+      "path": "STATUS.md",
+      "sha256": "802e82a975352b71ba849cd7ced8ff1feb3ebcdbc927c5797e9940839d346317"
+    },
+    {
+      "path": "evidence.jsonl",
+      "sha256": "8924486e6bcaa823bba3015ca59ce036c99683b78e7aa570e0fb01aba0551b02"
+    },
+    {
+      "path": "public/journal-source/README.md",
+      "sha256": "809173b6459331730d4fd9b0df135079b1e8dfdb030f4babbfc0055fcec1197e"
+    },
+    {
+      "path": "public/UPDATE_WORKFLOW.md",
+      "sha256": "f9d9a9b17bfbb06c8b075abad60495b9aeef58c96e768ea3d56a3d47c29a2d3f"
+    },
+    {
+      "path": "updates/2026-10-30/report.md",
+      "sha256": "0c02c9aa9d924510bcacfe4bcd07127126041708d7803ba17fe4472ff7a195f8"
+    },
+    {
+      "path": "updates/2026-10-30/scan/summary.json",
+      "sha256": "bbe5c771a5c443bfdf11ad53d0406a42335347584228af9194d90574a172919c"
+    },
+    {
+      "path": "analyses/sensory_contrast/2026-10-30/report.md",
+      "sha256": "d86387707888f1ecd5b4dee0321dde948f414405c0bd721a8c95cc0133e1fbc8"
+    }
+  ],
+  "dailyScanBaseline": "2026-10-30T02:51:17.233943+00:00",
+  "scope": "Tourette and chronic tic disorders across ages and severities, including persistent severe adults, function, comorbidity, unmet needs and response. No assumed remission. Public-science evidence only.",
+  "analysis": "Primary force-matching model assumptions audit. No participant or family data."
+}

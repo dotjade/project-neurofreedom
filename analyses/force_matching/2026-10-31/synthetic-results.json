@@ -1,0 +1,160 @@
+{
+  "label": "SYNTHETIC ANALYTICAL EXAMPLES, NOT HUMAN OR TOURETTE DATA",
+  "seed": null,
+  "random_sampling": false,
+  "inputs": {
+    "targets": [
+      1,
+      1.5,
+      2,
+      2.5,
+      3,
+      3.5
+    ],
+    "memory_intercept": 0.5,
+    "memory_slope": 0.6666666666666666,
+    "mean_gain": 1.5,
+    "gain_sd": 0.2,
+    "indirect_sd": 0.3,
+    "subtractive_offset": 0.75
+  },
+  "memory_rows": [
+    {
+      "target": 1,
+      "indirect": 1.1666666666666665,
+      "direct": 1.7499999999999998,
+      "direct_minus_target": 0.7499999999999998,
+      "direct_over_indirect": 1.5,
+      "direct_minus_indirect": 0.5833333333333333
+    },
+    {
+      "target": 1.5,
+      "indirect": 1.5,
+      "direct": 2.25,
+      "direct_minus_target": 0.75,
+      "direct_over_indirect": 1.5,
+      "direct_minus_indirect": 0.75
+    },
+    {
+      "target": 2,
+      "indirect": 1.8333333333333333,
+      "direct": 2.75,
+      "direct_minus_target": 0.75,
+      "direct_over_indirect": 1.5,
+      "direct_minus_indirect": 0.9166666666666667
+    },
+    {
+      "target": 2.5,
+      "indirect": 2.1666666666666665,
+      "direct": 3.25,
+      "direct_minus_target": 0.75,
+      "direct_over_indirect": 1.5,
+      "direct_minus_indirect": 1.0833333333333335
+    },
+    {
+      "target": 3,
+      "indirect": 2.5,
+      "direct": 3.75,
+      "direct_minus_target": 0.75,
+      "direct_over_indirect": 1.5,
+      "direct_minus_indirect": 1.25
+    },
+    {
+      "target": 3.5,
+      "indirect": 2.833333333333333,
+      "direct": 4.25,
+      "direct_minus_target": 0.75,
+      "direct_over_indirect": 1.5000000000000002,
+      "direct_minus_indirect": 1.416666666666667
+    }
+  ],
+  "distribution_rows": [
+    {
+      "indirect_mean": 1,
+      "divisive": {
+        "mean": 1.5,
+        "variance": 0.2461,
+        "skewness": 0.26538574396484305
+      },
+      "calibration_only": {
+        "mean": 1.5,
+        "variance": 0.2461,
+        "skewness": 0.26538574396484305
+      },
+      "subtractive": {
+        "mean": 1.75,
+        "variance": 0.13,
+        "skewness": 0
+      }
+    },
+    {
+      "indirect_mean": 2,
+      "divisive": {
+        "mean": 3.0,
+        "variance": 0.36610000000000004,
+        "skewness": 0.29253336883203257
+      },
+      "calibration_only": {
+        "mean": 3.0,
+        "variance": 0.36610000000000004,
+        "skewness": 0.29253336883203257
+      },
+      "subtractive": {
+        "mean": 2.75,
+        "variance": 0.13,
+        "skewness": 0
+      }
+    },
+    {
+      "indirect_mean": 3,
+      "divisive": {
+        "mean": 4.5,
+        "variance": 0.5661,
+        "skewness": 0.22820572354404134
+      },
+      "calibration_only": {
+        "mean": 4.5,
+        "variance": 0.5661,
+        "skewness": 0.22820572354404134
+      },
+      "subtractive": {
+        "mean": 3.75,
+        "variance": 0.13,
+        "skewness": 0
+      }
+    }
+  ],
+  "checks": [
+    "constant target offset 1",
+    "divisive condition ratio 1",
+    "constant target offset 1.5",
+    "divisive condition ratio 1.5",
+    "constant target offset 2",
+    "divisive condition ratio 2",
+    "constant target offset 2.5",
+    "divisive condition ratio 2.5",
+    "constant target offset 3",
+    "divisive condition ratio 3",
+    "constant target offset 3.5",
+    "divisive condition ratio 3.5",
+    "condition difference not constant",
+    "product variance 1",
+    "product skewness 1",
+    "positive product skewness 1",
+    "calibration observational equivalence 1",
+    "product variance 2",
+    "product skewness 2",
+    "positive product skewness 2",
+    "calibration observational equivalence 2",
+    "product variance 3",
+    "product skewness 3",
+    "positive product skewness 3",
+    "calibration observational equivalence 3",
+    "no gain noise zero skewness",
+    "fixed gain scales variance",
+    "attenuation versus calibration mean alias",
+    "attenuation versus memory mean alias",
+    "absolute contrast not scale free"
+  ],
+  "checks_passed": 30
+}

@@ -1,0 +1,19 @@
+{
+  "recordId": "EMA-REF-0000382942-20261031",
+  "evidenceType": "Official ongoing benefit-risk review, not a clinical trial or causal finding",
+  "classification": "Newly retrieved calendar-window communication of a review concerning an adjacent depression/anxiety combination; not a new core tic-treatment finding",
+  "noticeReference": "EMA/244566/2026",
+  "procedureReference": "EMA/REF/0000382942",
+  "sources": [
+    "https://www.ema.europa.eu/en/medicines/human/referrals/flupentixol-melitracen-containing-medicinal-products",
+    "https://www.ema.europa.eu/en/documents/referral/flupentixol-melitracen-containing-medicinal-products-article-31-referral-prac-starts-review-depression-anxiety-medicine-deanxit-flupentixol-melitracen_en.pdf"
+  ],
+  "publicationDate": "2026-10-30",
+  "proseInitiationDate": "2026-10-16",
+  "keyFactsProcedureStartDate": "2026-10-29",
+  "dateCaveat": "Source presents different initiation dates; retain both, unresolved. Publication date is not review-initiation date. The notice supplies no publication time, so strictly after the prior October 30 02:51:09 UTC cutoff is not established.",
+  "checkedAt": "2026-10-31T03:27:52Z/2026-10-31T03:28:10Z",
+  "originalSummary": "EMA announced an ongoing review of Deanxit, the flupentixol/melitracen combination for depression and anxiety, after neurological and psychiatric reports involving movement and cognitive problems. Some reportedly persisted after withdrawal. The agency is examining severity, duration, possible irreversibility and the benefit of the combination; these concerns are not a completed causal or incidence assessment. Flupentixol-only medicines are explicitly outside this review. No Tourette-specific efficacy, risk estimate, patient applicability or class-wide conclusion is established. No treatment change follows from this notebook.",
+  "dedup": "No prior matching text found in updates or evidence.jsonl at baseline 8b9fd54ff445e8f5e74ffffa48f49a80ad36990b.",
+  "nextDecision": "Track official review outcome in future bounded scans; no researcher contact or clinical action."
+}
