@@ -594,3 +594,12 @@ Close the fixed model-assumption audit. Next audit published aggregate within-se
 ### Public journal
 
 The dated feed separates scan findings, regulatory review, historical model and synthetic result. All six safe activities remain unchanged, with small-silly-mark selected. Voting, comments and health-outcome collection remain off. The [link ledger](public/link-checks/2026-10-31.json) preserves bot/access limitations rather than calling blocked pages broken. Actual source and production readback follows the commit.
+
+
+### Publication verification - 31 October 2026
+
+Research commit [3ed28b359b49b002fe8b3535298aec084992a469](https://github.com/dotjade/project-neurofreedom/commit/3ed28b359b49b002fe8b3535298aec084992a469) contains all 56 authored files. Fresh Git readback verified exact bytes at 03:35:03 UTC, preserving 1,133 unrelated files with no unexpected paths. The GitHub connector independently verified the exact feed.
+
+[Actions run 41164984399](https://github.com/dotjade/project-neurofreedom/actions/runs/41164984399) completed successfully; connector job/step checks confirm validation, build, deployment dry-run, publication and public-route checks passed for the exact research commit. Anonymous raw and production feeds matched authored bytes. A fresh post-deployment check at 03:35:59 UTC again matched with HTTP 200 and X-Journal-Source repository; updatedAt is 2026-10-31T03:31:43Z. Both new report URLs returned HTTP 200 with expected titles. Feedback remains disabled with null API origin; all six activities are unchanged and small-silly-mark is selected.
+
+The [verification receipt](updates/2026-10-31/publication-verification.json) records timestamps and checks. No new rendered/mobile/zoom/narration test is claimed. The integration manifest covers the research snapshot before this receipt and verification addition.
