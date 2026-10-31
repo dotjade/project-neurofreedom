@@ -1,0 +1,67 @@
+# What force matching identifies, and what it assumes
+
+31 October 2026. Historical primary-methods audit plus **synthetic analytical examples**, not a new clinical result, participant reanalysis or Tourette mechanism discovery.
+
+## Question, prediction and result
+
+The planned question was whether force-matching means, variability and gain manipulations distinguish predictive attenuation from memory and response effects. **Prediction:** comparing direct with indirect reproduction should remove a shared target-memory distortion, while variable multiplicative attenuation should produce force-dependent variance and positive skew unlike the specified additive-normal model. Identification should weaken if baseline processes differ between conditions.
+
+**Result:** the accessible primary model supports the first prediction under explicit assumptions. Published distributional fits favor divisive over subtractive attenuation, but the strength is heterogeneous, and causal attribution is narrower than statistical fit. The gain experiment adds a manipulation against a specific force-dependent gating account, not proof against every nonpredictive process. Our deterministic calculation demonstrates both shared-memory cancellation and observational ambiguity under condition-specific calibration. Thirty checks pass. No participant data or model-fitting outputs were downloaded.
+
+## Primary source and population
+
+Valè N, Tomić I, Gironés Z, Wolpert DM, Kilteni K, Bays PM. [Divisive attenuation based on noisy sensorimotor predictions accounts for excess variability in self-touch](https://doi.org/10.1152/jn.00055.2025). J Neurophysiol 134:407–428 (2025). [PMID 40531356](https://pubmed.ncbi.nlm.nih.gov/40531356/), [PMCID PMC7617943](https://pmc.ncbi.nlm.nih.gov/articles/PMC7617943/). The lawful [Europe PMC manuscript XML](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7617943/fullTextXML) supplied the inspected methods, equations, Table 1 and results. Electronic publication is June 18, 2025, not a newly published October 2026 study. The manuscript is licensed CC BY 4.0; we publish original summaries, not its full text.
+
+Table 1 describes four datasets: Study 1 extends 28 participants with 93 new participants, giving 121 before four missing-data exclusions; Study 2 lists age-group counts 79, 131 and 108 and separately states four exclusions (two missing data, two without a target-matching correlation); Study 3 has 19 healthy controls and 19 participants with schizophrenia; Study 4 has 16 adults in three gain conditions. The printed table does not label all counts unambiguously as pre- or post-exclusion, so we do not create a single exact analyzed total or assume subgroup exclusion allocation. The three Study 2 groups are healthy adults across age; the clinical dataset concerns schizophrenia, not Tourette syndrome. Reused cohorts must not be counted as new replications of their earlier reports. Study 4 has no indirect condition.
+
+For Studies 1–3, externally applied target forces are reproduced either by pressing directly or controlling a slider/joystick. Matching force is the mean during a 500-ms interval, 2–2.5 seconds after the go signal. Apparatus, target ranges, force levels, trials and populations vary. These observations do not establish applicability to persistent severe adult tics, children, functional benefit or treatment response.
+
+## Assumptions required for the interpretation
+
+1. **Shared memory and comparison:** the remembered target and comparison processes have the same distribution in both conditions for a given target. Contraction toward previous target values can bias both. Matching direct force to the physical target alone does not remove that distortion. Equal target presentation is useful design evidence, but does not directly measure invariant memory or attention across response conditions.
+2. **An unattenuated indirect baseline:** the model sets predictive attenuation to zero during slider/joystick control. The authors motivate this by its unfamiliar action-consequence mapping and acknowledge that prolonged exposure might change it. Predictability alone is not assumed sufficient. If indirect attenuation exists, the relative contrast need not measure an absolute direct attenuation parameter.
+3. **Comparable calibration and response processes:** interpreting a condition ratio as sensory attenuation requires condition-specific motor/device calibration, attention, memory and decision changes not to explain it. These are audit requirements, not detected faults in the experiments. A 500-ms averaging window reduces fast motor noise; it does not logically exclude every systematic or slow response difference.
+4. **Restricted stochastic families:** indirect matching and the attenuation factor are normal; the factor's mean and SD are invariant across force levels within a fitted participant/model. Product moments entail an independence/factorization assumption between the factor and baseline force. Correlated factors or force-dependent parameters change the moments. The direct divisive distribution is approximated by a skew-normal with matched moments, not an exact product-normal density. Normal support also permits negative values; physiological adequacy depends on fitted ranges.
+5. **Hierarchical fitting and its comparison set:** individual-trial models are fitted jointly within study/subgroup, with population regularization. DIC compares the specified divisive and subtractive alternatives. It is not a Bayes factor, held-out prediction score, or test of all conceivable mechanisms. Direct-condition posterior predictive checks near 0.5 are fit diagnostics, not biological validation; the paper explicitly notes flexible indirect-force parameters are designed to fit that baseline closely. Detailed appendix priors and raw-chain diagnostics were not independently re-run.
+
+## Equations and discriminating observations
+
+Let I be the baseline indirect matching force at a fixed target, with mean m and variance v; let K have mean k and variance w. The following moments assume independent factors.
+
+- Additive-normal alternative: D = I + K; mean m + k; variance v + w; skewness zero.
+- Multiplicative-normal alternative: D = I K; mean mk; variance m²w + (k² + w)v; third central moment 6mk v w. Its standardized skewness is that third moment divided by variance to the power 3/2.
+
+Thus a constant direct-minus-indirect offset favors the specified additive relation, while a stable multiplicative ratio, force-dependent excess variance and positive skew can distinguish the divisive family. An absolute difference D − I is still proportional to baseline magnitude under a divisive model: it is not a force-independent latent attenuation strength.
+
+The manuscript's actual numerical support must be retained with its exceptions:
+
+- Divisive versus subtractive DIC improvement: Study 1 **1039.4**; each Study 2 age subgroup **at least 201**; Study 3 healthy controls **169.1**; Study 3 schizophrenia **2.5**. Direction is consistent, strength is not. The last subgroup weakly separates these models rather than independently establishing a decisive distinction.
+- Trial SD is greater for direct reproduction at matched target force, with regression comparisons reported above BF10 5.6. Accounting for mean output magnitude is the more discriminating comparison: the slope difference has BF10 **1.1 in Study 3 healthy controls**, versus above 591 in the other groups. A common direction is not uniformly strong evidence.
+- Study 1 estimated population mean factor is **1.61, 90% HDI 1.56–1.66**; factor SD **0.152, 90% HDI 0.128–0.174**. These are fitted latent-model quantities. Transforming the factor 1.61 gives 1 − 1/1.61 ≈ 0.379; this is not a directly observed clinical effect or the exact expectation of a nonlinear transform of a random factor.
+- Age-group mean-factor estimates rise from **1.45** to **1.71** to **1.97**, while the reported between-group factor-SD differences have 95% HDIs containing zero. Schizophrenia versus control mean-factor difference is **0.3361, 95% HDI 0.007–0.649** (control minus patient); corresponding SD difference **0.111, 95% HDI −0.008–0.234** does not exclude zero. Do not turn these null comparisons into proof of identical variability.
+
+### Gain manipulation and the nonpredictive account
+
+Study 4 changes transmission gain between active and passive fingers to 0.5, 1 and 2. This changes active force fourfold across extremes while passive matching is approximately comparable. A simple account in which attenuation scales with active muscle output or active-finger tactile input predicts a gain-dependent attenuation change. The reported factor estimates are **1.175 [1.066, 1.281]**, **1.204 [1.099, 1.312]**, and **1.191 [1.108, 1.269]**, respectively (90% HDIs). Pairwise mean-factor contrasts have 95% HDIs spanning zero; for example 0.5 minus 2 gain is **−0.016 [−0.176, 0.147]**.
+
+This challenges that simple monotonic gating explanation and is more informative than a direct/indirect association alone. However, the fit imports Study 1 population indirect parameters because Study 4 lacks an indirect baseline. This transport assumption is not independently validated here. Null contrasts were not an equivalence test with a prespecified negligible-effect margin. Saturating, adapted or differently conditioned alternatives are not exhausted. The authors discuss motor-noise, attention and prior free-energy accounts; these are alternative explanations and prior-art comparisons, not newly settled universal exclusions.
+
+Earlier target-offset findings are discussed in the manuscript as not decisive for subtraction without an indirect baseline. Our bounded attempt to retrieve the Walsh et al. 2011 primary XML (PMCID PMC3055542) returned HTTP 500; we did not independently re-audit that paper's methods and do not mislabel the failure a broken article. Its description here is attributed to Valè et al., not counted as a fresh independent extraction.
+
+## Completed synthetic identification check
+
+Run `python check_identification.py` in this directory. Inputs, equations and outputs are public in [the script](check_identification.py) and [synthetic-results.json](synthetic-results.json). Standard-library Python, no random sampling, no seed needed, no estimated human parameters.
+
+Invented shared memory is I = 0.5 + (2/3)T and the divisive factor is k = 1.5. Across six targets from 1 to 3.5, D = 1.5 I equals T + 0.75. **A perfectly constant direct-to-target offset coexists with a perfectly divisive direct-to-indirect ratio of 1.5.** Direct-minus-indirect instead rises from 0.5833 to 1.4167. Thus target-offset shape alone cannot distinguish subtraction from shared-memory distortion plus division.
+
+A separate independent-normal example uses means of I equal to 1, 2 or 3, SD 0.3, and factor mean 1.5, SD 0.2. The product variances are **0.2461, 0.3661 and 0.5661**, with positive skew. An additive example with offset mean 0.75, SD 0.2 has variance **0.13** and zero skew. Raw second and third normal moments independently reproduce the product formulas in the script.
+
+Finally, relabeling the independent multiplying factor as a random condition-specific response gain G produces the **same full product distribution**, not merely the same means and variances. Observing that distribution alone cannot choose the physiological meaning of the factor outside the constrained model. Likewise, in a deterministic extension, D/I = (k_D/k_I)(c_D/c_I)(m_D/m_I): different attenuation, calibration or memory ratios can share the same measured ratio. This is a mathematical non-identification example, not a claim that such a gain caused the published data or that the gain manipulation is uninformative. Additional manipulations and baseline checks supply evidence that a marginal distribution cannot.
+
+All **30 assertions passed**, including six-force memory examples, raw-moment cross-checks, zero-factor-noise limit and calibration/memory aliases. The calculation neither refits DIC nor reproduces empirical posterior distributions. It differs from the October 30 covariance demonstration: the new question is structural identification and competing generative interpretations, not uncertainty of a condition contrast.
+
+## Decision and next bounded step
+
+Close this model-assumption audit. Retain predictive divisive attenuation as a well-supported account within the tested experiments and model set, with heterogeneous comparison strength. Do not transfer a schizophrenia/healthy-adult latent model into Tourette severity or claim a cure target. The inaccessible TS paper's numerical contrast remains blocked by the same safe manuscript/aggregate-output prerequisite.
+
+Next useful step: audit published aggregate evidence on **within-session indirect-task learning and retest reliability of force-matching measures**, seeking a primary repeat-session/manipulation study with age, trial order and calibration details. Prediction: a clinically useful between-person attenuation measure should remain interpretable when task familiarity and baseline memory change; weaker reliability or systematic indirect-condition learning would challenge simple biomarker use. First establish whether safe published aggregate coefficients and uncertainty exist. Stop if the only route requires participant rows or contact. Do not repeat today's closed algebra or infer prospective utility from cross-sectional associations.

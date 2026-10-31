@@ -1,10 +1,17 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-30T02:56:07Z",
-  "lastResearchDate": "2026-10-30",
+  "updatedAt": "2026-10-31T03:31:43Z",
+  "lastResearchDate": "2026-10-31",
   "cadence": "Daily scheduled review; publication follows verified work.",
-  "latestSummary": "No new-window study result was verified; an older pediatric paper was added. A separate synthetic test shows why different significance labels cannot establish a difference between conditions.",
+  "latestSummary": "No new-window primary result was verified. A historical force-matching audit shows how memory and calibration affect interpretation; a new adolescent protocol and an adjacent regulatory review are not treatment results.",
   "timeline": [
+    {
+      "date": "2026-10-31",
+      "title": "A measurement needs its assumptions.",
+      "type": "Primary-model audit and synthetic identification check",
+      "summary": "A primary model and a synthetic example show why force matching needs a shared baseline before it can identify a mechanism. Older mixed-diagnosis evidence, a no-results protocol and an adjacent safety review remain distinct.",
+      "record": "https://github.com/dotjade/project-neurofreedom/blob/main/updates/2026-10-31/report.md"
+    },
     {
       "date": "2026-10-30",
       "title": "Test the difference, not two labels.",
@@ -165,13 +172,6 @@
       "type": "Primary-study harmonization",
       "summary": "Four studies used different ways to identify tic absence. Meaningful improvement and observable tics can coexist. No single pooled remission rate was calculated.",
       "record": "https://github.com/dotjade/project-neurofreedom/blob/main/analyses/remission/2026-10-09-harmonization.md"
-    },
-    {
-      "date": "2026-10-08",
-      "title": "A convincing pattern still needs a test.",
-      "type": "Synthetic methods test",
-      "summary": "A reproducible cycle-detection benchmark compared repeating fits with future forecasts and nonperiodic baselines. Generated data tested a method, not a biological mechanism.",
-      "record": "https://github.com/dotjade/project-neurofreedom/blob/main/analyses/cycle_detection/README.md"
     }
   ],
   "findings": [
@@ -181,7 +181,7 @@
       "type": "Primary qualitative study",
       "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10863457/",
       "label": "Isaacs and colleagues, 2024",
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-10-31",
       "linkState": "Direct HTTP 203 access-limited; article metadata not verified in this pass"
     },
     {
@@ -190,7 +190,7 @@
       "type": "Primary longitudinal study",
       "url": "https://www.neurology.org/doi/10.1212/01.WNL.0000086370.10186.7C",
       "label": "Pappert and colleagues, 2003",
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-10-31",
       "linkState": "Publisher HTTP 403 challenge; institutional primary PDF available"
     },
     {
@@ -199,7 +199,7 @@
       "type": "Primary adult cohort study",
       "url": "https://link.springer.com/content/pdf/10.1186/s44247-026-00284-7.pdf",
       "label": "Ivanova and colleagues, 2026",
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-10-31",
       "linkState": "Primary PDF retrievable through this check"
     }
   ],
@@ -266,6 +266,6 @@
     "trend": [],
     "message": "No public ratings are collected yet. There are no votes or trends to show."
   },
-  "activityEditionDate": "2026-10-30",
-  "featuredActivityId": "music-or-silence"
+  "activityEditionDate": "2026-10-31",
+  "featuredActivityId": "small-silly-mark"
 }

@@ -1,0 +1,43 @@
+{
+  "checkedAt": "2026-10-31T03:31:10.349332+00:00",
+  "baseline_reconstructed_exact": true,
+  "normalized_outputs_reproduced": 7,
+  "checks": [
+    {
+      "path": "biorxiv-preprint-index.tsv",
+      "sha256": "2e0ccc1e6b8d198e50afec3ca36997f83f99f1f6d899730c3c46f55bd5623fe7",
+      "exact": true
+    },
+    {
+      "path": "medrxiv-preprint-index.tsv",
+      "sha256": "67a7b8ea366c7e905e9d8a731f3baa63baf637a39766ba28b1dabe121370d37c",
+      "exact": true
+    },
+    {
+      "path": "pubmed-screening.jsonl",
+      "sha256": "cbf798f33d8c77001f288d88d30abd21f6238036cb86aea3b929cf1616fcb8f6",
+      "exact": true
+    },
+    {
+      "path": "registry-evidence.jsonl",
+      "sha256": "bbc0e22ac4e9488f68764741f9f3375040ef0f396fe8542499433d809e42773d",
+      "exact": true
+    },
+    {
+      "path": "request-log.json",
+      "sha256": "68a54bd89b30560a9a1c8738eab87ec6a7dac3b6a44f498c898f21b0778cf5ec",
+      "exact": true
+    },
+    {
+      "path": "search-log.json",
+      "sha256": "7fc7d2a8c12225a20b528a85c6baa50fcf7271491593647ad9e95613e6876cc2",
+      "exact": true
+    },
+    {
+      "path": "summary.json",
+      "sha256": "ebc9d68fd14957462478cdee75860e806c9c5811e0be6d0bf9e5e702289c7ae0",
+      "exact": true
+    }
+  ],
+  "note": "Reproduction from transient captured source metadata, not rerunning clinical data or asserting stable live APIs."
+}

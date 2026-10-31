@@ -1,0 +1,47 @@
+{
+  "checkedAt": "2026-10-31T03:29:11.560519+00:00",
+  "baselineCommit": "8b9fd54ff445e8f5e74ffffa48f49a80ad36990b",
+  "sources": [
+    {
+      "path": "README.md",
+      "sha256": "6b1d997e495751f81c97048c86cd8864732cdd8313cc3d9363605bb4425721d2"
+    },
+    {
+      "path": "RESEARCH_PROTOCOL.md",
+      "sha256": "6f0025df7fd62fc2fe952cfbca96fca811ae76b917b7e7d4d45a501fe89e6859"
+    },
+    {
+      "path": "STATUS.md",
+      "sha256": "802e82a975352b71ba849cd7ced8ff1feb3ebcdbc927c5797e9940839d346317"
+    },
+    {
+      "path": "evidence.jsonl",
+      "sha256": "8924486e6bcaa823bba3015ca59ce036c99683b78e7aa570e0fb01aba0551b02"
+    },
+    {
+      "path": "public/journal-source/README.md",
+      "sha256": "809173b6459331730d4fd9b0df135079b1e8dfdb030f4babbfc0055fcec1197e"
+    },
+    {
+      "path": "updates/2026-10-30/scan/summary.json",
+      "sha256": "bbe5c771a5c443bfdf11ad53d0406a42335347584228af9194d90574a172919c"
+    },
+    {
+      "path": "updates/2026-10-30/scan/pubmed-screening.jsonl",
+      "sha256": "39874f1a5aec2c9d219d14121d59eed5fc84e8b6fc7be76015000984c10b4174"
+    },
+    {
+      "path": "updates/2026-10-30/scan/registry-evidence.jsonl",
+      "sha256": "d7378095b68a951785474caa53f34ba2a6f2ac63f5468d5935571317a74ef523"
+    },
+    {
+      "path": "updates/2026-10-30/scan/biorxiv-preprint-index.tsv",
+      "sha256": "42385e44860fef031108159d4a65a31937b850c7d5e82edecaf41827ca77d9b9"
+    },
+    {
+      "path": "updates/2026-10-30/scan/medrxiv-preprint-index.tsv",
+      "sha256": "28a2f233aec37d01489368333db044fb2205cd2124443c452fa2ba0b0242364b"
+    }
+  ],
+  "scope": "Public scientific citation/protocol metadata and original summaries; no participant or source full-text persistence."
+}

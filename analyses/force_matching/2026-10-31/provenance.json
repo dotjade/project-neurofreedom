@@ -1,0 +1,49 @@
+{
+  "checked_at_utc": "2026-10-31T03:29:28.530393+00:00",
+  "sources": [
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7617943/fullTextXML",
+      "status": "HTTP 200, complete main manuscript read",
+      "sha256": "b6b4b43a124d33b613157c3a3008c4d3f6b0f9dcc92f549f5eed31427e793b2d",
+      "license": "CC BY 4.0 in manuscript permissions",
+      "retained_in_repository": false
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40531356/",
+      "status": "Readable metadata, PMID/DOI/date match"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:40531356%20AND%20SRC:MED&format=json&resultType=core",
+      "status": "HTTP 200; correction field contains preprint link only, no correction/retraction notice",
+      "note": "Bounded check, not comprehensive publication-integrity review"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7617943/",
+      "status": "Initial web reader browser challenge; no challenge bypassed"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC3055542/fullTextXML",
+      "status": "HTTP 500; prior comparator not independently re-audited"
+    }
+  ],
+  "searches": [
+    {
+      "query": "\"10.1152/jn.00055.2025\" correction retraction",
+      "date": "2026-10-31",
+      "result": "No specific correction/retraction notice identified; metadata check concordant"
+    }
+  ],
+  "limits": [
+    "No participant or mixed data files accessed",
+    "No appendix prior/chain reanalysis",
+    "No clinical or prospective validation",
+    "Original summaries only; no full paper copied"
+  ],
+  "calculation": {
+    "type": "synthetic deterministic algebra",
+    "code": "check_identification.py",
+    "output": "synthetic-results.json",
+    "checks_passed": 30,
+    "seed": null
+  }
+}

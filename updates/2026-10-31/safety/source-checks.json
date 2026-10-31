@@ -1,0 +1,168 @@
+{
+  "previousCutoff": "2026-10-30T02:51:09Z",
+  "completedAt": "2026-10-31T03:29:09.444619+00:00",
+  "sources": [
+    {
+      "label": "FDA drug communications",
+      "url": "https://www.fda.gov/drugs/drug-safety-and-availability/drug-safety-communications",
+      "checkedAt": "2026-10-31T03:26:46Z/2026-10-31T03:28:21Z",
+      "method": "Public web reader; selected index/metadata sections unless noted",
+      "status": "retrieved",
+      "result": "Latest listed communication September 15, outside incremental window.",
+      "limitations": "Bounded review, not complete pharmacovigilance; linked attachments not reviewed unless separately listed."
+    },
+    {
+      "label": "FDA device communications",
+      "url": "https://www.fda.gov/medical-devices/medical-device-safety/safety-communications",
+      "checkedAt": "2026-10-31T03:26:46Z/2026-10-31T03:28:21Z",
+      "method": "Public web reader; selected index/metadata sections unless noted",
+      "status": "retrieved",
+      "result": "Latest June 3, outside window.",
+      "limitations": "Bounded review, not complete pharmacovigilance; linked attachments not reviewed unless separately listed."
+    },
+    {
+      "label": "FDA CDRH news",
+      "url": "https://www.fda.gov/medical-devices/medical-devices-news-and-events/cdrh-new-news-and-updates",
+      "checkedAt": "2026-10-31T03:26:46Z/2026-10-31T03:28:21Z",
+      "method": "Public web reader; selected index/metadata sections unless noted",
+      "status": "retrieved",
+      "result": "Three October 30 headings: mammography contact change, hospital glucose-meter instruction correction, PF4 assay recall. Outside explicit tic-therapy watch; five October 29 entries also screened.",
+      "limitations": "Bounded review, not complete pharmacovigilance; linked attachments not reviewed unless separately listed."
+    },
+    {
+      "label": "FDA alerts and statements",
+      "url": "https://www.fda.gov/drugs/drug-safety-and-availability/drug-alerts-and-statements",
+      "checkedAt": "2026-10-31T03:26:46Z/2026-10-31T03:28:21Z",
+      "method": "Public web reader; selected index/metadata sections unless noted",
+      "status": "retrieved",
+      "result": "Latest statement October 22; latest alert May 15, outside window.",
+      "limitations": "Bounded review, not complete pharmacovigilance; linked attachments not reviewed unless separately listed."
+    },
+    {
+      "label": "EMA new content",
+      "url": "https://www.ema.europa.eu/en/news-events/whats-new",
+      "checkedAt": "2026-10-31T03:26:46Z/2026-10-31T03:28:21Z",
+      "method": "Public web reader; selected index/metadata sections unless noted",
+      "status": "retrieved",
+      "result": "37 October 30 rows screened before October 29. Deanxit referral and meeting highlights followed. Safety-related product-information workbook link returned unsupported type in web reader; its contents not reviewed. Other listed substances outside named core watch.",
+      "limitations": "Bounded review, not complete pharmacovigilance; linked attachments not reviewed unless separately listed."
+    },
+    {
+      "label": "EMA PRAC signals",
+      "url": "https://www.ema.europa.eu/en/human-regulatory-overview/post-authorisation/pharmacovigilance-post-authorisation/signal-management/prac-recommendations-safety-signals",
+      "checkedAt": "2026-10-31T03:26:46Z/2026-10-31T03:28:21Z",
+      "method": "Public web reader; selected index/metadata sections unless noted",
+      "status": "retrieved",
+      "result": "Latest published signal recommendations October 26, references 206892/2026 and 206903/2026. Not reread PDFs.",
+      "limitations": "Bounded review, not complete pharmacovigilance; linked attachments not reviewed unless separately listed."
+    },
+    {
+      "label": "EMA PRAC October meeting",
+      "url": "https://www.ema.europa.eu/en/news/meeting-highlights-pharmacovigilance-risk-assessment-committee-prac-26-29-october-2026",
+      "checkedAt": "2026-10-31T03:26:46Z/2026-10-31T03:28:21Z",
+      "method": "Public web reader; selected index/metadata sections unless noted",
+      "status": "retrieved",
+      "result": "October 30 announcement followed to referral. Separately reports a review of batch-associated human-immunoglobulin hypersensitivity reports; cause unresolved and outside core watch. Web reader sparse; ordinary anonymous HTTP supplied article text, retained only this summary.",
+      "limitations": "Bounded review, not complete pharmacovigilance; linked attachments not reviewed unless separately listed."
+    },
+    {
+      "label": "EMA referral",
+      "url": "https://www.ema.europa.eu/en/medicines/human/referrals/flupentixol-melitracen-containing-medicinal-products",
+      "checkedAt": "2026-10-31T03:26:46Z/2026-10-31T03:28:21Z",
+      "method": "Public web reader; selected index/metadata sections unless noted",
+      "status": "retrieved",
+      "result": "See regulatory-evidence.json for the original extraction and unresolved date distinction.",
+      "limitations": "Bounded review, not complete pharmacovigilance; linked attachments not reviewed unless separately listed."
+    },
+    {
+      "label": "EMA notice PDF",
+      "url": "https://www.ema.europa.eu/en/documents/referral/flupentixol-melitracen-containing-medicinal-products-article-31-referral-prac-starts-review-depression-anxiety-medicine-deanxit-flupentixol-melitracen_en.pdf",
+      "checkedAt": "2026-10-31T03:26:46Z/2026-10-31T03:28:21Z",
+      "method": "Public web reader; selected index/metadata sections unless noted",
+      "status": "retrieved",
+      "result": "Two-page notice identity and publication date verified; no paper bytes retained.",
+      "limitations": "Bounded review, not complete pharmacovigilance; linked attachments not reviewed unless separately listed."
+    },
+    {
+      "label": "MHRA Drug Safety Update",
+      "url": "https://www.gov.uk/drug-safety-update",
+      "checkedAt": "2026-10-31T03:26:46Z/2026-10-31T03:28:21Z",
+      "method": "Public web reader; selected index/metadata sections unless noted",
+      "status": "retrieved",
+      "result": "Latest dated item October 26. October 15 antidepressant communication and July botulinum warning are older, not new-window findings.",
+      "limitations": "Bounded review, not complete pharmacovigilance; linked attachments not reviewed unless separately listed."
+    },
+    {
+      "label": "MHRA alerts",
+      "url": "https://www.gov.uk/drug-device-alerts",
+      "checkedAt": "2026-10-31T03:26:46Z/2026-10-31T03:28:21Z",
+      "method": "Public web reader; selected index/metadata sections unless noted",
+      "status": "retrieved",
+      "result": "Index ordering is not purely chronological: October 27 roundup precedes two October 29 recalls. Lercanidipine and Mynzepli recalls are outside named watch. No October 30 heading seen in bounded section.",
+      "limitations": "Bounded review, not complete pharmacovigilance; linked attachments not reviewed unless separately listed."
+    },
+    {
+      "label": "TGA safety updates",
+      "url": "https://www.tga.gov.au/news/safety-updates",
+      "checkedAt": "2026-10-31T03:26:46Z/2026-10-31T03:28:21Z",
+      "method": "Public web reader; selected index/metadata sections unless noted",
+      "status": "retrieved",
+      "result": "Latest indexed update October 14. Maintenance banner displayed; direct supplementary urllib request returned 503, while web reader supplied dated index. Coverage incomplete, not proof of outage.",
+      "limitations": "Bounded review, not complete pharmacovigilance; linked attachments not reviewed unless separately listed."
+    },
+    {
+      "label": "TGA safety alerts",
+      "url": "https://www.tga.gov.au/safety/safety-monitoring-and-information/safety-alerts",
+      "checkedAt": "2026-10-31T03:26:46Z/2026-10-31T03:28:21Z",
+      "method": "Public web reader; selected index/metadata sections unless noted",
+      "status": "retrieved",
+      "result": "New October 30 unapproved nicotine-gum alert outside named watch; no tic-treatment or catalog relevance inferred. Notice not reviewed in full.",
+      "limitations": "Bounded review, not complete pharmacovigilance; linked attachments not reviewed unless separately listed."
+    },
+    {
+      "label": "Health Canada recall index",
+      "url": "https://recalls-rappels.canada.ca/en",
+      "checkedAt": "2026-10-31T03:26:46Z/2026-10-31T03:28:21Z",
+      "method": "Public web reader; selected index/metadata sections unless noted",
+      "status": "retrieved",
+      "result": "Ten recent displayed headings: two October 30, eight October 29. Food, consumer or non-watch health products; no named core watch match. Attachments not reviewed.",
+      "limitations": "Bounded review, not complete pharmacovigilance; linked attachments not reviewed unless separately listed."
+    },
+    {
+      "label": "ESSTS",
+      "url": "https://www.essts.org/partners",
+      "checkedAt": "2026-10-31T03:26:46Z/2026-10-31T03:28:21Z",
+      "method": "Public web reader; selected index/metadata sections unless noted",
+      "status": "retrieved",
+      "result": "2022 version 2.0 guidance remains; further update under consideration, not issued.",
+      "limitations": "Bounded review, not complete pharmacovigilance; linked attachments not reviewed unless separately listed."
+    },
+    {
+      "label": "AAN",
+      "url": "https://www.aan.com/PressRoom/Home/PressRelease/2721",
+      "checkedAt": "2026-10-31T03:26:46Z/2026-10-31T03:28:21Z",
+      "method": "Public web reader; selected index/metadata sections unless noted",
+      "status": "retrieved",
+      "result": "May 6, 2019 release, not newly issued.",
+      "limitations": "Bounded review, not complete pharmacovigilance; linked attachments not reviewed unless separately listed."
+    },
+    {
+      "label": "AWMF TicCare",
+      "url": "https://www.awmf.org/aktuelles/awmf-aktuell/diagnostik-und-behandlung-primaerer-tic-stoerungen-ticcare",
+      "checkedAt": "2026-10-31T03:26:46Z/2026-10-31T03:28:21Z",
+      "method": "Public web reader; selected index/metadata sections unless noted",
+      "status": "retrieved",
+      "result": "October 1 registration announcement, version 6.0, not completed guideline.",
+      "limitations": "Bounded review, not complete pharmacovigilance; linked attachments not reviewed unless separately listed."
+    },
+    {
+      "label": "NICE NG127",
+      "url": "https://www.nice.org.uk/guidance/ng127",
+      "checkedAt": "2026-10-31T03:26:46Z/2026-10-31T03:28:21Z",
+      "method": "Public web reader; selected index/metadata sections unless noted",
+      "status": "access_limited",
+      "result": "HTTP 403; no substantive current verification.",
+      "limitations": "Bounded review, not complete pharmacovigilance; linked attachments not reviewed unless separately listed."
+    }
+  ]
+}

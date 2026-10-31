@@ -1,0 +1,20 @@
+{
+  "checked_date": "2026-10-31",
+  "queries": [
+    "Tourette syndrome October 30 2026 trial study",
+    "Tourette tic disorder October 31 2026 preprint study",
+    "\"10.1016/j.psychres.2026.117545\"",
+    "\"10.1007/s00787-024-02633-1\""
+  ],
+  "results": "Secondary discovery identified NCT07905898, then verified against official ClinicalTrials.gov selected-field API. Other hits historical or secondary; no social posts opened or retained. Correction 40111559 confirmed as March 20, 2025 through official NLM metadata; no new notice.",
+  "web_tool_direct_access_limits": [
+    "Direct PubMed opens for 42956657 and 42956658 returned internal errors; official NLM eutils succeeded.",
+    "Direct 40111559 open cache miss; official NLM eutils and search metadata succeeded."
+  ],
+  "primary_sources": [
+    "https://pubmed.ncbi.nlm.nih.gov/42956657/",
+    "https://pubmed.ncbi.nlm.nih.gov/42956658/",
+    "https://pubmed.ncbi.nlm.nih.gov/40111559/",
+    "https://clinicaltrials.gov/study/NCT07905898"
+  ]
+}

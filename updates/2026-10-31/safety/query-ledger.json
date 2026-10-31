@@ -1,0 +1,21 @@
+{
+  "previousCutoff": "2026-10-30T02:51:09Z",
+  "searchIntervalUTC": "2026-10-31T03:26:31Z/2026-10-31T03:26:46Z",
+  "queries": [
+    "site:fda.gov (aripiprazole OR risperidone OR guanfacine OR NeuroStar OR ecopipam) after:2026-10-29 before:2026-11-01",
+    "site:ema.europa.eu (aripiprazole OR risperidone OR pimozide OR haloperidol OR deutetrabenazine) after:2026-10-29 before:2026-11-01",
+    "site:gov.uk (Tourette OR guanfacine OR aripiprazole OR botulinum OR antidepressants) after:2026-10-29 before:2026-11-01",
+    "site:tga.gov.au (Tourette OR methylphenidate OR clonidine OR botulinum OR atomoxetine) after:2026-10-29 before:2026-11-01",
+    "(Tourette OR \"tic disorder\") (guideline OR safety OR warning OR recall) after:2026-10-29 before:2026-11-01",
+    "(ecopipam OR Neupulse OR valbenazine OR tetrabenazine OR topiramate OR tiapride) (safety OR recall OR warning) after:2026-10-29 before:2026-11-01"
+  ],
+  "displayedResultCards": null,
+  "countLimitation": "Returned cards were screened, but a stable exhaustive result count was not captured; no unique-event count is inferred.",
+  "watch": "Core tic treatments: ecopipam; aripiprazole, risperidone, pimozide, haloperidol; clonidine, guanfacine; valbenazine, deutetrabenazine, tetrabenazine; Neupulse/median-nerve stimulation, rTMS/NeuroStar and DBS. Supplementary: topiramate, botulinum toxin, tiapride, methylphenidate, atomoxetine, lisdexamfetamine, fluvoxamine, sertraline and antidepressants. Broader co-occurring-condition communication considered separately. Not exhaustive.",
+  "qualifyingNewCoreWatchFindings": 0,
+  "newAdjacentRegulatoryCommunications": 1,
+  "newIssuedTicGuidelinesVerified": 0,
+  "screening": "Old labels/guidance, unrelated material, duplicate recalls and search crawl dates were not counted as new safety events. Individual adverse-event search cards were excluded without retaining narratives.",
+  "dedup": "Repository-wide text search of updates and evidence.jsonl found no previous Deanxit/flupentixol/melitracen record. NeuroStar Z-0142-2027/event 99812 already recorded October 14 and later; October 29 footer is not a new event.",
+  "calendarWindowCaveat": "October 30 publication date has no clock time; do not claim publication strictly after the prior October 30 02:51:09 UTC cutoff."
+}

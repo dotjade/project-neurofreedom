@@ -1,0 +1,282 @@
+{
+  "createdAt": "2026-10-31T03:33:54.825836+00:00",
+  "baseCommit": "8b9fd54ff445e8f5e74ffffa48f49a80ad36990b",
+  "files": [
+    {
+      "path": "STATUS.md",
+      "bytes": 106138,
+      "sha256": "7bd5a4913587398f2746485c5ae480097b8e3372819bde92380462a4f9783d6b"
+    },
+    {
+      "path": "analyses/force_matching/2026-10-31/check_identification.py",
+      "bytes": 3459,
+      "sha256": "efc6d1bf2189a263e7dd02871d637a30caf80217ebed1339676f763469f85e02"
+    },
+    {
+      "path": "analyses/force_matching/2026-10-31/evidence-record.json",
+      "bytes": 4469,
+      "sha256": "35b327ec73d25c36e4087f38519cd6279f6a679831653ffe149038379012d501"
+    },
+    {
+      "path": "analyses/force_matching/2026-10-31/provenance.json",
+      "bytes": 1837,
+      "sha256": "0e9e05ad3b8c389348b046dc423c2a79b8e8ec380f659b01a71dbec6608fcc77"
+    },
+    {
+      "path": "analyses/force_matching/2026-10-31/report.md",
+      "bytes": 13497,
+      "sha256": "d05f47b89aadf3a1cfbd18b86626ddb526ef7a6b26937760ff58c5c9b34d3051"
+    },
+    {
+      "path": "analyses/force_matching/2026-10-31/synthetic-results.json",
+      "bytes": 3972,
+      "sha256": "cea3622995d8972c91a7dc22a840c87697b62cb1596cfce564a731daf5a95f5b"
+    },
+    {
+      "path": "evidence.jsonl",
+      "bytes": 132270,
+      "sha256": "e742fb4c881d50d1661329aa5f1ae8d7973bdca7ddadcecea22ca5a5bf9fd2de"
+    },
+    {
+      "path": "public/link-checks/2026-10-31.json",
+      "bytes": 39269,
+      "sha256": "25035d2dec661fcc3cb98188db2a780d705c4fbe66721d0d5aabbdf415bb45bd"
+    },
+    {
+      "path": "public/research-feed.json",
+      "bytes": 16765,
+      "sha256": "a9023dc32ad30d8936a9b39a947439f1b41ecdb0d1890ef16c7f4c5be0ab269c"
+    },
+    {
+      "path": "updates/2026-10-31/independent-review.json",
+      "bytes": 8299,
+      "sha256": "b70ba75666e28b0149a39d7e35144e8486f8840787c6157e9f1618c64da44df5"
+    },
+    {
+      "path": "updates/2026-10-31/independent-review.md",
+      "bytes": 3518,
+      "sha256": "c38d1a126b311c1e7e1cb44f3c2e6451a31ff6feac53099deba158653ca601fe"
+    },
+    {
+      "path": "updates/2026-10-31/independent_math_check.py",
+      "bytes": 3562,
+      "sha256": "fcd38a9597c38e61e953a0bffea16760b9514a778359d989fdd7035f4feff406"
+    },
+    {
+      "path": "updates/2026-10-31/integration-validation.json",
+      "bytes": 2477,
+      "sha256": "d67d1ce4d5c9bcfcd36fa5d934658c1b9ac38b24f75b09d6b9363f1f55284532"
+    },
+    {
+      "path": "updates/2026-10-31/provenance.json",
+      "bytes": 1756,
+      "sha256": "6424f3bd126b82aced87aeeb81590bd4b0143954fe49402b4423f3b985a14b78"
+    },
+    {
+      "path": "updates/2026-10-31/report.md",
+      "bytes": 7400,
+      "sha256": "28601f973532de72a4a9725a0db8cb99c6986bbcda3420e8935cca68e1634d55"
+    },
+    {
+      "path": "updates/2026-10-31/safety/catalog-safety-check.json",
+      "bytes": 1155,
+      "sha256": "b7aea5f90925b76e5baa1f53622d0489bad5d7d7af9942261a8ef7af72883b7e"
+    },
+    {
+      "path": "updates/2026-10-31/safety/check_homepage_links.py",
+      "bytes": 7230,
+      "sha256": "7826effd736d17744694015d0197dc82b6dc2cad001292bd5a4b5a262c5da3d7"
+    },
+    {
+      "path": "updates/2026-10-31/safety/check_links.py",
+      "bytes": 5968,
+      "sha256": "a87279e8b8a55cca3b07f3d7074271296e2ec61637d6bff2b24ae6b4638e3cc7"
+    },
+    {
+      "path": "updates/2026-10-31/safety/check_supplement.py",
+      "bytes": 6944,
+      "sha256": "239662c237172443504abe497450ba9957fc9f961a3ee4de3bccfff4f93c823c"
+    },
+    {
+      "path": "updates/2026-10-31/safety/homepage-link-check.json",
+      "bytes": 7946,
+      "sha256": "9754ee4b3ca5ca17603ceaf09fcc68b664498e598aba08b430b23fb5dc880076"
+    },
+    {
+      "path": "updates/2026-10-31/safety/link-check-rerun.json",
+      "bytes": 30466,
+      "sha256": "56fe59ac3bafd10633414fd1318123fdf2124afb13ea72657d5ec6df88fe4885"
+    },
+    {
+      "path": "updates/2026-10-31/safety/query-ledger.json",
+      "bytes": 2292,
+      "sha256": "142f3b52a45da88c0924b29aa914398632f16e056266836135d013f90f9acae4"
+    },
+    {
+      "path": "updates/2026-10-31/safety/regulatory-evidence.json",
+      "bytes": 2089,
+      "sha256": "32f3877b393c451f8d8b0cf8c1bf776b8483e8f927cdf41526776b075cae7f7f"
+    },
+    {
+      "path": "updates/2026-10-31/safety/report.md",
+      "bytes": 6277,
+      "sha256": "15d233ac64b5ac97d9b407368c89c882140e97f6e4be1dcb1a76472264de4950"
+    },
+    {
+      "path": "updates/2026-10-31/safety/repository-provenance.json",
+      "bytes": 1639,
+      "sha256": "129f8e53d5d7e6fe2b2f7928c5d85f9bd2e15cbbe2ae1b093997bf395e9c9ed6"
+    },
+    {
+      "path": "updates/2026-10-31/safety/source-checks.json",
+      "bytes": 10842,
+      "sha256": "d6141e270f0d2711ab48478bb44cd388d166971b1ddb3253b10351f4c8373a9e"
+    },
+    {
+      "path": "updates/2026-10-31/safety/supplementary-checks.json",
+      "bytes": 3945,
+      "sha256": "202ab65de0f2f228e7540daa5a00133f4691fd1b87f2c1a55b4d025249e62fad"
+    },
+    {
+      "path": "updates/2026-10-31/safety/validate.py",
+      "bytes": 2045,
+      "sha256": "6122efa0d84932ee5ec109e13604a3f7f96b3e91e77320139c5157e5fbdddee0"
+    },
+    {
+      "path": "updates/2026-10-31/safety/validation.json",
+      "bytes": 1224,
+      "sha256": "0ceb39aed935e92d51dc735ff364e26b33ed2f1690a6a0c202e88a82ce8e2f59"
+    },
+    {
+      "path": "updates/2026-10-31/scan/biorxiv-preprint-index.tsv",
+      "bytes": 20834,
+      "sha256": "2e0ccc1e6b8d198e50afec3ca36997f83f99f1f6d899730c3c46f55bd5623fe7"
+    },
+    {
+      "path": "updates/2026-10-31/scan/build_results.py",
+      "bytes": 7899,
+      "sha256": "d067dac8acb8aa2ba0e285ccff425e11c5c7c89e7754544ebac103c045be62f6"
+    },
+    {
+      "path": "updates/2026-10-31/scan/check_integrity_controls.py",
+      "bytes": 1493,
+      "sha256": "f9a01cc7a47b548f65e53c3a076df8a7a7f36972bebe64985f8c6569eedbefd7"
+    },
+    {
+      "path": "updates/2026-10-31/scan/discovery-log.json",
+      "bytes": 1011,
+      "sha256": "f3027f2dd4406788e9aca5737783da4c70de15751b4dd44af731996c25358fa6"
+    },
+    {
+      "path": "updates/2026-10-31/scan/integrity-control-source.json",
+      "bytes": 1679,
+      "sha256": "f7d0b82d4ae81d70c3fbdcec464d9fb52723b46cbc51c458c5a4d34815fde991"
+    },
+    {
+      "path": "updates/2026-10-31/scan/integrity-recheck.json",
+      "bytes": 459,
+      "sha256": "05f5aeb248ff68288639009afd81ed623c65c198e9b28b3206ea328673f52a4a"
+    },
+    {
+      "path": "updates/2026-10-31/scan/medrxiv-preprint-index.tsv",
+      "bytes": 6859,
+      "sha256": "67a7b8ea366c7e905e9d8a731f3baa63baf637a39766ba28b1dabe121370d37c"
+    },
+    {
+      "path": "updates/2026-10-31/scan/prepare_baseline.py",
+      "bytes": 1214,
+      "sha256": "56bebea61c04d32e54df8a2684733c4bf95e8b9e70beeceb404349499bcc549d"
+    },
+    {
+      "path": "updates/2026-10-31/scan/primary-evidence.jsonl",
+      "bytes": 3251,
+      "sha256": "6e91ba4a53acbe3e2b24ce6489ee0339895197faf6692b83a7496118c9457c4c"
+    },
+    {
+      "path": "updates/2026-10-31/scan/prism-protocol-summary.json",
+      "bytes": 1741,
+      "sha256": "a1462e25a617e79eb46ee6d7c60dff08f8f04c7aaacdad56f13481e7d6efcf21"
+    },
+    {
+      "path": "updates/2026-10-31/scan/provenance.json",
+      "bytes": 1720,
+      "sha256": "afd44ae740e939d2a0be210d4d0d6165dc00d8467f23aea52b53845b6aabef2e"
+    },
+    {
+      "path": "updates/2026-10-31/scan/pubmed-screening.jsonl",
+      "bytes": 35764,
+      "sha256": "cbf798f33d8c77001f288d88d30abd21f6238036cb86aea3b929cf1616fcb8f6"
+    },
+    {
+      "path": "updates/2026-10-31/scan/registry-evidence.jsonl",
+      "bytes": 8333,
+      "sha256": "bbc0e22ac4e9488f68764741f9f3375040ef0f396fe8542499433d809e42773d"
+    },
+    {
+      "path": "updates/2026-10-31/scan/report.md",
+      "bytes": 9654,
+      "sha256": "b0b8117df6077e466a1f6447f86a3202a95a6039f5200c3b12966ec6dc25245b"
+    },
+    {
+      "path": "updates/2026-10-31/scan/reproduction-check.json",
+      "bytes": 1361,
+      "sha256": "b6529c870e236014d4dee8793c5f9c48a788e9244115fa34f934522c1d83b598"
+    },
+    {
+      "path": "updates/2026-10-31/scan/request-log.json",
+      "bytes": 16211,
+      "sha256": "68a54bd89b30560a9a1c8738eab87ec6a7dac3b6a44f498c898f21b0778cf5ec"
+    },
+    {
+      "path": "updates/2026-10-31/scan/scan_sources.py",
+      "bytes": 9533,
+      "sha256": "98ed52ffad1c450040ad3de3693fdcf435bc07fcfb5f02fb692e7d73290123ce"
+    },
+    {
+      "path": "updates/2026-10-31/scan/scan_supplement.py",
+      "bytes": 2349,
+      "sha256": "b3b885847664e38c783900eb287f30eab8e3fcb27e7e5da26db80da2ca448587"
+    },
+    {
+      "path": "updates/2026-10-31/scan/search-log.json",
+      "bytes": 22093,
+      "sha256": "7fc7d2a8c12225a20b528a85c6baa50fcf7271491593647ad9e95613e6876cc2"
+    },
+    {
+      "path": "updates/2026-10-31/scan/secondary-evidence.json",
+      "bytes": 1076,
+      "sha256": "35ea044b95044e77a7099174703615d78ae3b0315b28c0f8a7ab76dd66a94862"
+    },
+    {
+      "path": "updates/2026-10-31/scan/selected-source-request.json",
+      "bytes": 273,
+      "sha256": "f602fd32a642b6d8dfaa8b531a2a70b4bc25e9b2f7e283d90d785915c779f42d"
+    },
+    {
+      "path": "updates/2026-10-31/scan/summary.json",
+      "bytes": 1018,
+      "sha256": "ebc9d68fd14957462478cdee75860e806c9c5811e0be6d0bf9e5e702289c7ae0"
+    },
+    {
+      "path": "updates/2026-10-31/scan/supplement-selected-metadata.json",
+      "bytes": 2818,
+      "sha256": "20a6361a3733ff94b7b9feb9153c415444bc92d69c42afbc18e55d7a54d24458"
+    },
+    {
+      "path": "updates/2026-10-31/scan/validate_artifacts.py",
+      "bytes": 4548,
+      "sha256": "5e054ad0f136c29df4673ed139b1e723d4557a292294f6bdca1c496dfbe480ef"
+    },
+    {
+      "path": "updates/2026-10-31/scan/validation.json",
+      "bytes": 1426,
+      "sha256": "a8033a602d0a2e27f1f6ecab15c9d6387751788165660fdb75eb9fe68bfaa473"
+    },
+    {
+      "path": "updates/2026-10-31/validate_integration.py",
+      "bytes": 3013,
+      "sha256": "e9e1cc326d09226f2d76a5041478fd124706f4ea0dc9047355737750084b98c3"
+    }
+  ],
+  "scope": "Authored research snapshot before publication verification receipt; manifest excludes itself."
+}

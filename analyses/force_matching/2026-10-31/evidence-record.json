@@ -1,0 +1,74 @@
+{
+  "id": "vale2025_force_matching_divisive_model",
+  "title": "Divisive attenuation based on noisy sensorimotor predictions accounts for excess variability in self-touch",
+  "authors": "Nicola Valè; Ivan Tomić; Zahara Gironés; Daniel M Wolpert; Konstantina Kilteni; Paul M Bays",
+  "year": 2025,
+  "pmid": "40531356",
+  "pmcid": "PMC7617943",
+  "doi": "10.1152/jn.00055.2025",
+  "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7617943/fullTextXML",
+  "electronic_publication_date": "2025-06-18",
+  "evidence_type": "peer-reviewed primary computational model and new/previously published human force-matching experiments",
+  "new_publication_after_prior_cutoff": false,
+  "population": "Healthy adults across adult age range plus schizophrenia/control groups; no Tourette cohort. Study 1 includes 93 new participants added to 28 previously reported.",
+  "sample": {
+    "study1_table_n": 121,
+    "study1_missing_data_exclusions": 4,
+    "study2_table_groups": [
+      79,
+      131,
+      108
+    ],
+    "study2_stated_exclusions": 4,
+    "study3_control_n": 19,
+    "study3_schizophrenia_n": 19,
+    "study4_n": 16,
+    "denominator_caveat": "Table pre/post-exclusion status and Study 2 allocation not fully explicit; no pooled analyzed denominator asserted."
+  },
+  "exposure": "Direct finger reproduction versus indirect slider/joystick reproduction; separate study manipulates active-to-passive gain 0.5, 1 and 2.",
+  "outcomes": "Matching-force means, SD, skewness; hierarchical attenuation factor mean/SD; DIC and posterior predictive fit diagnostics.",
+  "followup": "Laboratory task; no prospective clinical outcome or disease-modification follow-up.",
+  "results": {
+    "delta_DIC_favoring_divisive": {
+      "study1": 1039.4,
+      "study2_each_age_group_minimum": 201,
+      "study3_control": 169.1,
+      "study3_schizophrenia": 2.5
+    },
+    "study1_factor_mean": 1.61,
+    "study1_factor_mean_90_HDI": [
+      1.56,
+      1.66
+    ],
+    "study1_factor_SD": 0.152,
+    "study1_factor_SD_90_HDI": [
+      0.128,
+      0.174
+    ],
+    "gain_mean_factors": [
+      1.175,
+      1.204,
+      1.191
+    ]
+  },
+  "negative_findings": "Mean-matched direct/indirect variability slope BF10=1.1 in Study 3 controls. Gain-contrast 95% HDIs and between-group attenuation-factor SD differences include zero; not equivalence. Schizophrenia model separation ΔDIC=2.5 weak despite favored direction.",
+  "risk_of_bias": [
+    "Restricted comparison of two normal-factor models, not exhaustive mechanism test",
+    "Indirect attenuation assumed absent; shared memory/comparison and calibration required",
+    "Product moment independence/factorization; skew-normal approximation",
+    "Study 4 imports Study 1 indirect population parameters",
+    "Reused cohorts, heterogeneous apparatus/age, modest schizophrenia/gain samples",
+    "No held-out clinical prediction or prospective Tourette validation"
+  ],
+  "adverse_events": "No treatment evaluated; no clinical safety inference.",
+  "funding_conflicts": "ERC TICKLISHUMAN 101039152 and Wellcome Trust 106926 reported; authors declare no competing interests.",
+  "cohort_overlap": "Study 1 extends Kilteni and Ehrsson 2020; Studies 2–4 reuse Wolpe 2016, Shergill 2005 and Bays/Wolpert 2008. Related preprint DOI 10.1101/2024.06.20.599826 is not independent replication.",
+  "claim_supported": "Divisive predictive attenuation fits these tasks under stated assumptions; target-only matching conflates memory with attenuation; gain manipulation challenges simple active-force gating.",
+  "claim_not_supported": "A universally pure biological measure, exclusion of all nonpredictive alternatives, Tourette causation, clinical biomarker validity or treatment benefit.",
+  "access": "Full main author manuscript via Europe PMC, CC BY 4.0 verified. No participant data, appendix fitting or unlicensed source retention.",
+  "extraction_date": "2026-10-31",
+  "reviewer": "AI-assisted primary-methods audit; independent verification recorded separately by integrating run",
+  "correction_retraction_check": "Europe PMC core metadata has related preprint link only; exact DOI correction/retraction web search found no notice. Bounded check, not exhaustive.",
+  "next_verification_task": "Primary published aggregate audit of indirect-task learning and repeat-session reliability; stop if only participant data/contact available.",
+  "followup_audit": "analyses/force_matching/2026-10-31/report.md"
+}

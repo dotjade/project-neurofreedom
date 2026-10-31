@@ -1,0 +1,167 @@
+{
+  "reviewedAt": "2026-10-31T03:32:22.362008+00:00",
+  "review_type": "Independent source and deterministic-arithmetic audit, not clinical peer review or participant reanalysis",
+  "result": "pass_with_explicit_limits",
+  "source_checks": [
+    {
+      "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7617943/fullTextXML",
+      "status": "HTTP 200; transient parsing of lawful CC BY 4.0 author manuscript; no full text saved",
+      "checks": [
+        "No Tourette cohort; healthy adult age groups and schizophrenia comparison",
+        "Study 1 table 121 and four stated exclusions; Study 2 groups 79/131/108 and four exclusions; no pooled analyzed denominator assumed",
+        "DIC improvements 1039.4; Study 2 minimum 201; control 169.1; schizophrenia 2.5",
+        "Study 1 factor 1.61, 90% HDI [1.56,1.66], SD .152 [.128,.174]",
+        "Gain factors 1.175/1.204/1.191 and gain contrasts include zero",
+        "Study 4 imports Study 1 indirect parameters",
+        "Schizophrenia control-minus-patient factor difference .3361 [.007,.649]; SD .111 [-.008,.234]",
+        "Model families conditional on baseline assumptions; no all-mechanisms proof",
+        "CC BY 4.0 license and no competing interests declaration verified"
+      ]
+    },
+    {
+      "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:40531356&format=json&resultType=core",
+      "status": "HTTP 200; bibliographic metadata",
+      "checks": [
+        "PMID 40531356 DOI 10.1152/jn.00055.2025 title match",
+        "First publication 2025-06-18; historical, not new-window",
+        "Related preprint link only in comment-correction metadata; no linked correction/retraction there, not exhaustive clearance"
+      ]
+    },
+    {
+      "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:42956657&format=json&resultType=core",
+      "status": "HTTP 200; abstract and metadata only",
+      "checks": [
+        "DOI 10.1016/j.psychres.2026.117545, first publication 2026-10-20",
+        "Mixed OCD/OCPD/tic-TS postmortem DLPFC microarray analysis, not TS-specific estimate",
+        "Primary HRH3 eta-squared .035, p .033, BF10 2.96",
+        "Secondary genes correction-null and exploratory HRH4 BF10 1.20 preserved",
+        "No n, age, TS-specific estimate or causal/functional claim derived from abstract"
+      ]
+    },
+    {
+      "source": "https://clinicaltrials.gov/api/v2/studies/NCT07905898",
+      "status": "HTTP 200; official protocol only, no participant data",
+      "checks": [
+        "NOT_YET_RECRUITING and hasResults false",
+        "First post 2026-10-30, ages 12 to 18",
+        "Estimated top-line enrollment 95 versus narrative 85 adolescents; 10+15+60 phases, only 60 planned randomized",
+        "Supportive-care pilot/feasibility and blinded outcomes assessor, not efficacy result or adult validation"
+      ]
+    }
+  ],
+  "independent_math": {
+    "checks": [
+      "row0:indirect",
+      "row0:direct",
+      "row0:direct_minus_target",
+      "row0:direct_over_indirect",
+      "row0:direct_minus_indirect",
+      "row1:indirect",
+      "row1:direct",
+      "row1:direct_minus_target",
+      "row1:direct_over_indirect",
+      "row1:direct_minus_indirect",
+      "row2:indirect",
+      "row2:direct",
+      "row2:direct_minus_target",
+      "row2:direct_over_indirect",
+      "row2:direct_minus_indirect",
+      "row3:indirect",
+      "row3:direct",
+      "row3:direct_minus_target",
+      "row3:direct_over_indirect",
+      "row3:direct_minus_indirect",
+      "row4:indirect",
+      "row4:direct",
+      "row4:direct_minus_target",
+      "row4:direct_over_indirect",
+      "row4:direct_minus_indirect",
+      "row5:indirect",
+      "row5:direct",
+      "row5:direct_minus_target",
+      "row5:direct_over_indirect",
+      "row5:direct_minus_indirect",
+      "product0:mean",
+      "calibration0:mean",
+      "product0:variance",
+      "calibration0:variance",
+      "product0:skewness",
+      "calibration0:skewness",
+      "subtractive0:mean",
+      "subtractive0:variance",
+      "subtractive0:skew",
+      "product1:mean",
+      "calibration1:mean",
+      "product1:variance",
+      "calibration1:variance",
+      "product1:skewness",
+      "calibration1:skewness",
+      "subtractive1:mean",
+      "subtractive1:variance",
+      "subtractive1:skew",
+      "product2:mean",
+      "calibration2:mean",
+      "product2:variance",
+      "calibration2:variance",
+      "product2:skewness",
+      "calibration2:skewness",
+      "subtractive2:mean",
+      "subtractive2:variance",
+      "subtractive2:skew",
+      "no random sampling",
+      "explicit synthetic label"
+    ],
+    "checks_passed": 59,
+    "method": "Independent exact rational raw moments via binomial expansion and Gaussian even moments; no import of implementation."
+  },
+  "implementation_reexecution": {
+    "exitCode": 0,
+    "checks_passed": 30,
+    "exact_output_reproduced": true,
+    "sha256": "cea3622995d8972c91a7dc22a840c87697b62cb1596cfce564a731daf5a95f5b"
+  },
+  "artifact_hashes": {
+    "analyses/force_matching/2026-10-31/synthetic-results.json": "cea3622995d8972c91a7dc22a840c87697b62cb1596cfce564a731daf5a95f5b",
+    "analyses/force_matching/2026-10-31/check_identification.py": "efc6d1bf2189a263e7dd02871d637a30caf80217ebed1339676f763469f85e02",
+    "analyses/force_matching/2026-10-31/evidence-record.json": "35b327ec73d25c36e4087f38519cd6279f6a679831653ffe149038379012d501",
+    "analyses/force_matching/2026-10-31/provenance.json": "0e9e05ad3b8c389348b046dc423c2a79b8e8ec380f659b01a71dbec6608fcc77",
+    "analyses/force_matching/2026-10-31/report.md": "d05f47b89aadf3a1cfbd18b86626ddb526ef7a6b26937760ff58c5c9b34d3051",
+    "updates/2026-10-31/report.md": "28601f973532de72a4a9725a0db8cb99c6986bbcda3420e8935cca68e1634d55",
+    "updates/2026-10-31/scan/report.md": "b0b8117df6077e466a1f6447f86a3202a95a6039f5200c3b12966ec6dc25245b",
+    "updates/2026-10-31/safety/report.md": "15d233ac64b5ac97d9b407368c89c882140e97f6e4be1dcb1a76472264de4950",
+    "STATUS.md": "7bd5a4913587398f2746485c5ae480097b8e3372819bde92380462a4f9783d6b",
+    "public/research-feed.json": "a9023dc32ad30d8936a9b39a947439f1b41ecdb0d1890ef16c7f4c5be0ab269c",
+    "evidence.jsonl": "e742fb4c881d50d1661329aa5f1ae8d7973bdca7ddadcecea22ca5a5bf9fd2de"
+  },
+  "issues": [],
+  "limits": [
+    "Calibration relabeling is mathematical observational equivalence, not a fitted empirical alternative or proof against the gain experiment.",
+    "59 independent assertions check arithmetic and labels, not empirical biological truth.",
+    "No DIC/posterior refit, participant data, appendix MCMC diagnostics or held-out clinical validation.",
+    "Histamine full methods inaccessible in this review; source remains abstract-only.",
+    "New registry enrollment discrepancy retained, not resolved by inference.",
+    "Final scan and integration reports reviewed for consistency and source classification; source acquisition not independently rerun in full.",
+    "Safety source acquisition was not independently rerun by this reviewer; integrating reviewer separately checked EMA primary notice.",
+    "Validator reexecution refreshed the scan validation receipt timestamp; does not recreate historical network availability."
+  ],
+  "integration_review": {
+    "reviewed_files": [
+      "updates/2026-10-31/report.md",
+      "updates/2026-10-31/scan/report.md",
+      "updates/2026-10-31/safety/report.md",
+      "STATUS.md",
+      "public/research-feed.json",
+      "evidence.jsonl"
+    ],
+    "scan_validator_passed": 42,
+    "safety_validator_passed": 28,
+    "deployed_schema_validator": "passed",
+    "approved_catalog_exactly_preserved": true,
+    "feedback_exactly_preserved_and_disabled": true,
+    "two_primary_evidence_records_appended_prior_records_preserved": true,
+    "no_new_window_publication_claim": "Correctly limited to no qualifying new primary first publication/preprint/posted result; older paper, new protocol and adjacent communication kept distinct",
+    "safety_date_caveat": "October 30 notice, conflicting October 16 prose and October 29 metadata initiation; no monotherapy/class inference",
+    "clinical_scope": "Persistent severe adults/function/comorbidity retained; no TS validation from healthy/schizophrenia model",
+    "result": "pass"
+  }
+}
