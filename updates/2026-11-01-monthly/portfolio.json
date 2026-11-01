@@ -1,0 +1,126 @@
+{
+  "date": "2026-11-01",
+  "meaning": "Conditional research-work priority, not treatment ranking or probability of truth",
+  "rows": [
+    {
+      "hypothesis_target": "H01 CELSR3 downstream repair",
+      "anchor_replication": "Rare-variant association plus model perturbation; variant phenotypes differ and adult rescue is unproved. The 2026 gene map is not independent replication of reused samples.",
+      "falsifier": "Engaged correction after maturation fails to restore a prespecified network phenotype across variants.",
+      "priority_feasibility_safety": "B: prioritize as a precision-model arm only with independent isogenic/variant replication and a laboratory. No patient gene editing."
+    },
+    {
+      "hypothesis_target": "H02 NRXN1/CNTN6 synaptic dosage",
+      "anchor_replication": "Rare, pleiotropic CNV associations; deletion and duplication are not the same perturbation or established shared endotype.",
+      "falsifier": "Separate classes fail to converge beyond non-TS developmental controls.",
+      "priority_feasibility_safety": "B: aggregate evidence mapping feasible; model access and qualified laboratory missing. No broad synaptic treatment inference."
+    },
+    {
+      "hypothesis_target": "H03 5q15 regulatory program",
+      "anchor_replication": "GWAS locus association; effector gene, tissue and direction unresolved; summary statistics are not verified acquired.",
+      "falsifier": "Fine-mapped regulatory evidence favors another gene or validated perturbation misses the nominated phenotype.",
+      "priority_feasibility_safety": "B conditional on lawful summary statistics and ancestry-matched reference inputs; no broad NR2F1 manipulation."
+    },
+    {
+      "hypothesis_target": "H04 ASH1L downstream module",
+      "anchor_replication": "Genetic/model support does not prove selective mature rescue; broad chromatin effects complicate specificity.",
+      "falsifier": "Selective engaged module correction fails, or only early global correction works.",
+      "priority_feasibility_safety": "C for intervention investment; B only for qualified mechanistic replication. Broad epigenetic intervention deferred."
+    },
+    {
+      "hypothesis_target": "H05 HDC/histamine endotype",
+      "anchor_replication": "Rare etiologic human/model anchor, not general histamine deficiency; the October pilot pools diagnoses and cannot validate a TS selector.",
+      "falsifier": "Neural signature fails independent replication or response is nonspecific motor suppression.",
+      "priority_feasibility_safety": "B rare-mechanism research, C general-population translation. No peripheral-histamine diagnostic or supplement inference."
+    },
+    {
+      "hypothesis_target": "H06 cell-specific D3 localization",
+      "anchor_replication": "CELSR3 model perturbation is a causal preclinical lead, not human target validation; global antagonism combines compartments.",
+      "falsifier": "Cell-restricted normalization fails while nonspecific motor suppression changes behavior.",
+      "priority_feasibility_safety": "B paired with H01; independent human-variant model and normal-movement controls required. No drug-selection claim."
+    },
+    {
+      "hypothesis_target": "H07 D1 plus durable learning",
+      "anchor_replication": "Randomized on-treatment D1 benefit anchors the idea; responder withdrawal is maintenance, small adult evidence uncertain. Durable synergy itself untested.",
+      "falsifier": "Informative factorial interaction and post-exposure contrast exclude worthwhile added durability.",
+      "priority_feasibility_safety": "A for existing trial outcome/estimand synthesis; B for future regulated trial. No withdrawal experiment here."
+    },
+    {
+      "hypothesis_target": "H08 parvalbumin timing",
+      "anchor_replication": "Small severe-adult postmortem association cannot separate cell number/state or cause/consequence.",
+      "falsifier": "Restored selective timing leaves abnormal release unchanged, or only suppresses ordinary movement.",
+      "priority_feasibility_safety": "B mechanistic replication; no current open validated human assay or lab. Cell transplantation not justified."
+    },
+    {
+      "hypothesis_target": "H09 cholinergic dynamics",
+      "anchor_replication": "Model ablation supports plausibility; human VAChT PET null challenges universal terminal loss. Timing is a distinct unproved claim, not a null-evasion device.",
+      "falsifier": "Timing-matched intervention fails against activity-matched control with engagement.",
+      "priority_feasibility_safety": "B conditional laboratory work; no global cholinergic enhancement inference."
+    },
+    {
+      "hypothesis_target": "H10 microglial state",
+      "anchor_replication": "Six-versus-six postmortem association, no established upstream causality; donor and tissue confounding remain.",
+      "falsifier": "Temporal cell-swap/correction shows neuronal defect independent of microglial state.",
+      "priority_feasibility_safety": "C: replication and causal direction first; no immune-treatment escalation."
+    },
+    {
+      "hypothesis_target": "H11 MSN metabolism",
+      "anchor_replication": "Transcription is not respiration; compensation, treatment and tissue effects remain viable explanations.",
+      "falsifier": "Verified metabolic normalization leaves dysfunction unchanged or worsens it.",
+      "priority_feasibility_safety": "C: living-model functional replication first; no supplement or dietary recommendation."
+    },
+    {
+      "hypothesis_target": "H12 compensatory SMA GABA",
+      "anchor_replication": "Human MRS association, age-study disagreement, no replicated treatment-selector interaction.",
+      "falsifier": "Reliable externally tested marker adds no predictive treatment interaction beyond clinical baseline.",
+      "priority_feasibility_safety": "B design only; longitudinal compatible data missing. Bulk GABA is not synaptic inhibition or a treatment direction."
+    },
+    {
+      "hypothesis_target": "H13 NMDA learning augmentation",
+      "anchor_replication": "Small targeted-tic pilot versus negative generic glutamatergic trials; no demonstrated global durable generalization.",
+      "falsifier": "Adequate engaged learning change fails to generalize or persist.",
+      "priority_feasibility_safety": "B conditional confirmatory design; A only for existing outcome mapping. No off-label intervention."
+    },
+    {
+      "hypothesis_target": "H14 endocannabinoid selector",
+      "anchor_replication": "Small positive crossover, larger inconclusive CANNA-TICS primary endpoint and negative MAGL trial; no independent selector. Weekly direct-function audit does not establish superiority.",
+      "falsifier": "Prespecified biomarker fails replicated interaction with informative precision.",
+      "priority_feasibility_safety": "C target escalation; A for resolving existing function/harms evidence. No post hoc subgroup promoted or cannabis advice."
+    },
+    {
+      "hypothesis_target": "H15 network-informed cortical targeting",
+      "anchor_replication": "Severe-adult connectivity associations and convergent cohorts are useful; not randomized superiority of targeting. Negative SMA trial retained.",
+      "falsifier": "Group-map specificity fails spatial nulls, or an informative randomized comparison excludes worthwhile superiority despite verified engagement.",
+      "priority_feasibility_safety": "B: one bounded group-only map/code/license gate before free-compute replication. No individual scans or stimulation."
+    },
+    {
+      "hypothesis_target": "H16 responsive DBS",
+      "anchor_replication": "Small refractory-adult feasibility cohorts, overlapping reports, state/recall mismatches; functional superiority unproved.",
+      "falsifier": "Held-out decoding fails or no worthwhile exposure-adjusted benefit over optimized continuous DBS.",
+      "priority_feasibility_safety": "B for aggregate methodology, C new execution without specialist center. No surgery or device changes."
+    },
+    {
+      "hypothesis_target": "H17 MNS sensory mechanism",
+      "anchor_replication": "Short-term controlled benefit retained; rhythm-versus-arrhythmia contrast challenges rhythm necessity, follow-up attrition limits durability.",
+      "falsifier": "Sensation-matched control and engagement comparison fail the specific mechanism.",
+      "priority_feasibility_safety": "A existing trial interpretation; B independent governed mechanistic replication. No device construction or self-stimulation."
+    },
+    {
+      "hypothesis_target": "H18 personalized CBIT",
+      "anchor_replication": "Pediatric/adult randomized symptomatic benefit is established anchor; returnee maintenance and functional contrasts do not validate model-guided matching.",
+      "falsifier": "Identifiable parameters fail to improve outcomes over equal-intensity standard care out of sample.",
+      "priority_feasibility_safety": "A patient-centered evidence synthesis; B prospective matching evaluation. No inference that persistent tics reflect inadequate effort."
+    },
+    {
+      "hypothesis_target": "H19 protective developmental trajectory",
+      "anchor_replication": "Longitudinal associations and ascertainment discordance, not causal protection or universal remission. Adult severe persistence explicitly retained.",
+      "falsifier": "Marker fails external prospective value or targeted functional perturbation fails.",
+      "priority_feasibility_safety": "B only with suitable longitudinal access; generic cohort search already closed. Do not substitute childhood improvement for adult need."
+    },
+    {
+      "hypothesis_target": "H20 SHH-GLI/ciliary rescue",
+      "anchor_replication": "Few-donor organoids support developmental mechanism exploration, not mature therapeutic reversibility.",
+      "falsifier": "Blinded independent donor replication or late rescue fails.",
+      "priority_feasibility_safety": "B for mechanism, C clinical translation. Broad developmental manipulation deferred."
+    }
+  ]
+}

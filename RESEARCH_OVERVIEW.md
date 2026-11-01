@@ -124,3 +124,10 @@ A research program toward better understanding, effective treatments and ultimat
 - [CM-aGPi primary-methods audit](analyses/cm_agpi/2026-10-20/report.md): adult applicability, five analyzed contributors, recording-state discrepancies, statistical-unit uncertainty and linked-cohort boundaries.
 - [No-data compatibility diagnostic](analyses/cm_agpi/2026-10-20/testing-unit-check.json) and [independent review](analyses/cm_agpi/2026-10-20/review/independent_review.md): exact paired-test assumptions are explicit; no clinical or author-error inference.
 - [Safety scan](updates/2026-10-20/safety/report.md) and [existing research-link checks](public/link-checks/2026-10-20.json).
+
+
+## First monthly portfolio review - 1 November 2026
+
+- [Complete review and decisions](updates/2026-11-01-monthly/report.md): all twenty hypotheses/therapeutic targets and eight computational packages, completed versus proposed work, counterevidence and realistic access/resource gates.
+- [Conditional priority table](updates/2026-11-01-monthly/portfolio.json) and [independent review](updates/2026-11-01-monthly/independent-review.md). These are research priorities, not treatment ranks or clinical validation.
+- Immediate focus: existing adult function/harms evidence; conditional next discovery step: group-only network artifact/permission feasibility. No new simulation, homepage change or owner action required.

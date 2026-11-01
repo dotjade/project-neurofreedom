@@ -508,3 +508,12 @@ Do not promote tic improvement into generalized pain/QoL benefit, selected retur
 ## Evidence-status clarification - 25 October 2026
 
 The [third weekly synthesis](updates/2026-10-25-weekly-synthesis.md) retires unsupported bridges, not biological possibilities: phase-leading state association is not causal tic initiation; short-state tic assessment is not responsive-stimulation-specific functional benefit; retrospective/pooled association is not validated prospective/adult-subgroup prediction; report counts are not independent replications. H16 responsive-stimulation utility remains a testable extension, not promoted or falsified by missing compatible aggregate function estimates. H07/H13, H17–H19 remain at their prior evidentiary status. Registry amendments do not establish motive, and null tests do not establish equivalence. Direct burden and co-occurring-condition outcomes remain necessary across ages and severities.
+
+
+## Current portfolio priorities - 1 November 2026 monthly review
+
+The [complete monthly review](updates/2026-11-01-monthly/report.md) and [machine-readable decision table](updates/2026-11-01-monthly/portfolio.json) supersede historical unconditional execution priorities above, not the source evidence or original falsifiers. Research-work priority is separate from biological confidence and treatment choice. All twenty causal/therapeutic extensions remain unvalidated.
+
+First resolve existing adult direct-function/harms evidence using the weekly CANNA-TICS documentation gate. This does not promote H14 as a therapeutic target. Next, conditionally inventory group-only H15/C2 maps, code, license and compute requirements; the earlier 'highest-priority public computation' wording did not establish acquired lawful inputs or an executed spatial-null analysis. Close completed gene-membership and force-matching methods exercises unless new safe aggregate quantities resolve their stated gaps. H01/H06 remain a conditional genetically anchored discovery arm requiring independent qualified laboratory replication. H10/H11 immune/metabolic escalation and H14 unvalidated selector investment remain deferred.
+
+No cure, patient model, validated biomarker, compound shortlist, collaboration or controlled-data access follows from this ranking. Direct function, persistent severe adult needs, co-occurring burden and all-age applicability remain explicit; no treatment change, participant collection or outreach is authorized.

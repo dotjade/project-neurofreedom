@@ -1,0 +1,131 @@
+{
+  "tested_at": "2026-11-01T03:57:55.376701+00:00",
+  "kind": "Editorial structure checks, not scientific validation",
+  "count": 31,
+  "checks": [
+    {
+      "check": "H01 exactly once in table",
+      "passed": true
+    },
+    {
+      "check": "H02 exactly once in table",
+      "passed": true
+    },
+    {
+      "check": "H03 exactly once in table",
+      "passed": true
+    },
+    {
+      "check": "H04 exactly once in table",
+      "passed": true
+    },
+    {
+      "check": "H05 exactly once in table",
+      "passed": true
+    },
+    {
+      "check": "H06 exactly once in table",
+      "passed": true
+    },
+    {
+      "check": "H07 exactly once in table",
+      "passed": true
+    },
+    {
+      "check": "H08 exactly once in table",
+      "passed": true
+    },
+    {
+      "check": "H09 exactly once in table",
+      "passed": true
+    },
+    {
+      "check": "H10 exactly once in table",
+      "passed": true
+    },
+    {
+      "check": "H11 exactly once in table",
+      "passed": true
+    },
+    {
+      "check": "H12 exactly once in table",
+      "passed": true
+    },
+    {
+      "check": "H13 exactly once in table",
+      "passed": true
+    },
+    {
+      "check": "H14 exactly once in table",
+      "passed": true
+    },
+    {
+      "check": "H15 exactly once in table",
+      "passed": true
+    },
+    {
+      "check": "H16 exactly once in table",
+      "passed": true
+    },
+    {
+      "check": "H17 exactly once in table",
+      "passed": true
+    },
+    {
+      "check": "H18 exactly once in table",
+      "passed": true
+    },
+    {
+      "check": "H19 exactly once in table",
+      "passed": true
+    },
+    {
+      "check": "H20 exactly once in table",
+      "passed": true
+    },
+    {
+      "check": "C1 exactly once in status table",
+      "passed": true
+    },
+    {
+      "check": "C2 exactly once in status table",
+      "passed": true
+    },
+    {
+      "check": "C3 exactly once in status table",
+      "passed": true
+    },
+    {
+      "check": "C4 exactly once in status table",
+      "passed": true
+    },
+    {
+      "check": "C5 exactly once in status table",
+      "passed": true
+    },
+    {
+      "check": "C6 exactly once in status table",
+      "passed": true
+    },
+    {
+      "check": "C7 exactly once in status table",
+      "passed": true
+    },
+    {
+      "check": "C8 exactly once in status table",
+      "passed": true
+    },
+    {
+      "check": "no em dash",
+      "passed": true
+    },
+    {
+      "check": "no simulation claimed monthly",
+      "passed": true
+    },
+    {
+      "check": "all portfolio rows four columns",
+      "passed": true
+    }
+  ]
+}
