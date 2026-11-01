@@ -1,0 +1,39 @@
+{
+  "research_commit": "607688a066fa273f4ebda1f89c15dfa7e84b2d6a",
+  "correction_commit": "f3c1c516ad36d0b1a6204f2fd9ace8bc68212876",
+  "baseline": "b7f62741cc6e92517d0a99134ff4fc01450be947",
+  "verified_at_utc": "2026-11-01T04:01:48.582692+00:00",
+  "exact_authored_count": 10,
+  "exact_files": {
+    "STATUS.md": "377bed89c7d36386a6bbe0a06446a9d682cd7432c47ce8451e8d4c4180af21b1",
+    "hypotheses.md": "03681d2e2256b71447dba863ecc6b4633ad6634b3a481108305969a2f0d2d4c3",
+    "RESEARCH_OVERVIEW.md": "ac88e9716a3545d5e135297a3c1fae132272077647f23f7b24bb025b0c35cb4a",
+    "updates/2026-11-01-monthly/independent-review.md": "2a2c1ef2f183297e338d79aee84e2847ed0b6f71671c131b1137ef04f9e6982d",
+    "updates/2026-11-01-monthly/portfolio.json": "b93e059f5d886849ab9334d120a78cc0f071b8f8fa1980359fe2a222f8f413e4",
+    "updates/2026-11-01-monthly/report.md": "21485847d36ae805eac162ff95e76b11301d672098526e562bb5d4ebb0106675",
+    "updates/2026-11-01-monthly/source-checks.json": "f36b8aead1445d16b62513bc697099cf491e6b180386340a250dfd18b2de85c1",
+    "updates/2026-11-01-monthly/source-manifest.json": "f46a0dcbb7695d547e1699ecd7ac626a44a271dfe20b5aa0da575d97e41b756b",
+    "updates/2026-11-01-monthly/validate.py": "be4f42d62e1af221e04cea6f13c4c97179b719bd52657a68ce2f1fc40e0ad33b",
+    "updates/2026-11-01-monthly/validation.json": "190835996c62e345f241cfc83d7c2655985273e4ea2e26e544f18e2f16808061"
+  },
+  "unrelated_preserved_count": 1261,
+  "feed_unchanged": true,
+  "checks": {
+    "editorial_structure": 31,
+    "relative_links_exist": 11,
+    "independent_interpretive_review": "completed; three refinements integrated"
+  },
+  "scope": "Monthly source review; no new clinical computation, scan or homepage update",
+  "execution_notes": [
+    "Destructive reset sync rejected before execution. State inspected; non-destructive fast-forward merge preserved monthly drafts.",
+    "Initial STATUS transfer truncated by command-output limit. Exact readback detected mismatch; preserved complete local source reuploaded with bounded base64 chunks in correction commit. All10files now exact against prepublication hashes; unrelated files checked against premonthly baseline."
+  ],
+  "ci_scope": "Research/docs-only paths do not trigger existing deployment workflow; no deployment claimed",
+  "connector_readback": "portfolio.json exact at correction commit",
+  "ci_check": {
+    "head_sha": "f3c1c516ad36d0b1a6204f2fd9ace8bc68212876",
+    "total_count": 0,
+    "date": "2026-11-01",
+    "approximately_utc": "04:01:49"
+  }
+}
