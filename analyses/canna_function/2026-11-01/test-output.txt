@@ -1,0 +1,15 @@
+test_all_events (test_analysis.Tests.test_all_events) ... ok
+test_denominators (test_analysis.Tests.test_denominators) ... ok
+test_deterministic (test_analysis.Tests.test_deterministic) ... ok
+test_discrepancy (test_analysis.Tests.test_discrepancy) ... ok
+test_equal_groups (test_analysis.Tests.test_equal_groups) ... ok
+test_exchange (test_analysis.Tests.test_exchange) ... ok
+test_invalid (test_analysis.Tests.test_invalid) ... ok
+test_null_compatible (test_analysis.Tests.test_null_compatible) ... ok
+test_primary (test_analysis.Tests.test_primary) ... ok
+test_zero_events (test_analysis.Tests.test_zero_events) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.001s
+
+OK

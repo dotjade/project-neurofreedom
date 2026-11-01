@@ -1,0 +1,22 @@
+{
+  "baseline_commit": "3bba0b5cdffed63f1df8e635ca0077bdafe88a84",
+  "generated_at": "2026-11-01T03:50:04.829034+00:00",
+  "scope": "Weekly synthesis; reuse verified daily scans, no new global scan",
+  "files": {
+    "README.md": "6b1d997e495751f81c97048c86cd8864732cdd8313cc3d9363605bb4425721d2",
+    "RESEARCH_PROTOCOL.md": "6f0025df7fd62fc2fe952cfbca96fca811ae76b917b7e7d4d45a501fe89e6859",
+    "STATUS.md": "d5ae3839db354bada36b244dbf23e963da31eb75cc98812518f6a42e6d6bcd29",
+    "hypotheses.md": "ba5085cf6700292f9b6751d7d11cd8b44339ac08a06f40d9e9d8c9b56483c85e",
+    "roadmap.md": "ac477bf401b3c5aa8fe6f5b39f519bf92a9f4a702f445a2c4f6008dfd10de077",
+    "evidence.jsonl": "bd29c34bcaae21452d86acc56bd52dbd1abb2d0c97209bfd58dfb76c3a27d1e7",
+    "public/journal-source/README.md": "809173b6459331730d4fd9b0df135079b1e8dfdb030f4babbfc0055fcec1197e",
+    "updates/2026-10-25-weekly-synthesis.md": "f4728a8e54d9e3478f7abb39180b7340dfb644e6ff46dec69e26ffb03a3dfd0d",
+    "updates/2026-10-26/report.md": "3938bf34c02b319283ad65dbdc9feb545340c6adf295551b646c1178c73d1609",
+    "updates/2026-10-27/report.md": "4d89b3d0e9cd7e347dfbf04501a1aa55c1143988fed189e313c56f3624bab947",
+    "updates/2026-10-28/report.md": "cfb6c851ef6e5bf77dfdb889dba9154917ecfaae9e9c8d2618f54ce4d440afbe",
+    "updates/2026-10-29/report.md": "0808d1affc40f5fa9890a387d48d5b2a85f1fe72591d75a40409f08dbec2785d",
+    "updates/2026-10-30/report.md": "0c02c9aa9d924510bcacfe4bcd07127126041708d7803ba17fe4472ff7a195f8",
+    "updates/2026-10-31/report.md": "28601f973532de72a4a9725a0db8cb99c6986bbcda3420e8935cca68e1634d55",
+    "updates/2026-11-01/report.md": "8d379acf1b6bd4fd9e708e10490163b5ddbf971474e242f6a18bf286e158ac2f"
+  }
+}

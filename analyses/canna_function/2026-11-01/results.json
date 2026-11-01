@@ -1,0 +1,100 @@
+{
+  "classification": "Exploratory deterministic published-aggregate audit, not simulation or clinical validation",
+  "seed": null,
+  "primary_unadjusted": {
+    "direction": "nabiximols minus placebo",
+    "response_proportions": [
+      0.21875,
+      0.09090909090909091
+    ],
+    "risk_difference": 0.1278409090909091,
+    "newcombe_wilson_95ci": [
+      -0.03943769547178835,
+      0.2578374467450961
+    ],
+    "risk_ratio": 2.40625,
+    "log_wald_rr_95ci": [
+      0.7437854271931781,
+      7.784555667284125
+    ],
+    "limitations": "Independent unadjusted binary estimates do not reconstruct center-stratified Mantel-Haenszel analysis. Missing primary outcomes classified nonresponse as in source. RR interval is approximate and small event counts limit precision."
+  },
+  "functional_audit": [
+    {
+      "endpoint": "GTS-QoL normalized",
+      "reported_contrast": -4.13,
+      "ci95": [
+        -8.65,
+        0.39
+      ],
+      "interval_contains_zero": true,
+      "lsm_subtraction": "-4.13",
+      "subtraction_minus_reported": "0.00",
+      "compatible_under_two_decimal_rounding": true,
+      "reported_p": 0.07
+    },
+    {
+      "endpoint": "GTS-QoL VAS",
+      "reported_contrast": 5.55,
+      "ci95": [
+        -0.69,
+        11.8
+      ],
+      "interval_contains_zero": true,
+      "lsm_subtraction": "-0.83",
+      "subtraction_minus_reported": "-6.38",
+      "compatible_under_two_decimal_rounding": false,
+      "reported_p": 0.08
+    },
+    {
+      "endpoint": "YGTSS impairment",
+      "reported_contrast": -4.12,
+      "ci95": [
+        -8.45,
+        0.22
+      ],
+      "interval_contains_zero": true,
+      "lsm_subtraction": "-4.12",
+      "subtraction_minus_reported": "0.00",
+      "compatible_under_two_decimal_rounding": true,
+      "reported_p": 0.06
+    },
+    {
+      "endpoint": "SF-12 physical",
+      "reported_contrast": 0.69,
+      "ci95": [
+        -2.24,
+        3.63
+      ],
+      "interval_contains_zero": true,
+      "lsm_subtraction": "0.69",
+      "subtraction_minus_reported": "0.00",
+      "compatible_under_two_decimal_rounding": true,
+      "reported_p": 0.64
+    },
+    {
+      "endpoint": "SF-12 mental",
+      "reported_contrast": 2.12,
+      "ci95": [
+        -1.39,
+        5.64
+      ],
+      "interval_contains_zero": true,
+      "lsm_subtraction": "2.12",
+      "subtraction_minus_reported": "0.00",
+      "compatible_under_two_decimal_rounding": true,
+      "reported_p": 0.23
+    }
+  ],
+  "functional_intervals_including_zero": 5,
+  "functional_rounding_compatible_rows": 4,
+  "ae_descriptive_proportions": [
+    0.953125,
+    0.7878787878787878
+  ],
+  "ae_discontinuation_proportions": [
+    0.078125,
+    0.030303030303030304
+  ],
+  "no_new_functional_sampling_estimate": "Use reported ANCOVA contrasts/CI unchanged. No pooling, multiplicity claim, equivalence margin, clinical threshold or reconstructed covariance."
+}

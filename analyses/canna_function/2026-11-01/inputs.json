@@ -1,0 +1,183 @@
+{
+  "study": {
+    "title": "CANNA-TICS",
+    "doi": "10.1016/j.psychres.2023.115135",
+    "pmid": "36878177",
+    "trial": "NCT03087201",
+    "eudract": "2016-000564-42",
+    "first_online": "2023-02-28",
+    "issue": "2023-05"
+  },
+  "extraction_date": "2026-11-01",
+  "plan_hash": "17a61c12c086c51d01507faad27ae3ab17e712a05e7315764bb4af20718cbddb",
+  "source": "https://d-nb.info/1334360707/34",
+  "source_location": "Table 3, printed page 7; Methods 2.7, printed page 3",
+  "functional_rows": [
+    {
+      "endpoint": "GTS-QoL normalized",
+      "arm_lsm_nabiximols": -8.11,
+      "arm_lsm_placebo": -3.98,
+      "reported_contrast": -4.13,
+      "ci95_lower": -8.65,
+      "ci95_upper": 0.39,
+      "reported_p": 0.07,
+      "favorable_direction": "lower"
+    },
+    {
+      "endpoint": "GTS-QoL VAS",
+      "arm_lsm_nabiximols": -3.19,
+      "arm_lsm_placebo": -2.36,
+      "reported_contrast": 5.55,
+      "ci95_lower": -0.69,
+      "ci95_upper": 11.8,
+      "reported_p": 0.08,
+      "favorable_direction": "higher; trial-specific coding not verified"
+    },
+    {
+      "endpoint": "YGTSS impairment",
+      "arm_lsm_nabiximols": -7.43,
+      "arm_lsm_placebo": -3.31,
+      "reported_contrast": -4.12,
+      "ci95_lower": -8.45,
+      "ci95_upper": 0.22,
+      "reported_p": 0.06,
+      "favorable_direction": "lower"
+    },
+    {
+      "endpoint": "SF-12 physical",
+      "arm_lsm_nabiximols": 0.07,
+      "arm_lsm_placebo": -0.62,
+      "reported_contrast": 0.69,
+      "ci95_lower": -2.24,
+      "ci95_upper": 3.63,
+      "reported_p": 0.64,
+      "favorable_direction": "higher under standard scoring; trial-specific scoring not verified"
+    },
+    {
+      "endpoint": "SF-12 mental",
+      "arm_lsm_nabiximols": 2.37,
+      "arm_lsm_placebo": 0.25,
+      "reported_contrast": 2.12,
+      "ci95_lower": -1.39,
+      "ci95_upper": 5.64,
+      "reported_p": 0.23,
+      "favorable_direction": "higher under standard scoring; trial-specific scoring not verified"
+    }
+  ],
+  "model": {
+    "estimand": "End-of-treatment change, nabiximols minus placebo; 13 weeks total including 4 titration + 9 stable-dose weeks",
+    "method": "ANCOVA with baseline, pooled center (Hannover versus others), treatment",
+    "missing_baseline": "overall group mean imputation, as phrased in paper",
+    "missing_followup": "LOCF",
+    "secondary_status": "exploratory descriptive tests; p<.1 described by authors as substantial trend",
+    "multiplicity": "No confirmatory multiplicity control for these functional endpoints established; fitness-to-drive was key secondary endpoint",
+    "row_specific_observed_n": "not established; 64/33 headers are treated ITT analysis denominators, not complete observed counts",
+    "arm_SE": "Not supplied for these five Table3 arm LSMs; do not infer.",
+    "scale_ranges": "Trial-specific normalization, score version/range and reverse coding not independently established. GTS-QOL standard total lower and VAS higher favorable supported by separate primary source; SF12 standard direction not a verified trial scoring algorithm."
+  },
+  "population": {
+    "randomized": 98,
+    "excluded_untreated": 1,
+    "analyzed": [
+      64,
+      33
+    ],
+    "completed_registry": [
+      48,
+      24
+    ],
+    "age_means": [
+      37.4,
+      34.9
+    ],
+    "baseline_tts_means": [
+      28.6,
+      29.3
+    ],
+    "TS": [
+      58,
+      31
+    ],
+    "CMT": [
+      6,
+      2
+    ],
+    "CVT": [
+      0,
+      0
+    ],
+    "severe_persistent_adult_function_subgroup": "not established",
+    "eligibility": "Adults, TS TTS >=14 or chronic motor/vocal >=10; CGI-S >=4; stable medication",
+    "exclusions": "Pervasive developmental disorders, schizophrenia history, comorbidity requiring primary treatment, substance use disorder, recent cannabis, ongoing tic behavioral therapy"
+  },
+  "primary": {
+    "threshold": "at least 25% TTS reduction; changed from 30% at blinded review",
+    "responders": [
+      14,
+      3
+    ],
+    "n": [
+      64,
+      33
+    ],
+    "missing": "counted nonresponders",
+    "paper_risk_difference_placebo_minus_nabiximols": -0.13,
+    "paper_ci95": [
+      -0.28,
+      0.01
+    ],
+    "paper_p": 0.07,
+    "registry_risk_difference": -0.1278,
+    "registry_ci95": [
+      -0.2688,
+      0.0131
+    ],
+    "registry_p": 0.0755,
+    "method": "center-stratified Mantel-Haenszel",
+    "warning": "Preserve paper/registry precision difference, do not silently harmonize; registry labels >25 while description says at least25; 30% endpoint repeats 25% definition",
+    "blind_review_date": "Not established in inspected main paper; do not conflate with pre-enrollment November2017 driving-endpoint amendment."
+  },
+  "harms": {
+    "any_ae_people": [
+      61,
+      26
+    ],
+    "exposed": [
+      64,
+      33
+    ],
+    "total_ae_events": [
+      315,
+      116
+    ],
+    "at_least_one_potentially_related_ae_people": [
+      58,
+      21
+    ],
+    "serious_ae_people_registry": [
+      1,
+      1
+    ],
+    "ae_discontinuations_registry": [
+      5,
+      1
+    ],
+    "registry_window": "first administration through last follow-up",
+    "note": "Events are not people; investigator attribution not absence of risk; no individual narratives retained",
+    "registry_assessment": "Systematic MedDRA22.1; registry non-serious section explicitly includes serious and nonserious events, so do not add the sections."
+  },
+  "conflicts": [
+    "Table3 VAS arm LSMs subtract to -0.83, not reported +5.55; Results also prints +5.55. No correction inferred.",
+    "Table3 YGTSS global upper CI .30 versus Results .03, not focal computation.",
+    "Registry 25/97 noncompletion differs from paper discussion dropout19.4%; definitions not reconciled.",
+    "Registry 18-64 all97; no >=65 versus paper broad age selection inference."
+  ],
+  "limits": [
+    "Supplement not inspected; sensitivity model details/results not independently verified.",
+    "Web screenshot failed cache miss; alternative lawful DNB PDF fetched HTTP200 into memory and page7 rendered locally. All five functional rows and Table4 visually confirmed. Temporary source-derived QA image deleted; no source PDF retained.",
+    "No functional joint responder counts/covariance/meaningful-change anchor; no cure, durable off-treatment or mediation inference.",
+    "No full paper or participant files saved; transient source display included surrounding text, not retained in extraction."
+  ],
+  "funding_conflicts": "DFG support; detailed author industry/material/consultancy disclosures present; not conflict-free.",
+  "integrity": "Exact DOI correction/retraction web search found no notice in bounded results; not exhaustive clearance."
+}
