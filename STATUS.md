@@ -1,6 +1,3 @@
-Warning: truncated output (original token count: 28668)
-Total output lines: 647
-
 # Project NeuroFreedom status
 
 Updated 1 November 2026. Initial portfolio, twenty-four completed daily updates, four completed weekly syntheses and one monthly review. Public evidence repository and journal launched 13 October.
@@ -229,7 +226,185 @@ Today's feed adds a dated historical pain-interference note and explicitly repor
 
 ### Publication verification - 18 October 2026
 
-All 51 research/publication files matched their committed contents on connect…8668 tokens truncated… the previous cutoff. Its main congenital-heart-disease/Tourette association is nonsignificant; printed subgroup estimates contradict the prose, so no directional severity claim is endorsed. Neither result establishes causation. The bounded new-evidence, registry and safety results and access limits are recorded in the linked report, not treated as exhaustive global surveillance.
+All 51 research/publication files matched their committed contents on connector readback from 84bd12e03499cc8c04581b799170613432368348. At 02:48:37 UTC, production /api/public-feed and anonymous raw GitHub returned HTTP 200 with JSON exactly matching the authored feed, updatedAt 2026-10-18T02:47:52Z. Production identified the repository source; research/activity date October 18 and hand-at-ease were verified. The new report also passed connector content readback. This verifies feed propagation, not fresh rendered-page accessibility. [Verification details](updates/2026-10-18/publication-verification.json).
+
+
+## Completed second weekly synthesis - 18 October 2026
+
+The [weekly synthesis](updates/2026-10-18-weekly-synthesis.md) integrates October 12-18 work without adding overlapping search hits or same-trial reports as independent evidence. Acute behavioral-treatment tic benefit remains supported in the Wilhelm trial, while broader function, patient-important pain, selected maintenance and continuing treatment exposure require separate inference. ONLINE-TICS exploratory later findings do not repair its primary testing gate. Pain-selected and support-group surveys cannot supply a pooled population prevalence or causal care-success rate. Biological hypotheses H07/H13/H17/H18/H19 remain speculative rather than directly refuted or validated.
+
+A new deterministic [evidence-structure reanalysis](analyses/evidence_structure/2026-10-18/report.md) maps three fixed publications to two randomizations and preserves 11 analyst-defined inference blocks. These are bookkeeping units, not independent endpoints, evidence votes or a field denominator. Twenty-four implementation tests and parent byte-identical reproduction with five count/status checks passed. The stronger randomized functional-follow-up claim after verified cessation of trial-provided access/boosters is not documented in this set; this does not establish no benefit or recommend stopping learned skills. No clinical effects were pooled.
+
+The [Marras focal-tic audit](analyses/focal_tic_pain/2026-10-18/report.md) could not retrieve lawful complete primary methods/tables. A verified NIHR secondary review nevertheless corroborates a treated-tic-area pain measure under Safety, with the scale unreported. Therefore pain must not be labelled unmeasured. Endpoint definition, benefit versus procedure discomfort, denominator and crossover estimator remain unresolved at primary-source level. No pain-effect calculation was fabricated. A lawful manuscript could reopen this narrowly defined audit; no payment or outreach is requested.
+
+### Next bounded decision after weekly synthesis
+
+Close the unchanged three-publication structure audit and keep Marras's primary-source gate pending a lawful complete version. Next specify and execute a small, clearly labelled synthetic two-outcome design-discrimination test: construct scenarios sharing the same tic response but differing in pain-interference benefit; test what direct paired pain measurement adds under declared observation and missingness assumptions. Write the prediction, disconfirming outcome, joint mechanisms, estimands, seeds and limits before execution. This is distinct from prior one-outcome attrition bounds and response-label agreement. Do not claim clinical rates, meaningful-change thresholds, sample-size/power sufficiency or patient biology from the simulation.
+
+A subsequent human study would require a clinical investigator/institution, patient-priority and measurement validation, comparator and safety plan, ethics/consent and secure governed data, plus separate authorization. No family records, home experiment, participant collection or treatment change is requested. The already verified October 18 homepage feed remains unchanged by this weekly repository update. Publication readback is recorded after verification.
+
+### Weekly publication verification - 18 October 2026
+
+All 27 weekly research/report files matched their committed contents on GitHub connector readback at approximately 04:07:45 UTC from commit 491e53c9a0432b54e63723ab20e1508d593a50a0. The daily homepage feed was deliberately unchanged. [Readback record](updates/2026-10-18-weekly/publication-verification.json).
+
+
+## Completed daily research update - 19 October 2026
+
+The [dated scan](updates/2026-10-19/report.md) screened 12 PubMed records and 134 preprint DOI/version records. No new-window qualifying primary tic-study result or newly posted relevant trial result was verified. Newly encountered reviews and conceptual articles remain separate from primary evidence. One historical six-participant intracranial-recording paper is retained as an unverified-age/cohort lead, not a new treatment result or granted data access. Known negative registry findings remain. No additional qualifying watched regulator notice was verified; recall-filter, labeling and global-registry coverage gaps remain explicit.
+
+The [synthetic paired-outcome test](analyses/paired_outcomes/2026-10-19/report.md) was publicly specified at commit [0a46777](https://github.com/dotjade/project-neurofreedom/commit/0a4677711ad6da4f7122a194cefa49b5ede3f097) and read back before execution. Three constructed worlds have identical tic records but different pain-change means or joint moments. Direct paired observations distinguish some worlds under the chosen assumptions. Observed-covariate missingness distorts naive summaries; known-probability weighting recovers expected raw moments under positivity, but plug-in covariance is not generally unbiased. When an entire stratum is unobserved, two worlds have exactly identical observed records despite different full-population pain means. That negative finding is preserved.
+
+The 400 artificial units and 200 observation replicates are arbitrary computational settings, not clinical sample-size/power recommendations. Outputs comprise 2,400 observation summaries with Monte Carlo uncertainty, source, seeds and tests. No clinical effect, meaningful-change threshold, patient biology or treatment efficacy is inferred. Independent design/arithmetic review and numerical reproduction are linked from the report. No participant data, intervention or outreach was used.
+
+### Next bounded decision
+
+Close this fixed synthetic run. A defensible future paired-outcome design needs actual measurement definitions, recall windows, subgroup coverage and support for error/missingness assumptions; simulation does not supply them. The Marras primary-methods gate remains unresolved. Next inspect the newly encountered historical CM-aGPi recording paper, PMID 40977255, DOI 10.1002/mds.70043, for lawful full methods, ages, trial identifiers, prior-cohort overlap and exact recording-state comparisons before deciding whether it adds a nonduplicated mechanism test. Do not infer causation, validated prediction, stimulation-free natural history or data availability from the abstract. Stop at the missing prerequisite if methods are inaccessible; do not reopen the generic cohort search or request participant data.
+
+### Public journal
+
+The feed adds a dated synthetic-methods note and preserves the six approved optional activities, selecting familiar-route. Shared voting, comments and health-outcome collection remain disabled. Eleven pre-existing research links and two primary sources passed the [bounded link check](public/link-checks/2026-10-19.json); Pappert remains HTTP 403 access-limited, not confirmed broken. This daily update does not change homepage framing, source, deployment or security settings. New-link and production verification are recorded only after actual publication/readback.
+
+### Publication verification - 19 October 2026
+
+All 102 research/publication artifacts matched exact connector readback from commit 323cdc9029e01671def86922eb05d43179fd9192 at 03:51:54 UTC. Large artifacts use lossless parts with original-byte SHA-256 reconstruction; tests and independent checkers passed after reassembly. At 03:53:45 UTC, after the documented 120-second cache, production /api/public-feed returned HTTP 200 with X-Journal-Source: repository and JSON exactly matching the authored feed, updatedAt 2026-10-19T03:43:00Z. Anonymous raw GitHub matched the same bytes at 03:53:49; the new report link passed HTTP/content checks at 03:53:53. Research/activity date October 19, familiar-route and disabled feedback were verified. The preceding README/index privacy commit was preserved exactly. This verifies feed propagation, not a new rendered-page accessibility test. [Verification record](updates/2026-10-19/publication-verification.json).
+
+
+## Completed daily research update - 20 October 2026
+
+The [dated scan](updates/2026-10-20/report.md) screened eight PubMed records and 452 preprint DOI/version records without a new-window qualifying primary tic-study result or newly posted relevant trial result. NCT07137442's October 19 posting moves its estimated start by one day; selected recruiting status, design, planned enrollment and no-results flag are unchanged. Older reviews and a historical article remain separate from primary evidence. Known negative/status findings and retraction exclusions remain. The [safety pass](updates/2026-10-20/safety/report.md) found no additional qualifying watched regulator notice, with FDA recall/labeling coverage and two unreadable MHRA attachments explicitly unresolved.
+
+The [historical CM-aGPi methods audit](analyses/cm_agpi/2026-10-20/report.md) resolved adult enrollment and trial identity while narrowing the usable inference. Six adults aged 19-32 were implanted, but one physiology exclusion leaves five analyzed contributors. Initial three-month unstimulated recording methods and an abstract describing nine monthly visits cannot be treated as nine verified stimulation-naive analyzed months. The protocol allows intraoperative testing and later therapy. Tic/rest/voluntary-movement physiology contrasts are observational; phase lead is not causal proof, prospective forecasting or clinical benefit.
+
+Metric-specific beta/low-gamma nulls and a low-gamma phase Results/Discussion inconsistency are preserved. Repeated epoch/session nesting, exact testing units and population-level uncertainty remain insufficiently documented. A small post-reading, no-data combinatorial diagnostic found that an exact two-sided signed-rank test of five independent nonzero paired summaries cannot have p below 0.0625 under the stated assumptions. This does not identify the authors' test implementation or establish an error. Independent generating-function calculation and a separate verification rerun reproduced the result.
+
+Linked NCT05371041 results were posted September 25, not in today's scan window. Its eight-person trial denominator, longer non-systematic adverse-event window and protocol/registry endpoint timing are separate from the six-enrolled/five-analyzed paper. A later preprint names this and an older trial, so participant overlap must not be counted as independent replication. No participant rows or raw signals were retained, analyzed or published. No medical intervention, outreach or access request was made.
+
+### Next bounded decision
+
+Close this fixed paper-methods and arithmetic audit absent a public correction or new aggregate documentation. Next perform a bounded aggregate-only crosswalk of NCT05371041's public protocol, SAP and posted results: resolve endpoint definitions, baseline/endpoint denominators, timing relative to implantation versus stimulation initiation, and safety ascertainment windows. The registry exposes participant-level result rows; do not retain, reconstruct, pool or analyze them. If a compatible aggregate clinical estimator or timing definition cannot be established without individual rows, record the missing prerequisite and stop without an efficacy calculation. Do not contact investigators, request participant data, reopen the generic cohort search or repeat completed synthetic work.
+
+### Public journal
+
+The feed adds a concise dated methods note. All six approved optional activities are unchanged, with notice-one-thing selected. Voting, comments and health-outcome collection remain disabled. Twelve pre-existing research links and two primary sources passed the [bounded link check](public/link-checks/2026-10-20.json); Pappert remains HTTP 403 bot-challenged rather than confirmed broken. Homepage source, security settings and deployment configuration are unchanged. The existing Actions workflow may deploy the feed-triggered revision; publication and run outcomes are recorded only after actual verification.
+
+### Publication verification - 20 October 2026
+
+All 52 research/publication artifacts matched exact connector readback from commit dc546070b95ed6dc2a9b565fdb4c383458b1fc9e. Tree comparison preserved all 445 other existing files with no unexpected additions. The [Actions run](https://github.com/dotjade/project-neurofreedom/actions/runs/39362825691) passed validation, build, dry-run and deployment on attempt 1; its deployment job completed at 03:10:24 UTC.
+
+After the documented cache interval, production /api/public-feed returned HTTP 200 with X-Journal-Source: repository at 03:11:50 UTC; anonymous raw GitHub matched at 03:11:53. Both were byte-identical to the authored feed, updatedAt 2026-10-20T03:03:03Z. Research/activity date October 20, notice-one-thing, all six unchanged catalog entries and disabled feedback were verified. The new report link passed at 03:11:57; live feedback-config.json remained disabled with no API origin at 03:12:01. This verifies propagation and deployment, not new rendered-page accessibility testing. [Verification record](updates/2026-10-20/publication-verification.json).
+
+
+## Completed daily research update - 21 October 2026
+
+The [dated scan](updates/2026-10-21/report.md) screened eight PubMed records and 652 preprint DOI/version records without a new qualifying primary tic-study outcome or newly posted relevant trial result. A watched observational protocol moved its estimated start again; a newly encountered adjacent imaging study predates the prior strict cutoff and does not establish clinical targeting or efficacy. Historical preclinical and secondary evidence remain distinct. The [safety pass](updates/2026-10-21/safety/report.md) found no additional qualifying watched notice within its bounded coverage, with recall, labeling and worldwide surveillance gaps retained.
+
+The [aggregate-only NCT05371041 crosswalk](analyses/trial_crosswalk/2026-10-21/report.md) resolves definitions and denominators but stops without an efficacy calculation. Baseline metadata defines a 0-100 YGTSS including impairment, whereas the primary endpoint defines a 0-50 tic score. Equal denominators of eight do not establish comparability. The protocol separates lead implantation, later pulse-generator placement and therapy activation; the registry's DBS-initiation wording does not identify the same time zero. Safety has its own longer, non-systematically assessed window. These documentation gaps limit this project's calculation, not the validity of the study or the existence of treatment benefit.
+
+Official registry retrieval used server-projected fields excluding participant measurement classes. No individual rows were retained, reconstructed or analyzed, no efficacy estimate was computed and no clinical intervention or outreach occurred. Eighteen metadata/boundary checks passed; they are not statistical hypothesis tests or clinical peer review.
+
+### Next bounded decision
+
+Close this fixed crosswalk absent public aggregate clarification of constructs, clocks and estimator. Next audit the already named Okun et al. 2024 report (PMID 38499664, DOI 10.1038/s41598-024-57071-5, NCT02056873): distinguish blinded within-visit stimulation-state contrasts, longitudinal baseline comparisons and MOS-36 functional outcomes. Check measure versions, recall/assessment windows, aggregate denominators, uncertainty and safety timing. Preserve same-cohort overlap with Cagle 2022. The earlier October 11 resource audit does not complete this clinical/function estimand audit. Stop if lawful public aggregates cannot establish a compatible functional contrast; do not reconstruct individuals or reopen generic cohort searches.
+
+### Public journal
+
+The dated feed note distinguishes historical documentation analysis from a scan without a new qualifying clinical result. All six optional activities are unchanged, with music-or-silence selected. Voting, comments and health-outcome collection remain disabled in source. Thirteen existing repository links and two finding sources were retrievable; Pappert remains HTTP 403 access-limited, not established broken. Ordinary production API retrieval was access-limited during preparation; source and live publication verification will be recorded only after actual readback. No deployment configuration or security setting was changed.
+
+### Publication verification - 21 October 2026
+
+The research commit [107de0de693eb34dfbda99f7b188e7b282f59add](https://github.com/dotjade/project-neurofreedom/commit/107de0de693eb34dfbda99f7b188e7b282f59add) contains all 58 intended files. Fresh remote fetch verified every authored byte, with 495 unrelated existing files preserved and no unexpected paths. Connector readback on main separately verified the feed and crosswalk report. The integration manifest describes that research-commit snapshot; this later verification note updates STATUS only after those checks.
+
+[Actions run 39539553973](https://github.com/dotjade/project-neurofreedom/actions/runs/39539553973) passed validation, build, deployment dry-run and production deployment; the deployment job completed at 03:37:35 UTC. The new report link returned HTTP 200 at 03:38:27.
+
+An independent ordinary-browser read of /api/public-feed at 03:37:24 confirmed updatedAt 2026-10-21T03:01:10Z, October 21 research/activity dates, the new note, music-or-silence and disabled feedback with zero votes. Browser /feedback-config.json at 03:38:55 confirmed enabled false and apiOrigin null. Direct non-browser production requests remained HTTP 403, so this is browser field verification, not a byte-for-byte API comparison or response-header inspection. No security settings or authentication were changed.
+
+After the documented cache interval, the homepage at 03:39:48 showed the October 21 research note, matching repository-edition timestamp and music-or-silence selection without an access warning. Existing UI limitations remain: the bundled October 13 edition can briefly appear before the feed loads, and the static next-question link still points to ONLINE-TICS rather than the current STATUS plan. These were observed, not changed in this research-only publication. [Verification record](updates/2026-10-21/publication-verification.json).
+
+
+## Completed daily research update - 22 October 2026
+
+The [dated scan](updates/2026-10-22/report.md) screened four PubMed metadata records and 639 preprint DOI/version pairs without a new qualifying primary tic-study outcome or newly posted relevant trial result. All four PubMed records are historical overlaps. A known retracted paper remains excluded; metadata revisions are not a new retraction or reinstatement. NCT07137442 moved its estimated start again without results. The [safety pass](updates/2026-10-22/safety/report.md) verified no new watched-treatment notice or issued tic guideline within bounded coverage. A lot-specific Canadian cannabis-labeling recall is retained separately as adjacent evidence, not a tic-treatment result. Existing safety, labeling and worldwide registry gaps remain explicit.
+
+The [Okun 2024 clinical/function estimand audit](analyses/okun_estimands/2026-10-22/report.md) distinguishes randomized-order, masked stimulation-state video assessments during an outcome period from longitudinal recalled tic severity and MOS-36 function. The protocol plans separate testing days; it does not establish actual same-day testing or complete washout. The functional narrative reports improvement in some domains but nonsignificance after multiplicity adjustment. Neither a responsive-versus-continuous functional contrast nor a compatible published aggregate paired denominator and uncertainty were established. No functional efficacy estimate was calculated, and this is not evidence of no benefit.
+
+The ten enrolled adults, eight chronic-capable devices, selected responders and registry period-completion counts are not interchangeable denominators. The earlier Cagle report overlaps this trial rather than supplying independent replication. Co-occurring-outcome nulls, reoperations and the registry's separate three-year safety window remain visible. Sequential safety groups do not support a comparative-harm calculation. The article's response wording and current registered endpoint differ; no individual score or responder classification was repaired or reconstructed.
+
+Twenty-five metadata/boundary checks and a separate source review support the analytic audit; 31 offline scan checks passed. These are documentation/software checks, not clinical hypothesis tests or independent clinical peer review. No participant rows, raw signals, private narratives or unlicensed full text were retained in deliverables. No outreach, data request, paid compute or medical action occurred.
+
+### Next bounded decision
+
+Close this fixed functional-effect calculation attempt unless new public aggregate documentation supplies the instrument version/recall window, comparable treatment exposure, outcome-specific paired denominator, missingness rule and change with uncertainty. Next perform a bounded official historical-registration audit of NCT02056873 to trace dated outcome/design versions and public protocol amendments behind 40% total-tic, motor-only and responsive criteria and follow-up windows. Inspect metadata and documents only, not result measurement rows. If official history cannot be retrieved, record the provenance gap and stop without inferring selective reporting, revising responders, reopening generic cohort searches or repeating this audit.
+
+### Public journal
+
+The feed adds a dated historical-methods note distinct from the no-new-result scan. All six optional activities remain unchanged, with small-silly-mark selected. Voting, comments and health-outcome collection remain disabled. Fourteen pre-existing timeline articles and the Ivanova PDF were retrieved; Pappert returned a 403 challenge and Isaacs PMC a 203 browser challenge, neither established broken. Canonical links remain, with current access labels. The [link record](public/link-checks/2026-10-22.json) distinguishes the previous-edition production baseline from later publication verification. No homepage source, deployment configuration or security setting was changed; source and production readback are recorded only after verification.
+
+### Publication verification - 22 October 2026
+
+The research commit [b3a08b7a7bb5c6761401630889de118540a87315](https://github.com/dotjade/project-neurofreedom/commit/b3a08b7a7bb5c6761401630889de118540a87315) contains all 56 intended artifacts. Fresh Git fetch and byte comparison verified every authored file at 03:18:35 UTC. Connector tree verification independently confirmed all changed blob SHAs, 551 unrelated existing files preserved and no unexpected paths. Feed and report connector readbacks also matched. The integration manifest describes that research-commit snapshot, before this later verification note.
+
+[Actions run 39716022820](https://github.com/dotjade/project-neurofreedom/actions/runs/39716022820) passed source validation, build, deployment dry-run and production deployment. Its deployment job completed at 03:18:10 UTC. Anonymous raw GitHub matched the feed bytes at 03:19:23; the new report link returned HTTP 200 with its expected title at 03:19:28. Live feedback-config.json remained disabled with no API origin at 03:19:32.
+
+After the documented short cache, ordinary anonymous curl retrieved production /api/public-feed at 03:20:12 UTC: HTTP 200, X-Journal-Source repository and bytes exactly matching the authored feed. Verified updatedAt is 2026-10-22T03:07:36Z, with October 22 research/activity dates, small-silly-mark, all six unchanged catalog entries and disabled feedback. An earlier urllib request returned 403, but curl and browser reads succeeded without security changes; this is not a standing publication blocker.
+
+Browser readback at 03:20:23 showed the dated research note, matching repository-edition timestamp and selected activity. The static October 13 edition appeared before the feed loaded, and the static next-question link still targets ONLINE-TICS rather than the current STATUS plan. These existing UI limits were observed, not changed in this research-only update. No new mobile, zoom, real-device narration or accessibility certification is claimed. [Verification record](updates/2026-10-22/publication-verification.json).
+
+
+## Completed daily research update - 23 October 2026
+
+The [dated scan](updates/2026-10-23/report.md) screened 19 PubMed records and 701 preprint DOI/version records. Two primary observational papers newly entered PubMed after the previous cutoff, but were electronically published earlier, on October 20 and October 6. A mixed-age clinic study of 535 participants examines ASD and tic measurement; lower adjusted measured impairment does not establish lower actual burden, and its total-tic severity association was nonsignificant. A selected retrospective survey of 258 adults reports associations with recalled adult-worst symptoms, not prospective prediction or population persistence. Both were deduplicated and added to evidence.jsonl with original source-linked extractions. No new relevant trial result or qualifying preprint was verified; known retractions, feasibility negatives and registry access limits remain.
+
+The [official NCT02056873 history audit](analyses/registration_history/2026-10-23/report.md) inspected all 25 history-index entries and seven selected metadata versions. Four primary outcomes in the initial registration remained in the inspected June 2023 version; the August 2024 submission contains one 40% total-tic endpoint. The public protocol dated September 2019 already contains 40% criteria, with inconsistent total/motor and responsive-timing wording. Therefore the current registry cannot be treated as the initial plan, nor can the 2024 edit be treated as the origin of the threshold. Exact earlier protocol amendments and reasons for changes remain unverified. No selective-reporting allegation, responder repair, individual-data reconstruction or efficacy calculation follows.
+
+The separate [safety pass](updates/2026-10-23/safety/report.md) verified no new qualifying watched-treatment notice or issued tic guideline within bounded coverage. FDA labeling/recalls, some attachments and worldwide coverage remain limited. No absence-of-risk claim or medical action was made.
+
+### Next bounded decision
+
+Close the historical-registration audit absent new public dated amendments. Next audit Kaylor et al. (PMID 42903303, DOI 10.3389/fpsyt.2026.1948693): do the published aggregates establish a temporally ordered, outcome-specific adult-risk model, or only retrospective associations in selected respondents? Map invitation, response, completeness and model denominators; compare lifetime-versus-childhood OCD wording and current-medication timing with recalled adult-worst outcomes; preserve nonsignificant results and the printed p=.050 boundary. Stop at missing public model counts or timing rather than reconstructing individuals, pooling unlike outcomes or inferring medication harm. No new patient data, contact or treatment changes are authorized.
+
+### Public journal
+
+The feed distinguishes two newly indexed older observational papers from the historical registration audit. All six approved activities are unchanged, with rest-or-leave selected; voting, comments and health-outcome collection remain disabled. The [link pass](public/link-checks/2026-10-23.json) checks 15 existing timeline links, three findings and nine additional homepage research/guidance sources. No target is established broken. Pappert remains publisher-challenged with a verified institutional primary alternative; Isaacs is readable through the web reader despite direct-access limits. The October 22 production edition was a verified preparation baseline, not proof of this update. Publication is recorded only after source and live readback.
+
+
+### Publication verification - 23 October 2026
+
+Research commit [6206597968e9d45add8239f39e3ab8c424cb1000](https://github.com/dotjade/project-neurofreedom/commit/6206597968e9d45add8239f39e3ab8c424cb1000) contains all 61 intended artifacts. Fresh Git fetch and exact byte comparisons verified every authored file at 03:59:46 UTC, with all 605 unrelated existing files preserved and no unexpected paths. The GitHub connector separately read back the exact authored feed. The integration manifest describes this research-commit snapshot, before the later verification note.
+
+[Actions run 39897918648](https://github.com/dotjade/project-neurofreedom/actions/runs/39897918648) passed validation, build, deployment dry-run and production deployment. The deployment job completed at 04:00:19 UTC. After the documented cache, anonymous raw GitHub at 04:02:12 and production /api/public-feed at 04:02:16 returned HTTP 200 and bytes exactly matching the authored feed. Production returned X-Journal-Source repository. Verified updatedAt is 2026-10-23T03:57:38Z, October 23 research/activity dates, rest-or-leave, six unchanged catalog entries and disabled feedback.
+
+The new audit report link returned HTTP 200 with its expected title at 04:02:21; live feedback-config.json remained disabled with apiOrigin null at 04:02:25. No new rendered-page, mobile, zoom or real-device narration test is claimed. No deployment configuration or security setting changed. [Verification record](updates/2026-10-23/publication-verification.json).
+
+
+## Completed daily research update - 24 October 2026
+
+The [dated scan](updates/2026-10-24/report.md) screened 19 PubMed records and 597 preprint DOI/version records. One October 7 primary video-phenotyping methods paper newly entered PubMed on October 23. Its external pediatric cohort contained no consensus-positive tics, so overall multi-phenotype accuracy does not establish tic-detection sensitivity. The seven held-out people are not 56 independent participants, and negative reference-label/calibration results remain visible. A newly indexed case report is retained as citation metadata only. No new qualifying preprint or relevant posted trial result was verified; date-only registry updates and coverage gaps remain explicit.
+
+The [adult-risk audit](analyses/adult_risk/2026-10-24/report.md) verifies Kaylor's invitation/response/completeness stages and runs deterministic published-aggregate arithmetic. Table 1 counts and rounded percentages are compatible with different denominators, but these conditional totals are not author-confirmed regression n. The two final model counts and explicit missing-data rules were not located. Lifetime OCD and current medication do not establish exposure before recalled adult-worst outcomes. The childhood association, nonsignificant terms and printed impairment-OCD p=.050 boundary are retained. No prospective individual-risk model, population-persistence estimate or causal medication effect follows.
+
+The [safety pass](updates/2026-10-24/safety/report.md) records actual official-source checks and surveillance limitations. Existing safety signals remain separate from new notices. No absence-of-risk claim, treatment change, patient data, source full text, contact or paid compute was involved.
+
+### Next bounded decision
+
+Close the fixed adult-risk audit unless new public documentation supplies outcome-specific model counts, missing-data handling and exposure timing. Next audit Aldurayhim et al. (PMID 42902960, DOI 10.1002/mdc3.70882): can mixed-age adjusted impairment findings support an adult-specific burden conclusion, and is a measurement explanation tested or only proposed? Map aggregate age/comorbidity/model coverage, preserve the null total-tic severity result, and stop at absent adult-stratified data. Do not repeat the earlier adult registry surrogate audit, reconstruct participants or infer less lived burden from lower measured impairment.
+
+### Public journal
+
+The feed distinguishes the newly indexed older methods paper from today's adult aggregate audit. All six optional activities are unchanged, with hand-at-ease selected; voting, comments and health-outcome collection remain disabled. The [bounded link pass](public/link-checks/2026-10-24.json) distinguishes retrievable sources from client-specific challenges, not assumed outages. The October 23 production feed was a preparation baseline; this publication is claimed only after later exact GitHub and production verification. No static source, deployment configuration or security setting changed.
+
+
+### Publication verification - 24 October 2026
+
+Research commit [28b410cff15200d0862088cc592ad44c34421e1a](https://github.com/dotjade/project-neurofreedom/commit/28b410cff15200d0862088cc592ad44c34421e1a) contains all 65 intended artifacts. Fresh Git fetch and exact byte comparison verified every authored file at 02:54:57 UTC, with 664 unrelated existing files preserved and no unexpected paths. The GitHub connector separately read back the exact authored feed. The integration manifest identifies the research-commit snapshot, before this receipt.
+
+[Actions run 40056133711](https://github.com/dotjade/project-neurofreedom/actions/runs/40056133711) passed validation, build, deployment dry-run and production deployment. Anonymous raw GitHub at 02:56:11 and production /api/public-feed at 02:56:15 returned HTTP 200 and exact authored bytes. Production returned X-Journal-Source repository. Verified updatedAt is 2026-10-24T02:51:56Z, October 24 research/activity dates, hand-at-ease, six unchanged approved activities and disabled feedback.
+
+The audit report URL returned HTTP 200 with expected title at 02:56:20; feedback-config.json remained disabled with apiOrigin null at 02:56:23. No new rendered-page/mobile/zoom/real-device narration test is claimed. Static homepage source, deployment configuration and security settings were not changed. [Verification record](updates/2026-10-24/publication-verification.json).
+
+
+## Completed daily research update - 25 October 2026
+
+The [dated scan](updates/2026-10-25/report.md) distinguishes an older primary population paper newly discovered in this run from a new publication or new indexing event since the previous cutoff. Its main congenital-heart-disease/Tourette association is nonsignificant; printed subgroup estimates contradict the prose, so no directional severity claim is endorsed. Neither result establishes causation. The bounded new-evidence, registry and safety results and access limits are recorded in the linked report, not treated as exhaustive global surveillance.
 
 The [ASD age/measurement audit](analyses/asd_measurement/2026-10-25/report.md) tests whether a mixed-age adjusted impairment coefficient supports an adult-specific burden conclusion or validates the proposed communication/reporting explanation. It does neither. The measured adjusted association is retained alongside the unadjusted and total-tic nulls. Deterministic aggregate checks calculate model coverage of 483/535 and 485/535 and a possible 433–483 overlap, not actual membership. Adult-by-ASD analytic counts and independent measurement-validation tests were not identified. No age distribution, individual data or causal treatment effect was reconstructed.
 
