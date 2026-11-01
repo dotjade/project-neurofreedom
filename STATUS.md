@@ -1,6 +1,6 @@
 # Project NeuroFreedom status
 
-Updated 1 November 2026. Initial portfolio, twenty-four completed daily updates and three completed weekly syntheses. Public evidence repository and journal launched 13 October.
+Updated 1 November 2026. Initial portfolio, twenty-four completed daily updates and four completed weekly syntheses. Public evidence repository and journal launched 13 October.
 
 ## Completed in this first pass
 
@@ -14,7 +14,7 @@ Updated 1 November 2026. Initial portfolio, twenty-four completed daily updates 
 
 ## Enabled research schedules
 
-The user approved the following automatic public-science research and repository updates on 8 October 2026. Each schedule was created successfully and returned enabled status. Daily runs were completed on 9-31 October and 1 November 2026; weekly syntheses were completed on 11, 18 and 25 October; first monthly and quarterly runs remain unverified.
+The user approved the following automatic public-science research and repository updates on 8 October 2026. Each schedule was created successfully and returned enabled status. Daily runs were completed on 9-31 October and 1 November 2026; weekly syntheses were completed on 11, 18 and 25 October and 1 November; first monthly and quarterly runs remain unverified.
 
 - Daily new-evidence checks: from 9 October 2026, approximately 08:00 India time.
 - Weekly synthesis: Sundays, from 11 October 2026, approximately 09:00 India time.
@@ -627,3 +627,12 @@ Research commit [4f7ee786e69097eafa906bdce5a48f8b556a4045](https://github.com/do
 [Actions run 41268713530](https://github.com/dotjade/project-neurofreedom/actions/runs/41268713530) completed successfully at 03:20:18 UTC. Connector job/step checks verify validation, build, deployment dry-run, production publication and public-route checks for the exact research commit. Anonymous raw and production feeds matched authored bytes. A fresh post-deployment API check at 03:20:32 UTC again matched with HTTP 200 and X-Journal-Source repository; updatedAt is 2026-11-01T03:13:13Z. Both new report URLs returned HTTP 200 with expected titles. Feedback remains disabled with null API origin, all six activities unchanged and rest-or-leave selected.
 
 The [verification receipt](updates/2026-11-01/publication-verification.json) records exact timestamps and checks. No new rendered/mobile/zoom/narration test is claimed. The integration manifest covers the research snapshot before this receipt and verification addition.
+
+
+## Completed weekly synthesis - 1 November 2026
+
+The [fourth weekly synthesis](updates/2026-11-01-weekly-synthesis.md) integrates October 26 to November 1 work, closes fixed marker audits pending lawful aggregate prerequisites and returns to direct adult functional outcomes. It does not claim the separately scheduled monthly review occurred or repeat the daily scan.
+
+The new [CANNA-TICS aggregate audit](analyses/canna_function/2026-11-01/report.md) tests historical randomized quality-of-life/function evidence. Direct contrasts exist, but all five focal 95% intervals include zero; superiority, equivalence and absence of benefit are not established. A visually verified VAS table inconsistency remains unresolved. Primary response 14/64 versus 3/33 gives an exploratory unadjusted risk difference 12.784 percentage points, Wilson/Newcombe 95% interval −3.944 to 25.784; this is not the published stratified estimator. Adverse events, imputation, exclusions and source discrepancies remain explicit. Ten implementation tests and 29 independent numerical checks pass, alongside eight independent checks of the earlier daily aggregate arithmetic.
+
+Next inspect safely separated public supplementary functional missingness analyses and dated endpoint/scoring documentation; stop at unavailable aggregate prerequisites. The same-trial driving substudy is a later direct-function candidate, not independent replication or individual safety advice. No owner action, personal data, intervention, outreach or paid resource is needed. The daily homepage feed and activity catalog are unchanged. Exact remote readback is recorded after publication.

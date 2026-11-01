@@ -1,0 +1,28 @@
+{
+  "scope": "Independent verification, not a new result or clinical replication",
+  "source_input": "analyses/force_matching_reliability/2026-11-01/aggregate-inputs.json",
+  "mean_error_N": {
+    "direct": [
+      "0.4875",
+      "0.4625"
+    ],
+    "slider": [
+      "-0.405",
+      "-0.31"
+    ]
+  },
+  "contrasts_N": [
+    "0.8925",
+    "0.7725"
+  ],
+  "change_N": "-0.1200",
+  "per_force_change_N": [
+    "-0.06",
+    "-0.12",
+    "-0.15",
+    "-0.15"
+  ],
+  "assertions": 8,
+  "seed": null,
+  "limitation": "No independent re-extraction of primary table in this script; published aggregate input and earlier source review reused. No patient data, sampling interval or hypothesis test."
+}

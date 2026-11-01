@@ -1,0 +1,48 @@
+{
+  "date": "2026-11-01",
+  "queries": [
+    "CANNA-TICS randomized trial adults Tourette quality of life nabiximols 2023 primary",
+    "\"10.1016/j.psychres.2023.115135\" correction retraction",
+    "\"GTS-QoL\" \"VAS\" \"higher\" Gerasch 2016"
+  ],
+  "sources": [
+    {
+      "url": "https://www.sciencedirect.com/science/article/pii/S0165178123000860",
+      "status": "direct403; indexed Table3 independently confirms VAS cells"
+    },
+    {
+      "url": "https://d-nb.info/1334360707/34",
+      "status": "Readable primary PDF transiently; web screenshot cache miss; urllib HTTP200 memory-only PDF load plus fitz page7 visual QA succeeded; source PDF never saved and temporary rendered page deleted."
+    },
+    {
+      "url": "https://www.clinicaltrialsregister.eu/ctr-search/trial/2016-000564-42/results",
+      "status": "readable official aggregate results v1 2023-12-31; only two primary endpoints shown, not functional results"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7725747/",
+      "status": "browser challenge; no solving/bypass"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2016.00416/full",
+      "status": "indexed primary Table2 note confirms conventional total lower and VAS higher favorable; not trial-specific reverse coding verification"
+    }
+  ],
+  "scope": "Targeted historical primary extraction after prospective plan, not systematic review or fresh clinical efficacy finding",
+  "privacy": "No source full text, individual rows/narratives, outreach, intervention or paid compute retained/performed",
+  "execution_notes": [
+    "Initial visual helper failed at import requests (module unavailable), before a network request; standard-library urllib implementation succeeded.",
+    "No policy denial or escalation; publisher403/PMC challenge are source access limitations, no bypass."
+  ],
+  "integrator_checks": {
+    "date": "2026-11-01",
+    "queries": [
+      "Newcombe 1998 interval estimation difference independent proportions eleven methods 873 890 DOI",
+      "\"36878177\" CANNA-TICS title",
+      "\"38265476\" fitness driving"
+    ],
+    "primary_metadata": "PubMed primary PMID36878177 verifies complete title, DOI and February28online/May2023issue; PMID38265476 verifies candidate same-trial driving paper DOI10.1089/can.2023.0114, not full audit",
+    "methods_source": "https://pubmed.ncbi.nlm.nih.gov/9595617/",
+    "registry": "Official EU result page independently readable; first/current posting2023-12-31, primary14/64and3/33, CI/p confirmed",
+    "limit": "Ordinary PubMed article open returned minimal HHS footer; indexed PubMed primary metadata readable, not broken-link finding"
+  }
+}

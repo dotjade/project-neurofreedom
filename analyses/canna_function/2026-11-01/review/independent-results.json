@@ -1,0 +1,137 @@
+{
+  "method": "Independent score-quadratic inversion, binomial non-event RR variance, integer-cent subtraction; no import of analysis implementation",
+  "input_sha256": "b54b6c258c7ee7ed8fcbd61d2eed3854e0d6bc78556333cb6f610fc2f7e36122",
+  "results_sha256": "4231fbe7f17a509d8b3b1319ae3a45ab1a96bcc334d815673a3add3e6e979a12",
+  "independent_estimates": {
+    "rd": 0.1278409090909091,
+    "newcombe_ci95": [
+      -0.03943769547178841,
+      0.25783744674509623
+    ],
+    "rr": 2.40625,
+    "rr_ci95": [
+      0.7437854271931779,
+      7.78455566728413
+    ]
+  },
+  "checks": [
+    {
+      "check": "risk difference",
+      "pass": true
+    },
+    {
+      "check": "risk ratio",
+      "pass": true
+    },
+    {
+      "check": "Newcombe bound 0",
+      "pass": true
+    },
+    {
+      "check": "RR bound 0",
+      "pass": true
+    },
+    {
+      "check": "Newcombe bound 1",
+      "pass": true
+    },
+    {
+      "check": "RR bound 1",
+      "pass": true
+    },
+    {
+      "check": "GTS-QoL normalized interval order",
+      "pass": true
+    },
+    {
+      "check": "GTS-QoL normalized rounding",
+      "pass": true
+    },
+    {
+      "check": "GTS-QoL normalized subtraction",
+      "pass": true
+    },
+    {
+      "check": "GTS-QoL VAS interval order",
+      "pass": true
+    },
+    {
+      "check": "GTS-QoL VAS rounding",
+      "pass": true
+    },
+    {
+      "check": "GTS-QoL VAS subtraction",
+      "pass": true
+    },
+    {
+      "check": "YGTSS impairment interval order",
+      "pass": true
+    },
+    {
+      "check": "YGTSS impairment rounding",
+      "pass": true
+    },
+    {
+      "check": "YGTSS impairment subtraction",
+      "pass": true
+    },
+    {
+      "check": "SF-12 physical interval order",
+      "pass": true
+    },
+    {
+      "check": "SF-12 physical rounding",
+      "pass": true
+    },
+    {
+      "check": "SF-12 physical subtraction",
+      "pass": true
+    },
+    {
+      "check": "SF-12 mental interval order",
+      "pass": true
+    },
+    {
+      "check": "SF-12 mental rounding",
+      "pass": true
+    },
+    {
+      "check": "SF-12 mental subtraction",
+      "pass": true
+    },
+    {
+      "check": "All five intervals contain zero",
+      "pass": true
+    },
+    {
+      "check": "Four of five rounding compatible",
+      "pass": true
+    },
+    {
+      "check": "Source paper CI untouched",
+      "pass": true
+    },
+    {
+      "check": "Registry CI untouched",
+      "pass": true
+    },
+    {
+      "check": "AE proportion 0",
+      "pass": true
+    },
+    {
+      "check": "AE discontinuation 0",
+      "pass": true
+    },
+    {
+      "check": "AE proportion 1",
+      "pass": true
+    },
+    {
+      "check": "AE discontinuation 1",
+      "pass": true
+    }
+  ],
+  "passed": 29,
+  "failed": 0
+}
