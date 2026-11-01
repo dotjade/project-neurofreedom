@@ -1,0 +1,45 @@
+{
+  "checkedAt": "2026-11-01T03:07:31.181093+00:00",
+  "baselineCommit": "de5f1e43230840aa430f66b5c06443df128deff1",
+  "requiredFiles": [
+    {
+      "path": "README.md",
+      "sha256": "6b1d997e495751f81c97048c86cd8864732cdd8313cc3d9363605bb4425721d2"
+    },
+    {
+      "path": "RESEARCH_PROTOCOL.md",
+      "sha256": "6f0025df7fd62fc2fe952cfbca96fca811ae76b917b7e7d4d45a501fe89e6859"
+    },
+    {
+      "path": "STATUS.md",
+      "sha256": "4ba6125833fdd60f0054df70cc4bb03eab2667e536f46e2f72d83c25067e073a"
+    },
+    {
+      "path": "evidence.jsonl",
+      "sha256": "e742fb4c881d50d1661329aa5f1ae8d7973bdca7ddadcecea22ca5a5bf9fd2de"
+    },
+    {
+      "path": "public/journal-source/README.md",
+      "sha256": "809173b6459331730d4fd9b0df135079b1e8dfdb030f4babbfc0055fcec1197e"
+    },
+    {
+      "path": "public/UPDATE_WORKFLOW.md",
+      "sha256": "f9d9a9b17bfbb06c8b075abad60495b9aeef58c96e768ea3d56a3d47c29a2d3f"
+    },
+    {
+      "path": "updates/2026-10-31/report.md",
+      "sha256": "28601f973532de72a4a9725a0db8cb99c6986bbcda3420e8935cca68e1634d55"
+    },
+    {
+      "path": "updates/2026-10-31/scan/summary.json",
+      "sha256": "ebc9d68fd14957462478cdee75860e806c9c5811e0be6d0bf9e5e702289c7ae0"
+    },
+    {
+      "path": "analyses/force_matching/2026-10-31/report.md",
+      "sha256": "d05f47b89aadf3a1cfbd18b86626ddb526ef7a6b26937760ff58c5c9b34d3051"
+    }
+  ],
+  "dailyScanBaseline": "2026-10-31T03:27:38.991962+00:00",
+  "scope": "Daily review across ages and severities, including persistent severe adults, function, comorbidity, unmet needs and response. No presumed remission. Public aggregate evidence only. Weekly/monthly synthesis is outside this daily pass.",
+  "analysis": "Published aggregate indirect-task learning and repeat-session reliability audit; no participant or family data."
+}

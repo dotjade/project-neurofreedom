@@ -1,0 +1,22 @@
+{
+  "id": "HSA-TETRABENAZINE-DNG1035A-2026-11-01",
+  "evidenceType": "Official batch-specific product quality recall notice, not a clinical trial or causal risk study",
+  "authority": "Singapore Health Sciences Authority",
+  "url": "https://www.hsa.gov.sg/announcements/recall-of-tetrabenazine-25mg-112-s-sun-italy/",
+  "noticeDate": "2026-11-01",
+  "recallDate": "2026-10-27",
+  "pageDateModified": "2026-10-31T16:00:31.598Z",
+  "dateCaveat": "Page modification is not proof of first publication time; displayed November 1 is a calendar date. Recall action predates notice.",
+  "product": "Tetrabenazine 25mg 112\u2019s Sun-Italy",
+  "activeIngredient": "tetrabenazine",
+  "batch": "DNG1035A",
+  "recallClass": 2,
+  "recallLevel": "Retail",
+  "issue": "Black spots on tablets; precautionary recall of this batch.",
+  "officialInstructionScope": "Hospitals, clinics and pharmacies are told to cease supplying the affected batch and return remaining stock to the company. This notebook issues no individual medication advice.",
+  "interpretation": "Relevant watched medicine, but product/batch quality issue. Does not establish a class-wide hazard, a Tourette-specific risk, clinical outcome or new mechanism. HSA describes Class 2 issues as unlikely to cause serious adverse health outcomes; this is not a zero-risk claim.",
+  "individualDataRetained": false,
+  "fullExternalPageRetained": false,
+  "extractedAt": "2026-11-01T03:08:02Z",
+  "nextDecision": "Retain batch and dates; follow official corrections/outcomes in later bounded scans without treatment changes."
+}

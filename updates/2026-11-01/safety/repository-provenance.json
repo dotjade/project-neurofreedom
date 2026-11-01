@@ -1,0 +1,21 @@
+{
+  "checkedAt": "2026-11-01T03:09:09.493930+00:00",
+  "baseCommit": "de5f1e43230840aa430f66b5c06443df128deff1",
+  "gitStatus": "?? analyses/force_matching_reliability/\n?? updates/2026-11-01/\n",
+  "readFiles": {
+    "README.md": "6b1d997e495751f81c97048c86cd8864732cdd8313cc3d9363605bb4425721d2",
+    "RESEARCH_PROTOCOL.md": "6f0025df7fd62fc2fe952cfbca96fca811ae76b917b7e7d4d45a501fe89e6859",
+    "STATUS.md": "4ba6125833fdd60f0054df70cc4bb03eab2667e536f46e2f72d83c25067e073a",
+    "public/journal-source/README.md": "809173b6459331730d4fd9b0df135079b1e8dfdb030f4babbfc0055fcec1197e",
+    "public/UPDATE_WORKFLOW.md": "f9d9a9b17bfbb06c8b075abad60495b9aeef58c96e768ea3d56a3d47c29a2d3f",
+    "updates/2026-10-31/safety/report.md": "15d233ac64b5ac97d9b407368c89c882140e97f6e4be1dcb1a76472264de4950",
+    "public/link-checks/2026-10-31.json": "25035d2dec661fcc3cb98188db2a780d705c4fbe66721d0d5aabbdf415bb45bd",
+    "public/research-feed.json": "a9023dc32ad30d8936a9b39a947439f1b41ecdb0d1890ef16c7f4c5be0ab269c",
+    "public/journal-source/index.html": "f6a6cc9ac0415db5f7bbbc0b8afd89ed63f68c11135f06958ff2e73ed5e7e15f",
+    "public/journal-source/journal.js": "c5c9b7fd6acb92d1adbd33ef78aeda13792ea9523ecd0c873fc228c61fb5e850",
+    "public/journal-source/feedback-config.json": "921c0e74bdcdb85c79c11bd2e7d9fa3b8fdfcb12fd74114c3a51a659f3cde133"
+  },
+  "readScopeNote": "Checks hash listed instruction and source files; hashing is not full human review. Dated source/check ledgers document actual review.",
+  "repositoryModifiedByThisCheck": false,
+  "publishedByThisCheck": false
+}

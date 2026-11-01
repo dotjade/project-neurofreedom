@@ -1,0 +1,83 @@
+{
+  "analysis_type": "deterministic arithmetic of rounded published aggregate means; not simulation",
+  "random_seed": null,
+  "n": 138,
+  "equal_force_window_estimates": [
+    {
+      "window_s": "1.0-1.5",
+      "direct_error_N": 0.0975,
+      "slider_error_N": -1.0925,
+      "direct_minus_slider_N": 1.19
+    },
+    {
+      "window_s": "1.5-2.0",
+      "direct_error_N": 0.3875,
+      "slider_error_N": -0.675,
+      "direct_minus_slider_N": 1.0625
+    },
+    {
+      "window_s": "2.0-2.5",
+      "direct_error_N": 0.48750000000000004,
+      "slider_error_N": -0.405,
+      "direct_minus_slider_N": 0.8925000000000001
+    },
+    {
+      "window_s": "2.5-3.0",
+      "direct_error_N": 0.4625,
+      "slider_error_N": -0.31,
+      "direct_minus_slider_N": 0.7725
+    }
+  ],
+  "per_force_last_window_change": [
+    {
+      "target_N": 1,
+      "earlier_contrast_N": 0.6799999999999999,
+      "later_contrast_N": 0.62,
+      "change_N": -0.05999999999999994
+    },
+    {
+      "target_N": 1.5,
+      "earlier_contrast_N": 0.8400000000000001,
+      "later_contrast_N": 0.72,
+      "change_N": -0.1200000000000001
+    },
+    {
+      "target_N": 2,
+      "earlier_contrast_N": 0.98,
+      "later_contrast_N": 0.8300000000000001,
+      "change_N": -0.1499999999999999
+    },
+    {
+      "target_N": 2.5,
+      "earlier_contrast_N": 1.07,
+      "later_contrast_N": 0.92,
+      "change_N": -0.15000000000000002
+    }
+  ],
+  "later_minus_earlier_contrast_N": -0.1200000000000001,
+  "relative_change_percent": -13.445378151260515,
+  "decomposition_N": {
+    "direct_change": -0.025000000000000022,
+    "slider_change": 0.09500000000000003
+  },
+  "rounded_input_worst_case_bound_for_change_N": 0.02,
+  "table2_equal_force_contrast_N": {
+    "2": 0.7549999999999999,
+    "8": 0.7625000000000001
+  },
+  "split_half_change": [
+    {
+      "condition": "direct",
+      "eight_minus_two_replications_coefficient": 0.05999999999999994,
+      "scope": "same-session split-half; not retest or contrast reliability"
+    },
+    {
+      "condition": "slider",
+      "eight_minus_two_replications_coefficient": 0.12,
+      "scope": "same-session split-half; not retest or contrast reliability"
+    }
+  ],
+  "confidence_interval": null,
+  "uncertainty_reason": "Rounded aggregate inputs; within-participant cross-condition and cross-window covariances unavailable. No new significance/equivalence claim.",
+  "checks_passed": 23
+}

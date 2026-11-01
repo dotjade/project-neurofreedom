@@ -1,0 +1,13 @@
+{
+  "baseline_commit": "de5f1e43230840aa430f66b5c06443df128deff1",
+  "input_sha256": {
+    "README.md": "6b1d997e495751f81c97048c86cd8864732cdd8313cc3d9363605bb4425721d2",
+    "RESEARCH_PROTOCOL.md": "6f0025df7fd62fc2fe952cfbca96fca811ae76b917b7e7d4d45a501fe89e6859",
+    "STATUS.md": "4ba6125833fdd60f0054df70cc4bb03eab2667e536f46e2f72d83c25067e073a",
+    "evidence.jsonl": "e742fb4c881d50d1661329aa5f1ae8d7973bdca7ddadcecea22ca5a5bf9fd2de",
+    "public/journal-source/README.md": "809173b6459331730d4fd9b0df135079b1e8dfdb030f4babbfc0055fcec1197e",
+    "updates/2026-10-31/scan/summary.json": "ebc9d68fd14957462478cdee75860e806c9c5811e0be6d0bf9e5e702289c7ae0"
+  },
+  "scope": "Public metadata and original summaries; no participant data",
+  "written_utc": "2026-11-01T03:12:37.022652+00:00"
+}
