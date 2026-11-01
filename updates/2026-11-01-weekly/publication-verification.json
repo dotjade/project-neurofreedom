@@ -1,0 +1,49 @@
+{
+  "research_commit": "19e2bb3b505cb26b1940a9e1b374567c101766ff",
+  "baseline": "3bba0b5cdffed63f1df8e635ca0077bdafe88a84",
+  "verified_at_utc": "2026-11-01T03:58:05.073945+00:00",
+  "exact_files": {
+    "STATUS.md": "44c9ef71db22971ba8d71844e8761e43ee11489c29cae8834bfd2baf8ca4a8f4",
+    "analyses/canna_function/2026-11-01/analyze.py": "4f14ef8edf0c49354a0141850315b1b836e139f4873f958ba28f862a982662d8",
+    "analyses/canna_function/2026-11-01/inputs.json": "b54b6c258c7ee7ed8fcbd61d2eed3854e0d6bc78556333cb6f610fc2f7e36122",
+    "analyses/canna_function/2026-11-01/plan.md": "17a61c12c086c51d01507faad27ae3ab17e712a05e7315764bb4af20718cbddb",
+    "analyses/canna_function/2026-11-01/report.md": "5f0df0eb2bfee756a64ad58bdc0e533cf5403d505eebc249ee0223fe88749199",
+    "analyses/canna_function/2026-11-01/results.json": "4231fbe7f17a509d8b3b1319ae3a45ab1a96bcc334d815673a3add3e6e979a12",
+    "analyses/canna_function/2026-11-01/review/independent-results.json": "8e2e510352f63980a74e8e44768013e9e8a29dc340f60783b7878315e5215ce5",
+    "analyses/canna_function/2026-11-01/review/independent_check.py": "e000074c2385cff2a6c877a874fffe742adf98b5ef7c7db5855bbbad13111945",
+    "analyses/canna_function/2026-11-01/review/review.md": "bb9e2be822756ffae55bf36cdbf1dfbd09c07cbd91f8da7d010c3cc3951ee393",
+    "analyses/canna_function/2026-11-01/source-log.json": "8cd2128faad2df6380eae71c9e59dcee9dc7646dc3ee37d281d8a3147870cd4f",
+    "analyses/canna_function/2026-11-01/test-output.txt": "96e43465bf23c01a35158bff32c1970ad08232e842aecdd0dcf0995aafc63593",
+    "analyses/canna_function/2026-11-01/test_analysis.py": "221b4c4f9b7bece26f556d9dda5b8e3d710204967c2c1cb7050d72ef9039a13a",
+    "evidence.jsonl": "14a0ac822a9b957b4813c8e5a7ba03642f8c813166983ef6912a0f97d6a9112f",
+    "updates/2026-11-01-weekly-synthesis.md": "35b71fc25dff34ad48166a422c4570bad7fc8525196560f0ed414f0fc1a6ce48",
+    "updates/2026-11-01-weekly/daily-verification.json": "7d866d998ba5e6b69b34a33cf697c04b291d94bc57c8591f830720f12eba0517",
+    "updates/2026-11-01-weekly/source-manifest.json": "60808ad99f159e9af2e24e89cf9906506e9fe9e70e8ae17e147757c3df638b91",
+    "updates/2026-11-01-weekly/validate.py": "a65badea764dfaae32b7b7889b40bfe64bb19929e1f92e7641ca38e1fbeea81e",
+    "updates/2026-11-01-weekly/validation.json": "bb666844f080b371d70257469abffd59a23baafbd0a31f8189497783bfdc707a",
+    "updates/2026-11-01-weekly/verify_daily.py": "2b8778488e83c982f01bb75ac24c5c8b1187c2392f405e9eeb745e937c54627c"
+  },
+  "exact_authored_count": 19,
+  "unrelated_preserved_count": 1244,
+  "feed_unchanged": true,
+  "connector_readback": "results.json exact canonical commit fetched after successful compare-and-update of main",
+  "publication_method": "GitHub connector create_tree/create_commit/update_ref with expected old head. Local unauthenticated git push failed before authentication; no duplicate write claimed.",
+  "ci_scope": "Research/docs-only paths do not match existing deployment workflow path filters; no deployment claimed",
+  "live_feed": "Not updated by weekly run; verified daily edition retained.",
+  "tests": {
+    "implementation": 10,
+    "independent_numerical": 29,
+    "documentation": 43,
+    "daily_verification": 8
+  },
+  "execution_notes": [
+    "Validation initially tried to read its redirected empty output JSON; excluded self-output and reran. A literal prose check was aligned to actual wording. Final43checks passed.",
+    "Large combined tool read truncated before parsing; no connector call occurred. Chunked reads then complete connector publication succeeded."
+  ],
+  "ci_check": {
+    "url": "https://api.github.com/repos/dotjade/project-neurofreedom/actions/runs?head_sha=19e2bb3b505cb26b1940a9e1b374567c101766ff",
+    "at": "2026-11-01T03:58:08.122692+00:00",
+    "total_count": 0,
+    "runs": []
+  }
+}
