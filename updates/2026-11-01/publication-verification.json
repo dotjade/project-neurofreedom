@@ -1,0 +1,295 @@
+{
+  "researchCommit": "4f7ee786e69097eafa906bdce5a48f8b556a4045",
+  "sourceReadback": {
+    "verifiedAt": "2026-11-01T03:19:40.174967+00:00",
+    "researchCommit": "4f7ee786e69097eafa906bdce5a48f8b556a4045",
+    "exactFiles": 58,
+    "preservedUnrelatedFiles": 1187,
+    "unexpectedPaths": [],
+    "method": "Fresh remote Git fetch followed by exact git-show bytes and complete prior/new tree comparison"
+  },
+  "githubConnectorFeedExact": true,
+  "httpChecks": [
+    {
+      "name": "raw",
+      "url": "https://raw.githubusercontent.com/dotjade/project-neurofreedom/main/public/research-feed.json",
+      "checkedAt": "2026-11-01T03:20:04.090659+00:00",
+      "httpStatus": 200,
+      "curlExitCode": 0,
+      "source": null,
+      "cacheControl": "max-age=300",
+      "exactAuthoredBytes": true,
+      "updatedAt": "2026-11-01T03:13:13Z",
+      "sha256": "428532576bc234c99db20a135f2d5bb95759bf60f236cc19a9474ea459faa6d4"
+    },
+    {
+      "name": "production",
+      "url": "https://tourette.fyi/api/public-feed",
+      "checkedAt": "2026-11-01T03:20:07.712407+00:00",
+      "httpStatus": 200,
+      "curlExitCode": 0,
+      "source": "repository",
+      "cacheControl": "public, max-age=120, no-transform",
+      "exactAuthoredBytes": true,
+      "updatedAt": "2026-11-01T03:13:13Z",
+      "sha256": "428532576bc234c99db20a135f2d5bb95759bf60f236cc19a9474ea459faa6d4"
+    },
+    {
+      "name": "report",
+      "url": "https://github.com/dotjade/project-neurofreedom/blob/main/updates/2026-11-01/report.md",
+      "checkedAt": "2026-11-01T03:20:10.756091+00:00",
+      "httpStatus": 200,
+      "curlExitCode": 0,
+      "source": null,
+      "cacheControl": "max-age=0, private, must-revalidate",
+      "expectedTitle": true
+    },
+    {
+      "name": "audit",
+      "url": "https://github.com/dotjade/project-neurofreedom/blob/main/analyses/force_matching_reliability/2026-11-01/report.md",
+      "checkedAt": "2026-11-01T03:20:15.248378+00:00",
+      "httpStatus": 200,
+      "curlExitCode": 0,
+      "source": null,
+      "cacheControl": "max-age=0, private, must-revalidate",
+      "expectedTitle": true
+    },
+    {
+      "name": "feedback",
+      "url": "https://tourette.fyi/feedback-config.json",
+      "checkedAt": "2026-11-01T03:20:18.674088+00:00",
+      "httpStatus": 200,
+      "curlExitCode": 0,
+      "source": null,
+      "cacheControl": "public, must-revalidate, max-age=0, no-transform",
+      "settings": {
+        "enabled": false,
+        "apiOrigin": null,
+        "verifiedAt": null
+      }
+    }
+  ],
+  "postDeploymentHttpChecks": [
+    {
+      "name": "raw",
+      "url": "https://raw.githubusercontent.com/dotjade/project-neurofreedom/main/public/research-feed.json",
+      "checkedAt": "2026-11-01T03:20:30.010254+00:00",
+      "httpStatus": 200,
+      "curlExitCode": 0,
+      "source": null,
+      "cacheControl": "max-age=300",
+      "exactAuthoredBytes": true,
+      "updatedAt": "2026-11-01T03:13:13Z",
+      "sha256": "428532576bc234c99db20a135f2d5bb95759bf60f236cc19a9474ea459faa6d4"
+    },
+    {
+      "name": "production",
+      "url": "https://tourette.fyi/api/public-feed",
+      "checkedAt": "2026-11-01T03:20:32.756251+00:00",
+      "httpStatus": 200,
+      "curlExitCode": 0,
+      "source": "repository",
+      "cacheControl": "public, max-age=120, no-transform",
+      "exactAuthoredBytes": true,
+      "updatedAt": "2026-11-01T03:13:13Z",
+      "sha256": "428532576bc234c99db20a135f2d5bb95759bf60f236cc19a9474ea459faa6d4"
+    },
+    {
+      "name": "report",
+      "url": "https://github.com/dotjade/project-neurofreedom/blob/main/updates/2026-11-01/report.md",
+      "checkedAt": "2026-11-01T03:20:35.525354+00:00",
+      "httpStatus": 200,
+      "curlExitCode": 0,
+      "source": null,
+      "cacheControl": "max-age=0, private, must-revalidate",
+      "expectedTitle": true
+    },
+    {
+      "name": "audit",
+      "url": "https://github.com/dotjade/project-neurofreedom/blob/main/analyses/force_matching_reliability/2026-11-01/report.md",
+      "checkedAt": "2026-11-01T03:20:38.328612+00:00",
+      "httpStatus": 200,
+      "curlExitCode": 0,
+      "source": null,
+      "cacheControl": "max-age=0, private, must-revalidate",
+      "expectedTitle": true
+    },
+    {
+      "name": "feedback",
+      "url": "https://tourette.fyi/feedback-config.json",
+      "checkedAt": "2026-11-01T03:20:41.396311+00:00",
+      "httpStatus": 200,
+      "curlExitCode": 0,
+      "source": null,
+      "cacheControl": "public, must-revalidate, max-age=0, no-transform",
+      "settings": {
+        "enabled": false,
+        "apiOrigin": null,
+        "verifiedAt": null
+      }
+    }
+  ],
+  "workflow": {
+    "checkedAt": "2026-11-01T03:21:04.990Z",
+    "run": {
+      "id": 41268713530,
+      "html_url": "https://github.com/dotjade/project-neurofreedom/actions/runs/41268713530",
+      "head_sha": "4f7ee786e69097eafa906bdce5a48f8b556a4045",
+      "status": "completed",
+      "conclusion": "success",
+      "updated_at": "2026-11-01T03:20:18Z"
+    },
+    "jobs": [
+      {
+        "id": 124736844813,
+        "name": "check",
+        "status": "completed",
+        "conclusion": "success",
+        "run_id": 41268713530,
+        "logs_url": null,
+        "steps": [
+          {
+            "name": "Set up job",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 1
+          },
+          {
+            "name": "Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 2
+          },
+          {
+            "name": "Run actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 3
+          },
+          {
+            "name": "Run npm ci",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 4
+          },
+          {
+            "name": "Run npm run check",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 5
+          },
+          {
+            "name": "Run npm run build",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 6
+          },
+          {
+            "name": "Run npx --no-install wrangler deploy --dry-run",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 7
+          },
+          {
+            "name": "Post Run actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 13
+          },
+          {
+            "name": "Post Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 14
+          },
+          {
+            "name": "Complete job",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 15
+          }
+        ]
+      },
+      {
+        "id": 124736905685,
+        "name": "deploy",
+        "status": "completed",
+        "conclusion": "success",
+        "run_id": 41268713530,
+        "logs_url": null,
+        "steps": [
+          {
+            "name": "Set up job",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 1
+          },
+          {
+            "name": "Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 2
+          },
+          {
+            "name": "Run actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 3
+          },
+          {
+            "name": "Check deployment credentials",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 4
+          },
+          {
+            "name": "Run npm ci",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 5
+          },
+          {
+            "name": "Run npm run build",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 6
+          },
+          {
+            "name": "Publish tested revision",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 7
+          },
+          {
+            "name": "Check public site and repository feed",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 8
+          },
+          {
+            "name": "Post Run actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 15
+          },
+          {
+            "name": "Post Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 16
+          },
+          {
+            "name": "Complete job",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 17
+          }
+        ]
+      }
+    ]
+  },
+  "approvedActivitiesUnchanged": true,
+  "featuredActivityId": "rest-or-leave",
+  "collectionDisabled": true,
+  "limits": "No rendered/mobile/zoom/narration test or clinical validation claimed. Integration manifest covers research snapshot before this receipt and STATUS verification addition."
+}

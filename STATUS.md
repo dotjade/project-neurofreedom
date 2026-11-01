@@ -618,3 +618,12 @@ Close the split-half/window audit and hold same-task temporal validation pending
 ### Public journal
 
 The dated feed separates the no-new-result scan, batch-specific regulatory notice and historical aggregate analysis. All six catalog activities are unchanged, with rest-or-leave selected. Voting, comments and health-outcome collection remain disabled. The [link ledger](public/link-checks/2026-11-01.json) distinguishes bot/access limits from broken links. Actual GitHub and production verification follows publication; no fresh rendered/mobile/zoom/narration test is claimed.
+
+
+### Publication verification - 1 November 2026
+
+Research commit [4f7ee786e69097eafa906bdce5a48f8b556a4045](https://github.com/dotjade/project-neurofreedom/commit/4f7ee786e69097eafa906bdce5a48f8b556a4045) contains all 58 authored files. Fresh remote Git readback at 03:19:40 UTC verified exact bytes and preserved 1,187 unrelated files, with no unexpected paths. The GitHub connector independently matched the exact feed.
+
+[Actions run 41268713530](https://github.com/dotjade/project-neurofreedom/actions/runs/41268713530) completed successfully at 03:20:18 UTC. Connector job/step checks verify validation, build, deployment dry-run, production publication and public-route checks for the exact research commit. Anonymous raw and production feeds matched authored bytes. A fresh post-deployment API check at 03:20:32 UTC again matched with HTTP 200 and X-Journal-Source repository; updatedAt is 2026-11-01T03:13:13Z. Both new report URLs returned HTTP 200 with expected titles. Feedback remains disabled with null API origin, all six activities unchanged and rest-or-leave selected.
+
+The [verification receipt](updates/2026-11-01/publication-verification.json) records exact timestamps and checks. No new rendered/mobile/zoom/narration test is claimed. The integration manifest covers the research snapshot before this receipt and verification addition.
