@@ -1,0 +1,22 @@
+{
+  "checked_date": "2026-11-01",
+  "approximately_utc": "03:54",
+  "scope": "Bounded monthly identifier/access check, not a new evidence scan",
+  "checks": [
+    {
+      "url": "https://www.nature.com/articles/s41467-024-55242-6",
+      "status": "access-limited",
+      "detail": "Web reader redirected to inaccessible identity provider; not established broken; no archive or license acquired."
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs001423.v4.p2",
+      "status": "readable",
+      "detail": "Accession matched; authorized-access and certification routes visible; consent-excluded samples described. No request or individual data accessed."
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39892689/",
+      "status": "readable",
+      "detail": "PMID, DOI10.1016/j.biopsych.2024.12.022, Jan30 electronic and Aug1 2025 issue dates matched."
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "initial_main": "3bba0b5cdffed63f1df8e635ca0077bdafe88a84",
+  "scope": "Selected source-linked portfolio review; not new global scan",
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "6b1d997e495751f81c97048c86cd8864732cdd8313cc3d9363605bb4425721d2"
+    },
+    {
+      "path": "RESEARCH_PROTOCOL.md",
+      "sha256": "6f0025df7fd62fc2fe952cfbca96fca811ae76b917b7e7d4d45a501fe89e6859"
+    },
+    {
+      "path": "STATUS.md",
+      "sha256": "d5ae3839db354bada36b244dbf23e963da31eb75cc98812518f6a42e6d6bcd29"
+    },
+    {
+      "path": "hypotheses.md",
+      "sha256": "ba5085cf6700292f9b6751d7d11cd8b44339ac08a06f40d9e9d8c9b56483c85e"
+    },
+    {
+      "path": "foundation.md",
+      "sha256": "dd3472d5e5e664520ae0fe19431bcd825915e7116e8edf4a597253bc7effe66e"
+    },
+    {
+      "path": "roadmap.md",
+      "sha256": "ac477bf401b3c5aa8fe6f5b39f519bf92a9f4a702f445a2c4f6008dfd10de077"
+    },
+    {
+      "path": "RESEARCH_OVERVIEW.md",
+      "sha256": "838f8d6b286a2d7981dbd3aef21c0c9a086abab8f77c04679d97df47202c01b5"
+    },
+    {
+      "path": "public/journal-source/README.md",
+      "sha256": "809173b6459331730d4fd9b0df135079b1e8dfdb030f4babbfc0055fcec1197e"
+    },
+    {
+      "path": "evidence.jsonl",
+      "sha256": "bd29c34bcaae21452d86acc56bd52dbd1abb2d0c97209bfd58dfb76c3a27d1e7"
+    },
+    {
+      "path": "updates/2026-10-25-weekly-synthesis.md",
+      "sha256": "f4728a8e54d9e3478f7abb39180b7340dfb644e6ff46dec69e26ffb03a3dfd0d"
+    },
+    {
+      "path": "analyses/causal_synthesis/2026-10-28/report.md",
+      "sha256": "98c5e5a88ec30fee6c5c3decf9907c69124eabcc9d70a02db3495bcfa603caba"
+    },
+    {
+      "path": "analyses/causal_synthesis/2026-10-28/perturbations/report.md",
+      "sha256": "a0bef2a86f85053c5216700947e2bf19a77b7b2d350afecd4eec1478f522a0c7"
+    },
+    {
+      "path": "analyses/causal_synthesis/2026-10-28/circuits/report.md",
+      "sha256": "0b1ab7192484a06f0f639192629b880687afa7440193368782b879bcbb7df1e8"
+    },
+    {
+      "path": "analyses/gene_specificity/2026-10-29/report.md",
+      "sha256": "982977822fa03a83c9a7b5be932759253641e35cbaf496d1b9e1b9d3081c663d"
+    },
+    {
+      "path": "analyses/data_feasibility/2026-10-11-adult-audit.md",
+      "sha256": "5b9d6b2e8f8dd22c86a3ba3db7fbafa9942478049834f3981719719fb100608c"
+    },
+    {
+      "path": "analyses/ygtss_validation/2026-10-26/report.md",
+      "sha256": "66447dc34a4bf73e439d72bc076d08b545daa47735231fc22500483a6588a175"
+    },
+    {
+      "path": "updates/2026-11-01/report.md",
+      "sha256": "8d379acf1b6bd4fd9e708e10490163b5ddbf971474e242f6a18bf286e158ac2f"
+    },
+    {
+      "path": "analyses/force_matching_reliability/2026-11-01/report.md",
+      "sha256": "17f475b2288dec13cba44c1ff215749121f975e528d4ba0f75f78eeda72155cb"
+    }
+  ],
+  "final_parent_commit": "b7f62741cc6e92517d0a99134ff4fc01450be947",
+  "integrated_weekly": [
+    {
+      "path": "STATUS.md",
+      "sha256": "44c9ef71db22971ba8d71844e8761e43ee11489c29cae8834bfd2baf8ca4a8f4"
+    },
+    {
+      "path": "evidence.jsonl",
+      "sha256": "14a0ac822a9b957b4813c8e5a7ba03642f8c813166983ef6912a0f97d6a9112f"
+    },
+    {
+      "path": "updates/2026-11-01-weekly-synthesis.md",
+      "sha256": "35b71fc25dff34ad48166a422c4570bad7fc8525196560f0ed414f0fc1a6ce48"
+    },
+    {
+      "path": "analyses/canna_function/2026-11-01/report.md",
+      "sha256": "5f0df0eb2bfee756a64ad58bdc0e533cf5403d505eebc249ee0223fe88749199"
+    },
+    {
+      "path": "updates/2026-11-01-weekly/publication-verification.json",
+      "sha256": "00967db7d0c93dc34d41f484111cf76b0a8757c4cd414b984b1ccb7e354250f0"
+    }
+  ]
+}
