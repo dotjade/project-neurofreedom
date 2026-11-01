@@ -1,10 +1,17 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-31T03:31:43Z",
-  "lastResearchDate": "2026-10-31",
+  "updatedAt": "2026-11-01T03:13:13Z",
+  "lastResearchDate": "2026-11-01",
   "cadence": "Daily scheduled review; publication follows verified work.",
-  "latestSummary": "No new-window primary result was verified. A historical force-matching audit shows how memory and calibration affect interpretation; a new adolescent protocol and an adjacent regulatory review are not treatment results.",
+  "latestSummary": "No new clinical result was verified. A historical measurement audit separates within-session consistency from retest reliability. A Singapore safety notice concerns one tetrabenazine batch, not a class-wide risk.",
   "timeline": [
+    {
+      "date": "2026-11-01",
+      "title": "Consistency is not the same as stability.",
+      "type": "Published-aggregate methods audit and regulatory notice",
+      "summary": "Published force-matching averages change with the measurement window; high split-half consistency is not retest evidence. The scan found no new clinical result. A quality recall applies to one product batch.",
+      "record": "https://github.com/dotjade/project-neurofreedom/blob/main/updates/2026-11-01/report.md"
+    },
     {
       "date": "2026-10-31",
       "title": "A measurement needs its assumptions.",
@@ -165,13 +172,6 @@
       "type": "Data-feasibility audit",
       "summary": "Five cohort families were checked for adult, time-linked observations. No resource demonstrated the full combination needed for the proposed days-and-weeks antecedent question.",
       "record": "https://github.com/dotjade/project-neurofreedom/blob/main/analyses/data_feasibility/2026-10-10-audit.md"
-    },
-    {
-      "date": "2026-10-09",
-      "title": "Define improvement before combining results.",
-      "type": "Primary-study harmonization",
-      "summary": "Four studies used different ways to identify tic absence. Meaningful improvement and observable tics can coexist. No single pooled remission rate was calculated.",
-      "record": "https://github.com/dotjade/project-neurofreedom/blob/main/analyses/remission/2026-10-09-harmonization.md"
     }
   ],
   "findings": [
@@ -181,7 +181,7 @@
       "type": "Primary qualitative study",
       "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10863457/",
       "label": "Isaacs and colleagues, 2024",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "linkState": "Direct HTTP 203 access-limited; article metadata not verified in this pass"
     },
     {
@@ -190,7 +190,7 @@
       "type": "Primary longitudinal study",
       "url": "https://www.neurology.org/doi/10.1212/01.WNL.0000086370.10186.7C",
       "label": "Pappert and colleagues, 2003",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "linkState": "Publisher HTTP 403 challenge; institutional primary PDF available"
     },
     {
@@ -199,7 +199,7 @@
       "type": "Primary adult cohort study",
       "url": "https://link.springer.com/content/pdf/10.1186/s44247-026-00284-7.pdf",
       "label": "Ivanova and colleagues, 2026",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "linkState": "Primary PDF retrievable through this check"
     }
   ],
@@ -266,6 +266,6 @@
     "trend": [],
     "message": "No public ratings are collected yet. There are no votes or trends to show."
   },
-  "activityEditionDate": "2026-10-31",
-  "featuredActivityId": "small-silly-mark"
+  "activityEditionDate": "2026-11-01",
+  "featuredActivityId": "rest-or-leave"
 }

@@ -1,6 +1,6 @@
 # Project NeuroFreedom status
 
-Updated 31 October 2026. Initial portfolio, twenty-three completed daily updates and three completed weekly syntheses. Public evidence repository and journal launched 13 October.
+Updated 1 November 2026. Initial portfolio, twenty-four completed daily updates and three completed weekly syntheses. Public evidence repository and journal launched 13 October.
 
 ## Completed in this first pass
 
@@ -14,7 +14,7 @@ Updated 31 October 2026. Initial portfolio, twenty-three completed daily updates
 
 ## Enabled research schedules
 
-The user approved the following automatic public-science research and repository updates on 8 October 2026. Each schedule was created successfully and returned enabled status. Daily runs were completed on 9-31 October 2026; weekly syntheses were completed on 11, 18 and 25 October; first monthly and quarterly runs remain unverified.
+The user approved the following automatic public-science research and repository updates on 8 October 2026. Each schedule was created successfully and returned enabled status. Daily runs were completed on 9-31 October and 1 November 2026; weekly syntheses were completed on 11, 18 and 25 October; first monthly and quarterly runs remain unverified.
 
 - Daily new-evidence checks: from 9 October 2026, approximately 08:00 India time.
 - Weekly synthesis: Sundays, from 11 October 2026, approximately 09:00 India time.
@@ -603,3 +603,18 @@ Research commit [3ed28b359b49b002fe8b3535298aec084992a469](https://github.com/do
 [Actions run 41164984399](https://github.com/dotjade/project-neurofreedom/actions/runs/41164984399) completed successfully; connector job/step checks confirm validation, build, deployment dry-run, publication and public-route checks passed for the exact research commit. Anonymous raw and production feeds matched authored bytes. A fresh post-deployment check at 03:35:59 UTC again matched with HTTP 200 and X-Journal-Source repository; updatedAt is 2026-10-31T03:31:43Z. Both new report URLs returned HTTP 200 with expected titles. Feedback remains disabled with null API origin; all six activities are unchanged and small-silly-mark is selected.
 
 The [verification receipt](updates/2026-10-31/publication-verification.json) records timestamps and checks. No new rendered/mobile/zoom/narration test is claimed. The integration manifest covers the research snapshot before this receipt and verification addition.
+
+
+## Completed daily research update - 1 November 2026
+
+The [daily report](updates/2026-11-01/report.md) distinguishes a no-new-clinical-result scan from one new official batch-quality notice. HSA's November 1 notice concerns Tetrabenazine 25 mg 112's Sun-Italy, batch DNG1035A, recalled October 27 at retail level. It does not establish class-wide risk or a Tourette-specific outcome. Older pediatric care-system evidence and a secondary cannabinoid review remain historical, not new first publications. Selected registry fields are unchanged and no new posted result was verified.
+
+The [force-matching reliability audit](analyses/force_matching_reliability/2026-11-01/report.md) advances the next question with primary published aggregates. Split-half coefficients 0.94 and 0.86 do not establish retest reliability or reliability of the condition difference. The pooled trial-order null is preserved without claiming absence of slider-specific learning. An executed equal-force comparison changes from 0.8925 to 0.7725 N across adjacent extraction windows, a descriptive 0.12 N decrease. Covariance is unavailable, so no sampling interval or interaction test is invented. Twenty-three implementation assertions pass; independent source and arithmetic checks are recorded separately. This is aggregate arithmetic, not a simulation or patient reanalysis.
+
+### Next bounded decision
+
+Close the split-half/window audit and hold same-task temporal validation pending lawful participant-free repeat-session coefficients with uncertainty, absolute agreement and explicit apparatus, age, interval, order and familiarization. Condition-specific trial trends are needed separately. Do not repeat the same null search, reopen mixed datasets or contact authors. The adult TS numerical contrast retains its safe primary methods/results prerequisite. Broader functional burden, severe persistent adult needs, comorbidity and treatment response return to the existing portfolio and separately scheduled weekly/monthly prioritization; no new clinical experiment is proposed by this daily pass.
+
+### Public journal
+
+The dated feed separates the no-new-result scan, batch-specific regulatory notice and historical aggregate analysis. All six catalog activities are unchanged, with rest-or-leave selected. Voting, comments and health-outcome collection remain disabled. The [link ledger](public/link-checks/2026-11-01.json) distinguishes bot/access limits from broken links. Actual GitHub and production verification follows publication; no fresh rendered/mobile/zoom/narration test is claimed.

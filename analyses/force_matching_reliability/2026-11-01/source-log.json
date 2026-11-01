@@ -1,0 +1,86 @@
+{
+  "date_utc": "2026-11-01",
+  "search_interval_utc": [
+    "2026-11-01T03:06:47Z",
+    "2026-11-01T03:09:55Z"
+  ],
+  "search_engine": "web tool search; bounded English keyword/phrase retrieval, no exhaustive database claim",
+  "queries": [
+    "force matching task test retest reliability sensory attenuation indirect learning",
+    "force matching sensory attenuation learning slider repeated sessions reliability",
+    "\"force-matching\" \"retest\"",
+    "\"force matching\" \"learning\" \"Kilteni\"",
+    "\"force-matching\" \"reliability\" \"McNaughton\" 2021",
+    "\"sensory attenuation\" \"test-retest\"",
+    "\"force-matching\" \"learning\" \"slider\" -site:researchgate.net -site:wikipedia.org",
+    "\"force matching\" \"repeated sessions\" attenuation",
+    "\"force-matching\" \"learning effects\"",
+    "\"sensory attenuation\" \"indirect\" \"learning\" force matching 2024",
+    "\"force matching\" \"reliability\" \"session\" -pinch -ankle -thesis -long-COVID",
+    "\"force matching\" \"learning\" \"indirect condition\" -site:researchgate.net",
+    "\"force-matching\" \"test\u2013retest\" attenuation -pinch -ankle -COVID",
+    "\"force matching\" \"retest reliability\" sensory -pinch -ankle -knee",
+    "McNaughton Beath Jones 2021 force matching device 2021 sensory attenuation",
+    "\"10.3758/s13428-022-01954-w\" correction retraction",
+    "\"force matching\" \"slider\" \"practice\" attenuation learning extended"
+  ],
+  "sources": [
+    {
+      "id": "PMID36002628",
+      "doi": "10.3758/s13428-022-01954-w",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10556179/fullTextXML",
+      "access": "HTTP200 full primary XML inspected transiently, CC BY4.0",
+      "sha256_of_inspected_xml": "45e1c0e376430a2e86886dd85418d6db965e359b4bbafabb998058156ee2ca01",
+      "included": "primary aggregate same-task methodological analysis; no retest",
+      "publication_date": "2022-08-24",
+      "issue_date": "2023-09"
+    },
+    {
+      "id": "PMID38212469",
+      "doi": "10.1038/s41598-024-51644-0",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10784472/fullTextXML",
+      "access": "HTTP200 full primary XML inspected transiently",
+      "sha256_of_inspected_xml": "87457d56c53204779d4070c880017cf3ae851da0b51ee95432481f89affa7423",
+      "included": "construct comparator only, not attenuation retest; aggregate dispersion ambiguity retained",
+      "publication_date": "2024-01-11"
+    },
+    {
+      "id": "PMID34027595",
+      "doi": "10.3758/s13428-021-01605-6",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34027595/",
+      "access": "official bibliographic metadata/abstract; device publication not fully reaudited",
+      "publication_date": "2021-05-23",
+      "included": "bibliographic calibration context, not independent sample"
+    }
+  ],
+  "screened_out_examples": [
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7099785/",
+      "reason": "ipsilateral pinch proprioception retest, not direct/slider attenuation"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11442760/",
+      "reason": "planned somatosensory retest in long-COVID protocol, not verified same-task force-matching outcome"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11761661/",
+      "reason": "other sensory paradigms; model paper explicitly leaves retest validation future"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5646181/",
+      "reason": "practice described, not prolonged slider-practice manipulation/retest estimate; not extracted as new evidence"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7617943/",
+      "reason": "Oct31 audit already completed; not new analysis evidence"
+    }
+  ],
+  "correction_check": "Exact main DOI with correction/retraction query returned original sources and no verified correction notice; bounded check, not assurance.",
+  "limitations": [
+    "English keyword search not systematic; nonretrieval does not prove absence.",
+    "No raw/individual data repositories or participant files opened.",
+    "No paid source, researcher contact or clinical data collection.",
+    "Same-task retest CI and condition-specific learning estimates not verified.",
+    "Transient full primary text excluded from publication; only original summaries, links and selected aggregates saved."
+  ]
+}

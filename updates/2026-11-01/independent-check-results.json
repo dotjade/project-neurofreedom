@@ -1,0 +1,232 @@
+{
+  "checkedAt": "2026-11-01T03:13:27.942559+00:00",
+  "checksPassed": 54,
+  "checks": [
+    "2\u20132.5second equal-force direct-minus-slider",
+    "2.5\u20133second equal-force direct-minus-slider",
+    "later-minus-earlier contrast",
+    "direct time shift",
+    "slider time shift",
+    "contrast change decomposes",
+    "relative decrease denominator earlier",
+    "target 0 later contrast lower",
+    "target 1 later contrast lower",
+    "target 2 later contrast lower",
+    "target 3 later contrast lower",
+    "SB inversion .94",
+    "SB inversion .86",
+    "SB inversion .88",
+    "SB inversion .74",
+    "nonnegative SD NAE10",
+    "nonnegative SD NAE30",
+    "nonnegative SD NAE50",
+    "nonnegative SD NCE10",
+    "nonnegative SD NCE30",
+    "nonnegative SD NCE50",
+    "nonnegative SD NVE10",
+    "nonnegative SD NVE30",
+    "nonnegative SD NVE50",
+    "five printed paired-SD contradictions",
+    "no correction inferred from inconsistency",
+    "Oct31 committed script exactly inspected",
+    "2026-10-31 script and two saved patterns present",
+    "2026-10-31 regex 0 positive/negative controls",
+    "2026-10-31 regex 1 positive/negative controls",
+    "2026-10-31 regex 2 positive/negative controls",
+    "2026-11-01 script and two saved patterns present",
+    "2026-11-01 regex 0 positive/negative controls",
+    "2026-11-01 regex 1 positive/negative controls",
+    "2026-11-01 regex 2 positive/negative controls",
+    "feed catalog preserved",
+    "feed feedback preserved disabled",
+    "feed six activities",
+    "feed approved selection",
+    "feed new dates",
+    "feed no em dash",
+    "feed bounded timeline",
+    "feed older timeline preserved",
+    "feed no false clinical discovery",
+    "feed batch scope explicit",
+    "feed nonfuture timestamp",
+    "final unique PubMed counts agree",
+    "query ID union equals screened",
+    "abstracts not retained",
+    "new primary window claim zero",
+    "final preprint counts agree",
+    "final preprint no lexical match",
+    "five registry comparisons unchanged no results",
+    "48 final request logs successful"
+  ],
+  "preprintRegexControls": [
+    {
+      "day": "2026-10-31",
+      "source": "AST",
+      "length": 22,
+      "controls": [
+        true,
+        true,
+        false
+      ]
+    },
+    {
+      "day": "2026-10-31",
+      "source": "saved search log",
+      "length": 22,
+      "controls": [
+        true,
+        true,
+        false
+      ]
+    },
+    {
+      "day": "2026-10-31",
+      "source": "saved search log",
+      "length": 22,
+      "controls": [
+        true,
+        true,
+        false
+      ]
+    },
+    {
+      "day": "2026-11-01",
+      "source": "AST",
+      "length": 22,
+      "controls": [
+        true,
+        true,
+        false
+      ]
+    },
+    {
+      "day": "2026-11-01",
+      "source": "saved search log",
+      "length": 22,
+      "controls": [
+        true,
+        true,
+        false
+      ]
+    },
+    {
+      "day": "2026-11-01",
+      "source": "saved search log",
+      "length": 22,
+      "controls": [
+        true,
+        true,
+        false
+      ]
+    }
+  ],
+  "feedChecks": {
+    "catalog preserved": true,
+    "feedback preserved disabled": true,
+    "six activities": true,
+    "approved selection": true,
+    "new dates": true,
+    "no em dash": true,
+    "bounded timeline": true,
+    "older timeline preserved": true,
+    "no false clinical discovery": true,
+    "batch scope explicit": true,
+    "nonfuture timestamp": true
+  },
+  "sourceURLs": [
+    "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10556179/fullTextXML",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC10784472/"
+  ],
+  "aggregateWindowContrast": {
+    "earlier": "0.8925",
+    "later": "0.7725",
+    "laterMinusEarlier": "-0.1200",
+    "unit": "N",
+    "CI": null,
+    "precisionLimit": "Rounded cell means; covariance unavailable. Descriptive equal-force calculation, not a significance test."
+  },
+  "pairedSDConsistency": [
+    {
+      "endpoint": "NAE10",
+      "sd1": "0.69",
+      "sd2": "0.21",
+      "sdDifference": "0.22",
+      "requiredLower": "0.48",
+      "requiredUpper": "0.90",
+      "inconsistentEvenWithRounding": true
+    },
+    {
+      "endpoint": "NAE30",
+      "sd1": "1.31",
+      "sd2": "0.27",
+      "sdDifference": "0.41",
+      "requiredLower": "1.04",
+      "requiredUpper": "1.58",
+      "inconsistentEvenWithRounding": true
+    },
+    {
+      "endpoint": "NAE50",
+      "sd1": "1.08",
+      "sd2": "0.42",
+      "sdDifference": "0.68",
+      "requiredLower": "0.66",
+      "requiredUpper": "1.50",
+      "inconsistentEvenWithRounding": false
+    },
+    {
+      "endpoint": "NCE10",
+      "sd1": "0.10",
+      "sd2": "0.35",
+      "sdDifference": "0.26",
+      "requiredLower": "0.25",
+      "requiredUpper": "0.45",
+      "inconsistentEvenWithRounding": false
+    },
+    {
+      "endpoint": "NCE30",
+      "sd1": "0.16",
+      "sd2": "0.98",
+      "sdDifference": "0.66",
+      "requiredLower": "0.82",
+      "requiredUpper": "1.14",
+      "inconsistentEvenWithRounding": true
+    },
+    {
+      "endpoint": "NCE50",
+      "sd1": "0.20",
+      "sd2": "0.71",
+      "sdDifference": "1.00",
+      "requiredLower": "0.51",
+      "requiredUpper": "0.91",
+      "inconsistentEvenWithRounding": true
+    },
+    {
+      "endpoint": "NVE10",
+      "sd1": "0.28",
+      "sd2": "0.32",
+      "sdDifference": "0.20",
+      "requiredLower": "0.04",
+      "requiredUpper": "0.60",
+      "inconsistentEvenWithRounding": false
+    },
+    {
+      "endpoint": "NVE30",
+      "sd1": "0.30",
+      "sd2": "0.39",
+      "sdDifference": "0.35",
+      "requiredLower": "0.09",
+      "requiredUpper": "0.69",
+      "inconsistentEvenWithRounding": false
+    },
+    {
+      "endpoint": "NVE50",
+      "sd1": "0.33",
+      "sd2": "0.79",
+      "sdDifference": "0.44",
+      "requiredLower": "0.46",
+      "requiredUpper": "1.12",
+      "inconsistentEvenWithRounding": true
+    }
+  ],
+  "pairedSDAssumptions": "Conditional on the three printed spreads being SDs of the same paired observations in the same units, as the table and methods appear to state. A failed bound identifies a reporting ambiguity, not its cause; no corrected values are inferred.",
+  "scope": "Independent checks on published aggregates; not clinical validation, participant reanalysis, simulation or correction of the paper."
+}

@@ -1,0 +1,28 @@
+{
+  "checked_utc": "2026-11-01T03:11:13.869901+00:00",
+  "result": "Current and prior committed pattern both pass controls. No historical regex correction is indicated.",
+  "records": [
+    {
+      "path": "updates/2026-10-31/scan/scan_sources.py",
+      "runtime_pattern": "\\btourett\\w*|\\btics?\\b",
+      "length": 22,
+      "controls": {
+        "Tourette syndrome": true,
+        "persistent motor tics": true,
+        "statistics": false
+      },
+      "passed": true
+    },
+    {
+      "path": "updates/2026-11-01/scan/scan_sources.py",
+      "runtime_pattern": "\\btourett\\w*|\\btics?\\b",
+      "length": 22,
+      "controls": {
+        "Tourette syndrome": true,
+        "persistent motor tics": true,
+        "statistics": false
+      },
+      "passed": true
+    }
+  ]
+}

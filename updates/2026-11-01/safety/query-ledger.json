@@ -1,0 +1,22 @@
+{
+  "previousCutoff": "2026-10-31T03:29:09.444619+00:00",
+  "searchIntervalUTC": "2026-11-01T03:07:03Z/2026-11-01T03:07:19Z",
+  "queries": [
+    "site:fda.gov (aripiprazole OR risperidone OR guanfacine OR NeuroStar OR ecopipam) after:2026-10-30 before:2026-11-02",
+    "site:ema.europa.eu (aripiprazole OR risperidone OR pimozide OR haloperidol OR deutetrabenazine OR Deanxit) after:2026-10-30 before:2026-11-02",
+    "site:gov.uk (Tourette OR guanfacine OR aripiprazole OR botulinum OR antidepressants) after:2026-10-30 before:2026-11-02",
+    "site:tga.gov.au (Tourette OR methylphenidate OR clonidine OR botulinum OR atomoxetine) after:2026-10-30 before:2026-11-02",
+    "(Tourette OR \"tic disorder\") (guideline OR safety OR warning OR recall) after:2026-10-30 before:2026-11-02",
+    "(ecopipam OR Neupulse OR valbenazine OR tetrabenazine OR topiramate OR tiapride) (safety OR recall OR warning) after:2026-10-30 before:2026-11-02"
+  ],
+  "watch": "Core tic treatments: ecopipam; aripiprazole, risperidone, pimozide, haloperidol; clonidine, guanfacine; valbenazine, deutetrabenazine, tetrabenazine; Neupulse/median-nerve stimulation, rTMS/NeuroStar and DBS. Supplementary: topiramate, botulinum toxin, tiapride, methylphenidate, atomoxetine, lisdexamfetamine, fluvoxamine, sertraline and antidepressants. Broader co-occurring-condition communication considered separately. Not exhaustive.",
+  "qualifyingNewCoreWatchCommunications": 1,
+  "communicationType": "One batch-specific quality recall, not a class-wide pharmacologic signal",
+  "newAdjacentRegulatoryOutcomes": 0,
+  "newIssuedTicGuidelinesVerified": 0,
+  "displayedResultCards": null,
+  "countLimitation": "Search cards reviewed but no stable exhaustive result count captured; search date filters also return older documents. No unique-event denominator asserted.",
+  "screening": "Old labels, guidance and footer/crawl dates excluded as new events. Individual adverse-event cards excluded without retaining narratives. Nonprimary results were not used as evidence.",
+  "dedup": "Repository text search of updates and evidence.jsonl for DNG1035A, Sun-Italy, black spots found no prior match before this record. NeuroStar recall Z-0142-2027/event 99812 is already recorded and dated October 9.",
+  "windowLimitation": "Overlapping calendar search; explicit source dates distinguish notice, recall and modification. No exact first-publication instant inferred."
+}

@@ -1,0 +1,32 @@
+{
+  "extraction_date": "2026-11-01",
+  "access": "PubMed citation metadata and abstract inspected in memory; abstract not retained. Full methods not audited.",
+  "records": [
+    {
+      "id": "PMID:42664664",
+      "doi": "10.1016/j.chiabu.2026.108287",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42664664/",
+      "evidence_type": "peer-reviewed observational primary study, abstract-only extraction",
+      "first_electronic_publication": "2026-08-28",
+      "journal_issue": "November 2026",
+      "new_window_publication": false,
+      "population": "231 children aged 5-12 in Quebec protective care, 125 foster care and 106 residential care; not a TS-selected sample.",
+      "method": "Caregiver-reported medication and symptom/diagnostic questionnaires; observational associations.",
+      "results": "Overall 59% used psychotropic medication; 21% received multiple medicines. A Tourette diagnosis was among reported predictors of polypharmacy. The abstract does not provide the TS subgroup count, coefficient, interval or complete adjustment model. Only 5/231 received at least three medication classes, limiting inference.",
+      "limitations": "Confounding by indication, caregiving and diagnostic ascertainment remain possible. No untreated causal comparison, TS-specific medication-effect estimate or adverse-event rate is established. Do not extrapolate to all children with TS or severe persistent adults.",
+      "decision": "Historical care-burden context, not new efficacy or safety evidence. No treatment change. No participant-level records accessed."
+    },
+    {
+      "id": "PMID:42617303",
+      "doi": "10.1016/j.psychres.2026.117380",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42617303/",
+      "evidence_type": "peer-reviewed systematic review/meta-analysis, secondary evidence, abstract-only extraction",
+      "first_electronic_publication": "2026-08-11",
+      "journal_issue": "November 2026",
+      "new_window_publication": false,
+      "results": "The review describes trivial-to-no randomized cannabinoid benefit for TS and predominantly very-low-certainty evidence overall. Increased THC adverse-event withdrawals are pooled across the review, not established as TS-specific.",
+      "limitations": "TS-specific trial denominators, pooled effect and uncertainty are absent from the inspected abstract. Reviews reuse primary cohorts and must not be counted as additional participants or an independent efficacy replication.",
+      "decision": "Historical counterevidence lead only. Inspect lawful primary TS trial aggregates before any new quantitative comparison; no treatment recommendation."
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "checkedAt": "2026-11-01T03:13:47.074432+00:00",
+  "reviewer": "Independent AI-assisted source/statistical/integration reviewer",
+  "disposition": "No blocking scientific or public-copy defect found in reviewed snapshot; publication remains unverified here.",
+  "independentAssertions": 54,
+  "independentScript": "independent_check.py",
+  "independentResults": "independent-check-results.json",
+  "additionalEvidenceIntegrationChecks": {
+    "priorEvidenceBytesPreserved": true,
+    "uniqueEvidenceIDs": true,
+    "newRecords": 4,
+    "newRecordIDs": [
+      "mcnaughton2022_force_matching_methodology",
+      "pmid:42664664",
+      "pmid:42617303",
+      "HSA-TETRABENAZINE-DNG1035A-2026-11-01"
+    ]
+  },
+  "sourceChecks": [
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10556179/fullTextXML",
+      "checked": "Original methods, tables, split-half and learning interpretation; selected aggregate arithmetic."
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10784472/",
+      "checked": "Different pinch-retest construct; coefficient type; conditional dispersion reporting ambiguity, no correction inferred."
+    },
+    {
+      "url": "https://www.hsa.gov.sg/announcements/recall-of-tetrabenazine-25mg-112-s-sun-italy/",
+      "checked": "November1notice versus October27recall, product, batchDNG1035A, retail Class2, narrow quality scope."
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42664664/",
+      "checked": "August28 first publication, Novemberissue, n231 selected protective-care sample, abstract limits."
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42617303/",
+      "checked": "August11 first publication, Novemberissue, secondary evidence and TS versus review-wide scope."
+    }
+  ],
+  "keyResolvedIssues": [
+    "Split-half not repeat-session or contrast reliability",
+    "Pooled trial slope not condition-specific learning null",
+    "No invented covariance confidence interval",
+    "Within-trial window not across-trial learning",
+    "No historical regex defect: actual committed AST and saved values pass controls",
+    "Batch-specific recall not class-wide or patient-specific safety outcome"
+  ],
+  "reviewedFiles": [
+    {
+      "path": "updates/2026-11-01/report.md",
+      "sha256": "8d379acf1b6bd4fd9e708e10490163b5ddbf971474e242f6a18bf286e158ac2f"
+    },
+    {
+      "path": "analyses/force_matching_reliability/2026-11-01/report.md",
+      "sha256": "17f475b2288dec13cba44c1ff215749121f975e528d4ba0f75f78eeda72155cb"
+    },
+    {
+      "path": "analyses/force_matching_reliability/2026-11-01/aggregate-inputs.json",
+      "sha256": "30af2ad0db98b2cd594151cde18e9e02003a3d8bfe6df867e1e05e8b1121ba04"
+    },
+    {
+      "path": "analyses/force_matching_reliability/2026-11-01/aggregate-results.json",
+      "sha256": "d47f4b2fa34e3d2677c6561872d6d527dafe852b2c3d96483ca9ee4ed59d8b31"
+    },
+    {
+      "path": "updates/2026-11-01/scan/report.md",
+      "sha256": "862763df4cd3a25e4beec70b7195bde25456e1ae43922927e3b27abd28103839"
+    },
+    {
+      "path": "updates/2026-11-01/scan/summary.json",
+      "sha256": "d794b37ad77bad47a2a7d6a63f8caecc15edb890159704685bbbd22995c3f808"
+    },
+    {
+      "path": "updates/2026-11-01/safety/report.md",
+      "sha256": "7e73e5575da51415de6ea4c918bed92e11bf315a106224bed68824f763175b2d"
+    },
+    {
+      "path": "public/research-feed.json",
+      "sha256": "428532576bc234c99db20a135f2d5bb95759bf60f236cc19a9474ea459faa6d4"
+    },
+    {
+      "path": "STATUS.md",
+      "sha256": "0e6f5fdb9e596101509ec9ccd46a50a49acec239b4a381447e3db200b4d05a50"
+    },
+    {
+      "path": "evidence.jsonl",
+      "sha256": "bd29c34bcaae21452d86acc56bd52dbd1abb2d0c97209bfd58dfb76c3a27d1e7"
+    }
+  ],
+  "limitations": [
+    "No participant data, independent raw reanalysis or clinical peer review",
+    "Counts checked against saved final logs, not exhaustive independent rerun",
+    "Only the cited primary reports/abstracts and official safety notice were independently opened",
+    "No rendered/mobile/narration/accessibility test",
+    "No commit, CI or live publication claim by this review"
+  ]
+}

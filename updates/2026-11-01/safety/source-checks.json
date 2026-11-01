@@ -1,0 +1,105 @@
+{
+  "previousCutoff": "2026-10-31T03:29:09.444619+00:00",
+  "completedAt": "2026-11-01T03:08:02Z",
+  "sources": [
+    {
+      "label": "FDA drug communications",
+      "url": "https://www.fda.gov/drugs/drug-safety-and-availability/drug-safety-communications",
+      "status": "retrieved",
+      "result": "Latest listed September 15; no new-window watch communication verified.",
+      "checkedAt": "2026-11-01T03:07:19Z/2026-11-01T03:08:02Z",
+      "method": "Public web reader of index/metadata and referral/recall text; HSA additionally ordinary anonymous HTTP",
+      "limitations": "Bounded English-language pass, not all labels, attachments, national agencies or device notices."
+    },
+    {
+      "label": "FDA device communications",
+      "url": "https://www.fda.gov/medical-devices/medical-device-safety/safety-communications",
+      "status": "retrieved",
+      "result": "Latest listed June 3; outside window.",
+      "checkedAt": "2026-11-01T03:07:19Z/2026-11-01T03:08:02Z",
+      "method": "Public web reader of index/metadata and referral/recall text; HSA additionally ordinary anonymous HTTP",
+      "limitations": "Bounded English-language pass, not all labels, attachments, national agencies or device notices."
+    },
+    {
+      "label": "FDA CDRH news",
+      "url": "https://www.fda.gov/medical-devices/medical-devices-news-and-events/cdrh-new-news-and-updates",
+      "status": "retrieved",
+      "result": "Latest October 30 headings concern mammography contacts, hospital glucose meter and PF4 assay. Outside named watch and already screened yesterday.",
+      "checkedAt": "2026-11-01T03:07:19Z/2026-11-01T03:08:02Z",
+      "method": "Public web reader of index/metadata and referral/recall text; HSA additionally ordinary anonymous HTTP",
+      "limitations": "Bounded English-language pass, not all labels, attachments, national agencies or device notices."
+    },
+    {
+      "label": "EMA new content",
+      "url": "https://www.ema.europa.eu/en/news-events/whats-new",
+      "status": "incomplete_search_view",
+      "result": "Web reader returned zero-results search shell, not evidence of no updates. Label-change workbook not inspected.",
+      "checkedAt": "2026-11-01T03:07:19Z/2026-11-01T03:08:02Z",
+      "method": "Public web reader of index/metadata and referral/recall text; HSA additionally ordinary anonymous HTTP",
+      "limitations": "Bounded English-language pass, not all labels, attachments, national agencies or device notices."
+    },
+    {
+      "label": "EMA PRAC signals",
+      "url": "https://www.ema.europa.eu/en/human-regulatory-overview/post-authorisation/pharmacovigilance-post-authorisation/signal-management/prac-recommendations-safety-signals",
+      "status": "retrieved",
+      "result": "Latest listed recommendations published October 26, EMA/PRAC/206892/2026 and 206903/2026. PDFs not reread.",
+      "checkedAt": "2026-11-01T03:07:19Z/2026-11-01T03:08:02Z",
+      "method": "Public web reader of index/metadata and referral/recall text; HSA additionally ordinary anonymous HTTP",
+      "limitations": "Bounded English-language pass, not all labels, attachments, national agencies or device notices."
+    },
+    {
+      "label": "EMA Deanxit referral",
+      "url": "https://www.ema.europa.eu/en/medicines/human/referrals/flupentixol-melitracen-containing-medicinal-products",
+      "status": "retrieved",
+      "result": "Procedure started, no final recommendation verified. October 30 notice; October 16 prose initiation and October 29 metadata start discrepancy persists. Excludes flupentixol alone.",
+      "checkedAt": "2026-11-01T03:07:19Z/2026-11-01T03:08:02Z",
+      "method": "Public web reader of index/metadata and referral/recall text; HSA additionally ordinary anonymous HTTP",
+      "limitations": "Bounded English-language pass, not all labels, attachments, national agencies or device notices."
+    },
+    {
+      "label": "MHRA Drug Safety Update",
+      "url": "https://www.gov.uk/drug-safety-update",
+      "status": "retrieved",
+      "result": "Index led by October 26 campaign notice. October 15 antidepressant communication is older, not recounted as new.",
+      "checkedAt": "2026-11-01T03:07:19Z/2026-11-01T03:08:02Z",
+      "method": "Public web reader of index/metadata and referral/recall text; HSA additionally ordinary anonymous HTTP",
+      "limitations": "Bounded English-language pass, not all labels, attachments, national agencies or device notices."
+    },
+    {
+      "label": "MHRA recalls",
+      "url": "https://www.gov.uk/drug-device-alerts",
+      "status": "retrieved",
+      "result": "Index is not strictly chronological; October 29 lercanidipine and Mynzepli recalls outside named watch. No new-window named-watch notice verified.",
+      "checkedAt": "2026-11-01T03:07:19Z/2026-11-01T03:08:02Z",
+      "method": "Public web reader of index/metadata and referral/recall text; HSA additionally ordinary anonymous HTTP",
+      "limitations": "Bounded English-language pass, not all labels, attachments, national agencies or device notices."
+    },
+    {
+      "label": "TGA safety updates",
+      "url": "https://www.tga.gov.au/news/safety-updates",
+      "status": "retrieved",
+      "result": "Latest listed October 14. Maintenance banner remains; no assumption of complete availability.",
+      "checkedAt": "2026-11-01T03:07:19Z/2026-11-01T03:08:02Z",
+      "method": "Public web reader of index/metadata and referral/recall text; HSA additionally ordinary anonymous HTTP",
+      "limitations": "Bounded English-language pass, not all labels, attachments, national agencies or device notices."
+    },
+    {
+      "label": "TGA safety alerts",
+      "url": "https://www.tga.gov.au/safety/safety-alerts",
+      "status": "retrieved",
+      "result": "Latest October 30 unapproved nicotine-gum warning outside watch.",
+      "checkedAt": "2026-11-01T03:07:19Z/2026-11-01T03:08:02Z",
+      "method": "Public web reader of index/metadata and referral/recall text; HSA additionally ordinary anonymous HTTP",
+      "limitations": "Bounded English-language pass, not all labels, attachments, national agencies or device notices."
+    },
+    {
+      "label": "HSA tetrabenazine recall",
+      "url": "https://www.hsa.gov.sg/announcements/recall-of-tetrabenazine-25mg-112-s-sun-italy/",
+      "status": "retrieved",
+      "result": "Newly retrieved November 1 notice of October 27 batch-specific precautionary recall; see regulatory-evidence.json.",
+      "checkedAt": "2026-11-01T03:07:19Z/2026-11-01T03:08:02Z",
+      "method": "Public web reader of index/metadata and referral/recall text; HSA additionally ordinary anonymous HTTP",
+      "limitations": "Bounded English-language pass, not all labels, attachments, national agencies or device notices."
+    }
+  ]
+}
