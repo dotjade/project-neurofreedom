@@ -1,0 +1,92 @@
+{
+  "date": "2026-11-02",
+  "plan_sha256": "afc402787a2949fc03451205cb0b5bd210d4c92d00827511d2c8e14586ab1d5e",
+  "trial": {
+    "doi": "10.1016/j.psychres.2023.115135",
+    "pmid": "36878177",
+    "nct": "NCT03087201",
+    "eudract": "2016-000564-42"
+  },
+  "sources": [
+    {
+      "id": "protocol",
+      "url": "https://www.frontiersin.org/journals/psychiatry/articles/10.3389/fpsyt.2020.575826/full",
+      "type": "peer-reviewed protocol",
+      "published": "2020-11-26",
+      "read": "full public HTML; statistical-analysis sections and assessment table"
+    },
+    {
+      "id": "primary",
+      "url": "https://d-nb.info/1334360707/34",
+      "type": "peer-reviewed randomized results",
+      "published": "2023-02-28",
+      "read": "Fresh lawful National Library PDF read transiently in memory: amendment, blinded-review, missingness and sensitivity paragraphs verified; no source retained"
+    },
+    {
+      "id": "registration",
+      "url": "https://www.clinicaltrialsregister.eu/ctr-search/trial/2016-000564-42/DE",
+      "type": "official registry protocol record",
+      "read": "public endpoint schedule and authority/ethics/end-of-trial dates"
+    },
+    {
+      "id": "repository",
+      "url": "https://freidok.uni-freiburg.de/data/234831",
+      "type": "institutional repository metadata",
+      "read": "HTML citation_pdf_url links and indexed metadata"
+    },
+    {
+      "id": "wrong_attachment",
+      "url": "https://freidok.uni-freiburg.de/files/234831/Kz8o4Cn0jwAT9VSD/1-s2.0-S0165178123000860-mmc1.pdf",
+      "type": "mismatched attachment, excluded from clinical evidence",
+      "sha256": "52acf06222b9ad150e2f7c8a821f30b38893f61a6eb728407c06e65e9082e50b",
+      "pages": 18,
+      "observed_title": "Enhancing phosphorus removal of photogranules by incorporating polyphosphate accumulating organisms",
+      "observed_domain": "wastewater treatment, not chronic tic disorders",
+      "verification": "in-memory PyMuPDF extraction, page1 rendered and visually inspected; temporary render removed; no paper retained"
+    },
+    {
+      "id": "publisher",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0165178123000860",
+      "type": "publisher article",
+      "read": "direct web403; search-indexed excerpts accessible; no challenge bypass"
+    }
+  ],
+  "extraction": [
+    {
+      "question": "Were function measures absent from the documented plan?",
+      "result": "No. Protocol and registry name GTS-QoL and SF-12; protocol also distinguishes tic-related impairment.",
+      "status": "partly resolves concern"
+    },
+    {
+      "question": "Were function analyses confirmatory?",
+      "result": "Protocol explicitly labels secondary analyses exploratory. Driving noninferiority is gated on primary superiority.",
+      "status": "hierarchy verified"
+    },
+    {
+      "question": "Are missing-value models fully reconciled?",
+      "result": "Protocol specifies ANCOVA plus an additional longitudinal AR(1) mixed model; no missing-value replacement applies explicitly to that mixed model. The primary report describes baseline-mean imputation and LOCF with sensitivity analyses. It does not follow that ANCOVA was unplanned or imputation prohibited. Genuine aggregate sensitivity output and dated SAP remain unavailable.",
+      "status": "unresolved"
+    },
+    {
+      "question": "Are endpoint-specific observed function counts verified?",
+      "result": "No. General completion counts cannot supply observed GTS-QoL or SF-12 denominators.",
+      "status": "unresolved"
+    },
+    {
+      "question": "Is trial-specific VAS scoring or the printed contrast inconsistency resolved?",
+      "result": "No corrected aggregate table or explicit coding reconciliation verified.",
+      "status": "unresolved"
+    },
+    {
+      "question": "Does dated protocol publication establish original pre-enrollment specification?",
+      "result": "No. Protocol publication2020-11-26 postdates registry trial end2020-11-20. It documents a plan but not by itself its original timing. Dated amendments/SAP remain necessary.",
+      "status": "unresolved"
+    },
+    {
+      "question": "Can the retrieved mmc1 be used for function sensitivity estimates?",
+      "result": "No. Content identity fails despite matching institutional checksum.",
+      "status": "excluded"
+    }
+  ],
+  "clinical_consequence": "Retain uncertain direct functional estimates from Nov1; neither establish benefit nor infer no benefit from unavailable supplementary results. Do not interpret the forthcoming driving comparison as confirmatory without its hierarchy and actual estimand."
+}

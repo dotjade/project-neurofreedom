@@ -1,6 +1,6 @@
 # Project NeuroFreedom status
 
-Updated 1 November 2026. Initial portfolio, twenty-four completed daily updates, four completed weekly syntheses and one monthly review. Public evidence repository and journal launched 13 October.
+Updated 2 November 2026. Initial portfolio, twenty-five completed daily updates, four completed weekly syntheses and one monthly review. Public evidence repository and journal launched 13 October.
 
 ## Completed in this first pass
 
@@ -14,7 +14,7 @@ Updated 1 November 2026. Initial portfolio, twenty-four completed daily updates,
 
 ## Enabled research schedules
 
-The user approved the following automatic public-science research and repository updates on 8 October 2026. Each schedule was created successfully and returned enabled status. Daily runs were completed on 9-31 October and 1 November 2026; weekly syntheses were completed on 11, 18 and 25 October and 1 November; the first monthly review was completed on 1 November; the first quarterly run remains unverified.
+The user approved the following automatic public-science research and repository updates on 8 October 2026. Each schedule was created successfully and returned enabled status. Daily runs were completed on 9-31 October and 1-2 November 2026; weekly syntheses were completed on 11, 18 and 25 October and 1 November; the first monthly review was completed on 1 November; the first quarterly run remains unverified.
 
 - Daily new-evidence checks: from 9 October 2026, approximately 08:00 India time.
 - Weekly synthesis: Sundays, from 11 October 2026, approximately 09:00 India time.
@@ -645,3 +645,18 @@ The [first monthly review](updates/2026-11-01-monthly/report.md) assesses all tw
 Current execution priority is direct adult function/harms interpretation from existing public aggregates, followed by a conditional group-only network-map/code/license feasibility gate. The original C2 unconditional priority label is superseded by this access gate. Completed gene-membership and sensory-methods audits are closed pending their exact new safe aggregate prerequisites. H14 target escalation stays deferred even while its functional evidence is audited; H10/H11 share one small postmortem source, not independent causal replication.
 
 Thirty-one offline editorial structure checks and an independent interpretive review cover all twenty hypotheses/eight packages. These are not clinical validation. The next bounded step is the weekly supplement/SAP/score/missingness audit, then the conditional H15 group-artifact inventory. No owner action, personal data, clinical experiment, contact or paid compute is needed. Homepage/feed and approved activities remain unchanged. Publication is established by the separate exact remote readback receipt.
+
+
+## Completed daily research update - 2 November 2026
+
+The [daily report](updates/2026-11-02/report.md) records no qualifying new-window primary first publication, preprint, posted trial result or material watched-treatment safety notice in the bounded scan. Thirty-two PubMed records, 676 preprint DOI/version records and five unchanged selected registry comparisons were checked. A newly retrieved July video-method paper remains historical abstract-only evidence, not adult function validation.
+
+The [CANNA-TICS documentation reconciliation](analyses/canna_documentation/2026-11-02/report.md) confirms planned functional measures and exploratory status. The protocol's driving noninferiority test is gated on primary superiority. Its no-imputation statement belongs to the additional mixed model, not every analysis. The primary report's sensitivity assertion is preserved, but numerical robustness cannot be independently assessed without the genuine aggregate supplement and observed functional denominators. An institutional attachment's content did not match the trial despite matching its listed checksum; independent visual/hash checks excluded it. No clinical result or missing outcomes were fabricated.
+
+### Next bounded decision
+
+Close this fixed supplement search pending genuine lawful aggregate sensitivity output, endpoint-specific observed counts, VAS coding/correction and dated analysis-plan documentation. Next audit the same-trial driving paper's hierarchy, margin, analyzed population, missingness and harms. It is neither independent replication nor individual safety advice. Adult function/harms, persistent severe burden and comorbidity remain central. No owner action, participant data, contact, intervention or paid compute is needed.
+
+### Public journal
+
+The dated feed distinguishes a no-new-evidence scan from historical documentation work. All six optional activities remain unchanged, with the dated selection from the approved catalog. Voting, comments and health-outcome collection remain disabled. The [link ledger](public/link-checks/2026-11-02.json) records actual access limits without labeling bot blocks broken. Exact source/live verification follows the commit.

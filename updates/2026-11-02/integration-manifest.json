@@ -1,0 +1,300 @@
+{
+  "base_commit": "866c82c09c838fffdabea719dc5f44edb133eea2",
+  "files": [
+    {
+      "path": "analyses/canna_documentation/2026-11-02/extraction.json",
+      "bytes": 4618,
+      "sha256": "e79511519248986c29f8ab858cf0f5ebffd670f81325618f93cdf11178b09266",
+      "git_blob": "12d80a7df3040bd9474ba82782e971fb2914207e",
+      "base64_length": 6160
+    },
+    {
+      "path": "analyses/canna_documentation/2026-11-02/plan.md",
+      "bytes": 1472,
+      "sha256": "afc402787a2949fc03451205cb0b5bd210d4c92d00827511d2c8e14586ab1d5e",
+      "git_blob": "6c8b94266339765540fd7333984ec8ae47c8c833",
+      "base64_length": 1964
+    },
+    {
+      "path": "analyses/canna_documentation/2026-11-02/report.md",
+      "bytes": 6315,
+      "sha256": "158fb2c96d6e65ec7d01f7447e13670306129490dee6031b510a32f36d2ccff3",
+      "git_blob": "6df397d27fcd7f68b9e0edfa1952a7bdc0c44936",
+      "base64_length": 8420
+    },
+    {
+      "path": "analyses/canna_documentation/2026-11-02/review/identity.json",
+      "bytes": 479,
+      "sha256": "010691dd2db44979f6bcb22ac3ea0f6e9e9b74dd9116154d25a3af7e57bf5e8f",
+      "git_blob": "8ed5acf46f1943edc5648e729123b24d6b057ddb",
+      "base64_length": 640
+    },
+    {
+      "path": "analyses/canna_documentation/2026-11-02/review/integration-review.md",
+      "bytes": 2402,
+      "sha256": "16bef6dbf53b926e468a60633bf37f309d5454c3dd44a5711de3f6229764c8a4",
+      "git_blob": "f65f46de5151006d3482c680fa3521e70ce38888",
+      "base64_length": 3204
+    },
+    {
+      "path": "analyses/canna_documentation/2026-11-02/review/review.md",
+      "bytes": 3518,
+      "sha256": "3e51d30e0e8dba3fa11b7321c479675cf386ce638be46c9abddd6c2a56f0d297",
+      "git_blob": "2fe1395a58ba3799cec9f052409a069f0988ce1a",
+      "base64_length": 4692
+    },
+    {
+      "path": "public/link-checks/2026-11-02.json",
+      "bytes": 41272,
+      "sha256": "132ddc2a985d42e393e02e76fe70eedab6b5e32dc35c9387459d8f882ab3e301",
+      "git_blob": "aa4a28cd1ca380ab0858374533a02ba2010fa589",
+      "base64_length": 55032
+    },
+    {
+      "path": "updates/2026-11-02/integration-validation.json",
+      "bytes": 2728,
+      "sha256": "002367a53a3e554e5f6b60e4d61bd10676557eaa681bbcd9ae02c381545e1398",
+      "git_blob": "b65bb36d31ffb580fa54ba989c5f53f3c0f78d15",
+      "base64_length": 3640
+    },
+    {
+      "path": "updates/2026-11-02/report.md",
+      "bytes": 3899,
+      "sha256": "83c15dd27037a0e8a7cae947702f40e40d3eb7306743f10d86fb1c52a49cd3ae",
+      "git_blob": "2e17094ccc08b46c7e8316e638471218e373ee88",
+      "base64_length": 5200
+    },
+    {
+      "path": "updates/2026-11-02/safety/catalog-safety-check.json",
+      "bytes": 1155,
+      "sha256": "a1b662ac6904fa41f9d2b66d9480bf0f56aa165043a40ad0c015d32702efa5ab",
+      "git_blob": "00c430b1eeec87d2d2c6dad23ab2f4e10daafc1d",
+      "base64_length": 1540
+    },
+    {
+      "path": "updates/2026-11-02/safety/check_homepage_links.py",
+      "bytes": 7497,
+      "sha256": "f90b72b6460218dabf3d0d905d74e33c0a779782e5c6e6e88b54f33eefda17d5",
+      "git_blob": "e9427468085b858aa6448b97eb4aeb798c0b643a",
+      "base64_length": 9996
+    },
+    {
+      "path": "updates/2026-11-02/safety/check_links.py",
+      "bytes": 5968,
+      "sha256": "a87279e8b8a55cca3b07f3d7074271296e2ec61637d6bff2b24ae6b4638e3cc7",
+      "git_blob": "1c9df16893c763f34a351dc47bd99727aa59f972",
+      "base64_length": 7960
+    },
+    {
+      "path": "updates/2026-11-02/safety/check_supplement.py",
+      "bytes": 6944,
+      "sha256": "99b067e1ee0aceafdb9d9252b23f7addb5b17aae877b12194bb31f1cd85b2fc5",
+      "git_blob": "1fb181bdfe7fb505a6778b1f46e691b7a6d1f297",
+      "base64_length": 9260
+    },
+    {
+      "path": "updates/2026-11-02/safety/homepage-link-check.json",
+      "bytes": 9928,
+      "sha256": "388b36a023d1bd31be5e659070eb380d2a0b6823a8ee5337c7cca05f4d2f89fb",
+      "git_blob": "0a9b9daac5e552b28f486f8719257665673c7ec6",
+      "base64_length": 13240
+    },
+    {
+      "path": "updates/2026-11-02/safety/link-check-rerun.json",
+      "bytes": 30441,
+      "sha256": "cc10563f01b62a3e03e7b6830e63c6a16676b96d795339ff4ee11ffaa52dd52d",
+      "git_blob": "848e9036aa2ead5864fa03b518e9025b5b4cf03b",
+      "base64_length": 40588
+    },
+    {
+      "path": "updates/2026-11-02/safety/query-ledger.json",
+      "bytes": 2418,
+      "sha256": "4b93051744e7e98cd0149621abe0a32d5afd35c3eb755b175c2d5860bbedbb4a",
+      "git_blob": "3f6f8f8478dc36607ffaf932cb9b2ecf5b17ffec",
+      "base64_length": 3224
+    },
+    {
+      "path": "updates/2026-11-02/safety/report.md",
+      "bytes": 5760,
+      "sha256": "c7279bd279c6bf2166b6ff3f9e4f42dc57c2b3833d2279f5a6e2c43c9cd9830c",
+      "git_blob": "c420ab9c53ab257f1db2baec79b1c95253f4c625",
+      "base64_length": 7680
+    },
+    {
+      "path": "updates/2026-11-02/safety/repository-provenance.json",
+      "bytes": 1549,
+      "sha256": "d3cb10db90ee8c7c21a3c1d067a4d1d4b5a965980371e936f162565e78b68409",
+      "git_blob": "6738c50b33a252d0ad5257b2a34ab52045f5962c",
+      "base64_length": 2068
+    },
+    {
+      "path": "updates/2026-11-02/safety/source-checks.json",
+      "bytes": 6589,
+      "sha256": "0f27a7ca5e44525f4910abd0d8d58d8f829f176d5987915b41f76a2c6630145a",
+      "git_blob": "4be646821a508a0a272d7f8f036bbf442b3b2a3e",
+      "base64_length": 8788
+    },
+    {
+      "path": "updates/2026-11-02/safety/supplementary-checks.json",
+      "bytes": 3945,
+      "sha256": "87bf38e2b92df2d08de166f6f8836b3600f5e9b49572775caab516c255fedf78",
+      "git_blob": "f01cb43964e48ac8fc152ba84543eb091105b43f",
+      "base64_length": 5260
+    },
+    {
+      "path": "updates/2026-11-02/safety/validate.py",
+      "bytes": 1429,
+      "sha256": "688ff36e4cbe6922495f1ccc06a876bf099da9415b5afe3257ee48f78d12a6e6",
+      "git_blob": "bf44dd643a4d22f0f52f4789d1b44d707c392407",
+      "base64_length": 1908
+    },
+    {
+      "path": "updates/2026-11-02/safety/validation.json",
+      "bytes": 370,
+      "sha256": "33d195382d68c3286999e7165c5835c1fa8c5e738f9fae87ba09220d9ab762f7",
+      "git_blob": "ff67c97f55d1c2797195f62885b7b906bd2d520b",
+      "base64_length": 496
+    },
+    {
+      "path": "updates/2026-11-02/scan/baseline.json",
+      "bytes": 157457,
+      "sha256": "35212d33be6d5a291fddd4e875cec4f42267f62dd91c858b47f76fa9d2f3c6ce",
+      "git_blob": "2fcfca8245c777bb9a49091f480a89b44b760248",
+      "base64_length": 209944
+    },
+    {
+      "path": "updates/2026-11-02/scan/biorxiv-preprint-index.tsv",
+      "bytes": 22135,
+      "sha256": "0aafea98e50ac12c5063e3533a238503c88acbbd014e7d097aed11773cdc2652",
+      "git_blob": "c6d80ba4324e7a6b7adf4738883b346a96dc8dff",
+      "base64_length": 29516
+    },
+    {
+      "path": "updates/2026-11-02/scan/build_results.py",
+      "bytes": 3381,
+      "sha256": "607a46bfcda34be230ebc8a6415026e14ddb53cfa753ab622f145c0611a63dbb",
+      "git_blob": "f56b28c33a258ceff5240a6e60d8a938468fc684",
+      "base64_length": 4508
+    },
+    {
+      "path": "updates/2026-11-02/scan/discovery-log.json",
+      "bytes": 1004,
+      "sha256": "da9d903b576d6ecc48c5437d64c32779a83f20d3fa683183ee91813b0ff74483",
+      "git_blob": "fcce99cdfca2f72187bb69542677959be2f88367",
+      "base64_length": 1340
+    },
+    {
+      "path": "updates/2026-11-02/scan/medrxiv-preprint-index.tsv",
+      "bytes": 5865,
+      "sha256": "13ddbc87701d845e5de165775ed8c9570e77314b8230d2f921431c8fdd1e5585",
+      "git_blob": "2ad1e23ea2b4d7ccbc6efe51b1111c206c402eae",
+      "base64_length": 7820
+    },
+    {
+      "path": "updates/2026-11-02/scan/provenance.json",
+      "bytes": 1852,
+      "sha256": "986b50cf309cb194ade4efa97954d312f6d2717419960599d1fe002f39d42cc7",
+      "git_blob": "a6138880185d5781fbb8323b49f501ecc26e74d5",
+      "base64_length": 2472
+    },
+    {
+      "path": "updates/2026-11-02/scan/pubmed-screening.jsonl",
+      "bytes": 42527,
+      "sha256": "c40439f89de6b59997463952a2c1c4e7b606b60acedecd0a7849c28c1af12801",
+      "git_blob": "d6128ebc87a76e80b0d61e5336efbff747a8474b",
+      "base64_length": 56704
+    },
+    {
+      "path": "updates/2026-11-02/scan/registry-evidence.jsonl",
+      "bytes": 7792,
+      "sha256": "56d8cd8a46becd34773b858198281af7c29a127bfbcb5f4c9f90e06e2b1cca4b",
+      "git_blob": "5e378eeb645f0283016bc2ca03fbc9fc759f6f37",
+      "base64_length": 10392
+    },
+    {
+      "path": "updates/2026-11-02/scan/report.md",
+      "bytes": 5400,
+      "sha256": "51e65eaba32a6ea33319e3188069211e6af766736594492b6c97d10c924c1f93",
+      "git_blob": "aa44f94c60159cef2be19602b79ecde0037c1d4a",
+      "base64_length": 7200
+    },
+    {
+      "path": "updates/2026-11-02/scan/request-log.json",
+      "bytes": 16396,
+      "sha256": "2bc0a3a0edc23139fda983f98b7649b28af4fa9f90d36a69e902f753a503c4df",
+      "git_blob": "4d32fef90aab452ac7301d5690e4b8cecb3f3405",
+      "base64_length": 21864
+    },
+    {
+      "path": "updates/2026-11-02/scan/scan_sources.py",
+      "bytes": 9662,
+      "sha256": "ac5ca629445a46c6eeb0cdf33fa4363bad9db9e644d16f1ae56672f06eef7849",
+      "git_blob": "18d032f6b122a226dd722374a546b5cfd18355fd",
+      "base64_length": 12884
+    },
+    {
+      "path": "updates/2026-11-02/scan/search-log.json",
+      "bytes": 195528,
+      "sha256": "d61b2599473ee1bc082e89e69e427328aac2eaa12f2cff97be2e5006ed74ff09",
+      "git_blob": "34c8f9565ca659e8260cd618895efad0ae01bcd6",
+      "base64_length": 260704
+    },
+    {
+      "path": "updates/2026-11-02/scan/summary.json",
+      "bytes": 825,
+      "sha256": "7befa1bce6fe50ca41bf2309fb68b7f31af22fbf7918bec9f6b1a9fa4ec20abd",
+      "git_blob": "394b6641c13111134c77b74e7f868e65fd8a44e8",
+      "base64_length": 1100
+    },
+    {
+      "path": "updates/2026-11-02/scan/supplement-metadata.json",
+      "bytes": 2769,
+      "sha256": "f40f0b0350cd6bbb2a0c2724407a91219a2a30550b2763686ee0e7e1cbea018e",
+      "git_blob": "672d78f6223f60b59e0c39abef60783605469160",
+      "base64_length": 3692
+    },
+    {
+      "path": "updates/2026-11-02/scan/validate.py",
+      "bytes": 2613,
+      "sha256": "64f1372490f544854ff3626db8a90ed3da68b94f2effb175f2525040bc96dfbf",
+      "git_blob": "832f515dabfe426dea2b0e04629205d3148fed7c",
+      "base64_length": 3484
+    },
+    {
+      "path": "updates/2026-11-02/scan/validation.json",
+      "bytes": 967,
+      "sha256": "93ceb42fddc373b048b47a4965f33eb358966d20472a2e1c9ab4b55f9a03f084",
+      "git_blob": "25ab09bc05692f6e6cbcd21f4bc0c20e9abc812f",
+      "base64_length": 1292
+    },
+    {
+      "path": "updates/2026-11-02/validate_integration.py",
+      "bytes": 3310,
+      "sha256": "3816df3e6aaff9537caf9393ec2aa0f5cccdd2ac205e8318b62bdada2304740b",
+      "git_blob": "f931961d02be87e9cecedbef3b6941c199275a2c",
+      "base64_length": 4416
+    },
+    {
+      "path": "STATUS.md",
+      "bytes": 116875,
+      "sha256": "367901157737d40b076a630384ea0d1a8137e84c092ec9901fc28317dbc509db",
+      "git_blob": "c003863140e57cbe4387535c71721eca619be0a4",
+      "base64_length": 155836
+    },
+    {
+      "path": "evidence.jsonl",
+      "bytes": 148087,
+      "sha256": "356ed4a1aeee69b130f531cbc9d27b798c6b35f2d40c030686793eaf3c69a3f1",
+      "git_blob": "7c424f71778fb88ea7f0a24add119f3831df71d4",
+      "base64_length": 197452
+    },
+    {
+      "path": "public/research-feed.json",
+      "bytes": 16814,
+      "sha256": "9a70889fe6b7832299a7873856dacd55e59655b003b9dcaa103e7007977b75cb",
+      "git_blob": "450a639c79585eadc37f6c648a9681034c19de95",
+      "base64_length": 22420
+    }
+  ],
+  "scope": "Authored research snapshot; this manifest and later publication receipt excluded from self-hash"
+}
