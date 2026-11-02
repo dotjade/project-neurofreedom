@@ -1,0 +1,115 @@
+{
+  "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=38767700,42964513&retmode=xml",
+  "checked_at": "2026-11-02T03:21:49.540295+00:00",
+  "sha256": "bdcdf53058026ed29bbd133e8827360c50dee5665bdeba8dede75d1234f65bf2",
+  "records": [
+    {
+      "pmid": "38767700",
+      "title": "Correction to: Psychosocial experiences in youth with Tourette syndrome: a systematic review and meta-synthesis.",
+      "article_dates": [],
+      "identifiers": {
+        "pubmed": "38767700",
+        "doi": "10.1007/s00787-024-02468-w",
+        "pii": "10.1007/s00787-024-02468-w"
+      },
+      "types": [
+        "Published Erratum"
+      ],
+      "journal_pubdate": {
+        "Year": "2025",
+        "Month": "Jan"
+      },
+      "history": {
+        "medline": {
+          "Year": "2024",
+          "Month": "5",
+          "Day": "20",
+          "Hour": "12",
+          "Minute": "42"
+        },
+        "pubmed": {
+          "Year": "2024",
+          "Month": "5",
+          "Day": "20",
+          "Hour": "12",
+          "Minute": "41"
+        },
+        "entrez": {
+          "Year": "2024",
+          "Month": "5",
+          "Day": "20",
+          "Hour": "11",
+          "Minute": "5"
+        }
+      }
+    },
+    {
+      "pmid": "42964513",
+      "title": "Weakly-Supervised Detection of Facial Motor Tics in Video Data Using Score-Driven Top-k Multiple Instance Learning.",
+      "article_dates": [
+        {
+          "Year": "2026",
+          "Month": "07",
+          "Day": "30"
+        }
+      ],
+      "identifiers": {
+        "pubmed": "42964513",
+        "pmc": "PMC13719929",
+        "doi": "10.1007/s41666-026-00233-z",
+        "pii": "233"
+      },
+      "types": [
+        "Journal Article"
+      ],
+      "journal_pubdate": {
+        "Year": "2026",
+        "Month": "Dec"
+      },
+      "history": {
+        "received": {
+          "Year": "2024",
+          "Month": "7",
+          "Day": "9"
+        },
+        "revised": {
+          "Year": "2026",
+          "Month": "1",
+          "Day": "7"
+        },
+        "accepted": {
+          "Year": "2026",
+          "Month": "3",
+          "Day": "26"
+        },
+        "medline": {
+          "Year": "2026",
+          "Month": "10",
+          "Day": "31",
+          "Hour": "23",
+          "Minute": "25"
+        },
+        "pubmed": {
+          "Year": "2026",
+          "Month": "10",
+          "Day": "31",
+          "Hour": "23",
+          "Minute": "24"
+        },
+        "entrez": {
+          "Year": "2026",
+          "Month": "10",
+          "Day": "31",
+          "Hour": "5",
+          "Minute": "11"
+        },
+        "pmc-release": {
+          "Year": "2026",
+          "Month": "7",
+          "Day": "30"
+        }
+      }
+    }
+  ],
+  "abstracts_retained": false
+}

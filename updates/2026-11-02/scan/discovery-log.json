@@ -1,0 +1,32 @@
+{
+  "checked_date": "2026-11-02",
+  "queries": [
+    "site.pubmed.ncbi.nlm.nih.gov Tourette \"2026 Nov\"",
+    "site.clinicaltrials.gov Tourette \"November 2, 2026\""
+  ],
+  "decisions": [
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42412229/",
+      "decision": "July7 primary cohort report; November issue, previously screened."
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13688072",
+      "decision": "August25 primary cohort report; November issue, previously screened."
+    }
+  ],
+  "web_access_limits": [
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42964513/",
+      "status": "web internal error; official API accessible"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13719929/",
+      "status": "web cache miss; no fulltext inspected"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38767700/",
+      "status": "web shell only; official API metadata used"
+    }
+  ],
+  "secondary_search_results": "Not used as evidence."
+}

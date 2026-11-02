@@ -1,0 +1,24 @@
+{
+  "created_utc": "2026-11-02T03:22:48.688183+00:00",
+  "baseline_commit": "866c82c09c838fffdabea719dc5f44edb133eea2",
+  "baseline_source": "updates/2026-11-01/scan",
+  "source_code_adaptation": "November1 scan_sources.py date windows advanced, NCT07905898 direct control added; core query logic unchanged.",
+  "data_scope": "Public bibliographic and protocol metadata only. No source abstract/fulltext/participant file retained.",
+  "files": {
+    "scan_sources.py": "ac5ca629445a46c6eeb0cdf33fa4363bad9db9e644d16f1ae56672f06eef7849",
+    "pubmed-screening.jsonl": "c40439f89de6b59997463952a2c1c4e7b606b60acedecd0a7849c28c1af12801",
+    "search-log.json": "d61b2599473ee1bc082e89e69e427328aac2eaa12f2cff97be2e5006ed74ff09",
+    "validation.json": "93ceb42fddc373b048b47a4965f33eb358966d20472a2e1c9ab4b55f9a03f084",
+    "build_results.py": "607a46bfcda34be230ebc8a6415026e14ddb53cfa753ab622f145c0611a63dbb",
+    "biorxiv-preprint-index.tsv": "0aafea98e50ac12c5063e3533a238503c88acbbd014e7d097aed11773cdc2652",
+    "report.md": "51e65eaba32a6ea33319e3188069211e6af766736594492b6c97d10c924c1f93",
+    "baseline.json": "35212d33be6d5a291fddd4e875cec4f42267f62dd91c858b47f76fa9d2f3c6ce",
+    "validate.py": "64f1372490f544854ff3626db8a90ed3da68b94f2effb175f2525040bc96dfbf",
+    "medrxiv-preprint-index.tsv": "13ddbc87701d845e5de165775ed8c9570e77314b8230d2f921431c8fdd1e5585",
+    "supplement-metadata.json": "f40f0b0350cd6bbb2a0c2724407a91219a2a30550b2763686ee0e7e1cbea018e",
+    "request-log.json": "2bc0a3a0edc23139fda983f98b7649b28af4fa9f90d36a69e902f753a503c4df",
+    "discovery-log.json": "da9d903b576d6ecc48c5437d64c32779a83f20d3fa683183ee91813b0ff74483",
+    "summary.json": "7befa1bce6fe50ca41bf2309fb68b7f31af22fbf7918bec9f6b1a9fa4ec20abd",
+    "registry-evidence.jsonl": "56d8cd8a46becd34773b858198281af7c29a127bfbcb5f4c9f90e06e2b1cca4b"
+  }
+}
