@@ -878,5 +878,18 @@
       "completedAt": "2026-11-03T02:43:22.376953+00:00"
     }
   ],
-  "newNovember3Links": "Pending integrating-run publication and readback; not marked verified here."
+  "newNovember3Links": [
+    {
+      "url": "https://github.com/dotjade/project-neurofreedom/blob/main/updates/2026-11-03/report.md",
+      "status": 200,
+      "expected_title_present": true,
+      "checkedAt": "2026-11-03T02:50:33.528142+00:00"
+    },
+    {
+      "url": "https://github.com/dotjade/project-neurofreedom/blob/main/analyses/canna_driving/2026-11-03/report.md",
+      "status": 200,
+      "expected_title_present": true,
+      "checkedAt": "2026-11-03T02:50:36.596843+00:00"
+    }
+  ]
 }
