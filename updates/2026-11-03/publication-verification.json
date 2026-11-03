@@ -1,0 +1,144 @@
+{
+  "date": "2026-11-03",
+  "research_commit": "f5ea4d1852462def1ff6f34da39e2b4470ad6d5a",
+  "research_files_exact": 49,
+  "unrelated_files_preserved": 1310,
+  "unexpected_paths": [],
+  "github_connector_feed_exact": true,
+  "anonymous_raw_feed_exact": true,
+  "source_readback": "Fresh origin/main and all manifest hashes checked after publication",
+  "workflow": {
+    "id": 41568516333,
+    "status": "completed",
+    "conclusion": "success",
+    "updated_at": "2026-11-03T02:50:45Z",
+    "html_url": "https://github.com/dotjade/project-neurofreedom/actions/runs/41568516333",
+    "head_sha": "f5ea4d1852462def1ff6f34da39e2b4470ad6d5a"
+  },
+  "jobs": [
+    {
+      "name": "check",
+      "conclusion": "success",
+      "completed_at": "2026-11-03T02:50:20Z",
+      "steps": [
+        {
+          "name": "Set up job",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run npm ci",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run npm run check",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run npm run build",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run npx --no-install wrangler deploy --dry-run",
+          "conclusion": "success"
+        },
+        {
+          "name": "Post Run actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020",
+          "conclusion": "success"
+        },
+        {
+          "name": "Post Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+          "conclusion": "success"
+        },
+        {
+          "name": "Complete job",
+          "conclusion": "success"
+        }
+      ]
+    },
+    {
+      "name": "deploy",
+      "conclusion": "success",
+      "completed_at": "2026-11-03T02:50:44Z",
+      "steps": [
+        {
+          "name": "Set up job",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020",
+          "conclusion": "success"
+        },
+        {
+          "name": "Check deployment credentials",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run npm ci",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run npm run build",
+          "conclusion": "success"
+        },
+        {
+          "name": "Publish tested revision",
+          "conclusion": "success"
+        },
+        {
+          "name": "Check public site and repository feed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Post Run actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020",
+          "conclusion": "success"
+        },
+        {
+          "name": "Post Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+          "conclusion": "success"
+        },
+        {
+          "name": "Complete job",
+          "conclusion": "success"
+        }
+      ]
+    }
+  ],
+  "live": {
+    "checkedAt": "2026-11-03T02:51:24.130512+00:00",
+    "status": 200,
+    "source": "repository",
+    "exact": true,
+    "updatedAt": "2026-11-03T02:45:00Z",
+    "sha256": "127bd61014782ceb909e97129d0f1ae727fbae9c562035b438242a696047e799"
+  },
+  "access_limit": "Initial urllib live API read returned 403; ordinary anonymous curl returned200 with exact repository edition. No bypass or custom authentication used.",
+  "tests": {
+    "analysis": 10,
+    "scan": 32,
+    "safety_catalog": 14,
+    "safety_consistency": 10,
+    "integration": 43,
+    "independent_review": "Exact-rational calculations and primary-source checks passed; not clinical validation",
+    "source_check": "npm run check passed",
+    "build": "npm run build passed"
+  },
+  "safeguards": {
+    "activity_catalog_unchanged": true,
+    "featured": "familiar-route",
+    "voting_comments_health_collection": "disabled",
+    "rendered_ui_testing": "not performed"
+  },
+  "receipt_scope": "Research snapshot manifest predates this receipt and updated link/status verification."
+}

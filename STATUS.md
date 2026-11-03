@@ -675,3 +675,12 @@ Close the fixed driving audit pending lawful aggregate methods/tables. Next exec
 ### Public journal
 
 The dated feed distinguishes no new clinical evidence, registry metadata and historical analysis. All six optional activities remain unchanged, with familiar-route selected. Voting, comments and health-outcome collection remain disabled. The [link ledger](public/link-checks/2026-11-03.json) retains bot/access limits separately from broken links. Exact source and production checks follow the commit; no fresh rendered accessibility test is claimed.
+
+
+### Publication verification - 3 November 2026
+
+Research commit [f5ea4d1852462def1ff6f34da39e2b4470ad6d5a](https://github.com/dotjade/project-neurofreedom/commit/f5ea4d1852462def1ff6f34da39e2b4470ad6d5a) contains 49 authored files, verified byte-for-byte while preserving 1,310 unrelated files. GitHub connector and anonymous raw feed match the authored edition.
+
+[Actions run 41568516333](https://github.com/dotjade/project-neurofreedom/actions/runs/41568516333) passed checks, build, deployment dry-run, publication and public routes, completing at 02:50:45 UTC. Fresh production readback at 02:51:24 UTC returned HTTP 200, X-Journal-Source repository and exact feed bytes with updatedAt 2026-11-03T02:45:00Z. An initial urllib request returned 403; ordinary anonymous curl succeeded, and the limitation remains recorded. Both new report links returned HTTP 200 with expected titles.
+
+The [receipt](updates/2026-11-03/publication-verification.json) records exact checks and limits. Six activities remain unchanged, familiar-route is selected, and collection remains off. No new rendered/mobile/zoom/narration test is claimed. The research manifest covers the snapshot before this receipt and final link/status verification.
