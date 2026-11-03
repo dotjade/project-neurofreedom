@@ -1,0 +1,36 @@
+{
+  "kind": "Deterministic aggregate consistency checks, not simulation, statistical refit or clinical validation",
+  "arms": [
+    {
+      "arm": "nabiximols",
+      "compatible_denominators": [
+        39
+      ],
+      "conditional_unrepresented_count": 4,
+      "transition_implied_fit_if_same_complete_population": 30,
+      "reported_week13_fit": 28,
+      "difference": 2
+    },
+    {
+      "arm": "placebo",
+      "compatible_denominators": [
+        19
+      ],
+      "conditional_unrepresented_count": 2,
+      "transition_implied_fit_if_same_complete_population": 12,
+      "reported_week13_fit": 10,
+      "difference": 2
+    }
+  ],
+  "crude_difference_using_percentage_compatible_denominators": 0.19163292847503377,
+  "reported_difference": 0.17,
+  "crude_minus_reported": 0.021632928475033758,
+  "reported_interval_includes_zero": true,
+  "reported_lower_above_margin": true,
+  "distance_lower_to_margin": 0.24,
+  "primary_gate_passed": false,
+  "confirmatory_noninferiority_established_under_published_hierarchy": false,
+  "confirmatory_status_note": "Adjudicated from verified published hierarchy and failed primary gate; not a fitted statistical result",
+  "missingness_bounds_executed": false,
+  "missingness_prerequisite": "Verified actual observed endpoint counts, analysis-set/transition definitions and imputation before interpreting percentage-compatible denominators as missing participants."
+}

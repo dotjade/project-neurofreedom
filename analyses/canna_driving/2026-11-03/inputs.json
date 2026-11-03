@@ -1,0 +1,74 @@
+{
+  "date": "2026-11-03",
+  "plan_sha256": "a6d850d7848028c060da021fef75c7c2eaafd1fc1cfcf127f4aa2da701e44094",
+  "evidence_type": "Historical peer-reviewed abstract and protocol, official registry; full driving methods unavailable",
+  "driving": {
+    "doi": "10.1089/can.2023.0114",
+    "pmid": "38265476",
+    "first_online": "2024-01-23",
+    "issue": "2024-10",
+    "source": "https://pubmed.ncbi.nlm.nih.gov/38265476/",
+    "publisher": "https://journals.sagepub.com/doi/10.1089/can.2023.0114",
+    "population": 64,
+    "sites": 2,
+    "age_mean": 36.8,
+    "age_sd": 13.9,
+    "men_percent": 76.6,
+    "arms": [
+      {
+        "name": "nabiximols",
+        "n": 43,
+        "baseline_fit": 24,
+        "week13_fit": 28,
+        "week13_percent": 71.8,
+        "fit_to_unfit": 2,
+        "unfit_to_fit": 8
+      },
+      {
+        "name": "placebo",
+        "n": 21,
+        "baseline_fit": 14,
+        "week13_fit": 10,
+        "week13_percent": 52.6,
+        "fit_to_unfit": 4,
+        "unfit_to_fit": 2
+      }
+    ],
+    "reported_rd": 0.17,
+    "reported_ci95": [
+      -0.08,
+      0.43
+    ],
+    "methods_limit": "The model, imputation, actual observed denominators and transition population cannot be established from abstract alone."
+  },
+  "protocol": {
+    "doi": "10.3389/fpsyt.2020.575826",
+    "source": "https://www.frontiersin.org/journals/psychiatry/articles/10.3389/fpsyt.2020.575826/full",
+    "published": "2020-11-26",
+    "margin": -0.32,
+    "primary_superiority_required": true,
+    "planned_estimator": "center-stratified Mantel-Haenszel risk difference",
+    "criterion": "Any one of five computerized test percentile ranks below 16 is unfit; not a crash endpoint."
+  },
+  "registry": {
+    "source": "https://www.clinicaltrialsregister.eu/ctr-search/trial/2016-000564-42/results",
+    "eudract": "2016-000564-42",
+    "nct": "NCT03087201",
+    "first_results": "2023-12-31",
+    "primary_superiority_p": 0.0755,
+    "primary_ci95_placebo_minus_active": [
+      -0.2688,
+      0.0131
+    ],
+    "primary_n": 97,
+    "ae_people_active": 61,
+    "ae_people_placebo": 26,
+    "ae_denominators": [
+      64,
+      33
+    ],
+    "ae_note": "Whole-trial counts, not driving-substudy counts or crash rates; AE section includes serious events.",
+    "original_threshold_superiority_p": 0.0633,
+    "threshold_note": "Protocol originally >30%; registry blind-review-defined >25% is primary. Registry >30% description repeats at least25%. Both tests fail .05."
+  }
+}

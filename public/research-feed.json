@@ -1,10 +1,17 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-02T03:25:45Z",
-  "lastResearchDate": "2026-11-02",
+  "updatedAt": "2026-11-03T02:45:00Z",
+  "lastResearchDate": "2026-11-03",
   "cadence": "Daily scheduled review; publication follows verified work.",
-  "latestSummary": "No qualifying new evidence was verified in the bounded scan. An adult trial documentation audit clarified planned functional measures, but missingness and scoring questions remain unresolved.",
+  "latestSummary": "No qualifying new clinical evidence was verified. A registry date changed. An older adult driving study showed a favorable signal, but its test hierarchy and unclear analysis sets limit stronger safety claims.",
   "timeline": [
+    {
+      "date": "2026-11-03",
+      "title": "Check what a driving test can show.",
+      "type": "Historical aggregate audit and evidence scan",
+      "summary": "An adult trial showed a favorable computerized-driving signal. The test hierarchy and unclear denominators limit broad safety claims. The scan found no qualifying new clinical evidence; one registry date changed.",
+      "record": "https://github.com/dotjade/project-neurofreedom/blob/main/updates/2026-11-03/report.md"
+    },
     {
       "date": "2026-11-02",
       "title": "Check the document, not just its label.",
@@ -165,13 +172,6 @@
       "type": "Primary-study review",
       "summary": "The adult burden review examined published measures and follow-up windows. Sparse visits cannot describe every day between them, and high burden need not depend on waxing and waning.",
       "record": "https://github.com/dotjade/project-neurofreedom/blob/main/analyses/adult_burden/2026-10-12/report.md"
-    },
-    {
-      "date": "2026-10-11",
-      "title": "Ask what missing outcomes could change.",
-      "type": "Published aggregate sensitivity analysis",
-      "summary": "The median-nerve stimulation follow-up analysis tested missing-outcome scenarios. Reported improvement among returnees did not identify the result for everyone originally included.",
-      "record": "https://github.com/dotjade/project-neurofreedom/blob/main/analyses/mns_attrition/report.md"
     }
   ],
   "findings": [
@@ -266,6 +266,6 @@
     "trend": [],
     "message": "No public ratings are collected yet. There are no votes or trends to show."
   },
-  "activityEditionDate": "2026-11-02",
-  "featuredActivityId": "hand-at-ease"
+  "activityEditionDate": "2026-11-03",
+  "featuredActivityId": "familiar-route"
 }

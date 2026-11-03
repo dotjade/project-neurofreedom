@@ -1,0 +1,16 @@
+{
+  "checks": {
+    "dated": true,
+    "twenty_four_timeline": true,
+    "all_baseline_timeline_verified": true,
+    "none_established_broken": true,
+    "raw_api_match": true,
+    "all_additional_research_status_recorded": true,
+    "source_count": true,
+    "queries": true,
+    "no_new_notice": true,
+    "catalog_checks": true
+  },
+  "passed": true,
+  "count": 10
+}

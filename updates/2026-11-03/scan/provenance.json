@@ -1,0 +1,23 @@
+{
+  "created_utc": "2026-11-03T02:44:01.132781+00:00",
+  "baseline_commit": "5cc598196428261bc4c289f94cc7929af55c0bf0",
+  "baseline_source": "updates/2026-11-02/scan",
+  "source_code_adaptation": "November2 core query logic retained; date windows advanced one day. Date-screen guard added to derived extraction; registry exact changed values retained.",
+  "data_scope": "Public bibliographic and protocol metadata plus original paraphrases only. No abstracts/full text/participant files retained.",
+  "files": {
+    "baseline.json": "565082c19d7f8822f0e00c50cf7449236bb604a164d7a62e47bf4edceb6eb00f",
+    "biorxiv-preprint-index.tsv": "ad68add5578317c785ba47892da33a14d2c571537086eb9dbc746ae82810e630",
+    "build_results.py": "0ffac831ae9fdfd2758fe676c5c111823f998ce20c0073e1d06fd1a76394b922",
+    "discovery-log.json": "3a25cc5154c2422297723b51e8bdeec4bfb0059cc89312d6cee8f361638d506f",
+    "medrxiv-preprint-index.tsv": "7267666b8040fa4f4bdf4f0ea3bcea408548868f9a8a611aedf10a26c672d146",
+    "pubmed-screening.jsonl": "b5abfa350f567296a76f4ef0d5058aa4c5dee95f8c176a42ad2bf9d5d3bfad81",
+    "registry-evidence.jsonl": "e0fbc6cc272796145fb338be75d021e77463b4e5ae4f95e4156955cf9cb9fa8e",
+    "report.md": "d7aeefffea98f638ee8b8e8737739e8a4c33f4cf85608cbd803a33392e9fd1cf",
+    "request-log.json": "3aeae6641c0b9ad1d432eb21edfcc85a461f52b517cb11c073d9502e55a4a600",
+    "scan_sources.py": "ccade642e16cdc5026dc3bfa0d1c8c1e9bad448a878a1802c104a5dab526002e",
+    "search-log.json": "a8ceb14946800e9dda9e151225e2d65df787dee535b72af36ced58adadf147e5",
+    "summary.json": "6f61f2f5ca580b40afbfab5a16815d39092a5bde249a16b7b82ce7c0ba5c1c83",
+    "validate.py": "0dfc690c6fb66d592ab7f321237bc4aab4bba17aaba6e7fe30b6d9023f2349d9",
+    "validation.json": "a77331b4acd3bf5a1beffdb57c203f227ef4f688d48f430a733448346c6b31cd"
+  }
+}

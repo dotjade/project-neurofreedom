@@ -1,6 +1,6 @@
 # Project NeuroFreedom status
 
-Updated 2 November 2026. Initial portfolio, twenty-five completed daily updates, four completed weekly syntheses and one monthly review. Public evidence repository and journal launched 13 October.
+Updated 3 November 2026. Initial portfolio, twenty-six completed daily updates, four completed weekly syntheses and one monthly review. Public evidence repository and journal launched 13 October.
 
 ## Completed in this first pass
 
@@ -14,7 +14,7 @@ Updated 2 November 2026. Initial portfolio, twenty-five completed daily updates,
 
 ## Enabled research schedules
 
-The user approved the following automatic public-science research and repository updates on 8 October 2026. Each schedule was created successfully and returned enabled status. Daily runs were completed on 9-31 October and 1-2 November 2026; weekly syntheses were completed on 11, 18 and 25 October and 1 November; the first monthly review was completed on 1 November; the first quarterly run remains unverified.
+The user approved the following automatic public-science research and repository updates on 8 October 2026. Each schedule was created successfully and returned enabled status. Daily runs were completed on 9-31 October and 1-3 November 2026; weekly syntheses were completed on 11, 18 and 25 October and 1 November; the first monthly review was completed on 1 November; the first quarterly run remains unverified.
 
 - Daily new-evidence checks: from 9 October 2026, approximately 08:00 India time.
 - Weekly synthesis: Sundays, from 11 October 2026, approximately 09:00 India time.
@@ -660,3 +660,18 @@ Close this fixed supplement search pending genuine lawful aggregate sensitivity 
 ### Public journal
 
 The dated feed distinguishes a no-new-evidence scan from historical documentation work. All six optional activities remain unchanged, with the dated selection from the approved catalog. Voting, comments and health-outcome collection remain disabled. The [link ledger](public/link-checks/2026-11-02.json) records actual access limits without labeling bot blocks broken. Exact source/live verification follows the commit.
+
+
+## Completed daily research update - 3 November 2026
+
+The [daily report](updates/2026-11-03/report.md) records no verified qualifying new-window primary first publication, preprint, posted trial result or watched-treatment safety notice in the bounded search. Sixty-seven PubMed records and 548 preprint DOI/version records were screened. One of five watched registries, NCT07137442, has administrative date changes but no results; it is not a new treatment finding.
+
+The [CANNA-TICS driving audit](analyses/canna_driving/2026-11-03/report.md) retains the favorable historical signal while reconciling its inference limits. The failed primary superiority gate prevents confirmatory noninferiority under the published hierarchy. Executed arithmetic identifies percentage-compatible denominators and a transition-count mismatch conditional on a common complete population; it does not establish a source error. Full driving methods and observed/paired/imputed analysis sets remain unverified, so no missingness bounds or corrected model were invented. Ten implementation tests and independent review are computational/source verification, not clinical validation.
+
+### Next bounded decision
+
+Close the fixed driving audit pending lawful aggregate methods/tables. Next execute the monthly portfolio's H15 feasibility gate: inventory group-only public network maps, licenses, code and provenance before computation; stop at participant-level or controlled-access files. Severe persistent adults, broader function, pain and co-occurring conditions remain central. No owner action, personal data, contact, intervention or paid compute is needed.
+
+### Public journal
+
+The dated feed distinguishes no new clinical evidence, registry metadata and historical analysis. All six optional activities remain unchanged, with familiar-route selected. Voting, comments and health-outcome collection remain disabled. The [link ledger](public/link-checks/2026-11-03.json) retains bot/access limits separately from broken links. Exact source and production checks follow the commit; no fresh rendered accessibility test is claimed.
