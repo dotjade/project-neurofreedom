@@ -1,0 +1,21 @@
+{
+  "checkedAt": "2026-11-03T02:43:22.389678+00:00",
+  "baseCommit": "5cc598196428261bc4c289f94cc7929af55c0bf0",
+  "gitStatus": "?? analyses/canna_driving/\n?? public/link-checks/2026-11-03.json\n?? updates/2026-11-03/\n",
+  "readFiles": {
+    "README.md": "6b1d997e495751f81c97048c86cd8864732cdd8313cc3d9363605bb4425721d2",
+    "RESEARCH_PROTOCOL.md": "6f0025df7fd62fc2fe952cfbca96fca811ae76b917b7e7d4d45a501fe89e6859",
+    "STATUS.md": "367901157737d40b076a630384ea0d1a8137e84c092ec9901fc28317dbc509db",
+    "public/journal-source/README.md": "809173b6459331730d4fd9b0df135079b1e8dfdb030f4babbfc0055fcec1197e",
+    "public/UPDATE_WORKFLOW.md": "f9d9a9b17bfbb06c8b075abad60495b9aeef58c96e768ea3d56a3d47c29a2d3f",
+    "updates/2026-11-02/safety/report.md": "c7279bd279c6bf2166b6ff3f9e4f42dc57c2b3833d2279f5a6e2c43c9cd9830c",
+    "public/link-checks/2026-11-02.json": "132ddc2a985d42e393e02e76fe70eedab6b5e32dc35c9387459d8f882ab3e301",
+    "public/research-feed.json": "9a70889fe6b7832299a7873856dacd55e59655b003b9dcaa103e7007977b75cb",
+    "public/journal-source/index.html": "f6a6cc9ac0415db5f7bbbc0b8afd89ed63f68c11135f06958ff2e73ed5e7e15f",
+    "public/journal-source/journal.js": "c5c9b7fd6acb92d1adbd33ef78aeda13792ea9523ecd0c873fc228c61fb5e850",
+    "public/journal-source/feedback-config.json": "921c0e74bdcdb85c79c11bd2e7d9fa3b8fdfcb12fd74114c3a51a659f3cde133"
+  },
+  "readScopeNote": "Checks hash listed instruction and source files; hashing is not full human review. Dated source/check ledgers document actual review.",
+  "repositoryModifiedByThisCheck": false,
+  "publishedByThisCheck": false
+}

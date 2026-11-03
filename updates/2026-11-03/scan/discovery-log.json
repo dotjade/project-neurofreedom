@@ -1,0 +1,30 @@
+{
+  "checked_utc": "2026-11-03T02:42:16.112504+00:00",
+  "method": "Web discovery; source metadata, not search crawl dates, determines publication timing.",
+  "queries": [
+    "Tourette \"November 2, 2026\" study",
+    "Tourette \"November 3, 2026\" trial",
+    "site.medrxiv.org Tourette \"2026.11\"",
+    "site.biorxiv.org tics \"2026.11\"",
+    "\"Deep Learning for Automated Tic Detection and Prediction\""
+  ],
+  "decisions": [
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42780243/",
+      "doi": "10.21203/rs.3.rs-10832475/v1",
+      "first_publication": "2026-09-20",
+      "publication_type": "Preprint",
+      "decision": "Historical preprint; October 28 institutional announcement is not a new peer-reviewed publication. No new-window finding."
+    },
+    {
+      "url": "https://neurology.ufl.edu/2026/10/28/deep-learning-for-automated-tic-detection-and-prediction-in-tourette-syndrome-using-electromyography-and-video/",
+      "decision": "Historical institutional announcement; verified underlying preprint bibliographic dates in PubMed."
+    },
+    {
+      "url": "https://tourette.org/about-tourette/overview/living-tourette-syndrome/an-adult/",
+      "decision": "Workshop/support information, not a primary research publication."
+    }
+  ],
+  "other_results": "Irrelevant court calendars, secondary summaries and an older 2025 congress abstract excluded; no inference from crawl dates.",
+  "retention": "Original decisions and source identifiers only; no full text, source abstracts or participant records saved."
+}

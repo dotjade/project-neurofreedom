@@ -1,0 +1,28 @@
+{
+  "method": "Independent exact rational arithmetic; interior rounding bounds (no candidate at a tie)",
+  "arms": [
+    {
+      "compatible_denominators": [
+        39
+      ],
+      "transition_conditional_final": 30,
+      "conditional_difference": 2
+    },
+    {
+      "compatible_denominators": [
+        19
+      ],
+      "transition_conditional_final": 12,
+      "conditional_difference": 2
+    }
+  ],
+  "crude_exact": "142/741",
+  "crude_float": 0.19163292847503374,
+  "crude_minus_reported": 0.021632928475033737,
+  "lower_minus_margin": "6/25",
+  "ci_includes_zero": true,
+  "primary_p_25_gate_passed": false,
+  "primary_p_30_gate_passed": false,
+  "plan_hash_matches": true,
+  "comparison_status": "All independent numeric comparisons passed"
+}

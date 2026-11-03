@@ -1,0 +1,15 @@
+test_boundary (test_analysis.Audit.test_boundary) ... ok
+test_crude (test_analysis.Audit.test_crude) ... ok
+test_denominators (test_analysis.Audit.test_denominators) ... ok
+test_determinism (test_analysis.Audit.test_determinism) ... ok
+test_discrepancy (test_analysis.Audit.test_discrepancy) ... ok
+test_hierarchy (test_analysis.Audit.test_hierarchy) ... ok
+test_implied (test_analysis.Audit.test_implied) ... ok
+test_interval (test_analysis.Audit.test_interval) ... ok
+test_missingness_not_inferred (test_analysis.Audit.test_missingness_not_inferred) ... ok
+test_not_refit (test_analysis.Audit.test_not_refit) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.001s
+
+OK

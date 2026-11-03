@@ -1,0 +1,30 @@
+{
+  "checked_at": "2026-11-03T02:42:18Z",
+  "sources": [
+    {
+      "url": "https://journals.sagepub.com/doi/full/10.1089/can.2023.0114",
+      "status": "Redirected to restricted-access abstract; not full text"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38265476/",
+      "status": "Abstract and identifiers/date verified"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/psychiatry/articles/10.3389/fpsyt.2020.575826/full",
+      "status": "Readable protocol; key secondary analysis and computerized criterion inspected"
+    },
+    {
+      "url": "https://www.clinicaltrialsregister.eu/ctr-search/trial/2016-000564-42/results",
+      "status": "Official results readable; primary gate and whole-trial harms verified"
+    }
+  ],
+  "queries": [
+    "\"10.1089/can.2023.0114\" pdf -site:reddit.com",
+    "\"The Effect of Nabiximols on Driving Ability\" \"d-nb\"",
+    "\"can.2023.0114\" \"noninferiority\"",
+    "\"10.1089/can.2023.0114\" correction erratum retraction",
+    "\"can.2023.0114\" \"imputation\" \"39\""
+  ],
+  "integrity": "No correction/retraction notice verified in bounded exact-identifier search; not exhaustive clearance. Search metadata occasionally differ; primary publisher and PubMed agree January 23 first online.",
+  "limits": "Unverified lawful publisher full-text access; no paid access, stored unlicensed paper, participant data or access-control bypass. Numerical reconciliation is conditional arithmetic, not proof of source error."
+}
