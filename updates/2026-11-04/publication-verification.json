@@ -1,0 +1,215 @@
+{
+  "research_commit": "3a8c216997186e7b4d8c4aed3390102946c34e73",
+  "files_exact": 48,
+  "unrelated_preserved": 1357,
+  "unexpected_paths": [],
+  "checked_at": "2026-11-04T02:51:44.977474+00:00",
+  "transfer_repair": "Initial UTF-8 staging normalized CRLF in two TSV indexes. Exact base64 restoration verified before completion.",
+  "workflow": {
+    "id": 41763307983,
+    "status": "completed",
+    "conclusion": "success",
+    "head_sha": "3ed29fa9ec3fbae1dabba2e9b98e82fa81ba838e",
+    "updated_at": "2026-11-04T02:51:02Z",
+    "html_url": "https://github.com/dotjade/project-neurofreedom/actions/runs/41763307983"
+  },
+  "jobs": [
+    {
+      "id": 126355768678,
+      "name": "check",
+      "status": "completed",
+      "conclusion": "success",
+      "run_id": 41763307983,
+      "logs_url": null,
+      "steps": [
+        {
+          "name": "Set up job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 1
+        },
+        {
+          "name": "Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 2
+        },
+        {
+          "name": "Run actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 3
+        },
+        {
+          "name": "Run npm ci",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 4
+        },
+        {
+          "name": "Run npm run check",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 5
+        },
+        {
+          "name": "Run npm run build",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 6
+        },
+        {
+          "name": "Run npx --no-install wrangler deploy --dry-run",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 7
+        },
+        {
+          "name": "Post Run actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 13
+        },
+        {
+          "name": "Post Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 14
+        },
+        {
+          "name": "Complete job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 15
+        }
+      ]
+    },
+    {
+      "id": 126355885084,
+      "name": "deploy",
+      "status": "completed",
+      "conclusion": "success",
+      "run_id": 41763307983,
+      "logs_url": null,
+      "steps": [
+        {
+          "name": "Set up job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 1
+        },
+        {
+          "name": "Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 2
+        },
+        {
+          "name": "Run actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 3
+        },
+        {
+          "name": "Check deployment credentials",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 4
+        },
+        {
+          "name": "Run npm ci",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 5
+        },
+        {
+          "name": "Run npm run build",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 6
+        },
+        {
+          "name": "Publish tested revision",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 7
+        },
+        {
+          "name": "Check public site and repository feed",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 8
+        },
+        {
+          "name": "Post Run actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 15
+        },
+        {
+          "name": "Post Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 16
+        },
+        {
+          "name": "Complete job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 17
+        }
+      ]
+    }
+  ],
+  "github_connector_feed_exact": true,
+  "date": "2026-11-04",
+  "http_checks": [
+    {
+      "url": "https://raw.githubusercontent.com/dotjade/project-neurofreedom/main/public/research-feed.json",
+      "checked_at": "2026-11-04T02:52:06.437023+00:00",
+      "http": "200",
+      "curl_exit": 0,
+      "bytes": 16852,
+      "exact_feed": true,
+      "repository_source": null,
+      "expected_title_present": null
+    },
+    {
+      "url": "https://tourette.fyi/api/public-feed",
+      "checked_at": "2026-11-04T02:52:10.621055+00:00",
+      "http": "200",
+      "curl_exit": 0,
+      "bytes": 16852,
+      "exact_feed": true,
+      "repository_source": true,
+      "expected_title_present": null
+    },
+    {
+      "url": "https://github.com/dotjade/project-neurofreedom/blob/main/updates/2026-11-04/report.md",
+      "checked_at": "2026-11-04T02:52:15.244978+00:00",
+      "http": "200",
+      "curl_exit": 0,
+      "bytes": 204495,
+      "exact_feed": null,
+      "repository_source": null,
+      "expected_title_present": true
+    },
+    {
+      "url": "https://github.com/dotjade/project-neurofreedom/blob/main/analyses/network_feasibility/2026-11-04/report.md",
+      "checked_at": "2026-11-04T02:52:20.484921+00:00",
+      "http": "200",
+      "curl_exit": 0,
+      "bytes": 220146,
+      "exact_feed": null,
+      "repository_source": null,
+      "expected_title_present": true
+    }
+  ],
+  "updatedAt": "2026-11-04T02:41:43Z",
+  "scope_limits": "No rendered/mobile/zoom/narration test. Independent numerical checks are not clinical validation.",
+  "ci_applicability": "CI ran on initial research commit. Only two TSV byte-preservation repairs followed; public feed, journal build tree and workflow are identical. Repair did not trigger path-filtered CI.",
+  "repair_paths": [
+    "updates/2026-11-04/scan/biorxiv-preprint-index.tsv",
+    "updates/2026-11-04/scan/medrxiv-preprint-index.tsv"
+  ]
+}

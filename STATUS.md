@@ -699,3 +699,12 @@ One bounded public group atlas/CON/SCAN mask provenance, license and space inven
 ### Public journal
 
 The feed separates a no-new-clinical-evidence scan, registry metadata and historical group-artifact work. Six optional activity cards remain unchanged; collection stays disabled. The [link ledger](public/link-checks/2026-11-04.json) distinguishes limited access from broken links. Exact remote/live publication checks are recorded after commit. No new rendered accessibility or narration test is claimed.
+
+
+### Publication verification - 4 November 2026
+
+Research snapshot [3a8c216997186e7b4d8c4aed3390102946c34e73](https://github.com/dotjade/project-neurofreedom/commit/3a8c216997186e7b4d8c4aed3390102946c34e73) verifies all 48 authored files exactly and preserves 1,357 unrelated files. Initial connector transfer normalized line endings in two scan TSV indexes; a subsequent byte-preserving repair restored exact source hashes before completion. No scientific value or feed content changed in that repair.
+
+[Actions run 41763307983](https://github.com/dotjade/project-neurofreedom/actions/runs/41763307983) passed syntax/build, deployment dry-run, publication and public-route checks on the initial research commit. The later repair changed only those two TSV files, not the public build/feed/workflow tree, and correctly did not trigger path-filtered CI. Fresh GitHub connector and anonymous raw readback match the feed. Post-deployment API at 02:52:10 UTC returned HTTP 200, repository source and exact bytes with updatedAt 2026-11-04T02:41:43Z. Both new report links returned expected titles with HTTP 200.
+
+The [receipt](updates/2026-11-04/publication-verification.json) records actual checks and the transfer repair. Six approved activities remain unchanged, hand-at-ease is selected, and collection remains off. The integration manifest records the research snapshot before this receipt and final link/status additions. No new rendered accessibility test is claimed.

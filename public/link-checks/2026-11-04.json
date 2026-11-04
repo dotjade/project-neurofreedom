@@ -913,5 +913,49 @@
       "status": "browser_challenge_or_incomplete_text",
       "method": "public web reader, may use indexed text; does not replace anonymous HTTP observation"
     }
-  ]
+  ],
+  "publication_checks": [
+    {
+      "url": "https://raw.githubusercontent.com/dotjade/project-neurofreedom/main/public/research-feed.json",
+      "checked_at": "2026-11-04T02:52:06.437023+00:00",
+      "http": "200",
+      "curl_exit": 0,
+      "bytes": 16852,
+      "exact_feed": true,
+      "repository_source": null,
+      "expected_title_present": null
+    },
+    {
+      "url": "https://tourette.fyi/api/public-feed",
+      "checked_at": "2026-11-04T02:52:10.621055+00:00",
+      "http": "200",
+      "curl_exit": 0,
+      "bytes": 16852,
+      "exact_feed": true,
+      "repository_source": true,
+      "expected_title_present": null
+    },
+    {
+      "url": "https://github.com/dotjade/project-neurofreedom/blob/main/updates/2026-11-04/report.md",
+      "checked_at": "2026-11-04T02:52:15.244978+00:00",
+      "http": "200",
+      "curl_exit": 0,
+      "bytes": 204495,
+      "exact_feed": null,
+      "repository_source": null,
+      "expected_title_present": true
+    },
+    {
+      "url": "https://github.com/dotjade/project-neurofreedom/blob/main/analyses/network_feasibility/2026-11-04/report.md",
+      "checked_at": "2026-11-04T02:52:20.484921+00:00",
+      "http": "200",
+      "curl_exit": 0,
+      "bytes": 220146,
+      "exact_feed": null,
+      "repository_source": null,
+      "expected_title_present": true
+    }
+  ],
+  "finalFeedUpdatedAt": "2026-11-04T02:41:43Z",
+  "finalResearchDate": "2026-11-04"
 }
