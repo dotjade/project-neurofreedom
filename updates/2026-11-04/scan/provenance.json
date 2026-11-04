@@ -1,0 +1,24 @@
+{
+  "created_utc": "2026-11-04T02:41:18.405508+00:00",
+  "baseline_commit": "c0a9b5b10049b0714e432386d73c1933a6058c93",
+  "baseline_source": "updates/2026-11-03/scan",
+  "source_code_adaptation": "Prior core query logic retained; calendar bounds advanced one day. Historical-date guard retained; exact registry changed values recorded. One bounded medRxiv HTTP503 recovery preserved initial failed request.",
+  "data_scope": "Selected public bibliographic/protocol metadata and original paraphrases, no abstracts/full text/participant files.",
+  "files": {
+    "baseline.json": "291655da4a823bd23332d4ef792a93442cdc5a4b167cf0f5b6f0db9f8f32f99d",
+    "biorxiv-preprint-index.tsv": "58e1e4f181e2c02cb7959c37569a9d193dbf5563edb939a6c59531527c5ba370",
+    "build_results.py": "bcf685424d0f60382a3de524ba92e052a342b9e9b745c0b70cbc1accd608c24a",
+    "discovery-log.json": "37402baab16b80e2a65bb66b548c52d87dc9c7b239fc9742e74e0d8a5d0014ab",
+    "medrxiv-preprint-index.tsv": "0f3f82aa6dc1657e454e6fea8969f72bf3cc97e4a6601e956992eb5fa6e74feb",
+    "pubmed-screening.jsonl": "d5c3d091d728a9d76c35976fb79ea51e0ceff00d56c468494445ab3f5bf6a4c1",
+    "registry-evidence.jsonl": "52ff1358063873d5e93c4f5d9b08184077ad14c00adb90430d589fd657f43e83",
+    "report.md": "6a4ced6ce0b72b8c704e87700392a45ec1225440d653ead5096f97f00c3987a4",
+    "request-log.json": "92dc29592a4ca75578e4652fa7540e39c39e98f41cd11c97ab87b7cd2b525c62",
+    "resume_preprints.py": "c554fc61b1bad1d2cd79c7954cda86ee2ad225eb13ecb29590264815ea2f92ae",
+    "scan_sources.py": "8e40cff5ab34cda65cd2c51eed27e3f11511daf22e8d213ed14faa003d2f013f",
+    "search-log.json": "f742187463d49382d1ebd4798b8e849184336ec36fc96b919d39efcee9b46114",
+    "summary.json": "ed3b8c68e99a50b7301ab75a7a3a87f484cf3f8efab908ffbf0d12e8caf86341",
+    "validate.py": "ec4608d4d1f6e6557b974baf5ae8d3cc8c1bd4b62226f034cfef91b74d47fa6c",
+    "validation.json": "ad4d2a0204c14adf621bf2054baecb148370dfb2fb5799b0d88476f2da84d246"
+  }
+}

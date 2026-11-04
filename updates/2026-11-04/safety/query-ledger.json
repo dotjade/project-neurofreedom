@@ -1,0 +1,23 @@
+{
+  "previousCutoff": "2026-11-03T02:41:56Z",
+  "searchIntervalUTC": "2026-11-04T02:36:30Z/2026-11-04T02:36:56Z",
+  "queries": [
+    "site:fda.gov (aripiprazole OR risperidone OR guanfacine OR NeuroStar OR ecopipam) after:2026-11-02 before:2026-11-05",
+    "site:ema.europa.eu (aripiprazole OR risperidone OR pimozide OR haloperidol OR deutetrabenazine OR Deanxit) after:2026-11-02 before:2026-11-05",
+    "site:gov.uk (Tourette OR guanfacine OR aripiprazole OR botulinum OR antidepressants) after:2026-11-02 before:2026-11-05",
+    "site:tga.gov.au (Tourette OR methylphenidate OR clonidine OR botulinum OR atomoxetine) after:2026-11-02 before:2026-11-05",
+    "(Tourette OR \"tic disorder\") (guideline OR safety OR warning OR recall) after:2026-11-02 before:2026-11-05",
+    "(ecopipam OR Neupulse OR valbenazine OR tetrabenazine OR topiramate OR tiapride OR nabiximols) (safety OR recall OR warning) after:2026-11-02 before:2026-11-05"
+  ],
+  "watch": "Core tic treatments: ecopipam; aripiprazole, risperidone, pimozide, haloperidol; clonidine, guanfacine; valbenazine, deutetrabenazine, tetrabenazine; Neupulse/median-nerve stimulation, rTMS/NeuroStar and DBS. Supplementary: topiramate, botulinum toxin, tiapride, methylphenidate, atomoxetine, lisdexamfetamine, fluvoxamine, sertraline and antidepressants. Broader co-occurring-condition communication considered separately. Not exhaustive. Nabiximols included for the current adult function branch.",
+  "qualifyingNewCoreWatchCommunications": 0,
+  "communicationType": "No qualifying new watched-treatment safety communication verified",
+  "newAdjacentRegulatoryOutcomes": 0,
+  "newIssuedTicGuidelinesVerified": 0,
+  "displayedResultCards": null,
+  "countLimitation": "Search cards reviewed but no stable exhaustive result count captured; search date filters also return older documents. No unique-event denominator asserted.",
+  "screening": "Historical labels, approvals, safety indexes, guidance and crawl dates excluded as new events. Individual adverse-event cards excluded without retaining narratives. Nonprimary results were not used as evidence.",
+  "dedup": "HSA DNG1035A November 1 and NeuroStar October 9 recall remain already recorded. Deanxit October 30 referral has no new conclusion. TicCare October 1 registration is not an issued guideline.",
+  "windowLimitation": "Overlapping calendar search; explicit source dates distinguish notice, recall and modification. No exact first-publication instant inferred.",
+  "adjacentNewDocument": "EMA first published Sycrest RMP on November 3. Outside named watch; document chronology and routine safety measures do not establish a new Tourette finding."
+}
