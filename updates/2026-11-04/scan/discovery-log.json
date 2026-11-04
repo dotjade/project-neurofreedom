@@ -1,0 +1,35 @@
+{
+  "checked_utc": "2026-11-04T02:38:31.647142+00:00",
+  "queries": [
+    "Tourette tic disorder November 3 2026 study trial",
+    "Tourette November 2026 preprint research adult",
+    "site.pubmed.ncbi.nlm.nih.gov Tourette \"2026 Nov\"",
+    "site.medrxiv.org Tourette \"November\" \"2026\"",
+    "site.biorxiv.org Tourette \"2026\" \"November\""
+  ],
+  "method": "Supplementary web discovery, not an exhaustive search. Only primary identifiers adjudicated; snippets/crawl dates are not publication dates. No community content retained.",
+  "leads": [
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42412229/",
+      "doi": "10.1007/s00787-026-03129-w",
+      "decision": "Historical July7 electronic publication with November issue assignment; not new-window evidence."
+    },
+    {
+      "url": "https://clinicaltrials.gov/study/NCT07854665",
+      "decision": "Previously logged October30 pediatric taVNS registry; secondary mirror crawl/start date is not a new result. Official web page shell exposed no details in supplementary web route."
+    },
+    {
+      "url": "https://clinicaltrials.gov/study/NCT05705999",
+      "decision": "Previously logged protocol; secondary mirror synchronization timestamp is not a trial amendment or result. Official web page shell exposed no details."
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13596655/",
+      "doi": "10.21203/rs.3.rs-10832475/v1",
+      "decision": "Previously verified September20 preprint, not new November peer-reviewed work; no participant files opened."
+    }
+  ],
+  "new_qualifying_evidence": 0,
+  "limitations": [
+    "Web index is incomplete and English-heavy. No community posts or individual narratives used. Primary registry API scan supplies update-window screening; supplementary page shells alone cannot verify status."
+  ]
+}

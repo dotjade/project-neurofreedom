@@ -1,0 +1,156 @@
+{
+  "analysis_type": "Group-artifact integrity and structural feasibility audit; not clinical replication",
+  "seed": null,
+  "maps": {
+    "Rmap.nii": {
+      "shape": [
+        91,
+        109,
+        91
+      ],
+      "voxel_sizes": [
+        2.0,
+        2.0,
+        2.0
+      ],
+      "datatype_code": 16,
+      "bitpix": 32,
+      "vox_offset": 352,
+      "qform_code": 2,
+      "sform_code": 2,
+      "srow": [
+        [
+          -2.0,
+          0.0,
+          0.0,
+          90.0
+        ],
+        [
+          0.0,
+          2.0,
+          0.0,
+          -126.0
+        ],
+        [
+          0.0,
+          0.0,
+          2.0,
+          -72.0
+        ]
+      ],
+      "file_bytes": 3610868,
+      "sha256": "9ec584be336df2208bde22442c1b3f0ba66eea893eab93b3289a3af482edbc6d",
+      "voxel_count": 902629,
+      "finite": 120524,
+      "nan": 782105,
+      "infinite": 0,
+      "positive": 63228,
+      "negative": 57285,
+      "zero": 11,
+      "finite_min": -0.6685644208571517,
+      "finite_max": 0.6855245958223222
+    },
+    "HeatMap.nii": {
+      "shape": [
+        91,
+        109,
+        91
+      ],
+      "voxel_sizes": [
+        2.0,
+        2.0,
+        2.0
+      ],
+      "datatype_code": 16,
+      "bitpix": 32,
+      "vox_offset": 352,
+      "qform_code": 2,
+      "sform_code": 2,
+      "srow": [
+        [
+          -2.0,
+          0.0,
+          0.0,
+          90.0
+        ],
+        [
+          0.0,
+          2.0,
+          0.0,
+          -126.0
+        ],
+        [
+          0.0,
+          0.0,
+          2.0,
+          -72.0
+        ]
+      ],
+      "file_bytes": 3610868,
+      "sha256": "bdb33d6dd9b6de4085437105c2813cf3347460d6ab19ae96568fd81d1bb1a74d",
+      "voxel_count": 902629,
+      "finite": 902629,
+      "nan": 0,
+      "infinite": 0,
+      "positive": 159731,
+      "negative": 126172,
+      "zero": 616726,
+      "finite_min": -1.0175828525731134,
+      "finite_max": 0.7695868255370897
+    },
+    "Rmap_signFDR.nii": {
+      "shape": [
+        91,
+        109,
+        91
+      ],
+      "voxel_sizes": [
+        2.0,
+        2.0,
+        2.0
+      ],
+      "datatype_code": 16,
+      "bitpix": 32,
+      "vox_offset": 352,
+      "qform_code": 2,
+      "sform_code": 2,
+      "srow": [
+        [
+          -2.0,
+          0.0,
+          0.0,
+          90.0
+        ],
+        [
+          0.0,
+          2.0,
+          0.0,
+          -126.0
+        ],
+        [
+          0.0,
+          0.0,
+          2.0,
+          -72.0
+        ]
+      ],
+      "file_bytes": 3610868,
+      "sha256": "2651f2395adeeb5ef9a75702de170cd26e0b1862e3d1cc5eca84915f5f8c543f",
+      "voxel_count": 902629,
+      "finite": 902629,
+      "nan": 0,
+      "infinite": 0,
+      "positive": 36617,
+      "negative": 31981,
+      "zero": 834031,
+      "finite_min": -0.6473632596960144,
+      "finite_max": 0.656702716245583
+    }
+  },
+  "same_header_grid": true,
+  "group_files_integrity_gate_passed": true,
+  "full_published_pipeline_gate_passed": false,
+  "spatial_specificity_test_executed": false,
+  "clinical_target_validation": false,
+  "reason_for_pipeline_stop": "Master/R-map code requires participant-level outcomes and connectivity; atlas and provenance dependencies absent from inspected archive."
+}

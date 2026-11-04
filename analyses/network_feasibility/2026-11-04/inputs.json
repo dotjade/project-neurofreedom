@@ -1,0 +1,57 @@
+{
+  "retrieved_at": "2026-11-04T02:38:22.584951+00:00",
+  "node_url": "https://api.osf.io/v2/nodes/upjvb/",
+  "node_title": "Supplemental materials for preprint: A Critical Role of Action-Related Functional Networks in Gilles de la Tourette Syndrome",
+  "node_date_modified": "2024-09-16T07:45:03.036844",
+  "public": true,
+  "license": {
+    "name": "CC0 1.0 Universal",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+    "api_url": "https://api.osf.io/v2/licenses/563c1cf88c5e4a3877f9e96c/"
+  },
+  "files": [
+    {
+      "name": "Rmap.nii",
+      "bytes": 3610868,
+      "version": 1,
+      "modified": "2024-09-16T07:42:15.247080",
+      "sha256": "9ec584be336df2208bde22442c1b3f0ba66eea893eab93b3289a3af482edbc6d",
+      "url": "https://osf.io/upjvb/files/osfstorage/66e7e1573c46389090b72cdd",
+      "download_url": "https://osf.io/download/p7db2/"
+    },
+    {
+      "name": "HeatMap.nii",
+      "bytes": 3610868,
+      "version": 1,
+      "modified": "2024-09-16T07:42:17.361603",
+      "sha256": "bdb33d6dd9b6de4085437105c2813cf3347460d6ab19ae96568fd81d1bb1a74d",
+      "url": "https://osf.io/upjvb/files/osfstorage/66e7e159c2833d7c2a1c4116",
+      "download_url": "https://osf.io/download/k6puv/"
+    },
+    {
+      "name": "Rmap_signFDR.nii",
+      "bytes": 3610868,
+      "version": 1,
+      "modified": "2024-09-16T07:42:17.386657",
+      "sha256": "2651f2395adeeb5ef9a75702de170cd26e0b1862e3d1cc5eca84915f5f8c543f",
+      "url": "https://osf.io/upjvb/files/osfstorage/66e7e159f67843af7afef3df",
+      "download_url": "https://osf.io/download/e47st/"
+    },
+    {
+      "name": "GTS_MAP_Code_R1.zip",
+      "bytes": 21635,
+      "version": 1,
+      "modified": "2024-09-16T07:42:41.744688",
+      "sha256": "d3ca8280d97404beea905a13d6f8bbec1689ba74a909870deab106c57ac64d4e",
+      "url": "https://osf.io/upjvb/files/osfstorage/66e7e171ad6eeb38ccfee767",
+      "download_url": "https://osf.io/download/uctfx/"
+    }
+  ],
+  "pagination_next": null,
+  "children_count": 0,
+  "paper_doi": "10.1038/s41467-024-55242-6",
+  "paper_pmid": "39681552",
+  "paper_pmc": "PMC11649905",
+  "paper_publication_date": "2024-12-16",
+  "plan_sha256": "44ecf69af7d3dd5b2ca441ef00ca7e6ff4ed81fa30acb392cf76c0af775cebbd"
+}

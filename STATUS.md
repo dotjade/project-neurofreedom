@@ -1,6 +1,6 @@
 # Project NeuroFreedom status
 
-Updated 3 November 2026. Initial portfolio, twenty-six completed daily updates, four completed weekly syntheses and one monthly review. Public evidence repository and journal launched 13 October.
+Updated 4 November 2026. Initial portfolio, twenty-seven completed daily updates, four completed weekly syntheses and one monthly review. Public evidence repository and journal launched 13 October.
 
 ## Completed in this first pass
 
@@ -14,7 +14,7 @@ Updated 3 November 2026. Initial portfolio, twenty-six completed daily updates, 
 
 ## Enabled research schedules
 
-The user approved the following automatic public-science research and repository updates on 8 October 2026. Each schedule was created successfully and returned enabled status. Daily runs were completed on 9-31 October and 1-3 November 2026; weekly syntheses were completed on 11, 18 and 25 October and 1 November; the first monthly review was completed on 1 November; the first quarterly run remains unverified.
+The user approved the following automatic public-science research and repository updates on 8 October 2026. Each schedule was created successfully and returned enabled status. Daily runs were completed on 9-31 October and 1-4 November 2026; weekly syntheses were completed on 11, 18 and 25 October and 1 November; the first monthly review was completed on 1 November; the first quarterly run remains unverified.
 
 - Daily new-evidence checks: from 9 October 2026, approximately 08:00 India time.
 - Weekly synthesis: Sundays, from 11 October 2026, approximately 09:00 India time.
@@ -684,3 +684,18 @@ Research commit [f5ea4d1852462def1ff6f34da39e2b4470ad6d5a](https://github.com/do
 [Actions run 41568516333](https://github.com/dotjade/project-neurofreedom/actions/runs/41568516333) passed checks, build, deployment dry-run, publication and public routes, completing at 02:50:45 UTC. Fresh production readback at 02:51:24 UTC returned HTTP 200, X-Journal-Source repository and exact feed bytes with updatedAt 2026-11-03T02:45:00Z. An initial urllib request returned 403; ordinary anonymous curl succeeded, and the limitation remains recorded. Both new report links returned HTTP 200 with expected titles.
 
 The [receipt](updates/2026-11-03/publication-verification.json) records exact checks and limits. Six activities remain unchanged, familiar-route is selected, and collection remains off. No new rendered/mobile/zoom/narration test is claimed. The research manifest covers the snapshot before this receipt and final link/status verification.
+
+
+## Completed daily research update - 4 November 2026
+
+The [daily report](updates/2026-11-04/report.md) records no qualifying new first publication, preprint, posted trial result or watched-treatment safety notice. Sixty-two PubMed records and 921 preprint DOI/version records were screened; one transient preprint API error was resolved by a bounded retry. One of five watched registries has an administrative date update, not clinical evidence. Adjacent EMA asenapine RMP publication is recorded separately without a Tourette safety claim.
+
+The [H15 group-artifact feasibility audit](analyses/network_feasibility/2026-11-04/report.md) acquired three explicitly group-only CC0 maps and inspected code without executing it. All hashes and 2 mm grids agree; original deterministic value/header checks and 55 independent checks pass. No individual records were accessed. Complete outcome reproduction requires unavailable participant inputs and external atlas/provenance dependencies, so that gate remains closed. Archive dates precede final publication; this is a provenance question, not a proven paper error or new target validation.
+
+### Next bounded decision
+
+One bounded public group atlas/CON/SCAN mask provenance, license and space inventory precedes any preregistered spatial-null comparison. Stop if exact safe inputs or version mapping cannot be established; do not repeatedly search or acquire participant data. Persistent severe adult function, pain and co-occurring burdens remain central alongside all-age chronic tic evidence. No owner action, outreach, intervention or paid compute is needed.
+
+### Public journal
+
+The feed separates a no-new-clinical-evidence scan, registry metadata and historical group-artifact work. Six optional activity cards remain unchanged; collection stays disabled. The [link ledger](public/link-checks/2026-11-04.json) distinguishes limited access from broken links. Exact remote/live publication checks are recorded after commit. No new rendered accessibility or narration test is claimed.

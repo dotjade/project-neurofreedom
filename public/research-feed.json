@@ -1,10 +1,17 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-03T02:45:00Z",
-  "lastResearchDate": "2026-11-03",
+  "updatedAt": "2026-11-04T02:41:43Z",
+  "lastResearchDate": "2026-11-04",
   "cadence": "Daily scheduled review; publication follows verified work.",
-  "latestSummary": "No qualifying new clinical evidence was verified. A registry date changed. An older adult driving study showed a favorable signal, but its test hierarchy and unclear analysis sets limit stronger safety claims.",
+  "latestSummary": "No qualifying new clinical evidence was verified. Public group brain maps passed an integrity check, but missing inputs prevent full replication or treatment-target claims.",
   "timeline": [
+    {
+      "date": "2026-11-04",
+      "title": "Check whether a map can be tested.",
+      "type": "Historical group-artifact audit and evidence scan",
+      "summary": "Three public group maps passed hash and grid checks. Missing inputs limit replication; no treatment target was validated. The scan found no qualifying new clinical evidence; one registry date changed.",
+      "record": "https://github.com/dotjade/project-neurofreedom/blob/main/updates/2026-11-04/report.md"
+    },
     {
       "date": "2026-11-03",
       "title": "Check what a driving test can show.",
@@ -165,13 +172,6 @@
       "type": "Published aggregate analysis",
       "summary": "A six-report measurement review keeps tic severity, impairment, and quality of life separate. A reconstructed response table showed 14.66% disagreement between two response labels, not an adult quality-of-life result.",
       "record": "https://github.com/dotjade/project-neurofreedom/blob/main/analyses/burden_validation/2026-10-13/report.md"
-    },
-    {
-      "date": "2026-10-12",
-      "title": "Keep severe adult experiences in view.",
-      "type": "Primary-study review",
-      "summary": "The adult burden review examined published measures and follow-up windows. Sparse visits cannot describe every day between them, and high burden need not depend on waxing and waning.",
-      "record": "https://github.com/dotjade/project-neurofreedom/blob/main/analyses/adult_burden/2026-10-12/report.md"
     }
   ],
   "findings": [
@@ -266,6 +266,6 @@
     "trend": [],
     "message": "No public ratings are collected yet. There are no votes or trends to show."
   },
-  "activityEditionDate": "2026-11-03",
-  "featuredActivityId": "familiar-route"
+  "activityEditionDate": "2026-11-04",
+  "featuredActivityId": "hand-at-ease"
 }

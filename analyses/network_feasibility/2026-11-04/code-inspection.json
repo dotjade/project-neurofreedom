@@ -1,0 +1,89 @@
+{
+  "archive_sha256": "d3ca8280d97404beea905a13d6f8bbec1689ba74a909870deab106c57ac64d4e",
+  "members": [
+    {
+      "path": "GTS_MAP_Code_R1/helpers/clusterextent_carlos.m",
+      "bytes": 1998,
+      "sha256": "b87e23c75f7e0d3004303c960fee3fec30230617542cb6640a0f58bbef9f5b63"
+    },
+    {
+      "path": "GTS_MAP_Code_R1/helpers/fdr_bh.m",
+      "bytes": 9039,
+      "sha256": "e5549171586061d5359b5c3ecaadd7c539199a4702a8bfe1911e49adf8745376"
+    },
+    {
+      "path": "GTS_MAP_Code_R1/helpers/jcb_exportmap_carlos.m",
+      "bytes": 1111,
+      "sha256": "de72777f76f41df3fcfab5b329beff700bada92213a26ddce2fe8e1cbbda7a34"
+    },
+    {
+      "path": "GTS_MAP_Code_R1/jcb_GTS_MAP_averagemap.m",
+      "bytes": 1562,
+      "sha256": "649343c1bcec167ed87b0e1ead0972411dc31eb5924dff6d2650692cb7280acc"
+    },
+    {
+      "path": "GTS_MAP_Code_R1/jcb_GTS_MAP_intereffectorregions.m",
+      "bytes": 4753,
+      "sha256": "214899871b717de9b01365d9a8bb1bea3752a4e4c5a236eaa4a2bc59914e80db"
+    },
+    {
+      "path": "GTS_MAP_Code_R1/jcb_GTS_MAP_lesions_networkcomparison.m",
+      "bytes": 3718,
+      "sha256": "686da412d39866e8ba7a1426cac18205a027b776285e59785a8d230cd27c7dc7"
+    },
+    {
+      "path": "GTS_MAP_Code_R1/jcb_GTS_MAP_master.m",
+      "bytes": 1593,
+      "sha256": "9983fdd89244467f27cd090a5a4fc6d983def9d616e64c7fe0b9dc55f058764b"
+    },
+    {
+      "path": "GTS_MAP_Code_R1/jcb_GTS_MAP_Rmap.m",
+      "bytes": 4217,
+      "sha256": "e7579b665b931bba04ca9a915c6935851576e405f19059032668381127b885a9"
+    },
+    {
+      "path": "GTS_MAP_Code_R1/jcb_GTS_MAP_roi_extract.m",
+      "bytes": 942,
+      "sha256": "c23773c13fcf1b528615bbc0a53717d52c0c4429313fa622268552e58b0db246"
+    },
+    {
+      "path": "GTS_MAP_Code_R1/jcb_GTS_MAP_roi_extract_prepostcentral.m",
+      "bytes": 994,
+      "sha256": "fdc6deaa4e098e6102a889ebfb292ebe223e9f103f71fc375370162820f62b05"
+    },
+    {
+      "path": "GTS_MAP_Code_R1/jcb_GTS_MAP_roi_networks.m",
+      "bytes": 6216,
+      "sha256": "7b97ecb885fd2b4f8591f5289cd4b03b92e6ed89c068b257a851cb88bbe062f9"
+    },
+    {
+      "path": "GTS_MAP_Code_R1/jcb_GTS_MAP_roi_statistics_plot.m",
+      "bytes": 5481,
+      "sha256": "7dd1aaf6bff0b879b8b4452bbd74471bb4fa433845f921725df19f01b456b8c0"
+    },
+    {
+      "path": "GTS_MAP_Code_R1/jcb_GTS_MAP_roi_statistics_plot_prepostcentral.m",
+      "bytes": 4581,
+      "sha256": "cef4dacecf8e439f86db9eab32978974da4e49e8964021f9dd920d8a3b2f224a"
+    },
+    {
+      "path": "GTS_MAP_Code_R1/quantify_networkoverlaps.m",
+      "bytes": 3815,
+      "sha256": "2f03d1f5463c09a6d74649ede6e3cb2180c5d7334566e0fb0c96a8d65423d562"
+    }
+  ],
+  "read_only_inspected": [
+    "jcb_GTS_MAP_master.m",
+    "jcb_GTS_MAP_Rmap.m",
+    "quantify_networkoverlaps.m"
+  ],
+  "executed": false,
+  "dependency_findings": [
+    "MATLAB and Lead-DBS/SPM functions",
+    "Participant-level outcome spreadsheet and per-participant stimulation connectivity maps required by master/Rmap routines",
+    "External atlas NIfTI/table/CON/SCAN masks required by group overlap script; not present in four-file OSF inventory",
+    "Local prototype/model mask dependencies; hard-coded workstation paths",
+    "Code reads first 41 rows whereas final paper main cohort is 37; without mapping/provenance cannot infer an error or reconstruct exclusions",
+    "Rmap code uses FDR and smoothing/cluster operations; supplied filename alone does not establish complete final-version generation provenance"
+  ]
+}
