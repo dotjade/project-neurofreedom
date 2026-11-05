@@ -1,0 +1,25 @@
+{
+  "date": "2026-11-05",
+  "strict_prior_cutoff_utc": "2026-11-04T02:40:05.116250+00:00",
+  "core_started_utc": "2026-11-05T02:39:34.609051+00:00",
+  "core_completed_utc": "2026-11-05T02:43:44.655875+00:00",
+  "pubmed_unique_records": 25,
+  "pubmed_id_occurrences": 28,
+  "pubmed_previous_day_overlap": 22,
+  "new_to_previous_scan_records": 3,
+  "verified_new_primary_publications_since_prior_cutoff": 0,
+  "publication_date_unresolved_records": [],
+  "preprint_doi_versions": 1306,
+  "preprint_lexical_matches": 0,
+  "qualifying_preprints": 0,
+  "registry_update_window_unique_ids": [
+    "NCT07137442"
+  ],
+  "registry_direct_comparisons": 5,
+  "registry_selected_changes": 1,
+  "new_posted_trial_results": 0,
+  "new_retractions": 0,
+  "preprint_pagination_complete": true,
+  "api_request_errors": 0,
+  "decision": "No verified qualifying new-window first publication, preprint or posted trial result. Newly indexed case report has verified September1 firstdate; one administrative registry date change."
+}

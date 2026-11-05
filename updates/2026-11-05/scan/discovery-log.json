@@ -1,0 +1,40 @@
+{
+  "checked_utc": "2026-11-05T02:45:41.635527+00:00",
+  "queries": [
+    "Tourette \"November\" \"2026\" trial study adult",
+    "\"tic disorder\" \"2026\" \"November\" research",
+    "\"Multi-locus rTMS\" \"Tourettic\"",
+    "\"TVPart_13711\""
+  ],
+  "discovery_only_mirrors": [
+    "https://ctis.eu/trial/2024-512949-17-00",
+    "https://eichor.com/study/NCT06271083"
+  ],
+  "primary_checks": [
+    {
+      "url": "https://clinicaltrials.gov/study/NCT06271083",
+      "status": "Web reader shell; not evidence of update/result"
+    },
+    {
+      "url": "https://clinical-trials-search.canada.ca/en/clinical-trial/272441-tourette-s-disorder?wbdisable=true",
+      "status": "Search update2026-09-26 vs opened cached2026-07-18; both historical. Results date2025-11-25, not a new finding."
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42978485/",
+      "status": "Web reader unavailable; core EFetch metadata successful"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42977160/",
+      "status": "Web reader unavailable; core EFetch metadata successful"
+    },
+    {
+      "url": "https://www.tijdschriftvoorpsychiatrie.nl/en/artikelen/?p=2",
+      "status": "Search snippet September1 case report; opened page stale2025. Not used as final date verification."
+    },
+    {
+      "url": "https://www.tijdschriftvoorpsychiatrie.nl/en/artikelen/article/50-13711_Multilocus-rTMS-bij-Tourettic-obsessieve-compulsieve-stoornis",
+      "status": "Direct HTML metadata retrieved; citation_publication_date2026/09/01; title/identifier consistent. No fulltext or case narrative persisted."
+    }
+  ],
+  "limitations": "Web cached views can differ. Only original metadata summaries retained; no result inferred from crawling or syncing."
+}

@@ -1,0 +1,271 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-11-04T02:41:43Z",
+  "lastResearchDate": "2026-11-04",
+  "cadence": "Daily scheduled review; publication follows verified work.",
+  "latestSummary": "No qualifying new clinical evidence was verified. Public group brain maps passed an integrity check, but missing inputs prevent full replication or treatment-target claims.",
+  "timeline": [
+    {
+      "date": "2026-11-04",
+      "title": "Check whether a map can be tested.",
+      "type": "Historical group-artifact audit and evidence scan",
+      "summary": "Three public group maps passed hash and grid checks. Missing inputs limit replication; no treatment target was validated. The scan found no qualifying new clinical evidence; one registry date changed.",
+      "record": "https://github.com/dotjade/project-neurofreedom/blob/main/updates/2026-11-04/report.md"
+    },
+    {
+      "date": "2026-11-03",
+      "title": "Check what a driving test can show.",
+      "type": "Historical aggregate audit and evidence scan",
+      "summary": "An adult trial showed a favorable computerized-driving signal. The test hierarchy and unclear denominators limit broad safety claims. The scan found no qualifying new clinical evidence; one registry date changed.",
+      "record": "https://github.com/dotjade/project-neurofreedom/blob/main/updates/2026-11-03/report.md"
+    },
+    {
+      "date": "2026-11-02",
+      "title": "Check the document, not just its label.",
+      "type": "Historical trial documentation audit and evidence scan",
+      "summary": "An adult trial planned direct function measures. A mislabeled attachment could not resolve missingness questions; no clinical effect was invented. The bounded scan verified no qualifying new evidence.",
+      "record": "https://github.com/dotjade/project-neurofreedom/blob/main/updates/2026-11-02/report.md"
+    },
+    {
+      "date": "2026-11-01",
+      "title": "Consistency is not the same as stability.",
+      "type": "Published-aggregate methods audit and regulatory notice",
+      "summary": "Published force-matching averages change with the measurement window; high split-half consistency is not retest evidence. The scan found no new clinical result. A quality recall applies to one product batch.",
+      "record": "https://github.com/dotjade/project-neurofreedom/blob/main/updates/2026-11-01/report.md"
+    },
+    {
+      "date": "2026-10-31",
+      "title": "A measurement needs its assumptions.",
+      "type": "Primary-model audit and synthetic identification check",
+      "summary": "A primary model and a synthetic example show why force matching needs a shared baseline before it can identify a mechanism. Older mixed-diagnosis evidence, a no-results protocol and an adjacent safety review remain distinct.",
+      "record": "https://github.com/dotjade/project-neurofreedom/blob/main/updates/2026-10-31/report.md"
+    },
+    {
+      "date": "2026-10-30",
+      "title": "Test the difference, not two labels.",
+      "type": "Evidence scan and synthetic contrast audit",
+      "summary": "An older pediatric association is not treatment proof. Adult sensory methods remain access-limited; a clearly synthetic calculation shows why separate condition tests cannot supply the missing contrast.",
+      "record": "https://github.com/dotjade/project-neurofreedom/blob/main/updates/2026-10-30/report.md"
+    },
+    {
+      "date": "2026-10-29",
+      "title": "An association is a clue, not a cause.",
+      "type": "Adult behavioral evidence and aggregate genetic audit",
+      "summary": "An October 28 adult study reports altered sensory attenuation and a severity association, with a null comparison retained. A separate audit maps all 36 genes across analyses without treating them as proven treatment targets.",
+      "record": "https://github.com/dotjade/project-neurofreedom/blob/main/updates/2026-10-29/report.md"
+    },
+    {
+      "date": "2026-10-28",
+      "title": "A control point is not always the original cause.",
+      "type": "Causal synthesis and synthetic methods test",
+      "summary": "We compared timing and control hypotheses with contradictory studies. Synthetic examples show why symptom control alone cannot identify a unique cause. This is a research synthesis, not a new treatment discovery.",
+      "record": "https://github.com/dotjade/project-neurofreedom/blob/main/analyses/causal_synthesis/2026-10-28/report.md"
+    },
+    {
+      "date": "2026-10-28",
+      "title": "Matching categories is not matching scores.",
+      "type": "Historical methods audit, evidence and safety scan",
+      "summary": "A ratings audit distinguishes repeated assessments from people and classification from score agreement. Older care-access and animal studies, a no-results registry and a notice about known scan interference are not new tic-treatment results.",
+      "record": "https://github.com/dotjade/project-neurofreedom/blob/main/analyses/informant_agreement/2026-10-28/report.md"
+    },
+    {
+      "date": "2026-10-27",
+      "title": "One statistic is not the whole test.",
+      "type": "Historical measurement audit and evidence scan",
+      "summary": "The bounded scan verified no new paper or trial result. An older genetics paper was added. A separate pediatric scale audit found high consistency alongside imperfect model fit; adult and autism-specific validity remain open.",
+      "record": "https://github.com/dotjade/project-neurofreedom/blob/main/analyses/emtics_validation/2026-10-27/report.md"
+    },
+    {
+      "date": "2026-10-26",
+      "title": "Check what a scale was tested to measure.",
+      "type": "Preclinical scan and historical measurement audit",
+      "summary": "No qualifying new clinical result was verified. An older rat study was newly found. Separately, a 2018 tic-scale study supports overall consistency, not equal interpretation across autism or communication groups.",
+      "record": "https://github.com/dotjade/project-neurofreedom/blob/main/analyses/ygtss_validation/2026-10-26/report.md"
+    },
+    {
+      "date": "2026-10-25",
+      "title": "A score is not the whole burden.",
+      "type": "Primary-study scan and age/measurement audit",
+      "summary": "An older paper was newly found in the scan. Separately, an autism/tic audit shows that age adjustment does not supply adult-specific results, and a reporting explanation remains untested.",
+      "record": "https://github.com/dotjade/project-neurofreedom/blob/main/analyses/asd_measurement/2026-10-25/report.md"
+    },
+    {
+      "date": "2026-10-24",
+      "title": "Check who a result can speak for.",
+      "type": "Primary-study scan and aggregate methods audit",
+      "summary": "An older video study adds a measurement limitation, not treatment proof. An adult survey also leaves model counts and timing uncertain; it cannot yet predict an individual\u2019s course.",
+      "record": "https://github.com/dotjade/project-neurofreedom/blob/main/analyses/adult_risk/2026-10-24/report.md"
+    },
+    {
+      "date": "2026-10-23",
+      "title": "Check when a definition changed.",
+      "type": "Primary-study scan and historical registration audit",
+      "summary": "Two newly indexed studies add observations, not treatment proof. A device-trial history also shows changing outcome definitions; the dates alone do not explain why they changed.",
+      "record": "https://github.com/dotjade/project-neurofreedom/blob/main/analyses/registration_history/2026-10-23/report.md"
+    },
+    {
+      "date": "2026-10-22",
+      "title": "Different questions need different comparisons.",
+      "type": "Historical clinical/function methods audit",
+      "summary": "A small severe-adult device study assessed tic videos and daily function using different comparisons. We could not calculate a functional treatment advantage from compatible public aggregates; that is not evidence of no benefit.",
+      "record": "https://github.com/dotjade/project-neurofreedom/blob/main/analyses/okun_estimands/2026-10-22/report.md"
+    },
+    {
+      "date": "2026-10-21",
+      "title": "Match the score and the clock.",
+      "type": "Historical registry/protocol crosswalk",
+      "summary": "An implanted-device trial's public score definitions and timing do not yet support a compatible aggregate comparison. We did not calculate treatment effects; this is not a finding of no benefit.",
+      "record": "https://github.com/dotjade/project-neurofreedom/blob/main/analyses/trial_crosswalk/2026-10-21/report.md"
+    },
+    {
+      "date": "2026-10-20",
+      "title": "A brain signal is still a clue.",
+      "type": "Historical primary-methods audit",
+      "summary": "A brain-recording study analyzed five adults. Timing and statistical-unit gaps limit its interpretation; the observed signals do not establish a cause of tics or a treatment benefit.",
+      "record": "https://github.com/dotjade/project-neurofreedom/blob/main/analyses/cm_agpi/2026-10-20/report.md"
+    },
+    {
+      "date": "2026-10-19",
+      "title": "What paired outcomes can and cannot reveal.",
+      "type": "Synthetic methods test",
+      "summary": "Constructed worlds shared identical tic change but differed in pain change. Direct paired measures distinguished some worlds; excluding an entire group made two worlds indistinguishable.",
+      "record": "https://github.com/dotjade/project-neurofreedom/blob/main/analyses/paired_outcomes/2026-10-19/report.md"
+    },
+    {
+      "date": "2026-10-18",
+      "title": "Pain has its own footprint.",
+      "type": "Historical survey and aggregate audit",
+      "summary": "A historical pain-selected survey reported interference with sleep, mood and everyday life. Mixed ages and missing item counts prevent an adult-only estimate.",
+      "record": "https://github.com/dotjade/project-neurofreedom/blob/main/analyses/pain_interference/2026-10-18/report.md"
+    },
+    {
+      "date": "2026-10-17",
+      "title": "Ask about pain directly.",
+      "type": "Historical survey and aggregate audit",
+      "summary": "A selected adult survey mixed past and present pain. Conflicting help-seeking counts prevent a reliable care-success percentage; reported usefulness does not establish treatment efficacy.",
+      "record": "https://github.com/dotjade/project-neurofreedom/blob/main/analyses/adult_pain/2026-10-17/report.md"
+    },
+    {
+      "date": "2026-10-16",
+      "title": "Measure life beyond tics.",
+      "type": "Same-trial secondary analysis",
+      "summary": "A behavioral-therapy study did not establish added benefit over supportive therapy on its daily-function measures. Positive responder associations answer a different question.",
+      "record": "https://github.com/dotjade/project-neurofreedom/blob/main/analyses/cbit_functioning/2026-10-16/report.md"
+    },
+    {
+      "date": "2026-10-15",
+      "title": "Who came back matters.",
+      "type": "Historical trial and aggregate analysis",
+      "summary": "A behavioral-therapy trial's six-month improvement figure describes returning early responders. Missing follow-ups and planned booster sessions limit claims about lasting benefit for everyone.",
+      "record": "https://github.com/dotjade/project-neurofreedom/blob/main/analyses/cbit_maintenance/2026-10-15/report.md"
+    },
+    {
+      "date": "2026-10-14",
+      "title": "Timing changes the conclusion.",
+      "type": "Historical trial and aggregate analysis",
+      "summary": "A 2022 adult online behavior-therapy trial missed its primary endpoint. Later benefits remain exploratory, with tic severity, impairment and quality of life kept separate.",
+      "record": "https://github.com/dotjade/project-neurofreedom/blob/main/analyses/online_tics/2026-10-14/report.md"
+    },
+    {
+      "date": "2026-10-13",
+      "title": "A tic score is not the whole story.",
+      "type": "Published aggregate analysis",
+      "summary": "A six-report measurement review keeps tic severity, impairment, and quality of life separate. A reconstructed response table showed 14.66% disagreement between two response labels, not an adult quality-of-life result.",
+      "record": "https://github.com/dotjade/project-neurofreedom/blob/main/analyses/burden_validation/2026-10-13/report.md"
+    }
+  ],
+  "findings": [
+    {
+      "title": "Daily life belongs beside tic counts.",
+      "summary": "An adult qualitative study highlighted better treatments and practical daily-life priorities. A specialist-clinic sample cannot represent everyone.",
+      "type": "Primary qualitative study",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10863457/",
+      "label": "Isaacs and colleagues, 2024",
+      "checkedAt": "2026-11-02",
+      "linkState": "Direct HTTP 203 access-limited; article content not verified in this pass"
+    },
+    {
+      "title": "Persistence deserves its own attention.",
+      "summary": "A small blinded adult follow-up found observable tics in some people who reported being tic-free. Observation method changes what a study can claim.",
+      "type": "Primary longitudinal study",
+      "url": "https://www.neurology.org/doi/10.1212/01.WNL.0000086370.10186.7C",
+      "label": "Pappert and colleagues, 2003",
+      "checkedAt": "2026-11-02",
+      "linkState": "Publisher HTTP 403 bot challenge; lawful institutional primary copy verified"
+    },
+    {
+      "title": "Shared improvement is not interchangeability.",
+      "summary": "Published treatment cohorts can show changes in both tic scores and quality of life. That alone does not show that one measure can replace the other.",
+      "type": "Primary adult cohort study",
+      "url": "https://link.springer.com/content/pdf/10.1186/s44247-026-00284-7.pdf",
+      "label": "Ivanova and colleagues, 2026",
+      "checkedAt": "2026-11-02",
+      "linkState": "Primary PDF retrieved with HTTP 200"
+    }
+  ],
+  "activities": [
+    {
+      "id": "hand-at-ease",
+      "title": "A hand at ease",
+      "kind": "Gentle movement",
+      "intro": "Gently open and rest one hand in your usual supported position, if that feels comfortable.",
+      "seated": "Use your usual supported seated position. No stretching or stillness is required.",
+      "standing": "If standing is already comfortable, keep your usual support and let the hand rest naturally.",
+      "rest": "Imagine the movement, or rest. There is nothing to complete."
+    },
+    {
+      "id": "familiar-route",
+      "title": "A familiar little route",
+      "kind": "Your usual supports",
+      "intro": "Consider a short stroll or wheel along a familiar level route, using your usual supports.",
+      "seated": "Stay seated and notice something familiar around you instead.",
+      "standing": "Choose only a route and movement that already feel comfortable for you.",
+      "rest": "Stay where you are, imagine the route, or skip it."
+    },
+    {
+      "id": "notice-one-thing",
+      "title": "Notice one comfortable thing",
+      "kind": "A quiet moment",
+      "intro": "Notice one comfortable sound, shape, or texture nearby.",
+      "seated": "Look or listen from wherever you are comfortably seated.",
+      "standing": "If you are already comfortable standing, notice something nearby.",
+      "rest": "No need to pay close attention. Rest or skip freely."
+    },
+    {
+      "id": "music-or-silence",
+      "title": "Familiar music, or silence",
+      "kind": "Ordinary leisure",
+      "intro": "Choose familiar quiet music if you would enjoy it. Silence is an equal choice.",
+      "seated": "Listen in your usual comfortable position if you choose.",
+      "standing": "There is no need to move, dance, or keep a rhythm.",
+      "rest": "Choose silence, rest, or leave this idea for another day."
+    },
+    {
+      "id": "small-silly-mark",
+      "title": "A small mark or a silly sentence",
+      "kind": "A little play",
+      "intro": "Make a small mark, or say, type, or imagine a silly sentence.",
+      "seated": "Use a familiar comfortable way to draw, speak, or type.",
+      "standing": "If you prefer standing, keep your usual support. Imagining works too.",
+      "rest": "Do nothing, or imagine something amusing. Either is enough."
+    },
+    {
+      "id": "rest-or-leave",
+      "title": "Rest, or leave the page",
+      "kind": "An equal choice",
+      "intro": "Rest can be the whole idea. There is no progress to keep up with.",
+      "seated": "Settle into your usual comfortable seated position if you want.",
+      "standing": "Change to a usual comfortable position if that suits you.",
+      "rest": "Close the page or simply carry on with your day."
+    }
+  ],
+  "feedback": {
+    "enabled": false,
+    "sampleSize": 0,
+    "aggregates": [],
+    "trend": [],
+    "message": "No public ratings are collected yet. There are no votes or trends to show."
+  },
+  "activityEditionDate": "2026-11-04",
+  "featuredActivityId": "hand-at-ease"
+}

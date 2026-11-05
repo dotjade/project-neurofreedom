@@ -1,0 +1,21 @@
+# Safety and displayed-link review: 5 November 2026
+
+## Safety result
+
+No qualifying new watched-treatment material safety communication or issued tic guideline was verified since the November 4 cutoff (02:37:37 UTC). Six overlapping calendar queries and thirteen official source checks are recorded in [query-ledger.json](query-ledger.json) and [source-checks.json](source-checks.json). This is bounded, English-heavy surveillance, not worldwide completeness or proof of treatment safety. No treatment change is proposed.
+
+The [HSA tetrabenazine batch recall](https://www.hsa.gov.sg/announcements/recall-of-tetrabenazine-25mg-112-s-sun-italy/) remains the November 1 notice of the October 27 retail recall of DNG1035A; it is not new today. The [EMA Deanxit referral](https://www.ema.europa.eu/en/medicines/human/referrals/flupentixol-melitracen-containing-medicinal-products) remains a started review without a new conclusion. Combination-product evidence is not assigned to flupentixol alone. The [TicCare registration](https://www.awmf.org/aktuelles/awmf-aktuell/diagnostik-und-behandlung-primaerer-tic-stoerungen-ticcare), 030-012 version 6.0 dated October 1, is still registration for planned all-age guidance, not an issued recommendation.
+
+FDA drug/device communications remain led by September 15/June 3, and CDRH news by November 3 items outside the watch. EMA lists 52 new/updated entries across November 3-4, including a November 4 Respreeza communication outside this watch. The [new MHRA weekly field-notice index](https://www.gov.uk/drug-device-alerts/field-safety-notices-26-to-30-october-2026), published November 4, names thirteen products, none a watched tic device. Its publication date and individual event dates are distinct. TGA has a November 5 warning about unapproved peptide products outside the watch; its safety-update index remains led by October 14. No claim of exhaustive attachment or label inspection is made.
+
+Search cards returned older labels, approvals, guidance and fresh crawl dates. These were not counted as new events. Individual adverse-event narratives were excluded without retention. No stable exhaustive result-card denominator was captured. Coverage includes treatment and co-occurring-condition watches, but severe adult, pediatric and chronic-tic applicability cannot be inferred from unrelated regulatory notices.
+
+## Displayed links and activity safeguards
+
+The [daily link ledger](../../../public/link-checks/2026-11-05.json) records actual checks of 24 baseline rolling-feed reports, three finding sources and fourteen additional static research/guidance links, plus homepage/config/raw/API. All report links and CDC, MedlinePlus, ONLINE-TICS and Ivanova's primary PDF yielded expected content. The Isaacs PMC page and six static PubMed links returned HTTP 203 without confirmed content; Pappert's publisher returned a bot-challenge HTTP 403. These are access limitations, not established broken links. No challenge was solved or bypassed, and attribution is preserved.
+
+An assertion identified the static adult-burden report after it left the rolling feed; a separate check completes coverage. Six approved activity cards remain identical to the bundled catalog, with rest/skipping and usual supports explicit. No food risk, exertion target, breath holding, tic suppression, streak, points or treatment claim was added. No new activity was authored or selected by this worker.
+
+Source and live feedback are disabled with null API origin and empty vote aggregates. Source gates prevent the prepared vote service from running. No HTML form/input/textarea collection or browser-storage API was found; unsent reflection clears on pagehide. Ordinary HTTP and source checks do not certify rendered/mobile/zoom/keyboard/narration access, clinical safety or provider retention.
+
+Raw GitHub and the public API match the baseline November 4 feed. These are not November 5 publication verification. The integrating author must append checks for new report links and final feed after commit. Scripts record the actual rerun time; external temporary bytes are deleted. No paper, personal record, feed edit, commit or publication was retained/performed by this worker.

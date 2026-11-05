@@ -1,10 +1,17 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-04T02:41:43Z",
-  "lastResearchDate": "2026-11-04",
+  "updatedAt": "2026-11-05T02:45:19Z",
+  "lastResearchDate": "2026-11-05",
   "cadence": "Daily scheduled review; publication follows verified work.",
-  "latestSummary": "No qualifying new clinical evidence was verified. Public group brain maps passed an integrity check, but missing inputs prevent full replication or treatment-target claims.",
+  "latestSummary": "No qualifying new clinical evidence was verified. Exact brain-network masks remain unverified; a synthetic calculation shows why the comparison domain must be specified before testing maps.",
   "timeline": [
+    {
+      "date": "2026-11-05",
+      "title": "Check what the background changes.",
+      "type": "Historical provenance audit, synthetic methods and evidence scan",
+      "summary": "Exact study masks remain unverified. In a synthetic example, adding empty background changes a map score without changing overlap. No clinical result or treatment target follows; the scan found no qualifying new clinical evidence.",
+      "record": "https://github.com/dotjade/project-neurofreedom/blob/main/updates/2026-11-05/report.md"
+    },
     {
       "date": "2026-11-04",
       "title": "Check whether a map can be tested.",
@@ -165,13 +172,6 @@
       "type": "Historical trial and aggregate analysis",
       "summary": "A 2022 adult online behavior-therapy trial missed its primary endpoint. Later benefits remain exploratory, with tic severity, impairment and quality of life kept separate.",
       "record": "https://github.com/dotjade/project-neurofreedom/blob/main/analyses/online_tics/2026-10-14/report.md"
-    },
-    {
-      "date": "2026-10-13",
-      "title": "A tic score is not the whole story.",
-      "type": "Published aggregate analysis",
-      "summary": "A six-report measurement review keeps tic severity, impairment, and quality of life separate. A reconstructed response table showed 14.66% disagreement between two response labels, not an adult quality-of-life result.",
-      "record": "https://github.com/dotjade/project-neurofreedom/blob/main/analyses/burden_validation/2026-10-13/report.md"
     }
   ],
   "findings": [
@@ -266,6 +266,6 @@
     "trend": [],
     "message": "No public ratings are collected yet. There are no votes or trends to show."
   },
-  "activityEditionDate": "2026-11-04",
-  "featuredActivityId": "hand-at-ease"
+  "activityEditionDate": "2026-11-05",
+  "featuredActivityId": "rest-or-leave"
 }
