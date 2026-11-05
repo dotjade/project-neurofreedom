@@ -892,5 +892,19 @@
       "targetConfirmedRead": true,
       "status": "retrievable"
     }
+  ],
+  "postPublicationNewReports": [
+    {
+      "url": "https://github.com/dotjade/project-neurofreedom/blob/main/updates/2026-11-05/report.md",
+      "status": 200,
+      "expected_title_found": true,
+      "checked_at": "2026-11-05T02:56:41.478117+00:00"
+    },
+    {
+      "url": "https://github.com/dotjade/project-neurofreedom/blob/main/analyses/network_provenance/2026-11-05/report.md",
+      "status": 200,
+      "expected_title_found": true,
+      "checked_at": "2026-11-05T02:56:46.805969+00:00"
+    }
   ]
 }
