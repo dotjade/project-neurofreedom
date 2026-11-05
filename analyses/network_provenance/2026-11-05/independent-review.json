@@ -1,0 +1,40 @@
+{
+  "reviewedAt": "2026-11-05T02:46:57.203622Z",
+  "review_type": "Independent editorial and arithmetic review; original summary only",
+  "decision": "pass",
+  "required_corrections": [],
+  "checks": {
+    "critical_CAREN_vs_language_claim": "Supported: Wiley primary section and Figure 5 identify DMN, CEN, SAL, VIS, SMN; TS primary article page 4 lists language among comparators. This supports a label/provenance mismatch, not proof of a publication error or identity of missing custom masks.",
+    "arithmetic": "Executed original local synthetic function without rewriting outputs: all 15 assertions pass, exact saved output equality and all four Fraction calculations pass.",
+    "synthetic_label": "Prominent in report, code and output; no patient inference or spatial clinical ranking.",
+    "boundaries": "Zero-FP control and empty ROI included. Complete-coverage ratio is nonfinite; null marker is explicitly distinguished from a finite result.",
+    "interpretation": "Correctly separates provenance failure from biological falsification, associations from randomized targeting validation, and controlled null result from small open-label improvement.",
+    "privacy_copyright": "Reviewed artifacts contain original summary, aggregate/synthetic numbers, bibliographic links and dependency names, not personal narratives, individual records, secrets, copied full papers or external source code. License uncertainty remains explicit.",
+    "daily_report": "Consistent with analysis and bounded scan framing; future publication receipt not represented as already verified."
+  },
+  "primary_sources": [
+    {
+      "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/hbm.24722",
+      "access": "Indexed primary text, section describing hierarchical clustering and Figure 5; direct PMC open presented browser challenge."
+    },
+    {
+      "url": "https://juser.fz-juelich.de/record/1037231/files/PDF.pdf",
+      "doi": "10.1038/s41467-024-55242-6",
+      "access": "Indexed primary article page 4; language comparator present."
+    }
+  ],
+  "limitations": [
+    "Not independent acquisition of missing atlas/mask inputs or full spatial reproduction.",
+    "No exhaustive source or publication pipeline review; parent responsible for final tests and readback.",
+    "Direct PMC access limited; lawful indexed publisher and institutional primary text used."
+  ],
+  "reviewed_sha256": {
+    "report.md": "7abe836eba8a821fba43e0f409c9c8d63c86e57efcbe2dc2835eaf39a2d2a976",
+    "plan.md": "66faedfcee889fe82fd253249827f4bad9ce5725a30d7f9ea9c416b74ae5da4d",
+    "synthetic_domain.py": "ade90c69f396ede32c4d057bade24be7dacb9ac8a86668e5b323299b9c4afe6e",
+    "synthetic-results.json": "c0e3204275101e1cc77bd2eaab1a8d95e7264b5f9d04680d60e682ba125d97f1",
+    "independent-arithmetic.json": "3b0a3484a70e446383b53af3b5de6f5ad7aa17aafacbc7d71ba62e33695cceec",
+    "provenance.json": "e6c408fed0ee8b1ecc4b442f3a901b35f54f7b95f9ee28226845e90f1874ba29"
+  },
+  "daily_report_sha256": "84fe37e5bdd028a016c6dae2323933fdc337247de99bdd7250ebbdb72651e084"
+}

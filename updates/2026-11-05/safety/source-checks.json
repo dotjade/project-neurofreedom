@@ -1,0 +1,119 @@
+{
+  "previousCutoff": "2026-11-04T02:37:37Z",
+  "completedAt": "2026-11-05T02:40:55Z",
+  "sources": [
+    {
+      "label": "FDA drug communications",
+      "url": "https://www.fda.gov/drugs/drug-safety-and-availability/drug-safety-communications",
+      "status": "retrieved",
+      "result": "Latest listed September 15; no new-window watch communication verified.",
+      "checkedAt": "2026-11-05T02:40:08Z/2026-11-05T02:40:55Z",
+      "method": "Public web reader of official index/referral text or primary official search card.",
+      "limitations": "Bounded English-language pass, not all labels, attachments, national agencies or device notices."
+    },
+    {
+      "label": "FDA device communications",
+      "url": "https://www.fda.gov/medical-devices/medical-device-safety/safety-communications",
+      "status": "retrieved",
+      "result": "Latest listed June 3; outside window.",
+      "checkedAt": "2026-11-05T02:40:08Z/2026-11-05T02:40:55Z",
+      "method": "Public web reader of official index/referral text or primary official search card.",
+      "limitations": "Bounded English-language pass, not all labels, attachments, national agencies or device notices."
+    },
+    {
+      "label": "FDA CDRH news",
+      "url": "https://www.fda.gov/medical-devices/medical-devices-news-and-events/cdrh-new-news-and-updates",
+      "status": "retrieved",
+      "result": "November 3 headings concern ButterflyBVM resuscitator and MedSun newsletter, outside named watch. No new watched-device warning verified.",
+      "checkedAt": "2026-11-05T02:40:08Z/2026-11-05T02:40:55Z",
+      "method": "Public web reader of official index/referral text or primary official search card.",
+      "limitations": "Bounded English-language pass, not all labels, attachments, national agencies or device notices."
+    },
+    {
+      "label": "EMA new content",
+      "url": "https://www.ema.europa.eu/en/news-events/whats-new",
+      "status": "retrieved",
+      "result": "52 new/updated index entries across November 3-4 read. November 4 Respreeza DHPC is outside watch. No named-watch warning verified; not every attachment inspected.",
+      "checkedAt": "2026-11-05T02:40:08Z/2026-11-05T02:40:55Z",
+      "method": "Public web reader of official index/referral text or primary official search card.",
+      "limitations": "Bounded English-language pass, not all labels, attachments, national agencies or device notices."
+    },
+    {
+      "label": "EMA PRAC signals",
+      "url": "https://www.ema.europa.eu/en/human-regulatory-overview/post-authorisation/pharmacovigilance-post-authorisation/signal-management/prac-recommendations-safety-signals",
+      "status": "retrieved",
+      "result": "Latest listed recommendations published October 26, EMA/PRAC/206892/2026 and 206903/2026. PDFs not reread.",
+      "checkedAt": "2026-11-05T02:40:08Z/2026-11-05T02:40:55Z",
+      "method": "Public web reader of official index/referral text or primary official search card.",
+      "limitations": "Bounded English-language pass, not all labels, attachments, national agencies or device notices."
+    },
+    {
+      "label": "EMA Deanxit referral",
+      "url": "https://www.ema.europa.eu/en/medicines/human/referrals/flupentixol-melitracen-containing-medicinal-products",
+      "status": "retrieved",
+      "result": "Procedure started, no final recommendation verified. October 30 notice; October 16 prose initiation and October 29 metadata start discrepancy persists. Excludes flupentixol alone.",
+      "checkedAt": "2026-11-05T02:40:08Z/2026-11-05T02:40:55Z",
+      "method": "Public web reader of official index/referral text or primary official search card.",
+      "limitations": "Bounded English-language pass, not all labels, attachments, national agencies or device notices."
+    },
+    {
+      "label": "MHRA Drug Safety Update",
+      "url": "https://www.gov.uk/drug-safety-update",
+      "status": "retrieved",
+      "result": "Index led by October 26 campaign notice. October 15 antidepressant communication is older, not recounted as new.",
+      "checkedAt": "2026-11-05T02:40:08Z/2026-11-05T02:40:55Z",
+      "method": "Public web reader of official index/referral text or primary official search card.",
+      "limitations": "Bounded English-language pass, not all labels, attachments, national agencies or device notices."
+    },
+    {
+      "label": "MHRA recalls",
+      "url": "https://www.gov.uk/drug-device-alerts",
+      "status": "retrieved",
+      "result": "New November 4 publication of weekly October 26-30 field safety notice list. Thirteen product headings inspected, none a watched tic device. Publication and listed device-event dates differ; attachments not exhaustively reviewed.",
+      "checkedAt": "2026-11-05T02:40:08Z/2026-11-05T02:40:55Z",
+      "method": "Public web reader of official index/referral text or primary official search card.",
+      "limitations": "Bounded English-language pass, not all labels, attachments, national agencies or device notices."
+    },
+    {
+      "label": "TGA safety updates",
+      "url": "https://www.tga.gov.au/news/safety-updates",
+      "status": "retrieved",
+      "result": "Latest listed October 14. No new-window watched communication verified. Monthly label attachment coverage is incomplete.",
+      "checkedAt": "2026-11-05T02:40:08Z/2026-11-05T02:40:55Z",
+      "method": "Public web reader of official index/referral text or primary official search card.",
+      "limitations": "Bounded English-language pass, not all labels, attachments, national agencies or device notices."
+    },
+    {
+      "label": "TGA safety alerts",
+      "url": "https://www.tga.gov.au/safety/safety-alerts",
+      "status": "retrieved",
+      "result": "New November 5 unapproved Synedica peptide product warning, outside watch. No qualifying watched-treatment notice verified.",
+      "checkedAt": "2026-11-05T02:40:08Z/2026-11-05T02:40:55Z",
+      "method": "Public web reader of official index/referral text or primary official search card.",
+      "limitations": "Bounded English-language pass, not all labels, attachments, national agencies or device notices."
+    },
+    {
+      "label": "HSA tetrabenazine recall",
+      "url": "https://www.hsa.gov.sg/announcements/recall-of-tetrabenazine-25mg-112-s-sun-italy/",
+      "status": "retrieved",
+      "result": "November 1 announcement and October 27 retail Class 2 batch DNG1035A recall unchanged; old evidence, not a November 5 discovery.",
+      "checkedAt": "2026-11-05T02:40:08Z/2026-11-05T02:40:55Z",
+      "method": "Public web reader of official index/referral text or primary official search card.",
+      "limitations": "Bounded English-language pass, not all labels, attachments, national agencies or device notices."
+    },
+    {
+      "label": "AWMF TicCare registration",
+      "url": "https://www.awmf.org/aktuelles/awmf-aktuell/diagnostik-und-behandlung-primaerer-tic-stoerungen-ticcare",
+      "checkedAt": "2026-11-05T02:40:08Z/2026-11-05T02:40:55Z",
+      "status": "retrieved",
+      "result": "030-012 version 6.0, October 1 publication explicitly Anmeldung. Planned all-age guidance, not an issued new clinical recommendation."
+    },
+    {
+      "label": "MHRA weekly field safety list",
+      "url": "https://www.gov.uk/drug-device-alerts/field-safety-notices-26-to-30-october-2026",
+      "checkedAt": "2026-11-05T02:40:55Z",
+      "status": "retrieved",
+      "result": "Published/issued November 4; thirteen product headings checked, none matches the watched tic devices; event dates not inferred from weekly title."
+    }
+  ]
+}

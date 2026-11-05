@@ -1,0 +1,98 @@
+{
+  "type": "SYNTHETIC, deterministic, not patient evidence",
+  "seed": null,
+  "rows": [
+    {
+      "label": "SYNTHETIC",
+      "tp": 40,
+      "fn": 60,
+      "fp": 20,
+      "tn": 80,
+      "added_background": 0,
+      "coverage": 0.4,
+      "cover_ratio": 0.6666666666666666,
+      "specificity": 0.8,
+      "balanced_accuracy": 0.6000000000000001
+    },
+    {
+      "label": "SYNTHETIC",
+      "tp": 40,
+      "fn": 60,
+      "fp": 20,
+      "tn": 180,
+      "added_background": 100,
+      "coverage": 0.4,
+      "cover_ratio": 0.6666666666666666,
+      "specificity": 0.9,
+      "balanced_accuracy": 0.65
+    },
+    {
+      "label": "SYNTHETIC",
+      "tp": 40,
+      "fn": 60,
+      "fp": 20,
+      "tn": 1080,
+      "added_background": 1000,
+      "coverage": 0.4,
+      "cover_ratio": 0.6666666666666666,
+      "specificity": 0.9818181818181818,
+      "balanced_accuracy": 0.6909090909090909
+    },
+    {
+      "label": "SYNTHETIC",
+      "tp": 40,
+      "fn": 60,
+      "fp": 20,
+      "tn": 10080,
+      "added_background": 10000,
+      "coverage": 0.4,
+      "cover_ratio": 0.6666666666666666,
+      "specificity": 0.998019801980198,
+      "balanced_accuracy": 0.699009900990099
+    }
+  ],
+  "boundaries": {
+    "zero_false_positives": {
+      "coverage": 0.4,
+      "cover_ratio": 0.6666666666666666,
+      "specificity": 1.0,
+      "balanced_accuracy": 0.7
+    },
+    "zero_false_positives_padded": {
+      "coverage": 0.4,
+      "cover_ratio": 0.6666666666666666,
+      "specificity": 1.0,
+      "balanced_accuracy": 0.7
+    },
+    "complete_coverage": {
+      "coverage": 1.0,
+      "cover_ratio": null,
+      "specificity": 0.8,
+      "balanced_accuracy": 0.9
+    },
+    "empty_roi": {
+      "coverage": null,
+      "cover_ratio": null,
+      "specificity": 0.8,
+      "balanced_accuracy": null
+    }
+  },
+  "tests_passed": 15,
+  "tests": [
+    "coverage invariant",
+    "cover ratio invariant",
+    "BA increases",
+    "BA below asymptote",
+    "coverage ratio identity 0",
+    "BA delta identity 0",
+    "coverage ratio identity 100",
+    "BA delta identity 100",
+    "coverage ratio identity 1000",
+    "BA delta identity 1000",
+    "coverage ratio identity 10000",
+    "BA delta identity 10000",
+    "zero FP no padding effect",
+    "full coverage ratio undefined",
+    "empty ROI BA undefined"
+  ]
+}

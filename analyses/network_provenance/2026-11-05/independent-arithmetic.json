@@ -1,0 +1,28 @@
+{
+  "reviewer": "integrating agent independent Fraction implementation",
+  "checks_passed": 12,
+  "rows": [
+    {
+      "background": 0,
+      "exact_ba_fraction": "3/5",
+      "ba": 0.6
+    },
+    {
+      "background": 100,
+      "exact_ba_fraction": "13/20",
+      "ba": 0.65
+    },
+    {
+      "background": 1000,
+      "exact_ba_fraction": "38/55",
+      "ba": 0.6909090909090909
+    },
+    {
+      "background": 10000,
+      "exact_ba_fraction": "353/505",
+      "ba": 0.699009900990099
+    }
+  ],
+  "scope": "Synthetic arithmetic, not clinical or anatomical validation",
+  "source_script_sha256": "ade90c69f396ede32c4d057bade24be7dacb9ac8a86668e5b323299b9c4afe6e"
+}

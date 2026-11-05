@@ -1,6 +1,6 @@
 # Project NeuroFreedom status
 
-Updated 4 November 2026. Initial portfolio, twenty-seven completed daily updates, four completed weekly syntheses and one monthly review. Public evidence repository and journal launched 13 October.
+Updated 5 November 2026. Initial portfolio, twenty-eight completed daily updates, four completed weekly syntheses and one monthly review. Public evidence repository and journal launched 13 October.
 
 ## Completed in this first pass
 
@@ -14,7 +14,7 @@ Updated 4 November 2026. Initial portfolio, twenty-seven completed daily updates
 
 ## Enabled research schedules
 
-The user approved the following automatic public-science research and repository updates on 8 October 2026. Each schedule was created successfully and returned enabled status. Daily runs were completed on 9-31 October and 1-4 November 2026; weekly syntheses were completed on 11, 18 and 25 October and 1 November; the first monthly review was completed on 1 November; the first quarterly run remains unverified.
+The user approved the following automatic public-science research and repository updates on 8 October 2026. Each schedule was created successfully and returned enabled status. Daily runs were completed on 9-31 October and 1-5 November 2026; weekly syntheses were completed on 11, 18 and 25 October and 1 November; the first monthly review was completed on 1 November; the first quarterly run remains unverified.
 
 - Daily new-evidence checks: from 9 October 2026, approximately 08:00 India time.
 - Weekly synthesis: Sundays, from 11 October 2026, approximately 09:00 India time.
@@ -708,3 +708,18 @@ Research snapshot [3a8c216997186e7b4d8c4aed3390102946c34e73](https://github.com/
 [Actions run 41763307983](https://github.com/dotjade/project-neurofreedom/actions/runs/41763307983) passed syntax/build, deployment dry-run, publication and public-route checks on the initial research commit. The later repair changed only those two TSV files, not the public build/feed/workflow tree, and correctly did not trigger path-filtered CI. Fresh GitHub connector and anonymous raw readback match the feed. Post-deployment API at 02:52:10 UTC returned HTTP 200, repository source and exact bytes with updatedAt 2026-11-04T02:41:43Z. Both new report links returned expected titles with HTTP 200.
 
 The [receipt](updates/2026-11-04/publication-verification.json) records actual checks and the transfer repair. Six approved activities remain unchanged, hand-at-ease is selected, and collection remains off. The integration manifest records the research snapshot before this receipt and final link/status additions. No new rendered accessibility test is claimed.
+
+
+## Completed daily research update - 5 November 2026
+
+The [daily report](updates/2026-11-05/report.md) separates newly indexed historical evidence from new clinical findings. No qualifying new clinical/safety result was verified; one watched registry has administrative date changes without results. Access and date limitations remain explicit.
+
+The [atlas/mask provenance audit](analyses/network_provenance/2026-11-05/report.md) closes the fixed search pending exact safe study masks, table, version/space mapping and common-domain specification. A clearly synthetic deterministic demonstration changes balanced accuracy from 0.6000 to 0.6990 by adding empty background alone, while overlap/coverage remain fixed. Independent exact-fraction arithmetic verifies the calculation; it is not anatomical evidence or proof of a study error. No target was validated.
+
+### Next bounded decision
+
+Do not substitute generic or participant-level maps or repeat the same missing-input search. Next audit H13 McGuire 2020 targeted versus global/untrained-tic outcomes, follow-up and harms using public aggregates, retaining the separate negative D-serine/riluzole evidence without pooling unlike mechanisms. Stop if compatible generalization or durability estimates are unavailable; pediatric findings cannot establish severe adult benefit. Severe persistent adult functional burden, pain, co-occurring conditions and all-age tic needs remain central. No owner action, intervention, contact or paid resource is required.
+
+### Public journal
+
+The feed distinguishes historical source work, synthetic methods and a no-new-result scan. Six optional activities remain unchanged; rest-or-leave is selected and collection stays disabled. The [link ledger](public/link-checks/2026-11-05.json) records actual access limits. Exact remote and production verification follows publication; no new rendered accessibility test is claimed.

@@ -1,0 +1,57 @@
+{
+  "checked_date": "2026-11-05",
+  "evidence_type": "historical metadata/code audit; separate synthetic experiment",
+  "code_zip_url": "https://osf.io/download/uctfx/",
+  "code_zip_sha256": "d3ca8280d97404beea905a13d6f8bbec1689ba74a909870deab106c57ac64d4e",
+  "overlap_script_sha256": "2f03d1f5463c09a6d74649ede6e3cb2180c5d7334566e0fb0c96a8d65423d562",
+  "external_code_executed": false,
+  "participant_data_accessed": false,
+  "new_imaging_downloads": false,
+  "exact_dependencies": [
+    "CAREN_GTSMAP.nii",
+    "CAREN_GTSMAP.txt",
+    "Somato-Cognitive Action.nii",
+    "Cingulo-Opercular.nii"
+  ],
+  "exact_dependency_gate": "not established; closed pending exact public provenance",
+  "scan_code_repository": "https://github.com/MidnightScanClub/SCAN",
+  "scan_code_commit": "65345af77cfb99edbf1623ccccf6c96cf99d5800",
+  "scan_software_license": "MIT; not assumed to cover every third-party data artifact",
+  "sources": [
+    {
+      "url": "https://doi.org/10.1038/s41467-024-55242-6",
+      "date": "2024-12-16",
+      "role": "TS primary paper; DOI verified; indexed text available, direct open limited"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6771873/",
+      "doi": "10.1002/hbm.24722",
+      "date": "2019-07-19",
+      "role": "CAREN primary; article CC BY-NC-ND; custom derivative rights unresolved"
+    },
+    {
+      "url": "https://doi.org/10.1038/s41586-023-05964-2",
+      "date": "2023-04-19",
+      "role": "SCAN primary; code route"
+    },
+    {
+      "url": "https://www.lead-dbs.org/helpsupport/knowledge-base/atlasesresources/cortical-atlas-parcellations-mni-space/",
+      "role": "official atlas catalog; not exact custom mask version"
+    },
+    {
+      "url": "https://gitlab.com/api/v4/projects/48235439/repository/tree?per_page=100",
+      "role": "one README only; redirects GitHub"
+    },
+    {
+      "url": "https://api.github.com/repos/MidnightScanClub/SCAN/git/trees/main?recursive=1",
+      "role": "metadata listing complete, truncated false; no imaging bodies downloaded"
+    }
+  ],
+  "queries": [
+    "\"CAREN_GTSMAP\"",
+    "\"A critical role of action-related\" \"CAREN\"",
+    "\"CAREN\" atlas networks Doucet 2019 download",
+    "site:gitlab.com/DosenbachGreene/SCAN \"README\""
+  ],
+  "plan_sha256": "66faedfcee889fe82fd253249827f4bad9ce5725a30d7f9ea9c416b74ae5da4d"
+}

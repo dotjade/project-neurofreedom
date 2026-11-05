@@ -1,0 +1,23 @@
+{
+  "created_utc": "2026-11-05T02:45:41.636048+00:00",
+  "baseline_commit": "d5450986a0df8b6c9d29344a6c576ae6bf922a05",
+  "baseline_source": "updates/2026-11-04/scan",
+  "source_code_adaptation": "Prior query logic retained; bounds advanced one day; exact-date classification and publisher metadata case date added. TSV LF output avoids transfer normalization.",
+  "data_scope": "Selected public bibliographic/protocol metadata and original paraphrases; no abstracts, papers, case narratives or participant files.",
+  "files": {
+    "baseline.json": "22abbad40c5cccf53c57b8cdc094664f43357311561e452054f2905a8e8450de",
+    "biorxiv-preprint-index.tsv": "48bc1310a722a9720fbb9ac2e701cf90933c7428d4943fe7269ab62f44b66b3e",
+    "build_results.py": "94bc45d08505b8bb0cf10b4dbe181f10fbeccab233e6c75c6140206fc3e74836",
+    "discovery-log.json": "eb5c950c609602d57748e4a26109b45ed949f0087ec3c7b3c2060e8b6461aff7",
+    "medrxiv-preprint-index.tsv": "16158f4b8cadd28d4a44e30e23284b9550a6fb8f463331a98463464fd9dd5a4d",
+    "pubmed-screening.jsonl": "30e7edf4a8344e2e3bf53859b09c449181abdbf87a9d6fd663f7b98b7ca93942",
+    "registry-evidence.jsonl": "e0b6282a8971b63ed3f109038d682d1ad08798a21dd05b4e296841980226ccc3",
+    "report.md": "e43b25c367350bf9a5cdf9e0a591925ff95b71806944c0f067fc74de32310abe",
+    "request-log.json": "d12a5aa5f29a6f92b5f98433dce11beb5249f5534418d4108c5fa51831f6153c",
+    "scan_sources.py": "90c0cd2f0552f850a1f9456bcdcfdd0f66c7578e9a242aba7536ce92363621b0",
+    "search-log.json": "8d9d2a5d4523dc77b866207fe8400840f04036021138c61a2121cf8836c71e6b",
+    "summary.json": "eb49bdca99ad30538fe0af2d7182f808e299ec27c25eea384876f786806f19cb",
+    "validate.py": "292576bf5ce9028f3684bd139376507249ccbaa0f8ba4e5d1dccef046215d68b",
+    "validation.json": "cf2557d97849293c38a249290292d984b274d0e8c5062349d216b54bac632400"
+  }
+}
