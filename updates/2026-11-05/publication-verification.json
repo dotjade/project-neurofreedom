@@ -1,0 +1,29 @@
+{
+  "research_commit": "62a6ca06b05ad7be3d93bcf40955989c8b22ce40",
+  "files_exact": 45,
+  "unrelated_preserved": 1403,
+  "checked_at": "2026-11-05T02:56:04.274981+00:00",
+  "unexpected_paths": [],
+  "ci": {
+    "id": 41958327928,
+    "status": "completed",
+    "conclusion": "success",
+    "updated_at": "2026-11-05T02:56:24Z",
+    "head_sha": "62a6ca06b05ad7be3d93bcf40955989c8b22ce40"
+  },
+  "connector_feed_exact": true,
+  "anonymous_raw_exact": true,
+  "post_deployment_api": {
+    "checked_at": "2026-11-05T02:57:29.085936+00:00",
+    "http_status": 200,
+    "repository_source": true,
+    "bytes_exact": true,
+    "updatedAt": "2026-11-05T02:45:19Z"
+  },
+  "limits": [
+    "No fresh rendered/mobile/zoom/narration test",
+    "Implementation checks are not clinical validation"
+  ],
+  "activities_unchanged": 6,
+  "collection_enabled": false
+}

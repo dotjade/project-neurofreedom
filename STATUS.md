@@ -723,3 +723,12 @@ Do not substitute generic or participant-level maps or repeat the same missing-i
 ### Public journal
 
 The feed distinguishes historical source work, synthetic methods and a no-new-result scan. Six optional activities remain unchanged; rest-or-leave is selected and collection stays disabled. The [link ledger](public/link-checks/2026-11-05.json) records actual access limits. Exact remote and production verification follows publication; no new rendered accessibility test is claimed.
+
+
+### Publication verification - 5 November 2026
+
+Research commit [62a6ca06b05ad7be3d93bcf40955989c8b22ce40](https://github.com/dotjade/project-neurofreedom/commit/62a6ca06b05ad7be3d93bcf40955989c8b22ce40) contains 45 authored files verified byte-for-byte, preserving 1,403 unrelated files with no unexpected paths. GitHub connector and anonymous raw feed match the authored edition.
+
+[Actions run 41958327928](https://github.com/dotjade/project-neurofreedom/actions/runs/41958327928) completed successfully for that exact research commit. Fresh post-deployment API readback returned HTTP 200, repository source and exact bytes with updatedAt 2026-11-05T02:45:19Z. Both new report links returned HTTP 200 with expected titles. The [receipt](updates/2026-11-05/publication-verification.json) records actual timestamps and checks.
+
+Six activities remain unchanged, rest-or-leave is selected, and collection remains off. No new rendered accessibility or narration test is claimed. The research manifest covers the snapshot before this receipt and final status/link additions.
