@@ -1,0 +1,37 @@
+{
+  "date": "2026-11-06",
+  "interval_utc": "2026-11-06T02:51:09Z/2026-11-06T02:56:41Z",
+  "queries": [
+    "Tourette tic disorder November 2026 new study trial results after:2026-11-04 before:2026-11-07",
+    "site.pubmed.ncbi.nlm.nih.gov Tourette \"2026 Nov\"",
+    "site.clinicaltrials.gov Tourette \"2026-11-05\" OR \"2026-11-06\"",
+    "\"42982044\" aripiprazole",
+    "\"When tics are not the whole story\"",
+    "\"Aripiprazole-Induced Gambling Disorder\" Tourette 2026",
+    "site.biorxiv.org Tourette after:2026-11-04 before:2026-11-07",
+    "site.medrxiv.org (\"Tourette\" OR \"tic disorder\") after:2026-11-04 before:2026-11-07",
+    "site.who.int Tourette trial November 2026",
+    "site.center6.umin.ac.jp \"Tic Manager RCT\"",
+    "site.nature.com \"s41572-026-00742-6\" \"corrected\"",
+    "\"Tourette syndrome\" \"Author Correction\" 2026 Eapen",
+    "\"UMIN000063483\"",
+    "\"Tic Manager RCT\" Tourette trial 2026"
+  ],
+  "findings": [
+    {"url":"https://www.frontiersin.org/journals/neurology/articles/10.3389/fneur.2026.1971225/full","result":"Official publisher dates the pediatric Perspective October21. It explicitly calls its framework a clinical heuristic, not validated; no primary or new-window treatment finding."},
+    {"url":"https://pubmed.ncbi.nlm.nih.gov/42982044/","result":"Web reader unavailable; official EUtils XML successfully supplies title, DOI and November4 publication/history dates. No case narrative obtained."},
+    {"url":"https://doi.org/10.1055/a-2984-7514","result":"Web reader unavailable. No full-text appraisal; PubMed bibliographic metadata is the source."},
+    {"url":"https://pubmed.ncbi.nlm.nih.gov/42984929/","result":"Web reader unavailable; official EUtils XML and publisher discovery confirm date and type."},
+    {"url":"https://clinicaltrials.gov/study/NCT01019343","result":"Web reader yielded a shell, not protocol text. Official API supplies current selected metadata; no results."},
+    {"url":"https://center6.umin.ac.jp/cgi-open-bin/ctr_e/index.cgi/ctr_view.cgi?recptno=R000072334","result":"Official index discloses UMIN000063483 Tic Manager RCT on October31, listed Open public recruiting in current opened index. Older cached official search snippets say Preinitiation. Exact amendment dates cannot be inferred from crawl times."},
+    {"url":"https://center6.umin.ac.jp/cgi-open-bin/ctr_e/index.cgi/ctr_view.cgi?recptno=R000071959","result":"Clicked Detail link returned the index again. History link did likewise. Direct ctr_e/ctr_view.cgi and ctr_his_list.cgi paths were inaccessible via web reader. Exact protocol, current recruitment verification, result availability and update chronology remain unverified. No new-window finding promoted."},
+    {"url":"https://www.nature.com/articles/s41572-026-00742-6","result":"Official search card describes a correction swapping comorbidity entries in a table of the October8 secondary primer. Correction date not supplied. Direct reader failed at publisher identity redirect; targeted correction searches did not resolve chronology. Discovery-only, not a verified new-window correction or primary result."}
+  ],
+  "exclusions_and_limits": [
+    "Historical November issue assignments were not treated as first-publication dates.",
+    "Sponsor announcements, third-party registry mirrors, synchronization and crawl dates were not accepted as new primary results or verified recruitment.",
+    "Search cards were screened without a stable exhaustive denominator; no worldwide coverage claimed.",
+    "WHO query did not establish registry-level WHO ICTRP coverage. UMIN is an identified lead, not an exhaustive national-registry search.",
+    "No full papers, individual case narratives, participant records or community content were retained."
+  ]
+}

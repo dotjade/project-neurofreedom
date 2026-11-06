@@ -1,6 +1,6 @@
 # Project NeuroFreedom status
 
-Updated 5 November 2026. Initial portfolio, twenty-eight completed daily updates, four completed weekly syntheses and one monthly review. Public evidence repository and journal launched 13 October.
+Updated 6 November 2026. Initial portfolio, twenty-nine completed daily updates, four completed weekly syntheses and one monthly review. Public evidence repository and journal launched 13 October.
 
 ## Completed in this first pass
 
@@ -14,7 +14,7 @@ Updated 5 November 2026. Initial portfolio, twenty-eight completed daily updates
 
 ## Enabled research schedules
 
-The user approved the following automatic public-science research and repository updates on 8 October 2026. Each schedule was created successfully and returned enabled status. Daily runs were completed on 9-31 October and 1-5 November 2026; weekly syntheses were completed on 11, 18 and 25 October and 1 November; the first monthly review was completed on 1 November; the first quarterly run remains unverified.
+The user approved the following automatic public-science research and repository updates on 8 October 2026. Each schedule was created successfully and returned enabled status. Daily runs were completed on 9-31 October and 1-6 November 2026; weekly syntheses were completed on 11, 18 and 25 October and 1 November; the first monthly review was completed on 1 November; the first quarterly run remains unverified.
 
 - Daily new-evidence checks: from 9 October 2026, approximately 08:00 India time.
 - Weekly synthesis: Sundays, from 11 October 2026, approximately 09:00 India time.
@@ -732,3 +732,18 @@ Research commit [62a6ca06b05ad7be3d93bcf40955989c8b22ce40](https://github.com/do
 [Actions run 41958327928](https://github.com/dotjade/project-neurofreedom/actions/runs/41958327928) completed successfully for that exact research commit. Fresh post-deployment API readback returned HTTP 200, repository source and exact bytes with updatedAt 2026-11-05T02:45:19Z. Both new report links returned HTTP 200 with expected titles. The [receipt](updates/2026-11-05/publication-verification.json) records actual timestamps and checks.
 
 Six activities remain unchanged, rest-or-leave is selected, and collection remains off. No new rendered accessibility or narration test is claimed. The research manifest covers the snapshot before this receipt and final status/link additions.
+
+
+## Completed daily research update - 6 November 2026
+
+The [daily report](updates/2026-11-06/report.md) separates a bounded no-new-result scan from historical source reconciliation. Twenty PubMed records, 1,171 preprint versions and six registries were screened; no qualifying new-window primary first publication, preprint, posted result or watched-treatment official warning was verified. A newly surfaced older safety case report remains metadata only. Administrative registry updates, unresolved source leads and English-heavy coverage are disclosed.
+
+The [H13 targeted-tic audit](analyses/h13_generalization/2026-11-06/report.md) retains the small youth pilot's favorable trained-tic signal at one week without promoting it to untrained-tic or long-term benefit. The mid-study protocol planned broader measures absent from the paper, but their actual collection and results are unknown. Its adverse-event rule limits discomfort ascertainment. The four-session follow-up is withdrawn with zero enrollment; separate negative glutamatergic evidence is retained without pooling unlike mechanisms.
+
+### Next bounded decision
+
+Close the fixed H13 source audit pending lawful aggregate missing outcomes, score reconciliation, dated amendments or an actual multisession replication. Next map H18 direct randomized mechanism/component/generalization evidence, separating it from outcome prediction and avoiding completed adult CBIT maintenance/function audits. Stop without compatible comparisons rather than inventing personalized benefit. Persistent severe adult function, pain and co-occurring burdens remain central alongside all-age tic evidence. No owner action, intervention, outreach or paid resource is needed.
+
+### Public journal
+
+The feed preserves schema, prior entries within the 24-entry limit and six unchanged optional activities; notice-one-thing is selected and collection remains off. The [dated link ledger](public/link-checks/2026-11-06.json) distinguishes retrievable and access-limited sources, with no confirmed broken link. Exact remote, CI and production checks follow publication. No new rendered accessibility or narration test is claimed.

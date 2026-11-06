@@ -1,0 +1,28 @@
+{
+  "created_utc": "2026-11-06T03:00:14.474410+00:00",
+  "baseline_commit": "cd78cc307253a3c38ee3b846849150721ea19264",
+  "baseline_source": "updates/2026-11-05/scan",
+  "data_scope": "Public bibliographic and selected protocol metadata, original paraphrases and query provenance only. No abstracts, papers, case narratives, participant or contact data.",
+  "method_changes": "Daily bounds advanced one day. PubMed ID accounting detected one book chapter omitted by journal parser; separate documented metadata retrieval closes its accounting gap.",
+  "limitations": "Core null result is bounded; UMIN history/detail and Nature correction date remain unresolved.",
+  "files": {
+    "baseline-verification.json": "7b65714116f741c92f5f0a380fd18a894b373fe0f650ef095d253f5a693a1ddd",
+    "baseline.json": "5567c779f14fd49ef34f437df5c284870329cc8fe81926dcfe216ff8e3b551d5",
+    "biorxiv-preprint-index.tsv": "e799fb123f87bc6651fc61135cdab8f06ffe5671e8fdd6ff935d077a2dacf0f7",
+    "book-metadata.json": "7b1c0b7539a4ec9473e493f82df3fbf8472fe5dc03c95b553bc764aae090d0bf",
+    "build_results.py": "61a346fc29bb483c362e086a78e1f72fb7da21125c6cbb6432d817a0e241f81b",
+    "check_book_metadata.py": "633d0b943561a059178a4465fcc0011c159cdd1029f8f6e9e481c50cfb6669c5",
+    "discovery-log.json": "dced0b124ceb78bdf74a02f2739070ccc3028f0f031c1a8b8a8abe5ced2f81df",
+    "medrxiv-preprint-index.tsv": "e0324ce343a3af9ec0bf31da28d3fba86922149660e8295ec0bf747024b56479",
+    "pubmed-screening.jsonl": "c2230bdfc9114d9f5abcb691eb2db5098a2c4ecd6410b570762727bf0849599a",
+    "registry-evidence.jsonl": "606fed4913e131b780014929e1ac66e0f6ba939430a9e0f65dc37da2217a3f82",
+    "report.md": "664866cb8d318ac42580f44fe41a5abed13f10df23a354d50117ab43ffda44ae",
+    "request-log.json": "7e454808d9f82047ef9663cf620cc2072bed306a524bd0fed5ee944cd0708751",
+    "safety-review.json": "ec10b2181139d6432ff443b13c7ff81aaf068a7a0fcec4abb2af8efcd801ac27",
+    "scan_sources.py": "b8102818415ccfef8c9fc669172e621a5479bbfc2da1ca442715b28bc92d3cae",
+    "search-log.json": "6b25a4cc8ff419f8515e5032bcc74eb9cf337d69e667dd149c5373a10b63343b",
+    "summary.json": "9dee16367b0781fd84a932fd9f0416cb6c8d519a366ce33536063e4fdb83c1a1",
+    "validate.py": "9884fa3bf5f489d37e42bd9b35129a8e740a84c2822e102f849a8bc63eb5a121",
+    "validation.json": "21174974ad7e34493fd6156fc25d842e1aae0cb1850f1455e44fd98ee52df53b"
+  }
+}

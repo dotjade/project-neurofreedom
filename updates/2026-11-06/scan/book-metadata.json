@@ -1,0 +1,56 @@
+{
+  "request": {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=23556151&retmode=xml",
+    "started_utc": "2026-11-06T02:55:39.474432+00:00",
+    "status": 200,
+    "bytes": 39981,
+    "sha256": "47aa463b22893d6e69c963e797513acdcec1564ae3302e8363e18d5f23d02374",
+    "completed_utc": "2026-11-06T02:55:43.665529+00:00"
+  },
+  "record": {
+    "pmid": "23556151",
+    "title": "Coffin-Siris Syndrome",
+    "book_title": "GeneReviews\u00ae",
+    "types": [
+      "Review"
+    ],
+    "journal_pubdate": {
+      "Year": "1993"
+    },
+    "article_dates": [
+      {
+        "type": null,
+        "Year": "2013",
+        "Month": "4",
+        "Day": "4"
+      }
+    ],
+    "history": {
+      "entrez": {
+        "Year": "2026",
+        "Month": "11",
+        "Day": "5"
+      },
+      "medline": {
+        "Year": "2026",
+        "Month": "11",
+        "Day": "5"
+      },
+      "pubmed": {
+        "Year": "2026",
+        "Month": "11",
+        "Day": "5"
+      }
+    },
+    "identifiers": {
+      "bookaccession": "NBK131811"
+    },
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/23556151/",
+    "record_type": "PubmedBookArticle",
+    "prior_scan_overlap": false,
+    "abstract_retained": false,
+    "screening_decision": "Secondary GeneReviews chapter about Coffin-Siris syndrome, not new primary Tourette evidence.",
+    "qualifying_primary_publication": false,
+    "corrections": []
+  }
+}

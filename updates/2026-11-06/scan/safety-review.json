@@ -1,0 +1,38 @@
+{
+  "date": "2026-11-06",
+  "previous_cutoff_utc": "2026-11-05T02:40:55Z",
+  "checked_interval_utc": "2026-11-06T02:51:40Z/2026-11-06T02:54:20Z",
+  "queries": [
+    "site:fda.gov (aripiprazole OR risperidone OR guanfacine OR NeuroStar OR ecopipam) after:2026-11-04 before:2026-11-07",
+    "site:ema.europa.eu (aripiprazole OR risperidone OR pimozide OR haloperidol OR deutetrabenazine OR Deanxit) after:2026-11-04 before:2026-11-07",
+    "site:gov.uk (Tourette OR guanfacine OR aripiprazole OR botulinum OR antidepressants) after:2026-11-04 before:2026-11-07",
+    "site:tga.gov.au (Tourette OR methylphenidate OR clonidine OR botulinum OR atomoxetine) after:2026-11-04 before:2026-11-07",
+    "(Tourette OR \"tic disorder\") (guideline OR safety OR warning OR recall) after:2026-11-04 before:2026-11-07 -site:reddit.com",
+    "(ecopipam OR Neupulse OR valbenazine OR tetrabenazine OR topiramate OR tiapride OR nabiximols) (safety OR recall OR warning) after:2026-11-04 before:2026-11-07"
+  ],
+  "result": "No verified new-window watched-treatment material warning or issued tic guideline. Newly surfaced November 4 bibliographic case report is separately retained; not a new regulatory warning or risk-rate estimate.",
+  "official_sources": [
+    {"url":"https://www.fda.gov/drugs/drug-safety-and-availability/drug-safety-communications","result":"Latest listed September 15; no new-window watch communication."},
+    {"url":"https://www.fda.gov/medical-devices/medical-device-safety/safety-communications","result":"Latest listed June 3; no new-window watch communication."},
+    {"url":"https://www.fda.gov/medical-devices/medical-devices-news-and-events/cdrh-new-news-and-updates","result":"New November 5 quality-system FAQ/cybersecurity updates and November 4 device classifications. None establishes a named tic-device warning."},
+    {"url":"https://www.ema.europa.eu/en/news-events/whats-new","result":"68 index headings across November 3–5 inspected; none a new named-watch warning. Not all linked attachments reviewed."},
+    {"url":"https://www.ema.europa.eu/en/human-regulatory-overview/post-authorisation/pharmacovigilance-post-authorisation/signal-management/prac-recommendations-safety-signals","result":"Latest published October 26, EMA/PRAC/206892/2026 and EMA/PRAC/206903/2026. Not new; PDFs not reread."},
+    {"url":"https://www.ema.europa.eu/en/medicines/human/referrals/flupentixol-melitracen-containing-medicinal-products","result":"Procedure remains started. October 30 publication; October 16 prose initiation versus October 29 key-date metadata discrepancy persists. Flupentixol alone explicitly excluded."},
+    {"url":"https://www.gov.uk/drug-safety-update","result":"New November 5 givinostat warning for Duchenne muscular dystrophy is outside the named watch. October 15 antidepressant warning remains historical."},
+    {"url":"https://www.gov.uk/drug-device-alerts","result":"November 5 co-amoxiclav dosing-table notification and tropicamide expiry-label recall are outside the watch. November 4 field-notice index was already recorded yesterday."},
+    {"url":"https://www.tga.gov.au/news/safety-updates","result":"Latest index entry October 14; no new-window watch communication."},
+    {"url":"https://www.tga.gov.au/safety/safety-monitoring-and-information/safety-alerts","result":"November 5 unapproved peptide alert is outside the watch and was already seen yesterday."},
+    {"url":"https://www.hsa.gov.sg/announcements/recall-of-tetrabenazine-25mg-112-s-sun-italy/","result":"November 1 notice for October 27 retail Class 2 batch DNG1035A recall unchanged; historical, not newly announced."},
+    {"url":"https://www.awmf.org/aktuelles/awmf-aktuell/diagnostik-und-behandlung-primaerer-tic-stoerungen-ticcare","result":"TicCare 030-012 version 6.0 remains October 2026 registration (Anmeldung), not issued clinical recommendations."},
+    {"url":"https://www.tga.gov.au/safety/shortages-and-supply-disruptions/medicine-shortages/major-or-ongoing-medicine-shortages/about-shortage-methylphenidate-hydrochloride-products","result":"Search claimed recent publication; official page and history say last updated October 30. Historical commercial/supply information, not a verified new-window safety event."},
+    {"url":"https://www.tga.gov.au/product-information-safety-updates-year-table","result":"Search claimed recent publication; opened official page says last updated September 29. Located methylphenidate item approved July 22. Not new-window evidence; not an exhaustive label review."},
+    {"url":"https://www.gov.uk/drug-safety-update/aripiprazole-abilify-and-generic-brands-risk-of-pathological-gambling","result":"Published December 18, 2023. Existing warning contextualizes newly surfaced case-report title; no frequency estimate established by reports. No treatment change proposed."}
+  ],
+  "limitations": [
+    "English-heavy bounded search, not exhaustive worldwide surveillance or proof of treatment safety.",
+    "Search date/crawl labels were not accepted as event dates.",
+    "No stable exhaustive web result-card denominator recorded.",
+    "Not all labels, monthly attachments, national regulatory sites or device notices inspected.",
+    "Individual adverse-event/case narratives were excluded without extraction or retention."
+  ]
+}

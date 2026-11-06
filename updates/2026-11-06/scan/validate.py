@@ -1,0 +1,61 @@
+"""Consistency checks for the captured scan; not scientific or clinical validation."""
+import csv,datetime as dt,hashlib,json,pathlib,re
+p=pathlib.Path(__file__).resolve().parent
+read=lambda f:json.loads((p/f).read_text())
+s=read('search-log.json');b=read('baseline.json');z=read('summary.json');book=read('book-metadata.json');pub=[json.loads(x)for x in(p/'pubmed-screening.jsonl').read_text().splitlines()];reg=[json.loads(x)for x in(p/'registry-evidence.jsonl').read_text().splitlines()];tests=[]
+def check(label,truth):
+ assert truth,label
+ tests.append(label)
+ids={n for q in s['pubmed']['queries']for n in q['ids']}
+check('eight PubMed queries',len(s['pubmed']['queries'])==8)
+check('query counts complete',all(q['count']==len(q['ids'])for q in s['pubmed']['queries']))
+check('all returned IDs accounted for',ids=={x['pmid']for x in pub})
+check('20 unique records',len(ids)==20==len(pub)==z['pubmed_screened_records'])
+check('19 journal + one book record',len(s['pubmed']['date_type_correction_screen'])==19 and book['record']['record_type']=='PubmedBookArticle')
+check('29 ID occurrences',sum(len(q['ids'])for q in s['pubmed']['queries'])==29)
+check('previous overlap accounting',len(ids&{x['pmid']for x in b['pubmed']})==3)
+check('new to previous count',len(ids-{x['pmid']for x in b['pubmed']})==17)
+check('no qualifying primary result',not any(x['qualifying_primary_publication']for x in pub))
+check('abstracts not retained',all(x['abstract_retained']is False and 'abstract'not in x for x in pub))
+byid={x['pmid']:x for x in pub}
+check('case date before prior cutoff',byid['42982044']['article_dates'][0]['Day']=='04')
+check('case narrative excluded','no individual narrative'in byid['42982044']['screening_decision'])
+check('TICS acronym exclusion','chronic stress inventory'in byid['42986906']['screening_decision'])
+check('pediatric perspective remains secondary','Perspective'in byid['42984929']['screening_decision'])
+check('book chapter accounted',byid['23556151']['identifiers']['bookaccession']=='NBK131811')
+check('historical publisher date inherited',byid['42978485']['publisher_citation_publication_date']=='2026/09/01')
+check('no linked correction/retraction',all(not x.get('corrections')for x in pub))
+check('four registry queries',len(s['registry'])==4)
+check('registry pagination complete',all(q['response']['nextPageToken']is None for q in s['registry']))
+check('registry query counts complete',all(q['response']['totalCount']==len(q['response']['nct_ids'])for q in s['registry']))
+check('five direct watch records',len(s['registry_direct_controls'])==5)
+check('six registry records',len(reg)==6)
+check('no posted results',all(x['hasResults']is False for x in reg))
+new=[x for x in reg if x['selected_field_changes']is None];changed=[x for x in reg if x['selected_field_changes']]
+check('one newly surfaced registry',len(new)==1 and new[0]['id']=='NCT01019343')
+check('one changed watched registry',len(changed)==1 and changed[0]['id']=='NCT07137442')
+check('new mixed cohort total not subgroup',new[0]['design']['enrollmentInfo']['count']==1273 and 'not a Tourette subgroup'in new[0]['interpretation'])
+check('estimated start change',changed[0]['status']['startDateStruct']=={'date':'2026-11-10','type':'ESTIMATED'})
+check('no contact/result data projection',all('ResultsSection'not in q['params']['fields']and'Contact'not in q['params']['fields']for q in s['registry']))
+check('two preprint sources',{x['server']for x in s['preprints']}=={'biorxiv','medrxiv'})
+check('1171 version records',sum(x['unique_doi_versions']for x in s['preprints'])==1171)
+check('239 newly surfaced versions',sum(x['not_in_previous_scan_doi_versions']for x in s['preprints'])==239)
+for x in s['preprints']:
+ check(x['server']+' pagination complete',x['pagination_complete_for_observed_response']and len(x['reported_totals'])==1 and x['reported_totals'][0]==x['total_returned'])
+ check(x['server']+' no duplicate versions',len({(r['doi'],r['version'])for r in x['version_index']})==x['total_returned'])
+ check(x['server']+' metadata-only TSV exact',list(csv.DictReader((p/(x['server']+'-preprint-index.tsv')).open(),delimiter='\t'))==x['version_index'])
+ check(x['server']+' no lexical matches',x['matches']==[])
+pattern=re.compile(r'\btourett\w*|\btics?\b',re.I)
+check('Tourette lexical positive',bool(pattern.search('Tourette syndrome')))
+check('chronic tic lexical positive',bool(pattern.search('chronic motor tics')))
+check('statistics lexical negative',not pattern.search('statistics'))
+check('58 successful core requests',len(s['retrieval_requests'])==58 and all(x.get('status')==200 and'error'not in x for x in s['retrieval_requests']))
+check('one successful book supplement',book['request']['status']==200)
+check('59 total recorded requests',len(read('request-log.json'))==59)
+check('zero worker errors',not s.get('worker_errors'))
+check('core dates truthful ordering',dt.datetime.fromisoformat(s['prior_core_end_utc'])<dt.datetime.fromisoformat(s['started_utc'])<dt.datetime.fromisoformat(s['completed_utc']))
+check('six safety queries',len(read('safety-review.json')['queries'])==6)
+check('15 official safety sources',len(read('safety-review.json')['official_sources'])==15)
+check('14 discovery queries',len(read('discovery-log.json')['queries'])==14)
+result={'checked_utc':dt.datetime.now(dt.timezone.utc).isoformat(),'checks':len(tests),'passed':True,'tests':tests,'scope':'Captured metadata consistency and lexical controls, not clinical validation.'}
+(p/'validation.json').write_text(json.dumps(result,indent=2)+'\n');print(json.dumps(result,indent=2))

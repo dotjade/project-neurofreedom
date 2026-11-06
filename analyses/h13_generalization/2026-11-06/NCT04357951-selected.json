@@ -1,0 +1,72 @@
+{
+  "source_url": "https://clinicaltrials.gov/api/v2/studies/NCT04357951",
+  "protocol_status": {
+    "statusVerifiedDate": "2023-04",
+    "overallStatus": "WITHDRAWN",
+    "whyStopped": "Low enrollment",
+    "expandedAccessInfo": {
+      "hasExpandedAccess": false
+    },
+    "startDateStruct": {
+      "date": "2023-04-15",
+      "type": "ESTIMATED"
+    },
+    "primaryCompletionDateStruct": {
+      "date": "2024-03",
+      "type": "ESTIMATED"
+    },
+    "completionDateStruct": {
+      "date": "2024-09",
+      "type": "ESTIMATED"
+    },
+    "studyFirstSubmitDate": "2020-04-20",
+    "studyFirstSubmitQcDate": "2020-04-20",
+    "studyFirstPostDateStruct": {
+      "date": "2020-04-22",
+      "type": "ACTUAL"
+    },
+    "lastUpdateSubmitDate": "2023-04-12",
+    "lastUpdatePostDateStruct": {
+      "date": "2023-04-14",
+      "type": "ACTUAL"
+    }
+  },
+  "design": {
+    "studyType": "INTERVENTIONAL",
+    "phases": [
+      "EARLY_PHASE1"
+    ],
+    "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "interventionModelDescription": "This trial will evaluate the feasibility and initial efficacy of behavior therapy augmented with d-cycloserine (DCS) compared to behavior therapy augmented with placebo.",
+      "primaryPurpose": "TREATMENT",
+      "maskingInfo": {
+        "masking": "QUADRUPLE",
+        "maskingDescription": "Participants, therapists, investigators, and outcome assessors will all be masked to treatment assignment. Only the study coordinator will be aware of random assignment to treatment condition.",
+        "whoMasked": [
+          "PARTICIPANT",
+          "CARE_PROVIDER",
+          "INVESTIGATOR",
+          "OUTCOMES_ASSESSOR"
+        ]
+      }
+    },
+    "enrollmentInfo": {
+      "count": 0,
+      "type": "ACTUAL"
+    }
+  },
+  "outcomes": {
+    "primaryOutcomes": [
+      {
+        "measure": "Change in Hopkins Motor/Vocal Tic Scale (HM/VTS) score",
+        "description": "Participants can nominate up to five motor and five vocal tics participants deem bothersome on the HM/VTS. Each bothersome tic is then rated by a clinician on a 5-point scale ranging from none (0) to severe (4). The individual tic scores are summed (minimum of 0 and maximum of 40) and averaged together to create an average tic severity score. Lower scores represent less tic severity, and higher scores indicate greater tic severity. The primary outcome will be the difference in the average score of the two bothersome tics on the HM/VTS that were targeted in treatment (range: 0-8). Change scores were calculated by subtracting the average of the two bothersome tics on the HM/VTS at post-treatment from the average of the two bothersome tics on the HM/VTS at the pre-treatment assessment. Positive scores indicate improvement/decrease in targeted tic severity, with negative scores indicating increase in targeted tic severity.",
+        "timeFrame": "Pre-treatment (baseline) and 1 Week post-treatment"
+      }
+    ]
+  },
+  "hasResults": false,
+  "retrieved_on": "2026-11-06",
+  "retrieval_time_precision": "date"
+}
