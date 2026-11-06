@@ -747,3 +747,12 @@ Close the fixed H13 source audit pending lawful aggregate missing outcomes, scor
 ### Public journal
 
 The feed preserves schema, prior entries within the 24-entry limit and six unchanged optional activities; notice-one-thing is selected and collection remains off. The [dated link ledger](public/link-checks/2026-11-06.json) distinguishes retrievable and access-limited sources, with no confirmed broken link. Exact remote, CI and production checks follow publication. No new rendered accessibility or narration test is claimed.
+
+
+### Publication verification - 6 November 2026
+
+Research commit [b06bb12a5c870780314e1cce304ff9e77ad4f8c8](https://github.com/dotjade/project-neurofreedom/commit/b06bb12a5c870780314e1cce304ff9e77ad4f8c8) contains 36 authored files verified byte-for-byte, preserving 1,446 unrelated existing paths with no unexpected paths. Connector and anonymous raw feed readback match the authored edition.
+
+[Actions run 42154977588](https://github.com/dotjade/project-neurofreedom/actions/runs/42154977588) completed successfully for that exact research commit. Post-deployment API readback at 03:12:03 UTC returned HTTP 200, repository source and exact bytes with updatedAt 2026-11-06T03:03:29Z. Both new report links returned HTTP 200 with expected paths. The [receipt](updates/2026-11-06/publication-verification.json) records actual checks and the 120-second cache contract.
+
+Six activities remain unchanged, notice-one-thing is selected, and collection remains off. No new rendered accessibility or narration test is claimed. The integration manifest covers the research snapshot before this receipt and final status/link-verification additions. This verification-only follow-up does not change the feed or deployment inputs.

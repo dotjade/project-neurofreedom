@@ -854,5 +854,54 @@
         "verifiedAt": null
       }
     }
-  ]
+  ],
+  "postPublicationChecks": {
+    "researchCommit": "b06bb12a5c870780314e1cce304ff9e77ad4f8c8",
+    "checks": [
+      {
+        "kind": "raw",
+        "url": "https://raw.githubusercontent.com/dotjade/project-neurofreedom/main/public/research-feed.json",
+        "checked_at_utc": "2026-11-06T03:12:03.875943+00:00",
+        "http_status": 200,
+        "curl_exit": 0,
+        "bytes": 16937,
+        "bytes_exact": true,
+        "updatedAt": "2026-11-06T03:03:29Z"
+      },
+      {
+        "kind": "api",
+        "url": "https://tourette.fyi/api/public-feed",
+        "checked_at_utc": "2026-11-06T03:12:03.876912+00:00",
+        "http_status": 200,
+        "curl_exit": 0,
+        "bytes": 16937,
+        "bytes_exact": true,
+        "updatedAt": "2026-11-06T03:03:29Z",
+        "repository_source": true,
+        "cache_control": [
+          "public, max-age=120, no-transform"
+        ]
+      },
+      {
+        "kind": "daily",
+        "url": "https://github.com/dotjade/project-neurofreedom/blob/main/updates/2026-11-06/report.md",
+        "checked_at_utc": "2026-11-06T03:12:03.877478+00:00",
+        "http_status": 200,
+        "curl_exit": 0,
+        "bytes": 204898,
+        "document_title": "project-neurofreedom/updates/2026-11-06/report.md at main \u00b7 dotjade/project-neurofreedom \u00b7 GitHub",
+        "path_confirmed": true
+      },
+      {
+        "kind": "audit",
+        "url": "https://github.com/dotjade/project-neurofreedom/blob/main/analyses/h13_generalization/2026-11-06/report.md",
+        "checked_at_utc": "2026-11-06T03:12:03.877808+00:00",
+        "http_status": 200,
+        "curl_exit": 0,
+        "bytes": 230613,
+        "document_title": "project-neurofreedom/analyses/h13_generalization/2026-11-06/report.md at main \u00b7 dotjade/project-neurofreedom \u00b7 GitHub",
+        "path_confirmed": true
+      }
+    ]
+  }
 }
