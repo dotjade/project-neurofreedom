@@ -1,0 +1,329 @@
+{
+  "source_url": "https://clinicaltrials.gov/api/v2/studies/NCT02582515",
+  "protocol_status": {
+    "statusVerifiedDate": "2019-04",
+    "overallStatus": "COMPLETED",
+    "expandedAccessInfo": {
+      "hasExpandedAccess": false
+    },
+    "startDateStruct": {
+      "date": "2015-10",
+      "type": "ACTUAL"
+    },
+    "primaryCompletionDateStruct": {
+      "date": "2017-08",
+      "type": "ACTUAL"
+    },
+    "completionDateStruct": {
+      "date": "2017-08",
+      "type": "ACTUAL"
+    },
+    "studyFirstSubmitDate": "2015-10-16",
+    "studyFirstSubmitQcDate": "2015-10-20",
+    "studyFirstPostDateStruct": {
+      "date": "2015-10-21",
+      "type": "ESTIMATED"
+    },
+    "resultsFirstSubmitDate": "2019-03-11",
+    "resultsFirstSubmitQcDate": "2019-04-03",
+    "resultsFirstPostDateStruct": {
+      "date": "2019-04-25",
+      "type": "ACTUAL"
+    },
+    "lastUpdateSubmitDate": "2019-04-03",
+    "lastUpdatePostDateStruct": {
+      "date": "2019-04-25",
+      "type": "ACTUAL"
+    }
+  },
+  "design": {
+    "studyType": "INTERVENTIONAL",
+    "phases": [
+      "NA"
+    ],
+    "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "primaryPurpose": "TREATMENT",
+      "maskingInfo": {
+        "masking": "QUADRUPLE",
+        "whoMasked": [
+          "PARTICIPANT",
+          "CARE_PROVIDER",
+          "INVESTIGATOR",
+          "OUTCOMES_ASSESSOR"
+        ]
+      }
+    },
+    "enrollmentInfo": {
+      "count": 20,
+      "type": "ACTUAL"
+    }
+  },
+  "outcomes": {
+    "primaryOutcomes": [
+      {
+        "measure": "Hopkins Motor/Vocal Tic Scale (HM/VTS)",
+        "description": "Participants can nominate up to five motor and five vocal tics they deem bothersome on the HM/VTS. Each bothersome tic is then rated by a clinician on a 5-point scale ranging from none (0) to severe (4).\n\nThe individual tic scores are summed (minimum of 0 and maximum of 40) and averaged together to create an average tic severity score. Lower scores represent less tic severity, and higher scores indicate greater tic severity.\n\nThe primary outcome will be the difference in the average score of the two bothersome tics on the HM/VTS that were targeted in treatment (range: 0-8). Change scores were calculated by subtracting the average of the two bothersome tics on the HM/VTS at post-treatment from the average of the two bothersome tics on the HM/VTS at the pre-treatment assessment. Positive scores indicate improvement/decrease in targeted tic severity, with negative scores indicating increase in targeted tic severity",
+        "timeFrame": "Pre-treatment, One Week post-treatment"
+      }
+    ]
+  },
+  "hasResults": true,
+  "participantFlowModule": {
+    "groups": [
+      {
+        "id": "FG000",
+        "title": "D-cycloserine + Habit Reversal Training",
+        "description": "Participants randomly assigned to the D-cycloserine (DCS) condition will receive a single dose of DCS immediately prior to a single session of habit reversal training. Participants will be evaluated 1 week later for improvement in tics targeted in the treatment session.\n\nD-cycloserine"
+      },
+      {
+        "id": "FG001",
+        "title": "Placebo + Habit Reversal Training",
+        "description": "Participants randomly assigned to the placebo condition will receive a single dose of placebo immediately prior to a single session of habit reversal training. Participants will be evaluated 1 week later for improvement in tics targeted in the treatment session.\n\nPlacebo"
+      }
+    ],
+    "periods": [
+      {
+        "title": "Overall Study",
+        "milestones": [
+          {
+            "type": "STARTED",
+            "achievements": [
+              {
+                "groupId": "FG000",
+                "numSubjects": "9"
+              },
+              {
+                "groupId": "FG001",
+                "numSubjects": "11"
+              }
+            ]
+          },
+          {
+            "type": "Received Study Intervention",
+            "achievements": [
+              {
+                "groupId": "FG000",
+                "numSubjects": "9"
+              },
+              {
+                "groupId": "FG001",
+                "numSubjects": "10"
+              }
+            ]
+          },
+          {
+            "type": "COMPLETED",
+            "achievements": [
+              {
+                "groupId": "FG000",
+                "numSubjects": "9"
+              },
+              {
+                "groupId": "FG001",
+                "numSubjects": "10"
+              }
+            ]
+          },
+          {
+            "type": "NOT COMPLETED",
+            "achievements": [
+              {
+                "groupId": "FG000",
+                "numSubjects": "0"
+              },
+              {
+                "groupId": "FG001",
+                "numSubjects": "1"
+              }
+            ]
+          }
+        ],
+        "dropWithdraws": [
+          {
+            "type": "Withdrawal by Subject",
+            "reasons": [
+              {
+                "groupId": "FG000",
+                "numSubjects": "0"
+              },
+              {
+                "groupId": "FG001",
+                "numSubjects": "1"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "outcomeMeasuresModule": {
+    "outcomeMeasures": [
+      {
+        "type": "PRIMARY",
+        "title": "Hopkins Motor/Vocal Tic Scale (HM/VTS)",
+        "description": "Participants can nominate up to five motor and five vocal tics they deem bothersome on the HM/VTS. Each bothersome tic is then rated by a clinician on a 5-point scale ranging from none (0) to severe (4).\n\nThe individual tic scores are summed (minimum of 0 and maximum of 40) and averaged together to create an average tic severity score. Lower scores represent less tic severity, and higher scores indicate greater tic severity.\n\nThe primary outcome will be the difference in the average score of the two bothersome tics on the HM/VTS that were targeted in treatment (range: 0-8). Change scores were calculated by subtracting the average of the two bothersome tics on the HM/VTS at post-treatment from the average of the two bothersome tics on the HM/VTS at the pre-treatment assessment. Positive scores indicate improvement/decrease in targeted tic severity, with negative scores indicating increase in targeted tic severity",
+        "reportingStatus": "POSTED",
+        "paramType": "MEAN",
+        "dispersionType": "Standard Deviation",
+        "unitOfMeasure": "score on a scale",
+        "timeFrame": "Pre-treatment, One Week post-treatment",
+        "groups": [
+          {
+            "id": "OG000",
+            "title": "D-cycloserine + Habit Reversal Training",
+            "description": "Participants randomly assigned to the D-cycloserine (DCS) condition will receive a single dose of DCS immediately prior to a single session of habit reversal training. Participants will be evaluated 1 week later for improvement in tics targeted in the treatment session.\n\nD-cycloserine"
+          },
+          {
+            "id": "OG001",
+            "title": "Placebo + Habit Reversal Training",
+            "description": "Participants randomly assigned to the placebo condition will receive a single dose of placebo immediately prior to a single session of habit reversal training. Participants will be evaluated 1 week later for improvement in tics targeted in the treatment session.\n\nPlacebo"
+          }
+        ],
+        "denoms": [
+          {
+            "units": "Participants",
+            "counts": [
+              {
+                "groupId": "OG000",
+                "value": "9"
+              },
+              {
+                "groupId": "OG001",
+                "value": "10"
+              }
+            ]
+          }
+        ],
+        "classes": [
+          {
+            "categories": [
+              {
+                "measurements": [
+                  {
+                    "groupId": "OG000",
+                    "value": "1.22",
+                    "spread": "0.62"
+                  },
+                  {
+                    "groupId": "OG001",
+                    "value": "0.70",
+                    "spread": "0.54"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "adverseEventsModule": {
+    "frequencyThreshold": "0",
+    "timeFrame": "Immediately after therapy session (Visit 2) and 1 week after therapy session (Visit 3)",
+    "description": "Adverse events were systematically assessed at Visits 2 and 3 using side effect review form derived from the Safety Monitoring Uniform Report Form (SMURF).",
+    "eventGroups": [
+      {
+        "id": "EG000",
+        "title": "D-cycloserine + Habit Reversal Training",
+        "description": "Participants randomly assigned to the D-cycloserine (DCS) condition will receive a single dose of DCS immediately prior to a single session of habit reversal training. Participants will be evaluated 1 week later for improvement in tics targeted in the treatment session.\n\nD-cycloserine",
+        "deathsNumAffected": 0,
+        "deathsNumAtRisk": 9,
+        "seriousNumAffected": 0,
+        "seriousNumAtRisk": 9,
+        "otherNumAffected": 3,
+        "otherNumAtRisk": 9
+      },
+      {
+        "id": "EG001",
+        "title": "Placebo + Habit Reversal Training",
+        "description": "Participants randomly assigned to the placebo condition will receive a single dose of placebo immediately prior to a single session of habit reversal training. Participants will be evaluated 1 week later for improvement in tics targeted in the treatment session.\n\nPlacebo",
+        "deathsNumAffected": 0,
+        "deathsNumAtRisk": 10,
+        "seriousNumAffected": 0,
+        "seriousNumAtRisk": 10,
+        "otherNumAffected": 0,
+        "otherNumAtRisk": 10
+      }
+    ],
+    "otherEvents": [
+      {
+        "term": "Drowsiness",
+        "organSystem": "General disorders",
+        "assessmentType": "SYSTEMATIC_ASSESSMENT",
+        "stats": [
+          {
+            "groupId": "EG000",
+            "numEvents": 1,
+            "numAffected": 1,
+            "numAtRisk": 9
+          },
+          {
+            "groupId": "EG001",
+            "numEvents": 0,
+            "numAffected": 0,
+            "numAtRisk": 10
+          }
+        ]
+      },
+      {
+        "term": "Difficulty Falling Asleep",
+        "organSystem": "General disorders",
+        "assessmentType": "SYSTEMATIC_ASSESSMENT",
+        "stats": [
+          {
+            "groupId": "EG000",
+            "numEvents": 1,
+            "numAffected": 1,
+            "numAtRisk": 9
+          },
+          {
+            "groupId": "EG001",
+            "numEvents": 0,
+            "numAffected": 0,
+            "numAtRisk": 10
+          }
+        ]
+      },
+      {
+        "term": "Sore Throat",
+        "organSystem": "General disorders",
+        "assessmentType": "SYSTEMATIC_ASSESSMENT",
+        "stats": [
+          {
+            "groupId": "EG000",
+            "numEvents": 1,
+            "numAffected": 1,
+            "numAtRisk": 9
+          },
+          {
+            "groupId": "EG001",
+            "numEvents": 0,
+            "numAffected": 0,
+            "numAtRisk": 10
+          }
+        ]
+      }
+    ]
+  },
+  "documentSection": {
+    "largeDocumentModule": {
+      "largeDocs": [
+        {
+          "typeAbbrev": "Prot_SAP",
+          "hasProtocol": true,
+          "hasSap": true,
+          "hasIcf": false,
+          "label": "Study Protocol and Statistical Analysis Plan",
+          "date": "2016-10-24",
+          "uploadDate": "2019-03-10T21:53",
+          "filename": "Prot_SAP_000.pdf",
+          "size": 238999
+        }
+      ]
+    }
+  },
+  "retrieved_on": "2026-11-06",
+  "retrieval_time_precision": "date"
+}

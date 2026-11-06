@@ -1,0 +1,16 @@
+{
+  "checked_at_utc": "2026-11-06T03:04:25.875826+00:00",
+  "feed_sha256": "77e11ee7e606051a151242e5678572b95abf17702e9c49a59ec34643ffb894c4",
+  "scan_consistency_checks_passed": 50,
+  "integration_checks_passed": 65,
+  "actual_renderer_validator_checks_passed": 8,
+  "journal_syntax": "passed",
+  "journal_build": "passed",
+  "wrangler_deployment_dry_run": "passed",
+  "git_diff_check": "passed",
+  "dependency_install": "Succeeded with temporary cache after default cache path was unavailable. No dependency changes.",
+  "limits": [
+    "No new rendered/mobile/zoom/keyboard/narration test",
+    "Not clinical validation"
+  ]
+}

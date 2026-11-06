@@ -1,0 +1,39 @@
+{
+  "date": "2026-11-06",
+  "method": "Separate primary PDF text, protocol/SAP text and current official registry retrieval checked against the prepared audit. Original extractor visually inspected the reported tables; this review checked extracted text.",
+  "checks": [
+    "Published targeted-tic group-by-time F=13.83, p=.002",
+    "Published all-bothersome group-by-time p=.07",
+    "Adjusted means match Table 3; no untrained-tic estimate reconstructed",
+    "One-week post-treatment visit and continued HRT practice described",
+    "Paper says direct observation protocols not included",
+    "Protocol includes Visit-3 global/video measures and learning task",
+    "Protocol distinguishes expected HRT distress from reportable adverse events",
+    "Protocol specifies three assessment visits versus published two-time-point model",
+    "Current follow-up registry WITHDRAWN, actual enrollment 0, no posted results"
+  ],
+  "sources": [
+    {
+      "source_url": "https://escholarship.org/content/qt9t62m87q/qt9t62m87q.pdf",
+      "retrieved_at_utc": "2026-11-06T02:58:18.805087+00:00",
+      "bytes": 596377,
+      "sha256": "4c1017dbd1680e1df0e6ffc0daadcf854935e9c2789fc95614c992d33dbdf19f",
+      "fulltext_republished": false
+    },
+    {
+      "source_url": "https://cdn.clinicaltrials.gov/large-docs/15/NCT02582515/Prot_SAP_000.pdf",
+      "retrieved_at_utc": "2026-11-06T02:58:33.913042+00:00",
+      "bytes": 238999,
+      "sha256": "fb700aed90d2f9fbecb85b0f209f7d7dc71fa2850891290804ebac657f96b954",
+      "fulltext_republished": false
+    },
+    {
+      "source_url": "https://clinicaltrials.gov/api/v2/studies/NCT04357951",
+      "retrieved_at_utc": "2026-11-06T02:58:38.028990+00:00",
+      "bytes": 10758,
+      "sha256": "c0b78340956fe7004d2dc0533ac241df55801ea42acd0841cc4b33a78cc4db05",
+      "fulltext_republished": false
+    }
+  ],
+  "scope": "Source consistency review, not clinical peer review; no new treatment or participant-level analysis."
+}

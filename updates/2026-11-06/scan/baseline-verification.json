@@ -1,0 +1,71 @@
+{
+  "verified_main": "cd78cc307253a3c38ee3b846849150721ea19264",
+  "method": "GitHub connector main ref and recursive tree; local git hash-object comparisons all equal.",
+  "verified_interval_utc": "2026-11-06T02:51:25Z/2026-11-06T02:53:51Z",
+  "files": [
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4c3bafbd09ca4073d183cef267c746afa09147bf",
+      "size": 6425,
+      "url": "https://api.github.com/repos/dotjade/project-neurofreedom/git/blobs/4c3bafbd09ca4073d183cef267c746afa09147bf"
+    },
+    {
+      "path": "RESEARCH_PROTOCOL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d69c21b73447f7ad9df0a3949b7fcaf57dd5ddde",
+      "size": 10123,
+      "url": "https://api.github.com/repos/dotjade/project-neurofreedom/git/blobs/d69c21b73447f7ad9df0a3949b7fcaf57dd5ddde"
+    },
+    {
+      "path": "STATUS.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eb10a25c1eb17beae8f865dbc73799af96c42b3e",
+      "size": 126712,
+      "url": "https://api.github.com/repos/dotjade/project-neurofreedom/git/blobs/eb10a25c1eb17beae8f865dbc73799af96c42b3e"
+    },
+    {
+      "path": "public/journal-source/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b4b9c74518021f693122e959291dd3871d562215",
+      "size": 8448,
+      "url": "https://api.github.com/repos/dotjade/project-neurofreedom/git/blobs/b4b9c74518021f693122e959291dd3871d562215"
+    },
+    {
+      "path": "updates/2026-11-05/scan/pubmed-screening.jsonl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "30d676f022e5be8248a2b50219949d972c797ace",
+      "size": 35863,
+      "url": "https://api.github.com/repos/dotjade/project-neurofreedom/git/blobs/30d676f022e5be8248a2b50219949d972c797ace"
+    },
+    {
+      "path": "updates/2026-11-05/scan/registry-evidence.jsonl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "60d3fe663de4ac27f62a1b6395a598463aede217",
+      "size": 9291,
+      "url": "https://api.github.com/repos/dotjade/project-neurofreedom/git/blobs/60d3fe663de4ac27f62a1b6395a598463aede217"
+    },
+    {
+      "path": "updates/2026-11-05/scan/scan_sources.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "94a913aa8add7f5c5a8f5c4139727fbbe5277a8c",
+      "size": 9662,
+      "url": "https://api.github.com/repos/dotjade/project-neurofreedom/git/blobs/94a913aa8add7f5c5a8f5c4139727fbbe5277a8c"
+    },
+    {
+      "path": "updates/2026-11-05/scan/search-log.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0209941c2c41bfbceabf5d662616fbe981fb3b73",
+      "size": 273991,
+      "url": "https://api.github.com/repos/dotjade/project-neurofreedom/git/blobs/0209941c2c41bfbceabf5d662616fbe981fb3b73"
+    }
+  ]
+}

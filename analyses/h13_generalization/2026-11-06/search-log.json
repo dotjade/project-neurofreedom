@@ -1,0 +1,83 @@
+{
+  "date": "2026-11-06",
+  "scope": "Bounded historical H13 endpoint/protocol/replication audit, not exhaustive review or new-window surveillance",
+  "web_queries": [
+    {
+      "query": "\"McGuire\" \"2020\" \"d-cycloserine\" PMC",
+      "date_limits": "None",
+      "filters": "None beyond query text",
+      "purpose": "Locate primary reports, correction notices, later direct trials or harms text; generic unrelated search returns excluded"
+    },
+    {
+      "query": "\"s41386-020-0762-4\" correction erratum retraction",
+      "date_limits": "None",
+      "filters": "None beyond query text",
+      "purpose": "Locate primary reports, correction notices, later direct trials or harms text; generic unrelated search returns excluded"
+    },
+    {
+      "query": "\"The NMDA receptor partial agonist d-cycloserine does not enhance motor learning\" 2016",
+      "date_limits": "None",
+      "filters": "None beyond query text",
+      "purpose": "Locate primary reports, correction notices, later direct trials or harms text; generic unrelated search returns excluded"
+    },
+    {
+      "query": "\"D-cycloserine\" \"Tourette\" trial 2021 2022 2023 2024 2025 2026",
+      "date_limits": "None",
+      "filters": "None beyond query text",
+      "purpose": "Locate primary reports, correction notices, later direct trials or harms text; generic unrelated search returns excluded"
+    },
+    {
+      "query": "site:pmc.ncbi.nlm.nih.gov/articles/PMC4454293 \"adverse\"",
+      "date_limits": "None",
+      "filters": "None beyond query text",
+      "purpose": "Locate primary reports, correction notices, later direct trials or harms text; generic unrelated search returns excluded"
+    },
+    {
+      "query": "site:pmc.ncbi.nlm.nih.gov/articles/PMC4454293 \"Results\" \"withdraw\"",
+      "date_limits": "None",
+      "filters": "None beyond query text",
+      "purpose": "Locate primary reports, correction notices, later direct trials or harms text; generic unrelated search returns excluded"
+    },
+    {
+      "query": "\"The NMDA receptor partial agonist\" \"healthy\" \"54\"",
+      "date_limits": "None",
+      "filters": "None beyond query text",
+      "purpose": "Locate primary reports, correction notices, later direct trials or harms text; generic unrelated search returns excluded"
+    }
+  ],
+  "sources_screened_in_depth": [
+    "McGuire 2020 final PDF",
+    "NCT02582515 official current JSON",
+    "NCT02582515 protocol/SAP updated 2016-10-24",
+    "NCT04357951 current official JSON",
+    "Lemmon 2015 primary abstract/methods excerpts",
+    "Storch 2016 primary full HTML",
+    "Gunthner 2016 official institutional primary abstract"
+  ],
+  "coverage_limits": [
+    "Nature identity redirect inaccessible",
+    "PMC intermittent captcha/loading content, no captcha solved",
+    "Europe PMC article inaccessible/fulltext endpoint error",
+    "Oxford ORA returned 403; institutional publication abstract remained accessible",
+    "No full-text paper or figure included in deliverables",
+    "No individual-level data acquired",
+    "No numerical untrained-effect or durability calculation performed"
+  ],
+  "correction_check": {
+    "source": "PubMed efetch XML; exact DOI/title web search",
+    "pmids": [
+      "32653895",
+      "26002052"
+    ],
+    "CommentsCorrections_entries": {
+      "32653895": 0,
+      "26002052": 0
+    },
+    "interpretation": "No linked notice retrieved, not exhaustive correction/retraction clearance"
+  },
+  "visual_verification": [
+    "Final McGuire PDF page 4 (journal p2116): CONSORT counts and analysis methods",
+    "Final McGuire PDF page 5 (journal p2117): Tables 2-3 and harms"
+  ],
+  "raw_fulltext_not_republished": true
+}

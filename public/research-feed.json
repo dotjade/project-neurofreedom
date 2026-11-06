@@ -1,10 +1,17 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-05T02:45:19Z",
-  "lastResearchDate": "2026-11-05",
+  "updatedAt": "2026-11-06T03:03:29Z",
+  "lastResearchDate": "2026-11-06",
   "cadence": "Daily scheduled review; publication follows verified work.",
-  "latestSummary": "No qualifying new clinical evidence was verified. Exact brain-network masks remain unverified; a synthetic calculation shows why the comparison domain must be specified before testing maps.",
+  "latestSummary": "No qualifying new clinical result was verified. A historical youth pilot supports a trained-tic signal at one week; broader outcomes and lasting benefit remain unresolved.",
   "timeline": [
+    {
+      "date": "2026-11-06",
+      "title": "Practiced tics are not the whole picture.",
+      "type": "Historical endpoint/protocol audit and evidence scan",
+      "summary": "A small youth trial found a trained-tic signal at one week. Untrained-tic and lasting benefit remain unverified; a planned follow-up enrolled nobody. The scan found no qualifying new clinical result.",
+      "record": "https://github.com/dotjade/project-neurofreedom/blob/main/updates/2026-11-06/report.md"
+    },
     {
       "date": "2026-11-05",
       "title": "Check what the background changes.",
@@ -165,13 +172,6 @@
       "type": "Historical trial and aggregate analysis",
       "summary": "A behavioral-therapy trial's six-month improvement figure describes returning early responders. Missing follow-ups and planned booster sessions limit claims about lasting benefit for everyone.",
       "record": "https://github.com/dotjade/project-neurofreedom/blob/main/analyses/cbit_maintenance/2026-10-15/report.md"
-    },
-    {
-      "date": "2026-10-14",
-      "title": "Timing changes the conclusion.",
-      "type": "Historical trial and aggregate analysis",
-      "summary": "A 2022 adult online behavior-therapy trial missed its primary endpoint. Later benefits remain exploratory, with tic severity, impairment and quality of life kept separate.",
-      "record": "https://github.com/dotjade/project-neurofreedom/blob/main/analyses/online_tics/2026-10-14/report.md"
     }
   ],
   "findings": [
@@ -181,8 +181,8 @@
       "type": "Primary qualitative study",
       "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10863457/",
       "label": "Isaacs and colleagues, 2024",
-      "checkedAt": "2026-11-02",
-      "linkState": "Direct HTTP 203 access-limited; article content not verified in this pass"
+      "checkedAt": "2026-11-06",
+      "linkState": "Direct HTTP 203 challenge; article content not verified in this pass"
     },
     {
       "title": "Persistence deserves its own attention.",
@@ -190,8 +190,8 @@
       "type": "Primary longitudinal study",
       "url": "https://www.neurology.org/doi/10.1212/01.WNL.0000086370.10186.7C",
       "label": "Pappert and colleagues, 2003",
-      "checkedAt": "2026-11-02",
-      "linkState": "Publisher HTTP 403 bot challenge; lawful institutional primary copy verified"
+      "checkedAt": "2026-11-06",
+      "linkState": "Publisher HTTP 403 challenge; source not established broken in this pass"
     },
     {
       "title": "Shared improvement is not interchangeability.",
@@ -199,8 +199,8 @@
       "type": "Primary adult cohort study",
       "url": "https://link.springer.com/content/pdf/10.1186/s44247-026-00284-7.pdf",
       "label": "Ivanova and colleagues, 2026",
-      "checkedAt": "2026-11-02",
-      "linkState": "Primary PDF retrieved with HTTP 200"
+      "checkedAt": "2026-11-06",
+      "linkState": "Primary PDF retrieved with HTTP 200; DOI identity verified"
     }
   ],
   "activities": [
@@ -266,6 +266,6 @@
     "trend": [],
     "message": "No public ratings are collected yet. There are no votes or trends to show."
   },
-  "activityEditionDate": "2026-11-05",
-  "featuredActivityId": "rest-or-leave"
+  "activityEditionDate": "2026-11-06",
+  "featuredActivityId": "notice-one-thing"
 }

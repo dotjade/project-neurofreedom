@@ -1,0 +1,14 @@
+{
+  "checks": [
+    "Final feed accepted by actual renderer validator",
+    "Rejects future timestamp",
+    "Rejects 25 timeline entries",
+    "Rejects duplicate activity",
+    "Rejects unapproved activity",
+    "Rejects unsafe source URL",
+    "Rejects public em dash",
+    "Rejects unapproved selection"
+  ],
+  "passed": 8,
+  "scope": "Actual feed-validation function only; not rendered accessibility or narration testing."
+}
