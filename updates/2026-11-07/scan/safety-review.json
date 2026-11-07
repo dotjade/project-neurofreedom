@@ -1,0 +1,66 @@
+{
+  "date": "2026-11-07",
+  "previous_safety_cutoff_utc": "2026-11-06T02:54:20Z",
+  "inspection_summary_written_utc": "2026-11-07T03:12:23.946169+00:00",
+  "official_pages": [
+    {
+      "url": "https://www.fda.gov/drugs/drug-safety-and-availability/drug-safety-communications",
+      "finding": "Latest exposed communication remains September 15; no new-window watched-treatment notice located."
+    },
+    {
+      "url": "https://www.fda.gov/medical-devices/medical-device-safety/safety-communications",
+      "finding": "Latest exposed communication remains June 3; no new-window watched-device notice located."
+    },
+    {
+      "url": "https://www.ema.europa.eu/en/news-events/whats-new",
+      "finding": "Ninety date-stamped November 3\u20136 index headings screened; only named-watch match was the historical November 3 Sycrest/asenapine update. No attachments exhaustively checked."
+    },
+    {
+      "url": "https://www.ema.europa.eu/en/human-regulatory-overview/post-authorisation/pharmacovigilance-post-authorisation/signal-management/prac-recommendations-safety-signals",
+      "finding": "Latest displayed signal documents EMA/PRAC/206892/2026 and 206903/2026 first published October 26; not new; PDFs not reread."
+    },
+    {
+      "url": "https://www.ema.europa.eu/en/medicines/human/referrals/flupentixol-melitracen-containing-medicinal-products",
+      "finding": "Deanxit review remains historical October 30 publication. Flupentixol alone explicitly excluded. No new decision located."
+    },
+    {
+      "url": "https://www.gov.uk/drug-safety-update",
+      "finding": "Latest November 5 givinostat notice is outside watch; October 15 antidepressant warning remains historical."
+    },
+    {
+      "url": "https://www.gov.uk/drug-device-alerts",
+      "finding": "Latest November 5 co-amoxiclav dosing-table and tropicamide expiry-label items outside watch. No qualifying new watch warning located."
+    },
+    {
+      "url": "https://www.tga.gov.au/news/safety-updates",
+      "finding": "Latest index entry October 14; no new-window watch notice located."
+    },
+    {
+      "url": "https://www.tga.gov.au/safety/safety-monitoring-and-information/safety-alerts",
+      "finding": "Latest November 5 unapproved-peptide alert outside watch, already known."
+    },
+    {
+      "url": "https://www.tga.gov.au/products/regulations-all-products/about-australian-register-therapeutic-goods-artg/product-information-pi/product-information-safety-updates",
+      "finding": "Search-card date suggested fresh content, but official last-updated date is September 29. Located methylphenidate item approved July 22; not a new safety signal."
+    },
+    {
+      "url": "https://www.swissmedic.ch/swissmedic/en/home/humanarzneimittel/market-surveillance/qualitaetsmaengel-und-chargenrueckrufe/batch-recalls.html",
+      "finding": "Search-surfaced aripiprazole batch 173159 recall dated April 1; risperidone item January 8. Historical, not new-window announcements."
+    },
+    {
+      "url": "https://www.hsa.gov.sg/announcements/recall-of-tetrabenazine-25mg-112-s-sun-italy/",
+      "finding": "Same retail Class 2 recall for tetrabenazine batch DNG1035A, recall date October 27. Historical; no new batch or outcome found."
+    },
+    {
+      "url": "https://www.awmf.org/aktuelles/awmf-aktuell/diagnostik-und-behandlung-primaerer-tic-stoerungen-ticcare",
+      "finding": "TicCare remains October 2026 Anmeldung (registration), not newly issued guideline."
+    }
+  ],
+  "result": "No qualifying new-window official watched-treatment warning or issued tic guideline verified.",
+  "limitations": [
+    "English-heavy bounded review, not all regulators, labels, attachments or device notices.",
+    "Search-card/crawl recency does not establish event date.",
+    "No stable exhaustive search-result denominator claimed.",
+    "No individual adverse-event narratives retained or used to estimate risk."
+  ]
+}

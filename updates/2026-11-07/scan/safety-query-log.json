@@ -1,0 +1,13 @@
+{
+  "date": "2026-11-07",
+  "queries": [
+    "site:fda.gov (aripiprazole OR risperidone OR guanfacine OR NeuroStar OR ecopipam) after:2026-11-05 before:2026-11-08",
+    "site:ema.europa.eu (aripiprazole OR risperidone OR pimozide OR haloperidol OR deutetrabenazine OR Deanxit) after:2026-11-05 before:2026-11-08",
+    "site:gov.uk (Tourette OR guanfacine OR aripiprazole OR botulinum OR antidepressants) after:2026-11-05 before:2026-11-08",
+    "site:tga.gov.au (Tourette OR methylphenidate OR clonidine OR botulinum OR atomoxetine) after:2026-11-05 before:2026-11-08",
+    "(Tourette OR \"tic disorder\") (guideline OR safety OR warning OR recall) after:2026-11-05 before:2026-11-08 -site:reddit.com -inurl:cfmaude",
+    "(ecopipam OR Neupulse OR valbenazine OR tetrabenazine OR topiramate OR tiapride OR nabiximols) (safety OR recall OR warning) after:2026-11-05 before:2026-11-08 -inurl:cfmaude"
+  ],
+  "filters": "Explicit after:2026-11-05 before:2026-11-08; English-heavy; no search-card count claimed.",
+  "first_queries_limitation": "Incidental individual adverse-event snippets were not opened, extracted, or retained; subsequent queries exclude cfmaude."
+}

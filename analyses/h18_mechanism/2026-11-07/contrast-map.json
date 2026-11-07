@@ -1,0 +1,51 @@
+{
+  "scope": "Five focal reports, not five independent randomized cohorts. AI-assisted categorical audit, not clinical peer review.",
+  "contrasts": [
+    {
+      "pmid": "29029679",
+      "contrast_class": "randomized_package_secondary_mediation",
+      "cohort_family": "CBIT-two-trials",
+      "randomized_model_guided_strategy": false,
+      "isolates_single_mechanism": false,
+      "verified_randomized_untrained_tic_transfer_effect": false,
+      "verified_incremental_durable_function": false
+    },
+    {
+      "pmid": "25988365",
+      "contrast_class": "randomized_package_secondary_moderator",
+      "cohort_family": "CBIT-two-trials",
+      "randomized_model_guided_strategy": false,
+      "isolates_single_mechanism": false,
+      "verified_randomized_untrained_tic_transfer_effect": false,
+      "verified_incremental_durable_function": false
+    },
+    {
+      "pmid": "38881244",
+      "contrast_class": "randomized_joint_component_crossover",
+      "cohort_family": "XTics",
+      "randomized_model_guided_strategy": false,
+      "isolates_single_mechanism": false,
+      "verified_randomized_untrained_tic_transfer_effect": false,
+      "verified_incremental_durable_function": false
+    },
+    {
+      "pmid": "38002700",
+      "contrast_class": "nonrandomized_urge_trajectory",
+      "cohort_family": "ERP29",
+      "randomized_model_guided_strategy": false,
+      "isolates_single_mechanism": false,
+      "verified_randomized_untrained_tic_transfer_effect": false,
+      "verified_incremental_durable_function": false
+    },
+    {
+      "pmid": "26763495",
+      "contrast_class": "randomized_package_secondary_substitution",
+      "cohort_family": "CBIT-two-trials",
+      "randomized_model_guided_strategy": false,
+      "isolates_single_mechanism": false,
+      "verified_randomized_untrained_tic_transfer_effect": false,
+      "verified_incremental_durable_function": false
+    }
+  ],
+  "decision": "H18 proposed; no verified matching-strategy benefit in bounded map."
+}

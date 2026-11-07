@@ -1,0 +1,36 @@
+{
+  "main_commit": "fbe540dd2552c07526418b407b1383be0a06a91b",
+  "source": "GitHub connector, default main",
+  "files": [
+    {
+      "path": "README.md",
+      "expected_git_blob_sha": "4c3bafbd09ca4073d183cef267c746afa09147bf",
+      "actual_git_blob_sha": "4c3bafbd09ca4073d183cef267c746afa09147bf",
+      "matches": true
+    },
+    {
+      "path": "RESEARCH_PROTOCOL.md",
+      "expected_git_blob_sha": "d69c21b73447f7ad9df0a3949b7fcaf57dd5ddde",
+      "actual_git_blob_sha": "d69c21b73447f7ad9df0a3949b7fcaf57dd5ddde",
+      "matches": true
+    },
+    {
+      "path": "STATUS.md",
+      "expected_git_blob_sha": "8a53fb60765b56b04631363440b506faec9d0e22",
+      "actual_git_blob_sha": "8a53fb60765b56b04631363440b506faec9d0e22",
+      "matches": true
+    },
+    {
+      "path": "public/journal-source/README.md",
+      "expected_git_blob_sha": "b4b9c74518021f693122e959291dd3871d562215",
+      "actual_git_blob_sha": "b4b9c74518021f693122e959291dd3871d562215",
+      "matches": true
+    },
+    {
+      "path": "updates/2026-11-06/scan/search-log.json",
+      "expected_git_blob_sha": "c59ac0ace842e20f64fc80b23248f4ec35ba4614",
+      "actual_git_blob_sha": "c59ac0ace842e20f64fc80b23248f4ec35ba4614",
+      "matches": true
+    }
+  ]
+}

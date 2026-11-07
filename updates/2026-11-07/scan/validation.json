@@ -1,0 +1,236 @@
+{
+  "checked_utc": "2026-11-07T03:14:34.120594+00:00",
+  "passed": true,
+  "check_count": 57,
+  "checks": [
+    {
+      "check": "All PubMed query IDs accounted",
+      "passed": true
+    },
+    {
+      "check": "22 unique records",
+      "passed": true
+    },
+    {
+      "check": "33 query occurrences",
+      "passed": true
+    },
+    {
+      "check": "Eight query families",
+      "passed": true
+    },
+    {
+      "check": "core_edat full return",
+      "passed": true
+    },
+    {
+      "check": "near_edat full return",
+      "passed": true
+    },
+    {
+      "check": "core_pdat full return",
+      "passed": true
+    },
+    {
+      "check": "core_mdat full return",
+      "passed": true
+    },
+    {
+      "check": "notice_edat full return",
+      "passed": true
+    },
+    {
+      "check": "syn_edat full return",
+      "passed": true
+    },
+    {
+      "check": "syn_pdat full return",
+      "passed": true
+    },
+    {
+      "check": "burden_treatment_edat full return",
+      "passed": true
+    },
+    {
+      "check": "Book included in prior complete scan",
+      "passed": true
+    },
+    {
+      "check": "Four nonoverlap IDs after book correction",
+      "passed": true
+    },
+    {
+      "check": "One qualifying journal paper",
+      "passed": true
+    },
+    {
+      "check": "Not first public disclosure",
+      "passed": true
+    },
+    {
+      "check": "New PMID metadata date",
+      "passed": true
+    },
+    {
+      "check": "biorxiv complete pagination",
+      "passed": true
+    },
+    {
+      "check": "biorxiv totals stable and accounted",
+      "passed": true
+    },
+    {
+      "check": "biorxiv zero matches",
+      "passed": true
+    },
+    {
+      "check": "biorxiv cursor continuity",
+      "passed": true
+    },
+    {
+      "check": "biorxiv date range",
+      "passed": true
+    },
+    {
+      "check": "biorxiv saved TSV rows",
+      "passed": true
+    },
+    {
+      "check": "medrxiv complete pagination",
+      "passed": true
+    },
+    {
+      "check": "medrxiv totals stable and accounted",
+      "passed": true
+    },
+    {
+      "check": "medrxiv zero matches",
+      "passed": true
+    },
+    {
+      "check": "medrxiv cursor continuity",
+      "passed": true
+    },
+    {
+      "check": "medrxiv date range",
+      "passed": true
+    },
+    {
+      "check": "medrxiv saved TSV rows",
+      "passed": true
+    },
+    {
+      "check": "1084 unique preprint versions",
+      "passed": true
+    },
+    {
+      "check": "409 absent from prior index",
+      "passed": true
+    },
+    {
+      "check": "Positive lexical controls",
+      "passed": true
+    },
+    {
+      "check": "Negative lexical controls",
+      "passed": true
+    },
+    {
+      "check": "Two transient failures, 55 successes, 57 requests",
+      "passed": true
+    },
+    {
+      "check": "Recovered https://api.biorxiv.org/details/biorxiv/2026-11-04/2026-11-07/120",
+      "passed": true
+    },
+    {
+      "check": "Recovered https://api.biorxiv.org/details/medrxiv/2026-11-04/2026-11-07/90",
+      "passed": true
+    },
+    {
+      "check": "No worker errors",
+      "passed": true
+    },
+    {
+      "check": "Six registry IDs",
+      "passed": true
+    },
+    {
+      "check": "Five direct watches",
+      "passed": true
+    },
+    {
+      "check": "No unconsumed registry page",
+      "passed": true
+    },
+    {
+      "check": "No posted results",
+      "passed": true
+    },
+    {
+      "check": "One changed watch",
+      "passed": true
+    },
+    {
+      "check": "Only three date changes",
+      "passed": true
+    },
+    {
+      "check": "Clinical registry privacy projection",
+      "passed": true
+    },
+    {
+      "check": "13 official safety sources",
+      "passed": true
+    },
+    {
+      "check": "90 EMA index headlines",
+      "passed": true
+    },
+    {
+      "check": "EMA match only historical asenapine",
+      "passed": true
+    },
+    {
+      "check": "Six safety search queries",
+      "passed": true
+    },
+    {
+      "check": "Primary new record DOI",
+      "passed": true
+    },
+    {
+      "check": "Clip distinction preserved",
+      "passed": true
+    },
+    {
+      "check": "Qwen integer arithmetic",
+      "passed": true
+    },
+    {
+      "check": "DNN discrepancy not repaired",
+      "passed": true
+    },
+    {
+      "check": "Embed-freeze discrepancy not repaired",
+      "passed": true
+    },
+    {
+      "check": "Embed-partial discrepancy not repaired",
+      "passed": true
+    },
+    {
+      "check": "No transient abstract file retained",
+      "passed": true
+    },
+    {
+      "check": "No full text or images retained",
+      "passed": true
+    },
+    {
+      "check": "Baseline required file hashes",
+      "passed": true
+    }
+  ],
+  "limits": "Artifact accounting and arithmetic only; not independent clinical peer review or model replication."
+}

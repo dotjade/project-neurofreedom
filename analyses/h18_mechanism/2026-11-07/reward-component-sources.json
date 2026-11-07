@@ -1,0 +1,104 @@
+{
+  "artifact": "reward-component-audit.md",
+  "scope": "Public aggregate evidence; no treatment advice; no participant files or patient-level rows accessed.",
+  "assembled_at_utc": "2026-11-07T03:11:05Z",
+  "timestamp_note": "Original source checks occurred during this session on 2026-11-07 UTC. Exact per-check timestamps were not retained and are null, not inferred from artifact assembly.",
+  "sources": [
+    {
+      "id": "rotstein2024_final",
+      "title": "Gamified Closed-Loop Intervention Enhances Tic Suppression in Children: A Randomized Trial",
+      "doi": "10.1002/mds.29875",
+      "url": "https://movementdisorders.onlinelibrary.wiley.com/doi/full/10.1002/mds.29875",
+      "version": "Final published article, first published 2024-06-16; Movement Disorders 39(8):1310-1322",
+      "access_status": "Full main text accessible through web tool; abstract, methods, results, tables and discussion inspected.",
+      "checked_on_utc": "2026-11-07",
+      "checked_at_utc": null,
+      "locators": ["Sections 1.1–1.4", "Table 1", "Sections 2.1–2.6", "Table 2", "Sections 3 and 3.1"],
+      "aggregate_denominators": {
+        "advertisement_respondents": 102,
+        "screened": 50,
+        "accepted_for_treatment": 39,
+        "final_cohort": 35,
+        "girls": 12,
+        "age_range_years": [7, 15],
+        "age_mean_sd_years": [10.31, 2.61],
+        "figure_2_caption_n": 36,
+        "external_group_cbit_n": 27,
+        "external_group_educational_intervention_n": 28,
+        "independent_tic_coding_sessions": 7,
+        "ptq_3_month_paired_n": null,
+        "booster_arm_n": null,
+        "stopwatch_erp_arm_n": null
+      },
+      "denominator_caveats": [
+        "Figure 2 caption gives N=36 while final cohort text gives 35; not reconciled here.",
+        "Table 2 says paired PTQ respondents differ between immediate post-protocol and three-month assessments; exact paired follow-up N was not established from inspected main text.",
+        "Model degrees of freedom were not converted into inferred participant counts.",
+        "External group-CBIT and education samples are historical comparison cohorts, not randomized concurrent arms of this trial."
+      ]
+    },
+    {
+      "id": "nct06348511",
+      "url": "https://clinicaltrials.gov/study/NCT06348511",
+      "verified_api_url": "https://clinicaltrials.gov/api/v2/studies/NCT06348511",
+      "access_status": "Human-readable page rendered only a shell in web tool; primary public API successfully read through Python urllib.",
+      "checked_on_utc": "2026-11-07",
+      "checked_at_utc": null,
+      "actual_enrollment": 35,
+      "design": "Randomized crossover; single investigator masking in registry summary.",
+      "dates": {
+        "actual_start": "2022-07-01",
+        "actual_primary_completion": "2022-12-31",
+        "actual_completion": "2022-12-31",
+        "first_submitted": "2024-03-21",
+        "first_submitted_meeting_qc": "2024-03-31",
+        "first_posted": "2024-04-04",
+        "last_update_posted": "2024-04-04"
+      },
+      "registration_timing_interpretation": "ClinicalTrials.gov posting and submission occurred after reported study completion."
+    },
+    {
+      "id": "osf_af74w",
+      "url": "https://osf.io/af74w/",
+      "doi": "10.17605/OSF.IO/AF74W",
+      "verified_api_url": "https://api.osf.io/v2/registrations/af74w/",
+      "access_status": "OSF page inaccessible through web tool; primary registration API successfully read through Python urllib. Public registration metadata only; attached files not opened.",
+      "checked_on_utc": "2026-11-07",
+      "checked_at_utc": null,
+      "registered_at_utc": "2022-12-10T18:01:48.413026",
+      "reported_recruitment_months": ["2022-07", "2022-09"],
+      "planned_sample_n": 37,
+      "reported_accepted_for_treatment_n": 38,
+      "denominator_caveat": "OSF reports 38 accepted, while final paper reports 39; version discrepancy retained without resolution.",
+      "verified_details": [
+        "Randomized test-first versus control-first sequence.",
+        "Separate randomized booster versus treatment-as-usual assignment.",
+        "Clinical assessors and Rush video annotators blinded; participants and live tic coders could not be blinded.",
+        "Analysis plan limited inclusion to participants completing six training sessions.",
+        "Registration was described as prior to analysis; not demonstrably prior to enrollment."
+      ]
+    },
+    {
+      "id": "wiley_supplement",
+      "url": "https://movementdisorders.onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1002%2Fmds.29875&file=mds29875-sup-0001-Supinfo.docx",
+      "access_status": "HTTP 403 through web retrieval and Python urllib; not inspected or saved.",
+      "checked_on_utc": "2026-11-07",
+      "checked_at_utc": null,
+      "unverified_details": ["Supplement-specific adverse-event information", "Detailed allocation implementation", "Some outcome-specific denominators"]
+    },
+    {
+      "id": "rotstein2024_preprint",
+      "doi": "10.1101/2024.04.17.24303913",
+      "url": "https://www.medrxiv.org/content/10.1101/2024.04.17.24303913v2.full",
+      "access_status": "Search excerpts seen; direct full-text retrieval returned HTTP 403. Not used in place of accessible final article.",
+      "checked_on_utc": "2026-11-07",
+      "checked_at_utc": null
+    }
+  ],
+  "precision_and_safety_notes": [
+    "Reported plus/minus outcome quantities are standard deviations, not confidence intervals.",
+    "No contrast confidence intervals were identified in inspected main-text reporting.",
+    "No systematic adverse-event accounting was located in inspected main text; this is not evidence of absence of harms.",
+    "No raw full text, supplementary document, or participant data is stored with these artifacts."
+  ]
+}

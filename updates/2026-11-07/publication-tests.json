@@ -1,0 +1,18 @@
+{
+  "checked_at_utc": "2026-11-07T03:25:26.412087+00:00",
+  "feed_sha256": "37cd6341994e9bcb2403c550d2fa8f5bd3cad8c5cf9e8be04efd4b8682763fdb",
+  "scan_consistency_checks_passed": 57,
+  "h18_consistency_checks_passed": 56,
+  "independent_scan_arithmetic_checks_passed": 10,
+  "integration_checks_passed": 101,
+  "actual_renderer_validator_checks_passed": 8,
+  "journal_syntax": "passed",
+  "journal_build": "passed",
+  "wrangler_deployment_dry_run": "passed",
+  "git_diff_check": "passed",
+  "dependency_install": "Succeeded with temporary cache. Wrangler dry-run used writable temporary config/log paths. No dependency changes.",
+  "limits": [
+    "No new rendered/mobile/zoom/keyboard/narration test",
+    "Not clinical validation"
+  ]
+}

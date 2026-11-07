@@ -1,0 +1,38 @@
+{
+  "source": "https://ai.jmir.org/2026/1/e98782",
+  "source_location": "Table 2 and its common-n=55 footnote",
+  "method": "Exhaustive integer numerator enumeration using published n; ordinary nearest-tenth rounding. Exact ratios also retained.",
+  "reported_49_of_55": "49/55",
+  "rows": {
+    "DNN": {
+      "reported_percent": 74.1,
+      "compatible_correct_counts_n55": [],
+      "compatible_correct_counts_n54": [
+        40
+      ]
+    },
+    "Embed-freeze": {
+      "reported_percent": 75.9,
+      "compatible_correct_counts_n55": [],
+      "compatible_correct_counts_n54": [
+        41
+      ]
+    },
+    "Embed-partial": {
+      "reported_percent": 79.6,
+      "compatible_correct_counts_n55": [],
+      "compatible_correct_counts_n54": [
+        43
+      ]
+    },
+    "Qwen3-VL": {
+      "reported_percent": 89.1,
+      "compatible_correct_counts_n55": [
+        49
+      ],
+      "compatible_correct_counts_n54": []
+    }
+  },
+  "interpretation": "The three baseline accuracies do not map to any integer numerator over the stated 55 test clips at one-decimal rounding. They are compatible with 40, 41, and 43 correct out of 54. This is a consistency flag, not proof that n=54 was actually used. No predictions, missing clip, or corrected significance estimate was invented.",
+  "clinical_validation": false
+}

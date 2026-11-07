@@ -1,0 +1,231 @@
+{
+  "scope": "Artifact consistency and exact quoted aggregate fields, not independent source/clinical review. No computed clinical effects.",
+  "passed": true,
+  "check_count": 56,
+  "checks": [
+    {
+      "check": "nine_evidence_records",
+      "passed": true
+    },
+    {
+      "check": "stable_ids_unique",
+      "passed": true
+    },
+    {
+      "check": "pmid:29029679_source",
+      "passed": true
+    },
+    {
+      "check": "pmid:29029679_date",
+      "passed": true
+    },
+    {
+      "check": "pmid:29029679_no_participant_data",
+      "passed": true
+    },
+    {
+      "check": "pmid:25988365_source",
+      "passed": true
+    },
+    {
+      "check": "pmid:25988365_date",
+      "passed": true
+    },
+    {
+      "check": "pmid:25988365_no_participant_data",
+      "passed": true
+    },
+    {
+      "check": "pmid:38881244_source",
+      "passed": true
+    },
+    {
+      "check": "pmid:38881244_date",
+      "passed": true
+    },
+    {
+      "check": "pmid:38881244_no_participant_data",
+      "passed": true
+    },
+    {
+      "check": "pmid:38002700_source",
+      "passed": true
+    },
+    {
+      "check": "pmid:38002700_date",
+      "passed": true
+    },
+    {
+      "check": "pmid:38002700_no_participant_data",
+      "passed": true
+    },
+    {
+      "check": "pmid:26763495_source",
+      "passed": true
+    },
+    {
+      "check": "pmid:26763495_date",
+      "passed": true
+    },
+    {
+      "check": "pmid:26763495_no_participant_data",
+      "passed": true
+    },
+    {
+      "check": "pmid:18285507_source",
+      "passed": true
+    },
+    {
+      "check": "pmid:18285507_date",
+      "passed": true
+    },
+    {
+      "check": "pmid:18285507_no_participant_data",
+      "passed": true
+    },
+    {
+      "check": "pmid:15033497_source",
+      "passed": true
+    },
+    {
+      "check": "pmid:15033497_date",
+      "passed": true
+    },
+    {
+      "check": "pmid:15033497_no_participant_data",
+      "passed": true
+    },
+    {
+      "check": "pmid:8995831_source",
+      "passed": true
+    },
+    {
+      "check": "pmid:8995831_date",
+      "passed": true
+    },
+    {
+      "check": "pmid:8995831_no_participant_data",
+      "passed": true
+    },
+    {
+      "check": "nct:NCT06825520_source",
+      "passed": true
+    },
+    {
+      "check": "nct:NCT06825520_date",
+      "passed": true
+    },
+    {
+      "check": "nct:NCT06825520_no_participant_data",
+      "passed": true
+    },
+    {
+      "check": "29029679_shared_cohort_label",
+      "passed": true
+    },
+    {
+      "check": "25988365_shared_cohort_label",
+      "passed": true
+    },
+    {
+      "check": "26763495_shared_cohort_label",
+      "passed": true
+    },
+    {
+      "check": "bootstrap_95ci_youth_contains_zero",
+      "passed": true
+    },
+    {
+      "check": "bootstrap_95ci_older_contains_zero",
+      "passed": true
+    },
+    {
+      "check": "mcguire_denominators_retained",
+      "passed": true
+    },
+    {
+      "check": "rotstein_endpoint_separation",
+      "passed": true
+    },
+    {
+      "check": "rotstein_no_invented_ci",
+      "passed": true
+    },
+    {
+      "check": "registry_no_result",
+      "passed": true
+    },
+    {
+      "check": "registry_stale_date_visible",
+      "passed": true
+    },
+    {
+      "check": "five_focal_reports",
+      "passed": true
+    },
+    {
+      "check": "no_verified_matching_strategy",
+      "passed": true
+    },
+    {
+      "check": "no_verified_durable_function",
+      "passed": true
+    },
+    {
+      "check": "report_does_not_claim_equivalence",
+      "passed": true
+    },
+    {
+      "check": "audit_label_honest",
+      "passed": true
+    },
+    {
+      "check": "woods_date_precision",
+      "passed": true
+    },
+    {
+      "check": "verdellen_dates_month_precision",
+      "passed": true
+    },
+    {
+      "check": "mcguire_source_p_preserved",
+      "passed": true
+    },
+    {
+      "check": "mcguire_recomputed_p_flagged",
+      "passed": true
+    },
+    {
+      "check": "mcguire_cluster_limit_explicit",
+      "passed": true
+    },
+    {
+      "check": "erp_visit_scope",
+      "passed": true
+    },
+    {
+      "check": "erp_absolute_fit_visible",
+      "passed": true
+    },
+    {
+      "check": "peterson_bothersome_window",
+      "passed": true
+    },
+    {
+      "check": "statistic_check_available",
+      "passed": true
+    },
+    {
+      "check": "metadata_ten_records",
+      "passed": true
+    },
+    {
+      "check": "reward_provenance_exists",
+      "passed": true
+    },
+    {
+      "check": "no_full_papers_or_participant_files",
+      "passed": true
+    }
+  ]
+}

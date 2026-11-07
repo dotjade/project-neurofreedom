@@ -1,0 +1,13 @@
+{
+  "url": "https://www.ema.europa.eu/en/news-events/whats-new",
+  "started_utc": "2026-11-07T03:11:46.552387+00:00",
+  "completed_utc": "2026-11-07T03:11:52.483528+00:00",
+  "status": 200,
+  "sha256": "1b23f64e018cfc8970b9860a69756bb3575199835b6a7cb50763d0a1ef7830af",
+  "date_stamped_rows": 90,
+  "watch_regex": "aripiprazole|risperidone|pimozide|haloperidol|deutetrabenazine|Deanxit|tetrabenazine|topiramate|tiapride|guanfacine|clonidine|botulinum|ecopipam|Neupulse|Tourette|valbenazine|methylphenidate|atomoxetine|asenapine",
+  "matched_headings": [
+    "03/11/2026 Medicine : Sycrest asenapine Updated"
+  ],
+  "limits": "Headline screen only; no attachments, labels or unlisted pages; no complete absence claim."
+}

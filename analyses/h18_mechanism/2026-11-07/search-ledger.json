@@ -1,0 +1,70 @@
+{
+  "search_date_utc": "2026-11-07",
+  "exact_per_query_timestamps": null,
+  "timestamp_limit": "Individual web query timestamps were not retained; do not infer from artifact assembly.",
+  "database": "Web discovery plus EuropePMC primary bibliographic/abstract verification; public NCBI BioC and primary publisher/registries for source inspection",
+  "date_filters": "None; historical mechanism map, not new-publication scan",
+  "queries": [
+    "Tourette behavioral therapy mechanism randomized habit reversal awareness competing response component premonitory urge habituation trial",
+    "Tourette CBIT mechanism generalization randomized untrained tics component habit reversal",
+    "Tourette randomized exposure response prevention habit reversal Verdellen 2004 43",
+    "tic disorders randomized competing response awareness training dismantling generalization targeted untargeted tics Woods 2003 2006",
+    "\"Tourette\" \"component\" \"randomized\" behavior therapy 2024 2025 2026",
+    "\"tic\" \"generalization\" \"competing response\" trial",
+    "\"tic\" \"randomized\" \"component analysis\"",
+    "\"tic\" \"competing response\" \"awareness training\" \"component\" trial",
+    "\"tic\" \"generalization\" \"randomized\" suppression",
+    "\"tic\" \"symptom substitution\" \"2014\"",
+    "\"Investigating Habituation\" \"Houghton\" pdf",
+    "\"Investigating Habituation\" \"mediat\" \"urge\"",
+    "\"Gamified Closed-Loop\" \"generalization\"",
+    "\"tic suppression\" \"generalization\" reward randomized",
+    "\"Gamified Closed-Loop Intervention\" tic suppression results control N 2024",
+    "\"Exposure with response prevention versus habit reversal\" pdf 43 2004",
+    "\"A Test of the Behavioral Model\" Wellen pdf",
+    "\"10.1016/j.beth.2017.08.004\" correction OR retraction",
+    "\"10.1016/j.brat.2015.05.006\" correction OR retraction",
+    "\"10.3390/jcm12227087\" correction OR retraction",
+    "\"10.1002/mds.29875\" correction OR retraction"
+  ],
+  "screening": {
+    "unique_primary_article_identifiers_metadata_checked": 10,
+    "focal_full_text_reports": 5,
+    "abstract_only_context_reports": 3,
+    "auxiliary_cohort_design_abstract": 1,
+    "partial_access_mechanistic_lead_not_quantitatively_included": 1,
+    "new_registry_lead": 1,
+    "screened_ids": [
+      "38881244",
+      "38002700",
+      "38670665",
+      "26763495",
+      "29325470",
+      "29029679",
+      "25988365",
+      "18285507",
+      "15033497",
+      "8995831"
+    ],
+    "focal_pmids": [
+      "29029679",
+      "25988365",
+      "38881244",
+      "38002700",
+      "26763495"
+    ],
+    "abstract_context_pmids": [
+      "18285507",
+      "15033497",
+      "8995831"
+    ],
+    "cohort_link_pmid": "29325470",
+    "partial_access_lead_pmid": "38670665"
+  },
+  "exclusions": "Review/guideline pages used for discovery only. Package delivery comparisons, prediction-only and already completed adult CBIT maintenance/function audits not repeated. No complete web-result universe or exhaustive systematic coverage count asserted. Wellen abstract/indexed introduction supports a lead, but full methods not verified so no extra quantitative mechanism row.",
+  "coverage_limits": [
+    "English-heavy targeted queries; no exhaustive Embase/PsycINFO or Chinese-language search.",
+    "Multiple reports from same cohort retained as distinct estimands, never pooled as independent participants.",
+    "No investigator contact, participant data, code/data repository download or intervention."
+  ]
+}
