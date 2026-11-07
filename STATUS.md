@@ -771,3 +771,12 @@ Close the fixed H18 source map pending genuinely new component/transfer results 
 ### Public journal
 
 The feed distinguishes new measurement publication from historical causal-contrast work. Six activities remain unchanged; music-or-silence is selected, and collection remains off. The [link ledger](public/link-checks/2026-11-07.json) records 38 retrievable and eight limited-access baseline URLs, with no confirmed broken source. Exact remote, CI and production checks follow publication. No fresh rendered accessibility or narration test is claimed.
+
+
+### Publication verification - 7 November 2026
+
+Research commit [57e182da2dce7a5bf97c08c0ff3b4e421297db18](https://github.com/dotjade/project-neurofreedom/commit/57e182da2dce7a5bf97c08c0ff3b4e421297db18) contains 58 authored files verified byte-for-byte, preserving 1,480 unrelated existing paths with no unexpected paths. Connector and anonymous raw feed readback match the authored edition.
+
+[Actions run 42334490276](https://github.com/dotjade/project-neurofreedom/actions/runs/42334490276) completed successfully for that exact research commit, including validation, deployment dry-run, publication and public-route checks. After the 120-second cache interval, production readback at 03:35:02 UTC returned HTTP 200, repository source and exact bytes with updatedAt 2026-11-07T03:17:31Z. Both new report links returned HTTP 200 with expected paths. The [receipt](updates/2026-11-07/publication-verification.json) records actual checks and limitations.
+
+Six approved activities remain unchanged, music-or-silence is selected, and collection remains off. No fresh rendered accessibility or narration test is claimed. The research manifest covers the snapshot before this receipt and final status/link-verification additions. This verification-only follow-up changes no feed, deployment input or scientific result.

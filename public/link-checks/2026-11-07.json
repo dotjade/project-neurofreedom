@@ -854,5 +854,32 @@
         "verifiedAt": null
       }
     }
-  ]
+  ],
+  "postPublicationChecks": {
+    "researchCommit": "57e182da2dce7a5bf97c08c0ff3b4e421297db18",
+    "checkedAt": "2026-11-07T03:35:02.537130+00:00",
+    "checks": [
+      {
+        "kind": "daily",
+        "url": "https://github.com/dotjade/project-neurofreedom/blob/main/updates/2026-11-07/report.md",
+        "checked_at_utc": "2026-11-07T03:35:02.537742+00:00",
+        "http_status": 200,
+        "curl_exit": 0,
+        "bytes": 207715,
+        "document_title": "project-neurofreedom/updates/2026-11-07/report.md at main \u00b7 dotjade/project-neurofreedom \u00b7 GitHub",
+        "path_confirmed": true
+      },
+      {
+        "kind": "audit",
+        "url": "https://github.com/dotjade/project-neurofreedom/blob/main/analyses/h18_mechanism/2026-11-07/report.md",
+        "checked_at_utc": "2026-11-07T03:35:02.538195+00:00",
+        "http_status": 200,
+        "curl_exit": 0,
+        "bytes": 253395,
+        "document_title": "project-neurofreedom/analyses/h18_mechanism/2026-11-07/report.md at main \u00b7 dotjade/project-neurofreedom \u00b7 GitHub",
+        "path_confirmed": true
+      }
+    ],
+    "feedAndDeploymentVerification": "../../updates/2026-11-07/publication-verification.json"
+  }
 }
