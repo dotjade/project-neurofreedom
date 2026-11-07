@@ -1,0 +1,81 @@
+{
+  "date": "2026-11-07",
+  "public_full_text_retained": false,
+  "review_followup": "ERP primary XML reread after review verified12 weekly visits (2 training+10 measured), piecewise RMSEA.26 and chi-square61.56(df21), and author-declared conflicts/current-employer noninvolvement. Full text remained transient.",
+  "sources": [
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC5679290/unicode",
+      "status": "200 XML; main manuscript methods/results/discussion inspected transiently",
+      "bytes": 103905
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC4449823/unicode",
+      "status": "200 XML; selected methods/results/limitations inspected transiently",
+      "bytes": 166607
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC5758863/unicode",
+      "status": "200 XML; selected methods/results inspected transiently",
+      "bytes": 119175
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10672020/fullTextXML",
+      "status": "200 full text; selected aggregate sections inspected transiently",
+      "bytes": 120385
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5679290/fullTextXML",
+      "status": "HTTP500; no usable full text from this route"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12104584/fullTextXML",
+      "status": "HTTP500; no usable full text"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC12104584/unicode",
+      "status": "Non-XML/unusable response; indexed introduction and abstract only"
+    },
+    {
+      "url": "https://epublications.marquette.edu/cgi/viewcontent.cgi?article=1293&context=psych_fac",
+      "status": "403; institutional abstract page accessible"
+    },
+    {
+      "url": "https://escholarship.org/uc/item/6jz808mv",
+      "status": "JavaScript access challenge, no successful full text here"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5679290/",
+      "status": "Web challenge; standard HTTP203 challenge response, not substantive full text"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12104584/",
+      "status": "Initially indexed full introduction available; later requests challenge/HTTP203; full methods not verified"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC4449823/unicode",
+      "status": "Later attempted methods reread returned HTTP 429; not retried after rate limit"
+    },
+    {
+      "url": "https://movementdisorders.onlinelibrary.wiley.com/doi/full/10.1002/mds.29875",
+      "status": "Initial HTTP403; final full text subsequently inspected through web index. See reward-component-sources.json."
+    }
+  ],
+  "repository_baseline": {
+    "repository": "dotjade/project-neurofreedom",
+    "commit": "fbe540dd2552c07526418b407b1383be0a06a91b",
+    "read_paths": [
+      "README.md",
+      "RESEARCH_PROTOCOL.md",
+      "STATUS.md",
+      "public/journal-source/README.md",
+      "hypotheses.md",
+      "evidence.jsonl",
+      "GAMING_EVIDENCE.md",
+      "updates/2026-11-01-monthly/portfolio.json",
+      "analyses/cbit_maintenance/2026-10-15/report.md",
+      "analyses/cbit_functioning/2026-10-16/report.md",
+      "analyses/h13_generalization/2026-11-06/report.md"
+    ]
+  },
+  "integrity": "Four exact-DOI correction/retraction searches found no verified notice in returned results; incomplete coverage, no clearance assertion."
+}

@@ -1,0 +1,120 @@
+{
+  "checked_at": "2026-11-07T03:10:38.539488+00:00",
+  "source_url": "https://clinicaltrials.gov/api/v2/studies/NCT06825520",
+  "http_status": 200,
+  "sha256": "1f5b3ed0de57f6b87270f76ff2e1b39bd7e5e618df6114d9bcd5cccd707d4c24",
+  "has_results": false,
+  "selected_protocol_fields": {
+    "identificationModule": {
+      "nctId": "NCT06825520",
+      "orgStudyIdInfo": {
+        "id": "00183697"
+      },
+      "organization": {
+        "fullName": "University of Utah",
+        "class": "OTHER"
+      },
+      "briefTitle": "Investigating Changes in Premonitory Urges During Habit Reversal Training for Tics",
+      "officialTitle": "Investigating Changes in Premonitory Urges During Habit Reversal Training"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-05",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2025-02-11",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2025-07",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2026-05",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2025-02-05",
+      "studyFirstSubmitQcDate": "2025-02-11",
+      "studyFirstPostDateStruct": {
+        "date": "2025-02-13",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-05-21",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-05-28",
+        "type": "ACTUAL"
+      }
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "NA",
+        "interventionModel": "SINGLE_GROUP",
+        "primaryPurpose": "BASIC_SCIENCE",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 6,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "HRT",
+          "type": "EXPERIMENTAL",
+          "description": "Participants will receive 3 therapist-guided sessions of habit reversal training (1 hour each) for 3 separate identified tics. Participant will also participate in 5 practice sessions per week (approximately 30 minutes sessions each; over the course of 3 weeks) in which participants will practice the skills learned in session with a study team member)",
+          "interventionNames": [
+            "Behavioral: Habit Reversal Training"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "BEHAVIORAL",
+          "name": "Habit Reversal Training",
+          "description": "Participants learn to identify when their tics occur and then learn a competing response to engage in instead of the 3 identified tics and then practice competing responses learned in session during the practice sessions throughout the week.",
+          "armGroupLabels": [
+            "HRT"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Premonitory Urge (PU) Severity as measured by the urge thermometer",
+          "description": "Premonitory urge (PU) severity is an subjective measure of PU ratings while participants are implementing their competing response during study treatment sessions or practice sessions. The Urge Thermometer is an adapted version of the \"feelings thermometer\" from the Anxiety Disorders Interview Schedule for DSM-IV. It is a 9-point rating scale, ranging from 0 to 8 with higher scores indicating stronger urge experiences, designed to efficiently collect the patients' subjective rating of the severity/intensity of their urge.",
+          "timeFrame": "PU severity will be measured during a 10 minute baseline observation; approximately 15 minutes or until 5 CR initiations have occurred, whichever is longer during each of the 3 HRT sessions and 15 practice sessions; during the 15 minute post assessment"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Tic Change as measured by tic counts",
+          "description": "Coding for tics will utilize 10-second partial interval coding in which the presence or absence of each target tic is recorded as present or absent in each 10-s interval. Tic rate will be calculated by dividing the number of intervals in which each target tic is present by the total number of intervals and multiplying this number by 100%. Ten-second partial interval coding has been shown to provide a reliable and valid measure of tics over observation periods of 5 minutes or longer (Himle et al., 2006).",
+          "timeFrame": "Tics will be counted during a 10 minute baseline observation; approximately 15 minutes or until 5 CR initiations have occurred, whichever is longer during each of the 3 HRT sessions and 15 practice sessions; during the 15 minute post assessment"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "Participant scores on Treatment Expectancy and Acceptability Questionnaire at baseline",
+          "description": "At the baseline assessment, participants will be asked to rate how much they believe in the treatment on a 5-point scale, and how much they think their tics will improve on a 5-point scale with additional questions from the Credibility/Expectancy Questionnaire (Devilly \\& Borkovec, 2000). Scores can range from 3 to 15. Participants will also be asked to rate treatment acceptability at pre-treatment (including questions about the acceptability, ethicality, effectiveness, and potential negative side effects of the treatment). Questions are rated on a 1 to 7 scale, with lower scores representing more negative impressions and reactions to the proposed treatment. Scores can be totaled ranging from 6 to 42.",
+          "timeFrame": "Given at baseline (first study visit)"
+        },
+        {
+          "measure": "Patient scores on Satisfaction with Therapy and Therapist Scale- Revised (STTS-R) post treatment",
+          "description": "The STTS is a commonly used 13-item self-report measure that assesses patients' satisfaction with their therapist and the treatment that they received. Each item is rated on a 5-point Likert-type scale with higher scores indicating greater overall satisfaction with treatment and the therapist. Scores range from 15 to 65.",
+          "timeFrame": "Given at post assessment (final study visit) approximately 5 weeks from study initiation"
+        }
+      ]
+    }
+  },
+  "participant_data_accessed": false
+}

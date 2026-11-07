@@ -1,0 +1,36 @@
+{
+  "date": "2026-11-07",
+  "queries": [
+    "(Tourette OR \"tic disorder\") (\"November 6, 2026\" OR \"November 7, 2026\" OR \"6 November 2026\") (study OR trial OR preprint)",
+    "(Tourette OR \"tic disorder\") site:clinicaltrials.gov after:2026-11-05 before:2026-11-08",
+    "(Tourette OR \"tic disorder\") (site:medrxiv.org OR site:biorxiv.org OR site:arxiv.org OR site:preprints.jmir.org) after:2026-11-05 before:2026-11-08",
+    "(Tourette OR \"tic disorder\" OR \u30c1\u30c3\u30af) (site:umin.ac.jp OR site:isrctn.com OR site:trialsearch.who.int OR site:chictr.org.cn) after:2026-11-05 before:2026-11-08",
+    "\"s41572-026-00742-6\" correction",
+    "\"98782\" \"preprint\" \"2026\"",
+    "\"Large Vision-Language Models for Pediatric Motor Tic Detection\""
+  ],
+  "findings": [
+    {
+      "url": "https://ai.jmir.org/2026/1/e98782",
+      "result": "Publisher verifies November 6 journal publication and reports April 19 earlier preprint. Full primary methods checked."
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42993949/",
+      "result": "Web-reader open failed; successful official E-utilities XML supplied metadata in search-log.json."
+    },
+    {
+      "url": "https://preprints.jmir.org/preprint/98782",
+      "result": "Web-reader open failed; earlier first-public date is publisher-reported, no version comparison performed."
+    },
+    {
+      "url": "https://www.nature.com/articles/s41572-026-00742-6",
+      "result": "Targeted query returns October 8 primer metadata; prior undated correction lead not resolved. No new-window correction claim."
+    }
+  ],
+  "limitations": [
+    "Supplemental multi-registry query did not verify a new result. It is not a direct exhaustive WHO/UMIN/ISRCTN/ChiCTR search.",
+    "Prior UMIN000063483 protocol/status chronology remains unresolved; not reclassified as verified recruitment.",
+    "Non-English query term does not make coverage language-complete.",
+    "Search result snippets and unlicensed full papers not archived."
+  ]
+}

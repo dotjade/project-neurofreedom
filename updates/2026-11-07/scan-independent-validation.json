@@ -1,0 +1,19 @@
+{
+  "checked_at_utc": "2026-11-07T03:15:11.655986+00:00",
+  "source_manifest_files_exact": 25,
+  "scan_validator_rerun_passed": 57,
+  "independent_arithmetic_checks": 10,
+  "checks": [
+    "exact integer rounding bounds DNN, denominator 54",
+    "exact integer rounding bounds DNN, denominator 55",
+    "exact integer rounding bounds Embed-freeze, denominator 54",
+    "exact integer rounding bounds Embed-freeze, denominator 55",
+    "exact integer rounding bounds Embed-partial, denominator 54",
+    "exact integer rounding bounds Embed-partial, denominator 55",
+    "exact integer rounding bounds Qwen3-VL, denominator 54",
+    "exact integer rounding bounds Qwen3-VL, denominator 55",
+    "reported 49/55 means 24/30 negative clips correctly classified",
+    "new extraction has correct first-public-disclosure limit"
+  ],
+  "scope": "Independent aggregate arithmetic and source bookkeeping. Not source-table peer review or model reproduction."
+}

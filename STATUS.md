@@ -1,6 +1,6 @@
 # Project NeuroFreedom status
 
-Updated 6 November 2026. Initial portfolio, twenty-nine completed daily updates, four completed weekly syntheses and one monthly review. Public evidence repository and journal launched 13 October.
+Updated 7 November 2026. Initial portfolio, thirty completed daily updates, four completed weekly syntheses and one monthly review. Public evidence repository and journal launched 13 October.
 
 ## Completed in this first pass
 
@@ -14,7 +14,7 @@ Updated 6 November 2026. Initial portfolio, twenty-nine completed daily updates,
 
 ## Enabled research schedules
 
-The user approved the following automatic public-science research and repository updates on 8 October 2026. Each schedule was created successfully and returned enabled status. Daily runs were completed on 9-31 October and 1-6 November 2026; weekly syntheses were completed on 11, 18 and 25 October and 1 November; the first monthly review was completed on 1 November; the first quarterly run remains unverified.
+The user approved the following automatic public-science research and repository updates on 8 October 2026. Each schedule was created successfully and returned enabled status. Daily runs were completed on 9-31 October and 1-7 November 2026; weekly syntheses were completed on 11, 18 and 25 October and 1 November; the first monthly review was completed on 1 November; the first quarterly run remains unverified.
 
 - Daily new-evidence checks: from 9 October 2026, approximately 08:00 India time.
 - Weekly synthesis: Sundays, from 11 October 2026, approximately 09:00 India time.
@@ -756,3 +756,18 @@ Research commit [b06bb12a5c870780314e1cce304ff9e77ad4f8c8](https://github.com/do
 [Actions run 42154977588](https://github.com/dotjade/project-neurofreedom/actions/runs/42154977588) completed successfully for that exact research commit. Post-deployment API readback at 03:12:03 UTC returned HTTP 200, repository source and exact bytes with updatedAt 2026-11-06T03:03:29Z. Both new report links returned HTTP 200 with expected paths. The [receipt](updates/2026-11-06/publication-verification.json) records actual checks and the 120-second cache contract.
 
 Six activities remain unchanged, notice-one-thing is selected, and collection remains off. No new rendered accessibility or narration test is claimed. The integration manifest covers the research snapshot before this receipt and final status/link-verification additions. This verification-only follow-up does not change the feed or deployment inputs.
+
+
+## Completed daily research update - 7 November 2026
+
+The [daily report](updates/2026-11-07/report.md) records one new November 6 journal measurement paper with a publisher-reported April preprint. Its pediatric clip-classification signal is not clinical benefit, adult/home validation or first public disclosure. An unresolved comparison-model denominator inconsistency is retained without repairing the source. The bounded scan accounted for 22 PubMed records, 1,084 preprint versions and six registries; no new preprint, posted result or watched-treatment official warning was verified. One registry's changes are administrative.
+
+The [H18 mechanism/generalization audit](analyses/h18_mechanism/2026-11-07/report.md) distinguishes whole-treatment efficacy, urge mediation, treatment moderation, randomized reward manipulation and transfer. Historical trained-suppression and short-observation signals do not validate personalized component selection or durable function. Positive and negative findings, overlapping cohorts, carryover, registration, harms and denominator limits are preserved. Fifty-seven scan, 56 map-consistency and ten independent arithmetic checks pass; the source review's scope and access limits are explicit. These are source/method checks, not clinical validation.
+
+### Next bounded decision
+
+Close the fixed H18 source map pending genuinely new component/transfer results or useful aggregate clarification. Next design a clearly labelled synthetic identifiability test of reduced urge generation versus improved action control, with sparse global measurements, participant-level repeated observations, measurement error and context transfer specified before fitting. It cannot validate an individual's mechanism or treatment rule. Retain the new measurement paper pending clarified reporting and clinically realistic external validation. Severe persistent adult burden, pain, effort and function remain central; no personal videos, contact, intervention or paid resources are needed.
+
+### Public journal
+
+The feed distinguishes new measurement publication from historical causal-contrast work. Six activities remain unchanged; music-or-silence is selected, and collection remains off. The [link ledger](public/link-checks/2026-11-07.json) records 38 retrievable and eight limited-access baseline URLs, with no confirmed broken source. Exact remote, CI and production checks follow publication. No fresh rendered accessibility or narration test is claimed.

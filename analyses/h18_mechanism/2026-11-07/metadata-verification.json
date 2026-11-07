@@ -1,0 +1,183 @@
+{
+  "retrieved_at": "2026-11-07T03:10:35.724705+00:00",
+  "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A18285507+OR+EXT_ID%3A15033497+OR+EXT_ID%3A29325470+OR+EXT_ID%3A8995831+OR+EXT_ID%3A29029679+OR+EXT_ID%3A25988365+OR+EXT_ID%3A38002700+OR+DOI%3A10.1002%2Fmds.29875+OR+EXT_ID%3A38670665+OR+TITLE%3A%22An+Empirical+Examination+of+Symptom+Substitution%22&format=json&resultType=core&pageSize=25",
+  "query": "EXT_ID:18285507 OR EXT_ID:15033497 OR EXT_ID:29325470 OR EXT_ID:8995831 OR EXT_ID:29029679 OR EXT_ID:25988365 OR EXT_ID:38002700 OR DOI:10.1002/mds.29875 OR EXT_ID:38670665 OR TITLE:\"An Empirical Examination of Symptom Substitution\"",
+  "http_status": 200,
+  "response_bytes": 65835,
+  "response_sha256": "b07f260abe649d0cdc598140d6e1bdcc6c3a8fc16b6f4993610d9ee51d1caec0",
+  "hit_count": 10,
+  "scope": "Identifier verification only, not broad retrieval; full source text not retained.",
+  "records": [
+    {
+      "id": "38881244",
+      "pmcid": null,
+      "doi": "10.1002/mds.29875",
+      "title": "Gamified Closed-Loop Intervention Enhances Tic Suppression in Children: A Randomized Trial.",
+      "firstPublicationDate": "2024-06-16",
+      "authorString": "Rotstein MS, Zimmerman-Brenner S, Davidovitch S, Ben-Haim Y, Koryto Y, Sion R, Rubinstein E, Djerassi M, Lubiniaker N, Peleg TP, Steinberg T, Leitner Y, Raz G.",
+      "pubYear": "2024",
+      "commentCorrectionList": null,
+      "pubTypeList": {
+        "pubType": [
+          "Research Support, Non-U.S. Gov't",
+          "Randomized Controlled Trial",
+          "Journal Article"
+        ]
+      }
+    },
+    {
+      "id": "38002700",
+      "pmcid": null,
+      "doi": "10.3390/jcm12227087",
+      "title": "Working Mechanisms of Exposure and Response Prevention in the Treatment of Tourette Syndrome and Tic Disorders Revisited: No Evidence for within-Session Habituation to Premonitory Urges.",
+      "firstPublicationDate": "2023-11-14",
+      "authorString": "van de Griendt JMTM, van den Berg NME, Verdellen CWJ, Cath DC, Verbraak MJPM.",
+      "pubYear": "2023",
+      "commentCorrectionList": null,
+      "pubTypeList": {
+        "pubType": [
+          "Journal Article"
+        ]
+      }
+    },
+    {
+      "id": "38670665",
+      "pmcid": "PMC12104584",
+      "doi": "10.1016/j.beth.2023.08.010",
+      "title": "A Test of the Behavioral Model of Tic Disorders Using a Dynamical Systems Framework.",
+      "firstPublicationDate": "2023-09-04",
+      "authorString": "Wellen BCM, Ramanujam K, Lavelle M, Capriotti MR, Butner J, Euler MJ, Himle MB.",
+      "pubYear": "2024",
+      "commentCorrectionList": null,
+      "pubTypeList": {
+        "pubType": [
+          "research-article",
+          "Journal Article"
+        ]
+      }
+    },
+    {
+      "id": "26763495",
+      "pmcid": "PMC5758863",
+      "doi": "10.1016/j.beth.2015.09.001",
+      "title": "An Empirical Examination of Symptom Substitution Associated With Behavior Therapy for Tourette's Disorder.",
+      "firstPublicationDate": "2015-09-11",
+      "authorString": "Peterson AL, McGuire JF, Wilhelm S, Piacentini J, Woods DW, Walkup JT, Hatch JP, Villarreal R, Scahill L.",
+      "pubYear": "2016",
+      "commentCorrectionList": null,
+      "pubTypeList": {
+        "pubType": [
+          "Clinical Trial",
+          "research-article",
+          "Journal Article",
+          "Research Support, N.I.H., Extramural"
+        ]
+      }
+    },
+    {
+      "id": "29325470",
+      "pmcid": null,
+      "doi": "10.1080/13651501.2017.1418892",
+      "title": "The effect of shorter exposure versus prolonged exposure on treatment outcome in Tourette syndrome and chronic tic disorders - an open trial.",
+      "firstPublicationDate": "2018-01-11",
+      "authorString": "van de Griendt JMTM, van Dijk MK, Verdellen CWJ, Verbraak MJPM.",
+      "pubYear": "2018",
+      "commentCorrectionList": null,
+      "pubTypeList": {
+        "pubType": [
+          "Comparative Study",
+          "Journal Article"
+        ]
+      }
+    },
+    {
+      "id": "29029679",
+      "pmcid": "PMC5679290",
+      "doi": "10.1016/j.beth.2017.08.004",
+      "title": "Investigating Habituation to Premonitory Urges in Behavior Therapy for Tic Disorders.",
+      "firstPublicationDate": "2017-08-10",
+      "authorString": "Houghton DC, Capriotti MR, Scahill LD, Wilhelm S, Peterson AL, Walkup JT, Piacentini J, Woods DW.",
+      "pubYear": "2017",
+      "commentCorrectionList": null,
+      "pubTypeList": {
+        "pubType": [
+          "research-article",
+          "Randomized Controlled Trial",
+          "Journal Article"
+        ]
+      }
+    },
+    {
+      "id": "25988365",
+      "pmcid": "PMC4449823",
+      "doi": "10.1016/j.brat.2015.05.006",
+      "title": "Bothersome tics in patients with chronic tic disorders: Characteristics and individualized treatment response to behavior therapy.",
+      "firstPublicationDate": "2015-05-12",
+      "authorString": "McGuire JF, Piacentini J, Scahill L, Woods DW, Villarreal R, Wilhelm S, Walkup JT, Peterson AL.",
+      "pubYear": "2015",
+      "commentCorrectionList": null,
+      "pubTypeList": {
+        "pubType": [
+          "research-article",
+          "Randomized Controlled Trial",
+          "Journal Article",
+          "Research Support, N.I.H., Extramural"
+        ]
+      }
+    },
+    {
+      "id": "18285507",
+      "pmcid": null,
+      "doi": "10.1177/0145445507309020",
+      "title": "Habituation of premonitory sensations during exposure and response prevention treatment in Tourette's syndrome.",
+      "firstPublicationDate": "2008-03-01",
+      "authorString": "Verdellen CW, Hoogduin CA, Kato BS, Keijsers GP, Cath DC, Hoijtink HB.",
+      "pubYear": "2008",
+      "commentCorrectionList": null,
+      "pubTypeList": {
+        "pubType": [
+          "Journal Article"
+        ]
+      },
+      "audited_publication_precision": "2008-03; exact day unverified"
+    },
+    {
+      "id": "15033497",
+      "pmcid": null,
+      "doi": "10.1016/s0005-7967(03)00154-2",
+      "title": "Exposure with response prevention versus habit reversal in Tourettes's syndrome: a controlled study.",
+      "firstPublicationDate": "2004-05-01",
+      "authorString": "Verdellen CW, Keijsers GP, Cath DC, Hoogduin CA.",
+      "pubYear": "2004",
+      "commentCorrectionList": null,
+      "pubTypeList": {
+        "pubType": [
+          "Clinical Trial",
+          "Multicenter Study",
+          "Randomized Controlled Trial",
+          "Journal Article"
+        ]
+      },
+      "audited_publication_precision": "2004-05; exact day unverified"
+    },
+    {
+      "id": "8995831",
+      "pmcid": "PMC1284005",
+      "doi": "10.1901/jaba.1996.29-483",
+      "title": "Sequential application of major habit-reversal components to treat motor tics in children.",
+      "firstPublicationDate": "1996-01-01",
+      "authorString": "Woods DW, Miltenberger RG, Lumley VA.",
+      "pubYear": "1996",
+      "commentCorrectionList": null,
+      "pubTypeList": {
+        "pubType": [
+          "research-article",
+          "Journal Article",
+          "Case Reports"
+        ]
+      },
+      "audited_publication_precision": "Winter1996; exact day unverified"
+    }
+  ],
+  "date_precision_caveat": "firstPublicationDate fields are the exact API values, not independently verified day precision. Normalized day-one values for Woods1996, Verdellen2004 and Verdellen2008 are not promoted to exact publication days in evidence.jsonl."
+}

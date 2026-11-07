@@ -1,0 +1,90 @@
+{
+  "scope": "Final authored analysis snapshot after source-review corrections and integration review; excludes this manifest. Does not claim clinical validation.",
+  "files": [
+    {
+      "file": "README.md",
+      "bytes": 1586,
+      "sha256": "68c9c798542b51b6807eef026a8f2a0e3dd57027e7b43cbd819321584df25b5e"
+    },
+    {
+      "file": "build_artifacts.py",
+      "bytes": 21944,
+      "sha256": "aaed4ce00fd7ccc040d495d973638cc2fdbe1d1d200c4c336500ba747e47bd4a"
+    },
+    {
+      "file": "check_statistical_consistency.py",
+      "bytes": 828,
+      "sha256": "ae7629daef39b49a965fdf104c069f18277e16a5744030694033922bf092f6ac"
+    },
+    {
+      "file": "contrast-map.json",
+      "bytes": 1998,
+      "sha256": "11626581396f3119fff79e324a311c58782298eee7d32e5ad75b803863bcc734"
+    },
+    {
+      "file": "evidence.jsonl",
+      "bytes": 21899,
+      "sha256": "2a3f42e119d072726349a5cf12088ebe351da4e669d7104b5dbd81f0299d858a"
+    },
+    {
+      "file": "independent-review.md",
+      "bytes": 4559,
+      "sha256": "32a26f1b44c567b15388d2f9b2edcb8f3a63eb0737d15baebb14f9e36398dbdf"
+    },
+    {
+      "file": "metadata-verification.json",
+      "bytes": 7435,
+      "sha256": "9519b382801f9c6f49239f4724507fb134f1ee7bd4babf5d24f4c1417499e2ce"
+    },
+    {
+      "file": "plan.md",
+      "bytes": 2648,
+      "sha256": "8965ffea19b92a04429ef544c47ce55d8903fa988b34e622136ff9d639c99bfa"
+    },
+    {
+      "file": "registry-selected-fields.json",
+      "bytes": 6561,
+      "sha256": "0dc57f2c1292af3ceae58a09be187c02eb5fb578f4f94db8687209b107ad5095"
+    },
+    {
+      "file": "report.md",
+      "bytes": 13795,
+      "sha256": "56d8a0a7cc92282a2fa995a767ec17c2b1fb63c3c20d4ac8480c5b0000a0882e"
+    },
+    {
+      "file": "reward-component-audit.md",
+      "bytes": 4472,
+      "sha256": "232d3212599c6b0edbd9be3e2c1f15614b9f92642766485bce4d776ecaf8274e"
+    },
+    {
+      "file": "reward-component-sources.json",
+      "bytes": 5805,
+      "sha256": "250226ec9a29b8bacaffed06912130a19799c6b3657b6c256729eca4295d1356"
+    },
+    {
+      "file": "search-ledger.json",
+      "bytes": 3507,
+      "sha256": "6d0128d53d6f41a60b8966b19ee8a744112236511ddbc4b20e59e91c29bddc64"
+    },
+    {
+      "file": "source-access.json",
+      "bytes": 3622,
+      "sha256": "7521e0368624e389b26cea97e46815b23b37c89498eb28297bf9fa87a89846f1"
+    },
+    {
+      "file": "statistical-consistency.json",
+      "bytes": 503,
+      "sha256": "0045e5dbf6957a320c3cf6a8978d34e2175e5dd70728794866f81d35495fb15c"
+    },
+    {
+      "file": "validate.py",
+      "bytes": 3862,
+      "sha256": "eff4fdc357e2032e3f8cb85554c34df2f1f4ec65d41cf02f256ea415f6de1fcd"
+    },
+    {
+      "file": "validation.json",
+      "bytes": 4555,
+      "sha256": "bf145f4f9671706993372dc73b5d8dd6f99a2d862ba2e3db662206dac85d1142"
+    }
+  ]
+}

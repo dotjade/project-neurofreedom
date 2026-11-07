@@ -1,0 +1,137 @@
+{
+  "date": "2026-11-07",
+  "repository_modified": false,
+  "reference_commit": "fbe540dd2552c07526418b407b1383be0a06a91b",
+  "copy_contract": "Copy root-level files into updates/2026-11-07/scan. All required replay inputs are root-level. Do not copy inputs/ or __pycache__/. The inputs directory contains verified prior repository context, not a new deliverable. No transient abstract corpus is retained.",
+  "files": [
+    {
+      "path": "baseline-book-metadata.json",
+      "bytes": 1428,
+      "sha256": "7b1c0b7539a4ec9473e493f82df3fbf8472fe5dc03c95b553bc764aae090d0bf"
+    },
+    {
+      "path": "baseline-verification.json",
+      "bytes": 1240,
+      "sha256": "22aaeb61644db1bb8652ee43cc37de9f225b119fb7b0e3de645e22b3e52f9fbd"
+    },
+    {
+      "path": "baseline.json",
+      "bytes": 179990,
+      "sha256": "71403f2cdeb71b94fade0b2ebce3dbdc0057fa2f4c31ce3042befd293408ba74"
+    },
+    {
+      "path": "biorxiv-preprint-index.tsv",
+      "bytes": 34136,
+      "sha256": "abf52d0c26d7bc391d2464049ed65966a88f035ad740f8997739a2112ce74618"
+    },
+    {
+      "path": "build_results.py",
+      "bytes": 4715,
+      "sha256": "c5d20954672a65e91083c62d73133c52adc6c5b29370ddba27b1d46d58e1c1db"
+    },
+    {
+      "path": "check_reported_arithmetic.py",
+      "bytes": 1232,
+      "sha256": "08ae01e009fb58b4b16da26a5fa68c6e8a22537ebc3b77c5e196f6bc583a7b83"
+    },
+    {
+      "path": "discovery-log.json",
+      "bytes": 2012,
+      "sha256": "3277514240ed8f06b1fd889614662274b78780587f2e5987bd0e72f1e14061f9"
+    },
+    {
+      "path": "ema-index-check.json",
+      "bytes": 720,
+      "sha256": "0309b1891c2ce588783d21e80930eb257167c4c0ef66a12c40c576601a2754b2"
+    },
+    {
+      "path": "medrxiv-preprint-index.tsv",
+      "bytes": 9673,
+      "sha256": "1f6469b48ee0c79aaaf5b8bda8cc26e1edfa2117356b0462c2feabe4989e8f53"
+    },
+    {
+      "path": "new-evidence.jsonl",
+      "bytes": 5059,
+      "sha256": "a5c6a52d41452a50b957c00860c7b88b5da01238269e5af6b3c4ef90745e3f09"
+    },
+    {
+      "path": "new-paper-access.json",
+      "bytes": 370,
+      "sha256": "6f157bddaae57e10511ad713d85a994b1f15f7c3303da95b0c29b043ecd34d15"
+    },
+    {
+      "path": "pubmed-screening.jsonl",
+      "bytes": 28852,
+      "sha256": "ccb1db7f4813be5e88eae5e1387ff5bbf9628cc39edd6b8535feb69794b4fb00"
+    },
+    {
+      "path": "registry-evidence.jsonl",
+      "bytes": 8509,
+      "sha256": "b5a26aecf7daa38c988414942165955b836feedcd916c2cf513a704c35045279"
+    },
+    {
+      "path": "report.md",
+      "bytes": 10203,
+      "sha256": "9e0efd2806a65509d55d515a2acd9059392220e5bd012d9e94fb75ab6f96c2e5"
+    },
+    {
+      "path": "reported-arithmetic.json",
+      "bytes": 1322,
+      "sha256": "b96bf38ba64c91269638a6afd3c5827c08bd55a3294f1b0afb2dbc8200451b10"
+    },
+    {
+      "path": "request-log.json",
+      "bytes": 22489,
+      "sha256": "ca321ccc17a3df4ab105a9f3c03acf287cb036aab1499435bb96bfc877ef690c"
+    },
+    {
+      "path": "resume_preprints.py",
+      "bytes": 2445,
+      "sha256": "d714b840266d38c5895f4749e4d04b5863da63c029050c43ce5d1b907fb846b3"
+    },
+    {
+      "path": "safety-query-log.json",
+      "bytes": 1166,
+      "sha256": "4046c7c523f5e6f0a9f7c1f2718ebc87a8e8303036132dcb96ca89a0fcfce758"
+    },
+    {
+      "path": "safety-review.json",
+      "bytes": 3920,
+      "sha256": "28f360fbfe540c1e7d99946c485f476164e343305e76faf5a28b6e35384184c2"
+    },
+    {
+      "path": "scan_sources.py",
+      "bytes": 10472,
+      "sha256": "3d58d09779aaee26339cc3c1af6a3c45da07f3f93e3c3d5e2d690e823f4ddcb4"
+    },
+    {
+      "path": "search-log.json",
+      "bytes": 238905,
+      "sha256": "8f9c9c7175452bc073ea281d759b97058e1d8ed6b5a2b823c02e2baa890eb74c"
+    },
+    {
+      "path": "summary.json",
+      "bytes": 2078,
+      "sha256": "f53a48b64596bf43c880c2cea75fedcd6424feaeea78b823016198fa95c669ba"
+    },
+    {
+      "path": "validate.py",
+      "bytes": 5505,
+      "sha256": "c86a2c087ce55c6d26160a3cbb416277ac3617ba4eb7339366bb266680eac020"
+    },
+    {
+      "path": "validation.json",
+      "bytes": 4816,
+      "sha256": "3752f6bba464bc7f0f6de2a75b1cbe30f504642de389e8387b3c43aee601d69d"
+    },
+    {
+      "path": "write_review.py",
+      "bytes": 5413,
+      "sha256": "0a2f3cb0a62fcd789f341205076f6182042c3610cbd539cd3c1649514e4f5217"
+    }
+  ],
+  "written_utc": "2026-11-07T03:14:34.026233+00:00",
+  "publication_adjustments": [
+    "Removed trailing blank lines only from baseline-book-metadata.json and scan_sources.py; scientific values unchanged. Original supplied hashes were verified before edits."
+  ]
+}

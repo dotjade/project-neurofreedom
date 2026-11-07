@@ -1,0 +1,65 @@
+{
+  "date": "2026-11-07",
+  "core_started_utc": "2026-11-07T03:06:22.790215+00:00",
+  "core_completed_utc": "2026-11-07T03:10:53.550409+00:00",
+  "prior_core_cutoff_utc": "2026-11-06T02:55:38.829914+00:00",
+  "prior_book_supplement_cutoff_utc": "2026-11-06T02:55:43.665529+00:00",
+  "pubmed_id_occurrences": 33,
+  "pubmed_unique_ids": 22,
+  "pubmed_records_accounted": 22,
+  "pubmed_ids_not_in_prior_complete_scan": [
+    "41503301",
+    "41881176",
+    "42990710",
+    "42993949"
+  ],
+  "new_peer_reviewed_primary_publications": [
+    "42993949"
+  ],
+  "new_first_public_disclosures_verified": 0,
+  "preprint_versions": 1084,
+  "preprints": [
+    {
+      "server": "biorxiv",
+      "unique_doi_versions": 854,
+      "not_in_previous_scan_doi_versions": 328,
+      "pagination_complete_for_observed_response": true,
+      "reported_totals": [
+        854
+      ],
+      "matches": []
+    },
+    {
+      "server": "medrxiv",
+      "unique_doi_versions": 230,
+      "not_in_previous_scan_doi_versions": 81,
+      "pagination_complete_for_observed_response": true,
+      "reported_totals": [
+        230
+      ],
+      "matches": []
+    }
+  ],
+  "registry_unique": 6,
+  "registry_ids_changed": [
+    "NCT07137442"
+  ],
+  "registries_with_posted_results": [],
+  "core_request_count": 57,
+  "transient_failed_requests": [
+    {
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-11-04/2026-11-07/120",
+      "started_utc": "2026-11-07T03:06:41.974562+00:00",
+      "error": "HTTP Error 503: Service Unavailable",
+      "completed_utc": "2026-11-07T03:06:46.838527+00:00"
+    },
+    {
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-11-04/2026-11-07/90",
+      "started_utc": "2026-11-07T03:06:41.988999+00:00",
+      "error": "HTTP Error 503: Service Unavailable",
+      "completed_utc": "2026-11-07T03:06:46.851107+00:00"
+    }
+  ],
+  "new_watched_treatment_official_warning_verified": false,
+  "interpretation": "One new journal measurement study with an older preprint, no validated treatment/clinical-benefit claim; bounded safety null not proof of safety."
+}
