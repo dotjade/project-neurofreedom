@@ -1,0 +1,95 @@
+{
+  "research_commit": "575ba6303ec11e6a35534929e2e2d2d4a148f3db",
+  "baseline_commit": "c9d1bae55750e460768236ced30f29f54721dbb1",
+  "verified_at_utc": "2026-11-08T04:14:00.425Z",
+  "repository": "https://github.com/dotjade/project-neurofreedom",
+  "visibility": "public",
+  "visibility_changed": false,
+  "exact_authored_count": 10,
+  "authored_sha256": {
+    "STATUS.md": "4507ae8ea50fefa59672dc36d7d492676563eaaca15857ad7200bbde411c8180",
+    "updates/2026-11-08-weekly-synthesis.md": "ff5ff09cbe9df1e8fdc883d9bc7398f6ff4e6d898ee53adfa1ad3a6240e48725",
+    "updates/2026-11-08-weekly/computation-audit/audit-results.json": "be174e082aa24f532f6570689e4e4964a1c08ba09214e329f5ba4415746fdd17",
+    "updates/2026-11-08-weekly/computation-audit/audit.py": "7cfe9a753c46f13ffbc469d71f7607ba4d596e1aa916eeaafb1507b48055156f",
+    "updates/2026-11-08-weekly/computation-audit/report.md": "16a5ee886d204abd366632c1413ec78314808fe40bc9b45174aab39c4e0f5e8f",
+    "updates/2026-11-08-weekly/publisher-tests.json": "6e5df1ef90cf31983de1801e4b92ca49e2acdfe1972f0ee75fe54d1737b1edca",
+    "updates/2026-11-08-weekly/source-inventory.json": "5e782891f178de61597e92e019d222f9b010bca3a270d944de2ef1d257e2545a",
+    "updates/2026-11-08-weekly/source-manifest.json": "94ac1e7a4623bcdd839363616200c7bb0852262cfeb776ae3e2bb16f3a8b8622",
+    "updates/2026-11-08-weekly/validate.py": "afc36e8888051516e074b99e3136ba67cace510e82836e0d9900b656a0e76618",
+    "updates/2026-11-08-weekly/validation.json": "10cb43bcc88cf9bbb81f8883a3925c5871affbfdea6456c9bd29b07934a6546d"
+  },
+  "connector_exact_readback": [
+    {
+      "path": "STATUS.md",
+      "exact": true,
+      "blob": "b46e43d6ce1b86bf58c9dd58a939bdb719a7fa87"
+    },
+    {
+      "path": "updates/2026-11-08-weekly-synthesis.md",
+      "exact": true,
+      "blob": "861b36dcd3e0ee843e70d0854666a62b4bcc217c"
+    },
+    {
+      "path": "updates/2026-11-08-weekly/computation-audit/audit-results.json",
+      "exact": true,
+      "blob": "5ccd3ee983da89974007494b2301720af2bf2649"
+    },
+    {
+      "path": "updates/2026-11-08-weekly/computation-audit/audit.py",
+      "exact": true,
+      "blob": "699b33f76f298f81cd973e3f3b9ffd8a5b57fb1a"
+    },
+    {
+      "path": "updates/2026-11-08-weekly/computation-audit/report.md",
+      "exact": true,
+      "blob": "9b7dabbac30a10d475426b081ddd0c0083323f24"
+    },
+    {
+      "path": "updates/2026-11-08-weekly/publisher-tests.json",
+      "exact": true,
+      "blob": "912506b6704b5f9484c68fd12005a5173a795139"
+    },
+    {
+      "path": "updates/2026-11-08-weekly/source-inventory.json",
+      "exact": true,
+      "blob": "3d9b3c68ccdd04b9cf6837d5964aff95f1be0de7"
+    },
+    {
+      "path": "updates/2026-11-08-weekly/source-manifest.json",
+      "exact": true,
+      "blob": "a7dd9b7beba3aa9af4c9d5e6eb8811f149563fe5"
+    },
+    {
+      "path": "updates/2026-11-08-weekly/validate.py",
+      "exact": true,
+      "blob": "1fbed6fca0d0b2314748994337b0c9c4813899ef"
+    },
+    {
+      "path": "updates/2026-11-08-weekly/validation.json",
+      "exact": true,
+      "blob": "2cb31f3ce433eb71b721bf7fbbc2bd7ab69799da"
+    }
+  ],
+  "unrelated_baseline_files_preserved": 1583,
+  "unexpected_paths": [],
+  "feed_unchanged": true,
+  "publication_method": "GitHub connector create_tree/create_commit/update_ref with expected prior main; non-force update",
+  "ci": {
+    "actions_query": "https://api.github.com/repos/dotjade/project-neurofreedom/actions/runs?head_sha=575ba6303ec11e6a35534929e2e2d2d4a148f3db",
+    "total_count": 0,
+    "workflow_runs": [],
+    "required_status_contexts": [],
+    "scope": "Research/docs-only files do not match deployment workflow path filters. No deployment claimed."
+  },
+  "verification": {
+    "publication_assertions": 111,
+    "new_audit_assertions": 352,
+    "original_saved_checks_reexecuted": 261,
+    "publisher_audit_output_byte_identical": true,
+    "no_new_full_simulation_rerun": true
+  },
+  "limits": [
+    "No fresh external-source link, rendered-page, accessibility, production API or deployment test was performed by this weekly publication. The verified daily feed remains unchanged.",
+    "Computation and document checks are not clinical validation or scientific peer review."
+  ]
+}
