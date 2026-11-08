@@ -854,5 +854,55 @@
         "verifiedAt": null
       }
     }
-  ]
+  ],
+  "publicationVerification": {
+    "researchCommit": "43ed128b82e17252da2befaef1b80298fe415a98",
+    "scope": "Post-publication exact feed and two new report URL checks, separate from the 46-URL baseline above.",
+    "checks": [
+      {
+        "kind": "raw",
+        "url": "https://raw.githubusercontent.com/dotjade/project-neurofreedom/main/public/research-feed.json",
+        "checked_at_utc": "2026-11-08T03:27:28.871997+00:00",
+        "http_status": 200,
+        "curl_exit": 0,
+        "bytes": 17025,
+        "bytes_exact": true,
+        "updatedAt": "2026-11-08T03:14:13Z"
+      },
+      {
+        "kind": "api",
+        "url": "https://tourette.fyi/api/public-feed",
+        "checked_at_utc": "2026-11-08T03:27:28.872446+00:00",
+        "http_status": 200,
+        "curl_exit": 0,
+        "bytes": 17025,
+        "bytes_exact": true,
+        "updatedAt": "2026-11-08T03:14:13Z",
+        "repository_source": true,
+        "cache_control": [
+          "public, max-age=120, no-transform"
+        ]
+      },
+      {
+        "kind": "daily",
+        "url": "https://github.com/dotjade/project-neurofreedom/blob/main/updates/2026-11-08/report.md",
+        "checked_at_utc": "2026-11-08T03:27:28.872824+00:00",
+        "http_status": 200,
+        "curl_exit": 0,
+        "bytes": 209234,
+        "document_title": "project-neurofreedom/updates/2026-11-08/report.md at main \u00b7 dotjade/project-neurofreedom \u00b7 GitHub",
+        "path_confirmed": true
+      },
+      {
+        "kind": "audit",
+        "url": "https://github.com/dotjade/project-neurofreedom/blob/main/analyses/h18_identifiability/2026-11-08/report.md",
+        "checked_at_utc": "2026-11-08T03:27:28.873243+00:00",
+        "http_status": 200,
+        "curl_exit": 0,
+        "bytes": 268140,
+        "document_title": "project-neurofreedom/analyses/h18_identifiability/2026-11-08/report.md at main \u00b7 dotjade/project-neurofreedom \u00b7 GitHub",
+        "path_confirmed": true
+      }
+    ]
+  }
 }
