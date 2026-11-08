@@ -1,5 +1,5 @@
 {
-  "scope": "Research snapshot before this manifest, publication receipt and final status/link verification additions.",
+  "scope": "Research snapshot before publication receipt and final status/link verification additions, with the post-publication validation-script correction noted below.",
   "base_commit": "c1faee636fe54569660c03f7bdcc977e41ce7555",
   "checked_at_utc": "2026-11-08T03:18:23.977141+00:00",
   "files": [
@@ -225,8 +225,15 @@
     },
     {
       "path": "updates/2026-11-08/validate_integration.py",
-      "bytes": 4379,
-      "sha256": "aae593a92428e355f8ad115e5232857ee1165fdd5772228f9b1573a122c4a2c7"
+      "bytes": 4602,
+      "sha256": "cf768e9cc0bbe3c865f003b8956fd7f103fbf714f46c93f10e790111d96a437d"
     }
-  ]
+  ],
+  "post_publication_validation_correction": {
+    "checked_at_utc": "2026-11-08T03:30:56.694876+00:00",
+    "path": "updates/2026-11-08/validate_integration.py",
+    "original_sha256": "aae593a92428e355f8ad115e5232857ee1165fdd5772228f9b1573a122c4a2c7",
+    "corrected_sha256": "cf768e9cc0bbe3c865f003b8956fd7f103fbf714f46c93f10e790111d96a437d",
+    "reason": "The original preservation assertion assumed new dated files were untracked. Accept only the same explicitly scoped dated paths after commit so the validation is reproducible in a fresh checkout. No scientific code, inputs, results, feed or deployment inputs changed."
+  }
 }

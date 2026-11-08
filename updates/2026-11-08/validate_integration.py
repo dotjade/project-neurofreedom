@@ -41,7 +41,9 @@ status = base('STATUS.md').decode().replace('Updated 7 November 2026. Initial po
 check('earlier status retained', (ROOT / 'STATUS.md').read_text().startswith(status))
 check('earlier evidence retained', (ROOT / 'evidence.jsonl').read_bytes() == base('evidence.jsonl'))
 changed = subprocess.check_output(['git', 'diff', '--name-only', BASE], cwd=ROOT).decode().splitlines()
-check('no unrelated tracked changes', set(changed) <= {'STATUS.md', 'public/research-feed.json'})
+allowed_existing = {'STATUS.md', 'public/research-feed.json', 'public/link-checks/' + DATE + '.json'}
+allowed_new_roots = ('updates/' + DATE + '/', 'analyses/h18_identifiability/' + DATE + '/')
+check('no unrelated tracked changes', all(path in allowed_existing or path.startswith(allowed_new_roots) for path in changed))
 paths = [HERE, ROOT / 'analyses/h18_identifiability/2026-11-08']
 for root in paths:
     for path in sorted(root.rglob('*')):
