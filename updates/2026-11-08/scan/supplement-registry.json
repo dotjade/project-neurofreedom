@@ -1,0 +1,85 @@
+{
+  "url": "https://clinicaltrials.gov/api/v2/studies/NCT06678737?fields=NCTId%2CBriefTitle%2CStatusModule%2CDesignModule%2CCondition%2CMinimumAge%2CMaximumAge%2CStdAge%2CHasResults",
+  "started_utc": "2026-11-08T03:06:47.533474+00:00",
+  "status": 200,
+  "sha256": "18b8c384e1cef73c4a723d4f62a46049e6875003d7ef666b74492867f92e3d45",
+  "bytes": 1245,
+  "snapshot": {
+    "protocolSection": {
+      "identificationModule": {
+        "nctId": "NCT06678737",
+        "briefTitle": "CBIT+TMS R33 Phase"
+      },
+      "statusModule": {
+        "statusVerifiedDate": "2026-05",
+        "overallStatus": "RECRUITING",
+        "expandedAccessInfo": {
+          "hasExpandedAccess": false
+        },
+        "startDateStruct": {
+          "date": "2025-02-27",
+          "type": "ACTUAL"
+        },
+        "primaryCompletionDateStruct": {
+          "date": "2030-07-15",
+          "type": "ESTIMATED"
+        },
+        "completionDateStruct": {
+          "date": "2030-07-15",
+          "type": "ESTIMATED"
+        },
+        "studyFirstSubmitDate": "2024-10-31",
+        "studyFirstSubmitQcDate": "2024-11-05",
+        "studyFirstPostDateStruct": {
+          "date": "2024-11-07",
+          "type": "ACTUAL"
+        },
+        "lastUpdateSubmitDate": "2026-05-18",
+        "lastUpdatePostDateStruct": {
+          "date": "2026-05-20",
+          "type": "ACTUAL"
+        }
+      },
+      "conditionsModule": {
+        "conditions": [
+          "Tics",
+          "Tourette Syndrome"
+        ]
+      },
+      "designModule": {
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2"
+        ],
+        "designInfo": {
+          "allocation": "RANDOMIZED",
+          "interventionModel": "PARALLEL",
+          "interventionModelDescription": "The study is a double-blinded randomized control trial",
+          "primaryPurpose": "BASIC_SCIENCE",
+          "maskingInfo": {
+            "masking": "TRIPLE",
+            "whoMasked": [
+              "PARTICIPANT",
+              "INVESTIGATOR",
+              "OUTCOMES_ASSESSOR"
+            ]
+          }
+        },
+        "enrollmentInfo": {
+          "count": 60,
+          "type": "ESTIMATED"
+        }
+      },
+      "eligibilityModule": {
+        "minimumAge": "12 Years",
+        "maximumAge": "21 Years",
+        "stdAges": [
+          "CHILD",
+          "ADULT"
+        ]
+      }
+    },
+    "hasResults": false
+  },
+  "completed_utc": "2026-11-08T03:06:52.491813+00:00"
+}

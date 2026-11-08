@@ -1,0 +1,162 @@
+{
+  "date": "2026-11-08",
+  "checked_utc": "2026-11-08T03:11:30.840369+00:00",
+  "checks": [
+    {
+      "name": "Eight complete PubMed query families",
+      "pass": true
+    },
+    {
+      "name": "PubMed count and extraction agreement",
+      "pass": true
+    },
+    {
+      "name": "PubMed occurrence accounting",
+      "pass": true
+    },
+    {
+      "name": "All returned PubMed IDs classified exactly once",
+      "pass": true
+    },
+    {
+      "name": "No unknown PubMed worker errors",
+      "pass": true
+    },
+    {
+      "name": "Only one ID new to complete baseline",
+      "pass": true
+    },
+    {
+      "name": "No new qualifying journal primary",
+      "pass": true
+    },
+    {
+      "name": "Wu remains same-paper overlap",
+      "pass": true
+    },
+    {
+      "name": "Historical retraction status unchanged",
+      "pass": true
+    },
+    {
+      "name": "Retraction notice reciprocal metadata",
+      "pass": true
+    },
+    {
+      "name": "Editorial independently identified",
+      "pass": true
+    },
+    {
+      "name": "Total distinct query and supplementary PubMed IDs",
+      "pass": true
+    },
+    {
+      "name": "Core date overlap preserved",
+      "pass": true
+    },
+    {
+      "name": "Core temporal order",
+      "pass": true
+    },
+    {
+      "name": "All core requests succeeded",
+      "pass": true
+    },
+    {
+      "name": "Each core response has timestamp and digest",
+      "pass": true
+    },
+    {
+      "name": "Two preprint servers present",
+      "pass": true
+    },
+    {
+      "name": "Preprint lexical controls",
+      "pass": true
+    },
+    {
+      "name": "medrxiv complete observed pagination",
+      "pass": true
+    },
+    {
+      "name": "medrxiv DOI/version index accounting",
+      "pass": true
+    },
+    {
+      "name": "medrxiv saved TSV matches captured index",
+      "pass": true
+    },
+    {
+      "name": "medrxiv no qualifying match",
+      "pass": true
+    },
+    {
+      "name": "biorxiv complete observed pagination",
+      "pass": true
+    },
+    {
+      "name": "biorxiv DOI/version index accounting",
+      "pass": true
+    },
+    {
+      "name": "biorxiv saved TSV matches captured index",
+      "pass": true
+    },
+    {
+      "name": "biorxiv no qualifying match",
+      "pass": true
+    },
+    {
+      "name": "Preprint totals reconciled",
+      "pass": true
+    },
+    {
+      "name": "Four registry query responses complete",
+      "pass": true
+    },
+    {
+      "name": "Six registry watches retained",
+      "pass": true
+    },
+    {
+      "name": "No changed selected registry field",
+      "pass": true
+    },
+    {
+      "name": "No posted results among core registries",
+      "pass": true
+    },
+    {
+      "name": "Supplement is independent seventh registry",
+      "pass": true
+    },
+    {
+      "name": "Aggregator date resolved using official API",
+      "pass": true
+    },
+    {
+      "name": "Supplement requests successful",
+      "pass": true
+    },
+    {
+      "name": "Baseline Git object verification passed",
+      "pass": true
+    },
+    {
+      "name": "Twelve official safety pages recorded",
+      "pass": true
+    },
+    {
+      "name": "Inaccessible safety lead retained",
+      "pass": true
+    },
+    {
+      "name": "Web query limits and exact queries retained",
+      "pass": true
+    }
+  ],
+  "passed": 38,
+  "total": 38,
+  "all_pass": true,
+  "scope": "Offline source-accounting and consistency checks only; no clinical validation."
+}

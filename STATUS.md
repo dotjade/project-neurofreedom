@@ -1,6 +1,6 @@
 # Project NeuroFreedom status
 
-Updated 7 November 2026. Initial portfolio, thirty completed daily updates, four completed weekly syntheses and one monthly review. Public evidence repository and journal launched 13 October.
+Updated 8 November 2026. Initial portfolio, thirty-one completed daily updates, four completed weekly syntheses and one monthly review. Public evidence repository and journal launched 13 October.
 
 ## Completed in this first pass
 
@@ -14,7 +14,7 @@ Updated 7 November 2026. Initial portfolio, thirty completed daily updates, four
 
 ## Enabled research schedules
 
-The user approved the following automatic public-science research and repository updates on 8 October 2026. Each schedule was created successfully and returned enabled status. Daily runs were completed on 9-31 October and 1-7 November 2026; weekly syntheses were completed on 11, 18 and 25 October and 1 November; the first monthly review was completed on 1 November; the first quarterly run remains unverified.
+The user approved the following automatic public-science research and repository updates on 8 October 2026. Each schedule was created successfully and returned enabled status. Daily runs were completed on 9-31 October and 1-8 November 2026; weekly syntheses were completed on 11, 18 and 25 October and 1 November; the first monthly review was completed on 1 November; the first quarterly run remains unverified.
 
 - Daily new-evidence checks: from 9 October 2026, approximately 08:00 India time.
 - Weekly synthesis: Sundays, from 11 October 2026, approximately 09:00 India time.
@@ -780,3 +780,18 @@ Research commit [57e182da2dce7a5bf97c08c0ff3b4e421297db18](https://github.com/do
 [Actions run 42334490276](https://github.com/dotjade/project-neurofreedom/actions/runs/42334490276) completed successfully for that exact research commit, including validation, deployment dry-run, publication and public-route checks. After the 120-second cache interval, production readback at 03:35:02 UTC returned HTTP 200, repository source and exact bytes with updatedAt 2026-11-07T03:17:31Z. Both new report links returned HTTP 200 with expected paths. The [receipt](updates/2026-11-07/publication-verification.json) records actual checks and limitations.
 
 Six approved activities remain unchanged, music-or-silence is selected, and collection remains off. No fresh rendered accessibility or narration test is claimed. The research manifest covers the snapshot before this receipt and final status/link-verification additions. This verification-only follow-up changes no feed, deployment input or scientific result.
+
+
+## Completed daily research update - 8 November 2026
+
+The [daily report](updates/2026-11-08/report.md) records no qualifying new primary publication, preprint, posted trial result or watched-treatment official warning in the bounded scan. Seven PubMed query records plus directed metadata, 708 preprint versions and seven distinct registries were checked. An already-retracted historical review is explicitly excluded from substantive support; its status was unchanged from the prior metadata. Overlap, source-access and coverage limits remain visible.
+
+The [H18 synthetic identifiability experiment](analyses/h18_identifiability/2026-11-08/report.md) distinguishes structural identification from precision. Known invariant measurements can separate two artificial contributions; an unknown reporting shift can make different explanations exactly observationally equivalent. Repetition cannot fix that missing assumption. A hidden-shift sensitivity can yield a confident wrong population explanation. Fourteen measurement and six transfer scenarios, 261 second-calculation checks and a byte-identical publisher rerun are methods verification, not evidence about a person or treatment. H18 remains proposed; no empirical evidence record was added.
+
+### Next bounded decision
+
+Stop the fixed simulation. Next audit public aggregate evidence for external measurement anchors, invariance checks and explicit transfer estimands. Preserve timing, clustering and global-versus-tic-specific distinctions; without defensible anchors, retain the mechanism as unidentified. Do not repeat closed audits or collect personal videos/records. Persistent severe adult function, pain, effort and co-occurring burdens remain central. No owner action, intervention, contact or paid resource is needed.
+
+### Public journal
+
+The feed separates synthetic methods from a no-new-result scan, retains 24 entries and six unchanged optional activities, and selects small-silly-mark. Collection remains disabled. The [link ledger](public/link-checks/2026-11-08.json) records 38 retrievable and eight access-limited baseline URLs with no confirmed broken source. Exact remote, CI and post-cache production checks follow publication. No fresh rendered accessibility or narration test is claimed; older static fallback and next-question copy remain known limitations.

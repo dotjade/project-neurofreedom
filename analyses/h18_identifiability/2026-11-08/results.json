@@ -1,0 +1,2599 @@
+{
+  "kind": "Synthetic methods results, not clinical evidence",
+  "config": {
+    "research_date": "2026-11-08",
+    "master_seed": 20261108,
+    "generator": "NumPy PCG64 via SeedSequence.spawn; ordered independent scenario streams",
+    "monte_carlo_datasets": 4000,
+    "independent_units": 60,
+    "loadings": [
+      0.25,
+      1.0
+    ],
+    "repeats": [
+      1,
+      8
+    ],
+    "truths": [
+      {
+        "name": "generation",
+        "g": 0.5,
+        "c": 0.0
+      },
+      {
+        "name": "control",
+        "g": 0.0,
+        "c": 0.5
+      },
+      {
+        "name": "equal_mixture",
+        "g": 0.25,
+        "c": 0.25
+      }
+    ],
+    "unit_sd": [
+      0.45,
+      0.45
+    ],
+    "unit_correlation": 0.3,
+    "error_sd": [
+      0.8,
+      0.8
+    ],
+    "error_correlation": 0.2,
+    "transfer_pairs": [
+      [
+        1.0,
+        1.0
+      ],
+      [
+        1.0,
+        0.25
+      ],
+      [
+        0.25,
+        1.0
+      ]
+    ],
+    "units": "Arbitrary dimensionless changes; not PUTS/YGTSS or patient-derived values",
+    "missingness": "None; complete rows in a deliberately idealized experiment"
+  },
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0"
+  },
+  "plan_sha256": "48e7fe6352488573ed9528bfd67d1afec0c8da1c75d014538d9a6a129a4e3756",
+  "structural": {
+    "measurement_ranks": {
+      "tic_only": {
+        "matrix": [
+          [
+            1.0,
+            1.0
+          ]
+        ],
+        "rank": 1,
+        "columns": 2,
+        "singular_values": [
+          1.4142135623730951
+        ]
+      },
+      "known_invariant_weak_loading": {
+        "matrix": [
+          [
+            1.0,
+            1.0
+          ],
+          [
+            0.25,
+            0.0
+          ]
+        ],
+        "rank": 2,
+        "columns": 2,
+        "singular_values": [
+          1.4253905296791063,
+          0.17539052967910607
+        ]
+      },
+      "known_invariant_unit_loading": {
+        "matrix": [
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            0.0
+          ]
+        ],
+        "rank": 2,
+        "columns": 2,
+        "singular_values": [
+          1.618033988749895,
+          0.6180339887498948
+        ]
+      },
+      "zero_loading": {
+        "matrix": [
+          [
+            1.0,
+            1.0
+          ],
+          [
+            0.0,
+            0.0
+          ]
+        ],
+        "rank": 1,
+        "columns": 2,
+        "singular_values": [
+          1.4142135623730951,
+          0.0
+        ]
+      },
+      "unknown_reporting_shift": {
+        "matrix": [
+          [
+            1.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.25,
+            0.0,
+            1.0
+          ]
+        ],
+        "rank": 2,
+        "columns": 3,
+        "singular_values": [
+          1.4361406616345072,
+          1.0
+        ]
+      },
+      "unknown_loading_local_jacobian_at_g_0_4_lambda_0_25": {
+        "matrix": [
+          [
+            1.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.25,
+            0.0,
+            0.4
+          ]
+        ],
+        "rank": 2,
+        "columns": 3,
+        "singular_values": [
+          1.4263563432947404,
+          0.4335984109090544
+        ]
+      }
+    },
+    "unknown_shift_null_direction": [
+      1.0,
+      -1.0,
+      -0.25
+    ],
+    "null_product": [
+      0.0,
+      0.0
+    ],
+    "equivalent_worlds_g_c_b": [
+      [
+        0.5,
+        0,
+        -0.125
+      ],
+      [
+        0,
+        0.5,
+        0
+      ]
+    ],
+    "equivalent_observed_means_z_u": [
+      [
+        0.5,
+        0.0
+      ],
+      [
+        0.5,
+        0.0
+      ]
+    ],
+    "equal_covariance_assumption": "The same H and E are specified in both worlds.",
+    "unknown_loading_counterexample": [
+      {
+        "g": 0.4,
+        "c": 0.1,
+        "lambda": 0.25
+      },
+      {
+        "g": 0.1,
+        "c": 0.4,
+        "lambda": 1.0
+      }
+    ],
+    "unknown_loading_observed_means": [
+      [
+        0.5,
+        0.1
+      ],
+      [
+        0.5,
+        0.1
+      ]
+    ],
+    "known_transfer_ranks": [
+      {
+        "coefficients": [
+          1.0,
+          1.0
+        ],
+        "matrix": [
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ]
+        ],
+        "rank": 1,
+        "columns": 2,
+        "singular_values": [
+          2.0,
+          3.354704451405225e-17
+        ]
+      },
+      {
+        "coefficients": [
+          1.0,
+          0.25
+        ],
+        "matrix": [
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            0.25
+          ]
+        ],
+        "rank": 2,
+        "columns": 2,
+        "singular_values": [
+          1.693000468164691,
+          0.44300046816469146
+        ]
+      },
+      {
+        "coefficients": [
+          0.25,
+          1.0
+        ],
+        "matrix": [
+          [
+            1.0,
+            1.0
+          ],
+          [
+            0.25,
+            1.0
+          ]
+        ],
+        "rank": 2,
+        "columns": 2,
+        "singular_values": [
+          1.6930004681646915,
+          0.44300046816469135
+        ]
+      }
+    ],
+    "unknown_transfer_note": "Two observed tic means cannot generally identify g,c,t_g,t_c. Unequal known coefficients are an identifying assumption, not a discovered biological fact.",
+    "repeated_measure_covariance_of_unit_mean": {
+      "1": [
+        [
+          0.8425000000000001,
+          0.18875000000000003
+        ],
+        [
+          0.18875000000000003,
+          0.8425000000000001
+        ]
+      ],
+      "8": [
+        [
+          0.28250000000000003,
+          0.07675000000000001
+        ],
+        [
+          0.07675000000000001,
+          0.28250000000000003
+        ]
+      ]
+    }
+  },
+  "measurement": [
+    {
+      "id": "lambda_0.25_r_1_generation",
+      "truth_label": "generation",
+      "g": 0.5,
+      "c": 0.0,
+      "b": 0.0,
+      "loading": 0.25,
+      "repeats": 1,
+      "misspecified_shift": false,
+      "spawn_key": [
+        0
+      ],
+      "independent_units": 60,
+      "observed_rows_per_dataset": 60,
+      "observed_mean": [
+        0.5,
+        0.125
+      ],
+      "fitted_assumptions": {
+        "known_loading": 0.25,
+        "reporting_shift": 0.0
+      },
+      "generation_parameter": {
+        "truth": 0.5,
+        "mean_estimate": 0.5002265757868781,
+        "bias": 0.00022657578687807178,
+        "monte_carlo_se_bias": 0.007668775679493025,
+        "rmse": 0.4849553823865652,
+        "empirical_estimator_sd": 0.48501596024206756,
+        "mean_estimated_se": 0.472080232883024,
+        "mean_95_interval_width": 1.8892607281715272,
+        "coverage_95": {
+          "count": 3769,
+          "datasets": 4000,
+          "rate": 0.94225,
+          "monte_carlo_se": 0.003688324060464318,
+          "wilson_95": [
+            0.9345877245555754,
+            0.9490636478546839
+          ]
+        }
+      },
+      "control_parameter": {
+        "truth": 0.0,
+        "mean_estimate": -5.1367856583596213e-05,
+        "bias": -5.1367856583596213e-05,
+        "monte_carlo_se_bias": 0.007451427508214845,
+        "rmse": 0.4712107453225892,
+        "empirical_estimator_sd": 0.47126965491183875,
+        "mean_estimated_se": 0.4604968768468572,
+        "mean_95_interval_width": 1.8429042443892862,
+        "coverage_95": {
+          "count": 3770,
+          "datasets": 4000,
+          "rate": 0.9425,
+          "monte_carlo_se": 0.0036808202210920327,
+          "wilson_95": [
+            0.9348521454653584,
+            0.9492987472232559
+          ]
+        }
+      },
+      "dominance_parameter": {
+        "truth": 0.5,
+        "mean_estimate": 0.5002779436434617,
+        "bias": 0.000277943643461664,
+        "monte_carlo_se_bias": 0.015004616162983722,
+        "rmse": 0.9488566612193646,
+        "empirical_estimator_sd": 0.9489752498320962,
+        "mean_estimated_se": 0.9251456398695114,
+        "mean_95_interval_width": 3.702424298874809,
+        "coverage_95": {
+          "count": 3769,
+          "datasets": 4000,
+          "rate": 0.94225,
+          "monte_carlo_se": 0.003688324060464318,
+          "wilson_95": [
+            0.9345877245555754,
+            0.9490636478546839
+          ]
+        }
+      },
+      "labels": {
+        "generation_dominant": {
+          "count": 302,
+          "datasets": 4000,
+          "rate": 0.0755,
+          "monte_carlo_se": 0.004177312233960971,
+          "wilson_95": [
+            0.06771370193505,
+            0.08410086541790657
+          ]
+        },
+        "control_dominant": {
+          "count": 28,
+          "datasets": 4000,
+          "rate": 0.007,
+          "monte_carlo_se": 0.0013182374596407127,
+          "wilson_95": [
+            0.004847586613478226,
+            0.01009842447016744
+          ]
+        },
+        "unresolved": {
+          "count": 3670,
+          "datasets": 4000,
+          "rate": 0.9175,
+          "monte_carlo_se": 0.00435010775728602,
+          "wilson_95": [
+            0.9085680600345636,
+            0.9256308048185358
+          ]
+        }
+      },
+      "naive_row_independent_generation_coverage": {
+        "count": 3769,
+        "datasets": 4000,
+        "rate": 0.94225,
+        "monte_carlo_se": 0.003688324060464318,
+        "wilson_95": [
+          0.9345877245555754,
+          0.9490636478546839
+        ]
+      },
+      "naive_to_cluster_mean_se_ratio": 1.0,
+      "theoretical_parameter_covariance": [
+        [
+          0.2246666666666667,
+          -0.21208333333333337
+        ],
+        [
+          -0.21208333333333337,
+          0.2135416666666667
+        ]
+      ],
+      "theoretical_dominance_se": 0.9286414808740777
+    },
+    {
+      "id": "lambda_0.25_r_1_control",
+      "truth_label": "control",
+      "g": 0.0,
+      "c": 0.5,
+      "b": 0.0,
+      "loading": 0.25,
+      "repeats": 1,
+      "misspecified_shift": false,
+      "spawn_key": [
+        1
+      ],
+      "independent_units": 60,
+      "observed_rows_per_dataset": 60,
+      "observed_mean": [
+        0.5,
+        0.0
+      ],
+      "fitted_assumptions": {
+        "known_loading": 0.25,
+        "reporting_shift": 0.0
+      },
+      "generation_parameter": {
+        "truth": 0.0,
+        "mean_estimate": 0.0045646822141086505,
+        "bias": 0.0045646822141086505,
+        "monte_carlo_se_bias": 0.007444942763313892,
+        "rmse": 0.4708227905985927,
+        "empirical_estimator_sd": 0.4708595236331952,
+        "mean_estimated_se": 0.47266910021601805,
+        "mean_95_interval_width": 1.8916173697947838,
+        "coverage_95": {
+          "count": 3812,
+          "datasets": 4000,
+          "rate": 0.953,
+          "monte_carlo_se": 0.003346303931205295,
+          "wilson_95": [
+            0.9459954919988904,
+            0.95913525238064
+          ]
+        }
+      },
+      "control_parameter": {
+        "truth": 0.5,
+        "mean_estimate": 0.49616781017147,
+        "bias": -0.00383218982853003,
+        "monte_carlo_se_bias": 0.007326553749953922,
+        "rmse": 0.46332986812085236,
+        "empirical_estimator_sd": 0.46337194499004314,
+        "mean_estimated_se": 0.46117315964083355,
+        "mean_95_interval_width": 1.845610721879341,
+        "coverage_95": {
+          "count": 3796,
+          "datasets": 4000,
+          "rate": 0.949,
+          "monte_carlo_se": 0.003478469491026191,
+          "wilson_95": [
+            0.9417412032380953,
+            0.9553972166877528
+          ]
+        }
+      },
+      "dominance_parameter": {
+        "truth": -0.5,
+        "mean_estimate": -0.4916031279573613,
+        "bias": 0.008396872042638687,
+        "monte_carlo_se_bias": 0.014653916995283891,
+        "rmse": 0.9267172726325306,
+        "empirical_estimator_sd": 0.9267950869629598,
+        "mean_estimated_se": 0.9263995595310264,
+        "mean_95_interval_width": 3.7074424737691807,
+        "coverage_95": {
+          "count": 3810,
+          "datasets": 4000,
+          "rate": 0.9525,
+          "monte_carlo_se": 0.0033631737243264726,
+          "wilson_95": [
+            0.9454630269931453,
+            0.9586686768296749
+          ]
+        }
+      },
+      "labels": {
+        "generation_dominant": {
+          "count": 12,
+          "datasets": 4000,
+          "rate": 0.003,
+          "monte_carlo_se": 0.000864725389936019,
+          "wilson_95": [
+            0.0017169926319577002,
+            0.005236693998005578
+          ]
+        },
+        "control_dominant": {
+          "count": 316,
+          "datasets": 4000,
+          "rate": 0.079,
+          "monte_carlo_se": 0.004264944313821694,
+          "wilson_95": [
+            0.07103904127275161,
+            0.08776880997717705
+          ]
+        },
+        "unresolved": {
+          "count": 3672,
+          "datasets": 4000,
+          "rate": 0.918,
+          "monte_carlo_se": 0.004338087136054322,
+          "wilson_95": [
+            0.9090910803499344,
+            0.9261068250598754
+          ]
+        }
+      },
+      "naive_row_independent_generation_coverage": {
+        "count": 3812,
+        "datasets": 4000,
+        "rate": 0.953,
+        "monte_carlo_se": 0.003346303931205295,
+        "wilson_95": [
+          0.9459954919988904,
+          0.95913525238064
+        ]
+      },
+      "naive_to_cluster_mean_se_ratio": 0.9999999999999999,
+      "theoretical_parameter_covariance": [
+        [
+          0.2246666666666667,
+          -0.21208333333333337
+        ],
+        [
+          -0.21208333333333337,
+          0.2135416666666667
+        ]
+      ],
+      "theoretical_dominance_se": 0.9286414808740777
+    },
+    {
+      "id": "lambda_0.25_r_1_equal_mixture",
+      "truth_label": "equal_mixture",
+      "g": 0.25,
+      "c": 0.25,
+      "b": 0.0,
+      "loading": 0.25,
+      "repeats": 1,
+      "misspecified_shift": false,
+      "spawn_key": [
+        2
+      ],
+      "independent_units": 60,
+      "observed_rows_per_dataset": 60,
+      "observed_mean": [
+        0.5,
+        0.0625
+      ],
+      "fitted_assumptions": {
+        "known_loading": 0.25,
+        "reporting_shift": 0.0
+      },
+      "generation_parameter": {
+        "truth": 0.25,
+        "mean_estimate": 0.25387784453801066,
+        "bias": 0.003877844538010626,
+        "monte_carlo_se_bias": 0.007481393195825466,
+        "rmse": 0.4731215943457715,
+        "empirical_estimator_sd": 0.47316485140189185,
+        "mean_estimated_se": 0.4724724837368235,
+        "mean_95_interval_width": 1.8908305124625358,
+        "coverage_95": {
+          "count": 3799,
+          "datasets": 4000,
+          "rate": 0.94975,
+          "monte_carlo_se": 0.0034541618918342556,
+          "wilson_95": [
+            0.9425379615229446,
+            0.956099019237969
+          ]
+        }
+      },
+      "control_parameter": {
+        "truth": 0.25,
+        "mean_estimate": 0.24506400685437923,
+        "bias": -0.004935993145620753,
+        "monte_carlo_se_bias": 0.007306712538105238,
+        "rmse": 0.462085672184538,
+        "empirical_estimator_sd": 0.46211707657044787,
+        "mean_estimated_se": 0.46053501977189876,
+        "mean_95_interval_width": 1.8430568920227164,
+        "coverage_95": {
+          "count": 3793,
+          "datasets": 4000,
+          "rate": 0.94825,
+          "monte_carlo_se": 0.0035025682541529424,
+          "wilson_95": [
+            0.940944851237259,
+            0.9546950078535238
+          ]
+        }
+      },
+      "dominance_parameter": {
+        "truth": 0.0,
+        "mean_estimate": 0.008813837683631375,
+        "bias": 0.008813837683631375,
+        "monte_carlo_se_bias": 0.014671476216658772,
+        "rmse": 0.9278314981850279,
+        "empirical_estimator_sd": 0.9279056296326346,
+        "mean_estimated_se": 0.9255775789960896,
+        "mean_95_interval_width": 3.704152915266606,
+        "coverage_95": {
+          "count": 3788,
+          "datasets": 4000,
+          "rate": 0.947,
+          "monte_carlo_se": 0.003542280338990692,
+          "wilson_95": [
+            0.93961847837525,
+            0.9535237793237569
+          ]
+        }
+      },
+      "labels": {
+        "generation_dominant": {
+          "count": 101,
+          "datasets": 4000,
+          "rate": 0.02525,
+          "monte_carlo_se": 0.002480546184814949,
+          "wilson_95": [
+            0.02082474633955486,
+            0.030586245064016707
+          ]
+        },
+        "control_dominant": {
+          "count": 111,
+          "datasets": 4000,
+          "rate": 0.02775,
+          "monte_carlo_se": 0.002597110774495381,
+          "wilson_95": [
+            0.023095160429199447,
+            0.0333110337579236
+          ]
+        },
+        "unresolved": {
+          "count": 3788,
+          "datasets": 4000,
+          "rate": 0.947,
+          "monte_carlo_se": 0.003542280338990692,
+          "wilson_95": [
+            0.93961847837525,
+            0.9535237793237569
+          ]
+        }
+      },
+      "naive_row_independent_generation_coverage": {
+        "count": 3799,
+        "datasets": 4000,
+        "rate": 0.94975,
+        "monte_carlo_se": 0.0034541618918342556,
+        "wilson_95": [
+          0.9425379615229446,
+          0.956099019237969
+        ]
+      },
+      "naive_to_cluster_mean_se_ratio": 1.0000000000000002,
+      "theoretical_parameter_covariance": [
+        [
+          0.2246666666666667,
+          -0.21208333333333337
+        ],
+        [
+          -0.21208333333333337,
+          0.2135416666666667
+        ]
+      ],
+      "theoretical_dominance_se": 0.9286414808740777
+    },
+    {
+      "id": "lambda_0.25_r_8_generation",
+      "truth_label": "generation",
+      "g": 0.5,
+      "c": 0.0,
+      "b": 0.0,
+      "loading": 0.25,
+      "repeats": 8,
+      "misspecified_shift": false,
+      "spawn_key": [
+        3
+      ],
+      "independent_units": 60,
+      "observed_rows_per_dataset": 480,
+      "observed_mean": [
+        0.5,
+        0.125
+      ],
+      "fitted_assumptions": {
+        "known_loading": 0.25,
+        "reporting_shift": 0.0
+      },
+      "generation_parameter": {
+        "truth": 0.5,
+        "mean_estimate": 0.5100915788755787,
+        "bias": 0.010091578875578624,
+        "monte_carlo_se_bias": 0.004287760455049981,
+        "rmse": 0.2713356112898633,
+        "empirical_estimator_sd": 0.2711817819831591,
+        "mean_estimated_se": 0.2730780702288769,
+        "mean_95_interval_width": 1.0928559127704918,
+        "coverage_95": {
+          "count": 3810,
+          "datasets": 4000,
+          "rate": 0.9525,
+          "monte_carlo_se": 0.0033631737243264726,
+          "wilson_95": [
+            0.9454630269931453,
+            0.9586686768296749
+          ]
+        }
+      },
+      "control_parameter": {
+        "truth": 0.0,
+        "mean_estimate": -0.00905484124592639,
+        "bias": -0.00905484124592639,
+        "monte_carlo_se_bias": 0.004131999085508528,
+        "rmse": 0.26145474274550756,
+        "empirical_estimator_sd": 0.26133056799879584,
+        "mean_estimated_se": 0.262872225307028,
+        "mean_95_interval_width": 1.0520122157342813,
+        "coverage_95": {
+          "count": 3805,
+          "datasets": 4000,
+          "rate": 0.95125,
+          "monte_carlo_se": 0.003404902256306338,
+          "wilson_95": [
+            0.9441327316480759,
+            0.9575013707829687
+          ]
+        }
+      },
+      "dominance_parameter": {
+        "truth": 0.5,
+        "mean_estimate": 0.5191464201215051,
+        "bias": 0.019146420121505015,
+        "monte_carlo_se_bias": 0.00835183358643766,
+        "rmse": 0.5284972367963773,
+        "empirical_estimator_sd": 0.5282163354367153,
+        "mean_estimated_se": 0.5316990906273268,
+        "mean_95_interval_width": 2.127854845758031,
+        "coverage_95": {
+          "count": 3800,
+          "datasets": 4000,
+          "rate": 0.95,
+          "monte_carlo_se": 0.003446012188022557,
+          "wilson_95": [
+            0.9428036393796931,
+            0.9563328616595755
+          ]
+        }
+      },
+      "labels": {
+        "generation_dominant": {
+          "count": 631,
+          "datasets": 4000,
+          "rate": 0.15775,
+          "monte_carlo_se": 0.005763352702637589,
+          "wilson_95": [
+            0.14678305188616325,
+            0.16937368704563743
+          ]
+        },
+        "control_dominant": {
+          "count": 6,
+          "datasets": 4000,
+          "rate": 0.0015,
+          "monte_carlo_se": 0.0006119129840099816,
+          "wilson_95": [
+            0.0006876391063442419,
+            0.003268925853488141
+          ]
+        },
+        "unresolved": {
+          "count": 3363,
+          "datasets": 4000,
+          "rate": 0.84075,
+          "monte_carlo_se": 0.005785530172335116,
+          "wilson_95": [
+            0.8290843658139788,
+            0.8517617735840897
+          ]
+        }
+      },
+      "naive_row_independent_generation_coverage": {
+        "count": 3088,
+        "datasets": 4000,
+        "rate": 0.772,
+        "monte_carlo_se": 0.006633551085203158,
+        "wilson_95": [
+          0.758741128722183,
+          0.7847369341282195
+        ]
+      },
+      "naive_to_cluster_mean_se_ratio": 0.611371363938243,
+      "theoretical_parameter_covariance": [
+        [
+          0.07533333333333334,
+          -0.07021666666666666
+        ],
+        [
+          -0.07021666666666666,
+          0.06980833333333333
+        ]
+      ],
+      "theoretical_dominance_se": 0.5343921780864687
+    },
+    {
+      "id": "lambda_0.25_r_8_control",
+      "truth_label": "control",
+      "g": 0.0,
+      "c": 0.5,
+      "b": 0.0,
+      "loading": 0.25,
+      "repeats": 8,
+      "misspecified_shift": false,
+      "spawn_key": [
+        4
+      ],
+      "independent_units": 60,
+      "observed_rows_per_dataset": 480,
+      "observed_mean": [
+        0.5,
+        0.0
+      ],
+      "fitted_assumptions": {
+        "known_loading": 0.25,
+        "reporting_shift": 0.0
+      },
+      "generation_parameter": {
+        "truth": 0.0,
+        "mean_estimate": 0.0028590908629770365,
+        "bias": 0.0028590908629770365,
+        "monte_carlo_se_bias": 0.004333915717683958,
+        "rmse": 0.27408154510485927,
+        "empirical_estimator_sd": 0.2741008971016918,
+        "mean_estimated_se": 0.27291975151862824,
+        "mean_95_interval_width": 1.092222322755547,
+        "coverage_95": {
+          "count": 3800,
+          "datasets": 4000,
+          "rate": 0.95,
+          "monte_carlo_se": 0.003446012188022557,
+          "wilson_95": [
+            0.9428036393796931,
+            0.9563328616595755
+          ]
+        }
+      },
+      "control_parameter": {
+        "truth": 0.5,
+        "mean_estimate": 0.496586224023898,
+        "bias": -0.0034137759761020165,
+        "monte_carlo_se_bias": 0.004164293024913257,
+        "rmse": 0.2633622184736878,
+        "empirical_estimator_sd": 0.26337301606156394,
+        "mean_estimated_se": 0.26254953003957077,
+        "mean_95_interval_width": 1.0507207922568553,
+        "coverage_95": {
+          "count": 3810,
+          "datasets": 4000,
+          "rate": 0.9525,
+          "monte_carlo_se": 0.0033631737243264726,
+          "wilson_95": [
+            0.9454630269931453,
+            0.9586686768296749
+          ]
+        }
+      },
+      "dominance_parameter": {
+        "truth": -0.5,
+        "mean_estimate": -0.49372713316092093,
+        "bias": 0.006272866839079056,
+        "monte_carlo_se_bias": 0.008429022884245435,
+        "rmse": 0.5330684829964444,
+        "empirical_estimator_sd": 0.5330982152779474,
+        "mean_estimated_se": 0.5311874233848924,
+        "mean_95_interval_width": 2.1258071581835707,
+        "coverage_95": {
+          "count": 3799,
+          "datasets": 4000,
+          "rate": 0.94975,
+          "monte_carlo_se": 0.0034541618918342556,
+          "wilson_95": [
+            0.9425379615229446,
+            0.956099019237969
+          ]
+        }
+      },
+      "labels": {
+        "generation_dominant": {
+          "count": 7,
+          "datasets": 4000,
+          "rate": 0.00175,
+          "monte_carlo_se": 0.0006608588162383854,
+          "wilson_95": [
+            0.0008479657344337417,
+            0.00360811950375379
+          ]
+        },
+        "control_dominant": {
+          "count": 610,
+          "datasets": 4000,
+          "rate": 0.1525,
+          "monte_carlo_se": 0.005684271061446665,
+          "wilson_95": [
+            0.1416927957611546,
+            0.16397401732518793
+          ]
+        },
+        "unresolved": {
+          "count": 3383,
+          "datasets": 4000,
+          "rate": 0.84575,
+          "monte_carlo_se": 0.005710887354431008,
+          "wilson_95": [
+            0.8342255928916571,
+            0.8566109520735143
+          ]
+        }
+      },
+      "naive_row_independent_generation_coverage": {
+        "count": 3074,
+        "datasets": 4000,
+        "rate": 0.7685,
+        "monte_carlo_se": 0.0066691032005810206,
+        "wilson_95": [
+          0.7551749199395362,
+          0.7813098590138939
+        ]
+      },
+      "naive_to_cluster_mean_se_ratio": 0.612188708064956,
+      "theoretical_parameter_covariance": [
+        [
+          0.07533333333333334,
+          -0.07021666666666666
+        ],
+        [
+          -0.07021666666666666,
+          0.06980833333333333
+        ]
+      ],
+      "theoretical_dominance_se": 0.5343921780864687
+    },
+    {
+      "id": "lambda_0.25_r_8_equal_mixture",
+      "truth_label": "equal_mixture",
+      "g": 0.25,
+      "c": 0.25,
+      "b": 0.0,
+      "loading": 0.25,
+      "repeats": 8,
+      "misspecified_shift": false,
+      "spawn_key": [
+        5
+      ],
+      "independent_units": 60,
+      "observed_rows_per_dataset": 480,
+      "observed_mean": [
+        0.5,
+        0.0625
+      ],
+      "fitted_assumptions": {
+        "known_loading": 0.25,
+        "reporting_shift": 0.0
+      },
+      "generation_parameter": {
+        "truth": 0.25,
+        "mean_estimate": 0.2504416574841591,
+        "bias": 0.0004416574841590606,
+        "monte_carlo_se_bias": 0.004250966614528042,
+        "rmse": 0.2688214890508263,
+        "empirical_estimator_sd": 0.2688547351848727,
+        "mean_estimated_se": 0.27350788744125,
+        "mean_95_interval_width": 1.0945760372812543,
+        "coverage_95": {
+          "count": 3814,
+          "datasets": 4000,
+          "rate": 0.9535,
+          "monte_carlo_se": 0.0033293298875299213,
+          "wilson_95": [
+            0.9465281596999663,
+            0.9596016252362746
+          ]
+        }
+      },
+      "control_parameter": {
+        "truth": 0.25,
+        "mean_estimate": 0.24969643576880182,
+        "bias": -0.0003035642311981981,
+        "monte_carlo_se_bias": 0.004096871577870253,
+        "rmse": 0.2590766965528959,
+        "empirical_estimator_sd": 0.2591089093455576,
+        "mean_estimated_se": 0.2632402507716094,
+        "mean_95_interval_width": 1.0534850502415734,
+        "coverage_95": {
+          "count": 3823,
+          "datasets": 4000,
+          "rate": 0.95575,
+          "monte_carlo_se": 0.0032516125807051494,
+          "wilson_95": [
+            0.9489277578051927,
+            0.9616977096362445
+          ]
+        }
+      },
+      "dominance_parameter": {
+        "truth": 0.0,
+        "mean_estimate": 0.0007452217153572578,
+        "bias": 0.0007452217153572578,
+        "monte_carlo_se_bias": 0.00827579178946073,
+        "rmse": 0.5233421305376486,
+        "empirical_estimator_sd": 0.5234070299203313,
+        "mean_estimated_se": 0.5324766450058048,
+        "mean_95_interval_width": 2.1309666111931245,
+        "coverage_95": {
+          "count": 3823,
+          "datasets": 4000,
+          "rate": 0.95575,
+          "monte_carlo_se": 0.0032516125807051494,
+          "wilson_95": [
+            0.9489277578051927,
+            0.9616977096362445
+          ]
+        }
+      },
+      "labels": {
+        "generation_dominant": {
+          "count": 91,
+          "datasets": 4000,
+          "rate": 0.02275,
+          "monte_carlo_se": 0.0023575642886250205,
+          "wilson_95": [
+            0.018566727412319083,
+            0.027849061207700986
+          ]
+        },
+        "control_dominant": {
+          "count": 86,
+          "datasets": 4000,
+          "rate": 0.0215,
+          "monte_carlo_se": 0.0022933463541297025,
+          "wilson_95": [
+            0.017442978578558383,
+            0.026475208649685934
+          ]
+        },
+        "unresolved": {
+          "count": 3823,
+          "datasets": 4000,
+          "rate": 0.95575,
+          "monte_carlo_se": 0.0032516125807051494,
+          "wilson_95": [
+            0.9489277578051927,
+            0.9616977096362445
+          ]
+        }
+      },
+      "naive_row_independent_generation_coverage": {
+        "count": 3121,
+        "datasets": 4000,
+        "rate": 0.78025,
+        "monte_carlo_se": 0.006547135585506077,
+        "wilson_95": [
+          0.7671523052749426,
+          0.7928099267611798
+        ]
+      },
+      "naive_to_cluster_mean_se_ratio": 0.6116620896973298,
+      "theoretical_parameter_covariance": [
+        [
+          0.07533333333333334,
+          -0.07021666666666666
+        ],
+        [
+          -0.07021666666666666,
+          0.06980833333333333
+        ]
+      ],
+      "theoretical_dominance_se": 0.5343921780864687
+    },
+    {
+      "id": "lambda_1.0_r_1_generation",
+      "truth_label": "generation",
+      "g": 0.5,
+      "c": 0.0,
+      "b": 0.0,
+      "loading": 1.0,
+      "repeats": 1,
+      "misspecified_shift": false,
+      "spawn_key": [
+        6
+      ],
+      "independent_units": 60,
+      "observed_rows_per_dataset": 60,
+      "observed_mean": [
+        0.5,
+        0.5
+      ],
+      "fitted_assumptions": {
+        "known_loading": 1.0,
+        "reporting_shift": 0.0
+      },
+      "generation_parameter": {
+        "truth": 0.5,
+        "mean_estimate": 0.5006043639359754,
+        "bias": 0.0006043639359753725,
+        "monte_carlo_se_bias": 0.0018998448581197909,
+        "rmse": 0.12014323861532542,
+        "empirical_estimator_sd": 0.12015673905235957,
+        "mean_estimated_se": 0.11813217282760508,
+        "mean_95_interval_width": 0.4727638636631242,
+        "coverage_95": {
+          "count": 3786,
+          "datasets": 4000,
+          "rate": 0.9465,
+          "monte_carlo_se": 0.0035580103288214327,
+          "wilson_95": [
+            0.9390882305447635,
+            0.9530549865975332
+          ]
+        }
+      },
+      "control_parameter": {
+        "truth": 0.0,
+        "mean_estimate": 0.0037152777908832286,
+        "bias": 0.0037152777908832286,
+        "monte_carlo_se_bias": 0.0023239873273729976,
+        "rmse": 0.1470104444015009,
+        "empirical_estimator_sd": 0.14698186415732095,
+        "mean_estimated_se": 0.14707161303410596,
+        "mean_95_interval_width": 0.5885792358584644,
+        "coverage_95": {
+          "count": 3813,
+          "datasets": 4000,
+          "rate": 0.95325,
+          "monte_carlo_se": 0.0033378300398612254,
+          "wilson_95": [
+            0.9462618003207178,
+            0.9593684643371679
+          ]
+        }
+      },
+      "dominance_parameter": {
+        "truth": 0.5,
+        "mean_estimate": 0.49688908614509214,
+        "bias": -0.0031109138549078553,
+        "monte_carlo_se_bias": 0.0038095747712972735,
+        "rmse": 0.2409286298418958,
+        "empirical_estimator_sd": 0.24093866388028862,
+        "mean_estimated_se": 0.23926712219802193,
+        "mean_95_interval_width": 0.957544811293445,
+        "coverage_95": {
+          "count": 3793,
+          "datasets": 4000,
+          "rate": 0.94825,
+          "monte_carlo_se": 0.0035025682541529424,
+          "wilson_95": [
+            0.940944851237259,
+            0.9546950078535238
+          ]
+        }
+      },
+      "labels": {
+        "generation_dominant": {
+          "count": 2166,
+          "datasets": 4000,
+          "rate": 0.5415,
+          "monte_carlo_se": 0.007878415925806405,
+          "wilson_95": [
+            0.5260261296305581,
+            0.5568942365763966
+          ]
+        },
+        "control_dominant": {
+          "count": 0,
+          "datasets": 4000,
+          "rate": 0.0,
+          "monte_carlo_se": 0.0,
+          "wilson_95": [
+            5.421010862427522e-20,
+            0.0009594432897014865
+          ]
+        },
+        "unresolved": {
+          "count": 1834,
+          "datasets": 4000,
+          "rate": 0.4585,
+          "monte_carlo_se": 0.007878415925806405,
+          "wilson_95": [
+            0.4431057634236034,
+            0.47397387036944194
+          ]
+        }
+      },
+      "naive_row_independent_generation_coverage": {
+        "count": 3786,
+        "datasets": 4000,
+        "rate": 0.9465,
+        "monte_carlo_se": 0.0035580103288214327,
+        "wilson_95": [
+          0.9390882305447635,
+          0.9530549865975332
+        ]
+      },
+      "naive_to_cluster_mean_se_ratio": 1.0,
+      "theoretical_parameter_covariance": [
+        [
+          0.01404166666666667,
+          -0.010895833333333335
+        ],
+        [
+          -0.010895833333333335,
+          0.02179166666666667
+        ]
+      ],
+      "theoretical_dominance_se": 0.2400520776831561
+    },
+    {
+      "id": "lambda_1.0_r_1_control",
+      "truth_label": "control",
+      "g": 0.0,
+      "c": 0.5,
+      "b": 0.0,
+      "loading": 1.0,
+      "repeats": 1,
+      "misspecified_shift": false,
+      "spawn_key": [
+        7
+      ],
+      "independent_units": 60,
+      "observed_rows_per_dataset": 60,
+      "observed_mean": [
+        0.5,
+        0.0
+      ],
+      "fitted_assumptions": {
+        "known_loading": 1.0,
+        "reporting_shift": 0.0
+      },
+      "generation_parameter": {
+        "truth": 0.0,
+        "mean_estimate": 0.001736514162796939,
+        "bias": 0.001736514162796939,
+        "monte_carlo_se_bias": 0.0018568808738124048,
+        "rmse": 0.11743761660123789,
+        "empirical_estimator_sd": 0.11743945809701814,
+        "mean_estimated_se": 0.11774324515545236,
+        "mean_95_interval_width": 0.47120737871434776,
+        "coverage_95": {
+          "count": 3805,
+          "datasets": 4000,
+          "rate": 0.95125,
+          "monte_carlo_se": 0.003404902256306338,
+          "wilson_95": [
+            0.9441327316480759,
+            0.9575013707829687
+          ]
+        }
+      },
+      "control_parameter": {
+        "truth": 0.5,
+        "mean_estimate": 0.4952976476955913,
+        "bias": -0.004702352304408724,
+        "monte_carlo_se_bias": 0.002338333937959148,
+        "rmse": 0.14794548568048813,
+        "empirical_estimator_sd": 0.14788922348043534,
+        "mean_estimated_se": 0.14718434029750022,
+        "mean_95_interval_width": 0.5890303693245373,
+        "coverage_95": {
+          "count": 3803,
+          "datasets": 4000,
+          "rate": 0.95075,
+          "monte_carlo_se": 0.003421419204803762,
+          "wilson_95": [
+            0.9436009528021545,
+            0.9570341090721797
+          ]
+        }
+      },
+      "dominance_parameter": {
+        "truth": -0.5,
+        "mean_estimate": -0.4935611335327943,
+        "bias": 0.006438866467205662,
+        "monte_carlo_se_bias": 0.00377315741081441,
+        "rmse": 0.23869245834686634,
+        "empirical_estimator_sd": 0.23863542777034344,
+        "mean_estimated_se": 0.23899445614123876,
+        "mean_95_interval_width": 0.9564536042546757,
+        "coverage_95": {
+          "count": 3794,
+          "datasets": 4000,
+          "rate": 0.9485,
+          "monte_carlo_se": 0.0034945582696529753,
+          "wilson_95": [
+            0.9412102572793271,
+            0.9549291220898108
+          ]
+        }
+      },
+      "labels": {
+        "generation_dominant": {
+          "count": 0,
+          "datasets": 4000,
+          "rate": 0.0,
+          "monte_carlo_se": 0.0,
+          "wilson_95": [
+            5.421010862427522e-20,
+            0.0009594432897014865
+          ]
+        },
+        "control_dominant": {
+          "count": 2140,
+          "datasets": 4000,
+          "rate": 0.535,
+          "monte_carlo_se": 0.007886301414478146,
+          "wilson_95": [
+            0.5195169330193987,
+            0.5504159059503222
+          ]
+        },
+        "unresolved": {
+          "count": 1860,
+          "datasets": 4000,
+          "rate": 0.465,
+          "monte_carlo_se": 0.007886301414478145,
+          "wilson_95": [
+            0.449584094049678,
+            0.48048306698060134
+          ]
+        }
+      },
+      "naive_row_independent_generation_coverage": {
+        "count": 3805,
+        "datasets": 4000,
+        "rate": 0.95125,
+        "monte_carlo_se": 0.003404902256306338,
+        "wilson_95": [
+          0.9441327316480759,
+          0.9575013707829687
+        ]
+      },
+      "naive_to_cluster_mean_se_ratio": 1.0,
+      "theoretical_parameter_covariance": [
+        [
+          0.01404166666666667,
+          -0.010895833333333335
+        ],
+        [
+          -0.010895833333333335,
+          0.02179166666666667
+        ]
+      ],
+      "theoretical_dominance_se": 0.2400520776831561
+    },
+    {
+      "id": "lambda_1.0_r_1_equal_mixture",
+      "truth_label": "equal_mixture",
+      "g": 0.25,
+      "c": 0.25,
+      "b": 0.0,
+      "loading": 1.0,
+      "repeats": 1,
+      "misspecified_shift": false,
+      "spawn_key": [
+        8
+      ],
+      "independent_units": 60,
+      "observed_rows_per_dataset": 60,
+      "observed_mean": [
+        0.5,
+        0.25
+      ],
+      "fitted_assumptions": {
+        "known_loading": 1.0,
+        "reporting_shift": 0.0
+      },
+      "generation_parameter": {
+        "truth": 0.25,
+        "mean_estimate": 0.2508225150586271,
+        "bias": 0.0008225150586271165,
+        "monte_carlo_se_bias": 0.001842279607252765,
+        "rmse": 0.1165043310013322,
+        "empirical_estimator_sd": 0.11651599291598388,
+        "mean_estimated_se": 0.1182403586848667,
+        "mean_95_interval_width": 0.4731968224638342,
+        "coverage_95": {
+          "count": 3808,
+          "datasets": 4000,
+          "rate": 0.952,
+          "monte_carlo_se": 0.0033799408278844187,
+          "wilson_95": [
+            0.9449307616636636,
+            0.9582019016024462
+          ]
+        }
+      },
+      "control_parameter": {
+        "truth": 0.25,
+        "mean_estimate": 0.24777794443716472,
+        "bias": -0.002222055562835267,
+        "monte_carlo_se_bias": 0.002326599570447568,
+        "rmse": 0.14714546105874401,
+        "empirical_estimator_sd": 0.14714707691567383,
+        "mean_estimated_se": 0.14716224755373158,
+        "mean_95_interval_width": 0.5889419543681965,
+        "coverage_95": {
+          "count": 3814,
+          "datasets": 4000,
+          "rate": 0.9535,
+          "monte_carlo_se": 0.0033293298875299213,
+          "wilson_95": [
+            0.9465281596999663,
+            0.9596016252362746
+          ]
+        }
+      },
+      "dominance_parameter": {
+        "truth": 0.0,
+        "mean_estimate": 0.0030445706214623845,
+        "bias": 0.0030445706214623845,
+        "monte_carlo_se_bias": 0.0037615904528178284,
+        "rmse": 0.2378936123279801,
+        "empirical_estimator_sd": 0.23790386911296954,
+        "mean_estimated_se": 0.23942538957327142,
+        "mean_95_interval_width": 0.9581781958661976,
+        "coverage_95": {
+          "count": 3813,
+          "datasets": 4000,
+          "rate": 0.95325,
+          "monte_carlo_se": 0.0033378300398612254,
+          "wilson_95": [
+            0.9462618003207178,
+            0.9593684643371679
+          ]
+        }
+      },
+      "labels": {
+        "generation_dominant": {
+          "count": 103,
+          "datasets": 4000,
+          "rate": 0.02575,
+          "monte_carlo_se": 0.0025043431024921485,
+          "wilson_95": [
+            0.021277893758628742,
+            0.031132138201653115
+          ]
+        },
+        "control_dominant": {
+          "count": 84,
+          "datasets": 4000,
+          "rate": 0.021,
+          "monte_carlo_se": 0.002267101673944069,
+          "wilson_95": [
+            0.016994553487667693,
+            0.025924593183866335
+          ]
+        },
+        "unresolved": {
+          "count": 3813,
+          "datasets": 4000,
+          "rate": 0.95325,
+          "monte_carlo_se": 0.0033378300398612254,
+          "wilson_95": [
+            0.9462618003207178,
+            0.9593684643371679
+          ]
+        }
+      },
+      "naive_row_independent_generation_coverage": {
+        "count": 3808,
+        "datasets": 4000,
+        "rate": 0.952,
+        "monte_carlo_se": 0.0033799408278844187,
+        "wilson_95": [
+          0.9449307616636636,
+          0.9582019016024462
+        ]
+      },
+      "naive_to_cluster_mean_se_ratio": 1.0,
+      "theoretical_parameter_covariance": [
+        [
+          0.01404166666666667,
+          -0.010895833333333335
+        ],
+        [
+          -0.010895833333333335,
+          0.02179166666666667
+        ]
+      ],
+      "theoretical_dominance_se": 0.2400520776831561
+    },
+    {
+      "id": "lambda_1.0_r_8_generation",
+      "truth_label": "generation",
+      "g": 0.5,
+      "c": 0.0,
+      "b": 0.0,
+      "loading": 1.0,
+      "repeats": 8,
+      "misspecified_shift": false,
+      "spawn_key": [
+        9
+      ],
+      "independent_units": 60,
+      "observed_rows_per_dataset": 480,
+      "observed_mean": [
+        0.5,
+        0.5
+      ],
+      "fitted_assumptions": {
+        "known_loading": 1.0,
+        "reporting_shift": 0.0
+      },
+      "generation_parameter": {
+        "truth": 0.5,
+        "mean_estimate": 0.4998709399275419,
+        "bias": -0.0001290600724581224,
+        "monte_carlo_se_bias": 0.0011047709048573726,
+        "rmse": 0.06986323172189786,
+        "empirical_estimator_sd": 0.06987184704068951,
+        "mean_estimated_se": 0.06825625231803319,
+        "mean_95_interval_width": 0.2731608908280219,
+        "coverage_95": {
+          "count": 3793,
+          "datasets": 4000,
+          "rate": 0.94825,
+          "monte_carlo_se": 0.0035025682541529424,
+          "wilson_95": [
+            0.940944851237259,
+            0.9546950078535238
+          ]
+        }
+      },
+      "control_parameter": {
+        "truth": 0.0,
+        "mean_estimate": -0.0020379059537373487,
+        "bias": -0.0020379059537373487,
+        "monte_carlo_se_bias": 0.0013107280235116904,
+        "rmse": 0.08291240473656586,
+        "empirical_estimator_sd": 0.08289771894615346,
+        "mean_estimated_se": 0.08214267518552201,
+        "mean_95_interval_width": 0.32873422678007064,
+        "coverage_95": {
+          "count": 3801,
+          "datasets": 4000,
+          "rate": 0.95025,
+          "monte_carlo_se": 0.003437838619685338,
+          "wilson_95": [
+            0.943069363657647,
+            0.956566657659977
+          ]
+        }
+      },
+      "dominance_parameter": {
+        "truth": 0.5,
+        "mean_estimate": 0.5019088458812793,
+        "bias": 0.001908845881279222,
+        "monte_carlo_se_bias": 0.002164870285304876,
+        "rmse": 0.13691461002402314,
+        "empirical_estimator_sd": 0.13691841880763908,
+        "mean_estimated_se": 0.13477628872275074,
+        "mean_95_interval_width": 0.539373461620228,
+        "coverage_95": {
+          "count": 3797,
+          "datasets": 4000,
+          "rate": 0.94925,
+          "monte_carlo_se": 0.003470390377896987,
+          "wilson_95": [
+            0.9420067437723765,
+            0.9556311964318269
+          ]
+        }
+      },
+      "labels": {
+        "generation_dominant": {
+          "count": 3803,
+          "datasets": 4000,
+          "rate": 0.95075,
+          "monte_carlo_se": 0.003421419204803762,
+          "wilson_95": [
+            0.9436009528021545,
+            0.9570341090721797
+          ]
+        },
+        "control_dominant": {
+          "count": 0,
+          "datasets": 4000,
+          "rate": 0.0,
+          "monte_carlo_se": 0.0,
+          "wilson_95": [
+            5.421010862427522e-20,
+            0.0009594432897014865
+          ]
+        },
+        "unresolved": {
+          "count": 197,
+          "datasets": 4000,
+          "rate": 0.04925,
+          "monte_carlo_se": 0.003421419204803761,
+          "wilson_95": [
+            0.04296589092782036,
+            0.056399047197845546
+          ]
+        }
+      },
+      "naive_row_independent_generation_coverage": {
+        "count": 3035,
+        "datasets": 4000,
+        "rate": 0.75875,
+        "monte_carlo_se": 0.0067647697207665535,
+        "wilson_95": [
+          0.7452470759629028,
+          0.7717564121346767
+        ]
+      },
+      "naive_to_cluster_mean_se_ratio": 0.6119652599765217,
+      "theoretical_parameter_covariance": [
+        [
+          0.0047083333333333335,
+          -0.0034291666666666663
+        ],
+        [
+          -0.0034291666666666663,
+          0.006858333333333333
+        ]
+      ],
+      "theoretical_dominance_se": 0.13573871960498227
+    },
+    {
+      "id": "lambda_1.0_r_8_control",
+      "truth_label": "control",
+      "g": 0.0,
+      "c": 0.5,
+      "b": 0.0,
+      "loading": 1.0,
+      "repeats": 8,
+      "misspecified_shift": false,
+      "spawn_key": [
+        10
+      ],
+      "independent_units": 60,
+      "observed_rows_per_dataset": 480,
+      "observed_mean": [
+        0.5,
+        0.0
+      ],
+      "fitted_assumptions": {
+        "known_loading": 1.0,
+        "reporting_shift": 0.0
+      },
+      "generation_parameter": {
+        "truth": 0.0,
+        "mean_estimate": 0.0008529774906872929,
+        "bias": 0.0008529774906872929,
+        "monte_carlo_se_bias": 0.0010769602883808846,
+        "rmse": 0.06810977593660562,
+        "empirical_estimator_sd": 0.06811294921670734,
+        "mean_estimated_se": 0.06823303317465508,
+        "mean_95_interval_width": 0.2730679680308563,
+        "coverage_95": {
+          "count": 3795,
+          "datasets": 4000,
+          "rate": 0.94875,
+          "monte_carlo_se": 0.0034865254014562986,
+          "wilson_95": [
+            0.9414757078439618,
+            0.9551631918035312
+          ]
+        }
+      },
+      "control_parameter": {
+        "truth": 0.5,
+        "mean_estimate": 0.4988518584643884,
+        "bias": -0.0011481415356116348,
+        "monte_carlo_se_bias": 0.001322938089463543,
+        "rmse": 0.08366737009139848,
+        "empirical_estimator_sd": 0.08366995132192798,
+        "mean_estimated_se": 0.08239409030428041,
+        "mean_95_interval_width": 0.32974038776130477,
+        "coverage_95": {
+          "count": 3795,
+          "datasets": 4000,
+          "rate": 0.94875,
+          "monte_carlo_se": 0.0034865254014562986,
+          "wilson_95": [
+            0.9414757078439618,
+            0.9551631918035312
+          ]
+        }
+      },
+      "dominance_parameter": {
+        "truth": -0.5,
+        "mean_estimate": -0.49799888097370104,
+        "bias": 0.002001119026298928,
+        "monte_carlo_se_bias": 0.002146051181128229,
+        "rmse": 0.13572597993668292,
+        "empirical_estimator_sd": 0.13572819415319526,
+        "mean_estimated_se": 0.13501228503437254,
+        "mean_95_interval_width": 0.5403179166778302,
+        "coverage_95": {
+          "count": 3804,
+          "datasets": 4000,
+          "rate": 0.951,
+          "monte_carlo_se": 0.003413173010557773,
+          "wilson_95": [
+            0.9438668183415736,
+            0.9572677638111157
+          ]
+        }
+      },
+      "labels": {
+        "generation_dominant": {
+          "count": 0,
+          "datasets": 4000,
+          "rate": 0.0,
+          "monte_carlo_se": 0.0,
+          "wilson_95": [
+            5.421010862427522e-20,
+            0.0009594432897014865
+          ]
+        },
+        "control_dominant": {
+          "count": 3819,
+          "datasets": 4000,
+          "rate": 0.95475,
+          "monte_carlo_se": 0.0032864280571769716,
+          "wilson_95": [
+            0.947860736290353,
+            0.9607666500376636
+          ]
+        },
+        "unresolved": {
+          "count": 181,
+          "datasets": 4000,
+          "rate": 0.04525,
+          "monte_carlo_se": 0.0032864280571769707,
+          "wilson_95": [
+            0.03923334996233639,
+            0.052139263709647124
+          ]
+        }
+      },
+      "naive_row_independent_generation_coverage": {
+        "count": 3080,
+        "datasets": 4000,
+        "rate": 0.77,
+        "monte_carlo_se": 0.006653946197558257,
+        "wilson_95": [
+          0.7567031394009298,
+          0.7827787612226313
+        ]
+      },
+      "naive_to_cluster_mean_se_ratio": 0.6123823768533987,
+      "theoretical_parameter_covariance": [
+        [
+          0.0047083333333333335,
+          -0.0034291666666666663
+        ],
+        [
+          -0.0034291666666666663,
+          0.006858333333333333
+        ]
+      ],
+      "theoretical_dominance_se": 0.13573871960498227
+    },
+    {
+      "id": "lambda_1.0_r_8_equal_mixture",
+      "truth_label": "equal_mixture",
+      "g": 0.25,
+      "c": 0.25,
+      "b": 0.0,
+      "loading": 1.0,
+      "repeats": 8,
+      "misspecified_shift": false,
+      "spawn_key": [
+        11
+      ],
+      "independent_units": 60,
+      "observed_rows_per_dataset": 480,
+      "observed_mean": [
+        0.5,
+        0.25
+      ],
+      "fitted_assumptions": {
+        "known_loading": 1.0,
+        "reporting_shift": 0.0
+      },
+      "generation_parameter": {
+        "truth": 0.25,
+        "mean_estimate": 0.2511571835825293,
+        "bias": 0.0011571835825293128,
+        "monte_carlo_se_bias": 0.0010774621929233816,
+        "rmse": 0.06814599957285494,
+        "empirical_estimator_sd": 0.06814469244715285,
+        "mean_estimated_se": 0.06834253072762014,
+        "mean_95_interval_width": 0.27350617622564655,
+        "coverage_95": {
+          "count": 3806,
+          "datasets": 4000,
+          "rate": 0.9515,
+          "monte_carlo_se": 0.0033966067626382654,
+          "wilson_95": [
+            0.944398693068801,
+            0.9577349296405987
+          ]
+        }
+      },
+      "control_parameter": {
+        "truth": 0.25,
+        "mean_estimate": 0.24885457934192834,
+        "bias": -0.0011454206580716472,
+        "monte_carlo_se_bias": 0.0013087863199609804,
+        "rmse": 0.08277249296789752,
+        "empirical_estimator_sd": 0.08277491483093186,
+        "mean_estimated_se": 0.08229799477283373,
+        "mean_95_interval_width": 0.32935581433274536,
+        "coverage_95": {
+          "count": 3800,
+          "datasets": 4000,
+          "rate": 0.95,
+          "monte_carlo_se": 0.003446012188022557,
+          "wilson_95": [
+            0.9428036393796931,
+            0.9563328616595755
+          ]
+        }
+      },
+      "dominance_parameter": {
+        "truth": 0.0,
+        "mean_estimate": 0.002302604240600957,
+        "bias": 0.002302604240600957,
+        "monte_carlo_se_bias": 0.0021457285863752014,
+        "rmse": 0.13571036253976085,
+        "empirical_estimator_sd": 0.1357077914695795,
+        "mean_estimated_se": 0.13508717899237815,
+        "mean_95_interval_width": 0.5406176416054622,
+        "coverage_95": {
+          "count": 3789,
+          "datasets": 4000,
+          "rate": 0.94725,
+          "monte_carlo_se": 0.0035343824602043273,
+          "wilson_95": [
+            0.9398836662826561,
+            0.9537581116947061
+          ]
+        }
+      },
+      "labels": {
+        "generation_dominant": {
+          "count": 106,
+          "datasets": 4000,
+          "rate": 0.0265,
+          "monte_carlo_se": 0.0025395742753461653,
+          "wilson_95": [
+            0.021958511840285716,
+            0.03195008095506159
+          ]
+        },
+        "control_dominant": {
+          "count": 105,
+          "datasets": 4000,
+          "rate": 0.02625,
+          "monte_carlo_se": 0.002527891290186348,
+          "wilson_95": [
+            0.021731521762926847,
+            0.03167755075406531
+          ]
+        },
+        "unresolved": {
+          "count": 3789,
+          "datasets": 4000,
+          "rate": 0.94725,
+          "monte_carlo_se": 0.0035343824602043273,
+          "wilson_95": [
+            0.9398836662826561,
+            0.9537581116947061
+          ]
+        }
+      },
+      "naive_row_independent_generation_coverage": {
+        "count": 3102,
+        "datasets": 4000,
+        "rate": 0.7755,
+        "monte_carlo_se": 0.006597343215264764,
+        "wilson_95": [
+          0.7623086201347784,
+          0.7881627266125961
+        ]
+      },
+      "naive_to_cluster_mean_se_ratio": 0.6114707031447759,
+      "theoretical_parameter_covariance": [
+        [
+          0.0047083333333333335,
+          -0.0034291666666666663
+        ],
+        [
+          -0.0034291666666666663,
+          0.006858333333333333
+        ]
+      ],
+      "theoretical_dominance_se": 0.13573871960498227
+    },
+    {
+      "id": "lambda_0.25_r_8_hidden_shift",
+      "truth_label": "generation",
+      "g": 0.5,
+      "c": 0.0,
+      "b": -0.125,
+      "loading": 0.25,
+      "repeats": 8,
+      "misspecified_shift": true,
+      "spawn_key": [
+        12
+      ],
+      "independent_units": 60,
+      "observed_rows_per_dataset": 480,
+      "observed_mean": [
+        0.5,
+        0.0
+      ],
+      "fitted_assumptions": {
+        "known_loading": 0.25,
+        "reporting_shift": 0.0
+      },
+      "generation_parameter": {
+        "truth": 0.5,
+        "mean_estimate": -0.001406242392031314,
+        "bias": -0.5014062423920312,
+        "monte_carlo_se_bias": 0.004368451036880792,
+        "rmse": 0.5724706057010563,
+        "empirical_estimator_sd": 0.2762851024693504,
+        "mean_estimated_se": 0.2735868121694473,
+        "mean_95_interval_width": 1.094891893313934,
+        "coverage_95": {
+          "count": 2288,
+          "datasets": 4000,
+          "rate": 0.572,
+          "monte_carlo_se": 0.007823298537062229,
+          "wilson_95": [
+            0.5566047385480535,
+            0.5872571016182295
+          ]
+        }
+      },
+      "control_parameter": {
+        "truth": 0.0,
+        "mean_estimate": 0.5021901511500259,
+        "bias": 0.5021901511500259,
+        "monte_carlo_se_bias": 0.004216209997257855,
+        "rmse": 0.5685797028115348,
+        "empirical_estimator_sd": 0.26665653369814196,
+        "mean_estimated_se": 0.2631670226964079,
+        "mean_95_interval_width": 1.0531919921615247,
+        "coverage_95": {
+          "count": 2176,
+          "datasets": 4000,
+          "rate": 0.544,
+          "monte_carlo_se": 0.007875023809487815,
+          "wilson_95": [
+            0.5285303698587903,
+            0.5593851991317161
+          ]
+        }
+      },
+      "dominance_parameter": {
+        "truth": 0.5,
+        "mean_estimate": -0.5035963935420572,
+        "bias": -1.003596393542057,
+        "monte_carlo_se_bias": 0.00851770011409423,
+        "rmse": 1.1390074762045916,
+        "empirical_estimator_sd": 0.5387066557362767,
+        "mean_estimated_se": 0.5324755463600104,
+        "mean_95_interval_width": 2.1309622144228113,
+        "coverage_95": {
+          "count": 2208,
+          "datasets": 4000,
+          "rate": 0.552,
+          "monte_carlo_se": 0.007862823920195593,
+          "wilson_95": [
+            0.5365465711446844,
+            0.5673536467531868
+          ]
+        }
+      },
+      "labels": {
+        "generation_dominant": {
+          "count": 13,
+          "datasets": 4000,
+          "rate": 0.00325,
+          "monte_carlo_se": 0.0008999218716088636,
+          "wilson_95": [
+            0.0019003484269795887,
+            0.0055528584813388385
+          ]
+        },
+        "control_dominant": {
+          "count": 614,
+          "datasets": 4000,
+          "rate": 0.1535,
+          "monte_carlo_se": 0.0056995120405171525,
+          "wilson_95": [
+            0.1426620208147916,
+            0.16500287338497152
+          ]
+        },
+        "unresolved": {
+          "count": 3373,
+          "datasets": 4000,
+          "rate": 0.84325,
+          "monte_carlo_se": 0.005748465827940529,
+          "wilson_95": [
+            0.8316544768852977,
+            0.8541868652963224
+          ]
+        }
+      },
+      "naive_row_independent_generation_coverage": {
+        "count": 1042,
+        "datasets": 4000,
+        "rate": 0.2605,
+        "monte_carlo_se": 0.00693973612610739,
+        "wilson_95": [
+          0.24713273855514933,
+          0.27432683478061776
+        ]
+      },
+      "naive_to_cluster_mean_se_ratio": 0.6112511133551326,
+      "theoretical_parameter_covariance": [
+        [
+          0.07533333333333334,
+          -0.07021666666666666
+        ],
+        [
+          -0.07021666666666666,
+          0.06980833333333333
+        ]
+      ],
+      "theoretical_dominance_se": 0.5343921780864687
+    },
+    {
+      "id": "lambda_1.0_r_8_hidden_shift",
+      "truth_label": "generation",
+      "g": 0.5,
+      "c": 0.0,
+      "b": -0.5,
+      "loading": 1.0,
+      "repeats": 8,
+      "misspecified_shift": true,
+      "spawn_key": [
+        13
+      ],
+      "independent_units": 60,
+      "observed_rows_per_dataset": 480,
+      "observed_mean": [
+        0.5,
+        0.0
+      ],
+      "fitted_assumptions": {
+        "known_loading": 1.0,
+        "reporting_shift": 0.0
+      },
+      "generation_parameter": {
+        "truth": 0.5,
+        "mean_estimate": 0.0013465020724579317,
+        "bias": -0.49865349792754204,
+        "monte_carlo_se_bias": 0.001075264641704085,
+        "rmse": 0.5032682495450309,
+        "empirical_estimator_sd": 0.0680057071045957,
+        "mean_estimated_se": 0.06843525983487553,
+        "mean_95_interval_width": 0.2738772772557111,
+        "coverage_95": {
+          "count": 0,
+          "datasets": 4000,
+          "rate": 0.0,
+          "monte_carlo_se": 0.0,
+          "wilson_95": [
+            5.421010862427522e-20,
+            0.0009594432897014865
+          ]
+        }
+      },
+      "control_parameter": {
+        "truth": 0.0,
+        "mean_estimate": 0.4979705647539997,
+        "bias": 0.4979705647539997,
+        "monte_carlo_se_bias": 0.001310692573950913,
+        "rmse": 0.5048213798365063,
+        "empirical_estimator_sd": 0.08289547691907127,
+        "mean_estimated_se": 0.08252714482585102,
+        "mean_95_interval_width": 0.33027287072669786,
+        "coverage_95": {
+          "count": 0,
+          "datasets": 4000,
+          "rate": 0.0,
+          "monte_carlo_se": 0.0,
+          "wilson_95": [
+            5.421010862427522e-20,
+            0.0009594432897014865
+          ]
+        }
+      },
+      "dominance_parameter": {
+        "truth": 0.5,
+        "mean_estimate": -0.4966240626815418,
+        "bias": -0.9966240626815418,
+        "monte_carlo_se_bias": 0.0021348644586684806,
+        "rmse": 1.0057263791395492,
+        "empirical_estimator_sd": 0.13502068370269593,
+        "mean_estimated_se": 0.13535122975300345,
+        "mean_95_interval_width": 0.5416743703086461,
+        "coverage_95": {
+          "count": 0,
+          "datasets": 4000,
+          "rate": 0.0,
+          "monte_carlo_se": 0.0,
+          "wilson_95": [
+            5.421010862427522e-20,
+            0.0009594432897014865
+          ]
+        }
+      },
+      "labels": {
+        "generation_dominant": {
+          "count": 0,
+          "datasets": 4000,
+          "rate": 0.0,
+          "monte_carlo_se": 0.0,
+          "wilson_95": [
+            5.421010862427522e-20,
+            0.0009594432897014865
+          ]
+        },
+        "control_dominant": {
+          "count": 3783,
+          "datasets": 4000,
+          "rate": 0.94575,
+          "monte_carlo_se": 0.0035814430576235614,
+          "wilson_95": [
+            0.9382931745695986,
+            0.9523514817376326
+          ]
+        },
+        "unresolved": {
+          "count": 217,
+          "datasets": 4000,
+          "rate": 0.05425,
+          "monte_carlo_se": 0.0035814430576235606,
+          "wilson_95": [
+            0.04764851826236749,
+            0.0617068254304014
+          ]
+        }
+      },
+      "naive_row_independent_generation_coverage": {
+        "count": 0,
+        "datasets": 4000,
+        "rate": 0.0,
+        "monte_carlo_se": 0.0,
+        "wilson_95": [
+          5.421010862427522e-20,
+          0.0009594432897014865
+        ]
+      },
+      "naive_to_cluster_mean_se_ratio": 0.6110036354983467,
+      "theoretical_parameter_covariance": [
+        [
+          0.0047083333333333335,
+          -0.0034291666666666663
+        ],
+        [
+          -0.0034291666666666663,
+          0.006858333333333333
+        ]
+      ],
+      "theoretical_dominance_se": 0.13573871960498227
+    }
+  ],
+  "transfer": [
+    {
+      "id": "transfer_1.0_1.0_generation",
+      "truth_label": "generation",
+      "g": 0.5,
+      "c": 0.0,
+      "transfer_coefficients": [
+        1.0,
+        1.0
+      ],
+      "spawn_key": [
+        14
+      ],
+      "training_spawn_key": [
+        14,
+        0
+      ],
+      "heldout_spawn_key": [
+        14,
+        1
+      ],
+      "independent_units_per_context": 60,
+      "repeats_per_unit": 8,
+      "training_expected_tic_change": 0.5,
+      "heldout_expected_tic_change": 0.5,
+      "training_full_transfer_prediction_mean": 0.49988183270271064,
+      "heldout_mean": 0.5010373065621105,
+      "gap_summary": {
+        "truth": 0.0,
+        "mean_estimate": 0.0011554738593998759,
+        "bias": 0.0011554738593998759,
+        "monte_carlo_se_bias": 0.0015398950085024536,
+        "rmse": 0.09738619199889496,
+        "empirical_estimator_sd": 0.09739151168784212,
+        "mean_estimated_se": 0.09684079525587606,
+        "mean_95_interval_width": 0.38360600757260943,
+        "coverage_95": {
+          "count": 3789,
+          "datasets": 4000,
+          "rate": 0.94725,
+          "monte_carlo_se": 0.0035343824602043273,
+          "wilson_95": [
+            0.9398836662826561,
+            0.9537581116947061
+          ]
+        }
+      },
+      "mean_gap_interval_includes_zero": {
+        "count": 3789,
+        "datasets": 4000,
+        "rate": 0.94725,
+        "monte_carlo_se": 0.0035343824602043273,
+        "wilson_95": [
+          0.9398836662826561,
+          0.9537581116947061
+        ]
+      },
+      "theoretical_gap_se": 0.09703951085339758,
+      "note": "Held-out data test a full-transfer population mean prediction, not individual predictions or a mechanism classifier."
+    },
+    {
+      "id": "transfer_1.0_1.0_control",
+      "truth_label": "control",
+      "g": 0.0,
+      "c": 0.5,
+      "transfer_coefficients": [
+        1.0,
+        1.0
+      ],
+      "spawn_key": [
+        15
+      ],
+      "training_spawn_key": [
+        15,
+        0
+      ],
+      "heldout_spawn_key": [
+        15,
+        1
+      ],
+      "independent_units_per_context": 60,
+      "repeats_per_unit": 8,
+      "training_expected_tic_change": 0.5,
+      "heldout_expected_tic_change": 0.5,
+      "training_full_transfer_prediction_mean": 0.5005448424739544,
+      "heldout_mean": 0.5007673473298172,
+      "gap_summary": {
+        "truth": 0.0,
+        "mean_estimate": 0.0002225048558627337,
+        "bias": 0.0002225048558627337,
+        "monte_carlo_se_bias": 0.0015297088599024765,
+        "rmse": 0.09673544481456296,
+        "empirical_estimator_sd": 0.09674728308462485,
+        "mean_estimated_se": 0.09683509694112467,
+        "mean_95_interval_width": 0.3835836979009862,
+        "coverage_95": {
+          "count": 3807,
+          "datasets": 4000,
+          "rate": 0.95175,
+          "monte_carlo_se": 0.0033882863478460618,
+          "wilson_95": [
+            0.9446647029553098,
+            0.957968440032445
+          ]
+        }
+      },
+      "mean_gap_interval_includes_zero": {
+        "count": 3807,
+        "datasets": 4000,
+        "rate": 0.95175,
+        "monte_carlo_se": 0.0033882863478460618,
+        "wilson_95": [
+          0.9446647029553098,
+          0.957968440032445
+        ]
+      },
+      "theoretical_gap_se": 0.09703951085339758,
+      "note": "Held-out data test a full-transfer population mean prediction, not individual predictions or a mechanism classifier."
+    },
+    {
+      "id": "transfer_1.0_0.25_generation",
+      "truth_label": "generation",
+      "g": 0.5,
+      "c": 0.0,
+      "transfer_coefficients": [
+        1.0,
+        0.25
+      ],
+      "spawn_key": [
+        16
+      ],
+      "training_spawn_key": [
+        16,
+        0
+      ],
+      "heldout_spawn_key": [
+        16,
+        1
+      ],
+      "independent_units_per_context": 60,
+      "repeats_per_unit": 8,
+      "training_expected_tic_change": 0.5,
+      "heldout_expected_tic_change": 0.5,
+      "training_full_transfer_prediction_mean": 0.49980942165653575,
+      "heldout_mean": 0.4988033452645193,
+      "gap_summary": {
+        "truth": 0.0,
+        "mean_estimate": -0.0010060763920164302,
+        "bias": -0.0010060763920164302,
+        "monte_carlo_se_bias": 0.0015594177479699265,
+        "rmse": 0.09861904104547092,
+        "empirical_estimator_sd": 0.09862623814550765,
+        "mean_estimated_se": 0.096849083847164,
+        "mean_95_interval_width": 0.383640530185766,
+        "coverage_95": {
+          "count": 3780,
+          "datasets": 4000,
+          "rate": 0.945,
+          "monte_carlo_se": 0.003604684452209376,
+          "wilson_95": [
+            0.9374984909854519,
+            0.9516476044867138
+          ]
+        }
+      },
+      "mean_gap_interval_includes_zero": {
+        "count": 3780,
+        "datasets": 4000,
+        "rate": 0.945,
+        "monte_carlo_se": 0.003604684452209376,
+        "wilson_95": [
+          0.9374984909854519,
+          0.9516476044867138
+        ]
+      },
+      "theoretical_gap_se": 0.09703951085339758,
+      "note": "Held-out data test a full-transfer population mean prediction, not individual predictions or a mechanism classifier."
+    },
+    {
+      "id": "transfer_1.0_0.25_control",
+      "truth_label": "control",
+      "g": 0.0,
+      "c": 0.5,
+      "transfer_coefficients": [
+        1.0,
+        0.25
+      ],
+      "spawn_key": [
+        17
+      ],
+      "training_spawn_key": [
+        17,
+        0
+      ],
+      "heldout_spawn_key": [
+        17,
+        1
+      ],
+      "independent_units_per_context": 60,
+      "repeats_per_unit": 8,
+      "training_expected_tic_change": 0.5,
+      "heldout_expected_tic_change": 0.125,
+      "training_full_transfer_prediction_mean": 0.49978433397710764,
+      "heldout_mean": 0.12528165224583285,
+      "gap_summary": {
+        "truth": -0.375,
+        "mean_estimate": -0.37450268173127477,
+        "bias": 0.0004973182687252459,
+        "monte_carlo_se_bias": 0.0015378098439618336,
+        "rmse": 0.09724874770961268,
+        "empirical_estimator_sd": 0.09725963430295055,
+        "mean_estimated_se": 0.09697834605270583,
+        "mean_95_interval_width": 0.3841537730645199,
+        "coverage_95": {
+          "count": 3813,
+          "datasets": 4000,
+          "rate": 0.95325,
+          "monte_carlo_se": 0.0033378300398612254,
+          "wilson_95": [
+            0.9462618003207178,
+            0.9593684643371679
+          ]
+        }
+      },
+      "mean_gap_interval_includes_zero": {
+        "count": 127,
+        "datasets": 4000,
+        "rate": 0.03175,
+        "monte_carlo_se": 0.0027722706172017193,
+        "wilson_95": [
+          0.026749765804142137,
+          0.037648752836663316
+        ]
+      },
+      "theoretical_gap_se": 0.09703951085339758,
+      "note": "Held-out data test a full-transfer population mean prediction, not individual predictions or a mechanism classifier."
+    },
+    {
+      "id": "transfer_0.25_1.0_generation",
+      "truth_label": "generation",
+      "g": 0.5,
+      "c": 0.0,
+      "transfer_coefficients": [
+        0.25,
+        1.0
+      ],
+      "spawn_key": [
+        18
+      ],
+      "training_spawn_key": [
+        18,
+        0
+      ],
+      "heldout_spawn_key": [
+        18,
+        1
+      ],
+      "independent_units_per_context": 60,
+      "repeats_per_unit": 8,
+      "training_expected_tic_change": 0.5,
+      "heldout_expected_tic_change": 0.125,
+      "training_full_transfer_prediction_mean": 0.5023283109010322,
+      "heldout_mean": 0.12333152984400451,
+      "gap_summary": {
+        "truth": -0.375,
+        "mean_estimate": -0.3789967810570278,
+        "bias": -0.003996781057027732,
+        "monte_carlo_se_bias": 0.0015160523586926712,
+        "rmse": 0.09595485845570283,
+        "empirical_estimator_sd": 0.09588357011078825,
+        "mean_estimated_se": 0.09687099364565088,
+        "mean_95_interval_width": 0.3837284993297169,
+        "coverage_95": {
+          "count": 3812,
+          "datasets": 4000,
+          "rate": 0.953,
+          "monte_carlo_se": 0.003346303931205295,
+          "wilson_95": [
+            0.9459954919988904,
+            0.95913525238064
+          ]
+        }
+      },
+      "mean_gap_interval_includes_zero": {
+        "count": 100,
+        "datasets": 4000,
+        "rate": 0.025,
+        "monte_carlo_se": 0.0024685522072664372,
+        "wilson_95": [
+          0.020598357145241535,
+          0.030313113979974878
+        ]
+      },
+      "theoretical_gap_se": 0.09703951085339758,
+      "note": "Held-out data test a full-transfer population mean prediction, not individual predictions or a mechanism classifier."
+    },
+    {
+      "id": "transfer_0.25_1.0_control",
+      "truth_label": "control",
+      "g": 0.0,
+      "c": 0.5,
+      "transfer_coefficients": [
+        0.25,
+        1.0
+      ],
+      "spawn_key": [
+        19
+      ],
+      "training_spawn_key": [
+        19,
+        0
+      ],
+      "heldout_spawn_key": [
+        19,
+        1
+      ],
+      "independent_units_per_context": 60,
+      "repeats_per_unit": 8,
+      "training_expected_tic_change": 0.5,
+      "heldout_expected_tic_change": 0.5,
+      "training_full_transfer_prediction_mean": 0.49815578225250634,
+      "heldout_mean": 0.5003812591709687,
+      "gap_summary": {
+        "truth": 0.0,
+        "mean_estimate": 0.002225476918462218,
+        "bias": 0.002225476918462218,
+        "monte_carlo_se_bias": 0.0015735558185415515,
+        "rmse": 0.0995328504859799,
+        "empirical_estimator_sd": 0.09952040824003833,
+        "mean_estimated_se": 0.0966686492551956,
+        "mean_95_interval_width": 0.38292748200138055,
+        "coverage_95": {
+          "count": 3767,
+          "datasets": 4000,
+          "rate": 0.94175,
+          "monte_carlo_se": 0.0037032734674879203,
+          "wilson_95": [
+            0.934058996195746,
+            0.9485933356578029
+          ]
+        }
+      },
+      "mean_gap_interval_includes_zero": {
+        "count": 3767,
+        "datasets": 4000,
+        "rate": 0.94175,
+        "monte_carlo_se": 0.0037032734674879203,
+        "wilson_95": [
+          0.934058996195746,
+          0.9485933356578029
+        ]
+      },
+      "theoretical_gap_se": 0.09703951085339758,
+      "note": "Held-out data test a full-transfer population mean prediction, not individual predictions or a mechanism classifier."
+    }
+  ]
+}

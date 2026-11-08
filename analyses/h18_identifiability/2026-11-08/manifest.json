@@ -1,0 +1,63 @@
+{
+  "analysis_date": "2026-11-08",
+  "base_commit": "c1faee636fe54569660c03f7bdcc977e41ce7555",
+  "repository_destination": "analyses/h18_identifiability/2026-11-08",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 2443,
+      "sha256": "b330f9e5592921fc667c8814878333f989a818a69bec8f71d9b30ba0877b0935"
+    },
+    {
+      "path": "independent-check-results.json",
+      "bytes": 47546,
+      "sha256": "97d8064d66dfe7f33202344e5703357ccf13e1655e5683ae479db3cffe5571df"
+    },
+    {
+      "path": "independent_checks.py",
+      "bytes": 6598,
+      "sha256": "889eabd3d44d01fc53be34988e0efb1354104059a79afe830ef29e4153f0fe00"
+    },
+    {
+      "path": "plan-freeze.json",
+      "bytes": 2614,
+      "sha256": "41815fb56a08cf18843e85b939b02078b70bdf7f6c482a3bfc347bf6acd6422c"
+    },
+    {
+      "path": "plan.md",
+      "bytes": 6572,
+      "sha256": "48e7fe6352488573ed9528bfd67d1afec0c8da1c75d014538d9a6a129a4e3756"
+    },
+    {
+      "path": "report.md",
+      "bytes": 15595,
+      "sha256": "9b843bcf791ce3f334cb92e40c275a5e3d14c9720a6132d7b29feddd1ffa1532"
+    },
+    {
+      "path": "reproducibility.json",
+      "bytes": 984,
+      "sha256": "96f2136e85305fb8a32a5b93e0735aaede414007e838fe0a2dd38c9c60e1ab56"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 27,
+      "sha256": "1668a3152e33680d94637b13421c15e68bd97cd8701f7f555c691f5bc5c0b9f3"
+    },
+    {
+      "path": "results.json",
+      "bytes": 70767,
+      "sha256": "0bc22573642ab67d815e5e1f38ea5a59c6ef8bac33c2b1b4a4b4ae7217cf5fb8"
+    },
+    {
+      "path": "run_analysis.py",
+      "bytes": 11255,
+      "sha256": "c8376e994d822bc982e1c8a0cebba4784b1714d0fef3205dfab0b16e708251a6"
+    }
+  ],
+  "excludes": [
+    "manifest.json",
+    "__pycache__/"
+  ],
+  "no_repository_edits": true,
+  "integration_note": "Independent review requested an opening-sentence clarification about measurement or context-transfer identification and an explicit non-equivalence caveat. Both were applied to report.md during integration; code, inputs and numerical outputs are unchanged."
+}

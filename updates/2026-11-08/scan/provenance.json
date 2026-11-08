@@ -1,0 +1,116 @@
+{
+  "created_utc": "2026-11-08T03:11:41.719230+00:00",
+  "repository_baseline": "c1faee636fe54569660c03f7bdcc977e41ce7555",
+  "intended_repository_directory": "updates/2026-11-08/scan/",
+  "artifact_scope": "Original public-science summaries, public aggregate/registry metadata, code, query logs and DOI/version indexes. No participant records, full papers or repository edits.",
+  "excluded_local_preparation_inputs": [
+    "source-baseline.json"
+  ],
+  "files": [
+    {
+      "path": "baseline-verification.json",
+      "bytes": 3488,
+      "sha256": "73839bcffb09b467bdc79b49c22c833071441e5b5cae77526778f59707039168"
+    },
+    {
+      "path": "baseline.json",
+      "bytes": 180248,
+      "sha256": "cc0dcf166e637674c021358c20b61ab0a6dfb2b3e8887f998e5bf10cdff6d0e3"
+    },
+    {
+      "path": "biorxiv-preprint-index.tsv",
+      "bytes": 21888,
+      "sha256": "b9f27a7a93ea6e8f8e52ed0973a2ef5826e5d200b22f67c06e2d82c68508f3aa"
+    },
+    {
+      "path": "build_results.py",
+      "bytes": 4259,
+      "sha256": "00c2ada4982bdd907af0eae78015a6e622170ac00b55166ecc5f5bd3985970ce"
+    },
+    {
+      "path": "discovery-log.json",
+      "bytes": 3094,
+      "sha256": "23e37ab622c1af996da2464ae1ccd938dc9aec9425b7f75d2863f32a6dc87d89"
+    },
+    {
+      "path": "medrxiv-preprint-index.tsv",
+      "bytes": 6733,
+      "sha256": "db336468cc05e4b3e610d38571fcfc69a011b91bacd0590a8395d75c12ba3ac8"
+    },
+    {
+      "path": "pubmed-screening.jsonl",
+      "bytes": 9511,
+      "sha256": "318436d8e68f33d8f432524a478282a4be61315e61f14502c248bcf58979c4ec"
+    },
+    {
+      "path": "registry-evidence.jsonl",
+      "bytes": 8215,
+      "sha256": "c8feba894725b6f7fa7779bcf55351cf9baffd345c57518833e5a6785e70f023"
+    },
+    {
+      "path": "report.md",
+      "bytes": 10968,
+      "sha256": "217ccde6bc68efb6e59150a68360db62d1bda5ee0bad0dd9189a6eb28e2e2193"
+    },
+    {
+      "path": "request-log.json",
+      "bytes": 17190,
+      "sha256": "d19da749be4eb9f4f80a145c5100bbe6fb0d650e941aedac7179ff11c2d1689a"
+    },
+    {
+      "path": "safety-query-log.json",
+      "bytes": 1284,
+      "sha256": "52f17a2b6fff8c12e00aa9722e286ba4871b7ff2410482fa35b75ac90f5e670d"
+    },
+    {
+      "path": "safety-review.json",
+      "bytes": 3953,
+      "sha256": "4ef5b8d238a2693953e29f247268c7f3c0fc282d314622ed256c14f2b605e1d4"
+    },
+    {
+      "path": "scan_sources.py",
+      "bytes": 10486,
+      "sha256": "abed426eaac66a4c22fb8ad994fea663c4d2b3c3e25fdfa607e0280d01ed9329"
+    },
+    {
+      "path": "search-log.json",
+      "bytes": 152657,
+      "sha256": "6a512866dbfb6c35821c4a287fce391fc9d758048dd740af16c6d263906cabfd"
+    },
+    {
+      "path": "summary.json",
+      "bytes": 1536,
+      "sha256": "1fb5b297f41dff6c546740b9d503e30c8c65556ef85807fccc6bab5d62bcec9e"
+    },
+    {
+      "path": "supplement-pubmed.json",
+      "bytes": 1736,
+      "sha256": "9ae33e44e8e3c4efdb3fb5c5e1d15137a449250eb7316de2c448da5bbcfbaba7"
+    },
+    {
+      "path": "supplement-registry.json",
+      "bytes": 2440,
+      "sha256": "02c69dd2b8549c2371c680137e109e9db806b6ef9feac8a5dfb85bb0da7fb56d"
+    },
+    {
+      "path": "supplement_sources.py",
+      "bytes": 1596,
+      "sha256": "ac03654ac7d97f37a29884986987400fa468b6e63c5ca760d37e3013d891c922"
+    },
+    {
+      "path": "validate.py",
+      "bytes": 6198,
+      "sha256": "602661ad210c857c7aaa5503460ced1010064e9dde9351c65ec6c30248f47959"
+    },
+    {
+      "path": "validation.json",
+      "bytes": 3457,
+      "sha256": "e435a0ec5a700272168114be30ce9a3ba0fe6623b29a15922245fae661c3d3e1"
+    },
+    {
+      "path": "write_review.py",
+      "bytes": 7617,
+      "sha256": "35f6b9ca187f3c6bf44cb3c568e42de6d8ced280f5a3b368b30c8a5fb1e6f489"
+    }
+  ]
+}

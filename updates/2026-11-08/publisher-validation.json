@@ -1,0 +1,19 @@
+{
+  "checked_at_utc": "2026-11-08T03:15:04.136870+00:00",
+  "syntax": "passed",
+  "build": "passed",
+  "wrangler_deploy_dry_run": "passed",
+  "renderer_mutation_checks": 8,
+  "publisher_synthetic_rerun_byte_exact": true,
+  "synthetic_results_sha256": "0bc22573642ab67d815e5e1f38ea5a59c6ef8bac33c2b1b4a4b4ae7217cf5fb8",
+  "scan_checks": 38,
+  "synthetic_second_calculation_checks": 261,
+  "relative_markdown_links_valid": 24,
+  "limits": [
+    "No fresh rendered desktop/mobile/zoom/keyboard/narration test",
+    "Methods/source checks are not clinical validation"
+  ],
+  "local_log_note": "Initial dry-run could not create the default log directory; rerun with a writable temporary configuration directory passed. No credentials or deployment were used for the local dry-run.",
+  "integration_checks": 82,
+  "independent_review_cleared_report_sha256": "9b843bcf791ce3f334cb92e40c275a5e3d14c9720a6132d7b29feddd1ffa1532"
+}

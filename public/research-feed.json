@@ -1,10 +1,17 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-07T03:17:31Z",
-  "lastResearchDate": "2026-11-07",
+  "updatedAt": "2026-11-08T03:14:13Z",
+  "lastResearchDate": "2026-11-08",
   "cadence": "Daily scheduled review; publication follows verified work.",
-  "latestSummary": "A newly published pediatric video study adds measurement evidence, not treatment proof. A historical behavior-therapy audit separates training effects from lasting everyday benefit.",
+  "latestSummary": "A synthetic experiment shows that repeated measurements cannot resolve an unknown reporting shift. The bounded scan found no qualifying new clinical result or watched safety warning.",
   "timeline": [
+    {
+      "date": "2026-11-08",
+      "title": "Precision cannot replace an assumption.",
+      "type": "Synthetic measurement methods and evidence scan",
+      "summary": "In an artificial model, known stable measurements can distinguish two explanations. An unknown reporting shift makes them indistinguishable; more repeats cannot fix it. No clinical treatment claim follows.",
+      "record": "https://github.com/dotjade/project-neurofreedom/blob/main/updates/2026-11-08/report.md"
+    },
     {
       "date": "2026-11-07",
       "title": "A useful result still has boundaries.",
@@ -165,13 +172,6 @@
       "type": "Historical survey and aggregate audit",
       "summary": "A selected adult survey mixed past and present pain. Conflicting help-seeking counts prevent a reliable care-success percentage; reported usefulness does not establish treatment efficacy.",
       "record": "https://github.com/dotjade/project-neurofreedom/blob/main/analyses/adult_pain/2026-10-17/report.md"
-    },
-    {
-      "date": "2026-10-16",
-      "title": "Measure life beyond tics.",
-      "type": "Same-trial secondary analysis",
-      "summary": "A behavioral-therapy study did not establish added benefit over supportive therapy on its daily-function measures. Positive responder associations answer a different question.",
-      "record": "https://github.com/dotjade/project-neurofreedom/blob/main/analyses/cbit_functioning/2026-10-16/report.md"
     }
   ],
   "findings": [
@@ -181,8 +181,8 @@
       "type": "Primary qualitative study",
       "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10863457/",
       "label": "Isaacs and colleagues, 2024",
-      "checkedAt": "2026-11-07",
-      "linkState": "Direct HTTP 203 challenge; article content not verified in this pass"
+      "checkedAt": "2026-11-08",
+      "linkState": "Direct HTTP 203 access-limited response; article content not verified in this pass"
     },
     {
       "title": "Persistence deserves its own attention.",
@@ -190,7 +190,7 @@
       "type": "Primary longitudinal study",
       "url": "https://www.neurology.org/doi/10.1212/01.WNL.0000086370.10186.7C",
       "label": "Pappert and colleagues, 2003",
-      "checkedAt": "2026-11-07",
+      "checkedAt": "2026-11-08",
       "linkState": "Publisher HTTP 403 challenge; source not established broken in this pass"
     },
     {
@@ -199,7 +199,7 @@
       "type": "Primary adult cohort study",
       "url": "https://link.springer.com/content/pdf/10.1186/s44247-026-00284-7.pdf",
       "label": "Ivanova and colleagues, 2026",
-      "checkedAt": "2026-11-07",
+      "checkedAt": "2026-11-08",
       "linkState": "Primary PDF retrieved with HTTP 200; DOI identity verified"
     }
   ],
@@ -266,6 +266,6 @@
     "trend": [],
     "message": "No public ratings are collected yet. There are no votes or trends to show."
   },
-  "activityEditionDate": "2026-11-07",
-  "featuredActivityId": "music-or-silence"
+  "activityEditionDate": "2026-11-08",
+  "featuredActivityId": "small-silly-mark"
 }

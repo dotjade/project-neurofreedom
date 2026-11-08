@@ -1,0 +1,50 @@
+{
+  "README.md": {
+    "sha256": "6b1d997e495751f81c97048c86cd8864732cdd8313cc3d9363605bb4425721d2",
+    "gitBlob": "4c3bafbd09ca4073d183cef267c746afa09147bf"
+  },
+  "RESEARCH_PROTOCOL.md": {
+    "sha256": "6f0025df7fd62fc2fe952cfbca96fca811ae76b917b7e7d4d45a501fe89e6859",
+    "gitBlob": "d69c21b73447f7ad9df0a3949b7fcaf57dd5ddde"
+  },
+  "STATUS.md": {
+    "sha256": "430decb359b11e2665b2c26af117ad0c62ce9c6f1b6af3df203d60c82adec0a9",
+    "gitBlob": "a93bc81c6157a400b79967959b852cf912201b97"
+  },
+  "public/UPDATE_WORKFLOW.md": {
+    "sha256": "f9d9a9b17bfbb06c8b075abad60495b9aeef58c96e768ea3d56a3d47c29a2d3f",
+    "gitBlob": "80ba2e9ae8fb029e51248fbac681f350b928dd78"
+  },
+  "public/journal-source/README.md": {
+    "sha256": "809173b6459331730d4fd9b0df135079b1e8dfdb030f4babbfc0055fcec1197e",
+    "gitBlob": "b4b9c74518021f693122e959291dd3871d562215"
+  },
+  "public/journal-source/index.html": {
+    "sha256": "f6a6cc9ac0415db5f7bbbc0b8afd89ed63f68c11135f06958ff2e73ed5e7e15f",
+    "gitBlob": "aff3c1dc18b6badb1600fd070db03287fe5e6404"
+  },
+  "public/journal-source/journal.js": {
+    "sha256": "c5c9b7fd6acb92d1adbd33ef78aeda13792ea9523ecd0c873fc228c61fb5e850",
+    "gitBlob": "0903e830fc3fb08cde07e0ebce0a7ca57970a769"
+  },
+  "public/journal-source/research-feed.json": {
+    "sha256": "a107b8f96a27e25155818ecdad33dcaa46d27ca10d9e9bf8640b296789d7efe0",
+    "gitBlob": "9327e3ecb0b9c98ef221ae39e794acfc09515cd5"
+  },
+  "public/journal-source/feedback-config.json": {
+    "sha256": "921c0e74bdcdb85c79c11bd2e7d9fa3b8fdfcb12fd74114c3a51a659f3cde133",
+    "gitBlob": "1bafbe8b8743aa88610f67c73765f247d6c0ef63"
+  },
+  "public/journal-source/worker.js": {
+    "sha256": "5d50da870ee3ff0474c8392e0b26854171c4303f317d3f5e7de9349440f4e2d5",
+    "gitBlob": "b15ddf4eb9f5a9b950e0214482fb283d467946cd"
+  },
+  "public/research-feed.json": {
+    "sha256": "37cd6341994e9bcb2403c550d2fa8f5bd3cad8c5cf9e8be04efd4b8682763fdb",
+    "gitBlob": "3ffae13b43c43954d30d61e57b61c405b88faf67"
+  },
+  "head": "c1faee636fe54569660c03f7bdcc977e41ce7555",
+  "checkedAt": "2026-11-08T03:04:55.609392+00:00",
+  "gitStatus": "",
+  "connectorFeedMatches": true
+}

@@ -1,0 +1,68 @@
+{
+  "date": "2026-11-08",
+  "previous_safety_summary_cutoff_utc": "2026-11-07T03:12:23.946169+00:00",
+  "inspection_summary_written_utc": "2026-11-08T03:09:42.279875+00:00",
+  "official_pages": [
+    {
+      "url": "https://www.fda.gov/drugs/drug-safety-and-availability/drug-safety-communications",
+      "finding": "Latest exposed communication remains September 15; no new-window watched-treatment notice located."
+    },
+    {
+      "url": "https://www.fda.gov/medical-devices/medical-device-safety/safety-communications",
+      "finding": "Latest exposed communication remains June 3; no new-window watched-device notice located."
+    },
+    {
+      "url": "https://www.gov.uk/drug-safety-update",
+      "finding": "Latest exposed item is November 5 givinostat, outside the watch. No qualifying new watched-treatment update located."
+    },
+    {
+      "url": "https://www.gov.uk/drug-device-alerts",
+      "finding": "Latest exposed November 5 co-amoxiclav and tropicamide notices are outside the watch."
+    },
+    {
+      "url": "https://www.ema.europa.eu/en/news-events/whats-new",
+      "finding": "Index reports 90 results and exposes November 3–6 entries. Visible named-watch match is historical November 3 Sycrest/asenapine update; attachments not exhaustively examined."
+    },
+    {
+      "url": "https://www.ema.europa.eu/en/human-regulatory-overview/post-authorisation/pharmacovigilance-post-authorisation/signal-management/prac-recommendations-safety-signals",
+      "finding": "Latest displayed safety-signal recommendations EMA/PRAC/206892/2026 and 206903/2026 first published October 26. Not new-window documents; PDFs not reread."
+    },
+    {
+      "url": "https://www.ema.europa.eu/en/medicines/human/referrals/flupentixol-melitracen-containing-medicinal-products",
+      "finding": "Historical Deanxit combination review persists; no new final decision located. Flupentixol alone explicitly excluded from that review."
+    },
+    {
+      "url": "https://www.tga.gov.au/news/safety-updates",
+      "finding": "Latest exposed item October 14; no new-window watch notice located."
+    },
+    {
+      "url": "https://www.tga.gov.au/safety/safety-monitoring-and-information/safety-alerts",
+      "finding": "Latest exposed November 5 unapproved-peptide alert outside watch; no new-window watch notice located."
+    },
+    {
+      "url": "https://www.hsa.gov.sg/announcements/recall-of-tetrabenazine-25mg-112-s-sun-italy/",
+      "finding": "Same historical November 1 notice for retail Class 2 tetrabenazine batch DNG1035A recalled October 27. No new batch or outcome verified."
+    },
+    {
+      "url": "https://www.awmf.org/aktuelles/awmf-aktuell/diagnostik-und-behandlung-primaerer-tic-stoerungen-ticcare",
+      "finding": "October 2026 TicCare item is still an Anmeldung (registration), not newly issued clinical guideline."
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2026/220320Orig1s000Lbl.pdf",
+      "finding": "Search-surfaced Atoncy atomoxetine label is revised March 2026. Crawl recency does not establish a new warning; not a November safety event."
+    }
+  ],
+  "unresolved_leads": [
+    {
+      "url": "https://catalogues.ema.europa.eu/print/pdf/node/4492",
+      "outcome": "Two web-reader attempts timed out. Search snippet describes planned antipsychotic utilization/comparative-safety study, not verified new results or warning. Event date and full scope unresolved; no assertion of absence for this inaccessible lead."
+    }
+  ],
+  "result": "No qualifying new-window official watched-treatment warning or issued tic guideline verified in the bounded review.",
+  "limitations": [
+    "English-heavy selected-regulator surveillance, not worldwide pharmacovigilance.",
+    "No exhaustive label/attachment or every national registry review.",
+    "No individual adverse-event narratives acquired or retained.",
+    "No recommendation to start, stop or change medication."
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "research_date": "2026-11-08",
+  "frozen_at_utc": "2026-11-08T03:07:53.592977+00:00",
+  "plan_sha256": "48e7fe6352488573ed9528bfd67d1afec0c8da1c75d014538d9a6a129a4e3756",
+  "before_numerical_execution": true,
+  "base_repository": "https://github.com/dotjade/project-neurofreedom",
+  "base_commit": "c1faee636fe54569660c03f7bdcc977e41ce7555",
+  "input_files": [
+    {
+      "path": "README.md",
+      "sha256": "6b1d997e495751f81c97048c86cd8864732cdd8313cc3d9363605bb4425721d2",
+      "git_blob": "4c3bafbd09ca4073d183cef267c746afa09147bf"
+    },
+    {
+      "path": "RESEARCH_PROTOCOL.md",
+      "sha256": "6f0025df7fd62fc2fe952cfbca96fca811ae76b917b7e7d4d45a501fe89e6859",
+      "git_blob": "d69c21b73447f7ad9df0a3949b7fcaf57dd5ddde"
+    },
+    {
+      "path": "STATUS.md",
+      "sha256": "430decb359b11e2665b2c26af117ad0c62ce9c6f1b6af3df203d60c82adec0a9",
+      "git_blob": "a93bc81c6157a400b79967959b852cf912201b97"
+    },
+    {
+      "path": "public/journal-source/README.md",
+      "sha256": "809173b6459331730d4fd9b0df135079b1e8dfdb030f4babbfc0055fcec1197e",
+      "git_blob": "b4b9c74518021f693122e959291dd3871d562215"
+    },
+    {
+      "path": "evidence.jsonl",
+      "sha256": "c10d9a90409bc722f1236d77ec2754c264ed11330469cf118df1461460ffb375",
+      "git_blob": "3087cfc44d3695057113c4eacc2af21bd39471cd"
+    },
+    {
+      "path": "hypotheses.md",
+      "sha256": "03681d2e2256b71447dba863ecc6b4633ad6634b3a481108305969a2f0d2d4c3",
+      "git_blob": "55189fc18ddcbd1df8aeba6cc88e00915ec4827d"
+    },
+    {
+      "path": "analyses/h18_mechanism/2026-11-07/plan.md",
+      "sha256": "8965ffea19b92a04429ef544c47ce55d8903fa988b34e622136ff9d639c99bfa",
+      "git_blob": "69b17bd1ebadbcda0ca4ba87a6c7b2b184ad7f93"
+    },
+    {
+      "path": "analyses/h18_mechanism/2026-11-07/report.md",
+      "sha256": "56d8a0a7cc92282a2fa995a767ec17c2b1fb63c3c20d4ac8480c5b0000a0882e",
+      "git_blob": "c25a3b7b56c3a6cd1a2990554b0eaf9f8d4239ff"
+    },
+    {
+      "path": "analyses/h18_mechanism/2026-11-07/evidence.jsonl",
+      "sha256": "2a3f42e119d072726349a5cf12088ebe351da4e669d7104b5dbd81f0299d858a",
+      "git_blob": "d9fcf64c227df41742a11c9abb427af52b6555aa"
+    },
+    {
+      "path": "updates/2026-11-07/report.md",
+      "sha256": "9de737b02f0a55a4880e1b2dfab41ff0c38d1032e06518b139cb32960880cf24",
+      "git_blob": "ef38cf3a75b436cff27ea2aebe0c31d36058cc9e"
+    }
+  ],
+  "clinical_inputs": [],
+  "note": "Repository sources motivate the question; no empirical effect size or measurement calibration enters the simulation. Remote latest commit and local clean checkout both verified before work."
+}

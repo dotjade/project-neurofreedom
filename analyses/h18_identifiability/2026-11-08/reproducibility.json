@@ -1,0 +1,19 @@
+{
+  "checked_at_utc": "2026-11-08T03:12:01.756712+00:00",
+  "analysis_date": "2026-11-08",
+  "same_environment_byte_reproduction": true,
+  "results_sha256": "0bc22573642ab67d815e5e1f38ea5a59c6ef8bac33c2b1b4a4b4ae7217cf5fb8",
+  "rerun_sha256": "0bc22573642ab67d815e5e1f38ea5a59c6ef8bac33c2b1b4a4b4ae7217cf5fb8",
+  "closed_form_checks": 261,
+  "python_compilation": "passed for run_analysis.py and independent_checks.py",
+  "independent_authorship": false,
+  "clinical_validation": false,
+  "commands": [
+    "python run_analysis.py --output results.json",
+    "python independent_checks.py",
+    "python -m py_compile run_analysis.py independent_checks.py",
+    "python run_analysis.py --output /tmp/h18-identifiability-rerun.json",
+    "cmp results.json /tmp/h18-identifiability-rerun.json"
+  ],
+  "limitations": "Exact bytes checked in stated package environment only. Independent check means a separate calculation, not a separate author. No patient data or clinical validation."
+}

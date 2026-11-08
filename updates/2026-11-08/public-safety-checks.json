@@ -1,0 +1,65 @@
+{
+  "checkedAt": "2026-11-08T03:05:58.368Z",
+  "remoteHead": "c1faee636fe54569660c03f7bdcc977e41ce7555",
+  "feed": {
+    "sha256": "37cd6341994e9bcb2403c550d2fa8f5bd3cad8c5cf9e8be04efd4b8682763fdb",
+    "schemaVersion": 1,
+    "updatedAt": "2026-11-07T03:17:31Z",
+    "lastResearchDate": "2026-11-07",
+    "activityEditionDate": "2026-11-07",
+    "featuredActivityId": "music-or-silence",
+    "timelineCount": 24,
+    "findingCount": 3,
+    "activityCount": 6,
+    "exactLiveValidFeedAccepts": true,
+    "timelineDescending": true,
+    "noFutureTimelineDates": true,
+    "noEmDash": true
+  },
+  "safety": {
+    "catalogExactlyMatchesApprovedSavedSource": true,
+    "uniqueActivityIds": [
+      "hand-at-ease",
+      "familiar-route",
+      "notice-one-thing",
+      "music-or-silence",
+      "small-silly-mark",
+      "rest-or-leave"
+    ],
+    "feedbackDisabled": true,
+    "sampleSize": 0,
+    "aggregatesEmpty": true,
+    "trendEmpty": true,
+    "liveConfig": {
+      "enabled": false,
+      "apiOrigin": null,
+      "verifiedAt": null
+    },
+    "disabledVoteGateOnlyFetchesConfig": true,
+    "mockRequests": [
+      {
+        "url": "/feedback-config.json",
+        "options": {
+          "credentials": "omit"
+        }
+      }
+    ],
+    "noForm": true,
+    "noLocalStorage": true,
+    "noSessionStorage": true,
+    "noSendBeacon": true,
+    "noDocumentCookie": true,
+    "reflectionClearsOnPagehide": true,
+    "reflectionExcludedFromNarration": true
+  },
+  "equality": {
+    "liveJsMatchesExactHead": true,
+    "homepageMatchesExactHead": true,
+    "liveConfigMatchesExactHead": true,
+    "liveSavedFeedMatchesConnector": true
+  },
+  "scope": "Current HTTP bytes, source inspection and isolated validator/disabled-vote-gate execution. No browser rendering, clinical safety certification, end-to-end network audit or third-party requests from mock gate test.",
+  "finalMainHead": "c1faee636fe54569660c03f7bdcc977e41ce7555",
+  "finalMainUnchanged": true,
+  "finalCheckoutStatus": ""
+}

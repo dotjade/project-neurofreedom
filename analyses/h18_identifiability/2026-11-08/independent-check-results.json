@@ -1,0 +1,1875 @@
+{
+  "kind": "Independent implementation and algebra checks, not clinical validation",
+  "checks_passed": 261,
+  "checks_total": 261,
+  "all_passed": true,
+  "exact_sampling_expectations": [
+    {
+      "id": "lambda_0.25_r_1_generation",
+      "expected_estimate_g": 0.5,
+      "expected_estimate_c": 0.0,
+      "expected_dominance_labels": {
+        "generation_dominant": 0.07632261688541031,
+        "control_dominant": 0.006392022426451601,
+        "unresolved": 0.917285360688138
+      }
+    },
+    {
+      "id": "lambda_0.25_r_1_control",
+      "expected_estimate_g": 0.0,
+      "expected_estimate_c": 0.5,
+      "expected_dominance_labels": {
+        "generation_dominant": 0.006392022426451601,
+        "control_dominant": 0.07632261688541031,
+        "unresolved": 0.917285360688138
+      }
+    },
+    {
+      "id": "lambda_0.25_r_1_equal_mixture",
+      "expected_estimate_g": 0.25,
+      "expected_estimate_c": 0.25,
+      "expected_dominance_labels": {
+        "generation_dominant": 0.025000000000000053,
+        "control_dominant": 0.025000000000000053,
+        "unresolved": 0.95
+      }
+    },
+    {
+      "id": "lambda_0.25_r_8_generation",
+      "expected_estimate_g": 0.5,
+      "expected_estimate_c": 0.0,
+      "expected_dominance_labels": {
+        "generation_dominant": 0.14928954816321188,
+        "control_dominant": 0.0019846079316395045,
+        "unresolved": 0.8487258439051486
+      }
+    },
+    {
+      "id": "lambda_0.25_r_8_control",
+      "expected_estimate_g": 0.0,
+      "expected_estimate_c": 0.5,
+      "expected_dominance_labels": {
+        "generation_dominant": 0.0019846079316395045,
+        "control_dominant": 0.14928954816321188,
+        "unresolved": 0.8487258439051486
+      }
+    },
+    {
+      "id": "lambda_0.25_r_8_equal_mixture",
+      "expected_estimate_g": 0.25,
+      "expected_estimate_c": 0.25,
+      "expected_dominance_labels": {
+        "generation_dominant": 0.025000000000000053,
+        "control_dominant": 0.025000000000000053,
+        "unresolved": 0.95
+      }
+    },
+    {
+      "id": "lambda_1.0_r_1_generation",
+      "expected_estimate_g": 0.5,
+      "expected_estimate_c": 0.0,
+      "expected_dominance_labels": {
+        "generation_dominant": 0.53543865555473,
+        "control_dominant": 3.0404912393380834e-05,
+        "unresolved": 0.4645309395328766
+      }
+    },
+    {
+      "id": "lambda_1.0_r_1_control",
+      "expected_estimate_g": 0.0,
+      "expected_estimate_c": 0.5,
+      "expected_dominance_labels": {
+        "generation_dominant": 3.0404912393380834e-05,
+        "control_dominant": 0.53543865555473,
+        "unresolved": 0.4645309395328766
+      }
+    },
+    {
+      "id": "lambda_1.0_r_1_equal_mixture",
+      "expected_estimate_g": 0.25,
+      "expected_estimate_c": 0.25,
+      "expected_dominance_labels": {
+        "generation_dominant": 0.025000000000000053,
+        "control_dominant": 0.025000000000000053,
+        "unresolved": 0.95
+      }
+    },
+    {
+      "id": "lambda_1.0_r_8_generation",
+      "expected_estimate_g": 0.5,
+      "expected_estimate_c": 0.0,
+      "expected_dominance_labels": {
+        "generation_dominant": 0.9518425396375517,
+        "control_dominant": 1.166344432264267e-08,
+        "unresolved": 0.04815744869900396
+      }
+    },
+    {
+      "id": "lambda_1.0_r_8_control",
+      "expected_estimate_g": 0.0,
+      "expected_estimate_c": 0.5,
+      "expected_dominance_labels": {
+        "generation_dominant": 1.166344432264267e-08,
+        "control_dominant": 0.9518425396375517,
+        "unresolved": 0.04815744869900396
+      }
+    },
+    {
+      "id": "lambda_1.0_r_8_equal_mixture",
+      "expected_estimate_g": 0.25,
+      "expected_estimate_c": 0.25,
+      "expected_dominance_labels": {
+        "generation_dominant": 0.025000000000000053,
+        "control_dominant": 0.025000000000000053,
+        "unresolved": 0.95
+      }
+    },
+    {
+      "id": "lambda_0.25_r_8_hidden_shift",
+      "expected_estimate_g": 0.0,
+      "expected_estimate_c": 0.5,
+      "expected_dominance_labels": {
+        "generation_dominant": 0.0019846079316395045,
+        "control_dominant": 0.14928954816321188,
+        "unresolved": 0.8487258439051486
+      }
+    },
+    {
+      "id": "lambda_1.0_r_8_hidden_shift",
+      "expected_estimate_g": 0.0,
+      "expected_estimate_c": 0.5,
+      "expected_dominance_labels": {
+        "generation_dominant": 1.166344432264267e-08,
+        "control_dominant": 0.9518425396375517,
+        "unresolved": 0.04815744869900396
+      }
+    }
+  ],
+  "checks": [
+    {
+      "name": "frozen_plan_unchanged",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "scenario_count_measurement",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "scenario_count_transfer",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "scenario_seeds_unique",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "rows_not_units",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "reporting_shift_equivalence",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "null_vector_annihilated",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "unknown_loading_equivalence",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "rank_tic_only",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "rank_known_weak_loading",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "rank_known_unit_loading",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "rank_unknown_shift",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_1_generation: covariance",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_1_generation: contrast_se",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_1_generation: exact_t_generation_dominant",
+      "passed": true,
+      "detail": {
+        "observed": 0.0755,
+        "expected": 0.07632261688541031,
+        "five_mc_se_tolerance": 0.021240693627946942
+      }
+    },
+    {
+      "name": "lambda_0.25_r_1_generation: exact_t_control_dominant",
+      "passed": true,
+      "detail": {
+        "observed": 0.007,
+        "expected": 0.006392022426451601,
+        "five_mc_se_tolerance": 0.006550379192830054
+      }
+    },
+    {
+      "name": "lambda_0.25_r_1_generation: exact_t_unresolved",
+      "passed": true,
+      "detail": {
+        "observed": 0.9175,
+        "expected": 0.917285360688138,
+        "five_mc_se_tolerance": 0.02202626686259759
+      }
+    },
+    {
+      "name": "lambda_0.25_r_1_generation: labels_partition",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_1_generation: generation_parameter_bias",
+      "passed": true,
+      "detail": {
+        "observed_bias": 0.00022657578687807178,
+        "theoretical_bias": 0.0
+      }
+    },
+    {
+      "name": "lambda_0.25_r_1_generation: generation_parameter_sd",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_1_generation: generation_parameter_coverage",
+      "passed": true,
+      "detail": {
+        "observed": 0.94225,
+        "expected": 0.95
+      }
+    },
+    {
+      "name": "lambda_0.25_r_1_generation: control_parameter_bias",
+      "passed": true,
+      "detail": {
+        "observed_bias": -5.1367856583596213e-05,
+        "theoretical_bias": -0.0
+      }
+    },
+    {
+      "name": "lambda_0.25_r_1_generation: control_parameter_sd",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_1_generation: control_parameter_coverage",
+      "passed": true,
+      "detail": {
+        "observed": 0.9425,
+        "expected": 0.95
+      }
+    },
+    {
+      "name": "lambda_0.25_r_1_generation: dominance_parameter_bias",
+      "passed": true,
+      "detail": {
+        "observed_bias": 0.000277943643461664,
+        "theoretical_bias": 0.0
+      }
+    },
+    {
+      "name": "lambda_0.25_r_1_generation: dominance_parameter_sd",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_1_generation: dominance_parameter_coverage",
+      "passed": true,
+      "detail": {
+        "observed": 0.94225,
+        "expected": 0.95
+      }
+    },
+    {
+      "name": "lambda_0.25_r_1_generation: one_row_naive_equals_cluster",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_1_control: covariance",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_1_control: contrast_se",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_1_control: exact_t_generation_dominant",
+      "passed": true,
+      "detail": {
+        "observed": 0.003,
+        "expected": 0.006392022426451601,
+        "five_mc_se_tolerance": 0.006550379192830054
+      }
+    },
+    {
+      "name": "lambda_0.25_r_1_control: exact_t_control_dominant",
+      "passed": true,
+      "detail": {
+        "observed": 0.079,
+        "expected": 0.07632261688541031,
+        "five_mc_se_tolerance": 0.021240693627946942
+      }
+    },
+    {
+      "name": "lambda_0.25_r_1_control: exact_t_unresolved",
+      "passed": true,
+      "detail": {
+        "observed": 0.918,
+        "expected": 0.917285360688138,
+        "five_mc_se_tolerance": 0.02202626686259759
+      }
+    },
+    {
+      "name": "lambda_0.25_r_1_control: labels_partition",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_1_control: generation_parameter_bias",
+      "passed": true,
+      "detail": {
+        "observed_bias": 0.0045646822141086505,
+        "theoretical_bias": 0.0
+      }
+    },
+    {
+      "name": "lambda_0.25_r_1_control: generation_parameter_sd",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_1_control: generation_parameter_coverage",
+      "passed": true,
+      "detail": {
+        "observed": 0.953,
+        "expected": 0.95
+      }
+    },
+    {
+      "name": "lambda_0.25_r_1_control: control_parameter_bias",
+      "passed": true,
+      "detail": {
+        "observed_bias": -0.00383218982853003,
+        "theoretical_bias": -0.0
+      }
+    },
+    {
+      "name": "lambda_0.25_r_1_control: control_parameter_sd",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_1_control: control_parameter_coverage",
+      "passed": true,
+      "detail": {
+        "observed": 0.949,
+        "expected": 0.95
+      }
+    },
+    {
+      "name": "lambda_0.25_r_1_control: dominance_parameter_bias",
+      "passed": true,
+      "detail": {
+        "observed_bias": 0.008396872042638687,
+        "theoretical_bias": 0.0
+      }
+    },
+    {
+      "name": "lambda_0.25_r_1_control: dominance_parameter_sd",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_1_control: dominance_parameter_coverage",
+      "passed": true,
+      "detail": {
+        "observed": 0.9525,
+        "expected": 0.95
+      }
+    },
+    {
+      "name": "lambda_0.25_r_1_control: one_row_naive_equals_cluster",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_1_equal_mixture: covariance",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_1_equal_mixture: contrast_se",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_1_equal_mixture: exact_t_generation_dominant",
+      "passed": true,
+      "detail": {
+        "observed": 0.02525,
+        "expected": 0.025000000000000053,
+        "five_mc_se_tolerance": 0.012592761036332202
+      }
+    },
+    {
+      "name": "lambda_0.25_r_1_equal_mixture: exact_t_control_dominant",
+      "passed": true,
+      "detail": {
+        "observed": 0.02775,
+        "expected": 0.025000000000000053,
+        "five_mc_se_tolerance": 0.012592761036332202
+      }
+    },
+    {
+      "name": "lambda_0.25_r_1_equal_mixture: exact_t_unresolved",
+      "passed": true,
+      "detail": {
+        "observed": 0.947,
+        "expected": 0.95,
+        "five_mc_se_tolerance": 0.017480060940112785
+      }
+    },
+    {
+      "name": "lambda_0.25_r_1_equal_mixture: labels_partition",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_1_equal_mixture: generation_parameter_bias",
+      "passed": true,
+      "detail": {
+        "observed_bias": 0.003877844538010626,
+        "theoretical_bias": 0.0
+      }
+    },
+    {
+      "name": "lambda_0.25_r_1_equal_mixture: generation_parameter_sd",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_1_equal_mixture: generation_parameter_coverage",
+      "passed": true,
+      "detail": {
+        "observed": 0.94975,
+        "expected": 0.95
+      }
+    },
+    {
+      "name": "lambda_0.25_r_1_equal_mixture: control_parameter_bias",
+      "passed": true,
+      "detail": {
+        "observed_bias": -0.004935993145620753,
+        "theoretical_bias": -0.0
+      }
+    },
+    {
+      "name": "lambda_0.25_r_1_equal_mixture: control_parameter_sd",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_1_equal_mixture: control_parameter_coverage",
+      "passed": true,
+      "detail": {
+        "observed": 0.94825,
+        "expected": 0.95
+      }
+    },
+    {
+      "name": "lambda_0.25_r_1_equal_mixture: dominance_parameter_bias",
+      "passed": true,
+      "detail": {
+        "observed_bias": 0.008813837683631375,
+        "theoretical_bias": 0.0
+      }
+    },
+    {
+      "name": "lambda_0.25_r_1_equal_mixture: dominance_parameter_sd",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_1_equal_mixture: dominance_parameter_coverage",
+      "passed": true,
+      "detail": {
+        "observed": 0.947,
+        "expected": 0.95
+      }
+    },
+    {
+      "name": "lambda_0.25_r_1_equal_mixture: one_row_naive_equals_cluster",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_8_generation: covariance",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_8_generation: contrast_se",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_8_generation: exact_t_generation_dominant",
+      "passed": true,
+      "detail": {
+        "observed": 0.15775,
+        "expected": 0.14928954816321188,
+        "five_mc_se_tolerance": 0.02842381086359679
+      }
+    },
+    {
+      "name": "lambda_0.25_r_8_generation: exact_t_control_dominant",
+      "passed": true,
+      "detail": {
+        "observed": 0.0015,
+        "expected": 0.0019846079316395045,
+        "five_mc_se_tolerance": 0.003768406300263283
+      }
+    },
+    {
+      "name": "lambda_0.25_r_8_generation: exact_t_unresolved",
+      "passed": true,
+      "detail": {
+        "observed": 0.84075,
+        "expected": 0.8487258439051486,
+        "five_mc_se_tolerance": 0.028577359322817443
+      }
+    },
+    {
+      "name": "lambda_0.25_r_8_generation: labels_partition",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_8_generation: generation_parameter_bias",
+      "passed": true,
+      "detail": {
+        "observed_bias": 0.010091578875578624,
+        "theoretical_bias": 0.0
+      }
+    },
+    {
+      "name": "lambda_0.25_r_8_generation: generation_parameter_sd",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_8_generation: generation_parameter_coverage",
+      "passed": true,
+      "detail": {
+        "observed": 0.9525,
+        "expected": 0.95
+      }
+    },
+    {
+      "name": "lambda_0.25_r_8_generation: control_parameter_bias",
+      "passed": true,
+      "detail": {
+        "observed_bias": -0.00905484124592639,
+        "theoretical_bias": -0.0
+      }
+    },
+    {
+      "name": "lambda_0.25_r_8_generation: control_parameter_sd",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_8_generation: control_parameter_coverage",
+      "passed": true,
+      "detail": {
+        "observed": 0.95125,
+        "expected": 0.95
+      }
+    },
+    {
+      "name": "lambda_0.25_r_8_generation: dominance_parameter_bias",
+      "passed": true,
+      "detail": {
+        "observed_bias": 0.019146420121505015,
+        "theoretical_bias": 0.0
+      }
+    },
+    {
+      "name": "lambda_0.25_r_8_generation: dominance_parameter_sd",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_8_generation: dominance_parameter_coverage",
+      "passed": true,
+      "detail": {
+        "observed": 0.95,
+        "expected": 0.95
+      }
+    },
+    {
+      "name": "lambda_0.25_r_8_control: covariance",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_8_control: contrast_se",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_8_control: exact_t_generation_dominant",
+      "passed": true,
+      "detail": {
+        "observed": 0.00175,
+        "expected": 0.0019846079316395045,
+        "five_mc_se_tolerance": 0.003768406300263283
+      }
+    },
+    {
+      "name": "lambda_0.25_r_8_control: exact_t_control_dominant",
+      "passed": true,
+      "detail": {
+        "observed": 0.1525,
+        "expected": 0.14928954816321188,
+        "five_mc_se_tolerance": 0.02842381086359679
+      }
+    },
+    {
+      "name": "lambda_0.25_r_8_control: exact_t_unresolved",
+      "passed": true,
+      "detail": {
+        "observed": 0.84575,
+        "expected": 0.8487258439051486,
+        "five_mc_se_tolerance": 0.028577359322817443
+      }
+    },
+    {
+      "name": "lambda_0.25_r_8_control: labels_partition",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_8_control: generation_parameter_bias",
+      "passed": true,
+      "detail": {
+        "observed_bias": 0.0028590908629770365,
+        "theoretical_bias": 0.0
+      }
+    },
+    {
+      "name": "lambda_0.25_r_8_control: generation_parameter_sd",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_8_control: generation_parameter_coverage",
+      "passed": true,
+      "detail": {
+        "observed": 0.95,
+        "expected": 0.95
+      }
+    },
+    {
+      "name": "lambda_0.25_r_8_control: control_parameter_bias",
+      "passed": true,
+      "detail": {
+        "observed_bias": -0.0034137759761020165,
+        "theoretical_bias": -0.0
+      }
+    },
+    {
+      "name": "lambda_0.25_r_8_control: control_parameter_sd",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_8_control: control_parameter_coverage",
+      "passed": true,
+      "detail": {
+        "observed": 0.9525,
+        "expected": 0.95
+      }
+    },
+    {
+      "name": "lambda_0.25_r_8_control: dominance_parameter_bias",
+      "passed": true,
+      "detail": {
+        "observed_bias": 0.006272866839079056,
+        "theoretical_bias": 0.0
+      }
+    },
+    {
+      "name": "lambda_0.25_r_8_control: dominance_parameter_sd",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_8_control: dominance_parameter_coverage",
+      "passed": true,
+      "detail": {
+        "observed": 0.94975,
+        "expected": 0.95
+      }
+    },
+    {
+      "name": "lambda_0.25_r_8_equal_mixture: covariance",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_8_equal_mixture: contrast_se",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_8_equal_mixture: exact_t_generation_dominant",
+      "passed": true,
+      "detail": {
+        "observed": 0.02275,
+        "expected": 0.025000000000000053,
+        "five_mc_se_tolerance": 0.012592761036332202
+      }
+    },
+    {
+      "name": "lambda_0.25_r_8_equal_mixture: exact_t_control_dominant",
+      "passed": true,
+      "detail": {
+        "observed": 0.0215,
+        "expected": 0.025000000000000053,
+        "five_mc_se_tolerance": 0.012592761036332202
+      }
+    },
+    {
+      "name": "lambda_0.25_r_8_equal_mixture: exact_t_unresolved",
+      "passed": true,
+      "detail": {
+        "observed": 0.95575,
+        "expected": 0.95,
+        "five_mc_se_tolerance": 0.017480060940112785
+      }
+    },
+    {
+      "name": "lambda_0.25_r_8_equal_mixture: labels_partition",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_8_equal_mixture: generation_parameter_bias",
+      "passed": true,
+      "detail": {
+        "observed_bias": 0.0004416574841590606,
+        "theoretical_bias": 0.0
+      }
+    },
+    {
+      "name": "lambda_0.25_r_8_equal_mixture: generation_parameter_sd",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_8_equal_mixture: generation_parameter_coverage",
+      "passed": true,
+      "detail": {
+        "observed": 0.9535,
+        "expected": 0.95
+      }
+    },
+    {
+      "name": "lambda_0.25_r_8_equal_mixture: control_parameter_bias",
+      "passed": true,
+      "detail": {
+        "observed_bias": -0.0003035642311981981,
+        "theoretical_bias": -0.0
+      }
+    },
+    {
+      "name": "lambda_0.25_r_8_equal_mixture: control_parameter_sd",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_8_equal_mixture: control_parameter_coverage",
+      "passed": true,
+      "detail": {
+        "observed": 0.95575,
+        "expected": 0.95
+      }
+    },
+    {
+      "name": "lambda_0.25_r_8_equal_mixture: dominance_parameter_bias",
+      "passed": true,
+      "detail": {
+        "observed_bias": 0.0007452217153572578,
+        "theoretical_bias": 0.0
+      }
+    },
+    {
+      "name": "lambda_0.25_r_8_equal_mixture: dominance_parameter_sd",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_8_equal_mixture: dominance_parameter_coverage",
+      "passed": true,
+      "detail": {
+        "observed": 0.95575,
+        "expected": 0.95
+      }
+    },
+    {
+      "name": "lambda_1.0_r_1_generation: covariance",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_1_generation: contrast_se",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_1_generation: exact_t_generation_dominant",
+      "passed": true,
+      "detail": {
+        "observed": 0.5415,
+        "expected": 0.53543865555473,
+        "five_mc_se_tolerance": 0.03967905826389919
+      }
+    },
+    {
+      "name": "lambda_1.0_r_1_generation: exact_t_control_dominant",
+      "passed": true,
+      "detail": {
+        "observed": 0.0,
+        "expected": 3.0404912393380834e-05,
+        "five_mc_se_tolerance": 0.0006859184838840513
+      }
+    },
+    {
+      "name": "lambda_1.0_r_1_generation: exact_t_unresolved",
+      "passed": true,
+      "detail": {
+        "observed": 0.4585,
+        "expected": 0.4645309395328766,
+        "five_mc_se_tolerance": 0.039678887391541656
+      }
+    },
+    {
+      "name": "lambda_1.0_r_1_generation: labels_partition",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_1_generation: generation_parameter_bias",
+      "passed": true,
+      "detail": {
+        "observed_bias": 0.0006043639359753725,
+        "theoretical_bias": 0.0
+      }
+    },
+    {
+      "name": "lambda_1.0_r_1_generation: generation_parameter_sd",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_1_generation: generation_parameter_coverage",
+      "passed": true,
+      "detail": {
+        "observed": 0.9465,
+        "expected": 0.95
+      }
+    },
+    {
+      "name": "lambda_1.0_r_1_generation: control_parameter_bias",
+      "passed": true,
+      "detail": {
+        "observed_bias": 0.0037152777908832286,
+        "theoretical_bias": -0.0
+      }
+    },
+    {
+      "name": "lambda_1.0_r_1_generation: control_parameter_sd",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_1_generation: control_parameter_coverage",
+      "passed": true,
+      "detail": {
+        "observed": 0.95325,
+        "expected": 0.95
+      }
+    },
+    {
+      "name": "lambda_1.0_r_1_generation: dominance_parameter_bias",
+      "passed": true,
+      "detail": {
+        "observed_bias": -0.0031109138549078553,
+        "theoretical_bias": 0.0
+      }
+    },
+    {
+      "name": "lambda_1.0_r_1_generation: dominance_parameter_sd",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_1_generation: dominance_parameter_coverage",
+      "passed": true,
+      "detail": {
+        "observed": 0.94825,
+        "expected": 0.95
+      }
+    },
+    {
+      "name": "lambda_1.0_r_1_generation: one_row_naive_equals_cluster",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_1_control: covariance",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_1_control: contrast_se",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_1_control: exact_t_generation_dominant",
+      "passed": true,
+      "detail": {
+        "observed": 0.0,
+        "expected": 3.0404912393380834e-05,
+        "five_mc_se_tolerance": 0.0006859184838840513
+      }
+    },
+    {
+      "name": "lambda_1.0_r_1_control: exact_t_control_dominant",
+      "passed": true,
+      "detail": {
+        "observed": 0.535,
+        "expected": 0.53543865555473,
+        "five_mc_se_tolerance": 0.03967905826389919
+      }
+    },
+    {
+      "name": "lambda_1.0_r_1_control: exact_t_unresolved",
+      "passed": true,
+      "detail": {
+        "observed": 0.465,
+        "expected": 0.4645309395328766,
+        "five_mc_se_tolerance": 0.039678887391541656
+      }
+    },
+    {
+      "name": "lambda_1.0_r_1_control: labels_partition",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_1_control: generation_parameter_bias",
+      "passed": true,
+      "detail": {
+        "observed_bias": 0.001736514162796939,
+        "theoretical_bias": 0.0
+      }
+    },
+    {
+      "name": "lambda_1.0_r_1_control: generation_parameter_sd",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_1_control: generation_parameter_coverage",
+      "passed": true,
+      "detail": {
+        "observed": 0.95125,
+        "expected": 0.95
+      }
+    },
+    {
+      "name": "lambda_1.0_r_1_control: control_parameter_bias",
+      "passed": true,
+      "detail": {
+        "observed_bias": -0.004702352304408724,
+        "theoretical_bias": -0.0
+      }
+    },
+    {
+      "name": "lambda_1.0_r_1_control: control_parameter_sd",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_1_control: control_parameter_coverage",
+      "passed": true,
+      "detail": {
+        "observed": 0.95075,
+        "expected": 0.95
+      }
+    },
+    {
+      "name": "lambda_1.0_r_1_control: dominance_parameter_bias",
+      "passed": true,
+      "detail": {
+        "observed_bias": 0.006438866467205662,
+        "theoretical_bias": 0.0
+      }
+    },
+    {
+      "name": "lambda_1.0_r_1_control: dominance_parameter_sd",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_1_control: dominance_parameter_coverage",
+      "passed": true,
+      "detail": {
+        "observed": 0.9485,
+        "expected": 0.95
+      }
+    },
+    {
+      "name": "lambda_1.0_r_1_control: one_row_naive_equals_cluster",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_1_equal_mixture: covariance",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_1_equal_mixture: contrast_se",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_1_equal_mixture: exact_t_generation_dominant",
+      "passed": true,
+      "detail": {
+        "observed": 0.02575,
+        "expected": 0.025000000000000053,
+        "five_mc_se_tolerance": 0.012592761036332202
+      }
+    },
+    {
+      "name": "lambda_1.0_r_1_equal_mixture: exact_t_control_dominant",
+      "passed": true,
+      "detail": {
+        "observed": 0.021,
+        "expected": 0.025000000000000053,
+        "five_mc_se_tolerance": 0.012592761036332202
+      }
+    },
+    {
+      "name": "lambda_1.0_r_1_equal_mixture: exact_t_unresolved",
+      "passed": true,
+      "detail": {
+        "observed": 0.95325,
+        "expected": 0.95,
+        "five_mc_se_tolerance": 0.017480060940112785
+      }
+    },
+    {
+      "name": "lambda_1.0_r_1_equal_mixture: labels_partition",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_1_equal_mixture: generation_parameter_bias",
+      "passed": true,
+      "detail": {
+        "observed_bias": 0.0008225150586271165,
+        "theoretical_bias": 0.0
+      }
+    },
+    {
+      "name": "lambda_1.0_r_1_equal_mixture: generation_parameter_sd",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_1_equal_mixture: generation_parameter_coverage",
+      "passed": true,
+      "detail": {
+        "observed": 0.952,
+        "expected": 0.95
+      }
+    },
+    {
+      "name": "lambda_1.0_r_1_equal_mixture: control_parameter_bias",
+      "passed": true,
+      "detail": {
+        "observed_bias": -0.002222055562835267,
+        "theoretical_bias": -0.0
+      }
+    },
+    {
+      "name": "lambda_1.0_r_1_equal_mixture: control_parameter_sd",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_1_equal_mixture: control_parameter_coverage",
+      "passed": true,
+      "detail": {
+        "observed": 0.9535,
+        "expected": 0.95
+      }
+    },
+    {
+      "name": "lambda_1.0_r_1_equal_mixture: dominance_parameter_bias",
+      "passed": true,
+      "detail": {
+        "observed_bias": 0.0030445706214623845,
+        "theoretical_bias": 0.0
+      }
+    },
+    {
+      "name": "lambda_1.0_r_1_equal_mixture: dominance_parameter_sd",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_1_equal_mixture: dominance_parameter_coverage",
+      "passed": true,
+      "detail": {
+        "observed": 0.95325,
+        "expected": 0.95
+      }
+    },
+    {
+      "name": "lambda_1.0_r_1_equal_mixture: one_row_naive_equals_cluster",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_8_generation: covariance",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_8_generation: contrast_se",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_8_generation: exact_t_generation_dominant",
+      "passed": true,
+      "detail": {
+        "observed": 0.95075,
+        "expected": 0.9518425396375517,
+        "five_mc_se_tolerance": 0.017176000593371044
+      }
+    },
+    {
+      "name": "lambda_1.0_r_8_generation: exact_t_control_dominant",
+      "passed": true,
+      "detail": {
+        "observed": 0.0,
+        "expected": 1.166344432264267e-08,
+        "five_mc_se_tolerance": 0.0002585379462499065
+      }
+    },
+    {
+      "name": "lambda_1.0_r_8_generation: exact_t_unresolved",
+      "passed": true,
+      "detail": {
+        "observed": 0.04925,
+        "expected": 0.04815744869900396,
+        "five_mc_se_tolerance": 0.017175998647385397
+      }
+    },
+    {
+      "name": "lambda_1.0_r_8_generation: labels_partition",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_8_generation: generation_parameter_bias",
+      "passed": true,
+      "detail": {
+        "observed_bias": -0.0001290600724581224,
+        "theoretical_bias": 0.0
+      }
+    },
+    {
+      "name": "lambda_1.0_r_8_generation: generation_parameter_sd",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_8_generation: generation_parameter_coverage",
+      "passed": true,
+      "detail": {
+        "observed": 0.94825,
+        "expected": 0.95
+      }
+    },
+    {
+      "name": "lambda_1.0_r_8_generation: control_parameter_bias",
+      "passed": true,
+      "detail": {
+        "observed_bias": -0.0020379059537373487,
+        "theoretical_bias": -0.0
+      }
+    },
+    {
+      "name": "lambda_1.0_r_8_generation: control_parameter_sd",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_8_generation: control_parameter_coverage",
+      "passed": true,
+      "detail": {
+        "observed": 0.95025,
+        "expected": 0.95
+      }
+    },
+    {
+      "name": "lambda_1.0_r_8_generation: dominance_parameter_bias",
+      "passed": true,
+      "detail": {
+        "observed_bias": 0.001908845881279222,
+        "theoretical_bias": 0.0
+      }
+    },
+    {
+      "name": "lambda_1.0_r_8_generation: dominance_parameter_sd",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_8_generation: dominance_parameter_coverage",
+      "passed": true,
+      "detail": {
+        "observed": 0.94925,
+        "expected": 0.95
+      }
+    },
+    {
+      "name": "lambda_1.0_r_8_control: covariance",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_8_control: contrast_se",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_8_control: exact_t_generation_dominant",
+      "passed": true,
+      "detail": {
+        "observed": 0.0,
+        "expected": 1.166344432264267e-08,
+        "five_mc_se_tolerance": 0.0002585379462499065
+      }
+    },
+    {
+      "name": "lambda_1.0_r_8_control: exact_t_control_dominant",
+      "passed": true,
+      "detail": {
+        "observed": 0.95475,
+        "expected": 0.9518425396375517,
+        "five_mc_se_tolerance": 0.017176000593371044
+      }
+    },
+    {
+      "name": "lambda_1.0_r_8_control: exact_t_unresolved",
+      "passed": true,
+      "detail": {
+        "observed": 0.04525,
+        "expected": 0.04815744869900396,
+        "five_mc_se_tolerance": 0.017175998647385397
+      }
+    },
+    {
+      "name": "lambda_1.0_r_8_control: labels_partition",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_8_control: generation_parameter_bias",
+      "passed": true,
+      "detail": {
+        "observed_bias": 0.0008529774906872929,
+        "theoretical_bias": 0.0
+      }
+    },
+    {
+      "name": "lambda_1.0_r_8_control: generation_parameter_sd",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_8_control: generation_parameter_coverage",
+      "passed": true,
+      "detail": {
+        "observed": 0.94875,
+        "expected": 0.95
+      }
+    },
+    {
+      "name": "lambda_1.0_r_8_control: control_parameter_bias",
+      "passed": true,
+      "detail": {
+        "observed_bias": -0.0011481415356116348,
+        "theoretical_bias": -0.0
+      }
+    },
+    {
+      "name": "lambda_1.0_r_8_control: control_parameter_sd",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_8_control: control_parameter_coverage",
+      "passed": true,
+      "detail": {
+        "observed": 0.94875,
+        "expected": 0.95
+      }
+    },
+    {
+      "name": "lambda_1.0_r_8_control: dominance_parameter_bias",
+      "passed": true,
+      "detail": {
+        "observed_bias": 0.002001119026298928,
+        "theoretical_bias": 0.0
+      }
+    },
+    {
+      "name": "lambda_1.0_r_8_control: dominance_parameter_sd",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_8_control: dominance_parameter_coverage",
+      "passed": true,
+      "detail": {
+        "observed": 0.951,
+        "expected": 0.95
+      }
+    },
+    {
+      "name": "lambda_1.0_r_8_equal_mixture: covariance",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_8_equal_mixture: contrast_se",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_8_equal_mixture: exact_t_generation_dominant",
+      "passed": true,
+      "detail": {
+        "observed": 0.0265,
+        "expected": 0.025000000000000053,
+        "five_mc_se_tolerance": 0.012592761036332202
+      }
+    },
+    {
+      "name": "lambda_1.0_r_8_equal_mixture: exact_t_control_dominant",
+      "passed": true,
+      "detail": {
+        "observed": 0.02625,
+        "expected": 0.025000000000000053,
+        "five_mc_se_tolerance": 0.012592761036332202
+      }
+    },
+    {
+      "name": "lambda_1.0_r_8_equal_mixture: exact_t_unresolved",
+      "passed": true,
+      "detail": {
+        "observed": 0.94725,
+        "expected": 0.95,
+        "five_mc_se_tolerance": 0.017480060940112785
+      }
+    },
+    {
+      "name": "lambda_1.0_r_8_equal_mixture: labels_partition",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_8_equal_mixture: generation_parameter_bias",
+      "passed": true,
+      "detail": {
+        "observed_bias": 0.0011571835825293128,
+        "theoretical_bias": 0.0
+      }
+    },
+    {
+      "name": "lambda_1.0_r_8_equal_mixture: generation_parameter_sd",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_8_equal_mixture: generation_parameter_coverage",
+      "passed": true,
+      "detail": {
+        "observed": 0.9515,
+        "expected": 0.95
+      }
+    },
+    {
+      "name": "lambda_1.0_r_8_equal_mixture: control_parameter_bias",
+      "passed": true,
+      "detail": {
+        "observed_bias": -0.0011454206580716472,
+        "theoretical_bias": -0.0
+      }
+    },
+    {
+      "name": "lambda_1.0_r_8_equal_mixture: control_parameter_sd",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_8_equal_mixture: control_parameter_coverage",
+      "passed": true,
+      "detail": {
+        "observed": 0.95,
+        "expected": 0.95
+      }
+    },
+    {
+      "name": "lambda_1.0_r_8_equal_mixture: dominance_parameter_bias",
+      "passed": true,
+      "detail": {
+        "observed_bias": 0.002302604240600957,
+        "theoretical_bias": 0.0
+      }
+    },
+    {
+      "name": "lambda_1.0_r_8_equal_mixture: dominance_parameter_sd",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_8_equal_mixture: dominance_parameter_coverage",
+      "passed": true,
+      "detail": {
+        "observed": 0.94725,
+        "expected": 0.95
+      }
+    },
+    {
+      "name": "lambda_0.25_r_8_hidden_shift: covariance",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_8_hidden_shift: contrast_se",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_8_hidden_shift: exact_t_generation_dominant",
+      "passed": true,
+      "detail": {
+        "observed": 0.00325,
+        "expected": 0.0019846079316395045,
+        "five_mc_se_tolerance": 0.003768406300263283
+      }
+    },
+    {
+      "name": "lambda_0.25_r_8_hidden_shift: exact_t_control_dominant",
+      "passed": true,
+      "detail": {
+        "observed": 0.1535,
+        "expected": 0.14928954816321188,
+        "five_mc_se_tolerance": 0.02842381086359679
+      }
+    },
+    {
+      "name": "lambda_0.25_r_8_hidden_shift: exact_t_unresolved",
+      "passed": true,
+      "detail": {
+        "observed": 0.84325,
+        "expected": 0.8487258439051486,
+        "five_mc_se_tolerance": 0.028577359322817443
+      }
+    },
+    {
+      "name": "lambda_0.25_r_8_hidden_shift: labels_partition",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_8_hidden_shift: generation_parameter_bias",
+      "passed": true,
+      "detail": {
+        "observed_bias": -0.5014062423920312,
+        "theoretical_bias": -0.5
+      }
+    },
+    {
+      "name": "lambda_0.25_r_8_hidden_shift: generation_parameter_sd",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_8_hidden_shift: generation_parameter_coverage",
+      "passed": true,
+      "detail": {
+        "observed": 0.572,
+        "expected": 0.5665944362382124
+      }
+    },
+    {
+      "name": "lambda_0.25_r_8_hidden_shift: control_parameter_bias",
+      "passed": true,
+      "detail": {
+        "observed_bias": 0.5021901511500259,
+        "theoretical_bias": 0.5
+      }
+    },
+    {
+      "name": "lambda_0.25_r_8_hidden_shift: control_parameter_sd",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_8_hidden_shift: control_parameter_coverage",
+      "passed": true,
+      "detail": {
+        "observed": 0.544,
+        "expected": 0.5391184049799563
+      }
+    },
+    {
+      "name": "lambda_0.25_r_8_hidden_shift: dominance_parameter_bias",
+      "passed": true,
+      "detail": {
+        "observed_bias": -1.003596393542057,
+        "theoretical_bias": -1.0
+      }
+    },
+    {
+      "name": "lambda_0.25_r_8_hidden_shift: dominance_parameter_sd",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_8_hidden_shift: dominance_parameter_coverage",
+      "passed": true,
+      "detail": {
+        "observed": 0.552,
+        "expected": 0.5473544985880356
+      }
+    },
+    {
+      "name": "lambda_1.0_r_8_hidden_shift: covariance",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_8_hidden_shift: contrast_se",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_8_hidden_shift: exact_t_generation_dominant",
+      "passed": true,
+      "detail": {
+        "observed": 0.0,
+        "expected": 1.166344432264267e-08,
+        "five_mc_se_tolerance": 0.0002585379462499065
+      }
+    },
+    {
+      "name": "lambda_1.0_r_8_hidden_shift: exact_t_control_dominant",
+      "passed": true,
+      "detail": {
+        "observed": 0.94575,
+        "expected": 0.9518425396375517,
+        "five_mc_se_tolerance": 0.017176000593371044
+      }
+    },
+    {
+      "name": "lambda_1.0_r_8_hidden_shift: exact_t_unresolved",
+      "passed": true,
+      "detail": {
+        "observed": 0.05425,
+        "expected": 0.04815744869900396,
+        "five_mc_se_tolerance": 0.017175998647385397
+      }
+    },
+    {
+      "name": "lambda_1.0_r_8_hidden_shift: labels_partition",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_8_hidden_shift: generation_parameter_bias",
+      "passed": true,
+      "detail": {
+        "observed_bias": -0.49865349792754204,
+        "theoretical_bias": -0.5
+      }
+    },
+    {
+      "name": "lambda_1.0_r_8_hidden_shift: generation_parameter_sd",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_8_hidden_shift: generation_parameter_coverage",
+      "passed": true,
+      "detail": {
+        "observed": 0.0,
+        "expected": 9.718842608474887e-08
+      }
+    },
+    {
+      "name": "lambda_1.0_r_8_hidden_shift: control_parameter_bias",
+      "passed": true,
+      "detail": {
+        "observed_bias": 0.4979705647539997,
+        "theoretical_bias": 0.5
+      }
+    },
+    {
+      "name": "lambda_1.0_r_8_hidden_shift: control_parameter_sd",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_8_hidden_shift: control_parameter_coverage",
+      "passed": true,
+      "detail": {
+        "observed": 0.0,
+        "expected": 3.4893922886280675e-05
+      }
+    },
+    {
+      "name": "lambda_1.0_r_8_hidden_shift: dominance_parameter_bias",
+      "passed": true,
+      "detail": {
+        "observed_bias": -0.9966240626815418,
+        "theoretical_bias": -1.0
+      }
+    },
+    {
+      "name": "lambda_1.0_r_8_hidden_shift: dominance_parameter_sd",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_8_hidden_shift: dominance_parameter_coverage",
+      "passed": true,
+      "detail": {
+        "observed": 0.0,
+        "expected": 6.335567137583098e-08
+      }
+    },
+    {
+      "name": "transfer_1.0_1.0_generation: transfer_mean",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "transfer_1.0_1.0_generation: independent_streams",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "transfer_1.0_1.0_generation: transfer_se",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "transfer_1.0_1.0_generation: transfer_bias",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "transfer_1.0_1.0_generation: transfer_coverage",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "transfer_1.0_1.0_control: transfer_mean",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "transfer_1.0_1.0_control: independent_streams",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "transfer_1.0_1.0_control: transfer_se",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "transfer_1.0_1.0_control: transfer_bias",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "transfer_1.0_1.0_control: transfer_coverage",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "transfer_1.0_0.25_generation: transfer_mean",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "transfer_1.0_0.25_generation: independent_streams",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "transfer_1.0_0.25_generation: transfer_se",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "transfer_1.0_0.25_generation: transfer_bias",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "transfer_1.0_0.25_generation: transfer_coverage",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "transfer_1.0_0.25_control: transfer_mean",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "transfer_1.0_0.25_control: independent_streams",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "transfer_1.0_0.25_control: transfer_se",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "transfer_1.0_0.25_control: transfer_bias",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "transfer_1.0_0.25_control: transfer_coverage",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "transfer_0.25_1.0_generation: transfer_mean",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "transfer_0.25_1.0_generation: independent_streams",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "transfer_0.25_1.0_generation: transfer_se",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "transfer_0.25_1.0_generation: transfer_bias",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "transfer_0.25_1.0_generation: transfer_coverage",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "transfer_0.25_1.0_control: transfer_mean",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "transfer_0.25_1.0_control: independent_streams",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "transfer_0.25_1.0_control: transfer_se",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "transfer_0.25_1.0_control: transfer_bias",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "transfer_0.25_1.0_control: transfer_coverage",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "[1.0, 1.0]: transfer_rank",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "[1.0, 0.25]: transfer_rank",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "[0.25, 1.0]: transfer_rank",
+      "passed": true,
+      "detail": null
+    }
+  ]
+}

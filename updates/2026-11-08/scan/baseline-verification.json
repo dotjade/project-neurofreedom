@@ -1,0 +1,83 @@
+{
+  "repository": "https://github.com/dotjade/project-neurofreedom",
+  "ref": "c1faee636fe54569660c03f7bdcc977e41ce7555",
+  "sources": [
+    {
+      "path": "RESEARCH_PROTOCOL.md",
+      "git_blob_sha": "d69c21b73447f7ad9df0a3949b7fcaf57dd5ddde",
+      "git_blob_recomputed": "d69c21b73447f7ad9df0a3949b7fcaf57dd5ddde",
+      "match": true,
+      "sha256": "6f0025df7fd62fc2fe952cfbca96fca811ae76b917b7e7d4d45a501fe89e6859"
+    },
+    {
+      "path": "STATUS.md",
+      "git_blob_sha": "a93bc81c6157a400b79967959b852cf912201b97",
+      "git_blob_recomputed": "a93bc81c6157a400b79967959b852cf912201b97",
+      "match": true,
+      "sha256": "430decb359b11e2665b2c26af117ad0c62ce9c6f1b6af3df203d60c82adec0a9"
+    },
+    {
+      "path": "public/journal-source/README.md",
+      "git_blob_sha": "b4b9c74518021f693122e959291dd3871d562215",
+      "git_blob_recomputed": "b4b9c74518021f693122e959291dd3871d562215",
+      "match": true,
+      "sha256": "809173b6459331730d4fd9b0df135079b1e8dfdb030f4babbfc0055fcec1197e"
+    },
+    {
+      "path": "updates/2026-11-07/scan/search-log.json",
+      "git_blob_sha": "424b474f696179d2cf0fee905b1db216fdcbc199",
+      "git_blob_recomputed": "424b474f696179d2cf0fee905b1db216fdcbc199",
+      "match": true,
+      "sha256": "8f9c9c7175452bc073ea281d759b97058e1d8ed6b5a2b823c02e2baa890eb74c"
+    },
+    {
+      "path": "updates/2026-11-07/scan/safety-review.json",
+      "git_blob_sha": "a1c46a6e3ef47500f987a31f488682d1a6cdfeba",
+      "git_blob_recomputed": "a1c46a6e3ef47500f987a31f488682d1a6cdfeba",
+      "match": true,
+      "sha256": "28f360fbfe540c1e7d99946c485f476164e343305e76faf5a28b6e35384184c2"
+    },
+    {
+      "path": "updates/2026-11-07/scan/pubmed-screening.jsonl",
+      "git_blob_sha": "1379e57043fd3f4d5841c0c95e4f2734c4162806",
+      "git_blob_recomputed": "1379e57043fd3f4d5841c0c95e4f2734c4162806",
+      "match": true,
+      "sha256": "ccb1db7f4813be5e88eae5e1387ff5bbf9628cc39edd6b8535feb69794b4fb00"
+    },
+    {
+      "path": "updates/2026-11-07/scan/summary.json",
+      "git_blob_sha": "a5240699b31fafae5db3e6f203395f88d2af66c0",
+      "git_blob_recomputed": "a5240699b31fafae5db3e6f203395f88d2af66c0",
+      "match": true,
+      "sha256": "f53a48b64596bf43c880c2cea75fedcd6424feaeea78b823016198fa95c669ba"
+    },
+    {
+      "path": "updates/2026-11-07/scan/scan_sources.py",
+      "git_blob_sha": "bf51cb8aa4b8c22b6a5286ab6143231b2fd9d0d4",
+      "git_blob_recomputed": "bf51cb8aa4b8c22b6a5286ab6143231b2fd9d0d4",
+      "match": true,
+      "sha256": "3d58d09779aaee26339cc3c1af6a3c45da07f3f93e3c3d5e2d690e823f4ddcb4"
+    },
+    {
+      "path": "updates/2026-11-07/scan/registry-evidence.jsonl",
+      "git_blob_sha": "2d43f13fd37b6a94eb96a7b3181c3bb39f1d799d",
+      "git_blob_recomputed": "2d43f13fd37b6a94eb96a7b3181c3bb39f1d799d",
+      "match": true,
+      "sha256": "b5a26aecf7daa38c988414942165955b836feedcd916c2cf513a704c35045279"
+    },
+    {
+      "path": "evidence.jsonl",
+      "git_blob_sha": "3087cfc44d3695057113c4eacc2af21bd39471cd",
+      "git_blob_recomputed": "3087cfc44d3695057113c4eacc2af21bd39471cd",
+      "match": true,
+      "sha256": "c10d9a90409bc722f1236d77ec2754c264ed11330469cf118df1461460ffb375"
+    },
+    {
+      "path": "README.md",
+      "git_blob_sha": "4c3bafbd09ca4073d183cef267c746afa09147bf",
+      "git_blob_recomputed": "4c3bafbd09ca4073d183cef267c746afa09147bf",
+      "match": true,
+      "sha256": "6b1d997e495751f81c97048c86cd8864732cdd8313cc3d9363605bb4425721d2"
+    }
+  ]
+}

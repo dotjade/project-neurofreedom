@@ -1,0 +1,47 @@
+{
+  "date": "2026-11-08",
+  "core_started_utc": "2026-11-08T03:04:39.450863+00:00",
+  "core_completed_utc": "2026-11-08T03:07:59.615070+00:00",
+  "prior_core_cutoff_utc": "2026-11-07T03:10:53.550409+00:00",
+  "pubmed_id_occurrences": 13,
+  "pubmed_unique_ids": 7,
+  "pubmed_records_accounted": 7,
+  "pubmed_ids_not_in_prior_complete_scan": [
+    "42995077"
+  ],
+  "new_peer_reviewed_primary_publications": [],
+  "new_first_public_disclosures_verified": 0,
+  "historical_retracted_review_id": "41503301",
+  "new_retraction_status_since_baseline": false,
+  "preprint_versions": 708,
+  "preprints": [
+    {
+      "server": "medrxiv",
+      "unique_doi_versions": 160,
+      "not_in_previous_scan_doi_versions": 12,
+      "pagination_complete_for_observed_response": true,
+      "reported_totals": [
+        160
+      ],
+      "matches": []
+    },
+    {
+      "server": "biorxiv",
+      "unique_doi_versions": 548,
+      "not_in_previous_scan_doi_versions": 72,
+      "pagination_complete_for_observed_response": true,
+      "reported_totals": [
+        548
+      ],
+      "matches": []
+    }
+  ],
+  "registry_core_unique": 6,
+  "registry_ids_changed": [],
+  "registry_supplement_unique": 1,
+  "registries_with_posted_results": [],
+  "core_request_count": 44,
+  "failed_requests": [],
+  "new_watched_treatment_official_warning_verified": false,
+  "interpretation": "No qualifying new-window primary publication, preprint, posted result or watched-treatment official warning verified in this bounded scan. Not proof of absence or safety."
+}

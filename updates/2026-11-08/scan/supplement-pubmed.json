@@ -1,0 +1,63 @@
+{
+  "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=42991793%2C42995077&retmode=xml",
+  "started_utc": "2026-11-08T03:08:02.675173+00:00",
+  "status": 200,
+  "bytes": 7486,
+  "sha256": "cfe5fc46ab5a5d67b185878a8d897daac356a02f63174c77edf807e1d9c5c645",
+  "records": [
+    {
+      "pmid": "42991793",
+      "title": "Retraction: Open-Loop and Closed-Loop Neuromodulation Across Neurological Disorders Toward Personalized Brain Stimulation: A Narrative Review.",
+      "journal": "Cureus",
+      "types": [
+        "Journal Article",
+        "Retraction Notice"
+      ],
+      "ids": {
+        "pubmed": "42991793",
+        "pmc": "PMC13739025",
+        "doi": "10.7759/cureus.r263"
+      },
+      "article_dates": [
+        {
+          "DateType": "Electronic",
+          "Year": "2026",
+          "Month": "11",
+          "Day": "05"
+        }
+      ],
+      "corrections": [
+        {
+          "RefType": "RetractionOf",
+          "source": "Cureus. 2025 Dec 7;17(12):e98624. doi: 10.7759/cureus.98624.",
+          "pmid": "41503301"
+        }
+      ],
+      "abstract_available": true
+    },
+    {
+      "pmid": "42995077",
+      "title": "Trends at 50: a mission that matters.",
+      "journal": "Trends in cognitive sciences",
+      "types": [
+        "Editorial"
+      ],
+      "ids": {
+        "pubmed": "42995077",
+        "doi": "10.1016/j.tics.2026.10.008",
+        "pii": "S1364-6613(26)00241-X"
+      },
+      "article_dates": [
+        {
+          "DateType": "Electronic",
+          "Year": "2026",
+          "Month": "11",
+          "Day": "07"
+        }
+      ],
+      "corrections": [],
+      "abstract_available": false
+    }
+  ],
+  "completed_utc": "2026-11-08T03:08:06.861846+00:00"
+}

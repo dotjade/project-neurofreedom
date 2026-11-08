@@ -1,0 +1,232 @@
+{
+  "scope": "Research snapshot before this manifest, publication receipt and final status/link verification additions.",
+  "base_commit": "c1faee636fe54569660c03f7bdcc977e41ce7555",
+  "checked_at_utc": "2026-11-08T03:18:23.977141+00:00",
+  "files": [
+    {
+      "path": "STATUS.md",
+      "bytes": 136236,
+      "sha256": "660c342acfe47f8c0f2e3ae2199ac10268cdfc19d50f2c65077e20b2b9400a13"
+    },
+    {
+      "path": "analyses/h18_identifiability/2026-11-08/README.md",
+      "bytes": 2443,
+      "sha256": "b330f9e5592921fc667c8814878333f989a818a69bec8f71d9b30ba0877b0935"
+    },
+    {
+      "path": "analyses/h18_identifiability/2026-11-08/independent-check-results.json",
+      "bytes": 47546,
+      "sha256": "97d8064d66dfe7f33202344e5703357ccf13e1655e5683ae479db3cffe5571df"
+    },
+    {
+      "path": "analyses/h18_identifiability/2026-11-08/independent-review.md",
+      "bytes": 3155,
+      "sha256": "07fef7f668fa6be739533705602bbaa728dbe5d7057878481c8fd2503bc6c480"
+    },
+    {
+      "path": "analyses/h18_identifiability/2026-11-08/independent_checks.py",
+      "bytes": 6598,
+      "sha256": "889eabd3d44d01fc53be34988e0efb1354104059a79afe830ef29e4153f0fe00"
+    },
+    {
+      "path": "analyses/h18_identifiability/2026-11-08/manifest.json",
+      "bytes": 2065,
+      "sha256": "036e11d0eb163cf6dd879cd20a26b8a066aff2cc08da31f9c163f0d264516231"
+    },
+    {
+      "path": "analyses/h18_identifiability/2026-11-08/plan-freeze.json",
+      "bytes": 2614,
+      "sha256": "41815fb56a08cf18843e85b939b02078b70bdf7f6c482a3bfc347bf6acd6422c"
+    },
+    {
+      "path": "analyses/h18_identifiability/2026-11-08/plan.md",
+      "bytes": 6572,
+      "sha256": "48e7fe6352488573ed9528bfd67d1afec0c8da1c75d014538d9a6a129a4e3756"
+    },
+    {
+      "path": "analyses/h18_identifiability/2026-11-08/report.md",
+      "bytes": 15595,
+      "sha256": "9b843bcf791ce3f334cb92e40c275a5e3d14c9720a6132d7b29feddd1ffa1532"
+    },
+    {
+      "path": "analyses/h18_identifiability/2026-11-08/reproducibility.json",
+      "bytes": 984,
+      "sha256": "96f2136e85305fb8a32a5b93e0735aaede414007e838fe0a2dd38c9c60e1ab56"
+    },
+    {
+      "path": "analyses/h18_identifiability/2026-11-08/requirements.txt",
+      "bytes": 27,
+      "sha256": "1668a3152e33680d94637b13421c15e68bd97cd8701f7f555c691f5bc5c0b9f3"
+    },
+    {
+      "path": "analyses/h18_identifiability/2026-11-08/results.json",
+      "bytes": 70767,
+      "sha256": "0bc22573642ab67d815e5e1f38ea5a59c6ef8bac33c2b1b4a4b4ae7217cf5fb8"
+    },
+    {
+      "path": "analyses/h18_identifiability/2026-11-08/run_analysis.py",
+      "bytes": 11255,
+      "sha256": "c8376e994d822bc982e1c8a0cebba4784b1714d0fef3205dfab0b16e708251a6"
+    },
+    {
+      "path": "public/link-checks/2026-11-08.json",
+      "bytes": 40546,
+      "sha256": "ed00835cb69166cd76f7ccb86b80784435b2a5b5d2a812aabd743e817ec84c55"
+    },
+    {
+      "path": "public/research-feed.json",
+      "bytes": 17025,
+      "sha256": "639c09b9e1718d5694bd557b3fdde7e1f88339e87ea7a9e861c261dbb108ccb3"
+    },
+    {
+      "path": "updates/2026-11-08/integration-validation.json",
+      "bytes": 5854,
+      "sha256": "bd6a07bbc155d57960e3780cf7f23db877449f06d1c53f5a5d58e07e49b12c77"
+    },
+    {
+      "path": "updates/2026-11-08/public-review.md",
+      "bytes": 6972,
+      "sha256": "7711b20107c4fe2d0853027f4cabfa7a961a1f55409482a8799eb893c3725b9f"
+    },
+    {
+      "path": "updates/2026-11-08/public-safety-checks.json",
+      "bytes": 1992,
+      "sha256": "8063a8ffb8dac7b9f1cfee580e891cff5ceff90aa3f9f21bb181a1aa6f0dfbdd"
+    },
+    {
+      "path": "updates/2026-11-08/public-source-ledger.json",
+      "bytes": 2138,
+      "sha256": "5db1e45be799b2952071d5b2f04b60f65f503864dedd06336d29492e9f537895"
+    },
+    {
+      "path": "updates/2026-11-08/publisher-validation.json",
+      "bytes": 921,
+      "sha256": "c4b8f78c374ef980629bc9d7efceb4b54c3c845efa8b14b92ad66c31ea9fd1c4"
+    },
+    {
+      "path": "updates/2026-11-08/renderer-validation.json",
+      "bytes": 428,
+      "sha256": "119d919c7f136ad5b9a7e4fac20208a4e31a8b0f60fb4c5e228de2a2d254cdab"
+    },
+    {
+      "path": "updates/2026-11-08/report.md",
+      "bytes": 5787,
+      "sha256": "83ebe9027d20d97f121c940fcae4b499a88a8e1e62e8d80b961855e91b74b886"
+    },
+    {
+      "path": "updates/2026-11-08/scan/baseline-verification.json",
+      "bytes": 3488,
+      "sha256": "73839bcffb09b467bdc79b49c22c833071441e5b5cae77526778f59707039168"
+    },
+    {
+      "path": "updates/2026-11-08/scan/baseline.json",
+      "bytes": 180248,
+      "sha256": "cc0dcf166e637674c021358c20b61ab0a6dfb2b3e8887f998e5bf10cdff6d0e3"
+    },
+    {
+      "path": "updates/2026-11-08/scan/biorxiv-preprint-index.tsv",
+      "bytes": 21888,
+      "sha256": "b9f27a7a93ea6e8f8e52ed0973a2ef5826e5d200b22f67c06e2d82c68508f3aa"
+    },
+    {
+      "path": "updates/2026-11-08/scan/build_results.py",
+      "bytes": 4259,
+      "sha256": "00c2ada4982bdd907af0eae78015a6e622170ac00b55166ecc5f5bd3985970ce"
+    },
+    {
+      "path": "updates/2026-11-08/scan/discovery-log.json",
+      "bytes": 3094,
+      "sha256": "23e37ab622c1af996da2464ae1ccd938dc9aec9425b7f75d2863f32a6dc87d89"
+    },
+    {
+      "path": "updates/2026-11-08/scan/medrxiv-preprint-index.tsv",
+      "bytes": 6733,
+      "sha256": "db336468cc05e4b3e610d38571fcfc69a011b91bacd0590a8395d75c12ba3ac8"
+    },
+    {
+      "path": "updates/2026-11-08/scan/provenance.json",
+      "bytes": 3698,
+      "sha256": "5653af48bf59b7582fed3468eeb8ef0d9aa388b04766472b08f53a9d3bf852e0"
+    },
+    {
+      "path": "updates/2026-11-08/scan/pubmed-screening.jsonl",
+      "bytes": 9511,
+      "sha256": "318436d8e68f33d8f432524a478282a4be61315e61f14502c248bcf58979c4ec"
+    },
+    {
+      "path": "updates/2026-11-08/scan/registry-evidence.jsonl",
+      "bytes": 8215,
+      "sha256": "c8feba894725b6f7fa7779bcf55351cf9baffd345c57518833e5a6785e70f023"
+    },
+    {
+      "path": "updates/2026-11-08/scan/report.md",
+      "bytes": 10968,
+      "sha256": "217ccde6bc68efb6e59150a68360db62d1bda5ee0bad0dd9189a6eb28e2e2193"
+    },
+    {
+      "path": "updates/2026-11-08/scan/request-log.json",
+      "bytes": 17190,
+      "sha256": "d19da749be4eb9f4f80a145c5100bbe6fb0d650e941aedac7179ff11c2d1689a"
+    },
+    {
+      "path": "updates/2026-11-08/scan/safety-query-log.json",
+      "bytes": 1284,
+      "sha256": "52f17a2b6fff8c12e00aa9722e286ba4871b7ff2410482fa35b75ac90f5e670d"
+    },
+    {
+      "path": "updates/2026-11-08/scan/safety-review.json",
+      "bytes": 3953,
+      "sha256": "4ef5b8d238a2693953e29f247268c7f3c0fc282d314622ed256c14f2b605e1d4"
+    },
+    {
+      "path": "updates/2026-11-08/scan/scan_sources.py",
+      "bytes": 10486,
+      "sha256": "abed426eaac66a4c22fb8ad994fea663c4d2b3c3e25fdfa607e0280d01ed9329"
+    },
+    {
+      "path": "updates/2026-11-08/scan/search-log.json",
+      "bytes": 152657,
+      "sha256": "6a512866dbfb6c35821c4a287fce391fc9d758048dd740af16c6d263906cabfd"
+    },
+    {
+      "path": "updates/2026-11-08/scan/summary.json",
+      "bytes": 1536,
+      "sha256": "1fb5b297f41dff6c546740b9d503e30c8c65556ef85807fccc6bab5d62bcec9e"
+    },
+    {
+      "path": "updates/2026-11-08/scan/supplement-pubmed.json",
+      "bytes": 1736,
+      "sha256": "9ae33e44e8e3c4efdb3fb5c5e1d15137a449250eb7316de2c448da5bbcfbaba7"
+    },
+    {
+      "path": "updates/2026-11-08/scan/supplement-registry.json",
+      "bytes": 2440,
+      "sha256": "02c69dd2b8549c2371c680137e109e9db806b6ef9feac8a5dfb85bb0da7fb56d"
+    },
+    {
+      "path": "updates/2026-11-08/scan/supplement_sources.py",
+      "bytes": 1596,
+      "sha256": "ac03654ac7d97f37a29884986987400fa468b6e63c5ca760d37e3013d891c922"
+    },
+    {
+      "path": "updates/2026-11-08/scan/validate.py",
+      "bytes": 6198,
+      "sha256": "602661ad210c857c7aaa5503460ced1010064e9dde9351c65ec6c30248f47959"
+    },
+    {
+      "path": "updates/2026-11-08/scan/validation.json",
+      "bytes": 3457,
+      "sha256": "e435a0ec5a700272168114be30ce9a3ba0fe6623b29a15922245fae661c3d3e1"
+    },
+    {
+      "path": "updates/2026-11-08/scan/write_review.py",
+      "bytes": 7617,
+      "sha256": "35f6b9ca187f3c6bf44cb3c568e42de6d8ced280f5a3b368b30c8a5fb1e6f489"
+    },
+    {
+      "path": "updates/2026-11-08/validate_integration.py",
+      "bytes": 4379,
+      "sha256": "aae593a92428e355f8ad115e5232857ee1165fdd5772228f9b1573a122c4a2c7"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "retrieval_date": "2026-11-08",
+  "summary_written_utc": "2026-11-08T03:09:42.279875+00:00",
+  "method": "Web search, result screening and named-source opens. Not an exhaustive database export; no stable total-result denominator asserted.",
+  "queries": [
+    {
+      "query": "(Tourette OR \"tic disorder\" OR ecopipam) after:2026-11-06 before:2026-11-09",
+      "decision": "No qualifying new result located; August 19 Teva press release recrawled, not a new approval."
+    },
+    {
+      "query": "(Tourette OR \"tic disorder\") (site:medrxiv.org OR site:biorxiv.org OR site:arxiv.org OR site:preprints.jmir.org) after:2026-11-04",
+      "decision": "No qualifying relevant new preprint located; supplements structured bioRxiv/medRxiv API scan."
+    },
+    {
+      "query": "(Tourette OR \"tic disorder\" OR チック) (site:trialsearch.who.int OR site:umin.ac.jp OR site:isrctn.com OR site:chictr.org.cn) after:2026-11-05",
+      "decision": "Mostly UMIN listing/index results; no reliable new-window trial result verified. Prior UMIN000063483 detail/status chronology remains unresolved."
+    },
+    {
+      "query": "(Tourette OR \"tic disorder\") (retraction OR correction OR corrigendum OR erratum) after:2026-11-06",
+      "decision": "Nature primer correction snippet remains unresolved; official publisher redirect not retrievable."
+    },
+    {
+      "query": "\"Tourette\" \"November 7, 2026\" research",
+      "decision": "No qualifying primary result located; secondary repost/index dates not accepted as publication dates."
+    },
+    {
+      "query": "\"Tourette\" \"November 8, 2026\" research",
+      "decision": "No qualifying primary result located."
+    },
+    {
+      "query": "\"Tourette\" \"2026-11-07\" (study OR trial OR paper)",
+      "decision": "Aggregator NCT06678737 date led to official API check; official last update is May 20, not November 7."
+    },
+    {
+      "query": "\"Trends at 50: a mission that matters\"",
+      "decision": "Editorial source-type exclusion verified by PubMed API; full text not required."
+    }
+  ],
+  "source_access": [
+    {
+      "url": "https://www.nature.com/articles/s41572-026-00742-6",
+      "outcome": "Non-retryable tool redirect to Nature identity endpoint; correction date and content unverified."
+    },
+    {
+      "url": "https://www.tevapharm.com/news-and-media/latest-news/u.s.-fda-accepts-tevas-new-drug-application-nda-and-grants-priority-review-for-ecopipam-a-first-in-cl",
+      "outcome": "Publisher press release dated August 19, 2026, not new-window result or approval. No independent new clinical evidence added."
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42995077/",
+      "outcome": "Web reader could not open; E-utilities XML retrieved successfully."
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42991793/",
+      "outcome": "Web reader could not open; E-utilities XML retrieved successfully."
+    },
+    {
+      "url": "https://clinicaltrials.gov/study/NCT06678737",
+      "outcome": "Web reader only exposes app shell; official projected API succeeded."
+    }
+  ]
+}
