@@ -1,0 +1,455 @@
+{
+  "baseline_commit": "c9d1bae55750e460768236ced30f29f54721dbb1",
+  "checks_passed": 111,
+  "checks_total": 111,
+  "all_passed": true,
+  "unrelated_baseline_files_preserved": 1583,
+  "feed_unchanged": true,
+  "scope": "Offline provenance, structure, audit values, links and preservation. Not clinical validation or fresh external-link, deployment or accessibility testing.",
+  "checks": [
+    {
+      "name": "baseline:README.md",
+      "passed": true
+    },
+    {
+      "name": "unchanged_source:README.md",
+      "passed": true
+    },
+    {
+      "name": "baseline:RESEARCH_PROTOCOL.md",
+      "passed": true
+    },
+    {
+      "name": "unchanged_source:RESEARCH_PROTOCOL.md",
+      "passed": true
+    },
+    {
+      "name": "baseline:STATUS.md",
+      "passed": true
+    },
+    {
+      "name": "baseline:analyses/canna_documentation/2026-11-02/report.md",
+      "passed": true
+    },
+    {
+      "name": "unchanged_source:analyses/canna_documentation/2026-11-02/report.md",
+      "passed": true
+    },
+    {
+      "name": "baseline:analyses/canna_driving/2026-11-03/report.md",
+      "passed": true
+    },
+    {
+      "name": "unchanged_source:analyses/canna_driving/2026-11-03/report.md",
+      "passed": true
+    },
+    {
+      "name": "baseline:analyses/canna_function/2026-11-01/report.md",
+      "passed": true
+    },
+    {
+      "name": "unchanged_source:analyses/canna_function/2026-11-01/report.md",
+      "passed": true
+    },
+    {
+      "name": "baseline:analyses/force_matching_reliability/2026-11-01/report.md",
+      "passed": true
+    },
+    {
+      "name": "unchanged_source:analyses/force_matching_reliability/2026-11-01/report.md",
+      "passed": true
+    },
+    {
+      "name": "baseline:analyses/h13_generalization/2026-11-06/report.md",
+      "passed": true
+    },
+    {
+      "name": "unchanged_source:analyses/h13_generalization/2026-11-06/report.md",
+      "passed": true
+    },
+    {
+      "name": "baseline:analyses/h18_identifiability/2026-11-08/report.md",
+      "passed": true
+    },
+    {
+      "name": "unchanged_source:analyses/h18_identifiability/2026-11-08/report.md",
+      "passed": true
+    },
+    {
+      "name": "baseline:analyses/h18_identifiability/2026-11-08/results.json",
+      "passed": true
+    },
+    {
+      "name": "unchanged_source:analyses/h18_identifiability/2026-11-08/results.json",
+      "passed": true
+    },
+    {
+      "name": "baseline:analyses/h18_identifiability/2026-11-08/run_analysis.py",
+      "passed": true
+    },
+    {
+      "name": "unchanged_source:analyses/h18_identifiability/2026-11-08/run_analysis.py",
+      "passed": true
+    },
+    {
+      "name": "baseline:analyses/h18_mechanism/2026-11-07/report.md",
+      "passed": true
+    },
+    {
+      "name": "unchanged_source:analyses/h18_mechanism/2026-11-07/report.md",
+      "passed": true
+    },
+    {
+      "name": "baseline:analyses/network_feasibility/2026-11-04/report.md",
+      "passed": true
+    },
+    {
+      "name": "unchanged_source:analyses/network_feasibility/2026-11-04/report.md",
+      "passed": true
+    },
+    {
+      "name": "baseline:analyses/network_provenance/2026-11-05/report.md",
+      "passed": true
+    },
+    {
+      "name": "unchanged_source:analyses/network_provenance/2026-11-05/report.md",
+      "passed": true
+    },
+    {
+      "name": "baseline:evidence.jsonl",
+      "passed": true
+    },
+    {
+      "name": "unchanged_source:evidence.jsonl",
+      "passed": true
+    },
+    {
+      "name": "baseline:hypotheses.md",
+      "passed": true
+    },
+    {
+      "name": "unchanged_source:hypotheses.md",
+      "passed": true
+    },
+    {
+      "name": "baseline:public/research-feed.json",
+      "passed": true
+    },
+    {
+      "name": "unchanged_source:public/research-feed.json",
+      "passed": true
+    },
+    {
+      "name": "baseline:roadmap.md",
+      "passed": true
+    },
+    {
+      "name": "unchanged_source:roadmap.md",
+      "passed": true
+    },
+    {
+      "name": "baseline:updates/2026-11-01-monthly/report.md",
+      "passed": true
+    },
+    {
+      "name": "unchanged_source:updates/2026-11-01-monthly/report.md",
+      "passed": true
+    },
+    {
+      "name": "baseline:updates/2026-11-01-weekly-synthesis.md",
+      "passed": true
+    },
+    {
+      "name": "unchanged_source:updates/2026-11-01-weekly-synthesis.md",
+      "passed": true
+    },
+    {
+      "name": "baseline:updates/2026-11-01/report.md",
+      "passed": true
+    },
+    {
+      "name": "unchanged_source:updates/2026-11-01/report.md",
+      "passed": true
+    },
+    {
+      "name": "baseline:updates/2026-11-01/scan/summary.json",
+      "passed": true
+    },
+    {
+      "name": "unchanged_source:updates/2026-11-01/scan/summary.json",
+      "passed": true
+    },
+    {
+      "name": "baseline:updates/2026-11-02/report.md",
+      "passed": true
+    },
+    {
+      "name": "unchanged_source:updates/2026-11-02/report.md",
+      "passed": true
+    },
+    {
+      "name": "baseline:updates/2026-11-02/scan/summary.json",
+      "passed": true
+    },
+    {
+      "name": "unchanged_source:updates/2026-11-02/scan/summary.json",
+      "passed": true
+    },
+    {
+      "name": "baseline:updates/2026-11-03/report.md",
+      "passed": true
+    },
+    {
+      "name": "unchanged_source:updates/2026-11-03/report.md",
+      "passed": true
+    },
+    {
+      "name": "baseline:updates/2026-11-03/scan/summary.json",
+      "passed": true
+    },
+    {
+      "name": "unchanged_source:updates/2026-11-03/scan/summary.json",
+      "passed": true
+    },
+    {
+      "name": "baseline:updates/2026-11-04/report.md",
+      "passed": true
+    },
+    {
+      "name": "unchanged_source:updates/2026-11-04/report.md",
+      "passed": true
+    },
+    {
+      "name": "baseline:updates/2026-11-04/scan/summary.json",
+      "passed": true
+    },
+    {
+      "name": "unchanged_source:updates/2026-11-04/scan/summary.json",
+      "passed": true
+    },
+    {
+      "name": "baseline:updates/2026-11-05/report.md",
+      "passed": true
+    },
+    {
+      "name": "unchanged_source:updates/2026-11-05/report.md",
+      "passed": true
+    },
+    {
+      "name": "baseline:updates/2026-11-05/scan/summary.json",
+      "passed": true
+    },
+    {
+      "name": "unchanged_source:updates/2026-11-05/scan/summary.json",
+      "passed": true
+    },
+    {
+      "name": "baseline:updates/2026-11-06/report.md",
+      "passed": true
+    },
+    {
+      "name": "unchanged_source:updates/2026-11-06/report.md",
+      "passed": true
+    },
+    {
+      "name": "baseline:updates/2026-11-06/scan/summary.json",
+      "passed": true
+    },
+    {
+      "name": "unchanged_source:updates/2026-11-06/scan/summary.json",
+      "passed": true
+    },
+    {
+      "name": "baseline:updates/2026-11-07/report.md",
+      "passed": true
+    },
+    {
+      "name": "unchanged_source:updates/2026-11-07/report.md",
+      "passed": true
+    },
+    {
+      "name": "baseline:updates/2026-11-07/scan/summary.json",
+      "passed": true
+    },
+    {
+      "name": "unchanged_source:updates/2026-11-07/scan/summary.json",
+      "passed": true
+    },
+    {
+      "name": "baseline:updates/2026-11-08/report.md",
+      "passed": true
+    },
+    {
+      "name": "unchanged_source:updates/2026-11-08/report.md",
+      "passed": true
+    },
+    {
+      "name": "baseline:updates/2026-11-08/scan/summary.json",
+      "passed": true
+    },
+    {
+      "name": "unchanged_source:updates/2026-11-08/scan/summary.json",
+      "passed": true
+    },
+    {
+      "name": "inventory_base",
+      "passed": true
+    },
+    {
+      "name": "inventory_daily_count",
+      "passed": true
+    },
+    {
+      "name": "baseline_separate",
+      "passed": true
+    },
+    {
+      "name": "source_ledger_count",
+      "passed": true
+    },
+    {
+      "name": "audit_pass",
+      "passed": true
+    },
+    {
+      "name": "audit_is_verification",
+      "passed": true
+    },
+    {
+      "name": "audit_base",
+      "passed": true
+    },
+    {
+      "name": "audit_source_unchanged",
+      "passed": true
+    },
+    {
+      "name": "original_checks_recorded",
+      "passed": true
+    },
+    {
+      "name": "report_term:352/352",
+      "passed": true
+    },
+    {
+      "name": "report_term:261/261",
+      "passed": true
+    },
+    {
+      "name": "report_term:H18 remains",
+      "passed": true
+    },
+    {
+      "name": "report_term:No numerical or code correction",
+      "passed": true
+    },
+    {
+      "name": "report_term:November 1",
+      "passed": true
+    },
+    {
+      "name": "report_term:90 minutes",
+      "passed": true
+    },
+    {
+      "name": "report_term:six primary reports",
+      "passed": true
+    },
+    {
+      "name": "no_placeholders",
+      "passed": true
+    },
+    {
+      "name": "pinned_link:README.md",
+      "passed": true
+    },
+    {
+      "name": "pinned_link:RESEARCH_PROTOCOL.md",
+      "passed": true
+    },
+    {
+      "name": "pinned_link:updates/2026-11-07/scan/new-evidence.jsonl",
+      "passed": true
+    },
+    {
+      "name": "pinned_link:analyses/canna_function/2026-11-01/report.md",
+      "passed": true
+    },
+    {
+      "name": "pinned_link:analyses/canna_documentation/2026-11-02/report.md",
+      "passed": true
+    },
+    {
+      "name": "pinned_link:analyses/canna_driving/2026-11-03/report.md",
+      "passed": true
+    },
+    {
+      "name": "pinned_link:analyses/network_feasibility/2026-11-04/report.md",
+      "passed": true
+    },
+    {
+      "name": "pinned_link:analyses/network_provenance/2026-11-05/report.md",
+      "passed": true
+    },
+    {
+      "name": "pinned_link:analyses/h13_generalization/2026-11-06/report.md",
+      "passed": true
+    },
+    {
+      "name": "pinned_link:analyses/h18_mechanism/2026-11-07/report.md",
+      "passed": true
+    },
+    {
+      "name": "pinned_link:analyses/h18_identifiability/2026-11-08/report.md",
+      "passed": true
+    },
+    {
+      "name": "local_link:2026-11-08-weekly/computation-audit/report.md",
+      "passed": true
+    },
+    {
+      "name": "pinned_link:analyses/force_matching_reliability/2026-11-01/report.md",
+      "passed": true
+    },
+    {
+      "name": "pinned_link:updates/2026-11-01-monthly/report.md",
+      "passed": true
+    },
+    {
+      "name": "pinned_link:STATUS.md",
+      "passed": true
+    },
+    {
+      "name": "valid_json:updates/2026-11-08-weekly/source-inventory.json",
+      "passed": true
+    },
+    {
+      "name": "valid_json:updates/2026-11-08-weekly/source-manifest.json",
+      "passed": true
+    },
+    {
+      "name": "valid_json:updates/2026-11-08-weekly/publisher-tests.json",
+      "passed": true
+    },
+    {
+      "name": "valid_json:updates/2026-11-08-weekly/computation-audit/audit-results.json",
+      "passed": true
+    },
+    {
+      "name": "no_full_text_media",
+      "passed": true
+    },
+    {
+      "name": "prior_status_preserved",
+      "passed": true
+    },
+    {
+      "name": "one_weekly_status",
+      "passed": true
+    },
+    {
+      "name": "all_unrelated_files_preserved",
+      "passed": true
+    }
+  ]
+}

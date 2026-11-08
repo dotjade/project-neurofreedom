@@ -1,6 +1,6 @@
 # Project NeuroFreedom status
 
-Updated 8 November 2026. Initial portfolio, thirty-one completed daily updates, four completed weekly syntheses and one monthly review. Public evidence repository and journal launched 13 October.
+Updated 8 November 2026. Initial portfolio, thirty-one completed daily updates, five completed weekly syntheses and one monthly review. Public evidence repository and journal launched 13 October.
 
 ## Completed in this first pass
 
@@ -14,7 +14,7 @@ Updated 8 November 2026. Initial portfolio, thirty-one completed daily updates, 
 
 ## Enabled research schedules
 
-The user approved the following automatic public-science research and repository updates on 8 October 2026. Each schedule was created successfully and returned enabled status. Daily runs were completed on 9-31 October and 1-8 November 2026; weekly syntheses were completed on 11, 18 and 25 October and 1 November; the first monthly review was completed on 1 November; the first quarterly run remains unverified.
+The user approved the following automatic public-science research and repository updates on 8 October 2026. Each schedule was created successfully and returned enabled status. Daily runs were completed on 9-31 October and 1-8 November 2026; weekly syntheses were completed on 11, 18 and 25 October and 1 and 8 November; the first monthly review was completed on 1 November; the first quarterly run remains unverified.
 
 - Daily new-evidence checks: from 9 October 2026, approximately 08:00 India time.
 - Weekly synthesis: Sundays, from 11 October 2026, approximately 09:00 India time.
@@ -804,3 +804,12 @@ Research commit [43ed128b82e17252da2befaef1b80298fe415a98](https://github.com/do
 [Actions run 42442617488](https://github.com/dotjade/project-neurofreedom/actions/runs/42442617488) completed successfully for that exact research commit, including validation, deployment dry-run, publication and public-route checks. After the 120-second cache interval, production readback at 03:27:28 UTC returned HTTP 200, repository source and exact bytes with updatedAt 2026-11-08T03:14:13Z. Both new report URLs returned HTTP 200 with expected paths. The [receipt](updates/2026-11-08/publication-verification.json) records actual checks and limitations.
 
 All six approved activities remain unchanged, small-silly-mark is selected, and collection remains off. No fresh rendered accessibility or narration test is claimed. The older static fallback and next-question copy remain known limitations. The research manifest covers the snapshot before this receipt and final status/link-verification additions. This verification-only follow-up changes no feed, deployment input or scientific result.
+
+
+## Completed weekly synthesis - 8 November 2026
+
+The [fifth weekly synthesis](updates/2026-11-08-weekly-synthesis.md) treats November 1 as the prior weekly/monthly baseline and integrates November 2–8 advances. It keeps direct adult function and burden central while distinguishing one new pediatric measurement publication from historical source audits, administrative registry changes and synthetic methods. It does not repeat the daily scan or count overlapping records as independent studies.
+
+The [weekly computation audit](updates/2026-11-08-weekly/computation-audit/report.md) verifies the already completed H18 synthetic experiment rather than introducing a second simulation. All 352 new assertions passed; the original 261-check script was rerun separately with byte-identical output. Independent scalar reconstruction using the same random streams reproduced 302/4,000 generation labels in the weak/sparse scenario and 3,783/4,000 wrong control labels in the strong hidden-shift scenario. No numerical correction was required. These are implementation checks, not clinical validation or evidence that H18 is globally falsified.
+
+Retain H13/H18 as proposed extensions and H15 as gated at exact group-mask/provenance inputs. Keep closed source searches closed until their named safe prerequisites change. The next bounded step is one public aggregate measurement-anchor/invariance audit, capped in the proposal at six primary reports and 90 minutes, with explicit stop rules. No owner action, participant records, contact, intervention or paid resource is needed. The daily homepage feed, approved activities, disabled collection and public visibility are unchanged. Exact remote publication verification is recorded separately after the research commit.

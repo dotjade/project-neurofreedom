@@ -1,0 +1,123 @@
+{
+  "title": "Project NeuroFreedom weekly synthesis source inventory",
+  "date": "2026-11-08",
+  "review_window_inclusive": [
+    "2026-11-01",
+    "2026-11-08"
+  ],
+  "repository": "https://github.com/dotjade/project-neurofreedom",
+  "reviewed_ref": "c9d1bae55750e460768236ced30f29f54721dbb1",
+  "visibility_verified": "public",
+  "repository_modified_by_synthesis_worker": false,
+  "review_type": "Synthesis of existing actual run records; no new literature or safety search; no participant records.",
+  "november_1_handling": "Prior weekly/monthly baseline, not newly completed work of this synthesis.",
+  "daily_records": [
+    {
+      "date": "2026-11-01",
+      "daily_report": "updates/2026-11-01/report.md",
+      "scan_summary": "updates/2026-11-01/scan/summary.json",
+      "new_peer_reviewed_primary_publications": [],
+      "new_first_public_disclosures_verified": 0,
+      "qualifying_preprints": 0,
+      "posted_trial_results_verified": 0,
+      "limitations": "Bounded daily retrieval with overlapping windows; not an exhaustive worldwide search."
+    },
+    {
+      "date": "2026-11-02",
+      "daily_report": "updates/2026-11-02/report.md",
+      "scan_summary": "updates/2026-11-02/scan/summary.json",
+      "new_peer_reviewed_primary_publications": [],
+      "new_first_public_disclosures_verified": 0,
+      "qualifying_preprints": 0,
+      "posted_trial_results_verified": 0,
+      "limitations": "Bounded daily retrieval with overlapping windows; not an exhaustive worldwide search."
+    },
+    {
+      "date": "2026-11-03",
+      "daily_report": "updates/2026-11-03/report.md",
+      "scan_summary": "updates/2026-11-03/scan/summary.json",
+      "new_peer_reviewed_primary_publications": [],
+      "new_first_public_disclosures_verified": 0,
+      "qualifying_preprints": 0,
+      "posted_trial_results_verified": 0,
+      "limitations": "Bounded daily retrieval with overlapping windows; not an exhaustive worldwide search."
+    },
+    {
+      "date": "2026-11-04",
+      "daily_report": "updates/2026-11-04/report.md",
+      "scan_summary": "updates/2026-11-04/scan/summary.json",
+      "new_peer_reviewed_primary_publications": [],
+      "new_first_public_disclosures_verified": 0,
+      "qualifying_preprints": 0,
+      "posted_trial_results_verified": 0,
+      "limitations": "Bounded daily retrieval with overlapping windows; not an exhaustive worldwide search."
+    },
+    {
+      "date": "2026-11-05",
+      "daily_report": "updates/2026-11-05/report.md",
+      "scan_summary": "updates/2026-11-05/scan/summary.json",
+      "new_peer_reviewed_primary_publications": [],
+      "new_first_public_disclosures_verified": 0,
+      "qualifying_preprints": 0,
+      "posted_trial_results_verified": 0,
+      "limitations": "Bounded daily retrieval with overlapping windows; not an exhaustive worldwide search."
+    },
+    {
+      "date": "2026-11-06",
+      "daily_report": "updates/2026-11-06/report.md",
+      "scan_summary": "updates/2026-11-06/scan/summary.json",
+      "new_peer_reviewed_primary_publications": [],
+      "new_first_public_disclosures_verified": 0,
+      "qualifying_preprints": 0,
+      "posted_trial_results_verified": 0,
+      "limitations": "Bounded daily retrieval with overlapping windows; not an exhaustive worldwide search."
+    },
+    {
+      "date": "2026-11-07",
+      "daily_report": "updates/2026-11-07/report.md",
+      "scan_summary": "updates/2026-11-07/scan/summary.json",
+      "new_peer_reviewed_primary_publications": [
+        "42993949"
+      ],
+      "new_first_public_disclosures_verified": 0,
+      "qualifying_preprints": 0,
+      "posted_trial_results_verified": 0,
+      "limitations": "Bounded daily retrieval with overlapping windows; not an exhaustive worldwide search."
+    },
+    {
+      "date": "2026-11-08",
+      "daily_report": "updates/2026-11-08/report.md",
+      "scan_summary": "updates/2026-11-08/scan/summary.json",
+      "new_peer_reviewed_primary_publications": [],
+      "new_first_public_disclosures_verified": 0,
+      "qualifying_preprints": 0,
+      "posted_trial_results_verified": 0,
+      "limitations": "Bounded daily retrieval with overlapping windows; not an exhaustive worldwide search."
+    }
+  ],
+  "required_sources": [
+    "README.md",
+    "RESEARCH_PROTOCOL.md",
+    "STATUS.md",
+    "evidence.jsonl",
+    "hypotheses.md",
+    "roadmap.md",
+    "updates/2026-11-01-weekly-synthesis.md",
+    "updates/2026-11-01-monthly/report.md"
+  ],
+  "analysis_sources": [
+    "analyses/canna_documentation/2026-11-02/report.md",
+    "analyses/canna_driving/2026-11-03/report.md",
+    "analyses/canna_function/2026-11-01/report.md",
+    "analyses/force_matching_reliability/2026-11-01/report.md",
+    "analyses/h13_generalization/2026-11-06/report.md",
+    "analyses/h18_identifiability/2026-11-08/report.md",
+    "analyses/h18_mechanism/2026-11-07/report.md",
+    "analyses/network_feasibility/2026-11-04/report.md",
+    "analyses/network_provenance/2026-11-05/report.md"
+  ],
+  "main_evidence_ledger_records": 65,
+  "ledger_record_count_is_not_new_study_count": true,
+  "privacy": "Public science and original source summaries only; no personal data or unlicensed full text.",
+  "next_step": "One bounded public aggregate measurement-anchor and invariance audit; no new simulation required."
+}

@@ -1,0 +1,1904 @@
+{
+  "kind": "Weekly independent verification of completed synthetic methods, not new clinical evidence",
+  "date": "2026-11-08",
+  "repository_commit": "c9d1bae55750e460768236ced30f29f54721dbb1",
+  "source_directory": "analyses/h18_identifiability/2026-11-08",
+  "source_results_sha256": "0bc22573642ab67d815e5e1f38ea5a59c6ef8bac33c2b1b4a4b4ae7217cf5fb8",
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0"
+  },
+  "full_simulation_rerun": false,
+  "original_second_calculation_reexecuted_separately": "261/261 passed; output byte-identical",
+  "checks_passed": 352,
+  "checks_total": 352,
+  "all_passed": true,
+  "selected_reconstructions": [
+    {
+      "id": "lambda_0.25_r_1_generation",
+      "replications_reconstructed": 4000,
+      "label_counts": {
+        "generation_dominant": 302,
+        "control_dominant": 28,
+        "unresolved": 3670
+      }
+    },
+    {
+      "id": "lambda_1.0_r_8_hidden_shift",
+      "replications_reconstructed": 4000,
+      "label_counts": {
+        "generation_dominant": 0,
+        "control_dominant": 3783,
+        "unresolved": 217
+      }
+    }
+  ],
+  "analytic_expectations": [
+    {
+      "id": "lambda_0.25_r_1_generation",
+      "expected_g": 0.5,
+      "expected_c": 0.0,
+      "generation_probability": 0.07632261688541031,
+      "control_probability": 0.006392022426451601
+    },
+    {
+      "id": "lambda_0.25_r_1_control",
+      "expected_g": 0.0,
+      "expected_c": 0.5,
+      "generation_probability": 0.006392022426451601,
+      "control_probability": 0.07632261688541031
+    },
+    {
+      "id": "lambda_0.25_r_1_equal_mixture",
+      "expected_g": 0.25,
+      "expected_c": 0.25,
+      "generation_probability": 0.025000000000000053,
+      "control_probability": 0.025000000000000053
+    },
+    {
+      "id": "lambda_0.25_r_8_generation",
+      "expected_g": 0.5,
+      "expected_c": 0.0,
+      "generation_probability": 0.14928954816321183,
+      "control_probability": 0.0019846079316394906
+    },
+    {
+      "id": "lambda_0.25_r_8_control",
+      "expected_g": 0.0,
+      "expected_c": 0.5,
+      "generation_probability": 0.0019846079316394906,
+      "control_probability": 0.14928954816321183
+    },
+    {
+      "id": "lambda_0.25_r_8_equal_mixture",
+      "expected_g": 0.25,
+      "expected_c": 0.25,
+      "generation_probability": 0.025000000000000053,
+      "control_probability": 0.025000000000000053
+    },
+    {
+      "id": "lambda_1.0_r_1_generation",
+      "expected_g": 0.5,
+      "expected_c": 0.0,
+      "generation_probability": 0.53543865555473,
+      "control_probability": 3.0404912393380834e-05
+    },
+    {
+      "id": "lambda_1.0_r_1_control",
+      "expected_g": 0.0,
+      "expected_c": 0.5,
+      "generation_probability": 3.0404912393380834e-05,
+      "control_probability": 0.53543865555473
+    },
+    {
+      "id": "lambda_1.0_r_1_equal_mixture",
+      "expected_g": 0.25,
+      "expected_c": 0.25,
+      "generation_probability": 0.025000000000000053,
+      "control_probability": 0.025000000000000053
+    },
+    {
+      "id": "lambda_1.0_r_8_generation",
+      "expected_g": 0.5,
+      "expected_c": 0.0,
+      "generation_probability": 0.9518425396375518,
+      "control_probability": 1.1663444321016367e-08
+    },
+    {
+      "id": "lambda_1.0_r_8_control",
+      "expected_g": 0.0,
+      "expected_c": 0.5,
+      "generation_probability": 1.1663444321016367e-08,
+      "control_probability": 0.9518425396375518
+    },
+    {
+      "id": "lambda_1.0_r_8_equal_mixture",
+      "expected_g": 0.25,
+      "expected_c": 0.25,
+      "generation_probability": 0.025000000000000053,
+      "control_probability": 0.025000000000000053
+    },
+    {
+      "id": "lambda_0.25_r_8_hidden_shift",
+      "expected_g": 0.0,
+      "expected_c": 0.5,
+      "generation_probability": 0.0019846079316394906,
+      "control_probability": 0.14928954816321183
+    },
+    {
+      "id": "lambda_1.0_r_8_hidden_shift",
+      "expected_g": 0.0,
+      "expected_c": 0.5,
+      "generation_probability": 1.1663444321016367e-08,
+      "control_probability": 0.9518425396375518
+    }
+  ],
+  "checks": [
+    {
+      "name": "clean_checkout_before",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "manifest:README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "manifest:independent-check-results.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "manifest:independent_checks.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "manifest:plan-freeze.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "manifest:plan.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "manifest:report.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "manifest:reproducibility.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "manifest:requirements.txt",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "manifest:results.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "manifest:run_analysis.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "frozen_input:README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "frozen_input:RESEARCH_PROTOCOL.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "frozen_input:STATUS.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "frozen_input:public/journal-source/README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "frozen_input:evidence.jsonl",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "frozen_input:hypotheses.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "frozen_input:analyses/h18_mechanism/2026-11-07/plan.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "frozen_input:analyses/h18_mechanism/2026-11-07/report.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "frozen_input:analyses/h18_mechanism/2026-11-07/evidence.jsonl",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "frozen_input:updates/2026-11-07/report.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "plan_hash_chain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "live_connector_code_blob",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "fixed_grid_size",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "seed_and_replications",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "no_full_simulator_imported",
+      "passed": true,
+      "detail": "This independent script does not import run_analysis.py or independent_checks.py."
+    },
+    {
+      "name": "exact_reporting_shift_equivalence",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "exact_unknown_shift_null_vector",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "known_loading_invertible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "unknown_loading_counterexample",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "exact_transfer_rank:1.0:1.0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "exact_transfer_rank:1.0:0.25",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "exact_transfer_rank:0.25:1.0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_1_generation:rational_covariance",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_1_generation:rational_dominance_se",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_1_generation:generation_dominant:count_rate",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_1_generation:generation_dominant:sampling_probability",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_1_generation:control_dominant:count_rate",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_1_generation:control_dominant:sampling_probability",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_1_generation:unresolved:count_rate",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_1_generation:unresolved:sampling_probability",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_1_generation:generation_parameter:rmse_identity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_1_generation:generation_parameter:interval_width",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_1_generation:generation_parameter:bias_expected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_1_generation:generation_parameter:coverage",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_1_generation:control_parameter:rmse_identity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_1_generation:control_parameter:interval_width",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_1_generation:control_parameter:bias_expected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_1_generation:control_parameter:coverage",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_1_generation:dominance_parameter:rmse_identity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_1_generation:dominance_parameter:interval_width",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_1_generation:dominance_parameter:bias_expected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_1_generation:dominance_parameter:coverage",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_1_control:rational_covariance",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_1_control:rational_dominance_se",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_1_control:generation_dominant:count_rate",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_1_control:generation_dominant:sampling_probability",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_1_control:control_dominant:count_rate",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_1_control:control_dominant:sampling_probability",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_1_control:unresolved:count_rate",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_1_control:unresolved:sampling_probability",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_1_control:generation_parameter:rmse_identity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_1_control:generation_parameter:interval_width",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_1_control:generation_parameter:bias_expected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_1_control:generation_parameter:coverage",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_1_control:control_parameter:rmse_identity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_1_control:control_parameter:interval_width",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_1_control:control_parameter:bias_expected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_1_control:control_parameter:coverage",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_1_control:dominance_parameter:rmse_identity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_1_control:dominance_parameter:interval_width",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_1_control:dominance_parameter:bias_expected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_1_control:dominance_parameter:coverage",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_1_equal_mixture:rational_covariance",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_1_equal_mixture:rational_dominance_se",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_1_equal_mixture:generation_dominant:count_rate",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_1_equal_mixture:generation_dominant:sampling_probability",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_1_equal_mixture:control_dominant:count_rate",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_1_equal_mixture:control_dominant:sampling_probability",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_1_equal_mixture:unresolved:count_rate",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_1_equal_mixture:unresolved:sampling_probability",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_1_equal_mixture:generation_parameter:rmse_identity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_1_equal_mixture:generation_parameter:interval_width",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_1_equal_mixture:generation_parameter:bias_expected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_1_equal_mixture:generation_parameter:coverage",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_1_equal_mixture:control_parameter:rmse_identity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_1_equal_mixture:control_parameter:interval_width",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_1_equal_mixture:control_parameter:bias_expected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_1_equal_mixture:control_parameter:coverage",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_1_equal_mixture:dominance_parameter:rmse_identity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_1_equal_mixture:dominance_parameter:interval_width",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_1_equal_mixture:dominance_parameter:bias_expected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_1_equal_mixture:dominance_parameter:coverage",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_8_generation:rational_covariance",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_8_generation:rational_dominance_se",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_8_generation:generation_dominant:count_rate",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_8_generation:generation_dominant:sampling_probability",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_8_generation:control_dominant:count_rate",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_8_generation:control_dominant:sampling_probability",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_8_generation:unresolved:count_rate",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_8_generation:unresolved:sampling_probability",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_8_generation:generation_parameter:rmse_identity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_8_generation:generation_parameter:interval_width",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_8_generation:generation_parameter:bias_expected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_8_generation:generation_parameter:coverage",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_8_generation:control_parameter:rmse_identity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_8_generation:control_parameter:interval_width",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_8_generation:control_parameter:bias_expected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_8_generation:control_parameter:coverage",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_8_generation:dominance_parameter:rmse_identity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_8_generation:dominance_parameter:interval_width",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_8_generation:dominance_parameter:bias_expected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_8_generation:dominance_parameter:coverage",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_8_control:rational_covariance",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_8_control:rational_dominance_se",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_8_control:generation_dominant:count_rate",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_8_control:generation_dominant:sampling_probability",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_8_control:control_dominant:count_rate",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_8_control:control_dominant:sampling_probability",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_8_control:unresolved:count_rate",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_8_control:unresolved:sampling_probability",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_8_control:generation_parameter:rmse_identity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_8_control:generation_parameter:interval_width",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_8_control:generation_parameter:bias_expected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_8_control:generation_parameter:coverage",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_8_control:control_parameter:rmse_identity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_8_control:control_parameter:interval_width",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_8_control:control_parameter:bias_expected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_8_control:control_parameter:coverage",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_8_control:dominance_parameter:rmse_identity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_8_control:dominance_parameter:interval_width",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_8_control:dominance_parameter:bias_expected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_8_control:dominance_parameter:coverage",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_8_equal_mixture:rational_covariance",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_8_equal_mixture:rational_dominance_se",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_8_equal_mixture:generation_dominant:count_rate",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_8_equal_mixture:generation_dominant:sampling_probability",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_8_equal_mixture:control_dominant:count_rate",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_8_equal_mixture:control_dominant:sampling_probability",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_8_equal_mixture:unresolved:count_rate",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_8_equal_mixture:unresolved:sampling_probability",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_8_equal_mixture:generation_parameter:rmse_identity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_8_equal_mixture:generation_parameter:interval_width",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_8_equal_mixture:generation_parameter:bias_expected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_8_equal_mixture:generation_parameter:coverage",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_8_equal_mixture:control_parameter:rmse_identity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_8_equal_mixture:control_parameter:interval_width",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_8_equal_mixture:control_parameter:bias_expected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_8_equal_mixture:control_parameter:coverage",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_8_equal_mixture:dominance_parameter:rmse_identity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_8_equal_mixture:dominance_parameter:interval_width",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_8_equal_mixture:dominance_parameter:bias_expected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_8_equal_mixture:dominance_parameter:coverage",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_1_generation:rational_covariance",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_1_generation:rational_dominance_se",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_1_generation:generation_dominant:count_rate",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_1_generation:generation_dominant:sampling_probability",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_1_generation:control_dominant:count_rate",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_1_generation:control_dominant:sampling_probability",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_1_generation:unresolved:count_rate",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_1_generation:unresolved:sampling_probability",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_1_generation:generation_parameter:rmse_identity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_1_generation:generation_parameter:interval_width",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_1_generation:generation_parameter:bias_expected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_1_generation:generation_parameter:coverage",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_1_generation:control_parameter:rmse_identity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_1_generation:control_parameter:interval_width",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_1_generation:control_parameter:bias_expected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_1_generation:control_parameter:coverage",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_1_generation:dominance_parameter:rmse_identity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_1_generation:dominance_parameter:interval_width",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_1_generation:dominance_parameter:bias_expected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_1_generation:dominance_parameter:coverage",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_1_control:rational_covariance",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_1_control:rational_dominance_se",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_1_control:generation_dominant:count_rate",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_1_control:generation_dominant:sampling_probability",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_1_control:control_dominant:count_rate",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_1_control:control_dominant:sampling_probability",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_1_control:unresolved:count_rate",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_1_control:unresolved:sampling_probability",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_1_control:generation_parameter:rmse_identity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_1_control:generation_parameter:interval_width",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_1_control:generation_parameter:bias_expected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_1_control:generation_parameter:coverage",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_1_control:control_parameter:rmse_identity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_1_control:control_parameter:interval_width",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_1_control:control_parameter:bias_expected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_1_control:control_parameter:coverage",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_1_control:dominance_parameter:rmse_identity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_1_control:dominance_parameter:interval_width",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_1_control:dominance_parameter:bias_expected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_1_control:dominance_parameter:coverage",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_1_equal_mixture:rational_covariance",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_1_equal_mixture:rational_dominance_se",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_1_equal_mixture:generation_dominant:count_rate",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_1_equal_mixture:generation_dominant:sampling_probability",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_1_equal_mixture:control_dominant:count_rate",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_1_equal_mixture:control_dominant:sampling_probability",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_1_equal_mixture:unresolved:count_rate",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_1_equal_mixture:unresolved:sampling_probability",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_1_equal_mixture:generation_parameter:rmse_identity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_1_equal_mixture:generation_parameter:interval_width",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_1_equal_mixture:generation_parameter:bias_expected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_1_equal_mixture:generation_parameter:coverage",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_1_equal_mixture:control_parameter:rmse_identity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_1_equal_mixture:control_parameter:interval_width",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_1_equal_mixture:control_parameter:bias_expected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_1_equal_mixture:control_parameter:coverage",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_1_equal_mixture:dominance_parameter:rmse_identity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_1_equal_mixture:dominance_parameter:interval_width",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_1_equal_mixture:dominance_parameter:bias_expected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_1_equal_mixture:dominance_parameter:coverage",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_8_generation:rational_covariance",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_8_generation:rational_dominance_se",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_8_generation:generation_dominant:count_rate",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_8_generation:generation_dominant:sampling_probability",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_8_generation:control_dominant:count_rate",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_8_generation:control_dominant:sampling_probability",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_8_generation:unresolved:count_rate",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_8_generation:unresolved:sampling_probability",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_8_generation:generation_parameter:rmse_identity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_8_generation:generation_parameter:interval_width",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_8_generation:generation_parameter:bias_expected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_8_generation:generation_parameter:coverage",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_8_generation:control_parameter:rmse_identity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_8_generation:control_parameter:interval_width",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_8_generation:control_parameter:bias_expected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_8_generation:control_parameter:coverage",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_8_generation:dominance_parameter:rmse_identity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_8_generation:dominance_parameter:interval_width",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_8_generation:dominance_parameter:bias_expected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_8_generation:dominance_parameter:coverage",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_8_control:rational_covariance",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_8_control:rational_dominance_se",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_8_control:generation_dominant:count_rate",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_8_control:generation_dominant:sampling_probability",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_8_control:control_dominant:count_rate",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_8_control:control_dominant:sampling_probability",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_8_control:unresolved:count_rate",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_8_control:unresolved:sampling_probability",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_8_control:generation_parameter:rmse_identity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_8_control:generation_parameter:interval_width",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_8_control:generation_parameter:bias_expected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_8_control:generation_parameter:coverage",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_8_control:control_parameter:rmse_identity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_8_control:control_parameter:interval_width",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_8_control:control_parameter:bias_expected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_8_control:control_parameter:coverage",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_8_control:dominance_parameter:rmse_identity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_8_control:dominance_parameter:interval_width",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_8_control:dominance_parameter:bias_expected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_8_control:dominance_parameter:coverage",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_8_equal_mixture:rational_covariance",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_8_equal_mixture:rational_dominance_se",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_8_equal_mixture:generation_dominant:count_rate",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_8_equal_mixture:generation_dominant:sampling_probability",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_8_equal_mixture:control_dominant:count_rate",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_8_equal_mixture:control_dominant:sampling_probability",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_8_equal_mixture:unresolved:count_rate",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_8_equal_mixture:unresolved:sampling_probability",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_8_equal_mixture:generation_parameter:rmse_identity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_8_equal_mixture:generation_parameter:interval_width",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_8_equal_mixture:generation_parameter:bias_expected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_8_equal_mixture:generation_parameter:coverage",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_8_equal_mixture:control_parameter:rmse_identity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_8_equal_mixture:control_parameter:interval_width",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_8_equal_mixture:control_parameter:bias_expected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_8_equal_mixture:control_parameter:coverage",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_8_equal_mixture:dominance_parameter:rmse_identity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_8_equal_mixture:dominance_parameter:interval_width",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_8_equal_mixture:dominance_parameter:bias_expected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_8_equal_mixture:dominance_parameter:coverage",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_8_hidden_shift:rational_covariance",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_8_hidden_shift:rational_dominance_se",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_8_hidden_shift:generation_dominant:count_rate",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_8_hidden_shift:generation_dominant:sampling_probability",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_8_hidden_shift:control_dominant:count_rate",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_8_hidden_shift:control_dominant:sampling_probability",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_8_hidden_shift:unresolved:count_rate",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_8_hidden_shift:unresolved:sampling_probability",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_8_hidden_shift:generation_parameter:rmse_identity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_8_hidden_shift:generation_parameter:interval_width",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_8_hidden_shift:generation_parameter:bias_expected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_8_hidden_shift:generation_parameter:coverage",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_8_hidden_shift:control_parameter:rmse_identity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_8_hidden_shift:control_parameter:interval_width",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_8_hidden_shift:control_parameter:bias_expected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_8_hidden_shift:control_parameter:coverage",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_8_hidden_shift:dominance_parameter:rmse_identity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_8_hidden_shift:dominance_parameter:interval_width",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_8_hidden_shift:dominance_parameter:bias_expected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_8_hidden_shift:dominance_parameter:coverage",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_8_hidden_shift:rational_covariance",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_8_hidden_shift:rational_dominance_se",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_8_hidden_shift:generation_dominant:count_rate",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_8_hidden_shift:generation_dominant:sampling_probability",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_8_hidden_shift:control_dominant:count_rate",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_8_hidden_shift:control_dominant:sampling_probability",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_8_hidden_shift:unresolved:count_rate",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_8_hidden_shift:unresolved:sampling_probability",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_8_hidden_shift:generation_parameter:rmse_identity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_8_hidden_shift:generation_parameter:interval_width",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_8_hidden_shift:generation_parameter:bias_expected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_8_hidden_shift:generation_parameter:coverage",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_8_hidden_shift:control_parameter:rmse_identity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_8_hidden_shift:control_parameter:interval_width",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_8_hidden_shift:control_parameter:bias_expected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_8_hidden_shift:control_parameter:coverage",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_8_hidden_shift:dominance_parameter:rmse_identity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_8_hidden_shift:dominance_parameter:interval_width",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_8_hidden_shift:dominance_parameter:bias_expected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_8_hidden_shift:dominance_parameter:coverage",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_1_generation:spot:generation_parameter:mean",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_1_generation:spot:generation_parameter:rmse",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_1_generation:spot:generation_parameter:coverage_count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_1_generation:spot:control_parameter:mean",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_1_generation:spot:control_parameter:rmse",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_1_generation:spot:control_parameter:coverage_count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_1_generation:spot:dominance_parameter:mean",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_1_generation:spot:dominance_parameter:rmse",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_1_generation:spot:dominance_parameter:coverage_count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_0.25_r_1_generation:spot:all_label_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_8_hidden_shift:spot:generation_parameter:mean",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_8_hidden_shift:spot:generation_parameter:rmse",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_8_hidden_shift:spot:generation_parameter:coverage_count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_8_hidden_shift:spot:control_parameter:mean",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_8_hidden_shift:spot:control_parameter:rmse",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_8_hidden_shift:spot:control_parameter:coverage_count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_8_hidden_shift:spot:dominance_parameter:mean",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_8_hidden_shift:spot:dominance_parameter:rmse",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_8_hidden_shift:spot:dominance_parameter:coverage_count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lambda_1.0_r_8_hidden_shift:spot:all_label_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "transfer_1.0_1.0_generation:true_gap",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "transfer_1.0_1.0_generation:heldout_independence",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "transfer_1.0_1.0_generation:gap_sd",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "transfer_1.0_1.0_control:true_gap",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "transfer_1.0_1.0_control:heldout_independence",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "transfer_1.0_1.0_control:gap_sd",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "transfer_1.0_0.25_generation:true_gap",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "transfer_1.0_0.25_generation:heldout_independence",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "transfer_1.0_0.25_generation:gap_sd",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "transfer_1.0_0.25_control:true_gap",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "transfer_1.0_0.25_control:heldout_independence",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "transfer_1.0_0.25_control:gap_sd",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "transfer_0.25_1.0_generation:true_gap",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "transfer_0.25_1.0_generation:heldout_independence",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "transfer_0.25_1.0_generation:gap_sd",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "transfer_0.25_1.0_control:true_gap",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "transfer_0.25_1.0_control:heldout_independence",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "transfer_0.25_1.0_control:gap_sd",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "clean_checkout_after",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "limits": [
+    "Source code and output already had a documented same-environment full rerun; this audit does not repeat it.",
+    "Local freeze hash/provenance verified; pre-execution timing is a recorded claim, not independently time-certified preregistration.",
+    "Population toy-model recovery does not establish clinical measurement validity, individual mechanisms, treatment matching or durable function."
+  ]
+}
