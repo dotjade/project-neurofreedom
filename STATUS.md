@@ -834,3 +834,12 @@ Close the fixed six-source audit; H18 remains proposed and the latent mechanism 
 ### Public journal
 
 The feed distinguishes historical measurement evidence from the no-new-result scan, preserves 24 entries and six unchanged optional activities, and selects rest-or-leave. Collection remains disabled. The [link ledger](public/link-checks/2026-11-09.json) records 38 retrievable and eight access-limited baseline URLs, with no confirmed broken source. Exact remote, CI and post-cache production checks follow publication. No fresh rendered accessibility or narration test is claimed; older static fallback and next-question copy remain known limitations.
+
+
+### Publication verification - 9 November 2026
+
+Research commit [b08911a4285f1b9c6edb28902bfcf7e7f2de8d94](https://github.com/dotjade/project-neurofreedom/commit/b08911a4285f1b9c6edb28902bfcf7e7f2de8d94) contains 47 authored files verified byte-for-byte, preserving 1,591 unrelated existing paths with no unexpected paths. Connector and anonymous raw feed readback match the authored edition.
+
+[Actions run 42556358171](https://github.com/dotjade/project-neurofreedom/actions/runs/42556358171) completed successfully for that exact research commit, including syntax/build, deployment dry-run, publication and public-route checks. After the 120-second cache interval, production readback at 03:27:56 UTC returned HTTP 200, repository source and exact bytes with updatedAt 2026-11-09T02:58:10Z. Both new report URLs returned HTTP 200 with expected paths. The [receipt](updates/2026-11-09/publication-verification.json) records actual checks and the recovered initial publication attempt.
+
+All six approved activities remain unchanged, rest-or-leave is selected, and collection remains off. No fresh rendered accessibility or narration test is claimed. Older static fallback and next-question copy remain known limitations. The research manifest covers the snapshot before this receipt and final status addition. This verification-only follow-up changes no feed, deployment input or scientific result.
