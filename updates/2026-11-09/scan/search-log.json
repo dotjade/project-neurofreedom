@@ -1,0 +1,5982 @@
+{
+  "date": "2026-11-09",
+  "started_utc": "2026-11-09T02:38:48.088705+00:00",
+  "inclusive_overlap": [
+    "2026-11-07",
+    "2026-11-09"
+  ],
+  "prior_core_end_utc": "2026-11-08T03:07:59.615070+00:00",
+  "retrieval_requests": [
+    {
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-11-06/2026-11-09/0",
+      "started_utc": "2026-11-09T02:38:48.096189+00:00",
+      "status": 200,
+      "bytes": 64959,
+      "sha256": "3e665b1d3b68c4b92f43047cb18bdad30559f626e0c462dae74a179104fb2aad",
+      "completed_utc": "2026-11-09T02:39:13.153509+00:00"
+    },
+    {
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-11-06/2026-11-09/0",
+      "started_utc": "2026-11-09T02:38:48.097823+00:00",
+      "status": 200,
+      "bytes": 77472,
+      "sha256": "ab619f167291cd8327c5c6f17415753c0127b7107ea5e249a6b8cca8b0f80461",
+      "completed_utc": "2026-11-09T02:39:00.426881+00:00"
+    },
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=Tourette+OR+%22tic+disorder%22+OR+%22tic+disorders%22&datetype=edat&mindate=2026%2F11%2F07&maxdate=2026%2F11%2F09&retmode=json&retmax=1000",
+      "started_utc": "2026-11-09T02:38:48.098965+00:00",
+      "status": 200,
+      "bytes": 805,
+      "sha256": "3158109e331496943c3ff665da4f76c5f279081ef5edd125879afbe03adddd3d",
+      "completed_utc": "2026-11-09T02:38:56.947029+00:00"
+    },
+    {
+      "url": "https://clinicaltrials.gov/api/v2/studies?query.cond=Tourette&filter.advanced=AREA%5BLastUpdatePostDate%5DRANGE%5B2026-11-07%2C2026-11-09%5D&pageSize=100&format=json&countTotal=true&fields=NCTId%2CBriefTitle%2CStatusModule%2CDesignModule%2CCondition%2CMinimumAge%2CMaximumAge%2CStdAge%2CHasResults",
+      "started_utc": "2026-11-09T02:38:48.100824+00:00",
+      "status": 200,
+      "bytes": 31,
+      "sha256": "b54968c05ff881a1ef7ce604b6a340248f8e2aee8637bef06da0f5693f520df8",
+      "completed_utc": "2026-11-09T02:38:55.682764+00:00"
+    },
+    {
+      "url": "https://clinicaltrials.gov/api/v2/studies?query.cond=tic+disorder&filter.advanced=AREA%5BLastUpdatePostDate%5DRANGE%5B2026-11-07%2C2026-11-09%5D&pageSize=100&format=json&countTotal=true&fields=NCTId%2CBriefTitle%2CStatusModule%2CDesignModule%2CCondition%2CMinimumAge%2CMaximumAge%2CStdAge%2CHasResults",
+      "started_utc": "2026-11-09T02:38:55.683008+00:00",
+      "status": 200,
+      "bytes": 31,
+      "sha256": "b54968c05ff881a1ef7ce604b6a340248f8e2aee8637bef06da0f5693f520df8",
+      "completed_utc": "2026-11-09T02:39:00.313118+00:00"
+    },
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=Tourette+OR+%22tic+disorder%22+OR+%22tic+disorders%22&datetype=edat&mindate=2026%2F11%2F08&maxdate=2026%2F11%2F09&retmode=json&retmax=1000",
+      "started_utc": "2026-11-09T02:38:57.347698+00:00",
+      "status": 200,
+      "bytes": 805,
+      "sha256": "5844db8cd4789952766855f4cebbd331b02b7891680a718af8d4c9344260fbe9",
+      "completed_utc": "2026-11-09T02:39:02.944261+00:00"
+    },
+    {
+      "url": "https://clinicaltrials.gov/api/v2/studies?query.cond=Tics&filter.advanced=AREA%5BLastUpdatePostDate%5DRANGE%5B2026-11-07%2C2026-11-09%5D&pageSize=100&format=json&countTotal=true&fields=NCTId%2CBriefTitle%2CStatusModule%2CDesignModule%2CCondition%2CMinimumAge%2CMaximumAge%2CStdAge%2CHasResults",
+      "started_utc": "2026-11-09T02:39:00.313200+00:00",
+      "status": 200,
+      "bytes": 31,
+      "sha256": "b54968c05ff881a1ef7ce604b6a340248f8e2aee8637bef06da0f5693f520df8",
+      "completed_utc": "2026-11-09T02:39:03.727456+00:00"
+    },
+    {
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-11-06/2026-11-09/30",
+      "started_utc": "2026-11-09T02:39:00.427799+00:00",
+      "status": 200,
+      "bytes": 82240,
+      "sha256": "0827b7797c4ea8570a9ff19f5f8a48e776d21356c5e65af3fa129dad63dadfbe",
+      "completed_utc": "2026-11-09T02:39:13.873374+00:00"
+    },
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=Tourette+OR+%22tic+disorder%22+OR+%22tic+disorders%22&datetype=pdat&mindate=2026%2F11%2F07&maxdate=2026%2F11%2F09&retmode=json&retmax=1000",
+      "started_utc": "2026-11-09T02:39:03.344562+00:00",
+      "status": 200,
+      "bytes": 890,
+      "sha256": "70d20e5e1866a4415736a6ab1287fc404dee5a66bcaf5f3c8dc8215bcd157bda",
+      "completed_utc": "2026-11-09T02:39:07.379757+00:00"
+    },
+    {
+      "url": "https://clinicaltrials.gov/api/v2/studies?query.term=ecopipam&filter.advanced=AREA%5BLastUpdatePostDate%5DRANGE%5B2026-11-07%2C2026-11-09%5D&pageSize=100&format=json&countTotal=true&fields=NCTId%2CBriefTitle%2CStatusModule%2CDesignModule%2CCondition%2CMinimumAge%2CMaximumAge%2CStdAge%2CHasResults",
+      "started_utc": "2026-11-09T02:39:03.727535+00:00",
+      "status": 200,
+      "bytes": 31,
+      "sha256": "b54968c05ff881a1ef7ce604b6a340248f8e2aee8637bef06da0f5693f520df8",
+      "completed_utc": "2026-11-09T02:39:09.938160+00:00"
+    },
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=Tourette+OR+%22tic+disorder%22+OR+%22tic+disorders%22&datetype=mdat&mindate=2026%2F11%2F07&maxdate=2026%2F11%2F09&retmode=json&retmax=1000",
+      "started_utc": "2026-11-09T02:39:07.780000+00:00",
+      "status": 200,
+      "bytes": 1133,
+      "sha256": "4c436bc052fd50c5a629ac589b65af7edb176dc179af71b8770788d1556aaf45",
+      "completed_utc": "2026-11-09T02:39:11.275149+00:00"
+    },
+    {
+      "url": "https://clinicaltrials.gov/api/v2/studies/NCT01019343?fields=NCTId%2CBriefTitle%2CStatusModule%2CDesignModule%2CCondition%2CMinimumAge%2CMaximumAge%2CStdAge%2CHasResults",
+      "started_utc": "2026-11-09T02:39:09.938472+00:00",
+      "status": 200,
+      "bytes": 1169,
+      "sha256": "eec7d88a9d4f5bc9f1992b8dd4758874e65b3db8350a172cd1a5d1648395c203",
+      "completed_utc": "2026-11-09T02:39:15.414326+00:00"
+    },
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%28Tourette+OR+%22tic+disorder%22+OR+%22tic+disorders%22%29+AND+%28retraction+OR+retracted+OR+erratum+OR+corrigendum+OR+correction%29&datetype=edat&mindate=2026%2F11%2F07&maxdate=2026%2F11%2F09&retmode=json&retmax=1000",
+      "started_utc": "2026-11-09T02:39:11.675473+00:00",
+      "status": 200,
+      "bytes": 2714,
+      "sha256": "3fbd43fb885936d9b86fe5b2e7021b336a8a5f2805ea12f4cee152581e882453",
+      "completed_utc": "2026-11-09T02:39:15.674069+00:00"
+    },
+    {
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-11-06/2026-11-09/30",
+      "started_utc": "2026-11-09T02:39:13.154237+00:00",
+      "status": 200,
+      "bytes": 64319,
+      "sha256": "40d5f3129076cce1babf387a6d2f81c22bd1584cbb83bccf55ac75849af86cda",
+      "completed_utc": "2026-11-09T02:39:36.262479+00:00"
+    },
+    {
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-11-06/2026-11-09/60",
+      "started_utc": "2026-11-09T02:39:13.876041+00:00",
+      "error": "HTTP Error 503: Service Unavailable",
+      "completed_utc": "2026-11-09T02:39:18.506582+00:00"
+    },
+    {
+      "url": "https://clinicaltrials.gov/api/v2/studies/NCT05158439?fields=NCTId%2CBriefTitle%2CStatusModule%2CDesignModule%2CCondition%2CMinimumAge%2CMaximumAge%2CStdAge%2CHasResults",
+      "started_utc": "2026-11-09T02:39:15.414488+00:00",
+      "status": 200,
+      "bytes": 1179,
+      "sha256": "a6fcee82d40a5e0f895b086ac79fb614544824d8e06472c4a54893056b5c5d89",
+      "completed_utc": "2026-11-09T02:39:19.132678+00:00"
+    },
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=tics+OR+%22chronic+motor+tic%22+OR+%22chronic+vocal+tic%22+OR+%22persistent+tic%22&datetype=edat&mindate=2026%2F11%2F07&maxdate=2026%2F11%2F09&retmode=json&retmax=1000",
+      "started_utc": "2026-11-09T02:39:16.074466+00:00",
+      "status": 200,
+      "bytes": 451,
+      "sha256": "c223b2a4dc0a2da3c3d527296461c137ec78166eaa674746396f531fe9d75d65",
+      "completed_utc": "2026-11-09T02:39:20.965167+00:00"
+    },
+    {
+      "url": "https://clinicaltrials.gov/api/v2/studies/NCT07093541?fields=NCTId%2CBriefTitle%2CStatusModule%2CDesignModule%2CCondition%2CMinimumAge%2CMaximumAge%2CStdAge%2CHasResults",
+      "started_utc": "2026-11-09T02:39:19.133150+00:00",
+      "status": 200,
+      "bytes": 815,
+      "sha256": "09be2e18b04be3a5d97269920911149fe2a23531684136bdfbd1d6bce1d1ae09",
+      "completed_utc": "2026-11-09T02:39:22.628275+00:00"
+    },
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=tics+OR+%22chronic+motor+tic%22+OR+%22chronic+vocal+tic%22+OR+%22persistent+tic%22&datetype=pdat&mindate=2026%2F11%2F07&maxdate=2026%2F11%2F09&retmode=json&retmax=1000",
+      "started_utc": "2026-11-09T02:39:21.366332+00:00",
+      "status": 200,
+      "bytes": 435,
+      "sha256": "9c667226d0a465e72429c811c0401600f61bd67070e78bb4e9a0972bdd401f45",
+      "completed_utc": "2026-11-09T02:39:27.348344+00:00"
+    },
+    {
+      "url": "https://clinicaltrials.gov/api/v2/studies/NCT06194305?fields=NCTId%2CBriefTitle%2CStatusModule%2CDesignModule%2CCondition%2CMinimumAge%2CMaximumAge%2CStdAge%2CHasResults",
+      "started_utc": "2026-11-09T02:39:22.628354+00:00",
+      "status": 200,
+      "bytes": 1718,
+      "sha256": "34fd7426fbf87f0bba9978282d6774763c7d7e4caa4080f08dd597d54505e156",
+      "completed_utc": "2026-11-09T02:39:26.761950+00:00"
+    },
+    {
+      "url": "https://clinicaltrials.gov/api/v2/studies/NCT07137442?fields=NCTId%2CBriefTitle%2CStatusModule%2CDesignModule%2CCondition%2CMinimumAge%2CMaximumAge%2CStdAge%2CHasResults",
+      "started_utc": "2026-11-09T02:39:26.762020+00:00",
+      "status": 200,
+      "bytes": 1086,
+      "sha256": "25c894e0be62468441a307ed76e4adedab84c3bf2099b12a4e50b0c67cf61323",
+      "completed_utc": "2026-11-09T02:39:30.486503+00:00"
+    },
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%28Tourette+OR+%22tic+disorder%22+OR+%22tic+disorders%22%29+AND+%28adult+OR+severe+OR+pain+OR+burden+OR+ADHD+OR+comorbid%2A+OR+cooccurring+OR+treatment+OR+adverse+OR+negative+OR+quality+of+life%29&datetype=edat&mindate=2026%2F11%2F07&maxdate=2026%2F11%2F09&retmode=json&retmax=1000",
+      "started_utc": "2026-11-09T02:39:27.748645+00:00",
+      "status": 200,
+      "bytes": 4008,
+      "sha256": "6e3b7afdac830eb28d72691bf9b0dec387362f67aa7c3f7abaab29ef93d8121a",
+      "completed_utc": "2026-11-09T02:39:33.576648+00:00"
+    },
+    {
+      "url": "https://clinicaltrials.gov/api/v2/studies/NCT07905898?fields=NCTId%2CBriefTitle%2CStatusModule%2CDesignModule%2CCondition%2CMinimumAge%2CMaximumAge%2CStdAge%2CHasResults",
+      "started_utc": "2026-11-09T02:39:30.486584+00:00",
+      "status": 200,
+      "bytes": 1243,
+      "sha256": "7af60ad89999f7a72d0092687b29b2dfa95564730e701402a2eb390440eb056e",
+      "completed_utc": "2026-11-09T02:39:33.865690+00:00"
+    },
+    {
+      "url": "https://clinicaltrials.gov/api/v2/studies/NCT06678737?fields=NCTId%2CBriefTitle%2CStatusModule%2CDesignModule%2CCondition%2CMinimumAge%2CMaximumAge%2CStdAge%2CHasResults",
+      "started_utc": "2026-11-09T02:39:33.865817+00:00",
+      "status": 200,
+      "bytes": 1245,
+      "sha256": "18b8c384e1cef73c4a723d4f62a46049e6875003d7ef666b74492867f92e3d45",
+      "completed_utc": "2026-11-09T02:39:37.780214+00:00"
+    },
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=11840360%2C16123742%2C17326821%2C17665284%2C19777563%2C20445167%2C20807062%2C20819989%2C21156204%2C21486167%2C22214315%2C22432958%2C22889924%2C22917203%2C22958744%2C23754400%2C24446506%2C24771252%2C25062598%2C25158072%2C25414812%2C25506544%2C27371487%2C27375425%2C27809572%2C27920671%2C28384010%2C28555406%2C29416498%2C42995077%2C42995839%2C42996864%2C42997457%2C42997792%2C42997938&retmode=xml",
+      "started_utc": "2026-11-09T02:39:33.977047+00:00",
+      "status": 200,
+      "bytes": 1409984,
+      "sha256": "0abfad0cb5814e6bf20b889be18481b515cee1ad5fe160824f3c24cf610bd008",
+      "completed_utc": "2026-11-09T02:39:41.462051+00:00"
+    },
+    {
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-11-06/2026-11-09/60",
+      "started_utc": "2026-11-09T02:39:36.263770+00:00",
+      "status": 200,
+      "bytes": 66095,
+      "sha256": "427439354adf7567dd7c897e8796d35587703c38d5444fa98b8fcaa493a729bc",
+      "completed_utc": "2026-11-09T02:39:59.875009+00:00"
+    },
+    {
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-11-06/2026-11-09/90",
+      "started_utc": "2026-11-09T02:39:59.875874+00:00",
+      "status": 200,
+      "bytes": 66879,
+      "sha256": "040110d542342dbe04f0a7db1817b52d8611b3ee5c6d5849a39aba04e9a58f2d",
+      "completed_utc": "2026-11-09T02:40:23.707043+00:00"
+    },
+    {
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-11-06/2026-11-09/120",
+      "started_utc": "2026-11-09T02:40:23.708021+00:00",
+      "status": 200,
+      "bytes": 69510,
+      "sha256": "927661df444d6255331fb118c6ed3cce0074d04b9e346ee6f62f4a8a2a9536d2",
+      "completed_utc": "2026-11-09T02:40:28.761335+00:00"
+    },
+    {
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-11-06/2026-11-09/150",
+      "started_utc": "2026-11-09T02:40:28.762141+00:00",
+      "status": 200,
+      "bytes": 63385,
+      "sha256": "29236f99efe946925572d6bce4903d865d16441ae33453f708a5367751fecd3a",
+      "completed_utc": "2026-11-09T02:40:53.580056+00:00"
+    },
+    {
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-11-06/2026-11-09/180",
+      "started_utc": "2026-11-09T02:40:53.580913+00:00",
+      "status": 200,
+      "bytes": 66429,
+      "sha256": "91de160dea2b8bc3e27d7e4b022079817ab6ff67e2e4f4b5b1e0d2ac4102846b",
+      "completed_utc": "2026-11-09T02:41:12.464910+00:00"
+    },
+    {
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-11-06/2026-11-09/210",
+      "started_utc": "2026-11-09T02:41:12.467516+00:00",
+      "status": 200,
+      "bytes": 72063,
+      "sha256": "285f6b19a62009f5db4ef7305c25899da139bff0e8a414a1dcb6f52c7b9e0c2b",
+      "completed_utc": "2026-11-09T02:41:20.827844+00:00"
+    },
+    {
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-11-06/2026-11-09/240",
+      "started_utc": "2026-11-09T02:41:20.828729+00:00",
+      "status": 200,
+      "bytes": 64328,
+      "sha256": "35ad43b4d78bf3cfa7ad308783b05dd28294bb68adb844eedb5dcb13c447d6e7",
+      "completed_utc": "2026-11-09T02:41:27.687743+00:00"
+    },
+    {
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-11-06/2026-11-09/270",
+      "started_utc": "2026-11-09T02:41:27.688993+00:00",
+      "status": 200,
+      "bytes": 70967,
+      "sha256": "91ebaa9c4eb7d7fa2b4e46af89b4cae0754c3f9ee703a2b5ce29cb9c7411c010",
+      "completed_utc": "2026-11-09T02:41:47.269891+00:00"
+    },
+    {
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-11-06/2026-11-09/300",
+      "started_utc": "2026-11-09T02:41:47.270945+00:00",
+      "status": 200,
+      "bytes": 68214,
+      "sha256": "c5ca4bc59df279b125c563222ed9b0ab2df3e96a1312f62bfcac4e96fd840e24",
+      "completed_utc": "2026-11-09T02:41:51.895684+00:00"
+    },
+    {
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-11-06/2026-11-09/330",
+      "started_utc": "2026-11-09T02:41:51.897792+00:00",
+      "status": 200,
+      "bytes": 68375,
+      "sha256": "43f82e48b29e6d8fc2746c203604ff186adb63c8e41013857a541179e3fe601e",
+      "completed_utc": "2026-11-09T02:41:58.125252+00:00"
+    },
+    {
+      "url": "https://api.biorxiv.org/details/biorxiv/2026-11-06/2026-11-09/360",
+      "started_utc": "2026-11-09T02:41:58.127504+00:00",
+      "status": 200,
+      "bytes": 7624,
+      "sha256": "f6617976812e90448722ba87309d5aeb263e68925387864dfb699ca13a8276d9",
+      "completed_utc": "2026-11-09T02:42:06.316530+00:00"
+    }
+  ],
+  "pubmed": {
+    "queries": [
+      {
+        "label": "core_edat",
+        "params": {
+          "db": "pubmed",
+          "term": "Tourette OR \"tic disorder\" OR \"tic disorders\"",
+          "datetype": "edat",
+          "mindate": "2026/11/07",
+          "maxdate": "2026/11/09",
+          "retmode": "json",
+          "retmax": 1000
+        },
+        "count": 2,
+        "ids": [
+          "42997457",
+          "42996864"
+        ],
+        "querytranslation": "(\"tourette syndrome\"[MeSH Terms] OR (\"tourette\"[All Fields] AND \"syndrome\"[All Fields]) OR \"tourette syndrome\"[All Fields] OR \"tourette\"[All Fields] OR \"tourette s\"[All Fields] OR \"tourettes\"[All Fields] OR \"tourettism\"[All Fields] OR \"tic disorder\"[All Fields] OR \"tic disorders\"[All Fields]) AND 2026/11/07:2026/11/09[Date - Entry]",
+        "warnings": null,
+        "errors": null
+      },
+      {
+        "label": "near_edat",
+        "params": {
+          "db": "pubmed",
+          "term": "Tourette OR \"tic disorder\" OR \"tic disorders\"",
+          "datetype": "edat",
+          "mindate": "2026/11/08",
+          "maxdate": "2026/11/09",
+          "retmode": "json",
+          "retmax": 1000
+        },
+        "count": 2,
+        "ids": [
+          "42997457",
+          "42996864"
+        ],
+        "querytranslation": "(\"tourette syndrome\"[MeSH Terms] OR (\"tourette\"[All Fields] AND \"syndrome\"[All Fields]) OR \"tourette syndrome\"[All Fields] OR \"tourette\"[All Fields] OR \"tourette s\"[All Fields] OR \"tourettes\"[All Fields] OR \"tourettism\"[All Fields] OR \"tic disorder\"[All Fields] OR \"tic disorders\"[All Fields]) AND 2026/11/08:2026/11/09[Date - Entry]",
+        "warnings": null,
+        "errors": null
+      },
+      {
+        "label": "core_pdat",
+        "params": {
+          "db": "pubmed",
+          "term": "Tourette OR \"tic disorder\" OR \"tic disorders\"",
+          "datetype": "pdat",
+          "mindate": "2026/11/07",
+          "maxdate": "2026/11/09",
+          "retmode": "json",
+          "retmax": 1000
+        },
+        "count": 0,
+        "ids": [],
+        "querytranslation": "(\"tourette syndrome\"[MeSH Terms] OR (\"tourette\"[All Fields] AND \"syndrome\"[All Fields]) OR \"tourette syndrome\"[All Fields] OR \"tourette\"[All Fields] OR \"tourette s\"[All Fields] OR \"tourettes\"[All Fields] OR \"tourettism\"[All Fields] OR \"tic disorder\"[All Fields] OR \"tic disorders\"[All Fields]) AND 2026/11/07:2026/11/09[Date - Publication]",
+        "warnings": {
+          "phrasesignored": [],
+          "quotedphrasesnotfound": [],
+          "outputmessages": [
+            "No items found."
+          ]
+        },
+        "errors": null
+      },
+      {
+        "label": "core_mdat",
+        "params": {
+          "db": "pubmed",
+          "term": "Tourette OR \"tic disorder\" OR \"tic disorders\"",
+          "datetype": "mdat",
+          "mindate": "2026/11/07",
+          "maxdate": "2026/11/09",
+          "retmode": "json",
+          "retmax": 1000
+        },
+        "count": 31,
+        "ids": [
+          "42997457",
+          "42996864",
+          "29416498",
+          "28555406",
+          "28384010",
+          "27920671",
+          "27809572",
+          "27375425",
+          "27371487",
+          "25506544",
+          "25414812",
+          "25158072",
+          "25062598",
+          "24771252",
+          "24446506",
+          "23754400",
+          "22958744",
+          "22917203",
+          "22889924",
+          "22214315",
+          "21486167",
+          "22432958",
+          "21156204",
+          "20819989",
+          "20807062",
+          "20445167",
+          "19777563",
+          "17665284",
+          "17326821",
+          "16123742",
+          "11840360"
+        ],
+        "querytranslation": "(\"tourette syndrome\"[MeSH Terms] OR (\"tourette\"[All Fields] AND \"syndrome\"[All Fields]) OR \"tourette syndrome\"[All Fields] OR \"tourette\"[All Fields] OR \"tourette s\"[All Fields] OR \"tourettes\"[All Fields] OR \"tourettism\"[All Fields] OR \"tic disorder\"[All Fields] OR \"tic disorders\"[All Fields]) AND 2026/11/07:2026/11/09[Date - Modification]",
+        "warnings": null,
+        "errors": null
+      },
+      {
+        "label": "notice_edat",
+        "params": {
+          "db": "pubmed",
+          "term": "(Tourette OR \"tic disorder\" OR \"tic disorders\") AND (retraction OR retracted OR erratum OR corrigendum OR correction)",
+          "datetype": "edat",
+          "mindate": "2026/11/07",
+          "maxdate": "2026/11/09",
+          "retmode": "json",
+          "retmax": 1000
+        },
+        "count": 0,
+        "ids": [],
+        "querytranslation": "(\"tourette syndrome\"[MeSH Terms] OR (\"tourette\"[All Fields] AND \"syndrome\"[All Fields]) OR \"tourette syndrome\"[All Fields] OR \"tourette\"[All Fields] OR \"tourette s\"[All Fields] OR \"tourettes\"[All Fields] OR \"tourettism\"[All Fields] OR \"tic disorder\"[All Fields] OR \"tic disorders\"[All Fields]) AND (\"retract\"[All Fields] OR \"retractable\"[All Fields] OR \"retracted\"[All Fields] OR \"retracting\"[All Fields] OR \"retraction\"[All Fields] OR \"retractions\"[All Fields] OR \"retracts\"[All Fields] OR (\"retract\"[All Fields] OR \"retractable\"[All Fields] OR \"retracted\"[All Fields] OR \"retracting\"[All Fields] OR \"retraction\"[All Fields] OR \"retractions\"[All Fields] OR \"retracts\"[All Fields]) OR (\"published erratum\"[Publication Type] OR \"erratum\"[All Fields]) OR \"corrigendum\"[All Fields] OR (\"correct\"[All Fields] OR \"correctability\"[All Fields] OR \"correctable\"[All Fields] OR \"corrected\"[All Fields] OR \"correctible\"[All Fields] OR \"correcting\"[All Fields] OR \"correction\"[All Fields] OR \"corrections\"[All Fields] OR \"corrective\"[All Fields] OR \"correctives\"[All Fields] OR \"correctness\"[All Fields] OR \"corrects\"[All Fields])) AND 2026/11/07:2026/11/09[Date - Entry]",
+        "warnings": {
+          "phrasesignored": [],
+          "quotedphrasesnotfound": [],
+          "outputmessages": [
+            "No items found."
+          ]
+        },
+        "errors": null
+      },
+      {
+        "label": "syn_edat",
+        "params": {
+          "db": "pubmed",
+          "term": "tics OR \"chronic motor tic\" OR \"chronic vocal tic\" OR \"persistent tic\"",
+          "datetype": "edat",
+          "mindate": "2026/11/07",
+          "maxdate": "2026/11/09",
+          "retmode": "json",
+          "retmax": 1000
+        },
+        "count": 3,
+        "ids": [
+          "42997938",
+          "42997792",
+          "42995839"
+        ],
+        "querytranslation": "(\"tics\"[MeSH Terms] OR \"tics\"[All Fields] OR \"chronic motor tic\"[All Fields] OR \"chronic vocal tic\"[All Fields] OR \"persistent tic\"[All Fields]) AND 2026/11/07:2026/11/09[Date - Entry]",
+        "warnings": null,
+        "errors": null
+      },
+      {
+        "label": "syn_pdat",
+        "params": {
+          "db": "pubmed",
+          "term": "tics OR \"chronic motor tic\" OR \"chronic vocal tic\" OR \"persistent tic\"",
+          "datetype": "pdat",
+          "mindate": "2026/11/07",
+          "maxdate": "2026/11/09",
+          "retmode": "json",
+          "retmax": 1000
+        },
+        "count": 1,
+        "ids": [
+          "42995077"
+        ],
+        "querytranslation": "(\"tics\"[MeSH Terms] OR \"tics\"[All Fields] OR \"chronic motor tic\"[All Fields] OR \"chronic vocal tic\"[All Fields] OR \"persistent tic\"[All Fields]) AND 2026/11/07:2026/11/09[Date - Publication]",
+        "warnings": null,
+        "errors": null
+      },
+      {
+        "label": "burden_treatment_edat",
+        "params": {
+          "db": "pubmed",
+          "term": "(Tourette OR \"tic disorder\" OR \"tic disorders\") AND (adult OR severe OR pain OR burden OR ADHD OR comorbid* OR cooccurring OR treatment OR adverse OR negative OR quality of life)",
+          "datetype": "edat",
+          "mindate": "2026/11/07",
+          "maxdate": "2026/11/09",
+          "retmode": "json",
+          "retmax": 1000
+        },
+        "count": 1,
+        "ids": [
+          "42997457"
+        ],
+        "querytranslation": "(\"tourette syndrome\"[MeSH Terms] OR (\"tourette\"[All Fields] AND \"syndrome\"[All Fields]) OR \"tourette syndrome\"[All Fields] OR \"tourette\"[All Fields] OR \"tourette s\"[All Fields] OR \"tourettes\"[All Fields] OR \"tourettism\"[All Fields] OR \"tic disorder\"[All Fields] OR \"tic disorders\"[All Fields]) AND (\"adult\"[MeSH Terms] OR \"adult\"[All Fields] OR \"adults\"[All Fields] OR \"adult s\"[All Fields] OR (\"sever\"[All Fields] OR \"severe\"[All Fields] OR \"severed\"[All Fields] OR \"severely\"[All Fields] OR \"severer\"[All Fields] OR \"severes\"[All Fields] OR \"severing\"[All Fields] OR \"severities\"[All Fields] OR \"severity\"[All Fields] OR \"severs\"[All Fields]) OR (\"pain\"[MeSH Terms] OR \"pain\"[All Fields]) OR (\"burden\"[All Fields] OR \"burdened\"[All Fields] OR \"burdening\"[All Fields] OR \"burdens\"[All Fields]) OR (\"attention deficit disorder with hyperactivity\"[MeSH Terms] OR (\"attention\"[All Fields] AND \"deficit\"[All Fields] AND \"disorder\"[All Fields] AND \"hyperactivity\"[All Fields]) OR \"attention deficit disorder with hyperactivity\"[All Fields] OR \"adhd\"[All Fields]) OR \"comorbid*\"[All Fields] OR (\"cooccur\"[All Fields] OR \"cooccurred\"[All Fields] OR \"cooccurring\"[All Fields]) OR (\"therapeutics\"[MeSH Terms] OR \"therapeutics\"[All Fields] OR \"treatments\"[All Fields] OR \"therapy\"[MeSH Subheading] OR \"therapy\"[All Fields] OR \"treatment\"[All Fields] OR \"treatment s\"[All Fields]) OR (\"adverse\"[All Fields] OR \"adversely\"[All Fields] OR \"adverses\"[All Fields]) OR (\"negative\"[All Fields] OR \"negatively\"[All Fields] OR \"negatives\"[All Fields] OR \"negativities\"[All Fields] OR \"negativity\"[All Fields]) OR (\"quality of life\"[MeSH Terms] OR (\"quality\"[All Fields] AND \"life\"[All Fields]) OR \"quality of life\"[All Fields])) AND 2026/11/07:2026/11/09[Date - Entry]",
+        "warnings": null,
+        "errors": null
+      }
+    ],
+    "id_occurrences": 40,
+    "unique_records": 35,
+    "date_type_correction_screen": [
+      {
+        "pmid": "11840360",
+        "title": "Genomewide scan of hoarding in sib pairs in which both sibs have Gilles de la Tourette syndrome.",
+        "journal_pubdate": {
+          "Year": "2002",
+          "Month": "Apr"
+        },
+        "article_dates": [
+          {
+            "type": "Electronic",
+            "Year": "2002",
+            "Month": "02",
+            "Day": "11"
+          }
+        ],
+        "history": {
+          "received": {
+            "Year": "2001",
+            "Month": "10",
+            "Day": "30"
+          },
+          "accepted": {
+            "Year": "2002",
+            "Month": "1",
+            "Day": "11"
+          },
+          "pubmed": {
+            "Year": "2002",
+            "Month": "2",
+            "Day": "13",
+            "Hour": "10",
+            "Minute": "0"
+          },
+          "medline": {
+            "Year": "2002",
+            "Month": "4",
+            "Day": "19",
+            "Hour": "10",
+            "Minute": "1"
+          },
+          "entrez": {
+            "Year": "2002",
+            "Month": "2",
+            "Day": "13",
+            "Hour": "10",
+            "Minute": "0"
+          },
+          "pmc-release": {
+            "Year": "2002",
+            "Month": "10",
+            "Day": "1"
+          }
+        },
+        "types": [
+          "Journal Article"
+        ],
+        "identifiers": {
+          "pubmed": "11840360",
+          "pmc": "PMC379118",
+          "doi": "10.1086/339520",
+          "pii": "S0002-9297(07)60297-3"
+        },
+        "DateCompleted": {
+          "Year": "2002",
+          "Month": "04",
+          "Day": "18"
+        },
+        "DateRevised": {
+          "Year": "2026",
+          "Month": "11",
+          "Day": "07"
+        },
+        "corrections": [],
+        "prior_scan_overlap": false,
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/11840360/",
+        "linked_notice_changed": false,
+        "screening_decision": "Pending metadata and abstract review"
+      },
+      {
+        "pmid": "16123742",
+        "title": "Heritable differences in the dopaminergic regulation of behavior in rats: relationship to D2-like receptor G-protein function.",
+        "journal_pubdate": {
+          "Year": "2006",
+          "Month": "Apr"
+        },
+        "article_dates": [],
+        "history": {
+          "pubmed": {
+            "Year": "2005",
+            "Month": "8",
+            "Day": "27",
+            "Hour": "9",
+            "Minute": "0"
+          },
+          "medline": {
+            "Year": "2006",
+            "Month": "5",
+            "Day": "26",
+            "Hour": "9",
+            "Minute": "0"
+          },
+          "entrez": {
+            "Year": "2005",
+            "Month": "8",
+            "Day": "27",
+            "Hour": "9",
+            "Minute": "0"
+          },
+          "pmc-release": {
+            "Year": "2008",
+            "Month": "1",
+            "Day": "25"
+          }
+        },
+        "types": [
+          "Comparative Study",
+          "Journal Article",
+          "Research Support, N.I.H., Extramural"
+        ],
+        "identifiers": {
+          "pubmed": "16123742",
+          "mid": "NIHMS5074",
+          "pmc": "PMC1403813",
+          "doi": "10.1038/sj.npp.1300877",
+          "pii": "1300877"
+        },
+        "DateCompleted": {
+          "Year": "2006",
+          "Month": "05",
+          "Day": "25"
+        },
+        "DateRevised": {
+          "Year": "2026",
+          "Month": "11",
+          "Day": "07"
+        },
+        "corrections": [],
+        "prior_scan_overlap": false,
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/16123742/",
+        "linked_notice_changed": false,
+        "screening_decision": "Pending metadata and abstract review"
+      },
+      {
+        "pmid": "17326821",
+        "title": "microRNA expression in the prefrontal cortex of individuals with schizophrenia and schizoaffective disorder.",
+        "journal_pubdate": {
+          "Year": "2007"
+        },
+        "article_dates": [],
+        "history": {
+          "received": {
+            "Year": "2006",
+            "Month": "11",
+            "Day": "24"
+          },
+          "revised": {
+            "Year": "2007",
+            "Month": "1",
+            "Day": "25"
+          },
+          "accepted": {
+            "Year": "2007",
+            "Month": "2",
+            "Day": "27"
+          },
+          "pubmed": {
+            "Year": "2007",
+            "Month": "3",
+            "Day": "1",
+            "Hour": "9",
+            "Minute": "0"
+          },
+          "medline": {
+            "Year": "2007",
+            "Month": "7",
+            "Day": "20",
+            "Hour": "9",
+            "Minute": "0"
+          },
+          "entrez": {
+            "Year": "2007",
+            "Month": "3",
+            "Day": "1",
+            "Hour": "9",
+            "Minute": "0"
+          },
+          "pmc-release": {
+            "Year": "2007",
+            "Month": "2",
+            "Day": "27"
+          }
+        },
+        "types": [
+          "Comparative Study",
+          "Journal Article",
+          "Research Support, N.I.H., Extramural",
+          "Research Support, Non-U.S. Gov't"
+        ],
+        "identifiers": {
+          "pubmed": "17326821",
+          "pmc": "PMC1852419",
+          "doi": "10.1186/gb-2007-8-2-r27",
+          "pii": "gb-2007-8-2-r27"
+        },
+        "DateCompleted": {
+          "Year": "2007",
+          "Month": "07",
+          "Day": "19"
+        },
+        "DateRevised": {
+          "Year": "2026",
+          "Month": "11",
+          "Day": "08"
+        },
+        "corrections": [],
+        "prior_scan_overlap": false,
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/17326821/",
+        "linked_notice_changed": false,
+        "screening_decision": "Pending metadata and abstract review"
+      },
+      {
+        "pmid": "17665284",
+        "title": "Neuroimaging of tic disorders with co-existing attention-deficit/hyperactivity disorder.",
+        "journal_pubdate": {
+          "Year": "2007",
+          "Month": "Jun"
+        },
+        "article_dates": [],
+        "history": {
+          "pubmed": {
+            "Year": "2007",
+            "Month": "9",
+            "Day": "5",
+            "Hour": "9",
+            "Minute": "0"
+          },
+          "medline": {
+            "Year": "2007",
+            "Month": "10",
+            "Day": "19",
+            "Hour": "9",
+            "Minute": "0"
+          },
+          "entrez": {
+            "Year": "2007",
+            "Month": "9",
+            "Day": "5",
+            "Hour": "9",
+            "Minute": "0"
+          },
+          "pmc-release": {
+            "Year": "2008",
+            "Month": "5",
+            "Day": "5"
+          }
+        },
+        "types": [
+          "Journal Article",
+          "Research Support, N.I.H., Extramural",
+          "Research Support, Non-U.S. Gov't"
+        ],
+        "identifiers": {
+          "pubmed": "17665284",
+          "mid": "NIHMS44421",
+          "pmc": "PMC2367151",
+          "doi": "10.1007/s00787-007-1008-2"
+        },
+        "DateCompleted": {
+          "Year": "2007",
+          "Month": "10",
+          "Day": "18"
+        },
+        "DateRevised": {
+          "Year": "2026",
+          "Month": "11",
+          "Day": "08"
+        },
+        "corrections": [
+          {
+            "type": "ErratumIn",
+            "source": "Eur Child Adolesc Psychiatry. 2007 Dec;16(8):537",
+            "pmid": ""
+          }
+        ],
+        "prior_scan_overlap": false,
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/17665284/",
+        "linked_notice_changed": false,
+        "screening_decision": "Pending metadata and abstract review"
+      },
+      {
+        "pmid": "19777563",
+        "title": "Linkage analysis of Tourette syndrome in a large Utah pedigree.",
+        "journal_pubdate": {
+          "Year": "2010",
+          "Month": "Mar",
+          "Day": "05"
+        },
+        "article_dates": [],
+        "history": {
+          "entrez": {
+            "Year": "2009",
+            "Month": "9",
+            "Day": "25",
+            "Hour": "6",
+            "Minute": "0"
+          },
+          "pubmed": {
+            "Year": "2009",
+            "Month": "9",
+            "Day": "25",
+            "Hour": "6",
+            "Minute": "0"
+          },
+          "medline": {
+            "Year": "2010",
+            "Month": "12",
+            "Day": "21",
+            "Hour": "6",
+            "Minute": "0"
+          },
+          "pmc-release": {
+            "Year": "2011",
+            "Month": "3",
+            "Day": "5"
+          }
+        },
+        "types": [
+          "Journal Article",
+          "Research Support, N.I.H., Extramural",
+          "Research Support, Non-U.S. Gov't"
+        ],
+        "identifiers": {
+          "pubmed": "19777563",
+          "mid": "NIHMS219310",
+          "pmc": "PMC2923637",
+          "doi": "10.1002/ajmg.b.31035"
+        },
+        "DateCompleted": {
+          "Year": "2010",
+          "Month": "12",
+          "Day": "20"
+        },
+        "DateRevised": {
+          "Year": "2026",
+          "Month": "11",
+          "Day": "08"
+        },
+        "corrections": [],
+        "prior_scan_overlap": false,
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/19777563/",
+        "linked_notice_changed": false,
+        "screening_decision": "Pending metadata and abstract review"
+      },
+      {
+        "pmid": "20445167",
+        "title": "L-histidine decarboxylase and Tourette's syndrome.",
+        "journal_pubdate": {
+          "Year": "2010",
+          "Month": "May",
+          "Day": "20"
+        },
+        "article_dates": [
+          {
+            "type": "Electronic",
+            "Year": "2010",
+            "Month": "05",
+            "Day": "05"
+          }
+        ],
+        "history": {
+          "entrez": {
+            "Year": "2010",
+            "Month": "5",
+            "Day": "7",
+            "Hour": "6",
+            "Minute": "0"
+          },
+          "pubmed": {
+            "Year": "2010",
+            "Month": "5",
+            "Day": "7",
+            "Hour": "6",
+            "Minute": "0"
+          },
+          "medline": {
+            "Year": "2010",
+            "Month": "5",
+            "Day": "28",
+            "Hour": "6",
+            "Minute": "0"
+          },
+          "pmc-release": {
+            "Year": "2010",
+            "Month": "11",
+            "Day": "20"
+          }
+        },
+        "types": [
+          "Journal Article",
+          "Research Support, N.I.H., Extramural",
+          "Research Support, Non-U.S. Gov't"
+        ],
+        "identifiers": {
+          "pubmed": "20445167",
+          "mid": "NIHMS207406",
+          "pmc": "PMC2894694",
+          "doi": "10.1056/NEJMoa0907006",
+          "pii": "NEJMoa0907006"
+        },
+        "DateCompleted": {
+          "Year": "2010",
+          "Month": "05",
+          "Day": "27"
+        },
+        "DateRevised": {
+          "Year": "2026",
+          "Month": "11",
+          "Day": "08"
+        },
+        "corrections": [
+          {
+            "type": "CommentIn",
+            "source": "Clin Genet. 2010 Oct;78(4):349-50. doi: 10.1111/j.1399-0004.2010.01506.x.",
+            "pmid": "20718796"
+          }
+        ],
+        "prior_scan_overlap": false,
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/20445167/",
+        "linked_notice_changed": false,
+        "screening_decision": "Pending metadata and abstract review"
+      },
+      {
+        "pmid": "20807062",
+        "title": "Neurobiological substrates of Tourette's disorder.",
+        "journal_pubdate": {
+          "Year": "2010",
+          "Month": "Aug"
+        },
+        "article_dates": [],
+        "history": {
+          "entrez": {
+            "Year": "2010",
+            "Month": "9",
+            "Day": "3",
+            "Hour": "6",
+            "Minute": "0"
+          },
+          "pubmed": {
+            "Year": "2010",
+            "Month": "9",
+            "Day": "3",
+            "Hour": "6",
+            "Minute": "0"
+          },
+          "medline": {
+            "Year": "2010",
+            "Month": "12",
+            "Day": "14",
+            "Hour": "6",
+            "Minute": "0"
+          },
+          "pmc-release": {
+            "Year": "2011",
+            "Month": "8",
+            "Day": "1"
+          }
+        },
+        "types": [
+          "Journal Article",
+          "Research Support, N.I.H., Extramural",
+          "Research Support, Non-U.S. Gov't",
+          "Review"
+        ],
+        "identifiers": {
+          "pubmed": "20807062",
+          "pmc": "PMC2958453",
+          "doi": "10.1089/cap.2009.0118"
+        },
+        "DateCompleted": {
+          "Year": "2010",
+          "Month": "12",
+          "Day": "10"
+        },
+        "DateRevised": {
+          "Year": "2026",
+          "Month": "11",
+          "Day": "08"
+        },
+        "corrections": [],
+        "prior_scan_overlap": false,
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/20807062/",
+        "linked_notice_changed": false,
+        "screening_decision": "Pending metadata and abstract review"
+      },
+      {
+        "pmid": "20819989",
+        "title": "Enlargement of thalamic nuclei in Tourette syndrome.",
+        "journal_pubdate": {
+          "Year": "2010",
+          "Month": "Sep"
+        },
+        "article_dates": [],
+        "history": {
+          "entrez": {
+            "Year": "2010",
+            "Month": "9",
+            "Day": "8",
+            "Hour": "6",
+            "Minute": "0"
+          },
+          "pubmed": {
+            "Year": "2010",
+            "Month": "9",
+            "Day": "8",
+            "Hour": "6",
+            "Minute": "0"
+          },
+          "medline": {
+            "Year": "2010",
+            "Month": "9",
+            "Day": "18",
+            "Hour": "6",
+            "Minute": "0"
+          },
+          "pmc-release": {
+            "Year": "2015",
+            "Month": "1",
+            "Day": "13"
+          }
+        },
+        "types": [
+          "Comparative Study",
+          "Journal Article",
+          "Research Support, N.I.H., Extramural",
+          "Research Support, Non-U.S. Gov't"
+        ],
+        "identifiers": {
+          "pubmed": "20819989",
+          "mid": "NIHMS651553",
+          "pmc": "PMC4292904",
+          "doi": "10.1001/archgenpsychiatry.2010.102",
+          "pii": "67/9/955"
+        },
+        "DateCompleted": {
+          "Year": "2010",
+          "Month": "09",
+          "Day": "16"
+        },
+        "DateRevised": {
+          "Year": "2026",
+          "Month": "11",
+          "Day": "08"
+        },
+        "corrections": [],
+        "prior_scan_overlap": false,
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/20819989/",
+        "linked_notice_changed": false,
+        "screening_decision": "Pending metadata and abstract review"
+      },
+      {
+        "pmid": "21156204",
+        "title": "Altered immunoglobulin profiles in children with Tourette syndrome.",
+        "journal_pubdate": {
+          "Year": "2011",
+          "Month": "Mar"
+        },
+        "article_dates": [
+          {
+            "type": "Electronic",
+            "Year": "2010",
+            "Month": "12",
+            "Day": "13"
+          }
+        ],
+        "history": {
+          "received": {
+            "Year": "2010",
+            "Month": "10",
+            "Day": "29"
+          },
+          "revised": {
+            "Year": "2010",
+            "Month": "11",
+            "Day": "29"
+          },
+          "accepted": {
+            "Year": "2010",
+            "Month": "12",
+            "Day": "1"
+          },
+          "entrez": {
+            "Year": "2010",
+            "Month": "12",
+            "Day": "16",
+            "Hour": "6",
+            "Minute": "0"
+          },
+          "pubmed": {
+            "Year": "2010",
+            "Month": "12",
+            "Day": "16",
+            "Hour": "6",
+            "Minute": "0"
+          },
+          "medline": {
+            "Year": "2011",
+            "Month": "7",
+            "Day": "1",
+            "Hour": "6",
+            "Minute": "0"
+          },
+          "pmc-release": {
+            "Year": "2012",
+            "Month": "3",
+            "Day": "1"
+          }
+        },
+        "types": [
+          "Journal Article",
+          "Research Support, N.I.H., Extramural"
+        ],
+        "identifiers": {
+          "pubmed": "21156204",
+          "mid": "NIHMS264906",
+          "pmc": "PMC3056238",
+          "doi": "10.1016/j.bbi.2010.12.003",
+          "pii": "S0889-1591(10)00576-3"
+        },
+        "DateCompleted": {
+          "Year": "2011",
+          "Month": "06",
+          "Day": "30"
+        },
+        "DateRevised": {
+          "Year": "2026",
+          "Month": "11",
+          "Day": "08"
+        },
+        "corrections": [],
+        "prior_scan_overlap": false,
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/21156204/",
+        "linked_notice_changed": false,
+        "screening_decision": "Pending metadata and abstract review"
+      },
+      {
+        "pmid": "21486167",
+        "title": "Predictors of risperidone and 9-hydroxyrisperidone serum concentration in children and adolescents.",
+        "journal_pubdate": {
+          "Year": "2011",
+          "Month": "Apr"
+        },
+        "article_dates": [
+          {
+            "type": "Electronic",
+            "Year": "2011",
+            "Month": "04",
+            "Day": "12"
+          }
+        ],
+        "history": {
+          "entrez": {
+            "Year": "2011",
+            "Month": "4",
+            "Day": "14",
+            "Hour": "6",
+            "Minute": "0"
+          },
+          "pubmed": {
+            "Year": "2011",
+            "Month": "4",
+            "Day": "14",
+            "Hour": "6",
+            "Minute": "0"
+          },
+          "medline": {
+            "Year": "2012",
+            "Month": "1",
+            "Day": "10",
+            "Hour": "6",
+            "Minute": "0"
+          },
+          "pmc-release": {
+            "Year": "2012",
+            "Month": "4",
+            "Day": "1"
+          }
+        },
+        "types": [
+          "Journal Article",
+          "Research Support, N.I.H., Extramural"
+        ],
+        "identifiers": {
+          "pubmed": "21486167",
+          "pmc": "PMC3080754",
+          "doi": "10.1089/cap.2010.0038"
+        },
+        "DateCompleted": {
+          "Year": "2012",
+          "Month": "01",
+          "Day": "09"
+        },
+        "DateRevised": {
+          "Year": "2026",
+          "Month": "11",
+          "Day": "08"
+        },
+        "corrections": [],
+        "prior_scan_overlap": false,
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/21486167/",
+        "linked_notice_changed": false,
+        "screening_decision": "Pending metadata and abstract review"
+      },
+      {
+        "pmid": "22214315",
+        "title": "Isochromosome 13 in a patient with childhood-onset schizophrenia, ADHD, and motor tic disorder.",
+        "journal_pubdate": {
+          "Year": "2012",
+          "Month": "Jan",
+          "Day": "03"
+        },
+        "article_dates": [
+          {
+            "type": "Electronic",
+            "Year": "2012",
+            "Month": "01",
+            "Day": "03"
+          }
+        ],
+        "history": {
+          "received": {
+            "Year": "2011",
+            "Month": "8",
+            "Day": "25"
+          },
+          "accepted": {
+            "Year": "2012",
+            "Month": "1",
+            "Day": "3"
+          },
+          "entrez": {
+            "Year": "2012",
+            "Month": "1",
+            "Day": "5",
+            "Hour": "6",
+            "Minute": "0"
+          },
+          "pubmed": {
+            "Year": "2012",
+            "Month": "1",
+            "Day": "5",
+            "Hour": "6",
+            "Minute": "0"
+          },
+          "medline": {
+            "Year": "2012",
+            "Month": "1",
+            "Day": "5",
+            "Hour": "6",
+            "Minute": "1"
+          },
+          "pmc-release": {
+            "Year": "2012",
+            "Month": "1",
+            "Day": "3"
+          }
+        },
+        "types": [
+          "Journal Article"
+        ],
+        "identifiers": {
+          "pubmed": "22214315",
+          "pmc": "PMC3274485",
+          "doi": "10.1186/1755-8166-5-2",
+          "pii": "1755-8166-5-2"
+        },
+        "DateCompleted": {
+          "Year": "2012",
+          "Month": "10",
+          "Day": "02"
+        },
+        "DateRevised": {
+          "Year": "2026",
+          "Month": "11",
+          "Day": "08"
+        },
+        "corrections": [],
+        "prior_scan_overlap": false,
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/22214315/",
+        "linked_notice_changed": false,
+        "screening_decision": "Pending metadata and abstract review"
+      },
+      {
+        "pmid": "22432958",
+        "title": "Biofeedback of real-time functional magnetic resonance imaging data from the supplementary motor area reduces functional connectivity to subcortical regions.",
+        "journal_pubdate": {
+          "Year": "2011"
+        },
+        "article_dates": [],
+        "history": {
+          "entrez": {
+            "Year": "2012",
+            "Month": "3",
+            "Day": "22",
+            "Hour": "6",
+            "Minute": "0"
+          },
+          "pubmed": {
+            "Year": "2011",
+            "Month": "1",
+            "Day": "1",
+            "Hour": "0",
+            "Minute": "0"
+          },
+          "medline": {
+            "Year": "2013",
+            "Month": "1",
+            "Day": "25",
+            "Hour": "6",
+            "Minute": "0"
+          },
+          "pmc-release": {
+            "Year": "2012",
+            "Month": "2",
+            "Day": "1"
+          }
+        },
+        "types": [
+          "Journal Article",
+          "Research Support, N.I.H., Extramural",
+          "Research Support, Non-U.S. Gov't"
+        ],
+        "identifiers": {
+          "pubmed": "22432958",
+          "pmc": "PMC3621512",
+          "doi": "10.1089/brain.2011.0002"
+        },
+        "DateCompleted": {
+          "Year": "2013",
+          "Month": "01",
+          "Day": "24"
+        },
+        "DateRevised": {
+          "Year": "2026",
+          "Month": "11",
+          "Day": "08"
+        },
+        "corrections": [],
+        "prior_scan_overlap": false,
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/22432958/",
+        "linked_notice_changed": false,
+        "screening_decision": "Pending metadata and abstract review"
+      },
+      {
+        "pmid": "22889924",
+        "title": "Genome-wide association study of Tourette's syndrome.",
+        "journal_pubdate": {
+          "Year": "2013",
+          "Month": "Jun"
+        },
+        "article_dates": [
+          {
+            "type": "Electronic",
+            "Year": "2012",
+            "Month": "08",
+            "Day": "14"
+          }
+        ],
+        "history": {
+          "entrez": {
+            "Year": "2012",
+            "Month": "8",
+            "Day": "15",
+            "Hour": "6",
+            "Minute": "0"
+          },
+          "pubmed": {
+            "Year": "2012",
+            "Month": "8",
+            "Day": "15",
+            "Hour": "6",
+            "Minute": "0"
+          },
+          "medline": {
+            "Year": "2014",
+            "Month": "1",
+            "Day": "5",
+            "Hour": "6",
+            "Minute": "0"
+          },
+          "pmc-release": {
+            "Year": "2013",
+            "Month": "12",
+            "Day": "1"
+          }
+        },
+        "types": [
+          "Journal Article",
+          "Multicenter Study",
+          "Research Support, N.I.H., Extramural",
+          "Research Support, Non-U.S. Gov't"
+        ],
+        "identifiers": {
+          "pubmed": "22889924",
+          "mid": "NIHMS372817",
+          "pmc": "PMC3605224",
+          "doi": "10.1038/mp.2012.69",
+          "pii": "mp201269"
+        },
+        "DateCompleted": {
+          "Year": "2014",
+          "Month": "01",
+          "Day": "03"
+        },
+        "DateRevised": {
+          "Year": "2026",
+          "Month": "11",
+          "Day": "08"
+        },
+        "corrections": [],
+        "prior_scan_overlap": false,
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/22889924/",
+        "linked_notice_changed": false,
+        "screening_decision": "Pending metadata and abstract review"
+      },
+      {
+        "pmid": "22917203",
+        "title": "Error-related negativity and tic history in pediatric obsessive-compulsive disorder.",
+        "journal_pubdate": {
+          "Year": "2012",
+          "Month": "Sep"
+        },
+        "article_dates": [
+          {
+            "type": "Electronic",
+            "Year": "2012",
+            "Month": "07",
+            "Day": "25"
+          }
+        ],
+        "history": {
+          "received": {
+            "Year": "2012",
+            "Month": "3",
+            "Day": "24"
+          },
+          "revised": {
+            "Year": "2012",
+            "Month": "5",
+            "Day": "30"
+          },
+          "accepted": {
+            "Year": "2012",
+            "Month": "6",
+            "Day": "26"
+          },
+          "entrez": {
+            "Year": "2012",
+            "Month": "8",
+            "Day": "25",
+            "Hour": "6",
+            "Minute": "0"
+          },
+          "pubmed": {
+            "Year": "2012",
+            "Month": "8",
+            "Day": "25",
+            "Hour": "6",
+            "Minute": "0"
+          },
+          "medline": {
+            "Year": "2013",
+            "Month": "1",
+            "Day": "17",
+            "Hour": "6",
+            "Minute": "0"
+          },
+          "pmc-release": {
+            "Year": "2013",
+            "Month": "9",
+            "Day": "1"
+          }
+        },
+        "types": [
+          "Journal Article",
+          "Research Support, N.I.H., Extramural",
+          "Research Support, Non-U.S. Gov't"
+        ],
+        "identifiers": {
+          "pubmed": "22917203",
+          "mid": "NIHMS393013",
+          "pmc": "PMC3427894",
+          "doi": "10.1016/j.jaac.2012.06.019",
+          "pii": "S0890-8567(12)00495-9"
+        },
+        "DateCompleted": {
+          "Year": "2013",
+          "Month": "01",
+          "Day": "16"
+        },
+        "DateRevised": {
+          "Year": "2026",
+          "Month": "11",
+          "Day": "08"
+        },
+        "corrections": [],
+        "prior_scan_overlap": false,
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/22917203/",
+        "linked_notice_changed": false,
+        "screening_decision": "Pending metadata and abstract review"
+      },
+      {
+        "pmid": "22958744",
+        "title": "Reward circuitry dysfunction in psychiatric and neurodevelopmental disorders and genetic syndromes: animal models and clinical findings.",
+        "journal_pubdate": {
+          "Year": "2012",
+          "Month": "Jul",
+          "Day": "06"
+        },
+        "article_dates": [
+          {
+            "type": "Electronic",
+            "Year": "2012",
+            "Month": "07",
+            "Day": "06"
+          }
+        ],
+        "history": {
+          "received": {
+            "Year": "2012",
+            "Month": "2",
+            "Day": "6"
+          },
+          "accepted": {
+            "Year": "2012",
+            "Month": "5",
+            "Day": "2"
+          },
+          "entrez": {
+            "Year": "2012",
+            "Month": "9",
+            "Day": "11",
+            "Hour": "6",
+            "Minute": "0"
+          },
+          "pubmed": {
+            "Year": "2012",
+            "Month": "9",
+            "Day": "11",
+            "Hour": "6",
+            "Minute": "0"
+          },
+          "medline": {
+            "Year": "2012",
+            "Month": "9",
+            "Day": "11",
+            "Hour": "6",
+            "Minute": "1"
+          },
+          "pmc-release": {
+            "Year": "2012",
+            "Month": "1",
+            "Day": "1"
+          }
+        },
+        "types": [
+          "Journal Article"
+        ],
+        "identifiers": {
+          "pubmed": "22958744",
+          "pmc": "PMC3464940",
+          "doi": "10.1186/1866-1955-4-19",
+          "pii": "1866-1955-4-19"
+        },
+        "DateCompleted": {
+          "Year": "2012",
+          "Month": "10",
+          "Day": "02"
+        },
+        "DateRevised": {
+          "Year": "2026",
+          "Month": "11",
+          "Day": "07"
+        },
+        "corrections": [],
+        "prior_scan_overlap": false,
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/22958744/",
+        "linked_notice_changed": false,
+        "screening_decision": "Pending metadata and abstract review"
+      },
+      {
+        "pmid": "23754400",
+        "title": "Double deletion of melanocortin 4 receptors and SAPAP3 corrects compulsive behavior and obesity in mice.",
+        "journal_pubdate": {
+          "Year": "2013",
+          "Month": "Jun",
+          "Day": "25"
+        },
+        "article_dates": [
+          {
+            "type": "Electronic",
+            "Year": "2013",
+            "Month": "06",
+            "Day": "10"
+          }
+        ],
+        "history": {
+          "entrez": {
+            "Year": "2013",
+            "Month": "6",
+            "Day": "12",
+            "Hour": "6",
+            "Minute": "0"
+          },
+          "pubmed": {
+            "Year": "2013",
+            "Month": "6",
+            "Day": "12",
+            "Hour": "6",
+            "Minute": "0"
+          },
+          "medline": {
+            "Year": "2013",
+            "Month": "9",
+            "Day": "7",
+            "Hour": "6",
+            "Minute": "0"
+          },
+          "pmc-release": {
+            "Year": "2013",
+            "Month": "6",
+            "Day": "10"
+          }
+        },
+        "types": [
+          "Journal Article",
+          "Research Support, N.I.H., Extramural",
+          "Research Support, Non-U.S. Gov't"
+        ],
+        "identifiers": {
+          "pubmed": "23754400",
+          "pmc": "PMC3696762",
+          "doi": "10.1073/pnas.1308195110",
+          "pii": "1308195110"
+        },
+        "DateCompleted": {
+          "Year": "2013",
+          "Month": "09",
+          "Day": "06"
+        },
+        "DateRevised": {
+          "Year": "2026",
+          "Month": "11",
+          "Day": "08"
+        },
+        "corrections": [],
+        "prior_scan_overlap": false,
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/23754400/",
+        "linked_notice_changed": false,
+        "screening_decision": "Pending metadata and abstract review"
+      },
+      {
+        "pmid": "24446506",
+        "title": "Action, time and the basal ganglia.",
+        "journal_pubdate": {
+          "Year": "2014",
+          "Month": "Mar",
+          "Day": "05"
+        },
+        "article_dates": [
+          {
+            "type": "Electronic",
+            "Year": "2014",
+            "Month": "01",
+            "Day": "20"
+          }
+        ],
+        "history": {
+          "entrez": {
+            "Year": "2014",
+            "Month": "1",
+            "Day": "22",
+            "Hour": "6",
+            "Minute": "0"
+          },
+          "pubmed": {
+            "Year": "2014",
+            "Month": "1",
+            "Day": "22",
+            "Hour": "6",
+            "Minute": "0"
+          },
+          "medline": {
+            "Year": "2014",
+            "Month": "9",
+            "Day": "23",
+            "Hour": "6",
+            "Minute": "0"
+          },
+          "pmc-release": {
+            "Year": "2015",
+            "Month": "3",
+            "Day": "5"
+          }
+        },
+        "types": [
+          "Journal Article",
+          "Research Support, N.I.H., Extramural",
+          "Review"
+        ],
+        "identifiers": {
+          "pubmed": "24446506",
+          "pmc": "PMC3895997",
+          "doi": "10.1098/rstb.2012.0473",
+          "pii": "rstb.2012.0473"
+        },
+        "DateCompleted": {
+          "Year": "2014",
+          "Month": "09",
+          "Day": "22"
+        },
+        "DateRevised": {
+          "Year": "2026",
+          "Month": "11",
+          "Day": "08"
+        },
+        "corrections": [],
+        "prior_scan_overlap": false,
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/24446506/",
+        "linked_notice_changed": false,
+        "screening_decision": "Pending metadata and abstract review"
+      },
+      {
+        "pmid": "24771252",
+        "title": "The Tourette International Collaborative Genetics (TIC Genetics) study, finding the genes causing Tourette syndrome: objectives and methods.",
+        "journal_pubdate": {
+          "Year": "2015",
+          "Month": "Feb"
+        },
+        "article_dates": [
+          {
+            "type": "Electronic",
+            "Year": "2014",
+            "Month": "04",
+            "Day": "26"
+          }
+        ],
+        "history": {
+          "received": {
+            "Year": "2013",
+            "Month": "10",
+            "Day": "19"
+          },
+          "accepted": {
+            "Year": "2014",
+            "Month": "3",
+            "Day": "26"
+          },
+          "entrez": {
+            "Year": "2014",
+            "Month": "4",
+            "Day": "29",
+            "Hour": "6",
+            "Minute": "0"
+          },
+          "pubmed": {
+            "Year": "2014",
+            "Month": "4",
+            "Day": "29",
+            "Hour": "6",
+            "Minute": "0"
+          },
+          "medline": {
+            "Year": "2015",
+            "Month": "4",
+            "Day": "16",
+            "Hour": "6",
+            "Minute": "0"
+          },
+          "pmc-release": {
+            "Year": "2014",
+            "Month": "4",
+            "Day": "26"
+          }
+        },
+        "types": [
+          "Journal Article",
+          "Multicenter Study",
+          "Research Support, N.I.H., Extramural"
+        ],
+        "identifiers": {
+          "pubmed": "24771252",
+          "mid": "NIHMS612865",
+          "pmc": "PMC4209328",
+          "doi": "10.1007/s00787-014-0543-x"
+        },
+        "DateCompleted": {
+          "Year": "2015",
+          "Month": "04",
+          "Day": "15"
+        },
+        "DateRevised": {
+          "Year": "2026",
+          "Month": "11",
+          "Day": "08"
+        },
+        "corrections": [],
+        "prior_scan_overlap": false,
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/24771252/",
+        "linked_notice_changed": false,
+        "screening_decision": "Pending metadata and abstract review"
+      },
+      {
+        "pmid": "25062598",
+        "title": "Copy number variation in obsessive-compulsive disorder and tourette syndrome: a cross-disorder study.",
+        "journal_pubdate": {
+          "Year": "2014",
+          "Month": "Aug"
+        },
+        "article_dates": [
+          {
+            "type": "Electronic",
+            "Year": "2014",
+            "Month": "06",
+            "Day": "24"
+          }
+        ],
+        "history": {
+          "received": {
+            "Year": "2013",
+            "Month": "12",
+            "Day": "11"
+          },
+          "revised": {
+            "Year": "2014",
+            "Month": "3",
+            "Day": "16"
+          },
+          "accepted": {
+            "Year": "2014",
+            "Month": "6",
+            "Day": "18"
+          },
+          "entrez": {
+            "Year": "2014",
+            "Month": "7",
+            "Day": "27",
+            "Hour": "6",
+            "Minute": "0"
+          },
+          "pubmed": {
+            "Year": "2014",
+            "Month": "7",
+            "Day": "27",
+            "Hour": "6",
+            "Minute": "0"
+          },
+          "medline": {
+            "Year": "2015",
+            "Month": "10",
+            "Day": "16",
+            "Hour": "6",
+            "Minute": "0"
+          },
+          "pmc-release": {
+            "Year": "2015",
+            "Month": "8",
+            "Day": "1"
+          }
+        },
+        "types": [
+          "Journal Article",
+          "Research Support, American Recovery and Reinvestment Act",
+          "Research Support, N.I.H., Extramural",
+          "Research Support, Non-U.S. Gov't",
+          "Research Support, U.S. Gov't, Non-P.H.S."
+        ],
+        "identifiers": {
+          "pubmed": "25062598",
+          "mid": "NIHMS608519",
+          "pmc": "PMC4218748",
+          "doi": "10.1016/j.jaac.2014.04.022",
+          "pii": "S0890-8567(14)00404-3"
+        },
+        "DateCompleted": {
+          "Year": "2015",
+          "Month": "10",
+          "Day": "13"
+        },
+        "DateRevised": {
+          "Year": "2026",
+          "Month": "11",
+          "Day": "08"
+        },
+        "corrections": [],
+        "prior_scan_overlap": false,
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/25062598/",
+        "linked_notice_changed": false,
+        "screening_decision": "Pending metadata and abstract review"
+      },
+      {
+        "pmid": "25158072",
+        "title": "Cross-disorder genome-wide analyses suggest a complex genetic relationship between Tourette's syndrome and OCD.",
+        "journal_pubdate": {
+          "Year": "2015",
+          "Month": "Jan"
+        },
+        "article_dates": [
+          {
+            "type": "Electronic",
+            "Year": "2014",
+            "Month": "10",
+            "Day": "31"
+          }
+        ],
+        "history": {
+          "entrez": {
+            "Year": "2014",
+            "Month": "8",
+            "Day": "27",
+            "Hour": "6",
+            "Minute": "0"
+          },
+          "pubmed": {
+            "Year": "2014",
+            "Month": "8",
+            "Day": "27",
+            "Hour": "6",
+            "Minute": "0"
+          },
+          "medline": {
+            "Year": "2015",
+            "Month": "3",
+            "Day": "12",
+            "Hour": "6",
+            "Minute": "0"
+          },
+          "pmc-release": {
+            "Year": "2016",
+            "Month": "1",
+            "Day": "1"
+          }
+        },
+        "types": [
+          "Journal Article",
+          "Research Support, American Recovery and Reinvestment Act",
+          "Research Support, N.I.H., Extramural",
+          "Research Support, Non-U.S. Gov't"
+        ],
+        "identifiers": {
+          "pubmed": "25158072",
+          "mid": "NIHMS624346",
+          "pmc": "PMC4282594",
+          "doi": "10.1176/appi.ajp.2014.13101306",
+          "pii": "1900626"
+        },
+        "DateCompleted": {
+          "Year": "2015",
+          "Month": "03",
+          "Day": "11"
+        },
+        "DateRevised": {
+          "Year": "2026",
+          "Month": "11",
+          "Day": "08"
+        },
+        "corrections": [],
+        "prior_scan_overlap": false,
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/25158072/",
+        "linked_notice_changed": false,
+        "screening_decision": "Pending metadata and abstract review"
+      },
+      {
+        "pmid": "25414812",
+        "title": "Pediatric Tourette syndrome: insights from recent neuroimaging studies.",
+        "journal_pubdate": {
+          "Year": "2014",
+          "Month": "Oct",
+          "Day": "01"
+        },
+        "article_dates": [],
+        "history": {
+          "entrez": {
+            "Year": "2014",
+            "Month": "11",
+            "Day": "22",
+            "Hour": "6",
+            "Minute": "0"
+          },
+          "pubmed": {
+            "Year": "2014",
+            "Month": "11",
+            "Day": "22",
+            "Hour": "6",
+            "Minute": "0"
+          },
+          "medline": {
+            "Year": "2014",
+            "Month": "11",
+            "Day": "22",
+            "Hour": "6",
+            "Minute": "1"
+          },
+          "pmc-release": {
+            "Year": "2015",
+            "Month": "10",
+            "Day": "1"
+          }
+        },
+        "types": [
+          "Journal Article"
+        ],
+        "identifiers": {
+          "pubmed": "25414812",
+          "mid": "NIHMS588843",
+          "pmc": "PMC4233668",
+          "doi": "10.1016/j.jocrd.2014.04.002"
+        },
+        "DateCompleted": null,
+        "DateRevised": {
+          "Year": "2026",
+          "Month": "11",
+          "Day": "08"
+        },
+        "corrections": [],
+        "prior_scan_overlap": false,
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/25414812/",
+        "linked_notice_changed": false,
+        "screening_decision": "Pending metadata and abstract review"
+      },
+      {
+        "pmid": "25506544",
+        "title": "The Inheritance of Tourette Disorder: A review.",
+        "journal_pubdate": {
+          "Year": "2014",
+          "Month": "Oct",
+          "Day": "01"
+        },
+        "article_dates": [],
+        "history": {
+          "entrez": {
+            "Year": "2014",
+            "Month": "12",
+            "Day": "16",
+            "Hour": "6",
+            "Minute": "0"
+          },
+          "pubmed": {
+            "Year": "2014",
+            "Month": "12",
+            "Day": "17",
+            "Hour": "6",
+            "Minute": "0"
+          },
+          "medline": {
+            "Year": "2014",
+            "Month": "12",
+            "Day": "17",
+            "Hour": "6",
+            "Minute": "1"
+          },
+          "pmc-release": {
+            "Year": "2015",
+            "Month": "10",
+            "Day": "1"
+          }
+        },
+        "types": [
+          "Journal Article"
+        ],
+        "identifiers": {
+          "pubmed": "25506544",
+          "mid": "NIHMS609780",
+          "pmc": "PMC4260404",
+          "doi": "10.1016/j.jocrd.2014.06.003"
+        },
+        "DateCompleted": null,
+        "DateRevised": {
+          "Year": "2026",
+          "Month": "11",
+          "Day": "08"
+        },
+        "corrections": [],
+        "prior_scan_overlap": false,
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/25506544/",
+        "linked_notice_changed": false,
+        "screening_decision": "Pending metadata and abstract review"
+      },
+      {
+        "pmid": "27371487",
+        "title": "Social disinhibition is a heritable subphenotype of tics in Tourette syndrome.",
+        "journal_pubdate": {
+          "Year": "2016",
+          "Month": "Aug",
+          "Day": "02"
+        },
+        "article_dates": [
+          {
+            "type": "Electronic",
+            "Year": "2016",
+            "Month": "07",
+            "Day": "01"
+          }
+        ],
+        "history": {
+          "received": {
+            "Year": "2015",
+            "Month": "10",
+            "Day": "20"
+          },
+          "accepted": {
+            "Year": "2016",
+            "Month": "3",
+            "Day": "28"
+          },
+          "entrez": {
+            "Year": "2016",
+            "Month": "7",
+            "Day": "3",
+            "Hour": "6",
+            "Minute": "0"
+          },
+          "pubmed": {
+            "Year": "2016",
+            "Month": "7",
+            "Day": "3",
+            "Hour": "6",
+            "Minute": "0"
+          },
+          "medline": {
+            "Year": "2017",
+            "Month": "6",
+            "Day": "1",
+            "Hour": "6",
+            "Minute": "0"
+          },
+          "pmc-release": {
+            "Year": "2017",
+            "Month": "8",
+            "Day": "2"
+          }
+        },
+        "types": [
+          "Journal Article",
+          "Multicenter Study"
+        ],
+        "identifiers": {
+          "pubmed": "27371487",
+          "pmc": "PMC4970665",
+          "doi": "10.1212/WNL.0000000000002910",
+          "pii": "WNL.0000000000002910"
+        },
+        "DateCompleted": {
+          "Year": "2017",
+          "Month": "05",
+          "Day": "31"
+        },
+        "DateRevised": {
+          "Year": "2026",
+          "Month": "11",
+          "Day": "08"
+        },
+        "corrections": [],
+        "prior_scan_overlap": false,
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/27371487/",
+        "linked_notice_changed": false,
+        "screening_decision": "Pending metadata and abstract review"
+      },
+      {
+        "pmid": "27375425",
+        "title": "The Fallacy of Univariate Solutions to Complex Systems Problems.",
+        "journal_pubdate": {
+          "Year": "2016"
+        },
+        "article_dates": [
+          {
+            "type": "Electronic",
+            "Year": "2016",
+            "Month": "06",
+            "Day": "08"
+          }
+        ],
+        "history": {
+          "received": {
+            "Year": "2016",
+            "Month": "2",
+            "Day": "26"
+          },
+          "accepted": {
+            "Year": "2016",
+            "Month": "5",
+            "Day": "26"
+          },
+          "entrez": {
+            "Year": "2016",
+            "Month": "7",
+            "Day": "5",
+            "Hour": "6",
+            "Minute": "0"
+          },
+          "pubmed": {
+            "Year": "2016",
+            "Month": "7",
+            "Day": "5",
+            "Hour": "6",
+            "Minute": "0"
+          },
+          "medline": {
+            "Year": "2016",
+            "Month": "7",
+            "Day": "5",
+            "Hour": "6",
+            "Minute": "1"
+          },
+          "pmc-release": {
+            "Year": "2016",
+            "Month": "1",
+            "Day": "1"
+          }
+        },
+        "types": [
+          "Journal Article"
+        ],
+        "identifiers": {
+          "pubmed": "27375425",
+          "pmc": "PMC4896944",
+          "doi": "10.3389/fnins.2016.00267"
+        },
+        "DateCompleted": {
+          "Year": "2016",
+          "Month": "07",
+          "Day": "04"
+        },
+        "DateRevised": {
+          "Year": "2026",
+          "Month": "11",
+          "Day": "07"
+        },
+        "corrections": [],
+        "prior_scan_overlap": false,
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/27375425/",
+        "linked_notice_changed": false,
+        "screening_decision": "Pending metadata and abstract review"
+      },
+      {
+        "pmid": "27809572",
+        "title": "Identification of Two Heritable Cross-Disorder Endophenotypes for Tourette Syndrome.",
+        "journal_pubdate": {
+          "Year": "2017",
+          "Month": "Apr",
+          "Day": "01"
+        },
+        "article_dates": [
+          {
+            "type": "Electronic",
+            "Year": "2016",
+            "Month": "11",
+            "Day": "04"
+          }
+        ],
+        "history": {
+          "pubmed": {
+            "Year": "2016",
+            "Month": "11",
+            "Day": "5",
+            "Hour": "6",
+            "Minute": "0"
+          },
+          "medline": {
+            "Year": "2017",
+            "Month": "5",
+            "Day": "2",
+            "Hour": "6",
+            "Minute": "0"
+          },
+          "entrez": {
+            "Year": "2016",
+            "Month": "11",
+            "Day": "5",
+            "Hour": "6",
+            "Minute": "0"
+          },
+          "pmc-release": {
+            "Year": "2017",
+            "Month": "10",
+            "Day": "1"
+          }
+        },
+        "types": [
+          "Journal Article",
+          "Research Support, N.I.H., Extramural",
+          "Research Support, Non-U.S. Gov't"
+        ],
+        "identifiers": {
+          "pubmed": "27809572",
+          "mid": "NIHMS832694",
+          "pmc": "PMC5378637",
+          "doi": "10.1176/appi.ajp.2016.16020240"
+        },
+        "DateCompleted": {
+          "Year": "2017",
+          "Month": "05",
+          "Day": "01"
+        },
+        "DateRevised": {
+          "Year": "2026",
+          "Month": "11",
+          "Day": "08"
+        },
+        "corrections": [],
+        "prior_scan_overlap": false,
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/27809572/",
+        "linked_notice_changed": false,
+        "screening_decision": "Pending metadata and abstract review"
+      },
+      {
+        "pmid": "27920671",
+        "title": "Proceedings of the Fourth Annual Deep Brain Stimulation Think Tank: A Review of Emerging Issues and Technologies.",
+        "journal_pubdate": {
+          "Year": "2016"
+        },
+        "article_dates": [
+          {
+            "type": "Electronic",
+            "Year": "2016",
+            "Month": "11",
+            "Day": "22"
+          }
+        ],
+        "history": {
+          "received": {
+            "Year": "2016",
+            "Month": "5",
+            "Day": "23"
+          },
+          "accepted": {
+            "Year": "2016",
+            "Month": "11",
+            "Day": "1"
+          },
+          "entrez": {
+            "Year": "2016",
+            "Month": "12",
+            "Day": "7",
+            "Hour": "6",
+            "Minute": "0"
+          },
+          "pubmed": {
+            "Year": "2016",
+            "Month": "12",
+            "Day": "7",
+            "Hour": "6",
+            "Minute": "0"
+          },
+          "medline": {
+            "Year": "2016",
+            "Month": "12",
+            "Day": "7",
+            "Hour": "6",
+            "Minute": "1"
+          },
+          "pmc-release": {
+            "Year": "2016",
+            "Month": "1",
+            "Day": "1"
+          }
+        },
+        "types": [
+          "Journal Article"
+        ],
+        "identifiers": {
+          "pubmed": "27920671",
+          "pmc": "PMC5119052",
+          "doi": "10.3389/fnint.2016.00038"
+        },
+        "DateCompleted": null,
+        "DateRevised": {
+          "Year": "2026",
+          "Month": "11",
+          "Day": "08"
+        },
+        "corrections": [],
+        "prior_scan_overlap": false,
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/27920671/",
+        "linked_notice_changed": false,
+        "screening_decision": "Pending metadata and abstract review"
+      },
+      {
+        "pmid": "28384010",
+        "title": "Placebo Response in Pediatric Anxiety Disorders: Results from the Child/Adolescent Anxiety Multimodal Study.",
+        "journal_pubdate": {
+          "Year": "2017",
+          "Month": "Aug"
+        },
+        "article_dates": [
+          {
+            "type": "Electronic",
+            "Year": "2017",
+            "Month": "04",
+            "Day": "06"
+          }
+        ],
+        "history": {
+          "pubmed": {
+            "Year": "2017",
+            "Month": "4",
+            "Day": "7",
+            "Hour": "6",
+            "Minute": "0"
+          },
+          "medline": {
+            "Year": "2018",
+            "Month": "7",
+            "Day": "12",
+            "Hour": "6",
+            "Minute": "0"
+          },
+          "entrez": {
+            "Year": "2017",
+            "Month": "4",
+            "Day": "7",
+            "Hour": "6",
+            "Minute": "0"
+          },
+          "pmc-release": {
+            "Year": "2018",
+            "Month": "8",
+            "Day": "1"
+          }
+        },
+        "types": [
+          "Journal Article",
+          "Multicenter Study",
+          "Randomized Controlled Trial"
+        ],
+        "identifiers": {
+          "pubmed": "28384010",
+          "pmc": "PMC5568015",
+          "doi": "10.1089/cap.2016.0198"
+        },
+        "DateCompleted": {
+          "Year": "2018",
+          "Month": "07",
+          "Day": "11"
+        },
+        "DateRevised": {
+          "Year": "2026",
+          "Month": "11",
+          "Day": "08"
+        },
+        "corrections": [],
+        "prior_scan_overlap": false,
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/28384010/",
+        "linked_notice_changed": false,
+        "screening_decision": "Pending metadata and abstract review"
+      },
+      {
+        "pmid": "28555406",
+        "title": "Investigation of previously implicated genetic variants in chronic tic disorders: a transmission disequilibrium test approach.",
+        "journal_pubdate": {
+          "Year": "2018",
+          "Month": "Apr"
+        },
+        "article_dates": [
+          {
+            "type": "Electronic",
+            "Year": "2017",
+            "Month": "05",
+            "Day": "29"
+          }
+        ],
+        "history": {
+          "received": {
+            "Year": "2016",
+            "Month": "11",
+            "Day": "3"
+          },
+          "accepted": {
+            "Year": "2017",
+            "Month": "5",
+            "Day": "17"
+          },
+          "pubmed": {
+            "Year": "2017",
+            "Month": "5",
+            "Day": "31",
+            "Hour": "6",
+            "Minute": "0"
+          },
+          "medline": {
+            "Year": "2018",
+            "Month": "9",
+            "Day": "12",
+            "Hour": "6",
+            "Minute": "0"
+          },
+          "entrez": {
+            "Year": "2017",
+            "Month": "5",
+            "Day": "31",
+            "Hour": "6",
+            "Minute": "0"
+          },
+          "pmc-release": {
+            "Year": "2017",
+            "Month": "5",
+            "Day": "29"
+          }
+        },
+        "types": [
+          "Journal Article"
+        ],
+        "identifiers": {
+          "pubmed": "28555406",
+          "mid": "NIHMS911248",
+          "pmc": "PMC5708161",
+          "doi": "10.1007/s00406-017-0808-8",
+          "pii": "10.1007/s00406-017-0808-8"
+        },
+        "DateCompleted": {
+          "Year": "2018",
+          "Month": "09",
+          "Day": "11"
+        },
+        "DateRevised": {
+          "Year": "2026",
+          "Month": "11",
+          "Day": "08"
+        },
+        "corrections": [],
+        "prior_scan_overlap": false,
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/28555406/",
+        "linked_notice_changed": false,
+        "screening_decision": "Pending metadata and abstract review"
+      },
+      {
+        "pmid": "29416498",
+        "title": "Evolving Applications, Technological Challenges and Future Opportunities in Neuromodulation: Proceedings of the Fifth Annual Deep Brain Stimulation Think Tank.",
+        "journal_pubdate": {
+          "Year": "2017"
+        },
+        "article_dates": [
+          {
+            "type": "Electronic",
+            "Year": "2018",
+            "Month": "01",
+            "Day": "24"
+          }
+        ],
+        "history": {
+          "received": {
+            "Year": "2017",
+            "Month": "10",
+            "Day": "19"
+          },
+          "accepted": {
+            "Year": "2017",
+            "Month": "12",
+            "Day": "15"
+          },
+          "entrez": {
+            "Year": "2018",
+            "Month": "2",
+            "Day": "9",
+            "Hour": "6",
+            "Minute": "0"
+          },
+          "pubmed": {
+            "Year": "2018",
+            "Month": "2",
+            "Day": "9",
+            "Hour": "6",
+            "Minute": "0"
+          },
+          "medline": {
+            "Year": "2018",
+            "Month": "2",
+            "Day": "9",
+            "Hour": "6",
+            "Minute": "1"
+          },
+          "pmc-release": {
+            "Year": "2017",
+            "Month": "1",
+            "Day": "1"
+          }
+        },
+        "types": [
+          "Journal Article"
+        ],
+        "identifiers": {
+          "pubmed": "29416498",
+          "pmc": "PMC5787550",
+          "doi": "10.3389/fnins.2017.00734"
+        },
+        "DateCompleted": null,
+        "DateRevised": {
+          "Year": "2026",
+          "Month": "11",
+          "Day": "08"
+        },
+        "corrections": [],
+        "prior_scan_overlap": false,
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/29416498/",
+        "linked_notice_changed": false,
+        "screening_decision": "Pending metadata and abstract review"
+      },
+      {
+        "pmid": "42995077",
+        "title": "Trends at 50: a mission that matters.",
+        "journal_pubdate": {
+          "Year": "2026",
+          "Month": "Nov",
+          "Day": "07"
+        },
+        "article_dates": [
+          {
+            "type": "Electronic",
+            "Year": "2026",
+            "Month": "11",
+            "Day": "07"
+          }
+        ],
+        "history": {
+          "medline": {
+            "Year": "2026",
+            "Month": "11",
+            "Day": "6",
+            "Hour": "23",
+            "Minute": "29"
+          },
+          "pubmed": {
+            "Year": "2026",
+            "Month": "11",
+            "Day": "6",
+            "Hour": "23",
+            "Minute": "29"
+          },
+          "entrez": {
+            "Year": "2026",
+            "Month": "11",
+            "Day": "6",
+            "Hour": "22",
+            "Minute": "20"
+          }
+        },
+        "types": [
+          "Editorial"
+        ],
+        "identifiers": {
+          "pubmed": "42995077",
+          "doi": "10.1016/j.tics.2026.10.008",
+          "pii": "S1364-6613(26)00241-X"
+        },
+        "DateCompleted": null,
+        "DateRevised": {
+          "Year": "2026",
+          "Month": "11",
+          "Day": "06"
+        },
+        "corrections": [],
+        "prior_scan_overlap": true,
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/42995077/",
+        "linked_notice_changed": false,
+        "screening_decision": "Pending metadata and abstract review"
+      },
+      {
+        "pmid": "42995839",
+        "title": "Thermodynamic Quality Control Reshapes Spatially Resolved Metabolic Flux Predictions in Prostate Cancer.",
+        "journal_pubdate": {
+          "Year": "2026",
+          "Month": "Oct",
+          "Day": "21"
+        },
+        "article_dates": [
+          {
+            "type": "Electronic",
+            "Year": "2026",
+            "Month": "10",
+            "Day": "21"
+          }
+        ],
+        "history": {
+          "medline": {
+            "Year": "2026",
+            "Month": "11",
+            "Day": "8",
+            "Hour": "0",
+            "Minute": "49"
+          },
+          "pubmed": {
+            "Year": "2026",
+            "Month": "11",
+            "Day": "8",
+            "Hour": "0",
+            "Minute": "48"
+          },
+          "entrez": {
+            "Year": "2026",
+            "Month": "11",
+            "Day": "7",
+            "Hour": "5",
+            "Minute": "23"
+          },
+          "pmc-release": {
+            "Year": "2026",
+            "Month": "11",
+            "Day": "5"
+          }
+        },
+        "types": [
+          "Journal Article",
+          "Preprint"
+        ],
+        "identifiers": {
+          "pubmed": "42995839",
+          "pmc": "PMC13738428",
+          "doi": "10.64898/2026.06.25.734531",
+          "pii": "2026.06.25.734531"
+        },
+        "DateCompleted": {
+          "Year": "2026",
+          "Month": "11",
+          "Day": "07"
+        },
+        "DateRevised": {
+          "Year": "2026",
+          "Month": "11",
+          "Day": "07"
+        },
+        "corrections": [],
+        "prior_scan_overlap": false,
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/42995839/",
+        "linked_notice_changed": false,
+        "screening_decision": "Pending metadata and abstract review"
+      },
+      {
+        "pmid": "42996864",
+        "title": "The potential pathological role of NLRP3 inflammasome activation in pediatric tic disorders and its therapeutic implications.",
+        "journal_pubdate": {
+          "Year": "2026"
+        },
+        "article_dates": [
+          {
+            "type": "Electronic",
+            "Year": "2026",
+            "Month": "10",
+            "Day": "23"
+          }
+        ],
+        "history": {
+          "received": {
+            "Year": "2026",
+            "Month": "8",
+            "Day": "15"
+          },
+          "revised": {
+            "Year": "2026",
+            "Month": "9",
+            "Day": "26"
+          },
+          "accepted": {
+            "Year": "2026",
+            "Month": "10",
+            "Day": "12"
+          },
+          "medline": {
+            "Year": "2026",
+            "Month": "11",
+            "Day": "8",
+            "Hour": "0",
+            "Minute": "49"
+          },
+          "pubmed": {
+            "Year": "2026",
+            "Month": "11",
+            "Day": "8",
+            "Hour": "0",
+            "Minute": "48"
+          },
+          "entrez": {
+            "Year": "2026",
+            "Month": "11",
+            "Day": "7",
+            "Hour": "6",
+            "Minute": "27"
+          },
+          "pmc-release": {
+            "Year": "2026",
+            "Month": "10",
+            "Day": "23"
+          }
+        },
+        "types": [
+          "Journal Article",
+          "Review"
+        ],
+        "identifiers": {
+          "pubmed": "42996864",
+          "pmc": "PMC13740604",
+          "doi": "10.3389/fmed.2026.1968624"
+        },
+        "DateCompleted": {
+          "Year": "2026",
+          "Month": "11",
+          "Day": "07"
+        },
+        "DateRevised": {
+          "Year": "2026",
+          "Month": "11",
+          "Day": "08"
+        },
+        "corrections": [],
+        "prior_scan_overlap": false,
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/42996864/",
+        "linked_notice_changed": false,
+        "screening_decision": "Pending metadata and abstract review"
+      },
+      {
+        "pmid": "42997457",
+        "title": "Effectiveness, safety and therapeutic potential of medical cannabis across treatment-resistant neuropsychiatric disorders: systematic review and meta-analysis.",
+        "journal_pubdate": {
+          "Year": "2026",
+          "Month": "Nov"
+        },
+        "article_dates": [
+          {
+            "type": "Electronic",
+            "Year": "2026",
+            "Month": "10",
+            "Day": "29"
+          }
+        ],
+        "history": {
+          "received": {
+            "Year": "2026",
+            "Month": "7",
+            "Day": "14"
+          },
+          "revised": {
+            "Year": "2026",
+            "Month": "10",
+            "Day": "8"
+          },
+          "accepted": {
+            "Year": "2026",
+            "Month": "10",
+            "Day": "13"
+          },
+          "medline": {
+            "Year": "2026",
+            "Month": "11",
+            "Day": "8",
+            "Hour": "0",
+            "Minute": "49"
+          },
+          "pubmed": {
+            "Year": "2026",
+            "Month": "11",
+            "Day": "8",
+            "Hour": "0",
+            "Minute": "48"
+          },
+          "entrez": {
+            "Year": "2026",
+            "Month": "11",
+            "Day": "7",
+            "Hour": "6",
+            "Minute": "59"
+          },
+          "pmc-release": {
+            "Year": "2026",
+            "Month": "10",
+            "Day": "29"
+          }
+        },
+        "types": [
+          "Journal Article"
+        ],
+        "identifiers": {
+          "pubmed": "42997457",
+          "pmc": "PMC13742050",
+          "doi": "10.1016/j.eclinm.2026.104299",
+          "pii": "S2589-5370(26)00552-3"
+        },
+        "DateCompleted": {
+          "Year": "2026",
+          "Month": "11",
+          "Day": "07"
+        },
+        "DateRevised": {
+          "Year": "2026",
+          "Month": "11",
+          "Day": "07"
+        },
+        "corrections": [],
+        "prior_scan_overlap": false,
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/42997457/",
+        "linked_notice_changed": false,
+        "screening_decision": "Pending metadata and abstract review"
+      },
+      {
+        "pmid": "42997792",
+        "title": "Qualitative contrast-enhanced ultrasound alone for thyroid nodule characterization and the lack of incremental diagnostic value of quantitative parameters: a single-center cohort study.",
+        "journal_pubdate": {
+          "Year": "2026",
+          "Month": "Nov",
+          "Day": "01"
+        },
+        "article_dates": [
+          {
+            "type": "Electronic",
+            "Year": "2026",
+            "Month": "10",
+            "Day": "20"
+          }
+        ],
+        "history": {
+          "received": {
+            "Year": "2026",
+            "Month": "4",
+            "Day": "18"
+          },
+          "accepted": {
+            "Year": "2026",
+            "Month": "9",
+            "Day": "15"
+          },
+          "medline": {
+            "Year": "2026",
+            "Month": "11",
+            "Day": "8",
+            "Hour": "0",
+            "Minute": "49"
+          },
+          "pubmed": {
+            "Year": "2026",
+            "Month": "11",
+            "Day": "8",
+            "Hour": "0",
+            "Minute": "48"
+          },
+          "entrez": {
+            "Year": "2026",
+            "Month": "11",
+            "Day": "7",
+            "Hour": "7",
+            "Minute": "13"
+          },
+          "pmc-release": {
+            "Year": "2026",
+            "Month": "11",
+            "Day": "1"
+          }
+        },
+        "types": [
+          "Journal Article"
+        ],
+        "identifiers": {
+          "pubmed": "42997792",
+          "pmc": "PMC13743302",
+          "doi": "10.21037/qims-2026-0949",
+          "pii": "qims-16-11-851"
+        },
+        "DateCompleted": {
+          "Year": "2026",
+          "Month": "11",
+          "Day": "07"
+        },
+        "DateRevised": {
+          "Year": "2026",
+          "Month": "11",
+          "Day": "07"
+        },
+        "corrections": [],
+        "prior_scan_overlap": false,
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/42997792/",
+        "linked_notice_changed": false,
+        "screening_decision": "Pending metadata and abstract review"
+      },
+      {
+        "pmid": "42997938",
+        "title": "Quantitative perfusion analysis of contrast-enhanced ultrasound for the preoperative prediction of microvascular invasion: an experimental study in rabbit VX2 liver tumors.",
+        "journal_pubdate": {
+          "Year": "2026",
+          "Month": "Nov",
+          "Day": "01"
+        },
+        "article_dates": [
+          {
+            "type": "Electronic",
+            "Year": "2026",
+            "Month": "09",
+            "Day": "29"
+          }
+        ],
+        "history": {
+          "received": {
+            "Year": "2026",
+            "Month": "5",
+            "Day": "28"
+          },
+          "accepted": {
+            "Year": "2026",
+            "Month": "9",
+            "Day": "11"
+          },
+          "medline": {
+            "Year": "2026",
+            "Month": "11",
+            "Day": "8",
+            "Hour": "0",
+            "Minute": "49"
+          },
+          "pubmed": {
+            "Year": "2026",
+            "Month": "11",
+            "Day": "8",
+            "Hour": "0",
+            "Minute": "48"
+          },
+          "entrez": {
+            "Year": "2026",
+            "Month": "11",
+            "Day": "7",
+            "Hour": "7",
+            "Minute": "19"
+          },
+          "pmc-release": {
+            "Year": "2026",
+            "Month": "11",
+            "Day": "1"
+          }
+        },
+        "types": [
+          "Journal Article"
+        ],
+        "identifiers": {
+          "pubmed": "42997938",
+          "pmc": "PMC13743308",
+          "doi": "10.21037/qims-2026-1318",
+          "pii": "qims-16-11-864"
+        },
+        "DateCompleted": {
+          "Year": "2026",
+          "Month": "11",
+          "Day": "07"
+        },
+        "DateRevised": {
+          "Year": "2026",
+          "Month": "11",
+          "Day": "07"
+        },
+        "corrections": [],
+        "prior_scan_overlap": false,
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/42997938/",
+        "linked_notice_changed": false,
+        "screening_decision": "Pending metadata and abstract review"
+      }
+    ],
+    "new_to_prior_scan_ids": [
+      "11840360",
+      "16123742",
+      "17326821",
+      "17665284",
+      "19777563",
+      "20445167",
+      "20807062",
+      "20819989",
+      "21156204",
+      "21486167",
+      "22214315",
+      "22432958",
+      "22889924",
+      "22917203",
+      "22958744",
+      "23754400",
+      "24446506",
+      "24771252",
+      "25062598",
+      "25158072",
+      "25414812",
+      "25506544",
+      "27371487",
+      "27375425",
+      "27809572",
+      "27920671",
+      "28384010",
+      "28555406",
+      "29416498",
+      "42995839",
+      "42996864",
+      "42997457",
+      "42997792",
+      "42997938"
+    ],
+    "previous_overlap_count": 1
+  },
+  "preprints": [
+    {
+      "server": "medrxiv",
+      "interval": [
+        "2026-11-06",
+        "2026-11-09"
+      ],
+      "pages": [
+        {
+          "cursor": 0,
+          "returned": 30,
+          "message": {
+            "status": "ok",
+            "category": "all",
+            "interval": "2026-11-06:2026-11-09",
+            "cursor": 0,
+            "count": 30,
+            "count_new_papers": "93",
+            "total": "121"
+          }
+        },
+        {
+          "cursor": 30,
+          "returned": 30,
+          "message": {
+            "status": "ok",
+            "category": "all",
+            "interval": "2026-11-06:2026-11-09",
+            "cursor": "30",
+            "count": 30,
+            "count_new_papers": "93",
+            "total": "121"
+          }
+        }
+      ],
+      "version_index": [
+        {
+          "doi": "10.64898/2026.09.24.26363897",
+          "version": "4",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.04.26367299",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.04.26367191",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.06.26367228",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.03.26367178",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.04.26367307",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.04.26367282",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.26367222",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.04.26366940",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.04.26367264",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.26367281",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.04.26367297",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.09.07.26362401",
+          "version": "2",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.06.23.26356304",
+          "version": "2",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.02.12.26346201",
+          "version": "3",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.04.07.26350372",
+          "version": "2",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.04.26367284",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.04.26367302",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.04.26366206",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.02.26365310",
+          "version": "2",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.04.10.26350574",
+          "version": "2",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.10.30.26366846",
+          "version": "2",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.10.28.26366741",
+          "version": "2",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.02.17.26346474",
+          "version": "2",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.1101/2025.08.23.25334285",
+          "version": "2",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.03.03.26347025",
+          "version": "2",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.05.14.26353192",
+          "version": "2",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.04.26367294",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.26367270",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.04.26367313",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.26367334",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.04.26367306",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.04.26367309",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.26367360",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.04.26367308",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.04.26367193",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.26367298",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.04.26366890",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.04.26367257",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.26367350",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.26367341",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.04.26367312",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.04.26367310",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.26367089",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.26367335",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.26367273",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.26367370",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.26367332",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.26359313",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.06.26364657",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.26367349",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.04.26367022",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.26367347",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.06.26367214",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.26366903",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.06.26367251",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.26367333",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.26367267",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.10.22.26366246",
+          "version": "3",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.07.28.26359040",
+          "version": "2",
+          "date": "2026-11-06"
+        }
+      ],
+      "matches": [],
+      "screen_regex": "\\btourett\\w*|\\btics?\\b",
+      "screen_fields": "title and abstract",
+      "pagination_complete_for_observed_response": false,
+      "total_returned": 60,
+      "unique_doi_versions": 60,
+      "previous_scan_overlap_doi_versions": 60,
+      "not_in_previous_scan_doi_versions": 0,
+      "reported_totals": [
+        121
+      ]
+    },
+    {
+      "server": "biorxiv",
+      "interval": [
+        "2026-11-06",
+        "2026-11-09"
+      ],
+      "pages": [
+        {
+          "cursor": 0,
+          "returned": 30,
+          "message": {
+            "status": "ok",
+            "category": "all",
+            "interval": "2026-11-06:2026-11-09",
+            "cursor": 0,
+            "count": 30,
+            "count_new_papers": "280",
+            "total": "364"
+          }
+        },
+        {
+          "cursor": 30,
+          "returned": 30,
+          "message": {
+            "status": "ok",
+            "category": "all",
+            "interval": "2026-11-06:2026-11-09",
+            "cursor": "30",
+            "count": 30,
+            "count_new_papers": "280",
+            "total": "364"
+          }
+        },
+        {
+          "cursor": 60,
+          "returned": 30,
+          "message": {
+            "status": "ok",
+            "category": "all",
+            "interval": "2026-11-06:2026-11-09",
+            "cursor": "60",
+            "count": 30,
+            "count_new_papers": "280",
+            "total": "364"
+          }
+        },
+        {
+          "cursor": 90,
+          "returned": 30,
+          "message": {
+            "status": "ok",
+            "category": "all",
+            "interval": "2026-11-06:2026-11-09",
+            "cursor": "90",
+            "count": 30,
+            "count_new_papers": "280",
+            "total": "364"
+          }
+        },
+        {
+          "cursor": 120,
+          "returned": 30,
+          "message": {
+            "status": "ok",
+            "category": "all",
+            "interval": "2026-11-06:2026-11-09",
+            "cursor": "120",
+            "count": 30,
+            "count_new_papers": "280",
+            "total": "364"
+          }
+        },
+        {
+          "cursor": 150,
+          "returned": 30,
+          "message": {
+            "status": "ok",
+            "category": "all",
+            "interval": "2026-11-06:2026-11-09",
+            "cursor": "150",
+            "count": 30,
+            "count_new_papers": "280",
+            "total": "364"
+          }
+        },
+        {
+          "cursor": 180,
+          "returned": 30,
+          "message": {
+            "status": "ok",
+            "category": "all",
+            "interval": "2026-11-06:2026-11-09",
+            "cursor": "180",
+            "count": 30,
+            "count_new_papers": "280",
+            "total": "364"
+          }
+        },
+        {
+          "cursor": 210,
+          "returned": 30,
+          "message": {
+            "status": "ok",
+            "category": "all",
+            "interval": "2026-11-06:2026-11-09",
+            "cursor": "210",
+            "count": 30,
+            "count_new_papers": "280",
+            "total": "364"
+          }
+        },
+        {
+          "cursor": 240,
+          "returned": 30,
+          "message": {
+            "status": "ok",
+            "category": "all",
+            "interval": "2026-11-06:2026-11-09",
+            "cursor": "240",
+            "count": 30,
+            "count_new_papers": "280",
+            "total": "364"
+          }
+        },
+        {
+          "cursor": 270,
+          "returned": 30,
+          "message": {
+            "status": "ok",
+            "category": "all",
+            "interval": "2026-11-06:2026-11-09",
+            "cursor": "270",
+            "count": 30,
+            "count_new_papers": "280",
+            "total": "364"
+          }
+        },
+        {
+          "cursor": 300,
+          "returned": 30,
+          "message": {
+            "status": "ok",
+            "category": "all",
+            "interval": "2026-11-06:2026-11-09",
+            "cursor": "300",
+            "count": 30,
+            "count_new_papers": "280",
+            "total": "364"
+          }
+        },
+        {
+          "cursor": 330,
+          "returned": 30,
+          "message": {
+            "status": "ok",
+            "category": "all",
+            "interval": "2026-11-06:2026-11-09",
+            "cursor": "330",
+            "count": 30,
+            "count_new_papers": "280",
+            "total": "364"
+          }
+        },
+        {
+          "cursor": 360,
+          "returned": 4,
+          "message": {
+            "status": "ok",
+            "category": "all",
+            "interval": "2026-11-06:2026-11-09",
+            "cursor": "360",
+            "count": 4,
+            "count_new_papers": "280",
+            "total": "364"
+          }
+        }
+      ],
+      "version_index": [
+        {
+          "doi": "10.64898/2026.10.25.761658",
+          "version": "2",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.03.763879",
+          "version": "2",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.04.764187",
+          "version": "2",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.03.15.711921",
+          "version": "2",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.04.764313",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.04.763992",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.07.18.739339",
+          "version": "2",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.04.763880",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.03.764019",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.04.764287",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.04.764283",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.05.18.725812",
+          "version": "3",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.10.28.762323",
+          "version": "2",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.06.23.733972",
+          "version": "4",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.07.17.739228",
+          "version": "2",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.04.763966",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.10.29.761885",
+          "version": "2",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.04.764272",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.05.06.723303",
+          "version": "3",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.04.764453",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.04.764000",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.04.764228",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.04.764083",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.04.764306",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.04.764348",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.04.764147",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.04.764285",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.04.764422",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.04.764273",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.04.764345",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.04.764312",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.04.763790",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.04.764270",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.04.764282",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.04.763901",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.04.764220",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.04.764250",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.04.764045",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.04.763192",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.04.764207",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.04.764293",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.04.764292",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.04.764332",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.04.764167",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.04.764295",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.04.764372",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.04.764308",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.04.764359",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.04.764355",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.04.764097",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.04.764326",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.04.764455",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.04.763874",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.04.763876",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.04.764383",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.04.764288",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.04.764307",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.04.764435",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.04.764297",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.04.764412",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.04.764450",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.04.763768",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.04.764078",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.04.764394",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.764087",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.04.764353",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.04.764378",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.764508",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.04.764322",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.04.764331",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.04.764267",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.04.764381",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.764571",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.04.763773",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.04.764411",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.04.764349",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.04.764088",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.04.764284",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.04.764180",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.764451",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.04.764024",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.04.764050",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.04.764269",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.764568",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.04.764387",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.04.764277",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.764529",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.764596",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.764483",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.04.764163",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.764523",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.764575",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.04.764343",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.04.764247",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.04.763717",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.04.764390",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.04.763981",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.04.764347",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.04.764414",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.764597",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.763656",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.04.764406",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.764614",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.764713",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.04.764245",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.764274",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.04.764356",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.04.764377",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.763441",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.04.764405",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.764666",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.04.764402",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.764676",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.04.763670",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.04.764309",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.764579",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.764420",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.764487",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.04.763174",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.760144",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.04.764316",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.04.764329",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.04.764344",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.04.764386",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.764599",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.764558",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.764522",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.04.764438",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.04.763508",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.764586",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.764536",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.764514",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.04.764463",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.764577",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.764505",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.764534",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.763588",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.764521",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.04.764362",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.764693",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.04.764315",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.764503",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.764541",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.764590",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.04.764351",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.04.764442",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.04.764439",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.764591",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.764490",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.764687",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.04.764223",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.04.764388",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.764262",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.04.764462",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.764526",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.04.764458",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.764509",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.04.764457",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.04.764279",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.764638",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.764480",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.04.764350",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.04.764339",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.764773",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.764477",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.764488",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.763689",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.764594",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.764481",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.09.11.750878",
+          "version": "2",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.10.28.762461",
+          "version": "2",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.10.30.761751",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.1101/2025.07.28.667165",
+          "version": "2",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.1101/2025.10.14.682277",
+          "version": "2",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.761835",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.1101/2025.09.09.675135",
+          "version": "3",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.04.764428",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.03.763888",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.10.21.760710",
+          "version": "2",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.10.22.760881",
+          "version": "2",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.10.30.762948",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.10.28.762478",
+          "version": "2",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.10.15.758745",
+          "version": "2",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.1101/2025.09.10.675322",
+          "version": "3",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2025.12.16.694573",
+          "version": "2",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.10.29.762763",
+          "version": "2",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.09.11.750961",
+          "version": "2",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.05.19.726152",
+          "version": "3",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.04.763188",
+          "version": "2",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.10.30.763257",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.10.29.762964",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.764527",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.764652",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.764603",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.764678",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.764679",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.764704",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.763933",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.764684",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.764020",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.764698",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.759793",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.764737",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.764665",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.764643",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.764606",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.764612",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.764622",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.764528",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.764672",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.764664",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.764645",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.764280",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.764714",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.764649",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.764615",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.764610",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.764621",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.764670",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.760234",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.764602",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.764709",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.764447",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.764656",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.764695",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.764715",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.764668",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.764324",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.764511",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.764669",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.764685",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.764658",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.764682",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.764694",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.762913",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.04.764143",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.762856",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.764454",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.762600",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.764531",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.764686",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.764367",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.764632",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.764467",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.763984",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.10.30.762958",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.764552",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.763949",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.764642",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.764028",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.764725",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.764646",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.764385",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.757779",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.10.30.763216",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.763716",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.764532",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.764102",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.06.764122",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.764729",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.763758",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.764607",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.763601",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.764680",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.764753",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.764633",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.764473",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.764472",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.764486",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.764057",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.764744",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.764492",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.764557",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.764662",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.764609",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.764641",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.764570",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.764629",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.764518",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.764546",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.764746",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.764598",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.764578",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.764736",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.764585",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.06.764802",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.09.21.753234",
+          "version": "3",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.1101/2022.10.27.514123",
+          "version": "3",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.04.19.718108",
+          "version": "5",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.02.763811",
+          "version": "2",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.1101/2025.10.07.681001",
+          "version": "3",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.09.16.752029",
+          "version": "2",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.05.06.723362",
+          "version": "3",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.10.21.760771",
+          "version": "2",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.08.27.747368",
+          "version": "2",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.1101/2025.04.11.648485",
+          "version": "3",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.02.763752",
+          "version": "2",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.06.26.734559",
+          "version": "2",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.01.21.700866",
+          "version": "2",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.1101/2025.09.22.675363",
+          "version": "2",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.07.29.741631",
+          "version": "2",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.10.23.761362",
+          "version": "2",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2025.11.30.691382",
+          "version": "4",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.10.23.761344",
+          "version": "2",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.1101/2025.01.26.634924",
+          "version": "4",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.02.10.701148",
+          "version": "2",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.09.05.749567",
+          "version": "2",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.1101/292722",
+          "version": "6",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.1101/2025.10.30.685461",
+          "version": "4",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.10.22.760735",
+          "version": "2",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.09.09.749980",
+          "version": "2",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.03.763951",
+          "version": "2",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.07.09.737434",
+          "version": "2",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.03.763963",
+          "version": "2",
+          "date": "2026-11-07"
+        },
+        {
+          "doi": "10.64898/2026.09.15.751573",
+          "version": "2",
+          "date": "2026-11-07"
+        },
+        {
+          "doi": "10.1101/2025.11.26.690816",
+          "version": "3",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.03.27.714817",
+          "version": "2",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.03.16.712108",
+          "version": "2",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.06.01.729315",
+          "version": "2",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.07.23.739932",
+          "version": "2",
+          "date": "2026-11-07"
+        },
+        {
+          "doi": "10.64898/2026.11.03.763930",
+          "version": "2",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.07.24.740446",
+          "version": "2",
+          "date": "2026-11-07"
+        },
+        {
+          "doi": "10.1101/2025.05.26.656093",
+          "version": "2",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.05.05.722510",
+          "version": "3",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.08.14.744929",
+          "version": "2",
+          "date": "2026-11-07"
+        },
+        {
+          "doi": "10.1101/2025.09.28.679103",
+          "version": "2",
+          "date": "2026-11-07"
+        },
+        {
+          "doi": "10.64898/2026.10.18.759833",
+          "version": "3",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.1101/2022.08.01.502364",
+          "version": "3",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.10.29.762935",
+          "version": "1",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.10.01.755993",
+          "version": "2",
+          "date": "2026-11-07"
+        },
+        {
+          "doi": "10.64898/2026.06.04.730171",
+          "version": "2",
+          "date": "2026-11-06"
+        },
+        {
+          "doi": "10.64898/2026.11.05.764593",
+          "version": "1",
+          "date": "2026-11-07"
+        },
+        {
+          "doi": "10.64898/2026.06.23.733952",
+          "version": "3",
+          "date": "2026-11-07"
+        },
+        {
+          "doi": "10.64898/2026.02.04.703680",
+          "version": "2",
+          "date": "2026-11-07"
+        },
+        {
+          "doi": "10.64898/2026.05.11.724260",
+          "version": "2",
+          "date": "2026-11-07"
+        },
+        {
+          "doi": "10.64898/2026.11.05.764335",
+          "version": "1",
+          "date": "2026-11-07"
+        },
+        {
+          "doi": "10.64898/2026.09.15.751855",
+          "version": "3",
+          "date": "2026-11-07"
+        },
+        {
+          "doi": "10.64898/2026.03.26.714097",
+          "version": "2",
+          "date": "2026-11-07"
+        },
+        {
+          "doi": "10.64898/2026.08.04.742823",
+          "version": "3",
+          "date": "2026-11-07"
+        },
+        {
+          "doi": "10.64898/2026.10.29.762206",
+          "version": "2",
+          "date": "2026-11-07"
+        },
+        {
+          "doi": "10.64898/2026.11.01.761485",
+          "version": "2",
+          "date": "2026-11-07"
+        },
+        {
+          "doi": "10.1101/2024.04.08.588540",
+          "version": "4",
+          "date": "2026-11-07"
+        },
+        {
+          "doi": "10.64898/2026.10.12.758463",
+          "version": "2",
+          "date": "2026-11-07"
+        },
+        {
+          "doi": "10.64898/2026.02.24.707853",
+          "version": "2",
+          "date": "2026-11-07"
+        },
+        {
+          "doi": "10.64898/2026.10.07.757445",
+          "version": "2",
+          "date": "2026-11-07"
+        },
+        {
+          "doi": "10.64898/2026.05.22.727257",
+          "version": "2",
+          "date": "2026-11-07"
+        },
+        {
+          "doi": "10.64898/2026.01.28.702312",
+          "version": "2",
+          "date": "2026-11-07"
+        },
+        {
+          "doi": "10.64898/2026.11.06.764938",
+          "version": "1",
+          "date": "2026-11-07"
+        },
+        {
+          "doi": "10.64898/2026.11.06.764749",
+          "version": "1",
+          "date": "2026-11-07"
+        },
+        {
+          "doi": "10.64898/2026.11.06.762216",
+          "version": "1",
+          "date": "2026-11-07"
+        },
+        {
+          "doi": "10.64898/2026.11.06.763903",
+          "version": "1",
+          "date": "2026-11-07"
+        },
+        {
+          "doi": "10.64898/2026.11.06.756111",
+          "version": "1",
+          "date": "2026-11-07"
+        },
+        {
+          "doi": "10.64898/2026.11.05.764291",
+          "version": "1",
+          "date": "2026-11-07"
+        },
+        {
+          "doi": "10.64898/2026.11.06.764689",
+          "version": "1",
+          "date": "2026-11-07"
+        },
+        {
+          "doi": "10.64898/2026.11.06.765007",
+          "version": "1",
+          "date": "2026-11-07"
+        },
+        {
+          "doi": "10.64898/2026.11.07.764371",
+          "version": "1",
+          "date": "2026-11-07"
+        },
+        {
+          "doi": "10.64898/2026.11.05.764496",
+          "version": "1",
+          "date": "2026-11-07"
+        },
+        {
+          "doi": "10.64898/2026.11.06.764785",
+          "version": "1",
+          "date": "2026-11-07"
+        },
+        {
+          "doi": "10.64898/2026.11.06.764584",
+          "version": "1",
+          "date": "2026-11-07"
+        },
+        {
+          "doi": "10.64898/2026.11.06.764861",
+          "version": "1",
+          "date": "2026-11-07"
+        },
+        {
+          "doi": "10.64898/2026.11.06.765006",
+          "version": "1",
+          "date": "2026-11-07"
+        },
+        {
+          "doi": "10.64898/2026.11.05.764384",
+          "version": "1",
+          "date": "2026-11-07"
+        },
+        {
+          "doi": "10.64898/2026.11.05.764175",
+          "version": "1",
+          "date": "2026-11-08"
+        },
+        {
+          "doi": "10.64898/2026.11.06.764896",
+          "version": "1",
+          "date": "2026-11-08"
+        }
+      ],
+      "matches": [],
+      "screen_regex": "\\btourett\\w*|\\btics?\\b",
+      "screen_fields": "title and abstract",
+      "pagination_complete_for_observed_response": true,
+      "total_returned": 364,
+      "unique_doi_versions": 364,
+      "previous_scan_overlap_doi_versions": 358,
+      "not_in_previous_scan_doi_versions": 6,
+      "reported_totals": [
+        364
+      ]
+    }
+  ],
+  "registry": [
+    {
+      "label": "ct_tourette",
+      "params": {
+        "query.cond": "Tourette",
+        "filter.advanced": "AREA[LastUpdatePostDate]RANGE[2026-11-07,2026-11-09]",
+        "pageSize": 100,
+        "format": "json",
+        "countTotal": "true",
+        "fields": "NCTId,BriefTitle,StatusModule,DesignModule,Condition,MinimumAge,MaximumAge,StdAge,HasResults"
+      },
+      "response": {
+        "totalCount": 0,
+        "nct_ids": [],
+        "nextPageToken": null
+      }
+    },
+    {
+      "label": "ct_tic_disorder",
+      "params": {
+        "query.cond": "tic disorder",
+        "filter.advanced": "AREA[LastUpdatePostDate]RANGE[2026-11-07,2026-11-09]",
+        "pageSize": 100,
+        "format": "json",
+        "countTotal": "true",
+        "fields": "NCTId,BriefTitle,StatusModule,DesignModule,Condition,MinimumAge,MaximumAge,StdAge,HasResults"
+      },
+      "response": {
+        "totalCount": 0,
+        "nct_ids": [],
+        "nextPageToken": null
+      }
+    },
+    {
+      "label": "ct_tics",
+      "params": {
+        "query.cond": "Tics",
+        "filter.advanced": "AREA[LastUpdatePostDate]RANGE[2026-11-07,2026-11-09]",
+        "pageSize": 100,
+        "format": "json",
+        "countTotal": "true",
+        "fields": "NCTId,BriefTitle,StatusModule,DesignModule,Condition,MinimumAge,MaximumAge,StdAge,HasResults"
+      },
+      "response": {
+        "totalCount": 0,
+        "nct_ids": [],
+        "nextPageToken": null
+      }
+    },
+    {
+      "label": "ct_ecopipam",
+      "params": {
+        "query.term": "ecopipam",
+        "filter.advanced": "AREA[LastUpdatePostDate]RANGE[2026-11-07,2026-11-09]",
+        "pageSize": 100,
+        "format": "json",
+        "countTotal": "true",
+        "fields": "NCTId,BriefTitle,StatusModule,DesignModule,Condition,MinimumAge,MaximumAge,StdAge,HasResults"
+      },
+      "response": {
+        "totalCount": 0,
+        "nct_ids": [],
+        "nextPageToken": null
+      }
+    }
+  ],
+  "registry_records": [
+    {
+      "nctId": "NCT01019343",
+      "title": "Physiological Investigations of Movement Disorders",
+      "status": {
+        "statusVerifiedDate": "2026-09-16",
+        "overallStatus": "COMPLETED",
+        "expandedAccessInfo": {
+          "hasExpandedAccess": false
+        },
+        "startDateStruct": {
+          "date": "2009-12-08",
+          "type": "ACTUAL"
+        },
+        "primaryCompletionDateStruct": {
+          "date": "2016-08-17",
+          "type": "ACTUAL"
+        },
+        "completionDateStruct": {
+          "date": "2020-10-09",
+          "type": "ACTUAL"
+        },
+        "studyFirstSubmitDate": "2009-11-24",
+        "studyFirstSubmitQcDate": "2009-11-24",
+        "studyFirstPostDateStruct": {
+          "date": "2009-11-25",
+          "type": "ESTIMATED"
+        },
+        "lastUpdateSubmitDate": "2026-11-04",
+        "lastUpdatePostDateStruct": {
+          "date": "2026-11-05",
+          "type": "ACTUAL"
+        }
+      },
+      "hasResults": false,
+      "conditions": [
+        "Parkinson's Disease",
+        "Tourette's Syndrome",
+        "Tic Disorders",
+        "Dystonia",
+        "Movement Disorders"
+      ],
+      "design": {
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "designInfo": {
+          "allocation": "NON_RANDOMIZED",
+          "interventionModel": "PARALLEL",
+          "primaryPurpose": "BASIC_SCIENCE",
+          "maskingInfo": {
+            "masking": "NONE"
+          }
+        },
+        "enrollmentInfo": {
+          "count": 1273,
+          "type": "ACTUAL"
+        }
+      },
+      "eligibility": {
+        "minimumAge": "18 Years",
+        "stdAges": [
+          "ADULT",
+          "OLDER_ADULT"
+        ]
+      },
+      "source_url": "https://clinicaltrials.gov/study/NCT01019343",
+      "prior_scan_overlap": true
+    },
+    {
+      "nctId": "NCT05158439",
+      "title": "Safety of Cultured Allogeneic Adult Umbilical Cord or Placental Derived Mesenchymal Stem Cells for Tourette Syndrome",
+      "status": {
+        "statusVerifiedDate": "2026-10",
+        "overallStatus": "WITHDRAWN",
+        "whyStopped": "Inability to recruit participants",
+        "expandedAccessInfo": {
+          "hasExpandedAccess": false
+        },
+        "startDateStruct": {
+          "date": "2022-01",
+          "type": "ESTIMATED"
+        },
+        "primaryCompletionDateStruct": {
+          "date": "2026-01",
+          "type": "ESTIMATED"
+        },
+        "completionDateStruct": {
+          "date": "2026-01",
+          "type": "ESTIMATED"
+        },
+        "studyFirstSubmitDate": "2021-12-02",
+        "studyFirstSubmitQcDate": "2021-12-02",
+        "studyFirstPostDateStruct": {
+          "date": "2021-12-15",
+          "type": "ACTUAL"
+        },
+        "lastUpdateSubmitDate": "2026-10-13",
+        "lastUpdatePostDateStruct": {
+          "date": "2026-10-16",
+          "type": "ACTUAL"
+        }
+      },
+      "hasResults": false,
+      "conditions": [
+        "Tourette Syndrome"
+      ],
+      "design": {
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE1"
+        ],
+        "designInfo": {
+          "allocation": "NA",
+          "interventionModel": "SINGLE_GROUP",
+          "primaryPurpose": "TREATMENT",
+          "maskingInfo": {
+            "masking": "NONE"
+          }
+        },
+        "enrollmentInfo": {
+          "count": 0,
+          "type": "ACTUAL"
+        }
+      },
+      "eligibility": {
+        "stdAges": [
+          "CHILD",
+          "ADULT",
+          "OLDER_ADULT"
+        ]
+      },
+      "source_url": "https://clinicaltrials.gov/study/NCT05158439",
+      "prior_scan_overlap": true
+    },
+    {
+      "nctId": "NCT06194305",
+      "title": "Multimodal Profiling of Response to Pediatric Comprehensive Behavioral Intervention for Tics",
+      "status": {
+        "statusVerifiedDate": "2026-07",
+        "overallStatus": "RECRUITING",
+        "expandedAccessInfo": {
+          "hasExpandedAccess": false
+        },
+        "startDateStruct": {
+          "date": "2024-04-25",
+          "type": "ACTUAL"
+        },
+        "primaryCompletionDateStruct": {
+          "date": "2029-02-19",
+          "type": "ESTIMATED"
+        },
+        "completionDateStruct": {
+          "date": "2029-02-19",
+          "type": "ESTIMATED"
+        },
+        "studyFirstSubmitDate": "2023-10-16",
+        "studyFirstSubmitQcDate": "2023-12-21",
+        "studyFirstPostDateStruct": {
+          "date": "2024-01-08",
+          "type": "ACTUAL"
+        },
+        "lastUpdateSubmitDate": "2026-07-21",
+        "lastUpdatePostDateStruct": {
+          "date": "2026-07-22",
+          "type": "ACTUAL"
+        }
+      },
+      "hasResults": false,
+      "conditions": [
+        "Tourette Syndrome",
+        "Persistent Tic Disorder"
+      ],
+      "design": {
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2"
+        ],
+        "designInfo": {
+          "allocation": "NON_RANDOMIZED",
+          "interventionModel": "SINGLE_GROUP",
+          "primaryPurpose": "HEALTH_SERVICES_RESEARCH",
+          "maskingInfo": {
+            "masking": "NONE",
+            "maskingDescription": "This study does not involve treatment randomization so participants and all study personnel will be aware that participants are receiving CBIT. An Independent Evaluator will conduct pre-, post-treatment and 3-month follow-up assessments. This IE will be masked to information related to CBIT progress (e.g., visit attendance, specific content of sessions, therapist/supervisor perspectives on patient progress, CBIT session documentation). The IE will complete the primary outcome measure (YGTSS)."
+          }
+        },
+        "enrollmentInfo": {
+          "count": 100,
+          "type": "ESTIMATED"
+        }
+      },
+      "eligibility": {
+        "minimumAge": "10 Years",
+        "maximumAge": "17 Years",
+        "stdAges": [
+          "CHILD"
+        ]
+      },
+      "source_url": "https://clinicaltrials.gov/study/NCT06194305",
+      "prior_scan_overlap": true
+    },
+    {
+      "nctId": "NCT06678737",
+      "title": "CBIT+TMS R33 Phase",
+      "status": {
+        "statusVerifiedDate": "2026-05",
+        "overallStatus": "RECRUITING",
+        "expandedAccessInfo": {
+          "hasExpandedAccess": false
+        },
+        "startDateStruct": {
+          "date": "2025-02-27",
+          "type": "ACTUAL"
+        },
+        "primaryCompletionDateStruct": {
+          "date": "2030-07-15",
+          "type": "ESTIMATED"
+        },
+        "completionDateStruct": {
+          "date": "2030-07-15",
+          "type": "ESTIMATED"
+        },
+        "studyFirstSubmitDate": "2024-10-31",
+        "studyFirstSubmitQcDate": "2024-11-05",
+        "studyFirstPostDateStruct": {
+          "date": "2024-11-07",
+          "type": "ACTUAL"
+        },
+        "lastUpdateSubmitDate": "2026-05-18",
+        "lastUpdatePostDateStruct": {
+          "date": "2026-05-20",
+          "type": "ACTUAL"
+        }
+      },
+      "hasResults": false,
+      "conditions": [
+        "Tics",
+        "Tourette Syndrome"
+      ],
+      "design": {
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2"
+        ],
+        "designInfo": {
+          "allocation": "RANDOMIZED",
+          "interventionModel": "PARALLEL",
+          "interventionModelDescription": "The study is a double-blinded randomized control trial",
+          "primaryPurpose": "BASIC_SCIENCE",
+          "maskingInfo": {
+            "masking": "TRIPLE",
+            "whoMasked": [
+              "PARTICIPANT",
+              "INVESTIGATOR",
+              "OUTCOMES_ASSESSOR"
+            ]
+          }
+        },
+        "enrollmentInfo": {
+          "count": 60,
+          "type": "ESTIMATED"
+        }
+      },
+      "eligibility": {
+        "minimumAge": "12 Years",
+        "maximumAge": "21 Years",
+        "stdAges": [
+          "CHILD",
+          "ADULT"
+        ]
+      },
+      "source_url": "https://clinicaltrials.gov/study/NCT06678737",
+      "prior_scan_overlap": false
+    },
+    {
+      "nctId": "NCT07093541",
+      "title": "Expanded Access Program for Treatment With Ecopipam for Tourette's Disorder",
+      "status": {
+        "statusVerifiedDate": "2026-03",
+        "overallStatus": "NO_LONGER_AVAILABLE",
+        "expandedAccessInfo": {
+          "hasExpandedAccess": false
+        },
+        "studyFirstSubmitDate": "2025-07-10",
+        "studyFirstSubmitQcDate": "2025-07-21",
+        "studyFirstPostDateStruct": {
+          "date": "2025-07-30",
+          "type": "ACTUAL"
+        },
+        "lastUpdateSubmitDate": "2026-10-26",
+        "lastUpdatePostDateStruct": {
+          "date": "2026-10-28",
+          "type": "ACTUAL"
+        }
+      },
+      "hasResults": false,
+      "conditions": [
+        "Tourettes Disorder",
+        "Tourette Disorder"
+      ],
+      "design": {
+        "studyType": "EXPANDED_ACCESS",
+        "expandedAccessTypes": {
+          "treatment": true
+        }
+      },
+      "eligibility": {
+        "minimumAge": "6 Years",
+        "maximumAge": "50 Years",
+        "stdAges": [
+          "CHILD",
+          "ADULT"
+        ]
+      },
+      "source_url": "https://clinicaltrials.gov/study/NCT07093541",
+      "prior_scan_overlap": true
+    },
+    {
+      "nctId": "NCT07137442",
+      "title": "Distinguishing Tics and Functional Tics Using Clinical Neurophysiological Techniques",
+      "status": {
+        "statusVerifiedDate": "2026-09-16",
+        "overallStatus": "RECRUITING",
+        "expandedAccessInfo": {
+          "hasExpandedAccess": false
+        },
+        "startDateStruct": {
+          "date": "2026-11-11",
+          "type": "ESTIMATED"
+        },
+        "primaryCompletionDateStruct": {
+          "date": "2034-08-01",
+          "type": "ESTIMATED"
+        },
+        "completionDateStruct": {
+          "date": "2034-08-01",
+          "type": "ESTIMATED"
+        },
+        "studyFirstSubmitDate": "2025-08-19",
+        "studyFirstSubmitQcDate": "2025-08-21",
+        "studyFirstPostDateStruct": {
+          "date": "2025-08-22",
+          "type": "ACTUAL"
+        },
+        "lastUpdateSubmitDate": "2026-11-05",
+        "lastUpdatePostDateStruct": {
+          "date": "2026-11-06",
+          "type": "ACTUAL"
+        }
+      },
+      "hasResults": false,
+      "conditions": [
+        "Tics",
+        "Functional Tics"
+      ],
+      "design": {
+        "studyType": "OBSERVATIONAL",
+        "designInfo": {
+          "observationalModel": "COHORT",
+          "timePerspective": "PROSPECTIVE"
+        },
+        "enrollmentInfo": {
+          "count": 75,
+          "type": "ESTIMATED"
+        }
+      },
+      "eligibility": {
+        "minimumAge": "18 Years",
+        "maximumAge": "80 Years",
+        "stdAges": [
+          "ADULT",
+          "OLDER_ADULT"
+        ]
+      },
+      "source_url": "https://clinicaltrials.gov/study/NCT07137442",
+      "prior_scan_overlap": true
+    },
+    {
+      "nctId": "NCT07905898",
+      "title": "Evaluating and Promoting Resilience in Adolescents With Tourette Syndrome",
+      "status": {
+        "statusVerifiedDate": "2026-10",
+        "overallStatus": "NOT_YET_RECRUITING",
+        "expandedAccessInfo": {
+          "hasExpandedAccess": false
+        },
+        "startDateStruct": {
+          "date": "2026-11",
+          "type": "ESTIMATED"
+        },
+        "primaryCompletionDateStruct": {
+          "date": "2031-03",
+          "type": "ESTIMATED"
+        },
+        "completionDateStruct": {
+          "date": "2031-06",
+          "type": "ESTIMATED"
+        },
+        "studyFirstSubmitDate": "2026-10-23",
+        "studyFirstSubmitQcDate": "2026-10-23",
+        "studyFirstPostDateStruct": {
+          "date": "2026-10-30",
+          "type": "ACTUAL"
+        },
+        "lastUpdateSubmitDate": "2026-10-23",
+        "lastUpdatePostDateStruct": {
+          "date": "2026-10-30",
+          "type": "ACTUAL"
+        }
+      },
+      "hasResults": false,
+      "conditions": [
+        "Tourette Syndrome",
+        "Tic Disorders",
+        "Persistent (Chronic) Motor or Vocal Tic Disorder"
+      ],
+      "design": {
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "designInfo": {
+          "allocation": "RANDOMIZED",
+          "interventionModel": "PARALLEL",
+          "primaryPurpose": "SUPPORTIVE_CARE",
+          "maskingInfo": {
+            "masking": "SINGLE",
+            "whoMasked": [
+              "OUTCOMES_ASSESSOR"
+            ]
+          }
+        },
+        "enrollmentInfo": {
+          "count": 95,
+          "type": "ESTIMATED"
+        }
+      },
+      "eligibility": {
+        "minimumAge": "12 Years",
+        "maximumAge": "18 Years",
+        "stdAges": [
+          "CHILD",
+          "ADULT"
+        ]
+      },
+      "source_url": "https://clinicaltrials.gov/study/NCT07905898",
+      "prior_scan_overlap": true
+    }
+  ],
+  "registry_direct_controls": [
+    "NCT01019343",
+    "NCT05158439",
+    "NCT07093541",
+    "NCT06194305",
+    "NCT07137442",
+    "NCT07905898",
+    "NCT06678737"
+  ],
+  "completed_utc": "2026-11-09T02:42:06.319868+00:00"
+}

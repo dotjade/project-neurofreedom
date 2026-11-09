@@ -1,0 +1,78 @@
+{
+  "url": "https://clinicaltrials.gov/api/v2/studies/NCT07839377?fields=NCTId%2CBriefTitle%2CStatusModule%2CDesignModule%2CCondition%2CMinimumAge%2CMaximumAge%2CStdAge%2CHasResults",
+  "started_utc": "2026-11-09T02:42:18.861542+00:00",
+  "status": 200,
+  "bytes": 1076,
+  "sha256": "3d04d062ad79f84bde24d696837bcf6387b0a8f9a51eccaf8f67a224f740d408",
+  "snapshot": {
+    "protocolSection": {
+      "identificationModule": {
+        "nctId": "NCT07839377",
+        "briefTitle": "Teen and Adult Tic TMS Study"
+      },
+      "statusModule": {
+        "statusVerifiedDate": "2026-09",
+        "overallStatus": "RECRUITING",
+        "expandedAccessInfo": {
+          "hasExpandedAccess": false
+        },
+        "startDateStruct": {
+          "date": "2026-06-01",
+          "type": "ACTUAL"
+        },
+        "primaryCompletionDateStruct": {
+          "date": "2028-06",
+          "type": "ESTIMATED"
+        },
+        "completionDateStruct": {
+          "date": "2028-10",
+          "type": "ESTIMATED"
+        },
+        "studyFirstSubmitDate": "2026-09-14",
+        "studyFirstSubmitQcDate": "2026-09-18",
+        "studyFirstPostDateStruct": {
+          "date": "2026-09-24",
+          "type": "ACTUAL"
+        },
+        "lastUpdateSubmitDate": "2026-09-18",
+        "lastUpdatePostDateStruct": {
+          "date": "2026-09-24",
+          "type": "ACTUAL"
+        }
+      },
+      "conditionsModule": {
+        "conditions": [
+          "Tic Disorder"
+        ]
+      },
+      "designModule": {
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "designInfo": {
+          "allocation": "RANDOMIZED",
+          "interventionModel": "PARALLEL",
+          "primaryPurpose": "TREATMENT",
+          "maskingInfo": {
+            "masking": "NONE"
+          }
+        },
+        "enrollmentInfo": {
+          "count": 40,
+          "type": "ESTIMATED"
+        }
+      },
+      "eligibilityModule": {
+        "minimumAge": "15 Years",
+        "maximumAge": "35 Years",
+        "stdAges": [
+          "CHILD",
+          "ADULT"
+        ]
+      }
+    },
+    "hasResults": false
+  },
+  "completed_utc": "2026-11-09T02:42:23.476571+00:00"
+}

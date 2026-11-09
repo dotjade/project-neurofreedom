@@ -1,0 +1,141 @@
+{
+  "run_date": "2026-11-09",
+  "task": "Bounded existing-evidence measurement-anchor and transfer audit",
+  "repository_snapshot": "a68355a22f7de6e694ac4df29ad670983dd6c68f",
+  "database": "Web search with directed primary publisher, PubMed and PMC retrieval; not a systematic database review",
+  "date_limits": "None for historical measurement evidence; source status checked on run date",
+  "filters": "Primary-source support for final claims; six-report cap; public aggregate evidence only",
+  "selection": "Global stability; tic-specific ratings; age/item structure; questionnaire-momentary convergence; timing/observed-tic comparison; reporting reactivity. Selection made during retrieval, not preregistered.",
+  "focal_reports_screened_and_extracted": 6,
+  "total_search_hits_screened": null,
+  "count_limitation": "Search-return excerpts were reviewed but an exhaustive deduplicated hit count was not retained. Do not describe six as the total search yield or this audit as PRISMA-complete.",
+  "queries": [
+    "Tourette premonitory urge scale measurement invariance I-PUTS psychometric validation adults",
+    "Tourette urge tic temporal relationship continuous rating Wellen 2022 premonitory urge measurement",
+    "Brandt Beck Sajin temporal relationship premonitory urges tics 2016 continuous suppression urge monitor",
+    "\"Inter-individual differences in urge-tic associations\" full text",
+    "\"Effects of Tic Suppression and Urge Monitoring\" Tourette 2026",
+    "\"The premonitory urge revisited\" McGuire 2016 75 ICC",
+    "\"The Premonitory Urge to Tic: Measurement\" Reese 2014 test retest .79",
+    "site:pmc.ncbi.nlm.nih.gov/articles/PMC13319919 \"interaction\" \"conditions\"",
+    "site:pmc.ncbi.nlm.nih.gov/articles/PMC13319919 \"random\" \"missing\" \"F(\"",
+    "site:pmc.ncbi.nlm.nih.gov/articles/PMC5107126 \"inter-rater\" \"ten\" \"paired\"",
+    "site:pmc.ncbi.nlm.nih.gov/articles/PMC4445415 \"122\" \"two\" \"test-retest\"",
+    "\"Effects of Tic Suppression\" \"Matsuda\" \"randomized\"",
+    "\"Effects of Tic Suppression\" \"Matsuda\" \"monitoring\" \"Results\"",
+    "\"The Premonitory Urge Revisited\" \"inter-rater\" \"15\"",
+    "\"Reese\" \"The Premonitory Urge to Tic\" \"screening\" \"baseline\"",
+    "\"The Premonitory Urge to Tic\" \"Temporal Stability\" \"alpha\"",
+    "\"The Premonitory Urge Revisited\" \"past week\" \"intensity\" \"frequency\"",
+    "\"Effects of Tic Suppression and Urge Monitoring\" \"fatigue\" \"p=\"",
+    "\"Urge-tic associations in children\" \"25\" \"11\" \"two\"",
+    "\"Urge-tic associations in children\" \"ICC\" \"missing\" \"300\"",
+    "\"Effects of Tic Suppression and Urge Monitoring\" \"mixed\" \"ANOVA\" \"blinded\"",
+    "\"Effects of Tic Suppression and Urge Monitoring\" \"mean urge\" \"p=\"",
+    "\"Effects of Tic Suppression and Urge Monitoring\" \"Bonferroni\" \"blind\" \"average\"",
+    "\"Effects of Tic Suppression and Urge Monitoring\" \"inter-rater\"",
+    "\"Urge-tic associations in children\" \"bootstrap\" \"regression\" \"1000\"",
+    "\"Urge-tic associations in children\" \"inter-rater\" \"0.\"",
+    "\"Urge-tic associations in children\" \"shift\" \"surrogate\" \"random\"",
+    "\"The Premonitory Urge to Tic\" \"missing\" \"participants\" \"122\"",
+    "\"10.1016/j.beth.2013.09.002\" correction retraction",
+    "\"10.1016/j.jpsychires.2016.09.007\" correction retraction",
+    "\"10.1111/jnp.12216\" correction retraction",
+    "\"10.3389/fpsyt.2016.00051\" correction retraction",
+    "\"10.1038/s41598-022-19685-5\" correction retraction",
+    "\"10.5765/jkacap.260010\" correction retraction"
+  ],
+  "excluded_lead_classes": [
+    {
+      "lead": "2025 premonitory-urge scoping review and 2025 PROM systematic review",
+      "reason": "Discovery context only; secondary reviews not counted as primary anchor evidence."
+    },
+    {
+      "lead": "Original PUTS, EMTICS, 2023 Chinese I-PUTS and 2024 Chinese PUTS validation",
+      "reason": "Additional measurement leads beyond six-report cap, not substantively extracted; their omission limits completeness."
+    },
+    {
+      "lead": "2016 temporal relationship and 2021 adult urge-tic association reports",
+      "reason": "Not separately extracted after selecting convergence, pediatric temporal comparison and direct monitoring manipulation; do not count historical comparator as independently audited seventh report."
+    },
+    {
+      "lead": "Reopened CBIT mechanism, force-matching, treatment-efficacy and neuroimaging reports",
+      "reason": "Outside this fixed measurement audit; existing closed audits retained. An incidental force-matching PMID lead was passed to the daily scan without substantive extraction."
+    },
+    {
+      "lead": "Unrelated broad-query returns",
+      "reason": "Not relevant to Tourette measurement; not included or used for claims."
+    }
+  ],
+  "source_access": [
+    {
+      "source": "Reese 2014",
+      "success": "Official abstract and indexed primary PMC psychometric passages",
+      "failed": [
+        "PMC direct open: browser check",
+        "NCBI BioC XML: HTTP 429, not retried",
+        "Europe PMC fullTextXML: HTTP 500",
+        "eScholarship direct: HTTP 429"
+      ],
+      "limits": "No comprehensive supplement review or complete correction/retraction clearance. Unextracted fields remain explicit.",
+      "subsequent_review": "Main-text sections readable through PMC web open during separate source/method review on 2026-11-09. Initial failures retained as access history."
+    },
+    {
+      "source": "McGuire 2016",
+      "success": "Official abstract and indexed primary PMC methods/results",
+      "failed": [
+        "PMC direct open: browser check",
+        "ScienceDirect direct: HTTP 403",
+        "Europe PMC fullTextXML: HTTP 500"
+      ],
+      "limits": "No comprehensive supplement review or complete correction/retraction clearance. Unextracted fields remain explicit.",
+      "subsequent_review": "Main-text sections readable through PMC web open during separate source/method review on 2026-11-09. Initial failures retained as access history."
+    },
+    {
+      "source": "Baumung 2020/2021",
+      "success": "Wiley publisher full-text methods/results",
+      "failed": [],
+      "limits": "Supplements and complete disclosure extraction not performed."
+    },
+    {
+      "source": "Brandt 2016",
+      "success": "Frontiers publisher full-text methods/results",
+      "failed": [],
+      "limits": "Complete participant-flow provenance not established."
+    },
+    {
+      "source": "Langelage 2022",
+      "success": "Publisher abstract, PDF methods through video-rating section, indexed primary results/missingness",
+      "failed": [
+        "Later publisher HTML/PDF reads: HTTP 500 identity redirect"
+      ],
+      "limits": "Extracted results/counts rely on indexed primary passages; complete statistical methods/supplement not inspected. Independent review also could not directly retrieve the publisher main text. No participant-level dataset downloaded."
+    },
+    {
+      "source": "Matsuda 2026",
+      "success": "Official abstract and extensive indexed primary PMC procedure/results/analysis passages",
+      "failed": [
+        "PMC direct open: browser check",
+        "Publisher/DOI direct: inaccessible",
+        "Europe PMC fullTextXML: timeout"
+      ],
+      "limits": "No comprehensive supplement review or complete correction/retraction clearance. Unextracted fields remain explicit.",
+      "subsequent_review": "Main-text sections readable through PMC web open during separate source/method review on 2026-11-09. Initial failures retained as access history."
+    }
+  ],
+  "correction_retraction_check": "Focused exact-DOI searches found no verified correction/retraction notice in returned results. No comprehensive Crossmark or publisher-history clearance claimed.",
+  "coverage_limits": "Targeted, English-heavy, access-limited review; no exhaustive measurement-invariance, physiology or unpublished-study search. No effect pooling, sensitivity simulation or patient-specific inference.",
+  "stop": "Six reports extracted. No source passes external-anchor gate. Fixed audit closed pending named missing evidence.",
+  "reviewer": "dot, AI-assisted source extraction; separate AI source/method review on 2026-11-09; not clinical peer review.",
+  "search_timestamp_status": "Individual search-call timestamps were not retained. Do not infer them from file modification times or retrospective clock checks.",
+  "available_clock_observations": [
+    {
+      "utc": "2026-11-09T02:40:41Z",
+      "meaning": "Explicit clock check during source audit, not its start or an individual search timestamp."
+    },
+    {
+      "utc": "2026-11-09T02:55:00Z",
+      "meaning": "Explicit clock check while applying source/method review corrections; not a search timestamp."
+    }
+  ]
+}

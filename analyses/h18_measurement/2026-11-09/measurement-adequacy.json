@@ -1,0 +1,339 @@
+{
+  "audit_date": "2026-11-09",
+  "question": "Can public aggregate measurement evidence provide a defensible external anchor separating urge-generation change from action-control change?",
+  "report_cap": 6,
+  "interpretation": "Insufficient means insufficient for this latent-mechanism identification use, not invalid for all clinical measurement. No formal GRADE assessment.",
+  "disconfirmation": "Compatible calibration/invariance evidence plus a defensible identifying restriction and sufficient aggregate uncertainty would permit design preparation.",
+  "all_sources_historical": true,
+  "new_clinical_discovery": false,
+  "participant_data_accessed": false,
+  "source_count": 6,
+  "records": [
+    {
+      "id": "reese2014_puts",
+      "doi": "10.1016/j.beth.2013.09.002",
+      "pmid": "24491193",
+      "title": "The premonitory urge to tic: measurement, characteristics, and correlates in older adolescents and adults",
+      "authors_year": "Reese et al., 2014",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4445415/",
+      "population": "122 participants aged 16 or older, original adult-dominant CBIT trial.",
+      "construct": "Global nine-item PUTS; not tic-specific.",
+      "comparator": "Screening versus baseline within two weeks, before randomized treatment.",
+      "result": "Internal consistency alpha=.83; test–retest Pearson r=.79, p<.001; PUTS versus YGTSS Total Tic Score (0–50) r=.32.",
+      "reliability_type": "Pearson test–retest correlation/relative stability, not rank correlation or absolute agreement; no coefficient interval extracted.",
+      "repeated_session": "Two assessment visits; model-specific paired n unverified.",
+      "invariance": "Treatment, longitudinal scalar and context invariance unestablished.",
+      "temporal_order": "Retrospective global ratings; no tic-level lead-lag test.",
+      "clustering": "Participant-level scores; shared CBIT cohort, not independent efficacy evidence.",
+      "missingness": "Endpoint-specific complete-case counts and missing-item method unverified.",
+      "transfer_estimand": "No randomized untrained-context or untrained-tic effect.",
+      "alternative_explanation": "Stable reporting style or awareness can preserve rank despite a systematic shift.",
+      "anchor_decision": "insufficient",
+      "access": "Initially indexed primary passages/official abstract; main-text sections subsequently verified in separate source review through PMC web open. Supplements not fully reviewed.",
+      "source_locations": [
+        "Psychometric findings: Internal Consistency and Temporal Stability",
+        "Concurrent Validity"
+      ],
+      "reviewer": "dot, AI-assisted source extraction; separate AI source/method review on 2026-11-09; not clinical peer review.",
+      "prespecification": "No independently verified preregistration or dated analysis-plan claim in this audit.",
+      "harms": "Not a treatment-effect study; harms not systematically extracted. No safety or absence-of-harm inference.",
+      "funding": "Not extracted in the inspected source sections; unknown is not none.",
+      "conflicts": "Not extracted in the inspected source sections; unknown is not none.",
+      "study_type": "Psychometric secondary analysis of pretreatment data from a randomized CBIT trial; this measurement analysis is not a randomized mechanism test.",
+      "outcomes_analysis_status": "Internal consistency, test–retest correlation and concurrent validity; reported statistical associations, not causal mediation.",
+      "numeric_extraction": {
+        "participants": 122,
+        "alpha": 0.83,
+        "test_retest_pearson_r": 0.79,
+        "ygtss_total_tic_score_r": 0.32,
+        "ygtss_total_tic_score_range": [
+          0,
+          50
+        ]
+      }
+    },
+    {
+      "id": "mcguire2016_iputs",
+      "doi": "10.1016/j.jpsychires.2016.09.007",
+      "pmid": "27643476",
+      "title": "The premonitory urge revisited: An individualized premonitory urge for tics scale",
+      "authors_year": "McGuire et al., 2016",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5107126/",
+      "population": "75 clinic youth aged 6–17; I-PUTS available for 73.",
+      "construct": "Clinician-rated past-week, tic-specific urge number, frequency and intensity.",
+      "comparator": "Second-rater scoring of 15 randomly selected assessments.",
+      "result": "Number ICC=.83 [95% CI .48,.94]; frequency .76 [.30,.92]; intensity .87 [.62,.96].",
+      "reliability_type": "Inter-rater ICC; model/agreement definition not verified.",
+      "repeated_session": "No repeat-session stability demonstrated by these same-assessment ICCs.",
+      "invariance": "Adult, treatment and context invariance unestablished.",
+      "temporal_order": "Past-week checklist, not momentary sequence.",
+      "clustering": "15 independent assessments for reliability; nested tics are not additional participants.",
+      "missingness": "Two missing I-PUTS not imputed; other missing items addressed by expectation maximization under assumed MAR.",
+      "transfer_estimand": "No intervention or reserved-tic transfer contrast.",
+      "alternative_explanation": "Raters can agree on the same awareness-dependent report without calibrating latent generation.",
+      "anchor_decision": "insufficient",
+      "access": "Initially indexed primary methods/results/official abstract; main-text sections subsequently verified in separate source review through PMC web open. ICC model detail remains unconfirmed.",
+      "source_locations": [
+        "2.3 Procedure",
+        "2.4 Analytic Plan",
+        "3.2 Inter-rater reliability",
+        "Table 2"
+      ],
+      "reviewer": "dot, AI-assisted source extraction; separate AI source/method review on 2026-11-09; not clinical peer review.",
+      "prespecification": "No independently verified preregistration or dated analysis-plan claim in this audit.",
+      "harms": "Not a treatment-effect study; harms not systematically extracted. No safety or absence-of-harm inference.",
+      "funding": "Not extracted in the inspected source sections; unknown is not none.",
+      "conflicts": "Not extracted in the inspected source sections; unknown is not none.",
+      "study_type": "Cross-sectional clinical psychometric study with second-rater assessment subsample.",
+      "outcomes_analysis_status": "Urge number/frequency/intensity reliability and validity; no randomized treatment or transfer outcome.",
+      "numeric_extraction": {
+        "participants": 75,
+        "usable_iputs": 73,
+        "missing_iputs": 2,
+        "second_rater_assessments": 15,
+        "icc": [
+          {
+            "dimension": "number",
+            "estimate": 0.83,
+            "ci95": [
+              0.48,
+              0.94
+            ]
+          },
+          {
+            "dimension": "frequency",
+            "estimate": 0.76,
+            "ci95": [
+              0.3,
+              0.92
+            ]
+          },
+          {
+            "dimension": "intensity",
+            "estimate": 0.87,
+            "ci95": [
+              0.62,
+              0.96
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "baumung2020_putsr",
+      "doi": "10.1111/jnp.12216",
+      "pmid": "32543110",
+      "title": "Developing the Premonitory Urges for Tic Disorders Scale–Revised (PUTS-R)",
+      "authors_year": "Baumung et al., online 2020; issue 2021",
+      "url": "https://bpspsychub.onlinelibrary.wiley.com/doi/10.1111/jnp.12216",
+      "population": "Pooled 241 participants: 93 adults, 148 minors; three sites.",
+      "construct": "PUTS item properties, severity/quality dimensions and proposed revised items.",
+      "comparator": "Separate age-group classical/IRT and exploratory factor analyses.",
+      "result": "Nine-item alpha=.83 in minors (n=137), .82 in adults (n=89). Item 2 loaded differently by age; items 1/9/10 had disordered thresholds; adult item 5 also problematic.",
+      "reliability_type": "Internal consistency, not temporal agreement.",
+      "repeated_session": "No repeat-session calibration established.",
+      "invariance": "Similar factor count is not equal loadings/thresholds; new items still require validation.",
+      "temporal_order": "Cross-sectional pooled assessments.",
+      "clustering": "Participant-level; pooled experiments may overlap earlier work; independence unverified.",
+      "missingness": "1% PUTS values missing, not replaced; analysis counts vary.",
+      "transfer_estimand": "No intervention or cross-context causal transfer effect.",
+      "alternative_explanation": "Age, language or interpretation can alter item functioning without changed generation.",
+      "anchor_decision": "insufficient",
+      "access": "Publisher full-text methods/results inspected.",
+      "source_locations": [
+        "Participants and clinical assessments",
+        "Statistical analysis",
+        "Results: Reliability and Dimensions",
+        "Item development"
+      ],
+      "reviewer": "dot, AI-assisted source extraction; separate AI source/method review on 2026-11-09; not clinical peer review.",
+      "prespecification": "No independently verified preregistration or dated analysis-plan claim in this audit.",
+      "harms": "Not a treatment-effect study; harms not systematically extracted. No safety or absence-of-harm inference.",
+      "funding": "Not extracted in the inspected source sections; unknown is not none.",
+      "conflicts": "Authors declare no conflicts, verified during source/method review; declaration is not independent clearance.",
+      "study_type": "Cross-sectional secondary pooled psychometric analysis using classical test theory, item response theory and exploratory factor analysis.",
+      "outcomes_analysis_status": "Item properties and dimensions; proposed revised items require subsequent validation.",
+      "numeric_extraction": {
+        "participants": 241,
+        "adults": 93,
+        "minors": 148,
+        "nine_item_alpha_minors": 0.83,
+        "nine_item_alpha_adults": 0.82,
+        "alpha_n_minors": 137,
+        "alpha_n_adults": 89
+      }
+    },
+    {
+      "id": "brandt2016_convergence",
+      "doi": "10.3389/fpsyt.2016.00051",
+      "pmid": "27092085",
+      "title": "Convergent Validity of the PUTS",
+      "authors_year": "Brandt et al., 2016",
+      "url": "https://www.frontiersin.org/journals/psychiatry/articles/10.3389/fpsyt.2016.00051/full",
+      "population": "22 participants aged 17–55 for urge-monitor convergence; 40 youth for questionnaire factors.",
+      "construct": "Global PUTS versus average continuous global urge rating.",
+      "comparator": "Five-minute free-tic monitor task versus questionnaire.",
+      "result": "PUTS9–monitor Pearson r=.66; PUTS10–monitor r=.64. Ten-item alpha=.79 in older sample, .84 in youth.",
+      "reliability_type": "Convergence/internal consistency; no absolute-agreement interval.",
+      "repeated_session": "Single task; no between-session test.",
+      "invariance": "No treatment/context calibration; both urge measures are self-report.",
+      "temporal_order": "10-Hz monitor averaged after removing first ten seconds.",
+      "clustering": "2,900 retained readings condensed per participant; n=22, not 63,800 independent observations.",
+      "missingness": "Sample-flow and full missingness not established.",
+      "transfer_estimand": "No randomized transfer contrast; youth had no monitor validation here.",
+      "alternative_explanation": "Shared awareness and reporting conventions generate convergence without an external latent anchor.",
+      "anchor_decision": "insufficient",
+      "access": "Publisher full-text methods/results inspected.",
+      "source_locations": [
+        "Experimental Procedure of the Real-Time Urge Monitor",
+        "Data Analysis",
+        "Results; Table 1"
+      ],
+      "reviewer": "dot, AI-assisted source extraction; separate AI source/method review on 2026-11-09; not clinical peer review.",
+      "prespecification": "No independently verified preregistration or dated analysis-plan claim in this audit.",
+      "harms": "Not a treatment-effect study; harms not systematically extracted. No safety or absence-of-harm inference.",
+      "funding": "Not extracted in the inspected source sections; unknown is not none.",
+      "conflicts": "Authors declare no commercial or financial relationships constituting a potential conflict, verified during source/method review.",
+      "study_type": "Cross-sectional questionnaire and laboratory convergent-validity study.",
+      "outcomes_analysis_status": "Urge-monitor/questionnaire correlation and exploratory factors; no intervention transfer effect.",
+      "numeric_extraction": {
+        "monitor_participants": 22,
+        "younger_questionnaire_participants": 40,
+        "task_seconds": 300,
+        "excluded_seconds": 10,
+        "samples_per_second": 10,
+        "retained_samples_per_participant": 2900,
+        "puts9_monitor_r": 0.66,
+        "puts10_monitor_r": 0.64
+      }
+    },
+    {
+      "id": "langelage2022_temporal",
+      "doi": "10.1038/s41598-022-19685-5",
+      "pmid": "36163482",
+      "title": "Urge-tic associations in children and adolescents with Tourette syndrome",
+      "authors_year": "Langelage et al., 2022",
+      "url": "https://www.nature.com/articles/s41598-022-19685-5",
+      "population": "25 analyzed, aged 8–18; 11 additional acquired cases excluded; historical adult comparator n=21.",
+      "construct": "Global momentary urge versus upper-body/video tic expression.",
+      "comparator": "Concurrent five-minute series; historical age-group comparison.",
+      "result": "Individual logistic associations: 11 positive, 12 nonsignificant, 2 negative. Rater Pearson r medians .71 (presence), .80 (intensity); not absolute agreement.",
+      "reliability_type": "Inter-rater correlation; no repeat-session agreement.",
+      "repeated_session": "One 300-second task.",
+      "invariance": "Age/context invariance not established by matched coding.",
+      "temporal_order": "Concurrent association; anticipation and recording latency remain alternatives.",
+      "clustering": "Seconds/tics nested within participants; individual analyses reported; exact serial-null implementation unverified.",
+      "missingness": "11 unusable: video8, urge acquisition2, task1. Eight analyzed participants lacked vocal audio. Non-vocal-only sensitivity minimally changed the age comparisons.",
+      "transfer_estimand": "Historical age comparison is not intervention transfer.",
+      "alternative_explanation": "Anticipation, lower-body omission or observation differences can alter association.",
+      "anchor_decision": "insufficient",
+      "access": "Indexed primary passages support extracted counts/results. Initial publisher abstract and PDF opening methods were retrievable, but later direct publisher reads failed; complete main text, serial-null implementation and supplement not reviewed.",
+      "source_locations": [
+        "Participants",
+        "Real-time urge and tic assessment",
+        "Video-based tic ratings",
+        "Urge-tic association"
+      ],
+      "reviewer": "dot, AI-assisted source extraction; separate AI source/method review on 2026-11-09; not clinical peer review.",
+      "prespecification": "No independently verified preregistration or dated analysis-plan claim in this audit.",
+      "harms": "Not a treatment-effect study; harms not systematically extracted. No safety or absence-of-harm inference.",
+      "funding": "Not extracted in the inspected source sections; unknown is not none.",
+      "conflicts": "Not extracted in the inspected source sections; unknown is not none.",
+      "study_type": "Observational laboratory time-series association study with a historical adult-cohort comparison.",
+      "outcomes_analysis_status": "Group/individual urge-tic associations and age comparisons; association, not causal direction or treatment transfer.",
+      "numeric_extraction": {
+        "analyzed": 25,
+        "excluded_video": 8,
+        "excluded_urge": 2,
+        "excluded_task": 1,
+        "excluded_total": 11,
+        "positive_logistic": 11,
+        "nonsignificant_logistic": 12,
+        "negative_logistic": 2,
+        "analyzed_missing_audio": 8,
+        "historical_adult_comparator": 21
+      }
+    },
+    {
+      "id": "matsuda2026_monitoring",
+      "doi": "10.5765/jkacap.260010",
+      "pmid": "42389054",
+      "title": "Effects of Tic Suppression and Urge Monitoring on Premonitory Urges and Tic Frequency in Tourette Syndrome",
+      "authors_year": "Matsuda and Kano, 2026-07-01",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13319919/",
+      "population": "Collected 2012–2013: 14 referred, 11 eligible/consenting, one experimental exclusion, ten adult men analyzed; YGTSS≥20, frequent tics/urges, no prior behavioral therapy.",
+      "construct": "Pressure-monitor urge reports, post-trial VAS urge/fatigue and video tic counts.",
+      "comparator": "Four five-minute conditions twice; constrained randomized order; suppression includes reward.",
+      "result": "Suppression minus suppression+reporting: urge VAS −11.2 [95% CI −21.7,−.8]; fatigue −12.2 [−22.7,−1.6]. Mean-monitor reporting minus suppression+reporting −.02 [−.13,.10]. Tic-reporting contrasts nonsignificant.",
+      "reliability_type": "Manipulation contrast; no session absolute-agreement estimate.",
+      "repeated_session": "Two within-session trials per condition; paired comparisons df=9. One event-trajectory trial has eight contributors because two had no qualifying episodes.",
+      "invariance": "Pressure references are within-person subjective calibration, not an external anchor; exploratory p-values unadjusted.",
+      "temporal_order": "Real-time measures and post-trial recall differ.",
+      "clustering": "Paired participant comparisons, n=10; repeated trials not independent people.",
+      "missingness": "Recruitment/analysis flow verified in subsequent main-text review; event trajectories have outcome-specific denominators.",
+      "transfer_estimand": "Laboratory reporting/suppression contrast; no untreated-context durability/function estimand.",
+      "alternative_explanation": "Attention, device workload, genuine sensation and report criteria remain entangled.",
+      "anchor_decision": "insufficient",
+      "access": "Initially indexed primary passages/official abstract; main-text methods/results/disclosures subsequently verified in separate source review through PMC web open.",
+      "source_locations": [
+        "Participants",
+        "Procedure",
+        "Urge monitoring and calibration",
+        "Data analysis for Aim 1 and Aim 2",
+        "Aim 1: Mean urge intensity",
+        "Aim 2: subjective urge intensity and fatigue",
+        "Funding and Conflicts of Interest"
+      ],
+      "reviewer": "dot, AI-assisted source extraction; separate AI source/method review on 2026-11-09; not clinical peer review.",
+      "prespecification": "No independently verified preregistration or dated analysis-plan claim in this audit.",
+      "harms": "Post-trial fatigue was measured; comprehensive adverse-event, rare-harm and long-term safety assessment not established.",
+      "funding": "JSPS KAKENHI, verified in subsequent main-text review; exact grant identifiers not re-extracted.",
+      "conflicts": "Kano disclosed an editorial role and exclusion from this publication decision; author declaration, not independent clearance.",
+      "study_type": "Small within-participant laboratory experiment with constrained randomized condition order and repeated trials.",
+      "outcomes_analysis_status": "Exploratory urge, fatigue, tic-frequency and event-trajectory contrasts; unadjusted multiple comparisons, no confirmatory treatment or long-term transfer test.",
+      "coder_blinding": "Independent raters reported; blinding not verified. Independence does not establish masking.",
+      "numeric_extraction": {
+        "referred": 14,
+        "eligible_consenting": 11,
+        "experimental_exclusions": 1,
+        "analyzed": 10,
+        "paired_df": 9,
+        "trajectory_trial_contributors": 8,
+        "no_qualifying_episode": 2,
+        "contrasts": [
+          {
+            "outcome": "post-trial urge VAS",
+            "direction": "suppression minus suppression+reporting",
+            "estimate": -11.2,
+            "ci95": [
+              -21.7,
+              -0.8
+            ]
+          },
+          {
+            "outcome": "post-trial fatigue VAS",
+            "direction": "suppression minus suppression+reporting",
+            "estimate": -12.2,
+            "ci95": [
+              -22.7,
+              -1.6
+            ]
+          },
+          {
+            "outcome": "mean urge monitor",
+            "direction": "reporting minus suppression+reporting",
+            "estimate": -0.02,
+            "ci95": [
+              -0.13,
+              0.1
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "decision": "Retain latent mechanism as unidentified; close fixed audit.",
+  "reviewer": "dot, AI-assisted source extraction; separate AI source/method review on 2026-11-09; not clinical peer review.",
+  "revision_note": "Revised after source/method review. Initial retrieval failures retained; later main-text verification recorded separately.",
+  "review_completed_at": "2026-11-09T02:55:00Z"
+}

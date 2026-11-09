@@ -1,0 +1,22 @@
+{
+  "date": "2026-11-09",
+  "query_window": "after:2026-11-07 before:2026-11-10; actual retrieval limited to early Nov 9",
+  "queries": [
+    "(Tourette OR ecopipam OR aripiprazole OR risperidone OR pimozide OR tetrabenazine OR deutetrabenazine OR valbenazine) (safety OR recall OR warning) (site:fda.gov OR site:ema.europa.eu OR site:gov.uk) after:2026-11-07 before:2026-11-10",
+    "(guanfacine OR clonidine OR topiramate OR methylphenidate OR atomoxetine OR nabiximols) (safety OR recall OR warning) (site:fda.gov OR site:ema.europa.eu OR site:gov.uk) after:2026-11-07 before:2026-11-10",
+    "(aripiprazole OR risperidone OR haloperidol OR tetrabenazine OR ecopipam OR Tourette) (site:hsa.gov.sg OR site:tga.gov.au OR site:swissmedic.ch OR site:recalls-rappels.canada.ca) after:2026-11-07 before:2026-11-10",
+    "(\"deep brain stimulation\" OR \"median nerve stimulation\" OR Tourette) (safety OR recall OR warning) (site:fda.gov OR site:gov.uk OR site:tga.gov.au) after:2026-11-07 before:2026-11-10"
+  ],
+  "source_urls": [
+    "https://www.fda.gov/drugs/drug-safety-and-availability/drug-safety-communications",
+    "https://www.fda.gov/medical-devices/medical-device-safety/safety-communications",
+    "https://www.gov.uk/drug-safety-update",
+    "https://www.gov.uk/drug-device-alerts",
+    "https://www.ema.europa.eu/en/news-events/whats-new",
+    "https://www.tga.gov.au/news/safety-updates",
+    "https://www.tga.gov.au/safety/safety-monitoring-and-information/safety-alerts",
+    "https://www.ema.europa.eu/en/human-regulatory-overview/post-authorisation/pharmacovigilance-post-authorisation/signal-management/prac-recommendations-safety-signals"
+  ],
+  "scope": "Eight regulator index pages plus one Intuniv landing page inspected. Search-card recency does not establish event date. Source-specific findings are in safety-review.json. No exhaustive denominator asserted for indexed search."
+}
+

@@ -1,0 +1,191 @@
+{
+  "scope": "Authored schema and structured-extraction arithmetic only; no automated paper comparison, independent transcription verification or clinical validation",
+  "checks": [
+    {
+      "name": "Exactly six primary reports",
+      "passed": true
+    },
+    {
+      "name": "Unique identifiers",
+      "passed": true
+    },
+    {
+      "name": "Unique DOIs",
+      "passed": true
+    },
+    {
+      "name": "All historical",
+      "passed": true
+    },
+    {
+      "name": "No clinical discovery claim",
+      "passed": true
+    },
+    {
+      "name": "No participant data",
+      "passed": true
+    },
+    {
+      "name": "reese2014_puts completeness",
+      "passed": true
+    },
+    {
+      "name": "reese2014_puts source URL",
+      "passed": true
+    },
+    {
+      "name": "reese2014_puts no promoted anchor",
+      "passed": true
+    },
+    {
+      "name": "mcguire2016_iputs completeness",
+      "passed": true
+    },
+    {
+      "name": "mcguire2016_iputs source URL",
+      "passed": true
+    },
+    {
+      "name": "mcguire2016_iputs no promoted anchor",
+      "passed": true
+    },
+    {
+      "name": "baumung2020_putsr completeness",
+      "passed": true
+    },
+    {
+      "name": "baumung2020_putsr source URL",
+      "passed": true
+    },
+    {
+      "name": "baumung2020_putsr no promoted anchor",
+      "passed": true
+    },
+    {
+      "name": "brandt2016_convergence completeness",
+      "passed": true
+    },
+    {
+      "name": "brandt2016_convergence source URL",
+      "passed": true
+    },
+    {
+      "name": "brandt2016_convergence no promoted anchor",
+      "passed": true
+    },
+    {
+      "name": "langelage2022_temporal completeness",
+      "passed": true
+    },
+    {
+      "name": "langelage2022_temporal source URL",
+      "passed": true
+    },
+    {
+      "name": "langelage2022_temporal no promoted anchor",
+      "passed": true
+    },
+    {
+      "name": "matsuda2026_monitoring completeness",
+      "passed": true
+    },
+    {
+      "name": "matsuda2026_monitoring source URL",
+      "passed": true
+    },
+    {
+      "name": "matsuda2026_monitoring no promoted anchor",
+      "passed": true
+    },
+    {
+      "name": "No fabricated total hit count",
+      "passed": true
+    },
+    {
+      "name": "Search ledger six focal reports",
+      "passed": true
+    },
+    {
+      "name": "Source access rows",
+      "passed": true
+    },
+    {
+      "name": "Evidence append count",
+      "passed": true
+    },
+    {
+      "name": "Evidence identifiers match",
+      "passed": true
+    },
+    {
+      "name": "I-PUTS count ordering",
+      "passed": true
+    },
+    {
+      "name": "I-PUTS missingness accounting",
+      "passed": true
+    },
+    {
+      "name": "Pooled age counts",
+      "passed": true
+    },
+    {
+      "name": "Temporal association counts",
+      "passed": true
+    },
+    {
+      "name": "Excluded acquisition counts",
+      "passed": true
+    },
+    {
+      "name": "Monitor samples per participant",
+      "passed": true
+    },
+    {
+      "name": "Matsuda consent and analysis flow",
+      "passed": true
+    },
+    {
+      "name": "Matsuda paired degrees of freedom",
+      "passed": true
+    },
+    {
+      "name": "Matsuda event trajectory accounting",
+      "passed": true
+    },
+    {
+      "name": "Intervals include extracted point estimates",
+      "passed": true
+    },
+    {
+      "name": "Mean-monitor contrast uncertain",
+      "passed": true
+    },
+    {
+      "name": "Reviewer role recorded",
+      "passed": true
+    },
+    {
+      "name": "Search time limitation explicit",
+      "passed": true
+    },
+    {
+      "name": "Subsequent main-text verification recorded",
+      "passed": true
+    },
+    {
+      "name": "Explicit no inference boundary",
+      "passed": true
+    },
+    {
+      "name": "Explicit transfer definitions",
+      "passed": true
+    },
+    {
+      "name": "No generic equivalence claim",
+      "passed": true
+    }
+  ],
+  "passed": 46,
+  "failed": 0
+}

@@ -1,0 +1,62 @@
+{
+  "checkedAt": "2026-11-09T02:40:18.600Z",
+  "remoteHead": "a68355a22f7de6e694ac4df29ad670983dd6c68f",
+  "feed": {
+    "sha256": "639c09b9e1718d5694bd557b3fdde7e1f88339e87ea7a9e861c261dbb108ccb3",
+    "schemaVersion": 1,
+    "updatedAt": "2026-11-08T03:14:13Z",
+    "lastResearchDate": "2026-11-08",
+    "activityEditionDate": "2026-11-08",
+    "featuredActivityId": "small-silly-mark",
+    "timelineCount": 24,
+    "findingCount": 3,
+    "activityCount": 6,
+    "exactLiveValidFeedAccepts": true,
+    "timelineDescending": true,
+    "noFutureTimelineDates": true,
+    "noEmDash": true
+  },
+  "safety": {
+    "catalogExactlyMatchesApprovedSavedSource": true,
+    "uniqueActivityIds": [
+      "hand-at-ease",
+      "familiar-route",
+      "notice-one-thing",
+      "music-or-silence",
+      "small-silly-mark",
+      "rest-or-leave"
+    ],
+    "feedbackDisabled": true,
+    "sampleSize": 0,
+    "aggregatesEmpty": true,
+    "trendEmpty": true,
+    "liveConfig": {
+      "enabled": false,
+      "apiOrigin": null,
+      "verifiedAt": null
+    },
+    "disabledVoteGateOnlyFetchesConfig": true,
+    "mockRequests": [
+      {
+        "url": "/feedback-config.json",
+        "options": {
+          "credentials": "omit"
+        }
+      }
+    ],
+    "noForm": true,
+    "noLocalStorage": true,
+    "noSessionStorage": true,
+    "noSendBeacon": true,
+    "noDocumentCookie": true,
+    "reflectionClearsOnPagehide": true,
+    "reflectionExcludedFromNarration": true
+  },
+  "equality": {
+    "liveJsMatchesExactHead": true,
+    "homepageMatchesExactHead": true,
+    "liveConfigMatchesExactHead": true,
+    "liveSavedFeedMatchesConnector": true
+  },
+  "scope": "Current HTTP bytes, source inspection and isolated validator/disabled-vote-gate execution. No browser rendering, clinical safety certification, end-to-end network audit or third-party requests from mock gate test."
+}

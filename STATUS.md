@@ -1,6 +1,6 @@
 # Project NeuroFreedom status
 
-Updated 8 November 2026. Initial portfolio, thirty-one completed daily updates, five completed weekly syntheses and one monthly review. Public evidence repository and journal launched 13 October.
+Updated 9 November 2026. Initial portfolio, thirty-two completed daily updates, five completed weekly syntheses and one monthly review. Public evidence repository and journal launched 13 October.
 
 ## Completed in this first pass
 
@@ -14,7 +14,7 @@ Updated 8 November 2026. Initial portfolio, thirty-one completed daily updates, 
 
 ## Enabled research schedules
 
-The user approved the following automatic public-science research and repository updates on 8 October 2026. Each schedule was created successfully and returned enabled status. Daily runs were completed on 9-31 October and 1-8 November 2026; weekly syntheses were completed on 11, 18 and 25 October and 1 and 8 November; the first monthly review was completed on 1 November; the first quarterly run remains unverified.
+The user approved the following automatic public-science research and repository updates on 8 October 2026. Each schedule was created successfully and returned enabled status. Daily runs were completed on 9-31 October and 1-9 November 2026; weekly syntheses were completed on 11, 18 and 25 October and 1 and 8 November; the first monthly review was completed on 1 November; the first quarterly run remains unverified.
 
 - Daily new-evidence checks: from 9 October 2026, approximately 08:00 India time.
 - Weekly synthesis: Sundays, from 11 October 2026, approximately 09:00 India time.
@@ -819,3 +819,18 @@ Retain H13/H18 as proposed extensions and H15 as gated at exact group-mask/prove
 Research commit [575ba6303ec11e6a35534929e2e2d2d4a148f3db](https://github.com/dotjade/project-neurofreedom/commit/575ba6303ec11e6a35534929e2e2d2d4a148f3db) contains all ten authored files, verified through exact connector readback. All 1,583 unrelated baseline files are preserved, with no unexpected paths. Public visibility, daily feed, site source, activities and disabled collection are unchanged.
 
 The [verification receipt](updates/2026-11-08-weekly/publication-verification.json) records 111 publication assertions and the byte-identical publisher rerun of the 352-check independent audit. No Actions run was returned for this research-only commit; its paths do not match the deployment workflow. No new deployment, live-page or accessibility test is claimed. This verification-only follow-up adds the receipt and status note without changing scientific results or the daily edition.
+
+
+## Completed daily research update - 9 November 2026
+
+The [daily report](updates/2026-11-09/report.md) records no qualifying new-window primary publication, preprint, posted trial result or watched-treatment official warning in the bounded scan. Thirty-five query PubMed records plus one directed historical record, 485 preprint versions and eight registries were inspected. Seven watched registries were unchanged. Secondary reviews, overlap and the inaccessible historical sensory supplement are not new clinical results; access and coverage limits remain visible.
+
+The [H18 measurement-anchor audit](analyses/h18_measurement/2026-11-09/report.md) examines six historical reports. Positive reliability, agreement and temporal-measurement findings remain useful, but the inspected evidence supplies no calibrated treatment/context-invariant external anchor for separating urge generation from action control. This is not proof of measurement bias or behavioral-treatment failure. Six historical records are added with explicit source-access limits and cohort overlap. Separate context, tic, transfer-gap and durable-function estimands are defined, not estimated.
+
+### Next bounded decision
+
+Close the fixed six-source audit; H18 remains proposed and the latent mechanism unidentified. Reopen for meaningful calibration/invariance evidence, a useful aggregate correction, or a genuinely randomized transfer/strategy contrast with direct function and burden outcomes. Continue new-publication, registry and safety checks without repeating closed searches or unanchored simulations. Persistent severe adult function, pain, effort and co-occurring burden remain central. No owner action, participant records, contact, intervention or paid resource is needed.
+
+### Public journal
+
+The feed distinguishes historical measurement evidence from the no-new-result scan, preserves 24 entries and six unchanged optional activities, and selects rest-or-leave. Collection remains disabled. The [link ledger](public/link-checks/2026-11-09.json) records 38 retrievable and eight access-limited baseline URLs, with no confirmed broken source. Exact remote, CI and post-cache production checks follow publication. No fresh rendered accessibility or narration test is claimed; older static fallback and next-question copy remain known limitations.

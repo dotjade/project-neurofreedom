@@ -1,0 +1,51 @@
+{
+  "date": "2026-11-09",
+  "prior_safety_summary_utc": "2026-11-08T03:09:42.279875+00:00",
+  "retrieval_timestamp_precision": "Web sources inspected during this November 9 run; no invented per-page timestamps.",
+  "new_watched_treatment_warning_verified": false,
+  "sources": [
+    {
+      "url": "https://www.fda.gov/drugs/drug-safety-and-availability/drug-safety-communications",
+      "finding": "Retrieved index exposes no new relevant watched-treatment communication."
+    },
+    {
+      "url": "https://www.fda.gov/medical-devices/medical-device-safety/safety-communications",
+      "finding": "Retrieved index latest visible notice June 3; no new watched neuromodulation warning verified."
+    },
+    {
+      "url": "https://www.gov.uk/drug-safety-update",
+      "finding": "Latest visible November 5 item predates the window; antidepressant and botulinum-toxin notices are historical, not newly issued today."
+    },
+    {
+      "url": "https://www.gov.uk/drug-device-alerts",
+      "finding": "Latest visible November 5 recall items are outside the window; no new watched-treatment notice verified."
+    },
+    {
+      "url": "https://www.ema.europa.eu/en/news-events/whats-new",
+      "finding": "Visible newest entries November 6; no new in-window watched-treatment event verified."
+    },
+    {
+      "url": "https://www.ema.europa.eu/en/human-regulatory-overview/post-authorisation/pharmacovigilance-post-authorisation/signal-management/prac-recommendations-safety-signals",
+      "finding": "Latest PRAC recommendation documents first published October 26; no new document established."
+    },
+    {
+      "url": "https://www.tga.gov.au/news/safety-updates",
+      "finding": "Latest visible safety update October 14; no new in-window relevant notice verified."
+    },
+    {
+      "url": "https://www.tga.gov.au/safety/safety-monitoring-and-information/safety-alerts",
+      "finding": "Visible latest alert September 14; no new in-window relevant notice verified."
+    },
+    {
+      "url": "https://www.ema.europa.eu/cs/medicines/human/EPAR/intuniv",
+      "finding": "Recently crawled product page lists product-information update October 27 and RMP October 13, not a new November 9 warning. No full label change audit performed."
+    }
+  ],
+  "limits": [
+    "English-heavy selected-regulator and web-index surveillance, not worldwide pharmacovigilance.",
+    "Search dates and crawl dates can return old pages. No inference from recency cards alone.",
+    "Not all label attachments, national registries, safety bulletins or individual adverse-event reports were reviewed.",
+    "Prior inaccessible Nature primer correction and EMA catalogue lead were not cleared; unchanged access searches were not repeated.",
+    "No individual adverse-event narratives retained and no treatment change proposed."
+  ]
+}

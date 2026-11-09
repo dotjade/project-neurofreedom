@@ -1,10 +1,17 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-08T03:14:13Z",
-  "lastResearchDate": "2026-11-08",
+  "updatedAt": "2026-11-09T02:58:10Z",
+  "lastResearchDate": "2026-11-09",
   "cadence": "Daily scheduled review; publication follows verified work.",
-  "latestSummary": "A synthetic experiment shows that repeated measurements cannot resolve an unknown reporting shift. The bounded scan found no qualifying new clinical result or watched safety warning.",
+  "latestSummary": "Six historical measurement reports offer useful tools, but the inspected evidence does not establish a stable anchor for assigning a latent mechanism. The bounded scan found no qualifying new clinical result.",
   "timeline": [
+    {
+      "date": "2026-11-09",
+      "title": "A measure needs a stable meaning.",
+      "type": "Historical measurement-anchor audit and evidence scan",
+      "summary": "Six historical reports support useful measurement tools. The inspected evidence does not establish a stable external anchor that separates urge generation from action control. Source-access limits remain; no treatment rule follows.",
+      "record": "https://github.com/dotjade/project-neurofreedom/blob/main/updates/2026-11-09/report.md"
+    },
     {
       "date": "2026-11-08",
       "title": "Precision cannot replace an assumption.",
@@ -165,13 +172,6 @@
       "type": "Historical survey and aggregate audit",
       "summary": "A historical pain-selected survey reported interference with sleep, mood and everyday life. Mixed ages and missing item counts prevent an adult-only estimate.",
       "record": "https://github.com/dotjade/project-neurofreedom/blob/main/analyses/pain_interference/2026-10-18/report.md"
-    },
-    {
-      "date": "2026-10-17",
-      "title": "Ask about pain directly.",
-      "type": "Historical survey and aggregate audit",
-      "summary": "A selected adult survey mixed past and present pain. Conflicting help-seeking counts prevent a reliable care-success percentage; reported usefulness does not establish treatment efficacy.",
-      "record": "https://github.com/dotjade/project-neurofreedom/blob/main/analyses/adult_pain/2026-10-17/report.md"
     }
   ],
   "findings": [
@@ -181,7 +181,7 @@
       "type": "Primary qualitative study",
       "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10863457/",
       "label": "Isaacs and colleagues, 2024",
-      "checkedAt": "2026-11-08",
+      "checkedAt": "2026-11-09",
       "linkState": "Direct HTTP 203 access-limited response; article content not verified in this pass"
     },
     {
@@ -190,7 +190,7 @@
       "type": "Primary longitudinal study",
       "url": "https://www.neurology.org/doi/10.1212/01.WNL.0000086370.10186.7C",
       "label": "Pappert and colleagues, 2003",
-      "checkedAt": "2026-11-08",
+      "checkedAt": "2026-11-09",
       "linkState": "Publisher HTTP 403 challenge; source not established broken in this pass"
     },
     {
@@ -199,7 +199,7 @@
       "type": "Primary adult cohort study",
       "url": "https://link.springer.com/content/pdf/10.1186/s44247-026-00284-7.pdf",
       "label": "Ivanova and colleagues, 2026",
-      "checkedAt": "2026-11-08",
+      "checkedAt": "2026-11-09",
       "linkState": "Primary PDF retrieved with HTTP 200; DOI identity verified"
     }
   ],
@@ -266,6 +266,6 @@
     "trend": [],
     "message": "No public ratings are collected yet. There are no votes or trends to show."
   },
-  "activityEditionDate": "2026-11-08",
-  "featuredActivityId": "small-silly-mark"
+  "activityEditionDate": "2026-11-09",
+  "featuredActivityId": "rest-or-leave"
 }

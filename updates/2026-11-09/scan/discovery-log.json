@@ -1,0 +1,37 @@
+{
+  "date": "2026-11-09",
+  "queries": [
+    "(Tourette OR \"tic disorder\" OR \"persistent tic\") (trial OR randomized OR severe OR adult) after:2026-11-07 before:2026-11-10",
+    "(Tourette OR tics) (site:arxiv.org OR site:preprints.jmir.org OR site:medrxiv.org OR site:biorxiv.org) after:2026-11-07 before:2026-11-10",
+    "(Tourette OR \"tic disorder\") (site:trialsearch.who.int OR site:umin.ac.jp OR site:isrctn.com OR site:chictr.org.cn) after:2026-11-07 before:2026-11-10",
+    "チック 試験 2026 11月 (site:umin.ac.jp OR site:jrct.mhlw.go.jp)",
+    "\"42996864\"",
+    "\"10.1016/j.eclinm.2026.104299\"",
+    "\"Tourette\" (correction OR retraction) after:2026-11-07 before:2026-11-10",
+    "\"Tourette\" \"guideline\" after:2026-11-07 before:2026-11-10"
+  ],
+  "findings": [
+    {
+      "url": "https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2026.1968624/abstract",
+      "type": "historical secondary review",
+      "decision": "Publisher labels REVIEW; PubMed electronic date Oct 23. No new primary findings."
+    },
+    {
+      "url": "https://doi.org/10.1016/j.eclinm.2026.104299",
+      "type": "historical systematic review",
+      "decision": "DOI web-reader inaccessible; official PubMed XML abstract accessible and electronic date Oct 29. Not primary new tic evidence."
+    },
+    {
+      "url": "https://clinicaltrials.ucsf.edu/trial/NCT07839377",
+      "type": "historical registry lead",
+      "decision": "UCSF displayed Sept 18 updated date; official registry follow-up posted Sept 24 and hasResults false. See supplement-registry.json."
+    },
+    {
+      "url": "https://preprints.jmir.org/preprint/98782",
+      "type": "prior-screened preprint/journal pair",
+      "decision": "Already reported Nov 7; no newly established version/result."
+    }
+  ],
+  "limits": "Web search of WHO/UMIN/ISRCTN/ChiCTR, arXiv/JMIR and one Japanese registry query supplements APIs; not exhaustive direct registry/server searches. Older search hits and derivative news are not primary evidence."
+}
+

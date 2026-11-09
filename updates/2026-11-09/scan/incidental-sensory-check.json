@@ -1,0 +1,16 @@
+{
+  "date": "2026-11-09",
+  "pmid": "42947547",
+  "doi": "10.1002/mds.70590",
+  "first_publication": "2026-10-28",
+  "source_urls": ["https://pubmed.ncbi.nlm.nih.gov/42947547/","https://movementdisorders.onlinelibrary.wiley.com/doi/10.1002/mds.70590"],
+  "existing_evidence_id": "sensory_attenuation2026_ts_force_matching",
+  "existing_audit": "analyses/sensory_contrast/2026-10-30/report.md",
+  "classification": "Already recorded historical adult cross-sectional primary study, not a new-window publication.",
+  "summary": "Thirty adults with Tourette syndrome and 30 controls performed direct/indirect force matching. The reported direct-condition association and indirect null do not establish a formal interaction, causal mechanism, prospective prediction or treatment efficacy.",
+  "new_access_observation": "Wiley landing page explicitly lists aggregate supplement S1–S4 with group mean/SD and exploratory hierarchical regression descriptions. The exact aggregate download returned HTTP 403, so no numerical table was inspected.",
+  "blocked_url": "https://movementdisorders.onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1002%2Fmds.70590&file=mds70590-sup-0002-Supinfo2.docx",
+  "access_result": "HTTP 403 from web reader; no repeated or alternate-route attempt.",
+  "participant_files_accessed": false,
+  "decision": "Keep fixed precision audit closed pending lawful aggregate methods/tables. Do not duplicate the existing evidence record or count a listing as access to its contents. Funding is listed as Italian Ministry of Health Ricerca Corrente Project RC L3070; conflicts not independently cleared."
+}

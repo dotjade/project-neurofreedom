@@ -1,0 +1,96 @@
+{
+  "date": "2026-11-09",
+  "core_started_utc": "2026-11-09T02:38:48.088705+00:00",
+  "core_completed_utc": "2026-11-09T02:42:06.319868+00:00",
+  "preprint_recovery_completed_utc": "2026-11-09T02:43:17.961556+00:00",
+  "prior_core_cutoff_utc": "2026-11-08T03:07:59.615070+00:00",
+  "pubmed_id_occurrences": 40,
+  "pubmed_unique_query_ids": 35,
+  "pubmed_records_accounted": 35,
+  "pubmed_overlap_with_prior_query_set": 1,
+  "pubmed_ids_absent_prior_query_set": [
+    "11840360",
+    "16123742",
+    "17326821",
+    "17665284",
+    "19777563",
+    "20445167",
+    "20807062",
+    "20819989",
+    "21156204",
+    "21486167",
+    "22214315",
+    "22432958",
+    "22889924",
+    "22917203",
+    "22958744",
+    "23754400",
+    "24446506",
+    "24771252",
+    "25062598",
+    "25158072",
+    "25414812",
+    "25506544",
+    "27371487",
+    "27375425",
+    "27809572",
+    "27920671",
+    "28384010",
+    "28555406",
+    "29416498",
+    "42995839",
+    "42996864",
+    "42997457",
+    "42997792",
+    "42997938"
+  ],
+  "directed_historical_pubmed_ids": [
+    "42947547"
+  ],
+  "distinct_pubmed_ids_including_directed": 36,
+  "new_peer_reviewed_primary_publications": [],
+  "new_primary_evidence_records_proposed": 0,
+  "preprint_versions": 485,
+  "preprints": [
+    {
+      "server": "medrxiv",
+      "unique_doi_versions": 121,
+      "previous_scan_overlap_doi_versions": 92,
+      "not_in_previous_scan_doi_versions": 29,
+      "pagination_complete_for_observed_response": true,
+      "reported_totals": [
+        121
+      ],
+      "matches": []
+    },
+    {
+      "server": "biorxiv",
+      "unique_doi_versions": 364,
+      "previous_scan_overlap_doi_versions": 358,
+      "not_in_previous_scan_doi_versions": 6,
+      "pagination_complete_for_observed_response": true,
+      "reported_totals": [
+        364
+      ],
+      "matches": []
+    }
+  ],
+  "registry_core_unique": 7,
+  "registry_ids_changed": [],
+  "registry_supplement_unique": 1,
+  "registry_distinct_total": 8,
+  "registries_with_posted_results": [],
+  "core_request_count": 36,
+  "preprint_recovery_request_count": 3,
+  "initial_failed_requests": [
+    {
+      "url": "https://api.biorxiv.org/details/medrxiv/2026-11-06/2026-11-09/60",
+      "started_utc": "2026-11-09T02:39:13.876041+00:00",
+      "error": "HTTP Error 503: Service Unavailable",
+      "completed_utc": "2026-11-09T02:39:18.506582+00:00"
+    }
+  ],
+  "unresolved_recovery_errors": [],
+  "new_watched_treatment_official_warning_verified": false,
+  "interpretation": "No qualifying new-window primary publication, preprint, posted trial result or watched-treatment official warning verified. Bounded early-day surveillance, not absence or safety proof."
+}

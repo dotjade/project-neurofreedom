@@ -1,0 +1,28 @@
+{
+  "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=42947547&retmode=xml",
+  "started_utc": "2026-11-09T02:44:17.369802+00:00",
+  "status": 200,
+  "sha256": "f5a23a7c589c386419d937ca8cdab30bb8ba46916391b103fb1c6698ff71365a",
+  "bytes": 22319,
+  "metadata": {
+    "pmid": "42947547",
+    "title": "Reduced Sensory Attenuation Scales with Tic Severity in Tourette Syndrome.",
+    "dates": [
+      {
+        "DateType": "Electronic",
+        "Year": "2026",
+        "Month": "10",
+        "Day": "28"
+      }
+    ],
+    "publication_types": [
+      "Journal Article"
+    ],
+    "identifiers": {
+      "pubmed": "42947547",
+      "doi": "10.1002/mds.70590"
+    },
+    "linked_notices": []
+  },
+  "completed_utc": "2026-11-09T02:44:23.817557+00:00"
+}

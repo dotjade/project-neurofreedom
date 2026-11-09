@@ -1,0 +1,18 @@
+{
+  "checked_at_utc": "2026-11-09T02:58:54.059539+00:00",
+  "syntax": "passed",
+  "build": "passed",
+  "wrangler_deploy_dry_run": "passed",
+  "renderer_mutation_checks": 8,
+  "scan_checks": 51,
+  "measurement_checks": 46,
+  "measurement_manifest_hashes_checked": 7,
+  "independent_review_cleared_manifest_sha256": "34788ce574c88ac099520852995fc41cc0cc2c696b44e74a4a61a91aeb27c9e0",
+  "relative_markdown_links_valid": 26,
+  "limits": [
+    "No fresh rendered desktop/mobile/zoom/keyboard/narration test",
+    "Source, arithmetic and implementation checks are not clinical validation"
+  ],
+  "local_setup_note": "Initial local dependency/log checks could not write default home directories; writable temporary cache/configuration paths resolved those setup errors. No credentials or local deployment used.",
+  "integration_checks": 99
+}

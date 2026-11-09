@@ -1,0 +1,42 @@
+{
+  "description": "Corrected audit artifacts after separate source/method review; no repository write",
+  "revision_clock_observed": "2026-11-09T02:55:00Z",
+  "hash_algorithm": "sha256",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 1101,
+      "sha256": "3a50bf7f586903acd0e223483d6902e3851ed87bb5aec78c94c38da929c72ce8"
+    },
+    {
+      "path": "evidence-additions.jsonl",
+      "bytes": 14146,
+      "sha256": "489e066b0209f6826e173b19fa249cdfe9e782ed0bad4bf6ba7b21056387adec"
+    },
+    {
+      "path": "measurement-adequacy.json",
+      "bytes": 21420,
+      "sha256": "14a7cecbdc5c9cb67ea27024cdff47edc735cb250e95bb15bdaed2823fd14b95"
+    },
+    {
+      "path": "report.md",
+      "bytes": 12500,
+      "sha256": "9e6b87b3d5536f44fc7bd16f7596451aabd7ba1ee801a3002f47b16632e4224b"
+    },
+    {
+      "path": "search-ledger.json",
+      "bytes": 8855,
+      "sha256": "84fb774e883f0ed2ce53f2031112950ce26339e8962a1b0dc4678444d924b055"
+    },
+    {
+      "path": "validate.py",
+      "bytes": 4387,
+      "sha256": "b9340be5d3ecd96d860878a04b9f4f70a2afbe089a76f5f167480e20a18abb8a"
+    },
+    {
+      "path": "validation.json",
+      "bytes": 3960,
+      "sha256": "06b10db187f9d53c9c7f8be7a39f121a41e18a7b5b1cf1cec46fa5d2c94df7a9"
+    }
+  ]
+}

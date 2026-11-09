@@ -1,0 +1,70 @@
+{
+  "verified_utc": "2026-11-09T02:41:15.679615+00:00",
+  "repository_commit": "a68355a22f7de6e694ac4df29ad670983dd6c68f",
+  "sources": [
+    {
+      "path": "README.md",
+      "expected_git_blob": "4c3bafbd09ca4073d183cef267c746afa09147bf",
+      "computed_git_blob": "4c3bafbd09ca4073d183cef267c746afa09147bf",
+      "match": true,
+      "sha256": "6b1d997e495751f81c97048c86cd8864732cdd8313cc3d9363605bb4425721d2",
+      "bytes": 6425
+    },
+    {
+      "path": "RESEARCH_PROTOCOL.md",
+      "expected_git_blob": "d69c21b73447f7ad9df0a3949b7fcaf57dd5ddde",
+      "computed_git_blob": "d69c21b73447f7ad9df0a3949b7fcaf57dd5ddde",
+      "match": true,
+      "sha256": "6f0025df7fd62fc2fe952cfbca96fca811ae76b917b7e7d4d45a501fe89e6859",
+      "bytes": 10123
+    },
+    {
+      "path": "STATUS.md",
+      "expected_git_blob": "bd05d9bc1ca9a3f2a595be853a151abc658a3a21",
+      "computed_git_blob": "bd05d9bc1ca9a3f2a595be853a151abc658a3a21",
+      "match": true,
+      "sha256": "7f5010c61527b530ae151fffe25a18de6a397cdd89e544423193ef55e35dc9f3",
+      "bytes": 140352
+    },
+    {
+      "path": "evidence.jsonl",
+      "expected_git_blob": "3087cfc44d3695057113c4eacc2af21bd39471cd",
+      "computed_git_blob": "3087cfc44d3695057113c4eacc2af21bd39471cd",
+      "match": true,
+      "sha256": "c10d9a90409bc722f1236d77ec2754c264ed11330469cf118df1461460ffb375",
+      "bytes": 185406
+    },
+    {
+      "path": "public/journal-source/README.md",
+      "expected_git_blob": "b4b9c74518021f693122e959291dd3871d562215",
+      "computed_git_blob": "b4b9c74518021f693122e959291dd3871d562215",
+      "match": true,
+      "sha256": "809173b6459331730d4fd9b0df135079b1e8dfdb030f4babbfc0055fcec1197e",
+      "bytes": 8448
+    },
+    {
+      "path": "updates/2026-11-08/scan/search-log.json",
+      "expected_git_blob": "2bc2644dd684207c93cbbaa9ec6d4b349d0be44d",
+      "computed_git_blob": "2bc2644dd684207c93cbbaa9ec6d4b349d0be44d",
+      "match": true,
+      "sha256": "6a512866dbfb6c35821c4a287fce391fc9d758048dd740af16c6d263906cabfd",
+      "bytes": 152657
+    },
+    {
+      "path": "updates/2026-11-08/scan/registry-evidence.jsonl",
+      "expected_git_blob": "2f7d48cdf1103cc01ec8493df5fbf3a17e18b69d",
+      "computed_git_blob": "2f7d48cdf1103cc01ec8493df5fbf3a17e18b69d",
+      "match": true,
+      "sha256": "c8feba894725b6f7fa7779bcf55351cf9baffd345c57518833e5a6785e70f023",
+      "bytes": 8215
+    },
+    {
+      "path": "updates/2026-11-08/scan/summary.json",
+      "expected_git_blob": "9bdaf441abb49e7622339e68bd85d297a023cb38",
+      "computed_git_blob": "9bdaf441abb49e7622339e68bd85d297a023cb38",
+      "match": true,
+      "sha256": "1fb5b297f41dff6c546740b9d503e30c8c65556ef85807fccc6bab5d62bcec9e",
+      "bytes": 1536
+    }
+  ]
+}

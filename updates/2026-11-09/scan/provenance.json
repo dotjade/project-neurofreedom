@@ -1,0 +1,124 @@
+{
+  "date": "2026-11-09",
+  "packaged_utc": "2026-11-09T02:47:44.828964+00:00",
+  "repository_baseline_commit": "a68355a22f7de6e694ac4df29ad670983dd6c68f",
+  "scope": "Public-science metadata and original paraphrased summaries only. No empirical evidence additions proposed. No repository writes performed by scan worker.",
+  "execution_notes": "36 core requests, one initial HTTP503; three continuation requests recovered medRxiv. Two separate directed API requests succeeded. Raw full texts, abstract corpus and participant files are not retained in this deliverable.",
+  "files": [
+    {
+      "path": "report.md",
+      "bytes": 10839,
+      "sha256": "553a6c7eb7ffcd91f30f229f7d5a0062b8c35bc09d40c0bfd3b54f784eab699c"
+    },
+    {
+      "path": "baseline.json",
+      "bytes": 105338,
+      "sha256": "d4aa12c463fd1456193d5e774fc09c749c866bb576a9226e72c6b561db907b95"
+    },
+    {
+      "path": "baseline-verification.json",
+      "bytes": 2739,
+      "sha256": "c09787e5eb841e824120170e7f7d880d33fcf4f7f0591a5718db40eaf575218c"
+    },
+    {
+      "path": "search-log.json",
+      "bytes": 168211,
+      "sha256": "da0ec12b1381e50cb545b5b4291babac4503f97a53bda6f2d854d56f456c022f"
+    },
+    {
+      "path": "request-log.json",
+      "bytes": 15922,
+      "sha256": "58da18977a2db74c289b95dfe0f467bd05c10954727b6c91193210331b4f1ba3"
+    },
+    {
+      "path": "preprint-recovery.json",
+      "bytes": 8641,
+      "sha256": "9928fd9832ae6b017517157a05872965ff4b2b08c0d333c26740798bf9267853"
+    },
+    {
+      "path": "pubmed-screening.jsonl",
+      "bytes": 46780,
+      "sha256": "1c527619ed4e03cc8daf3e4da3be28d6c36024d71e8e09f17cd7c58ffa5b9aaa"
+    },
+    {
+      "path": "registry-evidence.jsonl",
+      "bytes": 9733,
+      "sha256": "d95f4a033cdf4dbbac35820274f6cba6e19d5690a9205f8e635d5beb069b6261"
+    },
+    {
+      "path": "biorxiv-preprint-index.tsv",
+      "bytes": 14550,
+      "sha256": "a884f14d0cd3b6732eb5afb9a99af4912984c2f82bf600389d1bcea6351580a0"
+    },
+    {
+      "path": "medrxiv-preprint-index.tsv",
+      "bytes": 5096,
+      "sha256": "12c5df614f91a040adcfb89c2ba20161118c7fa50cca34daee525442ddd05184"
+    },
+    {
+      "path": "summary.json",
+      "bytes": 2685,
+      "sha256": "7e607ab07ca3a7eb18adfae3bd583a0ec5b7f8cdc562e3cdc507537628b766bc"
+    },
+    {
+      "path": "safety-query-log.json",
+      "bytes": 1908,
+      "sha256": "927f4452d801e08383d835ed37c41a419627a51d226e171699129aa9ca7dfa5a"
+    },
+    {
+      "path": "safety-review.json",
+      "bytes": 2826,
+      "sha256": "24e7a52ebf59067c76afaad066d2606991f414c2c0822e4661378caffba6b52d"
+    },
+    {
+      "path": "discovery-log.json",
+      "bytes": 2033,
+      "sha256": "47590bd7e5963ca8a7ebcaac3bd403e3ee3bf3629a955af3e196e12ff1318c8a"
+    },
+    {
+      "path": "supplement-registry.json",
+      "bytes": 2176,
+      "sha256": "ccd858d995267bbea02899be310e17f9b0a8e5dbb3bee64e3cbc77b76a51cd32"
+    },
+    {
+      "path": "supplement-pubmed.json",
+      "bytes": 777,
+      "sha256": "a186049f505463cd0d4aaebd627bcb057b240a19a2575b75d0b58a02cc77ae54"
+    },
+    {
+      "path": "prior-supplement-registry.json",
+      "bytes": 2441,
+      "sha256": "6027682121f107be1577f831f72b0a21bea03c99240c478216a446e8c88b926a"
+    },
+    {
+      "path": "incidental-sensory-check.json",
+      "bytes": 1629,
+      "sha256": "a3c01ff0e37d58a2014d77a36da1c5c4b9f9f4cb8ad92f0d9fbca510cb3306b2"
+    },
+    {
+      "path": "scan_sources.py",
+      "bytes": 10501,
+      "sha256": "7f8266bb4cbfee951475c67a78b9734c6d5cdab1f4a63dd9a9b5cb9bf765c680"
+    },
+    {
+      "path": "recover_preprints.py",
+      "bytes": 1838,
+      "sha256": "0b8a65833e9422a886940b6fc6738d007df35c15d68310ad3661cb30b85ee7b1"
+    },
+    {
+      "path": "build_results.py",
+      "bytes": 5795,
+      "sha256": "b8eee7aa31e93ceb84999064419d7dd708c7b36b3f7c95d9fcf442c5188a0500"
+    },
+    {
+      "path": "validate.py",
+      "bytes": 4672,
+      "sha256": "6d3bce37d264102ebd24b08d42cf46fbda26a2ee4caa67701d873442bc8f1c2c"
+    },
+    {
+      "path": "validation.json",
+      "bytes": 4155,
+      "sha256": "20d9ef065e2a1f77929d87a48de3bd9cddd01e08a4fd48ee3a7fd29141d2c262"
+    }
+  ]
+}

@@ -1,0 +1,211 @@
+{
+  "passed": 51,
+  "failed": 0,
+  "scope": "Offline accounting and source consistency; not independent clinical/scientific validation.",
+  "checks": [
+    {
+      "check": "35 unique query records",
+      "passed": true
+    },
+    {
+      "check": "40 id occurrences",
+      "passed": true
+    },
+    {
+      "check": "query ID union matches metadata",
+      "passed": true
+    },
+    {
+      "check": "core_edat no truncation",
+      "passed": true
+    },
+    {
+      "check": "near_edat no truncation",
+      "passed": true
+    },
+    {
+      "check": "core_pdat no truncation",
+      "passed": true
+    },
+    {
+      "check": "core_mdat no truncation",
+      "passed": true
+    },
+    {
+      "check": "notice_edat no truncation",
+      "passed": true
+    },
+    {
+      "check": "syn_edat no truncation",
+      "passed": true
+    },
+    {
+      "check": "syn_pdat no truncation",
+      "passed": true
+    },
+    {
+      "check": "burden_treatment_edat no truncation",
+      "passed": true
+    },
+    {
+      "check": "all screening complete",
+      "passed": true
+    },
+    {
+      "check": "no new primary additions",
+      "passed": true
+    },
+    {
+      "check": "historical classes accounted",
+      "passed": true
+    },
+    {
+      "check": "date intervals",
+      "passed": true
+    },
+    {
+      "check": "cutoff matches baseline",
+      "passed": true
+    },
+    {
+      "check": "medrxiv unique index",
+      "passed": true
+    },
+    {
+      "check": "medrxiv stable total",
+      "passed": true
+    },
+    {
+      "check": "medrxiv complete",
+      "passed": true
+    },
+    {
+      "check": "medrxiv overlap accounting",
+      "passed": true
+    },
+    {
+      "check": "medrxiv no lexical match",
+      "passed": true
+    },
+    {
+      "check": "medrxiv date bounds",
+      "passed": true
+    },
+    {
+      "check": "biorxiv unique index",
+      "passed": true
+    },
+    {
+      "check": "biorxiv stable total",
+      "passed": true
+    },
+    {
+      "check": "biorxiv complete",
+      "passed": true
+    },
+    {
+      "check": "biorxiv overlap accounting",
+      "passed": true
+    },
+    {
+      "check": "biorxiv no lexical match",
+      "passed": true
+    },
+    {
+      "check": "biorxiv date bounds",
+      "passed": true
+    },
+    {
+      "check": "485 versions",
+      "passed": true
+    },
+    {
+      "check": "lexical positive controls",
+      "passed": true
+    },
+    {
+      "check": "lexical negative control",
+      "passed": true
+    },
+    {
+      "check": "single 503 retained",
+      "passed": true
+    },
+    {
+      "check": "recovered same failed page",
+      "passed": true
+    },
+    {
+      "check": "recovery complete without error",
+      "passed": true
+    },
+    {
+      "check": "39 core and recovery requests",
+      "passed": true
+    },
+    {
+      "check": "seven comparable registry watches",
+      "passed": true
+    },
+    {
+      "check": "NCT01019343 unchanged/no results",
+      "passed": true
+    },
+    {
+      "check": "NCT05158439 unchanged/no results",
+      "passed": true
+    },
+    {
+      "check": "NCT06194305 unchanged/no results",
+      "passed": true
+    },
+    {
+      "check": "NCT06678737 unchanged/no results",
+      "passed": true
+    },
+    {
+      "check": "NCT07093541 unchanged/no results",
+      "passed": true
+    },
+    {
+      "check": "NCT07137442 unchanged/no results",
+      "passed": true
+    },
+    {
+      "check": "NCT07905898 unchanged/no results",
+      "passed": true
+    },
+    {
+      "check": "four window queries zero",
+      "passed": true
+    },
+    {
+      "check": "eighth registry historical/no results",
+      "passed": true
+    },
+    {
+      "check": "directed paper old and unchanged",
+      "passed": true
+    },
+    {
+      "check": "36 distinct PubMed IDs",
+      "passed": true
+    },
+    {
+      "check": "eight source hashes verified",
+      "passed": true
+    },
+    {
+      "check": "four safety queries/nine pages",
+      "passed": true
+    },
+    {
+      "check": "no positive safety assertion",
+      "passed": true
+    },
+    {
+      "check": "sensory supplement unavailable not inferred",
+      "passed": true
+    }
+  ]
+}
