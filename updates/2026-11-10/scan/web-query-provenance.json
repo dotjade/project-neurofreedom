@@ -1,0 +1,101 @@
+{
+  "checked_date_utc": "2026-11-10",
+  "method": "Web-search discovery and direct web-reader page inspection; exact query strings retained below. No per-query or per-page timestamp was captured, so none is reconstructed. API timestamps are separately recorded in search-log.json.",
+  "queries": [
+    {
+      "query": "Tourette tic disorder study November 2026 after:2026-11-08",
+      "filters": "No separate domain or recency tool filter; restrictions, where present, are in the literal query."
+    },
+    {
+      "query": "site:clinicaltrials.gov Tourette \"2026-11-09\"",
+      "filters": "No separate domain or recency tool filter; restrictions, where present, are in the literal query."
+    },
+    {
+      "query": "site:pubmed.ncbi.nlm.nih.gov Tourette \"2026 Nov\"",
+      "filters": "No separate domain or recency tool filter; restrictions, where present, are in the literal query."
+    },
+    {
+      "query": "Tourette aripiprazole guanfacine ecopipam safety November 2026 FDA MHRA EMA",
+      "filters": "No separate domain or recency tool filter; restrictions, where present, are in the literal query."
+    },
+    {
+      "query": "site:fda.gov (aripiprazole OR guanfacine OR clonidine OR topiramate OR ecopipam OR pimozide) after:2026-11-08",
+      "filters": "No separate domain or recency tool filter; restrictions, where present, are in the literal query."
+    },
+    {
+      "query": "site:gov.uk/drug-safety-update (tic OR aripiprazole OR guanfacine OR topiramate) after:2026-11-08",
+      "filters": "No separate domain or recency tool filter; restrictions, where present, are in the literal query."
+    },
+    {
+      "query": "site:ema.europa.eu (aripiprazole OR guanfacine OR ecopipam) November 2026 safety",
+      "filters": "No separate domain or recency tool filter; restrictions, where present, are in the literal query."
+    },
+    {
+      "query": "Tourette tics preprint November 9 2026 medrxiv biorxiv arxiv",
+      "filters": "No separate domain or recency tool filter; restrictions, where present, are in the literal query."
+    },
+    {
+      "query": "(Tourette OR tic) (trial OR study) after:2026-11-08 site:isrctn.com",
+      "filters": "No separate domain or recency tool filter; restrictions, where present, are in the literal query."
+    },
+    {
+      "query": "(Tourette OR tic) after:2026-11-08 site:who.int",
+      "filters": "No separate domain or recency tool filter; restrictions, where present, are in the literal query."
+    },
+    {
+      "query": "(トゥレット OR チック) 試験 2026 11 site:umin.ac.jp",
+      "filters": "No separate domain or recency tool filter; restrictions, where present, are in the literal query."
+    },
+    {
+      "query": "(Tourette OR tic) after:2026-11-08 site:chictr.org.cn",
+      "filters": "No separate domain or recency tool filter; restrictions, where present, are in the literal query."
+    }
+  ],
+  "direct_pages": [
+    {
+      "url": "https://www.fda.gov/drugs/drug-safety-and-availability/drug-safety-communications",
+      "review": "Direct index inspected, including dated table. November 9 GLP-1 receptor agonist eye-risk labeling item outside watched tic-treatment scope."
+    },
+    {
+      "url": "https://www.fda.gov/medical-devices/medical-device-safety/safety-communications",
+      "review": "Direct index inspected. Latest visible item June 3, 2026; no qualifying new watched-treatment item."
+    },
+    {
+      "url": "https://www.gov.uk/drug-safety-update",
+      "review": "Direct index and dated result list inspected. Latest visible entry November 5, 2026, givinostat."
+    },
+    {
+      "url": "https://www.gov.uk/drug-device-alerts",
+      "review": "Direct index and dated result list inspected. Latest visible entries November 5, 2026; no qualifying watched-treatment item."
+    },
+    {
+      "url": "https://www.ema.europa.eu/en/news-events/whats-new",
+      "review": "Direct index inspected. November 9 entries visible; no watched treatment among inspected entries. Not all linked documents individually examined."
+    },
+    {
+      "url": "https://www.ema.europa.eu/en/human-regulatory-overview/post-authorisation/pharmacovigilance-post-authorisation/signal-management/prac-recommendations-safety-signals",
+      "review": "Direct index inspected. Latest listed PRAC signal recommendations first published October 26, 2026."
+    },
+    {
+      "url": "https://www.tga.gov.au/news/safety-updates",
+      "review": "Direct index inspected. Latest visible item October 14, 2026."
+    },
+    {
+      "url": "https://www.tga.gov.au/safety/safety-monitoring-and-information/safety-alerts",
+      "review": "Direct page retrieved; tool excerpt primarily exposed navigation. Do not claim full latest-alert-list coverage from this retrieval."
+    },
+    {
+      "url": "https://www.gov.uk/drug-device-alerts/mhra-safety-roundup-october-2026",
+      "review": "Direct landing-page dates inspected: published October 27, updated October 30. Search excerpt identified specified guanfacine prolonged-release licences with missing QT/QTc information; historical, not new-window warning."
+    }
+  ],
+  "decision": "No qualifying new watched-treatment official safety warning or new-window clinical result verified in these selected searches. Search results supplied historical leads and acronym matches, not proof of absence.",
+  "limitations": [
+    "English-heavy selected sources, with one Japanese discovery query.",
+    "Not exhaustive WHO ICTRP, ISRCTN, UMIN or ChiCTR database searches.",
+    "TGA alerts page latest-alert list not fully exposed in retrieved excerpt.",
+    "No exhaustive label review, pharmacovigilance review or new tic-guideline review.",
+    "Search crawl and third-party sync dates are not publication or registry-update dates.",
+    "Previous UMIN chronology uncertainty not resolved."
+  ]
+}

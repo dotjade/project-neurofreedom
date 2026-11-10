@@ -1,0 +1,112 @@
+[
+  {
+    "path": "README.md",
+    "file": "README.md",
+    "connectorBlobSha": "4c3bafbd09ca4073d183cef267c746afa09147bf",
+    "sourceUrl": "https://github.com/dotjade/project-neurofreedom/blob/095c568b21ba8171867c7324f24548d0ee8617bc/README.md",
+    "checkedAt": "2026-11-10T03:26:03.253Z",
+    "bytes": 6425,
+    "sha256": "6b1d997e495751f81c97048c86cd8864732cdd8313cc3d9363605bb4425721d2",
+    "matchesGitBlob": true
+  },
+  {
+    "path": "RESEARCH_PROTOCOL.md",
+    "file": "RESEARCH_PROTOCOL.md",
+    "connectorBlobSha": "d69c21b73447f7ad9df0a3949b7fcaf57dd5ddde",
+    "sourceUrl": "https://github.com/dotjade/project-neurofreedom/blob/095c568b21ba8171867c7324f24548d0ee8617bc/RESEARCH_PROTOCOL.md",
+    "checkedAt": "2026-11-10T03:26:05.323Z",
+    "bytes": 10123,
+    "sha256": "6f0025df7fd62fc2fe952cfbca96fca811ae76b917b7e7d4d45a501fe89e6859",
+    "matchesGitBlob": true
+  },
+  {
+    "path": "STATUS.md",
+    "file": "STATUS.md",
+    "connectorBlobSha": "c8c35098cd1d564cf4a5a253bb807c80a24b269d",
+    "sourceUrl": "https://github.com/dotjade/project-neurofreedom/blob/095c568b21ba8171867c7324f24548d0ee8617bc/STATUS.md",
+    "checkedAt": "2026-11-10T03:26:08.121Z",
+    "bytes": 144085,
+    "sha256": "2315571988b5d316ff2e068d88ad0e0dcd33a926a63d8510290f88aeed41398c",
+    "matchesGitBlob": true
+  },
+  {
+    "path": "public/UPDATE_WORKFLOW.md",
+    "file": "public_UPDATE_WORKFLOW.md",
+    "connectorBlobSha": "80ba2e9ae8fb029e51248fbac681f350b928dd78",
+    "sourceUrl": "https://github.com/dotjade/project-neurofreedom/blob/095c568b21ba8171867c7324f24548d0ee8617bc/public/UPDATE_WORKFLOW.md",
+    "checkedAt": "2026-11-10T03:26:09.911Z",
+    "bytes": 4552,
+    "sha256": "f9d9a9b17bfbb06c8b075abad60495b9aeef58c96e768ea3d56a3d47c29a2d3f",
+    "matchesGitBlob": true
+  },
+  {
+    "path": "public/journal-source/README.md",
+    "file": "public_journal-source_README.md",
+    "connectorBlobSha": "b4b9c74518021f693122e959291dd3871d562215",
+    "sourceUrl": "https://github.com/dotjade/project-neurofreedom/blob/095c568b21ba8171867c7324f24548d0ee8617bc/public/journal-source/README.md",
+    "checkedAt": "2026-11-10T03:26:11.603Z",
+    "bytes": 8448,
+    "sha256": "809173b6459331730d4fd9b0df135079b1e8dfdb030f4babbfc0055fcec1197e",
+    "matchesGitBlob": true
+  },
+  {
+    "path": "public/journal-source/index.html",
+    "file": "public_journal-source_index.html",
+    "connectorBlobSha": "aff3c1dc18b6badb1600fd070db03287fe5e6404",
+    "sourceUrl": "https://github.com/dotjade/project-neurofreedom/blob/095c568b21ba8171867c7324f24548d0ee8617bc/public/journal-source/index.html",
+    "checkedAt": "2026-11-10T03:26:14.186Z",
+    "bytes": 37879,
+    "sha256": "f6a6cc9ac0415db5f7bbbc0b8afd89ed63f68c11135f06958ff2e73ed5e7e15f",
+    "matchesGitBlob": true
+  },
+  {
+    "path": "public/journal-source/journal.js",
+    "file": "public_journal-source_journal.js",
+    "connectorBlobSha": "0903e830fc3fb08cde07e0ebce0a7ca57970a769",
+    "sourceUrl": "https://github.com/dotjade/project-neurofreedom/blob/095c568b21ba8171867c7324f24548d0ee8617bc/public/journal-source/journal.js",
+    "checkedAt": "2026-11-10T03:26:16.276Z",
+    "bytes": 18239,
+    "sha256": "c5c9b7fd6acb92d1adbd33ef78aeda13792ea9523ecd0c873fc228c61fb5e850",
+    "matchesGitBlob": true
+  },
+  {
+    "path": "public/journal-source/research-feed.json",
+    "file": "public_journal-source_research-feed.json",
+    "connectorBlobSha": "9327e3ecb0b9c98ef221ae39e794acfc09515cd5",
+    "sourceUrl": "https://github.com/dotjade/project-neurofreedom/blob/095c568b21ba8171867c7324f24548d0ee8617bc/public/journal-source/research-feed.json",
+    "checkedAt": "2026-11-10T03:26:18.017Z",
+    "bytes": 7735,
+    "sha256": "a107b8f96a27e25155818ecdad33dcaa46d27ca10d9e9bf8640b296789d7efe0",
+    "matchesGitBlob": true
+  },
+  {
+    "path": "public/journal-source/feedback-config.json",
+    "file": "public_journal-source_feedback-config.json",
+    "connectorBlobSha": "1bafbe8b8743aa88610f67c73765f247d6c0ef63",
+    "sourceUrl": "https://github.com/dotjade/project-neurofreedom/blob/095c568b21ba8171867c7324f24548d0ee8617bc/public/journal-source/feedback-config.json",
+    "checkedAt": "2026-11-10T03:26:19.675Z",
+    "bytes": 66,
+    "sha256": "921c0e74bdcdb85c79c11bd2e7d9fa3b8fdfcb12fd74114c3a51a659f3cde133",
+    "matchesGitBlob": true
+  },
+  {
+    "path": "public/journal-source/worker.js",
+    "file": "public_journal-source_worker.js",
+    "connectorBlobSha": "b15ddf4eb9f5a9b950e0214482fb283d467946cd",
+    "sourceUrl": "https://github.com/dotjade/project-neurofreedom/blob/095c568b21ba8171867c7324f24548d0ee8617bc/public/journal-source/worker.js",
+    "checkedAt": "2026-11-10T03:26:21.432Z",
+    "bytes": 1867,
+    "sha256": "5d50da870ee3ff0474c8392e0b26854171c4303f317d3f5e7de9349440f4e2d5",
+    "matchesGitBlob": true
+  },
+  {
+    "path": "public/research-feed.json",
+    "file": "connector-feed.json",
+    "connectorBlobSha": "5df6d9c650eb4356a689d9fe8bf4dab16de9d380",
+    "sourceUrl": "https://github.com/dotjade/project-neurofreedom/blob/095c568b21ba8171867c7324f24548d0ee8617bc/public/research-feed.json",
+    "checkedAt": "2026-11-10T03:26:23.590Z",
+    "bytes": 17105,
+    "sha256": "78b78b7618c9aef03d76f10f501b841667dca697888aadfcd55b2fea5e87a84b",
+    "matchesGitBlob": true
+  }
+]

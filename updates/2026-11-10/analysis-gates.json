@@ -1,0 +1,52 @@
+{
+  "date": "2026-11-10",
+  "baseline_commit": "095c568b21ba8171867c7324f24548d0ee8617bc",
+  "evidence_type": "Research feasibility decision, not a new clinical result or simulation",
+  "rows": [
+    {
+      "gate": "H18 measurement and transfer",
+      "prior_report": "analyses/h18_measurement/2026-11-09/report.md",
+      "required_inputs": [
+        "A specific aggregate calibration/invariance result that bounds systematic reporting change across the relevant intervention or context, with an identifying restriction for urge generation versus action control.",
+        "Compatible within-participant covariance, outcome-specific denominators, timing and missingness for a randomized transfer or strategy contrast.",
+        "Direct function, effort, pain, participation and harms outcomes, with severe-adult applicability kept separate."
+      ],
+      "not_sufficient": [
+        "Reliability, inter-rater agreement or correlation alone",
+        "More repeated observations in the same unidentified model",
+        "A trained-tic total score as a reserved-tic or untrained-context outcome"
+      ],
+      "decision": "Retain proposed/unidentified status; fixed six-source audit and synthetic experiment remain closed."
+    },
+    {
+      "gate": "H15 group-map spatial specificity",
+      "prior_report": "analyses/network_provenance/2026-11-05/report.md",
+      "required_inputs": [
+        "Exact group-only CAREN_GTSMAP atlas/table and SCAN/CON masks with public reuse terms and hashes.",
+        "Final-publication version mapping, compatible spatial transforms and a defensible common brain domain.",
+        "Prespecified spatially constrained nulls and alternate reasonable masks before examining the contrast."
+      ],
+      "not_sufficient": [
+        "A convenient substitute atlas",
+        "Standard software license as blanket rights for third-party imaging",
+        "Voxels treated as independent people"
+      ],
+      "decision": "No spatial-null analysis or target ranking; bounded provenance search remains closed."
+    },
+    {
+      "gate": "Adult direct function and driving missingness",
+      "prior_report": "analyses/canna_driving/2026-11-03/report.md",
+      "required_inputs": [
+        "Lawful participant-free methods/tables with observed endpoint counts, paired transitions, imputation and ITT/per-protocol definitions.",
+        "Compatible adjusted estimates and intervals, with the upstream confirmatory hierarchy retained.",
+        "Direct road-safety or daily-function outcomes for claims extending beyond the selected short computerized assessment."
+      ],
+      "not_sufficient": [
+        "Percentage-compatible denominators treated as verified completer counts",
+        "A confidence interval numerically clearing a margin after the upstream test failed",
+        "An administrative registry amendment as a new result"
+      ],
+      "decision": "Do not calculate missingness bounds from assumed denominators; fixed abstract/hierarchy audit remains closed."
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "checked_at_utc": "2026-11-10T03:30:26.882782+00:00",
+  "checks_passed": 22,
+  "checks": [
+    "schema preserved",
+    "six unchanged activities",
+    "feedback unchanged disabled",
+    "dates truthful",
+    "timestamps not future",
+    "24 timeline entries",
+    "timeline history preserved",
+    "new report exists",
+    "ordered dates",
+    "allowed activity",
+    "no em dash",
+    "three explicit gates",
+    "H18 measurement and transfer prior exists",
+    "H18 measurement and transfer inputs explicit",
+    "H15 group-map spatial specificity prior exists",
+    "H15 group-map spatial specificity inputs explicit",
+    "Adult direct function and driving missingness prior exists",
+    "Adult direct function and driving missingness inputs explicit",
+    "no computation claim",
+    "49 PubMed",
+    "812 preprint versions",
+    "all JSON parses"
+  ],
+  "scope": "Offline content/accounting checks; not independent source verification or clinical validation.",
+  "additional_checks": {
+    "source_feed_validator": true,
+    "syntax_check": true,
+    "build": true,
+    "wrangler_dry_run": true,
+    "dry_run_initial_limitation": "Default Wrangler log/config path missing; rerun with a writable temporary XDG_CONFIG_HOME succeeded. No deployment or credential change was made."
+  }
+}

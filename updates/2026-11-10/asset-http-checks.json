@@ -1,0 +1,38 @@
+[
+  {
+    "url": "https://tourette.fyi/journal.js",
+    "checkedAt": "2026-11-10T03:26:57.313804+00:00",
+    "method": "ordinary anonymous curl GET with redirects; no credentials, custom agent, security override or bypass",
+    "curlExitCode": 0,
+    "error": null,
+    "httpStatus": 200,
+    "finalUrl": "https://tourette.fyi/journal.js",
+    "contentType": "text/javascript",
+    "bytes": 18239,
+    "sha256": "c5c9b7fd6acb92d1adbd33ef78aeda13792ea9523ecd0c873fc228c61fb5e850"
+  },
+  {
+    "url": "https://tourette.fyi/research-feed.json",
+    "checkedAt": "2026-11-10T03:27:02.222149+00:00",
+    "method": "ordinary anonymous curl GET with redirects; no credentials, custom agent, security override or bypass",
+    "curlExitCode": 0,
+    "error": null,
+    "httpStatus": 200,
+    "finalUrl": "https://tourette.fyi/research-feed.json",
+    "contentType": "application/json",
+    "bytes": 17105,
+    "sha256": "78b78b7618c9aef03d76f10f501b841667dca697888aadfcd55b2fea5e87a84b"
+  },
+  {
+    "url": "https://tourette.fyi/feedback-config.json",
+    "checkedAt": "2026-11-10T03:27:06.733856+00:00",
+    "method": "ordinary anonymous curl GET with redirects; no credentials, custom agent, security override or bypass",
+    "curlExitCode": 0,
+    "error": null,
+    "httpStatus": 200,
+    "finalUrl": "https://tourette.fyi/feedback-config.json",
+    "contentType": "application/json",
+    "bytes": 66,
+    "sha256": "921c0e74bdcdb85c79c11bd2e7d9fa3b8fdfcb12fd74114c3a51a659f3cde133"
+  }
+]

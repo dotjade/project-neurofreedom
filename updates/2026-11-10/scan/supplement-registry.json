@@ -1,0 +1,154 @@
+[
+  {
+    "url": "https://clinicaltrials.gov/api/v2/studies/NCT07839377?fields=NCTId%2CBriefTitle%2CStatusModule%2CDesignModule%2CCondition%2CMinimumAge%2CMaximumAge%2CStdAge%2CHasResults",
+    "checked_utc": "2026-11-10T03:27:33.527091+00:00",
+    "sha256": "3d04d062ad79f84bde24d696837bcf6387b0a8f9a51eccaf8f67a224f740d408",
+    "data": {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT07839377",
+          "briefTitle": "Teen and Adult Tic TMS Study"
+        },
+        "statusModule": {
+          "statusVerifiedDate": "2026-09",
+          "overallStatus": "RECRUITING",
+          "expandedAccessInfo": {
+            "hasExpandedAccess": false
+          },
+          "startDateStruct": {
+            "date": "2026-06-01",
+            "type": "ACTUAL"
+          },
+          "primaryCompletionDateStruct": {
+            "date": "2028-06",
+            "type": "ESTIMATED"
+          },
+          "completionDateStruct": {
+            "date": "2028-10",
+            "type": "ESTIMATED"
+          },
+          "studyFirstSubmitDate": "2026-09-14",
+          "studyFirstSubmitQcDate": "2026-09-18",
+          "studyFirstPostDateStruct": {
+            "date": "2026-09-24",
+            "type": "ACTUAL"
+          },
+          "lastUpdateSubmitDate": "2026-09-18",
+          "lastUpdatePostDateStruct": {
+            "date": "2026-09-24",
+            "type": "ACTUAL"
+          }
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Tic Disorder"
+          ]
+        },
+        "designModule": {
+          "studyType": "INTERVENTIONAL",
+          "phases": [
+            "NA"
+          ],
+          "designInfo": {
+            "allocation": "RANDOMIZED",
+            "interventionModel": "PARALLEL",
+            "primaryPurpose": "TREATMENT",
+            "maskingInfo": {
+              "masking": "NONE"
+            }
+          },
+          "enrollmentInfo": {
+            "count": 40,
+            "type": "ESTIMATED"
+          }
+        },
+        "eligibilityModule": {
+          "minimumAge": "15 Years",
+          "maximumAge": "35 Years",
+          "stdAges": [
+            "CHILD",
+            "ADULT"
+          ]
+        }
+      },
+      "hasResults": false
+    }
+  },
+  {
+    "url": "https://clinicaltrials.gov/api/v2/studies/NCT06825520?fields=NCTId%2CBriefTitle%2CStatusModule%2CDesignModule%2CCondition%2CMinimumAge%2CMaximumAge%2CStdAge%2CHasResults",
+    "checked_utc": "2026-11-10T03:27:37.467280+00:00",
+    "sha256": "9f88835061c1f31ffdb4a6b81d9a585d8a532179d509f728ef6ba36502a21676",
+    "data": {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT06825520",
+          "briefTitle": "Investigating Changes in Premonitory Urges During Habit Reversal Training for Tics"
+        },
+        "statusModule": {
+          "statusVerifiedDate": "2025-05",
+          "overallStatus": "RECRUITING",
+          "expandedAccessInfo": {
+            "hasExpandedAccess": false
+          },
+          "startDateStruct": {
+            "date": "2025-02-11",
+            "type": "ACTUAL"
+          },
+          "primaryCompletionDateStruct": {
+            "date": "2025-07",
+            "type": "ESTIMATED"
+          },
+          "completionDateStruct": {
+            "date": "2026-05",
+            "type": "ESTIMATED"
+          },
+          "studyFirstSubmitDate": "2025-02-05",
+          "studyFirstSubmitQcDate": "2025-02-11",
+          "studyFirstPostDateStruct": {
+            "date": "2025-02-13",
+            "type": "ACTUAL"
+          },
+          "lastUpdateSubmitDate": "2025-05-21",
+          "lastUpdatePostDateStruct": {
+            "date": "2025-05-28",
+            "type": "ACTUAL"
+          }
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Tics",
+            "Tourette Disorder",
+            "Tourette Syndrome in Children",
+            "Tourette Syndrome in Adolescence"
+          ]
+        },
+        "designModule": {
+          "studyType": "INTERVENTIONAL",
+          "phases": [
+            "NA"
+          ],
+          "designInfo": {
+            "allocation": "NA",
+            "interventionModel": "SINGLE_GROUP",
+            "primaryPurpose": "BASIC_SCIENCE",
+            "maskingInfo": {
+              "masking": "NONE"
+            }
+          },
+          "enrollmentInfo": {
+            "count": 6,
+            "type": "ESTIMATED"
+          }
+        },
+        "eligibilityModule": {
+          "minimumAge": "8 Years",
+          "maximumAge": "17 Years",
+          "stdAges": [
+            "CHILD"
+          ]
+        }
+      },
+      "hasResults": false
+    }
+  }
+]

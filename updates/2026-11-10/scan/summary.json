@@ -1,0 +1,172 @@
+{
+  "started_utc": "2026-11-10T03:25:17.782452+00:00",
+  "completed_utc": "2026-11-10T03:27:55.287498+00:00",
+  "query_counts": [
+    [
+      "core_edat",
+      2
+    ],
+    [
+      "near_edat",
+      2
+    ],
+    [
+      "core_pdat",
+      0
+    ],
+    [
+      "core_mdat",
+      46
+    ],
+    [
+      "notice_edat",
+      0
+    ],
+    [
+      "syn_edat",
+      3
+    ],
+    [
+      "syn_pdat",
+      0
+    ],
+    [
+      "burden_treatment_edat",
+      1
+    ]
+  ],
+  "unique_pubmed_records": 49,
+  "preprints": [
+    {
+      "server": "medrxiv",
+      "interval": [
+        "2026-11-06",
+        "2026-11-10"
+      ],
+      "matches": [],
+      "screen_regex": "\\btourett\\w*|\\btics?\\b",
+      "screen_fields": "title and abstract",
+      "pagination_complete_for_observed_response": true,
+      "total_returned": 195,
+      "unique_doi_versions": 195,
+      "previous_scan_overlap_doi_versions": 60,
+      "not_in_previous_scan_doi_versions": 135,
+      "reported_totals": [
+        194,
+        195
+      ],
+      "corrected_previous_overlap": 121,
+      "corrected_not_in_prior_index": 74
+    },
+    {
+      "server": "biorxiv",
+      "interval": [
+        "2026-11-06",
+        "2026-11-10"
+      ],
+      "matches": [],
+      "screen_regex": "\\btourett\\w*|\\btics?\\b",
+      "screen_fields": "title and abstract",
+      "pagination_complete_for_observed_response": true,
+      "total_returned": 617,
+      "unique_doi_versions": 617,
+      "previous_scan_overlap_doi_versions": 364,
+      "not_in_previous_scan_doi_versions": 253,
+      "reported_totals": [
+        617
+      ],
+      "corrected_previous_overlap": 364,
+      "corrected_not_in_prior_index": 253
+    }
+  ],
+  "registry_query_results": [
+    {
+      "label": "ct_tourette",
+      "params": {
+        "query.cond": "Tourette",
+        "filter.advanced": "AREA[LastUpdatePostDate]RANGE[2026-11-08,2026-11-10]",
+        "pageSize": 100,
+        "format": "json",
+        "countTotal": "true",
+        "fields": "NCTId,BriefTitle,StatusModule,DesignModule,Condition,MinimumAge,MaximumAge,StdAge,HasResults"
+      },
+      "response": {
+        "totalCount": 1,
+        "nct_ids": [
+          "NCT01019343"
+        ],
+        "nextPageToken": null
+      }
+    },
+    {
+      "label": "ct_tic_disorder",
+      "params": {
+        "query.cond": "tic disorder",
+        "filter.advanced": "AREA[LastUpdatePostDate]RANGE[2026-11-08,2026-11-10]",
+        "pageSize": 100,
+        "format": "json",
+        "countTotal": "true",
+        "fields": "NCTId,BriefTitle,StatusModule,DesignModule,Condition,MinimumAge,MaximumAge,StdAge,HasResults"
+      },
+      "response": {
+        "totalCount": 2,
+        "nct_ids": [
+          "NCT07137442",
+          "NCT01019343"
+        ],
+        "nextPageToken": null
+      }
+    },
+    {
+      "label": "ct_tics",
+      "params": {
+        "query.cond": "Tics",
+        "filter.advanced": "AREA[LastUpdatePostDate]RANGE[2026-11-08,2026-11-10]",
+        "pageSize": 100,
+        "format": "json",
+        "countTotal": "true",
+        "fields": "NCTId,BriefTitle,StatusModule,DesignModule,Condition,MinimumAge,MaximumAge,StdAge,HasResults"
+      },
+      "response": {
+        "totalCount": 2,
+        "nct_ids": [
+          "NCT07137442",
+          "NCT01019343"
+        ],
+        "nextPageToken": null
+      }
+    },
+    {
+      "label": "ct_ecopipam",
+      "params": {
+        "query.term": "ecopipam",
+        "filter.advanced": "AREA[LastUpdatePostDate]RANGE[2026-11-08,2026-11-10]",
+        "pageSize": 100,
+        "format": "json",
+        "countTotal": "true",
+        "fields": "NCTId,BriefTitle,StatusModule,DesignModule,Condition,MinimumAge,MaximumAge,StdAge,HasResults"
+      },
+      "response": {
+        "totalCount": 0,
+        "nct_ids": [],
+        "nextPageToken": null
+      }
+    }
+  ],
+  "watched_registry_changes": {
+    "NCT01019343": [
+      "status"
+    ],
+    "NCT05158439": [],
+    "NCT06194305": [],
+    "NCT06678737": [],
+    "NCT07093541": [],
+    "NCT07137442": [
+      "status"
+    ],
+    "NCT07905898": []
+  },
+  "request_errors": [],
+  "worker_errors": [],
+  "remaining_screening": []
+}

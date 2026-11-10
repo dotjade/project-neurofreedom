@@ -1,6 +1,6 @@
 # Project NeuroFreedom status
 
-Updated 9 November 2026. Initial portfolio, thirty-two completed daily updates, five completed weekly syntheses and one monthly review. Public evidence repository and journal launched 13 October.
+Updated 10 November 2026. Initial portfolio, thirty-three completed daily updates, five completed weekly syntheses and one monthly review. Public evidence repository and journal launched 13 October.
 
 ## Completed in this first pass
 
@@ -14,7 +14,7 @@ Updated 9 November 2026. Initial portfolio, thirty-two completed daily updates, 
 
 ## Enabled research schedules
 
-The user approved the following automatic public-science research and repository updates on 8 October 2026. Each schedule was created successfully and returned enabled status. Daily runs were completed on 9-31 October and 1-9 November 2026; weekly syntheses were completed on 11, 18 and 25 October and 1 and 8 November; the first monthly review was completed on 1 November; the first quarterly run remains unverified.
+The user approved the following automatic public-science research and repository updates on 8 October 2026. Each schedule was created successfully and returned enabled status. Daily runs were completed on 9-31 October and 1-10 November 2026; weekly syntheses were completed on 11, 18 and 25 October and 1 and 8 November; the first monthly review was completed on 1 November; the first quarterly run remains unverified.
 
 - Daily new-evidence checks: from 9 October 2026, approximately 08:00 India time.
 - Weekly synthesis: Sundays, from 11 October 2026, approximately 09:00 India time.
@@ -843,3 +843,12 @@ Research commit [b08911a4285f1b9c6edb28902bfcf7e7f2de8d94](https://github.com/do
 [Actions run 42556358171](https://github.com/dotjade/project-neurofreedom/actions/runs/42556358171) completed successfully for that exact research commit, including syntax/build, deployment dry-run, publication and public-route checks. After the 120-second cache interval, production readback at 03:27:56 UTC returned HTTP 200, repository source and exact bytes with updatedAt 2026-11-09T02:58:10Z. Both new report URLs returned HTTP 200 with expected paths. The [receipt](updates/2026-11-09/publication-verification.json) records actual checks and the recovered initial publication attempt.
 
 All six approved activities remain unchanged, rest-or-leave is selected, and collection remains off. No fresh rendered accessibility or narration test is claimed. Older static fallback and next-question copy remain known limitations. The research manifest covers the snapshot before this receipt and final status addition. This verification-only follow-up changes no feed, deployment input or scientific result.
+
+
+## Completed daily research update - 10 November 2026
+
+The [daily report](updates/2026-11-10/report.md) records no qualifying new-window primary publication, preprint, posted trial result or watched-treatment official warning in a bounded scan of 49 PubMed records, 812 preprint DOI/versions and watched registries. Two administrative registry updates do not establish efficacy or a new result. Mutable pagination and source/coverage limits remain visible.
+
+The [analysis-feasibility decision](updates/2026-11-10/analysis-feasibility.md) records no new reanalysis or computation: no changed safe input satisfies the closed H18 measurement/transfer, H15 provenance or adult direct-function/missingness gates. Their exact prerequisites remain explicit; no repeated simulation or fabricated clinical result is substituted. Continue surveillance and reopen only for a relevant verified input. No owner action, personal data, contact, intervention or paid resource is needed.
+
+The journal preserves 24 entries and six unchanged optional activities, selecting hand-at-ease. Collection remains disabled. The link ledger distinguishes 38 retrievable and eight access-limited baseline scientific URLs, with no established broken research citation; a separate ancillary favicon 404 is recorded. Remote/CI/live verification follows publication. No fresh rendered accessibility test is claimed.

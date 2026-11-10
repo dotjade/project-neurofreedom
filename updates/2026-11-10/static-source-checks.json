@@ -1,0 +1,24 @@
+{
+  "checkedAt": "2026-11-10T03:28:25.057403+00:00",
+  "remoteHead": "095c568b21ba8171867c7324f24548d0ee8617bc",
+  "samePageAnchors": [
+    {
+      "href": "#main",
+      "targetExists": true
+    },
+    {
+      "href": "#what-is-tourette",
+      "targetExists": true
+    }
+  ],
+  "canonicalIntroductionAnchorExists": true,
+  "faviconReferencePresent": true,
+  "faviconPathsAtHead": [],
+  "faviconConclusion": "Live homepage references favicon.svg; ordinary direct GET returned empty HTTP 404; exact Git tree contains no favicon path. Confirmed missing linked icon asset in this check, not a broken research source.",
+  "activityFoodFieldsAbsent": true,
+  "reflectionClearsRestoredPageshow": true,
+  "htmlNoJavaScriptResearchDate": "13 October 2026",
+  "htmlActivitySelection": "Selection: 13 October 2026",
+  "staticNextQuestionStillOnlineTics": true,
+  "scope": "Source/HTTP review only. No browser rendering, QR decoding, keyboard, zoom, accessibility or clinical safety certification."
+}
