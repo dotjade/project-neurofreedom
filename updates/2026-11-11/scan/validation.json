@@ -1,0 +1,20 @@
+{
+  "checks": {
+    "pubmed_counts_match": true,
+    "pubmed_unique_match": true,
+    "pubmed_no_new_entry_or_pdat": true,
+    "no_errors": true,
+    "all_core_requests_200": true,
+    "preprint_totals": true,
+    "preprint_lexical_controls": true,
+    "preprint_no_matches": true,
+    "preprint_overlap": true,
+    "no_posted_ctgov_results": true,
+    "ctgov_distinct_count": true,
+    "no_selected_change_except_07137442": true,
+    "web_query_count": true,
+    "metadata_only_json": true
+  },
+  "all_pass": true,
+  "limitations": "Consistency checks of saved metadata, not independent source verification or clinical peer review."
+}

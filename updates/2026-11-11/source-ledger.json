@@ -1,0 +1,63 @@
+{
+  "recorded_at_utc": "2026-11-11T03:16:27.999104+00:00",
+  "baseline_commit": "f6391480c4ac6249e8a9efc03ceb792e604f6299",
+  "scope": "Existing repository sources read to define the reopening decision, not newly retrieved primary papers. evidence.jsonl was inspected for directly relevant driving, network, Reese and Matsuda records.",
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "6b1d997e495751f81c97048c86cd8864732cdd8313cc3d9363605bb4425721d2"
+    },
+    {
+      "path": "RESEARCH_PROTOCOL.md",
+      "sha256": "6f0025df7fd62fc2fe952cfbca96fca811ae76b917b7e7d4d45a501fe89e6859"
+    },
+    {
+      "path": "STATUS.md",
+      "sha256": "e9f416735bf276f05adc19b881f8239936b5d4e15b7293291a81a16cbb8f5650"
+    },
+    {
+      "path": "evidence.jsonl",
+      "sha256": "42fac2d666454f6e7b7f9d09410c594b9894523e16b104a58cbf7b211416b846"
+    },
+    {
+      "path": "public/journal-source/README.md",
+      "sha256": "809173b6459331730d4fd9b0df135079b1e8dfdb030f4babbfc0055fcec1197e"
+    },
+    {
+      "path": "public/UPDATE_WORKFLOW.md",
+      "sha256": "f9d9a9b17bfbb06c8b075abad60495b9aeef58c96e768ea3d56a3d47c29a2d3f"
+    },
+    {
+      "path": "updates/2026-11-08-weekly-synthesis.md",
+      "sha256": "ff5ff09cbe9df1e8fdc883d9bc7398f6ff4e6d898ee53adfa1ad3a6240e48725"
+    },
+    {
+      "path": "updates/2026-11-10/report.md",
+      "sha256": "8ee78bdc7c6cce9a5ea36d7b511f1c63f3f2c54dcb2cbaff90aaf7285a8b3c34"
+    },
+    {
+      "path": "updates/2026-11-10/analysis-plan.md",
+      "sha256": "cd4f0e3247bad9be2055a52f95423442525006c38b04192fbff0c77dce27f9e8"
+    },
+    {
+      "path": "updates/2026-11-10/analysis-feasibility.md",
+      "sha256": "4e517465e487c46a541b817ae2819f52e6887b853637d2c57356a121f476e8f6"
+    },
+    {
+      "path": "updates/2026-11-10/analysis-gates.json",
+      "sha256": "7dc12d10c443c9b08416a2bf411d2a761dd9e4725e3c568be96a9ca561b3ed76"
+    },
+    {
+      "path": "analyses/h18_measurement/2026-11-09/report.md",
+      "sha256": "9e6b87b3d5536f44fc7bd16f7596451aabd7ba1ee801a3002f47b16632e4224b"
+    },
+    {
+      "path": "analyses/network_provenance/2026-11-05/report.md",
+      "sha256": "7abe836eba8a821fba43e0f409c9c8d63c86e57efcbe2dc2835eaf39a2d2a976"
+    },
+    {
+      "path": "analyses/canna_driving/2026-11-03/report.md",
+      "sha256": "8a9cbb44c9a6d4addafad341fa161e0171306d64d193e3bad351f7c68ddee073"
+    }
+  ]
+}

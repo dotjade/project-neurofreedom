@@ -1,0 +1,35 @@
+[
+  {
+    "url": "https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2026.2006073/full",
+    "classification": "Narrative review; publisher date 2026-11-09, newly discovered this run but before prior cutoff. Not primary evidence.",
+    "identifiers": [
+      "doi:10.3389/fimmu.2026.2006073"
+    ],
+    "details": "Targeted narrative synthesis, no systematic-screening counts. Does not establish pediatric immune-mediated causal mechanisms or immune-targeted treatment."
+  },
+  {
+    "url": "https://pubmed.ncbi.nlm.nih.gov/36738982/",
+    "classification": "Historical primary GWAS; electronic publication 2023-02-02, print 2024-07-15. Repository PDF search timestamp is not new publication.",
+    "identifiers": [
+      "PMID:36738982",
+      "doi:10.1016/j.biopsych.2023.01.023"
+    ]
+  },
+  {
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42425918/",
+    "classification": "Historical primary cohort; electronic publication 2026-07-09, November issue date. Not new-window publication.",
+    "identifiers": [
+      "PMID:42425918",
+      "doi:10.1002/eat.70171"
+    ]
+  },
+  {
+    "url": "https://center6.umin.ac.jp/cgi-open-bin/ctr_e/ctr_view.cgi?recptno=R000071959",
+    "classification": "Official UMIN current detail snapshot; UMIN000063483; last modified 2026-11-02 06:17:56, disclosed 2026-10-31, status field Open public recruiting, results Unpublished. No new-window update.",
+    "details": "Current detail status differs from search-indexed list Preinitiation. History not resolved and actual enrollment not verified."
+  },
+  {
+    "url": "https://www.tga.gov.au/product-information-safety-updates-month-table",
+    "classification": "Aripiprazole/Abilify PI row approved 2026-09-24; includes fall-related injuries and updated overdose management. Historical, not November warning."
+  }
+]

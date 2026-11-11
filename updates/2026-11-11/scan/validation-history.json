@@ -1,0 +1,13 @@
+{
+  "initial_offline_validation": {
+    "preprint_lexical_controls": false,
+    "all_pass": false,
+    "cause": "The initial offline check omitted re.I, while querying had used re.compile(pattern,re.I). The uppercase positive-control string therefore failed in the checker only.",
+    "resolution": "validate.py uses the actual case-insensitive scanner pattern; all checks pass. No source-query result changed."
+  },
+  "supplement_script_adaptation": {
+    "executed_sha256": "b732b46ab83a6c8308e669f05e0afd6eac79868f0040f22cf4f789a80cbd21be",
+    "published_sha256": "ac4d1660577693ce214f8c8a675286fe3fdbf0946a37cd16d05933b505677a17",
+    "change": "Output directory made configurable with --out and defaulted to the script directory. Requests and extraction logic unchanged; source retrieval was not repeated for this portability edit."
+  }
+}

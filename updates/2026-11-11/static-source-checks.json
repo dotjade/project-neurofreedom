@@ -1,0 +1,18 @@
+{
+  "checked_at_utc": "2026-11-11T03:22:23.313615+00:00",
+  "commands": [
+    {
+      "command": "npm run check",
+      "working_directory": "public/journal-source",
+      "exit_code": 0,
+      "checks": "node syntax checks for worker.js and journal.js"
+    },
+    {
+      "command": "npm run build",
+      "working_directory": "public/journal-source",
+      "exit_code": 0,
+      "checks": "seven journal assets built; feedback service excluded"
+    }
+  ],
+  "scope": "Syntax/build only; no fresh rendered browser or accessibility test. Deployment dry-run and public route checks are delegated to existing CI."
+}

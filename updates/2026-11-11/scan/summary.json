@@ -1,0 +1,239 @@
+{
+  "started_utc": "2026-11-11T03:15:02.412552+00:00",
+  "completed_utc": "2026-11-11T03:17:28.667600+00:00",
+  "prior_cutoff_utc": "2026-11-10T03:27:55.287498+00:00",
+  "pubmed_query_counts": [
+    [
+      "core_edat",
+      0
+    ],
+    [
+      "near_edat",
+      0
+    ],
+    [
+      "core_pdat",
+      0
+    ],
+    [
+      "core_mdat",
+      25
+    ],
+    [
+      "notice_edat",
+      0
+    ],
+    [
+      "syn_edat",
+      0
+    ],
+    [
+      "syn_pdat",
+      0
+    ],
+    [
+      "burden_treatment_edat",
+      0
+    ]
+  ],
+  "pubmed_id_occurrences": 25,
+  "unique_pubmed_records": 25,
+  "prior_pubmed_overlap": 20,
+  "pubmed_new_to_prior_scan_ids": [
+    "35179458",
+    "38688785",
+    "40680639",
+    "40683122",
+    "42667351"
+  ],
+  "all_pubmed_publications_pre_window": true,
+  "preprints": [
+    {
+      "server": "medrxiv",
+      "interval": [
+        "2026-11-07",
+        "2026-11-11"
+      ],
+      "matches": [],
+      "screen_regex": "\\btourett\\w*|\\btics?\\b",
+      "screen_fields": "title and abstract",
+      "pagination_complete_for_observed_response": true,
+      "total_returned": 200,
+      "unique_doi_versions": 200,
+      "previous_scan_overlap_doi_versions": 107,
+      "not_in_previous_scan_doi_versions": 93,
+      "reported_totals": [
+        200
+      ]
+    },
+    {
+      "server": "biorxiv",
+      "interval": [
+        "2026-11-07",
+        "2026-11-11"
+      ],
+      "matches": [],
+      "screen_regex": "\\btourett\\w*|\\btics?\\b",
+      "screen_fields": "title and abstract",
+      "pagination_complete_for_observed_response": true,
+      "total_returned": 521,
+      "unique_doi_versions": 521,
+      "previous_scan_overlap_doi_versions": 293,
+      "not_in_previous_scan_doi_versions": 228,
+      "reported_totals": [
+        521
+      ]
+    }
+  ],
+  "registry_queries": [
+    {
+      "label": "ct_tourette",
+      "params": {
+        "query.cond": "Tourette",
+        "filter.advanced": "AREA[LastUpdatePostDate]RANGE[2026-11-09,2026-11-11]",
+        "pageSize": 100,
+        "format": "json",
+        "countTotal": "true",
+        "fields": "NCTId,BriefTitle,StatusModule,DesignModule,Condition,MinimumAge,MaximumAge,StdAge,HasResults"
+      },
+      "response": {
+        "totalCount": 1,
+        "nct_ids": [
+          "NCT01019343"
+        ],
+        "nextPageToken": null
+      }
+    },
+    {
+      "label": "ct_tic_disorder",
+      "params": {
+        "query.cond": "tic disorder",
+        "filter.advanced": "AREA[LastUpdatePostDate]RANGE[2026-11-09,2026-11-11]",
+        "pageSize": 100,
+        "format": "json",
+        "countTotal": "true",
+        "fields": "NCTId,BriefTitle,StatusModule,DesignModule,Condition,MinimumAge,MaximumAge,StdAge,HasResults"
+      },
+      "response": {
+        "totalCount": 2,
+        "nct_ids": [
+          "NCT01019343",
+          "NCT07137442"
+        ],
+        "nextPageToken": null
+      }
+    },
+    {
+      "label": "ct_tics",
+      "params": {
+        "query.cond": "Tics",
+        "filter.advanced": "AREA[LastUpdatePostDate]RANGE[2026-11-09,2026-11-11]",
+        "pageSize": 100,
+        "format": "json",
+        "countTotal": "true",
+        "fields": "NCTId,BriefTitle,StatusModule,DesignModule,Condition,MinimumAge,MaximumAge,StdAge,HasResults"
+      },
+      "response": {
+        "totalCount": 2,
+        "nct_ids": [
+          "NCT01019343",
+          "NCT07137442"
+        ],
+        "nextPageToken": null
+      }
+    },
+    {
+      "label": "ct_ecopipam",
+      "params": {
+        "query.term": "ecopipam",
+        "filter.advanced": "AREA[LastUpdatePostDate]RANGE[2026-11-09,2026-11-11]",
+        "pageSize": 100,
+        "format": "json",
+        "countTotal": "true",
+        "fields": "NCTId,BriefTitle,StatusModule,DesignModule,Condition,MinimumAge,MaximumAge,StdAge,HasResults"
+      },
+      "response": {
+        "totalCount": 0,
+        "nct_ids": [],
+        "nextPageToken": null
+      }
+    }
+  ],
+  "registry_changes": {
+    "NCT01019343": {},
+    "NCT05158439": {},
+    "NCT06194305": {},
+    "NCT06678737": {},
+    "NCT07093541": {},
+    "NCT07137442": {
+      "status": {
+        "before": {
+          "statusVerifiedDate": "2026-09-16",
+          "overallStatus": "RECRUITING",
+          "expandedAccessInfo": {
+            "hasExpandedAccess": false
+          },
+          "startDateStruct": {
+            "date": "2026-11-12",
+            "type": "ESTIMATED"
+          },
+          "primaryCompletionDateStruct": {
+            "date": "2034-08-01",
+            "type": "ESTIMATED"
+          },
+          "completionDateStruct": {
+            "date": "2034-08-01",
+            "type": "ESTIMATED"
+          },
+          "studyFirstSubmitDate": "2025-08-19",
+          "studyFirstSubmitQcDate": "2025-08-21",
+          "studyFirstPostDateStruct": {
+            "date": "2025-08-22",
+            "type": "ACTUAL"
+          },
+          "lastUpdateSubmitDate": "2026-11-06",
+          "lastUpdatePostDateStruct": {
+            "date": "2026-11-09",
+            "type": "ACTUAL"
+          }
+        },
+        "after": {
+          "statusVerifiedDate": "2026-09-16",
+          "overallStatus": "RECRUITING",
+          "expandedAccessInfo": {
+            "hasExpandedAccess": false
+          },
+          "startDateStruct": {
+            "date": "2026-11-15",
+            "type": "ESTIMATED"
+          },
+          "primaryCompletionDateStruct": {
+            "date": "2034-08-01",
+            "type": "ESTIMATED"
+          },
+          "completionDateStruct": {
+            "date": "2034-08-01",
+            "type": "ESTIMATED"
+          },
+          "studyFirstSubmitDate": "2025-08-19",
+          "studyFirstSubmitQcDate": "2025-08-21",
+          "studyFirstPostDateStruct": {
+            "date": "2025-08-22",
+            "type": "ACTUAL"
+          },
+          "lastUpdateSubmitDate": "2026-11-09",
+          "lastUpdatePostDateStruct": {
+            "date": "2026-11-10",
+            "type": "ACTUAL"
+          }
+        }
+      }
+    },
+    "NCT07905898": {}
+  },
+  "request_errors": [],
+  "worker_errors": [],
+  "qualifying_new_primary_studies": 0,
+  "qualifying_relevant_preprints": 0,
+  "new_posted_registry_results": 0
+}

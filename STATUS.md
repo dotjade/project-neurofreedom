@@ -1,6 +1,6 @@
 # Project NeuroFreedom status
 
-Updated 10 November 2026. Initial portfolio, thirty-three completed daily updates, five completed weekly syntheses and one monthly review. Public evidence repository and journal launched 13 October.
+Updated 11 November 2026. Initial portfolio, thirty-four completed daily updates, five completed weekly syntheses and one monthly review. Public evidence repository and journal launched 13 October.
 
 ## Completed in this first pass
 
@@ -14,7 +14,7 @@ Updated 10 November 2026. Initial portfolio, thirty-three completed daily update
 
 ## Enabled research schedules
 
-The user approved the following automatic public-science research and repository updates on 8 October 2026. Each schedule was created successfully and returned enabled status. Daily runs were completed on 9-31 October and 1-10 November 2026; weekly syntheses were completed on 11, 18 and 25 October and 1 and 8 November; the first monthly review was completed on 1 November; the first quarterly run remains unverified.
+The user approved the following automatic public-science research and repository updates on 8 October 2026. Each schedule was created successfully and returned enabled status. Daily runs were completed on 9-31 October and 1-11 November 2026; weekly syntheses were completed on 11, 18 and 25 October and 1 and 8 November; the first monthly review was completed on 1 November; the first quarterly run remains unverified.
 
 - Daily new-evidence checks: from 9 October 2026, approximately 08:00 India time.
 - Weekly synthesis: Sundays, from 11 October 2026, approximately 09:00 India time.
@@ -860,3 +860,12 @@ Research commit [8e349670846cf2ce9e70f8a0681e2b395902276a](https://github.com/do
 [Actions run 42750675551](https://github.com/dotjade/project-neurofreedom/actions/runs/42750675551) succeeded for that exact research commit, including syntax/build, deployment dry-run, publication and public-route checks. After the 120-second cache interval, production readback at 03:40:30 UTC returned HTTP 200, repository source and exact bytes with updatedAt 2026-11-10T03:28:59Z. Both new report URLs returned HTTP 200 with expected paths. The [receipt](updates/2026-11-10/publication-verification.json) records actual checks and readback recovery.
 
 All six approved activities remain unchanged, hand-at-ease is selected, and collection remains off. No new numerical research analysis or fresh rendered accessibility test is claimed. Static fallback/next-question copy and the ancillary missing favicon remain known limitations. The manifest covers the research snapshot before this receipt and final status addition. This verification-only follow-up changes no feed, deployment input or scientific result.
+
+
+## Completed daily research update - 11 November 2026
+
+The [daily report](updates/2026-11-11/report.md) records no qualifying new-window primary publication, relevant preprint, posted trial result or watched-treatment official warning in a bounded scan of 25 PubMed records, 721 preprint DOI/versions, 13 ClinicalTrials.gov records and one UMIN record. One watched registry moved its estimated start without results. Historical, secondary, coverage and access limits remain explicit.
+
+The [analysis reopening decision](updates/2026-11-11/analysis-feasibility.md) records no new reanalysis or numerical computation. No qualifying input reopened H18 measurement/transfer, H15 group-map provenance or adult direct-function/driving missingness. Exact prerequisites remain named; closed searches and simulations were not repeated. Continue bounded surveillance and reopen only the relevant branch when a safe input changes. No owner action, personal data, contact, intervention or paid resource is needed.
+
+The journal preserves 24 entries and six unchanged optional activities, selecting familiar-route. Collection stays disabled. The link ledger records 38 retrievable and eight access-limited baseline targets, with no confirmed broken research citation; the ancillary favicon remains missing. Exact remote, CI and post-cache live verification follows publication. No fresh rendered accessibility test is claimed.

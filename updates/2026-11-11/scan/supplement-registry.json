@@ -1,0 +1,481 @@
+[
+  {
+    "nctId": "NCT07839377",
+    "url": "https://clinicaltrials.gov/api/v2/studies/NCT07839377?fields=NCTId%2CBriefTitle%2CStatusModule%2CDesignModule%2CCondition%2CMinimumAge%2CMaximumAge%2CStdAge%2CHasResults",
+    "started_utc": "2026-11-11T03:17:01.483695+00:00",
+    "http_status": 200,
+    "sha256": "3d04d062ad79f84bde24d696837bcf6387b0a8f9a51eccaf8f67a224f740d408",
+    "record": {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT07839377",
+          "briefTitle": "Teen and Adult Tic TMS Study"
+        },
+        "statusModule": {
+          "statusVerifiedDate": "2026-09",
+          "overallStatus": "RECRUITING",
+          "expandedAccessInfo": {
+            "hasExpandedAccess": false
+          },
+          "startDateStruct": {
+            "date": "2026-06-01",
+            "type": "ACTUAL"
+          },
+          "primaryCompletionDateStruct": {
+            "date": "2028-06",
+            "type": "ESTIMATED"
+          },
+          "completionDateStruct": {
+            "date": "2028-10",
+            "type": "ESTIMATED"
+          },
+          "studyFirstSubmitDate": "2026-09-14",
+          "studyFirstSubmitQcDate": "2026-09-18",
+          "studyFirstPostDateStruct": {
+            "date": "2026-09-24",
+            "type": "ACTUAL"
+          },
+          "lastUpdateSubmitDate": "2026-09-18",
+          "lastUpdatePostDateStruct": {
+            "date": "2026-09-24",
+            "type": "ACTUAL"
+          }
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Tic Disorder"
+          ]
+        },
+        "designModule": {
+          "studyType": "INTERVENTIONAL",
+          "phases": [
+            "NA"
+          ],
+          "designInfo": {
+            "allocation": "RANDOMIZED",
+            "interventionModel": "PARALLEL",
+            "primaryPurpose": "TREATMENT",
+            "maskingInfo": {
+              "masking": "NONE"
+            }
+          },
+          "enrollmentInfo": {
+            "count": 40,
+            "type": "ESTIMATED"
+          }
+        },
+        "eligibilityModule": {
+          "minimumAge": "15 Years",
+          "maximumAge": "35 Years",
+          "stdAges": [
+            "CHILD",
+            "ADULT"
+          ]
+        }
+      },
+      "hasResults": false
+    },
+    "completed_utc": "2026-11-11T03:17:06.713598+00:00"
+  },
+  {
+    "nctId": "NCT06825520",
+    "url": "https://clinicaltrials.gov/api/v2/studies/NCT06825520?fields=NCTId%2CBriefTitle%2CStatusModule%2CDesignModule%2CCondition%2CMinimumAge%2CMaximumAge%2CStdAge%2CHasResults",
+    "started_utc": "2026-11-11T03:17:06.713642+00:00",
+    "http_status": 200,
+    "sha256": "9f88835061c1f31ffdb4a6b81d9a585d8a532179d509f728ef6ba36502a21676",
+    "record": {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT06825520",
+          "briefTitle": "Investigating Changes in Premonitory Urges During Habit Reversal Training for Tics"
+        },
+        "statusModule": {
+          "statusVerifiedDate": "2025-05",
+          "overallStatus": "RECRUITING",
+          "expandedAccessInfo": {
+            "hasExpandedAccess": false
+          },
+          "startDateStruct": {
+            "date": "2025-02-11",
+            "type": "ACTUAL"
+          },
+          "primaryCompletionDateStruct": {
+            "date": "2025-07",
+            "type": "ESTIMATED"
+          },
+          "completionDateStruct": {
+            "date": "2026-05",
+            "type": "ESTIMATED"
+          },
+          "studyFirstSubmitDate": "2025-02-05",
+          "studyFirstSubmitQcDate": "2025-02-11",
+          "studyFirstPostDateStruct": {
+            "date": "2025-02-13",
+            "type": "ACTUAL"
+          },
+          "lastUpdateSubmitDate": "2025-05-21",
+          "lastUpdatePostDateStruct": {
+            "date": "2025-05-28",
+            "type": "ACTUAL"
+          }
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Tics",
+            "Tourette Disorder",
+            "Tourette Syndrome in Children",
+            "Tourette Syndrome in Adolescence"
+          ]
+        },
+        "designModule": {
+          "studyType": "INTERVENTIONAL",
+          "phases": [
+            "NA"
+          ],
+          "designInfo": {
+            "allocation": "NA",
+            "interventionModel": "SINGLE_GROUP",
+            "primaryPurpose": "BASIC_SCIENCE",
+            "maskingInfo": {
+              "masking": "NONE"
+            }
+          },
+          "enrollmentInfo": {
+            "count": 6,
+            "type": "ESTIMATED"
+          }
+        },
+        "eligibilityModule": {
+          "minimumAge": "8 Years",
+          "maximumAge": "17 Years",
+          "stdAges": [
+            "CHILD"
+          ]
+        }
+      },
+      "hasResults": false
+    },
+    "completed_utc": "2026-11-11T03:17:12.107750+00:00"
+  },
+  {
+    "nctId": "NCT05942716",
+    "url": "https://clinicaltrials.gov/api/v2/studies/NCT05942716?fields=NCTId%2CBriefTitle%2CStatusModule%2CDesignModule%2CCondition%2CMinimumAge%2CMaximumAge%2CStdAge%2CHasResults",
+    "started_utc": "2026-11-11T03:17:12.107793+00:00",
+    "http_status": 200,
+    "sha256": "2594fdf0c9231fc3bea1c997b6ca3d593ac7b08d4069bd9a4f1d5bd609dc2e29",
+    "record": {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT05942716",
+          "briefTitle": "Serotonin Control of Impulsivity in Tourette Disorder"
+        },
+        "statusModule": {
+          "statusVerifiedDate": "2024-12",
+          "overallStatus": "RECRUITING",
+          "expandedAccessInfo": {
+            "hasExpandedAccess": false
+          },
+          "startDateStruct": {
+            "date": "2024-09-24",
+            "type": "ACTUAL"
+          },
+          "primaryCompletionDateStruct": {
+            "date": "2027-09-24",
+            "type": "ESTIMATED"
+          },
+          "completionDateStruct": {
+            "date": "2028-09-24",
+            "type": "ESTIMATED"
+          },
+          "studyFirstSubmitDate": "2023-07-04",
+          "studyFirstSubmitQcDate": "2023-07-04",
+          "studyFirstPostDateStruct": {
+            "date": "2023-07-12",
+            "type": "ACTUAL"
+          },
+          "lastUpdateSubmitDate": "2024-12-02",
+          "lastUpdatePostDateStruct": {
+            "date": "2024-12-04",
+            "type": "ACTUAL"
+          }
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Tourette Disorder"
+          ]
+        },
+        "designModule": {
+          "studyType": "INTERVENTIONAL",
+          "phases": [
+            "PHASE2"
+          ],
+          "designInfo": {
+            "allocation": "NA",
+            "interventionModel": "SINGLE_GROUP",
+            "primaryPurpose": "TREATMENT",
+            "maskingInfo": {
+              "masking": "NONE"
+            }
+          },
+          "enrollmentInfo": {
+            "count": 25,
+            "type": "ESTIMATED"
+          }
+        },
+        "eligibilityModule": {
+          "minimumAge": "18 Years",
+          "maximumAge": "65 Years",
+          "stdAges": [
+            "ADULT",
+            "OLDER_ADULT"
+          ]
+        }
+      },
+      "hasResults": false
+    },
+    "completed_utc": "2026-11-11T03:17:17.320003+00:00"
+  },
+  {
+    "nctId": "NCT05558566",
+    "url": "https://clinicaltrials.gov/api/v2/studies/NCT05558566?fields=NCTId%2CBriefTitle%2CStatusModule%2CDesignModule%2CCondition%2CMinimumAge%2CMaximumAge%2CStdAge%2CHasResults",
+    "started_utc": "2026-11-11T03:17:17.320057+00:00",
+    "http_status": 200,
+    "sha256": "5cbd1ef4156a161f4bc10b280c07271da356119bc3eebcba7d69b8448be25fab",
+    "record": {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT05558566",
+          "briefTitle": "Neurofeedback From the Supplementary Motor Area for Tourette Syndrome"
+        },
+        "statusModule": {
+          "statusVerifiedDate": "2026-06",
+          "overallStatus": "RECRUITING",
+          "expandedAccessInfo": {
+            "hasExpandedAccess": false
+          },
+          "startDateStruct": {
+            "date": "2022-11-01",
+            "type": "ACTUAL"
+          },
+          "primaryCompletionDateStruct": {
+            "date": "2026-12-20",
+            "type": "ESTIMATED"
+          },
+          "completionDateStruct": {
+            "date": "2027-01-20",
+            "type": "ESTIMATED"
+          },
+          "studyFirstSubmitDate": "2022-09-21",
+          "studyFirstSubmitQcDate": "2022-09-23",
+          "studyFirstPostDateStruct": {
+            "date": "2022-09-28",
+            "type": "ACTUAL"
+          },
+          "lastUpdateSubmitDate": "2026-06-08",
+          "lastUpdatePostDateStruct": {
+            "date": "2026-06-09",
+            "type": "ACTUAL"
+          }
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Tourette Syndrome in Adolescence"
+          ]
+        },
+        "designModule": {
+          "studyType": "INTERVENTIONAL",
+          "phases": [
+            "NA"
+          ],
+          "designInfo": {
+            "allocation": "RANDOMIZED",
+            "interventionModel": "PARALLEL",
+            "primaryPurpose": "TREATMENT",
+            "maskingInfo": {
+              "masking": "DOUBLE",
+              "whoMasked": [
+                "PARTICIPANT",
+                "OUTCOMES_ASSESSOR"
+              ]
+            }
+          },
+          "enrollmentInfo": {
+            "count": 64,
+            "type": "ESTIMATED"
+          }
+        },
+        "eligibilityModule": {
+          "minimumAge": "10 Years",
+          "maximumAge": "16 Years",
+          "stdAges": [
+            "CHILD"
+          ]
+        }
+      },
+      "hasResults": false
+    },
+    "completed_utc": "2026-11-11T03:17:21.075247+00:00"
+  },
+  {
+    "nctId": "NCT06909656",
+    "url": "https://clinicaltrials.gov/api/v2/studies/NCT06909656?fields=NCTId%2CBriefTitle%2CStatusModule%2CDesignModule%2CCondition%2CMinimumAge%2CMaximumAge%2CStdAge%2CHasResults",
+    "started_utc": "2026-11-11T03:17:21.075302+00:00",
+    "http_status": 200,
+    "sha256": "23f1d8ac845b57a2f80164405b433c3285ca8dbae77e9c5915db913947be135b",
+    "record": {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT06909656",
+          "briefTitle": "Multimodal Electrophysiological Study of Cortico-subcortical Biomarkers of Tics in Tourette Syndrome"
+        },
+        "statusModule": {
+          "statusVerifiedDate": "2025-04",
+          "overallStatus": "RECRUITING",
+          "expandedAccessInfo": {
+            "hasExpandedAccess": false
+          },
+          "startDateStruct": {
+            "date": "2025-02-17",
+            "type": "ACTUAL"
+          },
+          "primaryCompletionDateStruct": {
+            "date": "2027-02-17",
+            "type": "ESTIMATED"
+          },
+          "completionDateStruct": {
+            "date": "2027-02-17",
+            "type": "ESTIMATED"
+          },
+          "studyFirstSubmitDate": "2025-03-24",
+          "studyFirstSubmitQcDate": "2025-04-01",
+          "studyFirstPostDateStruct": {
+            "date": "2025-04-03",
+            "type": "ACTUAL"
+          },
+          "lastUpdateSubmitDate": "2025-04-01",
+          "lastUpdatePostDateStruct": {
+            "date": "2025-04-03",
+            "type": "ACTUAL"
+          }
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Tourette Syndrome"
+          ]
+        },
+        "designModule": {
+          "studyType": "INTERVENTIONAL",
+          "phases": [
+            "NA"
+          ],
+          "designInfo": {
+            "allocation": "NA",
+            "interventionModel": "SINGLE_GROUP",
+            "primaryPurpose": "OTHER",
+            "maskingInfo": {
+              "masking": "NONE"
+            }
+          },
+          "enrollmentInfo": {
+            "count": 10,
+            "type": "ESTIMATED"
+          }
+        },
+        "eligibilityModule": {
+          "minimumAge": "16 Years",
+          "stdAges": [
+            "CHILD",
+            "ADULT",
+            "OLDER_ADULT"
+          ]
+        }
+      },
+      "hasResults": false
+    },
+    "completed_utc": "2026-11-11T03:17:25.299549+00:00"
+  },
+  {
+    "nctId": "NCT07854665",
+    "url": "https://clinicaltrials.gov/api/v2/studies/NCT07854665?fields=NCTId%2CBriefTitle%2CStatusModule%2CDesignModule%2CCondition%2CMinimumAge%2CMaximumAge%2CStdAge%2CHasResults",
+    "started_utc": "2026-11-11T03:17:25.299691+00:00",
+    "http_status": 200,
+    "sha256": "003af39f712274ba612c2910fb55179f2d71fe9c1b7af0518e6a6fd1beee2689",
+    "record": {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT07854665",
+          "briefTitle": "Transcutaneous Auricular Vagus Nerve Stimulation for Chronic Tic Disorders/Tourette's Syndrome in Children and Adolescents"
+        },
+        "statusModule": {
+          "statusVerifiedDate": "2026-10",
+          "overallStatus": "NOT_YET_RECRUITING",
+          "expandedAccessInfo": {
+            "hasExpandedAccess": false
+          },
+          "startDateStruct": {
+            "date": "2026-10-31",
+            "type": "ESTIMATED"
+          },
+          "primaryCompletionDateStruct": {
+            "date": "2027-10-31",
+            "type": "ESTIMATED"
+          },
+          "completionDateStruct": {
+            "date": "2027-10-31",
+            "type": "ESTIMATED"
+          },
+          "studyFirstSubmitDate": "2026-09-27",
+          "studyFirstSubmitQcDate": "2026-09-27",
+          "studyFirstPostDateStruct": {
+            "date": "2026-10-02",
+            "type": "ACTUAL"
+          },
+          "lastUpdateSubmitDate": "2026-10-24",
+          "lastUpdatePostDateStruct": {
+            "date": "2026-10-28",
+            "type": "ACTUAL"
+          }
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Tourette Syndrome",
+            "Chronic Tic Disorder"
+          ]
+        },
+        "designModule": {
+          "studyType": "INTERVENTIONAL",
+          "phases": [
+            "NA"
+          ],
+          "designInfo": {
+            "allocation": "RANDOMIZED",
+            "interventionModel": "PARALLEL",
+            "primaryPurpose": "TREATMENT",
+            "maskingInfo": {
+              "masking": "TRIPLE",
+              "whoMasked": [
+                "PARTICIPANT",
+                "INVESTIGATOR",
+                "OUTCOMES_ASSESSOR"
+              ]
+            }
+          },
+          "enrollmentInfo": {
+            "count": 124,
+            "type": "ESTIMATED"
+          }
+        },
+        "eligibilityModule": {
+          "minimumAge": "6 Years",
+          "maximumAge": "18 Years",
+          "stdAges": [
+            "CHILD",
+            "ADULT"
+          ]
+        }
+      },
+      "hasResults": false
+    },
+    "completed_utc": "2026-11-11T03:17:27.697487+00:00"
+  }
+]

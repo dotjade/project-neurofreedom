@@ -1,0 +1,73 @@
+{
+  "date": "2026-11-11",
+  "tool": "web search and open",
+  "timing": "Run date recorded. Per-query timestamps not captured; no retrospective individual times assigned.",
+  "exact_queries": [
+    "Tourette \"2026\" \"November\" trial study after:2026-11-09 before:2026-11-12",
+    "site:pubmed.ncbi.nlm.nih.gov (Tourette OR \"tic disorder\" OR tics) \"2026\" \"Nov\"",
+    "site:clinicaltrials.gov Tourette \"2026-11-10\" OR \"2026-11-11\"",
+    "(Tourette OR \"tic disorder\") (preprint OR medRxiv OR bioRxiv) after:2026-11-09 before:2026-11-12",
+    "site:fda.gov (aripiprazole OR guanfacine OR clonidine OR topiramate OR ecopipam OR pimozide) after:2026-11-09 before:2026-11-12",
+    "site:gov.uk (aripiprazole OR guanfacine OR clonidine OR topiramate OR ecopipam OR pimozide) (safety OR alert) after:2026-11-09 before:2026-11-12",
+    "site:ema.europa.eu (aripiprazole OR guanfacine OR clonidine OR topiramate OR ecopipam OR pimozide) after:2026-11-09 before:2026-11-12",
+    "site:tga.gov.au (aripiprazole OR guanfacine OR clonidine OR topiramate OR ecopipam OR pimozide) (safety OR alert) after:2026-11-09 before:2026-11-12",
+    "(site:trialsearch.who.int OR site:isrctn.com) (Tourette OR \"tic disorder\") after:2026-11-09 before:2026-11-12",
+    "site:chictr.org.cn (Tourette OR 抽动) \"2026\"",
+    "site:umin.ac.jp (Tourette OR トゥレット OR チック) \"2026\"",
+    "\"10.3389/fimmu.2026.2006073\" (correction OR corrigendum OR retraction)",
+    "\"Genome-wide Association Study points to novel locus for Gilles de la Tourette Syndrome\"",
+    "\"Autism Spectrum Disorder, Attention-Deficit/Hyperactivity Disorder, Tic Disorder, and Obsessive-Compulsive Disorder\" \"42425918\""
+  ],
+  "official_safety_pages": [
+    "https://www.fda.gov/drugs/drug-safety-and-availability/drug-safety-communications",
+    "https://www.fda.gov/medical-devices/medical-device-safety/safety-communications",
+    "https://www.gov.uk/drug-safety-update",
+    "https://www.gov.uk/drug-device-alerts",
+    "https://www.ema.europa.eu/en/news-events/whats-new",
+    "https://www.ema.europa.eu/en/human-regulatory-overview/post-authorisation/pharmacovigilance-post-authorisation/signal-management/prac-recommendations-safety-signals",
+    "https://www.tga.gov.au/news/safety-updates",
+    "https://www.tga.gov.au/safety/safety-monitoring-and-information/safety-alerts",
+    "https://www.tga.gov.au/product-information-safety-updates-month-table"
+  ],
+  "discovery_verifications": [
+    {
+      "url": "https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2026.2006073/full",
+      "classification": "Narrative review; publisher date 2026-11-09, newly discovered this run but before prior cutoff. Not primary evidence.",
+      "identifiers": [
+        "doi:10.3389/fimmu.2026.2006073"
+      ],
+      "details": "Targeted narrative synthesis, no systematic-screening counts. Does not establish pediatric immune-mediated causal mechanisms or immune-targeted treatment."
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36738982/",
+      "classification": "Historical primary GWAS; electronic publication 2023-02-02, print 2024-07-15. Repository PDF search timestamp is not new publication.",
+      "identifiers": [
+        "PMID:36738982",
+        "doi:10.1016/j.biopsych.2023.01.023"
+      ]
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42425918/",
+      "classification": "Historical primary cohort; electronic publication 2026-07-09, November issue date. Not new-window publication.",
+      "identifiers": [
+        "PMID:42425918",
+        "doi:10.1002/eat.70171"
+      ]
+    },
+    {
+      "url": "https://center6.umin.ac.jp/cgi-open-bin/ctr_e/ctr_view.cgi?recptno=R000071959",
+      "classification": "Official UMIN current detail snapshot; UMIN000063483; last modified 2026-11-02 06:17:56, disclosed 2026-10-31, status field Open public recruiting, results Unpublished. No new-window update.",
+      "details": "Current detail status differs from search-indexed list Preinitiation. History not resolved and actual enrollment not verified."
+    },
+    {
+      "url": "https://www.tga.gov.au/product-information-safety-updates-month-table",
+      "classification": "Aripiprazole/Abilify PI row approved 2026-09-24; includes fall-related injuries and updated overdose management. Historical, not November warning."
+    }
+  ],
+  "scope_limits": [
+    "Web index dates are not publication dates.",
+    "WHO/ISRCTN/ChiCTR/UMIN search discovery is not exhaustive direct registry coverage.",
+    "Selected English-heavy official sources do not establish global absence of safety notices.",
+    "No primary full-text evidence synthesis was performed for historical discovery returns."
+  ]
+}
