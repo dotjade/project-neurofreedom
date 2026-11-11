@@ -869,3 +869,12 @@ The [daily report](updates/2026-11-11/report.md) records no qualifying new-windo
 The [analysis reopening decision](updates/2026-11-11/analysis-feasibility.md) records no new reanalysis or numerical computation. No qualifying input reopened H18 measurement/transfer, H15 group-map provenance or adult direct-function/driving missingness. Exact prerequisites remain named; closed searches and simulations were not repeated. Continue bounded surveillance and reopen only the relevant branch when a safe input changes. No owner action, personal data, contact, intervention or paid resource is needed.
 
 The journal preserves 24 entries and six unchanged optional activities, selecting familiar-route. Collection stays disabled. The link ledger records 38 retrievable and eight access-limited baseline targets, with no confirmed broken research citation; the ancillary favicon remains missing. Exact remote, CI and post-cache live verification follows publication. No fresh rendered accessibility test is claimed.
+
+
+### Publication verification - 11 November 2026
+
+Research commit [e86b896c30508d190ef78415b3185a5c525b76aa](https://github.com/dotjade/project-neurofreedom/commit/e86b896c30508d190ef78415b3185a5c525b76aa) contains 30 authored files, verified byte-for-byte after remote Git fetch and against GitHub tree/blob hashes, preserving 1,668 unrelated existing files with no unexpected paths. The connector and anonymous raw feed match the authored edition.
+
+[Actions run 42952810176](https://github.com/dotjade/project-neurofreedom/actions/runs/42952810176) succeeded for that exact research commit, including syntax/build, deployment dry-run, publication and public-route checks. More than 120 seconds after the successful deployment, production readback at 03:29:36 UTC returned HTTP 200, repository source and exact bytes with updatedAt 2026-11-11T03:21:51Z. Both new report URLs returned HTTP 200 with expected paths. The [verification receipt](updates/2026-11-11/publication-verification.json) records the actual checks and limitations.
+
+All six approved activities remain unchanged, familiar-route is selected, and collection remains off. No new reanalysis or numerical computation, fresh rendered accessibility test, or clinical validation is claimed. Static fallback/next-question copy and the ancillary missing favicon remain known limitations. The manifest covers the research snapshot before this receipt and final status addition. This verification-only follow-up changes no feed, deployment input or scientific result.

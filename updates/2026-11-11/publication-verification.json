@@ -1,0 +1,199 @@
+{
+  "research_commit": "e86b896c30508d190ef78415b3185a5c525b76aa",
+  "baseline_commit": "f6391480c4ac6249e8a9efc03ceb792e604f6299",
+  "checked_at_utc": "2026-11-11T03:27:26.764Z",
+  "authored_files_blob_hash_exact": 30,
+  "unrelated_existing_paths_preserved": 1668,
+  "unexpected_paths": [],
+  "remote_head_exact": true,
+  "connector_feed_bytes_exact": true,
+  "connector_feed_blob_sha": "ccf8e9b4b54af9090f408415089d7fa65abbc431",
+  "ref_updated_at": "2026-11-11T03:26:47.104Z",
+  "activities_unchanged": 6,
+  "featured_activity": "familiar-route",
+  "collection_enabled": false,
+  "limits": [
+    "No new reanalysis or numerical computation; exact missing prerequisites documented.",
+    "No fresh rendered/mobile/zoom/keyboard/narration test.",
+    "Static fallback and next-question copy remain old; ancillary favicon remains missing."
+  ],
+  "manifest_scope": "Research snapshot before manifest and publication receipt/final status additions.",
+  "authored_files_byte_exact_after_remote_git_fetch": 30,
+  "ci": {
+    "id": 42952810176,
+    "html_url": "https://github.com/dotjade/project-neurofreedom/actions/runs/42952810176",
+    "status": "completed",
+    "conclusion": "success",
+    "head_sha": "e86b896c30508d190ef78415b3185a5c525b76aa",
+    "updated_at": "2026-11-11T03:27:28Z",
+    "jobs": [
+      {
+        "id": 130300842721,
+        "name": "check",
+        "status": "completed",
+        "conclusion": "success",
+        "steps": [
+          {
+            "name": "Set up job",
+            "status": "completed",
+            "conclusion": "success"
+          },
+          {
+            "name": "Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+            "status": "completed",
+            "conclusion": "success"
+          },
+          {
+            "name": "Run actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020",
+            "status": "completed",
+            "conclusion": "success"
+          },
+          {
+            "name": "Run npm ci",
+            "status": "completed",
+            "conclusion": "success"
+          },
+          {
+            "name": "Run npm run check",
+            "status": "completed",
+            "conclusion": "success"
+          },
+          {
+            "name": "Run npm run build",
+            "status": "completed",
+            "conclusion": "success"
+          },
+          {
+            "name": "Run npx --no-install wrangler deploy --dry-run",
+            "status": "completed",
+            "conclusion": "success"
+          },
+          {
+            "name": "Post Run actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020",
+            "status": "completed",
+            "conclusion": "success"
+          },
+          {
+            "name": "Post Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+            "status": "completed",
+            "conclusion": "success"
+          },
+          {
+            "name": "Complete job",
+            "status": "completed",
+            "conclusion": "success"
+          }
+        ]
+      },
+      {
+        "id": 130300948427,
+        "name": "deploy",
+        "status": "completed",
+        "conclusion": "success",
+        "steps": [
+          {
+            "name": "Set up job",
+            "status": "completed",
+            "conclusion": "success"
+          },
+          {
+            "name": "Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+            "status": "completed",
+            "conclusion": "success"
+          },
+          {
+            "name": "Run actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020",
+            "status": "completed",
+            "conclusion": "success"
+          },
+          {
+            "name": "Check deployment credentials",
+            "status": "completed",
+            "conclusion": "success"
+          },
+          {
+            "name": "Run npm ci",
+            "status": "completed",
+            "conclusion": "success"
+          },
+          {
+            "name": "Run npm run build",
+            "status": "completed",
+            "conclusion": "success"
+          },
+          {
+            "name": "Publish tested revision",
+            "status": "completed",
+            "conclusion": "success"
+          },
+          {
+            "name": "Check public site and repository feed",
+            "status": "completed",
+            "conclusion": "success"
+          },
+          {
+            "name": "Post Run actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020",
+            "status": "completed",
+            "conclusion": "success"
+          },
+          {
+            "name": "Post Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+            "status": "completed",
+            "conclusion": "success"
+          },
+          {
+            "name": "Complete job",
+            "status": "completed",
+            "conclusion": "success"
+          }
+        ]
+      }
+    ]
+  },
+  "readbacks": [
+    {
+      "kind": "raw",
+      "url": "https://raw.githubusercontent.com/dotjade/project-neurofreedom/main/public/research-feed.json",
+      "checked_at_utc": "2026-11-11T03:29:33.001221+00:00",
+      "http_status": 200,
+      "curl_exit": 0,
+      "bytes": 17142,
+      "sha256": "31f088ff0fd00f83046045b1d2f946ba525e3b508204a0a47d9f4d2653fce5cd",
+      "bytes_exact": true,
+      "updatedAt": "2026-11-11T03:21:51Z"
+    },
+    {
+      "kind": "api",
+      "url": "https://tourette.fyi/api/public-feed",
+      "checked_at_utc": "2026-11-11T03:29:36.446168+00:00",
+      "http_status": 200,
+      "curl_exit": 0,
+      "bytes": 17142,
+      "sha256": "31f088ff0fd00f83046045b1d2f946ba525e3b508204a0a47d9f4d2653fce5cd",
+      "bytes_exact": true,
+      "updatedAt": "2026-11-11T03:21:51Z",
+      "repository_source": true
+    },
+    {
+      "kind": "daily",
+      "url": "https://github.com/dotjade/project-neurofreedom/blob/main/updates/2026-11-11/report.md",
+      "checked_at_utc": "2026-11-11T03:29:39.638969+00:00",
+      "http_status": 200,
+      "curl_exit": 0,
+      "bytes": 198558,
+      "sha256": "de30d65c0db0ec89c12e6b7211ed3c8a6d802eb96167fac37bc0af5760b41cb6",
+      "path_confirmed": true
+    },
+    {
+      "kind": "feasibility",
+      "url": "https://github.com/dotjade/project-neurofreedom/blob/main/updates/2026-11-11/analysis-feasibility.md",
+      "checked_at_utc": "2026-11-11T03:29:43.592457+00:00",
+      "http_status": 200,
+      "curl_exit": 0,
+      "bytes": 203697,
+      "sha256": "71bf2b065a45213bc8c89dd566af4bdeb915ae134edef095a21ca04abee46e8e",
+      "path_confirmed": true
+    }
+  ],
+  "cache_contract": "Anonymous readback more than 120 seconds after ref update and successful deployment; exact expected feed bytes required."
+}
