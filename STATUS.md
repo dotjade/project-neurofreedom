@@ -887,3 +887,12 @@ The [daily report](updates/2026-11-12/report.md) records a fresh bounded scan wi
 The [correction audit](analyses/correction_impact/2026-11-12/report.md) refreshes metadata and searches all 1,699 tracked baseline files. Six exact-hit paths are prior screening records; no dependent scientific claim was found. The substantive September notice remains unavailable, so its scientific impact is unknown. Its exact reopening prerequisite is saved; closed clinical/measurement analyses were not repeated. No owner action is needed.
 
 This edition rebuilds work after an interrupted unpublished run; lost request archives are not claimed retained. The public pass records 39 retrievable, eight limited targets and the known favicon 404 across 48 requests. The feed preserves 24 entries and six unchanged activities, selects notice-one-thing, and keeps collection off. Remote, CI and post-cache live verification follows publication. No fresh rendered accessibility test is claimed.
+
+
+### Publication verification - 12 November 2026
+
+Research commit [39d8faf007ba1682e1301e2038b50a6746fae8dc](https://github.com/dotjade/project-neurofreedom/commit/39d8faf007ba1682e1301e2038b50a6746fae8dc) contains 28 authored files verified byte-for-byte through remote Git readback. All 1,697 unrelated baseline paths are preserved with no unexpected paths. Connector and anonymous raw feed bytes match the authored edition.
+
+[Actions run 43181791698](https://github.com/dotjade/project-neurofreedom/actions/runs/43181791698) succeeded for that exact commit, including syntax/build, dry-run, publication and public-route checks. More than 120 seconds after deployment completion, production readback at 08:20:48 UTC returned HTTP 200, repository source and exact feed bytes with updatedAt 2026-11-12T08:11:49Z. Both new report links returned HTTP 200 with expected paths. A separate read-only verification also confirmed exact raw/API bytes and the expected dates, activity and disabled collection. The [receipt](updates/2026-11-12/publication-verification.json) records checks and recovery limits.
+
+Preprint coverage remains partial and the historical correction's scientific impact remains unknown. Six approved activities are unchanged, notice-one-thing is selected and collection remains off. No fresh rendered accessibility or clinical validation is claimed. This verification-only follow-up changes no feed, deployment input or scientific result. The research manifest covers the snapshot before this receipt and final status addition.
