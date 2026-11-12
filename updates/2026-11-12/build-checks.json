@@ -1,0 +1,8 @@
+{
+  "checked_at_utc": "2026-11-12T08:12:31.245004+00:00",
+  "feed_updatedAt": "2026-11-12T08:11:49Z",
+  "node_syntax_pass": true,
+  "build_seven_assets_pass": true,
+  "wrangler_deploy_dry_run_pass": true,
+  "scope": "Local syntax/build/dry-run only, no actual deployment or credential use. Live CI verified separately."
+}

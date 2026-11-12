@@ -1,0 +1,70 @@
+{
+  "baseline_commit": "4894c40b9da2714730fb50d5730bea6e3fc92608",
+  "checked_at_utc": "2026-11-12T08:03:01.986253+00:00",
+  "tracked_files": 1699,
+  "utf8_files_searched": 1699,
+  "non_utf8_skipped": [],
+  "exact_pattern": "40680639|42767894|10\\.1016/j\\.nicl\\.2025\\.103844|10\\.1016/j\\.nicl\\.2026\\.104054|temporal disintegration|\\bWendiggensen\\b|\\bYifan Hao\\b",
+  "exact_hits": [
+    {
+      "path": "updates/2026-11-11/scan/historical-correction-check.json",
+      "lines": [
+        2,
+        5,
+        6,
+        11,
+        12,
+        26
+      ]
+    },
+    {
+      "path": "updates/2026-11-11/scan/pubmed-screening.jsonl",
+      "lines": [
+        22
+      ]
+    },
+    {
+      "path": "updates/2026-11-11/scan/report.md",
+      "lines": [
+        15
+      ]
+    },
+    {
+      "path": "updates/2026-11-11/scan/search-log.json",
+      "lines": [
+        259,
+        458,
+        2207,
+        2208,
+        2268,
+        2270,
+        2286,
+        2287,
+        2291,
+        2538
+      ]
+    },
+    {
+      "path": "updates/2026-11-11/scan/summary.json",
+      "lines": [
+        45
+      ]
+    },
+    {
+      "path": "updates/2026-11-11/scan/supplement_sources.py",
+      "lines": [
+        14
+      ]
+    }
+  ],
+  "broader_pattern": "sensorimotor integration|event.file|\\bHao\\b",
+  "broader_hits": [
+    {
+      "path": "analyses/causal_synthesis/2026-10-28/critique/critical-synthesis.md",
+      "lines": [
+        59
+      ]
+    }
+  ],
+  "interpretation": "Manual review is required; this is not an automatic classifier of scientific claims."
+}

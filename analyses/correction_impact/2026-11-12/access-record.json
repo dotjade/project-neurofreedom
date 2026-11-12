@@ -1,0 +1,48 @@
+{
+  "recorded_utc": "2026-11-12T08:03:49.117184+00:00",
+  "recovery_disclosure": "Original uncommitted source/verification files were lost. Earlier outcomes below are reconstructed from retained execution records, not byte-exact recovered archives. Current metadata and dependency outputs were rerun.",
+  "earlier_plan_timestamp": "2026-11-12T03:09:07.296818+00:00",
+  "fresh_checks": [
+    "Official PubMed EFetch original/notice pair, current time and response hash in metadata.json.",
+    "Fixed-baseline dependency search across 1699 tracked text files."
+  ],
+  "earlier_source_attempts": [
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42767894/",
+      "outcome": "Notice metadata readable, no abstract."
+    },
+    {
+      "url": "https://doi.org/10.1016/j.nicl.2026.104054",
+      "outcome": "Web open inaccessible."
+    },
+    {
+      "url": "https://linkinghub.elsevier.com/retrieve/pii/S2213-1582%2826%2900114-2",
+      "outcome": "403 from official PubMed full-text link."
+    },
+    {
+      "url": "https://www.sciencedirect.com/science/article/pii/S2213158226001142",
+      "outcome": "403; correction text not obtained."
+    },
+    {
+      "url": "https://www.sciencedirect.com/science/article/pii/S2213158225001147",
+      "outcome": "403; original publisher version comparison not made."
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12296559/",
+      "outcome": "Indexed primary passages readable; direct open browser-check page. No challenge solved."
+    }
+  ],
+  "earlier_exact_queries": [
+    "\"10.1016/j.nicl.2026.104054\"",
+    "\"Evidence for temporal disintegration\" corrigendum correction",
+    "\"40680639\"",
+    "\"S2213158226001142\"",
+    "\"Evidence for temporal disintegration\" \"correction\" Hao",
+    "\"Evidence for temporal disintegration\" \"PMC\"",
+    "\"10.1016/j.nicl.2026.104054\" corrigendum regret",
+    "\"S2213158226001142\" correction affiliations",
+    "site:sciencedirect.com \"temporal disintegration\" \"Corrigendum\""
+  ],
+  "missing_prerequisite": "Readable substantive corrigendum with exact changed item and original-version mapping.",
+  "stop": "Do not repeat blocked routes without a meaningful change. No access bypass or author contact."
+}

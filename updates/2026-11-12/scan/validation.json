@@ -1,0 +1,63 @@
+{
+  "checked_utc": "2026-11-12T08:11:10.571133+00:00",
+  "scope": "Saved metadata and honest partial-coverage consistency, not complete surveillance or clinical validation.",
+  "checks": [
+    {
+      "check": "13 unique metadata IDs and screening decisions",
+      "pass": true
+    },
+    {
+      "check": "PubMed main query fully retrieved",
+      "pass": true
+    },
+    {
+      "check": "Core query/refinement IDs deduplicated",
+      "pass": true
+    },
+    {
+      "check": "Core 20 requests succeeded",
+      "pass": true
+    },
+    {
+      "check": "Core worker errors absent",
+      "pass": true
+    },
+    {
+      "check": "Ten unique CT snapshots",
+      "pass": true
+    },
+    {
+      "check": "Seven watched selected-field comparisons unchanged",
+      "pass": true
+    },
+    {
+      "check": "Registry date query fully paginated",
+      "pass": true
+    },
+    {
+      "check": "medrxiv unique inspected versions",
+      "pass": true
+    },
+    {
+      "check": "medrxiv declared incomplete",
+      "pass": true
+    },
+    {
+      "check": "biorxiv unique inspected versions",
+      "pass": true
+    },
+    {
+      "check": "biorxiv declared incomplete",
+      "pass": true
+    },
+    {
+      "check": "bioRxiv tail timeout preserved",
+      "pass": true
+    },
+    {
+      "check": "Lexical positive/negative controls",
+      "pass": true
+    }
+  ],
+  "all_pass": true
+}

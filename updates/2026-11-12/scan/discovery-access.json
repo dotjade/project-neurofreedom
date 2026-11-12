@@ -1,0 +1,7 @@
+{
+  "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=43014332&retmode=xml",
+  "started_utc": "2026-11-12T08:06:20.622132+00:00",
+  "completed_utc": "2026-11-12T08:06:26.983445+00:00",
+  "exit_code": 0,
+  "sha256": "59694bc2f7db2d1bbbf77765d1475fd5242bfe0c539f4238eae478647cedcfaa"
+}

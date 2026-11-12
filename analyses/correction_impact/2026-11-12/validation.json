@@ -1,0 +1,18 @@
+{
+  "checked_at_utc": "2026-11-12T08:03:01.986566+00:00",
+  "checks": {
+    "original_ids": true,
+    "notice_ids": true,
+    "original_date": true,
+    "notice_date": true,
+    "original_link": true,
+    "notice_link": true,
+    "notice_type": true,
+    "no_notice_abstract": true,
+    "all_baseline_files": true,
+    "six_scan_only_hits": true,
+    "one_broader_paragraph": true
+  },
+  "all_pass": true,
+  "scope": "Metadata identifiers/dates and dependency accounting only, not inaccessible notice-content verification."
+}

@@ -1,0 +1,64 @@
+{
+  "retrieved_utc": "2026-11-12T08:02:58.343644+00:00",
+  "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=40680639,42767894&retmode=xml",
+  "response_sha256": "2552438bcf0265713c271dfd59e6592c7c941abfef9717cb0acbe56a618c4781",
+  "records": [
+    {
+      "pmid": "40680639",
+      "title": "Evidence for temporal disintegration of information processing during sensorimotor integration in GTS.",
+      "ids": {
+        "pubmed": "40680639",
+        "pmc": "PMC12296559",
+        "doi": "10.1016/j.nicl.2025.103844",
+        "pii": "S2213-1582(25)00114-7"
+      },
+      "dates": [
+        {
+          "type": "Electronic",
+          "Year": "2025",
+          "Month": "07",
+          "Day": "13"
+        }
+      ],
+      "types": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "corrections": [
+        {
+          "type": "ErratumIn",
+          "pmid": "42767894"
+        }
+      ],
+      "has_abstract": true
+    },
+    {
+      "pmid": "42767894",
+      "title": "Corrigendum to \"Evidence for temporal disintegration of information processing during sensorimotor integration in GTS\" [NeuroImage: Clin. 48 (2025) 103844].",
+      "ids": {
+        "pubmed": "42767894",
+        "doi": "10.1016/j.nicl.2026.104054",
+        "pii": "S2213-1582(26)00114-2"
+      },
+      "dates": [
+        {
+          "type": "Electronic",
+          "Year": "2026",
+          "Month": "09",
+          "Day": "21"
+        }
+      ],
+      "types": [
+        "Published Erratum"
+      ],
+      "corrections": [
+        {
+          "type": "ErratumFor",
+          "pmid": "40680639"
+        }
+      ],
+      "has_abstract": false
+    }
+  ],
+  "scope": "Only top-level article identifiers; reference-list IDs and full abstracts excluded."
+}

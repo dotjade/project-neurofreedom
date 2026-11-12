@@ -1,6 +1,6 @@
 # Project NeuroFreedom status
 
-Updated 11 November 2026. Initial portfolio, thirty-four completed daily updates, five completed weekly syntheses and one monthly review. Public evidence repository and journal launched 13 October.
+Updated 12 November 2026. Initial portfolio, thirty-five completed daily updates, five completed weekly syntheses and one monthly review. Public evidence repository and journal launched 13 October.
 
 ## Completed in this first pass
 
@@ -14,7 +14,7 @@ Updated 11 November 2026. Initial portfolio, thirty-four completed daily updates
 
 ## Enabled research schedules
 
-The user approved the following automatic public-science research and repository updates on 8 October 2026. Each schedule was created successfully and returned enabled status. Daily runs were completed on 9-31 October and 1-11 November 2026; weekly syntheses were completed on 11, 18 and 25 October and 1 and 8 November; the first monthly review was completed on 1 November; the first quarterly run remains unverified.
+The user approved the following automatic public-science research and repository updates on 8 October 2026. Each schedule was created successfully and returned enabled status. Daily runs were completed on 9-31 October and 1-12 November 2026; weekly syntheses were completed on 11, 18 and 25 October and 1 and 8 November; the first monthly review was completed on 1 November; the first quarterly run remains unverified.
 
 - Daily new-evidence checks: from 9 October 2026, approximately 08:00 India time.
 - Weekly synthesis: Sundays, from 11 October 2026, approximately 09:00 India time.
@@ -878,3 +878,12 @@ Research commit [e86b896c30508d190ef78415b3185a5c525b76aa](https://github.com/do
 [Actions run 42952810176](https://github.com/dotjade/project-neurofreedom/actions/runs/42952810176) succeeded for that exact research commit, including syntax/build, deployment dry-run, publication and public-route checks. More than 120 seconds after the successful deployment, production readback at 03:29:36 UTC returned HTTP 200, repository source and exact bytes with updatedAt 2026-11-11T03:21:51Z. Both new report URLs returned HTTP 200 with expected paths. The [verification receipt](updates/2026-11-11/publication-verification.json) records the actual checks and limitations.
 
 All six approved activities remain unchanged, familiar-route is selected, and collection remains off. No new reanalysis or numerical computation, fresh rendered accessibility test, or clinical validation is claimed. Static fallback/next-question copy and the ancillary missing favicon remain known limitations. The manifest covers the research snapshot before this receipt and final status addition. This verification-only follow-up changes no feed, deployment input or scientific result.
+
+
+## Completed daily research update - 12 November 2026
+
+The [daily report](updates/2026-11-12/report.md) records a fresh bounded scan with no qualifying new primary tic result, newly posted trial result or new-window watched-treatment warning. Thirteen PubMed records and ten ClinicalTrials.gov snapshots were checked. Preprint inspection is partial: 150/237 medRxiv and 30/773 bioRxiv DOI/versions, without a complete negative search claim. Historical/secondary findings and exact access limits remain distinct.
+
+The [correction audit](analyses/correction_impact/2026-11-12/report.md) refreshes metadata and searches all 1,699 tracked baseline files. Six exact-hit paths are prior screening records; no dependent scientific claim was found. The substantive September notice remains unavailable, so its scientific impact is unknown. Its exact reopening prerequisite is saved; closed clinical/measurement analyses were not repeated. No owner action is needed.
+
+This edition rebuilds work after an interrupted unpublished run; lost request archives are not claimed retained. The public pass records 39 retrievable, eight limited targets and the known favicon 404 across 48 requests. The feed preserves 24 entries and six unchanged activities, selects notice-one-thing, and keeps collection off. Remote, CI and post-cache live verification follows publication. No fresh rendered accessibility test is claimed.

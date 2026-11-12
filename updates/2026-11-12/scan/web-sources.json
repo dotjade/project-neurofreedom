@@ -1,0 +1,88 @@
+{
+  "checked_date_utc": "2026-11-12",
+  "scope": "Fresh bounded rebuild. These checks were performed again after local artifacts were lost; earlier same-day files are not retained evidence. Individual web-call timestamps were not captured.",
+  "queries": [
+    "(site:fda.gov OR site:gov.uk OR site:ema.europa.eu OR site:tga.gov.au) (aripiprazole OR guanfacine OR clonidine OR topiramate OR ecopipam OR pimozide) (safety OR warning OR alert) after:2026-11-10 before:2026-11-13",
+    "(site:fda.gov OR site:gov.uk OR site:ema.europa.eu OR site:tga.gov.au) (risperidone OR haloperidol OR tetrabenazine OR deutetrabenazine OR valbenazine OR nabiximols OR \"botulinum toxin\" OR \"deep brain stimulation\") (safety OR warning OR recall) after:2026-11-10 before:2026-11-13"
+  ],
+  "sources": [
+    {
+      "url": "https://www.fda.gov/drugs/drug-safety-and-availability/drug-safety-communications",
+      "access": "retrieved",
+      "observation": "Latest visible drug item November 9 GLP-1 eye-risk communication, outside watched scope."
+    },
+    {
+      "url": "https://www.fda.gov/medical-devices/medical-device-safety/safety-communications",
+      "access": "retrieved",
+      "observation": "Latest visible device communication June 3, 2026."
+    },
+    {
+      "url": "https://www.gov.uk/drug-safety-update",
+      "access": "retrieved",
+      "observation": "Latest visible drug update November 5, 2026; no new-window watched therapy notice verified."
+    },
+    {
+      "url": "https://www.gov.uk/drug-device-alerts",
+      "access": "retrieved",
+      "observation": "Visible medicine notices November 5 or earlier. Field-safety roundup title/description dates are inconsistent; not interpreted as new watched-treatment evidence."
+    },
+    {
+      "url": "https://www.ema.europa.eu/en/news-events/whats-new",
+      "access": "retrieved",
+      "observation": "First page includes November 11 entries, none a watched treatment."
+    },
+    {
+      "url": "https://www.ema.europa.eu/en/human-regulatory-overview/post-authorisation/pharmacovigilance-post-authorisation/signal-management/prac-recommendations-safety-signals",
+      "access": "retrieved",
+      "observation": "Latest visible PRAC recommendations first published October 26, 2026."
+    },
+    {
+      "url": "https://www.tga.gov.au/news/safety-updates",
+      "access": "retrieved",
+      "observation": "Latest visible safety update October 14, 2026."
+    },
+    {
+      "url": "https://www.tga.gov.au/safety/safety-monitoring-and-information/safety-alerts",
+      "access": "retrieved",
+      "observation": "Latest visible safety alert November 5, 2026."
+    },
+    {
+      "url": "https://www.tga.gov.au/product-information-safety-updates-month-table",
+      "access": "retrieved",
+      "observation": "Aripiprazole PI row approved September 24 (fall-related injuries and overdose-management wording), not a November safety warning."
+    },
+    {
+      "url": "https://www.gov.uk/drug-device-alerts/mhra-safety-roundup-october-2026",
+      "access": "retrieved",
+      "observation": "Published October 27, updated October 30. Links a guanfacine product-specific safety-information omission letter."
+    },
+    {
+      "url": "https://assets.publishing.service.gov.uk/media/6adf767e9ea4857e15ab3440/DMRC_PROC-40963122_Guanfacine_DHCP_V4_APPROVED_20261008.pdf",
+      "access": "retrieved",
+      "observation": "Letter dated October 9, 2026 for Neuraxpharm guanfacine prolonged-release tablets PL 49718/0136–0142. Missing SmPC information concerns QT/QTc prolongation; historical product-information correction, not a new November signal or a new class-wide warning."
+    },
+    {
+      "url": "https://www.gov.uk/drug-safety-update/botulinum-toxin-type-a-products-updated-warnings-regarding-risk-of-iatrogenic-botulism",
+      "access": "search-indexed official source",
+      "observation": "Published July 15, 2026; historical."
+    },
+    {
+      "url": "https://center6.umin.ac.jp/cgi-open-bin/ctr_e/ctr_view.cgi?recptno=R000071959",
+      "access": "retrieved",
+      "observation": "UMIN000063483 pediatric parent-child behavior trial, last modified November 2, results Unpublished. Actual enrollment unverified."
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43014332/",
+      "access": "web tool inaccessible; direct PubMed EFetch succeeded",
+      "observation": "PMID 43014332, DOI 10.1016/S2215-0366(26)00328-7, electronic publication November 11. Systematic review/network meta-analysis of 52 OCD RCTs, with pediatric/adult analyses. Secondary comorbidity context, not primary tic evidence or a verified TS-subgroup benefit. Abstract inspected transiently; not archived."
+    }
+  ],
+  "limitations": [
+    "Nine selected regulator index pages plus targeted searches are not global pharmacovigilance or full label review.",
+    "No new-window warning verified is not proof of safety or absence.",
+    "Non-US registry coverage is limited to one UMIN snapshot in this rebuild; WHO/CTIS/ISRCTN/ChiCTR were not re-searched.",
+    "Crawl timestamps do not establish publication dates.",
+    "Historical guanfacine label omission must not be described as a new November warning."
+  ]
+}
+

@@ -1,0 +1,24 @@
+{
+  "checked_date_utc": "2026-11-12",
+  "decisions": {
+    "35170423": "Historical primary publication; electronic date before surveillance window.",
+    "35179458": "Historical primary publication; electronic date before surveillance window.",
+    "38688785": "Historical secondary synthesis; not new primary evidence.",
+    "39177336": "Historical diagnosis-policy study; not a tic-treatment result.",
+    "40680639": "Historical primary publication; electronic date before surveillance window.",
+    "40683122": "Historical primary publication; electronic date before surveillance window.",
+    "41678466": "Unrelated lexical/acronym hit; not tic evidence.",
+    "41818248": "Unrelated lexical/acronym hit; not tic evidence.",
+    "41830597": "Historical qualitative functional-tic study; distinct from neurodevelopmental TS.",
+    "42667351": "Historical secondary synthesis; not new primary evidence.",
+    "42889785": "Unrelated lexical/acronym hit; not tic evidence.",
+    "43008481": "Unrelated lexical/acronym hit; not tic evidence.",
+    "43014332": "New-window secondary OCD systematic review/network meta-analysis; no new primary tic experiment or verified TS-subgroup benefit."
+  },
+  "new_primary_evidence_addition": false,
+  "gate_reopening_input_verified": false,
+  "new_secondary_context": [
+    "43014332"
+  ],
+  "scope_note": "Date/type/abstract screening only; older full texts not resynthesized."
+}
