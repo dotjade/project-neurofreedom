@@ -1,0 +1,174 @@
+{
+  "checked_at_utc": "2026-11-13T03:15:55.025943+00:00",
+  "commit": "5b44cb54672c6bdb8966e8b84e71ba07698aa0ac",
+  "files": [
+    {
+      "path": "analyses/measurement_comparability/2026-11-13/cohort-map.json",
+      "sha256": "e87af6166f89ce8a2f582a8cb852faa5dafaf97a5fa60f5458643b8e44e73300"
+    },
+    {
+      "path": "analyses/measurement_comparability/2026-11-13/evidence-candidates.jsonl",
+      "sha256": "837a96d950d24b6df117b1f66dd5279065914efe1b186f54f2aa42895cf3ee68"
+    },
+    {
+      "path": "analyses/measurement_comparability/2026-11-13/evidence-matrix.json",
+      "sha256": "2d28ab5e311a4f1b49095e62a804ec93ee50831e4b223cd0540395ba089ef0d7"
+    },
+    {
+      "path": "analyses/measurement_comparability/2026-11-13/plan.md",
+      "sha256": "8042e94db0f6f7c28364499567bb5dfea799cc8f82277bf28aa9f8f1648a832b"
+    },
+    {
+      "path": "analyses/measurement_comparability/2026-11-13/report.md",
+      "sha256": "461917f415e766f4552fabda6d96dd19dfe85352f27dc6be507901c3ce0579fa"
+    },
+    {
+      "path": "analyses/measurement_comparability/2026-11-13/source-ledger.json",
+      "sha256": "7f5e46b39c78ead61b793293b7aa66a72c76de2da111eeb55345191c0321b07d"
+    },
+    {
+      "path": "analyses/measurement_comparability/2026-11-13/validate.py",
+      "sha256": "80eb16d0b0f7e38b696b5136f71ee4049638a964f73608d0c5e77988c6b83f5a"
+    },
+    {
+      "path": "analyses/measurement_comparability/2026-11-13/validation-results.json",
+      "sha256": "b0fbd340e1f6a96b754f4de1e37fb28db928330987af9767cb479fb30fd1bf93"
+    },
+    {
+      "path": "public/link-checks/2026-11-13.json",
+      "sha256": "74307df3adc0233556f14d528c1a83f6ce93dc4c1ba0d6394e3977f19d51037c"
+    },
+    {
+      "path": "updates/2026-11-13/public-review.md",
+      "sha256": "6c44503d094832adfc912da5ff376d7e0f745b9bcc11601ddbd058b3214467fd"
+    },
+    {
+      "path": "updates/2026-11-13/report.md",
+      "sha256": "e114a6c34c7e2eec08b6ffd59f73b66ece0fe93dfbd2718468c06451e5259769"
+    },
+    {
+      "path": "updates/2026-11-13/scan/allowlist.json",
+      "sha256": "036f143c385dab667a3dd4752d029feaff542c10c70de3897ae3b4445637f297"
+    },
+    {
+      "path": "updates/2026-11-13/scan/evidence-candidate.jsonl",
+      "sha256": "ccc9b6e557a4d257764f4fbd7c37cf5231f73055a04b49be1484cc0f9ff1672e"
+    },
+    {
+      "path": "updates/2026-11-13/scan/report.md",
+      "sha256": "b1e4a47d3ce1f3dd41ce86e2c8c3122124f15de70adfe1a1c4ac95e8b757e1e8"
+    },
+    {
+      "path": "updates/2026-11-13/scan/review.json",
+      "sha256": "57503aca080da8e4f4738adb4b3684f6af24c1b4677b389cf3f1a07713951eb4"
+    },
+    {
+      "path": "updates/2026-11-13/scan/review.py",
+      "sha256": "9dffc10b795456383e405ad290bd012dec93625e13b3ec1424a85b4bf085133a"
+    },
+    {
+      "path": "updates/2026-11-13/scan/scan.json",
+      "sha256": "c29a9fab89af04ab37c2cf79823426ba8ab6d857dc6a81b3197361bfb740e666"
+    },
+    {
+      "path": "updates/2026-11-13/scan/scan.py",
+      "sha256": "a28c39b9d073b5224d6d01fae561a2a1f69ff1b4524d6b189b5117ca2047e3c6"
+    },
+    {
+      "path": "updates/2026-11-13/scan/web-provenance.json",
+      "sha256": "7af6bc8f8bdba0760f8e6c97c45f7652ded5301c245ea82f3e958b888adb9c59"
+    },
+    {
+      "path": "updates/2026-11-13/validate.py",
+      "sha256": "de7dda36647f70bf515c22e0567a91fdbfe23b180d72c55f2c6605e03e0badfb"
+    },
+    {
+      "path": "updates/2026-11-13/validation.json",
+      "sha256": "1bc5038eadf397c697605e1e9dd8416d8efeca94e317b0c18af9fa9262ee9d54"
+    },
+    {
+      "path": "STATUS.md",
+      "sha256": "7cb8cc11f7e1030ae7326869d6a19ca47cfe60fa3c1d6daea500c8892a781a38"
+    },
+    {
+      "path": "evidence.jsonl",
+      "sha256": "9524f7b7a1f4d38090bf92b7659e0585fb46b0463b0e1eebc6b4d649ed1e279b"
+    },
+    {
+      "path": "public/research-feed.json",
+      "sha256": "85f7a2a73090fb008da263a99dcc07b14993616dbefe7dbedac31667d6962772"
+    },
+    {
+      "path": "updates/2026-11-13/manifest.json",
+      "sha256": "dd15336dd605121f799cd82d11249169b7c1e806a494347ae55cf7c5664cae71"
+    }
+  ],
+  "unrelated_paths_preserved": 1723,
+  "verified_at_utc": "2026-11-13T03:18:52.963254+00:00",
+  "connector_feed_exact": true,
+  "connector_feed_blob_sha": "6a2b9a676219cdfe2953474a54efc2a87d0360b4",
+  "ci": {
+    "run_id": 43357751812,
+    "url": "https://github.com/dotjade/project-neurofreedom/actions/runs/43357751812",
+    "head_sha": "5b44cb54672c6bdb8966e8b84e71ba07698aa0ac",
+    "conclusion": "success",
+    "completed_by": "2026-11-13T03:16:16Z"
+  },
+  "cache_seconds_allowed_after_workflow": 120,
+  "live_checks": [
+    {
+      "url": "https://tourette.fyi/api/public-feed",
+      "checked_at_utc": "2026-11-13T03:18:21.754679+00:00",
+      "http_status": 200,
+      "sha256": "85f7a2a73090fb008da263a99dcc07b14993616dbefe7dbedac31667d6962772",
+      "exact_authored_bytes": true,
+      "repository_source_header": true,
+      "updatedAt": "2026-11-13T03:12:48Z"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/dotjade/project-neurofreedom/main/public/research-feed.json",
+      "checked_at_utc": "2026-11-13T03:18:24.885998+00:00",
+      "http_status": 200,
+      "sha256": "85f7a2a73090fb008da263a99dcc07b14993616dbefe7dbedac31667d6962772",
+      "exact_authored_bytes": true
+    },
+    {
+      "url": "https://github.com/dotjade/project-neurofreedom/blob/main/updates/2026-11-13/report.md",
+      "checked_at_utc": "2026-11-13T03:18:28.108793+00:00",
+      "http_status": 200,
+      "sha256": "814a4854e56b6e33718c307277c0fba65180fedf1cc71c0f59a7a8c801c58583",
+      "expected_path_in_body": true
+    },
+    {
+      "url": "https://github.com/dotjade/project-neurofreedom/blob/main/analyses/measurement_comparability/2026-11-13/report.md",
+      "checked_at_utc": "2026-11-13T03:18:47.781312+00:00",
+      "http_status": 200,
+      "sha256": "25332e8650d8669dc5821f942e25f5a9da8daae724484c223af656dae409e77c",
+      "expected_path_in_body": true
+    },
+    {
+      "url": "https://github.com/dotjade/project-neurofreedom/blob/main/updates/2026-11-13/scan/report.md",
+      "checked_at_utc": "2026-11-13T03:18:50.305368+00:00",
+      "http_status": 200,
+      "sha256": "a98770dde3cc644bd093a9f43f53de9c504d07995a6805ec5c52f9c401254585",
+      "expected_path_in_body": true
+    }
+  ],
+  "local_checks": {
+    "edition_consistency": 33,
+    "production_validFeed": true,
+    "syntax": true,
+    "build": true,
+    "deployment_dry_run": true,
+    "scan_diff_reproduced_except_timestamp": true,
+    "measurement_audit_reproduced": true
+  },
+  "limits": [
+    "Not independent clinical peer review",
+    "Kuhn full-text access limited; review abstract-only",
+    "bioRxiv pagination incomplete",
+    "No fresh rendered accessibility testing",
+    "Known stale static fallback copy and ancillary favicon404"
+  ],
+  "scope": "Research snapshot verified before receipt-only follow-up. No collection, treatment change or personal data."
+}
