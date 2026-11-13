@@ -1,0 +1,170 @@
+{
+  "generated_utc": "2026-11-13T03:08:58.864742+00:00",
+  "prior_scan_completed_utc": "2026-11-12T08:05:28.074570+00:00",
+  "pubmed_overlap": [
+    "35170423",
+    "39177336",
+    "41678466",
+    "41830597",
+    "42889785",
+    "43014332"
+  ],
+  "pubmed_new_to_query": [
+    "33512029",
+    "35191552",
+    "39571121",
+    "40520982",
+    "40888936",
+    "41178772",
+    "41392858",
+    "41618542",
+    "41638365",
+    "41693549",
+    "41908734",
+    "42265898",
+    "42267238",
+    "42464517",
+    "42635174",
+    "42860839",
+    "43018909"
+  ],
+  "registry_selected_diffs": {
+    "NCT07137442": {
+      "status": {
+        "old": {
+          "statusVerifiedDate": "2026-09-16",
+          "overallStatus": "RECRUITING",
+          "expandedAccessInfo": {
+            "hasExpandedAccess": false
+          },
+          "startDateStruct": {
+            "date": "2026-11-15",
+            "type": "ESTIMATED"
+          },
+          "primaryCompletionDateStruct": {
+            "date": "2034-08-01",
+            "type": "ESTIMATED"
+          },
+          "completionDateStruct": {
+            "date": "2034-08-01",
+            "type": "ESTIMATED"
+          },
+          "studyFirstSubmitDate": "2025-08-19",
+          "studyFirstSubmitQcDate": "2025-08-21",
+          "studyFirstPostDateStruct": {
+            "date": "2025-08-22",
+            "type": "ACTUAL"
+          },
+          "lastUpdateSubmitDate": "2026-11-09",
+          "lastUpdatePostDateStruct": {
+            "date": "2026-11-10",
+            "type": "ACTUAL"
+          }
+        },
+        "new": {
+          "statusVerifiedDate": "2026-09-16",
+          "overallStatus": "RECRUITING",
+          "expandedAccessInfo": {
+            "hasExpandedAccess": false
+          },
+          "startDateStruct": {
+            "date": "2026-11-17",
+            "type": "ESTIMATED"
+          },
+          "primaryCompletionDateStruct": {
+            "date": "2034-08-01",
+            "type": "ESTIMATED"
+          },
+          "completionDateStruct": {
+            "date": "2034-08-01",
+            "type": "ESTIMATED"
+          },
+          "studyFirstSubmitDate": "2025-08-19",
+          "studyFirstSubmitQcDate": "2025-08-21",
+          "studyFirstPostDateStruct": {
+            "date": "2025-08-22",
+            "type": "ACTUAL"
+          },
+          "lastUpdateSubmitDate": "2026-11-11",
+          "lastUpdatePostDateStruct": {
+            "date": "2026-11-12",
+            "type": "ACTUAL"
+          }
+        }
+      }
+    },
+    "NCT01019343": {
+      "status": {
+        "old": {
+          "statusVerifiedDate": "2026-09-16",
+          "overallStatus": "COMPLETED",
+          "expandedAccessInfo": {
+            "hasExpandedAccess": false
+          },
+          "startDateStruct": {
+            "date": "2009-12-08",
+            "type": "ACTUAL"
+          },
+          "primaryCompletionDateStruct": {
+            "date": "2016-08-17",
+            "type": "ACTUAL"
+          },
+          "completionDateStruct": {
+            "date": "2020-10-09",
+            "type": "ACTUAL"
+          },
+          "studyFirstSubmitDate": "2009-11-24",
+          "studyFirstSubmitQcDate": "2009-11-24",
+          "studyFirstPostDateStruct": {
+            "date": "2009-11-25",
+            "type": "ESTIMATED"
+          },
+          "lastUpdateSubmitDate": "2026-11-06",
+          "lastUpdatePostDateStruct": {
+            "date": "2026-11-09",
+            "type": "ACTUAL"
+          }
+        },
+        "new": {
+          "statusVerifiedDate": "2026-09-16",
+          "overallStatus": "COMPLETED",
+          "expandedAccessInfo": {
+            "hasExpandedAccess": false
+          },
+          "startDateStruct": {
+            "date": "2009-12-08",
+            "type": "ACTUAL"
+          },
+          "primaryCompletionDateStruct": {
+            "date": "2016-08-17",
+            "type": "ACTUAL"
+          },
+          "completionDateStruct": {
+            "date": "2020-10-09",
+            "type": "ACTUAL"
+          },
+          "studyFirstSubmitDate": "2009-11-24",
+          "studyFirstSubmitQcDate": "2009-11-24",
+          "studyFirstPostDateStruct": {
+            "date": "2009-11-25",
+            "type": "ESTIMATED"
+          },
+          "lastUpdateSubmitDate": "2026-11-10",
+          "lastUpdatePostDateStruct": {
+            "date": "2026-11-12",
+            "type": "ACTUAL"
+          }
+        }
+      }
+    },
+    "NCT05158439": {},
+    "NCT07093541": {},
+    "NCT06194305": {},
+    "NCT07905898": {},
+    "NCT06678737": {},
+    "NCT06785532": {},
+    "NCT06271083": {},
+    "NCT05615220": {}
+  },
+  "scope": "Selected metadata comparison, not full-record history; administrative changes do not prove results."
+}

@@ -1,0 +1,17 @@
+{
+  "date": "2026-11-13",
+  "queries": [
+    "site.fda.gov (aripiprazole OR guanfacine OR clonidine OR pimozide OR haloperidol OR ecopipam OR botulinum) (safety OR recall) November 2026",
+    "site.gov.uk/drug-safety-update (aripiprazole OR guanfacine OR clonidine OR pimozide OR haloperidol) November 2026",
+    "site.ema.europa.eu (aripiprazole OR guanfacine OR pimozide OR haloperidol OR ecopipam) November 2026 safety",
+    "site.tga.gov.au (aripiprazole OR guanfacine OR clonidine OR botulinum) November 2026 safety"
+  ],
+  "timestamp_precision": "date only for web tool requests; API calls have precise times in scan.json",
+  "opened_sources": [
+    "https://www.fda.gov/drugs/drug-safety-and-availability/drug-safety-communications",
+    "https://www.gov.uk/drug-safety-update",
+    "https://www.ema.europa.eu/en/news",
+    "https://www.tga.gov.au/product-information-safety-updates-month-table"
+  ],
+  "publisher_doi_access": "web tool Internal Error; inaccessible, not proof broken"
+}

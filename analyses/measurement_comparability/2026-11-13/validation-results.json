@@ -1,0 +1,17 @@
+{
+  "analysis_type": "deterministic reporting/eligibility audit, not clinical effect estimation",
+  "seed": null,
+  "source_count": 3,
+  "prior_identifier_matches": [],
+  "baseline": "df5cc76",
+  "rounding_check": {
+    "permitted_abs_beta_div_SE": [
+      5.0,
+      6.7142857142857135
+    ],
+    "reported_abs_t": 53.87,
+    "compatible": false
+  },
+  "pooling_permitted": false,
+  "h18_reopened": false
+}

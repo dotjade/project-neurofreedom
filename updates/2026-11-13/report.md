@@ -1,0 +1,23 @@
+# Daily research update: 13 November 2026
+
+## New evidence, with a clear boundary
+
+The [bounded discovery scan](scan/report.md) identified a newly published **secondary ecopipam review**, not a new primary trial. Its abstract reports six publications from four trials with 427 predominantly pediatric participants and a placebo-adjusted YGTSS total tic score difference of -3.72 points (95% CI -5.45 to -1.99). The review authors rate certainty moderate. Full text was not inspected, so trial/report overlap, pooling choices and adult-specific estimates remain unaudited. Nonsignificant safety comparisons do not establish equivalent safety or exclude uncommon or long-term harms. [PMID 43018909](https://pubmed.ncbi.nlm.nih.gov/43018909/), electronic publication November 12, is added as secondary evidence only.
+
+No qualifying newly published primary tic finding, newly posted watched-trial result or new-window relevant official warning was verified. Twenty-three PubMed records and ten watched registry records were inspected. An adult observational study's estimated start moved by two days; another record changed update dates only among compared fields. Registry updates are not outcomes. medRxiv inspection completed 219 observed DOI/versions with no lexical matches; bioRxiv inspected 390 DOI/versions but pagination was incomplete. Exact queries, times, provenance and coverage limits are retained.
+
+## Bounded question tested
+
+The [measurement comparison](../../analyses/measurement_comparability/2026-11-13/report.md) tests whether three historical reports can be treated as independent, interchangeable evidence about tic counts, clinician severity/impairment and participant-described burden. The prospective plan states that direct calibration or validated prediction of burden from counts would challenge the prediction of noninterchangeability. This is an aggregate literature and reporting audit, not a patient-data reanalysis or simulation.
+
+Wellen's context-dependent counts, Kuhn's reported burden themes and Davenport's clinical severity/impairment association concern different constructs and designs. Positive severity/impairment associations are retained, not dismissed. They do not establish agreement or substitution. Wellen and Kuhn share a source trial; exact participant overlap is unknown. Repeated clinic visits are not independent people. No pooled effect or combined participant count is justified.
+
+Two publisher full texts were inspected. Kuhn's abstract and indexed Methods were accessible, but full-text openings were blocked; an unverified correlation is deliberately omitted. Wellen's adjusted suppression-versus-interview contrast is nonsignificant despite broader abstract wording. Davenport's raw-score random-intercept model does not isolate a within-person coefficient, and a reported time-effect coefficient/standard-error/t-statistic combination is inconsistent. The audit flags discrepancies without silently repairing the publications or treating them as retractions.
+
+These findings do not identify a tic mechanism or reopen the stopped H18 analysis. Persistent severe adult pain, effort, participation, co-occurring conditions and treatment harms remain part of the all-age scope. Lower observed counts alone do not establish less lived burden. No individual biology is inferred.
+
+## Next decision and public journal
+
+Prioritize lawful full-text review of the new ecopipam synthesis to audit report overlap and adult evidence before changing confidence in its estimate. The next measurement prerequisite is a source with direct agreement/calibration or an explicitly separated within-person estimate, not another pooled calculation across incomparable outcomes. A separated within-person estimate could advance association analysis but alone would not reopen H18's invariant-anchor question. No participant contact, patient-data collection, intervention, treatment change, paid resource or owner action is needed for these literature steps. New human-subject work would require separate clinical, institutional and ethics governance.
+
+The [public review](public-review.md) made 48 fresh requests: 39 retrievable, eight access-limited and the known ancillary favicon 404. No research citation was established broken. Twelve static safeguards pass. All six approved optional activities are unchanged, with music-or-silence selected as an editorial rotation. Voting, comments and health-outcome collection remain off. No fresh rendered accessibility or clinical validation is claimed. Exact remote, CI and post-cache production checks are recorded after publication; local checks alone are not publication verification.

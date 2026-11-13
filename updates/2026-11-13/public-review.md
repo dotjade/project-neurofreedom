@@ -1,0 +1,7 @@
+# Public journal review: 13 November 2026
+
+The [fresh link ledger](../../public/link-checks/2026-11-13.json) records 48 anonymous GETs between 03:07:14 and 03:07:59 UTC: 39 retrievable, eight access-limited and one known missing ancillary favicon. No research citation was established broken. Access-limited HTTP 203/403 pages are not treated as missing sources. The three finding cards retain their attributed evidence and have refreshed check dates. New edition links are checked after publication.
+
+All six approved optional activities are unchanged and match the catalog. Twelve static safeguards pass. Music or silence is today's editorial selection, not a treatment recommendation or scientific result. Rest, alternatives and skipping remain equal choices. No exertion target, breath holding, tic suppression, food task, points, streaks or treatment promise is introduced. Shared voting, comments and health-outcome collection remain disabled.
+
+The baseline raw feed and live API matched the last verified November 12 edition during this pass. Homepage, runtime and feedback configuration matched source. Local syntax, build and deployment dry-run checks are separate from live deployment verification. No fresh rendered desktop/mobile, zoom, keyboard/touch, narration test or accessibility certification is claimed. Older static fallback/next-question copy and the missing favicon remain known limitations.

@@ -1,0 +1,10 @@
+{
+  "shared_trial": [
+    "pmid:40762700",
+    "pmid:41180850"
+  ],
+  "exact_participant_overlap": null,
+  "independence_assumed": false,
+  "pooled_effect": null,
+  "reason": "Different endpoints and statistical estimands; overlapping source trial; repeated registry assessments are not independent people."
+}

@@ -1,0 +1,150 @@
+{
+  "baseline": "df5cc768a484a85096c78c5c4ce4b0fc187bbc66",
+  "scope": "Research snapshot before manifest and publication receipt; original summaries/metadata only.",
+  "files": [
+    {
+      "path": "analyses/measurement_comparability/2026-11-13/cohort-map.json",
+      "sha256": "e87af6166f89ce8a2f582a8cb852faa5dafaf97a5fa60f5458643b8e44e73300",
+      "git_blob": "fca409582791fcad0b138a9f37f3b5d3ad997e18",
+      "bytes": 310
+    },
+    {
+      "path": "analyses/measurement_comparability/2026-11-13/evidence-candidates.jsonl",
+      "sha256": "837a96d950d24b6df117b1f66dd5279065914efe1b186f54f2aa42895cf3ee68",
+      "git_blob": "94995f57c582e541147b63351b0715f239b1e56f",
+      "bytes": 2625
+    },
+    {
+      "path": "analyses/measurement_comparability/2026-11-13/evidence-matrix.json",
+      "sha256": "2d28ab5e311a4f1b49095e62a804ec93ee50831e4b223cd0540395ba089ef0d7",
+      "git_blob": "7fffb5faa48bb609e63d6ebbe40abe614e09e48a",
+      "bytes": 3770
+    },
+    {
+      "path": "analyses/measurement_comparability/2026-11-13/plan.md",
+      "sha256": "8042e94db0f6f7c28364499567bb5dfea799cc8f82277bf28aa9f8f1648a832b",
+      "git_blob": "74a83d6ff7073ae39576082fc493a13bf57c2c61",
+      "bytes": 1600
+    },
+    {
+      "path": "analyses/measurement_comparability/2026-11-13/report.md",
+      "sha256": "461917f415e766f4552fabda6d96dd19dfe85352f27dc6be507901c3ce0579fa",
+      "git_blob": "bf2f0186525b36bf6965397051c60cfc4994d917",
+      "bytes": 5513
+    },
+    {
+      "path": "analyses/measurement_comparability/2026-11-13/source-ledger.json",
+      "sha256": "7f5e46b39c78ead61b793293b7aa66a72c76de2da111eeb55345191c0321b07d",
+      "git_blob": "81d9ac792ceeeddb282dde362cd52e550c2189de",
+      "bytes": 735
+    },
+    {
+      "path": "analyses/measurement_comparability/2026-11-13/validate.py",
+      "sha256": "80eb16d0b0f7e38b696b5136f71ee4049638a964f73608d0c5e77988c6b83f5a",
+      "git_blob": "701e2f66dc705c1d2bcd2df12467ca6d046b582c",
+      "bytes": 1556
+    },
+    {
+      "path": "analyses/measurement_comparability/2026-11-13/validation-results.json",
+      "sha256": "b0fbd340e1f6a96b754f4de1e37fb28db928330987af9767cb479fb30fd1bf93",
+      "git_blob": "ed4468e6d4285f2030b4967ac10687f8108f824d",
+      "bytes": 408
+    },
+    {
+      "path": "public/link-checks/2026-11-13.json",
+      "sha256": "74307df3adc0233556f14d528c1a83f6ce93dc4c1ba0d6394e3977f19d51037c",
+      "git_blob": "7ec2abfbdb96c181191cdb6e13cf7c8ff50f19c4",
+      "bytes": 24092
+    },
+    {
+      "path": "updates/2026-11-13/public-review.md",
+      "sha256": "6c44503d094832adfc912da5ff376d7e0f745b9bcc11601ddbd058b3214467fd",
+      "git_blob": "0bee09ce95108590c4e1cc6693bff1ec03679abf",
+      "bytes": 1414
+    },
+    {
+      "path": "updates/2026-11-13/report.md",
+      "sha256": "e114a6c34c7e2eec08b6ffd59f73b66ece0fe93dfbd2718468c06451e5259769",
+      "git_blob": "310d3a66d5d125f0be56e013d92accaf9b564b72",
+      "bytes": 4668
+    },
+    {
+      "path": "updates/2026-11-13/scan/allowlist.json",
+      "sha256": "036f143c385dab667a3dd4752d029feaff542c10c70de3897ae3b4445637f297",
+      "git_blob": "694d6132182c097a904071d0abd749d45bed16c5",
+      "bytes": 994
+    },
+    {
+      "path": "updates/2026-11-13/scan/evidence-candidate.jsonl",
+      "sha256": "ccc9b6e557a4d257764f4fbd7c37cf5231f73055a04b49be1484cc0f9ff1672e",
+      "git_blob": "43177ddfa601372782406428832ba34e68a56ea7",
+      "bytes": 1385
+    },
+    {
+      "path": "updates/2026-11-13/scan/report.md",
+      "sha256": "b1e4a47d3ce1f3dd41ce86e2c8c3122124f15de70adfe1a1c4ac95e8b757e1e8",
+      "git_blob": "74f3c8ea1b9ec877127b5b9f39b289b0d88f6f6a",
+      "bytes": 6027
+    },
+    {
+      "path": "updates/2026-11-13/scan/review.json",
+      "sha256": "57503aca080da8e4f4738adb4b3684f6af24c1b4677b389cf3f1a07713951eb4",
+      "git_blob": "4f8ad96330e36d52141bb157cc90f4fab56bc0bb",
+      "bytes": 4673
+    },
+    {
+      "path": "updates/2026-11-13/scan/review.py",
+      "sha256": "9dffc10b795456383e405ad290bd012dec93625e13b3ec1424a85b4bf085133a",
+      "git_blob": "628a344c189e382e13c850d95c7cd82ace02e5c3",
+      "bytes": 1224
+    },
+    {
+      "path": "updates/2026-11-13/scan/scan.json",
+      "sha256": "c29a9fab89af04ab37c2cf79823426ba8ab6d857dc6a81b3197361bfb740e666",
+      "git_blob": "f4382e47d6f9da6cc3110db60789997c5bbdb8a4",
+      "bytes": 159499
+    },
+    {
+      "path": "updates/2026-11-13/scan/scan.py",
+      "sha256": "a28c39b9d073b5224d6d01fae561a2a1f69ff1b4524d6b189b5117ca2047e3c6",
+      "git_blob": "30f737875dc0dc4fe8226b4bfa60ca5b95f9b047",
+      "bytes": 5084
+    },
+    {
+      "path": "updates/2026-11-13/scan/web-provenance.json",
+      "sha256": "7af6bc8f8bdba0760f8e6c97c45f7652ded5301c245ea82f3e958b888adb9c59",
+      "git_blob": "40826877d250b141e2cdda59496b58095af2bd63",
+      "bytes": 993
+    },
+    {
+      "path": "updates/2026-11-13/validate.py",
+      "sha256": "de7dda36647f70bf515c22e0567a91fdbfe23b180d72c55f2c6605e03e0badfb",
+      "git_blob": "638e26ddb276ef5d00e8d61d0a1de875dc621c7f",
+      "bytes": 3433
+    },
+    {
+      "path": "updates/2026-11-13/validation.json",
+      "sha256": "1bc5038eadf397c697605e1e9dd8416d8efeca94e317b0c18af9fa9262ee9d54",
+      "git_blob": "53f8344502eb470dcb1f61d06876d92feddd2334",
+      "bytes": 2084
+    },
+    {
+      "path": "STATUS.md",
+      "sha256": "7cb8cc11f7e1030ae7326869d6a19ca47cfe60fa3c1d6daea500c8892a781a38",
+      "git_blob": "a0b727e141a761219cad5484ba31168d78594c8c",
+      "bytes": 154411
+    },
+    {
+      "path": "evidence.jsonl",
+      "sha256": "9524f7b7a1f4d38090bf92b7659e0585fb46b0463b0e1eebc6b4d649ed1e279b",
+      "git_blob": "19caafd32e2b1a1d5469ac95dbb22328bc70a547",
+      "bytes": 203562
+    },
+    {
+      "path": "public/research-feed.json",
+      "sha256": "85f7a2a73090fb008da263a99dcc07b14993616dbefe7dbedac31667d6962772",
+      "git_blob": "6a2b9a676219cdfe2953474a54efc2a87d0360b4",
+      "bytes": 17295
+    }
+  ]
+}

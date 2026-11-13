@@ -1,6 +1,6 @@
 # Project NeuroFreedom status
 
-Updated 12 November 2026. Initial portfolio, thirty-five completed daily updates, five completed weekly syntheses and one monthly review. Public evidence repository and journal launched 13 October.
+Updated 13 November 2026. Initial portfolio, thirty-six completed daily updates, five completed weekly syntheses and one monthly review. Public evidence repository and journal launched 13 October.
 
 ## Completed in this first pass
 
@@ -14,7 +14,7 @@ Updated 12 November 2026. Initial portfolio, thirty-five completed daily updates
 
 ## Enabled research schedules
 
-The user approved the following automatic public-science research and repository updates on 8 October 2026. Each schedule was created successfully and returned enabled status. Daily runs were completed on 9-31 October and 1-12 November 2026; weekly syntheses were completed on 11, 18 and 25 October and 1 and 8 November; the first monthly review was completed on 1 November; the first quarterly run remains unverified.
+The user approved the following automatic public-science research and repository updates on 8 October 2026. Each schedule was created successfully and returned enabled status. Daily runs were completed on 9-31 October and 1-13 November 2026; weekly syntheses were completed on 11, 18 and 25 October and 1 and 8 November; the first monthly review was completed on 1 November; the first quarterly run remains unverified.
 
 - Daily new-evidence checks: from 9 October 2026, approximately 08:00 India time.
 - Weekly synthesis: Sundays, from 11 October 2026, approximately 09:00 India time.
@@ -896,3 +896,12 @@ Research commit [39d8faf007ba1682e1301e2038b50a6746fae8dc](https://github.com/do
 [Actions run 43181791698](https://github.com/dotjade/project-neurofreedom/actions/runs/43181791698) succeeded for that exact commit, including syntax/build, dry-run, publication and public-route checks. More than 120 seconds after deployment completion, production readback at 08:20:48 UTC returned HTTP 200, repository source and exact feed bytes with updatedAt 2026-11-12T08:11:49Z. Both new report links returned HTTP 200 with expected paths. A separate read-only verification also confirmed exact raw/API bytes and the expected dates, activity and disabled collection. The [receipt](updates/2026-11-12/publication-verification.json) records checks and recovery limits.
 
 Preprint coverage remains partial and the historical correction's scientific impact remains unknown. Six approved activities are unchanged, notice-one-thing is selected and collection remains off. No fresh rendered accessibility or clinical validation is claimed. This verification-only follow-up changes no feed, deployment input or scientific result. The research manifest covers the snapshot before this receipt and final status addition.
+
+
+## Completed daily research update - 13 November 2026
+
+The [daily report](updates/2026-11-13/report.md) records a new November 12 secondary ecopipam review, not a new primary trial. The abstract-level pooled score benefit is retained with unaudited report overlap, limited adult evidence and no safety-equivalence inference. Twenty-three PubMed records, ten watched registries and bounded regulator sources were checked. No new primary tic finding, posted watched-trial result or relevant new-window warning was verified. medRxiv pagination completed 219 observed versions; bioRxiv coverage is partial at 390. Registry estimate/date changes are not outcomes.
+
+The [historical measurement comparison](analyses/measurement_comparability/2026-11-13/report.md) tests whether counts, clinician severity/impairment and reported burden are interchangeable. These reports do not establish calibrated substitution; cohort dependence, context and repeated visits preclude pooling. Positive associations and reporting discrepancies are preserved. Kuhn full-text access remains limited. This aggregate audit does not identify individual biology or reopen H18. Next steps require lawful review full text or a genuinely comparable/calibrated measurement input, not another simulation. No owner action is needed.
+
+The public pass records 39 retrievable and eight access-limited targets plus the known favicon 404 across 48 requests. Six optional activities are unchanged, music-or-silence is selected, and collection remains off. Exact remote, CI and post-cache live verification follows publication; no fresh rendered accessibility test is claimed.

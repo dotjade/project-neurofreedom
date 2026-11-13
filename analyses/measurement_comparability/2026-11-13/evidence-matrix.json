@@ -1,0 +1,98 @@
+[
+  {
+    "id": "pmid:40762700",
+    "title": "Social context is a cue for tic reduction in clinical settings",
+    "doi": "10.1007/s00787-025-02818-2",
+    "published_online": "2025-08-05",
+    "issue": "2026-01",
+    "url": "https://link.springer.com/article/10.1007/s00787-025-02818-2",
+    "evidence_type": "peer_reviewed_primary",
+    "n": {
+      "participants": 39
+    },
+    "age_range": [
+      12,
+      21
+    ],
+    "cohort": "Minnesota CBIT+TMS",
+    "constructs": [
+      "context-specific video tic frequency",
+      "YGTSS total change"
+    ],
+    "estimates": {
+      "suppression_minus_YGTSS_interview_tics_per_minute": 4.09,
+      "ci95": [
+        -1.06,
+        9.24
+      ],
+      "p": 0.1
+    },
+    "location": "Methods; Results Aim 1; Abstract; Discussion limitations",
+    "result": "Adjusted suppression/interview contrast not significant, unlike broad abstract all-p<.001 language. Free-tic frequency exceeded interview frequency. Frequency change was not significantly associated with YGTSS change.",
+    "limitations": "Fixed task order; interviews could precede task by seven days; observed alone is still a clinic recording. No context-specific urge/perceived-burden measurement.",
+    "access": "Publisher full text inspected"
+  },
+  {
+    "id": "pmid:41180850",
+    "title": "Patient Perspectives on Tic-Related Impairment: A Qualitative Examination",
+    "doi": "10.1212/CPJ.0000000000200554",
+    "published_online": "2025-10-28",
+    "issue": "2025-12",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12573624/",
+    "evidence_type": "peer_reviewed_primary",
+    "n": {
+      "participants": 69,
+      "Minnesota_CBIT_TMS": 49,
+      "TeleCBIT": 20
+    },
+    "age_range": [
+      8,
+      57
+    ],
+    "cohort": "Minnesota CBIT+TMS and TeleCBIT",
+    "constructs": [
+      "participant-described hassles"
+    ],
+    "estimates": {},
+    "location": "PubMed abstract; indexed primary-source Methods sections 2.1.2 and 2.2",
+    "result": "Qualitative coding identifies six burden themes. Minnesota source trial also underlies Wellen; exact participant overlap unknown.",
+    "limitations": "Treatment-seeking sample; not interchangeable with clinician impairment. Full-text correlation was not verified and is deliberately omitted.",
+    "access": "PubMed abstract and indexed primary Methods verified; full PMC opens bot-blocked; publisher 403; EuropePMC unavailable"
+  },
+  {
+    "id": "pmid:42076920",
+    "title": "Clinical Predictors of Tic-Related Impairment in Children and Adults with Tourette Syndrome",
+    "doi": "10.1002/mds.70342",
+    "published_online": "2026-05-03",
+    "issue": "2026-08",
+    "url": "https://movementdisorders.onlinelibrary.wiley.com/doi/10.1002/mds.70342",
+    "evidence_type": "peer_reviewed_primary",
+    "n": {
+      "participants": 496,
+      "all_assessments": 848,
+      "longitudinal_participants": 229,
+      "longitudinal_visits": 566
+    },
+    "age_range": [
+      4,
+      72
+    ],
+    "cohort": "Calgary child/adult tic registries",
+    "constructs": [
+      "YGTSS dimensions",
+      "YGTSS impairment"
+    ],
+    "estimates": {
+      "motor_interference_spearman_rho": 0.5,
+      "time_only_beta": -0.23,
+      "time_only_SE": 0.04,
+      "time_only_reported_t": -53.87,
+      "tic_score_LME_beta": 0.71,
+      "tic_score_LME_SE": 0.05
+    },
+    "location": "Methods LME; Table 2; Results LME",
+    "result": "Positive severity/impairment association. Random-intercept model contains raw tic score and time; not a separately identified within-person coefficient.",
+    "limitations": "Single-center observational data; common instrument. Reported time-only beta/SE incompatible with reported t; do not silently repair.",
+    "access": "Publisher full text inspected"
+  }
+]

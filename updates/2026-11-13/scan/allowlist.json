@@ -1,0 +1,33 @@
+{
+  "files": [
+    {
+      "path": "scan.py",
+      "sha256": "a28c39b9d073b5224d6d01fae561a2a1f69ff1b4524d6b189b5117ca2047e3c6"
+    },
+    {
+      "path": "scan.json",
+      "sha256": "c29a9fab89af04ab37c2cf79823426ba8ab6d857dc6a81b3197361bfb740e666"
+    },
+    {
+      "path": "review.py",
+      "sha256": "9dffc10b795456383e405ad290bd012dec93625e13b3ec1424a85b4bf085133a"
+    },
+    {
+      "path": "review.json",
+      "sha256": "57503aca080da8e4f4738adb4b3684f6af24c1b4677b389cf3f1a07713951eb4"
+    },
+    {
+      "path": "report.md",
+      "sha256": "b1e4a47d3ce1f3dd41ce86e2c8c3122124f15de70adfe1a1c4ac95e8b757e1e8"
+    },
+    {
+      "path": "web-provenance.json",
+      "sha256": "7af6bc8f8bdba0760f8e6c97c45f7652ded5301c245ea82f3e958b888adb9c59"
+    },
+    {
+      "path": "evidence-candidate.jsonl",
+      "sha256": "ccc9b6e557a4d257764f4fbd7c37cf5231f73055a04b49be1484cc0f9ff1672e"
+    }
+  ],
+  "excluded": "Transient abstract log and all nonlisted files. No full texts retained."
+}
