@@ -1,0 +1,88 @@
+{
+  "checkedAt": "2026-11-14T02:49:12.861Z",
+  "researchCommit": "61a3de9271f25dcc0e6ae019a74f3dd5bbe1a75d",
+  "baseCommit": "0874be6e43d666a38330b0f5a7d5c58edb0b53af",
+  "connectorReadback": [
+    {
+      "path": "analyses/mats/2026-11-14/report.md",
+      "match": true,
+      "sha": "637ba742e19efd8e8790598b0909221341cc65d6"
+    },
+    {
+      "path": "analyses/mats/2026-11-14/fisher.mjs",
+      "match": true,
+      "sha": "c9d5d71f882c181a58c5bf8d9038e954bac905a3"
+    },
+    {
+      "path": "analyses/mats/2026-11-14/inputs.json",
+      "match": true,
+      "sha": "48b7708fe8dd04bdd5343ca1ed34ad24d94e9dd7"
+    },
+    {
+      "path": "analyses/mats/2026-11-14/output.json",
+      "match": true,
+      "sha": "6e786035f6d586325534691ac57763734e71a922"
+    },
+    {
+      "path": "analyses/mats/2026-11-14/plan.json",
+      "match": true,
+      "sha": "4326cd9824932d318c7a8a3fdeb6d2e332db17f2"
+    },
+    {
+      "path": "updates/2026-11-14/scan/report.md",
+      "match": true,
+      "sha": "911bf0bf5e219242963097f4e5c92ba74a9558a1"
+    },
+    {
+      "path": "updates/2026-11-14/report.md",
+      "match": true,
+      "sha": "a2deec0ed978b2850b819e7d33f99ea56acb46ab"
+    },
+    {
+      "path": "evidence.jsonl",
+      "match": true,
+      "sha": "e61004287985019097773557e24f5b2c925848e5"
+    },
+    {
+      "path": "STATUS.md",
+      "match": true,
+      "sha": "0093062fa595212fe50684e56fcaa4cd25f9bf14"
+    },
+    {
+      "path": "public/research-feed.json",
+      "match": true,
+      "sha": "14d3ca8a1998f5540c6dcd416fd48e7581f3a981"
+    },
+    {
+      "path": "public/link-checks/2026-11-14.json",
+      "match": true,
+      "sha": "51a3cba4a73b4e4a9245a88c52d7bc61acd7bc54"
+    }
+  ],
+  "changedPathsExactlyExpected": true,
+  "rawConnectorExact": true,
+  "anonymousImmutableRaw": "Web-reader content shows expected Nov14 dates/summary; no byte/header verification",
+  "anonymousMainRaw": "Web-reader cache still showed Nov13; not used as current state",
+  "workflow": {
+    "url": "https://github.com/dotjade/project-neurofreedom/actions/runs/43548076879",
+    "status": "completed",
+    "conclusion": "success",
+    "publicCheck": "curl --fail homepage and API succeeded 02:46:35-36 UTC; body discarded, no edition/header comparison"
+  },
+  "postCache": {
+    "checkedAt": "2026-11-14T02:48:46Z",
+    "url": "https://tourette.fyi/api/public-feed",
+    "status": "Unavailable via web reader after >120 seconds from workflow completion; live body and X-Journal-Source unverified; not evidence of outage"
+  },
+  "lastVerifiedProductionEdition": "2026-11-13T03:12:48Z",
+  "safety": {
+    "catalogUnchanged": true,
+    "feedbackDisabled": true,
+    "newPhysicalFoodActivity": false
+  },
+  "limits": [
+    "No executor, rendered review or standalone Node execution",
+    "Ten registry shells, zero substantive current registry records",
+    "No independently verified production edition for Nov14"
+  ]
+}
