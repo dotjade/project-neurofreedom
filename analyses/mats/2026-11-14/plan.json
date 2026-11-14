@@ -1,0 +1,7 @@
+{
+  "time": "2026-11-14T02:42:42.019Z",
+  "question": "Does the newly inspected adult MATS conference abstract supply direct calibration or a treatment/context-invariant external anchor, or a validated predictor of treatment benefit?",
+  "prediction": "No: cross-sectional internal consistency and correlations alone cannot establish calibration, invariance or treatment prediction.",
+  "disconfirming": "Reported direct calibration/invariance tests or prospectively held-out treatment prediction with uncertainty would challenge the prediction.",
+  "method": "Inspect official abstract, distinguish constructs and study design, compute approximate Fisher-z intervals for reported correlations conditional on complete n=51; no direct dependent-correlation comparison."
+}

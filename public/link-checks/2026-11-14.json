@@ -1,0 +1,36 @@
+{
+  "checkedAt": "2026-11-14T02:42:18Z",
+  "method": "Hosted web reader, bounded pass; no fresh HTTP/header or rendered check",
+  "findings": [
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10863457/",
+      "status": "Browser-check challenge through web reader; article content not verified in this pass"
+    },
+    {
+      "url": "https://www.neurology.org/doi/10.1212/01.WNL.0000086370.10186.7C",
+      "status": "Publisher HTTP 403; not established broken in this pass"
+    },
+    {
+      "url": "https://link.springer.com/content/pdf/10.1186/s44247-026-00284-7.pdf",
+      "status": "Primary PDF retrievable through web reader; DOI verified; cached retrieval"
+    }
+  ],
+  "reports": [
+    {
+      "url": "https://github.com/dotjade/project-neurofreedom/blob/main/updates/2026-11-13/report.md",
+      "status": "GitHub page resolved expected path"
+    },
+    {
+      "url": "https://github.com/dotjade/project-neurofreedom/blob/main/updates/2026-11-12/report.md",
+      "status": "GitHub page resolved expected path"
+    },
+    {
+      "url": "https://github.com/dotjade/project-neurofreedom/blob/main/updates/2026-11-11/report.md",
+      "status": "GitHub page resolved expected path"
+    }
+  ],
+  "homepage": "Web reader unavailable; not established outage",
+  "api": "Web reader unavailable; production edition not verified",
+  "catalog": "All six existing optional cards unchanged; no new physical or food activity; rest/skip preserved",
+  "collection": "Feed feedback disabled; source configuration disabled/null"
+}

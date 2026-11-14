@@ -1,6 +1,6 @@
 # Project NeuroFreedom status
 
-Updated 13 November 2026. Initial portfolio, thirty-six completed daily updates, five completed weekly syntheses and one monthly review. Public evidence repository and journal launched 13 October.
+Updated 14 November 2026. Initial portfolio, thirty-seven completed daily updates, five completed weekly syntheses and one monthly review. Public evidence repository and journal launched 13 October.
 
 ## Completed in this first pass
 
@@ -14,7 +14,7 @@ Updated 13 November 2026. Initial portfolio, thirty-six completed daily updates,
 
 ## Enabled research schedules
 
-The user approved the following automatic public-science research and repository updates on 8 October 2026. Each schedule was created successfully and returned enabled status. Daily runs were completed on 9-31 October and 1-13 November 2026; weekly syntheses were completed on 11, 18 and 25 October and 1 and 8 November; the first monthly review was completed on 1 November; the first quarterly run remains unverified.
+The user approved the following automatic public-science research and repository updates on 8 October 2026. Each schedule was created successfully and returned enabled status. Daily runs were completed on 9-31 October and 1-14 November 2026; weekly syntheses were completed on 11, 18 and 25 October and 1 and 8 November; the first monthly review was completed on 1 November; the first quarterly run remains unverified.
 
 - Daily new-evidence checks: from 9 October 2026, approximately 08:00 India time.
 - Weekly synthesis: Sundays, from 11 October 2026, approximately 09:00 India time.
@@ -913,3 +913,10 @@ Research commit [5b44cb54672c6bdb8966e8b84e71ba07698aa0ac](https://github.com/do
 [Actions run 43357751812](https://github.com/dotjade/project-neurofreedom/actions/runs/43357751812) succeeded for that exact commit, including syntax/build, dry-run, publication and public-route checks. After more than 120 seconds beyond workflow completion, production readback on November 13 at 03:18 UTC returned HTTP 200, repository source and exact feed bytes with updatedAt 2026-11-13T03:12:48Z. All three new report URLs returned HTTP 200 with expected paths. The [receipt](updates/2026-11-13/publication-verification.json) records actual times, hashes and checks. A separate rerun reproduced selected-field registry differences apart from the regenerated timestamp.
 
 The new ecopipam synthesis is secondary and abstract-only; Kuhn full-text access and bioRxiv pagination remain limited. No safety equivalence, calibrated substitution or individual biological inference is claimed. Six optional activities remain unchanged and collection remains off. No fresh rendered accessibility or clinical validation is claimed. This verification-only follow-up changes no feed, deployment input or scientific result; the research manifest covers the snapshot before this receipt and final status addition.
+
+
+## Completed daily research update - 14 November 2026
+
+The [daily report](updates/2026-11-14/report.md) records an access-limited scan, one official funding lead without outcomes, and a [new aggregate MATS audit](analyses/mats/2026-11-14/report.md). The preliminary adult conference abstract does not supply invariant calibration or validated treatment prediction. Approximate Fisher-z intervals were calculated with an explicitly assumed complete n; no dependent-correlation contrast or patient inference follows. The presentation was still upcoming at the early-UTC check.
+
+Ten registry pages returned shells rather than substantive records; no unchanged-status claim is made. Ecopipam review full text remains unavailable. The next useful input is a lawful methods/calibration publication, not another duplicate simulation. Six approved activities and disabled collection remain unchanged. Repository and live publication checks are recorded after save; web-reader failure is not proof of site outage.

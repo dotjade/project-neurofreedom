@@ -1,0 +1,18 @@
+{
+  "source_url": "https://abct2026.eventscribe.net/fsPopup.asp?PosterID=836632&mode=posterInfo",
+  "evidence_type": "conference_abstract",
+  "n_total_reported": 51,
+  "n_complete_pairs_assumed": 51,
+  "correlations": [
+    {
+      "label": "MATS/impairment",
+      "r": 0.4
+    },
+    {
+      "label": "MATS/tic severity",
+      "r": 0.12
+    }
+  ],
+  "rounding": "Reported two-decimal values; no raw data",
+  "seed": null
+}

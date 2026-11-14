@@ -1,0 +1,20 @@
+{
+  "method": "Fisher z approximate 95% CI",
+  "result": [
+    {
+      "label": "MATS/impairment",
+      "r": 0.4,
+      "n_assumed": 51,
+      "low": 0.139830308850114,
+      "high": 0.6085059496893279
+    },
+    {
+      "label": "MATS/tic severity",
+      "r": 0.12,
+      "n_assumed": 51,
+      "low": -0.1609047993218385,
+      "high": 0.38292047544387636
+    }
+  ],
+  "assertions_passed": 2
+}
