@@ -1,0 +1,15 @@
+{
+  "researchCommit": "a2f9e4c256af474d98df47930bba91ece97d58af",
+  "completeBaselineStatusRestoredAt": "2a018b459a60f5b639df0c04d0a0723ad214e134",
+  "repositoryDiff": "Five expected paths; all byte-for-byte verified; no unrelated final changes",
+  "rawGitHub": "Immutable feed matches exactly; anonymous main raw returned 2026-11-15T02:37:00Z",
+  "deploymentRun": "https://github.com/dotjade/project-neurofreedom/actions/runs/43668654209",
+  "deploymentStatus": "success",
+  "apiCheckAt": "2026-11-15T02:41:10Z",
+  "apiHttp": 200,
+  "apiJournalSource": "repository",
+  "apiObservedUpdatedAt": "2026-11-14T02:45:19Z",
+  "expectedUpdatedAt": "2026-11-15T02:37:00Z",
+  "liveNov15Verified": false,
+  "notes": "Standard route still served Nov14 after documented cache interval; not an outage. Nov14 bytes independently verified today. Activities unchanged, feedback remains off."
+}
