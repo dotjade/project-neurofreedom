@@ -1,0 +1,30 @@
+{
+  "3": {
+    "tests": 24,
+    "nominal": 3,
+    "min_p": 0.005,
+    "min_holm": 0.12,
+    "min_bh": 0.12
+  },
+  "4": {
+    "tests": 24,
+    "nominal": 3,
+    "min_p": 0.008,
+    "min_holm": 0.192,
+    "min_bh": 0.156
+  },
+  "5": {
+    "tests": 16,
+    "nominal": 5,
+    "min_p": 0.009,
+    "min_holm": 0.144,
+    "min_bh": 0.1
+  },
+  "all": {
+    "tests": 64,
+    "nominal": 11,
+    "min_p": 0.005,
+    "min_holm": 0.32,
+    "min_bh": 0.1813
+  }
+}
