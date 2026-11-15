@@ -11,5 +11,16 @@
   "apiObservedUpdatedAt": "2026-11-14T02:45:19Z",
   "expectedUpdatedAt": "2026-11-15T02:37:00Z",
   "liveNov15Verified": false,
-  "notes": "Standard route still served Nov14 after documented cache interval; not an outage. Nov14 bytes independently verified today. Activities unchanged, feedback remains off."
+  "notes": "Standard route still served Nov14 after documented cache interval; not an outage. Nov14 bytes independently verified today. Activities unchanged, feedback remains off.",
+  "finalVerification": {
+    "checkedAt": "2026-11-15T02:52:39.307Z",
+    "method": "Independent cloud browser readback; exact rendered JSON text and parsed object equality",
+    "sourceCommit": "a2f9e4c256af474d98df47930bba91ece97d58af",
+    "updatedAt": "2026-11-15T02:37:00Z",
+    "lastResearchDate": "2026-11-15",
+    "activityEditionDate": "2026-11-15",
+    "featuredActivityId": "rest-or-leave",
+    "feedbackEnabled": false,
+    "liveNov15Verified": true
+  }
 }
