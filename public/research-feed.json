@@ -1,10 +1,17 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-15T02:37:00Z",
-  "lastResearchDate": "2026-11-15",
+  "updatedAt": "2026-11-16T02:46:12Z",
+  "lastResearchDate": "2026-11-16",
   "cadence": "Daily scheduled review; publication follows verified work.",
-  "latestSummary": "A closer look at an existing follow-up found that childhood test results are not ready to predict adult outcomes. The limited scan did not verify a new primary finding.",
+  "latestSummary": "Three older studies clarified why pain, sleep and participation need separate measures. None established that the scores can be compared across ages and tic severity. No new primary result was verified in the limited scan.",
   "timeline": [
+    {
+      "date": "2026-11-16",
+      "title": "Daily-life measures need their own checks.",
+      "type": "Published measurement audit and limited scan",
+      "summary": "Three older studies clarified why pain, sleep and participation need separate measures. None established that the scores can be compared across ages and tic severity. No new primary result was verified in the limited scan.",
+      "record": "https://github.com/dotjade/project-neurofreedom/blob/main/updates/2026-11-16/report.md"
+    },
     {
       "date": "2026-11-15",
       "title": "Tic scores and day-to-day impact need separate checks.",
@@ -181,8 +188,8 @@
       "type": "Primary qualitative study",
       "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10863457/",
       "label": "Isaacs and colleagues, 2024",
-      "checkedAt": "2026-11-15",
-      "linkState": "PMC browser check; PubMed abstract available"
+      "checkedAt": "2026-11-16",
+      "linkState": "PMC HTTP 203 access-limited; PubMed abstract previously verified"
     },
     {
       "title": "Persistence deserves its own attention.",
@@ -190,8 +197,8 @@
       "type": "Primary longitudinal study",
       "url": "https://www.neurology.org/doi/10.1212/01.WNL.0000086370.10186.7C",
       "label": "Pappert and colleagues, 2003",
-      "checkedAt": "2026-11-15",
-      "linkState": "Publisher HTTP 403; PubMed abstract available"
+      "checkedAt": "2026-11-16",
+      "linkState": "Publisher HTTP 403; PubMed abstract previously verified"
     },
     {
       "title": "Shared improvement is not interchangeability.",
@@ -199,8 +206,8 @@
       "type": "Primary adult cohort study",
       "url": "https://link.springer.com/content/pdf/10.1186/s44247-026-00284-7.pdf",
       "label": "Ivanova and colleagues, 2026",
-      "checkedAt": "2026-11-15",
-      "linkState": "Primary PDF retrieved through web reader; DOI verified"
+      "checkedAt": "2026-11-16",
+      "linkState": "Direct PDF not retrieved in this pass; not confirmed broken"
     }
   ],
   "activities": [
@@ -266,6 +273,6 @@
     "trend": [],
     "message": "No public ratings are collected yet. There are no votes or trends to show."
   },
-  "activityEditionDate": "2026-11-15",
-  "featuredActivityId": "rest-or-leave"
+  "activityEditionDate": "2026-11-16",
+  "featuredActivityId": "notice-one-thing"
 }
