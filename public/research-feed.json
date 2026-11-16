@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-16T02:46:12Z",
+  "updatedAt": "2026-11-16T02:47:15Z",
   "lastResearchDate": "2026-11-16",
   "cadence": "Daily scheduled review; publication follows verified work.",
   "latestSummary": "Three older studies clarified why pain, sleep and participation need separate measures. None established that the scores can be compared across ages and tic severity. No new primary result was verified in the limited scan.",
@@ -172,13 +172,6 @@
       "type": "Primary-study scan and age/measurement audit",
       "summary": "An older paper was newly found in the scan. Separately, an autism/tic audit shows that age adjustment does not supply adult-specific results, and a reporting explanation remains untested.",
       "record": "https://github.com/dotjade/project-neurofreedom/blob/main/analyses/asd_measurement/2026-10-25/report.md"
-    },
-    {
-      "date": "2026-10-24",
-      "title": "Check who a result can speak for.",
-      "type": "Primary-study scan and aggregate methods audit",
-      "summary": "An older video study adds a measurement limitation, not treatment proof. An adult survey also leaves model counts and timing uncertain; it cannot yet predict an individual’s course.",
-      "record": "https://github.com/dotjade/project-neurofreedom/blob/main/analyses/adult_risk/2026-10-24/report.md"
     }
   ],
   "findings": [
