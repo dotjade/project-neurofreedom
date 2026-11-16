@@ -1,0 +1,11 @@
+{
+  "checkedUtc": "2026-11-16T02:49:44Z",
+  "feedCommit": "f42a713c2485be2b771e9221f3d5524f77cf3f58",
+  "reportCommit": "365cf1435a193206deb840084f9b0c25a0157d08",
+  "githubExactReadback": true,
+  "liveExactObservedUtc": "2026-11-16T02:48:06Z",
+  "liveBodySha256": "b8da31e5bb682b316da02b18b9bee9f2a31ccde2e0d0f6ca16a66dfbd26d0a4a",
+  "liveSourceHeader": "saved",
+  "repositoryHeaderVerified": false,
+  "note": "Initial 25-row timeline not accepted; final corrected feed has 24 rows. The current edition was verified on the production endpoint via the saved source, but a live fetch from the repository source was not observed after the documented cache window."
+}
