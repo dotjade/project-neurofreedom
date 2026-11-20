@@ -1,10 +1,17 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-19T02:44:34Z",
-  "lastResearchDate": "2026-11-19",
+  "updatedAt": "2026-11-20T03:08:10Z",
+  "lastResearchDate": "2026-11-20",
   "cadence": "Daily scheduled review; publication follows verified work.",
-  "latestSummary": "A Swedish registry study records long-term neck disorders, while a questionnaire measures recent self-reported burden. Neither estimates near-term injury for adults excluded from an online tic therapy study because they needed urgent care. The limited scan found no qualifying new result.",
+  "latestSummary": "A past clinic study counted emergency visits and hospital stays, while a separate interview counted recently reported behaviors, including some without visible injury. Neither predicts near-term injury. The limited scan found no qualifying new result.",
   "timeline": [
+    {
+      "date": "2026-11-20",
+      "title": "Injury and urgent care are different measures.",
+      "type": "Historical measurement comparison and limited scan",
+      "summary": "A past clinic study counted emergency visits and hospital stays, while a separate interview counted recently reported behaviors, including some without visible injury. Neither predicts near-term injury. The limited scan found no qualifying new result.",
+      "record": "https://github.com/dotjade/project-neurofreedom/blob/main/updates/2026-11-20/report.md"
+    },
     {
       "date": "2026-11-19",
       "title": "Three different questions about tic-related harm",
@@ -165,13 +172,6 @@
       "type": "Causal synthesis and synthetic methods test",
       "summary": "We compared timing and control hypotheses with contradictory studies. Synthetic examples show why symptom control alone cannot identify a unique cause. This is a research synthesis, not a new treatment discovery.",
       "record": "https://github.com/dotjade/project-neurofreedom/blob/main/analyses/causal_synthesis/2026-10-28/report.md"
-    },
-    {
-      "date": "2026-10-28",
-      "title": "Matching categories is not matching scores.",
-      "type": "Historical methods audit, evidence and safety scan",
-      "summary": "A ratings audit distinguishes repeated assessments from people and classification from score agreement. Older care-access and animal studies, a no-results registry and a notice about known scan interference are not new tic-treatment results.",
-      "record": "https://github.com/dotjade/project-neurofreedom/blob/main/analyses/informant_agreement/2026-10-28/report.md"
     }
   ],
   "findings": [
@@ -266,6 +266,6 @@
     "trend": [],
     "message": "No public ratings are collected yet. There are no votes or trends to show."
   },
-  "activityEditionDate": "2026-11-19",
-  "featuredActivityId": "rest-or-leave"
+  "activityEditionDate": "2026-11-20",
+  "featuredActivityId": "notice-one-thing"
 }
