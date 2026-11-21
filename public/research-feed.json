@@ -1,10 +1,17 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-20T03:08:10Z",
-  "lastResearchDate": "2026-11-20",
+  "updatedAt": "2026-11-21T02:38:22Z",
+  "lastResearchDate": "2026-11-21",
   "cadence": "Daily scheduled review; publication follows verified work.",
-  "latestSummary": "A past clinic study counted emergency visits and hospital stays, while a separate interview counted recently reported behaviors, including some without visible injury. Neither predicts near-term injury. The limited scan found no qualifying new result.",
+  "latestSummary": "A new study asked 19 occupational therapists which daily activities matter when assessing children with tic disorders. Their ratings help identify relevant questions, but do not show whether children’s scores can reliably detect change. No newer trial result or safety warning was verified in the limited scan.",
   "timeline": [
+    {
+      "date": "2026-11-21",
+      "title": "Which daily activities should a tic assessment ask about?",
+      "type": "New pediatric assessment study and limited scan",
+      "summary": "A new study asked 19 occupational therapists which daily activities matter when assessing children with tic disorders. Their ratings help identify relevant questions, but do not show whether children’s scores can reliably detect change. No newer trial result or safety warning was verified in the limited scan.",
+      "record": "https://github.com/dotjade/project-neurofreedom/blob/main/updates/2026-11-21/report.md"
+    },
     {
       "date": "2026-11-20",
       "title": "Injury and urgent care are different measures.",
@@ -165,13 +172,6 @@
       "type": "Adult behavioral evidence and aggregate genetic audit",
       "summary": "An October 28 adult study reports altered sensory attenuation and a severity association, with a null comparison retained. A separate audit maps all 36 genes across analyses without treating them as proven treatment targets.",
       "record": "https://github.com/dotjade/project-neurofreedom/blob/main/updates/2026-10-29/report.md"
-    },
-    {
-      "date": "2026-10-28",
-      "title": "A control point is not always the original cause.",
-      "type": "Causal synthesis and synthetic methods test",
-      "summary": "We compared timing and control hypotheses with contradictory studies. Synthetic examples show why symptom control alone cannot identify a unique cause. This is a research synthesis, not a new treatment discovery.",
-      "record": "https://github.com/dotjade/project-neurofreedom/blob/main/analyses/causal_synthesis/2026-10-28/report.md"
     }
   ],
   "findings": [
@@ -266,6 +266,6 @@
     "trend": [],
     "message": "No public ratings are collected yet. There are no votes or trends to show."
   },
-  "activityEditionDate": "2026-11-20",
-  "featuredActivityId": "notice-one-thing"
+  "activityEditionDate": "2026-11-21",
+  "featuredActivityId": "music-or-silence"
 }
