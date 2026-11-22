@@ -1,10 +1,17 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-21T02:38:22Z",
-  "lastResearchDate": "2026-11-21",
+  "updatedAt": "2026-11-22T02:55:26Z",
+  "lastResearchDate": "2026-11-22",
   "cadence": "Daily scheduled review; publication follows verified work.",
-  "latestSummary": "A new study asked 19 occupational therapists which daily activities matter when assessing children with tic disorders. Their ratings help identify relevant questions, but do not show whether children’s scores can reliably detect change. No newer trial result or safety warning was verified in the limited scan.",
+  "latestSummary": "Two older registry studies tracked serious transport injuries or deaths and traumatic brain injuries. Neither measured whether a tic caused the injury or estimated short-term risk in adults with severe active tics. The limited scan found no qualifying new result.",
   "timeline": [
+    {
+      "date": "2026-11-22",
+      "title": "What can injury registries tell us?",
+      "type": "Historical registry comparison and limited scan",
+      "summary": "Two older registry studies tracked serious transport injuries or deaths and traumatic brain injuries. Neither measured whether a tic caused the injury or estimated short-term risk in adults with severe active tics. The limited scan found no qualifying new result.",
+      "record": "https://github.com/dotjade/project-neurofreedom/blob/main/updates/2026-11-22/report.md"
+    },
     {
       "date": "2026-11-21",
       "title": "Which daily activities should a tic assessment ask about?",
@@ -165,13 +172,6 @@
       "type": "Evidence scan and synthetic contrast audit",
       "summary": "An older pediatric association is not treatment proof. Adult sensory methods remain access-limited; a clearly synthetic calculation shows why separate condition tests cannot supply the missing contrast.",
       "record": "https://github.com/dotjade/project-neurofreedom/blob/main/updates/2026-10-30/report.md"
-    },
-    {
-      "date": "2026-10-29",
-      "title": "An association is a clue, not a cause.",
-      "type": "Adult behavioral evidence and aggregate genetic audit",
-      "summary": "An October 28 adult study reports altered sensory attenuation and a severity association, with a null comparison retained. A separate audit maps all 36 genes across analyses without treating them as proven treatment targets.",
-      "record": "https://github.com/dotjade/project-neurofreedom/blob/main/updates/2026-10-29/report.md"
     }
   ],
   "findings": [
@@ -266,6 +266,6 @@
     "trend": [],
     "message": "No public ratings are collected yet. There are no votes or trends to show."
   },
-  "activityEditionDate": "2026-11-21",
-  "featuredActivityId": "music-or-silence"
+  "activityEditionDate": "2026-11-22",
+  "featuredActivityId": "notice-one-thing"
 }
