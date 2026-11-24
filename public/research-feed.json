@@ -1,10 +1,17 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-23T03:09:34Z",
-  "lastResearchDate": "2026-11-23",
+  "updatedAt": "2026-11-24T02:57:57Z",
+  "lastResearchDate": "2026-11-24",
   "cadence": "Daily scheduled review; publication follows verified work.",
-  "latestSummary": "One newly indexed study compared blood markers in children with tic disorders and healthy controls. Its accuracy looked high in that small sample, but one reported rate does not match the stated control count. This is not a validated diagnostic test.",
+  "latestSummary": "A clinic study and an Australian survey counted different kinds of tic-related harm. Neither can tell us the short-term injury risk for adults with severe active tics. Three existing study records were updated, with no results posted.",
   "timeline": [
+    {
+      "date": "2026-11-24",
+      "title": "What counts as a tic-related injury?",
+      "type": "Historical study and survey comparison",
+      "summary": "A clinic study and an Australian survey counted different kinds of tic-related harm. Neither can tell us the short-term injury risk for adults with severe active tics. Three existing study records were updated, with no results posted.",
+      "record": "https://github.com/dotjade/project-neurofreedom/blob/main/updates/2026-11-24/report.md"
+    },
     {
       "date": "2026-11-23",
       "title": "Check the counts behind a blood test",
@@ -165,13 +172,6 @@
       "type": "Published-aggregate methods audit and regulatory notice",
       "summary": "Published force-matching averages change with the measurement window; high split-half consistency is not retest evidence. The scan found no new clinical result. A quality recall applies to one product batch.",
       "record": "https://github.com/dotjade/project-neurofreedom/blob/main/updates/2026-11-01/report.md"
-    },
-    {
-      "date": "2026-10-31",
-      "title": "A measurement needs its assumptions.",
-      "type": "Primary-model audit and synthetic identification check",
-      "summary": "A primary model and a synthetic example show why force matching needs a shared baseline before it can identify a mechanism. Older mixed-diagnosis evidence, a no-results protocol and an adjacent safety review remain distinct.",
-      "record": "https://github.com/dotjade/project-neurofreedom/blob/main/updates/2026-10-31/report.md"
     }
   ],
   "findings": [
@@ -266,6 +266,6 @@
     "trend": [],
     "message": "No public ratings are collected yet. There are no votes or trends to show."
   },
-  "activityEditionDate": "2026-11-23",
-  "featuredActivityId": "music-or-silence"
+  "activityEditionDate": "2026-11-24",
+  "featuredActivityId": "small-silly-mark"
 }
