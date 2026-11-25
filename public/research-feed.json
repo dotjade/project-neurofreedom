@@ -1,10 +1,17 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-24T02:57:57Z",
-  "lastResearchDate": "2026-11-24",
+  "updatedAt": "2026-11-25T02:48:30Z",
+  "lastResearchDate": "2026-11-25",
   "cadence": "Daily scheduled review; publication follows verified work.",
-  "latestSummary": "A clinic study and an Australian survey counted different kinds of tic-related harm. Neither can tell us the short-term injury risk for adults with severe active tics. Three existing study records were updated, with no results posted.",
+  "latestSummary": "Taking part and feeling present are not the same. We compared two older interview studies and found that published totals cannot show exactly who experienced both. Two newly indexed reviews and two trial updates provided no new primary results.",
   "timeline": [
+    {
+      "date": "2026-11-25",
+      "title": "Taking part and feeling present",
+      "type": "Historical interview comparison and aggregate analysis",
+      "summary": "Taking part and feeling present are not the same. We compared two older interview studies and found that published totals cannot show exactly who experienced both. Two newly indexed reviews and two trial updates provided no new primary results.",
+      "record": "https://github.com/dotjade/project-neurofreedom/blob/main/updates/2026-11-25/report.md"
+    },
     {
       "date": "2026-11-24",
       "title": "What counts as a tic-related injury?",
@@ -165,13 +172,6 @@
       "type": "Historical trial documentation audit and evidence scan",
       "summary": "An adult trial planned direct function measures. A mislabeled attachment could not resolve missingness questions; no clinical effect was invented. The bounded scan verified no qualifying new evidence.",
       "record": "https://github.com/dotjade/project-neurofreedom/blob/main/updates/2026-11-02/report.md"
-    },
-    {
-      "date": "2026-11-01",
-      "title": "Consistency is not the same as stability.",
-      "type": "Published-aggregate methods audit and regulatory notice",
-      "summary": "Published force-matching averages change with the measurement window; high split-half consistency is not retest evidence. The scan found no new clinical result. A quality recall applies to one product batch.",
-      "record": "https://github.com/dotjade/project-neurofreedom/blob/main/updates/2026-11-01/report.md"
     }
   ],
   "findings": [
@@ -181,8 +181,8 @@
       "type": "Primary qualitative study",
       "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10863457/",
       "label": "Isaacs and colleagues, 2024",
-      "checkedAt": "2026-11-23",
-      "linkState": "PMC full text accessible"
+      "checkedAt": "2026-11-25",
+      "linkState": "PMC full text accessible through indexed retrieval; direct request returned HTTP 203"
     },
     {
       "title": "Persistence deserves its own attention.",
@@ -190,7 +190,7 @@
       "type": "Primary longitudinal study",
       "url": "https://www.neurology.org/doi/10.1212/01.WNL.0000086370.10186.7C",
       "label": "Pappert and colleagues, 2003",
-      "checkedAt": "2026-11-23",
+      "checkedAt": "2026-11-25",
       "linkState": "Publisher HTTP 403; matching PubMed record verified via NCBI XML"
     },
     {
@@ -199,7 +199,7 @@
       "type": "Primary adult cohort study",
       "url": "https://link.springer.com/article/10.1186/s44247-026-00284-7",
       "label": "Ivanova and colleagues, 2026",
-      "checkedAt": "2026-11-23",
+      "checkedAt": "2026-11-25",
       "linkState": "Canonical publisher full text accessible"
     }
   ],
@@ -266,6 +266,6 @@
     "trend": [],
     "message": "No public ratings are collected yet. There are no votes or trends to show."
   },
-  "activityEditionDate": "2026-11-24",
-  "featuredActivityId": "small-silly-mark"
+  "activityEditionDate": "2026-11-25",
+  "featuredActivityId": "music-or-silence"
 }
