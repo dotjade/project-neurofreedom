@@ -1,10 +1,17 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-26T03:26:17Z",
-  "lastResearchDate": "2026-11-26",
+  "updatedAt": "2026-11-27T02:54:15Z",
+  "lastResearchDate": "2026-11-27",
   "cadence": "Daily scheduled review; publication follows verified work.",
-  "latestSummary": "Work status can miss opportunities someone chose not to pursue. Two older surveys asked different questions, so their percentages cannot be combined. The new scan found a preclinical study and a stimulation letter whose results we could not verify.",
+  "latestSummary": "Two reports on tic measurement and stimulation settings draw on existing trials, not new groups. A newly indexed study found exploratory similarities in blood samples from separate tic and allergy groups, but no shared genes passed its adjusted cutoff.",
   "timeline": [
+    {
+      "date": "2026-11-27",
+      "title": "Counting people, not reports",
+      "type": "Cohort accounting and evidence scan",
+      "summary": "Two reports on tic measurement and stimulation settings draw on existing trials, not new groups. A newly indexed study found exploratory similarities in blood samples from separate tic and allergy groups, but no shared genes passed its adjusted cutoff.",
+      "record": "https://github.com/dotjade/project-neurofreedom/blob/main/updates/2026-11-27/report.md"
+    },
     {
       "date": "2026-11-26",
       "title": "Opportunities people do not pursue",
@@ -165,13 +172,6 @@
       "type": "Historical group-artifact audit and evidence scan",
       "summary": "Three public group maps passed hash and grid checks. Missing inputs limit replication; no treatment target was validated. The scan found no qualifying new clinical evidence; one registry date changed.",
       "record": "https://github.com/dotjade/project-neurofreedom/blob/main/updates/2026-11-04/report.md"
-    },
-    {
-      "date": "2026-11-03",
-      "title": "Check what a driving test can show.",
-      "type": "Historical aggregate audit and evidence scan",
-      "summary": "An adult trial showed a favorable computerized-driving signal. The test hierarchy and unclear denominators limit broad safety claims. The scan found no qualifying new clinical evidence; one registry date changed.",
-      "record": "https://github.com/dotjade/project-neurofreedom/blob/main/updates/2026-11-03/report.md"
     }
   ],
   "findings": [
@@ -181,8 +181,8 @@
       "type": "Primary qualitative study",
       "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10863457/",
       "label": "Isaacs and colleagues, 2024",
-      "checkedAt": "2026-11-26",
-      "linkState": "PMC full text accessible through indexed retrieval"
+      "checkedAt": "2026-11-27",
+      "linkState": "Direct PMC retrieval limited by browser check; full text indexed"
     },
     {
       "title": "Persistence deserves its own attention.",
@@ -190,8 +190,8 @@
       "type": "Primary longitudinal study",
       "url": "https://www.neurology.org/doi/10.1212/01.WNL.0000086370.10186.7C",
       "label": "Pappert and colleagues, 2003",
-      "checkedAt": "2026-11-26",
-      "linkState": "Publisher HTTP 403; matching PubMed abstract verified"
+      "checkedAt": "2026-11-27",
+      "linkState": "Publisher retrieval limited; PubMed primary abstract available"
     },
     {
       "title": "Shared improvement is not interchangeability.",
@@ -199,8 +199,8 @@
       "type": "Primary adult cohort study",
       "url": "https://link.springer.com/article/10.1186/s44247-026-00284-7",
       "label": "Ivanova and colleagues, 2026",
-      "checkedAt": "2026-11-26",
-      "linkState": "Canonical publisher full text accessible"
+      "checkedAt": "2026-11-27",
+      "linkState": "Publisher full text reachable"
     }
   ],
   "activities": [
@@ -266,6 +266,6 @@
     "trend": [],
     "message": "No public ratings are collected yet. There are no votes or trends to show."
   },
-  "activityEditionDate": "2026-11-26",
-  "featuredActivityId": "small-silly-mark"
+  "activityEditionDate": "2026-11-27",
+  "featuredActivityId": "rest-or-leave"
 }
