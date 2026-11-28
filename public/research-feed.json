@@ -1,10 +1,17 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-27T02:54:15Z",
-  "lastResearchDate": "2026-11-27",
+  "updatedAt": "2026-11-28T03:03:29Z",
+  "lastResearchDate": "2026-11-28",
   "cadence": "Daily scheduled review; publication follows verified work.",
-  "latestSummary": "Two reports on tic measurement and stimulation settings draw on existing trials, not new groups. A newly indexed study found exploratory similarities in blood samples from separate tic and allergy groups, but no shared genes passed its adjusted cutoff.",
+  "latestSummary": "A small brain stimulation report and a likely matching trial record give the same headline count, but the trial record’s score labels and values conflict. A pediatric study correction clarifies that its findings show associations, not predictions.",
   "timeline": [
+    {
+      "date": "2026-11-28",
+      "title": "When the same count can mean different things",
+      "type": "Registry score audit and evidence scan",
+      "summary": "A small brain stimulation report and a likely matching trial record give the same headline count, but the trial record’s score labels and values conflict. A pediatric study correction clarifies that its findings show associations, not predictions.",
+      "record": "https://github.com/dotjade/project-neurofreedom/blob/main/updates/2026-11-28/report.md"
+    },
     {
       "date": "2026-11-27",
       "title": "Counting people, not reports",
@@ -165,13 +172,6 @@
       "type": "Historical provenance audit, synthetic methods and evidence scan",
       "summary": "Exact study masks remain unverified. In a synthetic example, adding empty background changes a map score without changing overlap. No clinical result or treatment target follows; the scan found no qualifying new clinical evidence.",
       "record": "https://github.com/dotjade/project-neurofreedom/blob/main/updates/2026-11-05/report.md"
-    },
-    {
-      "date": "2026-11-04",
-      "title": "Check whether a map can be tested.",
-      "type": "Historical group-artifact audit and evidence scan",
-      "summary": "Three public group maps passed hash and grid checks. Missing inputs limit replication; no treatment target was validated. The scan found no qualifying new clinical evidence; one registry date changed.",
-      "record": "https://github.com/dotjade/project-neurofreedom/blob/main/updates/2026-11-04/report.md"
     }
   ],
   "findings": [
@@ -181,7 +181,7 @@
       "type": "Primary qualitative study",
       "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10863457/",
       "label": "Isaacs and colleagues, 2024",
-      "checkedAt": "2026-11-27",
+      "checkedAt": "2026-11-28",
       "linkState": "Direct PMC retrieval limited by browser check; full text indexed"
     },
     {
@@ -190,7 +190,7 @@
       "type": "Primary longitudinal study",
       "url": "https://www.neurology.org/doi/10.1212/01.WNL.0000086370.10186.7C",
       "label": "Pappert and colleagues, 2003",
-      "checkedAt": "2026-11-27",
+      "checkedAt": "2026-11-28",
       "linkState": "Publisher retrieval limited; PubMed primary abstract available"
     },
     {
@@ -199,7 +199,7 @@
       "type": "Primary adult cohort study",
       "url": "https://link.springer.com/article/10.1186/s44247-026-00284-7",
       "label": "Ivanova and colleagues, 2026",
-      "checkedAt": "2026-11-27",
+      "checkedAt": "2026-11-28",
       "linkState": "Publisher full text reachable"
     }
   ],
@@ -266,6 +266,6 @@
     "trend": [],
     "message": "No public ratings are collected yet. There are no votes or trends to show."
   },
-  "activityEditionDate": "2026-11-27",
-  "featuredActivityId": "rest-or-leave"
+  "activityEditionDate": "2026-11-28",
+  "featuredActivityId": "music-or-silence"
 }
